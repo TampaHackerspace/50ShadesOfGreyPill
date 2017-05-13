@@ -1,0 +1,61 @@
+---
+title: "Mastodon post analysis"
+output: html_notebook
+---
+
+
+```{r}
+library(jsonlite)
+library(dplyr)
+library(tidytext)
+library(ggplot2)
+library(readr)
+library(stringr)
+
+
+my_stop_words <- data_frame(word = c("url", "http", "https", "score", "meme", "memes",
+                                     "description", "uploads",
+                                     "jpg", "media", "image", "images"))
+
+```
+
+```{r}
+path <- '../../DataSources/raw/mastodon/SAMPLE.json'
+
+mtext <- read_file(path)
+mtext <- str_replace_all(mtext, "[\r\n]"," ")
+
+
+```
+
+
+```{r}
+data(stop_words)
+df = data_frame(line = 1:1, text = imgtext)
+df <- df %>% unnest_tokens(word, text)
+df <- df %>% anti_join(stop_words)
+df <- df %>% anti_join(my_stop_words)
+
+```
+
+```{r}
+library(tidyr)
+bing <- get_sentiments("bing")
+
+bing_word_counts <- df %>%
+  inner_join(bing) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  ungroup()
+
+```
+
+```{r}
+bing_word_counts %>%
+  mutate(n = ifelse(sentiment == "negative", -n, n)) %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(word, n, fill = sentiment)) +
+  geom_bar(stat = "identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ylab("Contribution to sentiment")
+```
+
