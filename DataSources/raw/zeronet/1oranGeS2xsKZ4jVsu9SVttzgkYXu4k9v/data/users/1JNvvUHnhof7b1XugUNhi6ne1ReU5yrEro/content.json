@@ -1,0 +1,32 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HC47VrSql8/yf7ZfY1kwXNwCZ42PdfO7j/r/Kjk5g06dTPhtC6s86y9xwnzb3Z1HxDkX79juORfwhJdhQBjS+cE=",
+ "cert_user_id": "banshouren@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "6bc5dc686c8e1707fe69209b557201cd0f31d2a2c6ad7d3dc27f4b58884309b3",
+   "size": 3292
+  }
+ },
+ "files_optional": {
+  "1480301586.jpg": {
+   "sha512": "b85053463cb221b35c504da35cdaec96531501a70e8b1ab629089ead791d804e",
+   "size": 73628
+  },
+  "1480667274.jpg": {
+   "sha512": "349b7b3205bc92c1efd56e4b4ed131fb9aa91118b2630822cc9d706d64848233",
+   "size": 36918
+  },
+  "1480904100.jpg": {
+   "sha512": "aa2c02f6e8e191851b550d9015874c5ba2f21e7ea5997936e42bb850a168c5c4",
+   "size": 86215
+  }
+ },
+ "inner_path": "data/users/1JNvvUHnhof7b1XugUNhi6ne1ReU5yrEro/content.json",
+ "modified": 1481786755.007367,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1JNvvUHnhof7b1XugUNhi6ne1ReU5yrEro": "HB0hmW2vDY8PCqeo2TWs5Nds1C06UWvPWvM+R85lBU8USLrgeFIFi9y5xXPYqdO0MCROs6+We4EpCHtMhidE7lc="
+ }
+}

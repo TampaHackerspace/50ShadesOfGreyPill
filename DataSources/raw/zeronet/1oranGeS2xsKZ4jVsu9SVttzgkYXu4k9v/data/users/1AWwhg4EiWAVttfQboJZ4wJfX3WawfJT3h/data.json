@@ -1,0 +1,522 @@
+{
+	"next_post_id": 44,
+	"next_comment_id": 14,
+	"next_follow_id": 34,
+	"avatar": "generate",
+	"user_name": "Binchan",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "A post-life-sciences student, learning German and various things about Internet and others. In future like to focus on research esp. Artificial Life.\n[Messy Notes about using ZeroNet and other things](/1EiMAqhd6sMjPG2tznkkGXxhdwFBDdeqT9)\n[A Dark Theme for ZeroNet](/Talk.ZeroNetwork.bit/?Topic:1_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h/A+ZeroNet+Dark+Theme)\n[ZeroMe Feedbot Script](/Talk.ZeroNetwork.bit/?Topic:3_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h/ZeroMe+Feed+Bot)",
+	"post": [
+		{
+			"post_id": 1483544761,
+			"body": "A dark theme for ZeroNet, should works on all official zites and their clones. Some unofficial zites are also supported, like NullPaste, ZeroWiki, Kaffiene Search. Nevertheless, some other zites may have side effects - that some bright elements are still not changed. You can ask me to modify them, or try it yourself.\n\nCode theme is Vim Desert.\n\nWish you enjoy it :-) \n\nGet it From:\n[userstyles.org](https://userstyles.org/styles/136470/zeronet-dark-theme)\n[my NullPaste bin](/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?user_binchan2@zeroid.bit)\n\n[Discussion Thread on ZeroTalk](/Talk.ZeroNetwork.bit/?Topic:1_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h/A+ZeroNet+Dark+Theme)\n",
+			"date_added": 1483544759,
+			"meta": "{\"img\":\"900,482,222333888999eeefff444,01000000000023332000004455400000444540000066666000\"}"
+		},
+		{
+			"post_id": 1483680768,
+			"body": "Add hotkey for toggling window \"Always on top\" (Immer oberhalb):\ninstall `wmctrl` and then add a hotkey for `wmctrl -r :ACTIVE: -b toggle,above`. [source](https://forum.xfce.org/viewtopic.php?id=8231)",
+			"date_added": 1483680765
+		},
+		{
+			"post_id": 1483682081,
+			"body": "Control initial location of terminal, example for xfce4 terminal:\ntop-right corner: `xfce4-terminal --geometry=-0+0`\nbottom-right corner: `xfce4-terminal --geometry=-0-0`\n\nAlso just discover that view changing of xfce4 terminal is very flexible. Hide window decoration, menu and even scroll bar, add slight transparency and it looks very fancy X)\n",
+			"date_added": 1483682077,
+			"meta": "{\"img\":\"900,506,000001112221111011,000100023400001002410000221415000042145400000014110000001411\"}"
+		},
+		{
+			"post_id": 1483712372,
+			"body": "[DemoHouse](https://github.com/opt-luo/DemoHouse): collection of JavaScript、CSS3、Canvas、SVG and Web Animation demos. Demos are all independent and guess they should be able to directly use for building ZeroNet site.\nWeirdly the origin project (quite famous) has been deleted from github, so the link above is a fork. Licence is MIT.",
+			"date_added": 1483712367
+		},
+		{
+			"post_id": 1485868352,
+			"body": "Userscript to filter 'Hello ZeroMe!' posts on ZeroMe\n\n```\n// ==UserScript==\n// @name        ZeroMe filter2\n// @namespace   No namespace\n// @include     http://127.0.0.1:43110/Me.ZeroNetwork.bit/*\n// @version     1\n// @grant       none\n// ==/UserScript==\n\nwindow.addEventListener('scroll', function () {\n  var posts = document.getElementsByClassName('post');\n  for (var n = posts.length; n-- > 0;) {\n    var thetext = posts[n].children[1].textContent\n    if (thetext == 'Hello ZeroMe!\\n' || thetext == '你好 ZeroMe!\\n') {\n      posts[n].style = 'display:none';\n    }\n  }\n}, false);\n```\n\nUse Greasemonkey or other script injecting tool to use it.",
+			"date_added": 1485868346
+		},
+		{
+			"post_id": 1486054344,
+			"body": "Before ['user mute feature'](/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/1485876841) is implemented, you can temporarily use this one, works for both posts and comments ;)\n\n```\n// ==UserScript==\n// @name        ZeroMe filter\n// @namespace   No namespace\n// @include     http://127.0.0.1:43110/Me.ZeroNetwork.bit/*\n// @exclude     http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/*\n// @version     1\n// @grant       none\n// ==/UserScript==\n\nwindow.addEventListener('scroll', function () {\n  var HideMe = [\n    'troll1@zeroid.bit',\n    'notmyfavor1@zeroid.bit',\n    'passby1@zeroid.bit',\n  ];\n  var names = document.getElementsByClassName('address');\n  for (var n = names.length; n-- > 0;) {\n    var thename = names[n].textContent;\n    if (HideMe.includes(thename)) {\n      var thepost = names[n].parentNode.parentNode;\n      if (thepost.getAttribute('class') == 'comment') {\n        thepost.textContent = 'blocked';\n      } else {\n          thepost.style = 'display:none';\n      }\n    }\n  }\n}, false);\n```\n\nUse Greasemonkey or other script injecting tool to use it.\n\nEdit: add '@exclude' for profile.\nEdit2: A less intrusive way: display blocked comment with message 'blocked'. Change '@exclude' to post, so you can click the time stamp of the post to display blocked message if you like.",
+			"date_added": 1486054337
+		},
+		{
+			"post_id": 1486115790,
+			"body": "Some ungoogled Chromium projects:  [ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium), [inox](https://github.com/gcarq/inox-patchset), [iridium](https://iridiumbrowser.de/).\n> Modifications to Google Chromium for removing Google integration and enhancing privacy, control, and transparency.",
+			"date_added": 1486115782
+		},
+		{
+			"post_id": 1486451636,
+			"body": "`xfce4-clipman-plugin` A clipboard plugin for the Xfce4 panel, guess it will be useful for temporarily copy-paste multiple texts, support generating QR code, also can add and trigger actions when the copied text match the pattern you've set. But there's another clipboard manager I've found called `gpaste`, perfect to combine with different shortcuts and do geekier things X)",
+			"date_added": 1486451627
+		},
+		{
+			"post_id": 1486607903,
+			"body": "Let's de-Google-ify the Internet\nFLOSS: Positive Alternatives to Big-Data centralized Services\n https://fosdem.org/2017/schedule/event/de_google_ify/ http://video.fosdem.org/2017/AW1.125/de_google_ify.vp8.webm",
+			"date_added": 1486607893,
+			"meta": "{\"img\":\"900,675,885995c97bb7bcb564484253357569778c85136247b52b74,01123333331133444332101444431156613233125789A2B11318CDAEEEE21590322FF21112233211\"}"
+		},
+		{
+			"post_id": 1486997175,
+			"body": "openmentoring-mobile (Helps access and share practical educational content on digital security) - https://f-droid.org/app/org.iilab.openmentoring",
+			"date_added": 1486997164
+		},
+		{
+			"post_id": 1487064131,
+			"body": "> \"Since I'm getting tired of reading about it in my feed, I'll be unsubscribing anyone who write unfounded accusations against or otherwise offends either alternative software to !GNUsocial or users thereof.\n\n> Diversity is good, noone and nothing is ever perfect and progress takes time. Please respect other fedizens.\"",
+			"date_added": 1487064119
+		},
+		{
+			"post_id": 1487152002,
+			"body": "Simple stateful firewall https://wiki.archlinux.org/index.php/Simple_stateful_firewall\n> This is rudimentary \"protection\" and makes life difficult when debugging issues in the future. You should only do this for education purposes. -- from \"Block ping request\" section\nXD",
+			"date_added": 1487151989
+		},
+		{
+			"post_id": 1487223527,
+			"body": "SICP in Python\n> This book is derived from the classic textbook Structure and Interpretation of Computer Programs by Abelson, Sussman, and Sussman. John Denero originally modified if for Python for the Fall 2011 semester. It is licensed under the Creative Commons Attribution-ShareAlike 3.0 license.\n\nhttps://www.gitbook.com/book/wizardforcel/sicp-in-python/details\nhttps://inst.eecs.berkeley.edu/~cs61a/sp12/",
+			"date_added": 1487223513
+		},
+		{
+			"post_id": 1488463144,
+			"body": "Difference between allowing **twitter.com** and **https://twitter.com** #javascript #noscript",
+			"date_added": 1488463129,
+			"meta": "{\"img\":\"900,626,433555444333222bbbccc,0111222234322222223432222333344333333334311112122531222223263111123326\"}"
+		},
+		{
+			"post_id": 1489026002,
+			"body": "... https://twitter.com/wikileaks \n[\"Apparently Twitter is shadow-banning people who post about, or comment on, #Vault7\"](/Me.ZeroNetwork.bit/?Post/1BLueGvui1GdbtsjcKqCf4F67uKfritG49/14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx/1488999609)",
+			"date_added": 1489025985,
+			"meta": "{\"img\":\"609,700,111222333223122133444,011111000022221310000000000045000000026100010000000000001000000001111110011100010011110000\"}"
+		},
+		{
+			"post_id": 1489034940,
+			"body": "https://www.youtube.com/watch?v=UF-EIGZ16tU&list=PLA87D87927C8B6160&index=11 Die Ärzte - Ist das Alles? ( Rock´n Roll Realschule 09 ) ",
+			"date_added": 1489034922
+		},
+		{
+			"post_id": 1489062858,
+			"body": "http://neinquarterly.com/ #FailedIntellectual #utopian_negation\nhttps://re-publica.de/session/losing-hope-finding-europe-utopian-negation-reconsidered",
+			"date_added": 1489062839
+		},
+		{
+			"post_id": 1489064664,
+			"body": "Fetch 2 seasons of [Nein.](/Me.ZeroNetwork.bit/?Post/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h/1489062858)'s tweets offline, convert it to pdf and store into E-ink reader, then go to bed, read it chronically.\n[Tutorial](/1EiMAqhd6sMjPG2tznkkGXxhdwFBDdeqT9/?Post:15:Tutorial:+How+to+Fetch+Twitter+Profile+and+Read+it+Offline)",
+			"date_added": 1489064644,
+			"meta": "{\"img\":\"514,700,666ccbdccdddcccbbbeeffffeeeedd,0000000122234567777778787777777777777877775877777977777778877771998888\"}"
+		},
+		{
+			"post_id": 1489989516,
+			"body": "Wow! It's spring, and ZeroNet blossoms \\o/",
+			"date_added": 1489989494,
+			"meta": "{\"img\":\"851,700,344666333222233232111000432582142121,0001233333443335533333333566333333336672333389AB60222233333322224444432222323322\"}"
+		},
+		{
+			"post_id": 1490172103,
+			"body": "https://www.youtube.com/watch?v=FFBiS1t64x8 Die Ärzte: Hurra Lyrics\nHere the weather is cloudy, but still... Cheers :)",
+			"date_added": 1490172080
+		},
+		{
+			"post_id": 1490187783,
+			"body": "Tips to check if a zite links to clearnet:\n\n1. Right click the page and select `inspect Element`, then under `inspector`, search page content with `http`.\n2. Also with `inspect Element` tools, choose `Debugger`, click every js file and search page content with `#http`.\n3. Do it again under `Stylesheet Editor` tag.\n\nAnything lacking? (hmm, like maybe someone also links its zite to `ftp server` )\n\nAnd a perfect workaround: [use Tor browser](http://zeronet.readthedocs.io/en/latest/faq/#how-to-use-zeronet-in-tor-browser) but disable `Torbutton` and `TorLauncher` add-on, then your browser will never connect to clearnet X)\n\nEdit: Everytime starting Icecat (another Firefox fork) it will connect to https://check.torproject.org/, I guess Torbrowser is same, if you care, maybe you can install foxyproxy addon and setup a fake proxy for it.",
+			"date_added": 1490187759
+		},
+		{
+			"post_id": 1490195083,
+			"body": "[‘What’s great about this country is that America started the tradition where the richest consumers buy essentially the same things as the poorest.’](https://www.theguardian.com/technology/2017/mar/22/apple-iphone-pro-rumour-coca-cola-champagne-premium-consumers)\nGreat idea, but Coke? [Guess more and more people will say no to it](http://www.npr.org/sections/thetwo-way/2016/09/13/493739074/50-years-ago-sugar-industry-quietly-paid-scientists-to-point-blame-at-fat)",
+			"date_added": 1490195058
+		},
+		{
+			"post_id": 1490200215,
+			"body": "Maybe for a concept like: \"the more you can do things offline, the more you can protect your privacy.\" If sth I can do offline, I won't do it online. Also in this manner I appreciate ZeroNet a lot :)\n\nOnce online someone said that it's impossible to use local image file for creating userstyle, and it's not secure to do that. I prefer to use image hosted from my own server, but ZeroNet provides a solution for me, as I did it to [Zeronet Central](/1J1c7eML6uMwDU4uiKbKRxoqxGP6WMFMvb/) for my [dark theme](/Talk.ZeroNetwork.bit/?Topic:1_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h/A+ZeroNet+Dark+Theme)\n`.votes .vote-arrow { background: url(http://192.168.1.110:43110/1J1c7eML6uMwDU4uiKbKRxoqxGP6WMFMvb/data/users/1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h/sprite-sheet-png.png);}`\n\nSo I can just create a local zite and use the images hosted locally for my userstyles \\o/ though I still wonder if it's secure to do such thing.\n\nBonus: Kiwix (Offline Wikipedia reader, Wiktionary, Wikivoyage, [Gutenberg.org](http://www.gutenberg.org/) book library, etc) - https://kiwix.org/ https://f-droid.org/app/org.kiwix.kiwixmobile http://download.kiwix.org/zim/",
+			"date_added": 1490200189
+		},
+		{
+			"post_id": 1490556660,
+			"body": ">Be Agreeable, Even When You Disagree\n>\n>You may wish to respond to something by disagreeing with it. That’s fine. But, remember to criticize ideas, not people. Please avoid:\n>\n>    Name-calling.\n>    Ad hominem attacks.\n>    Responding to a post’s tone instead of its actual content.\n>    Knee-jerk contradiction.\n>\n>Instead, provide reasoned counter-arguments that improve the conversation.",
+			"date_added": 1490556633
+		},
+		{
+			"post_id": 1490862013,
+			"body": "The Date.now() method returns the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC. -> data.json\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now\n\n[How can I convert a datetime object to milliseconds since epoch (unix time) in Python?\n](http://stackoverflow.com/questions/6999726/how-can-i-convert-a-datetime-object-to-milliseconds-since-epoch-unix-time-in-p)",
+			"date_added": 1490861985
+		},
+		{
+			"post_id": 1491728012,
+			"body": "https://www.jamendo.com/track/1111314/sky-lantern #cc #creativecommons #music",
+			"date_added": 1491727983
+		},
+		{
+			"post_id": 1491734172,
+			"body": "[ZeroNet Dark Theme](/Talk.ZeroNetwork.bit/?Topic:1_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h/A+ZeroNet+Dark+Theme) updates, add some nice support to [ZeroMe img](/Me.Mkg20001.bit)",
+			"date_added": 1491734142,
+			"meta": "{\"img\":\"900,635,111222000333,0111000001200011000221001113022011111312203310110220111111022111110102\"}"
+		},
+		{
+			"post_id": 1491811580,
+			"body": "https://www.bleepingcomputer.com/news/security/rensenware-will-only-decrypt-files-if-victim-scores-2-billion-in-th12-game/ RensenWare Will Only Decrypt Files if Victim Scores .2 Billion in TH12 Game\n> \"The ransomware developer infected himself.\"\nXD",
+			"date_added": 1491811549
+		},
+		{
+			"post_id": 1491870170,
+			"body": "え？あぁ、そう。蝶々P feat. \nEh? Ah, What.\nhttp://vocadb.net/S/82133 https://www.youtube.com/watch?v=X-jZ4yyDBJU #music #vocaloid #miku",
+			"date_added": 1491870138
+		},
+		{
+			"post_id": 1491929454,
+			"body": "Help needed! I'm writing a Feed (Rss) Bot python script for ZeroMe, directly add posts into data.json. After I signed my bot content, in `merged-ZeroMe/ZeroMe.db` all the `date_added` value of my bot posts were `Null`, others are ok. Currently I can only directly edit the datebase to display my posts. Any idea why `date_added` are `Null`? And solution?",
+			"date_added": 1491929421
+		},
+		{
+			"post_id": 1492140736,
+			"body": "Hi ZeroNet fellows! I create a feed bot script for ZeroMe, check my blog for [introduction](/1EiMAqhd6sMjPG2tznkkGXxhdwFBDdeqT9/?Post:22:ZeroMe+Feed+Bot). Wish you like it :)\nEdit: Also post [ the Introduction on ZeroTalk](/Talk.ZeroNetwork.bit/?Topic:3_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h/ZeroMe+Feed+Bot)",
+			"date_added": 1492140702,
+			"meta": "{\"img\":\"900,560,222322232333332,010000000002320000000004333000000000000004003322000000332000\"}"
+		},
+		{
+			"post_id": 1492653880,
+			"body": "@P2P: Are you are the maintainer of NewGFWTalk.bit (中文论坛)? please take a look at the reply of @forestree from [this topic](/Talk.ZeroNetwork.bit/?Topic:2_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw/Dear+Chinese+friends). It may be better to change the name \"主论坛\" (main) to another one like \"英文论坛\" (English) :)",
+			"date_added": 1492653845
+		},
+		{
+			"post_id": 1493020715,
+			"body": "Best practices for attribution https://www.peppercarrot.com/en/article405/best-practices-for-attribution #cc #creative-commons #cc-by",
+			"date_added": 1493020679,
+			"meta": "{\"img\":\"900,405,8b98a87a8ab8bb8aba899698aa8cca999445556667224324,00000112002134566111721896A622BBBCDCDBBBEEEEFFFEEE\"}"
+		},
+		{
+			"post_id": 1493250130,
+			"body": "https://bits.debian.org/2017/03/build-android-apps-with-debian.html\n> In Debian stretch, the upcoming new release, it is now possible to build Android apps using only packages from Debian. This will provide all of the tools needed to build an Android app targeting the \"platform\" android-23 using the SDK build-tools 24.0.0. ...",
+			"date_added": 1493250093
+		},
+		{
+			"post_id": 1493266668,
+			"body": "Just about two weeks later ... Goodbye userstyles.org",
+			"date_added": 1493266630,
+			"meta": "{\"img\":\"900,535,444333222,000011111121111222222111222222222222222222222222222222222222\"}"
+		},
+		{
+			"post_id": 1493424295,
+			"body": "Hello ZeroNet fellows! I create another Python script for ZeroNet, this time it's \"ZeroMe Mastodon Bridge\", which allow you cross post between ZeroMe and Mastodon. For further information please check the introduction [on ZeroTalk](/Talk.ZeroNetwork.bit/?Topic:4_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h/ZeroMe+Mastodon+Bridge) or [in my blog](/1EiMAqhd6sMjPG2tznkkGXxhdwFBDdeqT9/?Post:23:ZeroMe+Mastodon+Bridge)",
+			"date_added": 1493424256,
+			"meta": "{\"img\":\"900,651,222432333,0100000000020000000000000000000200200000000000000002220000000000000000\"}"
+		},
+		{
+			"post_id": 1493468196,
+			"body": "https://f-droid.org/posts/a-new-ux-6-years-in-the-making/\n> F-Droid has been a part of the Android ecosystem for over 6 years now. Since then, over 2000 apps have been built for the main repository, many [great features have been added](https://gitlab.com/fdroid/fdroidclient/blob/master/CHANGELOG.md), the client has been translated into over 40 different languages, and much more.",
+			"date_added": 1493468156
+		},
+		{
+			"post_id": 1494158924,
+			"body": "https://12rec.bandcamp.com/album/milhaven one of my fav, esp. Hunter and Animal 3k #post-rock #free-music",
+			"date_added": 1494158883
+		},
+		{
+			"post_id": 1494203283,
+			"body": "https://www.youtube.com/watch?v=2-RjMRP5IbI Coldplay - Lost #music #pop-rock",
+			"date_added": 1494203241
+		},
+		{
+			"post_id": 1494218584,
+			"body": "fraternity\n\n1. [treated as sing. or pl.] a group of people sharing a common profession or interests\n2. [mass noun] friendship and mutual support within a group\n    \nthe ideals of liberty, equality, and fraternity (Liberté, egalité, fraternité)",
+			"date_added": 1494218541
+		},
+		{
+			"post_id": 1494507802,
+			"body": "Easter egg \\_\\(:3」∠\\)\\_ http://openings.moe/video/Wakaranai.webm #anime",
+			"date_added": 1494507759
+		}
+	],
+	"post_like": {
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1486046513": 1486052571,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491802557": 1491870531,
+		"14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492276848": 1492294109
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "[WOW](/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/1485876841)\n\n>As requested by lots of users: just added \"Hide Hello ZeroMe messages\" option to 3dot menu. Enjoy! :)",
+			"post_uri": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1485868352",
+			"date_added": 1485919373
+		},
+		{
+			"comment_id": 2,
+			"body": "I discovered it from Diaspora*. Here is really a wonderful new world :D",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1486046513",
+			"date_added": 1486052856
+		},
+		{
+			"comment_id": 3,
+			"body": "@Rebelb0y11: Done, thx 4 the tip :)",
+			"post_uri": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1486054344",
+			"date_added": 1486091954
+		},
+		{
+			"comment_id": 4,
+			"body": "@Firebox: Thanks for sharing your fav! There are even lecture videos\n\n> It turns out lectures are not such a bad way for one person to explain things to other people, but that's not perfect. Sometimes lectures are too slow, sometimes are too fast, sometimes when you're listening to a lecture, you stop paying attention for just one minute, to check your pokémon or whatever, ... but ...\nXD, look forward to catching (watching) them all",
+			"post_uri": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1487223527",
+			"date_added": 1487248953
+		},
+		{
+			"comment_id": 7,
+			"body": "@Plasmmer: @Mkg20001: I thought it before too, but it may introduce a lot of ugly css code and may be hard to maintain. Even so, if you need help, such as cleaning up the relative css, leave me a message",
+			"post_uri": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1491734172",
+			"date_added": 1491800430
+		},
+		{
+			"comment_id": 8,
+			"body": "And this :3 https://www.youtube.com/watch?v=X2o8ADxaC0o Hatsune Miku - Hm? Ah, Yes. え？あぁ、そう。(Hatsune Miku Live Party 2013 in Kansai)",
+			"post_uri": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1491870170",
+			"date_added": 1491870891
+		},
+		{
+			"comment_id": 9,
+			"body": "I've sent a bug gif to ThunderWave, I can view it, I can also view another pic from another user. Good job!",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491919501",
+			"date_added": 1491920175
+		},
+		{
+			"comment_id": 10,
+			"body": "@Nofish: Thank you! I cloned a [hub](/19wUTwuNT6kXNTpfRuDrnmLF8cLkYok3DT) because I don't want to mess up existing hubs. I tried assigning `date_add` to the timestamp of feed item, `date_add` was `Null` ([data.json](/1EiMAqhd6sMjPG2tznkkGXxhdwFBDdeqT9/tmpdata/1BaJkZ4ht15DoJdrKFH8HrwMi8YiKQDUoA/data.json)). I guess it may because the dates of feed are too old, likely older than the created date of my ZeroMe account and test hub, therefore they counldn't be added. So I also tried using the current time, because the script was too fast and all the posts were assigned with same `date` XD ([data.json](/1EiMAqhd6sMjPG2tznkkGXxhdwFBDdeqT9/tmpdata/1BMGV1ZvWQbj5szkqwg7tk5XjiTmFYXUS6/data.json)), and only one or two items displayed in the datebase, and the `date_add` was still `Null`... I also tried deleting the `user.json`, creating a new ID, signing the test hub itself, publishing to proxy, rebuilding `ZeroMe.db` and the results were same ...\n\nI signed my ZeroMe content.json with code below:\n\n```\n    sign_command_path = SITE_ADDRESS + ' ' + '--inner_path' + ' ' + 'data/users/' + \\\n        AUTH_ADDRESS + '/content.json'\n    siteSign = subprocess.Popen(\"python2 ../zeronet.py siteSign\" + \" \" + sign_command_path,\n            shell=True, stdin=subprocess.PIPE)  # http://stackoverflow.com/questions/163542/python-how-do-i-pass-a-string-into-subprocess-popen-using-the-stdin-argument\n    siteSign.communicate(input=SITEKEY)[0]\n```\n\nBtw, adding `follow_id` works.",
+			"post_uri": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1491929454",
+			"date_added": 1492000230
+		},
+		{
+			"comment_id": 11,
+			"body": "@Nofish: Sigh... Thank you very much! It works perfectly now.",
+			"post_uri": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1491929454",
+			"date_added": 1492007984
+		},
+		{
+			"comment_id": 12,
+			"body": "@P2P: Because I only signed and didn't (or failed to) publish my content :P",
+			"post_uri": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1492140736",
+			"date_added": 1492155534
+		},
+		{
+			"comment_id": 13,
+			"body": "@ulrichard: Well, I agree. It's unfortunate that mobile development has been ignored (more or less afaik) by FLOSS developers and communities for a long time.",
+			"post_uri": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1493250130",
+			"date_added": 1493273928
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9",
+			"user_name": "Shellbound",
+			"date_added": 1481955024
+		},
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1481955154
+		},
+		{
+			"follow_id": 3,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1481955181
+		},
+		{
+			"follow_id": 4,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR",
+			"user_name": "weakish",
+			"date_added": 1482071470
+		},
+		{
+			"follow_id": 5,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS",
+			"user_name": "ZAlex",
+			"date_added": 1482318212
+		},
+		{
+			"follow_id": 6,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ",
+			"user_name": "Musickiller",
+			"date_added": 1483523075
+		},
+		{
+			"follow_id": 7,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1EErpRfR94YZwEMpAwsGKYsgSqHuRxvWib",
+			"user_name": "megfault",
+			"date_added": 1483542530
+		},
+		{
+			"follow_id": 8,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "15QGRquMETTn5LnCHjTm1qa9eaXGtq7gpT",
+			"user_name": "Klaus Jónsson Zimmermann",
+			"date_added": 1483545425
+		},
+		{
+			"follow_id": 11,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h",
+			"user_name": "Binchan",
+			"date_added": 1483598890
+		},
+		{
+			"follow_id": 12,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx",
+			"user_name": "ks",
+			"date_added": 1483604351
+		},
+		{
+			"follow_id": 13,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw",
+			"user_name": "Balancer73",
+			"date_added": 1483708096
+		},
+		{
+			"follow_id": 14,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa",
+			"user_name": "Talnicrom",
+			"date_added": 1485966668
+		},
+		{
+			"follow_id": 15,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj",
+			"user_name": "Martinv",
+			"date_added": 1486052994
+		},
+		{
+			"follow_id": 16,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC",
+			"user_name": "Firebox",
+			"date_added": 1486112624
+		},
+		{
+			"follow_id": 17,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH",
+			"user_name": "crypdick",
+			"date_added": 1486345294
+		},
+		{
+			"follow_id": 18,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN",
+			"user_name": "Antilibrary",
+			"date_added": 1486694114
+		},
+		{
+			"follow_id": 19,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD",
+			"user_name": "Mkg20001",
+			"date_added": 1486950282
+		},
+		{
+			"follow_id": 20,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ",
+			"user_name": "ulrichard",
+			"date_added": 1486954979
+		},
+		{
+			"follow_id": 21,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw",
+			"user_name": "Balancer73",
+			"date_added": 1488554995
+		},
+		{
+			"follow_id": 22,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y",
+			"user_name": "Rythyrix",
+			"date_added": 1488817407
+		},
+		{
+			"follow_id": 23,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "16nArdxrSaNThNp83kL8E6NLL9WD98iUne",
+			"user_name": "Jayofthezero",
+			"date_added": 1488903344
+		},
+		{
+			"follow_id": 24,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1Mzjg3DjFFiUBz42zZa9w9oM2Lf4vHeLK3",
+			"user_name": "Nextbit",
+			"date_added": 1489062700
+		},
+		{
+			"follow_id": 25,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LFxK1BSHEnkJcXXb4qGszVUxEwqLVSJU8",
+			"user_name": "Hermes32",
+			"date_added": 1489346469
+		},
+		{
+			"follow_id": 26,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ",
+			"user_name": "Arsene Lupin",
+			"date_added": 1489346818
+		},
+		{
+			"follow_id": 27,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1LeqWgNKQHKdYdy8AREoHprsCEU6cPrTTC",
+			"user_name": "meidan",
+			"date_added": 1490015056
+		},
+		{
+			"follow_id": 28,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR",
+			"user_name": "tiamat",
+			"date_added": 1490188474
+		},
+		{
+			"follow_id": 29,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV",
+			"user_name": "Mynameislegion",
+			"date_added": 1491581620
+		},
+		{
+			"follow_id": 30,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1ByuEoBeryNCZXqRArMfDiAL9bFTqmM5yN",
+			"user_name": "mls",
+			"date_added": 1491670249
+		},
+		{
+			"follow_id": 31,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1491670655
+		},
+		{
+			"follow_id": 32,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy",
+			"user_name": "Glightstar",
+			"date_added": 1491800794
+		},
+		{
+			"follow_id": 33,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NmkVyqBJX6a82YQFYkCNgQpE9AWsmeppp",
+			"user_name": "Ivesen",
+			"date_added": 1494120130
+		}
+	],
+	"bg": "jpg",
+	"bgColor": "#1b1b1a"
+}

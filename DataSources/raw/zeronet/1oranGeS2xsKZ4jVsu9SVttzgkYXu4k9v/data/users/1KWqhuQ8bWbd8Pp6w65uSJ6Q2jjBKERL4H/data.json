@@ -1,0 +1,246 @@
+{
+	"next_post_id": 33,
+	"next_comment_id": 5,
+	"next_follow_id": 8,
+	"avatar": "jpg",
+	"user_name": "Peponi",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "No Borders No Nations\n\nhttps://pod.geraspora.de/u/peponi\n\nhttps://quitter.se/peponi",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1480098639,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1480101189,
+			"body": "[that’s](https://www.youtube.com/watch?v=EErueQdEXMA&t=3m4s) why progressive webapps are importent for your startup\n* 80 % of time spent is in user’s top 3 apps\n* 0 new apps will be installed per month\nthat means [nobody whant’s your app](https://medium.com/swlh/nobody-wants-your-app-6af1f7f69cb7)\n\nthe principle of “the app store” is a star system and your app will be placed in the [long tail](https://en.wikipedia.org/wiki/Long_tail)\n\n0 new app installs per month means no one is search for new apps in the app store, that means nobody will find you\n\npeople seaching in the web! so show your answer/solution in the web, and let them install your website if the want\n",
+			"date_added": 1480101187
+		},
+		{
+			"post_id": 1480101549,
+			"body": "@all no gifs ? no tags ?",
+			"date_added": 1480101545
+		},
+		{
+			"post_id": 1480101942,
+			"body": "### How Emoji Can Improve Your Code—Seriously (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧\n\nhttps://www.tjvantoll.com/2016/06/10/emoji-and-coding\n\n* [Emoticons table](http://apps.timwhitlock.info/emoji/tables/unicode)\n* [Unicode Emojis](http://unicode-table.com/de/search/?q=emoji) [1](http://emojipedia.org/unicode-8.0) [2](https://gist.github.com/endolith/157796)\n* [all japanese emoticons](http://japaneseemoticons.me/all-japanese-emoticons)",
+			"date_added": 1480101937
+		},
+		{
+			"post_id": 1480102039,
+			"body": "### rule34",
+			"date_added": 1480102033,
+			"meta": "{\"img\":\"900,507,221445868aaa778332664999bbc563423000623442753844,01231244450441631789A95B01096A0BBACC0BBB12DDEFE0BBE699669D50\"}"
+		},
+		{
+			"post_id": 1480117083,
+			"body": "### Git How-To: Remove Your Password from a Repository\n\n```\n$ git filter-branch --tree-filter “find . -type f -exec sed -i -e ‘s/originalpassword/newpassword/g’ {} ;”\n```\n\nhttp://www.davidverhasselt.com/git-how-to-remove-your-password-from-a-repository",
+			"date_added": 1480117076
+		},
+		{
+			"post_id": 1480172114,
+			"body": "### [Rumble](http://disruptedsystems.org) a offgrid meshnetworking microblogging/chat app for Android\nwho synchronize posts via Bluetooth or Wifi in Groups\n\nusefull on:\n\n* mass events like concerts or congresses, when the network goes down\n* demonstrations, when police forces track or block the GSM traffic\n* group holliday in desert places\n",
+			"date_added": 1480172105,
+			"meta": "{\"img\":\"394,700,535434222757868c88bbb646ccc444daacede77abad88,0011223443567777889922AB2222662222CD29228B2222EB222288222288\"}"
+		},
+		{
+			"post_id": 1480864095,
+			"body": "## Axel Theilmann auf Twitter: “#33c3 https://t.co/eP86hzODpW”\n\nhttps://twitter.com/honx/status/801150542894526465",
+			"date_added": 1480864085,
+			"meta": "{\"img\":\"700,700,0004675783568ab9bc78911224589913469aeff023cdd145,000000000000000000000012134500006738790000ABCCBD000007C507000000E5000000072F000000000000000000000000\"}"
+		},
+		{
+			"post_id": 1480864151,
+			"body": "### Base-122 – A space efficient alternative to base-64\nHacker News Comments: https://news.ycombinator.com/item?id=13049329\n\nSource: http://blog.kevinalbs.com/base122",
+			"date_added": 1480864140
+		},
+		{
+			"post_id": 1480864183,
+			"body": "## What is Ethereum Swarm\n\nhttp://ethereum.stackexchange.com/questions/375/what-is-swarm-and-what-is-it-used-for",
+			"date_added": 1480864171
+		},
+		{
+			"post_id": 1480864219,
+			"body": "",
+			"date_added": 1480864206,
+			"meta": "{\"img\":\"900,502,edcddda88dbadcbb98caaca9aa9d97dbcab9da7d9abbaea8,01123454000146347411014366731101438961A30444BC606D0401EF3046\"}"
+		},
+		{
+			"post_id": 1480864302,
+			"body": "### I'm playing around with [STORJ.io](https://storj.io)\n<br>\n\n**Storj** is a **startup** in **Atlanta US**, and they [want ](https://medium.com/@storjproject/storj-master-plan-45bfb63c6b38?source=user_profile---------1---------) to provide you a\n\n> *Blockchain-based, end-to-end encrypted, distributed object storage, where only you have access to your data.*\n\n**means:** this is a decentralized cloud storage you can participate as host and earn coins\n\nor [integrate in your app](https://storj.io/developers.html) via a JS API\n\n<br>\n\nto participate as host, you can download a GUI or CLI client\n\n* https://storj.io/share.html\n* https://github.com/Storj/storjshare-cli\n\n**two steps are important** for the configuraion of the client\n\n1) you need a counter walled, [look here for a guidance](http://cryptomining-blog.com/6401-trying-out-the-latest-version-of-storj-driveshare-gui)\n2) you need to provide a working port transfaire\n    * if you **enabled UPnP** on your **router** you can use the client without some extra configurations\n    * **if not**, you need to set some [port forwards](http://docs.storj.io/docs/storjshare-troubleshooting-guide#port-forwarding)\n\nI configured a 580 GB share and nothing happens for hours\nbut after a night the share was filled with 1.004 GB, so have some patience\n\n\n#### Some answered questions\n\n* [How much will I make from DriveShare?](http://blog.storj.io/post/110416906278/how-much-will-i-make-from-driveshare)\n* [How to set storage price](https://docs.storj.io/v1.0/discuss/57f1d6ff1d89490e003b28a5) - tldr; you can't (for now)\n* [Why am I not getting paid?](https://docs.storj.io/v1.0/discuss/580daa01c7fe7d0f00e0b776) - tldr: you will, end of month (for now)\n\n#### Similiar Projects\n\n* [Maidsafe](http://maidsafe.net) -> ([Vault](https://github.com/maidsafe/safe_vault)) - a startup in london\n  * read the [blog](https://blog.maidsafe.net/tag/vault-2)\n  * or search on [youtube](https://www.youtube.com/watch?v=r9MHr0zkIyk)\n* [Ethereum](https://www.ethereum.org) -> [Swarm](https://github.com/ethersphere/swarm) - startup in kanton Zug, Switzerland\n  * [What is Swarm](https://ethereum.stackexchange.com/questions/375/what-is-swarm-and-what-is-it-used-for) - [Article](http://www.coinfox.info/news/5472-poverkh-ethereum-budet-postroena-platforma-detsentralizovannogo-khraneniya-dannykh-swarm-2)\n  * [swarm-gateways.net](http://swarm-gateways.net/bzz:/swarm)\n* [FileCoin](http://filecoin.io) - no releases yet\n* [Sia](https://sia.tech) - need to transfaire some BTC to start sharing your drives - bääääää\n* [Codius](https://codius.org/docs/overview/for-hosting) - maybe ?\n\n",
+			"date_added": 1480864288,
+			"meta": "{\"img\":\"564,700,aaabbadefeeefffdebbd7aceacfdddcd99c39c4,01000000223456653344278339999334333333334444444433333333ABCCBCBA4444444444444444\"}"
+		},
+		{
+			"post_id": 1481311894,
+			"body": "## nice git management gui\n\nhttps://www.gitkraken.com",
+			"date_added": 1481311879
+		},
+		{
+			"post_id": 1485975960,
+			"body": "bad hacks to improve page load performance\n\nhttps://jakearchibald.com/2016/fun-hacks-faster-content",
+			"date_added": 1485975944
+		},
+		{
+			"post_id": 1485975976,
+			"body": "*“TypeScript got in the way more than it helped. It didn’t reduce bugs, and didn’t enhance our productivity, either.”*\n\nvia Eric Elliott\n\nhttps://medium.com/javascript-scene/you-might-not-need-typescript-or-static-types-aa7cb670a77b",
+			"date_added": 1485975959
+		},
+		{
+			"post_id": 1485976013,
+			"body": "*\"And all you need to make your website crazy fast? A proper diet: no megabyte-sized images, no render-blocking ads, no 100,000 lines of JavaScript, just the content, please.\"*\n\nlook how easy it is\n\nall you need to be faster then light ... is a blank web white site\n\nhttps://www.smashingmagazine.com/2016/12/progressive-web-amps",
+			"date_added": 1485975995
+		},
+		{
+			"post_id": 1485976058,
+			"body": "",
+			"date_added": 1485976039,
+			"meta": "{\"img\":\"780,700,222533aaa777a98bcdcdeb75965775566b95455653111211,0001110000223332425624789AA3334BB78ACD10ADDDDADA0EACA9AD1A1ECCAAA11DDFA333A3334C0399A34390\"}"
+		},
+		{
+			"post_id": 1485976102,
+			"body": "Friendly introduction to Nmap \n\nhttp://www.xvideos.com/video523216/haxxxor_no_longer_floppy_e-lita_offers_nmap_training",
+			"date_added": 1485976082
+		},
+		{
+			"post_id": 1485976183,
+			"body": "",
+			"date_added": 1485976162,
+			"meta": "{\"img\":\"510,700,cbaccc877ba9866645556678854445334401633422212974,00100002340253302132365277889449ABC9966ABC9ADAEBD2222722242620F7666634\"}"
+		},
+		{
+			"post_id": 1485976197,
+			"body": "",
+			"date_added": 1485976175,
+			"meta": "{\"img\":\"798,700,000133366467034111443244134332256278765555222543,000012340050005671505551897710178ABC3715810D2681E5E15DFE555500EF6E5555006DC9E5550F9FC9E6FE\"}"
+		},
+		{
+			"post_id": 1485976208,
+			"body": "",
+			"date_added": 1485976185,
+			"meta": "{\"img\":\"525,700,aaa999888777cdc7655433321124673cb1876cb4ab58a377,00012223400355564005655640067555042886554468889344AB7B5344CDEF76440E977736699877\"}"
+		},
+		{
+			"post_id": 1485976266,
+			"body": "http://flashbak.com/yugoslavian-computer-magazine-cover-girls-of-the-1980s-90s-370271",
+			"date_added": 1485976242,
+			"meta": "{\"img\":\"514,700,ebcd9ababa97cdcca6875852b43431742b85344542011765,01232245333333567688759977A70B779CD5B7ACED5EEDDEF59ED797B7E97975FF66F3\"}"
+		},
+		{
+			"post_id": 1485976280,
+			"body": "https://uptotab.com",
+			"date_added": 1485976255
+		},
+		{
+			"post_id": 1485976297,
+			"body": "> I don’t think it’s the new frameworks, libraries and modules that are killing us, it’s our own belief that we have to learn them all.\n\nthat’s sooo true\n\nhttps://www.smashingmagazine.com/2016/11/not-an-imposter-fighting-front-end-fatigue",
+			"date_added": 1485976271
+		},
+		{
+			"post_id": 1485976317,
+			"body": "Addy Osmani about Webpack configuration\n\nlol\n\nhttps://www.youtube.com/watch?v=e8XejNt5SZo&t=5m10s",
+			"date_added": 1485976290
+		},
+		{
+			"post_id": 1485976565,
+			"body": "https://www.youtube.com/watch?v=J2dOTKBoTL4&t=25m0s\n\nJake Archibald: Advanced Service Worker",
+			"date_added": 1485976537
+		},
+		{
+			"post_id": 1485976891,
+			"body": "http://geektyper.com/",
+			"date_added": 1485976862
+		},
+		{
+			"post_id": 1485976912,
+			"body": "new Dance With The Dead album is out\n\nhttps://www.youtube.com/watch?v=n4E4kjQIw6M\n\nhell jeah",
+			"date_added": 1485976882
+		},
+		{
+			"post_id": 1485977004,
+			"body": "Anthony Rother @ 33C3",
+			"date_added": 1485976973,
+			"meta": "{\"img\":\"734,700,888777666555aaa999bbb444333222,0122222233411545461741110560385112100388531444079852151218993214512899633117899911122388991312333733\"}"
+		},
+		{
+			"post_id": 1485977395,
+			"body": "http://www.webpackbin.com",
+			"date_added": 1485977363
+		}
+	],
+	"post_like": {
+		"1A8LDqE5cfr5BctvATQBYkNKLaHTEu7aQx_1480046330": 1480099016,
+		"18a6gNwuyrSufgW76tsgCtyHfJRmqmqnak_1486252343": 1486832931
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "hello",
+			"post_uri": "18rw2L1dzr66Rkaa9n6R5DUPZe9miEDvLU_1",
+			"date_added": 1480864513
+		},
+		{
+			"comment_id": 2,
+			"body": "http://img13.deviantart.net/7253/i/2008/159/1/d/pedobear_by_tomzibad.png",
+			"post_uri": "1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1480821025",
+			"date_added": 1480864925
+		},
+		{
+			"comment_id": 3,
+			"body": "@Hexagon thx for the offert but I don't need some money for this \"work\"\n\nI create some times some list to several technologies\n\nhttps://pod.geraspora.de/u/peponi\n\nand I'm happy if some one is reading this, and I could help with some infos\n\nthat's my microdonation :) ",
+			"post_uri": "1KWqhuQ8bWbd8Pp6w65uSJ6Q2jjBKERL4H_1480864302",
+			"date_added": 1481312355
+		},
+		{
+			"comment_id": 4,
+			"body": "I had the same issue\n\nlook like I have 2 identities now",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1486826141",
+			"date_added": 1486832627
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR",
+			"user_name": "weakish",
+			"date_added": 1480098946
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1A8LDqE5cfr5BctvATQBYkNKLaHTEu7aQx",
+			"user_name": "Hollymolly",
+			"date_added": 1480098973
+		},
+		{
+			"follow_id": 4,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1GucgDmfpJrHZmG6ukrM1Wjq5Cs6oXevzu",
+			"user_name": "Xeers",
+			"date_added": 1480099434
+		},
+		{
+			"follow_id": 5,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1EnFfeVqTYtJfhzucfQB8Z7sCfUBipRRow",
+			"user_name": "MilitaryRiotLab",
+			"date_added": 1480099468
+		},
+		{
+			"follow_id": 6,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1K7pivtg6E1qRnih7nmnnPrCnRRSxSCMQQ",
+			"user_name": "Lain",
+			"date_added": 1480117558
+		},
+		{
+			"follow_id": 7,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1480117821
+		}
+	]
+}

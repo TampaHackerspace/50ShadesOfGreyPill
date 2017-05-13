@@ -1,0 +1,38 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "@font-face support",
+			"body": "Problem solved.",
+			"added": 1475000170
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 5,
+	"comment": {
+		"1_1HVozbZ2pF9JkxkVSSDYuYr8HFqMRFpuLq": [
+			{
+				"comment_id": 1,
+				"body": "> [nofish](#comment_772_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): zeronet does not modify your browser at any way\n\nI'm aware of this, but @font-face works when I open the html document locally, but not when the same html document is opened via ZeroNet.",
+				"added": 1475000444
+			},
+			{
+				"comment_id": 2,
+				"body": "> [nofish](#comment_772_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): zeronet does not modify your browser at any way\n\nSync with this site: http://127.0.01:43110/1mjonesWKEtDaqepVR92wFhTP9eJD1Aa5\n\nOpen it through ZeroNet and the html file normally (not through ZeroNet), you will see there is a difference with how the fonts are handled.",
+				"added": 1475000511
+			},
+			{
+				"comment_id": 3,
+				"body": "> [nofish](#comment_773_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): actually this site also using custom fonts, so it's possible if you use the same syntax\n\nThe syntax is fine. Right? Or have I missed an error.\n\nEdit: I use a custom font, but it should still work if ZeroNet just handles html files normally.",
+				"added": 1475000675
+			},
+			{
+				"comment_id": 4,
+				"body": "> [nofish](#comment_774_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I have not checked, but if you use the same syntax as this site it will work.\n\nSorry for the complaint. It was an issue with NoScript. Again, sorry again.",
+				"added": 1475001315
+			}
+		]
+	},
+	"comment_vote": {}
+}

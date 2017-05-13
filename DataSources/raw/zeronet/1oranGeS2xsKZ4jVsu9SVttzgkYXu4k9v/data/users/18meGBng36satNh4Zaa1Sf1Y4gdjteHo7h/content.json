@@ -1,0 +1,40 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G8LD7J195W+XPv7e3nHwpOVw0xyymUhJkdVmw1KGWTBq+OY4hKkjWiOywi6kT6z3ViG3gGoXH9VOpOqbDjg2mYA=",
+ "cert_user_id": "luckmonster@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "694642434901e05422e322e533ab879ac123451ed63ae276a796754d1a8fd562",
+   "size": 2122
+  },
+  "data.json": {
+   "sha512": "4ee9d9f1c71d9a3e2c4303e6061abb6d8da898388bd069c2e9ed6e75be2f22e9",
+   "size": 1409
+  }
+ },
+ "files_optional": {
+  "1485875565.jpg": {
+   "sha512": "efc353a6be40ea478b5cde2f368d65ab40a1143f4ab969b5a25f30e24fefacd3",
+   "size": 50708
+  },
+  "1485950712.jpg": {
+   "sha512": "374cb62f8b67616a05fb940e7cab6cd83ffb1c4ca352e3225c2c7f7b4b268d88",
+   "size": 41951
+  },
+  "1486131721.jpg": {
+   "sha512": "bbd30e0e0c8bead1ce4e5be8fe5ca82f969f5f9204b0057151a1b635c4d303aa",
+   "size": 42739
+  },
+  "1486131727.jpg": {
+   "sha512": "bbd30e0e0c8bead1ce4e5be8fe5ca82f969f5f9204b0057151a1b635c4d303aa",
+   "size": 42739
+  }
+ },
+ "inner_path": "data/users/18meGBng36satNh4Zaa1Sf1Y4gdjteHo7h/content.json",
+ "modified": 1486131726,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "18meGBng36satNh4Zaa1Sf1Y4gdjteHo7h": "G0e2Nx7bj0RJeqooZ8nhctXN4iNC/Vmjk1Jx6ZZf/OpqsufAUWhvwZxMhNvXP4iG5qbtUp3CXR1w7SprKwUHkCI="
+ }
+}

@@ -1,0 +1,240 @@
+{
+	"next_topic_id": 8,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Using BTSync, One Hub etc. for data storage",
+			"body": "Hi all. Betatester here, renamed betatester2 after I lost my first ZeroID. I had started earlier a thread called « ZerHello VS Maelstrom etc.”, it’s here: http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:2_1MS7WkWAZUSohgV5uUF2Ze3kdbifi4J82L/ZeroHello+vs+Maelstrom+etc\n\nIn this thread I asked a question “unless I missed something with ZeroHello, a website has to be \"followed\" by a peer to stay available, there is no way to provide storage to the ZeroHello peer so that random data can be saved”.\n\nThis new thread is a spin off to focus on that particular topic: data storage. Since ZeroNet is based on the Bit Torrent protocol to decentralize the data, essentially the websites shall we say for now, my question is: Could we use Bit Torrent Sync with or without its One Hub professional capability to increase/guarantee website retention? I elaborate: If a ZeroNet website is launched, then it will rely on ZeroNet peers to subscribe to this website in order to guarantee access and provide download speed. But there is only so many websites a peer is going to be able/willing to have on his ZeroNet homepage. Bookmarking a ZeroNet website isn’t going to allow for local data storage. That’s limiting website owners’ willingness to adopt ZeroNet as a platform because it takes time to build a website. Now, if the business owner is using Bit Torrent Sync to have its websites’ torrent files made available by peers willing to share a read-only folder, then there is a possibility to have the torrent files available 24/7, with redundancy and download speed increasing according to the swarm’s size. As I already said in previous posts, I’m not a programmer, but I like ZeroNet, I think it’s one of the most interesting project out there with MadeSafe and Storj, so I’d like to see my company’s websites replicated into ZeroNet, but I need to have a better understanding of this standard, from a user’s standpoint not a programmer’s. ",
+			"added": 1440581907
+		},
+		{
+			"topic_id": 2,
+			"title": "Bitmessage : Windows .exe or Python source code ?",
+			"body": "Hi all,\n\nI have a question about Bitmessage. There are two versions of this software, one for Windows and one written in Python (source code, original version from Github).\n\n- Windows: https://www.bitmessage.org/wiki/Main_Page\n- Python: https://github.com/Bitmessage/PyBitmessage \n\nAfter having used the Python one for some time I thought I should use the Windows version since I’m running Windows, it’s a standalone .exe that launches with Windows so it’s pretty simple and practical. However my antivirus Bit Defender has detected it as a threat and removed it. I tested this .exe on VirusTotal and one antivirus out of 55 said it had detected a “Trojan.Win32.Agent.3514855[h]”. So I re-downloaded the Python version and VirusTotal didn’t find any malicious line in it. Now I don’t know if the Windows .exe was just a false positive or if there is a real danger in running this software.\nIt seems there is a way to use a bitmessage through a web browser, but I couldn’t receive any message using this: https://bitmsg.me\n\nIf someone has some experience with Bitmessage, thanks for sharing.",
+			"added": 1440692604
+		},
+		{
+			"topic_id": 3,
+			"title": "Notifications for comments and updates",
+			"body": "It's nice to be able to post comments on Zeronet websites and forums and blogs, but it's impossible to have a real social activity if we don't get notifications when someone is answering to a thread or a comment or updating a page. Since we have to be logged in using our ZeroID to post comments, it would be nice to us Zeromail to get notifications about all these social media activities.",
+			"added": 1470813395
+		},
+		{
+			"topic_id": 4,
+			"title": "Two Zeronet running at the same time",
+			"body": "I want to contribute to zeronet by seeding as much websites as I can from my server which runs 24/7. I also want to keep zeronet on my laptop for usability. Of course I can install zeronet on both computers. But my question is about the identity (json file). If I use the same identity, is it going to cause trouble in the zeronet network?",
+			"added": 1473008706
+		},
+		{
+			"topic_id": 5,
+			"title": "It's showing my IP over TOR",
+			"body": "I'm using Zeronet with TOR activated, all is green, port closed, TOR always.\nThen I do an IP check from within Zeronet using YourIP: http://127.0.0.1:43110/1Ey8WR7e3quTdPTMZZKDdqw2U6JG3zvkHe/\nAnd bang on: it shows my real IP. So TOR isn't working at all here.",
+			"added": 1473103641
+		},
+		{
+			"topic_id": 6,
+			"title": "Morphis VS Zeronet",
+			"body": "Hi all,\nMorphis: https://morph.is/v0.8/\ncould someone explain to me, in non technical terms the differences between Morphis and Zeronet in terms of the possibilities offered, the programming languages and so on. For example Morphis says it is a distributed datastore. What allows it to offer that functionality that Zeronet can't. Morphis offers an emailing functionality, in terms of security, authentication, data retention and so on, how does it compare with Zeromail? If I had to use such a system for business purpose, which one would be better?\nThanks,",
+			"added": 1480929870
+		},
+		{
+			"topic_id": 7,
+			"title": "Cryptocurrency payment within Zeromail",
+			"body": "Hi all,\nWould it be possible to add a payment feature within zeromail? It would be nice to be able to make direct payments to addressees using the same platform.\nThanks,",
+			"added": 1481053029
+		}
+	],
+	"topic_vote": {
+		"2_1KXzch3zUkyQ43btkfjHEeZKhBrTkUSRor": 1
+	},
+	"next_comment_id": 28,
+	"comment": {
+		"2_1MS7WkWAZUSohgV5uUF2Ze3kdbifi4J82L": [
+			{
+				"comment_id": 1,
+				"body": "Hi, for some reason, I've \"lost\" my previous ID \"betatester\", so I've made \"betatester2\". How can I store an ID? Anyway, I'm interested in giving some publicity to ZeroNet, I think it offers more possibilities than Maelstrom, which is more like uTorrent in Chrome. I'm not a programmer so I need to take more time to go through the available documentation on ZeroNet, and then I'll try to find someone to start replicating my websites into ZeroNet.",
+				"added": 1440525564
+			},
+			{
+				"comment_id": 4,
+				"body": "Hi, thanks for the tip. I've added \"ZeroNet\" folder into my library so that it will get saved in the file history, that way I'll be able to retrieve information if need be. But for now it seems betatester is lost since I didn't save it in the first place, am I correct? There is no way to retrieve a ZeroID unless you have saved all its data.",
+				"added": 1440571959
+			}
+		],
+		"1_1MS7WkWAZUSohgV5uUF2Ze3kdbifi4J82L": [
+			{
+				"comment_id": 2,
+				"body": "Hi all, it seems the problem was coming from Maelstrom, here is the post I've just put on Bit Torrent's forum for Maelstrom:\n\"Hello, I have installed Malestrom about 2 weeks ago. I had Windows Defender detecting several malwares and trojan. Since I had also installed other softwares at about the same time I couldn't find out exactly where was the weakness, but I could see Chrome was the vector. So I made Firefox my main browser and installed Bit Defender. This morning Bit Defender found a plethora of threats coming from Maelstrom, it desinfected the .exe and .lnk and more than 30 files in the subfolders C:\\users\\myaccount\\appdata\\local\\maelstrom\\user data and then: - extension state - local extension state - sync app settings - history provider cache - evwhitelist - managed extension settings - file system - default\\bookmarks I can send the zip of this \\user data folder to the dev team. So, is Maelstrom considered a virus or is it an entry door to virus and trojan as soon as we start using it? Thanks,\"",
+				"added": 1440571746
+			},
+			{
+				"comment_id": 3,
+				"body": "Oh by the way, betatester and betatester2 are the same person, for some reason my first ZeroID got cleared so I had the create betatester2, I know now how to save this ID so that I can reinsert it into data\\user.json",
+				"added": 1440571825
+			}
+		],
+		"6_1PNyuY1iZqXBpft4ArouqcnE4pNRGYij5i": [
+			{
+				"comment_id": 5,
+				"body": "> [lostfile](#comment_14_134tqSwDpKTdoPABqGskg1YMNptAxfu3Lh): i think my blog is down there not that many people seeding it sadly\n\nI've opened a new thread \"using BTsync One Hub etc\" about that particular topic. I need to understand better how we can increase data retention for a ZeroNet website. Is it using the bit torrent protocol but is it connected to the bit torrent swarm? If so, putting the website on a few servers would guarantee it will stay, then popularity amongst ZeroNet users will increase download speed and resiliency.",
+				"added": 1440653489
+			}
+		],
+		"1_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": [
+			{
+				"comment_id": 6,
+				"body": "I have 30,000 members in my company's email marketing database. So my plan would be to replicate our websites into ZeroNet and then do an email marketing campaign to let them know. If out of curiosity only 3% of them install ZeroNet to have a look at our websites, that's 900 new ZeroNet users. But I'm not a programmer, so I need to find someone who can manage our ZeroNet websites. And I also need to understand better ZeroNet myself. Lastly: Can ZeroNet cope with 900 new users almost overnight? That's going to be a lot of new peers trying to download our websites.",
+				"added": 1440654003
+			},
+			{
+				"comment_id": 7,
+				"body": "> [nofish](#comment_40_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It should work with more users without any problem. It's like torrent: more users = better :)\n\nOK, but are there any ways we can have some sort of connections with torrent servers, that way the ZeroNet webmaster can place its website on ZeroNet and on a few torrent servers to provide for the initial seeding. Alternatively we'll need some ZeroNet peers connected with fiber to the internet and willing to seed the new websites for a few weeks. In any case we'll always have the problem of popularity, which is the same problem there is in Freenet, only popular websites get a chance to stay available. On Freenet freesites have to be reloaded to the data storage regularly.",
+				"added": 1440697906
+			}
+		],
+		"1_1MKjzLUa2FnZt7ZNjHemEeeh3APtDNnLzb": [
+			{
+				"comment_id": 8,
+				"body": "> [vulonkaaz](#comment_2_1KoZPvhgq5YLJaj3nYyT7UjBpom1XYaQSw): Je viens de faire un ZeroTalk pour les utilisateurs francophones: /1Vp5LH4wegCaqeB72yMw2jgNdVm4aR7ET\n\nMe suis connecté mais ça n'a pas l'air de fonctionner correctement.",
+				"added": 1443433321
+			}
+		],
+		"2_12HTPzQjWn9V57oxH7fA5KV3PQZ5vuj2Fm": [
+			{
+				"comment_id": 9,
+				"body": "Excellent ;-)",
+				"added": 1447318907
+			}
+		],
+		"1_1Erq7nnfVzp2PEJmANG2d5t7C4aX5iU3H1": [
+			{
+				"comment_id": 10,
+				"body": "Je ne crois pas qu'il y ait de moteur de recherche. Pour l'instant il y a une liste de sites, c'est aux créateurs de se faire référencer sur cette liste.",
+				"added": 1464162845
+			}
+		],
+		"10_1MxdAjWgnqwCaunGHmhY39tVR51qV3peJL": [
+			{
+				"comment_id": 11,
+				"body": "Hi all. I'm using both Zeromail and Zeroverse mail with a namecoin .bit address. It's a bit confusing all this stuff for me because I'm not a developper, just a user. It's nice to be able to send messages but as long as we can't add attachements, it's never going to replace the old email system. Also, I'm not sure I see the added value compared to Bitmessage.",
+				"added": 1470813172
+			},
+			{
+				"comment_id": 13,
+				"body": "> [newuser123](#comment_32_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv): There's a ZeroMail 2.0 site which has a File-Sharing option, though not the same as email attachments, it can probably serve a similar function.\n> http://127.0.0.1:43110/16X3emHaVgNPrx39U1sYd24dFk5L5swTua/\n\nI've just opened a 2.0 zeronet mailbox. I can see the added file sharing feature, tried to upload a small PDF just to test it, but wouldn't work. I think we're not there yet.",
+				"added": 1471012069
+			},
+			{
+				"comment_id": 14,
+				"body": "Anyone has tried Opencali? https://www.caliopen.org/",
+				"added": 1471012128
+			}
+		],
+		"1_1HvZzixBMnPehyouwx83zNYK3E97MrUVxS": [
+			{
+				"comment_id": 12,
+				"body": "I'm very saddened to see such an homophobic comment in ZeroNet. I’m using ZeroNet almost since day one and was hoping it would attract educated .",
+				"added": 1471009692
+			}
+		],
+		"4_17Cs2auSHSVjKaYMXqbNMApRQrgXcwJUpL": [
+			{
+				"comment_id": 15,
+				"body": "Anyone has the passphrase for Vickery files?",
+				"added": 1471783324
+			}
+		],
+		"4_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": [
+			{
+				"comment_id": 16,
+				"body": "The world is heading to another market crash, ten times bigger than in 2008, more comparable to the 2001 bubble burst. Some say 27 september, some say 20 october. Well it's a matter of when not if.",
+				"added": 1473000516
+			}
+		],
+		"6_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": [
+			{
+				"comment_id": 17,
+				"body": "I saw this thing on MIND. I think it's a scam. May start as a ponzy scheme to draw more people in, then disapear all together with the money, classic Darknet market exit scam. The bot is speaking...russian. While the website and videos are in good english.",
+				"added": 1473008545
+			}
+		],
+		"4_1C6qdRAX8iYqSB7TfUxk91yW8Y2SBKNgfA": [
+			{
+				"comment_id": 18,
+				"body": "If they are on the same network, then I guess the problem is they'll be seen as having the same IP, so won't seed together. But if they are running using TOR, then can they be on the same network?",
+				"added": 1473084663
+			}
+		],
+		"2_1BbxiDHKuFBkLxuGp8E18FeabHGQe6jYLL": [
+			{
+				"comment_id": 19,
+				"body": "Excellent. I'm following you on Twitter, what a joke this US court system isn't it. I've been living in NZ for a while. I'm not sure how things are doing there now. The real estat market seems to be way overpriced, in Auckland at least. This is going to backfire on day.",
+				"added": 1473148941
+			}
+		],
+		"5_1C6qdRAX8iYqSB7TfUxk91yW8Y2SBKNgfA": [
+			{
+				"comment_id": 20,
+				"body": "I've tried all you've said, but it's not intuitive really. I think the easiest way is to use a paid VPN and get all the traffic sent through the VPN. But then it defeats the purpose of having TOR bundled with Zeronet. If I want to send all the traffic using Zeronet's instance of TOR by 127.0.0.1:49050 This is a setting I do in the browser or in Windows connexion settings? I've tried both, still not working. Now I even get a TOR waiting status in Zeronet, so it's not exactly getting better. I'm using TOR browser for other tasks so I'm not interested in screwing up my working TOR connexion with Zeronet.",
+				"added": 1473193576
+			},
+			{
+				"comment_id": 24,
+				"body": "> [iamdeath](#comment_28_1DcE9QfZbfLZhXxgtQ8Ui3oMZvs9NVjqZB): It calls http://l2.io/ip.js?var=myip, which is just an external site that responds with your IP address. So all it's doing is accessing an external site.\n\nI've just tried this link. I have Port closed and Tor always. And again it's showing my real IP. So if I understand it right: Zeronet's TOR is to hide IP from other TOR users. But when you go to the clearnet, it's business as usual. That's fine by me if it means I can help others seed their Zerosites without risking to be caught because of their content. The problem is that Zeronet's TOR sometimes doesn't connect, meaning that while it's updating the Zerosites, it's showing my real IP, so much for reliability. I think it's safer to not start Zeronet at system start up, start a VPN first and then start Zeronet, even with its own TOR. Sure it will make it slow, but it reduces the risk to get involved because of some innapropriate content that ends up in the swarm. Or proxy the entire browser, but then you have to trust the proxy for anonymity because it's going to be the same proxy address all the time.",
+				"added": 1473254987
+			}
+		],
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": [
+			{
+				"comment_id": 21,
+				"body": "A real email client, which handles attachements. Currently what we get with Zeromail is more a messenging Bitmessage like app. Zeromail 2.0 adds the possibility to share a file but it has never worked with me so far. It has to be a real replacement for Outlook otherwise it's going to be difficult to get people to adopt a decentralized emailing system.",
+				"added": 1473193879
+			}
+		],
+		"7729_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 22,
+				"body": "And a website to check your emails and see if you have been pawned in any databreach (not just that one of course): https://haveibeenpwned.com/",
+				"added": 1473194867
+			}
+		],
+		"1_1CpmRqADyAVneFPpvoUJjhMQpQwLEB3CWE": [
+			{
+				"comment_id": 23,
+				"body": "Sounds like a honeypot that post. Zeronet isn't anonymous, so no it's not a place for that kind of activities.",
+				"added": 1473195003
+			}
+		],
+		"1_1BFMV9uKFo1S3suDBbWvcaNBorRMm6mDRe": [
+			{
+				"comment_id": 25,
+				"body": "It can fit into a memory stick. This is where the Tribler project came from. When they realized the entire torrent database was so small, they figured out it could be shared by peers and created Tribler. The value of torrent sites is not the DB it is more the user friendly way you can search a title, rate, comment etc.",
+				"added": 1473960935
+			}
+		],
+		"8890_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 26,
+				"body": "I hope death penalty for the criminals.",
+				"added": 1478852600
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 27,
+				"body": "Where can I get the code of the zeronet.io website? I like it and want to use it as a starting point for a template.",
+				"added": 1482957213
+			}
+		]
+	},
+	"comment_vote": {
+		"151_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"32_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"172_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"8_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"835_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"78_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"119_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"846_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

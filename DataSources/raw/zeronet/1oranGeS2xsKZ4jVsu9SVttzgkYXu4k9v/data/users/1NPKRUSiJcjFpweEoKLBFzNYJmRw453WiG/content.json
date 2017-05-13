@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G1mw2scQJKHn8lxkUazhg8Jy123pyE+7xAdU1L5OWcrWROC4lTAvazL/1hRYIS5RLsmtY+q187Abcej/TEiBqjs=",
+ "cert_user_id": "divebarprophet@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "5458cecac491bac641d02b99d0513d6107aad2f6f01f1f7891cef5922b3644b0",
+   "size": 1188
+  },
+  "data.json": {
+   "sha512": "58fc93e179d0df19b9abd8bfbeb1693076ea3b21ce69c97a5bbed0dcab6902c2",
+   "size": 7351
+  }
+ },
+ "inner_path": "data/users/1NPKRUSiJcjFpweEoKLBFzNYJmRw453WiG/content.json",
+ "modified": 1490822180,
+ "signs": {
+  "1NPKRUSiJcjFpweEoKLBFzNYJmRw453WiG": "G9C7nZtisH1K6J7+TAMUqm+QkKXBDFRkgaUzq39mpD+EV6eLqwNWu77gyUQqolqwjkzXKFgyakDGn7Y/RVzCTsM="
+ }
+}

@@ -1,0 +1,42 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "What is the best way to remove bad contents?",
+			"body": "For example if we find a bad \"avatar.jpg\" into the ZeroMe-GreenHub, can we remove it manually from the filesystem to avoid to share it? or do we have to use the WebSocket API ?",
+			"added": 1475095790
+		}
+	],
+	"topic_vote": {
+		"1_1Vy5x8HrbwRc2GM32GfZtpxdgoB5f34fd": 1,
+		"1_1546FEZjAaS8Soy8Pzc6weXgbFTVAv84Vi": 1,
+		"3_1L4dZcDF2maSKHDy788yhxpYnBWnXadUtS": 1,
+		"1_17tpqoZw9eG2MQq6C3CVZ9MVxJxLTtCPZC": 1
+	},
+	"next_comment_id": 4,
+	"comment": {
+		"1_1Vy5x8HrbwRc2GM32GfZtpxdgoB5f34fd": [
+			{
+				"comment_id": 1,
+				"body": "Good idea^.^",
+				"added": 1474406449
+			}
+		],
+		"1_1546FEZjAaS8Soy8Pzc6weXgbFTVAv84Vi": [
+			{
+				"comment_id": 2,
+				"body": "> [tkarita](#comment_157_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): There are frequently people chatting in ZeroMedia.\n\nWhat is ZeroMedia? :O",
+				"added": 1474754470
+			}
+		],
+		"3_1L4dZcDF2maSKHDy788yhxpYnBWnXadUtS": [
+			{
+				"comment_id": 3,
+				"body": "Using trackers (see into the source code)",
+				"added": 1475091952
+			}
+		]
+	},
+	"comment_vote": {}
+}

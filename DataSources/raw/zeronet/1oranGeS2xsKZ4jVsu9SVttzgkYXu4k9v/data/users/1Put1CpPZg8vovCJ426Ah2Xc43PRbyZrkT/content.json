@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HD4TBRGgyAKprAZHW4XGu/n+ZpsYXif1C1ncxUd9ZYRUG4CGt3JxA+MVQVrtnM3WtMiYfsJp3b0P8QQqT0byAi8=",
+ "cert_user_id": "aztechnology@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "d633a58c9db0b6844d0e630d6052a4f8190f6bb5cf1e8db3d352e087c2b784ad",
+   "size": 1348
+  },
+  "data.json": {
+   "sha512": "4f08f10f9021005168994795aae0aba0165aa08725984d6ddf96f8a5f72aedd0",
+   "size": 650
+  }
+ },
+ "files_optional": {
+  "1482681287.jpg": {
+   "sha512": "6cbce1e824ab1452d69bf71aa7b4708af8828bca03eb39bc750e85dcfefa7d6e",
+   "size": 39681
+  }
+ },
+ "inner_path": "data/users/1Put1CpPZg8vovCJ426Ah2Xc43PRbyZrkT/content.json",
+ "modified": 1482689991.816,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1Put1CpPZg8vovCJ426Ah2Xc43PRbyZrkT": "HP38NnRTM4GRN3wx+RhqNAoItcZHB2UXqaK7COXhhliWdIdb8J6PZPFqbHOmAxE/qJn4hHqssg4NnVDOhk6gvHU="
+ }
+}

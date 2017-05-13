@@ -1,0 +1,217 @@
+{
+	"next_comment_id": 38,
+	"user_name": "cnwfjsw",
+	"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+	"post_like": {
+		"13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1473904568": 1473904612,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1479546563": 1479563550,
+		"1958F7oCppj78MP966AfojMQwHg2WUupzq_1479563994": 1479564650,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1484306799": 1484314299
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "开个国内专用的Hub然后全搬过去就是啊（",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1478279381",
+			"date_added": 1478314319
+		},
+		{
+			"comment_id": 2,
+			"body": "@Nekocross: See http://blog.kaffie.bit/?Post:25:How+to+change+your+ZeroMe+Hub",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1478279381",
+			"date_added": 1478321926
+		},
+		{
+			"comment_id": 3,
+			"body": "@Helloarch: 自己加43110的prefix（",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1478279381",
+			"date_added": 1478323978
+		},
+		{
+			"comment_id": 4,
+			"body": "@P2P: 这个大概不是ZeroHello说了算？（",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1479442006",
+			"date_added": 1479479071
+		},
+		{
+			"comment_id": 5,
+			"body": "@Lmath: ZeroHello跑的是网站前端给的 SQL Query 所以我怀疑是那些个 SQL 限制的",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1479442006",
+			"date_added": 1479517775
+		},
+		{
+			"comment_id": 6,
+			"body": "再说自己写个 Hello 完全可行（",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1479442006",
+			"date_added": 1479517950
+		},
+		{
+			"comment_id": 8,
+			"body": "@Lmath: Seems `TOR: AVAILABLE` is left out?\nAnd there is `*Az* UiServer Websocket`\nneeds review.",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1479506310",
+			"date_added": 1479558993
+		},
+		{
+			"comment_id": 9,
+			"body": "Probably ZeroMe should have a `target='_blank'`for every outgoing links",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1479506310",
+			"date_added": 1479559535
+		},
+		{
+			"comment_id": 10,
+			"body": "use zh-CN or zh-Hans（\n只用 zh 确实不大好",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1479552077",
+			"date_added": 1479560065
+		},
+		{
+			"comment_id": 11,
+			"body": "And current limitations on translated text in timeline breaks the grammar of Chinese. probably there should be placeholder instead of simply append.",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1479506310",
+			"date_added": 1479561938
+		},
+		{
+			"comment_id": 12,
+			"body": "所以我一直想让ZeroNet加个RESTful JSON API样的东西，Websocket在这方面不好用\n当前阶段还要deal with wrapper\n当然这都是为了安全安全安全（雾",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1479563994",
+			"date_added": 1479564749
+		},
+		{
+			"comment_id": 13,
+			"body": "@Lmath: 个人感觉没什么差别啦 全都实现然后选择多好 反正坑又不在这儿 还是websocket的目标链接地址的问题（我选择直接改掉js然后把我服务器地址hardcode进去\n\n嗯现在我在用Proxy模式（\n反正不管什么模式只要不是严格的 `http://127.0.0.1:43110` 总有一些东西会炸",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1479563994",
+			"date_added": 1479566588
+		},
+		{
+			"comment_id": 14,
+			"body": "现在这个系统要实现的话大概是只能嵌个iframe进去（还得解决这个大大的灰色按钮和侧边栏\n所以这样不优雅，需要个API（\n（而且搞个API也可以造福手机客户端嘛）",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1479563994",
+			"date_added": 1479566634
+		},
+		{
+			"comment_id": 15,
+			"body": "@P2P: 整WebRTC的话就搞成相当于 Bittorrent 和 Webtorrent 的现状了\nZeroNet所有节点都是TCP-Only，WebRTC是UDP，连通只能靠中间人",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1479563994",
+			"date_added": 1479573526
+		},
+		{
+			"comment_id": 16,
+			"body": "@Lmath: Tor Browser还管什么用户体验（\n而且开Tor Browser的话应该开个ZeroBundle也没什么问题吧（\n直接指定服务器连就是（",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1479563994",
+			"date_added": 1479575483
+		},
+		{
+			"comment_id": 17,
+			"body": "这都是能做就optional，不能做就坑着的feature（逃",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1479563994",
+			"date_added": 1479575728
+		},
+		{
+			"comment_id": 18,
+			"body": "@Lmath: 他们中心化，数据只需要存几份，选择性的拿。但ZeroMe这一套相当于是把整个站点都下到自己的硬盘里",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1481377438",
+			"date_added": 1481378465
+		},
+		{
+			"comment_id": 19,
+			"body": "@Linkerlin: 那么可用性和分布式呢",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1481377438",
+			"date_added": 1481378564
+		},
+		{
+			"comment_id": 20,
+			"body": "比起丢弃的话定时存档多好（",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1481377438",
+			"date_added": 1481378650
+		},
+		{
+			"comment_id": 21,
+			"body": "那么总要有人去存那些没人愿意存的东西，他们必定成为少数",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1481377438",
+			"date_added": 1481379124
+		},
+		{
+			"comment_id": 22,
+			"body": "听起来就很贵",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482506722
+		},
+		{
+			"comment_id": 23,
+			"body": "这很明显不仅仅是GFW管的范围了吧",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482507320
+		},
+		{
+			"comment_id": 24,
+			"body": "不过感觉成本真的不是一般的高 除非FPGA（",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482507396
+		},
+		{
+			"comment_id": 25,
+			"body": "临侦设备进万家的感觉",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482507467
+		},
+		{
+			"comment_id": 26,
+			"body": "@西木野真姬: 比这个好多了（",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482507557
+		},
+		{
+			"comment_id": 27,
+			"body": "那么就看深信服和锐捷的本事咯",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482507596
+		},
+		{
+			"comment_id": 28,
+			"body": "¯\\_(ツ)_/¯",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482507764
+		},
+		{
+			"comment_id": 29,
+			"body": "GPS不是被动的嘛",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482507823
+		},
+		{
+			"comment_id": 30,
+			"body": "吓死 还在挖= =",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1483070047",
+			"date_added": 1483107081
+		},
+		{
+			"comment_id": 32,
+			"body": "@P2P: @12hlearn 那个是 正则前面没加 `\\/` ...",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1485183492",
+			"date_added": 1485564317
+		},
+		{
+			"comment_id": 33,
+			"body": "现在也没加啊...这样搞的后果是发文字的 gfwtalk.bit 也会变成 newgfwtalk.bit\n用gi操作符很hack 以后会出事的= =（现在看不出来）\n每一条前边都应该有 `\\/`\n倒是那个i应该加在上边那两个bitcoin address上(bitcoin address是大小写敏感的)\n\n按原作者的写法第一组应该用 `/href=\"http:\\/\\/(127.0.0.1|localhost):43110\\/gfwtalk.bit/g` => `'href=\"http:\\/\\/$1:43110/newgfwtalk.bit'`\n另外两个（很少人用）\n`/href=\"http:\\/\\/zero\\/gfwtalk.bit/g` => `'href=\"http://zero/newgfwtalk.bit'`\n`/href=\"http:\\/\\/gfwtalk.bit/g` => `'href=\"http://newgfwtalk.bit'`\n下面的那个类似",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1485183492",
+			"date_added": 1485564468
+		},
+		{
+			"comment_id": 34,
+			"body": "@12hlearn: 那还是判断一下timestamp，不然以后万一搞什么历史研究的话全乱套",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1485183492",
+			"date_added": 1485590687
+		},
+		{
+			"comment_id": 36,
+			"body": "Please take a look at [this](http://127.0.0.1:43110/me.zeronetwork.bit/?Post/12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv/1Q5jU3rMt6F8ucYLpDKPzs13rzr49iqpGS/1486690128)",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1486645557",
+			"date_added": 1486690712
+		},
+		{
+			"comment_id": 37,
+			"body": "@P2P: 感觉跳转贴的标题还应该再简明一点",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1486656512",
+			"date_added": 1486692440
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G4ejrvnEBk1LFKxq+L/GZyyFidLbEReyGYJvHIoWHRTmxG3tvV00gdQvInic5wtHz5Lv/9YUfHYX3vb8SobfBBw=",
+ "cert_user_id": "facineroso@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "7ca31d05250635000d03f032fd8987c2e162f9ab161a6e3128f383f21bbca328",
+   "size": 1783
+  },
+  "data.json": {
+   "sha512": "d69d34d69dd601cd877fa18e2aa57162d2d730fab802077f0ffaa87fb02ece04",
+   "size": 24828
+  }
+ },
+ "inner_path": "data/users/1DunM8CUWAxBcf3RWvweEke85AMqhVoTUs/content.json",
+ "modified": 1486901526,
+ "signs": {
+  "1DunM8CUWAxBcf3RWvweEke85AMqhVoTUs": "HEzDuuLbTak4kPK7RdTGnDqw8dVY0WuGRcpabWqwFsGvn/K238ZB4SRn+V8htqu6OV2hu848m/0D/2OENiQdWPE="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HGQdIF7go3mFqY//Eb5SldK2bwTAZcgqsMbC0SgMsMhsliOTL+sOySpztIRWVwRhBmK+3GrfScFY3acTLMMXKT8=",
+ "cert_user_id": "davidagni@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "9f7f245bdff86a5ce26122ac468465d35af1e20790f731e46c257a047b057869",
+   "size": 862
+  }
+ },
+ "inner_path": "data/users/1NyehkiVANdA3ohgjeVbSJyceaJPHPPq5S/content.json",
+ "modified": 1487801880,
+ "signs": {
+  "1NyehkiVANdA3ohgjeVbSJyceaJPHPPq5S": "HB2iFFE6odEwXCc5n1cOeacf6P5owQY+kZlwZSjzLih7MZyeJBrtGGjhZQUb/urmzcZeV/AtaiiQ1TYehHKqkuc="
+ }
+}

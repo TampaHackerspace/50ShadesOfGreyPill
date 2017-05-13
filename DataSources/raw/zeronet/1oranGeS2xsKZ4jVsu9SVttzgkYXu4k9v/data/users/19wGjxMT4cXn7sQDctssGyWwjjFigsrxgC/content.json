@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HHlIa4JlwTd1s5gtdQwYrclBfJDwKDwaePKgUo321TmtT96tKHvkqqbuIbmua35cb+qVmNhRYmV9psaBdCgj/PE=",
+ "cert_user_id": "goschech@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "b11c9f8324c10b6f3793962a89337b35fb04dbf066a45f0e2b887555eb6df7a3",
+   "size": 2015
+  },
+  "data.json": {
+   "sha512": "f12dc880ce2d888c9032b119b45e2e62acacb3a1b32fda1f476e919d32bd18b6",
+   "size": 13586
+  }
+ },
+ "inner_path": "data/users/19wGjxMT4cXn7sQDctssGyWwjjFigsrxgC/content.json",
+ "modified": 1482637314.004659,
+ "signs": {
+  "19wGjxMT4cXn7sQDctssGyWwjjFigsrxgC": "GxB0mSVpKxKB+FViorXGZUXJQCtm96xQg7j5kpbBHMg+tygpvuOHKOf2yeDTWumlMHl6pgKVC/uvyVjcuhZqhig="
+ }
+}

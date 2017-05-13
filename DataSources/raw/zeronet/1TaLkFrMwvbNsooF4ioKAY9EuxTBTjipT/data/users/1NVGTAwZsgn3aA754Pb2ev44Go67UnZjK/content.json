@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G4hY4sHCmj14+0mn3wtMcAQp9p//neWpZa//iP0d+U3FNxR1MquqBIgdWgzZP0DMKVXQhN47Zw/DX3mwhXWgrGc=",
+ "cert_user_id": "pir4tica@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "1dbf3443d2e6711a1974a44c384f0d0e3b46aba6d6ed054aea74751e152ed4c1",
+   "size": 259
+  }
+ },
+ "inner_path": "data/users/1NVGTAwZsgn3aA754Pb2ev44Go67UnZjK/content.json",
+ "modified": 1493622186,
+ "signs": {
+  "1NVGTAwZsgn3aA754Pb2ev44Go67UnZjK": "G47rk/K+yBjYgoLAu8tHg/HRKVO8TXdxfcxFcLMesBuxqacww+gC7JGoOBT02KtA+g4aKOEDZ9AKAuoqUNJDk1E="
+ }
+}

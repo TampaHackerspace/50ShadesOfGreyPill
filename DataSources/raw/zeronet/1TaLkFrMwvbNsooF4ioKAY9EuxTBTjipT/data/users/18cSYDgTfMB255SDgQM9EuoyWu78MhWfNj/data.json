@@ -1,0 +1,124 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "ELI5: Make a living with open source software",
+			"body": "(Disclaimer: Spanish native speaker here)\n\nCreate something and sell it. That's something we all have pretty much engraved in our DNA.\n\nBut then comes the open source model, where what you make can be modified, replicated, improved, copied and audited by anyone, even your competitors, and you no longer have the same kind of control over the product. Yet there are many examples of successful companies that do open source and thrive.\n\nI see many companies are actually foundations. Why is that and how does that work?\n\nWhat would you say are the steps to scale an open source project into something profitable?\n\nIs it possible to start an open source project which one of the main goals is to be profitable or is that just a lucky side effect?",
+			"added": 1483612843
+		},
+		{
+			"topic_id": 2,
+			"title": "VPN with exit node in Spain?",
+			"body": "What the title says.",
+			"added": 1483711500
+		}
+	],
+	"topic_vote": {
+		"1_15djDL8TmcrTNVDqc8u8vg7cREZuUx1Rg5": 1,
+		"1_19Sn2ocjSvxhwzp7EvxBrsJdBuzDCjcvDc": 1,
+		"1_18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj": 1,
+		"2_18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj": 1,
+		"3_153dW34Ng5fVUZ5D5NcZRfAbvRQS1jYC1k": 1
+	},
+	"next_comment_id": 16,
+	"comment": {
+		"1_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h": [
+			{
+				"comment_id": 1,
+				"body": "Not exactly the same, but you can also use a browser plugin like \"High contrast\" for Chrome, which inverts the colors giving a similar result.\nhttps://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph",
+				"added": 1481936938
+			}
+		],
+		"1_18jipjDsfAxAuq4ixbi2w24xJrYVfTYFPn": [
+			{
+				"comment_id": 2,
+				"body": "Argentina",
+				"added": 1481937664
+			}
+		],
+		"1_15djDL8TmcrTNVDqc8u8vg7cREZuUx1Rg5": [
+			{
+				"comment_id": 3,
+				"body": "In my case I get the response from Echobot. But then I delete it, and it seems to go away, but mext time the same response is still there, so I guess the deletion is not being synchronized.",
+				"added": 1482155366
+			}
+		],
+		"1_1yvSQH5Z7aJra4y9s6KG2kjLeGXYhNgn7": [
+			{
+				"comment_id": 4,
+				"body": "Wow, brutal display of ignorance and prejudice right there.",
+				"added": 1482804957
+			},
+			{
+				"comment_id": 5,
+				"body": "> [zeromine](#comment_1_19FR1tNVzHp9GDLbkdCnAyDaGv6UeHk91S): tors not really anon so who cares? honeypot for the pedos\n\nSomething is not perfect, so it's trash. Brilliant.",
+				"added": 1483404479
+			}
+		],
+		"1_18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj": [
+			{
+				"comment_id": 6,
+				"body": "> [nextbit](#comment_2_1Mzjg3DjFFiUBz42zZa9w9oM2Lf4vHeLK3): I think the most common opensource model is the \"freemium\": build something which is interesting / useful, and add some functions which will be a must-have after a certain level of complexity, after you're getting familiar (or even stuck) to the solution (gitlab, artifactory, github, docker, ansible, just to mention a few)\n> The next is when a company build a product, opensource it, and give consultation (percona, ....). They know the best what they've built, so it may work.\n> The last solution I think worth mentioning is when someone build an opensource project, and try to get donations (wikipedia, zeronet, ...)\n> I hope you find it useful, and I'm eager to see other opinions / perspectives.\n\nThanks. I've been reading about diferent open source business models in this wikipedia article: https://en.wikipedia.org/wiki/Business_models_for_open-source_software\n\nI am puzzled about this Foundation thing. Why many projects end up creating a foundation? What is the purpuse of doing so? At which stage one should think about doing it? At the beginning, when it starts to grow, when it's already pretty big...?",
+				"added": 1483628118
+			},
+			{
+				"comment_id": 7,
+				"body": "> [nofish](#comment_850_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Probably for tax reasons. For example here in Hungary you have to pay around 40% tax on any money your earn. (then pay 27% VAT when spend it)Money donated to foundations can be tax-deductible in many countries.When should you found one? If you can collect enough donation that covers it's spending. (accountant, etc.)\n\nYes, according to what I've read so far, creating a foundation is more common when projects are pretty huge already.",
+				"added": 1483635263
+			}
+		],
+		"2_1AWSA7oG2qrhWYgeSiJtDHCwc2KvyR7ijs": [
+			{
+				"comment_id": 8,
+				"body": "> [balancer73](#comment_26_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw): In ZeroNet there is never \"site down\" :) In it all essence of this network. Here the zerosite can only stop being updated. But ZeroTV was updated only 10 hours ago.\n\nWhat about every peer including the original owner of a zite deletes the site from their ZN dashboard?\nI guess some proxy might still have a copy, but what if it never was added to a proxy?",
+				"added": 1483897645
+			}
+		],
+		"1_1CYj7o5iamDZeKZvdSAW4P2aEngmAXb78T": [
+			{
+				"comment_id": 9,
+				"body": "A mobile version. It looks TINY on a phone's browser.",
+				"added": 1484063936
+			}
+		],
+		"2_1GAWwPWreQXo1CwcefCgL6w5wYPkNFWbsj": [
+			{
+				"comment_id": 10,
+				"body": "I miss the blacklist from ZeroMe+...",
+				"added": 1484064005
+			},
+			{
+				"comment_id": 14,
+				"body": "> [lmath](#comment_18_1958F7oCppj78MP966AfojMQwHg2WUupzq): But you still seed it. And ZeroMe+'s development is no longer active.\n\nI know, that's why I miss it.",
+				"added": 1484261437
+			}
+		],
+		"1_1MzGCAmshUUTHjwkANWLqfFYgrTinjsT64": [
+			{
+				"comment_id": 12,
+				"body": "If you mean running ZeroNet on Android, there is a project that aims to do that. What you can also do is run ZN on your computer and access it remotely with your phone via LAN. There are instructions in the FAQ on how to do it securely (authentication, etc).\nYou could also run it on a VPS or something with the same method but I don't know about how secure is the authentication to be exposed on the Internet 24/7...",
+				"added": 1484072267
+			}
+		],
+		"2_1yvSQH5Z7aJra4y9s6KG2kjLeGXYhNgn7": [
+			{
+				"comment_id": 13,
+				"body": "Please go away.",
+				"added": 1484094941
+			}
+		],
+		"1_13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31": [
+			{
+				"comment_id": 15,
+				"body": "I also think localbitcoins is the best way to start. Also, you should get a local wallet, like Electrum, to transfer the bitcoins there. Never leave bitcoins on an online wallet. NEVER.",
+				"added": 1484344936
+			}
+		]
+	},
+	"comment_vote": {
+		"17_1958F7oCppj78MP966AfojMQwHg2WUupzq": 1,
+		"24_18id3A8UHCU9RmkVBeBhsDrnPf27hQXdS1": 1,
+		"2_13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31": 1
+	}
+}

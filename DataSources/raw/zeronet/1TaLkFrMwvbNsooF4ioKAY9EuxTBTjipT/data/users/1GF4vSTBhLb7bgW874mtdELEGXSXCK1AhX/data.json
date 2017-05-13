@@ -1,0 +1,35 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "What are the real limitations of ZeroNet?",
+			"body": "1) I assume there will be problems with large tables and sorting/querying? \n2) Is there any way to query decentrilized site without uploading all of it's content?\n3) Is there any articles about built in SQL database? I'm interested in how it syncing content.",
+			"added": 1486566365
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 4,
+	"comment": {
+		"1_1GF4vSTBhLb7bgW874mtdELEGXSXCK1AhX": [
+			{
+				"comment_id": 1,
+				"body": "In second question when I say \"query\" I meant  for example to send search request\n\nhost/?q=search+query\n\nAnd get results back, but only exact results that match the query.",
+				"added": 1486566663
+			},
+			{
+				"comment_id": 2,
+				"body": "> [nofish](#comment_868_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Database speed is not a problem, sqlite is pretty fast.It could be possible to query other hosts without downloading the data, the problem is verifying if they return the right answer or not.So currently you can only query data that you have on your computer.\n\nQuery other hosts with something like map reduce? But then it will be huge overhead for each query, isn't it? If there is another solution for querying, please tell me)) It's really interesting..\n\nCan't understand how with ZeroNet technique there could be big sites with 10k+ visitors and complicated content quering.. for example product aggregator with 1kk+ listed items and related objects like reviews/likes/prices in partnering shops etc?",
+				"added": 1486576915
+			},
+			{
+				"comment_id": 3,
+				"body": "> [nofish](#comment_869_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Instead of creating one big monolithic site every merchant/category could have separate sites, then a merger site handles the display logic. (ZeroMe also do it this way)\n\nSo it's just content publishing, right? In such solution there is no way to implement for example tagging though whole \"parent\" site?",
+				"added": 1486579542
+			}
+		]
+	},
+	"comment_vote": {
+		"869_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

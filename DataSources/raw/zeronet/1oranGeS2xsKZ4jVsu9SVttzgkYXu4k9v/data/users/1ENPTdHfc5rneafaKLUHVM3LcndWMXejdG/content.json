@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G8ZKjIrUt7qT/WOOJxkvtplBl/S4mAN1tKr+Pj4+MN45T6lwB9+Jgv2Iz71zZ8c2QrfrjMt0nXNyv8Z3d36ElWE=",
+ "cert_user_id": "sigma2085@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "186735aaabf26830b95749490859e46fdb6769c1c54a95df35fa9b1ecce8e4c3",
+   "size": 340
+  }
+ },
+ "inner_path": "data/users/1ENPTdHfc5rneafaKLUHVM3LcndWMXejdG/content.json",
+ "modified": 1485013047,
+ "signs": {
+  "1ENPTdHfc5rneafaKLUHVM3LcndWMXejdG": "G+XXqe7h09lbaRsrOX1Xz2TXSfOJxaZzPdZWBA3hgrMJ5KHcurgv7v3SUGDuWx6dJ7C9MWbM0ZlID4MX4lURHQQ="
+ }
+}

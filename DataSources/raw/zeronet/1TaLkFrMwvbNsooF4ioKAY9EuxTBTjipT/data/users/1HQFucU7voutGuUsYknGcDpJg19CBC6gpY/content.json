@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HGluOvQH6YWJHMRqk01iZVNPCCdROxcDN/Xiis2pgzqZMQVHxjS7DTjKJvlMrr38btYPt7IPNDThS3MYaldz6i0=",
+ "cert_user_id": "fergish@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "06e533c72e87563a50d9b9c2d97442e58e3385ab6d59549db841b836e8309f60",
+   "size": 501
+  }
+ },
+ "inner_path": "data/users/1HQFucU7voutGuUsYknGcDpJg19CBC6gpY/content.json",
+ "modified": 1473555975.392699,
+ "signs": {
+  "1HQFucU7voutGuUsYknGcDpJg19CBC6gpY": "HI61wg91W+9By5R9/liA73TLcau+TDfzOcfjTPEHAsa7bRqcGlivIXO+QyEDPm1qVkhhwbqpYtp+B3FCgLrApas="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G75Z8otLVF1uQ0REFW8TQH1RM7XskAGUo3N14PLC1gCuMzxAjQS3CE0+B1SxvfES/Ue6TWhmaw0+xzjZUGTIv0c=",
+ "cert_user_id": "fauxpresidentfr@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "89dcef669f49b7cc005e486e978911a7c4df9e3a4caeb14bdb776cc046252bce",
+   "size": 1316
+  }
+ },
+ "inner_path": "data/users/17RJyBwfCuCAHTLwpirMuzvzN1zCe9845K/content.json",
+ "modified": 1492072709,
+ "signs": {
+  "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT": "HO2QEhenbb+AjPMhxVC8eVv6X0WASykIDe2BMsxcEHece0wCeNbmTlp5y0MyXTZLH66YueWKCD45VPU6k6EjsZg="
+ }
+}

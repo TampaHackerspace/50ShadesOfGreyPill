@@ -1,0 +1,111 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "how does zeronet handle multiple ID's?",
+			"body": "title says it all really, I want to know exactly how much shit will break if I have let's say 3 ID's for different purposes on the same pc.\n\nsince practically all zites that needs a form of authentication seems to have a select user button I assume it should be possible?\nBut zeroid won't let you have multiple zeroid id's.\nSo if I then use kaffieID or some other random ID service can I just roll around with 5 different ID's without zeronet either shitting itself or zites stopping to work altogether?",
+			"added": 1490746783
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 16,
+	"comment": {
+		"1_1FaKUqa1nMyNwEpKXvb8o8uvZSpr3jXpNT": [
+			{
+				"comment_id": 1,
+				"body": "giftime is pretty cool I guess\nhttp://127.0.0.1:43110/1Gif7PqWTzVWDQ42Mo7np3zXmGAo3DXc7h/\n\nif you're looking for something specific we have a few of search engines\nhttp://127.0.0.1:43110/kaffiene.bit/\nhttp://127.0.0.1:43110/zerosearch.bit\n\n0list is nice if you want to just browse and find stuff\nhttp://127.0.0.1:43110/0list.bit/\n\npersonally I like to just browse 0list and see what kind of random shit I can find",
+				"added": 1490373169
+			},
+			{
+				"comment_id": 2,
+				"body": "> [cccc555](#comment_4_1FaKUqa1nMyNwEpKXvb8o8uvZSpr3jXpNT): Thank you ivesenThe last update is 2016 for giftime ,why  not new gif?\n\nthat's for r/DevopsReactions, if you look in the top left you'll see there are two more sections, r/Gifs was updated a couple of hours ago!",
+				"added": 1490375459
+			},
+			{
+				"comment_id": 3,
+				"body": "> [methane](#comment_5_1765rBagMqT5WbfJvixmJZi8tHyh6LHkvG): giftime is very nice! where is gif hosted? in ipfs?\n\nyes! You can choose to distribute all files, or if you don't it'll only ever download the files you see",
+				"added": 1490384741
+			},
+			{
+				"comment_id": 4,
+				"body": "> [methane](#comment_4_1765rBagMqT5WbfJvixmJZi8tHyh6LHkvG): Is my test work, http://127.0.0.1:43110/145BWAnUn8wzXjE1wH8epjQJfzzYn3dNzz/ ??\n\nyour test worked just fine methane",
+				"added": 1490384783
+			},
+			{
+				"comment_id": 5,
+				"body": "> [methane](#comment_6_1765rBagMqT5WbfJvixmJZi8tHyh6LHkvG): Thanks! I'm not very familiar with ipfs, atm I don't have to pay filecoin to access ipfs, right?\n\nyou don't have to pay to use it no, although my ipfs knowledge is limited I do vaguely recall someone using it in a pay to use method, but that wasn't on zeronet.",
+				"added": 1490548100
+			}
+		],
+		"1_1HFgQAVFpWppF6iAg6p6bNwZr34yHGYnCW": [
+			{
+				"comment_id": 6,
+				"body": "based on your name I think you're gonna like this: (it so desperately needs more contributors D:)\nhttp://127.0.0.1:43110/1BuPsjT1AC5vjoAd4PmJMt4TaZvh3cgKNX/",
+				"added": 1490720482
+			}
+		],
+		"3_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": [
+			{
+				"comment_id": 7,
+				"body": "if you just want to look at some code that has accomplished the same / similar things I have a couple of links\nI'd love to help you but I can't say I've worked enough with zeronet yet ( actually I haven't even made a test zite for myself yet lol)\n\nzeromusic:\nhttp://127.0.0.1:43110/1MusicXkuN2pk5hRdmroeyaCLDJtzTicpB/\nmusic:\nhttp://127.0.0.1:43110/1JMuapWVoZWAYgty4fdo3ngopAULbCPC6i/",
+				"added": 1490743827
+			}
+		],
+		"11410_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 8,
+				"body": "vpn.\nthat data is useless if it's routed through an encrypted vpn!\n\nyou can look into tor however I don't know that tor actually hides DNS requests and such outside of .onion sites (someone else will have to prove me wrong on this one)\nZeronet should also be immune to this since it doesn't use DNS and according to the faq is TLS encrypted (woo)\n\nwith vpn I personally use frootvpn, their website is shit but the service itself is good.\nhttps://www.frootvpn.com\n\nI've been recommended these by level1techs (they're IT pro's or something)\n(taken from youtube)\nPrivate Internet Access\nhttps://www.privateinternetaccess.com/\n\nPureVPN\nhttps://www.purevpn.com/\n\nLiquidVPN\nhttps://my.liquidvpn.com/\n\nI believe for your purposes, this should suffice. If you have any further questions you can always mention me!",
+				"added": 1490747788
+			}
+		],
+		"3_12p3yAJYYbtSY226FLMaxXLMtFkBaLxu9a": [
+			{
+				"comment_id": 9,
+				"body": "if you want freedom make your own zite,\nthat way you're the ONLY person who can moderate.\n\nAnd unlike clearnet you don't have to pay any hosting costs.",
+				"added": 1491087993
+			}
+		],
+		"1_1CwxK59mAFkKoFhnEw3ZyuHsVSEF2bj76": [
+			{
+				"comment_id": 10,
+				"body": "here's a pretty decent list:\nhttp://127.0.0.1:43110/0list.bit/?Topic:30_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ/My+list+of+Interesting+ZeroNet+Sites+List+of+ZeroNet+Sites+GitHub",
+				"added": 1492423095
+			}
+		],
+		"1_12PByNvF6X2aF9wf68iSLFD1JDBKKAGTvo": [
+			{
+				"comment_id": 11,
+				"body": "if you're talking about the local zite storage it's either in the install directory or if you're using the aur package zeronet-git it'll be in /var/zeronet (iirc)",
+				"added": 1493303607
+			}
+		],
+		"1_1P8g5N1QWebJtcm5B1wVU7RLXGYSYothoQ": [
+			{
+				"comment_id": 12,
+				"body": "this is some reddit-like iirc\nI don't use reddit so I wouldn't know, it's nice for QA style stuff though",
+				"added": 1493752772
+			},
+			{
+				"comment_id": 13,
+				"body": "> [wieke](#comment_5_13Zs1NLz7LS9NsWtaQLwBmUZEXfz1i3agg): It's not that reddit like actually. Reddit as tree style comments, not a flat list. And the comments are usually ordered by upvote/downvote ratio, which ZeroTalk doesn't seem to do either. [...]\n\nhmmm, I never really considered this to be a forum, though now that you mention it I guess that is an apt description.",
+				"added": 1493809983
+			}
+		],
+		"4_1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x": [
+			{
+				"comment_id": 14,
+				"body": "turns out that irc relies on users actively using it, or having many many users.\nsadly that hasn't materialized on zeronet yet, but I'm sure it'll come around eventually.",
+				"added": 1494187980
+			},
+			{
+				"comment_id": 15,
+				"body": "> [thegillies](#comment_13_1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x): I wonder why? There are like 8 billion people in the world and only a handful of distributed networks. Why are there only 5 of us? The maths just aren't working for me.\n\nbecause they've been imprisoned to proprietary software by their so called \"friends\" that make it nearly impossible to  switch away from their skypes, facebook and twitter! \nI say that pseudo-sarcastically, but in truth I believe that to be one of the issues. People aren't really considering using zeronet partially, but instead as an all or nothing deal.",
+				"added": 1494222334
+			}
+		]
+	},
+	"comment_vote": {
+		"265_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1
+	}
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G7oUxMqffNJy5KRAW8PgDhOqMJZVEIRNkJSiPJ1TS/jPHuM+CAllBqkMYneahSUgDjyQn8tprewjJQPFXegl91U=",
+ "cert_user_id": "eratas@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "5e1ab35d52a9b47ba4251ff4472c0c6d8a461f2473e1a72a2f3db455b22dde38",
+   "size": 241
+  }
+ },
+ "inner_path": "data/users/18tHMpnEEZgu1rA9cmCyqsQABeqphsDbKH/content.json",
+ "modified": 1490316448,
+ "signs": {
+  "18tHMpnEEZgu1rA9cmCyqsQABeqphsDbKH": "HMdVLpU9Th6+ZuyGkrQgBfaa4PF33DkgTRVN9apR41WhSmrjRx33ekwWOiwNU4YM7Fb+kUsK1Zv1jEkSE0mVqXg="
+ }
+}

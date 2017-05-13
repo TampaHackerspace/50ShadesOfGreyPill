@@ -1,0 +1,18 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HFWpGtL+QybU4Vgu4sXBQn0R5Id4waMW6iKhYIqGbiMfc7LCWsT5ptD2Nrs+IsRMfdhU/hDxAy1Pe+5q16UrNYM=",
+ "cert_user_id": "cantalupo@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "a65b10c870f7d63193fbe61b18ea321d732181115c5ffe5da44d1c087dd23334",
+   "size": 549
+  }
+ },
+ "inner_path": "data/users/1GCBbTCjGZsJL7BqdRx13gEbueEnY6gsMm/content.json",
+ "modified": 1481864673.922384,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1GCBbTCjGZsJL7BqdRx13gEbueEnY6gsMm": "Gw12XJvQsnkjUGnooeIjoRjndjfzf7Q/P9VjNWhAXuObA8JzFWvTabdnvAihXsL8NnJtGfaFqW1l7nDRpdmp6HI="
+ }
+}

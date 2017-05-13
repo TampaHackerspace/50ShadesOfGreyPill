@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G74biI4ctf8AKwBJ3PKsiSB0eHP4EWchXgwudJSFmyDncHoocBknTKrEkqxJGBHRDcgL1sl9CnIofXWeDKlQHQk=",
+ "cert_user_id": "redpill@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d18960dbbccc0cff960a9260d0ce9542a7753f2e0e5d30bff25503792ba17db5",
+   "size": 3175
+  }
+ },
+ "inner_path": "data/users/1HRqipL1thbTsztjAvhN76qkzQBZ1k93nJ/content.json",
+ "modified": 1476356598.301,
+ "signs": {
+  "1HRqipL1thbTsztjAvhN76qkzQBZ1k93nJ": "HE6lExT5mbGbOMZNg3F0jGAaUN8tl00wHQP83vmZ6y447zyTOWEK3KoIe9Dugg/uHM/1t5va4LvBr+wMZtg4KAo="
+ }
+}

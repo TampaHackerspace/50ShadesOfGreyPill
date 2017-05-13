@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HM/cJ60DfqRkYTe0oDGZeleGMFs/S0X6JA4mlFnjqv1TAAz7h/qNQq0sPZVRVia8/JWlb7mhD92KwU9gUzay33M=",
+ "cert_user_id": "firethief@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "8516dfaf9258ab7d8180fe42e934ee72dd51a99b812fa5b271d55ec586f594f3",
+   "size": 241
+  }
+ },
+ "inner_path": "data/users/1AUnNpLkDtRHtXkQ7RMWPQAkqCwxtY3c1Z/content.json",
+ "modified": 1482800743.607,
+ "signs": {
+  "1AUnNpLkDtRHtXkQ7RMWPQAkqCwxtY3c1Z": "HNGFZjDE7RjPBjfLJQaUFTR8nK+0fjzwbotHvZOxj+txyV0NlfsL2v08nN7dZC88wdcD5/Y8TOO+vrurCz2JB5I="
+ }
+}

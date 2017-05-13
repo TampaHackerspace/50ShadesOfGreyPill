@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G1GbjKVqqIj7CiQUFjCvqRxvwmsFOU5RzHT2cc6sF72x+6N7/Q7tZ9lLeqPTuK7ScIikxH2ycOryLbfXy86XiKg=",
+ "cert_user_id": "kytv@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "4db629ecff09098a7684c7009b993d96b75f2436e5bef3acaacbfe8e32d76f84",
+   "size": 392
+  }
+ },
+ "inner_path": "data/users/1EwDgtYPTUZhCQXt6toiRL6yM6bbXwbkCy/content.json",
+ "modified": 1477240591.775528,
+ "signs": {
+  "1EwDgtYPTUZhCQXt6toiRL6yM6bbXwbkCy": "G464NTS0ohzfIy4JHVIIY/dxEX4OKFSyS3ZuV6IwN4bM01uokKkuh5gDAAF4Pl85dbc+6QjLD1dYDCZu+PDhik4="
+ }
+}

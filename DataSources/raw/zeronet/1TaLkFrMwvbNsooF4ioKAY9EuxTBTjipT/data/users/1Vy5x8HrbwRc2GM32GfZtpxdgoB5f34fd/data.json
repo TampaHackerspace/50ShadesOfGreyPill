@@ -1,0 +1,81 @@
+{
+	"next_topic_id": 5,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Zero Talk in Italian",
+			"body": "Hi, would it be possible to create an Italian board too? I can see German, Polish, etc. boards already. Any advice on how to do it?",
+			"added": 1474131341
+		},
+		{
+			"topic_id": 2,
+			"title": "avada 5 beta",
+			"body": "Anyone here that have access to the avada 5 beta/rc  version and would like to share the package?",
+			"added": 1474273420
+		},
+		{
+			"topic_id": 3,
+			"title": "Zero Chat IT",
+			"body": "http://127.0.0.1:43110/15JoxzSs28pEFyc2rm5PtLBv6Q25BsUvvK/",
+			"added": 1474366575
+		},
+		{
+			"topic_id": 4,
+			"title": "remove message from chat",
+			"body": "So, assuming I'm the chat admin, how do I remove a message from the log? \n\nI tried editing <sitename>/data/users/<author>/data.json but the unwanted message is still there after signing and publishing the site",
+			"added": 1474889007
+		}
+	],
+	"topic_vote": {
+		"1_1Kg78bpJSKJ5FRBUN8jqRE9Y9h2cPectH8": 1
+	},
+	"next_comment_id": 8,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "test",
+				"added": 1474125339
+			}
+		],
+		"1_15zYrGJKfXo6XXU6rBUsuU3cTgpJkDuQYA": [
+			{
+				"comment_id": 2,
+				"body": "currently I can't download leaks from 28 to 35, could you check?",
+				"added": 1474272929
+			}
+		],
+		"1_1Vy5x8HrbwRc2GM32GfZtpxdgoB5f34fd": [
+			{
+				"comment_id": 3,
+				"body": "I sent a 0mail to nofish, let's see what happens",
+				"added": 1474273538
+			},
+			{
+				"comment_id": 4,
+				"body": "A preliminary version of the italian zerotalk board is available here: http://127.0.0.1:43110/1MxvDmGn5fipn7cyjXAMyMZPH3SyhwfZkw/\nhave fun",
+				"added": 1474362710
+			},
+			{
+				"comment_id": 5,
+				"body": "@sirenyc, already did that, thanks for your help : )",
+				"added": 1474409285
+			}
+		],
+		"4_1Vy5x8HrbwRc2GM32GfZtpxdgoB5f34fd": [
+			{
+				"comment_id": 6,
+				"body": "@nofish: thanks, it works",
+				"added": 1474902591
+			}
+		],
+		"11_1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp": [
+			{
+				"comment_id": 7,
+				"body": "puoi linkare forum e chat italiani? http://127.0.0.1:43110/15JoxzSs28pEFyc2rm5PtLBv6Q25BsUvvK/ e 1MxvDmGn5fipn7cyjXAMyMZPH3SyhwfZkw",
+				"added": 1476687667
+			}
+		]
+	},
+	"comment_vote": {}
+}

@@ -1,0 +1,40 @@
+{
+ "address": "1UDbADib99KE9d3qZ87NqJF2QLTHmMkoV",
+ "files": {
+  "users.json": {
+   "sha512": "12f76e24094c515d249c6fdea3d07ba68bbef99a3930ed71e243e1b510c94daf",
+   "size": 568
+  }
+ },
+ "ignore": "(?!users.json)",
+ "inner_path": "data/userdb/content.json",
+ "modified": 1489320457,
+ "signs": {
+  "1UDbADib99KE9d3qZ87NqJF2QLTHmMkoV": "G11lLo78yIPutniNj1fXAHuQE2eED6dYJi5ra2AHasLoocOqeMcVtA1j2UR3F5PDggIf7xqWbi3hB25Ja08VpyA="
+ },
+ "user_contents": {
+  "archived": {
+   "16YxtnaTrCSbvCXSYxrnvobmYnqtidxG23": 1489320407,
+   "16hBfwen4vQfa7NFkKPFCwWy4XViRA5DYq": 1478914280,
+   "17Ji8e2Ccg9CvahKnuZxyg1BvwH6aHPj4x": 1478914280,
+   "19JudoGv4d8tHgENgmxveHgRg7Q5Cvptgw": 1478914280,
+   "1LvMzWo3SGJQbkv5e9JeDmqzjdTyiD7ow3": 1478914280,
+   "1MEaxKqZWGEqFH62TRNEEZuNh8iX4nnq5f": 1478914280
+  },
+  "cert_signers": {
+   "zeroid.bit": [
+    "1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz"
+   ],
+   "zeroverse.bit": [
+    "1HPgDoReCFtE9qy71hnp55ksBVvV1gHJLQ"
+   ]
+  },
+  "permission_rules": {
+   ".*": {
+    "files_allowed": "data.json",
+    "max_size": 6000
+   }
+  },
+  "permissions": {"banexample@zeroid.bit": false}
+ }
+}

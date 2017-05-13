@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GwgVRQBLPzh4L9+Ntp9uJs9USfWEH1FPSg8FUx+lZ7ZPdz2nS5kjZIPVtKICg94W4XaLlIEDXM4VLwc+4y6vFgk=",
+ "cert_user_id": "hassan91@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "409f654d04efbe23753a1be365292717be785dd29bc743ddd3b02a07cd7169d7",
+   "size": 1522
+  },
+  "data.json": {
+   "sha512": "81b8c171afba3ee4ab681ed2666ef45e2eb1215c0e5c3914664bfb707fc990bd",
+   "size": 986
+  }
+ },
+ "files_optional": {
+  "1492438030.jpg": {
+   "sha512": "71eb2d7e40fcc181b9cb89f48d259a20d822de03dd7eeb21fee713585410e1e8",
+   "size": 44170
+  }
+ },
+ "inner_path": "data/users/1AcD91vAdspbrpmomnSPwdYZHN2k8CVyLG/content.json",
+ "modified": 1492438045,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1AcD91vAdspbrpmomnSPwdYZHN2k8CVyLG": "GxWCP7d90wizLk5Tjr2m8TFybvEL0f/SEcgcILI8Wh9J8PeUuSXz/uBBSTKTvDpqERxCMxY3mS3d2GfOVYN5LzU="
+ }
+}

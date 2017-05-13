@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "Gx88QUxJ50ilhRouV2Td6ZWjNBQcv1kCfJv7lVmU03SHaq6Q74UpWXINnlKubrZvKiem+hW0aLvziC38pxZ0OKM=",
+ "cert_user_id": "theamericanfucki@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "173d0002111dce7cf27249d7a1ca46058a90e08fb2b162863a1f2ad051005225",
+   "size": 889
+  }
+ },
+ "files_optional": {
+  "1484657995.jpg": {
+   "sha512": "f1578c9f46726eb7fbc5b3cf313fd1368b49a0c6c2a0a4e7a9192aaa49ca03a9",
+   "size": 73419
+  },
+  "1484658013.jpg": {
+   "sha512": "e388619d4585c2d015a12e481894eb2db7da6e96cc5e995e0d937e37a15387db",
+   "size": 82550
+  }
+ },
+ "inner_path": "data/users/1FKScht9PemBe7SsRFuKX2iNPeMeKaAdH8/content.json",
+ "modified": 1484658009,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1FKScht9PemBe7SsRFuKX2iNPeMeKaAdH8": "GyuyitEKVZarev3nJeri00oSKp2Cs9ntEHHXKyUDvSq6jDTREov5EAR7j+stW+Idw5KqfYn72HI89X9w7mbt+2k="
+ }
+}

@@ -1,0 +1,275 @@
+{
+	"next_post_id": 12,
+	"next_comment_id": 19,
+	"next_follow_id": 13,
+	"avatar": "jpg",
+	"user_name": "Nyo",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "\\>1",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1483268811,
+			"body": "你好 ZeroMe!"
+		},
+		{
+			"post_id": 1483269011,
+			"body": "First post",
+			"date_added": 1483269009
+		},
+		{
+			"post_id": 1484397209,
+			"body": "ZeroZone! 已加入开发计划",
+			"date_added": 1484397206
+		},
+		{
+			"post_id": 1484398798,
+			"body": "ZeroZone! UI预览，这个是给正常网络使用的，到时候可能会有少许出入",
+			"date_added": 1484398794,
+			"meta": "{\"img\":\"900,632,8bbeeefff6aadddcddaccbcc,0111122222312144412231214441223222225665312222755531214141113121111122\"}"
+		},
+		{
+			"post_id": 1484414163,
+			"body": "睡觉，晚安",
+			"date_added": 1484414158
+		},
+		{
+			"post_id": 1484414224,
+			"body": "对了，空网站先走一波\nhttp://127.0.0.1:43110/zerozone.bit",
+			"date_added": 1484414218
+		},
+		{
+			"post_id": 1484590149,
+			"body": "说点关于 ZeroZone! 的想法。。。目前 ZeroNet 没法提供非常迅速的通讯，那么 ZeroZone! 只能考虑通过外部服务器来提供即时通讯。\n关于数据安全的问题，我可以用 ZeroFrame 提供的 AES 加密来对消息进行加密后发送到外部服务器以实现安全的即时通讯，同时利用 ZeroNet 自身的特性来存储聊天记录。加密用的密钥就是房间密码。至于是否能把每个房间的数据库独立出来并做成 optional file 似乎并没有框架内的方案，所以待定。\n关于私聊，如果独立数据库能够解决的话私聊也不会是大问题。即时私聊倒是可以加入，不过暂时不属于主要开发范围。",
+			"date_added": 1484590142
+		},
+		{
+			"post_id": 1484591108,
+			"body": "补充一点，创建房间可能需要在公网上自备一台即时通讯服务器，服务端到时候会放出。ZeroZone! 会通过房间密码加密服务器地址的方式记录服务器数据。如果不提供服务器的话也可以，但是只能享受 ZeroNet 的慢速通讯了23333",
+			"date_added": 1484591100
+		},
+		{
+			"post_id": 1485014467,
+			"body": "完了，有人在1024上发ZeroNet的介绍简直就是找死",
+			"date_added": 1485014458
+		},
+		{
+			"post_id": 1485103697,
+			"body": "新用户大量涌入不是什么好事。经验之谈。",
+			"date_added": 1485103687
+		},
+		{
+			"post_id": 1485536375,
+			"body": "祝大家鸡年大吉吧2333333333",
+			"date_added": 1485536364
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Hi there!",
+			"post_uri": "1Ke8zHBbtjXRXxnWEBb5pzQHFZLLcm9NQE_1",
+			"date_added": 1484396763
+		},
+		{
+			"comment_id": 2,
+			"body": "@Papa: 我写着玩的一个聊天室的ZeroNet适用版",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484397209",
+			"date_added": 1484397260
+		},
+		{
+			"comment_id": 3,
+			"body": "@Papa: 但是聊起来蛋疼啊2333",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484397209",
+			"date_added": 1484397320
+		},
+		{
+			"comment_id": 4,
+			"body": "@Papa: 我也就做个UI，让聊天室看起来像个聊天室罢了",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484397209",
+			"date_added": 1484397345
+		},
+		{
+			"comment_id": 5,
+			"body": "@FreezingCold: 毕竟是自己做，还是会不大一样的",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484397209",
+			"date_added": 1484398092
+		},
+		{
+			"comment_id": 6,
+			"body": "Hello, Deluxghost!",
+			"post_uri": "1Ke8zHBbtjXRXxnWEBb5pzQHFZLLcm9NQE_1484397224",
+			"date_added": 1484398194
+		},
+		{
+			"comment_id": 7,
+			"body": "@FreezingCold: 简单的房间支持，也许会有图片或文件分享功能",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484397209",
+			"date_added": 1484398267
+		},
+		{
+			"comment_id": 8,
+			"body": "@FreezingCold: \n@大家一起p2p: ZeroNet开发框架文档比较蛋疼而且套路和常规开发很不一样，所以恐怕近期没法很快做出来",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484397209",
+			"date_added": 1484398502
+		},
+		{
+			"comment_id": 9,
+			"body": "@Papa: 可能我这边网不好，我试试全局tor",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484398798",
+			"date_added": 1484399571
+		},
+		{
+			"comment_id": 10,
+			"body": "@大家一起p2p: 能看到图的麻烦帮忙一起做一下种",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484398798",
+			"date_added": 1484399782
+		},
+		{
+			"comment_id": 11,
+			"body": "@FreezingCold: ZeroNet上没法做到语音吧23333\n\n@大家一起p2p: 恐怕不行，P2P网络上想要资源完全消失很困难",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484398798",
+			"date_added": 1484401059
+		},
+		{
+			"comment_id": 12,
+			"body": "@12hlearn: http://127.0.0.1:43110/1DZSMYvbbsX6gbcpHEez5cGWBG7DLgVjxT/\n类似这种？",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484398798",
+			"date_added": 1484406402
+		},
+		{
+			"comment_id": 13,
+			"body": "@大家一起p2p: 准备睡了，天冷",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484398798",
+			"date_added": 1484406999
+		},
+		{
+			"comment_id": 14,
+			"body": "@P2P: 大师球！",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484398798",
+			"date_added": 1484412351
+		},
+		{
+			"comment_id": 15,
+			"body": "2333333333333这都能有",
+			"post_uri": "1N2eNZ5w1dpoBcwatsSuTaeNzHgSLjyrpU_1484493308",
+			"date_added": 1484494524
+		},
+		{
+			"comment_id": 16,
+			"body": "@Linker: 所以这是一个很矛盾的问题。。如何在保持匿名性的前提下还要保证连接速度。。。",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1484590149",
+			"date_added": 1484642633
+		},
+		{
+			"comment_id": 17,
+			"body": "@Linker: 描述太那啥了。。。不要说的那么明白啊。。。心里知道就好。。。。",
+			"post_uri": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa_1485014467",
+			"date_added": 1485017562
+		},
+		{
+			"comment_id": 18,
+			"body": "在这还有人讨论MC。。。这游戏已经完了，被微软玩死了",
+			"post_uri": "1N2eNZ5w1dpoBcwatsSuTaeNzHgSLjyrpU_1486730669",
+			"date_added": 1486738891
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1MeWAokNjdMJQNU6JGCBRVEuStt9i7ynwa",
+			"user_name": "Nyo",
+			"date_added": 1483269601
+		},
+		{
+			"follow_id": 2,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1H9R6W9QWUpYiJkLyAsFXmXhAV7HEqoHtN",
+			"user_name": "Flyman",
+			"date_added": 1483553693
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1Ke8zHBbtjXRXxnWEBb5pzQHFZLLcm9NQE",
+			"user_name": "Deluxghost",
+			"date_added": 1484396796
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1484400204
+		},
+		{
+			"follow_id": 5,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1GAWwPWreQXo1CwcefCgL6w5wYPkNFWbsj",
+			"user_name": "西木野真姬",
+			"date_added": 1484401456
+		},
+		{
+			"follow_id": 6,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1FzCyv6ibgoShdXjQu7CCLiNTWhWhj5E6J",
+			"user_name": "Mbp374",
+			"date_added": 1484405166
+		},
+		{
+			"follow_id": 7,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1FzCyv6ibgoShdXjQu7CCLiNTWhWhj5E6J",
+			"user_name": "Mbp374",
+			"date_added": 1484411533
+		},
+		{
+			"follow_id": 8,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1PK7r15RmMdmdnUCYeQEwuydfediNVDtt2",
+			"user_name": "Linker",
+			"date_added": 1484642691
+		},
+		{
+			"follow_id": 9,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1484642713
+		},
+		{
+			"follow_id": 10,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ",
+			"user_name": "Sirenyc",
+			"date_added": 1484643714
+		},
+		{
+			"follow_id": 11,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1MpUdwe28gwynzoKg9ziFCRWcQK2FqNunb",
+			"user_name": "火犬",
+			"date_added": 1485001160
+		},
+		{
+			"follow_id": 12,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13jL799v8v688HkkF9nAVAse9PcieWBfVA",
+			"user_name": "知乎日报",
+			"date_added": 1485104052
+		}
+	],
+	"settings": {
+		"reverse_comment_order": false,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"blocked": [],
+	"flags": {
+		"post-1ArVAHkGKYqRo2jQ1oPHjkFVHkYDvuBoci_1484399336": 1
+	},
+	"comment_like": {}
+}

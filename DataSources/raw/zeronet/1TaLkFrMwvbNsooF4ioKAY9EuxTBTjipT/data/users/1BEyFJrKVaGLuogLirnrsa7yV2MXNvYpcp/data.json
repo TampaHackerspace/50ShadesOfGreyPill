@@ -1,0 +1,78 @@
+{
+	"next_topic_id": 5,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "[tip] How to use Zeronet in combination with Tor Browser",
+			"body": "Here's how to use Zeronet with Tor Browser:\n* Download [Tor Browser](https://www.torproject.org/download/download-easy.html.en) \n* Install and run it\n* In the browser click on the hamburger menu icon\n* Go to `Preferences` --> `Advanced` --> `Network` tab --> `Settings...`\n* Under `No Proxy for:` add `127.0.0.1`\n* Then run Zeronet with `python zeronet.py --tor always --tor_proxy 127.0.0.1:9150 --tor_controller 127.0.0.1:9151`\n* And then go to `127.0.0.1:43110` in **Tor Browser**",
+			"added": 1479416064
+		},
+		{
+			"topic_id": 2,
+			"title": "How can I browse static Zites without requiring Javascript?",
+			"body": "",
+			"added": 1480026090
+		},
+		{
+			"topic_id": 3,
+			"title": "[suggestion] Maximum Zite size",
+			"body": "Ability to set something like `\"max_size\": 41943040` to `content.json` for 40 MiB\nThis is to prevent  a Zite from becoming too large, either by spam, or other reasons.",
+			"added": 1480113587
+		},
+		{
+			"topic_id": 4,
+			"title": "[suggestion] If a file with same SHA512 hash is already downloaded, do not re-download",
+			"body": "Now if someone renames or moves a file, the whole file is re-downloaded.\n\nIt would be better if it saw the SHA512 hash and compares it with the old `content.json` and just moves/renames the already downloaded",
+			"added": 1480114430
+		}
+	],
+	"topic_vote": {
+		"1_156xbcM9BrbdhtYZUPAQBFvLDGGyy5AjdM": 1,
+		"1_1Cxt2k3farSSee7HTkJKJ7eCTKxfFGNXe6": 1
+	},
+	"next_comment_id": 8,
+	"comment": {
+		"1_156xbcM9BrbdhtYZUPAQBFvLDGGyy5AjdM": [
+			{
+				"comment_id": 6,
+				"body": "It is possible, actually, and I think its very useful for a lot of use cases\nI know you can't change a file of a user, but **peers can delete the individual files of the user**, like this:\n```\n[...]\n\n \"files\": {\n  \"something.txt\": {\n   \"sha512\": \"3b1ed4fd1f98d908702e2f1cd6d15549d1982609bc7cd85860bc28abad8436df\",\n   \"size\": 3637,\n   \"delete_at\": \"2016-12-31\"\n  },\n  \"something_else.txt\": {\n   \"sha512\": \"3b1ed4fd1f98d908702e2f1cd6d15549d1982609bc7cd85860bc28abad8436df\",\n   \"size\": 21557,\n   \"delete_at\": \"2016-12-31\" \n  }\n },\n```\n\n* *Peers* delete user files when the current date has passed the `delete_at` date.\n* *Peers* do not download user files when the current date has passed the `delete_at` date.\n* *Users* clean up files in `content.json` that have passed the `delete_at` date.\nThis happens when the user edits the `content.json` by editing or adding a file for example.\n",
+				"added": 1480115287
+			}
+		],
+		"1_1Kn3RNTAmEKxnSLxNCYUGeCDPo4gsJHjQ8": [],
+		"4_156xbcM9BrbdhtYZUPAQBFvLDGGyy5AjdM": [
+			{
+				"comment_id": 3,
+				"body": "Thanks @nofish",
+				"added": 1479836376
+			}
+		],
+		"2_1BEyFJrKVaGLuogLirnrsa7yV2MXNvYpcp": [
+			{
+				"comment_id": 4,
+				"body": "Thanks",
+				"added": 1480079613
+			}
+		],
+		"3_156xbcM9BrbdhtYZUPAQBFvLDGGyy5AjdM": [
+			{
+				"comment_id": 5,
+				"body": ">There is a Pause option.\nPausing a Zite will only pause for you, not site-wide.\n\n>Don't publish when you don't want people to update?\nI want to set a period in where people can or cannot publish in between, without requiring me to manually \"freeze\" my Zite.",
+				"added": 1480113802
+			}
+		],
+		"4_1BEyFJrKVaGLuogLirnrsa7yV2MXNvYpcp": [
+			{
+				"comment_id": 7,
+				"body": "> [shift](#comment_64_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7): ... and check across all sites if we already have that file - just copy make link to them if filesystem...\n\nYeah, that's possible as well.\nMaybe storing files by hashes would be a better idea in general, like:\n`/ZeroNet/file_store/73/10/7310d905a49f81645398122ebfc008b8c952090353e8b305021c37ec1d501a83`\nAnd create a symlink (or something else) to that file like `index.html` > `/ZeroNet/file_store/73/10/7310d905a49f81645398122ebfc008b8c952090353e8b305021c37ec1d501a83`",
+				"added": 1480181003
+			}
+		]
+	},
+	"comment_vote": {
+		"1_1J5uFzQBpLpoyTZfH28Fv8KrThShewrF2d": 1,
+		"825_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"43_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": 1,
+		"5_13hcYDp4XW3GQo4LMtmPf8qUZLZcxFSmVw": 1
+	}
+}

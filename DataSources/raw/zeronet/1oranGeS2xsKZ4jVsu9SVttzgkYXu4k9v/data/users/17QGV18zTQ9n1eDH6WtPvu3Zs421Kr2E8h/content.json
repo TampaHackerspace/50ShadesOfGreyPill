@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "Gz955/bVDDo7NgvyxPAXsIyGpwSPAq6lt0XmD8Lvxfmpqi8eupgnFbTJq7DfI74U/wAbf6Au2yCHKlNluJ59iEE=",
+ "cert_user_id": "snui@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "8eb2ba8f2f2a4283d3670eb7092a52cd89bbced53050496bb3d77b9c4dafe997",
+   "size": 1237
+  },
+  "data.json": {
+   "sha512": "e34a83b041e1684dfab5631851d7f2a6b809c96a72160cf1d2542393016c17ea",
+   "size": 540
+  }
+ },
+ "inner_path": "data/users/17QGV18zTQ9n1eDH6WtPvu3Zs421Kr2E8h/content.json",
+ "modified": 1483943865.464,
+ "signs": {
+  "17QGV18zTQ9n1eDH6WtPvu3Zs421Kr2E8h": "GzlwRO958ladTKOAz63SFRFrvIoYt9o2WN7v15qNFMTxvGSTBezzF1a8q9KOh2RBDk+dubQZLwyjQyC6by/LXG4="
+ }
+}

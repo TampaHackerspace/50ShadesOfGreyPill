@@ -1,0 +1,32 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HF8JGaA0+h0Tcr5R5NxaFWECRm+WFR5L1Q/e6hSYHP28CTeP1IHi1tK7KGeld16Q7HxFGywwsdicF1rAI/e8g6o=",
+ "cert_user_id": "spacemandown@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "0619e7675e9ac631da2684df3d0b8406f207aba7fbcbcd86aa067fe5900454c1",
+   "size": 1922
+  },
+  "data.json": {
+   "sha512": "0f92f92fd11d3574a4b004807e48e7ad6140b5024b2d6876ee57b2c8fa30973a",
+   "size": 1114
+  }
+ },
+ "files_optional": {
+  "1490643623.jpg": {
+   "sha512": "e9ef06435f67be0ced4f8aca62303abf154994b1f5cae6f76ed451d65dab8288",
+   "size": 53908
+  },
+  "1490734488.jpg": {
+   "sha512": "eab8dcb00078265bc11f74de70b8c71c432fe853e32826944118ec8fde36f782",
+   "size": 56080
+  }
+ },
+ "inner_path": "data/users/1G6X7Cx7yeezsCr1yrG3pt75w8rE3QkLvc/content.json",
+ "modified": 1490742729,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1G6X7Cx7yeezsCr1yrG3pt75w8rE3QkLvc": "Gwdkcx49KzYiTk7FXSyvvk0JsIe8YaGptqueRt49LbeRWwILdiaPXWDpQn24G6Bmr8/rr0DZ1n34PDexd8Ze6+g="
+ }
+}

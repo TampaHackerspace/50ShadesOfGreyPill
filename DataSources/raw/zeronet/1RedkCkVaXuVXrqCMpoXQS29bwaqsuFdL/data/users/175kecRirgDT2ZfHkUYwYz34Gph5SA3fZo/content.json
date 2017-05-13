@@ -1,0 +1,68 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G8MMTBYCJON4XANYfIrgnBFJdBBddoWLlYINYxaS3XskYBDOFXG6+3dEwp+6uCff4z1tN/YHj2CeYXbSn++6uao=",
+ "cert_user_id": "michelwebred@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "e6e65e6ea7d1e2b86c737a45429fef380816214b11e446916c5a14a1a8917676",
+   "size": 1737
+  },
+  "data.json": {
+   "sha512": "9eaf9f7e0319da213debd654b082bd40c820e83e8ca8c404de49676ac164d15d",
+   "size": 5825
+  }
+ },
+ "files_optional": {
+  "1491776859.jpg": {
+   "sha512": "734ffd68dc8013c1ea5b10cdc1e424bd230a1284874d4682358a394bf7e459db",
+   "size": 44235
+  },
+  "1491777037.jpg": {
+   "sha512": "3e7fe3da45dd542baf03f6ad4a8c1e74796ab9f7ebf295ff9ef3827a870ca761",
+   "size": 84087
+  },
+  "1491945550.jpg": {
+   "sha512": "7b5e5c4a4ada902d27ff421dc9fc0460d6081dcdcef840b52d66bac1c2efad34",
+   "size": 152258
+  },
+  "1491947337.jpg": {
+   "sha512": "b38eb682f64d6137da746a1ad0bbebaf4d1d1f3a57a039456aa1468227732ab8",
+   "size": 125895
+  },
+  "1491948217.jpg": {
+   "sha512": "6b81bb626770634cec6a4fbdc8557c341c6f05076b5b3854890ccea7c7f9ec93",
+   "size": 119482
+  },
+  "1491949182.jpg": {
+   "sha512": "310b377417b32ba67893d545f1ed5348ed4f792a897b891e9c9575263f8a23f9",
+   "size": 63746
+  },
+  "1493672446.jpg": {
+   "sha512": "d7570c2e17110396dfe87002376df739b6d2a46f220a2179ed2510666183d1ee",
+   "size": 75934
+  },
+  "1493672956.jpg": {
+   "sha512": "7075287aa6446ca0cc2b3559aac3f8ed2e324e9d121a8458c318796d2ddb9fc6",
+   "size": 158763
+  },
+  "1493673488.jpg": {
+   "sha512": "7f637c510a3c22c336ce9643bc17c3a876b1f982cd285204086d989924e1fffa",
+   "size": 168307
+  },
+  "1493674085.jpg": {
+   "sha512": "41a801b6e59bb7bcbc4a57fdb5f6bad189a25147aa34e5f58b807fcf7217cab5",
+   "size": 34537
+  },
+  "1493674792.jpg": {
+   "sha512": "0e110d13ee79c857000074868d6bed87b1598c6ebb47ee7e4689d5321ffbb310",
+   "size": 43320
+  }
+ },
+ "inner_path": "data/users/175kecRirgDT2ZfHkUYwYz34Gph5SA3fZo/content.json",
+ "modified": 1493758194,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "175kecRirgDT2ZfHkUYwYz34Gph5SA3fZo": "G4JNIuD5tVdGXTLZXnWJ4OVWCXHRlI2kB4hWmd3Zdpebf0NeZJ94ga8N+2S4EV/YBJQLrK9YFOgnTcdQzcVwP50="
+ }
+}

@@ -1,0 +1,207 @@
+{
+	"next_comment_id": 33,
+	"user_name": "Rythyrix",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"post_like": {
+		"1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1486230894": 1486250089,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1488504214": 1488931559,
+		"1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1490651863": 1490654045,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1490715178": 1490720923
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "NYET",
+			"post_uri": "1PbPtbrRNGenhMsgQo5f1S1GVpPaom7PvQ_1481773148",
+			"date_added": 1484284729
+		},
+		{
+			"comment_id": 2,
+			"body": "Was that an actual popup from Firefox? If so, that's kind of creepy.",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1485984480",
+			"date_added": 1485992048
+		},
+		{
+			"comment_id": 3,
+			"body": "Neato, no routing around user-defined settings is good for my peace of mind.",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1485984480",
+			"date_added": 1486012989
+		},
+		{
+			"comment_id": 4,
+			"body": "I can access it :D Updated 46 m ago according to ZeroHello.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1487028399",
+			"date_added": 1487030834
+		},
+		{
+			"comment_id": 5,
+			"body": "Holy cow I have that font on my phone. Did not expect that.",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1487962827",
+			"date_added": 1488055664
+		},
+		{
+			"comment_id": 6,
+			"body": "@Arsene Lupin: I imagine he means enough people to have almost no delay between posts, right now the flow of posts ebbs when said posters go to bed/work/else and there aren't enough people on at any given time to keep the flow up.",
+			"post_uri": "1H5WRA7R7KdqCG8wjeotHPX79CQNLNmbtH_1488711536",
+			"date_added": 1488742644
+		},
+		{
+			"comment_id": 7,
+			"body": "@Sick: l2semver. http://semver.org/",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1488188813",
+			"date_added": 1488858498
+		},
+		{
+			"comment_id": 8,
+			"body": "I'd bet (if I had any Bitcoin) that BitTorrent, Inc. is thrilled at an excuse to recreate a protocol. I wonder if they will open-source it this time around. If not, well, it's not like one cannot simply up the hashsize of the protocol. ",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1488859782",
+			"date_added": 1488863262
+		},
+		{
+			"comment_id": 9,
+			"body": "Out of curiosity, will you be releasing a new bundle soon, or have any extra instructions for updating beyond move files into /loader?",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1488504214",
+			"date_added": 1488930635
+		},
+		{
+			"comment_id": 10,
+			"body": "@Firebox: Beyond breaking backwards compatibility (which is discussed in @Zeratax's link), why does it suck?",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1488859782",
+			"date_added": 1489467935
+		},
+		{
+			"comment_id": 11,
+			"body": "E.\n\nEDIT: Make that G: Command-line option to create ```loader/files/list.json``` from current files found in directories. Would make uploading a breeze to integrate.",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1490071283",
+			"date_added": 1490141822
+		},
+		{
+			"comment_id": 12,
+			"body": "Directly dumping the multiple gigs of data will make A) your ```content.json``` swell up like a balloon, and B) make hashing all those files take ages, which must be done each and every time you wish to publish. Consider making a few pubkeys, perhaps even with your own signing authority (ZeroID clone?), and splitting up the data amongst them, so you only have to rehash a couple of gigs instead of the entire site each time you wish to publish.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1490394361",
+			"date_added": 1490399570
+		},
+		{
+			"comment_id": 13,
+			"body": "@Emilie: Torrents are public without a VPN. Might turn some folks off of the idea of investigating without a safe way to download.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1490394361",
+			"date_added": 1490399673
+		},
+		{
+			"comment_id": 14,
+			"body": "And old Mac (as in, version 7 Mac) platformer called Ferezel's Wand. That was a good game for it's time.",
+			"post_uri": "1EZzNxPxXMSXmEMwJSU3U8jcgjfdAeyTfr_1490386781",
+			"date_added": 1490399729
+		},
+		{
+			"comment_id": 15,
+			"body": "I think that as long as you possess an updated and signed copy of the content.json, it will be sent to new peers who connect to YOU as part of their initial seed, who will then spread it as new peers connect to them. Current peers will occasionally ask others for their copies of your content.json, which may or may not be updated. If they ask your node for it, they will receive the new content as well, making them pass it along. Why would you not publish it, short of checking for signing errors?",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490365160",
+			"date_added": 1490399913
+		},
+		{
+			"comment_id": 16,
+			"body": "@Mynameislegion: Hence the idea of using user-submitted files (in the logistical sense, not public modification) to reduce the amount of time per change of the site. Store the content under some your ```data/users/KEYHERE``` directories, enable signs only from a cert auth under your control to disable public modification, and then the leak data needs hashed only once, as opposed to everything needing hashed for changing one character in your homepage :P I'll go do a quick test and see if the site owner's hashing also hashes a user's data.\n\nEDIT: Just tested it, it seems as though unless it is ignored in the site's ```content.json``` via the ```\"ignore\": \"(pregex)\",``` object, it is also added to the site's content, meaning you will have to standardize or specify which files to ignore.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1490394361",
+			"date_added": 1490401546
+		},
+		{
+			"comment_id": 17,
+			"body": "@k0re: [New ZeroNet Sites](http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n/) is a useful site to get some initial peers.",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1490429585",
+			"date_added": 1490470145
+		},
+		{
+			"comment_id": 18,
+			"body": "Check out [New ZeroNet Sites](http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n/) for sites that need peers <3",
+			"post_uri": "19sv9J4QjCvcqmbvVYosqofWNFCxCwN7EJ_1490446549",
+			"date_added": 1490472112
+		},
+		{
+			"comment_id": 19,
+			"body": "This is quite disturbing. Hope he comes back soon.",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1490586760",
+			"date_added": 1490592282
+		},
+		{
+			"comment_id": 20,
+			"body": "Regarding the Tor possibility: It is easily possible, so long as you restart your ZeroNet daemon within about an hour of shutting it down; ZeroNet generates a new SSL cert at every startup by default, which results in a different set of onion addresses. While you CAN disable this functionality, short of hosting a ZeroNet proxy, I fail to see why you would. The tracker doesn't know who's at the other end of the Tor connection; it just logs that the peer at HfHLpTT2qRIO66Wa.onion has site BLAH, and so does peer dBpSkmZ45eCbF6tM.onion.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1490645482",
+			"date_added": 1490653451
+		},
+		{
+			"comment_id": 21,
+			"body": "@Border0464fred: I would take offense to that, but it's not untrue.",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1490586760",
+			"date_added": 1490653899
+		},
+		{
+			"comment_id": 22,
+			"body": "Quite the milestone. Now beat the [Library of Congress](https://loc.gov/about/frequently-asked-questions/#every_book), which is actually possible; \"only\" 36M books and 121M maps, recordings and other archivable media :P",
+			"post_uri": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1490651863",
+			"date_added": 1490654249
+		},
+		{
+			"comment_id": 23,
+			"body": "Of which there are almost 10k. Nearly everyone who has a ZeroID has a ZeroMail, after all, and they all contribute 2 files. Yeah, grab a cuppa and read a book.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1490904634",
+			"date_added": 1490928382
+		},
+		{
+			"comment_id": 24,
+			"body": "Yay, I already am <3",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1491861003",
+			"date_added": 1491882857
+		},
+		{
+			"comment_id": 25,
+			"body": "Steamed broccoli is best side dish. Combined with mashed potatoes and gravy, delicious.",
+			"post_uri": "1Koe97YQ3wR5oFauQoGuUCBNqZ73SMTrKi_1491936454",
+			"date_added": 1491955567
+		},
+		{
+			"comment_id": 26,
+			"body": "Lotsa nodes, there. :P",
+			"post_uri": "1A6b8Hua98MtrVMXTpTYmQXvZVqPP48As3_1",
+			"date_added": 1492288771
+		},
+		{
+			"comment_id": 27,
+			"body": "This sounds suspiciously similar to being forced to recite the Pledge of Allegiance in elementary.",
+			"post_uri": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1492762014",
+			"date_added": 1492822400
+		},
+		{
+			"comment_id": 28,
+			"body": "Replace? I don't see it; some dark web operators/operations would benefit from the traditional client/server model, rather than a distributed storage model.",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1492923300",
+			"date_added": 1492932388
+		},
+		{
+			"comment_id": 29,
+			"body": "@Jayofthezero: \"Sir, I'll take the shit sundae with more skin sprinkles, sir!\" Sorry, it irks me whenever 'at least X didn't do bad thing Y', it doesn't make either any less bullshit.",
+			"post_uri": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1492762014",
+			"date_added": 1493175052
+		},
+		{
+			"comment_id": 30,
+			"body": "@Jayofthezero: Wasn't meant to offend. Rather annoyed at the attitude of The Corporate States of America today:  \"Back to work, do not question, we'll take the contributions to or private island funds now.\" Seems like every job today is a dead end.",
+			"post_uri": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1492762014",
+			"date_added": 1493234531
+		},
+		{
+			"comment_id": 31,
+			"body": "Ack, I only have 17gb! I need to step up my game.",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1493578158",
+			"date_added": 1493579256
+		},
+		{
+			"comment_id": 32,
+			"body": "@Jayofthezero: First they came for the Russians, but I didn't speak up because I wasn't a Russian...",
+			"post_uri": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1493723175",
+			"date_added": 1493781756
+		}
+	],
+	"flags": {},
+	"comment_like": {}
+}

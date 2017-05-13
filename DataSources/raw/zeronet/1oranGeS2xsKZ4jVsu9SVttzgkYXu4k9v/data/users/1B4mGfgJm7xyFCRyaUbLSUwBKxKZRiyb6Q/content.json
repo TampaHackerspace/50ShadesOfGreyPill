@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HJQvKPdTeA5+8BmXL+DlYgLN+KkFaMpZuoxZCwsCFBRA+7L6JkmLCHDL4Cdjj9pRUWPHhashFNoAoDxgE1BxSkA=",
+ "cert_user_id": "ebanator@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "16ff6ad845d8d2c4cf79ddc4bbf40be03deb5a67906d44f09fa395733c6eaf05",
+   "size": 1623
+  },
+  "data.json": {
+   "sha512": "f0f0ba6e2336ba916712d7b0303b8b0ab3b8dc3a7d2d9d0acebbe207bdd2889d",
+   "size": 4806
+  }
+ },
+ "inner_path": "data/users/1B4mGfgJm7xyFCRyaUbLSUwBKxKZRiyb6Q/content.json",
+ "modified": 1480859679.501262,
+ "signs": {
+  "1B4mGfgJm7xyFCRyaUbLSUwBKxKZRiyb6Q": "Gxm6sWv5bLVZ8687dbuECtUhQJDaLRXSfeVw3vxE8ogTu0aUx3PyoGUzlXeeACOaF37+Trg0b59O0j+GAisTX88="
+ }
+}

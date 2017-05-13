@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G/34J0JgD97wv56511St33CGOTH7zi3ecAmObHlZ6q/At4XbH9o4IE5a2t65CHdiufxgvQfbYdvUI+Xz3+2brik=",
+ "cert_user_id": "prahlad@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "88090ff3de8155d932d581a340b959329cd62782d36b8ede33eb889b13f53da5",
+   "size": 245
+  }
+ },
+ "inner_path": "data/users/1MrGMH8FUaRcC269GqEJoNvKJy1ruXytsC/content.json",
+ "modified": 1488157951,
+ "signs": {
+  "1MrGMH8FUaRcC269GqEJoNvKJy1ruXytsC": "G4/R5nOc04W+6aKKDeLz+HWJ9NqGAPn2SOCYxRkK7uElehH2h/pzKbioijI4dtVB9bIwrws8iQWODWdvDsQ5ffM="
+ }
+}

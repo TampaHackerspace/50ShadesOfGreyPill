@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HHMxQcSRdy5mA3tacC8UXc47kSVq3M9b/S0uKsogrjyyqTkWxvEaxg1o7e4wAXLpdSisOAPyGZI2DavftHIgtI8=",
+ "cert_user_id": "fakejews@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "558cc97fee03e0fc6b5d08fbf18b95c499bacbb03276960580df1412b3f6dee8",
+   "size": 1837
+  }
+ },
+ "inner_path": "data/users/1EWcSH8L4VBXvQVn4NB4s8HsJuJzNwATYD/content.json",
+ "modified": 1491739749,
+ "signs": {
+  "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT": "HESQQErKJ44N2ErIxvvfMIouuFcyexJKYJnitWJRhnCYJRB9O4T8Y1r86G8RTtlfkFOhf4zYjEz6GtFQRGR2iVI="
+ }
+}

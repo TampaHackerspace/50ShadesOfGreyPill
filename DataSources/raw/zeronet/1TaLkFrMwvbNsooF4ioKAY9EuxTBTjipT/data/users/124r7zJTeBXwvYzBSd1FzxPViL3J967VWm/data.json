@@ -1,0 +1,43 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"1_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"1_16EGCX1cmogYo2EPidRU3axQ6N3jNQndoa": 1,
+		"2_1Dg6pvJYXjj2jBffi8Ba5jW9wgQPTkGTMG": 1,
+		"1_1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd": 1,
+		"4_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1
+	},
+	"next_comment_id": 5,
+	"comment": {
+		"1_1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd": [
+			{
+				"comment_id": 1,
+				"body": "> [binero](#comment_212_17ac9ybVj5CtUpBvi5NeP1EwNZjfJoZWvt): It's a tough issue though, because fake news is a serious issue. While censorship might not be the best action, something needs to be done.\n\nSure, by computer program that one runs in a machine on which reads news. \nNo government can regulate information flow in the age of Internet, peepz will develop filters by themselves. That is only natural",
+				"added": 1485912212
+			},
+			{
+				"comment_id": 2,
+				"body": "> [00d4n1](#comment_9_1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd): That's exactly what I'm doing. I'm dealing with it by proposing and discussing possible solutions for moderation. Having a block button would be an excellent start - having shareable community blocklists would be even better, and both would not be difficult to support.\n\n^",
+				"added": 1485912478
+			},
+			{
+				"comment_id": 3,
+				"body": "> [hyperbeam](#comment_13_114htPrU5VWip9ohwc6AnSvnpKpCdPKFqY): This is an awesome approach.\n\n^",
+				"added": 1485912984
+			},
+			{
+				"comment_id": 4,
+				"body": "> [wwewefewfe](#comment_1_1KKcvfW9cCMV7ePebq35XSjvBNpk3tipt8): The whole point of ZeroNet is to be COMPLETELY uncensored. It does have it's downsides, but welcome to the DarkNet. This is why the Clear Net exists so that you can block or not be expose to topics that aren't \"socially acceptable\". If you don't like it, don't click on it. I definitely do NOT support the ability to \"downvote\" threads in order to hid them from the general view. I DO support the ability to \"block\" a user or thread, but ONLY so that it's hidden on YOUR side, and not publicly.\n\nAgree perhaps completely.  If one blocks a user, in a sense that blocked user posts are not displayed when one reads a thread, is completely ok. \n\nAnd if another wish to develop and maintain list of users to block, and people chose to use its lists to reduce noise in their custom render of threads, is also completely ok. If peepz choose which black list(s) to use (given that they do not have time, or do not wish, to maintain their own list). In this situation suppose they remain hidden from public if a maintainer knows each of his subscriber public key, but then each blacklist modification would have to be encrypted and pushed to each subscriber, and distributed by subscribers among them, i suppose.\n\nI did not use aforementioned solution, but what i would find useful is that i subscribe to more than one blacklist maintainer, so blacklisted users that are not in the intersection of my subscribed lists get deprioritized in render rather than completely blocked. In an example, i may agree with 00d4n1 what is noise in moderation subforum, but i probably will not agree with him on what is noise in e.g automobile subforum",
+				"added": 1486045338
+			}
+		]
+	},
+	"comment_vote": {
+		"13_114htPrU5VWip9ohwc6AnSvnpKpCdPKFqY": 1,
+		"7_1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd": 1,
+		"2_1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd": 1,
+		"74_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"4_1AbPJSk8hULMMSzFhidAu72itdHmTfjSrD": 1
+	}
+}

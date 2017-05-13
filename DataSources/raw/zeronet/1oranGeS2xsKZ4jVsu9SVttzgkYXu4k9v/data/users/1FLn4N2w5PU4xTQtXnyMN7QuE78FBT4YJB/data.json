@@ -1,0 +1,50 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 1,
+	"next_follow_id": 5,
+	"avatar": "generate",
+	"user_name": "Kemo",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Utilisateur ZeroNet aléatoire",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1490184351,
+			"body": "Bonjour ZeroMe!"
+		}
+	],
+	"post_like": {
+		"1FLn4N2w5PU4xTQtXnyMN7QuE78FBT4YJB_1": 1490184493
+	},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1MmqCkemmzDtj2itzTgjY8AHRJusnfDHZs",
+			"user_name": "Brr",
+			"date_added": 1490184360
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "12GZkW1oeKp8SZnY97h8mgc7QUk9QKrF73",
+			"user_name": "IsuPolo",
+			"date_added": 1490184472
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1E9usGhxRpnBJ18kqPD2BHkVmBPYwT8tH1",
+			"user_name": "Thetraveler",
+			"date_added": 1490184477
+		},
+		{
+			"follow_id": 4,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1FLn4N2w5PU4xTQtXnyMN7QuE78FBT4YJB",
+			"user_name": "Kemo",
+			"date_added": 1490184482
+		}
+	]
+}

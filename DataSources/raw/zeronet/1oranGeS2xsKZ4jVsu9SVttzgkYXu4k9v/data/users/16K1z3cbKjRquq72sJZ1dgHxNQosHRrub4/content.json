@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HCL8w+Hd/NpOax7LLnL3IsPr6ATamKtCazJG5AjlWvmGCnNUud7fc6sZS6wsjycga7Wfnx1vgaZsTAHnhyHu6NI=",
+ "cert_user_id": "sickdragon@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "b2a1c0ab028e0f5176bf03516cba6e7bdcb18dc58d5d3a82452eb49a7844e8f8",
+   "size": 10153
+  }
+ },
+ "files_optional": {
+  "1484728961.jpg": {
+   "sha512": "1ddfaddba3c7614cb13a9a3e2314d06a3d6cfab59509c86ba36754119d487611",
+   "size": 84821
+  }
+ },
+ "inner_path": "data/users/16K1z3cbKjRquq72sJZ1dgHxNQosHRrub4/content.json",
+ "modified": 1485284255,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "16K1z3cbKjRquq72sJZ1dgHxNQosHRrub4": "Gz+VtiD8PxQe3SlXDfmXCqZX6xGc7jFBYz2+c9qnFU7pG6IrsZUD0cD1G4VqqmT20GKIfrha5A52AXhqEXl7oPA="
+ }
+}

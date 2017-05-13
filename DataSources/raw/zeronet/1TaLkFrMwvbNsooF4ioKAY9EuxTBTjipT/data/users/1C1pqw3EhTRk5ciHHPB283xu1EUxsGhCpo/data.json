@@ -1,0 +1,98 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Multiple zeroid",
+			"body": "Can I have more than a zeroid?",
+			"added": 1465724999
+		},
+		{
+			"topic_id": 2,
+			"title": "Building a search engine for Zeronet",
+			"body": "I started to build a search engine and crawler with Ruby and Ruby on Rails.\nNothing fancy, just sidekiq and postgres, for a proof of concept should be fine.\n\nIf someone want to try or disquss about it just email me :D",
+			"added": 1466085728
+		}
+	],
+	"topic_vote": {
+		"1_1C1pqw3EhTRk5ciHHPB283xu1EUxsGhCpo": 1
+	},
+	"next_comment_id": 12,
+	"comment": {
+		"1_1C1pqw3EhTRk5ciHHPB283xu1EUxsGhCpo": [
+			{
+				"comment_id": 1,
+				"body": "> [scrub](#comment_89_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R): Yes, you can.\n\nHow?",
+				"added": 1465758644
+			},
+			{
+				"comment_id": 2,
+				"body": "> [nofish](#comment_682_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Easiest way is enabling the multiuser plugin by renaming plugins/disabled-Multiuser to plugins/Multiuser\n\nThanks!",
+				"added": 1465805547
+			}
+		],
+		"1_139X4c3WFVtmsEj6Vpdd74YY49ettpduKq": [
+			{
+				"comment_id": 3,
+				"body": "Probably something like Yacy could be the best solution.\n\nConfiguring Yacy for intranet indexing should work.\n\nBut at the moment I was not able to index zeronet with yacy because the JS and the frames :(\n\nhttp://yacy.net/en/index.html",
+				"added": 1465898578
+			}
+		],
+		"1_1DL96EbPqBXweqPPseW2eRCLF1EED73htn": [
+			{
+				"comment_id": 4,
+				"body": "> [oracle](#comment_164_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP): I use yacy but I don't think you can use it with ZeroNet, nofish could probably tell you more.\n\nI tried to use, configuring Yacy for intranet indexing should be ok, the problem is that Yacy is not able to index the page because the javascript and frames.",
+				"added": 1465902646
+			},
+			{
+				"comment_id": 5,
+				"body": "> [shitpost007](#comment_3_18xnnGt34EMR7CLFoAjwzhYCmXGtZYC17P): what ? the page is already on the local HDD if YACY cant read something from the HDD we are done\n\nit is in the HD but you need to render with js to load the data and rest of stuff right?",
+				"added": 1465945939
+			}
+		],
+		"2_1C1pqw3EhTRk5ciHHPB283xu1EUxsGhCpo": [
+			{
+				"comment_id": 6,
+				"body": "Ok... postgres search is too slow, moved to elastic search.",
+				"added": 1466103943
+			}
+		],
+		"7_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 7,
+				"body": "Hi, yesterday I developed a little and basic scrapper, at the moment store everything in postgres and use elasticsearch for the fulltext search.\n\nhttps://github.com/ceritium/ZeronetCrawler\n\nI could change the code to instead of store the data on elasticsearch generate other kind of files useful for you.",
+				"added": 1466191304
+			},
+			{
+				"comment_id": 8,
+				"body": "> [maboo](#comment_2_1CXqbc5k6uTLrFabnb2gBjpbZamKXvGXnw): I think the same thing.You already have data on localhost (sqlite, ...) so why using the html ?\n\nBecause the sql is just data, you don't have context and don't know the real endpoints.",
+				"added": 1466192562
+			}
+		],
+		"1_1L9PoCssFWU3Zpyyh9JrLvpYfS165CsZmU": [
+			{
+				"comment_id": 9,
+				"body": "unizp, open the console, open the folder wich contains the zeronet bundle and run:\n\n./ZeroNet.app",
+				"added": 1466585460
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 10,
+				"body": "to delete",
+				"added": 1476462614
+			},
+			{
+				"comment_id": 11,
+				"body": "lol",
+				"added": 1476462680
+			}
+		]
+	},
+	"comment_vote": {
+		"682_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"10_1C1pqw3EhTRk5ciHHPB283xu1EUxsGhCpo": 1,
+		"1_16bBfvm8oXJjkSvbXZv1NFyy6oxh5oQy44": 1,
+		"11_1C1pqw3EhTRk5ciHHPB283xu1EUxsGhCpo": 1
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "ZeroStore ZeroCart ZeroMarket Shopping Carts on ZeroNet",
+			"body": "Hi, I dreamt up some ideas for how to have a store on ZeroNet, somewhat in line with ZenCart but \"simpler\". \n\nThe orders can be public-key encrypted, so even though everyone is sharing them in the database, only the seller can see what they are.  \n\nThe payment method can be through any cryptocurrency. The site can be preloaded with addresses, so that each order gets it's own address, and that way can more easily track who paid for their order -- alternatively the sending address would have to be provided by whoever is requesting the product or service.  Could probably even accept paypal, though I wouldn't recommend credit card, since the details would be shared by everyone, even if encrypted. \n\nThe seller can be notified of new purchases by having a bot on their zeronet instance checking for them, and then sending an email once it detects a new order. \n\nOne of the issues would be with obsolete stores, or those which are no longer maintained.  One way to mitigate that would be for the buyer to wait for a confirmation email from the seller before paying. \nI don't know if zeromail has bot handles, but if it does then that could be a possible alternative.\n\nAnother option would be to have a ZeroMarket place with multi-signature transactions.  So could have the same level of buyer/seller protection as Paypal.  For example a buyer makes an order, and puts it into a buyer-seller escrow, the seller then ships the item,  once the item has arrived in good working order, then the buyer finishes the transaction and-or writes a review,  if there is some problem the marketplace admins can either refund or give funds as appropriate.",
+			"added": 1482677967
+		}
+	],
+	"topic_vote": {
+		"8125_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"1_1EnFfeVqTYtJfhzucfQB8Z7sCfUBipRRow": 1
+	},
+	"next_comment_id": 9,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "yeah, zeronet is a lot faster than freenet. like whoosh",
+				"added": 1474510982
+			}
+		],
+		"1_1LE1ngFyG62KJC1Q7G2xyZGjaB2QubXSi9": [
+			{
+				"comment_id": 2,
+				"body": "If you have BTRFS, can use snapper, then you will always have backups of all your stuff, including whatever the messages are on this site.  Simply can roll back to the latest version that had all the files/messages intact. \nThen can seed a new forum with it. \nIf the .bit domain is Not compromised, then can simply flow over to the new one by changing the zeronet: entry,\nIf the .bit domain is compromised, then will need to use a different one.",
+				"added": 1474858022
+			}
+		],
+		"1_18jipjDsfAxAuq4ixbi2w24xJrYVfTYFPn": [
+			{
+				"comment_id": 3,
+				"body": "Canada",
+				"added": 1481030044
+			}
+		],
+		"1_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": [
+			{
+				"comment_id": 4,
+				"body": "I've had visions about something like ZeroNet for over a decade, I think it is the future of the internet. DDOS proof and uncensorable, zites are much like word-of-mouth knowledge, people learn it, and then can share it with others. So the more people that know, the easier it is to learn it.",
+				"added": 1482684517
+			}
+		],
+		"1_1LogBQ7aRYS9KNPZx2nrNKserBBAL5XhyD": [
+			{
+				"comment_id": 5,
+				"body": "I honestly can't believe people are talking about pizzagate like it was anything other than discussion about pizza.\nOnce you lend credence to something so far out an thoroughly debunked, you are obviously not interested in reality.",
+				"added": 1482849653
+			},
+			{
+				"comment_id": 6,
+				"body": "> [sthetz](#comment_33_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9): Not a single bit of suggestive evidence was \"debunked\". Not one bit. Are you a pedo supporter?\n\n\"suggest evidence\"? that's not evidence .\n> [planespherev2](#comment_128_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj): You're either stupid or a pedophile.\n> https://www.youtube.com/watch?v=oHXBrEXmowo\n> https://www.youtube.com/watch?v=vlhBn_zSIrory\n\nSorry I don't waste time with conspiracy videos. \nI'm willing to skim some text if you give me links. \n\n> [sthetz](#comment_33_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9): Not a single bit of suggestive evidence was \"debunked\". Not one bit. Are you a pedo supporter?\n\n\"suggestive evidence\" is not evidence, it is just conjecture.",
+				"added": 1482851060
+			}
+		],
+		"1_125b8FxS36xSSCHkvZEhimvF5KPxjckS7o": [
+			{
+				"comment_id": 7,
+				"body": "Hitler was a Christian, through and through. He loved Jesus everyday, and followed in the genocidal footsteps of the old and new testament.",
+				"added": 1482851272
+			}
+		],
+		"1_1A4zF6rpFeUPPfA9xNBU4pPt3PwvXu1EZT": [
+			{
+				"comment_id": 8,
+				"body": "> [aboutislam](#comment_3_1A4zF6rpFeUPPfA9xNBU4pPt3PwvXu1EZT): Forgiveness is strength\n> Generally speaking, I’m lousy at forgiveness. At any given moment, I’m holding tight to a grudge or two, and there’s always another in my mind’s on-deck circle. \n\nLojong:\n\n    Slogan 30. Don't be so predictable -- Don't hold grudges.",
+				"added": 1483299927
+			}
+		]
+	},
+	"comment_vote": {
+		"3_17tpqoZw9eG2MQq6C3CVZ9MVxJxLTtCPZC": 1,
+		"1_19tWrNwoMBrvzvskKAxcPJVXLDNUDNvx58": 1,
+		"1_17AYUJE9dqiwbi1s5tokPxks5cSgQQs2o7": 1,
+		"1_1EcApkUejvnZHEo6KGdQAiAwjxbwiS7zUL": 1,
+		"3_1BVc1i4Be8EHyQrYcxMxQiTvFzKCzstuKN": 1,
+		"2_1BSdtt43kEFpFXqY7Le3tJkC6wWSrsXryh": 1,
+		"1_1JaAYJncF8JgK4obfPrc3Xppnc7FERVm2N": 1,
+		"2_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"2_1B7tTrZWYkdiH4ogQv46AwgSJ7xQ8xZbCa": 1,
+		"1_19mi68FmXwLyDcmkgBB9XMQA2sBMuTB2FA": 1,
+		"1_1Q3wv52h6RSubdYu5aoxZzfkFHmEx9wtfM": 1,
+		"58_1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS": 1,
+		"224_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"27_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9": 1,
+		"4_1A3XsuLB6P7LQPCw1QWASG7RGSwrCv6Xib": 1,
+		"6_1yvSQH5Z7aJra4y9s6KG2kjLeGXYhNgn7": 1,
+		"28_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9": 1,
+		"29_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9": 1,
+		"30_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9": 1,
+		"1_1CR3B1Bwx6umZqL7H6hrbyPdXKJR7j8Mfn": 1,
+		"2_1CR3B1Bwx6umZqL7H6hrbyPdXKJR7j8Mfn": 1
+	}
+}

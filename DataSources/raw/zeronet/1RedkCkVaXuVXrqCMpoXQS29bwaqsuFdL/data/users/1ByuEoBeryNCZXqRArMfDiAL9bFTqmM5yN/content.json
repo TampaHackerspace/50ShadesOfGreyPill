@@ -1,0 +1,64 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G4O7uhsFEDYcjcqt+iyBeNdzknnaNZorI9odgY2b3nBfcrYRNMPxq0BnZyX+HuL+Yb9m1YadY9rtKUULp0QX5FU=",
+ "cert_user_id": "mls@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "75737d7ac1a198b91aab8c24b00762f51fe03d8026d97e66c74ac5be0f14cd71",
+   "size": 1553
+  },
+  "data.json": {
+   "sha512": "314ad22ea8fe63a2073cb3f4a5600284d8a2c462f09916893c4e25c5816a39fc",
+   "size": 9962
+  }
+ },
+ "files_optional": {
+  "1478717581.jpg": {
+   "sha512": "b5ec8eb72831607c59f7363f21a7e857dda75a1010f74324b78d74d4ba12d03b",
+   "size": 89392
+  },
+  "1479489198.jpg": {
+   "sha512": "dbeea2ea537ca805eb55cd413232e98c1cab932798c98980dd9d3ecfac80477a",
+   "size": 70365
+  },
+  "1480065018.jpg": {
+   "sha512": "fd7c69bac5942949049c5e5408b17ff4b57c22f14106e9c0a35907edba2b7aa3",
+   "size": 111673
+  },
+  "1480066553.jpg": {
+   "sha512": "5e879db70fe3552e9fc08fe062544c24fb85c49783230c6ea05bc96738002c29",
+   "size": 90822
+  },
+  "1480607025.jpg": {
+   "sha512": "b085ece14de65d59b42a396a4cf65d23d79417ea3183d086d22109cf1075f884",
+   "size": 72825
+  },
+  "1480929505.jpg": {
+   "sha512": "8a5bde1665ac007e34db87f780270eddd372a971875ce34fa383cb90d810d810",
+   "size": 131523
+  },
+  "1483189548.jpg": {
+   "sha512": "7a8364311be9de285d4988e130f332af0416f52761e7ee1cd8b23ada81e4a843",
+   "size": 63215
+  },
+  "1483189566.jpg": {
+   "sha512": "2afbdfef71ace0dad88fe3d5d5c8781306dfc7f6888ad8230074c32122a64ec2",
+   "size": 86770
+  },
+  "1483189650.jpg": {
+   "sha512": "73c6afffe5dd155969d8696621f727eb62d029023136c5d0a37f67e8181bd3f4",
+   "size": 58377
+  },
+  "1484236181.jpg": {
+   "sha512": "322af57b86e82b53172ba91d907b4698a7b42fbd73f7f0a734ecc131bb933b96",
+   "size": 46407
+  }
+ },
+ "inner_path": "data/users/1ByuEoBeryNCZXqRArMfDiAL9bFTqmM5yN/content.json",
+ "modified": 1492522658,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1ByuEoBeryNCZXqRArMfDiAL9bFTqmM5yN": "HGNILnRNCxdlrCBmrC4smAt1IFW2LEJs57UrTpAZiedLLCCRYtI9K5j0AWBI5U9DCKDw5WCzJsZAuTuPcUmlQaA="
+ }
+}

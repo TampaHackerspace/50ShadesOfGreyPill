@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G9eWuLQkTZ/G7Rl0S7vJJCphZHLj4CKWI0K6uOanTj9ladukm2Jjy0T+sDR5gUWOf6eLrEZsws+Et7Bu/lG5vUY=",
+ "cert_user_id": "alexprogrammer@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "fcbbd83ad60bc01a4a29d1298f241ae761d83c747ef4dc9819af807a6deb5927",
+   "size": 275
+  }
+ },
+ "inner_path": "data/users/1HSRt4Atnsu7tteqPqBNZBivee288v38kT/content.json",
+ "modified": 1492284562,
+ "signs": {
+  "1HSRt4Atnsu7tteqPqBNZBivee288v38kT": "G1NoDk8ni5rHMZ/1Q8Yb/k1prcWNafA3pCixcGbIP9agHNx6yMMPVCsohQiZclZjYtXTSHj60Qowsp/cb72ilY0="
+ }
+}

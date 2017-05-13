@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G6WDLGx5zn/XBZ2fapX/nmnddLsHf8sNIs6+Jpx3NgGHJiPnyKP2ZEXR6zTRq/4WruhI5/bTqQYedQNFitFcKus=",
+ "cert_user_id": "nanolook@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "897f1dc61e41660a5104d39d2a3f756a25c0ff9f2417f4745ef470dd2efd91be",
+   "size": 432
+  }
+ },
+ "inner_path": "data/users/1MRYfVMnG4sTAkJahERquy8EDRemkjfYiq/content.json",
+ "modified": 1480839674.851925,
+ "signs": {
+  "1MRYfVMnG4sTAkJahERquy8EDRemkjfYiq": "HDQGljhDSfqtcxxc1Fj7XGIEHNGRjVzwTG2n3F1jaSsP4deooBnECfrCHndRe+wRuwwdUS/A6l7+REdjqEXRda4="
+ }
+}

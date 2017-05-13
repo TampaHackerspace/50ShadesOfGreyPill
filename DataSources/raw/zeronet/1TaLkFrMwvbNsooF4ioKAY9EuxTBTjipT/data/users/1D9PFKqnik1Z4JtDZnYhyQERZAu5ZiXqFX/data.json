@@ -1,0 +1,58 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "[solved] any way to turn off the stupid animations?",
+			"body": "animations make me sick, especially the ones prompted to ask you for confirmations. They're totally waste of time.",
+			"added": 1468232331
+		}
+	],
+	"topic_vote": {
+		"1_1D9PFKqnik1Z4JtDZnYhyQERZAu5ZiXqFX": 1
+	},
+	"next_comment_id": 7,
+	"comment": {
+		"4_1Ci5Y4TxZwY1SQhvQR7Ttbdyyai4WRV5TU": [
+			{
+				"comment_id": 1,
+				"body": "The answer is neither of them.\nThe best distro of choice is Crux, trust me.",
+				"added": 1468233672
+			}
+		],
+		"1_1D9PFKqnik1Z4JtDZnYhyQERZAu5ZiXqFX": [
+			{
+				"comment_id": 2,
+				"body": "> [neonet](#comment_19_15ATNsS6aHGvBg5xoMP94sXpNaLX4fSHjN): This disables all jQuery animations, but not CSS animations\n> document.addEventListener(\"DOMContentLoaded\", function(event) {\n>   // Disable jQuery animations\n>   jQuery.fx.off = true\n> });\n> Add this at the very top to [your zeronet directory]/src/Ui/media/all.js\n\nThanks, much better now.",
+				"added": 1468235590
+			},
+			{
+				"comment_id": 3,
+				"body": "> [neonet](#comment_22_15ATNsS6aHGvBg5xoMP94sXpNaLX4fSHjN): No thanks :)Thanks for the suggestion, I unconsciously hated them too...Maybe add a [solved] to your title so people can see it is solved.\n\ndone.",
+				"added": 1468236112
+			}
+		],
+		"1_1BG8WrV2VY1bNjQiKR4tcL52FAw6Y6BoJ8": [
+			{
+				"comment_id": 4,
+				"body": "zeronet的p2p不止是体现在存储上，更是信息的流动有别于传统web。其实对于存储我认为并不是大问题，只要每个的site owner保证完整存储自己site的数据，就可以了，其他peer都只是作为一种作为加速下载的辅助，（确实可能需要几个稳定的中继节点来保证所有数据都是可获取的）普通用户存储的数据是volatile的，只需要存储自己关心的数据即可。 我认为真正问题所在是scalability比较差，用户不能精确地选择自己需要的数据，我也不清楚zeronet的具体运作模式，不过在使用过程中我感觉，它是以site为单位，完整下载下来的，这点确实是个问题，不过基于zeronet的p2p的性质，我想可能有如下几点原因：\n1) 增大用户下载的数据量，有助于加快下载速度，即数据冗余与下载速度是反比关系。\n2) 提前缓存更多数据，有助于降低浏览时的延迟，各位应该有所体会，zeronet在缓存完毕后浏览时的速度是很快的，而post时的延迟也是不小的，实为p2p的特性所致，现在的用户数不多，所以数据同步很难做到实时，唯有通过缓存来提高浏览体验。\n如果可以实现传统web中那样请求时下载，则不会出现题主所说“存储成本过大”的问题，但延迟的问题会暴露出来。我想在用户数达到一定量级后，上面的问题可以得到缓解。\n现阶段，我认为可以采取以下措施：\n1）增加几个稳定的中继节点，用来加速。 （有被墙的风险）\n2）细化用户下载的数据的情景，适当减少数据冗余。",
+				"added": 1468307764
+			}
+		],
+		"10_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 5,
+				"body": "> [up4](#comment_65_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): This lady-attitude towards developers is exactly why after 20 years in the business I think open source has failed with this newly found cult for the user. You think you can trust developers to work for free for you without any way of getting paid????? \n\nOpen source is not failed. It just did not grow to something big. And open source does not mean to be free of charge, although the nature of it decided that it's not money driven. I see little people make a living out of open source projects, but still there are people doing it, because they love it. \n\n> I am the author of libzeronet. I will not open source it. \n\nDevelopers have their very right to keep the source closed, but it is up to the users to decide wether to trust them or not. NOBODY is forcing you to release your code.\n\n> And Apple has ways to check a binary submission to their App Store is not a security hazard for their users that are light years ahead of your naked eye source code analysis skills.\n\nThe reason Apple can do that is because IOS is a closed platform, any potentially dangerous APIs are in total control, while on desktop platforms, this is not true. There are people prefer open-source projects not just for safety, but also for freedom, the freedom to study or modify the code, and I think you are one of them who've benefited from it.\n\n> If you think having the source code will spare you the effort of getting to know the developper and being nice to him in order for you to trust him, you are a fucking moron.\n\nTrust the code, not any person.",
+				"added": 1483989248
+			},
+			{
+				"comment_id": 6,
+				"body": "> [up4](#comment_68_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): Actually, I and others have been pressured quite annoyingly quite often, yes. Just read this very thread.\n\nYes, I did. But still, no one can actually affect your decision on wether to open source or not, except yourself. They just expressed their opinions, maybe in an annoying way, and I think nothing is wrong on both sides.\n\n> You read every line of the code you trust., of the trusted compiler you compile your trusted code with, of the trusted BIOS/firmware for that trusted CPU architecture you run that trusted compiler output on?No, of course you don't.\n\nNo, I don't, and I don't have to. Actually I don't believe anyone can do that, your question is meaningless. But open-source gives you the freedom to do that. Personally, I maintain a set of patched programs I use daily, so I think open source is a good thing to have.\n\n> That is in fact not a life worth living, IMHO.\n\nNo, it's not about life, it's about trusting a program. I bet you don't know well of most of the authors of the programs you use.",
+				"added": 1484117950
+			}
+		]
+	},
+	"comment_vote": {
+		"19_15ATNsS6aHGvBg5xoMP94sXpNaLX4fSHjN": 1
+	}
+}

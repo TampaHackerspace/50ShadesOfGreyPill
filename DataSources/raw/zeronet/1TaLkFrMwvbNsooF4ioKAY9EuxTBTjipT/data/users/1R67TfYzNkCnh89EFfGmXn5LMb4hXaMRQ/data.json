@@ -1,0 +1,44 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "boot.zeronet.io: What is it?",
+			"body": "Today noticed this when starting Zeronet: Peer:boot.zeronet.io\nWhat is it for? Is it needed to work?\nIsn't it risk when zeronet connects there at startup or is connection secure over TOR if set \"TOR=always\"?",
+			"added": 1493312510
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 5,
+	"comment": {
+		"1_1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd": [
+			{
+				"comment_id": 1,
+				"body": "prototype reddit like site for possible discussions:\n127.0.0.1:43110/1J1c7eML6uMwDU4uiKbKRxoqxGP6WMFMvb\nit is similar to reddit, but decentralized and built up by people.\nIt is using moderation possibility for various reasons, but not total censorship possible (one could clone and unhide channels or add their own channels if one is too strict moderated).\nIt is pre-alpha, so some things not working 100%, also needs possible split into merger sites for huge growth, customizing channels, etc.\nsuggestions welcome.",
+				"added": 1486236934
+			}
+		],
+		"16_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 2,
+				"body": "we know about the cert issues, but on holiday this week (back on monday :)",
+				"added": 1490350776
+			}
+		],
+		"1_1MwJSNBC1savftEvXQyoHcVLDgThtAPr6T": [
+			{
+				"comment_id": 3,
+				"body": "> (#comment_281_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): App Centre http://127.0.0.1:43110/1LANDERvVWbShpNWpsrbBvfqSK1PabXtwv/ has no apps\n\nYeah, what happened to all the entries before?",
+				"added": 1493539438
+			},
+			{
+				"comment_id": 4,
+				"body": "> [bot](#comment_202_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): The entries are back. It helps to get good feedback, instead of the \"boo-hoo i'm leaving\" type. ThxOur zite list is a problem i'm working on. I'm trying to update to 0.5.4. It works locally, but shows blank elsewhere.\n\nGreat to hear!",
+				"added": 1493553975
+			}
+		]
+	},
+	"comment_vote": {
+		"32_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": 1
+	}
+}

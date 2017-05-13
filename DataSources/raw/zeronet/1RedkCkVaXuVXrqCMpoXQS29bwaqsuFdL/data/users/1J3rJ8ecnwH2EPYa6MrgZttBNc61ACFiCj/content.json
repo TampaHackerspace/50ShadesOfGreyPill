@@ -1,0 +1,68 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HPiZsWEJ5eLnspUj8nQ75WXbSanLz0YhQf5KJDq+4bWe6wNW98Vv9PXNyPDNu2VX4bCEXhRC65pS3CM7cOrjjik=",
+ "cert_user_id": "nofish@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "ac62ed039a2ac4a9f169583a85a894890909c6caa2bacb3a6f23211ef4cbfd35",
+   "size": 1350
+  },
+  "data.json": {
+   "sha512": "3cf5bf1420739dd75bd85a55d8c2874e029d4f238c549c61da20bd26d0f40151",
+   "size": 98142
+  }
+ },
+ "files_optional": {
+  "1478620854.jpg": {
+   "sha512": "29244d23b91a70771dced049b8bc0574548ed6124b3bdeb7a12e52e1d993a08c",
+   "size": 45898
+  },
+  "1479506310.jpg": {
+   "sha512": "2420bc3977d556e5da67643178548553665994f1028c039314ad38587f21b29a",
+   "size": 63980
+  },
+  "1480340164.jpg": {
+   "sha512": "46aff84fc809db66069442962996a92217aa534a1ee010a15b8a2008b5a9641f",
+   "size": 46289
+  },
+  "1481673938.jpg": {
+   "sha512": "f6c5cef3f01dc20d2ceb72470a29de0f65d8bd527bd714edf366baa59ccf19f0",
+   "size": 47058
+  },
+  "1483054260.jpg": {
+   "sha512": "b0ed3587d91d2c9d4b3630327aae794fec957346b52fd7af07efb96d8a365917",
+   "size": 47790
+  },
+  "1483291537.jpg": {
+   "sha512": "7ffede65ad8f7ce041bfa6b35a3ffda9b8be6d60e04da55d5e4a06b0e7b5665b",
+   "size": 55459
+  },
+  "1484306799.jpg": {
+   "sha512": "a98baf5575cf64468988d2f85184449a9acf900ac38cc2ff7ca93d6084e52045",
+   "size": 82641
+  },
+  "1488188813.jpg": {
+   "sha512": "32acc73c5b0d58b8bb1ef52a994de79e7f769719a05663bdbbc91fd1e38e04a8",
+   "size": 36584
+  },
+  "1490715178.jpg": {
+   "sha512": "7d21db2bdff6a83c747c731c55c90dce77c107126b8effbe817f61735ef51ec1",
+   "size": 65819
+  },
+  "1493946758.jpg": {
+   "sha512": "b38e5544fce035d0637967a1f3e1d70b9f24c13f3ba67b3630a168e362253ec9",
+   "size": 135550
+  },
+  "1494330335.jpg": {
+   "sha512": "64df6c9aa09d2a1110900508fd30855918ac78ba380d9438faf4028f1e48fda2",
+   "size": 115931
+  }
+ },
+ "inner_path": "data/users/1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/content.json",
+ "modified": 1494581650,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": "G54NtLmn60PqrUCRNRN0trnuInRRJqTWYr0nLS8a1y3QMY2DdoSExqpcJPwXJNxVo922bctlA9ym7CCDZC1zDRU="
+ }
+}

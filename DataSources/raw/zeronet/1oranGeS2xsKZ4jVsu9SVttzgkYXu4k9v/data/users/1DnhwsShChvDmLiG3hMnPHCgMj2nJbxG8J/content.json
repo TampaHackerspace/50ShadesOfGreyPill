@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HER0iqd7Cg/qCRKo+8I0m9B4AlhRMIAj8kgjQOw2/1P6YPpn2sAD9krebu8Wdv+ft6SDw5OSZudJpdbzzBJsN7w=",
+ "cert_user_id": "journalist@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "7b050e5b686c8d5dfa32d6541e279b775de1ffb262535750d63a0749557f2f5c",
+   "size": 16677
+  }
+ },
+ "inner_path": "data/users/1DnhwsShChvDmLiG3hMnPHCgMj2nJbxG8J/content.json",
+ "modified": 1487019788,
+ "signs": {
+  "1DnhwsShChvDmLiG3hMnPHCgMj2nJbxG8J": "HLZans6EaxwJwXa4G6AYrx+WvxhrubhJJ65qav4D/q3QQLcpcZEbHkMcZST8iao7xu/8TtrmKv6K8IdG6g2nAT4="
+ }
+}

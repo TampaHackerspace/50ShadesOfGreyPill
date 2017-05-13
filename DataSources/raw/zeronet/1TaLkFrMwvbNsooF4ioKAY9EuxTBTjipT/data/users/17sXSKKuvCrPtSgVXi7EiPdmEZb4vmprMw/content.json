@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HH5+XHviDFnA+RcBY5UonpHJ8tYxhnljyskdTCE5B3QHIR73SslMsa/InSxeLOznHJlU2DE/MvnvDF8lNTUB7CE=",
+ "cert_user_id": "humble@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "97a5a461cda8977cd6480739e263ac7b316792e0ae8e80633a60e577ddd8cdb0",
+   "size": 246
+  }
+ },
+ "inner_path": "data/users/17sXSKKuvCrPtSgVXi7EiPdmEZb4vmprMw/content.json",
+ "modified": 1474935797.554228,
+ "signs": {
+  "17sXSKKuvCrPtSgVXi7EiPdmEZb4vmprMw": "G+I54GgVquRmDaax17iJOpt6/zdy9J2M+NWbmQxN+y5xioSdEAdBOvmAf6xefqDEabsKYUlmK2Cv2rkfWKBxfyo="
+ }
+}

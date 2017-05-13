@@ -1,0 +1,21 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"2_18DbeZgtVCcLghmtzvg4Uv8uRQAwR8wnDQ": [
+			{
+				"comment_id": 1,
+				"body": "Tried from a seperate local ZeroNet install. Gets the same error when publishing. So the problem has nothing to do with proxy servers ... :-(",
+				"added": 1475149556
+			},
+			{
+				"comment_id": 2,
+				"body": "Will try with a zeroid.bit user and get back. I think the problem is in my ID provider implementation.",
+				"added": 1475149640
+			}
+		]
+	},
+	"comment_vote": {}
+}

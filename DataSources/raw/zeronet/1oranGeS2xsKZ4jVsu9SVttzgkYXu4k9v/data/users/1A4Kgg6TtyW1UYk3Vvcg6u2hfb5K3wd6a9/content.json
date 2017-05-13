@@ -1,0 +1,25 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HBdOcAKWOvKYKoGw3F8hYHRDW9ryvj6gebNVF2kllNZ+ysQ5okDKS/9QCHHEVMSESoPwAElOVvOJ+5GWXe0UAw0=",
+ "cert_user_id": "trashcluster@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "01282cf4d12a351566162ced593e0ece13295a322df5229b63d32352714911bc",
+   "size": 1535
+  },
+  "avatar.png": {
+   "sha512": "63d35fd56fdda717087d59f2a3d654c6faaffaad23cd7770f3e5a3dfbc0bd164",
+   "size": 112
+  },
+  "data.json": {
+   "sha512": "ba2a3fdba5e627488fce1dbaa16aa25a3269e55a3f13d7a48cbe6264b305619c",
+   "size": 1008
+  }
+ },
+ "inner_path": "data/users/1A4Kgg6TtyW1UYk3Vvcg6u2hfb5K3wd6a9/content.json",
+ "modified": 1491426963,
+ "signs": {
+  "1A4Kgg6TtyW1UYk3Vvcg6u2hfb5K3wd6a9": "G7mEa6HYtFOmkzM4o/TvQa8UE+rF08lllKXnEk4SZiFzaRR0NO9FKdC6xc3so0IYahfNxtZbjd2XqvKZ7NfhpAs="
+ }
+}

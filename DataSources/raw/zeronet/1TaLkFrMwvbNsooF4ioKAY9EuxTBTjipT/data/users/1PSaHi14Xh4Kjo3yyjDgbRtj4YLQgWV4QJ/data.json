@@ -1,0 +1,216 @@
+{
+	"next_topic_id": 5,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "rss feed",
+			"body": "I recently added an rss feed widget containing my twister feed on my blog (not zeronet).\nNow I wanted to do the same for my zeronet blog entries. \nAlthow there are proxies that serve the content, I didn't find an option to serve rss.\nDid I overlook something, or would that be worth a feature request?",
+			"added": 1462527508
+		},
+		{
+			"topic_id": 2,
+			"title": "GPS watch with native linux support",
+			"body": "Does anybody know of a training watch that records GPS tracks which has good native linux support.\nI don't want to rely on an android phone.\nI don't want to rely on browser plugins that all of a sudden are not supported anymore with recent browsers.\nI prefer to not have to rely on 3rd party hacks to get it running.",
+			"added": 1467971997
+		},
+		{
+			"topic_id": 3,
+			"title": "2FA",
+			"body": "Still shockingly few services offer real hardware based two factor authentication: \nhttps://twofactorauth.org/",
+			"added": 1468321761
+		},
+		{
+			"topic_id": 4,
+			"title": "Contact form for zeronet site proxied to clearnet",
+			"body": "I'm thinking about redesigning one of my websites. It would be cool, if I could host it on zeronet, and just use a proxy to make it available to the internet under the old URL. \nThis should work fine for the content itself, but I don't know how I should do the contact form so that it works for both scenarios (zeronet and internet).\nAny ideas?",
+			"added": 1468391378
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 29,
+	"comment": {
+		"1_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ": [
+			{
+				"comment_id": 1,
+				"body": "RSS dead? Ah look, the internet is dead as well : http://www.google.ch/trends/explore#q=internet",
+				"added": 1462533980
+			},
+			{
+				"comment_id": 2,
+				"body": "Oh shit TCP is dead as well : http://www.google.ch/trends/explore#q=tcp",
+				"added": 1462534105
+			},
+			{
+				"comment_id": 3,
+				"body": "Nooooooo P2P as well : http://www.google.ch/trends/explore#q=p2p",
+				"added": 1462536594
+			},
+			{
+				"comment_id": 4,
+				"body": "It shows that once a technology matures and becomes the foundation of some shinier frontends, less people need to know how it works.",
+				"added": 1462540042
+			},
+			{
+				"comment_id": 5,
+				"body": "c5d5com, That is great. Unfortunately I can't read any of your site. Is this korean? What is the rss url, and what parts did you have to add to make it work?",
+				"added": 1464682570
+			}
+		],
+		"1_1GkoHb4XqFDbLnxzrZxSzJK7dqnxmGyBRP": [
+			{
+				"comment_id": 6,
+				"body": "On the computer I use the electrum light wallet. It also has an android version, but I never used it.\nElectrum supports hardware wallets and multisig.\nCombined that makes for super secure bitcoin storage : https://ulrichard.ch/blog/?p=2035\n\nFor on the go, I use the case hardware walet with GSM built in : http://choosecase.com/",
+				"added": 1467968963
+			},
+			{
+				"comment_id": 7,
+				"body": "> [christopherm](#comment_6_1DDCitotp8M6rCiHrNJ4VVLGTqXykLmD1t): How do you like the case wallet? I saw a review of the build quality and was concerned.\n\nMy initial review is here: https://ulrichard.ch/blog/?p=1989\nSince there was no firmware update since then, most of it still holds true.\nThe case doesn't look very rigid at first, but I have it in my pocket every day, and it's still  in perfect condition.\nOverall I am satisfied. But I wish they would address some basic improvements such as balance and paper wallet redemption. In the meantime I received the remaining xpub's so my accounting got a lot easier.",
+				"added": 1467989825
+			}
+		],
+		"12_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 8,
+				"body": "You could always host the large files on ipfs, and embed from there.",
+				"added": 1468389126
+			}
+		],
+		"4_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ": [
+			{
+				"comment_id": 9,
+				"body": "Yes, I use the public proxies from time to time, but this is not what my question is about.\nI'm looking for a way that visitors can contact me with a web form. \nI don't want to bother regular internet users with zeronet id's.",
+				"added": 1468398551
+			},
+			{
+				"comment_id": 10,
+				"body": "> [ricksanchez](#comment_2_1JbawzF6cDyAVJ7LdB3G1EM1Rjk75VvuLs): For production? Would you trust it not to come own at any point?\n\nI would run the proxy myself, and was hoping for an option to disable some zeronet specific functions.",
+				"added": 1468423305
+			}
+		],
+		"8_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 11,
+				"body": "BitCoin, BitSquare, OpenBazaar, NameCoin, Ethereum, IPFS, Twister, Tox, Tor, BitMessage",
+				"added": 1470228198
+			}
+		],
+		"6_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 12,
+				"body": "8 non-free packages, 0.3% of 3086 installed packages.\n  3 contrib packages, 0.1% of 3086 installed packages.",
+				"added": 1471818094
+			},
+			{
+				"comment_id": 13,
+				"body": "vrms is not in the trisquel repos",
+				"added": 1471933270
+			}
+		],
+		"1_1Gb4DzrdjGBCiTnVyZRB2CHfdSnBfb4FY1": [
+			{
+				"comment_id": 14,
+				"body": "When you delete a zite in ZeroHello, it should be gone, right?",
+				"added": 1471991099
+			}
+		],
+		"8_1MahZJTzjoEMMCv2jBReDWhyNGRhN5tvDq": [
+			{
+				"comment_id": 15,
+				"body": "Or you can trust somebody else to regularly publish that data to ZN. An example is [ZeroCurrencies](/1Pso1FY3rmBPFVD9ECZ54By9TbEPQznDCe)",
+				"added": 1474368355
+			}
+		],
+		"1_12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH": [
+			{
+				"comment_id": 16,
+				"body": "Using ipfs for embedding images in zero.me would be really cool.",
+				"added": 1474985985
+			}
+		],
+		"1_14UupgrdnT7Y8vMES7aqUFgD1fC5RYNrh8": [
+			{
+				"comment_id": 17,
+				"body": "I wanted to get into ham radio for years. But so far, I didn't have the time.",
+				"added": 1475013788
+			}
+		],
+		"1_1HRqipL1thbTsztjAvhN76qkzQBZ1k93nJ": [
+			{
+				"comment_id": 18,
+				"body": "A cheap solution with RaspberryPi or the like for mesh would be great. I'd be surprised if nobody did that so far.\nThere is also the https://villagetelco.org/mesh-potato/  and the  https://bbs.nextthing.co/t/c-h-i-p-mesh-networks/668/4",
+				"added": 1476298867
+			}
+		],
+		"8_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 19,
+				"body": "Rather than use DRM, content creators could add a qr code for BitCoin donations to their work.\nThen people who like it could encourage them to create more of it.\nPeople who want to pirate can remove every DRM easily. \nBut people who want to legally view content, but not on a Kindle or Netflix or whatever crappy bundle, are often left in the dark.\nThe Brave browser is a step in the right direction, but there needs to be more of it.",
+				"added": 1476949956
+			}
+		],
+		"2_1AWKKjCvCFvUbmrbBtqrMSfAGZ8D6tAVHt": [
+			{
+				"comment_id": 20,
+				"body": "Anybody tried https://github.com/okTurtles/dnschain ?",
+				"added": 1477296118
+			}
+		],
+		"9_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 21,
+				"body": "Ask anybody to stop feeding your content.",
+				"added": 1477637455
+			}
+		],
+		"1_19PZ9UFRdpRcbCJ35HKSJoF8PjqQGMfQey": [
+			{
+				"comment_id": 22,
+				"body": "Which list? The one that Erkan maintained before he left zeronet?",
+				"added": 1478941391
+			}
+		],
+		"1_17fhLVyDDVzpRBDNcE12pp3uvw1jkNaQkq": [
+			{
+				"comment_id": 23,
+				"body": "That reminds me a lot of the last millennium when people were using Windows ;-) Remember hastalavista.sk  or what was the site called, a parody on the main search engine at the time?",
+				"added": 1485428435
+			}
+		],
+		"1_1PvP6Vjh8q44LhyXTiBZc4APMtyzwyttbL": [
+			{
+				"comment_id": 24,
+				"body": "IPFS works perfectly fine for streaming videos. The only thing that is missing are the ads, or are they?",
+				"added": 1486155345
+			}
+		],
+		"2_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc": [
+			{
+				"comment_id": 25,
+				"body": "You run the risk of becoming enlightened, and getting annoyed whenever you run into M$ crap ever after.",
+				"added": 1487186620
+			}
+		],
+		"4_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": [
+			{
+				"comment_id": 26,
+				"body": "Would be so great if I could get rid of dyndns, and only use DyName, and it worked for everybody.",
+				"added": 1488875495
+			}
+		],
+		"1_1DCTA8rrSFeKX7CzieU3CYwCjGZ2hYvamb": [
+			{
+				"comment_id": 27,
+				"body": "Sure it is possible... By brute force. The trick is to tune it in order to find your Bitcoin private key before the universe cools to a halt.",
+				"added": 1491216937
+			}
+		],
+		"1_172ALy9XgaQ3gJUx5zVzgeqp2oLsAoqo6m": [
+			{
+				"comment_id": 28,
+				"body": "Isn't there a list of hashes of troubled content somewhere on zeronet? Would be cool if that could be integrated in a way to get warned before you see it. Even better to get warned before downloading, but that might be more difficult. Yes I know, every filter can be abused for censoring political stuff. But if it is just a warning, you can still decide yourself if you have doubts.",
+				"added": 1491370647
+			}
+		]
+	},
+	"comment_vote": {}
+}

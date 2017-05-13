@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G2yklNVbRRuxK1VPUKJEPTQV0TiTU1nS0nEzmySjM4bwNY6EWMNndQ5eHALc+rxK9vWKLYZqE50SRWzuqpIwNLE=",
+ "cert_user_id": "durruti@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "ab7d06b925318533d131d6232774c23f68e1c4856ed14d454ce004df6756288e",
+   "size": 1490
+  },
+  "data.json": {
+   "sha512": "48e093a01362cd702d953638f0a9e709b073b516278469996a898e8f10063ad6",
+   "size": 671
+  }
+ },
+ "inner_path": "data/users/17sYH3HHfUEDp4f4YdB6p6NaJLqChCyaub/content.json",
+ "modified": 1490631827,
+ "signs": {
+  "17sYH3HHfUEDp4f4YdB6p6NaJLqChCyaub": "G0PSWcShzNXx5a6Ci6AQUx0OG08iv31ZEnOYaM9ytus5nQLXmIVtnd3d0px6S8YHnIQ41enyhTBLwHoIpdf9FL4="
+ }
+}

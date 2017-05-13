@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "GxPOq2ucAPCIlqtdQ4eCel903GZG+OztkkxO4njsYLNnmsHdsl4A5f+Evl9lu2YOgD9U3plyVQSkRwRLWcnomVE=",
+ "cert_user_id": "givemepsy@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "6f63ca76680f8fe57afc78b5a48bb84f398f7d8c5a5ac450307a4e12d6884ab4",
+   "size": 8411
+  }
+ },
+ "inner_path": "data/users/16UbJDyboDaAjW5fiZouKWpPJztpt43kEj/content.json",
+ "modified": 1491046751,
+ "signs": {
+  "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT": "HGYWHr+NZ6Ac2QNGbDi8u/2IXShJWeaI57P/uf0CRctC4hPRm7IW+m/iz+piYt4Z477nAsNd01fHD9xfJxY+Vhs="
+ }
+}

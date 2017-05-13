@@ -1,0 +1,42 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 6,
+	"comment": {
+		"1_1EwCeJE1k48nqMFtAuiEPLUzNeKvCGTmtX": [
+			{
+				"comment_id": 1,
+				"body": "make cools apps for the network and ask for donations?",
+				"added": 1478085368
+			}
+		],
+		"5_156xbcM9BrbdhtYZUPAQBFvLDGGyy5AjdM": [
+			{
+				"comment_id": 2,
+				"body": "well zeronet supports .bit which is a form of decentralized DNS. So as long as it can reach the tracker then it can take off from there.\n\nActually a better method to solve the problem with reaching the tracker would be to either give zeronet full support for DHT or to use a similar method to i2p in where we download a list of IPs and then have zeronet try and bootstrap from an IP that is already connected to the zeronet network.",
+				"added": 1480290410
+			}
+		],
+		"1_1V9s3bTqEto41K25tqvTfmhS9t1nFCYSF": [
+			{
+				"comment_id": 3,
+				"body": "I've heard of people that have gotten past the 2nd or 3rd challenge.",
+				"added": 1481168354
+			}
+		],
+		"2_17ac9ybVj5CtUpBvi5NeP1EwNZjfJoZWvt": [
+			{
+				"comment_id": 4,
+				"body": "people seem to like matrix.org (its like webRTC and more). You can also try ring on android its FOSS and P2P.\n\nWhat more features do you want from a p2p chat service? live video/audio is like telling the spooks where the hell you live anyways.",
+				"added": 1482350132
+			},
+			{
+				"comment_id": 5,
+				"body": "people seem to like matrix.org (its like webRTC and more). You can also try ring on android its FOSS and P2P.\n\nWhat more features do you want from a p2p chat service? live video/audio is like telling the spooks where the hell you live anyways.",
+				"added": 1482350157
+			}
+		]
+	},
+	"comment_vote": {}
+}

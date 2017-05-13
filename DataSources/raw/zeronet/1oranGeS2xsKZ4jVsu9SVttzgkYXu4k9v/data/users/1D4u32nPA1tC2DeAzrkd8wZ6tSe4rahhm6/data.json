@@ -1,0 +1,30 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Sultanrapide",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1488903454,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"1DDkP7BAr5BmvW4FgdnDFMHgjfzxvP1pEb_1488910147": 1488910581,
+		"1EmgbTgNqoBvawg9kky2TqgCD6dYLjJ81Y_1489571866": 1489581822,
+		"1EmgbTgNqoBvawg9kky2TqgCD6dYLjJ81Y_1489570802": 1489583767
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "le seul objectif de l'etat est de preserver les rapports de puissance existant a sa création. Jamais rien ne changera en votant, malheursement.",
+			"post_uri": "1EmgbTgNqoBvawg9kky2TqgCD6dYLjJ81Y_1489570802",
+			"date_added": 1489584668
+		}
+	],
+	"follow": []
+}

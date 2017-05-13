@@ -1,0 +1,65 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 4,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Tolstoevsky",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1481544595,
+			"body": "Hello ZeroMe! I'm blogging at http://127.0.0.1:43110/18bBvT42f4WjnqXS39vrqoCL492Qhqqj9L/"
+		},
+		{
+			"post_id": 1481544637,
+			"body": "It works! Anybody here?\nРусскоязычные есть, кстати?",
+			"date_added": 1481544635
+		}
+	],
+	"post_like": {
+		"17Xo25emK8WXkrWouD5DsuLrcRnkrREfTa_1481696549": 1481719157,
+		"13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR_1481753099": 1481777297,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1481987265": 1481996243,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1481975762": 1481996284,
+		"1JdoGtN6RD2KYhSAqUX9DHRLsfG3DcCFeZ_1482309355": 1482312281,
+		"1HvRYrzcqSr4DqvsjAtLaNR7Kv8fEQzjK9_1482308428": 1482312317
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Hi there. What is ZeroGo?",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1481565743",
+			"date_added": 1481568360
+		},
+		{
+			"comment_id": 2,
+			"body": "Oh, found it...",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1481565743",
+			"date_added": 1481568434
+		},
+		{
+			"comment_id": 3,
+			"body": "@Gremious:  Ага. Россия и Китай, похоже, встречаются чаще остальных...",
+			"post_uri": "17ojMYQdaS8hyMgC3MB9gaTFmm4JJ4Hk1b_1481544637",
+			"date_added": 1481608413
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf",
+			"user_name": "NotYourBit",
+			"date_added": 1481996329
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR",
+			"user_name": "Johnbyte1221",
+			"date_added": 1482004773
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G3Pc+FfNJiE6yVojxJPZdBxij4IvlHK7FyJL4MD2GMihFilLNPJU3Icx6GcSa2zOE1wpTq7AUTJ/NvCfVaVuSsY=",
+ "cert_user_id": "specktator@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "a939b8f2e49d809e5ac09eab22738388a8a4367490c09e4de8383b789993e1a9",
+   "size": 454
+  }
+ },
+ "inner_path": "data/users/18Eu3oQJvZyLWqBEdNySV4wGHvLGkFkwTv/content.json",
+ "modified": 1477096838.372046,
+ "signs": {
+  "18Eu3oQJvZyLWqBEdNySV4wGHvLGkFkwTv": "G86BO4b44XKn2yDC02N4rngXxfFvzXslDKG2j2UAwmfuWtW6BfyZQYiaLWgkP2ZV6VMn+ZGxeu/onoaSECMUfGk="
+ }
+}

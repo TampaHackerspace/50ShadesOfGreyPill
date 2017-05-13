@@ -1,0 +1,31 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Installing Friendica on a Raspberry Pi",
+			"body": "Hey all. I've been playing around with Friendica, which is a selfhosted ostatus/xmpp/email timeline thingy with it's own group of users. The RPi 3 is fast enough to run it, and I've put together a rough guide for installing on a Pi.\n\nI know the instructions work, as I'm running it myself this way, but the guide is still more of a timeline of thoughts, and it may be missing bits and pieces. I'm sure there are better ways to do all this stuff as well.\n\nI would highly suggest if you want to actually run it, move the filesystem from the SD card and on to something else. I regularly saw 1M load averages >5, as the system gets a lot of MYSQL writes. Moving it to an NFS share saw that drop to 0.64. I use NFS shares simply because I have one available, any fast storage should do the job.\n\nInstructions: http://pastebin.com/1mv9Bsfd\nNFS Boot your PI: http://www.whaleblubber.ca/boot-raspberry-pi-nfs/",
+			"added": 1488122858
+		},
+		{
+			"topic_id": 2,
+			"title": "Standalone security cameras - no back-end required?",
+			"body": "A long time ago, companies like Linksys made IP-enabled cameras that were a simple GNU/Linux box that had some capabilities, like email on motion. They required no nest-like infrastructure to run, and you actually had to know how to port-forward on your network to set them up for outside use.\n\nI realize that old stuff is now very insecure, and a few of the things I tried didn't even work anymore in a modern browser due to old scripts and/or codecs that no longer existed.\n\nCan someone suggest a standalone camera system? I'd prefer one that works on wired Ethernet, but anything without big brother's servers in it will do. (I could spin my own, but if something is out there already, I'd like to know.)",
+			"added": 1488642145
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 2,
+	"comment": {
+		"5_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": [
+			{
+				"comment_id": 1,
+				"body": "That's incredible. Wish I had bought some more now...",
+				"added": 1488639142
+			}
+		]
+	},
+	"comment_vote": {
+		"16_1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB": 1
+	}
+}

@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G2IXtuQEK42TtKllfpfxiDkMrVzU0rtdo/2WKGsoXKl+8VWgUn2R1seDQprON+SdHiK303ryMWHF65rUwziEXPE=",
+ "cert_user_id": "blueriver@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "81d3fc4da7210cce4d19fb1d1ddee8c47263cbbca2e1991725d1f3f15f74eb3e",
+   "size": 1123
+  },
+  "data.json": {
+   "sha512": "5c120cfa12b5e764a407d3dd32a00d65e5c74b92a6efb0c3fdcf8a425969cd45",
+   "size": 335
+  }
+ },
+ "inner_path": "data/users/1MsQ4jXHVDzmA88iQxpEFnAthfi3iRMyFq/content.json",
+ "modified": 1486825174,
+ "signs": {
+  "1MsQ4jXHVDzmA88iQxpEFnAthfi3iRMyFq": "HFFtn2NkbsgN9WlGJkHX/e4dS+cShSeHX11aEau+6BUkavCWfXlBodzv3/dt+vlcjfVwUXUh9gBGe+YdWIpf8Gg="
+ }
+}

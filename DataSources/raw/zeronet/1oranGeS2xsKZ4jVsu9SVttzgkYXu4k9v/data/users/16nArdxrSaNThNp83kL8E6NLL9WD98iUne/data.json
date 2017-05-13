@@ -1,0 +1,487 @@
+{
+	"next_comment_id": 80,
+	"user_name": "Jayofthezero",
+	"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+	"post_like": {
+		"1DDkP7BAr5BmvW4FgdnDFMHgjfzxvP1pEb_1488910147": 1488913897,
+		"1DDkP7BAr5BmvW4FgdnDFMHgjfzxvP1pEb_1488898409": 1488913900,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488924648": 1488935423,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488938689": 1488977023,
+		"1JpWmfyZFm8k2BYTCvUNTzAmrDhkHjKRKT_1489472541": 1489510614,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1489526802": 1489527427,
+		"17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb_1490234361": 1490286454,
+		"12ngkoyZ3NHsYzdDSVtix3nQNq2dGDqW7r_1490874941": 1490899708,
+		"14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492025820": 1492029264,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1492093017": 1492112226
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "I think ZeroMePlus has experimented with it in the past, but @NoFish hasn't found it worth adding to ZeroMe yet.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488071245",
+			"date_added": 1488851985
+		},
+		{
+			"comment_id": 2,
+			"body": "@Rythyrix: I think the trolls & spammers just didn't find it worth it anymore. ZeroNet still isn't very high-profile and the influx of new users from news reports and articles has died down. ZeroNet is cool, but there still isn't much to actually *do* here.",
+			"post_uri": "1CcxneoJY75e7CFFjXMHZmELraPBJmntsd_1488841614",
+			"date_added": 1488852274
+		},
+		{
+			"comment_id": 3,
+			"body": "@Nekololi: Yeah. Let alone me having time to add the function, it's not really worth it if it's not adopted by the main ZeroMe. Sorry :P",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488071245",
+			"date_added": 1488853707
+		},
+		{
+			"comment_id": 4,
+			"body": "@Rythyrix: All those are great uses, but for most people there's no need for those. Why put the effort in when the clearnet feels adequate? Though Chinese users indeed don't find their \"clearnet\" adequate anymore ;)",
+			"post_uri": "1CcxneoJY75e7CFFjXMHZmELraPBJmntsd_1488841614",
+			"date_added": 1488853881
+		},
+		{
+			"comment_id": 5,
+			"body": "Or \"Trademark\" claims on Youtube :P",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488853940",
+			"date_added": 1488854079
+		},
+		{
+			"comment_id": 6,
+			"body": "@Rythyrix: Those platform exclusive services are even worse then clearnet ones :P\n\n---\nAs for security, most people will always take \"the path of least resistance\". In order to overcome that tendency, people have to find the value of protecting their privacy. But that won't happen until they actually feel threatened, and despite the numerous hacks and leaks, that still hasn't reached a breaking point yet.",
+			"post_uri": "1CcxneoJY75e7CFFjXMHZmELraPBJmntsd_1488841614",
+			"date_added": 1488854343
+		},
+		{
+			"comment_id": 7,
+			"body": "@Yinyue: Still a pain to do that. ZeroNet still doesn't have an official way of doing it, so you have to resort to using WebTorrents or IPFS, both of which have their own issues.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488853940",
+			"date_added": 1488854578
+		},
+		{
+			"comment_id": 8,
+			"body": "@Yinyue: Ah, missed that since I was busy in February. I'll check it out tomorrow.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488853940",
+			"date_added": 1488856290
+		},
+		{
+			"comment_id": 9,
+			"body": "@Rythyrix: Haven't looked at how Zeromux works yet, but wouldn't it be something like `(data/users/.*)` as an example?",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488853940",
+			"date_added": 1488856339
+		},
+		{
+			"comment_id": 10,
+			"body": "@Rythyrix: Sounds like a bug on ZeroMux's part then, but I can't be sure till I look at it myself.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488853940",
+			"date_added": 1488857692
+		},
+		{
+			"comment_id": 11,
+			"body": "@Rythyrix: Yeah, I hear that :P\nIt also doesn't help when companies like Yahoo don't realize/don't want to disclose, that they got hacked years ago. By the time they tell people it's pretty much irrelevant. I had already changed my password multiple times so it was a big `¯\\_(ツ)_/¯` at that point. ",
+			"post_uri": "1CcxneoJY75e7CFFjXMHZmELraPBJmntsd_1488841614",
+			"date_added": 1488857869
+		},
+		{
+			"comment_id": 12,
+			"body": "All that article proves is that centralized hosting is stupid, especially for \"less-than-legal\" sites. I have no doubt that the \"dark web\" will simply setup shop somewhere else, probably relying on more decentralized systems instead. That's the nature of these kinds of attacks. You take down one, and a bunch of smaller ones take its place, until they get too big and the cycle repeats itself again.",
+			"post_uri": "1DDkP7BAr5BmvW4FgdnDFMHgjfzxvP1pEb_1488910147",
+			"date_added": 1488913043
+		},
+		{
+			"comment_id": 13,
+			"body": "@Terriblecupcakes: Apparently the CIA got its stuff stolen and now wikileaks is posting it all online.",
+			"post_uri": "19AhH2eARoB96jgnYe55fL6ittMQnaU5Et_1488955975",
+			"date_added": 1488976627
+		},
+		{
+			"comment_id": 14,
+			"body": "@Terriblecupcakes: Here's some details: https://arstechnica.com/security/2017/03/wikileaks-publishes-what-it-says-is-trove-of-cia-hacking-tools/",
+			"post_uri": "19AhH2eARoB96jgnYe55fL6ittMQnaU5Et_1488955975",
+			"date_added": 1488977336
+		},
+		{
+			"comment_id": 15,
+			"body": "You can get IDs from multiple providers, but only one per provider currently. List of ID providers can be found [here](./?Post/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/1DDkP7BAr5BmvW4FgdnDFMHgjfzxvP1pEb/1488898409).",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1488983712",
+			"date_added": 1489009969
+		},
+		{
+			"comment_id": 16,
+			"body": "What Zite are you talking about? Can't find it. Or are you just referring to ZeroMux in general?",
+			"post_uri": "1JpWmfyZFm8k2BYTCvUNTzAmrDhkHjKRKT_1489063675",
+			"date_added": 1489067769
+		},
+		{
+			"comment_id": 18,
+			"body": "What are you talking about then?",
+			"post_uri": "1JpWmfyZFm8k2BYTCvUNTzAmrDhkHjKRKT_1489063675",
+			"date_added": 1489068522
+		},
+		{
+			"comment_id": 19,
+			"body": "Filename bug should be fixed [here](https://github.com/MuxZeroNet/ZeroMux/commit/51c7622ae7a163d59ce6573f166bba9cdf16ac59). Works for me, worth checking out.",
+			"post_uri": "1Ac5XVPgkvQaPFDjiyCTA91cF8SLzmuwAP_1489197461",
+			"date_added": 1489249623
+		},
+		{
+			"comment_id": 20,
+			"body": "LOL",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1489366137",
+			"date_added": 1489370441
+		},
+		{
+			"comment_id": 21,
+			"body": "Welcome",
+			"post_uri": "1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489472317",
+			"date_added": 1489473011
+		},
+		{
+			"comment_id": 22,
+			"body": "More like a combination of Twitter and Facebook.",
+			"post_uri": "1Aa63ifDFsoYUZD4AtD7Dsm2JQrG6Stret_1489480275",
+			"date_added": 1489510484
+		},
+		{
+			"comment_id": 23,
+			"body": "@Flyman: The cycle continues...",
+			"post_uri": "1JpWmfyZFm8k2BYTCvUNTzAmrDhkHjKRKT_1489472541",
+			"date_added": 1489510622
+		},
+		{
+			"comment_id": 24,
+			"body": "Congrats. Routers can be so fiddly, especially the ones from ISPs :P",
+			"post_uri": "1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489504342",
+			"date_added": 1489510681
+		},
+		{
+			"comment_id": 25,
+			"body": "Just Stick `@randomperson123: ` at the beginning of the post then. The colon is important.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1489523624",
+			"date_added": 1489527467
+		},
+		{
+			"comment_id": 26,
+			"body": "Zeronet just basically serves HTML/Javascript pages, so as long as the Browser/OS supports extended unicode it should work fine.",
+			"post_uri": "1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489519679",
+			"date_added": 1489527699
+		},
+		{
+			"comment_id": 27,
+			"body": "@Nekololi: Hello :)",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1489527626",
+			"date_added": 1489527875
+		},
+		{
+			"comment_id": 28,
+			"body": "Actually, I think you don't even need to put it at the beginning of the post, as long as the `@` and colon are there. @Nekololi:",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1489527626",
+			"date_added": 1489527941
+		},
+		{
+			"comment_id": 29,
+			"body": "You can always edit it. And the first message is made for technical reasons.",
+			"post_uri": "15EZMkytPnFMsRwwwpLLFAznf3fhrbr6ch_1490206632",
+			"date_added": 1490286529
+		},
+		{
+			"comment_id": 30,
+			"body": "It can still be cloned manually, like [Dark ZeroMe](http://127.0.0.1:43110/1HmJ7GadjdiQUPevaK7QXVrK4nhyCp1fSj/) shows.",
+			"post_uri": "1H9ux5VphgH61ApBbR5fTeTJPkS6rg4RgN_1490740820",
+			"date_added": 1490750439
+		},
+		{
+			"comment_id": 31,
+			"body": "I don't think there is any, especially for ZeroMe. You'll just have to read the Github code or peruse its files on your PC.",
+			"post_uri": "17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb_1490896517",
+			"date_added": 1490898913
+		},
+		{
+			"comment_id": 32,
+			"body": "So you added a picture? I don't think the exclamation mark is necessary.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490897414",
+			"date_added": 1490899001
+		},
+		{
+			"comment_id": 33,
+			"body": "http://coffeescript.org/",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490896001",
+			"date_added": 1490899023
+		},
+		{
+			"comment_id": 34,
+			"body": "It's because it's mostly one guy developing the entirety of ZeroNet and he has other features and functions he wants to implement. On top of that he's preparing for the TED conference next month.\n\nFeel free to join in on Github and help out if you think you have the skills necessary.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490893303",
+			"date_added": 1490899113
+		},
+		{
+			"comment_id": 35,
+			"body": "What version of Firefox are you using? Also make sure that the codecs are installed:\n`sudo apt-get install ubuntu-restricted-extras`",
+			"post_uri": "12ngkoyZ3NHsYzdDSVtix3nQNq2dGDqW7r_1490876546",
+			"date_added": 1490899217
+		},
+		{
+			"comment_id": 36,
+			"body": "@Plasmmer: Technically it doesn't support SVG since it converts all the uploaded images into JPEG, but at least it lets you upload them.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490853445",
+			"date_added": 1490899964
+		},
+		{
+			"comment_id": 37,
+			"body": "@Rythyrix: No point deleting a zite anyway.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490851405",
+			"date_added": 1490900046
+		},
+		{
+			"comment_id": 38,
+			"body": "@Plasmmer: Personally I don't like my Buttons yelling at me :)",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490897414",
+			"date_added": 1490900891
+		},
+		{
+			"comment_id": 39,
+			"body": "Keep in mind that that would require pictures with large file sizes. The whole point is to keep file sizes down and to have the bare minimum required. Don't want to force people to download profile covers and HQ thumbnails everytime they open some random users profile page. Unlike the normal clearnet, Zeronet more easily eats through HDD space.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490849875",
+			"date_added": 1490901177
+		},
+		{
+			"comment_id": 40,
+			"body": "Meaning what? You want a voting system? There are already websites for creating polls.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490848996",
+			"date_added": 1490901217
+		},
+		{
+			"comment_id": 41,
+			"body": "@Plassmer: Seems like your average compose style icon so it's fine, though the button as a whole feels unbalanced with it. Might just be my taste though.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490897414",
+			"date_added": 1490901508
+		},
+		{
+			"comment_id": 42,
+			"body": "@Plasmmer: Try making a clone and implementing your ideas. ZeroMe clones can actually still talk to normal ZeroMe users so it's a great way of testing your ideas. I've personally made a [Dark-themed ZeroMe](http://127.0.0.1:43110/1HmJ7GadjdiQUPevaK7QXVrK4nhyCp1fSj) because I hate white websites.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490897414",
+			"date_added": 1490902865
+		},
+		{
+			"comment_id": 43,
+			"body": "@Plasmmer: So basically you want moderator functions, where a site owner can approve other people, or make public, changes to a site?",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490848996",
+			"date_added": 1490902986
+		},
+		{
+			"comment_id": 44,
+			"body": "@Plasmmer: Feels kinda like it defeats the point of a cover image if you do that.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490849875",
+			"date_added": 1490903018
+		},
+		{
+			"comment_id": 45,
+			"body": "@Plasmmer: True, which is why it'd be great if the upload function was supplemented with support for uploading SVG instead of converting everything into JPEG.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490853445",
+			"date_added": 1490903094
+		},
+		{
+			"comment_id": 46,
+			"body": "@Plasmmer: Yeah, but in the meantime he's busy.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490893303",
+			"date_added": 1490903165
+		},
+		{
+			"comment_id": 47,
+			"body": "You should setup a blog and post a detailed outline of Gitcratic there. You shouldn't spam ZeroMe with multiple posts about the same thing since we're still reliant on browsing the \"Everything\" tab here to find new users and interesting posts. It'd be different matter if we had tagging and discovery abilities.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490905192",
+			"date_added": 1490907204
+		},
+		{
+			"comment_id": 48,
+			"body": "@Plasmmer: Yeah, but for now making your own Blog/Storage Zite(make sure you mark images as optional files) or ZeroMux Dropbox(for larger files) is the best way to share files right now.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490905192",
+			"date_added": 1490909422
+		},
+		{
+			"comment_id": 49,
+			"body": "http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1NmkVyqBJX6a82YQFYkCNgQpE9AWsmeppp/how+does+zeronet+handle+multiple+ID+s#comment_265_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490909368",
+			"date_added": 1490911664
+		},
+		{
+			"comment_id": 50,
+			"body": "It uses WebTorrent based on WebRTC. The problem that occurred though is that WebTorrents require you to leave the page open or run a special torrent client in order to continue seeding the video. How many people would be willing to leave a tab open indefinitely, or download a special torrent client program, just to seed a video? The answer was \"not many\". Hence why the zite is kinda dead now.\n\nInterest has currently shifted to the in development ZeroMux which can stream video using just Zeronet. It's currently missing the ability for user uploads though, so anybody who wants to share a video have to figure out ZeroMux and setup their own streaming page on a zite themselves.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490908393",
+			"date_added": 1490912134
+		},
+		{
+			"comment_id": 51,
+			"body": "@Plasmmer: ZeroMux isn't it's own site yet. It's a tool and libraries that help you generate a Dropbox like zite, and make pages that stream video. A properly made zite will have all those files marked optional so that they only download when you choose to download or stream them. Here's a [test site I made](http://127.0.0.1:43110/1FyYahC8sKVYfsPQXEzuRjXNDQeb6Y2xno/), the streaming page is linked on the left. Keep in mind that video streaming only works properly in Firefox currently due to an old bug in Chrome that hasn't been fixed due to it not being a problem until now.  \n\n---\nYou can get and learn more about ZeroMux [here](http://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/big/docs/)",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490908393",
+			"date_added": 1490918196
+		},
+		{
+			"comment_id": 52,
+			"body": "@Liux: Glad you could get it fixed.",
+			"post_uri": "12ngkoyZ3NHsYzdDSVtix3nQNq2dGDqW7r_1490876546",
+			"date_added": 1490961772
+		},
+		{
+			"comment_id": 53,
+			"body": "@Plasmmer: No point making ZeroMux user friendly when it still isn't stable yet. The main hurdle is the chunking step which currently requires running a python script in order to generate the files. That needs to be converted to javascript before any kind of Youtube like sharing site can be made. It'd also be helpful if the \"Files\" tab in Zerohello could be sorted and have a bulk select/delete function so it's easier to delete a lot of files, or have whatever Youtube clone include the ability to easily delete videos.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490908393",
+			"date_added": 1490998193
+		},
+		{
+			"comment_id": 54,
+			"body": "If you don't want to compile from the git, then the easiest way is to make a blank zite, and then copy the files from the `1MeFqFfFFGQfa1J3gJyYYUvb5Lksczq7nH` folder to your new zite's folder. Don't overwrite the `content.json` file in your zite though, backup the file first. Then open up ZeroMe's and your zite's `content.json` file and carefully copy everything from ZeroMe's between the lines `\"files\": {` and `\"sign\": [` to your zite's in the same position.\n\nReload your Zite and you should now have a working ZeroMe clone. Sign and Publish it when you're ready. You can then modify the javascript and CSS files to your heart's content.\n\nPS: You might want to Rebuild the database using the Zeronet sidebar on your zite. Do note that rebuilding can take a while so you might have to wait a few dozen minutes before your clone is functional.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490980524",
+			"date_added": 1490998787
+		},
+		{
+			"comment_id": 55,
+			"body": "No moderation on ZeroMe, that'd defeat the point. Although tags and filtering would be nice. In the mean time if you click the three-dot button in the top-right of a post you get an option to mute the user. That'll hide all their posts and comments. And that covers the entirety of ZeroNet, not just ZeroMe, so you won't see their content on most sites. You can manage your muted users in ZeroHello.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491010957",
+			"date_added": 1491011745
+		},
+		{
+			"comment_id": 56,
+			"body": "@Nofish: Yeah, @Kaffie: already is exploring this. They plan to post their mute and block lists from now on. What'd be nice is a way to subscribe to a list though.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490981809",
+			"date_added": 1491011926
+		},
+		{
+			"comment_id": 57,
+			"body": "FYI, the common term used is \"clearnet\" to describe the normal web, since everything you do is \"in the clear\".",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490980245",
+			"date_added": 1491012066
+		},
+		{
+			"comment_id": 58,
+			"body": "Ok..........\n\nPS: You missed a `0` in your URL.",
+			"post_uri": "1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1491008239",
+			"date_added": 1491012325
+		},
+		{
+			"comment_id": 59,
+			"body": "That or you can look into compressing each chapter into a ZIP file now that Zeronet supports loading archives. You could save on bandwidth that way, though initial loading times would be longer since you're downloading the whole chapter at once. The plus side would be that you could easily provide download links for the ZIPs too.",
+			"post_uri": "1LyJMReywhzrtMYQHvRauRZ7khETPJkdoh_1490989646",
+			"date_added": 1491012531
+		},
+		{
+			"comment_id": 60,
+			"body": "Also, DDOS is mitigated by using Tor if needed.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490981809",
+			"date_added": 1491012581
+		},
+		{
+			"comment_id": 61,
+			"body": "@Plasmmer: Zeronet Proxies support all zites, though the proxy may impose limits on things to prevent abuse.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491080744",
+			"date_added": 1491092533
+		},
+		{
+			"comment_id": 62,
+			"body": "@Plasmmer: Sometimes it's not necessary, but things were buggy for me initially until I rebuilt it.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490980524",
+			"date_added": 1491113303
+		},
+		{
+			"comment_id": 63,
+			"body": "@Plasmmer: Looks like he's on the AmethystHub. Visit [this site](http://127.0.0.1:43110/1KNmG5rJUGhgUJGFbLkv2B5isaqu9PrZqi/) and he should start appearing for you on ZeroMe. No other action needed.\n\nThe reason he wasn't appearing is because he was on a Hub that you didn't have downloaded.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491164335",
+			"date_added": 1491172425
+		},
+		{
+			"comment_id": 64,
+			"body": "@Plasmmer: If you look at their profile URL you'll see this:\n`http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1KNmG5rJUGhgUJGFbLkv2B5isaqu9PrZqi/17toZ8q8m7zn95pFss8xC4odxcdS7wQGxV/michonnebolada@zeroid.bit`\nThe string of text after `?Profile/` is their Hub ID. In this case, `1KNmG5rJUGhgUJGFbLkv2B5isaqu9PrZqi`.\nSimply visit that address like any other Zeronet zite:\n`http://127.0.0.1:43110/1KNmG5rJUGhgUJGFbLkv2B5isaqu9PrZqi`\nAnd it'll be added to ZeroMe. You can find what hubs you already have downloaded by scrolling to the bottom of the left sidebar in ZeroHello, under \"Merged: ZeroMe\".",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491164335",
+			"date_added": 1491174218
+		},
+		{
+			"comment_id": 65,
+			"body": "By default the Zeronet blog template doesn't allow that. You'd have to make your own method.\n\nPS: Did you delete some posts? Because I clicked on a reply you gave me about the hubs, but the post no longer exists for some reason. EDIT: Maybe it's just me. I'll have to look into this.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491177567",
+			"date_added": 1491186486
+		},
+		{
+			"comment_id": 66,
+			"body": "I haven't had an issue. Just make sure that all the computers being used are kept up to date. Don't leave one client offline too long. If you do, you have to make sure everything finishes syncing before you start doing stuff on it.",
+			"post_uri": "1Ea3RG4YuLnifynBxvuWAA3Y2nLcTWfrjQ_1491225852",
+			"date_added": 1491253702
+		},
+		{
+			"comment_id": 67,
+			"body": "Yo",
+			"post_uri": "1L3WrmgBg1LyyxG1snW3diWyVeAgCe3iF9_1491299800",
+			"date_added": 1491340698
+		},
+		{
+			"comment_id": 68,
+			"body": "@k0re: In the future when you're offline for a while, make sure Zeronet is up to date, then when you open the zite you want to use pull out the Zeronet sidebar and press the 'Update' button. Wait a bit for it to tell you it's updated, refresh, and you should be good.",
+			"post_uri": "1Ea3RG4YuLnifynBxvuWAA3Y2nLcTWfrjQ_1491225852",
+			"date_added": 1491422928
+		},
+		{
+			"comment_id": 69,
+			"body": "Yeah not happening anytime soon. People will just have to get normal Offline Windows/etc-OS programs that already exist.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491444511",
+			"date_added": 1491454494
+		},
+		{
+			"comment_id": 70,
+			"body": "@Plasmmer: Translating Multiple Languages is a completely different ballgame and isn't something one person does in their spare time. There's a reason why it's a decent paying job. If you screw up a translation you can cause misunderstandings. Including a translation feature implies that it's reliable enough to be used in everyday interactions. Plus the amount of space required to store the dictionaries and other components of a translation system would make it impractical to implement on Zeronet at the moment. Companies like Google have been working on translation for years with paid employees dedicated to it that have the latest in AI and neural network technology, and they still have issues. Especially when translating between languages like English and Chinese(the most used languages on Zerome at the moment).\n\nIf you or someone else wants to work on a Translation plugin for Zeronet, go right ahead, but I'm pretty sure Nofish is busy with Zeronet itself right now. Also as I said, there's no reason you can't use existing translation tools with Zeronet.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491444511",
+			"date_added": 1491496551
+		},
+		{
+			"comment_id": 71,
+			"body": "Though most people in the US currently are obsessed with Russia and North Korea. The US does still have the mentality that China has to be \"contained\" though, which could easily switch to open hostility like what's going on with Russia right now. All we need is something to trigger it. The build-up in South-East Asia right now could easily spark something.",
+			"post_uri": "1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b_1491517227",
+			"date_added": 1491520666
+		},
+		{
+			"comment_id": 72,
+			"body": "There's no notification system, so I never know when I get a message on ZeroMail.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491614121",
+			"date_added": 1491763652
+		},
+		{
+			"comment_id": 73,
+			"body": "@Plasmmer: I know, that was my point. ZeroMail doesn't use that. It's easier to get my attention by mentioning me on ZeroMe or commenting on my Blog. Even then though, I wish ZeroHello had a notification sound option. Maybe use the [HTML5 Notifications API](https://developer.mozilla.org/en-US/docs/Web/API/notification) to better get my attention.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491614121",
+			"date_added": 1491763893
+		},
+		{
+			"comment_id": 74,
+			"body": "Lame. Call Stan Lee. We need a better super power.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491802557",
+			"date_added": 1491856437
+		},
+		{
+			"comment_id": 75,
+			"body": "`Insert misunderstood joke here`",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491802557",
+			"date_added": 1491888447
+		},
+		{
+			"comment_id": 76,
+			"body": "Looking great. Are you going to add a chat room feature in the future, so people can narrow down a topic instead of just stepping into the river?",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491905551",
+			"date_added": 1491960582
+		},
+		{
+			"comment_id": 77,
+			"body": "I don't think it's documented. Nofish hasn't gotten around to fleshing out the docs for a lot of things.",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492109943",
+			"date_added": 1492112024
+		},
+		{
+			"comment_id": 78,
+			"body": "Know the feeling.",
+			"post_uri": "18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1492093017",
+			"date_added": 1492112235
+		},
+		{
+			"comment_id": 79,
+			"body": "Isn't that how it normally works though? If you can read the messages sent to you, and the ones you sent, then naturally if you have the private key of one person you can see the whole conversation. How else would it be possible without archiving the sent messages?",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492183929",
+			"date_added": 1492207562
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"next_post_id": 4,
+	"next_comment_id": 4,
+	"next_follow_id": 2,
+	"avatar": "jpg",
+	"user_name": "00d4n1",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "a trans lesbian pony ~ https://keybase.io/00dani",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484364899,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1484787154,
+			"body": "Wondering whether Keybase could be taught about ZeroNet, so you can publicly verify your ZeroID against your other social profiles. Ruins your anonymity, I suppose.",
+			"date_added": 1484787152
+		},
+		{
+			"post_id": 1489552501,
+			"body": "Would be useful for our ZeroNet private keys to be compatible with other kinds of private keys. I know my PGP secret keys are *significantly* more secure than my ZeroNet ones right now for instance!",
+			"date_added": 1489552498
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Nofish: Huh. I'm not sure I understand why WIF is *better* than just passing the key around as a hex string, given that the example private key 0C28FCA386C7A227600B2FE50B7CAE11EC86D3BF1FBE471BE89827E19D72AA1D is only slightly longer as hex than as WIF. Good to know it's a standardised format, though!",
+			"post_uri": "1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd_1489552501",
+			"date_added": 1489626733
+		},
+		{
+			"comment_id": 2,
+			"body": "Incidentally, signing your page content with secrets stored on hardware is exactly what I was thinking of. My PGP secret keys are stored on a YubiKey - they're definitely much safer than my ZeroNet users.json file is.",
+			"post_uri": "1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd_1489552501",
+			"date_added": 1489626842
+		},
+		{
+			"comment_id": 3,
+			"body": "@Nofish: Right, it makes sense for ZeroNet to use the same format as Bitcoin - I was wondering why Bitcoin used WIF in the first place, given that a hex string is not very much longer and that if length is the issue, base64 would be much smaller anyway. Looked around and the original Bitcoin devs actually did explain that: https://en.bitcoin.it/wiki/Base58Check_encoding So that's cool. :P",
+			"post_uri": "1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd_1489552501",
+			"date_added": 1489633155
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1490138454
+		}
+	]
+}

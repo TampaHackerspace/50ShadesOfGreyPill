@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HArhOVcOQ+cOSvzN9exBM9qznbhx5dDHSJlBTKhpOVrNlQT/wVJJB2iVSIaSk4TL+wWjJGFCz3JTUk7FwXXbrc4=",
+ "cert_user_id": "nake13@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "b2ce17220620db0ed4db1d5a86924ab83ba22dbd85847c25e25d475bdcb70e85",
+   "size": 255
+  }
+ },
+ "inner_path": "data/users/17WM1PFqZsLpKdndM8R1fSRApoqTUWvsUV/content.json",
+ "modified": 1490946900,
+ "signs": {
+  "17WM1PFqZsLpKdndM8R1fSRApoqTUWvsUV": "HHNQs694sud/RAMKwDbIsIG5iOqRQb3m8Vd0PnU1j0Ta51WWmrNQUgWkP7wAecK+X81HlrGM89SEtWXUqZ7Fbbk="
+ }
+}

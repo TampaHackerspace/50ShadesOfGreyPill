@@ -1,0 +1,64 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HMdd0ZcIlWwLmIfWlvBeeU+2/cKjw0b06hkH2cHmMsLJVgpCWn1C8c/75GSf2D+IR+cx2rItmej7lSjY1DZYBIY=",
+ "cert_user_id": "end@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "ef51fb358ad08087bf9cf44caa5acfcf0928aad261f45ffca42e3ac674a66a2d",
+   "size": 1784
+  },
+  "avatar.png": {
+   "sha512": "8936e57cc72ed679277d31887f701a8f66dce3c32f35b454e1ac84cd7e1112f9",
+   "size": 1629
+  },
+  "data.json": {
+   "sha512": "7198a2b577de7d8c6ad95accb5ed190612dbc9131da5190052e4d0b942fadd24",
+   "size": 4122
+  }
+ },
+ "files_optional": {
+  "1483549304.jpg": {
+   "sha512": "53b0b6811f2146d7d37699411f05e4c7dfb003813775149716c9d0bc953dda85",
+   "size": 100839
+  },
+  "1483549409.jpg": {
+   "sha512": "ad26c369ed985f5e44ffdc418dfead392a3d2e68dd569255897b4f95bf239fe7",
+   "size": 144694
+  },
+  "1483549634.jpg": {
+   "sha512": "2bb5abe638c7311b498c1fbd33aa27e263440e083ac0d53b37df4d1766a8b7e2",
+   "size": 63342
+  },
+  "1483549819.jpg": {
+   "sha512": "c2355d816b2964bf8f5570e065cc596001aa93b1bd81adee6f834a138bc6232f",
+   "size": 85866
+  },
+  "1483588271.jpg": {
+   "sha512": "0bc376296fed94e850889ad6c0ad47903e399392b4734a9cb56ebba765998366",
+   "size": 50718
+  },
+  "1483589317.jpg": {
+   "sha512": "6f898287ac5794e0e715c82090bb9c5ea45e55ae678c9816ae9b08afa38c1d14",
+   "size": 69745
+  },
+  "1484907129.jpg": {
+   "sha512": "4d01ed4ce27fbe0abc567d17ec26b2f8557316395c6f9483d57577b33ee1ea9e",
+   "size": 109578
+  },
+  "1484926159.jpg": {
+   "sha512": "117f4965a8a4a1945c74e5a7dd293b1e0173c3cbbcc660670d144e4d27d5fa8a",
+   "size": 32452
+  },
+  "1489276165.jpg": {
+   "sha512": "8b4a11d347db3b73ec220ae015e9de17cde7d499edfaa442a85b3d2028389a45",
+   "size": 109163
+  }
+ },
+ "inner_path": "data/users/1L1kgigX9vonBdNme2NdoANzPv7KvSAPc3/content.json",
+ "modified": 1491460481,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1L1kgigX9vonBdNme2NdoANzPv7KvSAPc3": "HJPCyWURRS4AVfQEa7+Crsu2RpJNuA73VluyHLG61X59CHgqzfJXVK3Z7KgRBUFJN9pHtW2VBlhgiW/71FPeyOM="
+ }
+}

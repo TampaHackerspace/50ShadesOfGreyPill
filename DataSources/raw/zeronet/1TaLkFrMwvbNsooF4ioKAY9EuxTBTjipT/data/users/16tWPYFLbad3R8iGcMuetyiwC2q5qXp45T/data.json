@@ -1,0 +1,218 @@
+{
+	"next_topic_id": 12,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "你能发条信息给我吗？（can you send me a message?）",
+			"body": "你能发条信息给我吗？（can you send me a message?）",
+			"added": 1462596744
+		},
+		{
+			"topic_id": 2,
+			"title": "panama papers is great,does it  ？？",
+			"body": "http://127.0.0.1:43110/PanamaPapers.bit/",
+			"added": 1462597030
+		},
+		{
+			"topic_id": 3,
+			"title": "哈，李小琳是李鹏的女儿  ???????????",
+			"body": "http://127.0.0.1:43110/PanamaPapers.bit/files/Xiaolin-Lidoc2.pdf",
+			"added": 1462597126
+		},
+		{
+			"topic_id": 4,
+			"title": "Can you send a message to my mail ? ? ? my e-mail is 43110@zeroid.bit",
+			"body": "thank you very much 谢谢  ，（唔该赛）",
+			"added": 1462597445
+		},
+		{
+			"topic_id": 5,
+			"title": "Ask a new guy question(问个菜鸟问题)",
+			"body": "How to open :(Your network connection is restricted. Please, open 15441 port\non your router to make your site accessible for everyone.)，点击开启没反应....。。。。。",
+			"added": 1462599235
+		},
+		{
+			"topic_id": 6,
+			"title": "分享公用帐号啦，名字是freedomchina，拿去用吧。。。。。",
+			"body": "btsync的key是：BRV7P5F2IRE36LNDDJCRWB7G6YUPTTCZF",
+			"added": 1462680987
+		},
+		{
+			"topic_id": 7,
+			"title": "FBI   shutdown  THE zeronet  ?????(FBI能关闭zeronet的网站？？？？？？)",
+			"body": "http://127.0.0.1:43110/1FqhRosMouo37Z8iDpLTEPvfznBq1b4N4w",
+			"added": 1462795990
+		},
+		{
+			"topic_id": 8,
+			"title": "Welcome Sir",
+			"body": "http://127.0.0.1:43110/1PEwaTgZGCNEJkJVvFUhg83wdjnjejnKzP",
+			"added": 1463474774
+		},
+		{
+			"topic_id": 9,
+			"title": "用的宽带没有路由的，怎么开启15441端口？？？？？？",
+			"body": "不开不能publish网站呐。。。",
+			"added": 1463477018
+		},
+		{
+			"topic_id": 10,
+			"title": "ZeroNet 将会成为下一个失败品？？",
+			"body": "<copy 别人的评论，觉得挺有理，zeronet以后要发展，是要解决数据储存的问题！！>\n\nZeroNet 最近很流行，特别是在中文用户群中。ZeroNet 是一种分布式的互联网，它不像传统互联网那像需要一个一个物理的服务器来架设网站，而是每一个用户都可以作为服务器，储存一些数据并且分发给其他用户。具体的介绍不多说了，一搜一大堆，就来说说为什么它一定会失败。\n\n我大概在 2001 左右第一次接触到网络，从那时候开始，就不断有新闻提到分布式计算，或者用现在流行的词来说，“去中心化”的系统。而随着时间的推移，这些系统没有一个成功的。\n\n印象中最早的一个是寻找外星生命的项目 SETI@home，这个项目目前还活着，并且是已知的所有分布式计算项目中最活跃的一个。据今年一月份的统计，SETI@home 有超过 500 万名活跃用户。这个数字看上去很多了，但是呢，微信的每日活跃用户也超过了一亿。也就是说，每 100 名微信用户才有一个参与的，你的好友中可能都没有一个人听说过这个项目。\n\n当然，分布式项目中也有参与人数多的，比如比特币，2013 年火暴的时候妇孺皆知。但是呢，今年一月份比特币核心开发者宣称比特币失败。而最近一次的炒作中，90% 以上的交易量发生在中国的比特币市场，足以证明一个“分布式”项目的失败。\n\nZeroNet 是最近一个分布式的尝试，但它也逃脱不了失败的命运。\n\n原因很简单，没有商业公司支持。之前提到过，没有商业公司支持的项目，不可能胜过一个有商业背景的项目。而一个商业项目，没有必要完全去中心化。\n\n或许你会不同意，看，BitTorrent 项目就活得很好，大家都在用 BT 下载，而它本身也是由一家同名的公司支持的。对，BT 一个非常流行的技术，但是，你听说过迅雷离线下载么？虽然现在下载依然依赖 BT 种子，但一般我的做法是把种子下载下来，传到迅雷上去，然后再通过迅雷离线下载下来。迅雷的服务器提供了比 BT 节点快得多的速度，完全没有必要使用纯粹的 P2P 下载。我相信大多数网友（至少是中国网友）都是这样做的。对 P2P 特性的依赖已不复存在。\n\n不要提 Tor，Tor 并不是分布式项目。尽管 Tor 有自己的暗网（Darknet），暗网中的每一个网站和互联网的网站是一样的，都是依赖于一台（或几台）中心服务器，没有分布式的特性。\n\n回过来说说 ZeroNet。ZeroNet 的愿景是发展出一套和互联网平行，完全分布式的网站系统。这个系统中每个网站都分散在各个网友的电脑中，只要有网友在线，网站就永不下线。\n\n然而，这个系统有一个致命的问题：成本。目前 ZeroNet 的存储策略是这样的，当你访问一个网站的时候，就是把这个网站的所有内容下载下来，然后把这些内容重新分享给新用户。从冗余的角度来说，一个网站有多少用户，就存在多少份数据冗余。当然等到 ZeroNet 发展壮大了，必然不会每人都存一份。我们就假设冗余量是 1000，这个数字其实很保守了，考虑到用户的平均在线时间、地域分布等，要保证良好的访问速度，实际的数字肯定会比这个高。然后我们来看一下互联网的总量是多少。有消息说，Google 一家的数据量是 5EB，就是 50 亿 GB。而互联网网民总数目前是 30 亿左右。以 1000 冗余量存下 Google 所有的数据，需要平均每个人 50 / 30 * 1000 约为 1000 GB 也就是 1 TB 的硬盘。现在一个 1TB 的硬盘售价大约是 50 美元（民用硬盘的价格，商用的更贵），30 亿人人手一个，总价值约为 1500 亿美元。就算一块硬盘的平均寿命是五年，那么一年的平均费用就是 300 亿美元。\n\n作为一家商业公司，Google 花 300 亿来运行它的数据中心，自然是一点问题都没有；然而对于一个非赢利项目，它能用什么方式说服全世界的网民帮他支付这个帐单，我很好奇。实际上，中心式存储的成本反而低，Google 一年花在数据中心上的钱大约是 120 亿美元。\n\n如果存不下这么多内容，ZeroNet 就发展不出那么大的规模，没有那么大的规模，如何吸引用户使用。想想现在的潮流，视频、直播、VR，哪一个不需要大容量的存储。没有这些日常所需的娱乐内容，ZeroNet 的发展方向只会像暗网一样，成为法外之地，大量不入流、违法、无聊的内容，久而久之，就没有用户了。",
+			"added": 1467353343
+		},
+		{
+			"topic_id": 11,
+			"title": "有没有人能把这个搬到ZeroNet 呢 ？？搬得过来的话就可以在线分享大文件了，当年快播的那种毛片分享功能也就能实现了！！",
+			"body": "若能把这个搬到ZeroNet，就能分享大文件了，也许可以做到当年快播分享毛片的功能（应该可以p2p在线点播）这可以在zeronet建个网站实现，都怪自己不懂编程。\n实现后的主页：https://www.sharefest.me/\ngithub上的源码：https://github.com/Peer5/Sharefest",
+			"added": 1468225644
+		}
+	],
+	"topic_vote": {
+		"8_16tWPYFLbad3R8iGcMuetyiwC2q5qXp45T": 1
+	},
+	"next_comment_id": 23,
+	"comment": {
+		"7_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ": [
+			{
+				"comment_id": 1,
+				"body": "hi,Guy !!!!",
+				"added": 1462596815
+			}
+		],
+		"1_16S7cvRVax2agHYdAcWDRicQdZXZ6PAhmt": [
+			{
+				"comment_id": 2,
+				"body": "yes,    I have seen a pig flying in the sky  !!!!  hahahah~~~~~~",
+				"added": 1462597313
+			}
+		],
+		"4_16tWPYFLbad3R8iGcMuetyiwC2q5qXp45T": [
+			{
+				"comment_id": 3,
+				"body": "> [kaneo](#comment_1_15rJsACAX5YiWa8q62D5xUEHKEFrvcTCZ8): Yea\n\nCan you send me a message and let me check my account ? Thank you .",
+				"added": 1462601756
+			}
+		],
+		"3_16tWPYFLbad3R8iGcMuetyiwC2q5qXp45T": [
+			{
+				"comment_id": 4,
+				"body": "额，看了巴拿马文件中她的护照在知道。。。。",
+				"added": 1462615354
+			},
+			{
+				"comment_id": 5,
+				"body": "是才知道。。。。汗",
+				"added": 1462615393
+			}
+		],
+		"2_1GQdnXVUkRB3zHXJcAKVnGvru8fjGYo1yS": [
+			{
+				"comment_id": 6,
+				"body": "要啥活？？？我隔壁工地需要搬砖的。。。。。。。。干不干咯",
+				"added": 1462615449
+			}
+		],
+		"1_1ENFxPrtPKiEm1G1Hh7Ru8qRTheqDGj8b6": [
+			{
+				"comment_id": 7,
+				"body": "置顶的新手教程。。。。。。",
+				"added": 1462615484
+			}
+		],
+		"1_1FCh6BDFNzbVvrjdkWaRW3w6dqK8Jys5Lf": [
+			{
+				"comment_id": 8,
+				"body": "也许你全程带套还行。。。。。。。。。",
+				"added": 1462615576
+			}
+		],
+		"1_16tWPYFLbad3R8iGcMuetyiwC2q5qXp45T": [
+			{
+				"comment_id": 9,
+				"body": "Nothing IN my mailbox...      cry~~~~~~~~~~~~~~~(收不到消息)",
+				"added": 1462681392
+			},
+			{
+				"comment_id": 13,
+				"body": "> [anightcat](#comment_1_1BhQHcnQPwFmXCReJB2shGhoZVBFKcFw9a): 注册账号怎么用？\n\n账号就是zeronet/data里的user.json文件，保存好。",
+				"added": 1462925357
+			},
+			{
+				"comment_id": 14,
+				"body": "thank you who send me messages,thank you.",
+				"added": 1462925491
+			}
+		],
+		"1_1PRsmkcDcCnKbCfFTeQizKYcDpNn98iQcT": [
+			{
+				"comment_id": 10,
+				"body": "I  only know yameidie（吖美蝶）。。。。。。。",
+				"added": 1462681471
+			}
+		],
+		"1_1MxejC3wJ1PB6QbLwL7g3HzC4ZPojJogD3": [
+			{
+				"comment_id": 11,
+				"body": "so young so 森破",
+				"added": 1462712330
+			}
+		],
+		"1_1JKjdEGjhxQxn7jAUM9kcHAqDEFF5TpxGQ": [
+			{
+				"comment_id": 12,
+				"body": "I LOve girls，",
+				"added": 1462795249
+			}
+		],
+		"9_16tWPYFLbad3R8iGcMuetyiwC2q5qXp45T": [
+			{
+				"comment_id": 15,
+				"body": "好了，按照xiaolan的教程https://xiaolan.me/zeronet-1.html，已经成功发布，我站点：http://127.0.0.1:43110/1L4jjCHZY7XyEimUitrTrq3tadMerX9FeQ#Publish",
+				"added": 1463549753
+			},
+			{
+				"comment_id": 16,
+				"body": "好像这评论有bug,评论里连加两条链接，中间有文字都识别成一条链接了，我网站是127.0.0.1:43110/1L4jjCHZY7XyEimUitrTrq3tadMerX9FeQ",
+				"added": 1463549990
+			},
+			{
+				"comment_id": 17,
+				"body": "http://127.0.0.1:43110/1L4jjCHZY7XyEimUitrTrq3tadMerX9FeQ",
+				"added": 1463550015
+			},
+			{
+				"comment_id": 18,
+				"body": "还要加http://才能识别链接，，，，，",
+				"added": 1463550061
+			},
+			{
+				"comment_id": 19,
+				"body": "还有个问题，怎么样才能自定义网址？？？？",
+				"added": 1463550155
+			}
+		],
+		"1_114c9kLxp6SPG4xhhHZEnoijFdYA8j23JE": [
+			{
+				"comment_id": 20,
+				"body": "You can post a BtSync key to share your files.ZeroNet can't share so large file now.",
+				"added": 1476539757
+			}
+		],
+		"1_1FZEtMSz2tKFZPmBtjhD7JgR4awtAMD47G": [
+			{
+				"comment_id": 21,
+				"body": "Everyone can clone zeroTalk or  zeroblog,if you think it is censored ,you can clone one to share your idea ,so in this way zerotalk is uncensored. ^__^",
+				"added": 1476543081
+			}
+		],
+		"1_1EcTBTYsro4Vr5ea5NahkseWCK883quWM1": [
+			{
+				"comment_id": 22,
+				"body": "https://neocities.org all sites on it are hosted on IPFS.",
+				"added": 1476955438
+			}
+		]
+	},
+	"comment_vote": {}
+}

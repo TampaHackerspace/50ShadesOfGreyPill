@@ -1,0 +1,34 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 1,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Sn0w",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "新 ZeroNet 用户",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1490803099,
+			"body": "你好 ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LDgXnrcgeJqgPYdp6aW4T28C6RFuJZDxU",
+			"user_name": "操GFW",
+			"date_added": 1490803118
+		},
+		{
+			"follow_id": 2,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1NVmy7v2J1aQEgja6HDSeDM8VaADP9zkpu",
+			"user_name": "BTSynChina中文资源分享",
+			"date_added": 1490803570
+		}
+	]
+}

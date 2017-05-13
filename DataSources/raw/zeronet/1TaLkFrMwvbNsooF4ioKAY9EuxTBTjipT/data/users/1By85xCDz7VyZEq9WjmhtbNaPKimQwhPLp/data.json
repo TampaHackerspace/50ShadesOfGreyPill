@@ -1,0 +1,327 @@
+{
+	"next_topic_id": 14,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "how to preserve something we don't own",
+			"body": "If I'm surfing the web and find an article which I'd love not to vanish away... how could I preserve It?\nI mean, i could keep a copy on my HDD or post it as a blog post on 0N!\nBut if I post It, I suppose, It is considered like \"stealing\"!\n\nso.. I should post on a blog in the form of a \"personal thought\" and preserve the \"important part\" of the article!\n\nor am I missing something? (not articles under a Creative Common protection)",
+			"added": 1461530621
+		},
+		{
+			"topic_id": 2,
+			"title": "1 file missing: content.json in cloned, signed and published blog",
+			"body": "I'm creating a blog via ZeroNet only, I cloned the ZeroBlog one and applied my materials..\nBut once singned (successfully) and published It gives me this message: \n>\"No peers found, but your content is ready to access.\"\n\nOkay, nobody can have It because I published It now but when updating It tells me that\n>\"1 file update failed\"\n\nand It is the **content.json**\n\nhow to solve this problem? I'm stuck :/\nthe blog is this one [Link to the blog](http://127.0.0.1:43110/14sYamG8agjTLeW8DfwTKbYRmTwaPbs4au)",
+			"added": 1461639457
+		},
+		{
+			"topic_id": 3,
+			"title": "Seized webpage, is It a joke?",
+			"body": "I found this webpage that seems has been hidden by Federal Bureau Of Investigation,\n[this one](http://127.0.0.1:43110/1FqhRosMouo37Z8iDpLTEPvfznBq1b4N4w)\nhow can this be possible?\nbecause of no peers or a website can stop existing here too? '0'",
+			"added": 1461645444
+		},
+		{
+			"topic_id": 4,
+			"title": "ZeroID protection",
+			"body": "As far as I know,\nif someone copies our \"users.json\" file, they could impersonalize ourself,\nany way to prevent this from happening?\n\nSomething like restricted permissions maybe? like: copy forbidden at least you insert a passcode!",
+			"added": 1461730967
+		},
+		{
+			"topic_id": 5,
+			"title": "new mention!",
+			"body": "An E-mail or something similar (it could be a website/application)  for posts in which I am mentioned, just to keep track! =)",
+			"added": 1461813715,
+			"parent_topic_uri": "2_18rFd7W9y5QGQEVXaCoJV7jyt7D8aN156h"
+		},
+		{
+			"topic_id": 6,
+			"title": "zeroID: does It store dynamic info?",
+			"body": "When having conversations, mails, new sites, etc... on the ZN, does the file \"users.json\" get updates or is It static? _(so I can backup It today for a tomorrow)_",
+			"added": 1461817614
+		},
+		{
+			"topic_id": 7,
+			"title": "Internet Day (Italy)",
+			"body": "In Italy is today the **\"Internet Day\": 30 years of internet** but the digital divide is still very high..\n- In big cities up to 40-50MB/s\n- out of the center up to 0.80 MB/s\n\nHappy Internet Day, Italy :')",
+			"added": 1462006770
+		},
+		{
+			"topic_id": 8,
+			"title": "Internet is not for everyone but It should!",
+			"body": "Shouldn't Internet be _freely available_ for everyone?\nI mean, maybe It's an idea of mine but in this era, not having an internet access is very debilitating.. an many have not! Or at least, cannot pay for having it..\n[my experience with this](http://127.0.0.1:43110/1GrwWFTmrKgUGQsGxrKSsRbb2dt8UJaBPN/?Post:9:Back+offline!)",
+			"added": 1462324763
+		},
+		{
+			"topic_id": 9,
+			"title": "Taxes on technology usage",
+			"body": "Do you have taxes for any kind of technology usage in your country?\nI mean.. in Italy there are taxes almost for everything.. here some:\n\n- Electricity: +20%\n- TV aerial jack/radio (internet is considered TV): ~€100/year\n- 1 Mobile phone number: private: €5,16/month | Commercial: €12,91\n- Hard/SolidState drives: 10%\n- optical recording supports: €0,23/h [yes, valued hours]\n- mobile phone SSD capacity: €0,50/GB\n- books: 4%\n- ebooks: 22%\n- a plan to tax €0,50 for every internet GB used (revoked)\n- and many many many more taxes of this kind....\n\nThe main reason beyond many of this taxes is a \"legal\" but monopolistic society in the country that pretend to respect authors' right but authors must pay them to execute things they created.. I have friends that pay so much because they want to play their music, video or whatelse in public. Even if freely. It's name is SIAE.\nWhen going in commercial, well.. take a look to the phone number list item, many many more taxes... many! People in Italy fires employees to pay these..\n\nDo You have these kind of taxes on your states too?",
+			"added": 1462989832
+		},
+		{
+			"topic_id": 10,
+			"title": "feature idea: ZN Kickstarter",
+			"body": "what about a sort of a ZeroNet KickStarter program?\nObviously, It won't be something about payments but about valuable projects to seed :)\n\nI explain: in KickSTarter people donate money to make a project real..\nMy idea is a p2p site where people can decide to seed that specific website because revolutionary.. or maybe could offert Its help to improve it!\nSomething like [ZeroProxies](http://127.0.0.1:43110/ZeroProxies.bit), [Play](http://127.0.0.1:43110/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp/), [PedoBlocker Wiki](http://127.0.0.1:43110/15dfgcBhYM8Nkn7miAoetavifmJryUfCqv/), [ZeroLeakZ](http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv/), [Games Nintendo](http://127.0.0.1:43110/19za8TViGJF4xdvkQHLXK2UCb2gLC1nSVT/)...\nThere are many good project out there!\n\nMy idea is a \"kickstarting like\" website where these sites can be enhanced in order to increase the numbers of seeder :)\n\nMaybe with a reddit like system that ups the most charismatic projects :)",
+			"added": 1475187459
+		},
+		{
+			"topic_id": 11,
+			"title": "0Nita, per unire gli italiani sperduti :)",
+			"body": "Oggi nasce [0Nita](http://127.0.0.1:43110/1BrdUYNAbRt4P2Jxpgk5WhtKR2oLicBgcw) un progetto che si propone di avvicinare i pochi siti italiani presenti qui sulla ZeroNet!\nprogetto disponibile anche su [GitHub](https://github.com/FraYoshi/0Nita)",
+			"added": 1476677255
+		},
+		{
+			"topic_id": 12,
+			"title": "multiple sessions, how to?",
+			"body": "Any idea on how to open more than a session simultaneously? With i.e. 2 accounts logged in.\n\nI thought about a virtual machine running a second O.S. but my idea is use both the sessions on the same **linux** O.S.  :)",
+			"added": 1482887134
+		},
+		{
+			"topic_id": 13,
+			"title": "News zites - anyone?",
+			"body": "By [cruze](http://localhost:43110/Me.ZeroNetwork.bit/?Profile/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/17BVAjD2Rk6BxdcMc3LjYKgF8aAWbwVuRj/cruze@zeroid.bit) 's [post](http://localhost:43110/Me.ZeroNetwork.bit/?Post/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/17BVAjD2Rk6BxdcMc3LjYKgF8aAWbwVuRj/1483274882): We need more news channels.\n\nI actually know these:\n[River of News from BBC](http://localhost:43110/newsriver.bit)\n[P2P news flow](http://localhost/Talk.ZeroNetwork.bit/?Topics:1_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG/P2P+news+flow)\nand not daily:\n[The news gateway](http://localhost:43110/15ThY8kpAbjidWNfXHeyDT48noj6ArYjmz)\n[The Blockchain News](http://localhost:43110/bcnews.bit)\n\nany other?\n\nand what about some sort of **creative commons** feed of news by various journals? :) or directly a zite with all of these ^_^",
+			"added": 1483471011
+		}
+	],
+	"topic_vote": {
+		"15_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"1_12SuCFUNDaMYRHG9DsWCyCN1NgHGjddwSJ": 1,
+		"5322_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"1_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"3_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ": 1,
+		"7_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"1_1AkQwH5jKWsMFH8zAo5zCu9RV2Csa57RYF": 1,
+		"3_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": 1,
+		"2_1BidR2Pw65fTPeh1R3LbwCdfEJUPB6FLes": 1,
+		"1_17ApQKugX1XH727gpAeD3mrRLjLxASdakd": 1,
+		"10_13dUD5qbY6LaXH9pfh5iDgXHgKjCZPxvZV": 1,
+		"1_1KLBz9nduZYz3F456wf3T53CaEgj18EtJD": 1,
+		"9_1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp": 1,
+		"1_1EgYg1XAxktqWHWC1aTWQoToF6Mr5QmEWq": 1,
+		"6145_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"4_19R2USgb9vPyg1jPQEJkGVoBwDuDcEmHRF": 1,
+		"7_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_12ammmMtU2utLCtNGwLwrh3K8LsmzR4k8T": 1,
+		"1_1NyFX6DUcyMs3S76Vz8X7ssDLC4uCCA1YM": 1,
+		"2_1BbxiDHKuFBkLxuGp8E18FeabHGQe6jYLL": 1,
+		"1_1LE1ngFyG62KJC1Q7G2xyZGjaB2QubXSi9": 1,
+		"25_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"1_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"10_1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp": 1,
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"2_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa": 1,
+		"1_1HRqipL1thbTsztjAvhN76qkzQBZ1k93nJ": 1,
+		"1_1NS9qMabhcMJpQqeqeFy14j3z9DkqNCWzS": 1,
+		"11_1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp": 1,
+		"4_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"3_19arYgVKguUamTqtYGu6T9FSUsr19CyEcG": 1,
+		"10_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"1_18DewEVM8uXCPZdgutRdtFswz3LUvtvfuS": 1,
+		"9614_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"9610_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"2_1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp": 1,
+		"1_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": 1,
+		"1_1Cxt2k3farSSee7HTkJKJ7eCTKxfFGNXe6": 1,
+		"1_1EnFfeVqTYtJfhzucfQB8Z7sCfUBipRRow": 1,
+		"9_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1
+	},
+	"next_comment_id": 23,
+	"comment": {
+		"1_1EUyJtat7mbu5wMcR6nrJTPBBRons1mtMA": [
+			{
+				"comment_id": 1,
+				"body": "a youtube video about this from a youtuber I follow :)\nIs something like the first idea of internet, when it was used for war, at the beginning!!",
+				"added": 1461467514
+			}
+		],
+		"1_18jipjDsfAxAuq4ixbi2w24xJrYVfTYFPn": [],
+		"1_1AkQwH5jKWsMFH8zAo5zCu9RV2Csa57RYF": [
+			{
+				"comment_id": 3,
+				"body": "hahahaah ci sono finito a caso e poi mi sono ricordato del video in cui scrivevi questo post!!!\nvado a vedere chi lo ha scritto ed in effetti: morro!!! hahaha xD\n\nBIG ONE! :')",
+				"added": 1461653478
+			}
+		],
+		"1_1Dme3quDw9tNTjMSk6RWcBJqHchi96vi6S": [
+			{
+				"comment_id": 4,
+				"body": "hola!!\nun saluto italiano!\nCi vorrebbe un mega big grosso forum italiano qui su ZioTalk! =)",
+				"added": 1461653720
+			}
+		],
+		"3_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": [
+			{
+				"comment_id": 5,
+				"body": "Hi!!\nHere my [8baway - 8 bit Away](http://127.0.0.1:43110/1GrwWFTmrKgUGQsGxrKSsRbb2dt8UJaBPN) blog!\n\nI write in It when I take some minutes of break during my work-day :)\npeer It once ^-^",
+				"added": 1461741784
+			}
+		],
+		"4_1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp": [
+			{
+				"comment_id": 6,
+				"body": "> [petercxy](#comment_3_1DXR2Di8Ks9JijfNycWErpenoxxchrdWBB): If someone owns all your identity files, he can actually be \"you\" anywhere.\n\nyes, that's even worse than I described...\nmaybe a co-ownership with other _properly protected_ accounts could help in saving owned websites.. nothing to do with the \"corrupted\" account, unfortunately..",
+				"added": 1461841037
+			}
+		],
+		"5_1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp": [
+			{
+				"comment_id": 7,
+				"body": "> [nofish](#comment_626_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): you can use the site follow feature to get notified in the newsfeed when you get mentioned\n\nthat's right nofish, but if I am not following or have many \"news\" on the newsfeed, It becomes hard to keep a track of what is happening..\n\nis something like having many youtube subscriptions and few comments to your videos.. you get notifications for the comments but not for every video uploaded, there's the homepage for that, so the \"newsfeed page\" here in ZN!\n\nhope I explained my idea properly :)",
+				"added": 1461915626
+			},
+			{
+				"comment_id": 8,
+				"body": "> [nofish](#comment_629_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): You can only follow your username mentions\n\nYep! But that works only for posts in which we have been yet..\nwait wait! I found out a way! Searching for our username on [ZeroHello](http://127.0.0.1:43110/1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D) :)\nit works :) :)",
+				"added": 1461930037
+			}
+		],
+		"1_1EV44RW7vgpgpoxceDpqP4WfBmnTzJUjNV": [
+			{
+				"comment_id": 9,
+				"body": "If we succeed in making It more and more popular.. It is true ;)\nBut if people change their computer they probably won't backup the ZeroNet folder, so everything saved before becomes lost forever if they don't longer visit that website.....",
+				"added": 1462296601
+			},
+			{
+				"comment_id": 11,
+				"body": "> [dserv34](#comment_1_1EV44RW7vgpgpoxceDpqP4WfBmnTzJUjNV): it takes only one seeder to keep a site alive.\n\nthat's true.. but now to a century on the future, everyone will have a new computer, I suppose.. what I still need to understand is if visited sites are stored in the sites.json file!\nIf It.. moving users.json and sites.json together, will keep visited sites alive as mentioned by you :)",
+				"added": 1462300990
+			}
+		],
+		"10_13dUD5qbY6LaXH9pfh5iDgXHgKjCZPxvZV": [
+			{
+				"comment_id": 10,
+				"body": "that's bad....\nwell.. This is another reason to learn a little more about protecting ourself against possible attacks :)",
+				"added": 1462297247
+			}
+		],
+		"7_16tWPYFLbad3R8iGcMuetyiwC2q5qXp45T": [
+			{
+				"comment_id": 12,
+				"body": "Take a look at the [comments of this post](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:3_1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp) ;]\n It is about the same page you posted :]",
+				"added": 1463009715
+			}
+		],
+		"6145_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 13,
+				"body": "This is quite interesting! Let's keep an eye on this BIP 151 :)",
+				"added": 1465461170
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [],
+		"1_1DcE9QfZbfLZhXxgtQ8Ui3oMZvs9NVjqZB": [
+			{
+				"comment_id": 15,
+				"body": "I don't personally know It but It's ~50 euros.. Don't search for street women, attract them ^_^",
+				"added": 1473148752
+			}
+		],
+		"11_1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp": [
+			{
+				"comment_id": 16,
+				"body": "> [mercury](#comment_1_1ANVcLiR5sdJ52B5DC38YnGQhEy3uyHzfR): scrivete a morrolinux\n\nE' il blog Reb0rn!!\nsto aggiungendo la scritta morrolinux così spicca all'occhio che è il suo =)",
+				"added": 1476828574
+			},
+			{
+				"comment_id": 17,
+				"body": "> [sifr](#comment_7_1Vy5x8HrbwRc2GM32GfZtpxdgoB5f34fd): puoi linkare forum e chat italiani? http://127.0.0.1:43110/15JoxzSs28pEFyc2rm5PtLBv6Q25BsUvvK/ e 1MxvDmGn5fipn7cyjXAMyMZPH3SyhwfZkw\n\nCerto!\nsto aggiungendo proprio ora!!\n\nScrivetemi pure se trovate siti di vicinato!! =]",
+				"added": 1476828723
+			}
+		],
+		"9614_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 18,
+				"body": "sounds a bbbbbad news >_<",
+				"added": 1482188341
+			}
+		],
+		"2_1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp": [
+			{
+				"comment_id": 19,
+				"body": "It works perfectly ^_^\nthe firefox plug-in helps a lot too :3\n\nanyway, the pin button and the other one return this error: \"403 - Forbidden\"\nrunning on linux",
+				"added": 1482569332
+			}
+		],
+		"1_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": [
+			{
+				"comment_id": 20,
+				"body": "higly like It :)\nI'd love more people using It.. So I'm doing a little of promotion to bring people to the decentralized network ^^",
+				"added": 1482569579
+			}
+		],
+		"12_1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp": [
+			{
+				"comment_id": 21,
+				"body": "> [k9](#comment_2_1AWSA7oG2qrhWYgeSiJtDHCwc2KvyR7ijs): what is your objective?\n\nusing 2 different accounts on the same time u.u\nand synchronizing different kinds of websites\n\nand/or synchronizing to 2 different networks on the same time i.e. WLAN and LAN",
+				"added": 1482888497
+			}
+		],
+		"1_1GNKWQQPjcUhqU4zLAckUSuVKjGXcEzMnM": [
+			{
+				"comment_id": 22,
+				"body": "have great day too!! :D",
+				"added": 1494226190
+			}
+		]
+	},
+	"comment_vote": {
+		"66_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"44_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"131_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"7_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"71_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"9_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"394_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"2_1ELauVJcGJ8iU5VhAuhsSd18RgiBq3tS5o": 1,
+		"1_1DFuSAMH5Y2ykD7ECf2nQrX9TGHuCUkGoo": 1,
+		"147_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"76_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"89_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"144_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"73_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R": 1,
+		"4_1MyH4f3ULCxmuCD8C2juAfjMn9j4xhdm44": 1,
+		"18_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg": 1,
+		"148_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"58_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": 1,
+		"58_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"142_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"54_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"80_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"74_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"165_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"35_19qsuxKBkNZWYft3epWgn6u3gG82sQHs6n": 1,
+		"1_1KLBz9nduZYz3F456wf3T53CaEgj18EtJD": 1,
+		"654_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"69_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"26_19arYgVKguUamTqtYGu6T9FSUsr19CyEcG": 1,
+		"2_1ELBjparWRzWWptstDfNtKyY2E5mHtL5J4": 1,
+		"748_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"164_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"15_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9": 1,
+		"18_1Buq4fyG8B3MxAvs7h4bASyWbrKFxmg4CJ": 1,
+		"35_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"1_1HN5pCyG5g1483VcFueZNvGv4MkA7yxjw1": 1,
+		"33_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"5_1HRqipL1thbTsztjAvhN76qkzQBZ1k93nJ": 1,
+		"19_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"19_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj": 1,
+		"29_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"7_1Vy5x8HrbwRc2GM32GfZtpxdgoB5f34fd": 1,
+		"1_1ANVcLiR5sdJ52B5DC38YnGQhEy3uyHzfR": 1,
+		"4_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM": 1,
+		"1_13edHUbvWHvw6LqF8G2zLUMWFZzrG7N7Q3": 1,
+		"4_16Wbf1q3ffLLNpzvyrrGczQK1ZRBJAwMro": 1,
+		"85_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"2_1MsFwt6E1FBPPhoYffvdBj6LPhKb9QKpKf": 1,
+		"834_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"4_1F4u9KPwPBCyXwKVssf3q9qYe8mU4en3oK": 1,
+		"202_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"121_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj": 1,
+		"224_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"1_1CR3B1Bwx6umZqL7H6hrbyPdXKJR7j8Mfn": 1,
+		"1_14TVizquRR7YJMWRHaWnC97p6GWFRp8nVr": 1,
+		"19_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"1_1EnFfeVqTYtJfhzucfQB8Z7sCfUBipRRow": 1,
+		"65_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"7_1EnFfeVqTYtJfhzucfQB8Z7sCfUBipRRow": 1
+	}
+}

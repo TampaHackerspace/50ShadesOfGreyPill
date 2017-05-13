@@ -1,0 +1,16 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 2,
+	"comment": {
+		"1_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM": [
+			{
+				"comment_id": 1,
+				"body": "> [thisweb11](#comment_5_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM): Thanks waterrabbit  thats what I wanted to know.  Zeronet pages can be deleted without notice by the creator.   So is there anyway to create a moderator free site that everyone can be sure isnt going to be deleted or moderated? A permenent page that is controlled by nobody once created?  So in the same way we can look at the blockchain, one cant remove a bitcoin address from the stem once created/used.\n\nYes, as long as there are people willing to seed the site, it's possible to create such a site on zeronet. \n\nExample: \nStep 1) Backup your ZeroNet folder (optional step) \nStep 2) Clone ZeroTalk (can be done with a few clicks on [ZeroHello](http://127.0.0.1:43110/1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/)) \nStep 3) Advertise the site on [0list](http://127.0.0.1:43110/0list.bit/), [ZeroTalk](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/), etc. \nStep 4) Completely uninstall/remove all ZeroNet files from your PC \nStep 5) Overwrite the unused space on your PC (with ccleaner, heidi eraser, or a similar tool) (optional step) \n\nThe key which let's you modify/moderate your ZeroTalk clone is somewhere stored in your zeronet folder. So, if you completely uninstall zeronet from your system after cloning zerotalk, there's no way to make changes to the cloned site afterwards, since the needed key is lost. \n\nAlthough, it's theoretically possible to brute force the key, but it will probably will take 1000 years, even if you have the fastest computer system in the world.",
+				"added": 1477433429
+			}
+		]
+	},
+	"comment_vote": {}
+}

@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HFZ3q0G63m0PgtiKVUVid5eq85QyiqRRXplJDTZfoVnYvL/8mW90Iqdx4czBejYOoXAA7PkraJ/2jFeJWWRucls=",
+ "cert_user_id": "aiyahacke@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "aaf8cf3abf8063b8cfe7b1d49f2d24bcb3530e13147057aeef56875ea5ad956f",
+   "size": 1781
+  },
+  "data.json": {
+   "sha512": "de6dbe25df89c415f2753a4207c10b11ed537d2012e3e4409fa56426a05a09f6",
+   "size": 507
+  }
+ },
+ "files_optional": {
+  "1484581110.jpg": {
+   "sha512": "0fd9d700a3cd36bc96ad38b4893d7f18617c85fca3d0a63ff01abaf31b5d9e6d",
+   "size": 76437
+  }
+ },
+ "inner_path": "data/users/19kYGaihfPybgf1XPonP9ioYKY2AZ2UCet/content.json",
+ "modified": 1484581370,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "19kYGaihfPybgf1XPonP9ioYKY2AZ2UCet": "G6i5hG4hzGmn62mFexAyhRyKkR7qN6ct9NPUjPQR9GU52QPKiWBW1Wq5UPc6S0aw0UWwHjmys1Xoqtbra0EwPQ4="
+ }
+}

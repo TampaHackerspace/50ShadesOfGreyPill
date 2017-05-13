@@ -1,0 +1,28 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G261Hdr3EYX4ZPsw3XlVTjd7y3TSeVKVlGqoAm6Zou22bVhL2bLe5+yjk2uj034vjjarkxH1wjqqPZCkaxopQSY=",
+ "cert_user_id": "gerardmensoif@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "985274650b35318b4b426163c3814f0c82c25ae52120d82f747c2d4e1b6060b7",
+   "size": 1557
+  },
+  "data.json": {
+   "sha512": "8b8bccc8f67520c52d25827d683e723dcd99c8d9c4e5819ea0a76c678c26ef39",
+   "size": 16609
+  }
+ },
+ "files_optional": {
+  "1479070522.jpg": {
+   "sha512": "7aa9f4fe54a5cde15f1f278dc66e06c53b9930513a013dd5a8659aeb6c91a180",
+   "size": 80112
+  }
+ },
+ "inner_path": "data/users/1G4nMD7txaYAvdpDeroZ9f67K3gtHsGn8H/content.json",
+ "modified": 1481747774.047,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1G4nMD7txaYAvdpDeroZ9f67K3gtHsGn8H": "HG/28xBbE5chFr+z0jkggqM/dACMWE6vbgDkhpiVaxTjL+HZip6R6RG76kWfFww6Vp6DomkHq5Ds4f4mxHMwREU="
+ }
+}

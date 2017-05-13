@@ -1,0 +1,307 @@
+{
+	"next_topic_id": 7,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "IRC possible?",
+			"body": "Is IRC possible via Zeronet?",
+			"added": 1468548756
+		},
+		{
+			"topic_id": 2,
+			"title": "Zeronet and China",
+			"body": "Why is a lot of traffic coming from China?\n\nI know that it helps censorship and all but how did it get big there?\n\nI heard that a blogger spread the news about Zeronet",
+			"added": 1468551085
+		},
+		{
+			"topic_id": 3,
+			"title": "Divided forum sections?",
+			"body": "Like reddit's subreddits, can we have divided forum sections to talk about specific stuff instead of different topics being spewed on one big timeline?",
+			"added": 1468685017
+		},
+		{
+			"topic_id": 4,
+			"title": "Cool new website",
+			"body": "Found this on reddit, http://127.0.0.1:43110/1KZHpiagtp9yhxJneTfkdrzVMzmpv4b6RE\n\nIts called AESimple and it can encrypt files up to 1 mb.",
+			"added": 1468756236
+		},
+		{
+			"topic_id": 5,
+			"title": "Group chat for Zeronet",
+			"body": "https://darkwire.io/NJu66W9Pb\n\n/nick <nickname>\n\nType it twice to change your nickname\n\nTalk about anything",
+			"added": 1469128305
+		},
+		{
+			"topic_id": 6,
+			"title": "AESimple",
+			"body": "http://127.0.0.1:43110/1KZHpiagtp9yhxJneTfkdrzVMzmpv4b6RE/",
+			"added": 1469141299
+		}
+	],
+	"topic_vote": {
+		"1_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"2_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"3_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"10_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": 1,
+		"2_13zHC2gJ9L8ocNgzgPVBJSm4CJyL8YQezj": 1,
+		"5_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"1_17tLRGP27CwbmVTe7Hm8BKj8eTP9tXAkoA": 1,
+		"14_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"1_12GC9MQGPcN7PiMoRYVyZX66PnQjZKUpf2": 1,
+		"3_12a5bEEVXyvu1jer6JpujSPra1A21wKcQT": 1,
+		"1_13o2BgF1FL4bwNSGMVySUjQmKMMkj9vFTK": 1,
+		"1_1BN8WpGJNnYExwy7PwasLhP3iAjmXJjB6g": 1,
+		"3_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"8_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"1_1N5Rs6CHsGPdDB1y3JqjYm9SLSWUTkjwEF": 1
+	},
+	"next_comment_id": 35,
+	"comment": {
+		"10_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 1,
+				"body": "This is the Deep Web",
+				"added": 1468548668
+			},
+			{
+				"comment_id": 13,
+				"body": "yes",
+				"added": 1469111203
+			}
+		],
+		"2_1J7dTw3ZsXUsXzpBqVWVj5aXRUMsMC6Nfc": [
+			{
+				"comment_id": 2,
+				"body": "Telegram uses its own cryptography. \n\nThe #1 rule of cryptography is to never role out your own crypto.\n\nThis is why Signal beats Telegram. It use standard encryption.\nWhatsapp uses Signal's protocol for making communication better than Telegram.\n\nThus Whatsapp beats Telegram.",
+				"added": 1468548989
+			}
+		],
+		"1_1Gtj7AdXhzMFUVVvFm2ZGCbTFdgNwdtuMn": [
+			{
+				"comment_id": 3,
+				"body": "Mystic",
+				"added": 1468551021
+			}
+		],
+		"24_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": [
+			{
+				"comment_id": 4,
+				"body": "Its complicated.",
+				"added": 1468684804
+			}
+		],
+		"2_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": [
+			{
+				"comment_id": 5,
+				"body": "> [zernetuser](#comment_2_1CDHP6bHeYDxZEK3n4Me7pbT8rwYTH7q7K): We the Chinese people are the largest user group of anti-censorship software. Why do you ignore us?\n\nI'm sorry if I was ignoring you, but I can't translate Chinese.",
+				"added": 1468684898
+			}
+		],
+		"1_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 6,
+				"body": "Check out Play, it hosted on Zeronet",
+				"added": 1469072953
+			},
+			{
+				"comment_id": 9,
+				"body": "> [cannonfodder](#comment_21_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg): I've been running tvepisodes.bit for listings of TV torrents/magnets. I also insert many of the TV episodes into Freenet and provide the keys for fully decentralized and anonymous file downloads. Unfortunately I sourced from kat.cr so I'm looking for a new source now. It shows the concept of a ZeroNet hosted site is workable for magnets.\n\nPirates Bay is a good close 2nd.",
+				"added": 1469100791
+			}
+		],
+		"2_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 7,
+				"body": "Play",
+				"added": 1469072964
+			}
+		],
+		"1_1CUWvSDzwpptqETaZnrL7EqwqeThd5WuSr": [
+			{
+				"comment_id": 8,
+				"body": "Theres already them, Play and ZeroTorrent",
+				"added": 1469100660
+			}
+		],
+		"3_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 10,
+				"body": "People that are being censored in restricted areas, have no chance to talk about politics. \n\nZeronet shows up as a way to express uncensored content about anything, but you say lets censor this particular subject?\n\nz3r0c00l, your missing the point of Zeronet, its to express your opinions without someone covering your mouth or watching what you say. \n\nThink about the Arab Spring, people used Tor and Facebook to communicate with each other and talk about the corruption of their governments. This led to a revolution that will go down in history books. Would you tell them to censor themselves of these \"politics\" and keep Tor and/or Facebook away from that subject matter?",
+				"added": 1469110896
+			},
+			{
+				"comment_id": 11,
+				"body": "> [z3r0c00l](#comment_8_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9): Besides, i didn't say that users who discuss politics should be permanently banned, i simply suggested that they use their own judgment and refrain from starting political debates and focus instead on more positive things that will improve this community.\n\nYou come to a censorship free network to talk about censoring subjects that don't appeal to you. How did you think people would have reacted?",
+				"added": 1469110969
+			},
+			{
+				"comment_id": 14,
+				"body": "> [z3r0c00l](#comment_10_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9): And they can still do that over tor and post thier hate or othervise political speech on facebook reddit/twitter and any other platform... I login here expecting and the first thing that pops up is \"allah akbar\" and \"kill the cops\"... Is that the kind of place you want zeronet to be? Really?gmab\n\nHate speech is free speech deal with it. Your feelings don't have human rights. The person that coined the term \"hate speech\" was Stalin, and it was a tool to imprison citizens that talked against the USSR. \n\nHate speech can be considered anything: from a few points of criticism, to talking harshly about your government, to saying a threat.\n\nSomeone could call this post hate speech for trying to censor, but you don't see your post being taken down.\n\nZeronet is a network, Zerotalk is a forum. Two different things. Whats wrong about people talking about their governments and politics? That doesn't limit what you can say.\n\nYour feelings don't have rights, your speech does, thats why we keep shitposts like these here.",
+				"added": 1469111935
+			},
+			{
+				"comment_id": 16,
+				"body": "> [z3r0c00l](#comment_11_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9): You do realize that users can still be banned on ZeroNet? So much about your \"I'll do and say what i want\" Like i said -There is no such thing as absolutely free speech... \"Allow the site owner to modify banned users file\" is the script they are working on right now, so i guess your \"rights\" are under attack as we speak...\n\nWhere did you find the quote from? From what it is now, there are no banning user files.",
+				"added": 1469114002
+			},
+			{
+				"comment_id": 17,
+				"body": "> [z3r0c00l](#comment_13_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9): Funny.. Isn't that how democracy works? Or are you saying that democracy doesn't work and what works best is an anarchy?I think that community should have a chance to vote on what kind of content they want to see here, and i am pretty sure that hate speech terrorists and pedophiles will not be on the list after the votes have been counted... Now that's a free speech free from oppression. The will of the people - the true democracy.\n\nThis guy talked nothing about democracy.\n\nThis forum is freedom of speech. That doesn't mean you can't create your own and control what everyone have to say. (There won't be many people on that forum because no one like a gag over their mouth.)\n\nA terrorist can be classified as anything. It could be someone that makes a national threat online or a person that wants to speak their mind.  \n\nBy not giving someone a platform, we are unable to see both sides of a story. Even if whatever the person says is 100% wrong, as humans we can dispute this with our own morals.  What your calling for is a one sided story, and has history has shown, this leads to bad stuff.\n\nLet this linger before you speak, Galileo was trying to be censored by the Church for his research, because they didn't like what he was proving. If Galileo had been censored completely, we would have had been hundreds of years behind on technological advancement.\n\nYour asking for is limiting intellectual freedom.",
+				"added": 1469114909
+			},
+			{
+				"comment_id": 18,
+				"body": "> [z3r0c00l](#comment_16_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9): Well since you're so vocal on this subject, one would assume that you already have all the facts... Do your own research, and if you don't find anything let me know I'll post the link...\n\nI'm vocal about this, because you came to the wrong forum to talk about censorship. And you use hate speech as a tactic to censor this forum, when you have no idea what it is.\n\nThe funny thing is, you claim we should censor this forum because of terrorism and hate speech, when you just want to censor politics. Kind of shows how corrupted people twists words around to fulfill their agendas.\n\nPost the link.",
+				"added": 1469120330
+			},
+			{
+				"comment_id": 19,
+				"body": "> [z3r0c00l](#comment_20_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9): Good point.. Thanks.\n\nWow, so you wanted to censor this whole forum because your feelings and emotions were being hurt by some posts. \n\nYour feelings don't have rights.",
+				"added": 1469120412
+			}
+		],
+		"1_12ZaizjPfJgcabW6LRKbePRF9hCMFbFvTH": [
+			{
+				"comment_id": 12,
+				"body": "what",
+				"added": 1469111108
+			}
+		],
+		"2_13zHC2gJ9L8ocNgzgPVBJSm4CJyL8YQezj": [
+			{
+				"comment_id": 15,
+				"body": "Is this legit?",
+				"added": 1469112241
+			}
+		],
+		"1_17tLRGP27CwbmVTe7Hm8BKj8eTP9tXAkoA": [
+			{
+				"comment_id": 20,
+				"body": "Same",
+				"added": 1469129353
+			}
+		],
+		"14_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 21,
+				"body": "> [jflemieux](#comment_2_143NsncM8Cp6sJsKLU9h35X7LTdrfzJKQd): Reddit in a privacy subreddit (can't remember which..)\n\nSame, but then started to get into it when Play was released and even more when KAT went down.",
+				"added": 1469150752
+			}
+		],
+		"1_12GC9MQGPcN7PiMoRYVyZX66PnQjZKUpf2": [
+			{
+				"comment_id": 22,
+				"body": "http://Kat.am",
+				"added": 1469193967
+			}
+		],
+		"1_1LJwzeyWHFAyeNm3o5hxCYd3VqM7SRFbM9": [
+			{
+				"comment_id": 23,
+				"body": "Looking for a good community",
+				"added": 1469194108
+			}
+		],
+		"3_12a5bEEVXyvu1jer6JpujSPra1A21wKcQT": [
+			{
+				"comment_id": 24,
+				"body": "Sober them up",
+				"added": 1469194324
+			}
+		],
+		"10_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": [
+			{
+				"comment_id": 25,
+				"body": "Protonmail or Scryptmail",
+				"added": 1469629313
+			}
+		],
+		"1_1BN8WpGJNnYExwy7PwasLhP3iAjmXJjB6g": [
+			{
+				"comment_id": 26,
+				"body": "Its a website about people being beheaded. I don't like it at all, so I don't visit it.",
+				"added": 1470264197
+			}
+		],
+		"1_1MsUAPBMZkBpt4Z46849vSJQxRHbR7HyMt": [
+			{
+				"comment_id": 27,
+				"body": "> [ergo](#comment_2_1AeoDwzudke45NR3b6LfU4LsmPFs8AXUvi): How can I add movies to Play?\n\nYou can't",
+				"added": 1470413296
+			}
+		],
+		"2_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa": [
+			{
+				"comment_id": 28,
+				"body": ">I´m worried about the security of this net, it will end up like TOR? full of exploits/malware, psychopaths, drugdealers ,pedophiles and many other kind of criminals? \n\nStop reading articles from the internet talking about how Tor is only used by bad people, because it certainly isn't. You how I know you didn't do any research on Tor and just read media's biased opinions about the spooky \"Dark Web?\"\n\nFrom TheTorProject's website: \nNote: even though it originally came from an acronym, Tor is not spelled \"TOR\". Only the first letter is capitalized. In fact, we can usually spot people who haven't read any of our website (and have instead learned everything they know about Tor from news articles) by the fact that they spell it wrong. \n\nSource: https://www.torproject.org/docs/faq#WhyCalledTor",
+				"added": 1470492841
+			}
+		],
+		"3_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": [
+			{
+				"comment_id": 29,
+				"body": "I registered my account, but now when I can't connect to either Red or Blue hub, my screenshot of when I try to join either: https://lut.im/nlMABrnGlN/fVnMQw1tj7bQk6v3.png",
+				"added": 1470937564
+			}
+		],
+		"1_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF": [
+			{
+				"comment_id": 30,
+				"body": "I feel like the ZeroNet developers shouldn't do this because of anti-censorship and stuff like that, but rather the site owner creates something to filter people they deem \"unworthy\" of their zite.",
+				"added": 1470943228
+			}
+		],
+		"7_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 31,
+				"body": "> [truth](#comment_16_164W1rFVD9Bm7poGJWvjVUjvkbhhFC5nnt): sirenyc go to my 0me profile, there is a plugin already for multiuser\n> http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post:1BLueGvui1GdbtsjcKqCf4F67uKfritG49-164W1rFVD9Bm7poGJWvjVUjvkbhhFC5nnt_4\n\nCurrently having trouble changing my profile picture",
+				"added": 1470943260
+			}
+		],
+		"1_1JHrskNwA3oo9gxvCbo3Q1RZTUuKCDdfUa": [
+			{
+				"comment_id": 32,
+				"body": "No Peers Found",
+				"added": 1470943703
+			}
+		],
+		"1_1N5Rs6CHsGPdDB1y3JqjYm9SLSWUTkjwEF": [
+			{
+				"comment_id": 33,
+				"body": "Ugh you can't upload torrents and what makes this better than zerotorrents?",
+				"added": 1471304217
+			}
+		],
+		"1_17LQPJZz9sBC1besM5ZwKFKt9CmndJTjcA": [
+			{
+				"comment_id": 34,
+				"body": "Alex Jones",
+				"added": 1476302700
+			}
+		]
+	},
+	"comment_vote": {
+		"115_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"3_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"2_13t2ME4cTtkxrwPeugeZgdJF5Kg7C5CSEy": 1,
+		"120_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"10_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"11_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"14_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"18_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"19_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"125_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"58_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"5_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"4_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"4_1FDhCAP9pqKaonKkhAibsYCjRwwtbr3GYD": 1,
+		"25_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"1_1AxJtqoxhNyjRjUptGgVoVHxgxtKRzUrpY": 1,
+		"6_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"7_1CFhytwoGGPNqmueehPqotaf2iG9uxD98e": 1,
+		"17_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"31_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"29_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa": 1
+	}
+}

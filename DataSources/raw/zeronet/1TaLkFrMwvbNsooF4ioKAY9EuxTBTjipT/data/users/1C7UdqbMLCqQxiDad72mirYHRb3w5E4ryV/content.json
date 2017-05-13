@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "GwKikb2zSwmQNkdx6YtEYGw6GEg/ZRVONJonRCgBtglnYe2vkPVM60jEv5XenWLteb+s2vbq6ubjXdylvwRQ80w=",
+ "cert_user_id": "snowman99@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "9f1ab83cfe0cc5f703fcffa8eabdbcf6f66d227154b82ea2cf44cb021a24a776",
+   "size": 662
+  }
+ },
+ "inner_path": "data/users/1C7UdqbMLCqQxiDad72mirYHRb3w5E4ryV/content.json",
+ "modified": 1486555064,
+ "signs": {
+  "1C7UdqbMLCqQxiDad72mirYHRb3w5E4ryV": "HCCCQPCWYfryIi91+/GbnM3fsQ13gLZZxGq0dMn3Jwudwkkgem7+IJX2+DmJX0tThnTAEMftFB8WANo7LMra7Rs="
+ }
+}

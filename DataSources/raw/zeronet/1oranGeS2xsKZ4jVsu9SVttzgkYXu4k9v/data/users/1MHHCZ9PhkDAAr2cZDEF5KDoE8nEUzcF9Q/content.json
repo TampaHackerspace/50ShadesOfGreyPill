@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "Gxiultflsv8eLo/qtAMuPAYKnqwcbO7INnnBb6BZcSAMACmziD38S/99JZ8IReidpor6DE47DyV3VnWC+5joRoY=",
+ "cert_user_id": "scribblesquid@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "f649b33c36f9a0fd1ff5dab7e9e0b0b7ac2ffe9e2a01ca5d2f0da804f72f97ea",
+   "size": 708
+  }
+ },
+ "inner_path": "data/users/1MHHCZ9PhkDAAr2cZDEF5KDoE8nEUzcF9Q/content.json",
+ "modified": 1481751907.059,
+ "signs": {
+  "1MHHCZ9PhkDAAr2cZDEF5KDoE8nEUzcF9Q": "G7X8kWa669cd3aB9bqCQGYI+Hu2kws/qAqWYMidqxzdGUcmrUbFIdj299r12jskPFNJBEmp4wmJKS/jPN4vM0C0="
+ }
+}

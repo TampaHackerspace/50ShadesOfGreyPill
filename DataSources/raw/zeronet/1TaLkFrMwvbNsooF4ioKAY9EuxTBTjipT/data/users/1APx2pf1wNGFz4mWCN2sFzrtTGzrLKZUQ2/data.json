@@ -1,0 +1,146 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Can't post to ZeroBoard - Message submit failed! undefined",
+			"body": "subj. How to fix?",
+			"added": 1452159840
+		},
+		{
+			"topic_id": 2,
+			"title": "zeronet @ tor",
+			"body": "looks like tor is not working on windows. auto-dl doing nothing. manually placed tor files seems not starting up.\n btw, aboutfile speaks of utils dir, whereas dir is tools here.",
+			"added": 1452160454
+		},
+		{
+			"topic_id": 3,
+			"title": "How to reverse post order?",
+			"body": "I hate newest on top, need to change to human-readable view with oldest in first place.\nI'm talking about answers, not topics.",
+			"added": 1457166645
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 18,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "Превед!",
+				"added": 1438014859
+			},
+			{
+				"comment_id": 2,
+				"body": "4",
+				"added": 1438016150
+			}
+		],
+		"1_1KTyMhnssBpFUGavNRXQ5YNc15xTLkcfwD": [
+			{
+				"comment_id": 3,
+				"body": "why not both, lostfile ?",
+				"added": 1441008882
+			},
+			{
+				"comment_id": 7,
+				"body": "Chatservers for v0.6: https://retroshare.rocks\nNewest builds: https://adorabilis.wordpress.com/2015/05/04/retroshare-news-2/",
+				"added": 1454172047
+			},
+			{
+				"comment_id": 8,
+				"body": "Version 0.6 released. https://retroshareteam.wordpress.com/2016/02/07/release-notes-for-final-0-6-0/",
+				"added": 1454937624
+			}
+		],
+		"1_153yJaRcL3ECYXYqnKAFWeRUHYs5rQiaj9": [
+			{
+				"comment_id": 4,
+				"body": "https://retroshare.rocks - list of available chatservers, for joining public community.",
+				"added": 1442044669
+			}
+		],
+		"5_1QGWjfYfANXvVDaHaH8n5w86KWkKcjiAoE": [
+			{
+				"comment_id": 5,
+				"body": "\\m/ \\m/",
+				"added": 1444378340
+			}
+		],
+		"2_1APx2pf1wNGFz4mWCN2sFzrtTGzrLKZUQ2": [
+			{
+				"comment_id": 6,
+				"body": "I see some inaccuracy in blog post: Do we have to start with --tor enable or tor enabled by default? \nNevertheless, tor still does not download nor starts (if put manually) in my case.\nI don't see any tor-related strings in the console. Webinterface stays at Tor: Waiting\nLog has many of\nTorManager Creating new socket to blablabla.onion:15441 (port is everytime the same - isn't this a bug btw?)\nand in the beginning\n DEBUG    TorManager Tor proxy port 127.0.0.1:9050 check ok\nwhich is obviously wrong",
+				"added": 1452175658
+			}
+		],
+		"15_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 9,
+				"body": "ipfs - https://ipfs.io",
+				"added": 1455178971
+			}
+		],
+		"1_1APx2pf1wNGFz4mWCN2sFzrtTGzrLKZUQ2": [
+			{
+				"comment_id": 10,
+				"body": "okay, problem was caused by noscript plugin blocking access to zeronet.io",
+				"added": 1456406621
+			}
+		],
+		"1_17f9JktS2GHAoSEe7xofbpZxmXBVb1RShS": [
+			{
+				"comment_id": 11,
+				"body": "Anonymity OR speed - choose one, that's it.\nAnd you can add to your list an internal feature of zeronet - optional files. And also a a separate technology called IPFS",
+				"added": 1456926084
+			}
+		],
+		"1_1LcaN7rwjqypHivGDHqnX4FXtrG6RKBe7w": [
+			{
+				"comment_id": 12,
+				"body": "There is shutdown item on zero start page. And it does not autostart.",
+				"added": 1456996736
+			}
+		],
+		"2_1KMxiVcvnJ2vFFGWNYhujgFNWYvNrxdVmo": [
+			{
+				"comment_id": 13,
+				"body": "Be cautious - there are some malicius forks - https://i.imgur.com/cRBrr6z.png\nlink from https://torrentfreak.com/popcorn-time-fork-claims-official-relaunch-after-mpaa-shutdown-160225/",
+				"added": 1457177367
+			}
+		],
+		"1_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU": [
+			{
+				"comment_id": 14,
+				"body": "testingzeronet12\nyou forgot the init command. it is a commandline option.\nand you are crazy man to run this from system root )",
+				"added": 1466877242
+			}
+		],
+		"1_1NpaQyMLjikY9FXdfyG4p8CNmS2YrupsRR": [
+			{
+				"comment_id": 15,
+				"body": "testingzeronet12> [testingzeronet12](#comment_83_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): I'm trying to use RetroShare and make it work with Tor, but the interface is very confusing. I was wondering if anybody here would like to buddy up with me as I try to get it working? I need someone to basically friend me on retroshare and swap messages to see if I can get it working consistently and anonymously.\n\ni can peer with you on RS, PM me to dude @ zeromail",
+				"added": 1470303794
+			}
+		],
+		"1_1P6rReMY7WD7qNmUXntLJoa1XptgiHkhz3": [
+			{
+				"comment_id": 16,
+				"body": "start here: http://127.0.0.1:43110/0list.bit",
+				"added": 1471245879
+			}
+		],
+		"2_1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp": [
+			{
+				"comment_id": 17,
+				"body": "video is playing, but page says Your system doesn't seem to be running IPFS",
+				"added": 1481872738
+			}
+		]
+	},
+	"comment_vote": {
+		"76_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": 1,
+		"44_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"7_17nphNHoGtz9EzvvTSSbZn7WHfM1ynpdsL": 1,
+		"21_1KGozab6jp6jA6zVM8cTFdzMmBasriNP4f": 1
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "ZeroCDN - anybody use it or have a clear version of the code for zerocdn.js ?",
+			"body": "I like the idea of reducing redundancy in shared files like jquery, but I want to read the js file in an understandable format first.  Address for reference : http://127.0.0.1:43110/1AMh6MG4K59ki1dPXX1PrgzeeqkMmZ1YKm/docs.html",
+			"added": 1466222838
+		}
+	],
+	"topic_vote": {
+		"9_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"1_1Hk3VC1SpvpXdhSYFPsQRowJC1mDnWESoX": 1,
+		"3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k": 1
+	},
+	"next_comment_id": 4,
+	"comment": {
+		"2_1MA9FAQkvuKGyyr29ecGJ3FtMjPKBtJhpU": [
+			{
+				"comment_id": 1,
+				"body": "I'm assuming that when the box pops up saying \"ERR0R - SearchEngine based on ZeroTalk\" that means no content found.",
+				"added": 1465595041
+			}
+		],
+		"1_1Hk3VC1SpvpXdhSYFPsQRowJC1mDnWESoX": [
+			{
+				"comment_id": 2,
+				"body": "> [kindlyfire](#comment_20_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx): Personally, I don't like the idea of a shared CDN. These files weight a couple of KB at maximum, and every site having its own JQuery has an advantage: decentralisation. What happens if the owner of a CDN modifies the file ? Everybody using that CDN will be doomed.\n\nGood point, although a couple KB at maximum is a definite understatement. jQuery 2.1 is 83kb minimized.",
+				"added": 1466472496
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 3,
+				"body": "I would like to authorize a user to be able to edit & sign my site. What piece of information do they send me from their users.json and where do I enter it in the site's content.json?",
+				"added": 1488567005
+			}
+		]
+	},
+	"comment_vote": {
+		"3_1Hk3VC1SpvpXdhSYFPsQRowJC1mDnWESoX": 1
+	}
+}

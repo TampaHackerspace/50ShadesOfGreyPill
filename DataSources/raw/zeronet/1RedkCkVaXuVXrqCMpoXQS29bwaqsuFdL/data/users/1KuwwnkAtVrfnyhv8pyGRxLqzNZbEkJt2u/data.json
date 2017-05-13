@@ -1,0 +1,85 @@
+{
+	"next_comment_id": 11,
+	"user_name": "Lola",
+	"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+	"post_like": {
+		"1N1AZUiwisp1bgMoH3WSTsPSPD6DXWFpJ9_3": 1471461835,
+		"1CFhytwoGGPNqmueehPqotaf2iG9uxD98e_14": 1471742224,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1472496397": 1472504644,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1472523990": 1472547051,
+		"12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu_1473012327": 1473018931,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1473038909": 1473081184,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1473385305": 1473418742,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1473695005": 1473701890,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1474090632": 1474296745,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1474383799": 1474399011,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1474487285": 1474488476,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1474862332": 1474889521,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1475897596": 1476078378,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1477272835": 1477567617,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1477508606": 1477630732,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1481164337": 1481169138
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "I haven't watch Moon and Dark City. The rest I like. ",
+			"post_uri": "1CFhytwoGGPNqmueehPqotaf2iG9uxD98e_14",
+			"date_added": 1471742258
+		},
+		{
+			"comment_id": 2,
+			"body": "Are you portuguese ? ",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1472496397",
+			"date_added": 1472504693
+		},
+		{
+			"comment_id": 3,
+			"body": "@Sirenyc: Done",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1472496397",
+			"date_added": 1472511951
+		},
+		{
+			"comment_id": 4,
+			"body": "@Sirenyc @waterrabit : Really interesting work.",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1472727411",
+			"date_added": 1473003276
+		},
+		{
+			"comment_id": 5,
+			"body": "@Ericksoares3: Webtorrent is only using webtorrent network so it cannot see the seeders from KTorrent...",
+			"post_uri": "1NZ4LvZqg61LxtRfEr5Y46KRhYCzWRnqck_1474323298",
+			"date_added": 1474399319
+		},
+		{
+			"comment_id": 6,
+			"body": "Yes, sorry I am going very slowly with this project. Unfortunately people add their videos but don't seed them... It is why you will see 0 peer and sometimes it can take a couple of minutes to find a peer.",
+			"post_uri": "1NZ4LvZqg61LxtRfEr5Y46KRhYCzWRnqck_1474323298",
+			"date_added": 1474399593
+		},
+		{
+			"comment_id": 7,
+			"body": "@Shellbound: I am preparing something like this --> https://ipfs.io/ipfs/QmQnxPmyWYPfk2bEs45dh7VSUMQxR8uTCzufaGmGEBrstR\n\nI have also added a tracker dedicated for ZeroTube : http://198.211.121.40:8100/stats",
+			"post_uri": "1NZ4LvZqg61LxtRfEr5Y46KRhYCzWRnqck_1474323298",
+			"date_added": 1474487760
+		},
+		{
+			"comment_id": 8,
+			"body": "@Ericksoares3: I am also seeding it ;)",
+			"post_uri": "1NZ4LvZqg61LxtRfEr5Y46KRhYCzWRnqck_1474323298",
+			"date_added": 1474487940
+		},
+		{
+			"comment_id": 9,
+			"body": "@Alex (Bwoi) : I actually have the code working. It download the video start to play it in a canva that is hidden and pick a frame to show. But I thought that it would be nicer if the user could choose it either by picking a frame from the video or a customize picture. Then I thought that I would also need a blacklist in case some pictures are NSFW...",
+			"post_uri": "1NZ4LvZqg61LxtRfEr5Y46KRhYCzWRnqck_1474323298",
+			"date_added": 1474488301
+		},
+		{
+			"comment_id": 10,
+			"body": "@Shellbound: You are right, this is more of a UX issue. I will try to figure out something (not too boring ;) ) that will offer a good indication that the user need to wait a little.",
+			"post_uri": "1NZ4LvZqg61LxtRfEr5Y46KRhYCzWRnqck_1474323298",
+			"date_added": 1474574849
+		}
+	]
+}

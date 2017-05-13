@@ -1,0 +1,1151 @@
+{
+	"next_topic_id": 25,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "How to create Custom Responsive Websites with feature-rich content",
+			"body": "As what it says in the title. How do I create Custom Responsive Websites with feature-rich content? Does anyone have sample code or example websites? Further, can youtube content be streamed from youtube into embedded youtube players on ZeroNet sites?",
+			"added": 1463498192
+		},
+		{
+			"topic_id": 2,
+			"title": "New Responsive-theme Video Portal proof of concept!",
+			"body": "I'm aiming to make this a video portal website proof of concept. I want to integrate WebTorrent video streaming to make it a truly decentralised uncensorable video website! \n\nhttp://127.0.0.1:43110/1AtRr9BPxKkPswG4uKn17bht2JCdv2cMqt/",
+			"added": 1464730449
+		},
+		{
+			"topic_id": 3,
+			"title": "New Responsive-theme Video Portal proof of concept!",
+			"body": "I'm aiming to make this a video portal website proof of concept. I want to integrate WebTorrent video streaming to make it a truly decentralised uncensorable video website!\n\nhttp://127.0.0.1:43110/1AtRr9BPxKkPswG4uKn17bht2JCdv2cMqt/",
+			"added": 1464731964,
+			"parent_topic_uri": "1_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG"
+		},
+		{
+			"topic_id": 4,
+			"title": "Possible to get seedboxes or archive.org to help seeding?",
+			"body": "As in the title. is it Possible to get seedboxes or archive.org to help seeding? Some websites can die due to lack of seeders, and some sites may be slow due to slow connections from seeders. It would be good if we can provide auxiliary bandwidth from fast (but unreliable due to centralisation) seeders like seedboxes or archive.org. Is there a way for ZeroNet to span its own protocal with BitTorrent, and further, to get torrent seeds from fixed seeders like servers?",
+			"added": 1464832180
+		},
+		{
+			"topic_id": 5,
+			"title": "Using a Blogger Template on ZeroNet",
+			"body": "How does I convert a free template for Blogger to be able to use it for ZeroNet? It comes as an xml file:\n\nhttp://www.themexpose.com/2015/06/wagazine-responsive-blogger-template.html\n\nHow will I be able to use the admin interface after I convert it? Or is the admin interface web-based? Can it be run from my PC?",
+			"added": 1464867405
+		},
+		{
+			"topic_id": 6,
+			"title": "Auto-Install script like Fantastico Auto-installer or Softaculous",
+			"body": "Would it be a good idea to have an Auto-Install script like Fantastico Auto-installer or Softaculous, to install ZeroNet equivalents to the most common web applications like Wordpress, OSCommerce, ezForum, or any type of WebSite builder or WYSIWYG builder? It would be great if ZeroNet had the equivalent to the One-Click installers. This would make the creation of functional and aesthetically pleasing websites so much easier for people and I am absolutely confident it would increase takeup of this software.\n\nAnother suggestion would be an ability to auto-install themes from common CMS like Wordpress.",
+			"added": 1464900340
+		},
+		{
+			"topic_id": 7,
+			"title": "ZeroNet on a temporary Mesh Network used during natural disasters",
+			"body": "We know that during natural disasters, phonelines, internet connections, television and cellphone connections tend to either get overwhelmed or just malfunction completely.\n\nImagine if people were able to share ZeroNet website-based updates on the situation via a local area Mesh Network? Rather than mere text updates, imagine if we were able to share media content and more content-rich updates to help people during an emergency? We know how critical Mesh Network-capable apps like FireChat were during protests in Egypt and Hong Kong:\n\nhttp://www.networkworld.com/article/2691105/opensource-subnet/mesh-networks-and-firechat-how-hong-kong-protestors-are-keeping-communications-alive.html\n\nNow imagine if ZeroNet was able to serve websites using this Mesh Networking capability?\n\nI think a specially adapted version of the ZeroNet software could be developed with Mesh network capabilities like FireChat. It would be possible to integrate an Open Source Mesh Network technology like Hyperboria: http://hyperboria.net/ and combine it with ZeroNet, and the phones BlueTooth and Wifi capabilities.",
+			"added": 1465588919
+		},
+		{
+			"topic_id": 8,
+			"title": "Help needed to code a content-rich Youtube-like site with WebTorrent",
+			"body": "So I need help to code a content-rich Youtube-like site with WebTorrent. I already have a template installed and seeded, but I need to edit it so that pages can be dynamically created everytime I update the site (DHTML?) and I need to integrate WebTorrent.\n\nHere is my site:\nhttp://127.0.0.1:43110/1AtRr9BPxKkPswG4uKn17bht2JCdv2cMqt/\n\nDoes anyone want to volunteer to help so that we can make this a showcase for ZeroNet technology and make it attractive to people who are not attracted to the standard blog that comes with ZeroNet?",
+			"added": 1465737789
+		},
+		{
+			"topic_id": 9,
+			"title": "Is it possible to have ZeroNet Encrypted Chatrooms based on OMEMO?",
+			"body": "Is it possible to have ZeroNet Encrypted Chatrooms based on OMEMO, which has a multi-party chat capability, file-sharing capability and has perfect forward secrecy? It would be greate if ZeroNet can host such chatrooms and the sharing of the chatroom address can be private, meaning that only the participants in the conversation would actually host the chatroom since it is P2P.",
+			"added": 1467217212
+		},
+		{
+			"topic_id": 10,
+			"title": "How do I add HTML video tags in a HTML page?",
+			"body": "So I want to have a non-autoplay embedded video player in a HTML webpage. Can you show me the exact code I should post in a page and where in the HTML I should place the code? Assume I want to replace the box with the girl in the theme below with the Sintel video which plays in the front-page in webtorrent.io, except it should not be autoplay:\n\nhttp://www.templatemo.com/tm-372-titanium",
+			"added": 1467461542
+		},
+		{
+			"topic_id": 11,
+			"title": "What is RetroShare?",
+			"body": "Today is the first time I have heard about it but from what I read about it seem seems to tick most of the boxes:\n\n\nhttps://en.wikipedia.org/wiki/RetroShare\nhttps://github.com/RetroShare\n\n\nIt uses Tor and uses swarm technology to make it distributed, thereby eliminating servers and associated Metadata. \n\n\nThe only thing I am unsure about is what type of encryption it uses. Would it be technically feasible to implement OMEMO encryption in this?\n\n\nMany people find telegram useful because it offers a very convenient group collaboration feature. But Telegram is totally insecure. RetroShare seems like a good alternative. Especially if it offers offline delivery. It's also has a portable installation option, so there won't be registry entries all over the place which can compromise your security by revealing that you used it. You can just hide the entire installation inside a VeraCrypt Hidden Volume.\n\n\nWhat are your thoughts? Perhaps the sourcecode of RetroShare or another secure collaboration software like Conversations.im can be integrated into ZeroNet and used as a standard private collaboration utility for ZeroNet users?\n\n\nThey even talk about implementing ZeroNet technology:\n\nhttps://twitter.com/retroshare/status/709026477241737220",
+			"added": 1468238861
+		},
+		{
+			"topic_id": 12,
+			"title": "Uploading videos via ZeroNet",
+			"body": "So I want to embed videos averaging 5MB to 90MB. Is it actually possible to upload files of that size along with the HTML and use a HTML tag to display the video? I have an embedded video working on a test site but cannot see my video appear on my zeronet site. I am getting a Content Publish failed. I'm not sure if thats related.\n\nAny answers? I hear libzeronet will make it easier to share large files. but whats ZeroNets file sharing capacity?",
+			"added": 1468361415
+		},
+		{
+			"topic_id": 13,
+			"title": "ZeroNet site update issues on Linux Mint 17.3 64Bit: A Tip",
+			"body": "Sometimes ZeroNet websites may not update on Linux. You may find a situation where you upload a site from Windows into ZeroNet and everything has uploaded fine, and you can see the updated site on your browser and on Windows-based ZeroNet proxies. But on Linux it shows the old website. In my case I had ZeroNet installed in a Linux Mint 17.3 64Bit VirtualBox Virtual machine with ZeroNet installed. But it showed the old website no matter how many times I clicked update.\n\n\nThe issue is that the ZeroNet data files (located in the ZeroBundle folder) for each site on Linux has been locked and doesn't have write permissions, so ZeroNet will fail to update. Therefore you have to open the folder as root and then update the website through the ZeroNet homepage. Then the update will work.\n\n\nPerhaps there is an easier way? Please feel free to make suggestions.",
+			"added": 1468535132
+		},
+		{
+			"topic_id": 14,
+			"title": "ZeroNet important software repository",
+			"body": "I am thinking of creating a software repository for important software revolving around privacy, encryption, communication and others.\n\nMy reasoning is that in certain jurisdictions or for targetted individuals, it would be possible for law enforcement or intelligence agencies to perform a Man In The Middle attack (MITM) everytime somebody searches for security software, and redirect their browser to an identical copy of the website featuring hacked software/apps.\n\nThis technique is used by the NSA and is known as \"FoxAcid\":\n\nhttps://www.techdirt.com/articles/20131004/10522324753/how-nsa-pulls-off-man-in-the-middle-attacks-with-help-telcos.shtml\n\nMy proposal is to create a P2P decentralised software repository hosted on ZeroNet which hosts software which has been identified as critical by the privacy community. \n\nZeroNet is the perfect medium for this as ZeroNet websites cannot be hacked or have a MITM attack performed on them.\n\nWhat I would like is:\n\n1. Someone to help me\n2. People in general suggesting software that should be hosted, which they feel is most important.\n3. People from different locations around the world performing checksum checks on the software and giving the checksums here, so that I can compare them. We have to assume that a single person downloading this software and checking the chcksum is a single point of failure. Therefore we need multiple people from different locations around the world to independently verify the checksums and give them here, so that I can put them in a software repository.\n\nWhat do you think? I am not a programmer BTW, so some help from an experienced person would be greatly appreciated.",
+			"added": 1469286133
+		},
+		{
+			"topic_id": 15,
+			"title": "SafePress - a Framework to develop websites for MaidSafe. Possible for ZeroNet?",
+			"body": "Do you think that this can be adapted for ZeroNet to allow us to make websites easily in a similar way to WordPress?\n\nhttps://apps.safenetwork.org/safepress/\nhttp://safepress.io/\n\nUsing just HTML, CSS and Javascript you will be able to build a dynamic website using SAFEpress without needing to learn about the SAFE Network or its programming interface (API). On SAFE Network, your application and your users will be secure, with all data protected from loss, interception or theft.\n\nSo that's our first target, to create the SAFEpress framework web developers and front-end folk will use to create websites with a simple Javascript API, defined using the dreamcode philosophy. (Dreamcode is the term for a Javascript API written exactly as a front-end developer would imagine it—hence \"dream code\"—with no need to be concerned with how the backend works. The SAFEpress / SAFE Network architecture is inherently a nobackend system, so it's very natural that we are adopting the dreamcode approach, and empowering front-end developers.)\n\nSAFEpress can then enhanced to provide Content Management: interactive creation of pages, blog posts and other document types, so that will be our second target.\n\nFinally SAFEpress can develop to provide dynamic and interactive customisation of not just the content, but the user interface, theme and design, even beyond where WordPress is at this point.",
+			"added": 1469793774
+		},
+		{
+			"topic_id": 16,
+			"title": "Zero WikiNews Portal",
+			"body": "Just hypothesizing. Imaging having a ZeroNet WikiNews Portal in the same manner as Yahoo News (https://www.yahoo.com/news/) or MSN news (http://www.msn.com/en-us/)? A distributed news portal with multiple editors who can edit the news using a shared private cryptographic key. The news portal can feature uncensored news or feature opinions not acceptable in the mass medias editorial modus operandi.\n\nWhat type of software would be needed to host such a website on ZeroNet? Would it need to be integrated with the ZeroNet database API?\n\nAlso another thought. Imagine having a website where there are multiple editors. But in order to track which editor makes specific changes, how will ZeroNet allow that to be found out? Is Bitcoin cryptography capable of using multiple secret cryptographic signatures to sign a specific document or make changes to a website, and is this loggable?",
+			"added": 1470413685
+		},
+		{
+			"topic_id": 17,
+			"title": "Copying a clearnet site with HtTrack, images not appearing",
+			"body": "So the way I am doing things is that I have a clearnet wordpress blog. I want to make an exact replica of it on ZeroNet, like TorrentFreak did at: http://127.0.0.1:43110/1JNqdTGVATFWRLzzYwVu19CuWYus5VmoUS/\n\nSo I am downloading the back.xml file from Wordpress. I then install it on a local server using XAMPP and Bitnami, so that I could host wordporess on my local computer.\n\nI then copy the website using HtTrack website copier. Sure enough the website does copy. However, some of the images are embedded into the articles, while some are not. The ones which are not embedded still get downloaded into a directory, but they disappear from the website copy the moment I switch off the XAMPP server.\n\nHow do I resolve this? And is there a better way to host a WordPress site on ZeroNet and keep it regularly updates, like TorrentFreak did above?",
+			"added": 1470655194,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 18,
+			"title": "How do you insert images into ZeroNet posts?",
+			"body": "How do you insert images into ZeroNet blog posts? I came across this blog and she managed to do it: http://127.0.0.1:43110/15YnwLhTxf5yTxXfF2KV2QS9cGjoyfLgbC/?Post:3:MaidSafe%27s+SAFE+network+Vs+ZeroNet,+FIGHT!\n\nAlso how would I embed clearnet YouTube links, or embed ZeroNet hosted files such as PDFs? I am still beginning HTML and have not done this yet.",
+			"added": 1470858297
+		},
+		{
+			"topic_id": 19,
+			"title": "Modifying the ZeroBlog attributes",
+			"body": "So I want to modify the attributes of the ZeroBlog so that it contains a header image, and sidebar features such as Categories, posts by Month, Archives etc. Just like your standard Wordpress installation. I also would like to add backgrounds.\n\nHow will I go about achieving this? What files do I modify and which programming standards would I have to use (or hire in my case)?",
+			"added": 1471027960
+		},
+		{
+			"topic_id": 20,
+			"title": "How to buy BitCoin from a Lamassu BitCoin ATM?",
+			"body": "So I have not brought BitCoin ever before.\n\nIn my city there is Lamassu Bitcoin ATM\n\nI created a public Bitcoin address using Warp Wallet (https://keybase.io/warp).\n\nI downloaded the .PNG file of the public bitcoin address and put it on my phone but the lamassu ATM did not recognise it when I scanned my phone in front of the ATM's camera scanner.\n\nDo I need to install a Bitcoin wallet on my phone first? If so, which Bitcoin wallet is anonymous and does not require real ID?\n\nWould appreciate your help. Thanks",
+			"added": 1471196183
+		},
+		{
+			"topic_id": 21,
+			"title": "Updating content.json on Windows cmd prompt",
+			"body": "So I am getting a really weird error. My website is just a bunch of html files which I created on a local server and then uploaded to ZeroNet.\n\nWhen it's time to update them, I delete all of the data in the data folder, including the content.json. I then move the new html files in.\n\nNow when I try signing the the content.json file in the ZeroNet interface which you get by dragging the orb, the old version of the website gets redownloaded to me automatically. \n\nHow will I stop this and ensure the new version is published?\n\nAlso, how do I publish and update my changes via the cmd line in Windows?\n\nThe ZeroNet documentation says:\n\nhttps://zeronet.readthedocs.io/en/latest/using_zeronet/create_new_site/#3-publish-site-changes\n\n$ zeronet.py siteSign 13DNDkMUExRf9Xa9ogwPKqp7zyHFEqbhC2\n- Signing site: 13DNDkMUExRf9Xa9ogwPKqp7zyHFEqbhC2...\nPrivate key (input hidden):\n\nHow do I do this in the command line? In which folder do I have to be to do this? Or which syntaxt should I type?\n\nThanks in advance.",
+			"added": 1471639725,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 22,
+			"title": "ZeroMail design specifications",
+			"body": "Where do I find out the design specifications for ZeroMail?\n\nAs in what type of encryption it uses, how it uses it, whether its end to end etc?\n\nI checked here but did not find the full documentation:\nhttps://github.com/HelloZeroNet/ZeroMail\n\nAnd how would I re-brand it to my own version?",
+			"added": 1471780640
+		},
+		{
+			"topic_id": 23,
+			"title": "How to add more trackers in ZeroNet config.py file",
+			"body": "So how do I add more trackers to my ZeroNet published sites beyond the standard 8 included? Or how do I enable a peer discovery service other than trackers?\n\nAlso would a large site or a dead tracker be one of the reasons why it would say content.json failed to download when someone tried to download the site?",
+			"added": 1472265082
+		},
+		{
+			"topic_id": 24,
+			"title": "Anyone have a Binary for Briar Messenger?",
+			"body": "I want to test out the new Briar Secure Messenger. Its currently in Beta and if you want to try it out, you have to build it from source using Android Studio. But i'm getting loads of errors on Android Studio:\n\nhttps://briarproject.org/get-involved.html\n\nSo does anyone have a binary of the Briar app so that I can test it out?",
+			"added": 1474245879
+		}
+	],
+	"topic_vote": {
+		"1_14uHGcnMinwK9ZdSQosHqjRV4eBCxkv9Mu": 1,
+		"2_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"1_17qLXXw5HAJkUYDfDeSJdP4g5YhDNbDo1R": 1,
+		"1_1ACseriJgXDu5AaxVFGVzd1ZNZxSgwydkZ": 1,
+		"10_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"1_15zYrGJKfXo6XXU6rBUsuU3cTgpJkDuQYA": 1,
+		"6_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"5_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"3_13Mt8T2256Uz4GHk9B4XvKqyz37wPgA26q": 1,
+		"1_1B6K3CdEdkDqn2vbe4sURDAGMV1xeFpf3t": 1,
+		"1_1B5V7hn9Ng6T3LgihQemdwJdnsv7VTffaR": 1,
+		"1_1HUrhTUZFB2KKsXLUv1vugPH358iB6zsiY": 1,
+		"2_1BbxiDHKuFBkLxuGp8E18FeabHGQe6jYLL": 1
+	},
+	"next_comment_id": 138,
+	"comment": {
+		"1_14uHGcnMinwK9ZdSQosHqjRV4eBCxkv9Mu": [
+			{
+				"comment_id": 1,
+				"body": "I am not a developer here but my question is similar. But I am thinking that content can be streamed using https://webtorrent.io/ technology as that streams videos using P2P tech. But I await answers from knowledgeable members of the community.",
+				"added": 1463498346
+			},
+			{
+				"comment_id": 2,
+				"body": "Look at the video being played on the homepage of https://webtorrent.io/. The video is not hosted anywhere. It is actually being streamed from other users via BitTorrent. So imagine if https://webtorrent.io/ videos can be streamed from ZeroNet-based websites? This means everything, from the website to the video is P2P and decerntralised, therefore unable to be taken down.",
+				"added": 1463498462
+			},
+			{
+				"comment_id": 3,
+				"body": "Here is my question: http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN/How+to+create+Custom+Responsive+Websites+with+feature+rich+content",
+				"added": 1463498695
+			},
+			{
+				"comment_id": 4,
+				"body": "You may also be able to stream videos using https://ipfs.io/ technology on ZeroNet sites. This guy has a ZeroNet movie site and he streams content using IPFS P2P: http://127.0.0.1:43110/14ETRYjD3XREhoCzaSfJ2fsrQHbX9kzMkh/",
+				"added": 1463499390
+			},
+			{
+				"comment_id": 5,
+				"body": "> [postcd](#comment_1_137B9s9bHhdvKuMYxHxJQ1ovrEK1vTDUMu): would love if someone write some explanation on how to achieve dynamic ZeroNet based website with elements like videos streamed via torrent or other protocol which allows (prefferably anonymously) serving content from multiple locations with no single-point failure.\n\nHere is a dynamic content-rich (relatively speaking) website. The only thing it needs I feel is integration of WebTorrent or Ipfs based video streams: http://127.0.0.1:43110/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp/\n\nThere is a website called Streams which integrates Ipfs-based (P2P video streaming) video streams: http://127.0.0.1:43110/14ETRYjD3XREhoCzaSfJ2fsrQHbX9kzMkh/",
+				"added": 1463572689
+			}
+		],
+		"1_13EDCw412fCWqTmR4RxRw99aEd2ucYzDyM": [
+			{
+				"comment_id": 6,
+				"body": "I'm looking to make a similar website. I have already started uploading a theme: http://127.0.0.1:43110/1AtRr9BPxKkPswG4uKn17bht2JCdv2cMqt/",
+				"added": 1464732727
+			},
+			{
+				"comment_id": 7,
+				"body": "what I need is the relevant code to add to each article/video. I think the html is something like this:\n\n<video src=\"mediasource:https://webtorrent.io/81270cac-c922-4d2c-a419-2991022dca12\" autoplay=\"\" controls=\"\"></video>",
+				"added": 1464732795
+			},
+			{
+				"comment_id": 43,
+				"body": "> [majora](#comment_2_13EDCw412fCWqTmR4RxRw99aEd2ucYzDyM): For some reason only the sintel.torrent is working...\n\nDid you create a torrent/magnet link from your file using instant.io?",
+				"added": 1467015393
+			}
+		],
+		"1_1PRsmkcDcCnKbCfFTeQizKYcDpNn98iQcT": [
+			{
+				"comment_id": 8,
+				"body": "これは、削除または検閲することはできませんP2PビデオストリーミングとYouTubeのようなウェブサイトをピアツーピア分散化を行うことが可能だということを示すために、コンセプトの証明です。http://127.0.0.1:43110/1AtRr9BPxKkPswG4uKn17bht2JCdv2cMqt/",
+				"added": 1464733095
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 9,
+				"body": "I'm making a decentralized peer 2 Peer video streaming portal like Youtube on ZeroNet, using WebTorrent streaming technology, which means the videos cannot be deleted. This is my proof of concept. Can anyone help with integrating webtorrent into the html?: http://127.0.0.1:43110/1AtRr9BPxKkPswG4uKn17bht2JCdv2cMqt/",
+				"added": 1464733701
+			}
+		],
+		"1_19wHyK5qpV9YVMiB9PUL3dMsqoJ6KLvZts": [
+			{
+				"comment_id": 10,
+				"body": "Its pretty simple: https://www.youtube.com/watch?v=D-x9Ob7kktE",
+				"added": 1464741305
+			}
+		],
+		"2_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 11,
+				"body": "> [arbleizez](#comment_1_1DufnpSCVSx1FATe6bkZFx7SzNx1F2n6Xx): great POC\n\nThanks. What I need to add is WebTorrent video streaming support, and then I think we have the perfect combination. Undeletable website, with undeletable videos :)",
+				"added": 1464831479
+			},
+			{
+				"comment_id": 12,
+				"body": "> [ancap](#comment_47_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz): By the way, some technical feedback (unfortunately we can't edit comments within X min - maybe that'd be a good feature to delay publishing of comments by 5 min, @nofish): I'm running over Tor and the vids aren't playing. I don't know if they're supposed to or not.\n\nno. Videos have not been integrated yet. I am looking for more qualified html programmers to help me integrate WebTorrent videos.",
+				"added": 1464831563
+			},
+			{
+				"comment_id": 13,
+				"body": "Thanks guys. I really appreciate the feedback and please keep it coming. Having simple blogs may not attract many people. So far I haven't seen many nice looking websites on ZeroNet (maybe its just because i didn't look properly?), but to really showcase this technology, I think we need to have really polished websites with great functionality. People are free to clone my site if they'd like, or even help me with my site.",
+				"added": 1464831722
+			},
+			{
+				"comment_id": 18,
+				"body": "> [riotpulv](#comment_8_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT): Finally a non-ugly content presentation in zeronet, please we need aesthetics in this place for the net grow :)\n\nAbsolutely. Without showing aethetics and functionality, people will get the impression that ZeroNet is only a very small and niche thing, rather than the massive thing it has the potential to be.",
+				"added": 1464899845
+			}
+		],
+		"4_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 14,
+				"body": "> [nofish](#comment_675_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I don't think it's necessary, if you have valuable content your won't have any problem, since your visitors will seed your site. Also there is open proxies who will seed your site on a high bandwidth server 24/7\n> Downloading movies over torrent also works nicely and there you have to store/seed gigabytes of content vs max. 10 MB/site on ZeroNet and when you using torrent you can easily remove the downloaded torrent, but in ZeroNet it's not possible, since if you pause the site you won't receive any new content to it.\n> VPS also getting cheaper for example you can buy an ssh access on https://www.arubacloud.com/ and you will be able to seed/store 1000s of sites for 1EUR/mo.\n\nThis is interesting. How would a person host videos and websites on ArubaCloud? I am not new to this but is there some kind of software interface which allows it to join ZeroNet swarms? And how does a cloud server host a html website with its associated structure (content.json, index.html, js folder etc)?",
+				"added": 1464864525
+			},
+			{
+				"comment_id": 15,
+				"body": "> [ancap](#comment_53_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz): Personally I'd like to see a method for this which can use (bitcoin) micropayments (look at 21.co's developer examples - you can charge micro amounts, e.g. 20 satoshi per second, although in our case we'd need something like 20 satoshi per MB served) so that there's a choice between paid and free.I copy/seed some ZN sites that I think are beneficial, but I'd do 100x more (seed anything, basically, except content objectionable to me) if I could cover my costs.While free is great, I do that now, I am not interested in doing much more without being compensated. And to be honest there are projects out there (Storj, for example) that will make it convenient to resell one's disk space, so if one can make some pocket change that way he won't donate 100 GB to just because it's cool.\n\nYes this sounds good but what incentivises people to mostly stick with free seeding rather than go to paid-for seeding? If they see that they can be paid to seed, doesn't this mean that they will only seed if they get paid rather than do it for free? This could hypothetically turn the ZeroNet network into a defacto paid-for service due to the price structure. I'm not saying I disagree with you, but what solutions would there be to stop ZeroNet turning into this?",
+				"added": 1464864775
+			},
+			{
+				"comment_id": 19,
+				"body": "> [kingbudgie](#comment_4_17nphNHoGtz9EzvvTSSbZn7WHfM1ynpdsL): Well you can have seed boxes if you just leave zeronet running 24/7. So if you want seed boxes, just leave your running. Its what I do.\n\nI was thinking of doing this in a less power-intensive way by setting up a RaspBerry Pi as a seedbox. Does ZeroNet work on Raspberry Pi?\n\nIn addition to being power-saving, installing ZeroNet on a Raspberry Pi and using it as a seedbox means it can also be portable, ie, you can just seed from a free Wifi hotspot, as long as there is a power-bank attached to it and you SSH'ed into the Raspberry Pi earlier. This would provide a cheap, anonymous and cost-effective way to seed websites and videos.",
+				"added": 1465040158
+			}
+		],
+		"1_17qLXXw5HAJkUYDfDeSJdP4g5YhDNbDo1R": [
+			{
+				"comment_id": 16,
+				"body": "can we work together? I want to release a website on ZeroNet like YouTube but with streaming video from BitTorrent or WebTorrent. I think we are trying to achieve the same thing and I think we can work together. See my website: http://127.0.0.1:43110/1AtRr9BPxKkPswG4uKn17bht2JCdv2cMqt/\n\nCan you send me an email? My ID is on zeroid.bit is: testingzeronet12",
+				"added": 1464865459
+			},
+			{
+				"comment_id": 21,
+				"body": "> [fansofwang](#comment_4_17qLXXw5HAJkUYDfDeSJdP4g5YhDNbDo1R): I think the best choice is a small client helper (best to distribute with zeronet) which supports local cache/access /webtorrent together ,someone run it for fast access, and someone can also use webtorrent. but currently no project provides this function. what I can do is to make a quick prototype, let user and ZeroNet developer test and decide. \n> I'm very glade to makes my project used/tested by your site,  any suggestion welcome.\n\nCan you help me integrate some streaming videos on my blog? I am happy to try out your code.",
+				"added": 1465040689
+			}
+		],
+		"3_16JexJdvqRHRobrHnkbSWmdC8pfkkQzmiU": [
+			{
+				"comment_id": 17,
+				"body": "> [lexusnova](#comment_1_1DaMD4jMNT1jx4MuRLU5xCcbcHWFJkSh7R): \"I watched the movie \"Deep Web\" and thought of the idea of p2p sites then did some research and found zeronet among others.\"\n> Wow. This guy's clearly an expert now.\n\nBut I think he raises a good point. I think there should be a Secure delete option. If a person come across a website and doesn't like its content, he will still start seeding it unless he deletes it. ZeroNet could provide a one-click secure delete option which deletes everything securely. But I think the multiple jurisdictions that seeders will be located at together with their usage of Tor will help a lot. I think Tor needs to come pre-packaged with the Linux version of ZeroNet just like the Windows version so that there is uniformity. And the usage of Tor could be made idiot-proof so that anyone knows how to use it. I think the developers already did a good job already though. But i'm sure a lot more can be done.",
+				"added": 1464865680
+			}
+		],
+		"6_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 20,
+				"body": "> [ancap](#comment_57_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz): It seems to me ZeroNet already does that (blog, forum, mail, etc. the apps that can work with ZN are included).ZeroNet bundle for Windows is even better, it's really 0 click install.\n> I agree it'd be great to have more apps but they need to be created. Among things that are possible now (with the current version of Zeronet), but not available in official ZeroNet installer is drag and drop for images and small videos in ZeroNet blog app, so that complete posts can be done from the Web interface.\n\nAbsolutely. I also think a WYSIWYG for websites is really important as it opens-up ZeroNet to casual users who do not know how to code and don't have the time. Having WebTorrent integration into this WYSIWYG editor would really be great, as it simply allows you to create or embed a webTorrent video in the same way you add YouTube links to the WordPress editor. Are there any open-source code examples which can be integrated into ZeroNet?\n\nI completely agree with what you said. I think the first aim regarding blogs is to aim to replicate the capabilities of WordPress, not just the blog capabilities, but also the WYSIWYG editing capabilities.",
+				"added": 1465040497
+			}
+		],
+		"1_1KSynGkJ19GwKmR8BM2PTqWENa8rQ9vJS7": [
+			{
+				"comment_id": 22,
+				"body": "I saw Tamas (@nofish) talking at the Decentralised Web Summit. He said that the thing he wanted most was more people to build websites and increase the size of the ZeroNet eco-system. I think the best way to do that would be to enable users to easily make content-rich websites so that making nice websites with features similar to things like Wordpress is easy. One way to do this would be to give them a good WYSIWYG interface to help them build websites. Right now the ZeroNet blogs are very sparse and it isn't easy to makes them feature and content rich. \n\nIf we look at the type of themes and features that WordPress has in it's standard installation, that is the thing we should aim for when it comes to enabling content-creation for users.",
+				"added": 1465587714
+			}
+		],
+		"7_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 23,
+				"body": "And just thinking aloud, I think it would also be possible to make some kind of company Intranet which would be hosted entirely within a company and would not be connected to the internet at all. This would eliminate the threat from hackers, and it may possibly make running an intranet much cheaper due to the ability of the Intranet to function without a server.",
+				"added": 1465589133
+			},
+			{
+				"comment_id": 24,
+				"body": "> [bashrc](#comment_13_1P7F9po18mshkbRG5zEVV47vHtLEX19QJa): I've already done this with the Freedombone project. There's a trivial change you need to make to the code, which I think is related to the firewall hole punching, but after that it works well on a mesh. Ideally I think there should be a --mesh option, so that you don't need to hack the code.\n\nYou've integrated ZeroNet with the BeagleBoard into a Mesh network?\n\nIn addition to emergency situations, it'll work well during events to give content-rich information to attendees.",
+				"added": 1465737367
+			}
+		],
+		"8_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 25,
+				"body": "> [pycole](#comment_163_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): That's a huge task and would be very difficult without the merger site feature; storing every video on a single site is untenable. If you wait about two weeks, it should be done by then.\n> In the meantime, check this page out. It seems to be a working webtorrent demo.\n\nYes that is what I wanted. Just videos loaded up when they are click on. I don't think the videos would be stored anywhere except through a P2P network?\n\nAlso can I ask what the merger feature would allow for a site with my requirements? I don't fully understand what it is.",
+				"added": 1465854267
+			},
+			{
+				"comment_id": 27,
+				"body": "> [pycole](#comment_166_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): One other thing: the merger feature will include a demo zite called 'ZeroMe', which will explain this better than I can.\n\nNice! Thanks for sharing!",
+				"added": 1465934495
+			},
+			{
+				"comment_id": 28,
+				"body": "> [louis77](#comment_1_17QMibofHDggM5fwjHtGfupWdDMx7apjTf): Thanks for this great template. You talk about a ZeroTube, where censoring videos will be impossible. The time for something like this has come and it would be greate project to do on ZeroNet. Would certainly be willing to join.\n\nI can give you the template if you'd like. Of course that won't be necessary since by viewing the website, you have it all saved on hard drive :)\n\nIs there any particular skills you can add or just be a tester?",
+				"added": 1466085619
+			}
+		],
+		"3_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": [
+			{
+				"comment_id": 26,
+				"body": "Imagine a ZeroLeaks, like Wikileaks? :)",
+				"added": 1465854354
+			}
+		],
+		"4_19R2USgb9vPyg1jPQEJkGVoBwDuDcEmHRF": [
+			{
+				"comment_id": 29,
+				"body": "I heard instant.io is a P2P file-sharing application. There is also peerify (https://peerify.btorrent.xyz/). There are a list of P2P file-sharing apps here: https://webtorrent.io/faq",
+				"added": 1466086320
+			},
+			{
+				"comment_id": 30,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_112_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): yeah we can do that. nofish recomends to have a file size below 1MB per file. but there gif / video sites with bigger files around 20 MB. lets do it.\n\nAlso there is a new merge feature which is going to be made which will allow you to aggregate multiple sites within a single site: http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:8_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN/Help+needed+to+code+a+content+rich+Youtube+like+site+with+WebTorrent",
+				"added": 1466086590
+			}
+		],
+		"1_17gEFavobc7RsKNGbSzZwoSZ6jNB7hT2KN": [
+			{
+				"comment_id": 31,
+				"body": "You just have to make a HTML website as you would do normally. You only have to place it into the the index.html file and the related CSS, images and js files into the data folder shown here (watch the entire 9 minute video): https://www.youtube.com/watch?v=D-x9Ob7kktE\n\nI suppose you can user Dreamweaver or Expressions 4 to design a website. Or hire somebody from Fiverr.com to do it. It isn't much. Usually a lot of these guys already have pre-made websites so they recycle the coding. This makes it really cheap.",
+				"added": 1466528571
+			}
+		],
+		"1_1DUt2hdvamdyX1LtRC6YqoyUPRqGEJGdYY": [],
+		"1_1DqP4N3Nxp9RQQGuqrX5eCqE6t3gWNJXr": [
+			{
+				"comment_id": 33,
+				"body": "> [nofish](#comment_695_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The 10MB limit is per site and every peer of the site stores the same data, so it's works the same way for proxies. (the notification will be displayed and any of the proxy visitors able to increase the limit)\n\nHi nofish. Do you have a blog where you can answer questions or receive feedback?",
+				"added": 1466716268
+			}
+		],
+		"1_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU": [
+			{
+				"comment_id": 34,
+				"body": "do you know how to install and run IPFS in a windows installation? I extracted it into C:\\WINDOWS\\system32 but tried running the ipfs application in the system32 folder but it just shows a dialogue screen for a quick second then disappears",
+				"added": 1466859548
+			},
+			{
+				"comment_id": 38,
+				"body": "> [dude](#comment_14_1APx2pf1wNGFz4mWCN2sFzrtTGzrLKZUQ2): testingzeronet12you forgot the init command. it is a commandline option.and you are crazy man to run this from system root )\n\nwhere is is best to run it? I don't really understand all of this properly. The guidance notes said to run it from %PATH so I did?",
+				"added": 1466895196
+			}
+		],
+		"6_178NSuZP2hH2vHhNX6vsHceh5sjPkDrLiH": [
+			{
+				"comment_id": 35,
+				"body": "> [ks](#comment_94_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx): In its current incarnation IPFS is primarily aimed at static content. And if you actually try it, you will find that IPFS is far slower at fetching files from its peers than Zeronet are. Also, its naming is not meant for humans (e.g., /ipns/QmYsCYvMXHNtNwjnXu94UCMssaGE3iUd7AAwG5iKdMZ2vP/twtxt.txt) and at the moment you can only have one name per peer, AFAIK.\n> That said, IPFS is an amazing piece of work and I look forward to see where it will go. I can also imagine that IPFS and Zeronet at some point will be able to complement each other so that IPFS could be used as sort of a backend for larger files to be served on Zeronet.\n\nYes. Alexandria (alexandria.io) is a media content portal which monetises artistic content. It is basically a front-end for content stored on the IPFS network. So I imagine ZeroNet can also be used in a similar fashion to serve IPFS-hosted decentralised videos/pdfs/content while serving P2P websites via ZeroNet. Perhaps this is an area of research for ZeroNet website developers.",
+				"added": 1466860026
+			},
+			{
+				"comment_id": 36,
+				"body": "A question about IPFS. It may be based on my misunderstanding but here goes. IPFS is like a global decentralised P2P cloud storage, made up of nodes who host distributed content. Each file served has it's own unique hash.\n\nWould it be possible for all nodes to come together and ban particular files hosted on the IPFS network by forbidding its hash? So wouldn't this be a type of censorship?",
+				"added": 1466863262
+			},
+			{
+				"comment_id": 37,
+				"body": "> [fancypants](#comment_2_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU): IPFS will allow blacklisting of hashes and has proposed the idea to build one to block illegal content at the gateway, this is just so they can comply with requests for content notice take downs. Its not censorship since users on the network will have to opt-in to the blacklist so they can't view possibly dangerous content.\n\nThanks. Where can I read up about this proposal? I haven't really followed the debates taking place within the IPFS developer community and I am not sure where I can read up about this blacklisting.",
+				"added": 1466891763
+			},
+			{
+				"comment_id": 39,
+				"body": "> [fancypants](#comment_4_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU): https://github.com/ipfs/faq/issues/9\n> I'm still fairly new to it too and just have been playing around with the network for a couple weeks.\n\nThis one is interesting also. In essence, what it means is that IPFS is not uncensorable. It can be censored if all nodes within the network share blocklists of forbidden content. And IPFS developers are actively building-in capability to make this process easier: https://github.com/ipfs/faq/issues/36\n\nThere is also talk that a blocklist will be universally hard-coded into the software which can be auto-updated. This means even those people who planned to have nodes which don't subscribe to blocklists will also be forced to subscribe to blocklists. Looks like it is not uncensorable at all.",
+				"added": 1466969322
+			},
+			{
+				"comment_id": 40,
+				"body": "> [fancypants](#comment_6_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU): I believe, and hope, the devs understand how much censoring or adding the ability to easily censor will affect them and their project. Hard-coded blocklists will quickly kill support for the project and likely sprout a new project based off of IPFS to make censorship harder/impossible.\n> I think opt-in blocklists are the way to go if there has to be a blocklist.  Having every node adopting an opt-in blocklist sounds nearly impossible, there will always be access to \"blocked content\". \n> Although, if you think about it, a blocklist seems entirely impossible. If I host a file that gets blocked, I'll just change the file ever so slightly so it gets a new hash that is unblocked. This would result in over-population of both a blocklist and IPFS's network itself. So, attempting to censor the network will simply be circumvented but at a cost to how much the network can store.\n\nI agree that blocklists, if they are to be implemented, should only be done so they are voluntary, and that no built-in incentive scheme is implemented to make people do blocklists because it's in their interests. On the other hand, taking the project offshore may help. I suspect the US government saw the potential of uncensorable internet and had a word with Juan Bennet.\n\nI think though with the ever-changing hashes that you propose as a workaround, it may seem like a monumental task. This is because such blocklists may be based off merkle trees in the same way that the Blockchain compresses historical information into a merkle tree. This means the blocklist can stores many decades worth of data before it becomes unweildy.\n\nI think the technology should be forked and taken to a jurisdiction where there is no pressure to implement blocklists. or at least where blocklists are done voluntarily only.",
+				"added": 1466971737
+			},
+			{
+				"comment_id": 45,
+				"body": "> [up4](#comment_40_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): Meanwhile, I have updated libzeronet's status page. I don't think IPFS should merge with ZeroNet as both projects have very different objectives. I think ZeroNet should improve on its file sharing I/O performance. But it is a performance issue and not an architectural one. That is what I am working on with libzeronet.\n\nWould it be possible to get these changes merge with ZeroNet? Better yet, would it be possible to make white-label versions of libzeronet so that organisations or groups of people can have their own versions of zeronet in a sort of world-wide secure intranet.",
+				"added": 1467217447
+			},
+			{
+				"comment_id": 46,
+				"body": "> [up4](#comment_41_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): Last time I checked IPFS storage safeguards & user control were even worst than ZeroNet's.\n> \n> I'm focusing on performance (including larger file support) for now, yes.\n> But besides performance, I think that ZeroNet's site-file-optional-limit architecture is still the way to go for this. More control over storage should come from ZeroHello for site-level information and actions, from the site-loading progress page for larger site (I think the default limit per-site should be raised to something around 200MB and the site content storage limit upgrade/downgrade system can be improved upon for sure). For file-level control within a site, something can be done with the side-panel UI.\n> Also, it is important to stress out that the use case I am concerned about is original, independent content and not torrent-like archiving of commercial feature-length 10-bit 444 H.265 video with surround sound that was meant for the theatre. For that, IPFS is fine. Right now, ZeroNet is perfect for text and image content where every file is less than 1MB. I want to improve on the 1MB limit because I think video bloggers and artists with disruptive things to say have nowhere to go and ZeroNet only needs small (performance) adjustments to make them feel welcome. That is what I want to work on. This is the use case I want to support.\n\nI have a suggestion. Would it be feasible to add XAMPP support to your implementation of libzeronet? This means we can install software such as wordpress on our PCs and create attractive websites and blogs with minimal effort. This also helps with possible libzeronet based ecommerce sites. Would be great for darknet markets.",
+				"added": 1467217734
+			}
+		],
+		"5_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg": [
+			{
+				"comment_id": 41,
+				"body": "> [up4](#comment_35_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): It will be exactly a month tomorrow since the last Github commit on the \"reference\" python implementation of the ZeroNet. I think it's time to start a new implementation in C with more robust internal IO (network, RAM, files) that should allow for larger files. I will need help. I need coders and testers. Inbox me if you are interested.\n\nI am not sure what this means. Are you saying that they have stopped development of Zeronet?",
+				"added": 1466979760
+			},
+			{
+				"comment_id": 42,
+				"body": "> [up4](#comment_37_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): I don't know. I don't even know if this is the longest streak without a commit. What it means is: I think the time has come for a fork that is interoperable with the reference implementation. Even if it is just a \"safety\" measure against what is currently a centralized development effort. Ask yourself these questions: what if (God forbid) something happens to nofish ? What if he gets bored ? How about trying different approaches and have the best one win organically ?\n\nYeah I agree. This is why I downloaded the source code a long time ago. I think nofish should accept more devs. I think in the DercentralisedWebSummit, nofish was asked what he wants for this project. he replied he wants more people to develop websites. He didn't say more developers for the technology. Having a single dev is a bit risky IMHO.",
+				"added": 1466982594
+			},
+			{
+				"comment_id": 44,
+				"body": "> [up4](#comment_38_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): I for one think the devs capable of such thing should fork. I think nofish is doing a great job. He has his reasons. He did all this by himself. He can do whatever he wants. I think at least one fork is better than more devs at this point.\n> \n> My motive for forking is that I feel limited with the technology applied to the content I'm producing now. And I agree with nofish that what ZeroNet needs most is indeed disruptive content (all I'm seeing now is content about ZeroNet). And then, from the people producing this content, should come the technological direction. And since we are free to fork, I think it is very wise of nofish to say that.\n\nYes I think it is a good idea to maintain forks just to ensure the survivability of this project. I have an idea for a news blog with streaming webtorrent videos. I am working on the sites but I could always do with help with WebTorrent integration. Btw I can't get your blog to work. It says something about Tor routers.",
+				"added": 1467016043
+			}
+		],
+		"9_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 47,
+				"body": "> [fancypants](#comment_14_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU): I would love to see this become a reality if it is possible!\n\nAnd it ticks all the boxes when it comes to encryption, group chat, encrypted file transfer, and serverless communication. About the only other standard I know which comes close is ricochet.im as that is based on Tor hidden services.\n\nSo what are the kind of roadblocks which can prevent an XMPP server with OMEMO support with ZeroNet?\n\nAlthough I am not a programmer, I think it would be possible to host+seed your own XMPP servers with additional support for XMPP extensions which are programmed into Conversations.im, such as:\n\nhttps://f-droid.org/repository/browse/?fdid=eu.siacs.conversations\n\n    XEP-0065: SOCKS5 Bytestreams\n    XEP-0163: Personal Eventing Protocol\n    XEP-0191: Blocking Command\n    XEP-0198: Stream Management\n    XEP-0237: Roster Versioning\n    XEP-0280: Message Carbons\n    XEP-0313: Message Archive Management\n    XEP-0352: Client State Indication\n\nImagine this XMPP server being a server hosted by yourself whose address can be shared privately. This can mean we make temporary XMPP servers.\n\nIf it's possible to host your own database-driven Justpaste.it clones such as: http://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/\n\nThen it's possible to host XMPP servers.\n\nThis would be a great way to avoid spying by the state due to the use of Tor, and the ephemeral nature of P2P datasharing. Because there would be no centralised server, we can also avoid the issue of metadata being tracked.\n",
+				"added": 1467308429
+			}
+		],
+		"1_1ACseriJgXDu5AaxVFGVzd1ZNZxSgwydkZ": [
+			{
+				"comment_id": 48,
+				"body": "Make a content-rich site with WebTorrent videos to show the potential of ZeroNet",
+				"added": 1467818431
+			}
+		],
+		"7_15ATNsS6aHGvBg5xoMP94sXpNaLX4fSHjN": [
+			{
+				"comment_id": 49,
+				"body": "Why not just make deleting websites easier? The problem with making a blacklist feature is that it may eventually become incentivised to have this blacklist. For example, newer iterations of the ZeroNet software may come pre-installed with the blacklist, and a person with an older version of ZeroNet may not be able to enjoy the newer features of new versions of Zeronet software because he doesn't want to install the new version of ZeroNet which has blacklists. We have seen this a lot with big corporations gimping newer versions of their software.\n\nI think the best thing in this situation is to simply educate people that they have the option to not seed by simply deleting the site from their directory.",
+				"added": 1468165226
+			},
+			{
+				"comment_id": 50,
+				"body": "> [up4](#comment_56_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): +10000\n> \nGlad you agree with me. The biggest danger is gradual censorship by stealth. This would happen by building-in the capability of using blocklists, but not actually doing it until some kind of extra-ordinary event/reason comes along and basically compels us. This is why I think we should not make any attempt to automate this process beyond what we currently have, ie, just delete the site if you don't like it.\n\nI see what is happening with IPFS and I see it with dread because IPFS is now thinking of applying a distributed blocklist which all nodes will be hardcoded with. The IPFS nodes will auto-update too. This means every single node in IPFS will have a blocklist which they cannot opt-out from, and this blocklist would be controlled centrally by somebody, I presume Juan Benet. This makes the whole purpose of IPFS a moot point because it applies centralisation and censorship to a platform which was made to be censorship-free and decentralised. This is the reason why most of us are dissatisfied with facebook, twitter and other platforms. \n\nAnd now we see it coming to platforms we had hoped it won't happen to. I see IPFS eventually becoming a distributed storage platform, basically a P2P cloud. It will move away from it's original goal of being a decentralised CENSORSHIP-FREE platform due to the blocklist being coded into it, and will eventually just become a commercial platform like StorJ.\n\nI would not like to see it on ZeroNet or libZeroNet.",
+				"added": 1468170251
+			},
+			{
+				"comment_id": 51,
+				"body": "> [up4](#comment_57_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): \n> Thanks. Because of this thread, I will reduce the technical portion of my talk and put more time into the philosophical part of it. If IPFS can self-destruct, it can happen anytime to ZeroNet too (and I see people pushing that agenda here all the time).\n> \n\nA suggestion. Try to include anything which makes it easier for developers to contribute to ZeroNet development.  I don't know, perhaps breaking it down into simple steps etc. It's upto you. Btw is the talk going to be live-streamed and on which website?",
+				"added": 1468173797
+			}
+		],
+		"11_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 52,
+				"body": "> [chinabiz](#comment_26_1DWrKbEomgBLHjczm1HkP556Vg68ewDmyd): The connection to my peer uses: TLSv1.2: DHE-RSA-AES256-GCM-SHA384the \"E\" in DHE means ephemeral (forward secrecy) which is pretty secure.and authentication with PGP keys.Data such as messages and settings I think are encrypted locally too\n\nSo is this like OTR? It would be great if Retroshare used OMEMO encryption as that is meant to be the new gold standard for forward-secrecy encryption, plus also comes with an ability to encrypt group chat, file-sharing and working over Tor.\n\nHaving all that in one little package combined in with Retroshare's serverless P2P swarm which eliminates metadata, and it seems like it can be made into a gold standard group collaborative technology.",
+				"added": 1468256995
+			}
+		],
+		"12_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 53,
+				"body": "[o4zw5vmpoz5hz78z](#comment_129_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): yes you can upload them but not every client can handle big files (slow internet, time out)\n> nofish recommends filesize below 1MB. i already used up to 30MB-50MB for videos/gifs (total page size of over 2GB)\n\nI am finding that my client refuses to publish it. I get a red box saying it failed to publish. Can I see your website and see what size the videos are? Then I will have an idea of what size videos ZeroNet can handle.\n\n> [ricksanchez](#comment_1_1JbawzF6cDyAVJ7LdB3G1EM1Rjk75VvuLs): Check out storj.io, perhaps using their API would help\n\nIs storJ free or payable? also is it censorable?",
+				"added": 1468427079
+			}
+		],
+		"13_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 54,
+				"body": "Also, how do I create spaces between the paragraphs? I added 2 spaces between each paragraph on this post but it all shows up as bunched up text.",
+				"added": 1468535212
+			},
+			{
+				"comment_id": 55,
+				"body": "> [spekulatius](#comment_1_1GPrcAqJHUmfQmbBpMW8Br4tGZCCXA5NeZ): Hello,\n> I'm pretty new to zeronet but are a long time Linux user. Can you tell me if you ran the zeronet using sudo permissions? E.g. \"sudo ./ZeroNet.sh\" ?\n> Cheers\n\nNo, I ran zeronet using sudo python start.py",
+				"added": 1468583347
+			}
+		],
+		"3_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 56,
+				"body": "> [z3r0c00l](#comment_6_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9): And soon zeronet will become r/politics on one side and ISIS propaganda on the other... Pretty soon this will become 4chan and bastion for pedophiles since \"there's room for everybody here\", and no one will ever visit zeronet... I am all against censorship but some form of rational content administration shouldn't be considered \"evil censorship\"... Just my 2 cents. Besides, who decides that my opinion is not \"OK\" if pages are \"free\"? They shared their political opinion, I shared mine.\n\nThe whole point of zeronet is to give a voice to people you may not necessarily agree with. Today you speak about ISIS and pedophiles, but tomorrow it could be taking away the voice of whistleblowers or people who \"threaten national security\" (whatever that means).\n\nIn my opinion if you don't like something on ZeroNet, just delete it.\n\nBtw, there are many places on the internet which already facilitate what you disagree with, such as Tor Hidden services. Would you take those facilities away just because a few misuse it? Should we deprive everyone of one of the only censor-free means of communication because of a minority of deviants (who most people will avoid anyway)? Let's keep some perspective. These people are just a small minority. We should not take away our own freedoms and liberties we enjoy with this censorship-free service just because of a few criminals.",
+				"added": 1469127563
+			},
+			{
+				"comment_id": 57,
+				"body": "> [z3r0c00l](#comment_7_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9): Well than If we don't implement at least bare minimum of administration I guess this project is doomed to fail from the get go... No one will want to hang around the place where pedophiles and terrorists gather. That's why all those communities with the same socialist \"terrorists are human beings too\" free speech idea have succeeded in the past... Oh wait.. they didn't... No administration to keep 99.9% of the sane members safe - no survival of the community. But i guess there is a first time for everything right? \n> Take care...\n\nZeroNet is not a \"hang out\" place. Its just a technology for censorship-free content. I have yet to see any of these \"pedophiles and ISIS\" you speak about because I don't go actively seeking this content out. So this idea that ZeroNet will be full of \"pedophillia and ISIS propaganda\" and that everyone will be exposed to it is simply not true. \n\nI have been using Tor and hidden services for the past 2 years and I can honestly say that I have NEVER been exposed to pedophillia or ISIS propaganda before. You will only see that stuff if you go actively seeking it. The same thing applies to the clearnet btw, noty just anonymous platforms like Tor and ZeroNet.\n\nThis is a red herring you are making to make this project violate its main aim, which is to ensure anonymous cencorship-resistant content publishing.",
+				"added": 1469127876
+			},
+			{
+				"comment_id": 58,
+				"body": "52 percent of Americans favored prosecuting Edward Snowden as they regarded him as a traitor to America. Think about it. A man who revealed the extent of the mass surveillance and spying being conducted against every man, woman and child on the internet in the entire world, and 52 percent of Americans thought he should be prosecuted. \n\nIf we were to rule and administer ZeroNet by the \"social norms\" being proposed by z3r0c00l, would Edward Snowden ever have had the opportunity to speak about the widespread violation of OUR civil rights by the US Government (who by the way was supported by the majority of Americans)?\n\nWhat about the journalists who worked tirelessly to uncover wrongdoings by the US and other world governments? All it takes is for the powers that be to portray a whistleblower or a dissenter in a negative manner using mass media, and the tyranny of the majority would work to silence dissenting voices. I would never want that for ZeroNet. It's against the founding ideals of ZeroNet.",
+				"added": 1469128731
+			},
+			{
+				"comment_id": 59,
+				"body": "> [tk6znreaerujvrfk](#comment_16_13t2ME4cTtkxrwPeugeZgdJF5Kg7C5CSEy): Awareness. Tor usage has tripled since Snowden and availability has multiplied by 6.\n> Source: https://metrics.torproject.org/bandwidth.html?start=2013-05-01&end=2016-07-22\n> Tor usage is just one measure of Snowden's impact, in day to day life people are no longer expecting privacy and so are taking steps to protect themselves, be it not trusting large corporations, or starting to remove their social media presence.\n> The government won't change willingly, but through our actions we can force their hand.\n\nYes. Snowden's revelations created accountability for the government which existing freedom of information laws did not cover due to the NSA's activities being fraudulently classified as \"national security\" issues.\n\nNot only that, but it also created an awareness and expectation within internet users that privacy and the means to protect it should be a standard part of software, and that if privacy was not built-in, at least there would be open-disclosure that the software does not protect privacy.\n\nSnowden changed a lot. I believe his revelations would be viewed as one of the most significant acts of the early 21st Century.\n\nLet's not forget that one of the motivations for ZeroNet itself was based on Snowden's revelations.",
+				"added": 1469219978
+			},
+			{
+				"comment_id": 74,
+				"body": "> [nuttyneurotic](#comment_7_1K9bJ8uijgvt5B3YfzPv2HqVx6kNDoEqtM): I share the same concerns to be honest. Although you could argue that if you dont search for such content you wont find it but sometimes this could happen anyway if someone posts something they shouldnt to a zite.\n> I think the thing that worries me the most is that you could easily seed this sort of content (from my understanding) unwittingly. Lets say theres a post about such things on this forum, I came here to discuss Zeronet, not those things... But then because you seed everything, you end up seeding the content you want no part in.\n\nI did that on a few occasions when I found naked guy sites (by accident, honestly). I just went straight to the panel and deleted that site.",
+				"added": 1469573213
+			}
+		],
+		"1_1NhxEZGje74GQWUdX4frXE3TUg8evizrSS": [
+			{
+				"comment_id": 60,
+				"body": "Zeronet works with the Tor Browser. So all the privacy-enhancements featured within the Tor Browser can be used in conjunction with ZeroNet. See this:\n\nhttps://zeronet.readthedocs.io/en/latest/faq/#how-to-use-zeronet-in-tor-browser\n\nHow to use ZeroNet in Tor browser?\n\nIn Tor mode it's recommended to use ZeroNet in Tor Browser:\n\n    Start the Tor Browser\n    Go to address about:preferences#advanced\n    Click Settings...\n    Enter 127.0.0.1 to field No proxy for\n\nBtw, I had trouble using the settings Above. I found the appropriate settings in the Tor browser by going to Preferences, choosing Advanced, Network, then Settings. Then pasting in 127.0.0.1 in the \"No proxy for\" box.",
+				"added": 1469222378
+			}
+		],
+		"1_1Kjepw43UHGMp1idvDZtuvxyEWVHNBZKdy": [
+			{
+				"comment_id": 61,
+				"body": "If you are concerned about anonymity on ZeroNet, use Zeronet with Tor. here is a guide: http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1NhxEZGje74GQWUdX4frXE3TUg8evizrSS/Is+there+a+ZeroNet+browser",
+				"added": 1469285008
+			}
+		],
+		"14_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 62,
+				"body": "> [zeroexef](#comment_1_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): I could try to put together a small website for us to use. I'd also be willing to checksum files\n\nGreat! I can put together a small list of apps/software that I personally think are important. I will also add my own checksums. Need at least 3 more people providing there own checksums to ensure there is no chance of a MITM affecting all of us. Of course I hope people can chip in with their own suggestions for this idea and for the software.\n\nAlso the magnet link idea sounds good. Is that MITM-proof?",
+				"added": 1469295633
+			},
+			{
+				"comment_id": 63,
+				"body": "> [kowalski](#comment_1_1MjzQK7SFT6gnEgxy9ePQHXc3Ub5o9qz84): Why do you say that it's impossible to MITM a zite? Is it really?\n\nAs far as I know there isn't any way to MITM a zite. But please do explain if there are any.",
+				"added": 1469295684
+			},
+			{
+				"comment_id": 64,
+				"body": "I have a very basic list here, although not yet with the checksums yet:\n\nDesktop Software:\n\nTor Browser Bundle\nAny easy to use Checksum software\nGPG4USB\nVeraCrypt\nBleachbit (with winapp2.ini addon)\nEraser (or any secure delete software)\nBitMessage\nRetroShare\nVirtualBox\nPutty (SSH software)\nVLC Media Player\nZeroNet\nAny decent metadata removal software\nAny software from EFF.org (https://ssd.eff.org/en)\nPidgin and OTR\nRicochet.im\nSelect software from PRISM Break (https://prism-break.org/en/projects/)\nJitsi.org\n\n\nAndroid software:\nF-Droid\nMoboclean\nAndroid IMSI Catcher Detector\nSnoopsnitch\nParalell Spaces\nChatSecure\nConversations.im\nOrbot\nOrfox\nAFWall+\nSignal (Moxie Marlinspikes software)\nCSipSimple\nAll of the software from The Guardian project (https://guardianproject.info/apps/)\n\n\nI'm sure there is lots more that I have missed. Please feel free to chip in. I will get to work getting checksums and placing them here. I think we need at least 3 more other people to compare the checksums. We need to do it in this format:\n\nName of Software\nVersion of software\nWhat Operating System\nDate and Time of Download",
+				"added": 1469298282
+			},
+			{
+				"comment_id": 70,
+				"body": "> [sockspls](#comment_4_1KnFgYp6rbz2VLe4H7RW36J8ChSqHSbxLn): My issue is that there's no way to verify that the version on your website is the official version of the software. You can include an MD5 hash if you want, but that would have to match their official site, and which site do you trust if it doesn't match?\n\nSo this is why we include version, OS version, and date and time downloaded. So people can go back to the archived version to cross-check the MD5. Plus we need volunteers to submit their own MD5's. We need a few people doing this to limit the possibility that we have all been struck by a Man in the Middle attack.",
+				"added": 1469571748
+			},
+			{
+				"comment_id": 71,
+				"body": "> [testset](#comment_5_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp): Count me in. \n> I can contribute with the following: if you provide me a list of Download links, I can automatically Download all the files and generate the a list of SHA1 and MD5 sums. As a proof of concept, I have generated this list: http://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp_0\n\nWelcome! Yeah, what we need are everybodies suggestions for essential security, privacy and anonymity software, and contribute as much as they can in providing MD5 hash's, along with software version, OS it is for, and the download date and time (see it as foolproof referencing so a person knows exactly where to check against the official versions website).",
+				"added": 1469572003
+			},
+			{
+				"comment_id": 72,
+				"body": "> [zeroexef](#comment_7_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): It's not foolproof, but if have a bunch of people download the software (pref. from different countries, areas, whatever), and we take the most common version across the world (everybody rums an md5sum, we discard anything that doesn't match the majority), then we can 'ensure' the software is genuine. This way if anybody tried to modify the original website (and md5sum posted there) in any single country/area (e.g. MITM), we would be able to show that that version isn't the same as the one everybody else has.\n\nDo you think it would be easier to put all details on the same page? We can copy and paste the descriptions from their own website.\n\nFor example:\n\nTor Browser Bundle:\nIntro: \n\n    Tor prevents people from learning your location or browsing habits.\n    Tor is for web browsers, instant messaging clients, and more.\n    Tor is free and open source for Windows, Mac, Linux/Unix, and Android\n\nDownload Links: \nWindows (Download Here) Version 6.0.2_en-US.exe (Downloaded 13:31PM Saturday 21st July 2016)\nLinux64 (Download here) Version 6.0.2_en-US.tar.xz (Downloaded 13:31PM Saturday 21st July 2016)\n\nWindows MD5: D4B74112374B75B38A8174B1D37086FE\nLinux64 MD5: D4B74112374B75B38A8174B1D37086FE",
+				"added": 1469572655
+			},
+			{
+				"comment_id": 73,
+				"body": "I guess we can have an open forum with different threads for different software, and various users contribute their MD5 hashes along with OS, Version of software, and date and time.\n\nWhat do you think?",
+				"added": 1469572765
+			},
+			{
+				"comment_id": 75,
+				"body": "> [zeroexef](#comment_11_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): Certainly do-able (both comments). The forum idea would be far easier to complete (considering we would basically be cloning ZeroTalk and scrapping the current site).\n\nI think we should keep the site, but use a special forum to accept user-contributions, in terms of MD5 hashes, and suggestions and discussions for software. But I definitely think we need a single site as our main like the one you did initially.\n\nWe could use this thread for that purpose, but I think it'd become too cluttered. It would be better IMHO to have our own forum with its own threads to accept user contributions.",
+				"added": 1469573444
+			},
+			{
+				"comment_id": 76,
+				"body": "> [zeroexef](#comment_13_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): http://127.0.0.1:43110/15CmNF5L1murN3UMb4fZMuWJtpq689JRhx\n\nDo you want to write a founding statement :)\n\nWe can also suggest a template to show how users can contribute with the info we need. I provided a basic template a few posts ago. Anything else we need for it?",
+				"added": 1469573689
+			},
+			{
+				"comment_id": 77,
+				"body": "btw im getting a Not Found index.html",
+				"added": 1469574354
+			},
+			{
+				"comment_id": 78,
+				"body": "> [zeroexef](#comment_14_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): better?\n\nyeah its better. Ill make a namecoin .bit address shall I? for the forum and for the site? any suggestions? My namecoin software has just been downloaded so the blockchain is synchronizing 275 weeks of data. so will take a while :)",
+				"added": 1469574897
+			},
+			{
+				"comment_id": 79,
+				"body": "> [zeroexef](#comment_15_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): Yeah I think that'd be great\n\nLet my Namecoin synch up then ill ask you for suggestions. Dont want them now as someone could take the name before I get a chance to register it. although I do have a zeromail address to discuss privately: testingzeronet12@zeroid.bit",
+				"added": 1469575439
+			},
+			{
+				"comment_id": 80,
+				"body": "> [zeroexef](#comment_16_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): Awesome. I didn't know about the optional files. I'll look into that tomorrow. As for the hash,  that's a good idea. We might include md5 and sha256 because I know it can be hard to find sha256 on windows machines.  \n> On that same note, does anybody know a good file hasher for windows? My preliminary search turned up HashTab, which seems pretty good.\n\n[Copy and paste from the new forum] Don't forget that we need at least 3 verification's of the same version of the software. And by version, I mean that specific operating system. So Tor Browser Linux and Tor Browser Windows count as different versions. Similarly 32-bit and 64-Bit count as different versions.\n\nSo I think we need at least 3 independent verification's of a specific version of software to gain confidence that this is the original authentic software without a MITM attack affecting it's integrity.\n\nAlso do you think we should standardize on SHA-256 and MD5? Let me know your thoughts. I'm not an expert on this matter. Also I am using Hashtab for Windows as my hashing software. Hashtab's options also let you choose many diffe types of checksumming protocals, including SHA-256.",
+				"added": 1469587068
+			}
+		],
+		"5_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 65,
+				"body": "Snowden took public awareness of privacy and security to a new level. While security-conscious people never trusted big corporations and governments with their data, in general, the public did trust them. That was a big mistake on the part of the public as the NSA, CIA, FBI, GCHQ and others basically stole the publics personal data and took their privacy rights away from them. All the while the unsuspecting public thought they were safe.\n\nWe even had examples of NSA analysts viewing the naked photos of people who swapped them by email, facebook and other means. \n\nWe are the public. We are the ones who pay these organisations to protect our national security. They are our civil SERVANTS, not our masters. They had no right to spy on us, yet spy on us they did.\n\nThat is why we need privacy tools like ZeroNet. We cannot trust the government to regulate itself. Therefore we have to have the means to protect ourselves from government.",
+				"added": 1469306433
+			},
+			{
+				"comment_id": 66,
+				"body": "> [ks](#comment_134_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx): I'm sorry, I don't buy your premises. My online habits have changed drastically post-Snowden, and I'm pretty sure the same goes for a huge number of people. So basically a lot changed.\n\nDon't forget that many lives have also been saved due to the increased proliferation of privacy tools and the increased education campaigns teaching people how to use privacy tools.",
+				"added": 1469306668
+			}
+		],
+		"7_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 67,
+				"body": "> [qu363c](#comment_11_112GGMvUJbBTCtQu8UUSYpo8UjLdo1B73n): I give you 10 minutes to put back the other thread you just deleted.\n\nIt's possible to delete threads?",
+				"added": 1469307224
+			}
+		],
+		"2_13t2ME4cTtkxrwPeugeZgdJF5Kg7C5CSEy": [
+			{
+				"comment_id": 68,
+				"body": "> [alexandre](#comment_7_1674XymFPbmAXh78xEpt3Pehtko6i2kvtA): I think it is the possibility of downloading its tools from its softwares repositories to other GNU/Linux distributions.\n\nIs there a single place where we can get a list of all installed software for Kali?",
+				"added": 1469368971
+			}
+		],
+		"1_1DSoqCXNkqv7yJNXiF6YoaeK2bW8BFt2gh": [
+			{
+				"comment_id": 69,
+				"body": "> [nuttyneurotic](#comment_8_1K9bJ8uijgvt5B3YfzPv2HqVx6kNDoEqtM): Can you delete content as a Zite owner? Always been curious about this.\n\nYes you can. Once you delete the content on your own local version, you then publish the edited version with the new content.json file, and this then propagates the changes to every other person who is seeding it the website.",
+				"added": 1469571519
+			}
+		],
+		"10_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": [
+			{
+				"comment_id": 81,
+				"body": "> [dividedby0](#comment_32_16iYwD5U2fNoS22p6447J7992iL3DHjSHY): Sigainthttp://sigaintevyh2rzvw.onion/\n> Autistici/Inventatihttps://www.autistici.org/\n> RiseUphttps://help.riseup.net/en/email\n> ProtonMailhttps://protonmail.com/\n\nSigaint is good as the login screen uses squirrelmail, which means no javascript required. The fbi attacks most tor users by using javascript-based firefox exploits. So no javascript logins are fairly good in those circumstances.",
+				"added": 1469621025
+			}
+		],
+		"15_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 82,
+				"body": "> [tkarita](#comment_9_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): What do they mean by \"theft\"?\n\nI just copy and pasted their text. But what he's trying to do is integrate a sort of admin-panel and CMS system with the MaidSafe API. He also uses HTML, javascript and CSS. Perhaps it is something which can also work with ZeroNet as ZeroNet uses HTML, javascript and CSS. All it probably would need is tweeting the integration with the ZeroNet API.",
+				"added": 1469794670
+			}
+		],
+		"1_1NpaQyMLjikY9FXdfyG4p8CNmS2YrupsRR": [
+			{
+				"comment_id": 83,
+				"body": "I'm trying to use RetroShare and make it work with Tor, but the interface is very confusing. I was wondering if anybody here would like to buddy up with me as I try to get it working? I need someone to basically friend me on retroshare and swap messages to see if I can get it working consistently and anonymously.",
+				"added": 1470247379
+			}
+		],
+		"1_18KdJfRwXmQqa5d3wwbc963b9RMyeXpuWS": [
+			{
+				"comment_id": 84,
+				"body": "Finding that BlueGriffon (http://bluegriffon.org/) is a good HTML editor to make good websites in WYSIWYG mode.",
+				"added": 1470357527
+			}
+		],
+		"2_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa": [
+			{
+				"comment_id": 85,
+				"body": "> [paintninja](#comment_3_12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu): As ironic as it seems, I believe moderate optional censorship would be appropriate for ZeroNet,especially considering that ZeroNet provides site owners with the ability to remove content...\n> I'm not talking about spying on people or preventing people from viewing content at all, butmaybe the ZeroNet software itself could actually search for keywords in pages duringconnection and if the keywords match... show a warning page but still allow the user toview the content if they wish. And obviously the content is then only seeded if the useraccepts the warning and proceeds to the content.\n> By using keywords instead of an actual list of sites, it also prevents those kinds of people fromeasily finding that content by looking up the list, as instead we just search for words like\"pedo\" or \"murder\" for example.\n\nThats the first step to censorship, ie a voluntary system of flagging content. Once this keyword blacklist becomes part of ZeroNet, it won't be long before it's capabilities evolve into a content blacklist which prevents the content from even loading. We are currently seeing this with IPFS which actually prevents nodes from sharing certain proscribed content.\n\nBasically we will end up with a politically-correct \"decentralized uncensored internet\", with actual restrictions for certain arbitrarily-defined content.",
+				"added": 1470491400
+			},
+			{
+				"comment_id": 87,
+				"body": "> [quadrangle](#comment_7_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N): Good, I don't want child porn on my computer.\n\nThen don't download it (im sure you don't). This idea that without censorship, you will end up with CP on your computer is just wrong. You are no more likely to get CP on your computer with ZeroNet than on the clearnet. And if you did accidentally view a CP website, just delete it from the sidebar. It gets wiped out from your computer.",
+				"added": 1470533452
+			},
+			{
+				"comment_id": 88,
+				"body": "Expect to see a lot more of this FUD as ZeroNet becomes more well-known and law enforcement become more concerned about ZeroNets uncensorable nature :)",
+				"added": 1470533607
+			},
+			{
+				"comment_id": 89,
+				"body": "It's a red herring the constantly bring up the issues of CP as if that is a guarantee that you will download it. You are just as likely to accidentally download CP on the clearnet. I think these calls to implement software-based censorship into ZeroNet go further than just the issue of accidentally being a node to CP. You know full-well that you can delete any site you find objectionable, so in that respect it is no different to the clearnet. So why these calls to bring censorship?\n\nThe first step into bringing censorship into ZeroNet is to hardcode a capability into ZeroNet to blacklist websites. Then it moves onto distributing this blacklist as part of the software. Then the choice of opting into these blacklists get removed from the user. This is exactly what we saw with IPFS.",
+				"added": 1470573357
+			},
+			{
+				"comment_id": 91,
+				"body": "> [paintninja](#comment_9_12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu): Not censorship, but a warning system without any specific URLs. It's a lot less hassle for someone to see a warning and click a back button on their browser than to see potentially disturbing content, and then needing to manually find the folder to delete it before closing the tab. A warning appears when the content of the page matches certain keywords and the user could turn the warning system off entirely if they wish or skip the warning on a per-page basis.\n\nThe problem with such a filter is that it actively filters content. Perhaps it won't block it, but being able to identify it by keyword is the first stage in being able to block it, even if that is not something you have planned. It provides the technological ability to do so.\n\nI think a better solution is to develop a separate plugin which allows this capability, but would be voluntary due to it being a plugin, rather than building it into ZeroNet itself. Having it built into ZeroNet means the technological capability exists to censor content, and all it would take is some form of political shift in the views of the developers or for the Law Enforcement to pressure them, for it to end up becoming a content blocker rather than a keyword filter/warning system.\n\nPlus, who decides what keywords to filter? What makes your definition of unacceptable better than someone elses? Imagine if the definition of acceptable speech in the European Union is stricter than the US, and because of it, they force the developers to add keywords which are more prohibitive compared to the rest of the world? Who decides what an acceptable keyword is?",
+				"added": 1470575828
+			},
+			{
+				"comment_id": 92,
+				"body": "> [testingzeronet12](#comment_91_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): The problem with such a filter is that it actively filters content. Perhaps it won't block it, but being able to identify it by keyword is the first stage in being able to block it, even if that is not something you have planned. It provides the technological ability to do so.\n> I think a better solution is to develop a separate plugin which allows this capability, but would be voluntary due to it being a plugin, rather than building it into ZeroNet itself. Having it built into ZeroNet means the technological capability exists to censor content, and all it would take is some form of political shift in the views of the developers or for the Law Enforcement to pressure them, for it to end up becoming a content blocker rather than a keyword filter/warning system.\n> Plus, who decides what keywords to filter? What makes your definition of unacceptable better than someone elses? Imagine if the definition of acceptable speech in the European Union is stricter than the US, and because of it, they force the developers to add keywords which are more prohibitive compared to the rest of the world? Who decides what an acceptable keyword is?\n\nI'd also like to add that ZeroNet is nothing but a protocal, in the same way that http is a protocal. I don't think we should block content on the protocal level. if anything, we could block content on a plugin level.\n\nThink of Firefox. It is a browser which enables you to view content. But if you want to block content, just use one of the numerous addons for Firefox. No one expects content filtering to be hard-coded into Firefox.\n\nI don't think we ought to change the protocal itself in order to block or flag up certain types of content. We don't expect http to automatically block content or warn against it. neither should we have the same standard for ZeroNet. Although having a plugin system would be a good way to alleviate the concerns of people who are worried about seeding illegal content by accident.",
+				"added": 1470588108
+			},
+			{
+				"comment_id": 93,
+				"body": "> [armchairgenius](#comment_2_1DW9EhqZ7rndNKZTPbdxsttBU1jGtT2soT): Honestly, I'd much rather the devs work on improving and testing the security/encryption rather than trying to start censoring content. There are two reasons behind this, A) If the crypto and security is good enough, others won't know that you're hosting potentially illegal content in the first place and B) Sure, most people can agree that censoring CP is reasonable, but that starts a slippery slope towards more censorship. First against things which aren't actually illegal, just questionable or representing opinions that others don't like, then suppressing unwanted content.\n\nAnd this is what a lot of us are worried about. Pretty much all people here hate child porn. But by building in technological filters to block \"unwanted content\" or even warn against it, we can't predict what this filter would be used for in the future, especially when governments start pressuring the developers in the same way that the makers of IPFS were.\n\nI think it would be better to keep the ZeroNet protocal free from such filters, but to create a separate and voluntary plugin for those worried about child porn or other illegal content.",
+				"added": 1470588357
+			},
+			{
+				"comment_id": 94,
+				"body": "> [paintninja](#comment_14_12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu): Fair enough, if anyone knows of a working, configurable content filtering extension for Firefox please let us know on this thread for anyone in a similar situation to me.\n\nhttps://addons.mozilla.org/en-US/firefox/search/?q=parental+control&cat=all\n\nI think some of them get their keywords from an international organisation which actively monitors child porn on the internet and updates a list of keywords and websites to be blocked or monitored.",
+				"added": 1470588666
+			},
+			{
+				"comment_id": 98,
+				"body": "> [beoxoeb](#comment_12_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa): No, we don't.Did you actually read what he wrote?He wrote that the warning lists you suggest will be used against you by the same criminals you're concerned that will abuse zero-net.You're reply to that doesn't make much sense.\n> \n>  Where is the issue about creating lists that the people can opt to use or not? i just don't wanna aid criminals or expose myself to their content, how am i compromising the zeronet funcionability and/or security blocking the content i dont want? i´m getting tired of this crap, is simple, if i dont find a way to do it im leaving, and probably other \"moral fags\" like me will do the same.\n\nI think you should be pushing for, or helping to create an addon to ZeroNet (nofish did say ZeroNet has plugin functionality), not pushing to have the functionality built-in to the software itself. After all, no one pushes for content warning systems to be built-in to the HTTP protocal, and neither should we push for it to be built into the ZeroNet protocal. You are asking for something which is not even expected for HTTP Browsers. \n\nNot everyone wants a hardcoded means to flag up content, because it would only take a very minor change in the future to change a warning system to a content blocking system. But a plugin offering that functionality does seem appropriate for people in your situation.",
+				"added": 1470677917
+			},
+			{
+				"comment_id": 119,
+				"body": "There is definately something wrong. I remember writing a post fairly recently here but I cant see it now. It disappeared. ???",
+				"added": 1471057936
+			},
+			{
+				"comment_id": 125,
+				"body": "> [xnopyt](#comment_1_1FPzL4N6zBuQg72JRKx6f2XqxKMeQwXXn): Grotesque pages die off as long as everybody is revolted and doesn't seed them. You see? You seed the content you want to peruse. No censorship other than your own morals.\n\nYup. and if there was a clique of criminals or pedos sharing the website exclusively amongst themselves, they can do the same thing on the normal internet (clearnet), not just on ZeroNet. So there really doesn't make much of a difference if you added such a filter to ZeroNet. It would make Zeronet even more centralised and anti-Free Speech than even the http clearnet, since censorship is not an inherent part of the http protocal.\n\nAlso if pedos wanted to use ZeroNet but avoid the keyword filter, they would just seed the site amongst themselves and only share the address amongst each other. They would also password-protect the content and keywords so it isn't accessible to the keyword filter.\n\nThe end result is that pedophiles would still manage to keep their content online while ordinary non-criminal users of Zeronet would still be penalised for a crime they did not commit.",
+				"added": 1471196533
+			},
+			{
+				"comment_id": 137,
+				"body": "> [lorem](#comment_1_1HXv2c6awyWdtUb8SeP7bWViMHcvxdV82X): Look if you're here and want censorship because you ''might'' encounter criminals, I will kindly ask you to fuck off and go back to clearnet. The entire point of this place is to not be censored you stupid fuck\n\n:)",
+				"added": 1472991813
+			}
+		],
+		"1_15zYrGJKfXo6XXU6rBUsuU3cTgpJkDuQYA": [
+			{
+				"comment_id": 86,
+				"body": "thanks for the website. Hope it becomes successful. Just a small note. The blue arrow icons to get to the next page does not appear in my Firefox, but does appear in Chrome browser.",
+				"added": 1470533080
+			}
+		],
+		"6_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 90,
+				"body": "> [sirenyc](#comment_32_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): And the same site, and more within the network zeronet!\n\nDid you copy the site using HtTrack and just uploaded a copy onto ZeroNet? Is the ZeroNet version of TorrentFreak dynamic in the sense that you can upload an article and older articles automatically go to the previous page?",
+				"added": 1470573763
+			}
+		],
+		"9_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 95,
+				"body": "I think three killer apps are important for me:\n\n1. A ZeroNet website with integrated WebTorrent videos, like a Youtube Streaming site.\n\n2. An encrypted chat app with forward secrecy and group chat, along with file transfer, aside from being anonymous with Tor or I2P.\n\n3. A website design CMS system like Wordpress. There is already one for MaidSafe and its open source. So should be applicable to ZeroNet.",
+				"added": 1470657835
+			}
+		],
+		"17_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 96,
+				"body": "> [genericusername](#comment_10_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny): If you don't mind switching blogging software you might want to give Jekyll a try. It's a static website generator so will be right at home on the clearnet and here on ZeroNet. If you do give it a try Jekyll has support to migrate from Wordpress here.\n\nIs Jekyll a WYSIWYG system? I have very minimal html skills (right now).",
+				"added": 1470667291
+			},
+			{
+				"comment_id": 97,
+				"body": "> [border0464fred](#comment_24_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): I bet your problematic images are javascript loaded not in the html template, turn off your javascript in your browser and check if there is a concordance between what nojs broke and what httrack broke\n\nok ill try it. Would that mean the images would get saved without javascript?\n\nI'm also looking into this as a possible solution as well:\n\nhttp://www.wpbeginner.com/plugins/how-to-import-external-images-in-wordpress/",
+				"added": 1470677480
+			},
+			{
+				"comment_id": 100,
+				"body": "> [border0464fred](#comment_25_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): Javascript could be weak and broke from the fact that httrack does not see the webpages as your server serve them. \n> meanwhile, I see no broken links in your page.https://imgur.com/a/wtnmk\n\nDoes that mean I have to disable javascript? And disable it on the browser or within HtTrack?",
+				"added": 1470765713
+			},
+			{
+				"comment_id": 127,
+				"body": "I have resolved the issue. The issue was that WordPress 4.4 had new support for srcset images, which creates multiple sizes of a single image. When I copied the site and images, the main image pointed towards localhost, but the remaining srcset images pointed towards the actual http clearnet website. That prevented the images appearing when I turned the XAMPP server off.\n\nThere are some workarounds:\n\n1. Host a copy of WordPress on your XAMPP server lower than version 4.4. Any version lower than version 4.4 does not have srcset images, and you can freely copy the website using HTTrack and host it on ZeroNet.\n\n2. Another solution is to manually removal all the srcset images in the html files via a html editor. That is long and laborious.\n\n3. A third option is to edit the functions.php file in your WordPress XAMPP installation and remove the srcset functionality. This thread explains it:\nhttp://wordpress.stackexchange.com/questions/211375/how-do-i-disable-responsive-images-in-wp-4-4\n\nI chose option 1 as its the easiest. Because the site would be hosted on ZeroNet, there would be no need to upgrade to the latest version of WordPress since ZeroNet websites cannot be hacked through vulnerabilities in the software used to create them (such as WordPress) as they can only be modified by the Private Crypto Key.\n\nSo this is how you can maintain a well-designed WordPress site on Zeronet,  at least till the standard Zeronet software gets a wordpress CMS equivalent.",
+				"added": 1471285025
+			}
+		],
+		"1_1mytj22YfKjQujw9Fo43WBwSJB658vqyY": [
+			{
+				"comment_id": 99,
+				"body": "Try making a copy of your current content.json and edit it with the changes. Place it outside of the ZeroNet bundle. Then delete the content.json inside the actual data folder for the site and put the modified version. Then try updating it in the sidebar?",
+				"added": 1470717137
+			}
+		],
+		"3_13Mt8T2256Uz4GHk9B4XvKqyz37wPgA26q": [
+			{
+				"comment_id": 101,
+				"body": "> [kickasstorrents](#comment_5_1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1): I have a plan to get peers and seeders working I'm writing a Node.js script to get the latest torrents from the database, get the number of peers / seeders and then update and sign the data.json file. I can provide the script I'm working on if it would be of interest to you (or someone else). But once the script is done I'll probably create a cron job and run it all of the time.\n\nThat would be great! Can I have more details and the script itself? My ZeroNet email is: testingzeronet12@zeroid.bit",
+				"added": 1470844873
+			}
+		],
+		"10_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 102,
+				"body": "I joined the bluehub and I merged the site, after the yellow prompt asked me to. Now when I try going into the bluehub again, I get the following message: \n\n\"Please use ZeroMe to browse profiles on this page.\"",
+				"added": 1470855835
+			},
+			{
+				"comment_id": 103,
+				"body": "would there be individual pages, like a facebook page? so we could upload content and posts without bothering everyone else on the hubs mainpage?",
+				"added": 1470856009
+			},
+			{
+				"comment_id": 105,
+				"body": "What would be brilliant is a Private Talk feature in Hubs which allows everyone to chat with each other whilst their chat is automatically PGP encrypted. This is similar to the Group Chat/Conference feature in Conversations.im which allows everyone to chat together while the messages are automatically PGP or OMEMO  encrypted. \n\nhttps://github.com/siacs/Conversations\n\nOpenPGP\n\nEvery participant has to announce their OpenPGP key (see answer above). If you would like to send encrypted messages to a conference you have to make sure that you have every participant's public key in your OpenKeychain. Right now there is no check in Conversations to ensurethat. You have to take care of that yourself. Go to the conference details and touch every key id (The hexadecimal number below a contact). This will send you to OpenKeychain which will assist you on adding the key. This works best in very small conferences with contacts you are already using OpenPGP with. This feature is regarded experimental. Conversations is the only client that uses XEP-0027 with conferences. (The XEP neither specifically allows nor disallows this.)",
+				"added": 1470859533
+			},
+			{
+				"comment_id": 106,
+				"body": "> [quadrangle](#comment_22_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N): Anybody who is anybody is part of the blue hub, don't let those filthy reds persuade you otherwise.\n\n> [quadrangle](#comment_22_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N): Anybody who is anybody is part of the blue hub, don't let those filthy reds persuade you otherwise.\n\nlol!\n\nBtw, how do I join the other hub?",
+				"added": 1470859573
+			},
+			{
+				"comment_id": 109,
+				"body": "> [quadrangle](#comment_25_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N): The list of users seems to include all the hubs and then if you accidentally follow a red it infects your client and forces you to become a host for the red army so you can then see all of their posts and talk to them.\n\nIf they bite then you can become infected. There is no known cure.",
+				"added": 1470863013
+			},
+			{
+				"comment_id": 110,
+				"body": "We should summarise the bugs we are having and then put them in the ZeroMe thread on the ZeroBoard, so nofish will find it easier to look at the bug reports.\n\nMy first issue:\n\nIt appears that once you join a hub, you cannot visit other hubs. When I try to, I get the following message:\n\n\"Please use ZeroMe to browse profiles on this page. \"\n\nBut I do not see anyplace on ZeroMe where I can use my profile to visit another Hub. Any ideas?\n\nAlso markdown images not working, unless that is on nofish's planned features.\n\n",
+				"added": 1470864061
+			},
+			{
+				"comment_id": 111,
+				"body": "Another bug(?) report:\n\nCan't find any button so that I can reply to someones reply to my original post.\n\nAlso, sometimes when I reply to someones original post, I can't find a submit button. I have to press Enter on the keyboard. The message disappeared. Didn't find the message until much later. Originally I thought it just disappeared forever.\n\nI also think that replies can be made to look more distinct from the original post. I know that the replies are in slightly smaller text and the avatars don't appear, but I think they could use a slightly different shading box and a different indentation like FaceBook, to make it absolutely clear that its a reply. A bit like this:\n\nhttps://timenerdworld.files.wordpress.com/2013/05/facebookcomments.png",
+				"added": 1470864729
+			},
+			{
+				"comment_id": 112,
+				"body": "A strange bug. I tried to change my name on my ZeroMe profile but got different results depending on the browser. I had a strange error which prevented me from changing the name on FireFox:\n\nFireFox:\nhttp://pho.to/AFb0r\n\n\nBut I was able to change the name without any issues on the Chrome browser:\nChrome:\nhttp://pho.to/AFb17\n\nThe addons I was using for Firefox are:\n\nAdblock Plus\nAll In One Sidebar\nFEBE\nFlashGot\nNoScript\nMy Jdownloader addon\nS3 Google Translator\nScrapbook\nVideo Download helper",
+				"added": 1470865993
+			}
+		],
+		"11_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": [
+			{
+				"comment_id": 104,
+				"body": "I had the same \"Connection with UiServer Websocket was lost. Reconnecting... \" message and Zeronet also stopped working. But after some time I refreshed it and it was working. I checked the update and it was the new version. I also had Tor setup just like you.",
+				"added": 1470857121
+			}
+		],
+		"18_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 107,
+				"body": "> [ks](#comment_155_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx): Try to insert this in your blog:\n> [![Morning Dew](https://img.youtube.com/vi/bUcszN8jRB8/0.jpg)](https://youtu.be/bUcszN8jRB8)\n> PS: You can always look inside another user's data directory on your own computer if you want to see the page source.\n\nThanks. is there anyway to have an embedded video player within the actual post with controls? Was the code you gave me HTML5?",
+				"added": 1470860305
+			},
+			{
+				"comment_id": 108,
+				"body": "> [ks](#comment_156_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx): I'm afraid I don't know…\n> \n> Nope, it was two nested markdown tags. The syntax for a markdown link is\n> [Link text](http://example.com/ \"Tool tip\"]\n> To insert an image you put a ! in front of the markdown tag. Now you should be able to decode how the nested markdown tags is working.\n\nI appreciate the help.\n\nAs you mentioned markdown, I quickly googled it and found a markdown cheatsheet :)\n\nShould help me with my blog\n\nhttps://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
+				"added": 1470862403
+			},
+			{
+				"comment_id": 113,
+				"body": "> [teszt](#comment_24_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC): You can insert images(internal or external) without problems in your own blogs but not in the comment.\n\n\nI managed to figure it out.\n\nSyntax is:\n\n![alt text](http://127.0.0.1:43110/zeronetsiteaddress/img/featured.jpg \"random\") < I put \"random\" as the caption but it disappeared on this board)\n\nWould there be a way to embed PDF objects?",
+				"added": 1470922818
+			},
+			{
+				"comment_id": 114,
+				"body": "Can you tell me whether the PDF on my test site works? \n\nhttp://127.0.0.1:43110/15eqKjfTfECvBGt2fUemQfcn6NMV37t6WT/",
+				"added": 1470924154
+			},
+			{
+				"comment_id": 115,
+				"body": "Update. PDF's work now. Markdown is like this:\n\n[Riffle Secure Anonymous Tor Alternative](riffle.pdf)\n\n[Riffle Secure Anonymous Tor Alternative] (riffle.pdf)  (<space addedbetween square brackets and the brackets to stop this forum coding the markdown. In reality there is no space).",
+				"added": 1470928048
+			}
+		],
+		"1_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF": [
+			{
+				"comment_id": 116,
+				"body": "> [starcodesys](#comment_4_1Dj5WCaPV2r18QcDQFHmyx2HnGmwMJce9b): Well, here they come. These fucking people never rest. This request for blacklisting and such, can be compared to the FBI asking Apple for a backdoor into this one phone, and that's all it will take. Remember, they use such things like the Hegelian dialectic, Problem-Reaction-Solution. Give them a few months to find a way to create the problem on Zeronet, then when \"we\" react for a \"solution\" to the \"problem\", they come with the already made Solution, and they get exactly what they wanted, even though we told them \"NO!!\" already. Those little fuckers...\n\nYeah, and all the talk about Child Porn is a red herring because 99% of ZeroNet users have not even seen it on ZeroNet. The other 1% only found it because they went actively searching for it.\n\nThat's the same with with the normal clearnet. But I don't see someone complaining about that. We need to guard against any attempts to make ZeroNet have blacklists, since we cannot agree upon a single definition of what is unacceptable. And ZeroNet was made to give a voice to those who find their voices censored by these fascists, who would love to take all of our rights to express dissent and even force us to pay for things which we should get for free.",
+				"added": 1471027509
+			}
+		],
+		"1_1B6K3CdEdkDqn2vbe4sURDAGMV1xeFpf3t": [
+			{
+				"comment_id": 117,
+				"body": "im sure i made a comment in this thread earlier but somehow it never appeared",
+				"added": 1471057413
+			},
+			{
+				"comment_id": 120,
+				"body": "> [testingzeronet12](#comment_117_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): im sure i made a comment in this thread earlier but somehow it never appeared\n\nactually found it. it was in another thread. my bad",
+				"added": 1471058291
+			},
+			{
+				"comment_id": 121,
+				"body": "Maelstrom is underdeveloped compared to ZeroNet. I could not even figure out where to download sites from (sites come packaged in files).",
+				"added": 1471066983
+			},
+			{
+				"comment_id": 123,
+				"body": "> [gdfsgsdfg](#comment_2_1B6K3CdEdkDqn2vbe4sURDAGMV1xeFpf3t): I found the download file while surfing on the phone, i downloaded it and then transferred to my pc.  I think Maelstrom concept is good.  \\I still have questions about Zeronet though and wish that I could get answers.  I don't know how to upload a website, or mirror a website or any of that.. \n> What would be cool is an answer and a way to do it so that I don't just throw up my hands and say \"forget it\".\n\nHow to make a ZeroNet site:\nhttps://www.youtube.com/watch?v=D-x9Ob7kktE&index=4&list=PLgFqcJDOq2q5orC1U4IvDBMpjezKt-X4E",
+				"added": 1471106786
+			},
+			{
+				"comment_id": 124,
+				"body": "> [sirenyc](#comment_51_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): It should have an easier way to be able to create websites. Not everyone has easily codes.\n\nI agree. A CMS system like Wordpress would be great if it was a standard tool included with ZeroNet. This would make the creation of visually spectacular websites easy to do even for non-coders. This will really boost ZeroNet uptake IMHO. Nofish himself said in the Decentralised Web Summit that the thing he wants most is people to start creating websites and contributing to the ecosystem:\n\nhttps://www.youtube.com/watch?v=PfWgin3JlAU&feature=youtu.be&t=11002",
+				"added": 1471109231
+			}
+		],
+		"5_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 118,
+				"body": "I think once a few Torrent site owners decide they want to stay alive by moving over to Decentralised websites, we will see a flood of developmental expertise coming into ZeroNet. I already read about some Gambling site owner who has a part time programmer working on a ZeroNet website. Once the big guys see ZeroNet's potential, we will see them sponsor a lot of talent to make professional websites and services for ZeroNet.\n\nIn the meantime I think the default ZeroNet blog could do with some type of WordPress admin interface with customisations and themes being configurable. That would do a lot to bring exciting content to ZeroNet. The blog also needs one-click media support. Right now we have to use markdown language, which is simple, but will turn off casual users.",
+				"added": 1471057766
+			}
+		],
+		"2_1JHrskNwA3oo9gxvCbo3Q1RZTUuKCDdfUa": [
+			{
+				"comment_id": 122,
+				"body": "Use a relative URL. So instead of http://randomblog.com/sitedata/blog/index.html, just type in /sitedata/blog/index.html",
+				"added": 1471067196
+			}
+		],
+		"20_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 126,
+				"body": "> [deafboy](#comment_34_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa): As a new bitcoin user, avoid brain wallets. They may seem simple, but it's easy to make a mistake while spending from it.\n> If you have a smartphone, use that as your wallet. Some good Android wallets:Bitcoin Wallet - Completely decentralized SPV wallet that communicates in the P2P network to check incoming payments and broadcast outgoing payments. I'm using it for basic daily expenses.Mycelium - Payments and balance checks are done by a central server, but you're still in complete control of your private keys. It can work with trust zone on some ARM phones and supports Trezor and Ledger hardware wallets via USB cable.Copay - Multi-signature wallet. You can share a wallet with someone, or use it as 2FA. It relays on BitPay servers, but as with Mycelium you're in control of your private keys.\n> For iPhone:Breadwallet - Not an iPhone user myself, so I can't tell you much, but AFAIK it's also an SPV wallet and you're in control of the private keys.\n> Most wallets will ask you to make a backup right away. Please do not ignore it and make a backup. It will save your ass when you least expect it. In case of Mycelium, it will give you a 12 word seed. Write it down on a piece of paper. Bitcoin Wallet (by Andreas Schildbach) will give you password-protected file. Use a good password and copy it to some place other than your phone. Not sure about Copay or Breadwallet but the process should be similar.\n> BE CAREFULL WITH APPLE APPSTORE. THERE HAS BEEN SEVERAL CASES OF FAKE BITCOIN WALLETS REPORTED LATELY. More info on r/bitcoin\n\nMuch appreciated. Do any of them ask for ID verification or phone verification?",
+				"added": 1471229177
+			}
+		],
+		"1_1FCqLq42pcBRtdUQXfKghRxhtsMKVfrDmW": [
+			{
+				"comment_id": 128,
+				"body": "> [klauszimmermann](#comment_44_15QGRquMETTn5LnCHjTm1qa9eaXGtq7gpT): I believe that ZeroMail has largely replaced its functionality in a better way, since it's also built on top of the excellent ZeroNet network.\n\nDoes it fully replace its functionality though? Because BitMessage sends the data to all nodes and then sends it to the recipient. This ensures there is no metadata trail linking one a senders account to a recipients. Is that the case with ZeroMail? I am not quite sure how the architecture works, if someone doesn't mind explaining it.",
+				"added": 1471780802
+			},
+			{
+				"comment_id": 130,
+				"body": "> [nofish](#comment_737_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): ZeroMail works similar, but the main difference is it's using zeroid identities instead of PoW, so it's leaves more metadata. Because of that zeromail is not a replacement and bitmessage still more secure. (it could be possible to implement pow based files in zeronet, but i'm not big fan of pow)\n\nThanks for the clarification. Yes, it would be great if a system similar to BitMessage can be implemented.",
+				"added": 1471790769
+			}
+		],
+		"22_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 129,
+				"body": "> [nofish](#comment_736_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It using ECIES for key-exchange and AES for message encryption. You can simply clone it using the zerohello homepage.\n\nThanks for the reply. Do you have a more detailed documentation and which AES cipher does it use? 256Bits? I would like to see if ZeroMail is a viable alternative to BitMessage.",
+				"added": 1471790691
+			}
+		],
+		"1_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV": [
+			{
+				"comment_id": 131,
+				"body": "Did you implement optional files? if so, how did you do so?",
+				"added": 1472265988
+			},
+			{
+				"comment_id": 134,
+				"body": "> [mynameislegion](#comment_8_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV): You can look at the content.json - I added the below line to content.json and then signed and published, what automatically generated a long list of all the (optional) files from the folders:\n> <code>\"optional\" : \"(folder/subfolder/.*)\",</code>\n\nThanks. On which line number should I add that piece of code?",
+				"added": 1472343356
+			},
+			{
+				"comment_id": 135,
+				"body": "> [mynameislegion](#comment_12_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV): I don't think the line number does really matter, but have a look at the content.json file in the site above and scroll down to the very bottom, you will see this line there.\n\nThe lines with optional that I see are:\n\n \"files_optional\": {\n  \"SIDtoday/data/0001.pdf\": {\n   \"sha512\": \"bbc311bb92e0b5dc474036edc0eeee9ebeb3821e0741cf181252a808a83d5942\",\n   \"size\": 29937\n\nand\n\n\"optional\": \"(EquationGroup/data/.*|SnowdenLeaks/.*|SIDtoday/.*)\",",
+				"added": 1472352839
+			}
+		],
+		"4_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": [
+			{
+				"comment_id": 132,
+				"body": "> [kaffie](#comment_174_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): Move to a different hub that has a raised limit, like KaffieHub or InfinityHub. I saw this issue coming from a mile away, which is why I made my own hub. I set the limit to something absurd for the moment, like 10mb. I'll likely raise it in the future as well.\n> Edit: Guide on how to do this.\n\nHave you written a guide on how to create your own hub?",
+				"added": 1472266133
+			}
+		],
+		"1_1FVwrkrpwe2DPu6Q4qpPRks2aAfRQ43DEC": [
+			{
+				"comment_id": 133,
+				"body": "> [bloxx](#comment_1_1FVwrkrpwe2DPu6Q4qpPRks2aAfRQ43DEC): I see thanks.. This would be great for a mesh net.\n\nYes I think ZeroNet could work great as a Meshnet. Even within companies as LAN, it could do things such as an Intranet or a Bulletin Board for staff.",
+				"added": 1472311998
+			}
+		],
+		"3_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": [
+			{
+				"comment_id": 136,
+				"body": "Getting this message after I accept the merger feature:\n\n\nInternal error: InterfaceError: Error binding parameter 6 - probably unsupported type.\nUiWebsocket.py line 98 > UiWebsocket.py line 179 > MergerSitePlugin.py line 165 > SiteStorage.py line 121 > Db.py line 317 > DbCursor.py line 49",
+				"added": 1472763662
+			}
+		]
+	},
+	"comment_vote": {
+		"1_137B9s9bHhdvKuMYxHxJQ1ovrEK1vTDUMu": 1,
+		"168_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"2_1AK1hfaXrnxZL8wPJ5x47HuGCM8BXRFUS4": 1,
+		"7_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"6_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"122_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": 1,
+		"8_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"9_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"1_19wHyK5qpV9YVMiB9PUL3dMsqoJ6KLvZts": 1,
+		"1_1DufnpSCVSx1FATe6bkZFx7SzNx1F2n6Xx": 1,
+		"46_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1,
+		"47_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1,
+		"53_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1,
+		"675_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"8_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT": 1,
+		"17_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": 1,
+		"164_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"9_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"166_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"1_17QMibofHDggM5fwjHtGfupWdDMx7apjTf": 1,
+		"172_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"112_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r": 1,
+		"6_1DyHtc8AMKrqjEja7Bi8rQ1hfcc3fTwsSw": 1,
+		"691_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"94_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"95_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"3_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU": 1,
+		"6_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU": 1,
+		"7_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU": 1,
+		"38_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"41_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"42_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"14_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU": 1,
+		"47_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"1_1NmzR8zVrREdwoKizjkHfka1n9TLQxooxx": 1,
+		"16_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU": 1,
+		"56_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"53_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"52_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"51_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"54_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"57_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"16_15ATNsS6aHGvBg5xoMP94sXpNaLX4fSHjN": 1,
+		"58_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"26_1DWrKbEomgBLHjczm1HkP556Vg68ewDmyd": 1,
+		"121_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"122_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"10_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"11_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"3_13t2ME4cTtkxrwPeugeZgdJF5Kg7C5CSEy": 1,
+		"17_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"6_13t2ME4cTtkxrwPeugeZgdJF5Kg7C5CSEy": 1,
+		"7_13t2ME4cTtkxrwPeugeZgdJF5Kg7C5CSEy": 1,
+		"1_112GGMvUJbBTCtQu8UUSYpo8UjLdo1B73n": 1,
+		"8_13t2ME4cTtkxrwPeugeZgdJF5Kg7C5CSEy": 1,
+		"124_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"18_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"19_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"125_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"1_13zDA1QLNorSNQRyEN2boe4r9TCc81atQV": 1,
+		"16_13t2ME4cTtkxrwPeugeZgdJF5Kg7C5CSEy": 1,
+		"26_13t2ME4cTtkxrwPeugeZgdJF5Kg7C5CSEy": 1,
+		"2_1MVn3Y79sstGEdUDk1SmJSTfsUoaDNvSso": 1,
+		"1_1ASdoF7uKU9nMNgPPc1UFkyDAZsfkNcHCF": 1,
+		"2_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"1_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"10_112GGMvUJbBTCtQu8UUSYpo8UjLdo1B73n": 1,
+		"12_112GGMvUJbBTCtQu8UUSYpo8UjLdo1B73n": 1,
+		"7_1674XymFPbmAXh78xEpt3Pehtko6i2kvtA": 1,
+		"147_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"8_1K9bJ8uijgvt5B3YfzPv2HqVx6kNDoEqtM": 1,
+		"4_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"5_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"4_1KnFgYp6rbz2VLe4H7RW36J8ChSqHSbxLn": 1,
+		"7_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"3_1K9bJ8uijgvt5B3YfzPv2HqVx6kNDoEqtM": 1,
+		"11_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"12_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"13_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"9_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"14_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"15_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"84_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"16_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"9_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF": 1,
+		"4_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"144_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"7_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"1_1AjJqGb8AmPfgD62kEBBtqhg2hYDW5zner": 1,
+		"8_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"19_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"20_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"1_14J8mC3K7k5Ygx22uu9LUzGWnBoDAQdyDo": 1,
+		"23_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"2_1MZ697S3uwCpZD4zSq51NHJDrj7CWxsmd3": 1,
+		"5_1GzGCc4PYVgD3XqQV3tpT8ow6bWGySa25a": 1,
+		"114_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"1_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": 1,
+		"1_15zYrGJKfXo6XXU6rBUsuU3cTgpJkDuQYA": 1,
+		"118_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"89_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"119_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"1_1DW9EhqZ7rndNKZTPbdxsttBU1jGtT2soT": 1,
+		"1_1Gqh9qpQKhfKz9H4VYsyZSjfqavCYbCG4C": 1,
+		"19_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF": 1,
+		"21_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF": 1,
+		"8_12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu": 1,
+		"10_12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu": 1,
+		"2_1DW9EhqZ7rndNKZTPbdxsttBU1jGtT2soT": 1,
+		"11_12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu": 1,
+		"4_1DW9EhqZ7rndNKZTPbdxsttBU1jGtT2soT": 1,
+		"1_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi": 1,
+		"1_1JYAaUBXsh3DrN8UZHz4suAUVXzV3X15QL": 1,
+		"17_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"5_1DW9EhqZ7rndNKZTPbdxsttBU1jGtT2soT": 1,
+		"20_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"21_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": 1,
+		"23_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"27_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"8_164W1rFVD9Bm7poGJWvjVUjvkbhhFC5nnt": 1,
+		"24_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"125_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"16_12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu": 1,
+		"187_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_1M2gZSNe4Z28mxRsd8uvNVHT99xkZq4qwL": 1,
+		"154_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"5_1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1": 1,
+		"9_164W1rFVD9Bm7poGJWvjVUjvkbhhFC5nnt": 1,
+		"22_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": 1,
+		"35_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"8_1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1": 1,
+		"714_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"2_13Mt8T2256Uz4GHk9B4XvKqyz37wPgA26q": 1,
+		"717_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"40_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"22_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"155_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"43_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"156_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"45_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"25_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"26_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"720_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"721_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"11_1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1": 1,
+		"22_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": 1,
+		"24_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": 1,
+		"23_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": 1,
+		"25_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": 1,
+		"25_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": 1,
+		"88_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"10_17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F": 1,
+		"2_1HvZzixBMnPehyouwx83zNYK3E97MrUVxS": 1,
+		"3_13WWWFi6iuSLazDcNvHgBEjjeAofAhAwtE": 1,
+		"4_1Dj5WCaPV2r18QcDQFHmyx2HnGmwMJce9b": 1,
+		"5_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": 1,
+		"33_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": 1,
+		"2_1B6K3CdEdkDqn2vbe4sURDAGMV1xeFpf3t": 1,
+		"3_1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1": 1,
+		"51_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"1_1F1zfoai6i629oFmUa6EyQyQR8Atj7XjnV": 1,
+		"1_1FPzL4N6zBuQg72JRKx6f2XqxKMeQwXXn": 1,
+		"34_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa": 1,
+		"1_1APbko6uK9fwwZoqB5LKgFeqWdF3SDLw4k": 1,
+		"157_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"35_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa": 1,
+		"43_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"2_1EaAei3tVwpGJnFGHu7riuSfKhg6QUCip6": 1,
+		"732_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"161_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"44_15QGRquMETTn5LnCHjTm1qa9eaXGtq7gpT": 1,
+		"736_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"737_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"742_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"8_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV": 1,
+		"739_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"13_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV": 1,
+		"1_1HXv2c6awyWdtUb8SeP7bWViMHcvxdV82X": 1,
+		"7_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"2_18Sh2Z83C23xdd6pjCq6NGv7Y6svEBcUfb": 1
+	}
+}

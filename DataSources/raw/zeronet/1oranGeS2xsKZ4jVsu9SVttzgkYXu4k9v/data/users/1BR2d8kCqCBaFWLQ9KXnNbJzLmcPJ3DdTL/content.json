@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HGOXzINmh/6di/u2OU/WuAw0bfnklPjJ5Sxn5FIRJAsHllezIYGCUkEJe40JorYQAV7kMZM30cGS0Q2iWcl6eiY=",
+ "cert_user_id": "varakin@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "ef4ac6c5b412a728c9f3b3bcf0e2bd7bc48c454c7899f05c665944eee284bab5",
+   "size": 1622
+  },
+  "data.json": {
+   "sha512": "a72d12571cccecf55c186a332f1a20bcd0272d31441c34c2f38c270809793552",
+   "size": 340
+  }
+ },
+ "inner_path": "data/users/1BR2d8kCqCBaFWLQ9KXnNbJzLmcPJ3DdTL/content.json",
+ "modified": 1494196330,
+ "signs": {
+  "1BR2d8kCqCBaFWLQ9KXnNbJzLmcPJ3DdTL": "G2nqiVPDW78vjTwe00ZXX88gZo5ilfNNMer8zNWdgLsiRUvG3zGzUEInvfNp94D//oo2qu4HJas4QEiK7xCTL+U="
+ }
+}

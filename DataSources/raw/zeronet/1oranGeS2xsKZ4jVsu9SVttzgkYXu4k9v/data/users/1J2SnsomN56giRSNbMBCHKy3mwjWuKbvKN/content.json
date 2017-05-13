@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G1jDtIQitvtCd8FWIKgRxRJCXsiddV6GHZRY0EZTpldEguqWytmUf3he6a5GG7Nm3DvNb/uOrnLuXflfajdvCaA=",
+ "cert_user_id": "miraikuna@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "f40ee30eb797b2a642af5a757d32df51a0f9bd409314e295c1c686ee50a4c14d",
+   "size": 960
+  },
+  "data.json": {
+   "sha512": "933f511e4da7127cb5c760b5e059efca6a42cf5fbe2d4f7ab25f0f7a8403ee73",
+   "size": 428
+  }
+ },
+ "inner_path": "data/users/1J2SnsomN56giRSNbMBCHKy3mwjWuKbvKN/content.json",
+ "modified": 1481447559.589,
+ "signs": {
+  "1J2SnsomN56giRSNbMBCHKy3mwjWuKbvKN": "HKaVCFQylcITqCcL5CN9SRf5DnISnET4eGIb+rrUZI6pq38guUE8ovTn3YkH9ZdRQrrx1Z/IaQ5S1hwin2URCqY="
+ }
+}

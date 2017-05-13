@@ -1,0 +1,31 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Discosteffen",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1482865136,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1484256809,
+			"body": "http://127.0.0.1:43110/1A2s7kzozfM7ba98nUmfY9Dv6eGEUXwcLG/?Post:53",
+			"date_added": 1484256807
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Eibriel: Howdy, still trying to figure this all out! ",
+			"post_uri": "138HA5KMEVdxFcMfxPj8fJFBH42fEDYrBJ_1",
+			"date_added": 1483017705
+		}
+	],
+	"follow": []
+}

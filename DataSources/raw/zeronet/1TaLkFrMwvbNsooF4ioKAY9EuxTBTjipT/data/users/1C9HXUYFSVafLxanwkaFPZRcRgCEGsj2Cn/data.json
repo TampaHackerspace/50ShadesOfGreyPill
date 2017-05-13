@@ -1,0 +1,76 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "As the Web's inventor flirts with disaster, Boston artists are putting out a call: March with us this Saturday",
+			"body": "https://defectivebydesign.org/blog/webs_inventor_flirts_disaster_boston_artists_are_putting_out_call_march_us_saturday\n\nPlease go if you can, this affects all of us.\n\nEDIT:  \nI just responded to someone on reddit and realized some of you might have the same question. Their comment:\n\nHonestly asking for some insight here...\n\nI'm somebody who thinks DRM is a huge train wreck of a mess which doesn't actually protect anybody, but I'm not sure how media providers using copy-protection layers undermines the internet. Sure, things you purchase as a digital asset should be yours and not subject to restriction by their originator. Unlicensed distribution is something of a thorny issue, but when we're talking about defending rights it's far better to defend individual rights than corporate ones.\n\nBut where I fail to understand the argument is why services like Netflix are being targeted here. If you have Netflix, you don't own any of that content. Services like these have been challenging the traditional models of film production and distribution which is something I see as not only good, but practically godsends for independent filmmaking which is just recently receiving the recognition they deserve. It feels like since these services depend on being able to restrict how their content is displayed, there are people who would rather throw the baby out with the bathwater, and I just don't understand why. \n\n**My response:**\n\nThe problem here is not the protection, that will never be. *DRM doesn't work*, anything you can see on your pc can be copied. No, the problem is in law and how it threats DRM.\n\nCopyright law makes things fall into the public domain after 50 years (not sure if after death of author or after the thing is released), but *DRM is infinite*. Trying to *circumvent DRM is illegal*, so even if you want to *download a video under public domain, fair use, news reporting, and others you can't.*\n\nThe problem is it won't help against piracy, it will just *take away rights for legitimate uses* and gives them to content distributors.\n\nBasically:  \n*\"You want to use this important video/picture in your content under fair use? Too bad, it doesn't promote enough capitalistic values!\"*",
+			"added": 1494383201
+		}
+	],
+	"topic_vote": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"12114_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"12142_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"1_15dMbdM7c2RT9RhNTJRqzc4vYSvrSJvxyG": 1,
+		"12139_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"2_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"12156_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"12175_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"12193_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1
+	},
+	"next_comment_id": 8,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "Hello\n*does* **formatting** [work?](https://duckduckgo.com/)\nEdit: Yay! ^-^",
+				"added": 1494051883
+			},
+			{
+				"comment_id": 2,
+				"body": "[>>snail225](#comment_1_1C9HXUYFSVafLxanwkaFPZRcRgCEGsj2Cn)\n\nTest reply.",
+				"added": 1494052040
+			},
+			{
+				"comment_id": 3,
+				"body": "> [gonzo](#comment_2_1KuiNk16ujSGfnfLgF7hQDHoMo6PivJMLC): HTML formatting?\n\nNo, use markdown. If you've ever been on reddit then it's almost the same, if not:\n\n* [Markdown example on Wikipedia](https://en.wikipedia.org/wiki/Markdown#Example)\n* [Markdown Basics by the original creator](https://daringfireball.net/projects/markdown/basics)\n* Edit: [I realized ZeroWiki has a page about it too.](http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:markdown)\n\nBut not all implementations are the same, some things may work differently or not at all, just use this thread to test what you can and cannot do.",
+				"added": 1494173406
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 4,
+				"body": "Hi, I don't know if cookies go through ZeroNet UI or directly into the browser but could it be possible to have them synchronized across devices? Or at least ZeroHello favorites? (I have ZeroNet running on my server and port forwarding the remote 127.0.0.1:43110 to local 127.0.0.1:43110 through ssh if that helps)",
+				"added": 1494254403
+			},
+			{
+				"comment_id": 5,
+				"body": "> [nofish](#comment_915_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Right now it's saved to your browser's localstorage, so it's not synced between devices, but it would be a good idea.\n\nOh, ok. I guess I'll just leave it be since I use non-matching browsers so manual sync would be complicated (if possible). Thanks.",
+				"added": 1494263866
+			},
+			{
+				"comment_id": 6,
+				"body": "Hi, sorry if I'm on the wrong place but idk where to give feedback.\n\nSo I just made [this](/Talk.ZeroNetwork.bit/?Topic:1_1C9HXUYFSVafLxanwkaFPZRcRgCEGsj2Cn) post and it has a lot of text. The thing is that the 0px margin on the paragraph makes it a really hard to read wall of text. My request is if you could make the gap at least a bit bigger please.",
+				"added": 1494387259
+			},
+			{
+				"comment_id": 7,
+				"body": "> [border0464fred](#comment_160_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): Hi, issues regarding zeroblog can submited here: https://github.com/HelloZeroNet/ZeroBlog/issues [...]\n\nI just tried the 2 empty lines and nothing, that's because in markdown any number of empty lines acts as a separator between paragraphs. The parsing is done right, but in `all.css` there is:\n\n    .topic .body p {margin: 0px;}\n\nmaking the paragraphs (those in the body of the topic) squished together. While this may be intentional (I don't see why else this very specific line would be in the css) it takes away the important ability to space text in topics.\n\nAnyway, thanks for the github link, I'll submit the issue tomorrow.",
+				"added": 1494473011
+			}
+		]
+	},
+	"comment_vote": {
+		"1_1C9HXUYFSVafLxanwkaFPZRcRgCEGsj2Cn": 1,
+		"2_1C9HXUYFSVafLxanwkaFPZRcRgCEGsj2Cn": 1,
+		"292_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"86_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y": 1,
+		"298_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"915_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"916_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"160_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1
+	}
+}

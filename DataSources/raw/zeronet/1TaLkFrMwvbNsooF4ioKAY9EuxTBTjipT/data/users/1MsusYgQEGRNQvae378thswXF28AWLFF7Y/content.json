@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HIS8eNXyrfos5r+djtKeij5h1PE5pDmOqhezNf9y5jeiaesZKcZ4DFVy5/w5lSJE/H+X+SR4fW6fsKO7ltCKkks=",
+ "cert_user_id": "czech@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "2567c367bb28e37236531c8e840538d8daf140ec932b8b195c49644735da3219",
+   "size": 348
+  }
+ },
+ "inner_path": "data/users/1MsusYgQEGRNQvae378thswXF28AWLFF7Y/content.json",
+ "modified": 1493817610,
+ "signs": {
+  "1MsusYgQEGRNQvae378thswXF28AWLFF7Y": "GyzaCoKXoQAuh8989+ae7lVh8DGpRuk/nh6frvkD4nsYNgxO8upAPD29vVXibb8O8huqcZbJsjl23Gu/iZPYoAk="
+ }
+}

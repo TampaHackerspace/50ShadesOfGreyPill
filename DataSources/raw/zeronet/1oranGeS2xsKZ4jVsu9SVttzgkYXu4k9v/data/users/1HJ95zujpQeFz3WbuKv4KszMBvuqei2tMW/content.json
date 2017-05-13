@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GzVHPaWNy6GEsJB/bTfbMhFm4sSjYxoekgmOv3eHX5+x4Huybjl+HYPIhdaDb1loFs0XN28LO+4iD6N7hFCWHdU=",
+ "cert_user_id": "lawyer@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "6dbe594d83f8718b8e9f61df573605a32aec222e7fcde4dc793f24e97fd828ec",
+   "size": 2087
+  }
+ },
+ "inner_path": "data/users/1HJ95zujpQeFz3WbuKv4KszMBvuqei2tMW/content.json",
+ "modified": 1493476785,
+ "signs": {
+  "1HJ95zujpQeFz3WbuKv4KszMBvuqei2tMW": "G8Ho6o5miN6ABi2NoRRGjckDbo+6JSNle7cQ1Vtkdt/Astvw+O/iu+FulPJImGLHkid3HkpzUjY4Z5wMvr5gaBM="
+ }
+}

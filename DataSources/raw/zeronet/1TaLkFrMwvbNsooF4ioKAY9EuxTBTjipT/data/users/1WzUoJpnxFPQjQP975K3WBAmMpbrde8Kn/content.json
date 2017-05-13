@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G9EcvD2n81b0L0BRXBobKIrQ3bLtpAWmGqXWyPs3t9HweCEerya6y2X+8VgplCbkaRussAa11M5twWPzib+luFw=",
+ "cert_user_id": "zeroleaks@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "95b242f1f8b24000daebe1ebca36fadb5605a1c5a8d79dae7faffd6e3f6aee5a",
+   "size": 541
+  }
+ },
+ "inner_path": "data/users/1WzUoJpnxFPQjQP975K3WBAmMpbrde8Kn/content.json",
+ "modified": 1481286948.558875,
+ "signs": {
+  "1WzUoJpnxFPQjQP975K3WBAmMpbrde8Kn": "G3h5qFSV3tct9A0ITF58w2x63GB1oomo7nNAs97lHmBZBI14kp78LaX3eqqtUv6GAvAxSRorT4Y6a2kx46sZXHg="
+ }
+}

@@ -1,0 +1,36 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 1,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Shurandel",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Just a random guy",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1486241103,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"17Zq9PnZssnzBceKDLgSxemJyEtWM5mGbG_1486045305": 1486334560
+	},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18a6gNwuyrSufgW76tsgCtyHfJRmqmqnak",
+			"user_name": "Dork",
+			"date_added": 1486334590
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17VVNL4EzWGK5UBVQakDK8EjSTmZk1KWhX",
+			"user_name": "Unixy",
+			"date_added": 1486334674
+		}
+	]
+}

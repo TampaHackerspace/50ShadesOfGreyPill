@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G8nZCvMyyDp0Zl4hvHXsh9q5jZi/sHP3SUAvtNkbWK4Il0iH2Uj7iRPuvLkhayaX8gl1O+aZ/OCIllYh4mxdK0A=",
+ "cert_user_id": "tetrapod@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d225482c16ddca53e8fda792427f9e25bc2e5701253d5bfa1ca971d4637c0951",
+   "size": 582
+  }
+ },
+ "inner_path": "data/users/1EfYeykSZcHNjjszE5BiZy7iMMja7CMDrE/content.json",
+ "modified": 1489652045,
+ "signs": {
+  "1EfYeykSZcHNjjszE5BiZy7iMMja7CMDrE": "HJAYIU2yVQQjqSGX7q1r9PJnXy9P9HBOP57kAsSwRgYaoM1ewQN+LhrMBBzY4Ie//Nvn4HTcjBx/g5Ar/2FL1yM="
+ }
+}

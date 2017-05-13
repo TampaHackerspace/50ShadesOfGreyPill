@@ -1,0 +1,57 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 4,
+	"avatar": "generate",
+	"user_name": "Ape",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1479881164,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1479883610,
+			"body": "#PrayForHarambe",
+			"date_added": 1479883608,
+			"meta": "{\"img\":\"700,700,985a96ba8975764cb9763743cca431974c95ddc642842853,0122211131122210304025553670302558696A1128880348222882BAAC22258AAA7C2215012BD52212622ED21212601F7201\"}"
+		}
+	],
+	"post_like": {
+		"1HXoDtFYxm7JEgUastYaa4pFezhCzEm9ZX_1479883610": 1479883736,
+		"1PvuGiBLtiNdaAUU2yTYDRmxsrB2XGaSxR_1479867780": 1479883744
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "How many cheesecake I got today: ZERO",
+			"post_uri": "1PvuGiBLtiNdaAUU2yTYDRmxsrB2XGaSxR_1479867780",
+			"date_added": 1479883771
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1K68pnhE33DCxLeAhDPPYZ8WpRv2uHPiB5",
+			"user_name": "Mdox",
+			"date_added": 1479883650
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1HXoDtFYxm7JEgUastYaa4pFezhCzEm9ZX",
+			"user_name": "Ape",
+			"date_added": 1479883657
+		},
+		{
+			"follow_id": 3,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "191YUcBpkK35i9mzAJG66cubAXSxVLdrwS",
+			"user_name": "Bitstream",
+			"date_added": 1479883662
+		}
+	]
+}

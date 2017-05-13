@@ -1,0 +1,44 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"2_19dSnqd1GpiMTnuiD4n1tPasyKTDfNSFyz": 1
+	},
+	"next_comment_id": 6,
+	"comment": {
+		"1_1PoA7YxWVZKoXWoD1PjdwByFqqCA8d2uqr": [
+			{
+				"comment_id": 1,
+				"body": "> [tkarita](#comment_151_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): Where else could they be stored?  ZeroNet exists only on each device running its software.\n\nCould they be stored on the network, only encrypted? All you should really need is your private key.",
+				"added": 1473661458
+			},
+			{
+				"comment_id": 3,
+				"body": "> [kermit](#comment_2_1JtxPipMFzvBTQ8fwSeupUxfiVMbutBfhG): Simply allow the user to call a decentralized page that doesn't use the key, then user enters their key by copy-paste, then this page sends the key to the other decentralized machines on the network where the key is inspected to see if it is bona fide, if yes, then access is granted, if not, then nope.\n\nyou can't do that because then the other peers will have your key and they will impersonate you.",
+				"added": 1473748567
+			}
+		],
+		"1_18Sh2Z83C23xdd6pjCq6NGv7Y6svEBcUfb": [
+			{
+				"comment_id": 2,
+				"body": "> [whonix](#comment_2_1Psd8z6hvC62pEbVgtTAXbuM3PFPgz46tZ): If you want to copy your website over to ZeroNet, just create a symlink to connect your websites directory with your ZeroNet's website directory.\n\nlots of the web is dynamic content, which isn't designed as a decentralized application. For instance, Facebook has its own computers that put text from their databases into html before your browser gets it.\n\nIn the zeronet model, the content that you share with others will exist on your own computer and it would be encrypted to be visible only to the people you share it to.\n\nThis opens up a lot of opportunity to create new copies of old applications, just like the advent of smartphones.",
+				"added": 1473662340
+			}
+		],
+		"2_19dSnqd1GpiMTnuiD4n1tPasyKTDfNSFyz": [
+			{
+				"comment_id": 4,
+				"body": "I'm thinking of creating a trust-less tor-like courier system. Basically, participants would get together on a network and would forward a package between each other. Each user would lock up some cryptocurrency equal to the value of the package that would be returned to them + a fee when they get the package to the next user. The users would only need to know how to get packages to the next person.\n\nUsing this you can ship packages to a recipient without them disclosing their address to you and vice versa. If it became widely used, lots of cryptocurrency would get locked up, thus increasing scarcity and theoretically driving up the price.",
+				"added": 1473827859
+			},
+			{
+				"comment_id": 5,
+				"body": "> [smuntroleum](#comment_1_1BakVDD34KL36JkXRVgnNu6gQd9Yy6SJFJ): This sounds like a really interesting project.  However, I have to say that I am a bit skeptical about how successful it could be.  A peer-to-peer package delivery system would have to compete with existing package delivery systems like the post, FedEx, and sharing economy efforts like Uber and Roadie.  Outside of a very small set of people, nobody cares about privacy unless they want to do something illegal.  Shipping has huge economies of scale and nobody is going to pay more for shipping just because it is p2p.\n\n> [abs0lute](#comment_2_19dSnqd1GpiMTnuiD4n1tPasyKTDfNSFyz): Yes I had some similar idea but for communication to stay private over the network. Have you started working on this? Do you have some examples?\n\nI met someone in the desert who came up with the idea, they told me they didn't have time to work on it. It's just ideas at this point, I found zeronet while researching technologies to host it. I'm reading up on decentralized apps and smart contracts and am going to start prototyping as soon as I can figure out what I should build it in.\n\nBasically, whenever someone recieves a package, they would execute the contract that unlocks the previous node in the chain's funds and send them the fee from the original sender.\nI need to come up with a way to do peer selection well. Right now I'm thinking there will be a zeronet site for each country, and peers will register to accept packages over some timeframe. For example say over the next month, I will accept packages worth less than 1 btc and demand a fee of .125 btc. Then, a sender can log in and say they have a package worth 1btc and they want 3 hops and willing to pay fees of .125 btc each. The site will pick me and two other peers selected randomly. At this point the sender can send a zeronet link to the recipient so they can connect with the last node in the chain. We will have some time to accept and swap addresses. \n\nThen everyone locks up their coins in contracts with the original sender and the next node. The sender sends the package and if anything goes wrong with any of the nodes they forfeit the coins they locked up.",
+				"added": 1473925387
+			}
+		]
+	},
+	"comment_vote": {
+		"1_1FFaH9VJw8Nseafey9pbyhNNGsQyzDk6JJ": 1
+	}
+}

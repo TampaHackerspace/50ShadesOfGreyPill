@@ -1,0 +1,141 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Plans for extensive Government spying powers revealed in leaked report",
+			"body": "The UK Government is planning to force social media and internet companies to break encryption to help spies monitor communications, a leaked report has revealed.\nhttp://www.telegraph.co.uk/technology/2017/05/05/plans-extensive-government-spying-powers-revealed-leaked-report/",
+			"added": 1493998854,
+			"parent_topic_uri": "1_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG"
+		}
+	],
+	"topic_vote": {
+		"13_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"2_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw": 1,
+		"14_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"1_1PkZ7yY9mWov9ndHGG327hJSAEmfB5jj5": 1,
+		"1_1C9HXUYFSVafLxanwkaFPZRcRgCEGsj2Cn": 1
+	},
+	"next_comment_id": 21,
+	"comment": {
+		"1_19dfuqqdasCxD56Yn8KGcgcckbdkV9SZi4": [
+			{
+				"comment_id": 1,
+				"body": "> [13lucifer23](#comment_4_19dfuqqdasCxD56Yn8KGcgcckbdkV9SZi4): Imagine this scenario, two guys get swarmed by the FEDs, DreadPirate style, while their PCs are on, allowing the FEDs to extract their HDD encryption keys from RAM.\n\nEasy solution! Just press the power button for at least 4 seconds when the Feds visit you.",
+				"added": 1491465471
+			},
+			{
+				"comment_id": 2,
+				"body": "- Always use ZeroNet with \"Tor only\" enabled.\n- Always use the Tor browser for ZeroNet.\n- Do NOT use Windows.\n- Always use full HDD encryption.\n- Make sure you also encrypt your user account.\n- Always run ZeroNet inside a VeraCrypt container.\n- Use different long passwords for HDD encryption, user account encryption and VeraCrypt encryption.\n- Teach yourself how to press the power button.",
+				"added": 1491465734
+			}
+		],
+		"1_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": [
+			{
+				"comment_id": 3,
+				"body": "No, trolling and racism have not stopped in ZeroTalk. You don't see it because nofish has done a good job of blocking the worst offenders and moving posts to the Offtopic thread.\nYou can see the long list of banned users here, look under \"archived\":\nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/data/users/content.json\nThe offtopic thread is at:\nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topics:9_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/Offtopic",
+				"added": 1493114549
+			},
+			{
+				"comment_id": 4,
+				"body": "> [alaric](#comment_30_1HiyP7AD74uGuGBZLqhcmfQgwu5VC8nnYY): It'll never stop completely and I wouldn't expect it to, but it's decreased significantly compared to 3-4 months ago.\n\nIt has decreased only because nofish has banned many trolls and crazy users, currently there are 3,238 banned users (8.23% of all ZeroID users):\nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/data/users/content.json",
+				"added": 1493141126
+			},
+			{
+				"comment_id": 5,
+				"body": "> [border0464fred](#comment_137_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): BTW nofish posted  on Apr 19, 2017He is not dead, or maybe he have been replaced by a well advanced bot.( as long as the bot keep developing zeronet I don't care :p) [...]\n\nnofish is in Canada at the TED2017 conference and he will be back next week.",
+				"added": 1493141218
+			},
+			{
+				"comment_id": 6,
+				"body": "> [border0464fred](#comment_136_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): Fun fact, there is no censorship on zeronet. [...]\n\nThat is not entirely correct. A ZeroNet site owner is able to ban users and remove posts. A government can't censor a ZeroNet site without the help of the site owner.",
+				"added": 1493141529
+			},
+			{
+				"comment_id": 7,
+				"body": "> [border0464fred](#comment_140_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): I taught the TED have been canceled\n\nThe speech by Tamas (nofish) was canceled but the invitation to participate in the TED2017 conference was not.",
+				"added": 1493155156
+			},
+			{
+				"comment_id": 12,
+				"body": "> [border0464fred](#comment_146_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): 1491301186 is too long. I wanted to short it with something like i18n but it's already numbers. So now on ill call you 1eight6   lol\n\nIt's 4 characters shorter than your ZeroID... :-)",
+				"added": 1493502905
+			}
+		],
+		"1_1R67TfYzNkCnh89EFfGmXn5LMb4hXaMRQ": [
+			{
+				"comment_id": 8,
+				"body": "boot.zeronet.io is one of several Bittorrent trackers your ZeroNet client connects to at startup. The purpose is to find peers.\nIf you enable \"tor=always\" in ZeroNet and use the Tor browser your real IP address will never be exposed to other peers.",
+				"added": 1493326386
+			}
+		],
+		"1_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY": [
+			{
+				"comment_id": 9,
+				"body": "> [cablecat](#comment_3_1HxiFjyEUfLeqvXza7TqV1h4mpo167JnrL): Who can supply a download address other than the offical site. because I can't download from the RetroShare Offical Site form China, the link of amazon AWS is blocked by GOV.\n\nIf you are able to use the Tor browser from China I can give you an OnionShare link to the Retroshare software. Just let me know what operating system you are using.",
+				"added": 1493327074
+			},
+			{
+				"comment_id": 10,
+				"body": "> [akito](#comment_17_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY): If you want to be absolutely secure, then it is recommended to only use it with friends.[...]\n\nRetroShare should only be used with Tor, otherwise your IP is visible.",
+				"added": 1493456725
+			},
+			{
+				"comment_id": 13,
+				"body": "> [akito](#comment_23_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY): Nope. I use it with I2P and it's secure.\n\nI2P is of course secure, it's just easier to find peers willing to use Tor.",
+				"added": 1493503211
+			},
+			{
+				"comment_id": 15,
+				"body": "> [orien3242](#comment_3_12LJsN6FdsNkS8EfiDYFyoPqZUnEibBJvP): The only spamming they can do is DDOS IPs but there isn't much a stranger can do other than that from an retroshare certificate.  [...]\n\nYou can protect your IP by using Retroshare in Hidden Service mode, Tor and/or I2P.",
+				"added": 1494263825
+			},
+			{
+				"comment_id": 16,
+				"body": "<  akito: My retroshare key:\n\nAre you using Retroshare05? I am using Retroshare 06 and when I add your certificate I get the error message \"Not a valid Retroshare certificate!\"",
+				"added": 1494271187
+			},
+			{
+				"comment_id": 17,
+				"body": "This is my Retroshare06 certificate. I use Hidden Service mode with Tor:\nCQEGAcOZxsFNBFkQu4QBEADEvmy7ftGUToebAeplcaplf1+zHvHILsot0ukHjQJQ\nLlerdHUzIVg9lnKPErjgS56Rm+lHfIRK9LxX1yubLCOOEDMoRAfDk2K18DsiVJNq\nS3f3ogtMpoDIwUGh4R17dEVDuFAWdEeJhgDGWCR8DfkDvqZfLNWHvHvE2EHT8YAg\nyhA0V9ih43UaMUl0Q0XoQijg4Mvc+fXez1wWHikkDEUS3GEJhBOhTAImjPWodtr1\nrxOrsyOSkQ27VPjo02BV5CxcjS8serRZ9Bd3ei0B/dwqY62u0yDqWvnz26EQKcC7\n8xxa8Pw2AiIx8L2vp/0aWR7pmLz4QDzXxHaJopz0/GUOSKRLNqMK2GUejnqsj4g3\njVlq8/xUNFQv+U4uinRbL/TLT/DnAed7VkF0HETnnLHXIwCRcNswOGTVoAmP4HQk\nyJZRdULQEvjpNVdmTPbxC5VOld5bwIae7jQBvjr5Y9lmgE6ufH+o2a5QtB9sMogJ\nxJsRcFyNa3n34D7PqF9zTfAsnHICS7vHZsImmWTwdVqM5b6IL6rH91vceF0yZXia\n7jffVegOQp+yB+w1tyiHp1PnCPFdtNcp3UVrN1iX67UTSVAmA8pul7piVt3RLm+P\namLxqKCiINiM4Y964Sn6MvAc1jzK0NjbIOa7oiw+ksrGsPJ7zsFiRMF7KHfD8lP0\n/QARAQABzSVKb2huIERvZSAoR2VuZXJhdGVkIGJ5IFJldHJvU2hhcmUpIDw+wsFf\nBBMBAgATBQJZELuECRA4uYbFkISCvwIZAQAArq4P/2fPU5o3MFY3vbLz7xX0YKMx\ne0MokKBt8IB4YHchVHH3iWFcVNRzkOZ53vMMxQFR5c/UlkAH3p/SWmPmXtfMquHF\nuaJ1KNCZ3aA6ysGJdU+8TSvFbYGOAvapi9/42Gx15P8arVNAKCILZx4jFGM7rKa8\nDOojn8PZ9ZvYvWbKTRbBuER2L85eoEh2SZCMNLjyOvA//kdSzuNTYAvGp1uIksdO\ncId3qm3fO3mUrO3TBp8g6ZqLn5EYxcpUdL9O/Qo7unCEECAJ+ER92cjEJWtwJazO\nW+5uOCLT63CyHSJZ/vKtUghBHwVA8iUfl+SFipWiDGZlhgv3yHzjuZZHtYxPupG6\nXCN84UpJJPSfHZpN+tqbpL15kRkpkMeM5hcR1df8bVyzJps0IOX/JPPg85RyYiwN\n2P5/KM8pWzuHF/poLT8EjL3qkEMlyper6dJUpk0l/XDROy+ojt/pwXgHFpiuxhH2\nIsjpOMbElU2zFIDt/L/XBE8chwvnrVuXTlkkGCavtARnELWtz3WMUzsVlTkHymOv\nZR8rXbAdDp+zc07uWhyhL+XAOWvF+IMIoV2dhSJrFwGGMTncgaKXCiXvXJ/x7XO3\nZwvDDL19f0MjsA+gunA4vGcmVgrRngRTMdPrOPrF9TcLuOgTS6l0DC5NqNQTJsX0\nkUv0r0+TyD9zLIx0sRgFCBszcndpZTc0amdjYTVxZjc1Lm9uaW9uOjc4MTIGB1pl\ncm9OZXQFEGX1cixBBXsEL2OMJOSPDIoHA6dV4g==",
+				"added": 1494271322
+			},
+			{
+				"comment_id": 18,
+				"body": "> [orien3242](#comment_4_12LJsN6FdsNkS8EfiDYFyoPqZUnEibBJvP): LlerdHUzIVg9lnKPErjgS5 ...\n\nYour certificate is rejected by my Retroshare06 client with the error message \"Not a valid Retroshare certificate!\". Are you using Retroshare05?",
+				"added": 1494280751
+			},
+			{
+				"comment_id": 19,
+				"body": "Before you publish your Retroshare certificate it might be a good idea to carefully consider what level of privacy you want. With Retroshare default mode your clearnet IP address is included in the certificate and clearly visible for peers, something that may land you in problems if you express politically incorrect views or share files. Tor Hidden Mode may be a better option as it protects your privacy.",
+				"added": 1494333260
+			}
+		],
+		"1_18Kax1M9zrX1cFrYwvfc22uFKBmjbn5atN": [
+			{
+				"comment_id": 11,
+				"body": "Just add the following line to your zeronet.conf:\nui_port = 80\n\n---\n\nReplace 80 with a port of your choice.\nRestart your ZeroNet and the new port will be used.",
+				"added": 1493492208
+			}
+		],
+		"14_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 14,
+				"body": "> [seequ](#comment_1_19BZ9s633TaM3t7oW5bQPTPQJU3cbyibVH): a zite that I pass by might seem innocuous so I don't explicitly delete it. Maybe it was at that time and later they added illegal content - or maybe it always had illegal content and I didn't know about it. Anyways, because I would now be sharing illegal content, I'd be liable.I wish sharing was opt-in, rather than opt-out,\n\nClick on the menu to the right of a zite and click on \"Pause\". You can now keep the zite without risking anything.\n\n---\n\nTo protect yourself you should make sure to set Tor to Always and use only the Tor browser for ZeroNet.",
+				"added": 1493668155
+			}
+		],
+		"3_17vKbxL13KnzGATstqawXSG2oiQygmdkcX": [
+			{
+				"comment_id": 20,
+				"body": "A complete copy of ZeroTV as it was on Mar 25, 2017 can be found at:\nhttps://zeronet.korso.win/1BEJbnufyav7TK23ADTs2Qi2UJeKSGDzw6",
+				"added": 1494355246
+			}
+		]
+	},
+	"comment_vote": {
+		"281_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"1_1J1PqgvWDkxQKRY4WUx3ZeTex4XZA2A7cg": 1,
+		"149_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1
+	}
+}

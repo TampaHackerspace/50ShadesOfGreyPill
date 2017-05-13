@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GxwTUY/cly6Hlp8of/PYWgfy/meloXwS5DYADOzCtzPxeloQxePt5rPlisWV/FeHcealZC9itCyxN4XFy6eGBSU=",
+ "cert_user_id": "luckystar@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "f05b3b5e1b203080c2cdf68623e17d3089fe138baba8e77a87c731650af2515c",
+   "size": 579
+  }
+ },
+ "files_optional": {
+  "1490686361.jpg": {
+   "sha512": "648018b92f12944bfb58b4e42a1394f7cd9cd4d903670c0e90b950014d419176",
+   "size": 118566
+  }
+ },
+ "inner_path": "data/users/16zq7grzS9W8rDKyqahF7pPXLGpr8Kw8vZ/content.json",
+ "modified": 1490686359,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "16zq7grzS9W8rDKyqahF7pPXLGpr8Kw8vZ": "Gze7U3FgPj09CyypA7wib5M4QJw0Vf+4PhMXe7tj7TpjLguwRB9Jcn/qMl7PjYBJrV54FxH79XBmd/HjUTqSmh0="
+ }
+}

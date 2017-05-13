@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HIqmGX3rs4Th373Ls181W34Y4RINClCz+xc+srTwBXXKdVdKsmfSUgLv3qkjnqx7hfsvQuOs8qT7qWXFLOWcqIY=",
+ "cert_user_id": "southdelica@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "6d7d7b7175c4a34c41b407f1d2f3884a1d11f0881764bd42f90760f468659eb9",
+   "size": 285
+  }
+ },
+ "inner_path": "data/users/1Mvhedd7uKCx1FZKgy5txGtozNNRqTkmPY/content.json",
+ "modified": 1493368705,
+ "signs": {
+  "1Mvhedd7uKCx1FZKgy5txGtozNNRqTkmPY": "G/P52bB3AGyH0Y5zHwulqtiGydnkS/zg82smvKUbsUZ6DOhzPhF+kC/lBuixp4McsV4Wl8lDw2wTykBHx95H9pc="
+ }
+}

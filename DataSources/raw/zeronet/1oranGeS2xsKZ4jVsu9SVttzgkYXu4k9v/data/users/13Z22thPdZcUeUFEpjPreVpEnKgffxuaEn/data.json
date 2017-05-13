@@ -1,0 +1,32 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 1,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Aut",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "yeeee",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1489857540,
+			"body": "Ciao ZeroMe!"
+		},
+		{
+			"post_id": 1489857583,
+			"body": "qualcosa",
+			"date_added": 1489857581
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1AX6VTcQDa9XJrcUDFfr5PvdqJUpTSvNyv",
+			"user_name": "Scaryspider",
+			"date_added": 1489857750
+		}
+	]
+}

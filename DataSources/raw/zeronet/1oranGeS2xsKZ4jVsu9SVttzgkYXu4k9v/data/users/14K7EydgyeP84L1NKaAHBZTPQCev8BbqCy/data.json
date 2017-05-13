@@ -1,0 +1,771 @@
+{
+	"next_post_id": 29,
+	"next_comment_id": 66,
+	"next_follow_id": 29,
+	"avatar": "jpg",
+	"user_name": "Glightstar",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "ᖱᗩ ᕈᙓᙓᑕᙓ make Love not War. Protect the Internet, the largest project of mankind on Earth. Don't ask for your privacy. Take it back.",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1490544287,
+			"body": "da peece! ;) ZeroMe!"
+		},
+		{
+			"post_id": 1490622385,
+			"body": "Started developing a ZeroChat-Zite, with the help of this guide https://decentralize.today/decentralized-p2p-chat-in-100-lines-of-code-d6e496034cd4#.anjk2dtly",
+			"date_added": 1490622383
+		},
+		{
+			"post_id": 1491165872,
+			"body": "Title for my ZeroChat-based Zite:\nDa_Net\n\nFor style, it uses a work-in-progress-modified fork of Spectre.css (https://picturepan2.github.io/spectre/) and some icons from ZeroMe.\nFurthermore it makes use of jQuery (https://jquery.com/), Moment.js (http://momentjs.com/) and Identicon.js (http://github.com/stewartlord/identicon.js) (which requires PNGLib (http://www.xarg.org/download/pnglib.js)).\n\nThe picture shows the view of the chat..",
+			"date_added": 1491165869,
+			"meta": "{\"img\":\"697,700,344233223334445455444332244777576,011123221301222222224132222222512222222211222222225222222222511122222211222222226112222227089999999A\"}"
+		},
+		{
+			"post_id": 1491338809,
+			"body": "Some visual improvements to Da_Net! :)\nThe idea with Message-Balloons came from plasmmer@zeroid.bit\n\n~~(I'm actually not quite sure how to let the balloon expand to the right/left, if more text is in it >:|)~~\n\nNext missions:\n - Citation of messages (kinda like an answer/reply)\n - Picture (and maybe video and audio) implementation (?also with comment?)  [will require me, to look futher into 'optional files']\n - Private messages (kinda like ZeroMail) [will probably be *very* hard for me, like really! :/)\n - Markdown-Support [isn't hard, but I'll have to replace the current input with a textarea, which may require additional tweaking]\n - ~~EMOJI's xD (every chat needs'em)~~\n\nMaybe some kind of \"beta\"-program, so that some people can test it :?\n\nAny other ideas, recommendations or tips/tricks?\n.. Tell me :)",
+			"date_added": 1491338805,
+			"meta": "{\"img\":\"697,700,223888999666ddddde445ccc989babbbbeee555344777686,000012111300004555560000444443000044555300007555589A5BBB0000C7777B0000C444450000DEEEAAEEEC00EE44444F\"}"
+		},
+		{
+			"post_id": 1491504920,
+			"body": " - EMOJI's now available on Da_Net 🎉!\nYou can insert them via GitHub-like style \":smile:\" and via System-Emoji's (e.g. in Android on a Keyboard with Emoji-Support 😮)!\nThe Emoji are provided by https://emojione.com/.\n - Added a \"Ideas/Changelog\"-Sub-Tab in \"About\"\n - ..I also managed it to fit the width of the Message-Balloons according to their content.. xD\n\nI think the next mission is adding Markdown-support (won't be hard,.... I hope x_O) :)",
+			"date_added": 1491504915,
+			"meta": "{\"img\":\"697,700,223334888445ccb667dddbbaeee999ddc777455577,00000100230000000045000000006300000000730000000063000008888300000999A300680000BC00A8BBBBA3116666666D\"}"
+		},
+		{
+			"post_id": 1491563804,
+			"body": "# I'm workin on Markdown-Support for Da_Net right now!\n\nI'm using [Marked](https://github.com/chjj/marked) to achive it!\n\nOr well, it is finished... but I have to modify the message-input a little bit >:/",
+			"date_added": 1491563798
+		},
+		{
+			"post_id": 1491578749,
+			"body": "Can anyone tell me, what I'm doing wrong, when I get the following error:\n`Internal error: KeyError: u'data/users/14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy/content.json'\nUiWebsocket.py line 105 > UiWebsocket.py line 210 > MergerSitePlugin.py line 185 > MergerSitePlugin.py line 182 > UiWebsocket.py line 344 > ContentManager.py line 498 > ContentDbDict.py line 55 > ContentDbDict.py line 28`\n\nBecause it seems that no new data/users/USER/content.json-File is created, which seems to cause some trouble (the part with siteSign-cmd is missing [here](https://decentralize.today/decentralized-p2p-chat-in-100-lines-of-code-d6e496034cd4) but not [here](http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:99:ZeroChat+tutorial), and also on the medium-post, the sitePublish-Cmd publishes the users data.json!), as the database won't populate either.. :/\n\nSo could anyone give me a clue, on how to fix this pls :?",
+			"date_added": 1491578742
+		},
+		{
+			"post_id": 1491583344,
+			"body": "So I finally managed to fix everything in Da_Net, somewhat thanks to @nofish :)\n\nNow onto the fun things again :D\n\n(I removed the \"Parse Links\"-Option, as there isn't much reason left, to have it available..)",
+			"date_added": 1491583336
+		},
+		{
+			"post_id": 1491589400,
+			"body": "Lol, @bmoon just wrote the first message on Da_Net, and I recognized that the times are actually off-set xD\n\nBut I hope, I fixed it :D",
+			"date_added": 1491589391
+		},
+		{
+			"post_id": 1491605600,
+			"body": "## Da_Net\n - ~~Added Timestamp-Links (or actually 'unique' message-id-links) [Example](http://127.0.0.1:43110/1CWkZv7fQAKxTVjZVrLZ8VHcrN6YGGcdky/#tc_299)~~ **(This does not really work at the moment (April 10th, 2017))**\n - Added 'Scrolltobottom'-Button, ... to scroll to the bottom/ the newest message",
+			"date_added": 1491605590
+		},
+		{
+			"post_id": 1491664544,
+			"body": "## Can anyone \"teach\"/explain to me on how to use the OptionalManager-Plugin/ optional files in general :?\n(preferably with Javascript, and not CoffeeScript) (at least I think, that's what I need, to serve optional files like ZeroMe does for images).\n\nBecause I just don't understand, what I have to configure, and how >:|\n\nLike, if/ when should I define the \"optional\"-Property in the Zites `content.json`, and if/ when should I define the \"permission_rules\"-\"files_allowed_optional\"-Property in `data/users/content.json`.....\n\nI checked the [API-Reference](http://zeronet.readthedocs.io/en/latest/site_development/zeroframe_api_reference/#plugin-optionalmanager), [this](http://zeronet.readthedocs.io/en/latest/site_development/content_json/#user_contents), [this](http://zeronet.readthedocs.io/en/latest/site_development/dbschema_json/), and the source-code of some Zites.. And I have to say, *I DON'T GET IT*",
+			"date_added": 1491664533
+		},
+		{
+			"post_id": 1491687319,
+			"body": "So technically, there now is Image-support on Da_Net, BUT it's most certain, not correct!\n\n(You have to place the image into your `data/users`-Directory, and then you can include it via `![ALT-TEXT](/1CWkZv7fQAKxTVjZVrLZ8VHcrN6YGGcdky/data/users/USERCERT/FILENAME)`, e.g. `![Cute little baby kitty cat](/1CWkZv7fQAKxTVjZVrLZ8VHcrN6YGGcdky/data/users/14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy/1.jpg)`.\n\nI don't even know if it works, as [I just don't understand the docs/ other Zites source codes regarding the Optional-Files-Function](/Me.ZeroNetwork.bit/?Post/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy/1491664544)..\n\nThis obviously, will get automated through just clickin a button, selecting the image, and then hitting send, but till that, someone really has to give me some more information on the Optional-Files-topic!\n\nPS.: I'm now having trouble, signing my own `data.json`-File as it seems, though I've no clue why :/ (I have to \"Overwrite the File\" (or whatever, already forgot the text xP))\n\n([Link](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy/1491664544))",
+			"date_added": 1491687307
+		},
+		{
+			"post_id": 1491745015,
+			"body": "I've managed it to add a Image-Upload-function to **Da_Net** with help of some of [ZeroMusic](/1MusicXkuN2pk5hRdmroeyaCLDJtzTicpB)'s SourceCode!\n\nThough I believe it didn't fix the optional-files-problem I've got,.. >:| so I really need help with it!\n\n([Link 1](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy/1491687319), [Link 2](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy/1491664544))\n\n@nofish: maybe :?",
+			"date_added": 1491745002
+		},
+		{
+			"post_id": 1491823108,
+			"body": "The uploading and signing of the optional files/ media-files (currently only `png, jpg, jpeg, gif`) on\n# ThunderWave\n(formerly **Da_Net**)\nshould now work correct!",
+			"date_added": 1491823094
+		},
+		{
+			"post_id": 1491904819,
+			"body": "Creating a GitHub-Repository for **ThunderWave** right now!\nWill take some time, as *EmojiOne* has a huge amount of `.png`-Files for all the Emoji's x_x\n\n(All in all, I'll have to push 1960 files :O)",
+			"date_added": 1491904804
+		},
+		{
+			"post_id": 1491905551,
+			"body": "# [ThunderWave](/1CWkZv7fQAKxTVjZVrLZ8VHcrN6YGGcdky/) is now on [GitHub](https://github.com/AnthyG/ThunderWave)",
+			"date_added": 1491905535
+		},
+		{
+			"post_id": 1491924512,
+			"body": "# ThunderWave\n## Major Update!\nThe first major update has arrived for [ThunderWave](/1CWkZv7fQAKxTVjZVrLZ8VHcrN6YGGcdky), adding the [feature](https://github.com/AnthyG/ThunderWave/issues/10) to download/ delete optional (meaning \"sent by other users\") Media-files, and display additional information about them!\n\nAlso, some visual improvements were made, like e.g. a option to select the [design of the speech balloons](https://github.com/AnthyG/ThunderWave/issues/4), [Link2](https://github.com/AnthyG/ThunderWave/issues/11).",
+			"date_added": 1491924494
+		},
+		{
+			"post_id": 1491940364,
+			"body": "# ThunderWave\n## Update\n### Added basic `mp3`, and `ogg` uploading!\nUploading of `mp3` or `ogg`-Media-Files will result in a link being\npasted into the message-input, linking to the file!\n\nSo currently, there won't be any \"automated\" way, of either listening/\nviewing the file, nor of letting it be removed by some easy click,\nthough (at least that's what I hope) both of these features will get\nadded sooner or later.\n\nLink to [GitHub-Commit](https://github.com/AnthyG/ThunderWave/commit/50d6010b79df07176deb376fa0ee4b63b9b37053)",
+			"date_added": 1491940345
+		},
+		{
+			"post_id": 1492025820,
+			"body": "# Visit ThunderWave now at [thunderwave.bit](/thunderwave.bit)!\n## ThunderWave has got a domain-name!\n### Many thanks to @Plasmmer for providing the domain! :)",
+			"date_added": 1492025800
+		},
+		{
+			"post_id": 1492033559,
+			"body": "Apparently I chatted with myself on ThunderWave,.. for I believe, quite some time, because as it seems [my `data.json`](http://127.0.0.1:43110/thunderwave.bit/data/users/14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy/data.json) on [ThunderWave](/thunderwave.bit) isn't seeding to other users :|",
+			"date_added": 1492033538
+		},
+		{
+			"post_id": 1492109943,
+			"body": "## I've got 3 questions..\n#### (at the moment)\n1. Is there any documentation about Hubs?\nAs far as I understand them, they are just normal Zites... though they actually have a undocumented property in use for their own `content.json`-File (`merged_type`, yes, this is documented, but really poor!), and for the other Zite's it's being used by, `content.json`-File (`settings > default_hubs`) :?\n2. Also, I just wanted to point out that/ ask why in the docs there seems to be no mention of `auth_address`, `directory`, or `directories` being optional parameters, as seen [here](https://github.com/HelloZeroNet/ZeroMe/blob/master/js/ZeroMe.coffee#L248) and [here](https://github.com/HelloZeroNet/ZeroMe/blob/6982bab71814bca49aea7437da7b1a27700d5544/js/ActivityList.coffee#L60).?\n3. How exactly do I achieve the effect of merging multiple Hubs to one DB, like ZeroMe seems to do?\n\nAlso, [here's a link](https://github.com/AnthyG/ThunderWave/issues/23) to an Issue on ThunderWave's GitHub-Repo, regarding the ability to access users avatars from ZeroMe.",
+			"date_added": 1492109921
+		},
+		{
+			"post_id": 1492174640,
+			"body": "Is there any way for a user to directly connect to a specific other user on a Zite, knowing only that users public key?",
+			"date_added": 1492174617
+		},
+		{
+			"post_id": 1492183929,
+			"body": "## ThunderWave\n### I've got the private chat working,..\n#### basically..\n\nThe only problem I'm encountering right now, is that the sender can't read his own messages, as they are encrypted with the public key of the recipient, who is the only one who can read the messages sent to him, as he is the only one, who has his own private key.\n\nSo I could save all the messages sent, into another file, which doesn't get seeded, as I already described in the first comment I wrote in [this Issue on GitHub](https://github.com/AnthyG/ThunderWave/issues/6), **but**, anybody who has the private key of the sender, would then be able to read *ALL* the messages he sent, and received.\nAnd that is not really good I think, is it!? 👎\n\n\n\n### Question:\n> So, is there any way I can decrypt the messages, that the sender sent, while being the sender?",
+			"date_added": 1492183905
+		},
+		{
+			"post_id": 1492204957,
+			"body": "### Private messages in [ThunderWave](/thunderwave.bit)\n In theory, one now can send private messages through ThunderWave!\nBut as I still have to fix some serious issues, there currently is neither a input, nor a correct-working \"Private Chats\"-Tab.\n\nFor further information please visit [Issue #6 on GitHub-Repo](https://github.com/AnthyG/ThunderWave/issues/6).",
+			"date_added": 1492204932
+		},
+		{
+			"post_id": 1492276848,
+			"body": "## [ThunderWave](/thunderwave.bit)\n### Update\n#### Added Private chat!\nYes, they do basically work,..\nNo, it's not really good,... yet.\n\nYou can now check the \"Last seen\"-Tab for available users, that already have the latest version of ThunderWave, and thus, have a `public key`-Entry.\nClick the users public key, and the private chat will be opened.\n\nAlso, the other user will currently not receive any notification that a new message has arrived.\nThis results in the fact, that you actually have to click the tab at the top again (that with the users cert_id), to reload the chat.\n\n*Beware, as this is still in active development, and has many bugs!*\n*Also, all your private messages may be deleted due to change of encryption!*\n\nFor further information please visit [Issue #6 on GitHub-Repo](https://github.com/AnthyG/ThunderWave/issues/6).",
+			"date_added": 1492276822
+		},
+		{
+			"post_id": 1492431508,
+			"body": "## ThunderWave\n### Update\n#### Avatars!! :)\n\nSee GitHub-Issues [#23](https://github.com/AnthyG/ThunderWave/issues/23) and [#47](https://github.com/AnthyG/ThunderWave/issues/47) for some information about Avatars on ThunderWave.\n\nPS.: You can now add a external source for your avatar, e.g. your ZeroMe-Avatar, or put a Avatar into your user-directory of this Zite (1CWkZv7fQAKxTVjZVrLZ8VHcrN6YGGcdky)\n\nFor further information on how to use them, visit [this link](https://github.com/AnthyG/ThunderWave/issues/47#issuecomment-294473097)",
+			"date_added": 1492431481
+		},
+		{
+			"post_id": 1492463758,
+			"body": "Won't be online for 3 months, as I will visit another country!\nSo c'ya all in 3 months :)",
+			"date_added": 1492463730
+		}
+	],
+	"post_like": {
+		"14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1": 1490560702,
+		"14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1490622385": 1491130496,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491096308": 1491322691,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491449852": 1491487314,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491442138": 1491487790,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491507499": 1491508585,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490998135": 1491509910,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491525874": 1491560180,
+		"1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b_1491562276": 1491571562,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491590232": 1491592145,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491610632": 1491642081,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1491643006": 1491651776,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491614163": 1491655802,
+		"1DTshv8e673kT3yQX3HhM4M9XYg4A4KceE_1491676984": 1491679461,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490897414": 1491688045,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490895203": 1491688059,
+		"14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491687319": 1491688471,
+		"14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491664544": 1491688478,
+		"1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1491734172": 1491767108,
+		"1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1490200215": 1491768570,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491807906": 1491820321,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491819961": 1491823851,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491844327": 1491899923,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491854863": 1491900070,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491858446": 1491900085,
+		"12xyMN9EMfzW1qqKCUNN5LLzxUUHpbrYXX_1491892224": 1491900582,
+		"1Lamw1Fk5CrdjwLNPfkDBJH8C2znRuCcBL_1491917647": 1491920648,
+		"1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1491929454": 1491938409,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1492253738": 1492257904
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@P2P: Many thanks :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491165872",
+			"date_added": 1491236566
+		},
+		{
+			"comment_id": 2,
+			"body": "@Plasmmer: UUUUUH That's a nice idea! :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491165872",
+			"date_added": 1491242806
+		},
+		{
+			"comment_id": 3,
+			"body": "@Plasmmer: I'ld have to look into that..\nAnything like a tutorial for it?",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491165872",
+			"date_added": 1491248855
+		},
+		{
+			"comment_id": 4,
+			"body": "@Plasmmer: Well, private messages will take some time, and in about 2 weeks, I'll be gone for like 3 months..\n\nThe link, but it's still \"beta\" x)\nhttp://127.0.0.1:43110/1CWkZv7fQAKxTVjZVrLZ8VHcrN6YGGcdky/\n\n(I actually wanted to load more messages, the higher you scroll, and I got it all basically working, but some messages weren't in the correct groups, which then placed some at the wrong point in timeline... and I'm just to incompetent to fix it, so I reverted back :/)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491338809",
+			"date_added": 1491488208
+		},
+		{
+			"comment_id": 5,
+			"body": "@Plasmmer: I could sync my progress of the modified Spectre.css to  GitHub, if you use that :?",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491338809",
+			"date_added": 1491497613
+		},
+		{
+			"comment_id": 6,
+			"body": "@Plasmmer: Here's the link to the GitHub-Repo https://github.com/AnthyG/spectre-dark",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491338809",
+			"date_added": 1491499003
+		},
+		{
+			"comment_id": 7,
+			"body": "@Plasmmer: What exactly do you mean by that :?\n(I believe you mean that you couldn't download the content.json-File on Da_Net, which is probably because I wasn't online when you where x/ (I am, as far as I am aware of, currently the only one, who seeds Da_Net))",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491338809",
+			"date_added": 1491560407
+		},
+		{
+			"comment_id": 8,
+			"body": "@Plasmmer: Well, there is already basic Emoji-Support in probably most OS's 😄\nAnd I actually think the EmojiOne-Emoji's are to pale for ZeroMe..\n\nSo maybe one of the \"official\" Devs for ZeroMe should decide, which they would like to use. :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491504920",
+			"date_added": 1491565330
+		},
+		{
+			"comment_id": 9,
+			"body": "@Nofish: If I manually fill the content.json-File with \"{}\", and then send a message, it get's populated, but the DB doesn't seem to get Updated/Populated at all :(",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491578749",
+			"date_added": 1491580658
+		},
+		{
+			"comment_id": 10,
+			"body": "@Nofish: ~~It creates the tables, but only the keyvalue-Table is actually populated :| (With the version-values I set in dbschema.json)~~\n\n### ~~Oh, wait sec.....~~\n\nA sh*t, I forgot that I'm not \"allowed\" to change the \"version\" in dbschema.json >x||||\n\n~~I'll quickly try and delete my own data-directory..~~\n### NICE\nIt works perfect! :)\n\nI'm so sorry, if I wasted your time @nofish :(",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491578749",
+			"date_added": 1491581218
+		},
+		{
+			"comment_id": 11,
+			"body": "@Mkg20001: xD",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491504920",
+			"date_added": 1491583621
+		},
+		{
+			"comment_id": 12,
+			"body": "@Plasmmer: Now everything should work fine, I believe :)\n\nSo if you write a message, it should work :?",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491338809",
+			"date_added": 1491583723
+		},
+		{
+			"comment_id": 13,
+			"body": "@Plasmmer: Is that actually a \"complete\" browser, or is it just a CLI :?",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491338809",
+			"date_added": 1491584002
+		},
+		{
+			"comment_id": 14,
+			"body": "@Plasmmer: Ah, ok :/",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491338809",
+			"date_added": 1491592085
+		},
+		{
+			"comment_id": 15,
+			"body": "For a Zite to be responsive properly, you'll need to add the following property to the Zites `content.json`:\n`\"viewport\": \"width=device-width, initial-scale=1.0, shrink-to-fit=no\"`\n\n(At least that's what I do x))",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491593688",
+			"date_added": 1491604073
+		},
+		{
+			"comment_id": 16,
+			"body": "@Sirenyc: Yeah, currently I'm one of 3 or so xD\n\nBut as I'm online as of now, you may want to try it again :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491605600",
+			"date_added": 1491641917
+		},
+		{
+			"comment_id": 17,
+			"body": "@Plasmmer: Is that with the distance, a question?\nBecause Kepler-186f is about 490 lightyears away, Mars \"only\" about 225 million kilometers! :D",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491614163",
+			"date_added": 1491648090
+		},
+		{
+			"comment_id": 18,
+			"body": "@Nofish: So I have to write that to every file in all users content.json-Files, or is there a way to define \"globally\", like in `data/users/content.json` or so?\n\nE.g.:\n```\n  ...\n  \"permission_rules\": {\n   \".*\": {\n    \"files_allowed\": \"data.json\",\n    \"files_allowed_optional\": \".+\\\\.(png|jpg|jpeg)\",\n    \"max_size\": 100000\n   },\n   ...\n```\n(I took [this one](http://127.0.0.1:43110/1MusicXkuN2pk5hRdmroeyaCLDJtzTicpB/data/users/content.json) as template)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491664544",
+			"date_added": 1491771109
+		},
+		{
+			"comment_id": 19,
+			"body": "@Nofish: Now it works, but I'm still a bit irritated of [this one](http://zeronet.readthedocs.io/en/latest/site_development/content_json/#optional)..",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491664544",
+			"date_added": 1491771598
+		},
+		{
+			"comment_id": 20,
+			"body": "@Nofish: Ah ok, then I'll finish that..\nMany thanks for the help! :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491664544",
+			"date_added": 1491772376
+		},
+		{
+			"comment_id": 21,
+			"body": "After we saved this file we also have to modify our site’s root content.json to ignore everything in this directory on signing and load the file containing the rules:\n```\n  ...\n    \"ignore\": \"data/.*\",\n    \"includes\": {\n        \"data/users/content.json\": {\n            \"signers\": [],\n            \"signers_required\": 1\n        }\n    },\n  ...\n```\n\n> Note: You can give moderation permissions to other users by adding addresses to “signers” list.\n\n(From [this](http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:99:ZeroChat+tutorial) article)\n\nBut I believe, I somewhere read, that this does not yet work proper..",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491807906",
+			"date_added": 1491817917
+		},
+		{
+			"comment_id": 22,
+			"body": "@Plasmmer: I did :)\nAnd what do you mean by \"I want this for pin topics\" :?",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491807906",
+			"date_added": 1491820311
+		},
+		{
+			"comment_id": 23,
+			"body": "The Zite doesn't seem to load :/",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491819961",
+			"date_added": 1491820451
+		},
+		{
+			"comment_id": 24,
+			"body": "@Plasmmer: Yeah, I have to create a better system for checking the content.json and data.json-Files if they are correct..\n\nI'll start working on it right now :)",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491807906",
+			"date_added": 1491820772
+		},
+		{
+			"comment_id": 25,
+			"body": "@Plasmmer: It reminds me a little bit too much of Apple.. so maybe something different than \"-bolt\"? Because \"Thunder-\" sounds cool! :D",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491807906",
+			"date_added": 1491821554
+		},
+		{
+			"comment_id": 26,
+			"body": "@Plasmmer: The [forum](/forum.snifferdog.bit) doesn't seem to work too! (Same error)",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491819961",
+			"date_added": 1491821593
+		},
+		{
+			"comment_id": 27,
+			"body": "@Plasmmer: That sounds good!\nHow much does a .bit-Domain cost?",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491807906",
+			"date_added": 1491822496
+		},
+		{
+			"comment_id": 28,
+			"body": "@Plasmmer: I think I'll *try* and register it..",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491807906",
+			"date_added": 1491825089
+		},
+		{
+			"comment_id": 29,
+			"body": "@Glightstar, @Plasmmer, so apparently I'm to dumb to neither buy NMC nor BTC via PayPal >:|",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491807906",
+			"date_added": 1491826700
+		},
+		{
+			"comment_id": 30,
+			"body": "Good night.",
+			"post_uri": "12vBdBR26eDMHdVCUpr9Uuaf3ofJ91j1qG_1491833148",
+			"date_added": 1491833282
+		},
+		{
+			"comment_id": 31,
+			"body": "@Plasmmer: You could try NodeJS with ElectronJS, as that is JS from the webkit-v8-engine able to be distributed to Windows, Linux, and Mac!\n\nI could help you, if you choose this technology, as I already have created some applications woth ElectronJS..",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491858446",
+			"date_added": 1491900279
+		},
+		{
+			"comment_id": 32,
+			"body": "@Plasmmer: Because I don't quite yet understand how to \"merge\" it :|",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491823108",
+			"date_added": 1491902520
+		},
+		{
+			"comment_id": 33,
+			"body": "@Plasmmer: :?\nIt isn't a Hub, or is it x?\n\nPS.: I believe I removed that `\"merged_type\": \"ZeroMe\"`-Property from content.json for now, though I thought that's how I get the data from ZeroMe!?!",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491823108",
+			"date_added": 1491902728
+		},
+		{
+			"comment_id": 34,
+			"body": "@Plasmmer: And those \"Grant permission to merger\"-Notifications should've actually been gone, before you wrote that comment, so I don't know what's wrong there x/",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491823108",
+			"date_added": 1491903059
+		},
+		{
+			"comment_id": 35,
+			"body": "@Plasmmer: So you have any ideas on how to get the data from ZeroMe/ all the Hubs, so that one can use the avatar uploaded on there :?",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491823108",
+			"date_added": 1491903230
+		},
+		{
+			"comment_id": 36,
+			"body": "@Plasmmer: k, I'll do it right now :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491823108",
+			"date_added": 1491903246
+		},
+		{
+			"comment_id": 37,
+			"body": "@Plasmmer: It'll take a few more minutes, as I have to set up some things :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491823108",
+			"date_added": 1491903728
+		},
+		{
+			"comment_id": 38,
+			"body": "@Plasmmer: Is it better to create a completely new Directory for GitHub, containing just the Project as it, or should I actually use the real Zites data-folder?",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491823108",
+			"date_added": 1491903977
+		},
+		{
+			"comment_id": 39,
+			"body": "@Plasmmer: [Link](/Me.Mkg20001.bit/?Post/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy/1491904819)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491823108",
+			"date_added": 1491904831
+		},
+		{
+			"comment_id": 40,
+			"body": "Committed `css/png` (EmojiOne)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491904819",
+			"date_added": 1491905007
+		},
+		{
+			"comment_id": 41,
+			"body": "Commits finished.~~?Description?~~ \"A chat for ZeroNet\" (at first..)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491904819",
+			"date_added": 1491905135
+		},
+		{
+			"comment_id": 42,
+			"body": "~~[Publishing...](https://github.com/AnthyG/ThunderWave)~~\n\n# [PUBLISHED](/Me.Mkg20001.bit/?Post/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy/1491905551)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491904819",
+			"date_added": 1491905406
+		},
+		{
+			"comment_id": 43,
+			"body": "@Plasmmer: The link should be fine.. It should work even better than any other link :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491823108",
+			"date_added": 1491905476
+		},
+		{
+			"comment_id": 44,
+			"body": "@ZAlex: Thanks :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491905551",
+			"date_added": 1491914818
+		},
+		{
+			"comment_id": 45,
+			"body": "Thanks for spreading :)",
+			"post_uri": "1Lamw1Fk5CrdjwLNPfkDBJH8C2znRuCcBL_1491917647",
+			"date_added": 1491920860
+		},
+		{
+			"comment_id": 46,
+			"body": "@Sirenyc: Thanks :D",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491905551",
+			"date_added": 1491930369
+		},
+		{
+			"comment_id": 47,
+			"body": "@Sirenyc: By that, do you mean that you've already added it, or that I should go and add it :?\n\nAnd, thanks :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491924512",
+			"date_added": 1491935369
+		},
+		{
+			"comment_id": 48,
+			"body": "@Sirenyc: Thanks :)\n\nTo upload a media-file, you either need to click the \"plus\"-icon to the left of the message-input, then select your file, and click the now \"upload\"-icon, or you go to the \"Media\"-Tab at the top, select your file, and click the \"upload\"-icon.\n\nIf you still experience any errors, you might want to send me the consoles log :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491924512",
+			"date_added": 1491941041
+		},
+		{
+			"comment_id": 49,
+			"body": "@Sirenyc: Both new file-types can also be uploaded via the normal upload-progress!",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491940364",
+			"date_added": 1491941854
+		},
+		{
+			"comment_id": 50,
+			"body": "@Sirenyc: Oh, then that probably means, that the updated User-File-verifying-system doesn't work proper. >:/",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491940364",
+			"date_added": 1491945428
+		},
+		{
+			"comment_id": 51,
+			"body": "@Glightstar, @Sirenyc: ...... and appareantly I forgot to add a function call x_o'",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491940364",
+			"date_added": 1491945499
+		},
+		{
+			"comment_id": 52,
+			"body": "@Sirenyc: I actually intended the usernames to be clickable links, but I somehow removed it at some point, not knowing, I did >:/",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491940364",
+			"date_added": 1491949091
+		},
+		{
+			"comment_id": 53,
+			"body": "@Jayofthezero: Check out the GitHub Issues [#6](https://github.com/AnthyG/ThunderWave/issues/6), and [#19](https://github.com/AnthyG/ThunderWave/issues/19). :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491905551",
+			"date_added": 1491985492
+		},
+		{
+			"comment_id": 54,
+			"body": "@Sirenyc: Many thanks for the cool Logo(s)! :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491940364",
+			"date_added": 1492021245
+		},
+		{
+			"comment_id": 55,
+			"body": "@Kaffie: I don't remember what I changed since you wrote that comment, but it was a lot x)\nSo I think/ hope/ believe, it should work fine now :D",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491940364",
+			"date_added": 1492021329
+		},
+		{
+			"comment_id": 56,
+			"body": "@Kaffie: I will look into optimization in general, also see [this issue on GitHub] (https://github.com/AnthyG/ThunderWave/issues/49). :)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491940364",
+			"date_added": 1492072984
+		},
+		{
+			"comment_id": 57,
+			"body": "@Jayofthezero: Thanks for the info! :/",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492109943",
+			"date_added": 1492114843
+		},
+		{
+			"comment_id": 58,
+			"body": "@Yinyue: Thanks for the info :/",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492174640",
+			"date_added": 1492176686
+		},
+		{
+			"comment_id": 59,
+			"body": "@Jayofthezero: But I don't quite get, why the sender should also save the receivers private key.\nWhich is, as far as I checked the code from ZeroMail, not even the case there.",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492183929",
+			"date_added": 1492245907
+		},
+		{
+			"comment_id": 60,
+			"body": "@Mkg20001: A password, the sender sets?\nThe 2nd one is encrypted with the receivers *public key*, and can only be decrypted with the private key ;)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492183929",
+			"date_added": 1492246207
+		},
+		{
+			"comment_id": 61,
+			"body": "@Mkg20001: I tried using the recipients cert_user_id, [as you somewhat suggested it here](https://github.com/AnthyG/ThunderWave/issues/6#issuecomment-294192327), but as I explained further down on that issue, I couldn't seem to decrypt the double-encrypted.",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492183929",
+			"date_added": 1492246717
+		},
+		{
+			"comment_id": 62,
+			"body": "@Mkg20001: I just tried several tests, and the IV and AES-Key (that are the same: `btoa(recipient)` (base64)) are actually just too short...................\n\n# WOW",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492183929",
+			"date_added": 1492248618
+		},
+		{
+			"comment_id": 63,
+			"body": "@Glightstar: And that is actually not true, so I'll just leave that there, pretending I never wrote it x)",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492183929",
+			"date_added": 1492248955
+		},
+		{
+			"comment_id": 64,
+			"body": "@Glightstar: Weird. The final thingy just adds 5 * 3 random chars to the end of the recipient, and then converts that to Base64. It works. ...",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492183929",
+			"date_added": 1492249382
+		},
+		{
+			"comment_id": 65,
+			"body": "@Kaffie wrote about it [on her blog](/blog.kaffie.bit/?Post:25:How+to+change+your+ZeroMe+Hub)",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1492253738",
+			"date_added": 1492254187
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy",
+			"user_name": "Glightstar",
+			"date_added": 1490622506
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1eQKH8VcGoV17tUEfCHad8pMix9qR8aVu",
+			"user_name": "delusion",
+			"date_added": 1491049321
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1491236633
+		},
+		{
+			"follow_id": 5,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1491248858
+		},
+		{
+			"follow_id": 6,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe",
+			"user_name": "Plasmmer",
+			"date_added": 1491250295
+		},
+		{
+			"follow_id": 7,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1491323498
+		},
+		{
+			"follow_id": 8,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "16nArdxrSaNThNp83kL8E6NLL9WD98iUne",
+			"user_name": "Jayofthezero",
+			"date_added": 1491392494
+		},
+		{
+			"follow_id": 9,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx",
+			"user_name": "ks",
+			"date_added": 1491392501
+		},
+		{
+			"follow_id": 10,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "16nArdxrSaNThNp83kL8E6NLL9WD98iUne",
+			"user_name": "Jayofthezero",
+			"date_added": 1491392508
+		},
+		{
+			"follow_id": 11,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD",
+			"user_name": "Mkg20001",
+			"date_added": 1491420790
+		},
+		{
+			"follow_id": 12,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1491507019
+		},
+		{
+			"follow_id": 13,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1KuwwnkAtVrfnyhv8pyGRxLqzNZbEkJt2u",
+			"user_name": "Lola",
+			"date_added": 1491571768
+		},
+		{
+			"follow_id": 15,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1DU9tPfvPkYGX8NQDicBbNDDWUknibHwBT",
+			"user_name": "Mobile",
+			"date_added": 1491586323
+		},
+		{
+			"follow_id": 16,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1JwPBvZYXLJzrA6YisjpsyTuuieFLCARS6",
+			"user_name": "Emeraude",
+			"date_added": 1491679640
+		},
+		{
+			"follow_id": 18,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC",
+			"user_name": "Firebox",
+			"date_added": 1491753290
+		},
+		{
+			"follow_id": 19,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h",
+			"user_name": "Binchan",
+			"date_added": 1491768737
+		},
+		{
+			"follow_id": 20,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "16iuzjKJoS7bpUUApMV6U4e5CQqUNwmjWW",
+			"user_name": "Screens",
+			"date_added": 1491772079
+		},
+		{
+			"follow_id": 21,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa",
+			"user_name": "Talnicrom",
+			"date_added": 1491823813
+		},
+		{
+			"follow_id": 22,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ",
+			"user_name": "Sirenyc",
+			"date_added": 1491840860
+		},
+		{
+			"follow_id": 23,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1Koe97YQ3wR5oFauQoGuUCBNqZ73SMTrKi",
+			"user_name": "Broccoli",
+			"date_added": 1491938462
+		},
+		{
+			"follow_id": 24,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "1DKs7LscyE7kt4SvrpqQBUmU5nuPkryJdP",
+			"user_name": "Snifferdog",
+			"date_added": 1491943987
+		},
+		{
+			"follow_id": 25,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "12gAes6NzDS9E2q6Q1UXrpUdbPS6nvuBPu",
+			"user_name": "Krixano",
+			"date_added": 1492027856
+		},
+		{
+			"follow_id": 26,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu",
+			"user_name": "PaintNinja",
+			"date_added": 1492187777
+		},
+		{
+			"follow_id": 27,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "12gAes6NzDS9E2q6Q1UXrpUdbPS6nvuBPu",
+			"user_name": "Krixano",
+			"date_added": 1492258928
+		},
+		{
+			"follow_id": 28,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS",
+			"user_name": "ZAlex",
+			"date_added": 1492432299
+		}
+	],
+	"settings": {
+		"reverse_comment_order": false,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"blocked": [],
+	"flags": {},
+	"comment_like": {
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_174": 1491824567,
+		"1H9R6W9QWUpYiJkLyAsFXmXhAV7HEqoHtN_48": 1491900039,
+		"1H9R6W9QWUpYiJkLyAsFXmXhAV7HEqoHtN_51": 1491900823,
+		"1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_13": 1491914814,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_54": 1491934563,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_57": 1491941278,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_56": 1491941280,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_60": 1491949027,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_62": 1491949663,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_63": 1492021223
+	},
+	"bgColor": "#D8D8D8",
+	"bg": "jpg"
+}

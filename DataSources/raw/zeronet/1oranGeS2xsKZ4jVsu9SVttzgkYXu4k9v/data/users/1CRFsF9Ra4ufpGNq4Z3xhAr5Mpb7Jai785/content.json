@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G4E/wVvpw20hKTbzjj52Y2Ny+XsyWkiSMVLu4k/yN3/CqzByZsTrEfxYLyjfYvuJNGkJ8Dz1l5aadCWrEz1x4RE=",
+ "cert_user_id": "vileng1@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "406bbec505f3564513f0e5b569c0dfa89ab5d2ad6e36f3c16cdb12a96cae9307",
+   "size": 3664
+  }
+ },
+ "files_optional": {
+  "1487573329.jpg": {
+   "sha512": "72936d0360c2c8c55f89b9fb6ce9d4a2540bd7b63139c5fe387c874e4c54cf07",
+   "size": 81230
+  },
+  "1487597902.jpg": {
+   "sha512": "1c8762549e43df2e7cf82a631dfda73260e531e55e1db116112d85c83333138b",
+   "size": 117548
+  }
+ },
+ "inner_path": "data/users/1CRFsF9Ra4ufpGNq4Z3xhAr5Mpb7Jai785/content.json",
+ "modified": 1490009935,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1CRFsF9Ra4ufpGNq4Z3xhAr5Mpb7Jai785": "G/IFLjp2p6hCMQ+zDXAm1ZphMLAm70tfaXk1sOJTDDcx+tLP4aJ3dGOEBku8ooCZb8Q0cjYGTuqK7SI7eqJBCLw="
+ }
+}

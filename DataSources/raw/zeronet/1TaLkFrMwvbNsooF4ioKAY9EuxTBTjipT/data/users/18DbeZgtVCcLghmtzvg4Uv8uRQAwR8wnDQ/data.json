@@ -1,0 +1,96 @@
+{
+	"next_topic_id": 6,
+	"topic": [],
+	"topic_vote": {
+		"6_13hcYDp4XW3GQo4LMtmPf8qUZLZcxFSmVw": 1,
+		"3_18DbeZgtVCcLghmtzvg4Uv8uRQAwR8wnDQ": 1,
+		"1_1EnFfeVqTYtJfhzucfQB8Z7sCfUBipRRow": 1
+	},
+	"next_comment_id": 25,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "Nice work. Minor issue. Problem with scrolling below comment from darkdevel on sep 13, 2016.",
+				"added": 1474105128
+			},
+			{
+				"comment_id": 2,
+				"body": "> [jro](#comment_1_18DbeZgtVCcLghmtzvg4Uv8uRQAwR8wnDQ): Nice work. Minor issue. Problem with scrolling below comment from darkdevel on sep 13, 2016.\n\nOK. Temporary problem. Cannot recreate the event.",
+				"added": 1474105367
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 3,
+				"body": "Is there a Q&A for the ZeroFrame API reference anywhere? Nice documentation but is could be better. A Q&A place could be a quick help.",
+				"added": 1474121658
+			},
+			{
+				"comment_id": 4,
+				"body": "> [nofish](#comment_762_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): There is a tutorial @ ZeroBlog, it contains the most important features.\n\nThanks nofish. Have seen the tutorial. A good help to understand the big picture. I will try to find the answer for my questions in source code. Very nice work. Looking forward to making my first ZeroNet \"app\" :-)",
+				"added": 1474129203
+			},
+			{
+				"comment_id": 19,
+				"body": "> [daozen](#comment_1_1Pm6qTHfW1vkbNodfwZ1Ku2nHJaKZzy15i): I agree with freedom of speech, but can we downvote posts like this? No downvote option makes it easy for trolls to spam and discredit Zeronet. If it gets too popular, that's how they'll try and take 0net down.\n\nVery nice with ZeroNet and public zites like this. Trolls will also be in here. Censor is not the solution. I think that the best solution is an option for the user to enable/disable a trolling filter. Disabled when zite starts as no censor must be the default on ZeroNet. \nPersonal I would like to up/down voting people and use my personal votes + the votes from the people I have up voted for some kind of filter when seeing posts and comments in here.",
+				"added": 1477809543
+			}
+		],
+		"3_1AtLqmJk4VBFwJ8cNtD63h1bBGqY6UxeFk": [
+			{
+				"comment_id": 5,
+				"body": "> [nofish](#comment_122_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The localStorage is not available because its per-domain and in zeronet every site runs over the same domain (127.0.0.1), so the sites would able to modify/read other site's data.\n> But there is a ZeroFrame API command for that: http://zeronet.readthedocs.org/en/latest/site_development/zeroframe_api_reference/#wrappergetlocalstorage\n\nComment to localStorage wrapper documentation. It looks like that wrapperGetLocalStorage callback is returning an array with localStorage as first element. And it looks like that wrapperSetLocalStorage must be called with a callback function (empty param). Correct?",
+				"added": 1474875724
+			}
+		],
+		"1_18DbeZgtVCcLghmtzvg4Uv8uRQAwR8wnDQ": [],
+		"2_18DbeZgtVCcLghmtzvg4Uv8uRQAwR8wnDQ": [
+			{
+				"comment_id": 9,
+				"body": "// update json table with public key and search words\n        ZeroFrame.cmd(\"fileGet\", {inner_path: inner_path, required: false}, function (data) {\n            var pgm = module + '.save_local_storage fileGet callback: ' ;\n            console.log(pgm + 'data = ' + JSON.stringify(data));\n            var json_raw, row;\n            if (data) data = JSON.parse(data);\n            else data = {};\n            data.sha256 = CryptoJS.SHA256(pubkey).toString() ;\n            data.pubkey = pubkey ;\n            data.search = [] ;\n            for (var i=0 ; i<user_info.length ; i++) {\n                if (user_info[i].privacy != 'Search') continue ;\n                row = {\n                    tag: user_info[i].tag,\n                    value: user_info[i].value,\n                    time: new Date().getTime()\n                };\n                data.search.push(row);\n            } // for i\n            // console.log(pgm + 'data = ' + JSON.stringify(data)) ;\n            json_raw = unescape(encodeURIComponent(JSON.stringify(data, null, \"\\t\")));\n            ZeroFrame.cmd(\"fileWrite\", [inner_path, btoa(json_raw)], function (res) {\n                var pgm = module + '.save_local_storage fileWrite callback: ' ;\n                console.log(pgm + 'res = ' + JSON.stringify(res)) ;\n                if (res === \"ok\") {\n                    ZeroFrame.cmd(\"sitePublish\", {inner_path: inner_path}, function (res) {\n                        var pgm = module + '.save_local_storage sitePublish callback: ' ;\n                        console.log(pgm + 'res = ' + JSON.stringify(res)) ;\n                        if (res != \"ok\") ZeroFrame.cmd(\"wrapperNotification\", [\"error\", \"Failed to post: \" + res.error]);\n                    }); // sitePublish\n                } else ZeroFrame.cmd(\"wrapperNotification\", [\"error\", \"Failed to post: \" + res.error]);\n            }); // fileWrite\n        }); // fileGet",
+				"added": 1475141349
+			},
+			{
+				"comment_id": 10,
+				"body": "Thanks nofish. I get the same error message when publishing content.json instead of data.json. \nAnd it is data.json that is published in ZeroNet site development tutorial #2\nMaybe it could be an error in my ID provider implementation. Copied from nanasi text board and I am creating a anonymous @moneynetwork account. Maybe I have made a minor error that only shows up when using a ZeroNet proxy server ...\n\nBrowser console logs for my local test and proxy server test. \n\nlocal test:\n\nall.js?rev=1523:1357 [Wrapper] Created!\nall.js?rev=1523:106 [ZeroWebsocket] Open\nall.js:67897 MoneyNetworkHelper: ZeroFrame.site_info = undefined\nall.js:68581 NavCtrl loaded\nall.js:68504 MoneyNetworkService loaded\nall.js:68590 AuthCtrl loaded\nall.js:11292 [ZeroFrame] Websocket open\nall.js?rev=1523:1357 [Wrapper] Setting title to Money Network - ZeroNet\nall.js:68602 AuthCtrl.login_or_register: passwords = null, no_users = 0\nall.js:68386 MoneyNetworkHelper.client_login: create new account\nall.js:67839 MoneyNetworkHelper.save_local_storage: calling wrapperSetLocalStorage\nall.js:68654 UserCtrl loaded\nall.js:67842 MoneyNetworkHelper.save_local_storage wrapperSetLocalStorage callback: OK\nall.js:67839 MoneyNetworkHelper.save_local_storage: calling wrapperSetLocalStorage\nall.js:67859 MoneyNetworkHelper. post_user_info: calling fileGet: inner_path = data/users/1CCiJ97XHgVeJrkbnzLgfXvYRr8QEWxnWF/data.json, required = false\nall.js:67842 MoneyNetworkHelper.save_local_storage wrapperSetLocalStorage callback: OK\nall.js:67862 MoneyNetworkHelper.post_user_info fileGet callback: data = null\nall.js:67880 MoneyNetworkHelper.post_user_info fileGet callback: calling fileWrite: inner_path = data/users/1CCiJ97XHgVeJrkbnzLgfXvYRr8QEWxnWF/data.json, data = \"ewoJInNoYTI1NiI6ICIxOGE2MzU2OWJmZTFiNTQ3NTVkYmQ3MjJjZGI0Y2IwOTI5MjM2YTZiMDU1YmNkNGJkNjhhZGFlNjExNzgzNzg3IiwKCSJwdWJrZXkiOiAiLS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS1cbk1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBaXp3ZkdLUFRGK3JJaDRlc0lmVitcbk9GekNrS1k3MWlHV241eU1MRHF5Wm1ySmZQazVJWW5zK2NTTmcwb003UHF1bCs4VVpuVmNScElzc2pFMDBwQ2lcbk9qWE1tUTNmSkEyUCs2TUliekc5QnljVVB1RkJ3T2FxTTE5b3BFY1JxWXVUYWlWc0FqWFZQR3RyeWtpdDgzbjlcbnF0dCtzaXk1RnpwQTNHUkNiMHRzc0RtaSt4VXE4aFVLUlRQeVhIaEFsamZGNjFBa0JJSGdDNGhFM1JzSGhXUmxcbjV6c1BJV0NIYnlQaFJaNG1Ic2tCUmVzWnBoWENuK1BKcFhTYkVGMUsyQ3RCaWs0U3pBMEFDQ2tNeWVOM0lOWHRcbkRFdjJEZzUxU1Fmbk1jY2ptUkVVbjRHSUd0a1Jqb2dPckVCdEtSa2RPOFdXRnhtRWRjRFBHSWJleEVEQ1NsdkpcbnZRSURBUUFCXG4tLS0tLUVORCBQVUJMSUMgS0VZLS0tLS0iLAoJInNlYXJjaCI6IFsKCQl7CgkJCSJ0YWciOiAiTmFtZSIsCgkJCSJ2YWx1ZSI6ICJ4eHgiLAoJCQkidGltZSI6IDE0NzUxNDY4MjI3MDAKCQl9CgldCn0=\"\nall.js:67883 MoneyNetworkHelper.post_user_info fileWrite callback: res = \"ok\"\nall.js:67885 MoneyNetworkHelper.post_user_info fileWrite callback: calling sitePublish: inner_path = data/users/1CCiJ97XHgVeJrkbnzLgfXvYRr8QEWxnWF/content.json\nall.js?rev=1523:547 hideProgress\nall.js:11292 [ZeroFrame] ZeroFrame.prototype.route - ignored message  {\"cmd\":\"setSiteInfo\",\"params\":{\"tasks\":0,\"size_limit\":10,\"address\":\"1JeHa67QEvrrFpsSow82fLypw8LoRcmCXk\",\"next_size_limit\":10,\"auth_address\":\"1CCiJ97XHgVeJrkbnzLgfXvYRr8QEWxnWF\",\"auth_key_sha512\":\"f24c2aed1c714be7736042a3ac34fa94e0540be04296fd25daf899249a10398e\",\"content\":{\"files\":9,\"inner_path\":\"content.json\",\"description\":\"Complementary & alternative money demo\",\"title\":\"Money Network\",\"files_optional\":0,\"address\":\"1JeHa67QEvrrFpsSow82fLypw8LoRcmCXk\",\"signs_required\":1,\"modified\":1475146293.384586,\"includes\":1,\"ignore\":\"((js|css)/(?!all.(js|css))|.idea|.git|data/.*db|data/users/.*/.*)\",\"zeronet_version\":\"0.4.1\",\"postmessage_nonce_security\":true,\"viewport\":\"width=device-width, initial-scale=1.0\"},\"peers\":4,\"auth_key\":\"3f403a58714cfb11290781d3bff96fc4e5f656beba0e15f5d8c1fc8de513520d\",\"settings\":{\"peers\":3,\"added\":1474188756,\"bytes_recv\":18364455,\"cache\":{},\"bytes_sent\":84465052,\"modified\":1475146822.734696,\"serving\":true,\"own\":true,\"permissions\":[],\"size\":3156154},\"bad_files\":8,\"workers\":0,\"privatekey\":false,\"cert_user_id\":\"1CCiJ97XHgVeJ@moneynetwork\",\"started_task_num\":0,\"content_updated\":null},\"id\":6}\nall.js:67888 MoneyNetworkHelper.post_user_info sitePublish callback: res = \"ok\"\n\nOK notification\n\n==========================\n\nZeroNet proxy test:\n\nall.js?rev=1525:1357 [Wrapper] Created!\nall.js?rev=1525:106 [ZeroWebsocket] Open\nall.js?rev=1525:1357 [Wrapper] Setting title to Money Network - ZeroNet\nall.js:67897 MoneyNetworkHelper: ZeroFrame.site_info = undefined\nall.js?rev=1525:1357 [Wrapper] Setting title to Money Network - ZeroNet\nall.js:68581 NavCtrl loaded\nall.js:68504 MoneyNetworkService loaded\nall.js:68590 AuthCtrl loaded\nall.js:11292 [ZeroFrame] Websocket open\nall.js:68602 AuthCtrl.login_or_register: passwords = null, no_users = 0\nall.js:68386 MoneyNetworkHelper.client_login: create new account\nall.js:68654 UserCtrl loaded\nall.js:67859 MoneyNetworkHelper. post_user_info: calling fileGet: inner_path = data/users/14cjbPFG2j2bAZ6KHfocpnZUHoqhzofwhQ/data.json, required = false\nall.js:67862 MoneyNetworkHelper.save_local_storage fileGet callback: data = null\nall.js:67880 MoneyNetworkHelper.save_local_storage fileGet callback: calling fileWrite: inner_path = data/users/14cjbPFG2j2bAZ6KHfocpnZUHoqhzofwhQ/data.json, data = \"ewoJInNoYTI1NiI6ICIxMWYzZGI3NjUzYmNkMjk5NDExNDFjMDRmM2U2NDAwOWY1ZGEwMDUwMWI3N2YyZDg5MmVkNGVmOWI4NTE5M2M5IiwKCSJwdWJrZXkiOiAiLS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS1cbk1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBbFIxcWhMZGhKM3VORmRkNGVXc0lcbjVVcDNqV2NUWGJJSWRzZ1NVYVh6MVBJSG1QZnZBcFlwQ0VhSDIzUlgzc3o1UENCeGRjeDBmWlVCNDREbTliZXBcbjRST0hSRG9DY0l6NW4vUzVuRlNISmszTzc4MTY3WVNHbDVZVHZtcVJDM0NGT20rbGNQLzkzZHh1aUxOZXJ5b2hcblQzVHdoTU5BUk5lZlBtSGtVQjd3RU1MTXByRnc4ai9qazVPV1VLTFBtVFNyb3ZzbnJHTnVQblRSQWtDZzQ3U2dcblNXUjBmd2t4cnBydy9ZWEFwb3RvYUtrclJIY3VrVk9ROFFPSTFYL0NTVDNNdkFFbmNZUmd6dnRsVzZSOGJKTHRcbjhmWlZ6TVRzUTZhYkJScUlWQVBZOXpxZ1NzdlF3ZDN5N1NiS004bUZDNUN1ZUNBZEdldlQ0RVVWMTR2emdvNEtcbk5RSURBUUFCXG4tLS0tLUVORCBQVUJMSUMgS0VZLS0tLS0iLAoJInNlYXJjaCI6IFsKCQl7CgkJCSJ0YWciOiAiTmFtZSIsCgkJCSJ2YWx1ZSI6ICJ4eHgiLAoJCQkidGltZSI6IDE0NzUxNDY0ODg1ODgKCQl9CgldCn0=\"\nall.js:67883 MoneyNetworkHelper.save_local_storage fileWrite callback: res = \"ok\"\nall.js:67885 MoneyNetworkHelper.save_local_storage fileWrite callback: calling sitePublish: inner_path = data/users/14cjbPFG2j2bAZ6KHfocpnZUHoqhzofwhQ/content.json\n\nNotification:\n\nInternal error: TypeError: 'NoneType' object has no attribute '__getitem__'\nUiWebsocket.py line 99 > UiWebsocket.py line 176 > MergerSitePlugin.py line 161 > MergerSitePlugin.py line 155 > UiWebsocket.py line 326 > MergerSitePlugin.py line 158 > MergerSitePlugin.py line 155 > UiWebsocket.py line 289",
+				"added": 1475147635
+			}
+		],
+		"3_18DbeZgtVCcLghmtzvg4Uv8uRQAwR8wnDQ": [
+			{
+				"comment_id": 12,
+				"body": "OK. Disabled my cookie cleanup plugin and localStorage data were no longer deleted between visors. But it would be nice to know where and how data are stored on server. Are data on server stored encrypted?",
+				"added": 1475392693
+			}
+		],
+		"4_18DbeZgtVCcLghmtzvg4Uv8uRQAwR8wnDQ": [],
+		"1_1EnFfeVqTYtJfhzucfQB8Z7sCfUBipRRow": [
+			{
+				"comment_id": 16,
+				"body": "Hope you don't run out of money soon ... :-) \nIs there a delay in site updates on onlyzero.net proxy? I am testing my zite changes on several proxies and some times run into old versions of all.js or all.css even if the Hello ZeroNet_ is saying the my zite is up to date. Usual OK after some minutes. Not a problem on other zeronet proxies. Not a big problem but maybe you would like to know.",
+				"added": 1477066960
+			},
+			{
+				"comment_id": 17,
+				"body": "> [jro](#comment_16_18DbeZgtVCcLghmtzvg4Uv8uRQAwR8wnDQ): Hope you don't run out of money soon ... :-)Is there a delay in site updates on onlyzero.net proxy? I am testing my zite changes on several proxies and some times run into old versions of all.js or all.css even if the Hello ZeroNet_ is saying the my zite is up to date. Usual OK after some minutes. Not a problem on other zeronet proxies. Not a big problem but maybe you would like to know.\n\nThe problem is only with \"big\" files. Index.html gets replicated fast. all.js is delayed. Shouldn't all files be in sync when Hello ZeroNet_ reports zite updated?",
+				"added": 1477073515
+			}
+		],
+		"1_15dw2ne2hZ5wdTpg39HRq4TGiwDY3LaAH7": [
+			{
+				"comment_id": 22,
+				"body": "It should be possible to use browser console (F12) and fileQuery command in ZeroFrame API to make a quick search. https://zeronet.readthedocs.io/en/latest/site_development/zeroframe_api_reference/#filequery-dir_inner_path-query",
+				"added": 1477909052
+			}
+		],
+		"1_1BHd3LMHR6ktduvE7mGSdsR4y6JGeU24nv": [
+			{
+				"comment_id": 23,
+				"body": "It would be a stupid to use ZeroNet for something like that. Everything in here is public and most zites are using a central user ID provider. You can use TOR, but you data will be in content.json and data.json files on every dynamic zite you visits. I think that people like that will go somewhere else ...",
+				"added": 1477909802
+			}
+		]
+	},
+	"comment_vote": {}
+}

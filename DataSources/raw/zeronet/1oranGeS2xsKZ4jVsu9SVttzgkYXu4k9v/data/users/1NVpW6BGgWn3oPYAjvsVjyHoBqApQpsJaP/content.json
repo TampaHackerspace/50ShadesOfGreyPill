@@ -1,0 +1,18 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G594R7S72j75Cy68rHewPkhrBreDCzGvC+51BdAbW0r+C82p0sn0XCAUCucTrCjSHemdiEGqznBSUIcPzJ31rCM=",
+ "cert_user_id": "pigpog@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "0cbe3fbcc0aa04debb52a5992c51e12debe90db9afdc46cbb40646abac3be4c5",
+   "size": 2515
+  }
+ },
+ "inner_path": "data/users/1NVpW6BGgWn3oPYAjvsVjyHoBqApQpsJaP/content.json",
+ "modified": 1483749889.292514,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1NVpW6BGgWn3oPYAjvsVjyHoBqApQpsJaP": "G+DdvIZnViz0syE/vJYSmvR8QYlb1o6jlLyGeDFqGIEH81SiB8ucWLJNIjm8mp+RjulokqXU7r6orNlLUzFU9zE="
+ }
+}

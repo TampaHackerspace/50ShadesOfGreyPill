@@ -1,0 +1,1589 @@
+{
+	"next_topic_id": 33,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Easy way to import video and images to your blog",
+			"body": "Is it possible to add a button on the blog that people can use to import video and photos to their blogs? I put an example picture on imgur to show you what I mean. https://imgur.com/cHSotvi This way would be even better than markdown.",
+			"added": 1438875413
+		},
+		{
+			"topic_id": 2,
+			"title": "Linking to a folder with images.",
+			"body": "This is my test blog http://127.0.0.1:43110/16Px6Jf5u2wsrrhe1opM1VwZFWqrnB9fwN I have a picture I want to use as a link <a href=\"img/post\">\n<img src=\"img/post/8be37d89.jpg\" alt=\"img/post\" width=\"82\" height=\"82\" border=\"0\">\n</a> How do I link it to another folder? I want to link it to a folder called NatureScenes - ZeroBundle\\ZeroNet\\data\\16Px6Jf5u2wsrrhe1opM1VwZFWqrnB9fwN\\img\\Folders\\NatureScenes I can click on the image but don't know how to link it to the NatureScenes folder. Sorry I'm a noob at coding.",
+			"added": 1442155304
+		},
+		{
+			"topic_id": 3,
+			"title": "I want to change my operating system",
+			"body": "I'm sick of Windows and don't trust it. I'm thinking of installing Linux Mint or Debian. Can anyone tell me which is better and how hard it is to install Zeronet on them.",
+			"added": 1442512817
+		},
+		{
+			"topic_id": 4,
+			"title": "Having problems linking to a html file I created",
+			"body": "I'm trying to link to a html I created but I'm doing something wrong. Can someone please tell me if I have something wrong with the code I'm using \n<a href=\"/img/naturescenes/\">\n<img src=\"img/naturescenes/nature1.jpg\" alt=\"img/naturescenes/test.html\" width=\"100\" height=\"100\" border=\"0\">\n</a> \nI'm using a image as the link button. When I click on it, it opens a page and this is the only thing on the page Not Found /img/naturescenes/ \nI put the html file in the naturescenes folder, which I believe is where it supposed to go. And here is my html \n<html>\n<head>\n<title>Nature Scenes</title>\n</head>\n<body>\n<img src=\"nature1.jpg\"><img src=\"nature2.jpg\"><img src=\"nature3.jpg\"><img src=\"nature4.jpg\">\n<img src=\"nature5.jpg\"><img src=\"nature6.jpg\"><img src=\"nature7.jpg\"><img src=\"nature8.jpg\">\n<img src=\"nature9.jpg\"><img src=\"nature10.jpg\"><img src=\"nature11.jpg\"><img src=\"nature12.jpg\">\n<img src=\"nature13.jpg\"><img src=\"nature14.jpg\"><img src=\"nature15.jpg\"><img src=\"nature16.jpg\">\n</body>\n</html>  This is my blog http://127.0.0.1:43110/16Px6Jf5u2wsrrhe1opM1VwZFWqrnB9fwN",
+			"added": 1444401532
+		},
+		{
+			"topic_id": 5,
+			"title": "Background and Avatar",
+			"body": "How do you change the avatar and background? Which file do I have to edit? I assume it's the CSS.",
+			"added": 1444750896
+		},
+		{
+			"topic_id": 6,
+			"title": "Unable to update ZeroNet",
+			"body": "I have version 0.3.2 (r467) and tried to update but have had no luck. I've hit the update button and it takes me to the github page but it doesn't update ZeroNet. I also tried running the update.py and still ZeroNet wouldn't update. Any idea what's wrong?",
+			"added": 1445535451
+		},
+		{
+			"topic_id": 7,
+			"title": "Templates",
+			"body": "Is it possible to use website templates on zeronet? I found this one called Polygon which is pretty cool. http://www.templatemo.com/tm-400-polygon",
+			"added": 1446389849
+		},
+		{
+			"topic_id": 8,
+			"title": "Blog improvments",
+			"body": "The blog needs a admin panel something like this https://imgur.com/kiXXvap so people can change the look of the blog easier or add media easier. It needs a button you can click on that brings up a color chart to pick a color for the background and it could also give you an option to search your computer for a image to use as the background. It would also be nice if it could be used to create header bars or side bars. Adding an admin panel will help cut back on the coding people have to do to the css and html files and it will help draw more people to ZeroNet.",
+			"added": 1446956601
+		},
+		{
+			"topic_id": 9,
+			"title": "ZeroUpload",
+			"body": "Has anyone tried zeroupload yet? I just found it and it looks interesting. http://127.0.0.1:43110/ZeroUpload.bit",
+			"added": 1447651913
+		},
+		{
+			"topic_id": 10,
+			"title": "Animated ZeroNet Logo",
+			"body": "I created a animated ZeroNet logo that anybody can use if they want, it's on my test blog http://127.0.0.1:43110/16Px6Jf5u2wsrrhe1opM1VwZFWqrnB9fwN",
+			"added": 1448575498
+		},
+		{
+			"topic_id": 11,
+			"title": "Dashboard for the blog",
+			"body": "I want to create a dashboard for the blog but don't know how. Can anyone direct me to a website that might have information on how to do it. I believe you can make a dashboard with just html and css.",
+			"added": 1449031206
+		},
+		{
+			"topic_id": 12,
+			"title": "Problem posting message on ZeroBoard",
+			"body": "I just tried to post a message on ZeroBoard and it wont post it. I just get a message at the top of the page that says Message submit failed undefined.  It's always worked before. Has any one else had this problem?",
+			"added": 1450508828
+		},
+		{
+			"topic_id": 13,
+			"title": "Radio",
+			"body": "Someone needs to make a radio website, if it's possible, so people can listen to music on ZeroNet. ZeroRadio",
+			"added": 1450758201
+		},
+		{
+			"topic_id": 14,
+			"title": "ZeroTalk not updating",
+			"body": "I am having trouble with sites not updating. I had at first 16 sites that weren't updating so I deleted those sites. Now for some reason ZeroTalk isn't updating and I've never had a problem with ZeroTalk not updating. Any idea what's wrong?",
+			"added": 1452208873
+		},
+		{
+			"topic_id": 16,
+			"title": "Language Translator",
+			"body": "I noticed a few ZeroNet sites were in different languages. Would be very useful if ZeroNet had some kind of translator to translate those websites.",
+			"added": 1452327330
+		},
+		{
+			"topic_id": 17,
+			"title": "Debug logs and error log",
+			"body": "Nofish I emailed you my Debug logs and a error.log at hello@zeronet.io. When you get time can you please go over them and let me know what's wrong. The error.log showed up after I updated to 0.3.5 r833",
+			"added": 1452408558
+		},
+		{
+			"topic_id": 18,
+			"title": "Ametys",
+			"body": "I noticed zeronet has ckeditor in ZeroNet-master/src/lib/ckeditor-java-core-3.5.3 Ametys is open source and similar to ckeditor,  and I was wondering if it was possible to integrate ametys into a zeronet website. If it is possible can someone please let me know how to do it.  http://www.ametys.org/us/en/ametys-cms.html",
+			"added": 1455230751
+		},
+		{
+			"topic_id": 19,
+			"title": "p2p social sharing",
+			"body": "I just found this on GitHub, It's called Patchwork and it looks pretty interesting. Maybe it could be used on ZeroNet. It's also javascript.\nhttps://github.com/ssbc/patchwork",
+			"added": 1455604522
+		},
+		{
+			"topic_id": 20,
+			"title": "ckeditor help",
+			"body": "I cloned a new blog http://127.0.0.1:43110/1DmbKAfHRyJhtEQ1cLxxgrY5GKqSRPEDZE and I want to add ckeditor http://ckeditor.com/ to it. I put the ckeditor file in the root directory but I don't know what I need to change in the index.html. Can someone please help.",
+			"added": 1455840713
+		},
+		{
+			"topic_id": 21,
+			"title": "Tutorials",
+			"body": "Links to Youtube coding tutorials  http://127.0.0.1:43110/14AC8D54pqHWTkznSpRmS6V2TFWjs1k1bi",
+			"added": 1456505623
+		},
+		{
+			"topic_id": 22,
+			"title": "Tutorials",
+			"body": "Here's some video tutorials using html css javascript and python http://127.0.0.1:43110/1DmbKAfHRyJhtEQ1cLxxgrY5GKqSRPEDZE",
+			"added": 1457238353
+		},
+		{
+			"topic_id": 23,
+			"title": "Updating",
+			"body": "Took a screenshot of ZeroNet updating and I noticed ZeroMail says updating 2463 left and ZeroTalk says updating 1100 left. Some other sites say the same thing and it seems updating is taking forever. Is this normal?  https://ipfs.pics/QmPzrN777K5CFYjX7ykzrj9pamLn2jVXYYWLShrugFtoKg",
+			"added": 1457534560
+		},
+		{
+			"topic_id": 24,
+			"title": "Game suggestion",
+			"body": "Is it possible to play online games like Poker, Black Jack or Texas Hold'em over Zeronet, it would be nice if people on ZeroNet could play against one another.",
+			"added": 1458972225
+		},
+		{
+			"topic_id": 25,
+			"title": "BlueGriffon",
+			"body": "Is it possible to use bluegriffon to edit ZeroNet sites? http://bluegriffon.org/",
+			"added": 1460392427
+		},
+		{
+			"topic_id": 26,
+			"title": "ZeroAdmin",
+			"body": "Is this Admin still being developed for us non-coders. It seems like a dead project, hope it isn't.  https://github.com/HelloZeroNet/ZeroAdmin",
+			"added": 1463412355
+		},
+		{
+			"topic_id": 28,
+			"title": "solarmovie",
+			"body": "Anybody know of a good alternative to solarmovie.ph",
+			"added": 1469311603
+		},
+		{
+			"topic_id": 29,
+			"title": "Solarmovie and MP3Skull",
+			"body": "Both of these sites were shut down, I assume by the Feds and a lot of people loved them. If you guys that can code would create a Solarmovie site and a MP3Skull site on ZeroNet it would probably help get more people to use ZeroNet.",
+			"added": 1473881032
+		},
+		{
+			"topic_id": 30,
+			"title": "Leonardo Losoviz: How to Make a Decentralized WordPress Website",
+			"body": "https://wordpress.tv/2016/09/10/leonardo-losoviz-how-to-make-a-decentralized-wordpress-website/ PoP framework website: https://getpop.org/en/ PoP demo: https://demo.getpop.org/en/ Repository with the code: https://github.com/leoloso/PoP",
+			"added": 1474066598
+		},
+		{
+			"topic_id": 31,
+			"title": "ZeroMail",
+			"body": "Nofish, ZeroMail has quit working for me after I updated to rev 1529. I tried to send a message and when I hit the encrypt & send message button nothing happens. Is there another way I can send you my debug logs and error logs to see if you can tell what's wrong. I don't understand those logs.",
+			"added": 1475436674
+		},
+		{
+			"topic_id": 32,
+			"title": "Zeroit",
+			"body": "I'm seeding this site called Zeroit and I noticed everything in the pull out side panel is missing. When I open it up all I get is a black area and a error message at the top the page. Here's a screenshot https://sli.mg/Izx8bz I was just wondering if this was a bug or something wrong with just that site. The side panel is fine on all the other sites I seed.",
+			"added": 1476131955
+		}
+	],
+	"topic_vote": {
+		"1_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"8_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"1_1NVf2GWG9BTq8HFUumUbfp9N9HmYwZpkSv": 1,
+		"2_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn": 1,
+		"1_1J2AKukZAJ5b6dJgBjMgWCBUGw7ZVh46XH": 1,
+		"1_1NyGo7eBax4F1dm1gsoVHg9gCqm5EUhFAP": 1,
+		"10_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"1_1LUP6SN7WrXAH7e5bUFxdmrVsFr2m43XB4": 1,
+		"1_1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS": 1,
+		"16_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"1_1L4fuhUB75eAdVbDY9AJ4z2i2dwMho7MV8": 1,
+		"3_1NibKcCcidCHue94Rhr7F4Gvu3Lg6FAESp": 1,
+		"1_1ArMJqDaBJqeJ4MX3VqSnkfwkHe23PtLrW": 1,
+		"1_13KqD3BoaRMudEG5QU2fnGLkSVx8qDXKof": 1,
+		"2_15y72LFjQ4ymUTnkJP6CC7r73R5uoePgFW": 1,
+		"1_1LJZx8qi387MXRwpcnzyirzr4wTUZN8QtV": 1,
+		"18_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"5_1MmPY9fniJwwhP6WsgH4jWoq5rBAVV6KWy": 1,
+		"20_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"18_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"21_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"1_1Kw542ksma7AFT9pCssiwDthvVjywu52NU": 1,
+		"13_1PNyuY1iZqXBpft4ArouqcnE4pNRGYij5i": 1,
+		"3_1NRTwjkXBxbeyrWhUvik7pLVoxWtsSjHQi": 1,
+		"22_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"4_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn": 1,
+		"3_1Kg7CXZM5h3wTPENsTDwWUmRBf9VhYy2cW": 1,
+		"1_1BQg5MQZ63aEQZMzLEXP6yY3hsgznKpaps": 1,
+		"1_1ByKXu4VhEGgR47xjRKm9MmK8czPVzBfTw": 1,
+		"3_1NzjwWNcVjsX1ndBgkgC1EM5EUzMACGm8L": 1,
+		"2_13qeq1z87R1kQWDZUQYm3y7tDCLimnhfvS": 1,
+		"8_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx": 1,
+		"1_1AFL4FFT3BuEDwTwVqychMq4LbxjuEY5Ss": 1,
+		"1_12hJwjVmzniyzHpPB98DHcULigShS2SEHC": 1,
+		"6_13dUD5qbY6LaXH9pfh5iDgXHgKjCZPxvZV": 1,
+		"1_18sw1reMFB1fpxc4vjfjoCrLaFs8UbMeQH": 1,
+		"4_1LJMypJ67iEBwah82xwVVdB8SGZ1mwqgHQ": 1,
+		"3_1BidR2Pw65fTPeh1R3LbwCdfEJUPB6FLes": 1,
+		"6_1NzjwWNcVjsX1ndBgkgC1EM5EUzMACGm8L": 1,
+		"5_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": 1,
+		"10_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"1_1NLgFk1wAvq64yghgHGQMM99uhaxc6NCzZ": 1,
+		"7_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"12_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx": 1,
+		"24_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"1_1HHsJVKEXQwfg8d1NSnNi55SfMWCsuqGYR": 1,
+		"6_1MahZJTzjoEMMCv2jBReDWhyNGRhN5tvDq": 1,
+		"1_1AkE5mjeYRiQLGF8Q6NmGvpkm1kk1R6zMe": 1,
+		"6_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"1_16cy6RFfpfS5tApfsSGkdcaE8JcCU1LARN": 1,
+		"25_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"5_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": 1,
+		"2_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT": 1,
+		"50_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": 1,
+		"7_13dUD5qbY6LaXH9pfh5iDgXHgKjCZPxvZV": 1,
+		"1_1M5gEZBRPpw1aistyGj66SkLi3muDxcf3V": 1,
+		"2_1HDGK4rrMzuouF8hNnxfMNpWyR8qAtP4HR": 1,
+		"1_1FY2Aej66JkkqSGGHq39nwW9JzcGoAzuhc": 1,
+		"1_135FhWeyR5XiMwSgv2YfFheotfqYPkKnWj": 1,
+		"7_18rFd7W9y5QGQEVXaCoJV7jyt7D8aN156h": 1,
+		"1_185DbM1bicB5M1wmxkPPVjaUH9mVrHzL8": 1,
+		"4_1NibKcCcidCHue94Rhr7F4Gvu3Lg6FAESp": 1,
+		"1_17ApQKugX1XH727gpAeD3mrRLjLxASdakd": 1,
+		"1_15pP7zJwomjgZjmwS52t7AMsc5NabvzxV9": 1,
+		"1_13EDCw412fCWqTmR4RxRw99aEd2ucYzDyM": 1,
+		"26_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"23_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"2_1KXzch3zUkyQ43btkfjHEeZKhBrTkUSRor": 1,
+		"5_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"2_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"8_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"6_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"1_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"1_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": 1,
+		"1_1PoA7YxWVZKoXWoD1PjdwByFqqCA8d2uqr": 1,
+		"30_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"2_1MDjoCqFDeRHGESqDBF8oGhG3ZjCdVo8pr": 1,
+		"1_1NTyunqMj3zioKiVtg9zxHjfyWjfXuYraV": 1,
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": 1,
+		"31_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"2_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"1_163sF1Kdsd5LdpjAXDKBshdEBNJH6PUqvg": 1,
+		"3_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"1_14DujeMmUQr14gCcg6ZUVcdU1DA5GphYvG": 1
+	},
+	"next_comment_id": 203,
+	"comment": {
+		"1_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": [
+			{
+				"comment_id": 1,
+				"body": "I've been encouraging people to come to zeronet and start a website. Yesterday I contacted the people who run http://www.couchtuner.la/ and told them they should start a zeronet website.",
+				"added": 1438406287
+			},
+			{
+				"comment_id": 2,
+				"body": "> [foshu](#comment_2_1KLafGGRHDuijHzTX6w9KAdGiSwbBhuJar): Jekyll works pretty well too.Tutorial -https://www.youtube.com/watch?v=EtqZVTIro_c\n\nThanks for the video tutorial on youtube. I wish there were more video tutorials.",
+				"added": 1438831931
+			}
+		],
+		"2_1MS7WkWAZUSohgV5uUF2Ze3kdbifi4J82L": [
+			{
+				"comment_id": 3,
+				"body": "The search engine needs a image and video search like google, it will help draw people to zeronet. A lot of people use those in google. \n Your competing against Maelstrom but you do need a decentralized browser, I'm a firm believer if your going to go decentralized, go all the way. Firefox and Chrome are basically centralized. Is it possible to integrate a decentralized browser into zeronet (zeronet with it's own built-in browser) \n And lostfile is right about zerohello, it is a lot better. \nYou need better support for big videos.\n And about data retention, I've been encouraging websites like http://www.couchtuner.la/ and https://www.solarmovie.is/ to build a website on zeronet and if they do build one, I'm sure it'll be around longer than two weeks.",
+				"added": 1439878840
+			}
+		],
+		"3_1MS7WkWAZUSohgV5uUF2Ze3kdbifi4J82L": [
+			{
+				"comment_id": 4,
+				"body": "Contact @yacy_search on twitter and ask them for advice on how to do it. It should be possible, read the Advantages on this page https://en.wikipedia.org/wiki/YaCy (Because of the design of YaCy, it can be used to index intranets or darknets, where Internet search engines do not or can not operate, including Tor, I2P or Freenet) I was only able to put the yacy search box on my zeronet blog http://127.0.0.1:43110/16Px6Jf5u2wsrrhe1opM1VwZFWqrnB9fwN",
+				"added": 1441860286
+			}
+		],
+		"2_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 5,
+				"body": "> [zerobunker](#comment_77_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar): http://127.0.0.1:43110/16Px6Jf5u2wsrrhe1opM1VwZFWqrnB9fwN/img/posti just try it,it seems if you dont have index.html it will return error page.\n> click picture in this link,maybe this is what you mean.http://127.0.0.1:43110/1DALyf4TpN3yJDehnRtKpTxUixAUmwzEMZ/?Post:8:New+blog+post\n> this is the code:<a href=\"http://127.0.0.1:43110/1DALyf4TpN3yJDehnRtKpTxUixAUmwzEMZ/foto/test/\"><img src=\"foto/nolimit.png\" alt=\"img/post\" width=\"320\" height=\"382\" border=\"0\"></a>\n\nThanks zerobunker, I finally got it using this code <a href=\"img/post/beautiful+nature+photo.jpg\">\n<img src=\"img/post/8be37d89.jpg\" alt=\"img/post\" width=\"82\" height=\"82\" border=\"0\">\n</a> But is there a way to open a folder and view all the pictures in it? Example - I click the picture I'm using as the link and it opens a page with 16 pictures of nature scenes. ",
+				"added": 1442243476
+			},
+			{
+				"comment_id": 6,
+				"body": "> [zerobunker](#comment_78_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar): you have to make index.html inside the folder witch contain 16 picture and show all the picture with img tag manualy one by one.that because zeronet dont have webserver like apache to maintain it file access.\n> you can try this linkhttps://perishablepress.com/better-default-directory-views-with-htaccess/\n\nThanks zerobunker for the link, I also found these links as well http://www.yourhtmlsource.com/myfirstsite/basiclinks.html http://www.brighthub.com/internet/web-development/articles/70102.aspx http://www.simplehtml.co.uk/pages/folders.html I'm hoping one of them helps me. I'm a newbie at coding.",
+				"added": 1442331039
+			}
+		],
+		"3_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 7,
+				"body": "> [pycole](#comment_2_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): I've installed zeronet on Ubuntu. It was slightly harder than on Windows, but still doable. Just follow the instructions on the webpage, (https://github.com/HelloZeroNet/ZeroNet) and you'll be fine. However, you may want to make an alias to start zeronet, otherwise you'll need to  point your terminal to the Zeronet-master folder to start. more info on that here: http://askubuntu.com/questions/17536/how-do-i-create-a-permanent-bash-alias\n> I have no experience with Mint, but I do like Ubuntu. Also, Arch is often considered more secure than either of those (although it has a far steeper learning curve). If you want to try Arch linux, I suggest starting with Manjaro.\n\nWill I be able to move my zeronet files to the new operating system so I can still use this ID?",
+				"added": 1442586497
+			},
+			{
+				"comment_id": 8,
+				"body": "> [nofish](#comment_73_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yes, you only need to copy data/users.json file to the new installation.\n\nThanks nofish, I think I'm going to use Linux Mint.",
+				"added": 1442593695
+			},
+			{
+				"comment_id": 9,
+				"body": "Thanks guys for your views. I think I know what I'm going to do. I have a computer with 3 hard drives so I'm going to install Mint on one drive and I'm going to install virtual box with Debian on another drive to try it and on the third drive I'm going to install another virtual box so I can try out two new operating systems I learned about that seem very promising, one of those is called Qubes https://www.qubes-os.org/ and the other one is Whonix https://www.whonix.org/ Qubes is an open-source operating system designed to provide strong security for desktop computing using Security by Compartmentalization approach. and Whonix is based on the Tor anonymity network and Debian. Check them out. ",
+				"added": 1442891498
+			}
+		],
+		"4_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 10,
+				"body": "> [nofish](#comment_89_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): You have to use relative path since /img/naturescenes points to 127.0.0.1/img/naturescenes. And directory listing is not supported yet, so you have to add a html file to the end.\n> So change the href=\"/img/naturescenes\" to href=\"img/naturescenes/index.html\".\n\nThanks nofish, I changed it to <a href=\"img/naturescenes/index.html\"> but still having problem. Now when I click on the image and it takes me to http://127.0.0.1:43110/16Px6Jf5u2wsrrhe1opM1VwZFWqrnB9fwN/img/naturescenes/index.html but the only thing on the page now is this Not Found\nimg/naturescenes/index.html",
+				"added": 1444403284
+			},
+			{
+				"comment_id": 11,
+				"body": "> [nofish](#comment_89_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): You have to use relative path since /img/naturescenes points to 127.0.0.1/img/naturescenes. And directory listing is not supported yet, so you have to add a html file to the end.\n> So change the href=\"/img/naturescenes\" to href=\"img/naturescenes/index.html\".\n\nI figured it out nofish, I had my html named test.html and it wouldn't work so I renamed it index.html and now when I click on the image it opens up the html and I can see the pictures.",
+				"added": 1444404676
+			},
+			{
+				"comment_id": 12,
+				"body": "> [heathenman](#comment_7_16dVbybDseQBQnxdJDuQhCzYAij8iR8YEc): the alt argument gaves an alternate text if image cant load, your code looks like youve tried to link directly with an img tag.\n\nYour right I forgot about that. I changed it to alt=\"img/naturescenes\"",
+				"added": 1444531764
+			}
+		],
+		"3_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": [
+			{
+				"comment_id": 13,
+				"body": "ZeroCinema http://127.0.0.1:43110/1FjxvRMjBw5CUKpY3TCn76tszxHegohFqV I tried to add it my site to ZeroSearch but it didn't seem to work.",
+				"added": 1444662300
+			},
+			{
+				"comment_id": 14,
+				"body": "> [anotherproxyuser](#comment_4_1QEK6cs18PFgPZE3AcZNA6h41ipUn5pVrC): every add will be reviewed manual, sit back and wait for it\n\nThanks",
+				"added": 1444703977
+			},
+			{
+				"comment_id": 71,
+				"body": "Maybe you can get some ideas from faroo to improve zerosearch. Faroo is a p2p search engine. https://en.wikipedia.org/wiki/FAROO http://www.faroo.com/",
+				"added": 1452229898
+			},
+			{
+				"comment_id": 113,
+				"body": "> [zozon](#comment_77_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55): hi i tried another generator read on\n\nYour getting good with the static sites.",
+				"added": 1455425081
+			},
+			{
+				"comment_id": 134,
+				"body": "> [muja](#comment_37_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr): Street Art using optional files.\n\nSent you a zeromail about polls and voting that you were interested in.",
+				"added": 1456286296
+			}
+		],
+		"5_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 15,
+				"body": "> [zerobunker](#comment_86_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar): yep,it was on css.you can track the source code using developer toll.(if you use firefox just press F12)\n\nThanks zerobunker. I'd like to use this pic https://imgur.com/Wyb8tZJ as a background on zerocinema http://127.0.0.1:43110/1FjxvRMjBw5CUKpY3TCn76tszxHegohFqV I also have a picture of a bag of popcorn I want to use as the avatar. I want to make zerocinema less plain looking.",
+				"added": 1444937480
+			},
+			{
+				"comment_id": 16,
+				"body": "> [zerobunker](#comment_88_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar): for background:change this codebody { background-color: white; color: #333332; margin: 10px; padding: 0px; font-family: 'Roboto', sans-serif; height: 15000px; overflow: hidden; backface-visibility: hidden }whit this codebody {background-image: url(\"https://i.imgur.com/Wyb8tZJ.jpg\"); color: #333332; margin: 10px; padding: 0px; font-family: 'Roboto', sans-serif; height: 15000px; overflow: hidden; backface-visibility: hidden }\n\nThank you zerobunker for your help. I have both pictures in my img folder and I'm going to try to link to them there is possible. For the background it should be something like this right? \nbody {background-image: url(\"img/cinema2.jpg\"); color: #333332; margin: 10px; padding: 0px; font-family: 'Roboto', sans-serif; height: 15000px; overflow: hidden; backface-visibility: hidden } \nAnd for the popcorn I should just do the same thing img/popcorn.jpg ? I'll try to change them on my next days off work. I'll let you know how it goes. I realize learning coding can make you pull your hair out, especially if your a noob like me.",
+				"added": 1445096674
+			}
+		],
+		"6_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 17,
+				"body": "> [nofish](#comment_100_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): When executing update.py at the end it has to display \"Done. Press enter to exit.\" \n> If you don't have that please try to execute update.py from File > Open command prompt > update.py to see if there is any error message.\n\nWhen I run update.py I get nothing, it doesn't have Done that shows up. I just tried update.py in the terminal and I got this - update.py: command not found Any idea what's wrong.",
+				"added": 1445537030
+			},
+			{
+				"comment_id": 18,
+				"body": "> [thekill38](#comment_2_1D7DRHxZ8WMHLvkyaVWEZsdAZSQvLY5JQM): You need to click on VERSION and then the button to update shows up.\n> If you are on windows open a command prompt and go to ZeroNet folder, there you run ..\\Python\\python.exe update.pyIf you are on linux, you have to type python update.py\n\nI have clicked on version and then the yellow button but all it does is take me to the github page, it doesn't update though. I also just tried python update.py because I have linux and I got this python: can't open file 'update.py': [Errno 2] No such file or directory I have no idea what's wrong.",
+				"added": 1445548428
+			},
+			{
+				"comment_id": 19,
+				"body": "> [thekill38](#comment_3_1D7DRHxZ8WMHLvkyaVWEZsdAZSQvLY5JQM): Open a console then type cd \"path\" replace \"path\" with the directory where ZeroNet is installed and then you run python update.py\n\nI just tried that and it still didn't work. It did seem to update in the terminal because it finally said Done and press enter to exit. But then I reloaded zeronet to see if it actually did update and it didn't. It still says I have version 0.3.2 (r467)",
+				"added": 1445549716
+			},
+			{
+				"comment_id": 20,
+				"body": "I finally got it to update.",
+				"added": 1445550905
+			},
+			{
+				"comment_id": 21,
+				"body": "> [thekill38](#comment_4_1D7DRHxZ8WMHLvkyaVWEZsdAZSQvLY5JQM): Good to know, I helped ;)\n\nThanks thekill38",
+				"added": 1445552621
+			}
+		],
+		"24_1JdoX9KdJeRVjN9zvK8N9C5jybEHzZe8n": [
+			{
+				"comment_id": 22,
+				"body": "> [p2p](#comment_20_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): glad to see u have similar idea and share more details. u can see my post:idea of ZeroSocial -- timeline view of ZeroHello http://127.0.0.1:43110/1TaLk3zM7ZRskJvrh3ZNCDVGXvkJusPKQ/?Topic:4@62/idea+of+ZeroSocial+timeline+view+of+ZeroHelloand u can see nofish's idea in https://www.reddit.com/r/zeronet/comments/3h627h/is_there_any_plan_to_add_some_social_features_or/\n> the disadvantage of ur idea is not able to see someone's mention unless u follow him/her. one solution nofish once said ( i can't find where is his post ) is to build a public ZeroNet site which stores all users' nick names, biographies, avatars, mentions...only posts and private messages are stored in users' own sites. do u think it is better?thanks for reading!\n\nWhere is nofish, I haven't seen him post any comments in a while.",
+				"added": 1446132972
+			},
+			{
+				"comment_id": 23,
+				"body": "Synereo is a new decentralized social network, check it out. It might give you some ideas for a social network on zeronet. http://www.synereo.com/",
+				"added": 1446134059
+			},
+			{
+				"comment_id": 24,
+				"body": "> [p2p](#comment_21_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): THX！Synereo is not opensource, is it? IMHO, putting coins in a social network is not a good idea. anyway, some point of Synereo is good.\n\nSynereo code is open source https://github.com/synereo/ and I found another project called Matrix https://www.matrix.org/ and it's open source https://github.com/matrix-org/synapse These might give someone a better idea on how to start a social network on Zeronet.",
+				"added": 1446172371
+			},
+			{
+				"comment_id": 25,
+				"body": "> [p2p](#comment_23_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): owning a github account doesn't mean open source. recently, i can't find any source of Synereo itself available in the github account. the repos in the github account contains other things, and u can see the repos have very few watch/star/fork.thanks for telling us good projects. but i found matrix is Instant Messaging and VoIP, is it social enough?\n\nYe I don't know much about Matrix, I just found it and figured I'd share the link, also I don't know why synereo hasn't made their code available. I did find the source code for Diaspora, I don't know if it will be of any use but here's the link. https://github.com/diaspora/diaspora",
+				"added": 1446306651
+			},
+			{
+				"comment_id": 26,
+				"body": "Pandora https://github.com/Novator/Pandora p2p-social-network https://github.com/lsjroberts/p2p-social-network Vole http://vole.cc/ Twister http://twister.net.co/?page_id=23",
+				"added": 1446350343
+			}
+		],
+		"8_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 27,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_48_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): yes it takes time. i did not manage to help with the code a lot yet. but i see the improvemnts over time and it is amazing :)\n\nI found an admin panel template and was able to put it at this link http://127.0.0.1:43110/14AC8D54pqHWTkznSpRmS6V2TFWjs1k1bi/forms.html#Publish I'm new to this coding stuff and just started learning how to code so I can't really do anything with this template but maybe it will help you or someone else. I believe you can clone it.  It has a lot of css files and js files. I have a second admin template that doesn't have as many files, if someone could use it.",
+				"added": 1447221760
+			},
+			{
+				"comment_id": 28,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_49_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): @oracle\n> Not Found\n> forms.html\n\nI'm not sure why you can't find the forms.html",
+				"added": 1447261090
+			},
+			{
+				"comment_id": 29,
+				"body": "I changed the admin template on the blog. Hopefully someone can do something with it. http://127.0.0.1:43110/14AC8D54pqHWTkznSpRmS6V2TFWjs1k1bi",
+				"added": 1447347827
+			}
+		],
+		"3_12HTPzQjWn9V57oxH7fA5KV3PQZ5vuj2Fm": [
+			{
+				"comment_id": 30,
+				"body": "That's cool",
+				"added": 1447517328
+			}
+		],
+		"2_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn": [
+			{
+				"comment_id": 31,
+				"body": "> [cgm616](#comment_5_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn): Problem with ZeroSearch is that you need to know what you're looking for, you can't just browse and find something. Yes, they are similar but ZeroIndex would be a way to easily find content you didn't know you wanted.\n\nZeroSearch is a good idea but it needs a way to search for media formats like JPG, TIF, PNG, GIF and BMP for images and AVI, WMV, MP4, MOV and MPEG for video. It also needs a way to display them like Google and Yahoo does. Both Google and Yahoo have a video search and a image search and ZeroSearch needs something similar. \n\nZeroIndex is also a good idea though. It would be nice if ZeroSearch and ZeroIndex could be used together. ZeroIndex could be used to index everything and then you could use ZeroSearch to search through the ZeroIndex folders. \nExample -  You index a blog about nature on ZeroIndex and give it tags like nature, blog and landscapes, then people can use ZeroSearch and type in nature or landscape and ZeroSearch searches through ZeroIndex and brings up anything with those tags.",
+				"added": 1447654561
+			},
+			{
+				"comment_id": 33,
+				"body": "> [cgm616](#comment_6_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn): Yeah, that's a good bridge between the two. I like that idea. Also, yeah, ZeroSearch needs a way to find sites, which is the thing I'm trying to fix with Zeroindex. Google is able to crawl to pages, because very rarely is a page linked nowhere. However, pages are linked nowhere a lot in ZeroNet, and there is no site crawler for it yet. That means a lot of interesting content, say about nature, seen only by the visitors to that site, and not by someone who posts nature to ZeroSearch.\n\nI think you would have to give ZeroIndex a search box and when someone searches for a tag like nature,  you could have ZeroIndex programmed to exclude the sites you already have and only show the ones you don't have.",
+				"added": 1447657152
+			},
+			{
+				"comment_id": 37,
+				"body": "Found this. ZeroNet Index http://127.0.0.1:43110/1L8Xq8deSCTRiBrfgyZ5nPKucEmAWHWs6G",
+				"added": 1448167121
+			}
+		],
+		"9_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 32,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_54_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): what is the url?\n\nhttp://127.0.0.1:43110/ZeroUpload.bit",
+				"added": 1447654633
+			},
+			{
+				"comment_id": 34,
+				"body": "It just gave me the nonce error as well. I hope the person who created it works out the bugs, it's a great idea they have.",
+				"added": 1447657596
+			},
+			{
+				"comment_id": 96,
+				"body": "> [zozon](#comment_45_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55): upload exactly where?\n\nhttp://127.0.0.1:43110/ZeroUpload.bit",
+				"added": 1454709170
+			}
+		],
+		"1_1DC9YZPSkxCMGkQB4ScRTxFRJQfraHxkS4": [
+			{
+				"comment_id": 35,
+				"body": "That was taken care of. No bug, just a dumb mistake. http://127.0.0.1:43110/1FjxvRMjBw5CUKpY3TCn76tszxHegohFqV",
+				"added": 1447661420
+			}
+		],
+		"1_1NVf2GWG9BTq8HFUumUbfp9N9HmYwZpkSv": [
+			{
+				"comment_id": 36,
+				"body": "Check out ZeroNet Links http://127.0.0.1:43110/18qigy8XcrxLpK7QaS52FfjwN2gjqHE231 and ZeroNet Index http://127.0.0.1:43110/1L8Xq8deSCTRiBrfgyZ5nPKucEmAWHWs6G",
+				"added": 1448167017
+			}
+		],
+		"1_1NyGo7eBax4F1dm1gsoVHg9gCqm5EUhFAP": [
+			{
+				"comment_id": 38,
+				"body": "Cloning the blog is great but it needs a dashboard like wordpress has so people can change the look of the blog easier and add media easier. I took a screen shot of the sidebar and added a dashboard to it in a photoshop program as an example. https://imgur.com/bZYVAes Nofish is busy working on a encrypted messaging site but maybe we can ask other coders if they can create one. Keep up the good work nofish.",
+				"added": 1448526053
+			},
+			{
+				"comment_id": 39,
+				"body": "> [thetoon](#comment_1_1J2AKukZAJ5b6dJgBjMgWCBUGw7ZVh46XH): The dashboard is nothing if there's no underlying code to actually make the changes. For now, it's relatively easy to tweak things by hand. I guess the easiest path, for now, would be to publish several \"template\" blogs, ready to be cloned, with different themes/appearances. People would then be able to choose which one they like the most and clone from there.\n> For advanced settings, it probably will always mean a little CSS editing (maybe LESS/SASS could help here, but still). Doesn't mean a text field to edit said CSS/LESS/SASS wouldn't be a welcome addition ;)\n\nThe everyday person can't code and they won't use ZeroNet if they have to edit the CSS or anything else. I've already tried to get a few people to use Zeronet and they already said they didn't like it because you have to code some, that's why I brought up it needing some kind of dashboard. I think ZeroNet is a great idea and I would love to see more people use it, but they won't if they have to learn to code. There are admin templates, maybe some one can set one up to be cloned.",
+				"added": 1448528209
+			},
+			{
+				"comment_id": 40,
+				"body": "> [thetoon](#comment_2_1J2AKukZAJ5b6dJgBjMgWCBUGw7ZVh46XH): There. I'm not a designer nor an artist, but this should be a clone-able blog with a slightly different theme : http://127.0.0.1:43110/1LndwkWLnXfd1cbCReWguGVNhiboP9iqPD\n> Took about three minutes, publishing included. Though I do admit I prefer the original colours, myself ;)\n\nSee what you can do with this. http://127.0.0.1:43110/14AC8D54pqHWTkznSpRmS6V2TFWjs1k1bi",
+				"added": 1448529510
+			}
+		],
+		"11_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 41,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_59_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): what do you want to do in the dash board?\n> what features should it have?\n\nIt needs a dashboard similar to this wordpress one.  https://imgur.com/AjLKjv0",
+				"added": 1449034738
+			},
+			{
+				"comment_id": 42,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_60_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): u know sql? because u can count the comments and post with sql. see more here https://zeronet.readthedocs.org/en/latest/site_development/zeroframe_api_reference/. if you need more help just ask.\n\nI don't know sql yet, I'm a newbie just learning to code and I hate it. But I do know if this project is to survive and get people to use it,  it's going to half to be a lot more user friendly for people who can't code. I look at it this way, why would a person leave wordpress or blogspot that has an dashboard to easily manage your blog for a blog that's harder to run because you have to code, they won't. So I'm trying to learn to code so I can try to make a dashboard. Did I mention I hate coding, damn it sucks and not in a good way.",
+				"added": 1449040313
+			},
+			{
+				"comment_id": 43,
+				"body": "> [cgm616](#comment_14_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn): Just wondering, why do you hate it so much? I like coding, but never seem to get good at it.\n\nI've never had one day of schooling in coding, when I graduated my school never had computers so I'm trying to learn all by myself and it seems virtually impossible. I have no coding experience what so ever. It's very difficult to learn and I'm going to http://www.w3schools.com/ but it's still hard to understand. I'm starting to believe not everybody can code. I wanted to try to create a dashboard to make the blog more user friendly for people who can't code but that's hard to do when I can't code myself. People that can't code will not use ZeroNet. ZeroNet is a great project but if it doesn't have things like a simple dashboard to make it user friendly for non coders then it's doomed like FreeNet.",
+				"added": 1449100552
+			},
+			{
+				"comment_id": 44,
+				"body": "Thanks Guys.",
+				"added": 1449127825
+			}
+		],
+		"3_1QH84f44yLPvMjMua9s7iM7c4RoJNZ2nTp": [
+			{
+				"comment_id": 45,
+				"body": "I got that same problem when I just updated ZeroNet. I then noticed my data site.json file had changed to site.json.old \nI don't know why old was added to the end of it but I removed the old and ZeroNet works again. I'm also on Linux.",
+				"added": 1450192387
+			},
+			{
+				"comment_id": 46,
+				"body": "> [nofish](#comment_135_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): When the user.json file saved (to avoid data lost at all costs) it's done this way:\n> \n> New content written to user.json-new\n> Current users.json renamed to users.json-old\n> user.json-new renamed to users.json\n> users.json-old removed\n> \n> So if you see users.json-old file it means for some reason the saving process is interrupted. I was unable to reproduce the problem, but I will keep my eye over it.\n\nThanks nofish",
+				"added": 1450238864
+			}
+		],
+		"12_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 47,
+				"body": "> [sonatagreen](#comment_2_19EzW7rnEauKvqVQja7Z9odPQcm7UWJrax): Er, wait, I'm an idiot. This isn't ZeroBoard.\n> Have you tried...\n> \n> reloading the page?\n> stopping and restarting your ZeroNet daemon?\n> making sure your copy of ZeroBoard is up to date?\n\nI just tried it again and got the same problem. ZeroBoard is updated. I don't have a clue what's wrong. I seem to be able to post comments on ZeroTalk with no problem and I can post stuff on my blog.",
+				"added": 1450597266
+			},
+			{
+				"comment_id": 48,
+				"body": "> [nofish](#comment_138_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): ZeroBoard works differently than other sites, it's not a multi-user page, so every message has to signed by the owner (when it was created it was the only possible way) Can you please specify your os/browser?\n\nLinux and I use firefox. I've posted on ZeroBoard two or three times before with no problem, it just started doing this.",
+				"added": 1450632633
+			},
+			{
+				"comment_id": 49,
+				"body": "> [nofish](#comment_139_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I have no access Linux machine, but works for me on Linux & OSX, can you please check javascript console for errors? (F12)\n\nI just tried it again and it finally worked maybe it was some kind of glitch.",
+				"added": 1450667432
+			}
+		],
+		"1_1LUP6SN7WrXAH7e5bUFxdmrVsFr2m43XB4": [
+			{
+				"comment_id": 50,
+				"body": "It's happened twice to me as well.",
+				"added": 1450757125
+			},
+			{
+				"comment_id": 51,
+				"body": "> [nofish](#comment_151_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It never happened me yet (running on win8, debian, centos), so sorry, but I won't be able to fix the problem without reproduce it or detailed log information about write/rename error.\n> \n> Nope, please try again or maybe hello@zeronet.io\n\nJust sent you two emails  at hello@zeronet.io The first one is my debug-last.log and the second one is my debug.log Hope they help you figure out what's wrong. Also I don't work tomorrow nofish and I have teamviewer installed and if you want, I can let you on my computer tomorrow and you can check things out with ZeroNet to see if everything is set up right.",
+				"added": 1450800599
+			},
+			{
+				"comment_id": 53,
+				"body": "> [nofish](#comment_153_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Thanks, i got it, the startup error error: [Errno 98] Address already in use: ('127.0.0.1', 43110) indicates that you have started zeronet more than once at same time. This would also explain the sites.json file problem, because the process would want to access the file at same time. To avoid this we should stop the startup process when the binding of webui failed.\n\nTo avoid this we should stop the startup process when the binding of webui failed? I don't know how to fix that.",
+				"added": 1450842377
+			},
+			{
+				"comment_id": 55,
+				"body": "> [nofish](#comment_154_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It will be added in the next version: it will exit with an error if you want to start it twice.\n\nHave you made an update for this problem yet. I just started ZeroNet and it wouldn't load because old was added to the sites.json file again.",
+				"added": 1451258096
+			},
+			{
+				"comment_id": 56,
+				"body": "> [nofish](#comment_156_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I have some pending modification because the in-progress Full Tor support, but just pushed this one: https://github.com/HelloZeroNet/ZeroNet/commit/c9578e9037a84fa7cb60978de8878c10cb31ad99\n> So please update, then try to run in twice please and see if its fixed. (backup sites.json and users.json just in case)\n\nOK thanks",
+				"added": 1451260698
+			},
+			{
+				"comment_id": 57,
+				"body": "> [nofish](#comment_156_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I have some pending modification because the in-progress Full Tor support, but just pushed this one: https://github.com/HelloZeroNet/ZeroNet/commit/c9578e9037a84fa7cb60978de8878c10cb31ad99\n> So please update, then try to run in twice please and see if its fixed. (backup sites.json and users.json just in case)\n\nI updated and so far haven't had any problems.",
+				"added": 1451268284
+			},
+			{
+				"comment_id": 58,
+				"body": "> [nofish](#comment_156_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I have some pending modification because the in-progress Full Tor support, but just pushed this one: https://github.com/HelloZeroNet/ZeroNet/commit/c9578e9037a84fa7cb60978de8878c10cb31ad99\n> So please update, then try to run in twice please and see if its fixed. (backup sites.json and users.json just in case)\n\nJust started ZeroNet again and it seemed to start with no problem but for some reason some of the sites I am seeding will not update. I'm pretty sure this is a different issue though. ZeroTalk ZeroBlog and ZeroBoard and a few other sites update ok but ZeroSearch, DividedByZero, Idealcoder's Blog, ZeroMaps will not update. Do you know if anyone else is having this problem.",
+				"added": 1451318164
+			},
+			{
+				"comment_id": 60,
+				"body": "> [nofish](#comment_158_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Sure, please send it.\n\nHere's what I'm getting https://imgur.com/NPBCxVo Do you want me to send you my debug logs to here hello@zeronet.io",
+				"added": 1451336812
+			},
+			{
+				"comment_id": 61,
+				"body": "> [nofish](#comment_158_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Sure, please send it.\n\nI can hit the update for the site and it acts like it's trying to update but then the little grey box appears again and says update failed.",
+				"added": 1451337012
+			},
+			{
+				"comment_id": 62,
+				"body": "> [nofish](#comment_158_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Sure, please send it.\n\nAlso it seems to be the same sites over and over again that I'm having trouble updating. It's never ZeroTalk or ZeroBoard or some of the others.",
+				"added": 1451337169
+			},
+			{
+				"comment_id": 63,
+				"body": "> [nofish](#comment_158_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Sure, please send it.\n\nJust sent you two emails with debug logs here hello@zeronet.io",
+				"added": 1451338903
+			},
+			{
+				"comment_id": 64,
+				"body": "> [nofish](#comment_159_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Unfortunately looks like the double-starting problem still exists and it makes the log file incomplete. Currently testing other approach to the problem involving file-system locking instead of socket port binding.It could be related to your problem, but can't tell for sure because the error is not in the log files you sent.\n> My other observation is for some reasons udp connections not working for you, so you should start zeronet using zeronet.py --disable_udp this could also help. (close the current running process before)\n\nI will double check my udp to see if it's open and I will also try your suggestion zeronet.py --disable_udp",
+				"added": 1451350155
+			},
+			{
+				"comment_id": 66,
+				"body": "Updated ZeroNet but still not updating some sites.",
+				"added": 1452006627
+			},
+			{
+				"comment_id": 67,
+				"body": "Is anyone else having problems with some sites not updating. I have no idea what's wrong and could really use some help with this problem. I have teamviewer installed if any one wants to get on my computer to see if everything is set up all right. I don't know what to look for. I have 16 sites that will not update. I'm even having problems with Tor, at the top all I get is Tor waiting. Please help.",
+				"added": 1452107228
+			}
+		],
+		"1_1BUNUJ73oAgHW86cAP8aRCcHx1gJWKMqXe": [
+			{
+				"comment_id": 52,
+				"body": "If you contact E.T. by chance, can you please tell him to bring me some space weed, that shits the funk.",
+				"added": 1450804922
+			}
+		],
+		"2_1PaX4LQSsjsJvTNqfZbAApgmgzBJjrkRqZ": [
+			{
+				"comment_id": 54,
+				"body": "> [klauszimmermann](#comment_16_15QGRquMETTn5LnCHjTm1qa9eaXGtq7gpT): I got plenty of peers and was able to load the homepage. But I do get that same message as londonagain:\n> Internal error: TypeError: 'NoneType' object does not support item assignment\n> UiWebsocket.py line 65 > UiWebsocket.py line 145 > UiWebsocket.py line 402\n> This could have potential, though. A reddit-like site inside ZeroNet... awesome!\n\nI get the same thing.",
+				"added": 1450848960
+			}
+		],
+		"13_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 65,
+				"body": "> [zerobunker](#comment_91_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar): do you mean like live podcast...??\n\nSomething like http://www.jango.com/ and  http://www.accuradio.com/",
+				"added": 1451967108
+			},
+			{
+				"comment_id": 69,
+				"body": "> [zerobunker](#comment_93_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar): well we can modified zerotalk with image source code to host mp3 file.or using 0torrent source code.\n\nhttps://bridgefog.github.io/",
+				"added": 1452228511
+			}
+		],
+		"1_1APx2pf1wNGFz4mWCN2sFzrtTGzrLKZUQ2": [
+			{
+				"comment_id": 68,
+				"body": "It did this before on me as well. I didn't have the newest update for ZeroNet and when I updated to the newest revision I was able to post on ZeroBoard again.",
+				"added": 1452184018
+			}
+		],
+		"14_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 72,
+				"body": "ZeroTalk seems to be updating now, maybe it was some kind of glitch.",
+				"added": 1452231981
+			}
+		],
+		"1_1GWzYMVUuvpdEKB3Lv9k4yw41nQT5BorpB": [
+			{
+				"comment_id": 73,
+				"body": "I got 17 peers and the page loaded and I took a screenshot of it for you. https://imgur.com/1uRj2Cm",
+				"added": 1452323500
+			},
+			{
+				"comment_id": 74,
+				"body": "> [zalex](#comment_8_1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS): That's an idea! We need ZeroImagehosting! :D\n\nI think they already have a site called 0chanel or something like that but I'm not for sure.",
+				"added": 1452325697
+			}
+		],
+		"16_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 75,
+				"body": "> [nofish](#comment_176_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The best way to do this is using a translator browser extension eg.: https://chrome.google.com/webstore/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh\n\nA browser extension did cross my mind as well but I use Firefox so I'll have to find a good extension for it.",
+				"added": 1452460879
+			}
+		],
+		"17_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 76,
+				"body": "> [nofish](#comment_174_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): sorry, received no mail\n> please use eg. https://cryptobin.org/ and send the link+pass on zeromail\n\nI haven't set up zeromail yet, I was going to wait a few months before setting up zeromail so you could work out any bugs in it.",
+				"added": 1452462150
+			},
+			{
+				"comment_id": 77,
+				"body": "Thursday I'll try to get ZeroMail up and running and then I'll send you the error logs.",
+				"added": 1452570936
+			},
+			{
+				"comment_id": 78,
+				"body": "> [nofish](#comment_174_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): sorry, received no mail\n> please use eg. https://cryptobin.org/ and send the link+pass on zeromail\n\nJust set up zeromail and sent you the cryptobin links and PW.",
+				"added": 1452807586
+			},
+			{
+				"comment_id": 80,
+				"body": "nofish I sent you another zeromail about what problem I'm having. Still some sites will not update.",
+				"added": 1452959109
+			}
+		],
+		"1_1CuQ21M7tmpoeyG4HrW4ax1Pz4w3JvXuA5": [],
+		"2_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [],
+		"2_16iYwD5U2fNoS22p6447J7992iL3DHjSHY": [
+			{
+				"comment_id": 82,
+				"body": "I'm having problems with tor as well. Nofish said my zeronet.conf file was broken due to the fact I probably used a wrong text editor and he was right, so I fixed that problem and now when I open ZeroNet I get Tor mode active like in this pic https://imgur.com/uwH79eG But I still get a Tor error at the top right on the ZeroHello page and none of the sites update and it says I only have 1 peer, like in this pic https://imgur.com/ON0z15b Can someone please tell me what else might be causing problems. I believe I need to change something on this torrc file but not for sure. Also I'm on Linux Mint.\n# Tor config for ZeroNet\nDataDirectory data\nDirReqStatistics 0\nGeoIPFile geoip\\geoip\nGeoIPv6File geoip\\geoip6\n# Log notice file data\\notice.log\nControlPort 49051\nSOCKSPort 49050\nCookieAuthentication 1",
+				"added": 1453221419
+			},
+			{
+				"comment_id": 83,
+				"body": "> [nofish](#comment_193_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): try check http://127.0.0.1:43110/Stats page or log/debug.log for Tor error. To install Tor under Linux you should follow http://zeronet.readthedocs.org/en/latest/faq/#how-to-make-zeronet-work-with-tor-under-linux\n\nI'm not any good at understanding those debug logs so I sent you a new zeromail with them, also I sent you a copy of the stats page. I also have a question, Do I have to install Tor through the control panel? I installed Tor the way they said on their website, I just had to download Tor and unzip it in a directory  but according to this page https://zeronet.readthedocs.org/en/latest/faq/#how-to-make-zeronet-work-with-tor-under-linux I have to install Tor through the control panel instead. I am I understanding that right?",
+				"added": 1453394325
+			},
+			{
+				"comment_id": 84,
+				"body": "> [nofish](#comment_197_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): You need to update Tor to latest version. (0.2.7.5+)\n> \n> There is no zipped package for Linux, so you have to follow the faq if you want to make it work\n\nI downloaded Tor Browser for 64-Bit GNU/Linux from https://www.torproject.org/download/download-easy.html.en but I will follow the faq instead and see if I can get it to work.",
+				"added": 1453517638
+			},
+			{
+				"comment_id": 85,
+				"body": "> [nofish](#comment_193_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): try check http://127.0.0.1:43110/Stats page or log/debug.log for Tor error. To install Tor under Linux you should follow http://zeronet.readthedocs.org/en/latest/faq/#how-to-make-zeronet-work-with-tor-under-linux\n\n Nofish I went here https://zeronet.readthedocs.org/en/latest/faq/#how-to-make-zeronet-work-with-tor-under-linux and put this in the command terminal, echo 'deb http://deb.torproject.org/torproject.org jessie main'>> /etc/apt/sources.list.d/tor.list But I got this back, bash: /etc/apt/sources.list.d/tor.list: Permission denied \nAny idea what's wrong?",
+				"added": 1453595988
+			},
+			{
+				"comment_id": 86,
+				"body": "> [nofish](#comment_201_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): You need root access to modify that file/install tor.\n\nI'm kind of new to linux and still learning about it, but I think I need to do sudo apt-get install tor  in the command terminal first.",
+				"added": 1453603014
+			},
+			{
+				"comment_id": 87,
+				"body": "> [nofish](#comment_198_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I have not tried, but based on windows Tor browser, I think that could also work. Try start the browser then zeronet using zeronet.py --tor_proxy 127.0.0.1:9150 --tor_controller 127.0.0.1:9051, but in this way you have to keep the browser running, so it's not the best way.\n\nJust seen your comment here, thanks I'll give this a try.",
+				"added": 1453612254
+			},
+			{
+				"comment_id": 88,
+				"body": "> [muja](#comment_1_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr): If someone managed to make it work and then the error (TorManager Tor controller connect error: [Errno 111] Connection refused) came back, using sudo /etc/init.d/tor restart again fixed it for me.\n\nSent you a zeromail.",
+				"added": 1453781143
+			}
+		],
+		"1_12Ex3Mrd75wY2r5rB21jBcmgj9hxwUK1w2": [
+			{
+				"comment_id": 91,
+				"body": "Kube - P2P Social Network like Facebook https://twitter.com/kube_is/ https://kube.is/?glid=&cpm=",
+				"added": 1454604006
+			},
+			{
+				"comment_id": 92,
+				"body": "Here's a project someone can work on. Clone this site and see if you can get it to work right. http://127.0.0.1:43110/14AC8D54pqHWTkznSpRmS6V2TFWjs1k1bi",
+				"added": 1454605290
+			},
+			{
+				"comment_id": 93,
+				"body": "Ryan X. Charles Is Building a Decentralized Reddit, and ‘Would Love Collaborators https://ryanxcharlestimes.com/fix-reddit-with-bitcoin-7da3f85fb9ba#.ldifm7r40",
+				"added": 1454644828
+			},
+			{
+				"comment_id": 94,
+				"body": "> [redfish](#comment_2_1KGozab6jp6jA6zVM8cTFdzMmBasriNP4f): IPFS - an alternative protocol to HTTP for realizing a permanent web based on a global content-addressed datastore. (I've been following it.). Also following Storj -- an decentralized storage incentivized by a cryptocurrency.\n\nhttps://ipfs.pics/",
+				"added": 1454654118
+			}
+		],
+		"10_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 90,
+				"body": "ZeroNet does need a good search engine and I found two that someone might be able to integrate into ZeroNet. Searx is one https://searx.me/about  Seeks is another, Seeks code provides a P2P collaborative filter that enables decentralized collaborative searching and sharing. https://beniz.github.io/seeks/",
+				"added": 1454602493
+			},
+			{
+				"comment_id": 95,
+				"body": "> [redfish](#comment_3_1KGozab6jp6jA6zVM8cTFdzMmBasriNP4f): Ability to deploy standard websites (forum, reddit-clone, chat) without any code. Point-and-click for non-coders.\n> Private communities -- password-protected and encrypted.\n\nYou can clone the blog easy but the blog needs a CMS so non-coders can edit the content more easily. ",
+				"added": 1454708379
+			},
+			{
+				"comment_id": 99,
+				"body": "> [muja](#comment_10_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr): Can't wait for the \"Github-like project hosting\" that was announced here.\n\ngitchain https://github.com/gitchain/gitchain",
+				"added": 1454862875
+			}
+		],
+		"18_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 101,
+				"body": "> [nofish](#comment_289_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): There is no ckeditor in zeronet: https://github.com/HelloZeroNet/ZeroNet/tree/master/src/lib, so not sure why is that there for you.\n\nThat is odd, I wonder why it's in mine.",
+				"added": 1455231387
+			},
+			{
+				"comment_id": 102,
+				"body": "> [nofish](#comment_289_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): There is no ckeditor in zeronet: https://github.com/HelloZeroNet/ZeroNet/tree/master/src/lib, so not sure why is that there for you.\n\nI removed the ckeditor folder, I'm experimenting with a few CMS's and I put that folder it the wrong location,stupid mistake but I was still wondering if it's possible to integrate ametys into a website, it is java.",
+				"added": 1455231568
+			},
+			{
+				"comment_id": 103,
+				"body": "> [nofish](#comment_291_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Java is a dead technology and no longer supported (probably every browser will remove it within 1 year), so nope.\n\nOk thanks. Do you know of a CMS that could possibly be integrated into a zeronet website, there's some CMS's listed on this link and some of them are in pyhon. https://en.wikipedia.org/wiki/List_of_content_management_systems Surely it's possible to use one of them with zeronet, any help would be greatly appreciated.",
+				"added": 1455232850
+			},
+			{
+				"comment_id": 104,
+				"body": "> [nofish](#comment_292_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): These CMS are written for client<>server platform, so they will not work, but static site generators should work: https://www.staticgen.com/ (haven't tried any, so can't recommend)\n\nThanks nofish, I'll start researching them.",
+				"added": 1455233980
+			},
+			{
+				"comment_id": 105,
+				"body": "> [zozon](#comment_68_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55): if you wish to blog cloning zeroblog is possibly easiest way - i cloned my blog literally in less than a minute: Zozons blog\n> i have also tried to see if hugo (static site generator) will work (there was no reason why it shouldn't but to prove the point) - hugo on zero\n\nI know how to clone the blog but I want to add stuff to my blog without having to code anything, I want to change the background and add a header bar without having to go into the css and code it in myself and I want to add images to my blog without having to open html and edit it. I want my blog to have something like a CMS aka dashboard, where I can click on a button and search my local files to add images to the blog. Any idea how to add something like this https://imgur.com/Oq3kvSR to a zeronet website?",
+				"added": 1455237888
+			},
+			{
+				"comment_id": 106,
+				"body": "> [zozon](#comment_68_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55): if you wish to blog cloning zeroblog is possibly easiest way - i cloned my blog literally in less than a minute: Zozons blog\n> i have also tried to see if hugo (static site generator) will work (there was no reason why it shouldn't but to prove the point) - hugo on zero\n\nDo you know of any static site generators that has something like a dashboard or cms like in that picture?",
+				"added": 1455239345
+			},
+			{
+				"comment_id": 108,
+				"body": "> [zozon](#comment_71_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55): fixed issue on hugo site (I am the biggest bug ;) - wrong spelling\n\nI found another type of editor called tinymce that might be able to be integrated into a website but I haven't figured out how to do it yet. https://www.tinymce.com/docs/get-started/",
+				"added": 1455251797
+			},
+			{
+				"comment_id": 109,
+				"body": "> [zozon](#comment_69_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55): made something on hugo on zero - external images work, internal... ehm we shall see why not (wrapper? or just time to propagate)\n\nI see the image.",
+				"added": 1455251837
+			},
+			{
+				"comment_id": 112,
+				"body": "> [zozon](#comment_69_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55): made something on hugo on zero - external images work, internal... ehm we shall see why not (wrapper? or just time to propagate)\n\nThis static site has a CMS http://bolt80.com/piecrust/en/latest/docs/admin-panel/ When I get time, I'll try to get it running on ZeroNet. If I have any problems I might contact you through ZeroMail for help.",
+				"added": 1455381310
+			},
+			{
+				"comment_id": 114,
+				"body": "> [nozoz](#comment_2_1Pfwz3A2J1fDNtxvtaivd482mrMdGGdimU): like piecrust being done in Python, will surely try! Trying to find some more x-platform tools like hugo.\n> tried Jekyll on Windows and declared it is waste of time (I do not get why it is so popular....)(ok, it is not native environment for Jekyll but, come on, it is ultimately generating html... I will not try it on my linux)> \n> oracle: This static site has a CMS http://bolt80.com/piecrust/en/latest/docs/admin-panel/ When I get time, I'll try to get it running on ZeroNet. If I have any problems I might contact you through ZeroMail for help.\n\nHugo CMS https://www.youtube.com/watch?v=CMhXh3ezZ04 https://forestry.io/",
+				"added": 1455428400
+			},
+			{
+				"comment_id": 119,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_96_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): we have two options for now\n> have a static site generator which outputs static files (duh!) as configurated in your cms dashboard or have a client site managment gui for settings wich are rendered via javascript (here every one could make his own design for your blog)\n\nWhat about CKEditor http://ckeditor.com/ or TinyMCE https://www.tinymce.com/ Couldn't one of these be integrated into the blog so when people clone the blog they also clone the editor to use. That would make the blog more user friendly for us non-coders. I also found these http://mezzanine.jupo.org/ http://www.django-cms.org/en/ https://plone.org/ But don't know if they can be used with ZeroNet. Here's a list of CMS's https://en.wikipedia.org/wiki/List_of_content_management_systems",
+				"added": 1455552446
+			},
+			{
+				"comment_id": 125,
+				"body": "> [nozoz](#comment_2_1Pfwz3A2J1fDNtxvtaivd482mrMdGGdimU): like piecrust being done in Python, will surely try! Trying to find some more x-platform tools like hugo.\n> tried Jekyll on Windows and declared it is waste of time (I do not get why it is so popular....)(ok, it is not native environment for Jekyll but, come on, it is ultimately generating html... I will not try it on my linux)> \n> oracle: This static site has a CMS http://bolt80.com/piecrust/en/latest/docs/admin-panel/ When I get time, I'll try to get it running on ZeroNet. If I have any problems I might contact you through ZeroMail for help.\n\nHope you are having some luck with piecrust I haven't had any luck yet.",
+				"added": 1455724675
+			}
+		],
+		"4_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": [
+			{
+				"comment_id": 107,
+				"body": "> [nofish](#comment_293_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Fixed: Increased the limit. (auto delete old messages planned later)\n\nAny plans for attaching files in zeromail?",
+				"added": 1455243046
+			},
+			{
+				"comment_id": 110,
+				"body": "> [muja](#comment_28_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr): If not, or meanwhile, we can use BitTorrent or WebTorrent (like https://btorrent.xyz/)\n\nThanks for the link.",
+				"added": 1455308160
+			}
+		],
+		"15_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 111,
+				"body": "> [nippletwister](#comment_70_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): MaidSafe. It isn't launched yet. http://maidsafe.net/features.htmlRight now it is number 7 here: http://coinmarketcap.com/\n\nThere's also SafePress being developed for MaidSafe. It's a decentralized version of wordpress with a CMS and they're needing other people to help with the project. http://safepress.io/ https://github.com/theWebalyst/safepress/",
+				"added": 1455378245
+			},
+			{
+				"comment_id": 128,
+				"body": "> [nippletwister](#comment_140_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): Interesting thoughts here about Twister, Synereo, decentralized Reddit. Watch for 5-10 minutes at least).\n\nI've been trying to encourage @Kube on twitter to create their decentralized version of facebook on ZeroNet.",
+				"added": 1455902359
+			},
+			{
+				"comment_id": 129,
+				"body": "> [nippletwister](#comment_142_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): Is there a site anywhere of the product they are trying to make now?\n\nhttps://kube.is/?glid=&cpm=",
+				"added": 1455905527
+			},
+			{
+				"comment_id": 130,
+				"body": "> [nippletwister](#comment_142_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): Is there a site anywhere of the product they are trying to make now?\n\nhttps://www.kube.is/info/",
+				"added": 1455905662
+			}
+		],
+		"3_15y72LFjQ4ymUTnkJP6CC7r73R5uoePgFW": [
+			{
+				"comment_id": 115,
+				"body": "Bit451 is an open source decentralized / distributed anonymous p2p media network. It has been characterized as “YouTube meets BitTorrent meets Bitcoin”. Is it possible to integrate Bit451 into ZeroNet or at least get some ideas from Bit451. http://bit451.org/",
+				"added": 1455464982
+			},
+			{
+				"comment_id": 116,
+				"body": "> [nippletwister](#comment_100_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): Is it working already? Or it is a draft yet?\n\nI don't really know if it's working yet but they do have a github page if people want to research it. https://github.com/Bit451",
+				"added": 1455466251
+			},
+			{
+				"comment_id": 117,
+				"body": "> [nippletwister](#comment_102_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): The project doesn't seem to be very active now.\n\nI noticed that as well but maybe we can get people involved in it. They also have a twitter account @Bit451",
+				"added": 1455466637
+			},
+			{
+				"comment_id": 118,
+				"body": "There's also MediaGoblin which is for Video and Photos and it's still very active http://mediagoblin.org/ and it's decentralized. It also might be able to be integrated into ZeroNet. Twitter @MediaGoblin",
+				"added": 1455467114
+			}
+		],
+		"2_1PPqTMbH8Uwrk496grUVuBk57dSoeU9hig": [
+			{
+				"comment_id": 120,
+				"body": "> [nippletwister](#comment_116_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): Does it work?http://127.0.0.1:43110/ZeroUpload.bit\n\nForbidden\nWrapper nonce error",
+				"added": 1455588553
+			},
+			{
+				"comment_id": 122,
+				"body": "> [nippletwister](#comment_120_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): Yep, I get this error too. It's not mine, BTW.\n\nI would love to see someone create one that works.",
+				"added": 1455605715
+			}
+		],
+		"1_1PPqTMbH8Uwrk496grUVuBk57dSoeU9hig": [
+			{
+				"comment_id": 121,
+				"body": "> [zozon](#comment_88_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55): Thing to ponder #1: Trust.\n> Do you trust me if I publish a zero web site that I will not put JS that is harmful?\n> This is essential question for 0net. Currently there are no safeguards (not that there is much on normal net but google does publish black lists)\n> Currently 0net is small, people are coherent, but that will change in the time with more ppl/users. One can expect an attack (of the clones). In such case p2p do not help but aid malicious code - it can spread more easily.\n> We do not have mechanism how to protect individuals from such attacks, this is all currently based on mutual trust.\n> How to protect? This is open for discussion, there are different ideas so go ahead and speak your mind. \n> BUT TRUST IS A PROBLEM (rather handling trust). You do want to discover this problem earlier where there are not a lot of us than later where there are thousands or milions or bilions of zeronauts.\n> p.s. this is 1 of 3 ideas what can (or shall) be done with 0net.\n\njsblacklist https://github.com/jou/chrome-jsblacklist",
+				"added": 1455591068
+			},
+			{
+				"comment_id": 124,
+				"body": "> [harry2](#comment_15_167eTX5f6jJt4HPvfQqf2QuwdTFCnxJCf2): So points to consider in the future are:\n> \n> websites can be deleted/rendered useless by maintainer\n> small files limitation problem\n> javascript/trust\n> not truly anonymous yet even with current tor-mode (maybe tor mode can be tightened)?\n> \n> Anything else?\n\nCMS for website",
+				"added": 1455697670
+			}
+		],
+		"19_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 123,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_99_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): it seams to need server side javascript (nodejs) so it would not work at the moment in zeronet\n\nThat sucks, shame it couldn't be tweaked someway to work with ZeroNet. ",
+				"added": 1455606933
+			}
+		],
+		"19_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 126,
+				"body": "It would be nice if it could crawl for images and video in websites and show them, like google and yahoo's image and video search options.",
+				"added": 1455839802
+			}
+		],
+		"18_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 127,
+				"body": "Could you do this for a notification https://imgur.com/upJpY48 When you get new mail, the zeromail button changes to a different color. I know you can create buttons that change color when you hover over them, I figured it might be possible to have the ZeroMail button change color when you receive new mail.",
+				"added": 1455901231
+			}
+		],
+		"20_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 131,
+				"body": "> [pycole](#comment_32_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): No problem. :) I came across that a few weeks ago and suddenly it's relevant (how cool is that?).If you look thru the page It came from, I'm pretty sure there's another version that can actually save the created text file. A crazy enough person could integrate this with Zeroframe and make a WYSIWYG HTML editor--almost entirely written in HTML. The possibilities are crazy. It's so cool to see what HTML5 can do--even though it might not be finalized for years, and isn't even Turing complete.\n\nA wysiwyg editor would be great for ZeroNet for us non-coders, please try to create one if you can.",
+				"added": 1456198888
+			},
+			{
+				"comment_id": 132,
+				"body": "> [pycole](#comment_37_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): That's a challenge, but I certainly want to try. I also plan on making a GUI for creating new sites using this tool. The only downside is that It probably won't be possible to embed it into Zeronet: running python from Zeronet seems to be a no-no. It may end up being a nice standalone app, though.\n\nHope some of this helps you. http://www.thefreecountry.com/sourcecode/gui.shtml http://www.codeproject.com/Articles/8634/OpenTheme-An-open-source-graphic-user-interface-GU https://en.wikipedia.org/wiki/List_of_platform-independent_GUI_libraries - Lesson 10: GUI HTML Editors http://virtual.cpcc.edu/content/web/110/SDF/chapterlessons/SDF_lesson10.htm https://en.wikipedia.org/wiki/List_of_HTML_editors GUI Builder http://tof2k.com/ext/formbuilder/ HOWTO Create Python GUIs using HTML http://www.aclevername.com/articles/python-webgui/ http://archive.oreilly.com/pub/a/javascript/2001/12/21/js_toolbar.html http://webix.com/",
+				"added": 1456208370
+			},
+			{
+				"comment_id": 133,
+				"body": "> [pycole](#comment_38_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): Woah, that's a lot to work with. Since this looks like a fairly big task, don't expect it to be finished terribly soon--The last time I did anything super intensive with HTML was about two years ago.I'll try to have a rough version done by the 29th, but I have like five other neat ideas for sites that I want to try out too. If I don't have a draft by then, I'll post an update here.\n> Anything I do make will be posted on Zerolist. If I post something there, please seed it; I can't open port 15441 on my machine.\n\nTake your time and I'll make sure to seed it. Why can't you open your port? Who's your ISP provider? Modem?",
+				"added": 1456241356
+			},
+			{
+				"comment_id": 135,
+				"body": "> [pycole](#comment_39_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): The modem is my landlord's, and I don't have permission to mess with it.\n\nSounds like you need your own modem.",
+				"added": 1456286800
+			},
+			{
+				"comment_id": 136,
+				"body": "> [pycole](#comment_41_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): Not really possible at the moment (personal life and stuff).\n\nSent you a zeromail.",
+				"added": 1456297838
+			}
+		],
+		"1_19WHvz6Bt8fS7AUuxGEja7VByjoyXMZxay": [
+			{
+				"comment_id": 137,
+				"body": "Hello penis",
+				"added": 1456379070
+			}
+		],
+		"21_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 138,
+				"body": "Try it now, I checked every file, to make sure nothing was wrong, it should be linking right.",
+				"added": 1456637057
+			},
+			{
+				"comment_id": 139,
+				"body": "> [nofish](#comment_357_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The site is zerocinema, no tutorial on it.\n\nI have no idea what's wrong, It used to be zerocinema, but I've changed everything and signed and published it. I've checked my index.html and all the json files, there's nothing in any of files about zerocinema any more. I have the worst luck with ZeroNet, I can't even get the ZeroFrame API to work either. I can't merge css or js files. I even cloned a new blog to experiment with and it didn't give me the private key when I cloned it, I thought the private key was supposed to pop up on the screen after you clone a blog.  Think I'm going to step away from ZeroNet for a while.",
+				"added": 1456679314
+			}
+		],
+		"1_154jAWx5PDRmvF4txGHo4Edw1BpduhDyvw": [
+			{
+				"comment_id": 140,
+				"body": "> [dindunuffin](#comment_2_1Ch2Q1jPeM6pspyNZ28AA73v51wjYLSd3q): Regardless, if we can make an easy to use client that shows the benefits of using it. Then it could start being adopted by these people\n\nI've tried to stress the need for a CMS for the ZeroBlog to make it more user friendly for us \"normals\" that can't code. A lot people use CMS's and even businesses use CMS's. I'd rather hit a button to upload an image to my website instead of having to code the image into the html or CSS. With a CMS you just have to click a button to search for images to add to your post. You can even change the background color of your websites easier with a CMS instead of having to go into the CSS and change something. Wordpress has a good CMS and if ZeroBlog had one that was similar, it would attract more people to ZeroNet. Us \"normals\" like buttons to upload stuff and change the appearance of the pages, we don't like to code to do it. It is the coding that's scaring away some \"normals\".",
+				"added": 1457165545
+			},
+			{
+				"comment_id": 141,
+				"body": "> [kaffie](#comment_45_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): While I personally think it's easy enough to start a site here, I think you're right. At the moment there's an absurd amount of 'personal blog's that have nothing but the basic design, and maybe a single post or two. It's ridiculously easy to start a site, but not follow up and do anything special with it unless you know how to code and/or don't mind getting messy.\n> It basically results in a few well-made sites, and a ton of identical silly blogs. Which isn't really all that fun for much of anyone, haha. Gotta have more dynamic content and more active users.\n\nYea the cloning is easy but you can't do to much else to the blog after you clone it unless you can code. Everybody likes to give their websites a personal look and feel and on ZeroNet you can't. We need other coders to touch up the things nofish creates on ZeroNet, meaning we need coders to work on s CMS for the blog and also maybe some coders working on a way to sends files through ZeroMail like you can do with most emails.",
+				"added": 1457197297
+			},
+			{
+				"comment_id": 142,
+				"body": "> [nofish](#comment_428_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Markdown syntax != Coding\n> Reddit (and many other forums) also using markdown. So you saying you only able to post on reddit if you can code? (But more complex editor planned later if noone else do it before)\n\nI don't like Markdown and I really don't understand it to well either. I know a lot of forums are starting to use it. Most of us non-coders hate coding because if you get one thing wrong in the code it wont work right, so we use things like a CMS. Us non-coders don't want to constantly have to go to a file and do this  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /> or this { position: absolute; -webkit-transform: translateX(-50%) and take a chance of getting it wrong when we could just use a CMS or Admin Panel. Please consider making one when you have time.",
+				"added": 1457236543
+			},
+			{
+				"comment_id": 143,
+				"body": "> [muja](#comment_54_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr): While I understand your point, I have to disagree. Less than one year ago I was you; I \"hated\" coding and programming languages mostly because I couldn't understand it. After a series of fortunate accidents, I ended up learning more and more and now I fucking love it!\n> It's very easy (and understandable) to think that things that don't look simple are hard, but if you look close enough, you'll start to see that it's very logical and might end up liking it.\n> For instance, take a look at this guide to markdown. You'll see how simple and powerful it is.\n> You might still prefer a CMS, and that's ok, but the current state of zeronet is in no way difficult, you just need to look closer :)\n> I would gladly help you with whatever issues you come up with (and surely more experienced people would as well) but I strongly believe that if you change your mindset to one of curiosity instead of disregarding it as hard, I'm sure that you'll eventually start to like it. After all, programming is the backbone of the twenty first century.\n\nThanks for offering to help me but after trying to code already once, I do not want to try it again. If you want to help then please help some other coders come up with a CMS for ZeroNet.",
+				"added": 1457278301
+			},
+			{
+				"comment_id": 144,
+				"body": "> [kaffie](#comment_53_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): I think you're missing the point. Oracle's talking about people who normally wouldn't go out and make a website. Those millions of people who just want to click a button and have their content appear on the page. Markdown is fine, as we see people on reddit use it just fine despite having no coding experience. However, how many of those users would, say, be comfortable digging into the html and javascript of a site to customize it? Hell, even a lot of reddit moderators don't care to do that and just copy+paste important stuff they like (full themes, generators for stuff, etc).\n> And back in the day with myspace we saw a similar thing happen. People visited site generators to theme their site, rather than digging into the html/js. I see ZeroNet quite similarly to how Myspace or even something like Geocities was back in the day: where everyone has their own little site customized to their taste.\n> However, I do see this as an opportunity to educate people on how stuff actually works, and get them digging into code and learning about how websites work, rather than continue to rely on buttons.\n> All that being said, I love markdown. It's fantastic. It should honestly be a standard.\n\nBut don't forget some of us love the buttons but hate to code. ZeroNet needs to cater to both, coders and non-coders. The non-coders can use the CMS while coders could still code what they want. I think of ZeroNet as more of a Product and not a Project. If you want the Consumer to use a product you have to cater to their needs and wants. I love what nofish has created but it does need a CMS. I believe a CMS will get more consumers, who can't code or don't want to code, to use ZeroNet.",
+				"added": 1457279997
+			}
+		],
+		"1_1EqRTFLe3aeLBGPMMqW7r8mFxLXuEhsCMm": [
+			{
+				"comment_id": 145,
+				"body": "I use linux now and it has a software manager like this https://ipfs.pics/Qmf7zLXToYge54vEXJ8pcTxwrnEUnaUPbTvSfm9hd9wSfy If possible ZeroNet needs to be added to the software manager. This would greatly help in promoting ZeroNet.",
+				"added": 1457370090
+			}
+		],
+		"23_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 146,
+				"body": "> [nofish](#comment_463_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It can be slow using Tor. Depends on network latency/how far the peers from you.\n\nThanks nofish, I was just wondering if that was normal.",
+				"added": 1457535148
+			}
+		],
+		"3_1Kg7CXZM5h3wTPENsTDwWUmRBf9VhYy2cW": [
+			{
+				"comment_id": 147,
+				"body": "Here's some javascript ideas http://www.opensourcescripts.com/dir/javascript.html https://github.com/search?utf8=%E2%9C%93&q=JavaScript http://speckyboy.com/2012/11/26/dynamic-open-source-javascript-libraries/ And don't just look on ZeroNet for devs, also look on these forums and try to get other people involved with ZeroNet. https://www.javascript.com/news http://www.webdeveloper.com/forum/forumdisplay.php?3-JavaScript http://www.codingforums.com/javascript-programming/ http://forums.devshed.com/javascript-development-115/ http://www.dreamincode.net/forums/forum/90-javascript/",
+				"added": 1457732160
+			}
+		],
+		"1_1AFL4FFT3BuEDwTwVqychMq4LbxjuEY5Ss": [
+			{
+				"comment_id": 148,
+				"body": "I think it's going to be awesome because of their incentive and also because they are developing a wordpress alternative called safepress. http://safepress.io/ I haven't installed maidsafe yet, I'm waiting for bugs to be worked out of everything.",
+				"added": 1457733408
+			},
+			{
+				"comment_id": 149,
+				"body": "> [iulian](#comment_1_1BVZ8UNyuXA944rWSAsuPnTcBn9Bh1cicd): From where can one install this software?\n\nMaidsafe is being tested now and safepress is still being developed..",
+				"added": 1457756031
+			}
+		],
+		"6_13dUD5qbY6LaXH9pfh5iDgXHgKjCZPxvZV": [
+			{
+				"comment_id": 150,
+				"body": "ZeroMail I believe is base on Bitmessage, so maybe it's possible to share files over ZeroMail.",
+				"added": 1457842451
+			}
+		],
+		"7_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 151,
+				"body": "Maybe some of this stuff will help you. https://www.youtube.com/results?search_query=tutorial+Scraping+a+javascript+website http://blog.miguelgrinberg.com/post/easy-web-scraping-with-python https://stackoverflow.com/questions/857515/screen-scraping-from-a-web-page-with-a-lot-of-javascript http://www.codeproject.com/Articles/568502/Scraping-Dynamic-WebSite-data-using-Watin https://nrabinowitz.github.io/pjscrape/#overview http://blog.databigbang.com/web-scraping-ajax-and-javascript-sites/",
+				"added": 1458583333
+			}
+		],
+		"1_1BQg5MQZ63aEQZMzLEXP6yY3hsgznKpaps": [
+			{
+				"comment_id": 152,
+				"body": "Linux Mint",
+				"added": 1458970989
+			}
+		],
+		"6_1MahZJTzjoEMMCv2jBReDWhyNGRhN5tvDq": [
+			{
+				"comment_id": 153,
+				"body": "WP Static HTML Output Produces a static HTML version of your WordPress install and adjusts URL accordingly  https://wordpress.org/plugins/static-html-output-plugin/",
+				"added": 1459048731
+			},
+			{
+				"comment_id": 157,
+				"body": "> [jza](#comment_11_1MahZJTzjoEMMCv2jBReDWhyNGRhN5tvDq): Interesting, however I wanted more like to migrate my blogposts into the cryptoverse. Given that there is already a Blogging app created (althought still crude). I wanted to port my wiki to this. I think I did a good job, althought it took me a bit of json encoding knowledge and some manual edits to get it right. Fortunately is working now. Maybe a plugin to export a wp blog into JSON format.\n\nCheck out https://sandstorm.io/ They have a wordpress app & I believe you might be able to set wordpress up to post on ZeroNet as a static site.",
+				"added": 1459141268
+			}
+		],
+		"24_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 154,
+				"body": "> [bukaking](#comment_33_17n5jg4bBEoWodXDf8L4Y2u88ShagS272Y): I've been wanting to do this for a while, but haven't had the time. I think it can be done like running IRC bots in a ZeroChat, users could run a bot for other users to play, and maybe the Zite could build in graphics for bots.\n> A lot of bots come up when you do a search these are the ones that peaked my interest but need to be ported to javascript and made to work in ZeroChat:\n> https://casinobot.codeplex.com/http://javatwg.sourceforge.net/\n> I'm also seeing bots for twitch.tv that as viewers watch a streamer the bot gives them currency and they can gamble the currency. Something like that could be used to attract people to a chat room and hang out collecting tokens they can gamble with each other.\n\nGames like these could attract more people to ZeroNet. And it would be cool if people could bet with bitcoins.",
+				"added": 1459138528
+			},
+			{
+				"comment_id": 155,
+				"body": "> [bot](#comment_2_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): I remade the demo below with chat added which suits multiplayer.(..wanted to try the speed of the chat, but not enough people testing so still not sure the 'turn' time)Just tried running a p2p browser connection in conjunction with zeronet, but my first attempt didn't quite work.\n> Of course the payouts/highscores are easily hacked so you have to remedy that with additional checks.The issue is that each player's turn is a database record (which is also written in json) so increases the size pretty quickly. You could have a decent session, but would need to clean the previous sessions to save space.For poker you could just rely on json files, thou skipping the database doesn't really save much.(actually, ZeroMail is huge and runs fine, so i might be overstating the issue)Other than that, it's basically doable. Prolly easier to start with chess.I'll give it a try as soon as i publish my current demo. (code editor)\n> http://127.0.0.1:43110/1PANDAML8mLaRKPinGihTj5RkJV15awcjs/\n\nI'll try your PANDA game and I hope you have luck creating chess, I like chess but I'm not that good at it.",
+				"added": 1459138883
+			}
+		],
+		"1_1AkE5mjeYRiQLGF8Q6NmGvpkm1kk1R6zMe": [
+			{
+				"comment_id": 156,
+				"body": "ZeroNet does need it's own version of youtube. There's and old project called Bit451, which is an open source decentralized / distributed anonymous p2p media network. It has been characterized as “YouTube meets BitTorrent meets Bitcoin”. http://bit451.org/ https://github.com/Bit451 It would be awesome if some could figure out a way to integrate this into ZeroNet or create something like it.",
+				"added": 1459140580
+			}
+		],
+		"25_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 158,
+				"body": "> [pycole](#comment_130_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): Not sure, but here's a related tool: https://www.silex.me/\n\nThank you pycole, I'll have a look at silex to.",
+				"added": 1460430563
+			},
+			{
+				"comment_id": 161,
+				"body": "> [pycole](#comment_132_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): Found another: https://github.com/benweet/stackeditDemo link at the top.This thing has in-browser markdown editing, with a live preview. So much Yes.Edit: also this\n\nThanks pycole silex seems pretty cool and I'm going to try it out, but I don't care much for stackedit, I'm not a big fan of markdown either. I'm looking for something I can use to edit a site without any type of coding, like a wysiwyg or drag and drop and silex does have a wysiwyg. I just don't want to do any of this \n<div class=\"editbar bottombar\">\n <ul class=\"markdown-help\">\n  <li># H1</li>\n  <li>## H2</li>\n  <li>### H3</li>  or any of this \nbody { background-color: #FFFFFF;\n   background-image: url(https://imgur.com/enj35WS.jpg);\n   background-attachment: fixed;\n   background-position: center center;\n   background-size: cover;",
+				"added": 1460520799
+			}
+		],
+		"1_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 159,
+				"body": "> [bot](#comment_8_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): added some more demos from Cave2D.com (drag terrain, drag object, game1)the database is handling large files okay. i'll bump it to a few mb when needed. testing in Maxthon browser.(..still need to change from static to dynamic layout for diff screen sizes)\n\nI get this when I go to the site. Internal error: TypeError: 'NoneType' object does not support item assignment\nUiWebsocket.py line 98 > UiWebsocket.py line 178 > UiWebsocket.py line 467",
+				"added": 1460430963
+			},
+			{
+				"comment_id": 160,
+				"body": "> [bot](#comment_9_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Hey thanks for the feedback.  As with @thisguy1337 my error went away.When i was hooking in nullpo's minified code (i called it ZeroPaste) i had to figure out what some of the variables did as they were also obfuscated (all renamed to the same bunch of letters of the alphabet) and when i started assigning readable names my code broke so i went back a few times, except where they seemed to be ZeroFrame API related, and therefore necessary. I think there are one or two that still need re-assigning, but as my error went away it's harder to fix.\n> Did you try logging in with your ZeroID and reloading a couple of times?Do you get the same error on the proxy site below?\n> http://proxy.zeroexpose.com/1NFUSEDZjmCFJE1JSG5UjwCRK6zDwQRQd7/\n\nI went to http://proxy.zeroexpose.com/1NFUSEDZjmCFJE1JSG5UjwCRK6zDwQRQd7/ and I didn't get the error message then I tried http://127.0.0.1:43110/1NFUSEDZjmCFJE1JSG5UjwCRK6zDwQRQd7 again and this time I didn't get the error message.",
+				"added": 1460440565
+			}
+		],
+		"2_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT": [
+			{
+				"comment_id": 162,
+				"body": "These might help you. https://www.webdesignerdepot.com/2013/01/how-to-build-a-threaded-comment-block-with-html5-and-css3/ http://www.w3schools.com/html/html_comments.asp",
+				"added": 1460862674
+			}
+		],
+		"50_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": [
+			{
+				"comment_id": 163,
+				"body": "greengiant is right, it does need a frontend. You should consider contacting encrypted for help,  he or she works on frontend development. encrypted@zeroid.bit",
+				"added": 1461127276
+			}
+		],
+		"1_1DL96EbPqBXweqPPseW2eRCLF1EED73htn": [
+			{
+				"comment_id": 164,
+				"body": "I use yacy but I don't think you can use it with ZeroNet, nofish could probably tell you more.",
+				"added": 1461601387
+			}
+		],
+		"1_17ApQKugX1XH727gpAeD3mrRLjLxASdakd": [
+			{
+				"comment_id": 165,
+				"body": "> [gabriel](#comment_2_1LLCfj6q47nJ2aXEVFSmy9Nv4dkKKJyUBQ): To me, social networking and privacy-centric networks and darknets are mutually exclusive. What's the point of getting into zeronet if you're gonna do the same thing you can do on facebook?\n\nCentralized social networks censor stuff if a Government ask them to, that's why we need a decentralized social network.",
+				"added": 1462290576
+			}
+		],
+		"26_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 166,
+				"body": "> [redacted](#comment_47_19qsuxKBkNZWYft3epWgn6u3gG82sQHs6n): Stop being a non-coder. The world will only get worse and worse for people who do not understand computers well enough to code.\n\nI work with eighteen year old kids that have taken coding in school and they have even said they hate coding as much as I do. Not everybody likes to code so there's always going to be a need for an admin panel.",
+				"added": 1463454031
+			},
+			{
+				"comment_id": 167,
+				"body": "> [nofish](#comment_660_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): its not in development yet\n\nThanks nofish.",
+				"added": 1463454052
+			}
+		],
+		"1_14uHGcnMinwK9ZdSQosHqjRV4eBCxkv9Mu": [
+			{
+				"comment_id": 168,
+				"body": "I found a ZeroTube website someone created but I can only get one video to play. This site is a good idea but it needs some work. http://127.0.0.1:43110/1FUQPLXHimgCvYHH7v3bJXspJ7bMBUXcEb/",
+				"added": 1463500230
+			},
+			{
+				"comment_id": 170,
+				"body": "> [ssdifnskdjfnsdjk](#comment_1_1L4dZcDF2maSKHDy788yhxpYnBWnXadUtS): I listen about LPFS and Webtorrent, but i was looking for some guide to integrate them into the webpage (ZeroNet one).Here someone create an code (not sure if works):It is a youtube clone fully decentralized and serverless that use ZeroNet + webtorrent. More information : https://github.com/rllola/zeroTube/\n\nZeroTube >> http://127.0.0.1:43110/1FUQPLXHimgCvYHH7v3bJXspJ7bMBUXcEb/",
+				"added": 1463585878
+			}
+		],
+		"1_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 169,
+				"body": "Here are a few tutorials https://www.youtube.com/watch?v=eOG90Q8EfRo",
+				"added": 1463501007
+			}
+		],
+		"4_19R2USgb9vPyg1jPQEJkGVoBwDuDcEmHRF": [
+			{
+				"comment_id": 171,
+				"body": "Someone created this site for sharing files but I haven't tried it yet. http://127.0.0.1:43110/1GrtBsG57kjU2Z3iAQebG9D5c8CRDRLoPj/",
+				"added": 1466031023
+			}
+		],
+		"8_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 172,
+				"body": "I found this site someone created but I can only get one video to play. http://127.0.0.1:43110/1FUQPLXHimgCvYHH7v3bJXspJ7bMBUXcEb/ I uploaded two music videos but they won't play either.",
+				"added": 1466077131
+			}
+		],
+		"2_1DqP4N3Nxp9RQQGuqrX5eCqE6t3gWNJXr": [
+			{
+				"comment_id": 173,
+				"body": "I'm getting that now with ZeroMail for some reason.",
+				"added": 1466750666
+			}
+		],
+		"1_1NpaQyMLjikY9FXdfyG4p8CNmS2YrupsRR": [
+			{
+				"comment_id": 174,
+				"body": "I found this one. http://127.0.0.1:43110/1GrtBsG57kjU2Z3iAQebG9D5c8CRDRLoPj/",
+				"added": 1470206666
+			}
+		],
+		"5_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": [
+			{
+				"comment_id": 175,
+				"body": "Well here's an alternative mail I found ZeroMail2.0 It has file sharing but I haven't tried it yet. http://127.0.0.1:43110/16X3emHaVgNPrx39U1sYd24dFk5L5swTua/",
+				"added": 1472689363
+			}
+		],
+		"16_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 176,
+				"body": "I've uploaded 4 music videos but then I can't get them to play. All 4 videos say 0 peers. I use  firefox.",
+				"added": 1472863507
+			}
+		],
+		"2_1DcE9QfZbfLZhXxgtQ8Ui3oMZvs9NVjqZB": [
+			{
+				"comment_id": 177,
+				"body": "I'm voting for Jill. Fuck Democrats and Republicans.",
+				"added": 1473128161
+			}
+		],
+		"7_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": [
+			{
+				"comment_id": 178,
+				"body": "I agree with kopykate, you two should work together to create a viable video site.",
+				"added": 1473187051
+			},
+			{
+				"comment_id": 181,
+				"body": "Question - I noticed I have myZer0vidz User multiple times, is that normal? I took screenshots to show you what I mean. https://ipfs.pics/QmZdmDDAQgctg4ZUn2j9xdTqsdzaPtyXYVDBJnCbAVygid https://ipfs.pics/QmQnAndS67vvYPqwuSmbYEqquvKP8ceHJcD6eF9B6HNtmG",
+				"added": 1473454593
+			},
+			{
+				"comment_id": 183,
+				"body": "> [whacka](#comment_1_19sWwpJ82tm68qX4d5VTrFRLbK9smZuXmw): Yeah, that simply means someone cloned the userchannel without renaming it to something unique. If you dont want to serve a certain channel anymore, just pause or delete it.\n\nThanks",
+				"added": 1473527566
+			}
+		],
+		"19_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 179,
+				"body": "So far what you've done looks sweet.",
+				"added": 1473310355
+			},
+			{
+				"comment_id": 182,
+				"body": "I just uploaded Jethro Tull - Bungle in the Jungle and here's the link. http://127.0.0.1:43110/bwoi.bit/track.html?id=9b353e51578969b6adbb4f9e0b8bcf02848f71a2 It played for me, you guys please check to see if it also plays for you. But I tried sirenyc's link and it wouldn't play. http://127.0.0.1:43110/bwoi.bit/track.html?id=1abc82c44332c6a12a538db88cc59fc3c938d509 Also it would be nice if BWOI MUSIC was design similar to mp3clan http://mp3clan.com/mp3/Pantera_Cemetery_Gates.html Just keep your color scheme because it looks awesome.  ",
+				"added": 1473526928
+			}
+		],
+		"1_1KkA3C1iVDfieotYpuPUCpUtKzdFcfHMRy": [
+			{
+				"comment_id": 180,
+				"body": "ZeroNet needs something like mp3clan. http://mp3clan.com/mp3/Pantera_Cemetery_Gates.html It also needs away for people to upload music as well.",
+				"added": 1473384354
+			}
+		],
+		"29_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 184,
+				"body": "> [amaropargo](#comment_2_1AZ8PAvb9ChktEbe1jy38b1TvbYB1xVJbh): Test this http://torrenttunes.tk/ https://github.com/tchoulihan/torrenttunes-client\n\nDo I have to install the torrenttunes client to get them to play?",
+				"added": 1473996886
+			},
+			{
+				"comment_id": 185,
+				"body": "> [amaropargo](#comment_2_1AZ8PAvb9ChktEbe1jy38b1TvbYB1xVJbh): Test this http://torrenttunes.tk/ https://github.com/tchoulihan/torrenttunes-client\n\nI can only play the songs with a green dot by them and the ones with a orange dot by them.",
+				"added": 1474063253
+			}
+		],
+		"1_1M5WUh6vfLNhNCJJAMDH22zqEgWyEMtPX2": [
+			{
+				"comment_id": 186,
+				"body": "https://www.siteground.com/wordpress-hosting/wordpress-themes.htm https://smthemes.com/ http://justfreethemes.com/ http://www.fabthemes.com/veston/ https://fthemes.com/traco-free-wordpress-theme/ https://fthemes.com/traco-free-wordpress-theme/",
+				"added": 1474063802
+			}
+		],
+		"1_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 187,
+				"body": "Stupid question, do I have to install  Peerify and WebTorrent Desktop to use Kopy Kate?",
+				"added": 1474495952
+			},
+			{
+				"comment_id": 188,
+				"body": "> [kopykate](#comment_25_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4): No, just WebTorrent.Desktop. Peerify is just a site that allows you to upload files, and then get them temporarily webseeded, as well. This should help reduce the number of people losing their torrents and from creating dead video links that don't work. \n> Gonna make some tutorials on how do web-seed your videos on WebTorrent, as well. This will help with 24/7 seeding. Stay tuned. ;)\n\nThanks, and tutorials are needed.",
+				"added": 1474504972
+			},
+			{
+				"comment_id": 195,
+				"body": "Question - Couldn't something like WebTorrent.Desktop be integrated right into Kopy Kate so people wouldn't have to download and install it.",
+				"added": 1475798327
+			}
+		],
+		"31_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 189,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_138_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): i have this problem too\n\nZeroMail was the only thing I could really use on ZeroNet and now I can't use it. (Depressed)",
+				"added": 1475516049
+			},
+			{
+				"comment_id": 191,
+				"body": "> [nofish](#comment_787_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Thanks for reporting will check it in the next days\n\nThanks nofish! ",
+				"added": 1475632405
+			},
+			{
+				"comment_id": 192,
+				"body": "> [teszt](#comment_52_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC): I had this problem also by a former version a couple of weeks or a month ago and I thought that zeromail  is not any more active as zeromail 2.0 appeared and worked.But after an update it worked again. (since some weeks)Try to update to the newest rev.1534 version.\n\nI haven't tried it with the newest revision yet nor have I tried zeromail 2.0. Guess I'll also check out 2.0",
+				"added": 1475632539
+			}
+		],
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": [
+			{
+				"comment_id": 190,
+				"body": "A streaming TV site like http://www.couch-tuner.ag/ A mp3 site like http://mp3clan.com/ a forum like https://www.phpbb.com/ and a file sharing site like https://www.sendspace.com/",
+				"added": 1475520534
+			},
+			{
+				"comment_id": 196,
+				"body": "More people seem to be interested in CMS's and I found these that might work with ZeroNet. Maybe one of you developers can integrated on of them into ZeroBlog. http://yeti-cms.github.io/yeti-frontend/?yedit&editing=true http://sitecake.com/ https://bolt80.com/piecrust/ http://hatchjs.com/ http://cdmedia.github.io/cms.js/",
+				"added": 1476037687
+			}
+		],
+		"1_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 193,
+				"body": "When I click on a magnet link, a small window appears and it says - Problem loading page Remote XUL This page uses an unsupported technology that is no longer available by default in Firefox.  Please contact the website owners to inform them of this problem.",
+				"added": 1475641657
+			},
+			{
+				"comment_id": 200,
+				"body": "> [kensan](#comment_50_1LUP6SN7WrXAH7e5bUFxdmrVsFr2m43XB4): Confirm:\n> Remote XUL\n> This page uses an unsupported technology that is no longer available by default in Firefox.\n> Please contact the website owners to inform them of this problem.\n\nI'm still getting that.",
+				"added": 1476233650
+			}
+		],
+		"2_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 194,
+				"body": "I believe all these can be ran on ZeroNet but I'm not smart enough to do it. http://yeti-cms.github.io/yeti-frontend/?yedit&editing=true http://sitecake.com/ https://bolt80.com/piecrust/ http://hatchjs.com/ http://cdmedia.github.io/cms.js/",
+				"added": 1475795410
+			}
+		],
+		"32_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 197,
+				"body": "> [bot](#comment_126_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Which browser? (if u open debug/inspect console u'll prolly see some error stopping it from loading)\n\nI'm using Firefox and I'm not familiar with that console your talking about, I don't code so I don't normally look at the code. Are you talking about the console that pops up when you hit F12? If so I will try to find what your talking about.",
+				"added": 1476144353
+			},
+			{
+				"comment_id": 198,
+				"body": "> [bot](#comment_126_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Which browser? (if u open debug/inspect console u'll prolly see some error stopping it from loading)\n\nI found this but not for sure it's what I'm looking for. https://sli.mg/gOX4UI",
+				"added": 1476148988
+			},
+			{
+				"comment_id": 199,
+				"body": "> [nofish](#comment_798_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It happens when the site is missing an important part (data/users/content.json) is that file in place for you?\n\nI  went here 1MYN9sbAuisfMi9QcF9yvajMRcUZFAK3z4/data/users and there is no content.json file, there's only a zerotalk.db file. So apparently the creator forgot to put the content.json in the users folder.",
+				"added": 1476205486
+			},
+			{
+				"comment_id": 201,
+				"body": "> [runa](#comment_1_1BqiAqF1dYC7hMaHSYNuGVijFByevShgPp): You have't sign your site.\n\nIt's not my site. I was just seeding it and was wondering how come it look like this. https://sli.mg/gOX4UI But whoever created it must have not signed it. I thought it was a bug at first.",
+				"added": 1476249212
+			}
+		],
+		"1_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": [
+			{
+				"comment_id": 202,
+				"body": "ZeroMail is ok but ZeroBlog sucks because it has no cms for us non-coders. ",
+				"added": 1482634029
+			}
+		]
+	},
+	"comment_vote": {
+		"2_1KLafGGRHDuijHzTX6w9KAdGiSwbBhuJar": 1,
+		"3_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": 1,
+		"2_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"3_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"24_1KdQMFyXwPY2vjMDL9UiPnckwGbyvUjpcj": 1,
+		"74_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_15GAacu7pKgDiVNjPcQ4ZdqCKCigewnx1b": 1,
+		"5_1D7DRHxZ8WMHLvkyaVWEZsdAZSQvLY5JQM": 1,
+		"22_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"24_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"25_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"48_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r": 1,
+		"26_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"4_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn": 1,
+		"2_1KKg234YUiRqybCsKpqRsNmFBaSSDB12L1": 1,
+		"117_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"40_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"6_16iYwD5U2fNoS22p6447J7992iL3DHjSHY": 1,
+		"135_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"152_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"154_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"53_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"19_15QGRquMETTn5LnCHjTm1qa9eaXGtq7gpT": 1,
+		"66_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"93_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": 1,
+		"8_1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS": 1,
+		"6_1MGse2Xfdae1FkAiGoHzWTeFx4Mo2yEqfH": 1,
+		"193_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"10_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"10_12SuCFUNDaMYRHG9DsWCyCN1NgHGjddwSJ": 1,
+		"11_12SuCFUNDaMYRHG9DsWCyCN1NgHGjddwSJ": 1,
+		"12_12SuCFUNDaMYRHG9DsWCyCN1NgHGjddwSJ": 1,
+		"85_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"1_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"2_1MmPY9fniJwwhP6WsgH4jWoq5rBAVV6KWy": 1,
+		"1_1BWsVpXFVzcpYwdgKhjCRuTx3xDTxyevKS": 1,
+		"17_1MGse2Xfdae1FkAiGoHzWTeFx4Mo2yEqfH": 1,
+		"33_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"91_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"92_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"94_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"3_1KGozab6jp6jA6zVM8cTFdzMmBasriNP4f": 1,
+		"44_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": 1,
+		"4_1BFh4e3Ln78uq8ccfvz8ADVNv2NWGh7Hgo": 1,
+		"46_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": 1,
+		"4_1M5ztUWkCMP5Pv7MjwApWT7CNvWimGFaFa": 1,
+		"1_1LyYvjLgj8X5T8HMkcKVCnSVdT4kPpt6tJ": 1,
+		"5_1MmPY9fniJwwhP6WsgH4jWoq5rBAVV6KWy": 1,
+		"10_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"93_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"48_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": 1,
+		"97_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"40_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"293_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"70_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": 1,
+		"71_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": 1,
+		"69_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": 1,
+		"28_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"76_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": 1,
+		"111_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"77_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": 1,
+		"2_1Pfwz3A2J1fDNtxvtaivd482mrMdGGdimU": 1,
+		"114_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"309_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"28_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7": 1,
+		"22_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"4_1FJFF8d4B5LQ9jJinqBRxqCR7RHbHPxBfv": 1,
+		"114_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"87_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": 1,
+		"120_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"47_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ": 1,
+		"48_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ": 1,
+		"12_1BBKD8mSqtGDaK5GQ5Q6A6mLhpc8xrgW97": 1,
+		"119_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"19_167eTX5f6jJt4HPvfQqf2QuwdTFCnxJCf2": 1,
+		"124_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"96_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": 1,
+		"4_1HN54tqPZqnHs5SpJVFVsMhRH1nUSt3iQF": 1,
+		"28_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"127_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"32_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"131_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"139_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"140_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"142_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"53_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"4_1JA2umSc9f7VSNLaYLs1Cpk7rpvS4p18xe": 1,
+		"441_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"11_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k": 1,
+		"144_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"2_1EqRTFLe3aeLBGPMMqW7r8mFxLXuEhsCMm": 1,
+		"3_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"17_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"3_1EqRTFLe3aeLBGPMMqW7r8mFxLXuEhsCMm": 1,
+		"4_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"145_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"1_18rwTQJ5QsASCHAguASWuN1uEZ3Fo9diyV": 1,
+		"16_14tJBPnxcrF9kMK5v7DULWnaJx3JepirXb": 1,
+		"67_15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ": 1,
+		"24_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx": 1,
+		"148_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"147_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"11_1Kg7CXZM5h3wTPENsTDwWUmRBf9VhYy2cW": 1,
+		"12_1Kg7CXZM5h3wTPENsTDwWUmRBf9VhYy2cW": 1,
+		"1_1QEzz3SceR19mpxVZcViL77F46FJSojQUw": 1,
+		"3_1eAD3eu7XTTmz99sDLbfqmWbFjKKjC89w": 1,
+		"38_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx": 1,
+		"151_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"7_14PXH1VLXEseL1h6gLpHqi3bXEAdamDwgg": 1,
+		"1_14PXH1VLXEseL1h6gLpHqi3bXEAdamDwgg": 1,
+		"52_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"153_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"33_17n5jg4bBEoWodXDf8L4Y2u88ShagS272Y": 1,
+		"11_1MahZJTzjoEMMCv2jBReDWhyNGRhN5tvDq": 1,
+		"118_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"2_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"154_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"42_18rFd7W9y5QGQEVXaCoJV7jyt7D8aN156h": 1,
+		"1_1H4LhmHmL6z6cfkF8q2PBBo28nsmh2v7EM": 1,
+		"62_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"157_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"99_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"134_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"130_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"10_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"132_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"161_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"1_1Pvgpd3Qgmr8pCHFM1W8c9gQi9evLtm6UY": 1,
+		"69_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"2_16PXCRRdfRGjhhpd4m6XA8hpsKJFwSB6gX": 1,
+		"23_19qsuxKBkNZWYft3epWgn6u3gG82sQHs6n": 1,
+		"2_1DEGNzqUcsqYMGB68Py4M7UdksAd5ed4AW": 1,
+		"165_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"3_1MxdAjWgnqwCaunGHmhY39tVR51qV3peJL": 1,
+		"168_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"3_16s9RYL8i9gtVGWR3iv9mbeLz5v8GM85R6": 1,
+		"166_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"169_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"1_137B9s9bHhdvKuMYxHxJQ1ovrEK1vTDUMu": 1,
+		"1_1D6JTFd6et7AMotZSjcc9eaBbWKQRMiiC4": 1,
+		"64_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"40_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1,
+		"22_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"696_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1HY7QLUjAgt3VweG15ZX58XAUw9DzUgLP8": 1,
+		"19_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ": 1,
+		"14_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV": 1,
+		"9_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9": 1,
+		"10_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9": 1,
+		"4_1HXv2c6awyWdtUb8SeP7bWViMHcvxdV82X": 1,
+		"12_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"4_1BH81S1XyUjy9VKLGHpx8VoY1WJnqvBmS2": 1,
+		"21_1C6qdRAX8iYqSB7TfUxk91yW8Y2SBKNgfA": 1,
+		"2_13eTQePN4cvnxL9qFurmPFgHRTXMGNNbCy": 1,
+		"19_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": 1,
+		"29_1DcE9QfZbfLZhXxgtQ8Ui3oMZvs9NVjqZB": 1,
+		"180_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"3_12AypRkj4XjW3W5ANf5g298vKtHSR8EmbJ": 1,
+		"1_1AZ8PAvb9ChktEbe1jy38b1TvbYB1xVJbh": 1,
+		"2_1AZ8PAvb9ChktEbe1jy38b1TvbYB1xVJbh": 1,
+		"5_12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH": 1,
+		"5_1L4dZcDF2maSKHDy788yhxpYnBWnXadUtS": 1,
+		"23_1NGTMtN8816KeCtNqy6W4fCQduU4P8iwty": 1,
+		"138_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r": 1,
+		"787_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"5_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"196_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"194_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"190_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"1_1G93135DKegpzoqyADP2MznzTwSUBLQKnQ": 1,
+		"795_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"202_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"1_139LLUzmhR7a8VM1TaT2s6EpddjxJ7ogRU": 1,
+		"7_1yvSQH5Z7aJra4y9s6KG2kjLeGXYhNgn7": 1
+	}
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HEmwVPmVFD9etHx39HvgruFMr1PaJyfx4dFC4EwmPND0z34FmtVSJBEl+2WqyR25TwxZlZZdkOlqUeErNICXLQs=",
+ "cert_user_id": "trezel@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "929ba04444a3ac380066689a8e3bc7b5bf3787d13449d6dfc6a44ff343d82e4f",
+   "size": 246
+  }
+ },
+ "inner_path": "data/users/1MWagJXP6GsZAJefnGXpm61ttLWCifQSc1/content.json",
+ "modified": 1491515886,
+ "signs": {
+  "1MWagJXP6GsZAJefnGXpm61ttLWCifQSc1": "HISw/UmUIfSPGTLEo4WFp9kZuyBiSKsa6EHqD2XbA5EBdghDOos+8GYhoY6iGyWHW9Vdv8PWjw0eavViti2TjZQ="
+ }
+}

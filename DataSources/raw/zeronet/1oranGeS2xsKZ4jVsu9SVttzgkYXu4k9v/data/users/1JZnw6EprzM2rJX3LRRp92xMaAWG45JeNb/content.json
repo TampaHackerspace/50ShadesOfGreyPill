@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HJNZ+g563B8L5R0kmOUkUc0dfj2PjsesWTPuD5aLMdDOGduk5UmIIFjiI0omyGiDcoDrmUCYwaXhf4hkpyWjgmU=",
+ "cert_user_id": "catalunya@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "e61ffb2cc3ffd75c2eab909600f6690d78d0896907e78d4d2bf0893939f873ce",
+   "size": 1726
+  },
+  "data.json": {
+   "sha512": "abc8ce3d20c4073a90a8e53647ea06d6f126cb6f68e7c9c2d808cb85d791eb06",
+   "size": 47521
+  }
+ },
+ "inner_path": "data/users/1JZnw6EprzM2rJX3LRRp92xMaAWG45JeNb/content.json",
+ "modified": 1484743086,
+ "signs": {
+  "1JZnw6EprzM2rJX3LRRp92xMaAWG45JeNb": "G+XlWSHoXThEz8K6/A/VY8Dh3wsTKeWktqaP2ANYlq9dGHsH1Kp9CBMYpeDRTt7ep70T8ubllx7Sk1KG+Tmu1RA="
+ }
+}

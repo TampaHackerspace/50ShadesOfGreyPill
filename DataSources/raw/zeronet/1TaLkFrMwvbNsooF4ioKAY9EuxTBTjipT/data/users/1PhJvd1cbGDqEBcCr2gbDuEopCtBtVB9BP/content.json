@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G12Le3JauFN+1nfBH3UcP4hcwXrZ9EHIJ7dZyV5037xEeFU15viqrjbT8ncewFg50tL2KLIUNPuNpdiI4pI9tmM=",
+ "cert_user_id": "panchopigna@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "679f95dd79314e4c2b1f89deecb1e11736aad28f6eb4c2153acb1e6387ee21e1",
+   "size": 303
+  }
+ },
+ "inner_path": "data/users/1PhJvd1cbGDqEBcCr2gbDuEopCtBtVB9BP/content.json",
+ "modified": 1493964437,
+ "signs": {
+  "1PhJvd1cbGDqEBcCr2gbDuEopCtBtVB9BP": "G+74vHPtFubWAdinNUZxWOcZVn2u6mGuW+mXhCEZ4uHRZVNrExGnCPP6k3mYSbu1SBXkrObBOObMD2yl0+C6TiI="
+ }
+}

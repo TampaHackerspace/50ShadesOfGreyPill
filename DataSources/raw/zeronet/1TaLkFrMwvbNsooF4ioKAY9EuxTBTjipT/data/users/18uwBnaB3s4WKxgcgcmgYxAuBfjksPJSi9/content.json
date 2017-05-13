@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G46gh+hcP4UOQhiW+S1Pnufq79uXEL0ZwbghbwpO5Xg7ejbBdQg0mCCTSheux9+HU+aofw8pFIZjBNTlO17r4rk=",
+ "cert_user_id": "overzealous@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "5ad0d4f3f17c84988bd0dc9624d5968db692d514ca8cd8947f50e435f7c1e83d",
+   "size": 162
+  }
+ },
+ "inner_path": "data/users/18uwBnaB3s4WKxgcgcmgYxAuBfjksPJSi9/content.json",
+ "modified": 1474507035.039,
+ "signs": {
+  "18uwBnaB3s4WKxgcgcmgYxAuBfjksPJSi9": "G1OYX4a6SYkfFAmSF0lGr9X53gKLcDQxBbLJGGHwhnoDxbKvd9gjrAKvJsqU9seTS7Z2skSIjMq/dCzXxMEFz1M="
+ }
+}

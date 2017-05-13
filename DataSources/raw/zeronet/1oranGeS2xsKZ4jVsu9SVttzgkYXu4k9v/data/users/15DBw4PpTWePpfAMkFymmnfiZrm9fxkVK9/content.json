@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HA8LFAap48n5EjpTDwU4VQ38d0/+8R4hSmcSHOrOzZTrhHiclWEcjg9lX70mpvLEDUU5i+3H3SrkSiTKzwYdH6I=",
+ "cert_user_id": "giorgioantani@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "55bce24e5b2286d7e401097e601b82e49cddce8c77d8c2ba9e1eb099c15d7e93",
+   "size": 760
+  }
+ },
+ "inner_path": "data/users/15DBw4PpTWePpfAMkFymmnfiZrm9fxkVK9/content.json",
+ "modified": 1480349284.965039,
+ "signs": {
+  "15DBw4PpTWePpfAMkFymmnfiZrm9fxkVK9": "G0o6s68BEJRqqR0JDdOBDOlEX09XrovERxYg6iuhjNXYtl+RMU1LeNug2zPtadCsh8gVZUKKxmREfU6+tG4yJys="
+ }
+}

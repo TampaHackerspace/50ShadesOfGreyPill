@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G2BtLZTh/6RoE2gJx5Bg3n6jNDigh5batNzJuaLtsARNymxkbzHUOsWOiqsqR06XyXT09kpg7FzvhvZ+Wzv4XDs=",
+ "cert_user_id": "sandr880@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "f8fff7cb484ffbe4e50a7f87d9ed796e666c4e34c2b67c5d640fd4d970bf5bea",
+   "size": 869
+  }
+ },
+ "files_optional": {
+  "1491127537.jpg": {
+   "sha512": "37979e40675d18f9c03e18a0ee84eafb94fde0eed5749ff6938cde6389971f54",
+   "size": 31191
+  }
+ },
+ "inner_path": "data/users/185Ekui7RTZkL1hZ6fHmKLeB1onEMh1TdC/content.json",
+ "modified": 1491131248,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "185Ekui7RTZkL1hZ6fHmKLeB1onEMh1TdC": "HLb+lrw4p1PEVZ+yVvLYubpF40fmYlhkTy/7/zkv3nStS8XtBPBITkmlNu8xKzlf9wY0UxupP4LyIN+m8voOnbU="
+ }
+}

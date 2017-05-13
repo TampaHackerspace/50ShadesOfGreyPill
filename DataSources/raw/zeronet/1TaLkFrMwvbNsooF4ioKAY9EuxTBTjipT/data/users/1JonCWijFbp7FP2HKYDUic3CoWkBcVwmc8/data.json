@@ -1,0 +1,23 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Remote XUL + raspberry + firefox",
+			"body": "Fo some reasons, I got a problem when I try to open links or create a zeromail account. I installed a Firefox addon, called remote xul , but nothing changed, even after a special setup. \nThen I installed chromium-browser and everything works fine. \nI also tried midori and other web browsers and nothing worked...  The only one is chromium-browser!",
+			"added": 1474317615
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 2,
+	"comment": {
+		"7_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 1,
+				"body": "In my case, I can connect via vnc on my Raspberry and launch it  from the desktop. When I disconnect, Zeronet is still running ;)",
+				"added": 1475876341
+			}
+		]
+	},
+	"comment_vote": {}
+}

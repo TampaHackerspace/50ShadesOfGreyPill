@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HMa7GFAOBA5Ly3gS8OZ77/x+KLjUll6u79uXbBCv3YZyR2FH6H1wixWDe+QUOernkjgXQBWbI9nNwTOn0uxEm/0=",
+ "cert_user_id": "zetron@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "97171f9f10b85c9b0fb0382dadf9e872ffb14ef2caccff3b9bcbc73207987cac",
+   "size": 235
+  }
+ },
+ "inner_path": "data/users/13ykodFQteGn2soGTjsn1Ec56SLDRDn13o/content.json",
+ "modified": 1480575008.093,
+ "signs": {
+  "13ykodFQteGn2soGTjsn1Ec56SLDRDn13o": "G2jJiSQs2Un16f3fR0rAtfjLchNiqNcbwkldWDugMNPPk64ng0deuAPOU137jaa0r6ikIDnrg4QL/JohkA6SU4U="
+ }
+}

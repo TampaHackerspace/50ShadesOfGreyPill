@@ -1,0 +1,1617 @@
+{
+	"next_post_id": 67,
+	"next_comment_id": 144,
+	"next_follow_id": 75,
+	"avatar": "jpg",
+	"user_name": "Mynameislegion",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"intro": "Privacy, politics, philosophy and raspberry pies.\n\n\n[Prism-Break Mirror](http://127.0.0.1:43110/1Br4MT7PgsRET2APJkbhqqoxwL1CqcCFxh)\n\n[ZeroLeakz](http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv)",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1471043974,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 2,
+			"body": "How cool is that, I can follow myself. Now I will never forget what I was posting",
+			"date_added": 1471046254
+		},
+		{
+			"post_id": 3,
+			"body": "Don't forget to donate to keep this project alive: https://zeronet.readthedocs.io/en/latest/help_zeronet/donate/",
+			"date_added": 1471136041
+		},
+		{
+			"post_id": 4,
+			"body": "I finally got ZeroNet running on my Raspberry Pi and can access it from any device on my wifi now. I guess I am one of the first mobile users :)\n\nHere is how:\n\n*On your Pi*\n\nsudo apt-get install python-dev python-pip\nsudo pip install gevent --upgrade\nsudo pip install msgpack-python --upgrade\n\nwget https://github.com/HelloZeroNet/ZeroNet/archive/master.tar.gz\n\ntar -xzvf master.tar.gz\ncd ZeroNet-master\npython zeronet.py --ui_ip YOUR_RASPBERRYPI_IP_ADDRESS\n\n*On mobile or PC*\n\nopen http://YOUR_RASPBERRYPI_IP_ADDRESS:43110/",
+			"date_added": 1471138041
+		},
+		{
+			"post_id": 5,
+			"body": "ZeroNet needs to get optimised for mobile screens. In chrome for android it does not work at all and I am writing this text in Firefox right now. The reply button for comments and the edit button are not visible. ",
+			"date_added": 1471242952
+		},
+		{
+			"post_id": 6,
+			"body": "Are there any ZeroNet sites for ebook torrents?",
+			"date_added": 1471272782
+		},
+		{
+			"post_id": 7,
+			"body": "Being on ZeroNet is like watching the birth of a star.\n\nNew interesting, inspiring people every day. It's been ages since I was so occupied with a social network.",
+			"date_added": 1471369692
+		},
+		{
+			"post_id": 8,
+			"body": "Is it possible to have a search function on a ZeroBlog? Or clone the ZeroTorrent site design? Forgive me, I only know a little bit about python and html, the rest I still need to learn",
+			"date_added": 1471473496
+		},
+		{
+			"post_id": 9,
+			"body": "Can anyone advise me on the size limits allowed for a zite? I made a site with roughly 700MB and am still figuring out how to add it to ZeroNet...",
+			"date_added": 1471711683
+		},
+		{
+			"post_id": 10,
+			"body": "How can I change the name that appears for my site on ZeroHello? Currently it only shows the site address :(",
+			"date_added": 1471747493
+		},
+		{
+			"post_id": 11,
+			"body": "@Nofish: I would appreciate it if there was an option to get notified once someone replies to a post to which I replied earlier (currently I only get notified when someone quotes me with @name). ",
+			"date_added": 1471801229
+		},
+		{
+			"post_id": 12,
+			"body": "Can anyone access http://127.0.0.1:43110/1LtFS31Q11swyo1zWLmyxZRafBSbu86SeL",
+			"date_added": 1471815914
+		},
+		{
+			"post_id": 13,
+			"body": "Is there any way to forward ZeroNet to a port other than 15441? I cannot use it for some reason :(",
+			"date_added": 1471904636
+		},
+		{
+			"post_id": 1472162960,
+			"body": "Is there a size limit on the content.json file? If yes, how can I override it? It is a pain to get a site published, this really needs to become easier.",
+			"date_added": 1472162946
+		},
+		{
+			"post_id": 1472236994,
+			"body": "ZeroLeaks |Bringing you the Snowden files| is up and running: http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv/\n\nClick on the images to open the pdfs (and be patient, there are 545 of them). \n\nPlease share the love and help seeding :)",
+			"date_added": 1472236979
+		},
+		{
+			"post_id": 1472250516,
+			"body": "If there are any people who have purchased an Ubuntu phone, what are your thoughts on it?",
+			"date_added": 1472250500
+		},
+		{
+			"post_id": 1472345808,
+			"body": "**ZeroLeaks has been updated** \n\nhttp://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv/\n\n*New SIDtoday section.* \n\nFrom [The Intercept](\"https://theintercept.com/snowden-sidtoday/\"):\n\nSIDtoday is the internal newsletter for the NSA’s most important division, the Signals Intelligence Directorate. After editorial review, The Intercept is releasing nine years’ worth of newsletters in batches, starting with 2003. The agency’s spies explain a surprising amount about what they were doing, how they were doing it, and why.",
+			"date_added": 1472345791
+		},
+		{
+			"post_id": 1474666242,
+			"body": "Updated the site design on ZeroLeakz, let me know what you think :) http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv/",
+			"date_added": 1474666224
+		},
+		{
+			"post_id": 1474671360,
+			"body": "Please recommend me some Jazz gems. \n\nMy suggestion for you: https://www.youtube.com/watch?v=_BlHRPXPx-4",
+			"date_added": 1474671341
+		},
+		{
+			"post_id": 1474813530,
+			"body": "@Nofish, I would appreciate if you could turn off the \"Hello ZeroMe!\" notification whenever someone new joins ZeroMe or give me the ability to hide it. Now I am happy whenever someone joins, but it is cluttering my wall. You could display the latest new users on the left hand side of the screen instead or just drop the feature.",
+			"date_added": 1474813510
+		},
+		{
+			"post_id": 1475087537,
+			"body": "Hi guys, @Talnicrom: does some great work on #ZeroMePlus with adding new features to ZeroMe : Hashtags, blocking, reverse comment order and more.  Please check out ZeroMePlus on: http://127.0.0.1:43110/1Lj1oPcN7oZQL8HkS5KbkzQuKqs42zQWY6/",
+			"date_added": 1475087516
+		},
+		{
+			"post_id": 1478959244,
+			"body": "Is there any way to find out whether an ebook has watermarking? ",
+			"date_added": 1478959222
+		},
+		{
+			"post_id": 1478959962,
+			"body": "Everyone is losing their minds about IPFS - are some file sharing sites already using it? Is it safer than P2P?",
+			"date_added": 1478959939
+		},
+		{
+			"post_id": 1478960097,
+			"body": "The picture upload feature here could include an EXIF stripper ;)",
+			"date_added": 1478960073
+		},
+		{
+			"post_id": 1479242014,
+			"body": "Fixed some page formatting on ZeroLeaks to improve the usability a little bit. http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv/",
+			"date_added": 1479241989
+		},
+		{
+			"post_id": 1485284510,
+			"body": "Is it possible to run zeronet through a socks5 proxy (with username and password)? Not TOR, I know how that works.",
+			"date_added": 1485284484
+		},
+		{
+			"post_id": 1485295042,
+			"body": "",
+			"date_added": 1485295015,
+			"meta": "{\"img\":\"667,700,cccdddeeefffbbb999777666333111000555444888,012320221423566763321089A87200330554B02214212324310113C3302040536634555542D3105566640744547B52135454\"}"
+		},
+		{
+			"post_id": 1485295431,
+			"body": "Does anyone know some good Spanish kodi addons?",
+			"date_added": 1485295403
+		},
+		{
+			"post_id": 1485414528,
+			"date_added": 1485414499,
+			"meta": "{\"img\":\"544,700,888666777bbbccceeedddaaa999fff,00111200333333434454644646520664378667736963434444366337434736387743333333334333\"}"
+		},
+		{
+			"post_id": 1485454949,
+			"body": "Can anyone tell me the difference in yearly power consumption between an external SSD and external HDD if I ran it 24 hours a day?  I would like to expand my storage for ZeroNet...",
+			"date_added": 1485454919
+		},
+		{
+			"post_id": 1485465619,
+			"body": "If you need a VPN: https://thatoneprivacysite.net/simple-vpn-comparison-chart/",
+			"date_added": 1485465588
+		},
+		{
+			"post_id": 1485465681,
+			"body": "Learn more about privacy here: https://www.privacytools.io/ and https://prism-break.org/",
+			"date_added": 1485465649
+		},
+		{
+			"post_id": 1485467091,
+			"body": "For the 5% of you who haven't read it yet :) \n\n[magnet link](\nmagnet:?xt=urn:btih:5ad553e9c6e79e4705afad736c376fcb86e2ec7d&dn=George+Orwell+-+1984+%28Nineteen+Eighty-Four%29+%5B1949%5D+%5BEPUB-MOBI-PD&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969)\n",
+			"date_added": 1485467058,
+			"meta": "{\"img\":\"456,700,b42a31721533765511842444cba333322976766c65b53c86,01222102344456787978A54BCBB2D055210A2A521623355334EE53F477400004777446\"}"
+		},
+		{
+			"post_id": 1485467299,
+			"body": "Most promising torrent search engines: https://torrentproject.se/ and https://alphareign.se/",
+			"date_added": 1485467265
+		},
+		{
+			"post_id": 1485500612,
+			"body": "['Anonymized' User Data Not Really Anonymous](https://www.techdirt.com/articles/20170123/08125136548/one-more-time-with-feeling-anonymized-user-data-not-really-anonymous.shtml)\n\n \"The programs were able to find patterns among the different groups of data and use those patterns to identify users. The researchers note that the method is not perfect, and it requires a social media feed that includes a number of links to outside sites. However, they said that \"given a history with 30 links originating from Twitter, we can deduce the corresponding Twitter profile more than 50 percent of the time.\"\n\nThe researchers had even greater success in an experiment they ran involving 374 volunteers who submitted web browsing information. The researchers were able to identify more than 70 percent of those users by comparing their web browsing data to hundreds of millions of public social media feeds.",
+			"date_added": 1485500577
+		},
+		{
+			"post_id": 1486678087,
+			"body": "ZeroLeakZ does now contain links to all Wikileaks torrents: http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv/",
+			"date_added": 1486678051
+		},
+		{
+			"post_id": 1486858061,
+			"date_added": 1486858024,
+			"meta": "{\"img\":\"556,700,aaa999777888cccbbbeee444666333555,0122233144552044646555464501630501110455570185940A4101A01A1001901536604000111110\"}"
+		},
+		{
+			"post_id": 1486907031,
+			"body": "A mirror of prism-break.org is in the works...",
+			"date_added": 1486906993
+		},
+		{
+			"post_id": 1486907168,
+			"body": "Dear owner of the Privacytools.io mirror at http://127.0.0.1:43110/14gSEpfWfF5Go7u5y7UidZQCnGa6eSBYZ9/, can you please give your site a name? ",
+			"date_added": 1486907129,
+			"meta": "{\"img\":\"900,115,334556667223333,0121134300\"}"
+		},
+		{
+			"post_id": 1487028399,
+			"body": "Is anyone able to access Prism-Break at http://127.0.0.1:43110/1Br4MT7PgsRET2APJkbhqqoxwL1CqcCFxh",
+			"date_added": 1487028358
+		},
+		{
+			"post_id": 1487314877,
+			"body": "Does anyone know how I can build a search engine with which people can search content on my ZeroNet site?",
+			"date_added": 1487314835
+		},
+		{
+			"post_id": 1490216230,
+			"body": "Hi my fellow Zeroes, I am back :) I want to improve [ZeroLeakz](http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv), any ideas?",
+			"date_added": 1490216187
+		},
+		{
+			"post_id": 1490394361,
+			"body": "The Wikileaks section of [ZeroLeakz](http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv) is updated, it now looks more similar to the source http://file.wikileaks.org/ and includes the CIA files @http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv/wikileaks/torrent/index.zip/WikiLeaks-Year-Zero-2017-v1.7z.torrent. However, currently there are only the torrents. I am not sure if adding several hundreds of gigabytes to a ZeroNet site is a good idea....any opinions/suggestions?",
+			"date_added": 1490394317
+		},
+		{
+			"post_id": 1490402200,
+			"body": "IPFS - if you have used it before, I would like to ask you a few questions.",
+			"date_added": 1490402155
+		},
+		{
+			"post_id": 1490645482,
+			"body": "How can I have two seeders on a blank site that I never published or shared? Does that have to do with using TOR?",
+			"date_added": 1490645436,
+			"meta": "{\"img\":\"700,700,000111,0000111011000010111100001000110000000111000000001100000001110000001111000001111110111111011011111111\"}"
+		},
+		{
+			"post_id": 1490645668,
+			"body": "Check out this ebook page from @tiamat:  - this is one of the pages I was waiting for [ZeroPub](http://127.0.0.1:43110/zeropub.bit)",
+			"date_added": 1490645621
+		},
+		{
+			"post_id": 1490904634,
+			"body": "Does anyone know how I can fix my ZeroMail? the send button is greyed out. I had to restore my ZeroNet installation, only copied the json to keep my profile and it stopped working.",
+			"date_added": 1490904583,
+			"meta": "{\"img\":\"599,700,955945dccfff336bbc235f98f63eee,012333333445333333665333333665333333665333333665333788665333993665333333665333333665333999\"}"
+		},
+		{
+			"post_id": 1490905780,
+			"body": "**Remove EXIF Metadata from Photos with exiftool** (Linux)\n\nSometimes, it is a good idea to scrub EXIF metadata from photos before sharing them, and there is no better tool for the job than exiftool. The command below nukes all EXIF metadata in a photo in one fell swoop (replace foo.jpg with the actual file name):\n\n`exiftool -all= foo.jpg`\n\nThis command removes EXIF metadata from the specified photo, but what if you need to process multiple photos? Then you can use the following command which cleans all the photos in the current directory:\n\n`for i in *.jpg; do echo \"Processing $i\"; exiftool -all= \"$i\"; done`",
+			"date_added": 1490905728
+		},
+		{
+			"post_id": 1491054088,
+			"body": "The Snowden Files on [ZeroLeakz](http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv/snowden/index.html) do now have an improved search feature.",
+			"date_added": 1491054034
+		},
+		{
+			"post_id": 1491054984,
+			"body": "I wonder if I should stop seeding ZeroTalk, it has become nothing but a fascist cesspool. We need a reddit-like site with votes and topics, so that the Hitlers can chat in their own subreddit or be downvoted into oblivion. I am fed up of seeing this crap on my news feed all day.",
+			"date_added": 1491054928,
+			"meta": "{\"img\":\"900,524,eeeeededdfeefffdddffeeec,012003033440550000440000444444664444444477444444440000000004\"}"
+		},
+		{
+			"post_id": 1491056901,
+			"body": "If you are looking for an easy way to implement a search feature on your html site, check out this tutorial: https://www.w3schools.com/w3js/w3js_filters.asp",
+			"date_added": 1491056844
+		},
+		{
+			"post_id": 1491064709,
+			"body": "China’s New Tool for Social Control: A Credit Rating for Everything\nBeijing wants to give every citizen a score based on behavior such as spending habits, turnstile violations and filial piety, which can blacklist citizens from loans, jobs, air travel\n\nChinese users, if you want to learn more about your governments plans click here: http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv/other/ChinaSocialCreditRating.zip",
+			"date_added": 1491064651,
+			"meta": "{\"img\":\"315,700,cccdddfffbbbeeefd9aaa888666223777ab8,0111122322124563412244744789A7443440474024B4222022\"}"
+		},
+		{
+			"post_id": 1491429366,
+			"body": "Q: What is the difference between a terrorist training camp and a hospital? ",
+			"date_added": 1491429306
+		},
+		{
+			"post_id": 1491500564,
+			"date_added": 1491500503,
+			"meta": "{\"img\":\"900,600,cccbbbaaa888999dddeee777,0110110221110221211122122222223344423421505050555500021206050012210571\"}"
+		},
+		{
+			"post_id": 1491514262,
+			"body": "Updated: [Prism-Break Mirror](http://127.0.0.1:43110/1Br4MT7PgsRET2APJkbhqqoxwL1CqcCFxh)",
+			"date_added": 1491514200
+		},
+		{
+			"post_id": 1491544329,
+			"body": "This is where I see ZeroNet's potential - long term open source peer to peer technology will eat Twitter, [because its very design enforces the safety of political activists, not the lawyers.](https://www.eff.org/deeplinks/2017/04/twitter-fights-effort-customs-and-border-protection-identify-administration-critic)",
+			"date_added": 1491544266
+		},
+		{
+			"post_id": 1491548928,
+			"body": "The other day I read about the widely hyped [Mastodon](http://www.theverge.com/2017/4/4/15177856/mastodon-social-network-twitter-clone), a P2P* Twitter clone - I considered signing up [on the hub for security minded people](https://github.com/tootsuite/mastodon/blob/master/docs/Using-Mastodon/List-of-Mastodon-instances.md), but then I read their [terms](https://securitymastod.one/terms) - **\"Information security enthusiasts and pros\" will record your email and IP addresses**.  \n\nWhy do I get worried if a social network consists of private servers hosted by \"security experts\" who are keeping logs of IP addresses and emails? \n\n(edit) *federated not P2P",
+			"date_added": 1491548864
+		},
+		{
+			"post_id": 1491643634,
+			"body": "[TIL America has beautiful weapons](https://www.youtube.com/watch?v=Q4n3SI81m9w)",
+			"date_added": 1491643568
+		}
+	],
+	"post_like": {
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_7": 1471045163,
+		"1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1_1": 1471045642,
+		"1DD3NpSQpYjPLwaeJp8L7vtMVrjf1fq6Qr_1": 1471046300,
+		"1wnjTS6YRUp6Q6yjECuoh1o28TPkvrnq2_3": 1471047203,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_8": 1471106657,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_7": 1471130339,
+		"16iwdMZti38DVaHAf2Bnvmp7CVPyJ993n7_2": 1471130725,
+		"15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_25": 1471130856,
+		"1HcK5Hw1rPZeYdgTmqJGrVG2tSyR9Ke2Gt_12": 1471134642,
+		"1EN9Ape9Gbe2FAcP8qNWsyvg7x7z92LhA7_2": 1471135055,
+		"1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R_17": 1471173240,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_8": 1471173322,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_10": 1471201897,
+		"19SbSoytV8aD6GtpJi9F6RDSnGzunYgYzo_3": 1471202004,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_9": 1471258960,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_10": 1471261907,
+		"12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu_4": 1471268831,
+		"1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ_18": 1471369277,
+		"1NZ4LvZqg61LxtRfEr5Y46KRhYCzWRnqck_4": 1471369390,
+		"1CFhytwoGGPNqmueehPqotaf2iG9uxD98e_6": 1471369447,
+		"1CFhytwoGGPNqmueehPqotaf2iG9uxD98e_7": 1471371042,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_11": 1471383162,
+		"137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ_2": 1471472547,
+		"19SbSoytV8aD6GtpJi9F6RDSnGzunYgYzo_7": 1471553388,
+		"15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_43": 1471628507,
+		"1CFhytwoGGPNqmueehPqotaf2iG9uxD98e_14": 1472248823,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1471946844": 1472250876,
+		"13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1472296735": 1472347059,
+		"1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT_1474690450": 1474718000,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1474865123": 1474871285,
+		"1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1478699644": 1478968696,
+		"1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1479242014": 1479319501,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1479836569": 1479841108,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1480555820": 1481498420,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1486645557": 1486678240,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1486836297": 1486856529,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1486950059": 1487103012,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1488188813": 1488825076,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1489108456": 1489180153,
+		"1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1489317660": 1490213726,
+		"1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1489560510": 1490214001,
+		"137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ_1489235961": 1490215410,
+		"137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ_1479939652": 1490215429,
+		"1EZzNxPxXMSXmEMwJSU3U8jcgjfdAeyTfr_1490386781": 1490397869,
+		"1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490533685": 1490643172,
+		"1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1490651863": 1490720338,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1490715178": 1490734745,
+		"1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490814776": 1490819721,
+		"1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491514262": 1491519620
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Please add an ebook section on the zeronet site, please :))))))",
+			"post_uri": "1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1_1",
+			"date_added": 1471044689
+		},
+		{
+			"comment_id": 2,
+			"body": "@Empirezero: ahaha I'll let you know once I have figured it out :D",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1",
+			"date_added": 1471046132
+		},
+		{
+			"comment_id": 3,
+			"body": "Thanks I learnt something new",
+			"post_uri": "1wnjTS6YRUp6Q6yjECuoh1o28TPkvrnq2_3",
+			"date_added": 1471047221
+		},
+		{
+			"comment_id": 4,
+			"body": "Great work so far. In future, will it be possible to move between hubs?",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_7",
+			"date_added": 1471047635
+		},
+		{
+			"comment_id": 5,
+			"body": "What do you not like about Elementary? I never used it, just curious...",
+			"post_uri": "1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx_4",
+			"date_added": 1471106995
+		},
+		{
+			"comment_id": 6,
+			"body": "You could use it as torrent box or install kodi on it and connect it to your TV",
+			"post_uri": "16iwdMZti38DVaHAf2Bnvmp7CVPyJ993n7_2",
+			"date_added": 1471130720
+		},
+		{
+			"comment_id": 7,
+			"body": "@Edantes: can't wait to see it :)",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_7",
+			"date_added": 1471130828
+		},
+		{
+			"comment_id": 8,
+			"body": "Hola amigo :)",
+			"post_uri": "1QAKp4SUFSkGdqsgEH47rWRJkAMLf5YH4b_3",
+			"date_added": 1471134554
+		},
+		{
+			"comment_id": 10,
+			"body": "You're totally right, I miss a such function too :)",
+			"post_uri": "1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R_13",
+			"date_added": 1471136645
+		},
+		{
+			"comment_id": 11,
+			"body": "Tell me the ID and I will check if I can follow :)",
+			"post_uri": "1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R_16",
+			"date_added": 1471138180
+		},
+		{
+			"comment_id": 12,
+			"body": "@Scrub: I can see @Maomihz in your list. And in mine too - have you refreshed the page?",
+			"post_uri": "1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R_16",
+			"date_added": 1471138312
+		},
+		{
+			"comment_id": 13,
+			"body": "@Scrub: Strange..and if you unfollow @Maomihz through his page and then click follow again?",
+			"post_uri": "1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R_16",
+			"date_added": 1471138545
+		},
+		{
+			"comment_id": 14,
+			"body": "@Scrub: I am sorry to hear that. Not sure if you can file a bug report with @nofish",
+			"post_uri": "1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R_16",
+			"date_added": 1471138699
+		},
+		{
+			"comment_id": 15,
+			"body": "@Scrub: Someone has created this, but its not official http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:3_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv/User+created+ZeroMe+bug+report+thread",
+			"post_uri": "1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R_16",
+			"date_added": 1471138853
+		},
+		{
+			"comment_id": 16,
+			"body": "@Scrub: Just changed the IP in the link, otherwise it may not work for you",
+			"post_uri": "1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R_16",
+			"date_added": 1471139004
+		},
+		{
+			"comment_id": 17,
+			"body": "upvote",
+			"post_uri": "1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R_17",
+			"date_added": 1471173628
+		},
+		{
+			"comment_id": 18,
+			"body": "@Scrub: which browser are you using on your mobile?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_5",
+			"date_added": 1471243417
+		},
+		{
+			"comment_id": 19,
+			"body": "@Scrub: I am testing Chrome Beta on LG G3 Android 6.0 and on the start screen only the header of the page plus the port and tor info are displayed. ",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_5",
+			"date_added": 1471244017
+		},
+		{
+			"comment_id": 20,
+			"body": "Great stuff :) Are notifications for comments/likes in the pipeline?",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_10",
+			"date_added": 1471269185
+		},
+		{
+			"comment_id": 21,
+			"body": "@FraYoshi: Thanks for the suggestion :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_6",
+			"date_added": 1471283098
+		},
+		{
+			"comment_id": 22,
+			"body": "If you don't mind, I'd like to know a few things -abotu Qubes OS - How is it so far, performance wise? Can you easily move files between the applications? And does it work with a VPN?",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_28",
+			"date_added": 1471283782
+		},
+		{
+			"comment_id": 23,
+			"body": "@Musickiller: Cool keep me posted :) might have a look at it myself.",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_28",
+			"date_added": 1471295042
+		},
+		{
+			"comment_id": 24,
+			"body": "Time zones...",
+			"post_uri": "1HJJEDiEo7ghxbpdDzXHFVv4gtrb53cUAu_6",
+			"date_added": 1471328893
+		},
+		{
+			"comment_id": 25,
+			"body": "How you like it so far? Judging from the link the usability seems not so good",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_36",
+			"date_added": 1471368449
+		},
+		{
+			"comment_id": 26,
+			"body": "How does seeding work with WebTorrent? ",
+			"post_uri": "1CFhytwoGGPNqmueehPqotaf2iG9uxD98e_4",
+			"date_added": 1471369238
+		},
+		{
+			"comment_id": 27,
+			"body": "@Method-X: Closing the circle, right :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_7",
+			"date_added": 1471370049
+		},
+		{
+			"comment_id": 28,
+			"body": "@Method-X: :D Back in the days when porn was shared on external hard drives at LAN partys. Oh well kids, anyone knows what a LAN party is...",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_7",
+			"date_added": 1471371007
+		},
+		{
+			"comment_id": 29,
+			"body": "Nice stuff, I like these dots. Update: I found a lot of replies I had not noticed haha :D",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_11",
+			"date_added": 1471381758
+		},
+		{
+			"comment_id": 30,
+			"body": "I am sorry man, I didn't see your psosts earlier - I've downloaded the iso and give it a try once I have time to spare",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_28",
+			"date_added": 1471382063
+		},
+		{
+			"comment_id": 31,
+			"body": "@GomZik: You will see them on the start page of ZeroNet, I found replies from yesterday",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_11",
+			"date_added": 1471382179
+		},
+		{
+			"comment_id": 32,
+			"body": "@GomZik: Noo :( for me it works man. Can you update again, check the console to see that it actually does update. Refresh the web page, or close ZeroNet entirely and then re-open it",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_11",
+			"date_added": 1471382429
+		},
+		{
+			"comment_id": 33,
+			"body": "@GomZik: And have you actually clicked on the dots and checked both options",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_11",
+			"date_added": 1471382531
+		},
+		{
+			"comment_id": 34,
+			"body": "click on your user name and then \"+ Follow\"",
+			"post_uri": "1JQL1YaQTjuWFU77QeCJyspYhfsqntMBrg_3",
+			"date_added": 1471382775
+		},
+		{
+			"comment_id": 35,
+			"body": "@GomZik: lol it also took me a while to find out. @Nofish: can't you enable this option by default please? I guess everyone will use this feature",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_11",
+			"date_added": 1471382956
+		},
+		{
+			"comment_id": 36,
+			"body": "@Sirenyc: Or enabled by default with opt-out, I guess most people would like to use this feature. ",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_11",
+			"date_added": 1471383133
+		},
+		{
+			"comment_id": 37,
+			"body": "@Sirenyc: We agree that in one or the other way people need to be made aware of this feature, especially new users when they are entering ZeroMe. In all social networks I know it is normal that you get notified for mentions or replies, so why not here. ;)",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_11",
+			"date_added": 1471384395
+		},
+		{
+			"comment_id": 39,
+			"body": "I'd love a page like that. I been thinking about an upload page where people can paste the IBAN or the goodreads link when uploading a book and that could be used to scrape info form other pages. I know how to scrape with python",
+			"post_uri": "137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ_2",
+			"date_added": 1471472227
+		},
+		{
+			"comment_id": 40,
+			"body": "About the IPFS part - what is its advantage over magnet links? I guess the latter brings more seeders?",
+			"post_uri": "137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ_2",
+			"date_added": 1471472468
+		},
+		{
+			"comment_id": 41,
+			"body": "@Kaffie: Thank you , I'll see what I can do :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_8",
+			"date_added": 1471475382
+		},
+		{
+			"comment_id": 42,
+			"body": "@Arsene Lupin: Thanks for explaining, I do not know much about IPFS yet. If you upload a file there, who will host it? Is it broken down in several parts like on Maidsafe? How liable is a storage provider on IFPS for the files that are stored by the network on his PC?",
+			"post_uri": "137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ_2",
+			"date_added": 1471546770
+		},
+		{
+			"comment_id": 43,
+			"body": "",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_17",
+			"date_added": 1471550069
+		},
+		{
+			"comment_id": 44,
+			"body": "Dual Boot may be the answer, so you can slowly wean yourself off. Or run it in a virtual machine if you are not gaming...with good hardware you can even use Photoshop in a W7 VM. Check out Antergos, it's easy enough for new Linux users and brings you a rolling release cycle as it is based off arch. No painful re-installations for new OS versions anymore and bleeding edge software. If you want to use the latest features of desktop environments like Gnome or KDE for a vanilla feeling with minimal bloatware, don't use Ubuntu or its derivatives like mint",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_49",
+			"date_added": 1471641981
+		},
+		{
+			"comment_id": 45,
+			"body": "@Tkarita: @PaintNinja: Thanks for this info guys, is there any tutorial for beginners? I am just learning html, css and python and java still puzzles me a bit. The site is ready I just need to move it onto ZeroNet ;)\n\nFound the link, it is http://127.0.0.1:43110/17Kom2G5qNDc6NaQwv445h1gFzxkY3ZtZe/site_development/content_json/#optional",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_9",
+			"date_added": 1471712152
+		},
+		{
+			"comment_id": 46,
+			"body": "@Tkarita: @FraYoshi: Ahaha yes corrected. So I know I can add these optional files, but even without optional files it will be like 31MB big. This is the bare minimum - if users are accesssing the site, would they automatically  informed about that the size is bigger than 10MB and asked to increase their limit?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_9",
+			"date_added": 1471714830
+		},
+		{
+			"comment_id": 47,
+			"body": "@Tkarita: Nice. I need to make sure I understand that with the optional files: Basically, I create the site, add my data to the respective folders, publish the modifications and it generates the content.json with all files added in there. Next, I would need to edit the json and move the files that shall become optional from \"files\" to \"files_optional\"? Plus publish again of course.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_9",
+			"date_added": 1471715642
+		},
+		{
+			"comment_id": 48,
+			"body": "@Tkarita: OMG that must be porn lol",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_9",
+			"date_added": 1471718164
+		},
+		{
+			"comment_id": 49,
+			"body": "Do you know 2001 Odyssey in Space? It is an oldie but goldie. Or The Abyss",
+			"post_uri": "1CFhytwoGGPNqmueehPqotaf2iG9uxD98e_14",
+			"date_added": 1471747660
+		},
+		{
+			"comment_id": 50,
+			"body": "@ZAlex: thank you so much, I'll check it out :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_10",
+			"date_added": 1471747936
+		},
+		{
+			"comment_id": 51,
+			"body": "@Musickiller: I wonder why - it tells me the content.json is missing. But hey, it is there in the folder. Have you got any suggestions?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_12",
+			"date_added": 1471816236
+		},
+		{
+			"comment_id": 52,
+			"body": "@Jayofthezero: No, I spent hours trying to get it opened...do you think that's the reason for why it fails to downlaod the file?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_12",
+			"date_added": 1471847815
+		},
+		{
+			"comment_id": 53,
+			"body": "@Musickiller: I hope so - can you do me a favour and check if you can access http://127.0.0.1:43110/1LtFS31Q11swyo1zWLmyxZRafBSbu86SeL/",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_13",
+			"date_added": 1471905501
+		},
+		{
+			"comment_id": 54,
+			"body": "@RiotPulv: Thanks man",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1472162960",
+			"date_added": 1472236588
+		},
+		{
+			"comment_id": 55,
+			"body": "@Darkcod3: Thank you :)  It will take a while to load, it is like 850 MB in total and I just started seeding it. You may have to enable \"Download and help distribute all files\" and just be patient. The files are all pdf, when you click on the thumbnails they will open up but as I said, be patient ;)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1472236994",
+			"date_added": 1472238046
+		},
+		{
+			"comment_id": 56,
+			"body": "@Darkcod3: That's all I could find on the web :) ",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1472236994",
+			"date_added": 1472239726
+		},
+		{
+			"comment_id": 57,
+			"body": "I can recommend Brazil as well http://www.imdb.com/title/tt0088846/",
+			"post_uri": "1CFhytwoGGPNqmueehPqotaf2iG9uxD98e_14",
+			"date_added": 1472243209
+		},
+		{
+			"comment_id": 58,
+			"body": "@Nofish: Nice work with the comments. I've not been here a couple of days and now that I'm back my dream has come true :)",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1471946844",
+			"date_added": 1472251051
+		},
+		{
+			"comment_id": 59,
+			"body": "@Jayofthezero: @Tkarita: @Nofish: @Sirenyc: @ZAlex: @RiotPulv: thank you all for answering my many questions in the past weeks :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1472236994",
+			"date_added": 1472251167
+		},
+		{
+			"comment_id": 60,
+			"body": "@Shellbound: How does it compare with Android?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1472250516",
+			"date_added": 1472251717
+		},
+		{
+			"comment_id": 61,
+			"body": "What about https://getsync.com/individuals/",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1472329014",
+			"date_added": 1472333955
+		},
+		{
+			"comment_id": 62,
+			"body": "@Musickiller: rsync may be another option, but I guess it requires a lot of manual setting up",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1472329014",
+			"date_added": 1472334669
+		},
+		{
+			"comment_id": 63,
+			"body": "@Musickiller: What about a file hoster like Spideroak or Tresorit?",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1472329014",
+			"date_added": 1472336003
+		},
+		{
+			"comment_id": 64,
+			"body": "Thanks",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1472296735",
+			"date_added": 1472347075
+		},
+		{
+			"comment_id": 65,
+			"body": "@Dergatt: Librevault looks interesting indeed!",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1472329014",
+			"date_added": 1472347307
+		},
+		{
+			"comment_id": 66,
+			"body": "@ulrichard: Does it already support music streaming services such as Spotify/Google Music and VPN/TOR apps?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1472250516",
+			"date_added": 1472488651
+		},
+		{
+			"comment_id": 67,
+			"body": "NIce work...an ebooks section finally :)",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1474011667",
+			"date_added": 1474131991
+		},
+		{
+			"comment_id": 68,
+			"body": "Is there any way of hiding the uploader's name or making it anonymous?",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1474011667",
+			"date_added": 1474200646
+		},
+		{
+			"comment_id": 69,
+			"body": "@Userzero: How can I get a Kaffie ID and switch between both at will?",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1474011667",
+			"date_added": 1474662440
+		},
+		{
+			"comment_id": 70,
+			"body": "@Userzero: Thank you I appreciate your help - one more question: the kaffie site mentions the below info, where exactly do I add this \"Add this line to cert_signers to accept these ids:\n\"kaffie.bit\": [ \"1KH5BdNnqxh2KRWMMT8wUXzUgz4vVQ4S8p\" ]\"\nEDIT: It is working now :)",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1474011667",
+			"date_added": 1474665513
+		},
+		{
+			"comment_id": 71,
+			"body": "@Planteater: Thanks I know that one :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1474671360",
+			"date_added": 1474717845
+		},
+		{
+			"comment_id": 72,
+			"body": "Brilliant idea - you could get a raspberry pi. I can confirm it works well and you can even host zeronet on it, plus remote in from your PC via VNC and deluge remote. If you have questions about setting it up, just let me know :)",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1474727485",
+			"date_added": 1474728023
+		},
+		{
+			"comment_id": 73,
+			"body": "@Musickiller: With gems I mean great songs I should have listened to.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1474671360",
+			"date_added": 1474728144
+		},
+		{
+			"comment_id": 74,
+			"body": "@Musickiller: What if you get a second hand PC and use that? Any PC sold nowadays should be sufficient - and you could run a low power OS on it, e.g. Ubuntu Mate, Lubuntu or Puppy (there are many). running 24 hours a PC will eat far more electricity though...ARM processors like in mobiles and the pi are much more power effective. I don't know where you live but I believed raspberrys are cheap everywhere?",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1474727485",
+			"date_added": 1474744222
+		},
+		{
+			"comment_id": 75,
+			"body": "@Userzero: Thanks again, I did not need to to anything all is working now :)",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1474011667",
+			"date_added": 1474744553
+		},
+		{
+			"comment_id": 76,
+			"body": "@Sifr: Thanks :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1474666242",
+			"date_added": 1474813713
+		},
+		{
+			"comment_id": 79,
+			"body": "@Talnicrom: Nice, thanks for the suggestion :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1474813530",
+			"date_added": 1474824731
+		},
+		{
+			"comment_id": 80,
+			"body": "@Talnicrom: IThank you I found that quickly as I was getting confused with the comments the other way around :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1474813530",
+			"date_added": 1474871111
+		},
+		{
+			"comment_id": 81,
+			"body": "Excellent work man, thanks for taking the design forward. I wonder if you could enable us to like comments? :) ",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1474862197",
+			"date_added": 1474871659
+		},
+		{
+			"comment_id": 82,
+			"body": "@FraYoshi: Thank you for the nice words :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1474666242",
+			"date_added": 1475081864
+		},
+		{
+			"comment_id": 83,
+			"body": "Maybe we should have a website that keeps track of these sites so that people won't accidently host them. On the other hand, it would help these goat fuckers finding the links so not sure if it is a good idea. In addition to them I see the little Hitler and Mussolini lovers popping up here too, am I right @Aesir...",
+			"post_uri": "1AjxW1N844WRpscEFSotfsqLXsQurz83xc_1475067668",
+			"date_added": 1475082713
+		},
+		{
+			"comment_id": 84,
+			"body": "I found out that I can now like comments. How cool is that :) I appreciate your hard work",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1475013181",
+			"date_added": 1475087229
+		},
+		{
+			"comment_id": 85,
+			"body": "Nice :)",
+			"post_uri": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1478699644",
+			"date_added": 1478968702
+		},
+		{
+			"comment_id": 86,
+			"body": "nice work :)",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1479836569",
+			"date_added": 1479841117
+		},
+		{
+			"comment_id": 87,
+			"body": "Please don't feel offended, but alone the slogan \"the most trusted messenger in the world\" exposes Wickr as bullsh*t. It is closed source, commercial and American and therefore cannot be trusted - there are much better alternatives, e.g. Signal or Antox https://www.eff.org/node/82654",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1481492476",
+			"date_added": 1481497097
+		},
+		{
+			"comment_id": 88,
+			"body": "@Sirenyc: Yes - for several reasons: it is open source (makes it harder to hide subpoena-mandated backdoors), was audited (https://threatpost.com/signal-audit-reveals-protocol-cryptographically-sound/121892/), is not saving meta-data (http://www.theregister.co.uk/2016/10/04/whisper_systems_signal_subpoena/), WhatsApp's encryption is based on it (however Whatsapp is not as safe, read https://security.stackexchange.com/questions/139493/is-signal-still-more-secure-than-whatsapp) and last but not least it is Snowden's favourite messaging app. ",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1481492476",
+			"date_added": 1481526059
+		},
+		{
+			"comment_id": 89,
+			"body": "@Fractal: I would like to use the socks5 offered by a VPN service. I know openVPN but with the current setup it won't work...  ",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1485284510",
+			"date_added": 1485288360
+		},
+		{
+			"comment_id": 90,
+			"body": "Thanks for your help. I have zeronet on a raspberry pi...I need something light.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1485284510",
+			"date_added": 1485290810
+		},
+		{
+			"comment_id": 91,
+			"body": "@Nofish: Thank you, that is very helpful :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1485454949",
+			"date_added": 1485464958
+		},
+		{
+			"comment_id": 92,
+			"body": "@Martinv: Yes I have seen it already :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1485465681",
+			"date_added": 1485499920
+		},
+		{
+			"comment_id": 93,
+			"body": "@weakish: It totally made that up :) I guess that most of the users here are concerned with privacy and surveillance, and Orwell wrote a tinfoil hat classic",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1485467091",
+			"date_added": 1485536376
+		},
+		{
+			"comment_id": 94,
+			"body": "@Arsene Lupin: Thank you I've done the same once but in this case it won't be the solution :(",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1487027909",
+			"date_added": 1487055590
+		},
+		{
+			"comment_id": 95,
+			"body": "@nofish: have you got any suggestions?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1487027909",
+			"date_added": 1487055605
+		},
+		{
+			"comment_id": 96,
+			"body": "@Rythyrix: @FraYoshi: yeehaw :D",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1487028399",
+			"date_added": 1487055639
+		},
+		{
+			"comment_id": 97,
+			"body": "@Nofish: This is the page: http://127.0.0.1:43110/1Br4MT7PgsRET2APJkbhqqoxwL1CqcCFxh/en/index.html - for every of the 26 languages there is one individual folder with small but many files.\n\nFirst I tried making everything apart from English optional but still this generates a content.json which is 1.7 MB large as everything gets indexed. \n\nI wonder if it is possible to e.g. create one language_x.json per subfolder, which indexes that subfolder's contents, so that in the main content.json I can then:\n\n1. \"include\" the language_x.json files and \n2. \"ignore\" the data that is already indexed by language_x.json files\n\nIdeally, this would result in 1 content.json and optional 26 language_x.json files with optional content and the page could be served quickly.\n\nI really hope there is a way to do that - obviously this is something that affects many site hosts.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1487027909",
+			"date_added": 1487099149
+		},
+		{
+			"comment_id": 98,
+			"body": "Nice :)",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1486950059",
+			"date_added": 1487103026
+		},
+		{
+			"comment_id": 99,
+			"body": "@Nofish: Do you have any idea how to achieve that? I know about the wiki and the option to include additional .json files, but how could I format these compared to the main content.json file (they should only include a list of optional files)?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1487027909",
+			"date_added": 1487181772
+		},
+		{
+			"comment_id": 100,
+			"body": "@Nofish: Hi, first of all thank you very much for implementing this feature. If I zip each language in a separate file and access the page in en.zip, then click on a link that should take me to the Spanish page inside es.zip for example - would I need to change the links inside the index(en).html so that they point to the content inside the es.zip? As they are quite a few links, that would prove difficult - I may have to put everything inside the same zip if that was true...",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1487028399",
+			"date_added": 1488138937
+		},
+		{
+			"comment_id": 101,
+			"body": "@Nofish: Great stuff, I will test it. ",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1487028399",
+			"date_added": 1488389662
+		},
+		{
+			"comment_id": 102,
+			"body": "@Nofish: It works now, thank you very much. I appreciate your help :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1487028399",
+			"date_added": 1488398788
+		},
+		{
+			"comment_id": 103,
+			"body": "Are you planning to add a fiction section in near future? I got some books waiting for ZeroNet",
+			"post_uri": "137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ_1479939652",
+			"date_added": 1490216476
+		},
+		{
+			"comment_id": 105,
+			"body": "@Yinyue: Good news - I have updated the page, you can get the Year0 torrent from http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv/wikileaks/torrent/index.zip/WikiLeaks-Year-Zero-2017-v1.7z.torrent",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1490216230",
+			"date_added": 1490394112
+		},
+		{
+			"comment_id": 106,
+			"body": "Must have been Super Mario on Gameboy.",
+			"post_uri": "1EZzNxPxXMSXmEMwJSU3U8jcgjfdAeyTfr_1490386781",
+			"date_added": 1490397861
+		},
+		{
+			"comment_id": 107,
+			"body": "@Rythyrix: You are right - zipping could slightly reduce the size and number of files and but it would still take ages to hash them. I also thought about using IPFS. The issue is, you also need people who are willing to seed these amounts of data and install IPFS.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1490394361",
+			"date_added": 1490400007
+		},
+		{
+			"comment_id": 108,
+			"body": "The page looks nice - can't you make it for multiple languages so that everyone benefits from it? ",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490121535",
+			"date_added": 1490400655
+		},
+		{
+			"comment_id": 109,
+			"body": "@tiamat: Great, I got some ebooks waiting :)",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490121535",
+			"date_added": 1490436496
+		},
+		{
+			"comment_id": 110,
+			"body": "@Rythyrix: It is possible to ignore entire directories, so that should be no issue. I could simply ignore data/users/.* now I only need to figure out how to write each content.json",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1490394361",
+			"date_added": 1490437310
+		},
+		{
+			"comment_id": 111,
+			"body": "You can click the publish button several times to that the updates get pushed out quicker to your peers (if there are many).",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490365160",
+			"date_added": 1490437374
+		},
+		{
+			"comment_id": 112,
+			"body": "This is to be expected...but some of us stay and that is all what matters :)",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1490429585",
+			"date_added": 1490437494
+		},
+		{
+			"comment_id": 113,
+			"body": "@tiamat: antilibrary is only non-fiction at the moment. I believe technically it is possible to upload user generated content on zeronet, I mean we can post pictures and also look at the torrent sites!",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490121535",
+			"date_added": 1490443690
+		},
+		{
+			"comment_id": 114,
+			"body": "@Kaffie: I guess removing the cloning feature from the GUI would help. If someone is willing to create a quality content and maintain it, then they will put effort in it and read the wiki, build a page from scratch or at least copy from the folder of another page. A missing GUI option will never stop a dedicated user, but a learning curve can be a  \"child safe\" to stop the noobs from spamming the network.",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1490429585",
+			"date_added": 1490469047
+		},
+		{
+			"comment_id": 115,
+			"body": "@Kaffie: then we possibly need an index where people can submit their sites, tag them and the sites are then ranked by seeders and the date when they were last modified.",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1490429585",
+			"date_added": 1490522090
+		},
+		{
+			"comment_id": 116,
+			"body": "Nice work :) I can help you add more English ebooks if you like. Plus as a future feature tagging would be nice - I wonder if the data (e.g. genre) could be pulled from goodreads? It is possible to search by isbn, so I could try to webscrape data with python so you can put it on the page if you have the isbns",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490533685",
+			"date_added": 1490642689
+		},
+		{
+			"comment_id": 117,
+			"body": "And they are gone within the same session? Three letter agency?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1490645482",
+			"date_added": 1490645956
+		},
+		{
+			"comment_id": 118,
+			"body": "Let's hope he didn't get stuck in the airport :(",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1490586760",
+			"date_added": 1490646327
+		},
+		{
+			"comment_id": 119,
+			"body": "@Plasmmer: Actually I prefer epub, all other pages have only pdf which is a pain to read on ebook readers.",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490814776",
+			"date_added": 1490851335
+		},
+		{
+			"comment_id": 120,
+			"body": "@Plasmmer: When taking a picture, a camera often writes metadata into the file and in some cases even your GPS location.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1490905780",
+			"date_added": 1490906790
+		},
+		{
+			"comment_id": 121,
+			"body": "@Yinyue: Is it true that the Japanese are not liked by a lot of people in Asia?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491054984",
+			"date_added": 1491057053
+		},
+		{
+			"comment_id": 122,
+			"body": "@Yinyue: In the West the Hollywood action movies nearly always depict the Russians, Middle-Easterners or sometimes Chinese as evil guys - according to the current political agenda. For example it is so surreal to watch Rambo's 80s movies with Taliban as \"freedom fighters\". You can even find that pattern in computer games like Call of Duty. What never changes, is that the Americans are the spotless saviours. Often the critical media does not get enough attention and drowns in the noise of celebrity news and fear of terrorism.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491054984",
+			"date_added": 1491059621
+		},
+		{
+			"comment_id": 123,
+			"body": "@Yinyue: I am interested in life in China - I read your government has plans to use big data (e.g. browsing histories, social media posts) to give citizens ratings, which then decide whether you get a credit or can travel to another country. Is that true? https://en.wikipedia.org/wiki/Social_Credit_System",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491054984",
+			"date_added": 1491060224
+		},
+		{
+			"comment_id": 124,
+			"body": "@Yinyue: Also, how many young people in China know about VPN/ TOR? Do only a few nerds escape the bubble?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491054984",
+			"date_added": 1491060352
+		},
+		{
+			"comment_id": 125,
+			"body": "@Yinyue: Is VPN/TOR/ZeroNet something you would discuss with friends or do you need to be careful when talking about such topics? My parents used to live in a totalitarian state and there were many secret informants who would report their \"friends\" to the authorities.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491054984",
+			"date_added": 1491060774
+		},
+		{
+			"comment_id": 126,
+			"body": "@Yinyue: I am afraid that the West is slowly moving towards a similar system - governments here use the fear of terrorism to legalise laws that allow them to record your browsing behaviour. Also they are talking about breaking encryption/building backdoors. Once they notice that more people start using VPN/TOR to protect their privacy, they will find a terrorist that uses this software and ban it, too.\n\n10 years ago people here said that only dictatures like China surveill the internet. You were called paranoid if you said that the USA would do it too. Thanks to Snowden we all know it but everyone shrugs their shoulders. No protests. People here are too lazy, passive and uninterested - as long as they do not ban fast food, football, cars, beer and iPhones no one will care. ",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491054984",
+			"date_added": 1491062112
+		},
+		{
+			"comment_id": 128,
+			"body": "@Kskarthik: there is an upvote, but no downvote option. ZeroMe hubs are centralised, but you can run your own. ZeroNet sites are decentralised and hosted by the users.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491054984",
+			"date_added": 1491069729
+		},
+		{
+			"comment_id": 129,
+			"body": "Nooo :(",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1491244225",
+			"date_added": 1491244227
+		},
+		{
+			"comment_id": 130,
+			"body": "@K9: a database of the pirate bay, kat, isohunt and so on",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491251678",
+			"date_added": 1491254355
+		},
+		{
+			"comment_id": 131,
+			"body": "I was thinking that Zerotorrent is a bit sparse...but I also have my doubts that a ZeroNet page could support a database as big as the pirate bay....",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491251678",
+			"date_added": 1491326019
+		},
+		{
+			"comment_id": 132,
+			"body": "As was suggested, maybe you should do your promo talk anyways and put it on youtube. Did they give any specific reason for why they cancelled (apart from blabla right time, I mean why did they contact you in the first place?) \n\nTED are possibly worried about something that could negatively affect their image. My theories:\n\n1. Is it the bunch fascists/homophobes/antisemites on the promoted ZeroTalk  site who would totally screw ZeroNets (and TED's) image? I mean everyone who visits ZeroNet for the first time goes to the default sites first, and if they see some nazi crap right on the first page they may just leave without digging deeper. And TED obviously would not promote something that looks at the first glance like a fascist forum.\n2. file sharing\n3. They believe that the terrorists may fall in love with this fine piece of technology.",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1491244225",
+			"date_added": 1491333113
+		},
+		{
+			"comment_id": 133,
+			"body": "@Kaffie: that's exactly what I was thinking - I started listening to their podcasts because a few talks really impressed me, but ended up skipping through more than half of them. Quite many are fruitless talks about topics that were discussed hundreds of times (how to behave if you want to successful/not depressive/ beautiful, race, gender, sex).",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1491244225",
+			"date_added": 1491411737
+		},
+		{
+			"comment_id": 135,
+			"body": "A: I don't know I just fly the drone.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491429366",
+			"date_added": 1491429343
+		},
+		{
+			"comment_id": 137,
+			"body": "@Jayofthezero: Or maybe all posts older than x days should simply disappear? I mean seriously, who needs to go back more than one year? If something needs to be persistent, we can use a platform like ZeroTalk...",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1491453882",
+			"date_added": 1491514489
+		},
+		{
+			"comment_id": 138,
+			"body": "@Jayofthezero: Yes that is correct - it is an open issue on their github: https://github.com/nylira/prism-break/issues/1721 I will regularly update this mirror so once it is fixed on prism-break.org it will be here too // meanwhile, use https://freeotp.github.io/",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491514262",
+			"date_added": 1491517216
+		},
+		{
+			"comment_id": 139,
+			"body": "@Jayofthezero: Good point...it would be nice to have it optional then and the ability to clear all own posts at once. For the paranoid ones ;)",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1491453882",
+			"date_added": 1491518564
+		},
+		{
+			"comment_id": 140,
+			"body": "@Nextbit: well in ZeroNet you can hardly link a post IP directly to the user. Also, you do not need an email to sign up here.",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491548928",
+			"date_added": 1491558065
+		},
+		{
+			"comment_id": 141,
+			"body": "@Flyman: Or maybe, because America has beautiful weapons: https://www.youtube.com/watch?v=Q4n3SI81m9w",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1491429366",
+			"date_added": 1491643769
+		},
+		{
+			"comment_id": 142,
+			"body": "@Firebox: Yes I agree. And we can clear the \"Hello\" messages",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1491453882",
+			"date_added": 1491643859
+		},
+		{
+			"comment_id": 143,
+			"body": "Wow that is bad!",
+			"post_uri": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1491974098",
+			"date_added": 1492112384
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1471044068
+		},
+		{
+			"follow_id": 3,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ",
+			"user_name": "Sirenyc",
+			"date_added": 1471044607
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1",
+			"user_name": "Kickasstorrents",
+			"date_added": 1471044648
+		},
+		{
+			"follow_id": 6,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1471045960
+		},
+		{
+			"follow_id": 7,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1FVgXvt6d7AciuXYYeHwFcPfUyRqRDhZxV",
+			"user_name": "Empirezero",
+			"date_added": 1471046145
+		},
+		{
+			"follow_id": 9,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1wnjTS6YRUp6Q6yjECuoh1o28TPkvrnq2",
+			"user_name": "Zeropunto",
+			"date_added": 1471047730
+		},
+		{
+			"follow_id": 10,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R",
+			"user_name": "Scrub",
+			"date_added": 1471136688
+		},
+		{
+			"follow_id": 11,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1HJJEDiEo7ghxbpdDzXHFVv4gtrb53cUAu",
+			"user_name": "Maomihz",
+			"date_added": 1471138253
+		},
+		{
+			"follow_id": 12,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "16nArdxrSaNThNp83kL8E6NLL9WD98iUne",
+			"user_name": "Jayofthezero",
+			"date_added": 1471140290
+		},
+		{
+			"follow_id": 14,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t",
+			"user_name": "tkarita",
+			"date_added": 1471283540
+		},
+		{
+			"follow_id": 17,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1DjUq8hd2jYZgc5uNhQEtWUVZjMHkMQkpU",
+			"user_name": "Alek",
+			"date_added": 1471368941
+		},
+		{
+			"follow_id": 18,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1CFhytwoGGPNqmueehPqotaf2iG9uxD98e",
+			"user_name": "Method-X",
+			"date_added": 1471369258
+		},
+		{
+			"follow_id": 19,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ",
+			"user_name": "Arsene Lupin",
+			"date_added": 1471472235
+		},
+		{
+			"follow_id": 21,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "15JuC9Nz1ua8s7M7tUemvJN1r6NZhffCVq",
+			"user_name": "Darkcod3",
+			"date_added": 1472248735
+		},
+		{
+			"follow_id": 23,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "16it6qRi6MnCQ9JcqE1WBqNDU14qyXkExX",
+			"user_name": "Deadjoker",
+			"date_added": 1472250609
+		},
+		{
+			"follow_id": 25,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9",
+			"user_name": "Shellbound",
+			"date_added": 1472334457
+		},
+		{
+			"follow_id": 26,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1F2PXhSgvJJvhpJzVmE2eEpgoUbDt4k1gk",
+			"user_name": "Userzero",
+			"date_added": 1474666029
+		},
+		{
+			"follow_id": 27,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "15Hi7MDddHwzTZmmcsj8MWLpZaDz6mLPXg",
+			"user_name": "Limelatt",
+			"date_added": 1474667350
+		},
+		{
+			"follow_id": 28,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ",
+			"user_name": "Musickiller",
+			"date_added": 1474671059
+		},
+		{
+			"follow_id": 29,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1G22SgXJtdx9D6BfvXgjknD57Mi1wjnZX3",
+			"user_name": "Pablo Arroyo",
+			"date_added": 1474698124
+		},
+		{
+			"follow_id": 30,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "13AvYD3hX888Ey6y8kFEce3Ak8hVNLcdrg",
+			"user_name": "Dergatt",
+			"date_added": 1474812601
+		},
+		{
+			"follow_id": 31,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa",
+			"user_name": "Talnicrom",
+			"date_added": 1474871470
+		},
+		{
+			"follow_id": 32,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1L6AzNZhaGYwQcDWNffD1najBfyvzeKhsG",
+			"user_name": "Vivisect",
+			"date_added": 1475085796
+		},
+		{
+			"follow_id": 33,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx",
+			"user_name": "ks",
+			"date_added": 1475775546
+		},
+		{
+			"follow_id": 35,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS",
+			"user_name": "ZAlex",
+			"date_added": 1478959977
+		},
+		{
+			"follow_id": 36,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1BYU9zV786auJ29dF3HMAQYhxA2WgN4ofi",
+			"user_name": "Eibriel",
+			"date_added": 1479115298
+		},
+		{
+			"follow_id": 37,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1EobjuQ5ig6BE9yu1tctgG6J53YnpefQNd",
+			"user_name": "Bravo",
+			"date_added": 1479134170
+		},
+		{
+			"follow_id": 38,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1AxLMGKjSdsL3Sxa2x1WHJmoap3Z93YdCm",
+			"user_name": "Hexagon",
+			"date_added": 1479491264
+		},
+		{
+			"follow_id": 39,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu",
+			"user_name": "PaintNinja",
+			"date_added": 1479931974
+		},
+		{
+			"follow_id": 40,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD",
+			"user_name": "Mkg20001",
+			"date_added": 1480015277
+		},
+		{
+			"follow_id": 41,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1F1kDrT693w8ATbcXV1wHmGSD6SpSY4f5L",
+			"user_name": "Alex",
+			"date_added": 1481233934
+		},
+		{
+			"follow_id": 42,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1JwPBvZYXLJzrA6YisjpsyTuuieFLCARS6",
+			"user_name": "Emeraude",
+			"date_added": 1481497524
+		},
+		{
+			"follow_id": 43,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1ByuEoBeryNCZXqRArMfDiAL9bFTqmM5yN",
+			"user_name": "mls",
+			"date_added": 1484773156
+		},
+		{
+			"follow_id": 44,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "18P7HcmnENFWkpQFtPjnjHv6x9p2eHa6rp",
+			"user_name": "Megavolt",
+			"date_added": 1484773176
+		},
+		{
+			"follow_id": 45,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1K6HCsJskZENYG42GR7ocJXg9WjFbEq9hc",
+			"user_name": "Rapapobre",
+			"date_added": 1484896551
+		},
+		{
+			"follow_id": 46,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "13k4prSd7EHRJv1Vr34ySmPFB6mqsbJh4a",
+			"user_name": "Fractal",
+			"date_added": 1485290818
+		},
+		{
+			"follow_id": 47,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1H9R6W9QWUpYiJkLyAsFXmXhAV7HEqoHtN",
+			"user_name": "Flyman",
+			"date_added": 1485327263
+		},
+		{
+			"follow_id": 48,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa",
+			"user_name": "Th3B3st",
+			"date_added": 1485327694
+		},
+		{
+			"follow_id": 49,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj",
+			"user_name": "Martinv",
+			"date_added": 1485414062
+		},
+		{
+			"follow_id": 50,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ",
+			"user_name": "ulrichard",
+			"date_added": 1485465374
+		},
+		{
+			"follow_id": 51,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "19Pxt88uzbbr1dQCHsvpZiefd39f9r3Ucx",
+			"user_name": "Ronin",
+			"date_added": 1485466353
+		},
+		{
+			"follow_id": 52,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC",
+			"user_name": "Firebox",
+			"date_added": 1485500064
+		},
+		{
+			"follow_id": 53,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "18DbeZgtVCcLghmtzvg4Uv8uRQAwR8wnDQ",
+			"user_name": "jro",
+			"date_added": 1486907689
+		},
+		{
+			"follow_id": 54,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1EYg7m4SNBMYvJdfL164LugLoir9mDmuiw",
+			"user_name": "Webcontrol",
+			"date_added": 1486907792
+		},
+		{
+			"follow_id": 56,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y",
+			"user_name": "Rythyrix",
+			"date_added": 1487058572
+		},
+		{
+			"follow_id": 57,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1GEnjtQHeGRmTA8iiN5TrBEAVbzSaYVgae",
+			"user_name": "Jazzman",
+			"date_added": 1487314534
+		},
+		{
+			"follow_id": 58,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN",
+			"user_name": "Antilibrary",
+			"date_added": 1490213997
+		},
+		{
+			"follow_id": 59,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1EZzNxPxXMSXmEMwJSU3U8jcgjfdAeyTfr",
+			"user_name": "Sick",
+			"date_added": 1490397896
+		},
+		{
+			"follow_id": 60,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR",
+			"user_name": "tiamat",
+			"date_added": 1490400420
+		},
+		{
+			"follow_id": 61,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1Ea3RG4YuLnifynBxvuWAA3Y2nLcTWfrjQ",
+			"user_name": "k0re",
+			"date_added": 1490443993
+		},
+		{
+			"follow_id": 63,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp",
+			"user_name": "FraYoshi",
+			"date_added": 1490470057
+		},
+		{
+			"follow_id": 64,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb",
+			"user_name": "Brahman",
+			"date_added": 1490646571
+		},
+		{
+			"follow_id": 65,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe",
+			"user_name": "Plasmmer",
+			"date_added": 1490899547
+		},
+		{
+			"follow_id": 66,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h",
+			"user_name": "Binchan",
+			"date_added": 1490905837
+		},
+		{
+			"follow_id": 68,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1491064912
+		},
+		{
+			"follow_id": 69,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1FLvSPque6gGdvv56THSXznQNnzfehcyNq",
+			"user_name": "kskarthik",
+			"date_added": 1491069757
+		},
+		{
+			"follow_id": 70,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "18QRaL2iLVEKLihwERUgkB1hSCmsi7qx9y",
+			"user_name": "Cats",
+			"date_added": 1491139886
+		},
+		{
+			"follow_id": 71,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq",
+			"user_name": "Humor",
+			"date_added": 1491428963
+		},
+		{
+			"follow_id": 72,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b",
+			"user_name": "Ranxerox",
+			"date_added": 1491518671
+		},
+		{
+			"follow_id": 73,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1889tLMuZze7YMshhe8u5h4NT4SSiA4PVB",
+			"user_name": "Zanity",
+			"date_added": 1491549286
+		},
+		{
+			"follow_id": 74,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy",
+			"user_name": "Glightstar",
+			"date_added": 1491587620
+		}
+	],
+	"comment_order": 0,
+	"settings": {
+		"reverse_comment_order": false,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"flags": {},
+	"blocked": [
+		"12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH",
+		"1D7FEnVEfqgt5ExcAvuZfRczaXDScKCrMT",
+		"1EFRUQjydLVFKNFBiF2LW5rpQeqEr8EA6M",
+		"1MjZcMbobAu1roNu2pbpQCH68SsynsfQzR"
+	],
+	"comment_like": {},
+	"bgColor": "#D30C30",
+	"bg": "jpg"
+}

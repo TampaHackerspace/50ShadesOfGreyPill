@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HBZHt+kcOEMm0sWYeVlmdl4IbH72HrhjyGjMQcLKLc6jkwvckMGynQCu3m7eO5lAAsNZY3xCJD1Y9MX5DuNUoRc=",
+ "cert_user_id": "virepri@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "231fa466719d1d55a64afc809e016773c94683f6897a20c5fb89e32f1a57a844",
+   "size": 343
+  }
+ },
+ "inner_path": "data/users/1EAieuN6i3FvDpWrGAhyrs3CyoPPq99VQr/content.json",
+ "modified": 1488445639,
+ "signs": {
+  "1EAieuN6i3FvDpWrGAhyrs3CyoPPq99VQr": "HLotCzyEaS63kRUzr696ooryvjSFbkGap0Wzp0JGzmfhdOas6U1O45QOXE7ovmoFmYYrIGKVYfzfjEGnMs6UmRY="
+ }
+}

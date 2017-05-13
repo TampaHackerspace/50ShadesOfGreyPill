@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G2ikWJjq8qnNeo4GXrOpLZ0QiJtHgO+tf75o7cdHbinve53hdOzHs9OKCWaHORQ4lPgTgAKrUBFRWK1KjctUECg=",
+ "cert_user_id": "radiozen@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "b15d89ec4296352aa92956a707fa79a0ba542d6bbd196c69afae5bac85928a84",
+   "size": 273
+  }
+ },
+ "inner_path": "data/users/1CtzAyj3Y8Bsj1fxVp3i9GAy6C8LhDyV3e/content.json",
+ "modified": 1486012951,
+ "signs": {
+  "1CtzAyj3Y8Bsj1fxVp3i9GAy6C8LhDyV3e": "G1bXv9p3iOWTJou0987l0dSp2DvdAf1xptyDGivK1KXn6mpQDchl9BasVAHEAi/5XAdW99V5Ic+o4ai48WMkC54="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HKsy/Pla7zjKLqSZULaqs4ZgnmoBwTZSlAXSthKelRXnaiNFoiN8DhyHaiJ+t1RKK04mdeEKp54yMBkWVZ52to0=",
+ "cert_user_id": "puppetmast3r@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "da625698c319e9992317635c34e33879729d7492c2ccdb184871ed0baf136ea1",
+   "size": 343
+  }
+ },
+ "inner_path": "data/users/1A6b8Hua98MtrVMXTpTYmQXvZVqPP48As3/content.json",
+ "modified": 1492284513,
+ "signs": {
+  "1A6b8Hua98MtrVMXTpTYmQXvZVqPP48As3": "HCw+Utg3uzQ0PlXBVh4nHIggxVIgQyuSlQXCXHOzZNUFfVmC5oom6qY6UH0HlvA1V5z84u2VO5OvMZzIyNEkRWI="
+ }
+}

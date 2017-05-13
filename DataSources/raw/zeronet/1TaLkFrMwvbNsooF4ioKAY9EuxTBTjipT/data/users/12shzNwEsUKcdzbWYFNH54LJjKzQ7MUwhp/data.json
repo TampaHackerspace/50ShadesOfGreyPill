@@ -1,0 +1,43 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Bojler eladó!",
+			"body": "I was wondering if the developers have some boilers for sale...",
+			"added": 1477815629
+		},
+		{
+			"topic_id": 3,
+			"title": "Using BlockChain to get more security in ZeroNet",
+			"body": "Today I started thinking about something: Some actions still need a server to be done correctly. For example: I have a forum, and I don't want people to be able to change the messages the wrote. Currently, there is no native way to fix this in ZeroNet. The solution? A BlockChain!\n\nThe idea is relatively simple: \nWe have a universal BlockChain that could be used to validate any data it gets. \n\nHow it works:\nFirst, we would make a simple BlockChain based on how it works in Bitcoin, but with one main change:\nThe puzzle needs to be relatively easy, so it can be solved without using too much resources. This could mean that every ZeroNet user could help mining the BlockChain, without having to worry about slowdowns. \n\nWhat should each block contain?\nA block should contain 3 information, other then the usual things a block should contain: A block model, the issuer's address, and the data.\n\nLet's talk about how the block model should work. \nA block model is basically a little program, that can be used to validate the data. It can access various data, without making it too powerful. For example: It can read site files, parse and stringify JSON, compare variables, store variables, and look up other blocks. \nThese block models should be stored in the site. Every block model should have an ID. For example, if this site had a block model, then it's ID would look something like this: \n1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT::123456789abcdefgh\n\nWhen mining a new block, the miner would first try to run the Block Model on the data of the block, and if it isn't correct, then just ignore it. If it is, then it should try to mine it correctly.\n\nThe data in the block should not be larger then a few kilobytes.\n\nLet's get back to our forum example from the beginning:\nWhen we create a forum post, it would be added to our user, then it would create a new block.\nThe data would contain data, like: The hash of the post, and the ID of the post\nThe block model would first of all, check if the user's folder actually contains the post that the data has, then it would check if the user was the first one to create a post with this ID. After we made sure that the ID is correct, we want to check if the post has the same hash as the one in the block data.\nThe issuer's address would be put there by ZeroNet.\n\nWhen we want to view the message, it should first search for every message in the normal ZeroNet database, then search for every block with the block model, that we made for our website. If we got the blocks, then we could also organize them into a database, just like we do with the JSON files. We could find every entry in the Block Chain, that has the same ID as the one we are currently looking for, and it has the same hash as it. If the hash is different, then type out an error message, or display nothing...\n\n\n\n\nThis is my idea about a Block Chain based security layer for ZeroNet. I'm not actually sure on how possibly it is, but I'm really hoping we would see something like this in the future. \nThanks for reading,\nbela333\n\nPS.: Sorry if the explonation wasn't clear enough",
+			"added": 1482529380
+		}
+	],
+	"topic_vote": {
+		"3_12shzNwEsUKcdzbWYFNH54LJjKzQ7MUwhp": 1,
+		"1_1CR3B1Bwx6umZqL7H6hrbyPdXKJR7j8Mfn": 1
+	},
+	"next_comment_id": 3,
+	"comment": {
+		"1_18jipjDsfAxAuq4ixbi2w24xJrYVfTYFPn": [
+			{
+				"comment_id": 1,
+				"body": "Hungary",
+				"added": 1478335356
+			}
+		],
+		"3_12shzNwEsUKcdzbWYFNH54LJjKzQ7MUwhp": [
+			{
+				"comment_id": 2,
+				"body": "Thanks for the responses!\nI be honest, I'm not very proficient with decentrialited stuff, it just came to my mind, without knowing how possible it is.\nYou can't really do this using signing, because everything happens on the client computer, so it can be manipulated\nThe appendOnly tag seems like a good idea, but what I'm talking about could possibly be a bit more open, so it could do any type of validation. For example: checking if the user really did pay the set BitCoin amount.",
+				"added": 1482574099
+			}
+		]
+	},
+	"comment_vote": {
+		"1_12shzNwEsUKcdzbWYFNH54LJjKzQ7MUwhp": 1,
+		"10_1HVJvkzPdXDEtsjBSzFLyx6KsG8Tg2nnr5": 1,
+		"71_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": 1
+	}
+}

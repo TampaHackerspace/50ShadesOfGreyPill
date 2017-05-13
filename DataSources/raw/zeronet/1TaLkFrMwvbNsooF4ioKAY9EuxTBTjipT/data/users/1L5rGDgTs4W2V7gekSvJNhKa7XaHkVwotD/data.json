@@ -1,0 +1,331 @@
+{
+	"next_topic_id": 10,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Change default browser to TOR browser",
+			"body": "In linux bundle tor isn`t part of the bundle. When I start ZeroNet it opens in my default browser. I open 127.0.0.1:43110 address in tor browser, but when I do it, it saying \"Status: Error ([Errno 111] Connection refused)\" - so no tor for zeronet in torbrowser. What files edit to change it?",
+			"added": 1458877471
+		},
+		{
+			"topic_id": 2,
+			"title": "Question about official language subforum",
+			"body": "Hi,\nI wonder, how is created a official subforum in other languages. Is it created by zeronet administration, or forum created by local community of specific language is promoted to be official subforum for that language?\nIt would be nice to see official subforum for polish language.",
+			"added": 1459627131
+		},
+		{
+			"topic_id": 3,
+			"title": "How to make stick topic",
+			"body": "How to make sticked topic like \"test messages\"?\nIf i want to make subforum I must add `\"type\": \"group\",`\nBut what with stickied?",
+			"added": 1460213870
+		},
+		{
+			"topic_id": 4,
+			"title": "Polish ZeroTalk - Request to add to the official ZeroTalk menu",
+			"body": "I would like to ask the administration to add our ZeroTalk to the menu in official ZeroTalk with other languages forums, to make it easier to find it by users from Poland.\nhttp://127.0.0.1:43110/1GRYnz73jSXoMMZNU3nSmbCFA3twuitcoo/",
+			"added": 1460462771
+		},
+		{
+			"topic_id": 5,
+			"title": "Changing hubs - moving or delete profile",
+			"body": "Nofish I have question about changing hubs. Personaly, I would be happy, if profile from older hubs moved to new selected or be deleted, because i cant seed blue hub (my first choice). If i seed it, it overwrites my profile (created with my hub). It`s little irritating.",
+			"added": 1472144968
+		},
+		{
+			"topic_id": 6,
+			"title": "Right sidebar dont work for KaffieID after upgrade to 0.4.1 ZN",
+			"body": "If I want pull out right sidebar, i have this error:\n```\nInternal error: KeyError: u'data/users/content.json'\nUiWebsocket.py line 99 > UiWebsocket.py line 176 > SidebarPlugin.py line 448 > SidebarPlugin.py line 130 > ContentManager.py line 265 > ContentManager.py line 263 > ContentDbDict.py line 54\n```",
+			"added": 1473157222
+		},
+		{
+			"topic_id": 7,
+			"title": "Problem with hub - content publish failed",
+			"body": "Nofish I have the same problem as @Musickiller mentioned on ZeroMe. If i publish new post or edit, there appear \"Content published...\" but after this appear \"Content publish failed.\" - but other still see new post or changes if i something edit. I havent this problem in revision 1518. I updated to 1523 (now 1527) and have this worning. I didnt change nothing in my own hub or anywhere else. I tried from zero (deleted ZeroMe, my own hub, Mergersite etc.) but this didnt solve the problem.\n\n```\n[00:32:31] Site:149fpM..FKBq Adding timestamp and sha512sums to new content.json...\n[00:32:31] Site:149fpM..FKBq Verifying private key...\n[00:32:31] Site:149fpM..FKBq Correct 1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD in valid signers: [u'1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD', u'149fpM31r6YUc7WZ1m28Lq6Ef3zwdBFKBq']\n[00:32:31] Site:149fpM..FKBq Signing data/users/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json...\n[00:32:31] Site:149fpM..FKBq Saving to data/users/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json...\n[00:32:31] Site:149fpM..FKBq File data/users/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json signed!\n[00:32:32] Site:1UDbAD..MkoV Opening site data directory: data/1UDbADib99KE9d3qZ87NqJF2QLTHmMkoV/data/userdb/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/...\n[00:32:32] Site:1UDbAD..MkoV - [SKIPPED] content.json\n[00:32:32] Site:1UDbAD..MkoV Adding timestamp and sha512sums to new content.json...\n[00:32:32] Site:1UDbAD..MkoV Verifying private key...\n[00:32:32] Site:1UDbAD..MkoV Correct 1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD in valid signers: [u'1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD', u'1UDbADib99KE9d3qZ87NqJF2QLTHmMkoV']\n[00:32:32] Site:1UDbAD..MkoV Signing data/userdb/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json...\n[00:32:32] Site:1UDbAD..MkoV Saving to data/userdb/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json...\n[00:32:32] Site:1UDbAD..MkoV File data/userdb/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json signed!\n[00:32:36] Site:149fpM..FKBq Publishing data/users/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json to 5/11 peers (connected: 6) diffs: [u'data.json'] (0.03k)...\n[00:32:36] Site:149fpM..FKBq [OK] 188.166.30.172:15441: Thanks, file data/users/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json updated! 1/5\n[00:32:36] Site:149fpM..FKBq [OK] 5.101.103.222:15441: Thanks, file data/users/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json updated! 2/5\n[00:32:36] Site:149fpM..FKBq [OK] 24.91.0.62:15441: Thanks, file data/users/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json updated! 3/5\n[00:32:36] Site:149fpM..FKBq [OK] 36.149.70.13:0: Thanks, file data/users/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json updated! 4/5\n[00:32:37] Site:149fpM..FKBq [OK] 178.186.125.242:15441: Thanks, file data/users/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json updated! 5/5\n[00:32:37] Site:149fpM..FKBq Successfuly data/users/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json published to 5 peers, publishing to 5 more peers in the background\n[00:32:37] Site:149fpM..FKBq [OK] 191.34.47.32:15441: File not changed 6/5\n[00:32:37] Site:149fpM..FKBq [FAILED] 177.19.153.206:16882: None\n[00:32:38] Site:1UDbAD..MkoV Publishing data/userdb/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json to 5/78 peers (connected: 10) diffs: [] (0.00k)...\n[00:32:38] Site:1UDbAD..MkoV [FAILED] 86.138.60.33:15441: {'to': 3, 'cmd': 'response', 'error': 'File invalid'}\n[00:32:38] Site:1UDbAD..MkoV [FAILED] 139.162.248.13:15441: {'to': 23, 'cmd': 'response', 'error': 'File invalid'}\n[00:32:38] Site:1UDbAD..MkoV [FAILED] 88.190.114.3:15441: {'to': 11, 'cmd': 'response', 'error': 'File invalid'}\n[00:32:38] Site:1UDbAD..MkoV [FAILED] 217.29.189.55:15441: {'to': 3, 'cmd': 'response', 'error': 'File invalid'}\n[00:32:38] Site:1UDbAD..MkoV [FAILED] 192.210.179.116:15441: {'to': 6, 'cmd': 'response', 'error': 'File invalid'}\n[00:32:38] Site:1UDbAD..MkoV [FAILED] 89.108.86.124:15441: {'to': 7, 'cmd': 'response', 'error': 'File invalid'}\n[00:32:38] Site:1UDbAD..MkoV [FAILED] 79.150.113.228:15441: {'to': 5, 'cmd': 'response', 'error': 'File invalid'}\n[00:32:38] Site:1UDbAD..MkoV [FAILED] 68.105.2.18:15441: {'to': 3, 'cmd': 'response', 'error': 'File invalid'}\n[00:32:38] Site:1UDbAD..MkoV [FAILED] 190.19.160.131:15441: {'to': 3, 'cmd': 'response', 'error': 'File invalid'}\n[00:32:40] Site:1UDbAD..MkoV [FAILED] 220.240.218.220:15441: {'to': 3, 'cmd': 'response', 'error': 'File invalid'}\n[00:32:40] Site:1UDbAD..MkoV Successfuly data/userdb/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json published to 0 peers, publishing to 5 more peers in the background\n[00:32:46] Site:149fpM..FKBq [FAILED] 119.167.70.228:15441: {'exception': 'Timeout'}\n[00:32:46] Site:149fpM..FKBq [FAILED] 180.201.163.115:15441: {'exception': 'Timeout'}\n[00:32:46] Site:149fpM..FKBq [FAILED] 219.147.0.7:15441: {'exception': 'Timeout'}\n[00:32:47] Site:149fpM..FKBq [FAILED] 178.186.19.135:15441: {'exception': 'Timeout'}\n```",
+			"added": 1475102167
+		},
+		{
+			"topic_id": 8,
+			"title": "I2P Pull request",
+			"body": "Did anyone tested this PR?\nhttps://github.com/HelloZeroNet/ZeroNet/pull/602",
+			"added": 1475922446
+		},
+		{
+			"topic_id": 9,
+			"title": "Bitmessage pull request",
+			"body": "https://github.com/HelloZeroNet/ZeroNet/pull/852\n\nAnyone testing? What are your opinion?",
+			"added": 1489791110
+		}
+	],
+	"topic_vote": {
+		"1_1NK48tpcLLQzcbN6kCin4ZkMQosBd133PG": 1,
+		"4675_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"8_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"7_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_1FCqLq42pcBRtdUQXfKghRxhtsMKVfrDmW": 1,
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": 1,
+		"2_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": 1,
+		"2_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": 1,
+		"8_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"27_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"3_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": 1
+	},
+	"next_comment_id": 36,
+	"comment": {
+		"1_1NK48tpcLLQzcbN6kCin4ZkMQosBd133PG": [
+			{
+				"comment_id": 1,
+				"body": "Jeśli jacyś są, to pewnie i tak pytają po angielski o szczegóły, ale fakt faktem, przydałoby się stworzyć polską część ZeroNet. Projekt jest młody, póki nie doczekamy się portalu społecznościowego (a la facebook), i do szybkiej komunikacji wiadomości (a la twitter), będzie trochę ciężko przyciągnąć ludzi od nas. Mnie tylko przeraża jak szybko puchnie folder z ZeroNet, mam oprócz stronek od Zero ze dwa blogi i dwie wyszukiwarki i jedną stronę z torrentami i folder już waży 341 mb.",
+				"added": 1457800150
+			},
+			{
+				"comment_id": 2,
+				"body": "To prawda, widziałem bodajże przy komentarzach do rewizji 908, o pracach nad odpowiednikiem Twittera i własnej sieci społecznościowej, ale napisanie tego i dopasowanie zajmie jeszcze sporo czasu. Ja sam niestety o ile siedzę w wiadomościach o nowinkach tego typu, tak wiedzy praktycznej mi brak... O ile zarejestrować się w normalnym hostingu stron, zainstalować filezille i wgrać skrypt CMS i jego obsługa to dla mnie nie problem, to jakby niestety coś się posypało to bym miał problem. Podoba mi się tutaj to klonowanie stron, choć przyznam że mi osobiście przypadł do gustu CMS Textpattern i w ogóle textstyle i jestem ciekaw czy jakoś dałoby radę tutaj założyć stronę z tym.",
+				"added": 1457803217
+			},
+			{
+				"comment_id": 3,
+				"body": "Co prawda tłumów nie ma, ale można by potem pomyśleć o jednym miejscu, gdzie były by odnośniki do polskich stron w ZeroNecie (for, blogów czy stron tematycznych czy informacyjnych).\nDzięki Piotrze, ale ja sam nie używam twittera, a facebooka mam tylko ze względu na studia (z resztą z osób które znam ze 2-3 by się przeniosły na 0net). Ale czytałem na zagranicznych portalach czego ludziom brakuje i o te dwie rzeczy były największe krzyki.\nJak mi czas pozwoli to na razie na sklonowanym blogu będę wrzucał artykuły z biologii, ale najpierw muszę znaleźć chwilę wolnego by posprawdzać bibliografię.",
+				"added": 1457805939
+			},
+			{
+				"comment_id": 7,
+				"body": "To nie jest zły pomysł, sam o tym myślałem (bardziej o polskiej wersji 0wiki). Tylko pytanko: kto zakłada te oficjalne fora językowe: je robią twórcy 0net, czy po prostu podpinają do \"more\" stworzoną i użytkowaną przez społeczność danego języka?",
+				"added": 1459584399
+			},
+			{
+				"comment_id": 9,
+				"body": "http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:2_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/Question+about+official+language+subforum",
+				"added": 1459641274
+			},
+			{
+				"comment_id": 10,
+				"body": "Nie wiem czy rację ma teddydd czy erkan. Tak czy siak zrobiłem próbne polskie forum:\nhttp://127.0.0.1:43110/1GRYnz73jSXoMMZNU3nSmbCFA3twuitcoo/\n-Nie polonizowałem wszystkiego (czasami coś może wyskoczyć po angielsku, ale to łatwo zmienić w większości w plikach). Spolszczenie jest zrobione całkowicie subiektywnie.\n-Na górze jest odnośnik do oficjalnego forum 0talk oraz dwa do wiki: Pierwszy adres to podstrona którą by można zrobić w oficjalnej ZeroWiki (tak jak zrobili Rosjanie), albo tak jak w drugim odnośniku (sklonowana 0wiki). Jeśli chcemy zrobić jak w pierwszej opcji - tylko coś w formie pytań i odpowiedzi i małych poradników krok po kroku, to można takie coś zrobić - ale chyba wygodniej by nam było mieć kontrolę nad cała wiki po polsku (czyli bardziej opcja 2).\nZ chęcią pomogę przy wszystkim, tylko...\n1. Mam ostatnio trochę problem z wolnym czasem i nie zaglądam do 0net tyle ile bym chciał.\n2. Jestem pomiędzy początkującym a średnim poziomem. Czyli coś wiem, ale nie zawsze wiem jak coś zrobiłem i dlaczego (nie)działa. Usunięcie znaczka \"more\" oraz częściowa polonizacja wielkim wyczynem nie jest...\n\nNie chcę by wyszła gafa, że się rozpisuję i tworzę i nagle znikam na parę dni, albo że robię klony, modyfikuję i jakby coś przestało działać to nie ogarniam jak naprawić. Dlatego pytanie do was, co o tym sądzicie?",
+				"added": 1459650476
+			},
+			{
+				"comment_id": 11,
+				"body": "Mój błąd, dzięki za zwrócenie uwagi. Spróbuj wejść teraz w forum z odnośnika w komentarzu niżej.\nTo adres wiki: http://127.0.0.1:43110/12Tt38zRJefsRMnAC9iai1CMSZ3PfiBDuY/",
+				"added": 1459907906
+			}
+		],
+		"1_1B1KzuAuS2KYZ57Zg6VGoYrFpBKDpqRjdg": [
+			{
+				"comment_id": 4,
+				"body": "There was SR 3.0 and 4.0? :O",
+				"added": 1458703147
+			}
+		],
+		"1_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": [
+			{
+				"comment_id": 5,
+				"body": "OK, I made some progress:\nI start 0net with command: ./ZeroNet.sh --tor_proxy 127.0.0.1:9150 --tor_controller 127.0.0.1:9151\nI launch Tor Browser first (and when I write 127.0.0.1:43110 address in TB I can finnaly use tor with 0net) but still normal firefox open with zeronet page.",
+				"added": 1458930856
+			},
+			{
+				"comment_id": 6,
+				"body": "@Wildtruc\nI use Linux. Linux bundle dont have tor (Windows bundle have). I dont have Tor installed on my system. I only downloaded from Tor page, Tor browser and unpack it in my personal folder (so my only way to use tor is tor browser). When I command `./ZeroNet.sh` it open in Firefox (my default browser and only browser installed on my system). I want to use ZeroNet only in Tor browser (which is not installed on my system like Firefox but is located in one of my personal folders). If I open Tor browser first, and then command `./ZeroNet.sh` it open Firefox with 0net page. When I close firefox after that and open 0net page in tor browser it dont use Tor. But if I open first Tor browser and then command `./ZeroNet.sh --tor_proxy 127.0.0.1:9150 --tor_controller 127.0.0.1:9151` its open firefox with working Tor (but, if I dont open Tor browser first it open firefox without tor). But when I command `./ZeroNet`, I want to open only Tor Browser (not firefox) with enabled Tor in 0net pages.\nI clicked this page you post, but I didnt see my IP there.\n@basxto\nThanks, but I have little problem with this. What command I must use, if my Tor browser is located in `/home/antyhrabia/Internetthings/tor-browser_pl` - and there is Tor browser file and browser folder? Command\n`./Zeronet --open_browser /home/antyhrabia/Internetthings/tor-browser_pl/Browser/start-tor-browser` didnt work.",
+				"added": 1459070452
+			}
+		],
+		"2_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": [
+			{
+				"comment_id": 8,
+				"body": "That's what I meant. Thanks!",
+				"added": 1459631694
+			}
+		],
+		"1_1LBz6orS5KPtvoS7BaTsgquYnMsystDNjE": [],
+		"3_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": [
+			{
+				"comment_id": 13,
+				"body": "Thanks.",
+				"added": 1460215570
+			}
+		],
+		"10_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 14,
+				"body": "> [bot](#comment_104_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Testing.\n> 127.0.0.1:43110/1Ln1nx9FM9ykDARyqiQ4srbo9taa6vJ289\n\nNo peers found dude.",
+				"added": 1470865944
+			}
+		],
+		"2_13U9mRgV3bdkXiNXjMZeBWTcSHZjgNmk2z": [
+			{
+				"comment_id": 15,
+				"body": "> [weakish](#comment_17_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): @dios hub names?\n\nhttp://127.0.0.1:43110/12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv/ this is Kaffie hub. I don`t know the others.",
+				"added": 1471644530
+			},
+			{
+				"comment_id": 16,
+				"body": "Polski Hub (PolishHub) - 149fpM31r6YUc7WZ1m28Lq6Ef3zwdBFKBq",
+				"added": 1471694692
+			}
+		],
+		"20_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 17,
+				"body": "No linux version?",
+				"added": 1472978618
+			},
+			{
+				"comment_id": 18,
+				"body": "> [kuuuurija](#comment_5_1JecQYorYpL9F9vArLj13LKvc3v3iSdDHA): https://brave.com/downloads.html\n\nOkey, thanks, my bad!",
+				"added": 1472990010
+			}
+		],
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": [
+			{
+				"comment_id": 19,
+				"body": "Maybe something like CMS. You know, more advanced and customizable version of ZeroBlog. Simple Wordpress, Textpattern etc. for ZeroNet, with categories, subcategories in menu, tags, posts and pages.",
+				"added": 1473157741
+			}
+		],
+		"6_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": [
+			{
+				"comment_id": 20,
+				"body": "I cloned KaffieID, and when i want to sign and publish from console, have this:\n```\n$ \"../Python/python\" zeronet.py siteSign 1wCVhwW6zpULxPpDrwUWhYmWN81h99CGP\n- Starting ZeroNet...\n- OpenSSL loaded, version: 01000207F\n- Signing site: 1wCVhwW6zpULxPpDrwUWhYmWN81h99CGP...\nSite:1wCVhw..9CGP Opening site data directory: data/1wCVhwW6zpULxPpDrwUWhYmWN81h99CGP/...\nSite:1wCVhw..9CGP - index-default.html (SHA512: b1126a890dfe5785afaa60db6546b84fb14dff6bd1828ffa93fcececfb7cc9e2)\nSite:1wCVhw..9CGP - index.html (SHA512: ae2d51ae0c1e909c18e669bf806e4dad83911bce62b70f3108dcf5fb60740369)\nSite:1wCVhw..9CGP - [SKIPPED] content.json\nSite:1wCVhw..9CGP - css/all.css (SHA512: 5e1250f8db081b3c52acf75986df096efca9733b943b34d8d2d4e5babbb79ad6)\nSite:1wCVhw..9CGP - js/ZeroFrame.js (SHA512: 9f0b8b71104524f6086bb3a82f2847ddcd7cdb834eea79f488b5a8cd786255ae)\nSite:1wCVhw..9CGP - js/genid.js (SHA512: 4be8e500ff18e2bcd4806f8a1373f011010d293777b6f9b14499069ccde58260)\nSite:1wCVhw..9CGP - js/bitcoinjs.min.js (SHA512: b895059b73c6ec8a7b9acce37a463d8b0be2b4e28f1868f2e74c16427e13d9ee)\nSite:1wCVhw..9CGP Adding timestamp and sha512sums to new content.json...\nSite:1wCVhw..9CGP Verifying private key...\nSite:1wCVhw..9CGP Correct 1wCVhwW6zpULxPpDrwUWhYmWN81h99CGP in valid signers: ['1wCVhwW6zpULxPpDrwUWhYmWN81h99CGP']\nSite:1wCVhw..9CGP Signing content.json...\nSite:1wCVhw..9CGP Saving to content.json...\nSite:1wCVhw..9CGP File content.json signed!\nSiteManager Save error: No sites found\nSiteManager Deleting orphan site from content.db: 1wCVhwW6zpULxPpDrwUWhYmWN81h99CGP\n$ \"../Python/python\" zeronet.py sitePublish 1wCVhwW6zpULxPpDrwUWhYmWN81h99CGP\n- Starting ZeroNet...\n- OpenSSL loaded, version: 01000207F\n- Loading site...\nTraceback (most recent call last):\n  File \"zeronet.py\", line 16, in main\n    main.start()\n  File \"src/main.py\", line 419, in start\n    actions.call(config.action, action_kwargs)\n  File \"src/main.py\", line 118, in call\n    func(**kwargs)\n  File \"src/main.py\", line 302, in sitePublish\n    site = SiteManager.site_manager.list()[address]\nKeyError: '1wCVhwW6zpULxPpDrwUWhYmWN81h99CGP'\n```",
+				"added": 1473158967
+			},
+			{
+				"comment_id": 21,
+				"body": "Big thanks, everything now works!",
+				"added": 1473159728
+			}
+		],
+		"1_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 22,
+				"body": "> [nutomic](#comment_11_1FEikAyxCNPJcW996B69r5UFg29yfq579m): I just tried to play some videos, but none of them work. Always shows the loading icon.\n> Edit: I tried to download the magnet links with a torrent link, but that didn't work either. So apparently there just aren't any seeders.\n\nI tried play all videos, and none of them want to work (like you said - only loading icon).",
+				"added": 1473189778
+			}
+		],
+		"2_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa": [
+			{
+				"comment_id": 23,
+				"body": "> [given](#comment_1_14TaER2aEd2zn4AZDtXiVit9a52VG6JxUU): Internet has less criminals due to its censorship, so with an uncensored network, there is no way to stop them. If zeronet isn't intended to become \"dark\". We should announce a rule about what cannot be posted to maintream zite (zero me, zero talk, ...) and some kinds of \"moderator\" to implement the rules.\n\nThe fact that in the ordinary online criminals can not see, it does not mean that they do not. It's like a child, which closes his eyes and thinks he's invisible. Censorship of the Internet makes plain paranoia, which can not be expressed any other view than that which is imposed (and that which is imposed, it is not good). Besides, a person who reveals some information carelessness of politicians and the police, by ruling considered criminal. In the TOR are very few pages related to pedophilia or drug cartel (represent approx. 0.5% of the pages in the TOR). Besides, censorship causes rebellion, often in defiance. Some people, even if you do not think so, but something is considered deemed forbidden, they will do it, as a manifestation of the desire of freedom. Zeronet arose precisely because the fullness of freedom, with all its advantages and disadvantages. Funny that everything that is not subject to government or corporate restrictions, is arbitrarily called the dark. TOR, I2P and now equate that without arbitrarily imposed rules pin a patch of dark to Zeronet. For your own forum, blog, website, here you are, you can afford not wish certain things, but do not impose it here.",
+				"added": 1473191356
+			},
+			{
+				"comment_id": 24,
+				"body": "> [tkarita](#comment_137_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): Is that \"narcotics cartels\"?  \"Drug cartel\" is common in English.\n\nThanks, i change it. English isnt my native language.",
+				"added": 1473194463
+			}
+		],
+		"1_17W25Fwx1UP2k8wa1aigpLQGWWW4atEFSX": [
+			{
+				"comment_id": 25,
+				"body": "I wanted to ask why, but first I saw the nick and I do not think I have to ask :P",
+				"added": 1473286521
+			}
+		],
+		"2_1NLKyC1Eq7gZeRKZ6oPN45wMWorx9yFWUW": [
+			{
+				"comment_id": 26,
+				"body": "> [waterrabbit](#comment_19_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Clone this site.\n\nBut why he must clone this forum if he have one know? alimuhhmad you must go to folder with your ZeroNet -> data -> 1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT. There is index.html and there is this what you interesting:\n```\n<div class=\"topmenu\">\n <div class=\"links\">\n  Forums:\n  <a href=\"http://127.0.0.1:43110/Talk.ZeroNetwork.bit\">Main</a> &middot;\n  <a href=\"http://127.0.0.1:43110/165eqHdoQfyf7CVGqtVCGNDvMBZhwVSJBL\">Español</a> &middot;\n  <a href=\"http://127.0.0.1:43110/1Vp5LH4wegCaqeB72yMw2jgNdVm4aR7ET\">Français</a> &middot;\n  <a href=\"http://127.0.0.1:43110/1E4XLtKC59YV8V9JQ4AkeqSvqECSvrUtnv\">German</a> &middot;\n  <a href=\"http://127.0.0.1:43110/1GRYnz73jSXoMMZNU3nSmbCFA3twuitcoo\">Polish</a> &middot;\n  <a href=\"http://127.0.0.1:43110/1LULE6frq3kw2vbhe4i6ArUTo4YT99Czbj\">Português</a> &middot;\n  <a href=\"http://127.0.0.1:43110/1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE\">Russian</a> &middot;\n  <a href=\"http://127.0.0.1:43110/1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy\">中文</a>\n </div>\n</div>\n```\nAnd copy this to your forum copy (and of course edit it if you want).",
+				"added": 1473325177
+			}
+		],
+		"7_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": [
+			{
+				"comment_id": 27,
+				"body": "Mine content.json\n```\n{\n \"address\": \"1UDbADib99KE9d3qZ87NqJF2QLTHmMkoV\",\n \"cert_auth_type\": \"web\",\n \"cert_sign\": \"G1sRSGFutFteSQKlE7zN4FFd6LsaaAue63M6hq+Q4WU965zXB9wpuZEIpbSl+dJx9QNV0l6elE0AOnPow5owABU=\",\n \"cert_user_id\": \"antyhrabia@zeroid.bit\",\n \"files\": {},\n \"inner_path\": \"data/userdb/1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD/content.json\",\n \"modified\": 1475101952.007397,\n \"signs\": {\n  \"1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD\": \"HCUO05tEv+y6Q+uGtyMcxzhORseXq/ZOr2ZjvN+pO/ojcr2hLGa9fVdKM0Kk0oeZ4KSLTlPIo95Sfy7Hwd3T0Uk=\"\n },\n \"user\": [\n  {\n   \"avatar\": \"generate\",\n   \"date_added\": 1470858281,\n   \"hub\": \"149fpM31r6YUc7WZ1m28Lq6Ef3zwdBFKBq\",\n   \"intro\": \"Polacy w ZeroNet.\\n[PolskiHub](http://127.0.0.1:43110/149fpM31r6YUc7WZ1m28Lq6Ef3zwdBFKBq)\\n[ ZeroTalk Polska ](http://127.0.0.1:43110/1GRYnz73jSXoMMZNU3nSmbCFA3twuitcoo)\",\n   \"user_name\": \"Antyhrabia\"\n  }\n ]\n}\n```",
+				"added": 1475143809
+			},
+			{
+				"comment_id": 28,
+				"body": "I dont know how to change to \"test\", but i edited my description in my ZeroMe profile and deleted:\n```\n[PolskiHub](http://127.0.0.1:43110/149fpM31r6YUc7WZ1m28Lq6Ef3zwdBFKBq)\\n[ ZeroTalk Polska ](http://127.0.0.1:43110/1GRYnz73jSXoMMZNU3nSmbCFA3twuitcoo)\n```\nAnd after this, error is gone in ZeroMe when i add post or edit it.",
+				"added": 1475144458
+			},
+			{
+				"comment_id": 29,
+				"body": "> [p2p](#comment_215_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): Finally i found it after test many many times!!It is the [中文] in my profile! if the amount of chinese word in [] more than one, the encoded string contains spaces, causing the error. There is bug in your parse function for content.json (note that you use user\": [] instead of user\": {})\n\nHmm, I tried add again:\n```\n[PolskiHub](http://127.0.0.1:43110/149fpM31r6YUc7WZ1m28Lq6Ef3zwdBFKBq)\n[ZeroTalk Polska](http://127.0.0.1:43110/1GRYnz73jSXoMMZNU3nSmbCFA3twuitcoo)\n```\nAnd indeed error is back, but if i add only one link, not two, like:\n```\n[PolskiHub](http://127.0.0.1:43110/149fpM31r6YUc7WZ1m28Lq6Ef3zwdBFKBq)\n```\nThere is no error.",
+				"added": 1475144725
+			},
+			{
+				"comment_id": 30,
+				"body": "> [nofish](#comment_783_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Fixed in latest version\n\nThanks, now is okey!",
+				"added": 1475168974
+			}
+		],
+		"2_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 31,
+				"body": "Hugo works, but i cant run Jekyll.",
+				"added": 1475790054
+			}
+		],
+		"8_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 32,
+				"body": "I didnt know about sci-hub. For me this is great project and big thank you for sharing link. There isnt things such legal or illegal, only moral or immoral and ethic and unethical. And my point of view is projects like this are moral and ethic to personal use. Illegal? Change country and some illegal things are legal.",
+				"added": 1477330591
+			}
+		],
+		"2_13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31": [
+			{
+				"comment_id": 33,
+				"body": "> [waterrabbit](#comment_98_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Their official ZeroNet mirror: http://127.0.0.1:43110/14gSEpfWfF5Go7u5y7UidZQCnGa6eSBYZ9/\n\nIs this real their official ZeroNet mirror? Is there any announce about it?",
+				"added": 1485180744
+			},
+			{
+				"comment_id": 34,
+				"body": "Oh, now I see, thanks!",
+				"added": 1485256963
+			}
+		],
+		"1_1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd": [
+			{
+				"comment_id": 35,
+				"body": "> [ppload3](#comment_1_1R67TfYzNkCnh89EFfGmXn5LMb4hXaMRQ): prototype reddit like site for possible discussions:127.0.0.1:43110/1J1c7eML6uMwDU4uiKbKRxoqxGP6WMFMvbit is similar to reddit, but decentralized and built up by people.It is using moderation possibility for various reasons, but not total censorship possible (one could clone and unhide channels or add their own channels if one is too strict moderated).It is pre-alpha, so some things not working 100%, also needs possible split into merger sites for huge growth, customizing channels, etc.suggestions welcome.\n\nIts looks so great! Is there any place where you write about changes in code or changing ideas for this project? I think spliting into merger sites is good idea (if someone not want to share channel about hmm games, does not do this). Are you planning add \"mute this user\" function or something similar? I have problem in my forum (using this zeroforum script), and spam is sometimes problem. Not controversial topics, but pure spam about nothing. I do not want to delete topics (and I created subcategories, where I trasfers spam topics from main threads), but it looks so gross when in one on ten topics is spam (for me is not problem, but new users on forum do not likes this, and I understand this).",
+				"added": 1487141695
+			}
+		]
+	},
+	"comment_vote": {
+		"11_19nb7BmBbBv1gMVrzMyL3fTkd3HaoteYF8": 1,
+		"95_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"1_1CDkheadGbhxVvNCHn2nvH7GBDnwm5V8oi": 1,
+		"43_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"1_1DjezZz4h4amzFHeeq1cMJzWfNCnHcamby": 1,
+		"19_18rFd7W9y5QGQEVXaCoJV7jyt7D8aN156h": 1,
+		"103_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"119_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"3_19ev8HmfPQ2VC8aWDA4Ck7E2vLYDYFgw9P": 1,
+		"595_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"606_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"300_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"159_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"171_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"13_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": 1,
+		"5_1JecQYorYpL9F9vArLj13LKvc3v3iSdDHA": 1,
+		"3_16RxPB8u2PPvMvASMreEvH3q7S5xm2LzjP": 1,
+		"1_1HXv2c6awyWdtUb8SeP7bWViMHcvxdV82X": 1,
+		"2_13CnFMgi6N7KQkuomswsVwSU7bKfRC82KY": 1,
+		"192_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"194_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"11_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"2_1BH81S1XyUjy9VKLGHpx8VoY1WJnqvBmS2": 1,
+		"178_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"12_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"2_14FNxARCwtFTfDzNvaUkSyHEcuH2NCXFRp": 1,
+		"176_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"177_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"12_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"201_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"6_15zYrGJKfXo6XXU6rBUsuU3cTgpJkDuQYA": 1,
+		"1_12LhDxAv6Ejd9oYwEoAixmGw3eXjZ6LJM9": 1,
+		"756_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"215_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"783_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"207_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"19_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ": 1,
+		"20_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"42_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj": 1,
+		"53_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"100_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"1_1R67TfYzNkCnh89EFfGmXn5LMb4hXaMRQ": 1,
+		"2_15EAH8W3qs47ZJ9wsxEakKtwZ238VFeYGt": 1,
+		"9_1Koe97YQ3wR5oFauQoGuUCBNqZ73SMTrKi": 1,
+		"20_14YdhMiNAG8LDichYEQvyZZboGL8bSeZEu": 1
+	}
+}

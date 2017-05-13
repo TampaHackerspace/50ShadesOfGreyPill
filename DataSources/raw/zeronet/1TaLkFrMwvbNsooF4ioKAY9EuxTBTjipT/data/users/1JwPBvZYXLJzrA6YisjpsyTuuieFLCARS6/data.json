@@ -1,0 +1,207 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Play source code",
+			"body": "I want to improve Play website. But I don't find the sources anywhere. No repo on github, neither on gitlab.\nIs there a repo where I can make pull requests somewhere ?",
+			"added": 1464275467
+		},
+		{
+			"topic_id": 2,
+			"title": "[Zite development] Optional files uploaded by users",
+			"body": "I want to make a website where users can add optional files. I tried a lot of differents things in my `content.json` file but nothing worked.\n\nHere is a part of my main `content.json`:\n```json\n\"ignore\": \"(.git|data|.*~)\",\n\"includes\": {\n  \"data/users/content.json\": {\n    \"signers\": [],\n    \"signers_required\": 1\n  }\n},\n\"inner_path\": \"content.json\"\n```\n\nHere is a part of my `data/users/content.json`:\n```json\n \"ignore\": \".*\",\n \"inner_path\": \"data/users/content.json\",\n \"user_contents\": {\n  \"cert_signers\": {\n   \"zeroid.bit\": [\n    \"1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz\"\n   ]\n  },\n  \"permission_rules\": {\n   \".*\": {\n    \"files_allowed\": \"\",\n    \"files_allowed_optional\": \".*\",\n    \"max_size_optional\": 10485670000\n   }\n  },\n  \"permissions\": {}\n }\n```\n\nThe I use this coffee code to upload:\n```coffee\n    name = \"data/users/\" + @siteInfo.auth_address + '/' + e.files[0].name.replace /[\\s\\'\\\"\\(\\)]/g, ''\n    reader = new FileReader()\n    reader.onload = (e) =>\n      @cmd \"fileWrite\", [name, btoa reader.result], (res) =>\n        if res == \"ok\"\n          @cmd \"sitePublish\", {inner_path: \"data/users/\" + @siteInfo.auth_address + \"/content.json\", sign: true}, (res) =>\n            console.log res\n```\n\nThe files are well uploaded, but they are not marked as optional. So, when I upload more than 10MB, the user's content.json file cannot be signed. I also don't understand how it can be uploaded since the `file_allowed` field is empty.  \nI'm pretty sure it's a stupid thing I misunderstood, but I tried many things for hours and I still don't get what I'm doing wrong.\n\nPS: Wasn't there a sub dedicated to zite development several months ago?",
+			"added": 1490212132
+		}
+	],
+	"topic_vote": {
+		"2_1wsuQQPTH5Ysaryn5d2ZMZJApmv7WwZ3w": 1,
+		"3_1KVbKJBqXdkUr4ogZGJEjDFsm2y9vtX8Bj": 1,
+		"1_18UrJLdvxYRBY71mKwLGGMQL9ZM3GeHvJc": 1,
+		"6_13hcYDp4XW3GQo4LMtmPf8qUZLZcxFSmVw": 1,
+		"1_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": 1,
+		"2_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": 1,
+		"7_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"1_1Dj5WCaPV2r18QcDQFHmyx2HnGmwMJce9b": 1,
+		"1_163sF1Kdsd5LdpjAXDKBshdEBNJH6PUqvg": 1,
+		"10_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"8_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"3_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": 1,
+		"2_13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31": 1,
+		"1_1DxWcQsQ5cEBqXgc94pKWtzRo6Xn3iWsnK": 1,
+		"1_1GuYKebkQAqGJ4tNpNp4TD1UuoHHudCJLA": 1,
+		"8_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"2_13bJpDYmLnZMLWy696GAxHA9mdizyZW2PK": 1,
+		"25_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": 1,
+		"1_1NnLEbZgqNo9QfGuopF2Co7Dy152rp3Pim": 1,
+		"1_19Z8aJ32x4pE2iGvVssPJazJgpGe5L32rq": 1,
+		"1_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h": 1,
+		"6_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"2_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": 1,
+		"1_1PfXizQkX7L7ho96Yqva2hvdk6VFT9Dnk7": 1,
+		"1_1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b": 1
+	},
+	"next_comment_id": 14,
+	"comment": {
+		"1_1JwPBvZYXLJzrA6YisjpsyTuuieFLCARS6": [
+			{
+				"comment_id": 1,
+				"body": "Yes but improve the online version would have been better than creating my own one. I hope a repo will be available when zerogit will be there.",
+				"added": 1464329256
+			},
+			{
+				"comment_id": 2,
+				"body": "> [mnnstory](#comment_3_14tnrN3dbjc7t5ZbRxT2Vi8CbC4uoqZrFh): The source code is on your compuer.\n\nI love the way you didn't read the question.",
+				"added": 1464350544
+			}
+		],
+		"1_139X4c3WFVtmsEj6Vpdd74YY49ettpduKq": [
+			{
+				"comment_id": 3,
+				"body": "Of course there are.\nHere is the list: http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:zite-list-searches",
+				"added": 1464770229
+			}
+		],
+		"1_1KiE39saL9HUwUb3huV7gQYeVk4vCx1FWw": [
+			{
+				"comment_id": 4,
+				"body": "Windows always sucks.",
+				"added": 1467798848
+			}
+		],
+		"17_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 5,
+				"body": "> [genericusername](#comment_11_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny): It's not WYSIWYG but uses markdown which is a very simple markup language based off of ascii email (See here).\n\nIt's not a markup language (it's the origin of its name \"markDOWN\").",
+				"added": 1470742733
+			}
+		],
+		"10_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 6,
+				"body": "I tried to used a zeroverse account and got the error \"Content publish failed.\", so I cannot even create a profile (I can create one, but it's not sent through the network).\nHowever, it works well using zeroid.\nNice work :)",
+				"added": 1470870992
+			}
+		],
+		"1_1Mxv7my8HRBiVNRtiFaHrrbb11hmPqa6qL": [
+			{
+				"comment_id": 7,
+				"body": "It worked correctly with me.\nWhat is your problem exactly ?",
+				"added": 1471010147
+			}
+		],
+		"1_1LPyB18qg6mGFb1v8zMYd6TBCXK2c7BmRm": [
+			{
+				"comment_id": 8,
+				"body": "` ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.`",
+				"added": 1471595625
+			}
+		],
+		"1_1JLptrZjV8VrpvMBex8CnCHGjNpCizYq1x": [
+			{
+				"comment_id": 9,
+				"body": "> [kosherx](#comment_29_1Kkc5j5xrEJevvV6sBqCrW93dscMVGbcDY): how do I steal a key? I have a zite but I lost its key.\n\nYou can't.",
+				"added": 1476951652
+			}
+		],
+		"2_1J7dTw3ZsXUsXzpBqVWVj5aXRUMsMC6Nfc": [
+			{
+				"comment_id": 10,
+				"body": "> [zeratax](#comment_6_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH): No clue why people here like Signal so much, I couldn't even install it on my phone since it needs google play services and I'm not really interested doxxing myself as in giving them my phone number to send my messages to a proprietary server. WhatsApp isn't even open source at all, so there is no way I'm trusting that, same goes for wire.\n\nI'm pretty sure you don't know anything about Signal. They are not storing any messages and they can't even read them since they are end-to-end encrypted. Furthermore, they are only storing your phone number, your registration date and your last time signin date. I don't like storing metadata, but you have to agree this is quite reasonnable.\nAbout the google play services, I haven't had this issue.",
+				"added": 1480526296
+			}
+		],
+		"10_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 11,
+				"body": "Fish > bash > zsh\nZsh is basically bash with improved default options. But when it comes to really configure it, you become very limited since it is not using readline, which mean you cannot modify the input part.\nFish has awesome features (syntax highlight is essential). The only thing that prevent me for saying it's perfect is that it is not POSIX (but the programing syntax is very clean).",
+				"added": 1488294195
+			}
+		],
+		"6_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": [
+			{
+				"comment_id": 12,
+				"body": "Here is a translation of the post I wrote about it yesterday on french zerotalk:\n\nIt's pretty cool, but I'm afraid it'll soon become a big mess without some additional features:\n- Renaming of uploaded files (a lot of my song files are named \"01 - Song title\" without artist name)\n- Sort by album/artist/tags\n- A search engine (I think this point and the previous one are inseparable)\n- Management of flac format (about 80% of songs I have on my computer are in flac). Obviously we have to differenciate them from mp3s, since they are much larger files and I'm sure a lot of users don't want to use 40MB for just a few minutes.\n- Is there a git repository where I/we can contribute ?\n\nI saw you posted github link for the javascript framework used, but not for the zeronet version. Is it hosted somewhere ?",
+				"added": 1489965907
+			}
+		],
+		"2_1JwPBvZYXLJzrA6YisjpsyTuuieFLCARS6": [
+			{
+				"comment_id": 13,
+				"body": "I tought the user `content.json` would have been a partial copy of the `data/users/content` one,  automatically made by ZeroNet.\nI made my zite modify automatically the user `content.json` file, It now contains `{\"optional\":\".*\",\"modified\":1490261997325}`. The previous error is gone, but now I have the `data/users/USER_ID/content.json test.png: Optional file not allowed`, and I still don't understand why, since I allowed any optional files in `data/user/content.json`.\n\nEDIT: I restard ZeroNet and it works well now.",
+				"added": 1490262757
+			}
+		]
+	},
+	"comment_vote": {
+		"1_14oc4TdKFZgv764PavBYPQc15qQgmd7jgL": 1,
+		"45_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1,
+		"1_1DaMD4jMNT1jx4MuRLU5xCcbcHWFJkSh7R": 1,
+		"5_15h7vjKVB8ZCV6vWwXjp8g5r6CXwJRjTG4": 1,
+		"20_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"5_1CFhytwoGGPNqmueehPqotaf2iG9uxD98e": 1,
+		"5_1K9bJ8uijgvt5B3YfzPv2HqVx6kNDoEqtM": 1,
+		"711_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"85_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"1_1DW9EhqZ7rndNKZTPbdxsttBU1jGtT2soT": 1,
+		"1_1Gqh9qpQKhfKz9H4VYsyZSjfqavCYbCG4C": 1,
+		"19_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF": 1,
+		"3_1DW9EhqZ7rndNKZTPbdxsttBU1jGtT2soT": 1,
+		"4_1DW9EhqZ7rndNKZTPbdxsttBU1jGtT2soT": 1,
+		"92_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"17_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"20_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"1_1EqT3ujyyX8n6yg3XNQCF2FmU2Nbgd8TQq": 1,
+		"11_1KVbKJBqXdkUr4ogZGJEjDFsm2y9vtX8Bj": 1,
+		"82_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"109_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"161_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"37_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"8_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"742_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1FPzL4N6zBuQg72JRKx6f2XqxKMeQwXXn": 1,
+		"7_1AvkR7PmGFLZL9drPpqCaBPEdcVipv2Ajs": 1,
+		"207_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"4_1L6kM35jc1KwpPi8LpEsCJmgXw2RM3UW1W": 1,
+		"20_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"33_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"16_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM": 1,
+		"4_1GmZJxRakRMJiJBLBXTy4YyDuA33UJUBoM": 1,
+		"215_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"21_1KGozab6jp6jA6zVM8cTFdzMmBasriNP4f": 1,
+		"10_13k6itGVhzLTZUZKiqWWJ5KdvVUEMqDWDv": 1,
+		"2_14TVizquRR7YJMWRHaWnC97p6GWFRp8nVr": 1,
+		"27_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS": 1,
+		"217_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"25_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw": 1,
+		"6_1Lro3X1aER7i2saQWufjCr5sDyunKe11Gs": 1,
+		"1_114htPrU5VWip9ohwc6AnSvnpKpCdPKFqY": 1,
+		"40_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"23_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ": 1,
+		"5_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": 1,
+		"20_1L6pjaEajyF4kYhT5AXeJKUnUuSR5oGKrE": 1,
+		"7_1MjzQK7SFT6gnEgxy9ePQHXc3Ub5o9qz84": 1,
+		"4_1Mzjg3DjFFiUBz42zZa9w9oM2Lf4vHeLK3": 1,
+		"3_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"1_1LMNoBqBx1J5Ug83Huseh6fTQ4TAaDZoJj": 1,
+		"2_1DfbbkYCasRTA1gQmJpRRA5TwwudFeMLUT": 1,
+		"1_1ACUmZVjqWs5xMARDHSQLaekGMVSX5fFPZ": 1,
+		"1_1DDkP7BAr5BmvW4FgdnDFMHgjfzxvP1pEb": 1,
+		"3_16GMXUiefH9e271vTdr5h41WHkXKPS7ceY": 1,
+		"245_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"246_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"31_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": 1,
+		"130_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"128_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"25_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ": 1,
+		"870_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"18_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": 1,
+		"12_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": 1,
+		"5_1Bte1EMmKsRq3aCPtKQNh3NLuhuXL8VVv": 1,
+		"27_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ": 1,
+		"1_1HADrnDdgCKmF1pK79SDU8bakqURnmfKe8": 1,
+		"274_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"8_1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b": 1,
+		"276_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1
+	}
+}

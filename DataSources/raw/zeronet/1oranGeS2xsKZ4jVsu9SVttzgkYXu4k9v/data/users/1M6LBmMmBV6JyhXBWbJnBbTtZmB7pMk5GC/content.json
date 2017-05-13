@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HFCj1wicCHiSl/L47ox0QngrE17iOPRUAA9ZRe39SF8Qr7t1CYj53b+sDXJiStnzhvGof8Wavbh/PBd3nRn8wXw=",
+ "cert_user_id": "trapdoor@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "560af36f59997adaaaee0d275118ee735e9e5bddb75d4c722f4b9a9e70fc34a8",
+   "size": 339
+  }
+ },
+ "inner_path": "data/users/1M6LBmMmBV6JyhXBWbJnBbTtZmB7pMk5GC/content.json",
+ "modified": 1489765375,
+ "signs": {
+  "1M6LBmMmBV6JyhXBWbJnBbTtZmB7pMk5GC": "HF9/SHV3/oacC4Dw2nAgnM8tkhKxnuLDln+qUv7J0w/bG0qQB3msB0De1G3Ollt9RDKk8+Hp4Eccd8mXrxI6TPY="
+ }
+}

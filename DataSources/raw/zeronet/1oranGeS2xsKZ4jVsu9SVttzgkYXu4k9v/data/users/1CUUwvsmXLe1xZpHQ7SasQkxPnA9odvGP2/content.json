@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GyCjDX0TLo1V371XA1oNmbgrx8qxJmpBFCuYN+/chaJ1KL2nl6quSpWOdG8xo/AFHY4L1Ek78KxCgsjahVHJWOE=",
+ "cert_user_id": "mikulas@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "be1d0e7e85d2ddd97f4b4c9a991c1e18220724d3be3a3087b5f78cffccca88b7",
+   "size": 1176
+  },
+  "data.json": {
+   "sha512": "05e55c886efa37ec8af539db64a4198412beb6dd5835b4c94adde82cf05fdf3e",
+   "size": 592
+  }
+ },
+ "files_optional": {
+  "1487166855.jpg": {
+   "sha512": "ef617d659492b354e614b0c5cbb11b5bc6656d480aaa1c4e9fcbcf21e5a45315",
+   "size": 109648
+  }
+ },
+ "inner_path": "data/users/1CUUwvsmXLe1xZpHQ7SasQkxPnA9odvGP2/content.json",
+ "modified": 1487166852,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1CUUwvsmXLe1xZpHQ7SasQkxPnA9odvGP2": "HJ5TLlobiLiAUplpwc51UGJtwQNQG+NnKAOHTMKSrVMs9RyrEcMBWqp1E/x3erI9hB0YrxRrn3Bl9FPw2WcJB7U="
+ }
+}

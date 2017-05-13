@@ -1,0 +1,18 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HOuYpu9eIwDCGzA0xdChKBg+XdZBWgrKpe93E4BMpHn4+9E3Awj1FEu3Rq5kdi8KytMaKaOaapQFUXetoo02mAk=",
+ "cert_user_id": "bobycrane@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "fe1978fa9711b5eb05a8395ba90c857b904f296bef572e15906aab679ed08a5a",
+   "size": 1789
+  }
+ },
+ "inner_path": "data/users/1DCNwz5trNPfDcvqaSxtTfmUF9iijPSstT/content.json",
+ "modified": 1483965808,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1DCNwz5trNPfDcvqaSxtTfmUF9iijPSstT": "G76iw/Mvj5MQoVFdkfJSFvBohGhsuCZp+BOpaV2a9lB0o5YAQxQ3+03KKxXKww6eSVbU3+iCkwf6GWtiAodWe78="
+ }
+}

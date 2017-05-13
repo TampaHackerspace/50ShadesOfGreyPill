@@ -1,0 +1,65 @@
+{
+	"next_post_id": 4,
+	"next_comment_id": 1,
+	"next_follow_id": 6,
+	"avatar": "generate",
+	"user_name": "Linuxrules16",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1485113592,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1485113617,
+			"body": "Wow, well, I guess the new internet era is here!",
+			"date_added": 1485113615
+		},
+		{
+			"post_id": 1485113683,
+			"body": "LMAO I can follow myself!!!!",
+			"date_added": 1485113680
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1An5WJSGuynetmwPtawSFrBn6UocoQuQfv",
+			"user_name": "Crz0033",
+			"date_added": 1485113632
+		},
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13jL799v8v688HkkF9nAVAse9PcieWBfVA",
+			"user_name": "知乎日报",
+			"date_added": 1485113644
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "19NUvQyy7ox9krsW1RFjqx9qc1dVZ6rg5e",
+			"user_name": "Linuxrules16",
+			"date_added": 1485113669
+		},
+		{
+			"follow_id": 4,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1JGvPMVzi6D8zvMWJjoRXkDgsmRs28CZes",
+			"user_name": "Suso Comesaña",
+			"date_added": 1485113713
+		},
+		{
+			"follow_id": 5,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1H5dbLLYzT7U26FyJXii96pwGb4bkQ3U7P",
+			"user_name": "Sinister7",
+			"date_added": 1485113714
+		}
+	]
+}

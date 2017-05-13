@@ -1,0 +1,38 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "background-color": "white",
+ "cloneable": true,
+ "description": "Welcome to ZeroMe! Runner: Nofish",
+ "files": {
+  "data-default/users/content.json-default": {
+   "sha512": "4e37699bd5336b9c33ce86a3eb73b82e87460535793401874a653afeddefee59",
+   "size": 735
+  },
+  "index.html": {
+   "sha512": "087c6ae46aacc5661f7da99ce10dacc0428dbd48aa7bbdc1df9c2da6e81b1d93",
+   "size": 466
+  }
+ },
+ "ignore": "((js|css)/(?!all.(js|css))|data/.*db|data/users/.*/.*)",
+ "includes": {
+  "data/users/content.json": {
+   "signers": [],
+   "signers_required": 1
+  }
+ },
+ "inner_path": "content.json",
+ "merged_type": "ZeroMe",
+ "modified": 1487605919,
+ "postmessage_nonce_security": true,
+ "sign": [
+  40635324652945908995501453194918262135745676997115706543484288171891409741846,
+  54984051840740960474892705790318101314713357240972133000931531662507082158704
+ ],
+ "signers_sign": "HCRqtyEaSd7F1iWncBv+kw2894UURARTkDvDCQhpMAWLoNzc8KqeiitnzIbT08pu25JKax1t6CLq26Ka5Y4VIFA=",
+ "signs": {
+  "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL": "HH6DFenxjFj+4g7duJRe/2dEgABhay2gHMaQi6Ds9DbGGhQlUApEKzw6iOBBmLzGySWW6tFbyc8Ft9dHt/2pdhI="
+ },
+ "signs_required": 1,
+ "title": "RedHub",
+ "zeronet_version": "0.5.2"
+}

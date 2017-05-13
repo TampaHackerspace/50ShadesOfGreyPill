@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HAexPcxcaMhUIhAOi2Zt31zfMGB8wuZJ/+yzIQ8hAy4YLapHEo+MU4o5jXQTf+kE4NeQJ17cQCs3EOuCw/GFsmc=",
+ "cert_user_id": "wantmac@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d3f41ffbffcb595abc85bbd0a48183edc3975c86f12ff505d569f890ff4ef3e1",
+   "size": 240
+  }
+ },
+ "inner_path": "data/users/1EcApkUejvnZHEo6KGdQAiAwjxbwiS7zUL/content.json",
+ "modified": 1480726197.44,
+ "signs": {
+  "1EcApkUejvnZHEo6KGdQAiAwjxbwiS7zUL": "G7ZFeUB9cecHiX9YAJryodxxg3o55lYOIBjA/BnES1s/KiBXPAZvI235DXffb9GogUsxrr7O2LAVCMEDVzJcXbE="
+ }
+}

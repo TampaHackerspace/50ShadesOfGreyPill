@@ -1,0 +1,28 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Any Mgtow people or sites here?",
+			"body": "I'm curious if there are Mgtow people or sites here on Zeronet.",
+			"added": 1491229671
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"2_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc": [
+			{
+				"comment_id": 1,
+				"body": "Yes, but I suggest to try bual-boot first. Linux Mint is a good one, and suitable for most of the everyday needs. I also switched my laptop to Linux, and I only kept my windows for some special stuff that does not exist for linux. You can also game on linux (here are a lot of good games https://lgdb.org/ and probably there is a way to tinker mainstream games to run on linux.) Mint has a built-in driver manager for factory-made (closed source but free) drivers. There is a software manager, and a more sophisticated package manager. Use those to install things in a reliable way. Start GUFW firewall, and get an antivirus (because why not). \n\nLook for open source (GNU GPL) alternatives of popular software:\nMS Office : Libre Office\nPhotoshop: Gimp (XnView is also good for simple editing, converting)\nVideo editors: Openshot, and some others also have Linux versions\nFirefox : the same for Linux\nCD/DVD writer: very good apps built-in the distributions\naudio editing: Audacity\nvideo player: VLC",
+				"added": 1487186846
+			},
+			{
+				"comment_id": 2,
+				"body": "But, since it is a laptop (that might get stolen) it is worth to have full disk encryption, that is extremely tricky on dual boot from a single SSD. \n\nfor me what I am testing now:\n-Veracrypt bootloader in MBR \n-Windows 7 partition (not the full disk) encrypted by Veracrypt\n-Windows 7 bootloader modified by EasyBCD to boot the Grub boot partition if I want\n-/dev/sda3 : grub boot partition (1GB is necessary, I don't remember why, but I had issues with only 100 MB partition) (mount it to /boot)\n-Linux installed in an encrypted partition (mounted as / )\n-some empty space (for garbage collection of SSD 10% of unused space is good to have)\n-do not use swap partition, if you don't need it (just put at least 8GB of RAM in the laptop). An unencrypted swap can leak personal data. \n\n-Also encrypt the secondary HDD via a Veracrypt file container (it is more compatible, and you don't risk formatting it accidentally due to the stupid message popup saying\"disk needs to be formatted before use\" , that happens when you plug an encrypted disk in Win7)",
+				"added": 1487187684
+			}
+		]
+	},
+	"comment_vote": {}
+}

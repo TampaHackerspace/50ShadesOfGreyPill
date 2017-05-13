@@ -1,0 +1,67 @@
+{
+	"next_topic_id": 6,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "[suggestion] Expiration date for user files",
+			"body": "First of all, I'd like to thank you @nofish and all contributors to the ZeroNet project!\n\nEDITED: Change 'user created content' to 'user files' \nI was thinking maybe it'd be nice to have user files that has an expiration date, so you won't clutter up a Zite so much, and will allow applications that are more ephemeral by nature, like email, chatting, self-destructing pastes.\n\n* I was thinking of something like where the user of a Zite can determine how far in the future it wants the user files to expire. The maximum days in the future is determined by the owner of the Zite, say 60.\n\n* If the user sets the date on which the post will be expired (say 2016-11-25) and on that date peers will no longer re-upload that post, so it'll be expired/deleted.\n\n* When a user sets the date too far in the future (more than 60 days for example), it won't be accepted by other peers, it won't be uploaded further. Or delete on and after creation date + 60 days (for example)\n\n* This is useful for applications that are best when they are ephemeral, like chat messages, self-destructing posts, emails.\n\nThanks, let me know what you think",
+			"added": 1479339562
+		},
+		{
+			"topic_id": 2,
+			"title": "[archived] [suggestion] Zite user limit",
+			"body": "Ability to limit the amount of users on your Zite, say 1000. \nThis is to prevent someone from creating thousands of user accounts to spam your site.",
+			"added": 1479340081
+		},
+		{
+			"topic_id": 3,
+			"title": "[suggestion] Ability to freeze and unfreeze a Zite by date or period",
+			"body": "The ability to freeze/unfreeze Zites will allow the Zite owner to create many sites to be used only in a certain period, after a certain date, or before a certain date **without the manual intervention of the Zite owner**\n\nThis would require a few options:\n`freeze_after: \"2017-06-01\"`\n`unfreeze_after: \"2017-06-01\"`\n`freeze_period: [\"2015-01-01\", \"2017-06-01\" ]`\n`unfreeze_period: [\"2015-01-01\", \"2017-06-01\"]`\n\nWhenever a Zite has been frozen, peers of a Zite won't accept changes.",
+			"added": 1479679521
+		},
+		{
+			"topic_id": 4,
+			"title": "[archived] [suggestion] Set title of Zite's page by extracting <title> from current document",
+			"body": "Pretty straightforward. And please don't make use require Javascript for **everything**",
+			"added": 1479680556
+		},
+		{
+			"topic_id": 5,
+			"title": "Blockstack a possibility for ZeroNet's DNS?",
+			"body": "https://blockstack.org/",
+			"added": 1480287107
+		}
+	],
+	"topic_vote": {
+		"2_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH": 1,
+		"2_13GU1tjE8NpZocm8bZdSE83BmrbLfydR9V": 1,
+		"3_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": 1
+	},
+	"next_comment_id": 7,
+	"comment": {
+		"2_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH": [],
+		"4_156xbcM9BrbdhtYZUPAQBFvLDGGyy5AjdM": [
+			{
+				"comment_id": 2,
+				"body": "But for standard HTML documents it'd be possible to get the <title>{{title}}</title> and use it to set the title of ZeroNet's wrapper",
+				"added": 1479680938
+			},
+			{
+				"comment_id": 4,
+				"body": "> [nofish](#comment_816_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): you can set it via pushstate/repalcestate api commands\n\nDidn't know... alright, but for standard static (without Javascript) HTML pages then?",
+				"added": 1479681147
+			},
+			{
+				"comment_id": 5,
+				"body": "Okay, clear, thanks.",
+				"added": 1479681827
+			}
+		],
+		"1_156xbcM9BrbdhtYZUPAQBFvLDGGyy5AjdM": []
+	},
+	"comment_vote": {
+		"1_1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB": 1,
+		"1_1BrUjdMMNGthZFBW31JE4LZ4UrARXNEZnh": 1,
+		"3_1PyBb9EesSEne4wiS3sUKDbTueS1wKPrrG": 1
+	}
+}

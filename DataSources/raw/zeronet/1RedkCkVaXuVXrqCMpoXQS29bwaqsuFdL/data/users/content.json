@@ -1,0 +1,71 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "files": {},
+ "ignore": ".*",
+ "inner_path": "data/users/content.json",
+ "modified": 1493934744,
+ "signs": {
+  "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL": "HGMmuI0xkWx1qUTAqW5W2hKfWRxOvnspWsBIP1Jd/R2kE5kU8TXMxpa7MrTszbmxI+Dq0kT+6fEVMlBWfrsz46M="
+ },
+ "user_contents": {
+  "archived": {
+   "18o1U3dxQ7kvXJ4asRq12r9oiR2cdMp7DM": 1484652819,
+   "1EFPRZRhijiQv6MvhJQLgV2SdPtHR6tJZ": 991486598402,
+   "1MRSDFESsBXDGvNoZ5ifztA89XfEahA5ka": 1475024550,
+   "1Ns2K86ZvbDZcpUio6KBxYfp8Y1Jc3RKiA": 1486598402
+  },
+  "cert_signers": {
+   "zeroid.bit": [
+    "1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz"
+   ]
+  },
+  "permission_rules": {
+   ".*": {
+    "files_allowed": "(data.json|avatar.jpg|avatar.png)",
+    "max_size": 50000
+   },
+   "bitid/.*@zeroid.bit": {"max_size": 60000},
+   "bitmsg/.*@zeroid.bit": {"max_size": 60000}
+  },
+  "permissions": {
+   "1111111111@zeroid.bit": false,
+   "12hlearn@zeroid.bit": {"max_size": 200000},
+   "atheist@zeroid.bit": {"max_size": 100000},
+   "banexample@zeroid.bit": false,
+   "crackzeronet@zeroid.bit": false,
+   "dalao@zeroid.bit": false,
+   "doom1@zeroid.bit": false,
+   "doom1b@zeroid.bit": false,
+   "freekazoid@zeroid.bit": {"max_size": 100000},
+   "jayofthezero@zeroid.bit": {"max_size": 100000},
+   "kaffie@zeroid.bit": {"max_size": 100000},
+   "ks@zeroid.bit": {"max_size": 100000},
+   "lmath@zeroid.bit": {"max_size": 800000},
+   "longzaowuzhu@zeroid.bit": {"max_size": 100000},
+   "meylody@zeroid.bit": false,
+   "musickiller@zeroid.bit": {"max_size": 225000},
+   "mynameislegion@zeroid.bit": {"max_size": 160000},
+   "mzero@zeroid.bit": {"max_size": 100000},
+   "newuser123@zeroid.bit": {"max_size": 100000},
+   "nofish@zeroid.bit": {"max_size": 200000},
+   "p2p@zeroid.bit": {"max_size": 900000},
+   "paintninja@zeroid.bit": {"max_size": 150000},
+   "paul008@zeroid.bit": {"max_size": 100000},
+   "plac@zeroid.bit": false,
+   "rapapobre@zeroid.bit": {"max_size": 100000},
+   "scrub@zeroid.bit": {"max_size": 100000},
+   "shellbound@zeroid.bit": {"max_size": 112500},
+   "sirenyc@zeroid.bit": {"max_size": 225000},
+   "spacewarrior02@zeroid.bit": {"max_size": 75000},
+   "suzouhiodjzmldh@zeroid.bit": {"max_size": 80000},
+   "talnicrom@zeroid.bit": {"max_size": 112500},
+   "thejumono@zeroid.bit": false,
+   "waterrabbit@zeroid.bit": {"max_size": 200000},
+   "weakish@zeroid.bit": {"max_size": 80000},
+   "ysc3839@zeroid.bit": {"max_size": 100000},
+   "yuzu@zeroid.bit": {"max_size": 100000},
+   "zalex@zeroid.bit": {"max_size": 160000},
+   "zerro@zeroid.bit": {"max_size": 75000}
+  }
+ }
+}

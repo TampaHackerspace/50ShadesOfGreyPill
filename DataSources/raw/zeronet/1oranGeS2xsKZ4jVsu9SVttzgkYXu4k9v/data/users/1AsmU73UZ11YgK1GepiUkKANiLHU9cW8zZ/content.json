@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G9HaF9p+aOOd8dxsA3XzlUS+78/lLFj/TF7f6BgyFn4vYtGy84tw3i//Wgnhk3JqLpE4NZ+lW/oRz1smCEPQ4e4=",
+ "cert_user_id": "mrblackwater@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "74da17663b64c72d457d83dea543c0870f4aeed5d8e6bb665d834f2ca7b52b88",
+   "size": 1363
+  },
+  "data.json": {
+   "sha512": "7017eb965f991396b7abf64f8a5e414eb91372958d71080c9df29d64b1394b6a",
+   "size": 9429
+  }
+ },
+ "files_optional": {
+  "1480693085.jpg": {
+   "sha512": "7c4d506798bf7444fc325d9719700dba7060caa5ba2d71757eb18dddee67b064",
+   "size": 97111
+  }
+ },
+ "inner_path": "data/users/1AsmU73UZ11YgK1GepiUkKANiLHU9cW8zZ/content.json",
+ "modified": 1482809588.349,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1AsmU73UZ11YgK1GepiUkKANiLHU9cW8zZ": "HPwz5VElqsyKQeM5gI5oaZ5WdPc2+/uYN1eeexog8HfJCNzQ/wvUYHJYxc6zF4TCIATh/bIspf+HeIre9PnedZA="
+ }
+}

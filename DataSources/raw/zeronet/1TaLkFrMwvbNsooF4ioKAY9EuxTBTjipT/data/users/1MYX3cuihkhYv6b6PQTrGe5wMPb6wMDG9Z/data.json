@@ -1,0 +1,82 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Problems",
+			"body": "I had problems to install zeronet with virtualenv and to get my zeroId via bitmessage...\nAre there better places to report problems?\nBy the way nice work so far",
+			"added": 1475931875
+		},
+		{
+			"topic_id": 2,
+			"title": "Editor",
+			"body": "Is there a ZeroNetEditor with HTML,CSS, Javascript Snippets and SQL dumps?",
+			"added": 1475984131
+		},
+		{
+			"topic_id": 3,
+			"title": "Anarchy is on the rise",
+			"body": "Come to the anarchy world where trust is the only currency.\n1LvA9gq9HQWJS1uB8CahzgNm3UJxFi9snt",
+			"added": 1475984661
+		}
+	],
+	"topic_vote": {
+		"2_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"1_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"3_1MYX3cuihkhYv6b6PQTrGe5wMPb6wMDG9Z": 1,
+		"2_1MYX3cuihkhYv6b6PQTrGe5wMPb6wMDG9Z": 1
+	},
+	"next_comment_id": 7,
+	"comment": {
+		"2_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 1,
+				"body": "could work (not testet): http://dynalon.github.io/mdwiki/#!index.md",
+				"added": 1475934445
+			}
+		],
+		"3_13GWQHCWbS69WenUQKE3xZsHzgufrxeCcq": [
+			{
+				"comment_id": 2,
+				"body": "https://www.youtube.com/watch?v=3C9dLWqg9Ss",
+				"added": 1476007822
+			}
+		],
+		"1_12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH": [
+			{
+				"comment_id": 3,
+				"body": "dont forget WebRCT",
+				"added": 1476008913
+			}
+		],
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": [
+			{
+				"comment_id": 4,
+				"body": "> [parigo](#comment_1_1G93135DKegpzoqyADP2MznzTwSUBLQKnQ): May be a bridge from ZeroNet to files only cms like GRAV https://getgrav.org/ and FLARUM http://flarum.org/ can do the job?\n\nAre they really file based? Checkout http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:2_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa/Is+there+any+CMS+that+ZeroMe+does+support",
+				"added": 1476009636
+			},
+			{
+				"comment_id": 5,
+				"body": "> [aesir](#comment_5_12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH): Youtube replacement\n\ncheckout zeroTube or https://github.com/DiegoRBaquero/awesome-webtorrent-clones",
+				"added": 1476009827
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 6,
+				"body": "Why is the user data often so much higher then the content? Is there not a cleanup after a timestamp?",
+				"added": 1476011825
+			}
+		]
+	},
+	"comment_vote": {
+		"194_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"2_17a8xsj4Ds61C9wcox4Yqjp4GKD3qNdmdf": 1,
+		"5_12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH": 1,
+		"6_1HVJvkzPdXDEtsjBSzFLyx6KsG8Tg2nnr5": 1,
+		"34_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"28_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"1_1Pva3FqPLwAFNRaxrN9S8ub5hbxNTqcZnR": 1,
+		"6_1MYX3cuihkhYv6b6PQTrGe5wMPb6wMDG9Z": 1
+	}
+}

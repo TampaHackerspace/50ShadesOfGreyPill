@@ -1,0 +1,64 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "[DEV] Any advice for setting a dev env of zite?",
+			"body": "When dealing with the multi user zite, such as write file cmd, I don't know how to debug or test it.\nIs there any effcient way other than running 5 vm for dummy users?",
+			"added": 1488635138
+		}
+	],
+	"topic_vote": {
+		"1_1L34ssdxfxnnSFEoUmy48LocCxnVAHtqSV": 1
+	},
+	"next_comment_id": 7,
+	"comment": {
+		"2_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": [
+			{
+				"comment_id": 1,
+				"body": "ios developers never have choice.",
+				"added": 1488634605
+			}
+		],
+		"1_1L34ssdxfxnnSFEoUmy48LocCxnVAHtqSV": [
+			{
+				"comment_id": 2,
+				"body": "> [nofish](#comment_893_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I develop the sites on local machine, then before the release I test it by loading it to a ZeroNet client running on a VPS. If it works with 2 user, then it should work with more.\n\nThanks for helping.\n\nThe real problem is that if i have to frequently update the site under develpment. \n\nMore detailed, I have:\n- a script to generate html and processed js code.\n- a zite owned by myself for testing\n\nEverytime when I add up some new functions, I just run the script, update the js code in the testing zite, and test it in local browser via 43110/mytestingaddress.\n\nThis work flow works well for single user zite, but not for testing involving multi-user behavior, such as update users' data in `/data/usr/`.\n\nIf I visit it as an owener of that zite, I can do everything without the limitation of permission.\nSo, I setup serveral vagrant imgs running zeronet on the other ports of 127.0.0.1 such as 430120 or 430130.\nBut this works well only for the first time test. Since, after 1st testing, when I update the content of my zites, I have to sign and publish it in order to update it in other vm machines.\nBut publishing dosen't work for not update the updated zite to 5 nodes. ( I only run two vboxs)\n\nLiterally, I am stucked here for work flow of developing zites. \nIn a nutshell, I don't know how to make other machines keep sync with my recent changes.",
+				"added": 1488640523
+			}
+		],
+		"3_12JNkg22um5nYeLgK8XgKavpivuwjrfHAy": [
+			{
+				"comment_id": 3,
+				"body": "Owner can do everything. update del. etc.",
+				"added": 1488641258
+			}
+		],
+		"2_12JNkg22um5nYeLgK8XgKavpivuwjrfHAy": [
+			{
+				"comment_id": 4,
+				"body": "[zcash](z.cash) is a choice.",
+				"added": 1488641490
+			}
+		],
+		"1_19Z8aJ32x4pE2iGvVssPJazJgpGe5L32rq": [
+			{
+				"comment_id": 5,
+				"body": "https://www.reddit.com/r/worldnews/comments/61joci/sina_dehghan_sentenced_to_death_for_insulting_the/",
+				"added": 1490887460
+			}
+		],
+		"11_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": [
+			{
+				"comment_id": 6,
+				"body": "https://openbazaar.zendesk.com/hc/en-us/articles/207548366\nby its description, openbazaar is actually working relying on `moderator` who is providing trust or credit.\nAnd i think that the moderator would be centralised in a long run, since people trend to believe who has more credit.",
+				"added": 1490907926
+			}
+		]
+	},
+	"comment_vote": {
+		"171_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS": 1,
+		"8_12JNkg22um5nYeLgK8XgKavpivuwjrfHAy": 1,
+		"896_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

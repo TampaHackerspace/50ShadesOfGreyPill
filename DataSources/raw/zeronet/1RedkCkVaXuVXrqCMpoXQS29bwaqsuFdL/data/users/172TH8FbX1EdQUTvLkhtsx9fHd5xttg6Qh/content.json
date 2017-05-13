@@ -1,0 +1,28 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HOBEggAyDAut6KdpfusnU++U/8zjk2qMYOsMcmTKGEv3kfsIEg8RneFJdRCqTlhGSD+MwoldTaMN+wWXlbq3B+U=",
+ "cert_user_id": "eternum1@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "79984ba4a1126e22e7ffb2e2ded6b2de10b4a71cefe67640495a8d58ea563542",
+   "size": 1842
+  },
+  "data.json": {
+   "sha512": "610f7e6b176ba1ed7be6dba1142c119b3c7f06ffedc90418fd6007b37e2dfe5c",
+   "size": 3920
+  }
+ },
+ "files_optional": {
+  "1492828861.jpg": {
+   "sha512": "1bc4183cb107c18134b61eba05346280ff56a94b2d9a51cd88b93338a25b1519",
+   "size": 60212
+  }
+ },
+ "inner_path": "data/users/172TH8FbX1EdQUTvLkhtsx9fHd5xttg6Qh/content.json",
+ "modified": 1492912179,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "172TH8FbX1EdQUTvLkhtsx9fHd5xttg6Qh": "G+5LP/UmhTDTLWFRZPD5BOAnX4yS8fuixseYRA1nwGkbTwwlfCAGjcfPqavBWwnZo8Kz2VrrsGptb6pqGwXdFLE="
+ }
+}

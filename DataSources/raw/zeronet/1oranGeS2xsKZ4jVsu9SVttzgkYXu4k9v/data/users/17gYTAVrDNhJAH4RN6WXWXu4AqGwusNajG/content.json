@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HIg3+Q1gFSNR/hKvyky1B9A5gPV7TMd3HSBCKhpN8LXd5tasOfDbN0gPfkpsnzd7tYBLl4FKEYBrLGty68s/ZdA=",
+ "cert_user_id": "elenazimmermann@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "9ea41b3e8bcdb9ba4d651d031f46119354fef437979bc071e5a4750586973224",
+   "size": 1559
+  },
+  "data.json": {
+   "sha512": "4e99902152518063820b6621be459e8a0b94b1880506b60f7e10b6924a4ee777",
+   "size": 3894
+  }
+ },
+ "files_optional": {
+  "1483478762.jpg": {
+   "sha512": "558a6cb155eb076630c503adae27d9250d20d3646afaaf07258becfdb2b8ef79",
+   "size": 27249
+  }
+ },
+ "inner_path": "data/users/17gYTAVrDNhJAH4RN6WXWXu4AqGwusNajG/content.json",
+ "modified": 1483558481.73901,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "17gYTAVrDNhJAH4RN6WXWXu4AqGwusNajG": "HDLHGQIWvivB77rYefqtSyU2Gbmm2b95FPEZ2VvIWc9xoXHJDEAEb44cv/0oTPeruCVRmHmSDA+feQXYXd/X4Mg="
+ }
+}

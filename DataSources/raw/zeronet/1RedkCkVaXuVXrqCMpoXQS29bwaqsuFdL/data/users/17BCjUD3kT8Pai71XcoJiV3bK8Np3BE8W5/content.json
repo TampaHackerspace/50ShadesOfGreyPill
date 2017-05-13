@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G+NA4scLFGHsS3HnMwb1Mru63iIVR3ymRa8AJvYneThg0JbJQvBqKsMbTdgUroIHCH5Q7Migd5xqASW9DN7osos=",
+ "cert_user_id": "nimda@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "7613ae09bacdd8abad7456ba3ed3a435efe256b14eab685ac7a04fd668285f0c",
+   "size": 336
+  }
+ },
+ "inner_path": "data/users/17BCjUD3kT8Pai71XcoJiV3bK8Np3BE8W5/content.json",
+ "modified": 1470916727.752,
+ "signs": {
+  "17BCjUD3kT8Pai71XcoJiV3bK8Np3BE8W5": "G7iKdPb8jhSbj7n1+Gu5qx/E24Nv8X7J48h9tR00tBPgzfRffdiul+/C3jioQ39J4+TtJJhENb/xTOOtmDq/jdQ="
+ }
+}

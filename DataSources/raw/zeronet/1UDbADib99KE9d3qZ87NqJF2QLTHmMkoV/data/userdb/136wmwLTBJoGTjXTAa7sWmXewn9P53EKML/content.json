@@ -1,0 +1,22 @@
+{
+ "address": "1UDbADib99KE9d3qZ87NqJF2QLTHmMkoV",
+ "cert_auth_type": "web",
+ "cert_sign": "HIfdR1195hS96CC0A37gz5I7RukaK1RiGTBLXzif8YLGLhWPbToAWMBYi3U80J3aVsDYeEyaLsKmI6UD8HDOKjk=",
+ "cert_user_id": "znews@zeroid.bit",
+ "files": {},
+ "inner_path": "data/userdb/136wmwLTBJoGTjXTAa7sWmXewn9P53EKML/content.json",
+ "modified": 1492165410,
+ "signs": {
+  "136wmwLTBJoGTjXTAa7sWmXewn9P53EKML": "HCRZhMmigBxLdddTFU1G1tljEDHEj6ZjCzGXiJRLImmatXRSZ/FxFhL1NW0uF2jxB6T6MjN0lD9nC8Yiy4nzbSE="
+ },
+ "user": [
+  {
+   "avatar": "png",
+   "bgColor": "#17357c",
+   "date_added": 1492165409,
+   "hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+   "intro": "One of the first news sites in ZeroNet.\n\n* [Official site](http://127.0.0.1:43110/zeronews.bit/)",
+   "user_name": "Zero News"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HOdTk23c9mMfimA3uJgmWLJOkdBp73zIggORdGm5UjSOnFY0klfxM1l+jC7ossOAAhXE3oec6n9YJx5eoZl2ooc=",
+ "cert_user_id": "pandamaster@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "09ad978c9825ce102686775a1ad9b75f59f20a545ab29cf33d8fd2fe0a4fb869",
+   "size": 519
+  }
+ },
+ "inner_path": "data/users/1aZf3XiBnfUFWV8RQ9uBKEbpCrnTyjRnr/content.json",
+ "modified": 1473911593.981,
+ "signs": {
+  "1aZf3XiBnfUFWV8RQ9uBKEbpCrnTyjRnr": "G7e3J0P4gGK5d+mkralB1hc77Xd7LCQk9nDJd7B5HulOiv9bMjj16M7dQ2KgbLukz/OXt92o2m/013bv+ZWx+tU="
+ }
+}

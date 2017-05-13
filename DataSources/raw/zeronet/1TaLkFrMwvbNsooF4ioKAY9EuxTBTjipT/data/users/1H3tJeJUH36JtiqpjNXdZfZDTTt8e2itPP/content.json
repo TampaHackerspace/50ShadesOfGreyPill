@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HOZFzgPee8wsqiEp9Z7feQGl7PqB2XTVLwJFnrr3iCaTZm/X6Khs3RMwdxiBNmCNDRIIDQrHuzTfKSIsD1KdWng=",
+ "cert_user_id": "inquisitor@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "9733f1ee3c8aa491977336777037867fe4e6fde7a5a9569ac21b307934ece725",
+   "size": 244
+  }
+ },
+ "inner_path": "data/users/1H3tJeJUH36JtiqpjNXdZfZDTTt8e2itPP/content.json",
+ "modified": 1492906662,
+ "signs": {
+  "1H3tJeJUH36JtiqpjNXdZfZDTTt8e2itPP": "HOnVsU1JX+eme20+LY/SdhE/eu/+5qEFG7sNvAZqd8avXJ1e5qQeR0RUaYbiG9BXVnSDykRnE/J/NCoXQOfLWkE="
+ }
+}

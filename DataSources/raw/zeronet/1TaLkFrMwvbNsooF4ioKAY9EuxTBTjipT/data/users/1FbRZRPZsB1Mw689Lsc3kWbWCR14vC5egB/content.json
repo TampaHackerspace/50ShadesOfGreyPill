@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G4a8AIXZkzNhmWWPkLrLJD3ZX4J1OUIDMVTqs9qWePCpR73dSsacJs8K0Q4PbDnTe3VNu8KV4NcVs3oDt/aesGw=",
+ "cert_user_id": "bricktop@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "52bf7d0339ca678735ea45c2f4520883d22d0127bf31e8340aa4956f31cdf100",
+   "size": 922
+  }
+ },
+ "inner_path": "data/users/1FbRZRPZsB1Mw689Lsc3kWbWCR14vC5egB/content.json",
+ "modified": 1489364383,
+ "signs": {
+  "1FbRZRPZsB1Mw689Lsc3kWbWCR14vC5egB": "HFRLtN2FTFoE8zMeqvtw2CV6V2s6YZwCKDsfblnnk0ks6obOqY2B6ZzcFp2EGQ99JlLjeVq/62V0OKrrE3rRbus="
+ }
+}

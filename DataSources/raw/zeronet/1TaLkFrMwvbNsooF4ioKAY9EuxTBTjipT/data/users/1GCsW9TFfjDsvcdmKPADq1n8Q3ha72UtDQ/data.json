@@ -1,0 +1,32 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Donald Trump is the next president of the United States",
+			"body": "Begin",
+			"added": 1478674263
+		}
+	],
+	"topic_vote": {
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	},
+	"next_comment_id": 3,
+	"comment": {
+		"1_18jipjDsfAxAuq4ixbi2w24xJrYVfTYFPn": [
+			{
+				"comment_id": 1,
+				"body": "USA",
+				"added": 1478670137
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 2,
+				"body": "Why don't iFrames work? I'm trying to create an iFrame to a video so it doesn't have to be hosted on here, yet it doesn't show up?",
+				"added": 1478726202
+			}
+		]
+	},
+	"comment_vote": {}
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G16VUAqRcTGcqmMM1kZ0UPsjdAGoTyUZLvdrcTY/MPHNb9Tugm94JPgpYz83kXBgUiU6NhZ5lqB4ZhNPXGhFNIA=",
+ "cert_user_id": "lanamu123@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "492a6fb194ba16f003582e209f7c42c67bfa33c213c6cbdf22157a6a2d13ec3e",
+   "size": 340
+  }
+ },
+ "inner_path": "data/users/1D8WjM4rSQBfCCs6dbEhZCjxVoYrjiBoKk/content.json",
+ "modified": 1485862634,
+ "signs": {
+  "1D8WjM4rSQBfCCs6dbEhZCjxVoYrjiBoKk": "G2qjnnqvxczed1PVWKdErRjmYE4S3z9dkerMEEx/SlI/MAWn/X5PXMY7oLUgHh1Hb6326KPKR8p/9223IwR2d3A="
+ }
+}

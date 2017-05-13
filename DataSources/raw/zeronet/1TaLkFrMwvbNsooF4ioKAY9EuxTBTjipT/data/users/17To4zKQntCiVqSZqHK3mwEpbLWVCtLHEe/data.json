@@ -1,0 +1,31 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "ZERONET WEAKNESS + CENSORSHIP",
+			"body": "ZeroNet claims to be \"uncensorable\" on their website, they also claim that the network is controlled by the users rendering it indestructible as long as there is one person still seeding... The issue is there are about 8 trackers that manage all of the seeding, content sharing and more. If all 8 of these were taken out, the network would no longer function, update or allow posts. \n\nIt sounds unlikely, but in times where this service is needed most, we might not be able to have it. For example, large scale warfare, mass censorship bills or even something as easy as an anti-piracy bill mandating that all trackers be shut down due to their piracy title they receive in the news.\n\nIt could only take 8 SWAT teams to knock this off the web, what do you do?\n\n-Yes, host your own tracker through the software (or build your own), but remember, if the situation we are in has gotten to this point, how will you tell other people what IP dress to connect too(censorship or warfare/strong anti-piracy bills)? You would immediately attract attention to yourself, and the solution would only work if everyone you wanted to communicate with joined the same tracker. If not, your message will never reach anyone...\n\ntake a look at Kim Dot Com and the raid that occurred on his property... the entire mega-upload website was taken down in hours after hearing that SOPA was no longer going through. (https://youtu.be/mmObwguVmEI)\n\nTL;DR: If the trackers are taken out, ZeroNet will fall to nothing but rubble. Piracy bills, censorship and warfare will have the ability to take down this entire network in less than 10 SWAT team raids. What do we do, whats in place to prevent such an easy takeover?",
+			"added": 1487789101
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"1_17To4zKQntCiVqSZqHK3mwEpbLWVCtLHEe": [
+			{
+				"comment_id": 1,
+				"body": "https://www.reddit.com/r/zeronet/comments/50h1xv/bittorrent_tracker_dht_i_need_help_understanding/\n\n^check out this thread from another user for more info",
+				"added": 1487789357
+			},
+			{
+				"comment_id": 2,
+				"body": "\nIn reply to user hexkey, you have a very logical way of thinking. As you said, focusing on the scariest sounding scenarios is flawed. This makes complete sense and I thank you for clarifying this as well as the tracker count. At first I had thought of it as an Achilles tendon, the single vulnerable point in the entire network, but taking into account the amount of trackers (45 currently with 95% uptime and about 35 more running) It makes sense to take on more pressing issues. I have recently been researching DHT, i2p and p2p as more distributed and secure solutions to such a network. Thank you for your time, I am sure many users will appreciate this clarification and contribution to the community here.",
+				"added": 1487823771
+			}
+		]
+	},
+	"comment_vote": {
+		"1_17To4zKQntCiVqSZqHK3mwEpbLWVCtLHEe": 1,
+		"13_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1
+	}
+}

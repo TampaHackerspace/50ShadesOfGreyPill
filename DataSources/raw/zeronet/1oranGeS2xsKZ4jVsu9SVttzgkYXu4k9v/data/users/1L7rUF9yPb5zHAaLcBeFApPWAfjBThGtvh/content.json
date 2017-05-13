@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HN0cWoYkWCuZnjgYPMls8eEC01vAB1Hre8lHM2JSoZkyKy5RHvetPg5yVXJzw8tRkkdaIMRkN3vZMll3x72aXHY=",
+ "cert_user_id": "juuropa@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "a1d67dd7151c6de1041a90d811c12afc863fc59747b2a846a329430395c12df4",
+   "size": 1035
+  },
+  "data.json": {
+   "sha512": "cc028fd15957e2f5540bfc73e1a009dd3936d2823ad7e8674b71c625cf3e1cb3",
+   "size": 626
+  }
+ },
+ "inner_path": "data/users/1L7rUF9yPb5zHAaLcBeFApPWAfjBThGtvh/content.json",
+ "modified": 1490559758,
+ "signs": {
+  "1L7rUF9yPb5zHAaLcBeFApPWAfjBThGtvh": "G53YO1LMklzs1uIjrkRi/vhE6EQFx6oEJtNn7pjsIiGFikJxXQ8A7+zdFir1hYkzSyVoRSDcV5HBLdjoibhaRrs="
+ }
+}

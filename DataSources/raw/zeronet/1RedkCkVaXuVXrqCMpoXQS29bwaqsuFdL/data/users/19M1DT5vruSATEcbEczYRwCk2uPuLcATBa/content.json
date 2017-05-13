@@ -1,0 +1,21 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HA4NIx69QCkWPk47gD+kr5FthwtVVCPpot4a8IhtR1m/QZYiFGdvwaBiVD7oTKq+FKTE7KJ7I6pXCur4ZxYk8cY=",
+ "cert_user_id": "talnicrom@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "6ac463422ea975b5f9c09b428011e38949f9a5f60ccab968fceb6145e2915375",
+   "size": 944
+  },
+  "data.json": {
+   "sha512": "969ba97d6f901d41b25546572ae255ca1b54af9e4fa41ee8cd5a40f0044db1d2",
+   "size": 69256
+  }
+ },
+ "inner_path": "data/users/19M1DT5vruSATEcbEczYRwCk2uPuLcATBa/content.json",
+ "modified": 1477516826.317887,
+ "signs": {
+  "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": "G9sxw7TAERvB6sXDE3nk4WS+aAqFQHOFjEgS+e7uqAc80Vg3Nzf73/VYnbrmnuIkG8fQVIPZe7g98kGUtVma1ME="
+ }
+}

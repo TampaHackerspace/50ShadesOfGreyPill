@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "Gw7BFPrxOskfW08Ow7cj6e6ctwYT9+oJnymz1A2BJyGWjDK5Qch2meUJqt4rZvOBfQE2dAkKzMaqFDU1uPnTY+Y=",
+ "cert_user_id": "aircontrol@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "f2edce4e6820a479e20edb78300c503f5f176eac133f3d7a4a5d08d7c7b3f8e5",
+   "size": 207
+  }
+ },
+ "inner_path": "data/users/1HzfAJPJFEMz3eX3EwCgJyZ3aVfHbJaXrv/content.json",
+ "modified": 1490805273,
+ "signs": {
+  "1HzfAJPJFEMz3eX3EwCgJyZ3aVfHbJaXrv": "G5hAiLRZ4j4p9se9KeayUlkr1QifiHX5q432TFsVF2/rSw9YOt+T/wHtyfIY1Xf/VKGLgPbb1/CV9O8F50u9Ayk="
+ }
+}

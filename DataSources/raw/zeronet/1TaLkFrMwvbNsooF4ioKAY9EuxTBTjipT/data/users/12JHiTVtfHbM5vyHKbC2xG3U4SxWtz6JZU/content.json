@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HHI0ijvNrs6RL05IoSx0QOfxKfU5kx53rK7knWB9G9+xZDYGuY8WhkPPm8FWFYONlyJckUcqDHjWzb813IJx9OY=",
+ "cert_user_id": "rushooter@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ddd8fe3b9b6ad3aacad5d3af8bbadf1f0a23ca331eac71c726142afa72d0a852",
+   "size": 354
+  }
+ },
+ "inner_path": "data/users/12JHiTVtfHbM5vyHKbC2xG3U4SxWtz6JZU/content.json",
+ "modified": 1485011477,
+ "signs": {
+  "12JHiTVtfHbM5vyHKbC2xG3U4SxWtz6JZU": "G3lCZkQhNMHcyZ/DQUEP4RmnX2hrF/Di0N78mFNzvRWlGwEMpUZw7elCY/bPpbmi4ZNOAEAIpcDcSItctiLuYEs="
+ }
+}

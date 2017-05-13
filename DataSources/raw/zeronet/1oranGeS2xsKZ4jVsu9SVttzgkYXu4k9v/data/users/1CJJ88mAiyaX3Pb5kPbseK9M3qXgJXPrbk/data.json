@@ -1,0 +1,48 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 4,
+	"avatar": "jpg",
+	"user_name": "Bootyhunter69",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1485079067,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Hii",
+			"post_uri": "1HAeU23BDenukC64EvTzGkJygjMyoa9653_1",
+			"date_added": 1485079344
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1CJJ88mAiyaX3Pb5kPbseK9M3qXgJXPrbk",
+			"user_name": "Bootyhunter69",
+			"date_added": 1485079133
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17NULnxnzwD6eKrj4GeQHptn5kYM4anxGj",
+			"user_name": "Nanaya",
+			"date_added": 1485079145
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1HAeU23BDenukC64EvTzGkJygjMyoa9653",
+			"user_name": "Anomie31",
+			"date_added": 1485079325
+		}
+	]
+}

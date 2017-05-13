@@ -1,0 +1,149 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "ZeroNet Golang client",
+			"body": "Yeah! ZeroNet \"client\" written on Golang.\nVery basic, just proof-of-concept, only http, and no seeding, but works.\nhttps://github.com/G1itchZero/zeronet-go (cross-platform, no docs, no optimization)\n\nFeatures:\n* Download and store zites\n* Open ZeroHello with basic functions\n* Open ZeroName and some other simple sites\n\nGoals for version 0.1\n[x] udp trackers\n[x] use uimedia from updation zite (see last revision of ZeroNet)\n[   ] rename and documentation",
+			"added": 1480540495
+		},
+		{
+			"topic_id": 2,
+			"title": "Alternative client name",
+			"body": "Hi all. I want choose new name instead \"zeronet-go\", but cant find anything better than \"ZerGo\". Any ideas?\nMain goals for first versions - more portability (only one binary) and more speed (potentially golang much faster than python.)",
+			"added": 1481106919
+		},
+		{
+			"topic_id": 3,
+			"title": "ZeroGo 0.0.1",
+			"body": "https://github.com/G1itchZero/ZeroGo/releases\nand (im not sure about this) http://127.0.0.1:43110/g1itch.bit (or http://127.0.0.1:43110/1EQFdsTfAKQQhWoSmsnWDKZhBr8HwVtyah)\n\nP.S. linux version coming soon (tomorrow, maybe)\nP.S.2. ZeroGo currently cannot open blogs and other sites, which use db. Please use ZeroNet.py instead.\nP.S.3. If blog works, please help with distributing zeronet.exe as optional file. ",
+			"added": 1481459474
+		}
+	],
+	"topic_vote": {
+		"1_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": 1
+	},
+	"next_comment_id": 24,
+	"comment": {
+		"1_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": [
+			{
+				"comment_id": 1,
+				"body": "Now it can open ZeroHello!\nNext goal: better code structure, real data at Hello page.",
+				"added": 1480711311
+			},
+			{
+				"comment_id": 2,
+				"body": "> [p2p](#comment_224_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): It now lives at https://github.com/G1itchZero/zeronet-go\n\nthx, post was updated.",
+				"added": 1480957065
+			},
+			{
+				"comment_id": 3,
+				"body": "UDP trackers announce was implemented, but for using 1UPDatEDxnvHDo7TXvq6AEBARfNkyfxsp it needs some serious optimization (its a big zite)",
+				"added": 1481047556
+			},
+			{
+				"comment_id": 7,
+				"body": "So, now ZeroGo can download 1UPDatE at first run (and pretty fast on my machine) and serve static from this folder. \nCurrent version still very buggy and lack of functions (dbQuery, file update and others, including seeding mode). But, i think, i can release it as version 0.0.1-alpha =))) Stay tuned.",
+				"added": 1481395283
+			}
+		],
+		"2_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": [
+			{
+				"comment_id": 5,
+				"body": "Maybe something without \"go\" and \"zero\"?",
+				"added": 1481224442
+			},
+			{
+				"comment_id": 6,
+				"body": "So, i think, problem solved. =) Thanks, guyz.",
+				"added": 1481391071
+			}
+		],
+		"3_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": [
+			{
+				"comment_id": 8,
+				"body": "> [bot](#comment_128_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): hi g1itch, i'm new to go, but pleasure watching you work.\n> the bit address works, downloaded, just not displaying the blog content.. (zero.py: tried a few browsers but only loads main avatar and the follow button, no obvious errors)\n\nvery strange. how about full-length address?",
+				"added": 1481461098
+			},
+			{
+				"comment_id": 9,
+				"body": "> [bot](#comment_129_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): same. i do get \"Content changed [Sign & Publish new content]\" in bottom corner when updated. turned optional files on.\n> currently.. missing files: zeronet.exe, data/data.json ...did you sign the inner file? (data.json)\n\nMain problem of zeronet - lack of documentation.\n\nsiteSign not working with activated multiuser plugin. When i define inner path for .exe file - its too large (so, need i sign optional files?), when i trying to sign data/data.json - its said \"no rules\". Very informative.",
+				"added": 1481461942
+			},
+			{
+				"comment_id": 10,
+				"body": "> [p2p](#comment_229_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): Haven't you read the official doc? https://zeronet.readthedocs.org/en/latest/You should always sign whatever/content.json , not other json or exe ( other files will be sign automatically )You can do it easily via the sidebar (hidden menu) 's This is my site section.\n\nYes, i read it. Can you give me url for page like \"i change files, how i can check it and how troubleshoot common errors\"? =) So, i create copy of my zeronet folder, disable plugins, and \"sign and publish\" from ui. Now ZeroGo download data/data.json with content. It works?\n\n> After SQLite..\n> TODO: Select User. (site login)\n\nYeah, its on plans for 0.0.3. At first all read-only features, then write and then - seeding.",
+				"added": 1481463043
+			},
+			{
+				"comment_id": 11,
+				"body": "> [p2p](#comment_230_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): I can see you blog post.You can see logs in ZeroNet/log folder\n\n> [2016-12-11 13:20:18,763] INFO     Site:1EQFds..tyah Signing data/data.json...\n> [2016-12-11 13:20:18,775] WARNING  Site:1EQFds..tyah data/data.json: No rules\n> [2016-12-11 13:20:18,775] ERROR    Site:1EQFds..tyah Sign failed: Invalid content\n\nLogs is great thing, when it helps. But its say nothing for my. why data.json was empty =(",
+				"added": 1481463502
+			},
+			{
+				"comment_id": 12,
+				"body": "> [p2p](#comment_231_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): when these logs appear? command line sign or UI sign?\n\ncmd. Ui did it successfully, i think. But only after disabling multiuser plugin.",
+				"added": 1481463685
+			},
+			{
+				"comment_id": 13,
+				"body": "> [p2p](#comment_233_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): of course you should disable multiuser plugin before UI sign since multiuser plugin is designed for open public proxy.the right command is ( if you read the doc and nofish's ZeroBlog you'll know ):python.exe zeronet.py siteSign site_address content.json --publishYou should always sign whatever/content.json , not other json or exe ( other files will be signed automatically )\n\nMaybe you can improve this page: http://zeronet.readthedocs.io/en/latest/using_zeronet/create_new_site/?highlight=siteSign ?\n\n > g1tich: boost the default user blog storage (10k --> 100k or 500k) cheers.\n\nIts about ZeroGo? For now limits not implemented at all, and there are only bugs with default implementation.",
+				"added": 1481464410
+			},
+			{
+				"comment_id": 14,
+				"body": "> [bot](#comment_135_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): ZeroGo Blog: data/users/content.json  permission_rules: \"max_size\": 10000\n> ...then re-sign :P\n\nI did some magic operations, but dont know how i can check it.\n\n> why the zeronet.exe is so big? I used to think Go binary is small.\nGo binaries isnt small as we wish. But i can shrink it to ~6mb (without debug info) and pack it (using upx). But when it will use SQLite - its grows again.",
+				"added": 1481465551
+			},
+			{
+				"comment_id": 15,
+				"body": "Nice, now i cant sign my own site, due to invalid private key=/ I used multiuser plugin, because i have only master seed of g1itch (nice, i found typo in my nickname)  account and cant find place where u can save it.\nWrite client easier then use it=)",
+				"added": 1481466797
+			},
+			{
+				"comment_id": 16,
+				"body": "> [p2p](#comment_235_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): you can also easily sign data/users/content.json after u change it (e.g. boost blog's comment limit for commenters ) via UI, just choose data/users/content.json instead of content.json in the hidden menu.\n\nYeah, i found it and it works, but only from ui. I hate working on windows, and its cmd hates me. Will try make it right tomorrow from work.",
+				"added": 1481468362
+			},
+			{
+				"comment_id": 17,
+				"body": "> [p2p](#comment_238_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): seems that u didn't pack zeronet.exe well , it crashes, @lmath reported:\n>  ⇛ http server started on :43111\n> > 1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D\n> \n> Download site: 1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D\n> panic: reflect: call of reflect.Value.Type on zero Value\n> \n> goroutine 41 [running]:\n> panic(0x7f00a0, 0xc0422e0720)\n>         C:/Go/src/runtime/panic.go:500 +0x1af\n> reflect.Value.Type(0x0, 0x0, 0x0, 0x410301, 0xc04202a400)\n>         C:/Go/src/reflect/value.go:1670 +0x22b\n> encoding/gob.(*Encoder).EncodeValue(0xc0422ea1e0, 0x0, 0x0, 0x0, 0x0, 0x0)\n>         C:/Go/src/encoding/gob/encoder.go:230 +0xf0\n> encoding/gob.(*Encoder).Encode(0xc0422ea1e0, 0x0, 0x0, 0x0, 0x0)\n>         C:/Go/src/encoding/gob/encoder.go:175 +0x68\n> github.com/G1itchZero/zeronet-go/utils.GetBytes(0x0, 0x0, 0x866100, 0x5, 0xa7eae0, 0x0, 0xc6)\n>         C:/Users/averr_000/Documents/go/src/github.com/G1itchZero/zeronet-go/utils/utils.go:132 +0x9a\n> github.com/G1itchZero/zeronet-go/peer_manager.(*PeerManager).announceHTTP(0xc04228f440, 0x8762fd, 0x21, 0x7, 0x1, 0x0)\n>         C:/Users/averr_000/Documents/go/src/github.com/G1itchZero/zeronet-go/peer_manager/peer_manager.go:183 +0x532\n> github.com/G1itchZero/zeronet-go/peer_manager.(*PeerManager).announceTracker(0xc04228f440, 0x8762fd, 0x21, 0x0, 0x0, 0x0\n> )\n>         C:/Users/averr_000/Documents/go/src/github.com/G1itchZero/zeronet-go/peer_manager/peer_manager.go:321 +0x177\n> github.com/G1itchZero/zeronet-go/peer_manager.(*PeerManager).Announce.func1(0xc04228f440, 0x8762fd, 0x21)\n>         C:/Users/averr_000/Documents/go/src/github.com/G1itchZero/zeronet-go/peer_manager/peer_manager.go:94 +0x61\n> created by github.com/G1itchZero/zeronet-go/peer_manager.(*PeerManager).Announce\n>         C:/Users/averr_000/Documents/go/src/github.com/G1itchZero/zeronet-go/peer_manager/peer_manager.go:114 +0xda\n\nSomething unexpected in tracker response. Trying to reproduce...",
+				"added": 1481470453
+			},
+			{
+				"comment_id": 18,
+				"body": "> [p2p](#comment_239_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): why the log says averr_000? is it your name? why the log shows that name?\n\nG1itch - is a fake nickname, yes, but \"averr_000\" - its name which  windows 10 generate for my user folder. I dont know how windows choose it.",
+				"added": 1481471168
+			},
+			{
+				"comment_id": 19,
+				"body": "> [p2p](#comment_240_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): but why the exact path including your system name appears in the log? is it normal? did you pack it well?\n\n1. Update binary in blog post with possibly fixed crash\n2. Now i upload packed version, but im not sure that i used all available keys for cutting out debug info",
+				"added": 1481471436
+			},
+			{
+				"comment_id": 20,
+				"body": "Linux version uploaded. Its stripped and packed, so its ~2.5mb.",
+				"added": 1481550800
+			},
+			{
+				"comment_id": 21,
+				"body": "> [p2p](#comment_243_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): not found.  the right link is http://127.0.0.1:43110/g1itch.bit/ZeroGo-lin-0.0.1.run\n\nthx!!",
+				"added": 1481557108
+			},
+			{
+				"comment_id": 22,
+				"body": "> [p2p](#comment_245_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): but the exe is gone, why?\n\nmaybe, i signed site from machine without enabled optional files for my own site...",
+				"added": 1481559445
+			},
+			{
+				"comment_id": 23,
+				"body": "So many ways to shoot my leg. I hope exe returns.",
+				"added": 1481559577
+			}
+		]
+	},
+	"comment_vote": {
+		"19_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw": 1,
+		"243_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1
+	}
+}

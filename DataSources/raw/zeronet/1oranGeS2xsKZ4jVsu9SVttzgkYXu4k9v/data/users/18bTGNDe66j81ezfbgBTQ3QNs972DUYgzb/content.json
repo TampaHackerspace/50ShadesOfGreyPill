@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HMkv6ApRIiy0AYSJeCvdDpW7Zqk7EKQ3eUO7sqaBUozF+oVwn/FLAe0BIiiQoQzyMi+9ykR8l4TDOM0OBaSpMtM=",
+ "cert_user_id": "neurocase@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d697bb14d8bb33e1dfc093a42f3d2e2a8552feb213e715298d8e8bcd45adcba3",
+   "size": 340
+  }
+ },
+ "inner_path": "data/users/18bTGNDe66j81ezfbgBTQ3QNs972DUYgzb/content.json",
+ "modified": 1487141811,
+ "signs": {
+  "18bTGNDe66j81ezfbgBTQ3QNs972DUYgzb": "G+si62G/HJuFv8Uzw+GUbTumi+gQ7ro1qmN+6fSomW261uTX242g2Fuio1b3lOjNz3Fml+9PkJDsssyr2BZRAuM="
+ }
+}

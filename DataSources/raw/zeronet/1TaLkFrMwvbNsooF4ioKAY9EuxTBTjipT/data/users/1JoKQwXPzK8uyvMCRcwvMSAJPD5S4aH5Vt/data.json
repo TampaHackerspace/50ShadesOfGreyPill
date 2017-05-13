@@ -1,0 +1,177 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Where is the private key when I cloned a ZeroBlog?",
+			"body": "I found the documentation on how to create a new site. An alternative recommendation often heard is to simply clone a ZeroBlog, which I've done. I can update my ZeroBlog from the site itself, ok, but how would I change for example a CSS? Where can I find the private key to sign and publish?",
+			"added": 1457802575
+		},
+		{
+			"topic_id": 2,
+			"title": "Low frequency blog with good news from the science and technology world",
+			"body": "Just a small announcement, that I am infrequently blogging about good news.\n\nhttp://127.0.0.1:43110/1CdhQqDKpVkT8mRBGztYRpfbtBwke5BAir/",
+			"added": 1481533911
+		},
+		{
+			"topic_id": 3,
+			"title": "How dows ZeroNet compare to Beaker browser?",
+			"body": "I just stumbled over [Beaker](https://beakerbrowser.com/) and I have the impression that it is very similar in its functionality to ZeroNet albeit with a less steep learning curve.\n\nWhat are the similarities and differences between the two?",
+			"added": 1482297821
+		}
+	],
+	"topic_vote": {
+		"1_1LoYccWDeUavLo4g1zTbkqPn3EdBcquSYn": 1,
+		"8_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"1_19LkvdTE3CmnUApuSwY8KGbm7n7sWCNEPC": 1,
+		"1_1JoKQwXPzK8uyvMCRcwvMSAJPD5S4aH5Vt": 1,
+		"10_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx": 1,
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	},
+	"next_comment_id": 21,
+	"comment": {
+		"1_1EUyJtat7mbu5wMcR6nrJTPBBRons1mtMA": [
+			{
+				"comment_id": 1,
+				"body": "A couple of months ago. Already liked the UI back then. Very well executed! kudos!\nThought about setting up a blog back then, but did not due to lack of time.\nMost likely going to stay on Zeronet if the community and thus the content develops well.",
+				"added": 1456987001
+			}
+		],
+		"1_1H1MoVnTYgxbiBp3B7hCequmDfdwKVs4f2": [
+			{
+				"comment_id": 2,
+				"body": "Hm ok, but Y?",
+				"added": 1457507745
+			}
+		],
+		"1_15P5kZhBwmwiuBmSUBSkBsT2DLEUYvn24u": [
+			{
+				"comment_id": 3,
+				"body": "Yeah, I read it. Good book.\n\nMaybe ZeroNet can be included in the freedombox project.\n\nOr a Distro for RasPis similar to Tails. Tor and ZeroNet. Actually a set of Ansible rules for installing Tor and ZeroNet on top of Raspbian Lite should suffice.",
+				"added": 1457512426
+			}
+		],
+		"1_1LoYccWDeUavLo4g1zTbkqPn3EdBcquSYn": [
+			{
+				"comment_id": 4,
+				"body": "> [akademic](#comment_2_1AiNe41vBkiiNKYomPUcxQLV4prbq1gi7D): Here my nginx configuration:\n\nAh, cool. This should find its way into the ZeroNet documentation!",
+				"added": 1457526655
+			},
+			{
+				"comment_id": 6,
+				"body": "@angristan: It makes sense if I'd like my RasPi@home to act as a constant Zernoet Proxy so that I don't have to run it on all my home machines.    your use case != my use case",
+				"added": 1457532112
+			}
+		],
+		"1_1NzjwWNcVjsX1ndBgkgC1EM5EUzMACGm8L": [
+			{
+				"comment_id": 5,
+				"body": "Streaming works fine.",
+				"added": 1457527021
+			}
+		],
+		"1_1LJpFceaB7CRFYaW359tx3tsrZW9ptkQcU": [
+			{
+				"comment_id": 7,
+				"body": "This feels like eternal september all over again.",
+				"added": 1457532184
+			}
+		],
+		"8_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": [
+			{
+				"comment_id": 8,
+				"body": "Yeah, that would be nice indeed.",
+				"added": 1457532254
+			}
+		],
+		"10_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 9,
+				"body": "Emacs integration. \nBut I bet once I enter \"zeronet.el\" into teh googles, someone with a flux capacitor will have had it coded yesterday.",
+				"added": 1457532529
+			}
+		],
+		"2_1DFDjUGJdSp1kMuFq1AtNS9ZWmkVtbp947": [
+			{
+				"comment_id": 10,
+				"body": "Is it possible to run your own Piwik instance over zeronet?",
+				"added": 1457587988
+			},
+			{
+				"comment_id": 11,
+				"body": "> or to simply block anything that doesn't come from ZeroNet.\n\nA ZeroNet-Only Plugin for our favourite browsers would sure be nice.\nCould that be achieved by some Greasemonkey Script?",
+				"added": 1457595104
+			},
+			{
+				"comment_id": 12,
+				"body": "Thanks vlad20012!",
+				"added": 1457640853
+			}
+		],
+		"1_1JoKQwXPzK8uyvMCRcwvMSAJPD5S4aH5Vt": [
+			{
+				"comment_id": 13,
+				"body": "> [nofish](#comment_492_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The private key is in your data/users.json, look for the site's address and there will be a privatekey entry, but you don't need the privatekey to modify your css: Just edit the file then sign/publish using the sidebar.\n\nThanks!",
+				"added": 1457810144
+			}
+		],
+		"15_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": [
+			{
+				"comment_id": 14,
+				"body": "Please set up your own ZeroTalk site. kthxbye.",
+				"added": 1458542521
+			}
+		],
+		"1_163rm8X1WReQzp1uAZjbrCHkF7En1VTXbU": [
+			{
+				"comment_id": 15,
+				"body": "Aua.",
+				"added": 1458600022
+			}
+		],
+		"1_1JtxPipMFzvBTQ8fwSeupUxfiVMbutBfhG": [
+			{
+				"comment_id": 16,
+				"body": "Oh the stupidity.",
+				"added": 1473743958
+			}
+		],
+		"2_1GEfdZ7AyiBeEj8341JU5yZrCWCCczGDg5": [
+			{
+				"comment_id": 17,
+				"body": "Check [ZeroBlog](http://127.0.0.1:43110/Blog.ZeroNetwork.bit/) which is the blog on ZeroNet from its creator(s).",
+				"added": 1482221757
+			}
+		],
+		"3_1JoKQwXPzK8uyvMCRcwvMSAJPD5S4aH5Vt": [
+			{
+				"comment_id": 18,
+				"body": "@weakish, thanks for clarifying!\n\nWondering how different the dat:// Protocol is from the ZeroNet protocol. Is there any chance for the two to be merged?",
+				"added": 1482484671
+			}
+		],
+		"2_1Gtj7AdXhzMFUVVvFm2ZGCbTFdgNwdtuMn": [
+			{
+				"comment_id": 19,
+				"body": "I don't see live chat as a main use case for ZeroNet. Too little integration with other networks (IRC, matrix, signal) and no good integration with mobile.\n\nMy hope is that ZeroNet will become a regular platform for personal websites. Right now usability is not quite there yet for the technologically challenged, but it might get there eventually.",
+				"added": 1483874519
+			}
+		],
+		"1_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": [
+			{
+				"comment_id": 20,
+				"body": "Please create an Ansible script for automated setup of the Pi and host at Github or Gitlab. This way others can easily replicate this setup. Possible starting point (sans the Arduino stuff): https://gitlab.com/urbanisten/ansible-pi-arduino",
+				"added": 1485495269
+			}
+		]
+	},
+	"comment_vote": {
+		"2_1AiNe41vBkiiNKYomPUcxQLV4prbq1gi7D": 1,
+		"10_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"26_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": 1,
+		"5_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": 1,
+		"492_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"28_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"1_14n9DwjAy8KGybHfQcm8E6BEJHWm113LtQ": 1
+	}
+}

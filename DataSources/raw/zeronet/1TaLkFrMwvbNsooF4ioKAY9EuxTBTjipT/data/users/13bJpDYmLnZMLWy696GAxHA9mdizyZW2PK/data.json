@@ -1,0 +1,91 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Crypto-Anarchist Federation channel on #BitMessage.",
+			"body": "Hi.\n\nThere is a new DML (Decentralized Mailing List) channel on #BitMessage dedicated to :\n\nChan name :       Crypto-Anarchist Federation\n\nChan address :   BM-2cWdaAUTrGZ21RzCpsReCk8n86ghu2oY3v\n\n- Crypto-Anarchism and Crypto-Anarchist community worldwide, to share infos, actions and get organized better.\n- Cyber-Security tips.\n- Hacking Tools.\n- Security Breaches papers & Workarounds.\n- Crypto Analysis papers.\n- New Crypto-Anarchist tools & projects.\n- Crypto-Currency news, tools, & projects.",
+			"added": 1488582581
+		},
+		{
+			"topic_id": 2,
+			"title": "Wikileaks release Year 0 (Vault7) ! Enjoy !",
+			"body": "Enjoy the truth.\n\nAnd watch how these bastards capitalists terrorists & mafia FEDS plug sex toyz into every citizen of the world's ass.\n\nhttps://file.wikileaks.org/torrent/WikiLeaks-Year-Zero-2017-v1.7z.torrent\n\nPassword : password = SplinterItIntoAThousandPiecesAndScatterItIntoTheWinds",
+			"added": 1488901936
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 12,
+	"comment": {
+		"1_14DujeMmUQr14gCcg6ZUVcdU1DA5GphYvG": [
+			{
+				"comment_id": 1,
+				"body": "The truth is that nobody can answer this question the way you are doing it. Most technologies involved in the cyber space are tainted, if not to say, all of them. To answer this interesting question, there is only on scientific way of doing it : One must enumerate the whole technological stack involved in ZeroNet, layer by layer, module by module, protocol by protocol, standard by standard, and then start drawing this stack, that will mostly look like a tree, and then analyze the taint of each of its elements. The taint of the root elements being the most important one, because all the others are dependent of it.\n\nOnce the graph is built, once the \"taint\" of each of its elements has been determined, it is possible to start having a conclusion about the average taint of the stack. \n\nWhat I mean here by the so called \"taint\" being the agencies or the nations that could take a strategical advantage of the specific implementation of each element.\n\nGeopolitics is everywhere in the current technologies we use daily. Not a single thing that has been implemented and became a \"standard\" has no geopolitical incidence. The \"Standards\" wars are geopolitics, and this is not new. European countries, Russia, China and US have been fighting for years on the \"standards\". Tightly coupled with patents wars, the standards war is indeed tainting all technologies.\n\nCrypto-Anarchists like me have dedicated an important part their lives and time to analyze those standards, that in the end define all the architectures, at all the existing technological layers, that compose all our systems. Our work is mainly focused in analyzing, in those standards, what will \"create\" cyber powers that can be exploited \"privately\" by some nations in order to take a strategical advantage on other nations when using such standards. We, Crypto-Anarchists, demonstrate rather easily that it is possible to re-engineer all technological layer architectures in a way that do not create any form of cyber powers that can be further exploited for selfish interests of a few nations to cyber dominate the rest of the world.\n\nI have for example analyzed TOR and TAILS, but my analysis did not started and ended to analyzing TOR source code and protocol, it took in consideration the whole technological stack, including the integrated circuits and their architectures we use to build current computers, the architectures and standards that are used to create motherboards with those integrated circuits, then I analyzed the architecture of the operating systems running on our computers, the languages that were used to program those operating systems (Mainly Assembly language and C, C++), and then analyzed TOR source code, and the protocols like TCP/IP, and others like SSL it is using to implement TOR.\n\nThe conclusions of this study that took me more than 3 years lead to the conclusion that only the NSA has the ability to break the anonymity of 100% of TOR sessions. But what was rather funny, is that the way they do it is not directly dependent of TOR itself, but rather lies in surrounding elements of TOR like FireFox, and other stuff related to the integrated circuits that are composing our computers. In the specific case of the geopolitical study of TOR, I concluded that TOR by itself was the best IP anonymizing solution available, but that the elements that made of TOR a strategical weapon for the NSA were not directly in TOR itself, but in other components on which TOR relies on. TOR being what I called a kind of diversion, driving most security researcher attention only on TOR code, while the most important things were lying in other layers.\n\nThere is still a specific thing that makes TOR a strategical weapon that can, for the moment, be only exploited by the NSA, and it lies in TOR network architecture, in the fact that it is fully decentralized. It's this characteristic that allows me to conclude that only the NSA can exploit the anonymity breach I discovered, but the \"breach\" themselves are not located into TOR code itself, but in FireFox, the standards a webbrowser implements, like HTML, but also the underlying operating systems architectures, and in the end, the motherboard architectures, the languages used, and mostly, the characteristics and architecture of the integrated circuits used in our computers.\n\nThe estimation of the taint of ZeroNet would need you guys to do the same work as I did for TOR, meaning that you could reasonably conclude to a taint only if you analyze the whole technological stacks involved in ZeroNet.\n\nThe good news is that most of the work I did to analyze TOR could be reused to analyze the taint of ZeroNet.\n\nKind regards,\n\nStman,\n\nElectronician, Network, Telecom, and embedded system engineer,\nCrypto-Anarchist Hacker.\nSpecialized in microprocessor architectures and microprocessor based systems hardware architectures, and low level programming (Assembly language and C) expert.",
+				"added": 1482838853
+			},
+			{
+				"comment_id": 2,
+				"body": "> [planespherev2](#comment_127_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj): Excellent post. You are right in believing in crypto anarchy. This will free us at last. Will take decades.\n> Yes, Tor might be anonymous, but we all have NSA (or US airforce/navy which are more powerful than the NSA) backdoors in our bios motherboard.\n> I still use clients like freenet or Zeronet because i live in France were the local intelligence agencies (DGSI) might not be able to track it's citizens if they use such clients. They collaborate with the NSA but they don't have access to all the informations i guess (not in the interest of the NSA to share everything... ).\n\nHi there ...\n\nAnyway, ZeroNet was not designed to be anonymous, but to be uncensurable.\nUsing ZeroNet with TOR is very efficient in terms of anonymity, much more than using TOR for accessing standard websites or \"*.onion\" websites.\n\nAnd to finish my statement about TOR, we found many unpatchable by software anonymity breaches, meaning that those exploits, those anonymity breach cannot be corrected by TOR team. But however, as we perfectly understood how they work (We discovered them), we found two kinds of workarounds that bypass them and that can restore a stronger anonymity with TOR. If some are interested about the security breaches we found, and the workarounds for them, don't hesitate to ask me. By the way, the definitive and perfect solution to the anonymity breach we found with TOR would require computers made out of 100% Free Integrated Circuits (FPGA based Free Integrated Circuits).... \n\nI will conclude, about TOR, by saying this :\n\n\"Hiding IP adresses perfectly, which is what TOR does, represents only 10% of what has to be done to be truly anonymous in the cyber space\".\n\nThere are many other identification technics (Fingerprinting technics) that are not based on IP Adresses, and that are much more accurate than IP Adresses to identify users and break the anonymity.\n\nThose who made hackers and the hacktivist scene believe (I used the term Believe, voluntarily), that being anonymous on the internet was a matter of hiding IP adresses are liars by omission.\n\nHiding perfectly your IP adress is necessary to be anonymous, but it's not enough.",
+				"added": 1482871006
+			},
+			{
+				"comment_id": 3,
+				"body": "> [border0464fred](#comment_40_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): When Someone sign a post as \"expert\" my eyes roll\n\nAre you sceptical I discovered an anonymity breach that allow NSA to break the anonymity of TOR, VPN, I2P \"finger in ne noze\" , and that such anonymity breach cannot be patched by software ?\n\nWould like me to develop here what I found ? Which is a research topic I have been working on for more than 3 years ?",
+				"added": 1483203420
+			},
+			{
+				"comment_id": 4,
+				"body": "> [k9](#comment_1_1AWSA7oG2qrhWYgeSiJtDHCwc2KvyR7ijs): interesting read, but  you make it sound like you know the precise capability of the NSA and other few letter agencies, which seems odd? also since we might assume that a somewhat functional quantum-computer exist pretty much every encryption is broken.lastly which is my question. how do you define perfect anonymity? there seems to be a lot of ways this can be some kind of achived? wickr, signal, bitmessage etc. all has its pros and con thinking about anonymity\n\nI have participated in France to a group called \"NSA Observer\" where our task was to classify / order / analyse and tag all the documents we could find after Snowden disclosure. Thanks to my contribution to the group, I have now a good overall idea of the tools set NSA has created.\n\nToday, I can ensure you something : Most of the security breaches that allow remote system infections are the consequence of (voluntary) misconceptions in microprocessors architectures and all the ecosystem (standards) around them.\n\nDeveloping, using and spreading our own Free Integrated Circuits, with the necessary architectures corrections/changes/reengineering and using them to build our own computers would cut off most of the unfair cyber powers all the agencies of the world are gaining against their people.\n\nFor example :\n\nStack Overflow, Buffer Overflow, Integer OVerflow, and their terrible exploitation by R.O.P. (Return Oriented Programming), or the recently discovered \"caches attacks\" advertised during a conference this year at CCC ( https://twitter.com/stmanfr/status/813835577946763264 ) can easily be corrected if we were building our own Free FPGA based Free Integrated Circuits.\n\nRegards,",
+				"added": 1483204138
+			}
+		],
+		"1_13bJpDYmLnZMLWy696GAxHA9mdizyZW2PK": [
+			{
+				"comment_id": 5,
+				"body": "You're welcome :-)\n\n> [jtl3525](#comment_10_1GXcdmK9YpMdC5co7w3Mi8J7o7HjsNTKTz): I figured out how to get to that channel :) thanks.",
+				"added": 1488640538
+			},
+			{
+				"comment_id": 6,
+				"body": "See you there, and post under the chan's own name to ensure more anonymity, and use TOR for more anonymity.",
+				"added": 1488673597
+			}
+		],
+		"1_1Matyuy7Bh8MLppq55cbyWaTjbC3rGFry7": [
+			{
+				"comment_id": 7,
+				"body": "There is a new DML (Decentralized Mailing List) channel on #BitMessage dedicated to :\nChan name : Crypto-Anarchist Federation\nChan address : BM-2cWdaAUTrGZ21RzCpsReCk8n86ghu2oY3v\nCrypto-Anarchism and Crypto-Anarchist community worldwide, to share infos, actions and get organized better.\nCyber-Security tips.\nHacking Tools.\nSecurity Breaches papers & Workarounds.\nCrypto Analysis papers.\nNew Crypto-Anarchist tools & projects.\nCrypto-Currency news, tools, & projects.",
+				"added": 1488889354
+			}
+		],
+		"3_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 8,
+				"body": "HTTP / HTTPS are evil centralized protocols, viciously pushing the web toward centralization",
+				"added": 1488892749
+			}
+		],
+		"2_13bJpDYmLnZMLWy696GAxHA9mdizyZW2PK": [
+			{
+				"comment_id": 9,
+				"body": "> [mi6agent](#comment_8_14YdhMiNAG8LDichYEQvyZZboGL8bSeZEu): Why is that? Do you have something to hide?\n\nSpying agencies have much more things to hide than the vast majority people.\nSpying agencies have merged with multinationals and mafias.\n\nAnd the agenda is clear : Fascist mafia neoliberal dictatorial regimes on the whole planet.\n\nBig brothers servs wars, corruption and crime. Point.",
+				"added": 1488929766
+			}
+		],
+		"1_17To4zKQntCiVqSZqHK3mwEpbLWVCtLHEe": [
+			{
+				"comment_id": 10,
+				"body": "Very interesting question. I hope a clever solution, based on a P2P protocol, fully decentralized, will be implemented.",
+				"added": 1489003911
+			}
+		],
+		"28_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 11,
+				"body": "Congratulations to those crypto-anarchist developers implementing decentralized websites, and promoting decentralization. Those two new website have been advertized on BitMessage channels.",
+				"added": 1489241512
+			}
+		]
+	},
+	"comment_vote": {}
+}

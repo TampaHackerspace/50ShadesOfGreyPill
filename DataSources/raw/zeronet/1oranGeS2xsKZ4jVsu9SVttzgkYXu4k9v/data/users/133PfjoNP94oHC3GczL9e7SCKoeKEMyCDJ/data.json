@@ -1,0 +1,146 @@
+{
+	"next_post_id": 13,
+	"next_comment_id": 11,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "G1tich",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Not so random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1480348939,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1480539815,
+			"body": "Yeah! ZeroNet \"client\" written on Golang.\nVery basic, just proof-of-concept, only http, and only zite-downloader, but works.\n\nhttps://bitbucket.org/g1itch_zero/zeronet-go/src (cross-platform, no docs, no optimization)",
+			"date_added": 1480539813
+		},
+		{
+			"post_id": 1480628164,
+			"body": "ZeroNet Golang first steps: Show UI-Wrapper and 0Hello site.\n",
+			"date_added": 1480628161,
+			"meta": "{\"img\":\"900,473,334344eeeeeffff233cccddd,01233333220124444444012444444401244444445067777777\"}"
+		},
+		{
+			"post_id": 1480710871,
+			"body": "First goal reached. Golang version can show 0Hello!",
+			"date_added": 1480710867,
+			"meta": "{\"img\":\"900,455,233eeefff435dcfacbc9cd9bbac9ac32488ac79d78cbcbce,0012212221031221222203214412220355678912A3BBCDEF22\"}"
+		},
+		{
+			"post_id": 1480778975,
+			"body": "Golang Implementation:\nNo visible changes, but many bugs fixed. For now its use only one modified file: wrapper.html, because i use built-in Golang templates.",
+			"date_added": 1480778970,
+			"meta": "{\"img\":\"900,470,334223344eeeced445ffffee547,01233334330056776666005666666600866666660086666666\"}"
+		},
+		{
+			"post_id": 1480881012,
+			"body": "Golang client now can open ZeroName. And other simple sites. Also it implements loadingscreen and siteDelete command.",
+			"date_added": 1480881006,
+			"meta": "{\"img\":\"900,325,844344445345566667455,0112231145033662332303366233230332663323\"}"
+		},
+		{
+			"post_id": 1481395313,
+			"body": "So, now ZeroGo can download 1UPDatE at first run (and pretty fast on my machine) and serve static from this folder.\nCurrent version still very buggy and lack of functions (dbQuery, file update and others, including seeding mode). But, i think, i can release it as version 0.0.1-alpha =))) Stay tuned.",
+			"date_added": 1481395306
+		},
+		{
+			"post_id": 1481459499,
+			"body": "https://github.com/G1itchZero/ZeroGo/releases\nand (im not sure about this) http://127.0.0.1:43110/g1itch.bit\n\nP.S. linux version coming soon (tomorrow, maybe)",
+			"date_added": 1481459491
+		},
+		{
+			"post_id": 1481550852,
+			"body": "Linux ZeroGo 0.0.1 version uploaded. Its stripped and packed, so its ~2.5mb.\nhttp://127.0.0.1:43110/1EQFdsTfAKQQhWoSmsnWDKZhBr8HwVtyah/?Post:2:Release+0.0.1",
+			"date_added": 1481550843
+		},
+		{
+			"post_id": 1481565743,
+			"body": "Add *.bit domains support to ZeroGo. First step to open my own blog=)",
+			"date_added": 1481565733
+		},
+		{
+			"post_id": 1481660433,
+			"body": "Spent 2 hours for compiling sqlite3-go for windows x86_64. I hate Windows!",
+			"date_added": 1481660422
+		},
+		{
+			"post_id": 1483277826,
+			"body": "New Year with ZeroGo =) First dbQuery answers.\n",
+			"date_added": 1483277814,
+			"meta": "{\"img\":\"900,291,fffeeeefe,011000002001111000000000000000\"}"
+		}
+	],
+	"post_like": {
+		"178c9u6Fuxz7bmteRtz5hSHfvRpNuG7HBz_1480614115": 1480615696,
+		"1qA5PLyTTNtJjaK1zRz1fnyQMgiDpv5td_1480756107": 1480779499,
+		"13t4MG77faypJBpk5CdKjDMqkyLoFF3P5b_1481202129": 1481226783
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Great Sick: https://bitbucket.org/g1itch_zero/zeronet-go/src\nBut its very pre-alpha. ",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1480778975",
+			"date_added": 1480780257
+		},
+		{
+			"comment_id": 3,
+			"body": "@Great Sick: github: https://github.com/G1itchZero/zeronet-go ",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1480778975",
+			"date_added": 1480781531
+		},
+		{
+			"comment_id": 4,
+			"body": "Unfortunately, it has no peers on http trackers, so i cant use it in my golang version at this moment. So, next step - implement udp trackers announce.",
+			"post_uri": "17pnj2wEu5qFeRtQErmLVtCBvYuocGum82_1480880155",
+			"date_added": 1480885678
+		},
+		{
+			"comment_id": 5,
+			"body": "@Sirenyc: yes, they use different ports (and you can configure it)",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1481459499",
+			"date_added": 1481472316
+		},
+		{
+			"comment_id": 6,
+			"body": "@Bwoi: I cant say that ZeroGo has any advantage over ZeroNet. I have >5 years experience with python, but now i prefer golang. In perspective it can be lightweight and faster alternative to official client. Or not. Now i develop it for fan and p2p skills, but i hope, it can attract some developers, who dont like langs like python.",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1481459499",
+			"date_added": 1481487843
+		},
+		{
+			"comment_id": 7,
+			"body": "@Tolstoevsky: yeah, for now its only \"oh\".",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1481565743",
+			"date_added": 1481569530
+		},
+		{
+			"comment_id": 8,
+			"body": "@Emeraude: thx! I dont think that zerogo replace zeronet, but two options always better than one=)",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1481459499",
+			"date_added": 1481741093
+		},
+		{
+			"comment_id": 9,
+			"body": "@Durand: its not errors. Its log from builtin websocket lib.",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1483277826",
+			"date_added": 1483429584
+		},
+		{
+			"comment_id": 10,
+			"body": "@Durand: Its just info about browser request answers. In last commits i suppressed this messages. ZeroGo still not suitable for everyday use and have a lot of bugs.",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1483277826",
+			"date_added": 1483557247
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17pnj2wEu5qFeRtQErmLVtCBvYuocGum82",
+			"user_name": "Xeers2",
+			"date_added": 1481395397
+		}
+	]
+}

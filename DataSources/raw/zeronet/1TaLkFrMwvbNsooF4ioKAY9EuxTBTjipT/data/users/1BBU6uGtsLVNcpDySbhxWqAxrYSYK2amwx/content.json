@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HHEw90FzUOHzIcB06PP0EqsF4aCN2QrzXk6BCloASxaNY6ibSKDUVe8+dBdgtCh4hYiKT99wwuW7NlUPlbBD4c8=",
+ "cert_user_id": "bloodyqueen@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "740d57fe2fa050d90e1db6d70a4c4b5698a9b1ea3cdae239c416ff7103e212ee",
+   "size": 3247
+  }
+ },
+ "inner_path": "data/users/1BBU6uGtsLVNcpDySbhxWqAxrYSYK2amwx/content.json",
+ "modified": 1482498690.754639,
+ "signs": {
+  "1BBU6uGtsLVNcpDySbhxWqAxrYSYK2amwx": "HGD6e2FON8u1zvqkzLm1QKPCqMiW3i3kUkGu5OlpkDQ01qYCfcgLihfsOwfRuxxwh30mE2CTrnbZ/F/7s4h1ZOA="
+ }
+}

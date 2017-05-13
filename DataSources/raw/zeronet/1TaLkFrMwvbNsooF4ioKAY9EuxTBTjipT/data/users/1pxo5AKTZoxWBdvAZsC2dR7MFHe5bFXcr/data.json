@@ -1,0 +1,48 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "[Q] How do you backup user/key details and configurations on ZeroNET client (linux)",
+			"body": "Hi Guys,  \n\nI have just installed the zeronet linux client as well that I have created a new identity which is now tied to zeroid as my hash.  I would like to back all my key/user info so that if my system breaks, I can restore it as well as set it up on another system at a later date.  Which I understand that you can do.  \n\nNow from what I understand you just need to backup ~/username/data/user.json which contains all the key details.  Now what I don't understand is, when you first login, it tells you to write down your masterseed.  Now what I don't understand is, this masterseed which seems to be private, do you really only need to backup this? or do you still need the user.json file as well?\n\nPlease ignore my ignorance, being a newbie to zeronet, its a step learning curve.\n\nAlso is there anything else which needs backing up?  do you suggest backing up the whole zeronet directory? even tho I guess it can get quite large?\n\nThanks in advance.\n\nKind Regards,\n\nMajestic",
+			"added": 1472308563
+		},
+		{
+			"topic_id": 2,
+			"title": "[Q] ZeroNET enable feature for proxy/multisite delete + other questions",
+			"body": "Hi Guys,\n\nSorry to bother you all again but I have been trying to rack my brain around a few things but to no such luck.  Even traditional googling hasn't seem to of found the answers I wanted, so I thought I would ask here again.  I trust thats alright.\n\nAnyway, the problem(s) are as follows.  First I am running zeronet client as a proxy due to I have many VPS's dotted around the country, it made more sense rather then installing on macbook, pc etc.  Now everything is all working perfectly but I am trying to figure out how to manage this.\n\nFor example, theres a few sites that I was visiting and I would now like them to disappear from the home page (think you call it hello page).   Now from what I understand, if its ran without the multiuser plugin, then you can use the three dots and select delete then it will remove itself from the menu as well as the files, however if you do this when you have multiuser plugin enabled, it just displays a message saying that this feature is disabled.\n\nI have tried to remove the hash directory within data directory but that didn't seem to make any difference.  \n\nIs there away to enable say a trusted user to be able to use this feature i.e. superuser/management because right now, I can see how quickly it could get overran by many sites that you visit but not being able to remove them.\n\nI have checked all the documents that I can find but alais I can't find anything about this, only a few github notes about if I read it correctly about a feature doing this which was added but no way on how to user it.  \n\nI suspect maybe in the zeronet.conf file has some variable which you can set but alais I cant seem to find what that is.  Does anyone know how I can enable a user to be able to delete a site?\n\nNext, I noticed that even on here the space is limited to about 40K same for mail, how do you go about increasing that as I can see that running out quite quick.  Or is it a server limitation currently with zeronet?  is there away we can donate space or something?\n\nLastly the final question which is really simple, I found that even tho my posting on here has return spacing (paragraphs etc) and looks correctly when I type a message here, when I submit, it seems to remove them.  I guess theres like some BB type code which I need for a return line.  So my question is, what formatting syntax does this TALK use?  is there a manual/url somewhere where I can read up as I hate looking like a noob, even tho I am one, if you catch my drift.\n\nAnyway, thank you for taking the time to read and hopefully can answer one of these above questions.    \n\nBest Regards,\n\nMaj",
+			"added": 1472325383
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 5,
+	"comment": {
+		"1_1pxo5AKTZoxWBdvAZsC2dR7MFHe5bFXcr": [
+			{
+				"comment_id": 1,
+				"body": "Hi Nofish,\n\nThank you very much.  I am currently running it via the multiuser plugin as i've setup/installed it on a VPS in one of the Data centres that I have access to, so I just need the seed, thank you kindly.",
+				"added": 1472309380
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 2,
+				"body": "This is a test..\n[b]test[/b]\n\n\ntest more..",
+				"added": 1472325520
+			},
+			{
+				"comment_id": 4,
+				"body": "test..",
+				"added": 1477745576
+			}
+		],
+		"2_1pxo5AKTZoxWBdvAZsC2dR7MFHe5bFXcr": [
+			{
+				"comment_id": 3,
+				"body": "Hi Guys,\n\nQuick update, managed to figure away to remove and do other things which proxy mode shouldn't but i'm unsure if this is the correct way.\n\nWhat ive found is starting with this extra flag multiuser_local allows me to remove sites at ease.  If theres a better way to do this (the correct way), please let me know.  Thanks.\n\nMultiuser plugin:\n  --multiuser_local     Enable unsafe Ui functions and write users to disk\n                        (default: False)",
+				"added": 1472328737
+			}
+		]
+	},
+	"comment_vote": {}
+}

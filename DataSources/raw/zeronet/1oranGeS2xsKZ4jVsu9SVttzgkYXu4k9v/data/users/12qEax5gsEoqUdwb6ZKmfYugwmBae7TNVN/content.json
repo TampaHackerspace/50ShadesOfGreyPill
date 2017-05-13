@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HBMlPQdSDaf7OMvNHsyr+r65qXE0b9B3iCi4cR2t7CSz/eox4wuS+YdZr5FKtk+MJ+csxRIM8/2G9TUhQRZf8gI=",
+ "cert_user_id": "beez@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "6a93385948a497d2e5e210fd44f081313615b4595ffa09483c63a4d604a6545c",
+   "size": 1325
+  },
+  "data.json": {
+   "sha512": "4de5a093d81a1c076aa51ddd5ae39a9e24f7f2a2da7be6fd82a3b5f539fc8c86",
+   "size": 7510
+  }
+ },
+ "files_optional": {
+  "1480419384.jpg": {
+   "sha512": "4b7638ebcfca167b1639c61aa1a366d1cde7e63f8742993ac1cbfddcd9b7887f",
+   "size": 43184
+  }
+ },
+ "inner_path": "data/users/12qEax5gsEoqUdwb6ZKmfYugwmBae7TNVN/content.json",
+ "modified": 1480502134.403977,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "12qEax5gsEoqUdwb6ZKmfYugwmBae7TNVN": "G6+g/Aupam19HAKzmbNFO/o1JPIGJWBCWfhNuNsCyh8C3VsD0GGpOuZvoFfCFfkoH8d3QbylybuxjYIuy+Av33M="
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "Gz11NKA/zi8WilzMG94ZwIWtkrBAalHlwePqG9IfJtiW7uKQHGU2exR8/0j0FNgexo0d5xSv4Xmo/EmhNjRKk/A=",
+ "cert_user_id": "thekolomoets@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "0928638eee99e6e37b741d2bb9423b1cfea1b61e91ab4a430dbde63949aa19ad",
+   "size": 1543
+  },
+  "data.json": {
+   "sha512": "c52065a77b37b58910354be6b1b4fb77b6f47a7b3b331c79b40f18f7e1a9987c",
+   "size": 9370
+  }
+ },
+ "inner_path": "data/users/1quZypjcRH7SQtX1cCfqTxHWakVEPww3Z/content.json",
+ "modified": 1487777174,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1quZypjcRH7SQtX1cCfqTxHWakVEPww3Z": "G3nWYU/AhxiXd5d8N3HduqLXJnaV1mIcUupG8SKKDhRVuTyFD5zxcEB1uON3Y8Ifpg7QSLe6pXyVpd6SlST/quE="
+ }
+}

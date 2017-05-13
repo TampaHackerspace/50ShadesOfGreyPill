@@ -1,0 +1,21 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"3_1JWy7zt6aDhpnDQ7fmsKUqNu8LzeoT1VRa": 1
+	},
+	"next_comment_id": 2,
+	"comment": {
+		"1_1JQmAwSmx4VFEbYchZGAwqC9QppdKBENsb": [
+			{
+				"comment_id": 1,
+				"body": "It's such a pain to start zeronet when using grsec/pax kernel. With the right setup, it's gonna work. Nahh I don't need any zeronet's AUR package for my arch. It's easily done through git clone and put it on $HOME.",
+				"added": 1465880354
+			}
+		]
+	},
+	"comment_vote": {
+		"1_1HfiK3UDy1RRtmbygoXV7iNRs42fbrCGzW": 1,
+		"1_1GD4nXikAXBVVryMk3PL2e8j9UwzvmEWVb": 1
+	}
+}

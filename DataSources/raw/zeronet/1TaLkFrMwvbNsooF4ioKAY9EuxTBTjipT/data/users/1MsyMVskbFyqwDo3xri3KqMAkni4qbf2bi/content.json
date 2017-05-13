@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HE3GDVnADOUhkNeq9SF7WgUqJzoA4YEUHHTpW19uJjGjEhr+M5EGJ3knIvk8EXJ2JN/2IEvH4fRGsJXTeanimlA=",
+ "cert_user_id": "crunch@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "b71e6983ee31112d081e9f5859cc38d99262c58dec2c0bc332cd1684e3cd3864",
+   "size": 297
+  }
+ },
+ "inner_path": "data/users/1MsyMVskbFyqwDo3xri3KqMAkni4qbf2bi/content.json",
+ "modified": 1475861466.375867,
+ "signs": {
+  "1MsyMVskbFyqwDo3xri3KqMAkni4qbf2bi": "HAL/F6v+eFfClKRz4FRPtruzvGxBpKt3tysiKl3q6nre7E9BaINePRvBx56MsP5Jgj1dNBU3z911UawavsUa2nw="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G06y0xzV8cNsKrLivde3OAylUCadAVkiZBz2TVG/jeAsI6xp7A1jFrI61OjZAMJ2bExpX3zxk+J5f+PkXQdY4LE=",
+ "cert_user_id": "ruanmedgar@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "f0af34c41465b5ab6df161e11a36782d88065629d47dfb6a256c7af569282dec",
+   "size": 341
+  }
+ },
+ "inner_path": "data/users/1FqDeUPACg3bKLkp2ChDy2hVC4WEkmtkqh/content.json",
+ "modified": 1489777480,
+ "signs": {
+  "1FqDeUPACg3bKLkp2ChDy2hVC4WEkmtkqh": "G5Menkcu6+foK4IlE6FmB0QrosBz/nBC86/3bKq6oViutk/4uZizaGTLw/1kzmV9sW0+HpYIp+BLsF/5NYzi2T8="
+ }
+}

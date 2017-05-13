@@ -1,0 +1,215 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"23_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"2_1DcE9QfZbfLZhXxgtQ8Ui3oMZvs9NVjqZB": 1
+	},
+	"next_comment_id": 34,
+	"comment": {
+		"2_1LY5srf6iJSafm2bZRvb9QdZdEEvC7kuUS": [
+			{
+				"comment_id": 1,
+				"body": "well you could just use this + the blog feature. I mean the foundation of a social network is just being able to communicate with others.",
+				"added": 1463673285
+			}
+		],
+		"5_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R": [
+			{
+				"comment_id": 2,
+				"body": "Try using it with tor.\n\nTor+zeronet = using TCP. (tor blocks all UDP connections too, so zeronet should use that)\n\nIf your school is blocking tor try using something like bridges and if that fails then try obfs. I am asking that you try it in that order, if you do not know what methods your school is using to block traffic. It might be something simple if they fail then you can start the cat/mouse game that is bridges and obfs proxies.\n\nHow to get bridges? \nweb: https://bridges.torproject.org/options\nemail: https://bridges.torproject.org/howto\n\nTor OBFS how?\nhttps://www.torproject.org/projects/obfsproxy",
+				"added": 1465010195
+			},
+			{
+				"comment_id": 5,
+				"body": "> [scrub](#comment_79_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R): Hmm, while I'm at it, is there a way to use something similar to Tor bridges with a VPN?\n\nyou can tell tor to use another proxy. I've heard that people have gotten to use tor+vpns. I haven't tried to do that because I do not trust VPNs (paid or free) but it is possible.",
+				"added": 1465075205
+			}
+		],
+		"1_1DzpF7398yNGjFwHQqHAu9fRkbE3WZ6dZA": [
+			{
+				"comment_id": 3,
+				"body": "if you have the Zerobundle go into \"Zeronet\" folder and edit \"zeronet.conf\" change or remove tor option. Should stop it.",
+				"added": 1465010325
+			}
+		],
+		"4_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 4,
+				"body": "Well you can have seed boxes if you just leave zeronet running 24/7. So if you want seed boxes, just leave your running. Its what I do.",
+				"added": 1465010515
+			},
+			{
+				"comment_id": 6,
+				"body": "> [ancap](#comment_59_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz): Haha, that's right!But he'd like you to use your resources to help him host massive ZN sites ;-)\n\ngive me your ZN site fam. I'll seed the fug outta it.  c^:",
+				"added": 1465075294
+			}
+		],
+		"10_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 7,
+				"body": "deep web is a stupid bullshit term that an internet faggot known as sabu made up while drunk one day to scare children like you.\n\nTechnically this is a dark web because data here is not accessible without special software. (be it the zeronet software or the proxies)",
+				"added": 1465650453
+			}
+		],
+		"7_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 8,
+				"body": "this is already a pseudo mesh network. Thats what a torrent is fundamentally. You can put it into hyperboria if you want it supports socks proxies. Should not be hard to implement.",
+				"added": 1465651699
+			}
+		],
+		"10_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": [
+			{
+				"comment_id": 9,
+				"body": "Its showing up as 54 MB for me now. Then again, I've been offline for IDK how long.\n\nIt is possible for some files to be slightly different sizes. My terminal will at times complain that hashes do not match file content but IDK, it could be about something else.\n\nGenerally speaking I know that if a hash test fails, file \"a\" is different from file \"b\" but it does not specify file size. The difference could be a little as like a few byte or hundreds of gigabytes.",
+				"added": 1470656100
+			}
+		],
+		"4_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 10,
+				"body": "FYI a magnet link by itsets can not tell you much other than like where to get a torrent from. (may be a little metadata about the torrent)\n\nbut that is about it. I do suggestion you use like ZeroTorrent or something like Vuze (with i2phelper/torhelper) if you want to get legit things. That is where and how a lot of people are living in a post TBP/Kickasstorrents world.",
+				"added": 1470656319
+			}
+		],
+		"2_1DcE9QfZbfLZhXxgtQ8Ui3oMZvs9NVjqZB": [
+			{
+				"comment_id": 11,
+				"body": "Well not everyone that browses ZeroNet lives in the US. Heck most US citizens are unaware there are even other options apart from the stupid sick stereotypes known the RNC (republicans) and DNC (democrats).\n\nI am voting for Stein based on ethics. I can not vote for someone that claims to either be \"not corrupt\" or \"for the people\" when it is obvious they are hypocritical. I hate hypocrisy, although at times I am blind to my own. (I am receptive of those who point out my flaws also)\n\nThe 1%, the \"shadowy cabal\", the adversary, or whatever name you give \"it\" has robbed us time and time again. They corrupted Warren, Sanders, and now who else? \n\nIf you have a brain, IDC if you are a leftist or right winger, corruption has to end right now. It affects us both like a cancer that gives us the illusion of choice and the illusion of progress. \n\nYet, when these corrupt sick jokes are confronted with real problems like job automation, they will either point at brown people (or some scapegoat) or the leftists will distract with national tragedies around the world.\n\nThe US has a large enough purple god damn cucumber to deal with both domestic and foreign but we need to drop the bullshit and not bend over to corruption and be held accountable. \n\nStein is my hope that she will not bend to the will of private interests and will hold the US accountable for the stupid things it does... and yes if your going to get mad at me because someone at 5% can \"throw\" the election for the strong DNC or RNC candidate... then you picked a fickle candidate to begin with, so you can just tickle my pickle with a nickle.",
+				"added": 1472945095
+			},
+			{
+				"comment_id": 13,
+				"body": "> [jeff](#comment_1_1JFfyAT1DysW4LbK6WRd2szDoPjWgb22NT): Vote TRUMP\n\nDear Jeff, \n\nYou are daft, Your a gnat, and your whickity whickity whack, how about that? bet you don't talk back, jack. \n\n;^D",
+				"added": 1472945506
+			},
+			{
+				"comment_id": 15,
+				"body": "> [caboose](#comment_2_19Z54XRjKd3f3MNHWyWacypF137P7HUcAq): I support Trump.\n\nWE GET IT, you are a special autistic geek that is immune to facts.",
+				"added": 1472989725
+			},
+			{
+				"comment_id": 16,
+				"body": "> [lorem](#comment_4_1HXv2c6awyWdtUb8SeP7bWViMHcvxdV82X): Jill (((Stein)))\n\nOh I see /pol/ is moving here? \n\nWell thats fine, I guess you are ok with Hillary winning.\n\nand don't give me the libretard argument. Johnson has already said that he is willing to talk to the koch (cock cuck) brothers. So you can basically think of him as Romney or McCain.\n\nI bet you wax your carrot to that thought don't you?",
+				"added": 1473039459
+			},
+			{
+				"comment_id": 17,
+				"body": "> [quakerman](#comment_4_1ETxcxYnSkM8gEdhQj9gS1pFt9LbVQddUV): Look who's talking. :^)\n\nPlease give me a fact of why I should vote for a candidate who has stood up for civil rights.\n\nNo one other than sanders or stein has done any of that. \n\nI'm talking about actually doing something not just saying \"yeah I care too\" because that is a cheap lie.",
+				"added": 1473039583
+			},
+			{
+				"comment_id": 18,
+				"body": "> [quakerman](#comment_5_1ETxcxYnSkM8gEdhQj9gS1pFt9LbVQddUV): Civil rights? If you want to care about civil rights, become a soldier.\n\ndear autistic child,\n\nWe are talking presidents and politics not personal life styles. No one that is running for office has been a part of the military.\n\nSo you must not be voting. Good for you. \n\nAlso every one of my family members has come out of the military mentally scarred and these politicians seems to be ok with that shit. I'm not joining until they take care of our vets.",
+				"added": 1473040790
+			},
+			{
+				"comment_id": 19,
+				"body": "> [rkit67](#comment_2_151hRHzUZDH9dGn7cuwh1H4mPNDo7GQr3r): If you're going to vote 3rd party over civil rights you might want to vote for a party other than the green party. The green party wants open borders you can't have a sovereign state with open borders. Fuck Jill Stein right in her pussy!!\n\nYou seem to not understand how the immigration policy of the US and any of the immigration policy that is prosed by progressives.\n\nhaving a speedier naturalization process and stream lining it is not open borders.\n\nAs it stands naturalizing from a country such as Mexico to the US can take at least 2 years but can and has been held off for many years, the longest I have heard it has taken is 13 years. \n\nAs a result of stream lining the naturalization process; you actually save money on the border patrol and FBI, you also lessen the need for illegal immigrants, and you can also take a bite out of companies that hire illegals and thusly hurt our economy.\n\nHOWEVER, all bets are off with any policy you can think of if the government is corrupt. Left or Right wing policy/candidate/etc. It all goes to shit when private interests are introduced into the fray. Thusly, this is why Stein has my vote because she not only says she is against corruption she has been arrested outside the DNC/RNC debates the past 3 times just to argue with the corrupt assholes that run the DNC and RNC.",
+				"added": 1473045543
+			},
+			{
+				"comment_id": 21,
+				"body": "> [shellbound](#comment_13_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9): A bit sad to see some of the comments in here.. which people could behave a bit more grown up.\n\nThat is one of the many trade offs of anonymity.",
+				"added": 1473300933
+			},
+			{
+				"comment_id": 23,
+				"body": "> [jeff](#comment_2_1JFfyAT1DysW4LbK6WRd2szDoPjWgb22NT): Q: How is the Green party like a watermelon?A: Though they're green on the outside, they're red on the inside.\n\nWhat does it mean to be libertarian?\n\nYou probably do not understand that running the government like a business it will throw you under the bus in the end no matter how rich you are how hard you pull those boot straps. Also you are probably either a rich man's wife or just a spoiled rich kid with chubby cheeks and braces. (like the cahracter \"bling bling boy\" from the show johnn test)\n\n\n\nDawg, I got people with boot straps pulled up to their asshole, they are still hurting. Our economy is that bad and getting rid of \"handouts\" like the police, firedepartment, FDA, and public education seems nice but if you are REMOTELY worried about \"corruption\" who do you think is currently corrupting people in our government? Running it like a business only skips that \"annoying\" lobbyist and goes straight to the donor. \n\nBut yeah, FREEDUM!",
+				"added": 1473331213
+			}
+		],
+		"16_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 12,
+				"body": "same. this is a PERFECT opportunity for you to get a lot of angry youtubers into Zeronet/Web torrent.\n\nimagine it? P2P youtube. Uncensorable. Patreon takes care of the funding. Millions of users now have another legit usage for torrents and bitcoin like technology.",
+				"added": 1472945280
+			},
+			{
+				"comment_id": 14,
+				"body": "> [tkarita](#comment_128_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): Not bitcoin like, actual bitcoin.  Anyone can donate directly to bitcoin:1FUQPLXHimgCvYHH7v3bJXspJ7bMBUXcEb.\n\nI'm talking about the technology that Zeronet uses. It is bitcoin like in the sense that it uses public key crypto, signature verification, and torrents to distribute data.\n\nHowever if you'd like to replace patreon with bitcoing. I'm there with you. Centralized services have brought us nothing but pain.",
+				"added": 1472949559
+			}
+		],
+		"2_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": [
+			{
+				"comment_id": 20,
+				"body": "It is a good idea because unlike tor, i2p does not block UDP packets, so its ideal if you want to maximize anonymity to use it with i2p.",
+				"added": 1473300889
+			}
+		],
+		"1_14hiNi2B2XEnvPSwetWUfzimNXQ1Keahnm": [
+			{
+				"comment_id": 22,
+				"body": "I say put this near public transportation or even public places such as libraries. I hear that some libraries love hosting tor nodes, may be you can also get them to host a few zeronet nodes, so that way people can see whats on zeronet at the library AND the network gets more stable nodes.\n\nGranted zeronet is redundant and reliable already, a few more never hurt. Especially with some of these libraries with high network speeds.",
+				"added": 1473302232
+			}
+		],
+		"3_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": [
+			{
+				"comment_id": 24,
+				"body": "You can make your own private proxy.\n\neg. Nginx or Apache + .htaccess + reverse proxy to your local zero net IP/port = mobile zeronet\n\neg. SSH tunnels + port forwarding = remote zeronet\n\neg. Hidden service/eepsite forward to zeronet IP/port = seekret mobile zeronet\n\nThese options do require some googling but they are relatively easy if you use command line once in a while.",
+				"added": 1473468641
+			},
+			{
+				"comment_id": 25,
+				"body": "> [talnicrom](#comment_24_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa): See my reply to ks down the page.\n\nNo offense but my solutions work also and some are more secure anyways.",
+				"added": 1473477674
+			},
+			{
+				"comment_id": 26,
+				"body": "ah wait you want a mobile Zeronet?\n\nYeah there is a problem with using a bunch of mobile devices are routers, relay, or torrent seeds...\n\nUptime, throughput, and laziness.\n\nUptime: many mobile devices will be shut down and have \"intermittent\" connections\n\nThroughput: many mobile devices suck butt when it comes to providing a decent speed to get file \"x\"\n\nLaziness: people always get bored and uninstall shit.\n\nSource: see I2P on mobile devices, they use them in the I2P network but not as floodfills or high capacity nodes. IDR what the hell they use them for but they are playing around with it.\n\nIn apps like Zeronet using short lived and slow nodes is hard to find a legit use for them...",
+				"added": 1473477933
+			},
+			{
+				"comment_id": 28,
+				"body": "> [talnicrom](#comment_25_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa): Thanks!  This is exactly the kind of response I was hoping to get.  It seems that you are arguing against running a full peer on a mobile device.  However, this is not really what I was thinking.  I was thinking of making something that is just epsilon different from the existing ZeroNet proxies out there.  The only additional thing I would like to do is implement it so that user keys are not transmitted to the server.  This way ordinary people could use ZeroNet like they use any other site, save that they authenticate once for each ZeroNet session using a key instead of a password, rather than once per site using a password of their choice.\n\nYeah running a full node on your phone is not a great idea. \"Big\" projects like Tor and I2P haven't really figured out what the hell to do with mobile devices participating in their networks. Its all just experimentation. \n\nFor remote nodes, this is why I prefer SSH Tunnels/self hosted VPN. They can establish a secure way for you to access your zeronet node at home from far away and you can transparently use them for other things. (eg. if you also have vuze/transmission web, or retroshare web, or i2p/freenet console, etc.)\n\nThey do not require additional code to be added into Zeronet and can be used right away. If you want to make it idiot proof, then caddy is the way to go because it does everything for you BUT since it uses letsencrypt older devices may not be able to use it. (not a big deal I'm talking about like 10 year old devices anyways, fat chance you even have one of them)",
+				"added": 1473565925
+			}
+		],
+		"1_1HRrLnTaJwRCA24L45Sr3cYJ3nDmJmPabf": [
+			{
+				"comment_id": 27,
+				"body": "Onionland, hopefully moving to the I2P promised land when it is implemented into Zeronet.",
+				"added": 1473516031
+			}
+		],
+		"9_12i4LiZ39NxcYtsf36aTWJzcpzw4KFUCJy": [
+			{
+				"comment_id": 29,
+				"body": "I love the fact that Trump is saying very offensive things and he claims to be \"anti-PC\" but yet \n\n- will not use the word \"black\" to refer to a black person.\n- did not want to debate sanders\n- is not ok with being asked tough questions. (says the reporter is \"unfair\" or \"Biased\")\n\nYet, Trump is also biased when he says things like \"Illegals are criminals and rapists\" and \"We need to ban Muslims\". Its just a fact. Illegals are not the source of all crime and rape and muslims are not the sole cause of terrorism in the US. (actually christians have the muslims beat)\n\n\n> [weakish](#comment_30_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): Trump is evil! Hillary is not even evil!\n\nHillary evil? perhaps not. Unethical? very. Unprofessional? Extremely.\n\nJust as it is bad optics for Trump to hire people who have a history of sexual assault and scamming, it is also not very smart for Hillary to hire people that have also been caught doing the same things. Such as the staffer that was a biggot against atheists, and wasserman schults who promised the DNC was not biased but referred to the other candidates as jokes.",
+				"added": 1473566361
+			},
+			{
+				"comment_id": 30,
+				"body": "> [tkarita](#comment_146_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): The DNC seems to be very corrupt.  On RT (the Russian news station that punked Trump) there is a show called Redacted Tonight which has been following the anomalies on the Democratic side.\n\nIts not \"seems\", they are corrupt. \n\nRNC: \n- Claims to be \"moral\"\n- Take in millions from private interests\n- Turns out to actually screw over people\n- Gets found guilty of super immoral things\n\nDNC:\n- Claims to be \"moral\"\n- Takes in millions from private interests\n- Turns out to actually screw over people\n- Gets found guilty of super immoral things\n\n\nExcuse me how the F- are they different anymore?",
+				"added": 1473568416
+			},
+			{
+				"comment_id": 31,
+				"body": "> [teszt](#comment_43_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC): I like the circus.But it would be more secure for us all if the supreme commander of the biggest nuclear arsenal of the world wouldn't have a brain damage.\n\nOr Pneumonia or heat stroke.",
+				"added": 1473691311
+			},
+			{
+				"comment_id": 32,
+				"body": "> [goodbro](#comment_2_1PoA7YxWVZKoXWoD1PjdwByFqqCA8d2uqr): Hillary murdered our brave Americans in Benghazi by telling the rescue team not to go in, and then lied and said no Americans died there. Hillary is a Piece Of Crap. She stole 100 BILLION from charities by funneling money meant for charities through the Clinton Foundation, and while Secretary Of State, set up an illegal email server to hide this scheme. Hillary has a brain tumor, brain damage and is also very stupid. She was given only a year to live by medical professionals. Therefore, Hillary WILL NOT become president.\n\nAs supposed to Trump who literally bribed two attorney generals?\nAs supposed to a man who literally plagiarized, or  forced someone to do so, a doctor's letter?\nAs supposed to people who have NO idea where the fuck they are in the world? (Trump, Hillary, and to lesser extent Johnson)",
+				"added": 1473691754
+			},
+			{
+				"comment_id": 33,
+				"body": "> [kermit](#comment_1_1JtxPipMFzvBTQ8fwSeupUxfiVMbutBfhG): These are all Rothschild lies, you are a Rothschild.\n\nDear Kermit,\n\nThank you for continuing to prove the point that Trumpest or Trumpists as you are known as only use ad hominem (personal) attack, when confronted with facts.\n\nI can prove he did these things\n\nTrump Bribery\nHe tries to excuse his donation as \"just a donation\" however why would you indeed donate to someone that recently found you \"innocent\" regarding Trump university? It is a bribe and its hypocritical for Trump to claim others are as such, when Trump does the SAME THING.\n\n- http://www.vanityfair.com/news/2016/09/donald-trump-pam-bondi-donation\n- http://www.cnn.com/2016/09/05/politics/trump-pam-bondi-florida-attorney-general/index.html\n\nTrump fake doctor's note\nHe claims he would be the best doctor but David Pakman actually did a complete investigation into the letter.\n\nPlease tell me, can a doctor that specialized Gastroenterology certify the health of your brain and other bodily functions? \nNo, they can't. \"Gastroenterology\" is a specialization in the stomach. He can only say Trump's Tummy can handle a spicy meatball. \n\nAlso when a doctor says \"you are positive for 'XYZ'\" that is bad thing, why does the letter say \"he tests positive on all accounts\" it makes no sense.\n\nhttps://www.youtube.com/watch?v=-Zs0C5uYvUw\nhttps://www.youtube.com/watch?v=wtXwTvmzznk",
+				"added": 1473744288
+			}
+		]
+	},
+	"comment_vote": {
+		"64_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1,
+		"61_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1,
+		"62_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1,
+		"747_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"146_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"43_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": 1,
+		"22_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT": 1
+	}
+}

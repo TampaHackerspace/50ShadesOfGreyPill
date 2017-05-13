@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HL9VnQS20Rp9jppRu5KVdVnvgRHwXOUVUdQrCoY5NFIEgr3bpImyjwDepy85KS8G54EZ/DhjnyteWJSd2vvTQ58=",
+ "cert_user_id": "acevampir@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "21ded798aecac5ad15d09273896ac75682c38175d7ea9d3761b288012a8ae0f3",
+   "size": 256
+  }
+ },
+ "inner_path": "data/users/1MzRAF35sWwZ3sZVRxo27QAAjCT2gU5grw/content.json",
+ "modified": 1485039054,
+ "signs": {
+  "1MzRAF35sWwZ3sZVRxo27QAAjCT2gU5grw": "HAmaRIWoayvmc38U2hY6n3IthzomXSwfBcvIEnnpIPeYDra52/8yAZRfpL8DAONJn65rJflXgG8BjTA8qxyCJOU="
+ }
+}

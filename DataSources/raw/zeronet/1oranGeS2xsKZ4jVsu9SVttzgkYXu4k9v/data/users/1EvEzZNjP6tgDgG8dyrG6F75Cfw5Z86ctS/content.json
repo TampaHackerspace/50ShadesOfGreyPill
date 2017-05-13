@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GzCNnWt0lx9XoxRVhPFog9MW9ijkinjU7NwBFfsgTU//VSfavq2qfi4Bed3XYqy8jLePDeoyNk7SBrLe0vhfBuo=",
+ "cert_user_id": "lovingzw@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "3db9f27d1838542b4d41b1ae2268804188072fd6dff009d0764039b08ca16359",
+   "size": 1755
+  },
+  "data.json": {
+   "sha512": "2ca0b1a5126c27aeadcdc2e9465a93a153f29d3e41b55f1e0a93e69f2ff697a9",
+   "size": 334
+  }
+ },
+ "inner_path": "data/users/1EvEzZNjP6tgDgG8dyrG6F75Cfw5Z86ctS/content.json",
+ "modified": 1480663279.756578,
+ "signs": {
+  "1EvEzZNjP6tgDgG8dyrG6F75Cfw5Z86ctS": "G6Lp28o05wVufp4Ujo2LcS1ynFtzeZe3WhjgC8h4Hm+7gkgjO7bqvxQmlkWg7WkImocaaaSFqffoYy5dBXr95+M="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "GwWwAPWnUee4FF+3cw3h6Et1Fni7JMcBH5zQPC7gsuPi84TPU5gFqbX/X5rtNpg/JONCyxrGsxUF3g6P8g1fBV8=",
+ "cert_user_id": "tissues@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "97397a6a508e22faf0d107a0ca93cbb455da00763e23eabe54eb775c822a11d4",
+   "size": 242
+  }
+ },
+ "inner_path": "data/users/1K9zPEfj5c14RRbC3fFgZKat5QSdMUh2iE/content.json",
+ "modified": 1488636618,
+ "signs": {
+  "1K9zPEfj5c14RRbC3fFgZKat5QSdMUh2iE": "HOH+nhtJb6BA8SRrqOUyWiySLKli/MOFNzhK8HVugffuyNOhKiAu57dMqOkatzAEK24Aai/UBSwkWFGUCwDtlzg="
+ }
+}

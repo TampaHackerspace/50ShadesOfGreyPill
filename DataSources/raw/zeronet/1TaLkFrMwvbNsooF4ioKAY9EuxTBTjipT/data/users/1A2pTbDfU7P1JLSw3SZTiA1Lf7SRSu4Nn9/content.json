@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G2310PA6cPG31pVZKkpKv5hHkkPuolYIvtKJz4bzSeCeq5SNu4f74Omggvs2DvFEbJAq1XLiQWO7n0EZ/+mbQqU=",
+ "cert_user_id": "callmypants@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "7fff38a9c5d7d486384fad42c2eedf41026d3d6da353c51025d51cf543daca74",
+   "size": 2119
+  }
+ },
+ "inner_path": "data/users/1A2pTbDfU7P1JLSw3SZTiA1Lf7SRSu4Nn9/content.json",
+ "modified": 1487005826,
+ "signs": {
+  "1A2pTbDfU7P1JLSw3SZTiA1Lf7SRSu4Nn9": "G2BXtDhBKVZlSDhpNo2f0+X4jmbNsquzcstqq3r3rF7vOU+blCtU/Ypz4rlwLCH3Hj4aHdj3E53Gu8goTx4aSRY="
+ }
+}

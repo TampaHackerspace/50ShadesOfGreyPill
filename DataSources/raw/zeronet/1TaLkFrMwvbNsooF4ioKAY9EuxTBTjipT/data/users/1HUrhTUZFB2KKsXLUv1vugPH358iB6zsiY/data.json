@@ -1,0 +1,43 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Anonymous Login",
+			"body": "# For zeronet users:\nAdd this to your users.json\n```\n      \"zeroid.bit\": {\n        \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n        \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\", \n        \"auth_type\": \"web\", \n        \"auth_user_name\": \"anonymouslogin\", \n        \"cert_sign\": \"G2Vic5dDAe4DEFnXPisWahbEKjPpTrT5T01UX/ZOgS5CECFcsqiJ589jfHRamnetcwH5423GL58gb4xfXq8yknQ=\"\n      }\n```\nor enable the multiuser plugin and use this as your masterseed\n```\n7d0ae0e2bebafb7d02440979c407896796727e30a5d2c27565ed1d1ea2ba4f87\n```\nand go to zeroid.bit. Then, you can use the 'Anonymous Login' user.\n-----\n# For site owners:\nIf you want to disable the 'Anonymous Login' user, ban it in your content.json.",
+			"added": 1480152171
+		},
+		{
+			"topic_id": 2,
+			"title": "Anonymous Login",
+			"body": "# For zeronet users:\nAdd this to your 'users.json'\n```\n      \"zeroid.bit\": {\n        \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n        \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\", \n        \"auth_type\": \"web\", \n        \"auth_user_name\": \"anonymouslogin\", \n        \"cert_sign\": \"G2Vic5dDAe4DEFnXPisWahbEKjPpTrT5T01UX/ZOgS5CECFcsqiJ589jfHRamnetcwH5423GL58gb4xfXq8yknQ=\"\n      }\n```\nor enable the multiuser plugin and use this as your master seed\n```\n7d0ae0e2bebafb7d02440979c407896796727e30a5d2c27565ed1d1ea2ba4f87\n```\nthen, go to zeroid.bit to use the 'Anonymous Login' user.\n-----\n# For site owners\nIf you want to disable the 'Anonymous Login' user, ban it in your 'content.json'.\n-----\n# And this is the full users.json.\n```\n{\n  \"1MX2KbPNTofExJ6FgSQM8MKJN5koE2TfV6\": {\n    \"certs\": {\n      \"zeroid.bit\": {\n        \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n        \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\", \n        \"auth_type\": \"web\", \n        \"auth_user_name\": \"anonymouslogin\", \n        \"cert_sign\": \"G2Vic5dDAe4DEFnXPisWahbEKjPpTrT5T01UX/ZOgS5CECFcsqiJ589jfHRamnetcwH5423GL58gb4xfXq8yknQ=\"\n      }\n    }, \n    \"master_seed\": \"7d0ae0e2bebafb7d02440979c407896796727e30a5d2c27565ed1d1ea2ba4f87\", \n    \"sites\": {\n      \"1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz\": {\n        \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n        \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\"\n      }\n    }\n  }\n}\n```\nHave a nice day!",
+			"added": 1480152613
+		}
+	],
+	"topic_vote": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	},
+	"next_comment_id": 4,
+	"comment": {
+		"2_1HUrhTUZFB2KKsXLUv1vugPH358iB6zsiY": [
+			{
+				"comment_id": 1,
+				"body": "In fact, that's the same, as long as the private key is public, a site can be used as a sandbox.",
+				"added": 1472272869
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 2,
+				"body": "test",
+				"added": 1480152292
+			},
+			{
+				"comment_id": 3,
+				"body": "# For zeronet users:\nAdd this to your 'users.json'\n```\n      \"zeroid.bit\": {\n        \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n        \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\", \n        \"auth_type\": \"web\", \n        \"auth_user_name\": \"anonymouslogin\", \n        \"cert_sign\": \"G2Vic5dDAe4DEFnXPisWahbEKjPpTrT5T01UX/ZOgS5CECFcsqiJ589jfHRamnetcwH5423GL58gb4xfXq8yknQ=\"\n      }\n```\nor enable the multiuser plugin and use this as your master seed\n```\n7d0ae0e2bebafb7d02440979c407896796727e30a5d2c27565ed1d1ea2ba4f87\n```\nthen, go to zeroid.bit to use the 'Anonymous Login' user.\n\n# For site owners\nIf you want to disable the 'Anonymous Login' user, ban it in your 'content.json'.\n\n# And this is the full users.json.\n```\n{\n  \"1MX2KbPNTofExJ6FgSQM8MKJN5koE2TfV6\": {\n    \"certs\": {\n      \"zeroid.bit\": {\n        \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n        \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\", \n        \"auth_type\": \"web\", \n        \"auth_user_name\": \"anonymouslogin\", \n        \"cert_sign\": \"G2Vic5dDAe4DEFnXPisWahbEKjPpTrT5T01UX/ZOgS5CECFcsqiJ589jfHRamnetcwH5423GL58gb4xfXq8yknQ=\"\n      }\n    }, \n    \"master_seed\": \"7d0ae0e2bebafb7d02440979c407896796727e30a5d2c27565ed1d1ea2ba4f87\", \n    \"sites\": {\n      \"1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz\": {\n        \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n        \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\"\n      }\n    }\n  }\n}\n```\nHave a nice day!",
+				"added": 1480152641
+			}
+		]
+	},
+	"comment_vote": {}
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G8m2mqE92uvMKa5oSqabYzyEIG8nQlLZrXEZ+1AyXBjli/PGPnPuqHm5RdSBwfVGQFRjJfT7ROTv7nC42xsHYSA=",
+ "cert_user_id": "zozon@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "99b5762e13cb40f755baa01f1304dd403f1649ca4e67d0d8d8a7595b381fd947",
+   "size": 58571
+  }
+ },
+ "inner_path": "data/users/1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55/content.json",
+ "modified": 1481450488.334091,
+ "signs": {
+  "1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": "G9cd6qSpKvWitOcdwjnFYlTfdZyFmEpNpGNrpmbZGQHs99oJO42TTivna+knv2g32Q/txXAaRwWZV4YHqpyfWJU="
+ }
+}

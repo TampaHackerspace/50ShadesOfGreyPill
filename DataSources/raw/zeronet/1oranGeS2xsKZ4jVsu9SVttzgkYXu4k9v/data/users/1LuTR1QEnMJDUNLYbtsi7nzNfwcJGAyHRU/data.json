@@ -1,0 +1,42 @@
+{
+	"next_comment_id": 6,
+	"user_name": "Poseid0n",
+	"hub": "15mV5T1R1wxg3E1FPsvZw19bw6QzvRREfn",
+	"post_like": {
+		"18EjLHTadBR6ci3XRWyMfsGeWVtXTR8xx_1483928567": 1484054862
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Que problemas tienes?",
+			"post_uri": "18EjLHTadBR6ci3XRWyMfsGeWVtXTR8xx_1483928034",
+			"date_added": 1484054878
+		},
+		{
+			"comment_id": 2,
+			"body": "Los links magnets apuntan al propio mensaje... esta bien eso?",
+			"post_uri": "18EjLHTadBR6ci3XRWyMfsGeWVtXTR8xx_1484100791",
+			"date_added": 1484153866
+		},
+		{
+			"comment_id": 3,
+			"body": "> @Thekiller66: «Cada que le doy una formateada a la Pc toca re-descargar ZN.»\n\n¿Eso es normal o no? Te recomiendo dejar una copia de ZN en una USB.\n\n> @Thekiller66: «Si trato de iniciar el cmd que siempre uso...»\n\n¿Y si lo ejecutas por terminal que te aparece?\n\n> @Thekiller66: «cuando trato de abrir ZeroMe despues de reinstalar ZN tengo que volver a registrarme en un Hub»\n\nEn eso estoy de acuerdo contigo... es una mierda. Quizas te ayudaria dejar un respaldo de los ficheros basicos de consfiguracion... es decir `zn/data/` excluyendo TODOS los sitios a excepcion de los Hubs de 0me.",
+			"post_uri": "18EjLHTadBR6ci3XRWyMfsGeWVtXTR8xx_1483928034",
+			"date_added": 1484153967
+		},
+		{
+			"comment_id": 4,
+			"body": "@Thekiller66: _Se supone que son diferentes descargas..._\n\nEntonces hay un error... ¿has intentado usar codigo HTML?",
+			"post_uri": "18EjLHTadBR6ci3XRWyMfsGeWVtXTR8xx_1484100791",
+			"date_added": 1484204300
+		},
+		{
+			"comment_id": 5,
+			"body": "@Thekiller66: «_... aunque haga respaldo en una particion del disco duro, no me deja abrir ZN..._»\n\nEso me parece mas bien un problema de permisos... que te aparece si haces `ls -lh /directorio/donde/esta/version/antigua/zeronet`\n\nLos respaldos en Linux generalmente mantienen al antiguo usuario. Y se deben actualizar `chown -R nuevo_usuario carpetaZeronetRespaldo`",
+			"post_uri": "18EjLHTadBR6ci3XRWyMfsGeWVtXTR8xx_1483928034",
+			"date_added": 1484204712
+		}
+	],
+	"flags": {},
+	"comment_like": {}
+}

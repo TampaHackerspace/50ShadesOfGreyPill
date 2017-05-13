@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G9rq8mgt1J33GQcVSV6lUmbH0Cv2RcvSDEv1A5Y7G1U3Zwfhq2PMz2AV5tEDQnhC4TuneYLWr8LeVH5ux+GGPS8=",
+ "cert_user_id": "cloudofstars@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ec320a621c3418d7cf51e347c2161039bb6e656fd7b48da473ef96d75f382f48",
+   "size": 37633
+  }
+ },
+ "inner_path": "data/users/1AvkR7PmGFLZL9drPpqCaBPEdcVipv2Ajs/content.json",
+ "modified": 1475700005.872792,
+ "signs": {
+  "1AvkR7PmGFLZL9drPpqCaBPEdcVipv2Ajs": "G1pdjepbKT+ciYlM4R4tGMqlAaPZqN1q9HC/6WrFXPSwhXMpoV930n9Kz5/tuTlgk2hqtYD4cjZ2pEudXnk1YE0="
+ }
+}

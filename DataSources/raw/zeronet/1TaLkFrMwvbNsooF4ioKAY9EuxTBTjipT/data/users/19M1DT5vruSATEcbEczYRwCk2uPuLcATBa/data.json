@@ -1,0 +1,211 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "A ZeroNet marketplace",
+			"body": "OpenBazaar is missing out on a huge market by failing to support tor or i2p.  So I think a marketplace app on ZeroNet would be very successful.  In this thread I would like to have a discussion about how to set up such an app.  \n\nI propose that we set up a merger-type called Marketplace and set a standard for user (both buyer and seller) data on the hubs.  Then people could compete to design the most beautiful, useful front end, and monetize it in some way (or not).   Once there is some consensus about the fundamental decisions, I will probably make cardboard-and-tape demo front end myself.\n\nThe data standard needs to address at least three kinds of data:\n1. Store data.  This can include the name and description of the store and the products available with images, prices, etc.  This data can be public since users can always choose to set up a store under a user address created specially for that store.\n2. Purchase data.  This should be an encrypted message from the buyer to the seller containing information in a standardized format.  Likely it will consist of a product ID, shipping info if necessary, and a valid multisig cryptocurrency transaction.  By examining purchase data, an attacker can determine that a user_address has posted a purchase order to the system but should not learn the store or product.\n3. Transaction certificates.  A transaction certificate should be a proof of transaction.  It should be unlinkable to the buyer, but the buyer should be able to use it to prove in a product review that they own a key for this kind of product.  (This is inspired by [Beaver](https://eprint.iacr.org/2016/464.pdf).)\n\nFor authentication, I figure that the front ends will either offer their own certificates, possibly creating them based on auth_address or empty name when the user visits for the first time.\n\nIs there anything else that should go in the data standard? Any relevant academic work on decentralized marketplaces about which I should know?\n\n[EDIT] The store data can also include a list of trusted cryptocurrency addresses for escrow purposes.  Then when a buyer constructs the multisig transaction to create an order, they include one of these addresses.  ",
+			"added": 1471889071,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 2,
+			"title": "Is it a good idea to write a plugin for ZeroNet over I2P?",
+			"body": "Would routing ZeroNet traffic over I2P make it more difficult to link ZeroNet users to real world identities?  Is this kind of functionality possible in a plugin?  If it turns out to be a good idea would anyone like to collaborate on a plugin?",
+			"added": 1473296846
+		},
+		{
+			"topic_id": 3,
+			"title": "Ideas for improving the ZeroNet mobile experience?",
+			"body": "AFAIK, the way to use ZeroNet on mobile is to go through one of the public proxies.  Since nobody would ever send their private keys to some guy's server this is limited to using a one-off identity each time.  It would be great to build something which allows users to interact with ZeroNet without sharing their keys to a third party.\n\nP2P over mobile is problematic since it requires so much bandwidth.  So it seems that it would be helpful to implement client-server functionality (of sorts) for ZeroNet.  The client would manage keys, user data, and maintaining content.json while the server would handle the webserver, connections, publishing, and content validation.  I imagine that this client functionality could even be handled by JS in the zite wrapper.\n\nAny ideas to add?  Criticism?\n\n[EDIT] Another reason to care about mobile is that ZeroNet makes it difficult to shut down useful services just because they e.g. infringe on copyright.  Here is an unimaginative example.  Think of a ZeroNet near clone of Uber (after finding solutions to quite a few cs problems related to how to distribute the various computational tasks).  If it is easy to find and use, Uber and Uncle Sam have limited options for stopping it.  There is no domain to capture, and no organization who runs it.  So the only option left is to penalize the users.  This could work but might be too costly or too openly totalitarian.\n\nThis kind of thing was the dream of Ethereum.  However, Ethereum users have to run all code that all other Ethereum users write (and pay to run).  Attacking is usually cheaper than defending, so the viable lifespan of any complex Ethereum dapp which is sufficiently popular is bounded.  On the other hand, ZeroNet users are free to seed (execute the code on) only those sites they choose.  (Auditing code is certainly possible with ZeroNet, but not quite as easy as it should be.)",
+			"added": 1473431744
+		}
+	],
+	"topic_vote": {
+		"5479_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"1_1GV38NrtMvxkf2N8msQkkTnjz38ABfiaVE": 1,
+		"1_1FCqLq42pcBRtdUQXfKghRxhtsMKVfrDmW": 1,
+		"3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k": 1,
+		"1_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ": 1,
+		"1_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"2_1M3WXb3DtLL9zsRy4ECqemV7ZyA4u4FNFU": 1,
+		"1_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": 1,
+		"6_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR": 1,
+		"1_1AvkR7PmGFLZL9drPpqCaBPEdcVipv2Ajs": 1
+	},
+	"next_comment_id": 27,
+	"comment": {
+		"5528_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 1,
+				"body": "URL: http://akasha.world/",
+				"added": 1462555410
+			}
+		],
+		"1_1LPyB18qg6mGFb1v8zMYd6TBCXK2c7BmRm": [
+			{
+				"comment_id": 2,
+				"body": "> [nutomic](#comment_2_1FEikAyxCNPJcW996B69r5UFg29yfq579m): Has anyone checked out the ZeroNet source?\n\nI have looked at it quite a bit and written [some plugins and a robot](http://127.0.0.1:43110/1JjHyLeEDidHyyN33Y8f8cQKVEzWCEPnW7/).  Do you have any questions?",
+				"added": 1471804402
+			},
+			{
+				"comment_id": 4,
+				"body": "> [nutomic](#comment_6_1FEikAyxCNPJcW996B69r5UFg29yfq579m): Not really, just curious about the code quality etc. I'm a Java/Scala programmer, so I probably won't contribute to a Python project (also because I don't have the time).\n\nI am a hobbyist and don't feel like I can really comment on the quality of the code.  I am trying to learn Python and coffeescript/javascript by studying ZeroNet.",
+				"added": 1471827768
+			}
+		],
+		"2_13U9mRgV3bdkXiNXjMZeBWTcSHZjgNmk2z": [
+			{
+				"comment_id": 3,
+				"body": "Nobody needs to seed Bot Hub.  I did not understand how ZeroMe data is stored when I made it.",
+				"added": 1471804613
+			}
+		],
+		"1_1NqBBGk69vKmEpN4EHafCeUQh8veeyysTj": [
+			{
+				"comment_id": 5,
+				"body": "Another option is I2P ad I2PSNARK.  I2P goes a long way toward hiding your IP address.  However, it is quite slow.  You can expect a well-seeded 1.5 GB video file to take about 48H.  [More information.](https://geti2p.net/en/)",
+				"added": 1471871116
+			}
+		],
+		"1_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": [
+			{
+				"comment_id": 6,
+				"body": "> [arnebolen](#comment_4_1AjxW1N844WRpscEFSotfsqLXsQurz83xc): Which market is that?\n\nPeople who value their privacy.  AFAIK it is possible with OpenBazaar to find the IP of any store on the network.  This might mean that the NSA is logging the IP addresses of OpenBazaar users in case the IRS wants to take a closer look at them.  This should especially worry users with significant net worth, if there are any.  If it is not already clear, I am an anarchist.  I think taxation is plunder and that it is arrogant and paternalistic to punish people for putting whatever they want into their bodies.\n\nThe market that OpenBazaar already has might wish to move to ZeroNet since we have ZeroMe, ZeroTalk, etc.  After all, Etsy and Ebay charge at least 0.20 per listing and 3.5% in transaction fees.  Some artists might want to pocket that instead by selling here, especially if ZeroNet becomes popular.",
+				"added": 1471896125
+			}
+		],
+		"1_18ZbdG9rMgLWzfFrWMkyGXtSv7MyPfUuSj": [
+			{
+				"comment_id": 7,
+				"body": "I2P is definitely worth a look!  It has a built-in bittorrent client called I2PSnark which routes all traffic over the I2P network.  There are 2 I2P trackers (IDK why only two) and some versions of Vuze seed to I2P clients.",
+				"added": 1472425820
+			}
+		],
+		"6_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR": [
+			{
+				"comment_id": 8,
+				"body": "Hey zarty!  Being active on ZN does help a lot.  For somebody into privacy, decentralization, torrenting, linux, etc. there is a big community here.  However, I don't know what somebody who is into, say, weightlifting would like about it.   It is trivial to make a clone ZeroTalk for each of your interests.  So if you find a missing topic, you could try setting one up for it and advertising!  (It would probably be a good idea to use a different pseudonym for identity.  Otherwise people could try to find e.g. all English speaking IT professionals who are also into CrossFit, fossil collecting, experimental aircraft, reggae, and the fiction of Louis T. James.)",
+				"added": 1472426529
+			}
+		],
+		"1_1CpmRqADyAVneFPpvoUJjhMQpQwLEB3CWE": [
+			{
+				"comment_id": 9,
+				"body": "I was thinking about creating a market, but there is zero interest somehow.",
+				"added": 1473296042
+			}
+		],
+		"2_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": [
+			{
+				"comment_id": 10,
+				"body": "> [waterrabbit](#comment_18_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Nofish, the ZeroNet developer, is working on it.\n\nThanks, friend.  Here is the link (clearnet) in case anybody is interested: https://github.com/HelloZeroNet/ZeroNet/issues/45",
+				"added": 1473297846
+			}
+		],
+		"3_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": [
+			{
+				"comment_id": 11,
+				"body": "@ks:  Thanks for the tip!  I should be clear about the use case I have in mind.  I would like to lower the barriers that new users face when considering ZeroNet.  If it is something that people can easily set up and use with their phone, then the audience is that much larger.  My ideal new user experience is that a user simply loads an \"official app\" to use ZeroNet, selects their proxy from a long list of mirrors, generates a key, and goes right into the world of ZeroNet.  (Users who want the various guarantees that come with running a full node can always do so.)  There is also a good argument for maintaining web portals with the same features as a presumptive ZeroNet app as a failsafe.  After all, Apple and Google can decide to de-list an app for any reason.   (Also relevant: I have no experience making mobile apps!)",
+				"added": 1473433901
+			},
+			{
+				"comment_id": 12,
+				"body": "> [stephenstarkie](#comment_2_16ScAEZDt1u39wfVWZETfogqze3pq8ABMg): \n\nIt is exciting indeed!  You are right that anybody running a full ZeroNet implementation on their phone/tablet could forbid it from using mobile data.  They would still have access to the content of sites they downloaded while on WiFi.  However, the great thing about ZeroNet is the user interaction for which you need an internet connection.  So the thing I sketched above is a trade-off intended to minimize the bandwidth used by the client while still allowing them to interact on ZeroNet.",
+				"added": 1473434914
+			},
+			{
+				"comment_id": 24,
+				"body": "> [kingbudgie](#comment_24_17nphNHoGtz9EzvvTSSbZn7WHfM1ynpdsL): \nSee my reply to ks down the page.",
+				"added": 1473469655
+			},
+			{
+				"comment_id": 25,
+				"body": "> [kingbudgie](#comment_26_17nphNHoGtz9EzvvTSSbZn7WHfM1ynpdsL): ah wait you want a mobile Zeronet?\n> Yeah there is a problem with using a bunch of mobile devices are routers, relay, or torrent seeds...\n> Uptime, throughput, and laziness.\n> Uptime: many mobile devices will be shut down and have \"intermittent\" connections\n> Throughput: many mobile devices suck butt when it comes to providing a decent speed to get file \"x\"\n> Laziness: people always get bored and uninstall shit.\n> Source: see I2P on mobile devices, they use them in the I2P network but not as floodfills or high capacity nodes. IDR what the hell they use them for but they are playing around with it.\n> In apps like Zeronet using short lived and slow nodes is hard to find a legit use for them...\n\nThanks!  This is exactly the kind of response I was hoping to get.  It seems that you are arguing against running a full peer on a mobile device.  However, this is not really what I was thinking.  I was thinking of making something that is just epsilon different from the existing ZeroNet proxies out there.  The only additional thing I would like to do is implement it so that user keys are not transmitted to the server.  This way ordinary people could use ZeroNet like they use any other site, save that they authenticate once for each ZeroNet session using a key instead of a password, rather than once per site using a password of their choice.",
+				"added": 1473479410
+			},
+			{
+				"comment_id": 26,
+				"body": "> [execin](#comment_5_1EizNCr1TBaytrcEFBPrk8yk6eUFgNCC5r): The peers can only run javascript. You could feed the result of running some algorithm in js back to zeronet but this is highly unreliable.\n\nWhat do you mean by unreliable?  Are you worried about dishonest users?  There are ways to deal with dishonest users.",
+				"added": 1473480054
+			}
+		],
+		"1_1Cq3f8r7jiiYuVJfrTDUrenioiRn9TMASV": [
+			{
+				"comment_id": 13,
+				"body": "> [ks](#comment_176_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx): Ads suck. Ads should die.\n\nAdvertising is important!  Without advertising, producers would fail in obscurity.  On ZeroNet, the merger feature creates a disincentive for major social applications to integrate advertising.  For example, let's suppose that @nofish is hard-up for cash and sets up some advertising on ZeroMe.  If \"ZeroMeAdFree\" replicates the functionality but without ads then users will move from ZeroMe to ZeroMeAdFree.  This may even extend to popular sites.  After all, if you start posting ADS to your blog, I could write a script that copies your posts (with signature!) to another ad-free blog.  Is there anything you could do to prevent this?",
+				"added": 1473444030
+			},
+			{
+				"comment_id": 15,
+				"body": "> [ks](#comment_177_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx): No, I would even welcome that.  And I would unfollow anybody who starts posting ads on their timeline or blog.\n\nI'm not sure if I would or not.  If they were already marginal then booted would they be! \n\n`This comment brought to you by Cheerios.`",
+				"added": 1473445063
+			},
+			{
+				"comment_id": 16,
+				"body": "> [icf20](#comment_6_1JARuoKjvXanUeKyPTXU9cus2jRzi4DZU5): well there needs to a pay per view solution maybe based on bitcoin\n\nI think it would be very difficult to create any pay-per-view services on this platform.  After all, users download *all* site data when they visit a site.  I wouldn't bet on any effective DRM taking root here.",
+				"added": 1473460787
+			},
+			{
+				"comment_id": 17,
+				"body": "At first, I thought that ads hosted on ZeroNet might be impossible.   But maybe not ...\n\nTargeting ads is disintermediated in ZeroNet.  Anybody can mine ZeroMe and ZeroTalk to profile users by ZeroID.  Then it would be trivial for a site to ask for permission to merge with XYZ_ad_network.bit and pull data about which ads to show which ZeroIDs.  \n\nHow can ZeroNet sites provide a convincing estimate of the number of views each ad got?  The site can have the user process do a proof of work such as H(site_address,timestamp,ad_id,nonce) < D and publish a signature of it to XYZ_ad_network.bit.  Provided the parameters are tuned correctly (and that advertiser checks that the site is actually showing the ads) this could be reliable.",
+				"added": 1473461885
+			},
+			{
+				"comment_id": 18,
+				"body": "> [nutomic](#comment_15_1FEikAyxCNPJcW996B69r5UFg29yfq579m): Something like Flattr would be really easy to implement. Just add some Bitcoin to your Zeronet. Whenever you open a site, a percentage of the Bitcoin is sent to the site.\n\nThis is a nice idea, but there would soon be a fork that removes this feature unless it could be toggled.",
+				"added": 1473461941
+			},
+			{
+				"comment_id": 19,
+				"body": "I'm surprised by how interesting advertising turns out to be.  (I do hate ads as much as the next guy when I have my internet user hat on, honest!)  What are the economics of paying users to look at ads?  It depends on how well targeted they are, assuming negligible cost to create and distribute ads.   If n people looking at an ad sells m units of the product over the baseline, then it is profitable to pay up to p (m/n) where p is the profit per unit.  However, most people get a lot of consumer surplus out of free websites.  So you can usually get a better rate by paying a site to show the ad than paying the user to look at it.",
+				"added": 1473462286
+			},
+			{
+				"comment_id": 21,
+				"body": "> [nutomic](#comment_16_1FEikAyxCNPJcW996B69r5UFg29yfq579m): Of course it would be entirely voluntary and donation-based. Still, if only 10% of users do this, it would give website owners more money than ads ever could. \n\nNow that you have me thinking along these lines, I have to admit it would be great to automate the donation process!  I would prefer to give and receive donations in XMR, myself.\n\n> Also, with the current audience of zeronet, which is quite technical, you can be sure that most users will block ads really fast.\n\nThis is another interesting question.  Sites that want to accept payment to display ads both risk becoming unpopular and have to stay ahead of whatever ad-blocking system people wind up creating.  Perhaps the economic case for paying users to look at ads is better than I thought!",
+				"added": 1473463346
+			}
+		],
+		"2_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 14,
+				"body": "> [nofish](#comment_756_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): If you have the site's private key (if you cloned it then it's in data/users.json), then you can modify any file:\n> \n> Remove the Topic/Comment from the user's data.json file\n> Open the sidebar\n> At the bottom change content.json to data/users/1editeduseraddress/content.json\n> Press Sign, enter your site's privatekey, publish and you are done\n\nSo does this mean that, from the point of view of plain vanilla users, a site owner can lie about what users on the site are saying?  Of course they can't fake the user's signature.  Should the ZeroNet process somehow make the fact that user data is signed by the site but *not* the user more transparent?",
+				"added": 1473444379
+			}
+		],
+		"1_1BJLFpeyJtnrk5cC2rUMxB5oNrYs3wokVE": [
+			{
+				"comment_id": 20,
+				"body": "There is no vetting process.  If you choose a ZeroID that is not already on ZeroNet, @nofish's server will sign it over to you.  More precisely, it will sign a string containing your ZeroID specific BIP32 address (derived from your master key) and your user name.  Once you have this signature, there is nothing @nofish can do to cause it not to exist.  He can publish a statement such as \"Oh actually, liamr's certificate is revoked\" but not more.  However, he could give anyone else a similar certificate.  There is no mechanism to maintain consensus about who owns which ZeroID.  The only reason for ZeroID is human readability.  (A while back I had some trouble getting ZeroNet to publish data from users who had not registered a certificate, but if anything this is a bug not a feature.)",
+				"added": 1473462942
+			},
+			{
+				"comment_id": 22,
+				"body": "> [edantes](#comment_31_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi): Hmmmm....so how is that multi-user plugin supposed to work? I tried it out, it generated new IDs just fine but they don't appear to be useable, as in you can't log into ZN sites with them....am I missing something here?\n\nThe IDs that are generated by the multi-user plugins are long alphanumeric sequences computed from your private keys.  They are different from ZeroIDs, which you must request from ZeroID.bit.",
+				"added": 1473465432
+			},
+			{
+				"comment_id": 23,
+				"body": "> [edantes](#comment_33_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi): Right....so how are they actually used then? Is it possible to post with them?\n\nIn their settings, a site can require a certificate (username) from a valid provider (they specify ZeroID, ZeroVerse, Kaffie, etc.) in order to post.  ZeroMe and ZeroTalk have such a requirement.  However, in principle, you could create a site that does not have this requirement.  To use your spiffy new addresses, log in to ZeroNet with one, then go to ZeroID and request something like edantes2 or the_real_edantes.  ZeroID will give you the certificate and you can use it to post.",
+				"added": 1473467345
+			}
+		]
+	},
+	"comment_vote": {
+		"733_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"33_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg": 1,
+		"14_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV": 1,
+		"8_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR": 1,
+		"18_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"174_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"177_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"15_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"12_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"16_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"26_17nphNHoGtz9EzvvTSSbZn7WHfM1ynpdsL": 1,
+		"5_1EizNCr1TBaytrcEFBPrk8yk6eUFgNCC5r": 1,
+		"3_1Psd8z6hvC62pEbVgtTAXbuM3PFPgz46tZ": 1,
+		"770_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

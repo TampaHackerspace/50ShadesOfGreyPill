@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HKSTK//p2OPLI1WVS+onSMyvyLBog2V1HDNo90WonYtB4g0M67gpiwKQCNOAfvhUrMbVvsczOoMrH9Vb7h5ZvLo=",
+ "cert_user_id": "whiterose@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "dd5f747f755dbb47ec755ef1c664f73766df7c3adfbe07b2e6c41ac6e97aa82c",
+   "size": 359
+  }
+ },
+ "inner_path": "data/users/1pGdkP4RBt8QW66TEBLLY3124RzVw4mSg/content.json",
+ "modified": 1485088368,
+ "signs": {
+  "1pGdkP4RBt8QW66TEBLLY3124RzVw4mSg": "GxwEzGGR48aGOhcH0oplwt/vZ5NOuzykStrfS7dVBwq9P7dN+gyEfTv5nvHVHLEuW5NJ4veYNTdabRmiwEUeeaI="
+ }
+}

@@ -1,0 +1,29 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 1,
+	"next_follow_id": 2,
+	"avatar": "jpg",
+	"user_name": "Burningcold",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Hackity hackity hack. Please seed Zites.",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1487172273,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"1QAPE79JkSKVzRKYEZXpmx2aiitzdEapAk_1": 1487178628
+	},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1LjDNL35aPNE5UYTUAcB7cRX7PxgC5qcF3",
+			"user_name": "Habermas",
+			"date_added": 1487199131
+		}
+	]
+}

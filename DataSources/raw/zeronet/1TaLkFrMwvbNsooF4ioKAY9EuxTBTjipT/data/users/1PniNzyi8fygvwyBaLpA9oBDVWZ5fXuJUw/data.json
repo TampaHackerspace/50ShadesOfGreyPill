@@ -1,0 +1,268 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "How to post to ZeroTalk from gate?",
+			"body": "I want to do a two-way gate \"Web <-> ZeroTalk\". For messages from ZeroTalk no any questions — I stupidly read posts/comments from SQLite and am happy. But how to correct to post data to ZeroTalk? I, look, data are duplicated both in JSON, and in SQLite. Whether it means that data income from network in JSON, and SQLite is their cache for acceleration of local work? So I should save the new post information both in JSON, and in SQLite? Whether there is some more beauty solution?",
+			"added": 1475650656
+		},
+		{
+			"topic_id": 2,
+			"title": "Dear Chinese friends!",
+			"body": "You have your own ZeroTalk! Do not need to score messages on the Chinese tape international ZeroTalk. What happens if everyone here begins to write in their own language? Chaos!\n\nLet's respect each other!",
+			"added": 1491503219
+		}
+	],
+	"topic_vote": {
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	},
+	"next_comment_id": 38,
+	"comment": {
+		"1_1HRrLnTaJwRCA24L45Sr3cYJ3nDmJmPabf": [
+			{
+				"comment_id": 1,
+				"body": "Moscow, Russia, Earth.",
+				"added": 1475408867
+			}
+		],
+		"1_1NmwA9EFPu94QaN7yMYpzu2iSg1dGAYV6n": [
+			{
+				"comment_id": 2,
+				"body": ">socket.error: [Errno 98] Address already in use\n\nzeronet already runned.\n\nTry\n```bash\nps aux|grep zeronet\n```",
+				"added": 1475513289
+			}
+		],
+		"1_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw": [
+			{
+				"comment_id": 3,
+				"body": "> No. Only JSON. In practice, you need to: edit the JSON file, sign the user's content.json file using their private key, publish the files. The SQLite database will be rebuilt automatically as needed.\n\nI experiment with this ZeroTalk test:\n\nhttp://127.0.0.1:43110/1qh2cbxKaTUv5w4wS8qbuX8H9cxptJpMz/?Topic:1_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw/\n\nI modify `<zeronet-dir>/data/1qh2cbxKaTUv5w4wS8qbuX8H9cxptJpMz/data/users/1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw/data.json`\n\n1. Increment `next_comment_id`\n2. Append `comment` entry.\n3. Run `./zeronet.py siteSign 1qh2cbxKaTUv5w4wS8qbuX8H9cxptJpMz`\n\nI receive such log:\n\n```\n- Signing site: 1qh2cbxKaTUv5w4wS8qbuX8H9cxptJpMz...\n...\nSite:1qh2cb..JpMz - img/upload/1.png (SHA512: 1af5da49fcbe7a54c20af29e7b2a251fd5eff9bb1d1814a7bee990e892db38cd)\nSite:1qh2cb..JpMz - [SKIPPED] data/users/zerotalk.db\nSite:1qh2cb..JpMz - [SKIPPED] data/users/content.json\nSite:1qh2cb..JpMz - [SKIPPED] data/users/1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw/data.json\nSite:1qh2cb..JpMz - [SKIPPED] data/users/1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw/content.json\nSite:1qh2cb..JpMz Adding timestamp and sha512sums to new content.json...\n```\n\nThat is this file isn't signed (and doesn't publish by `sitePublish`)\n\n`dbRebuild` rebuild SQLite — it contents new record. But the local ZeroTalk still doesn't show any changes in browser. If I receive changes from the external node, then my data.json (and SQLite) lose the change made manually.\n\nWhat do I do wrong?",
+				"added": 1475673894
+			},
+			{
+				"comment_id": 4,
+				"body": "> [nofish](#comment_792_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): --inner_path data/users/youraddress/content.json.\n\nMany many thanks! :D Everything works!",
+				"added": 1475681876
+			}
+		],
+		"2_1Kgy2CdXdjNQSjK6pkLasWjmza9KQ1uZE4": [
+			{
+				"comment_id": 5,
+				"body": "В коде нынешнего ZeroTalk это концептуальная проблема. В длинных дискуссиях нет разбивки на страницы. Есть подгрузка более старых сообщений в конце страницы по клику. Поэтому, когда новые сообщения сверху, то тот, кому нужны более старые, листает вниз, жмёт кнопку, получает ещё более старые.\n\nЕсли сделать привычный подход «старые сверху», то возникает концептуальная проблема — придётся при каждом открытии темы листать в конец, а для длинных сообщений ещё загружать страницы за страницами...",
+				"added": 1476059228
+			}
+		],
+		"1_1FZEtMSz2tKFZPmBtjhD7JgR4awtAMD47G": [
+			{
+				"comment_id": 6,
+				"body": "Owner of ZeroTalk instance can modify any information of his instance.\n\nYou can create clone of ZeroTalk and use it as you own instance.",
+				"added": 1476529925
+			}
+		],
+		"8_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 7,
+				"body": "ipfs, btsync, syncthing, retroshare",
+				"added": 1476728240
+			}
+		],
+		"1_121wHEZXhLuoFQhmawdQRLVvtBzhSDT4R5": [
+			{
+				"comment_id": 8,
+				"body": "I sometimes read the RetroShare forums. But seriously I don't use it. I would like to connect RetroShare to Web through a gate/proxy, but neither with a data structure unclear, nor on API there is no information.",
+				"added": 1476857618
+			}
+		],
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": [
+			{
+				"comment_id": 9,
+				"body": "> [silverstorm](#comment_17_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH): Relate the reputation according the deposited amount of money will introduce a plutocratic system in a network born to be free. This is VERY unfair. \n\nIn fully anonymous networks users are not responsible for their words. And there are always those who because of the destructive nature of trying to destroy any discussion. The lack of reputation system does not allow to detect such immediately\n\nPeople are not the same. And different people should be different attitude.",
+				"added": 1476858144
+			}
+		],
+		"1_1EcTBTYsro4Vr5ea5NahkseWCK883quWM1": [
+			{
+				"comment_id": 10,
+				"body": "IPFS badly is suitable for distribution of large volumes of information because can't distribute already existing files. IPFS stores all information in own storage. It is necessary to have, for example, 1TB of movies for viewing with PC and 1TB more for distribution on IPFS.",
+				"added": 1477020598
+			}
+		],
+		"9_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 11,
+				"body": "ZeroNet nodes don't requred continuous operating time. Therefore, nothing prevents restart the node when it is needed.",
+				"added": 1479128929
+			},
+			{
+				"comment_id": 13,
+				"body": "> [balancer73](#comment_11_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw): ZeroNet nodes don't requred\n\nSorry, I missed the answer :) I wrote this in another topic.",
+				"added": 1479128985
+			}
+		],
+		"1_13GU1tjE8NpZocm8bZdSE83BmrbLfydR9V": [
+			{
+				"comment_id": 12,
+				"body": "ZeroNet nodes don't requred continuous operating time. Therefore, nothing prevents restart the node when it is needed.",
+				"added": 1479128946
+			}
+		],
+		"1_15vUhZHW3rWwSV2WNWgbhPZpKPXD4c1Ab8": [
+			{
+				"comment_id": 14,
+				"body": "ZeroNet muy conveniente porque se puede comunicar directamente con los extraños. Otras redes, como RetroShare, en este sentido, mucho peor, como se puede comunicar sólo a través de un círculo de amigos.",
+				"added": 1479146553
+			}
+		],
+		"11_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 15,
+				"body": "I believe that if you decide wisely, something radically change can only be expressed when the majority of people (at least 2/3 = 67%) in favor of these changes. And to decide, of course, these people. If the people of California decides to leave the United States - it is their right. But it has to decide by a majority of voters. In this sense, I see stupid Brexit. If the advantage is a matter of interest, tomorrow slightest hesitation may decide that you want to cancel Brexit. So what should a clear majority to decide.",
+				"added": 1479210648
+			}
+		],
+		"2_1BEyFJrKVaGLuogLirnrsa7yV2MXNvYpcp": [
+			{
+				"comment_id": 16,
+				"body": "> [weakish](#comment_43_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): View static ZeroNet sites via browsers without JavaScript support.\n\nWrong link. Do not use domain in ZeroNet urls.\n\nRight link: [View static ZeroNet sites via browsers without JavaScript support](/Talk.ZeroNetwork.bit/?Topic:1_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR)",
+				"added": 1480089566
+			}
+		],
+		"1_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": [
+			{
+				"comment_id": 17,
+				"body": "Not worked for me. I can't write blog comments on public proxy with this settings :-/",
+				"added": 1480155864
+			}
+		],
+		"1_1BDjbLKuCwbDhPZs24ERxkYz5Kh8rThwK8": [
+			{
+				"comment_id": 18,
+				"body": "I used once some time. Then has ceased to use. Communiti is almost absent, feedback isn't felt. Though purely technically system interesting.",
+				"added": 1481301229
+			}
+		],
+		"2_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": [
+			{
+				"comment_id": 19,
+				"body": "> [g1tich](#comment_5_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): Maybe something without \"go\" and \"zero\"?\n\nStayOne :)",
+				"added": 1481301284
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 20,
+				"body": "I have changed in the ZeroBlog `data.json` by external script. Has updated `zeroblog.db` by means of `zeronet.py dbRebuild`. But the started zeronet demon doesn't see these changes, still distributing the old version. How to tell I to the demon that data have changed, without restarting it entirely?",
+				"added": 1482224893
+			},
+			{
+				"comment_id": 21,
+				"body": "> [nofish](#comment_839_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): This should work:\n> \n> Modify data.json\n> zeronet.py siteSign yoursiteaddress --publish\n\nStrange effect. On external ZeroNet nodes my updating appears immediately. On the directly updated node — not :)",
+				"added": 1482226114
+			},
+			{
+				"comment_id": 22,
+				"body": "> [nofish](#comment_840_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The --publish sends a siteReload command to the local client if it's already running.\n\nDon't worked on me. Runned local node don't update via `./zeronet.py siteSign <siteaddress> --publish`.\n\nThe remote nodes is updated successfully.\n\n```\n./zeronet.py --version\n- Starting ZeroNet...\n- OpenSSL loaded, version: 01000207F\nZeroNet 0.5.1 r1756\n```",
+				"added": 1482242515
+			},
+			{
+				"comment_id": 23,
+				"body": "> [nofish](#comment_842_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Do you see Sending siteReload message command response status?\n\nYes:\n```\n- Starting ZeroNet...\n- OpenSSL loaded, version: 01000207F\n- Version: 0.5.1 r1756, Python 2.7.12 (default, Nov 19 2016, 06:48:10) \n[GCC 5.4.0 20160609], Gevent: 1.1.0\n- Signing site: 1HF128JtMzhV6WsMdL3n5zhj4n4L7gCHsR...\nSite:1HF128..CHsR Opening site data directory: data/1HF128JtMzhV6WsMdL3n5zhj4n4L7gCHsR/...\nSite:1HF128..CHsR - dbschema.json (SHA512: fa70ee2fce3f8342c6909e0e9b853bca71fa996f23f85739f94c086f2bda5ceb)\nSite:1HF128..CHsR - index.html (SHA512: f1faefd7ec6813319f53a64dd880d1d66046203a7a3b9a5f80ea6f7308579c97)\nSite:1HF128..CHsR - [SKIPPED] content.json\nSite:1HF128..CHsR - data-default/data.json (SHA512: aff6accbac7e950ff567105666ddf29b70ca7c2dcd9d90f9a969509a42a9b195)\nSite:1HF128..CHsR - data-default/users/content-default.json (SHA512: 0603ce08f7abb92b3840ad0cf40e95ea0b3ed3511b31524d4d70e88adba83daa)\nSite:1HF128..CHsR - js/all.js (SHA512: 12619cf3c68a261f98dd285eb7b4f00a79351fc2393a975af813e4fd8c4b3bc5)\nSite:1HF128..CHsR - css/all.css (SHA512: 6ac98471afa841c9b8f05cf74c2a9ca3daa4b399a1b400832d93f8335b01ca6f)\nSite:1HF128..CHsR - img/avatar.png (SHA512: adf7c31831a759e24a9aa3730a2ff23b824f2d07f320e7eb1e38bfd686515037)\nSite:1HF128..CHsR - img/loading.gif (SHA512: 8a42b98962faea74618113166886be488c09dad10ca47fe97005edc5fb40cc00)\nSite:1HF128..CHsR - data/data.json (SHA512: 52df0de29e0521dbc0a19de3f65c1be46908e2a6aab25a343c5f01c49c0022df)\nSite:1HF128..CHsR - [SKIPPED] data/zeroblog.db\nSite:1HF128..CHsR - [SKIPPED] data/users/content.json\nSite:1HF128..CHsR Adding timestamp and sha512sums to new content.json...\nSite:1HF128..CHsR Verifying private key...\nSite:1HF128..CHsR Correct 1HF128JtMzhV6WsMdL3n5zhj4n4L7gCHsR in valid signers: ['1HF128JtMzhV6WsMdL3n5zhj4n4L7gCHsR']\nSite:1HF128..CHsR Signing content.json...\nSite:1HF128..CHsR Saving to content.json...\nSite:1HF128..CHsR File content.json signed!\n- Loading site...\n- Creating FileServer....\nFileServer StreamServer bind error, must be running already: [Errno 98] Address already in use: ('', 15441)\n- Sending siteReload\n- {'to': 1, 'cmd': 'response', 'ok': 'Reloaded'}\n- Sending sitePublish\n- {'to': 2, 'cmd': 'response', 'ok': 'Successfuly published to 1 peers'}\n- Done.\n- Starting ZeroNet...\n```\nAfter that the external nodes are updated instantly, and on what operation was made — isn't updated. But several hours later updating happens.\n\n> (and do you have --tor always enabled or any other modified configuration settings?)\n\nNo. Node runned simple as `./zeronet.py`, without any parameters.",
+				"added": 1482297003
+			},
+			{
+				"comment_id": 28,
+				"body": "How can I disable add new zites on public zero-proxy?",
+				"added": 1484648659
+			}
+		],
+		"2_17ac9ybVj5CtUpBvi5NeP1EwNZjfJoZWvt": [
+			{
+				"comment_id": 24,
+				"body": "[RetroShare](http://retroshare.net/). Anonymous p2p chats, forums, file excnahge and more. But not in browser, in GUI-client only.",
+				"added": 1482417809
+			}
+		],
+		"1_1yvSQH5Z7aJra4y9s6KG2kjLeGXYhNgn7": [
+			{
+				"comment_id": 25,
+				"body": ">What's the point of combining zeronet with tor?\n\nZeroNet without Tor doesn't provide anonymity. The IP address of each visitor is visible. As well as IP address of each website.\n\n>the only thing you could possibly want from it is child porn\n\nThere are, for example, still purely political restrictions. For example, in Russia the Nazism and extremism are punished. Respectively, if someone aggressively opposes the Russian authorities, then he needs to be anonymized.\n\nStill there are questions of copyright. Even I regularly break them :) So far on - trifles, it is possible not to mask. But if I, for example, want to share the interesting book, then it is better to make it already anonymously.",
+				"added": 1482693176
+			}
+		],
+		"2_1AWSA7oG2qrhWYgeSiJtDHCwc2KvyR7ijs": [
+			{
+				"comment_id": 26,
+				"body": "In ZeroNet there is never \"site down\" :) In it all essence of this network. Here the zerosite can only stop being updated. But ZeroTV was updated only 10 hours ago.",
+				"added": 1483897494
+			},
+			{
+				"comment_id": 27,
+				"body": "> [martinv](#comment_8_18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj): What about every peer including the original owner of a zite deletes the site from their ZN dashboard?\n\nIt is absolutely unreal situation for any popular zites :) Only that zite which is necessary to nobody at all can disappear.\n\n...\n\nMy statistics shows that ZeroTV is available from 120 nodes.",
+				"added": 1483898466
+			}
+		],
+		"6_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": [
+			{
+				"comment_id": 29,
+				"body": ">Has anyone else been?\n\nI am not engaged in rocket production, but I support a rocket modelling forum on the usual Internet. In Russia it is now not the safest subject for discussion therefore I have tried to move communication to some subjects in ZeroTalk. But people don't hurry to go here yet :) ZeroTalk here: http://127.0.0.1:43110/1JHnwMMGFJJ78KENfJZx1kjRmYRhQqt46D/\n\nBut there it is still empty also the main language — Russian :)",
+				"added": 1488234443
+			},
+			{
+				"comment_id": 30,
+				"body": "There (in ZeroTalk) it is all the same empty, nobody has written anything yet.\n\nPeople for whom I have started that forum communicate in an ordinary web forum to the address:\n\nhttp://www.wrk.ru/forums/viewforum.php?id=23\n\nThere — yes, there are a lot of different materials written for many years. In total in Russian, but now electronic translators work otositelno not bad. I, for example, almost don't know the English grammar therefore I write all this through the electronic translator too.\n\nYou can try to read a forum through the electronic translator from Google for all website entirely:\n\nhttp://translate.google.com/translate?js=n&sl=auto&tl=en&u=http://www.wrk.ru/forums/viewforum.php?id=23",
+				"added": 1488315136
+			}
+		],
+		"2_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw": [
+			{
+				"comment_id": 31,
+				"body": "> [cyberslave](#comment_3_1BkgWBWWN9CoXNeEmyyuagid7roJruBVjz): This ZeroTalk forum titled as \"Main\" not \"English\". You can create your own English ZeroTalk if you want.\n\nХорошо, тогда с Вами лично буду отныне разговаривать по-русски :)",
+				"added": 1491882270
+			}
+		],
+		"1_1E8KDakJCmMofVgTawocXc4pX9Fn3K3ob1": [
+			{
+				"comment_id": 32,
+				"body": ">will this year start ww3??\n\nThe WW3 began in 1945 and ended in 1991 with the defeat of the Warsaw Bloc.",
+				"added": 1492505464
+			},
+			{
+				"comment_id": 33,
+				"body": "> [gary2016](#comment_1_1E8KDakJCmMofVgTawocXc4pX9Fn3K3ob1): i think we will get a war against muslim and christians....\n\nThis war is already on. Has begun somewhere from the end of 1990th years. And has moved to a particularly active phase since 2001.",
+				"added": 1492509323
+			}
+		],
+		"36_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 34,
+				"body": "You would at least give a title and a brief description. Otherwise it looks like a primitive spam and many people will not go to Zite for you.",
+				"added": 1492939391
+			}
+		],
+		"1_1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x": [
+			{
+				"comment_id": 35,
+				"body": "Just delete all zites with unwanted content. And block users, who posted such content in ZeroMe.",
+				"added": 1492975909
+			},
+			{
+				"comment_id": 36,
+				"body": "> [thegillies](#comment_1_1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x): does zerome block for all apps or just zerome?\n\nI did not check, but, in my opinion, the blocking of a particular user extends to all of its content anywhere. Just in ZeroTalk or ZeroBlog comments it's impossible to insert pictures, so any unwanted content is still impossible. It can only be either in extraneous Zites, or in ZeroMe.",
+				"added": 1492977599
+			}
+		],
+		"14_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 37,
+				"body": "> [seequ](#comment_1_19BZ9s633TaM3t7oW5bQPTPQJU3cbyibVH): Maybe it was at that time and later they added illegal content - or maybe it always had illegal content and I didn't know about it.\n\nIn ZeroNet, at least you can control this process. In other p2p networks, you often can not even know what exactly you are distributing :)",
+				"added": 1493675802
+			}
+		]
+	},
+	"comment_vote": {
+		"792_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"28_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw": 1,
+		"22_1HiyP7AD74uGuGBZLqhcmfQgwu5VC8nnYY": 1,
+		"6_1eQKH8VcGoV17tUEfCHad8pMix9qR8aVu": 1
+	}
+}

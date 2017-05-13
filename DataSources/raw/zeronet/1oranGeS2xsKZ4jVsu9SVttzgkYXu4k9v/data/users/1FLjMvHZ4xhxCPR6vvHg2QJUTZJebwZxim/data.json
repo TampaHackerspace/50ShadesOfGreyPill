@@ -1,0 +1,150 @@
+{
+	"next_post_id": 9,
+	"next_comment_id": 9,
+	"next_follow_id": 5,
+	"avatar": "jpg",
+	"user_name": "Rek",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "A self styled internet pig. Oink.\n\n* * *\n\n[RekZone - My Blog](http://127.0.0.1:43110/13Ft1LPPqh7uDvhdB2JALPo1E73kKztB1E/)",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1489472068,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1489472317,
+			"body": "So hello to anyone who takes the time to look at this. Hope it finds you well. Just taking a stroll through ZeroNet to see what I find. Very interested in looking closer at the decentralized web and what it could mean for the future of the internet. ",
+			"date_added": 1489472315
+		},
+		{
+			"post_id": 1489474164,
+			"body": "Ok, about ready to strangle this thing. For the life of me I cannot get the port to open. I'm getting update and peer errors in almost every update, yet inexplicably some go through. \n\nAlso I thought ZeroNet was supposed to automatically add the port to the forwarding list via upnp, but my router says it didn't even try. ",
+			"date_added": 1489474161
+		},
+		{
+			"post_id": 1489474307,
+			"body": "Also I initially was going to run ZeroNet through strictly through tor, but you can't host through it so I'm kinda at a loss as to how that works in a P2P network setup. Too much reading, and configuration for 3 in the morning. ",
+			"date_added": 1489474303
+		},
+		{
+			"post_id": 1489504342,
+			"body": "Finally got the stupid ISP router to let the port open. WOOT",
+			"date_added": 1489504337
+		},
+		{
+			"post_id": 1489519679,
+			"body": "🤔 Just curious if Zero was designed with extended unicode in mind. Mind you I see tons of chinese all over Zero so I'm guess it is but let's try.",
+			"date_added": 1489519673
+		},
+		{
+			"post_id": 1489520067,
+			"body": "So is there a branch of ZeroHome that lets you star sites in the connected sites list or provide some way of hiding part of the list? I've only been on here a day and the list is quite a scroll. 😐",
+			"date_added": 1489520060
+		},
+		{
+			"post_id": 1489854749,
+			"body": "Slowly but surely things are coming along. Need to work towards getting a few things ironed out with a few sites. ",
+			"date_added": 1489854741
+		}
+	],
+	"post_like": {
+		"18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1489462125": 1489472423,
+		"18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1488102151": 1489472469,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1489512208": 1489521079
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Rythyrix: Very true, then again the entire internet backbone right now is an open book for anyone wanting to make a buck. The thing that pisses me off most is that my ISP (Spectrum) router is broadcasting a company hotspot that I can't turn off. They are ripping me off for the crappy service they provide (1 whole Mbit up for only $80/mo), on top of degrading my service to provide a wifi network which I can't even use cause I don't pay for it. I would kill for choice. ",
+			"post_uri": "1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489504342",
+			"date_added": 1489519466
+		},
+		{
+			"comment_id": 2,
+			"body": "@Jayofthezero: There is just so much locked out on it, and half the time any settings I change from the control panel just revert or won't save. :-(",
+			"post_uri": "1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489504342",
+			"date_added": 1489519541
+		},
+		{
+			"comment_id": 3,
+			"body": "@Nekololi: The router/modem combo box is required. I'm sure there is some legally required option of buying your own but when I asked they wouldn't tell me only saying that they don't provide support or information on it. I'm moving in a few months to a FIOS area and will be totally enjoying that async love. Still expensive but at least the service is actually decent. ",
+			"post_uri": "1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489504342",
+			"date_added": 1489520968
+		},
+		{
+			"comment_id": 4,
+			"body": "@Nekololi: That's the thing. So long as it's not bad I don't want to make it unavailable or not seed it, just not clutter my list up. >.<",
+			"post_uri": "1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489520067",
+			"date_added": 1489521054
+		},
+		{
+			"comment_id": 5,
+			"body": "Oh, didn't notice the favorite. Thanks for that. Much better.",
+			"post_uri": "1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489520067",
+			"date_added": 1489521371
+		},
+		{
+			"comment_id": 6,
+			"body": "@Nekololi: Well seeding is the reason I wanted to get the port open. I wanted to maximize what I could give back. I don't use the tor mode though I experimented with it at first. ",
+			"post_uri": "1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489520067",
+			"date_added": 1489522405
+		},
+		{
+			"comment_id": 7,
+			"body": "@Lmath: I know most ISP's use that tech to lock down the heavily abused ports like 25 for SMTP, and 80 to prevent you from hosting a website. ",
+			"post_uri": "1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489504342",
+			"date_added": 1489522500
+		},
+		{
+			"comment_id": 8,
+			"body": "@Nekololi: Seeding does work, but it's like torrents. Its slower since you can only actively push out the content rather than accepting incoming requests. ",
+			"post_uri": "1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489520067",
+			"date_added": 1489523562
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y",
+			"user_name": "Rythyrix",
+			"date_added": 1489520140
+		},
+		{
+			"follow_id": 2,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "16nArdxrSaNThNp83kL8E6NLL9WD98iUne",
+			"user_name": "Jayofthezero",
+			"date_added": 1489520702
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB",
+			"user_name": "Nekololi",
+			"date_added": 1489521070
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1490761832
+		}
+	],
+	"settings": {
+		"reverse_comment_order": false,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"blocked": [],
+	"flags": {},
+	"comment_like": {
+		"1PK7r15RmMdmdnUCYeQEwuydfediNVDtt2_89": 1489519077,
+		"16nArdxrSaNThNp83kL8E6NLL9WD98iUne_24": 1489519077,
+		"18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_99": 1489519078,
+		"16nArdxrSaNThNp83kL8E6NLL9WD98iUne_55": 1491055311
+	}
+}

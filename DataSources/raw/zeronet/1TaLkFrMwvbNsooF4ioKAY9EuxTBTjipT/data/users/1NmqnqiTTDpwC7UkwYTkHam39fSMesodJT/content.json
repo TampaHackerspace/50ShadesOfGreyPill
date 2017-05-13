@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G9Nfccdcz6Z3vhtSV2S+FYmtbPQeZuAy/YtesWqcge7YlTWeGfPKrv9PKoKTlxYJyo3uzj+Pep+bu1UPb1x5BHE=",
+ "cert_user_id": "atlas@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "c4ae4176480cab9c688b4fd5038f7ec985d61e3737d154ca592f678e3132796a",
+   "size": 426
+  }
+ },
+ "inner_path": "data/users/1NmqnqiTTDpwC7UkwYTkHam39fSMesodJT/content.json",
+ "modified": 1486759829,
+ "signs": {
+  "1NmqnqiTTDpwC7UkwYTkHam39fSMesodJT": "HKJTvUxX5MlIjiO3jna4yOCNxzzHaYO9/4h3ll3UW9F06A93Y/5FLx8IWZRtgdzuyxVCCic2g8+QOBtevZhn1sw="
+ }
+}

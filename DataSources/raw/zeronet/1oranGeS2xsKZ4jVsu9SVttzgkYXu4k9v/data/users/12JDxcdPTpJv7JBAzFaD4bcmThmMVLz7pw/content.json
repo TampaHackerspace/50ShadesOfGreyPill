@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G+O+qQXOg5HP9PMzxr8u85b9dqi+SaCF9X771a4rWSu8mhvYiBdXEme9AxVGCdQlRkZltM1sTM9cmRalurJBjok=",
+ "cert_user_id": "cannabrowser@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "85eac5a5e84713fe1e8dee5c1ec1a6fe7e00d3b97f27d79edec1e5d8ae372fc7",
+   "size": 1000
+  }
+ },
+ "files_optional": {
+  "1485292864.jpg": {
+   "sha512": "391271c80d5d510c5c149b0cf1a0690a3d2cb84966c7ffd85b8f4c37cc72b82f",
+   "size": 37237
+  }
+ },
+ "inner_path": "data/users/12JDxcdPTpJv7JBAzFaD4bcmThmMVLz7pw/content.json",
+ "modified": 1485315043,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "12JDxcdPTpJv7JBAzFaD4bcmThmMVLz7pw": "G4dYnb6G9UJVZ2zIHIxjnI3DM58JeK4cL5UQ+eFdpHb24oygfgO1/CHmZBPgqe1bJSwr/e61YMFk86hU0zm5Tio="
+ }
+}

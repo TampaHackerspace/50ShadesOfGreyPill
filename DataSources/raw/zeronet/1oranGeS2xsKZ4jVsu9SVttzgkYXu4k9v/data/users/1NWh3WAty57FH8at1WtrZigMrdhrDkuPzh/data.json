@@ -1,0 +1,195 @@
+{
+	"next_comment_id": 31,
+	"user_name": "Kaffie",
+	"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+	"post_like": {
+		"1CR3B1Bwx6umZqL7H6hrbyPdXKJR7j8Mfn_1483209435": 1483230641,
+		"18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1490285129": 1490327596,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490917894": 1490920145,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491614163": 1491653650,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491775670": 1491815079,
+		"16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1494119123": 1494165248
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "I leave it running, but my laptop isn't always on. There's been a few times where I killed it for whatever reason (to save internet bandwidth, reduce ram usage, etc). But 9 times out of 10, if I'm on my laptop, zeronet is running.",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1483466772",
+			"date_added": 1483511033
+		},
+		{
+			"comment_id": 2,
+			"body": "I'm an anarchist.",
+			"post_uri": "1PyJKf7erAPW5akUQsMSxQxRzkZNWZreFw_1485297633",
+			"date_added": 1485329147
+		},
+		{
+			"comment_id": 3,
+			"body": "@Jjg: ZeroNet is pretty appealing to anarchists. That's probably why.",
+			"post_uri": "1PyJKf7erAPW5akUQsMSxQxRzkZNWZreFw_1485297633",
+			"date_added": 1485516029
+		},
+		{
+			"comment_id": 4,
+			"body": "As mentioned, [KaffieID](/id.kaffie.bit) was built for this purpose. Just clone and follow the instructions. The way ID providing works in ZeroNet is that if you want unique usernames, you need a backend, which ZeroNet does not provide. Nanasi solved this problem by just not having unique names, and relied on the user's unique ID to distinguish. This is also how ZeroNet determines users (not by username). So KaffieID was a solution to both. You can freely choose your name (non-unique) and works off Nanasi's decentralized/anonymous system.\n\nThe code is also very simple in case you want to customize it or remix it however you'd like.",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1489334065",
+			"date_added": 1489370950
+		},
+		{
+			"comment_id": 5,
+			"body": "@Jro: What we need is a way for ZeroNet sites to just accept *every* ID provider. A blacklist instead of a whitelist. Right now you have to manually approve every provider for your site. It should be the other way around.",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1489334065",
+			"date_added": 1489371029
+		},
+		{
+			"comment_id": 6,
+			"body": "You can't. You need a back-end server for a proxy, which ZeroNet does not provide. Some similar things you can do to get the same 'feel' would be something like just use an iframe to bring up an external website in a zeronet address/zite, this still accesses clearnet on the user's device, and doesn't work as a proxy. There's also the option of just mirroring sites. Take a page, rip it, and upload a static version. This will give the site the benefits of ZeroNet, but given that it's not the actual clearnet site, will lack continuous updates or user-interaction.\n\nLastly, if you're the owner of the clearnet site, you can simply port the site. Have your CMS upload to both the zeronet site, as well as the clearnet site. I can't think of how to fix comments and such, but perhaps you can have a bot sync them? Or just have ZN comments for the ZN site, and clearnet comments for the clearnet site?\n\nIf you want something like Facebook, you'll just have to remake it from the ground up for ZeroNet. For something like google.... it's impossible to put on ZeroNet, given how much back-end server requirements there are, and how much HDD it takes up. One way to do this would be to have your own private back end *anyway*, and just call to it from the ZN site. One ZN search engine did this, and a few early ZN sites did this method as well, but it was poorly received, as people like to sandbox their experience, and not let *any* data escape out into the clearnet and sometimes even just block it on a browser or OS level.",
+			"post_uri": "12WBFnwNrtKtQD67GudLfZhwTPwehE2Cw9_1489579724",
+			"date_added": 1489622973
+		},
+		{
+			"comment_id": 7,
+			"body": "Yeah, it's basically a decentralized twitter clone.",
+			"post_uri": "17wvV3ETVFUjZex3NDRTsbwYtz8xPNUUsa_1489920598",
+			"date_added": 1489982719
+		},
+		{
+			"comment_id": 8,
+			"body": "KaffieID (as linked earlier) is freely cloneable and entirely P2P. However, like all alternative ID/cert systems, it requires each site to accept it. So as it stands, only KaffieHub accepts KaffieIDs, meaning that you'd be locked out from commenting on other hubs.\n\nThis is an ongoing problem with ZeroNet that enforces monopolization of the ID service. But if you mean to just have an ID you can use for your own sites that's not ZeroID-based, then KaffieID (or clones) works fine.\n\n@Rythyrix: has a good explanation of why it's an issue. We really need a way to accept all ID providers, and move over to a blacklist rather than a whitelist.",
+			"post_uri": "1Ea3RG4YuLnifynBxvuWAA3Y2nLcTWfrjQ_1490400723",
+			"date_added": 1490408612
+		},
+		{
+			"comment_id": 9,
+			"body": "@Rythyrix: Perhaps. Right now we have to blacklist users anyway. And so far there has only been a couple that I've actually had to ban. As it stands, banning userID systems isn't something that needs to be done.",
+			"post_uri": "1Ea3RG4YuLnifynBxvuWAA3Y2nLcTWfrjQ_1490400723",
+			"date_added": 1490409813
+		},
+		{
+			"comment_id": 10,
+			"body": "It doesn't work because several of those videos are just magnet links to non-webtorrent torrents. You need a peer capable of webrtc in order to benefit. AFAIK there's no index of popular webtorrents to stream/download.\n\nThe one you directly copy+pasted from KopyKate fails to work because of an issue with webseeding. You need to load the torrent from the direct .torrent file hosted on the server in order to benefit from a webseed on that same server. Otherwise you'll only get the peers of something.\n\nHopefully that helps solve your issues :3",
+			"post_uri": "1L8waPPVatA855bU6SjqWs2K1DbwnUZbEp_1490686850",
+			"date_added": 1490691442
+		},
+		{
+			"comment_id": 11,
+			"body": "@GhostWriter: Yeah, that's generally how it works. You need the mp4 and torrent file on the same server, like how KopyKate's webseeded stuff works. Dropbox used to be able to do this, but no more.",
+			"post_uri": "1L8waPPVatA855bU6SjqWs2K1DbwnUZbEp_1490686850",
+			"date_added": 1490699394
+		},
+		{
+			"comment_id": 12,
+			"body": "@GhostWriter: Well even regular torrents have webseeds. It's just that with normal torrents, there's a lot more people, so people are more eager to leave their computer seeding. With webtorrent that's not really the case. People don't use it like a torrent and instead use it like youtube. Pretty much *every* p2p video sharing service at the moment suffers this same problem. They require a dedicated host in order to prevent the torrent from running out of seeders.",
+			"post_uri": "1L8waPPVatA855bU6SjqWs2K1DbwnUZbEp_1490686850",
+			"date_added": 1490727676
+		},
+		{
+			"comment_id": 13,
+			"body": "I'm an anarchist in California. I haven't really done any active protests or anything though. Unfortunately I'm not quite in the position to do much IRL.",
+			"post_uri": "1DvzV85GE9oz9YyT7ZsLCA52tWAqD4kkDN_1490837917",
+			"date_added": 1490843979
+		},
+		{
+			"comment_id": 14,
+			"body": "Lol. That's kinda sad, but also hilarious. Why can't people just be rational and support a good thing when they see it?",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490918993",
+			"date_added": 1490919214
+		},
+		{
+			"comment_id": 15,
+			"body": "The big issue with video sharing/streaming right now is figuring out decentralized storage. It's the big issue in P2P stuff right now, and there's quite a few different solutions being worked on. Nothing really works well yet because of bandwidth and hard drive limits. As well as the inability for users to keep 24/7 up-time. Webtorrent can get around this with webseeds, which is what is currently being done. And ZeroMux just does it the same way ZeroNet does, but that can end up taking up a lot of space on viewers' computers.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490908393",
+			"date_added": 1490920454
+		},
+		{
+			"comment_id": 16,
+			"body": "Just edit data.txt. The format is: `name[tags, separated, by, commas:address rank`. Just refer to the data.txt in Kaffiene's files for a reference. See [here.](/kaffiene.bit/data.txt)",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491016627",
+			"date_added": 1491119641
+		},
+		{
+			"comment_id": 17,
+			"body": "Thanks?",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491125400",
+			"date_added": 1491133872
+		},
+		{
+			"comment_id": 18,
+			"body": "@Plasmmer: I'll look into it. I'm not sure how easy that'll be to do. My initial thought was just to scrape the page, but then I remembered that that won't work. An iframe maybe, but then cleanup might be difficult. Alternatively I could try to query the sql database manually. Something like how sqeek does. Either way, dev for Kaffiene is really slow going at the moment. But I think this might be a way to add a bit more usage to it while I'm being slow with the index, haha.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491016627",
+			"date_added": 1491134361
+		},
+		{
+			"comment_id": 19,
+			"body": "@Plasmmer: No github just yet. And yes, I understand a reworked database would be nice. As I mentioned, my dev work has kinda grinded to a halt and I'm not sure when I'll be able to resume. I have some personal issues and I'm not sure how long it'll take me to work through them. Sorry >_<",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491016627",
+			"date_added": 1491301335
+		},
+		{
+			"comment_id": 20,
+			"body": "Yeah, it's pretty clear a lot of the hate is just projection. Look at all the anti-gay republicans who end up being gay.\n\nBut please, don't accuse people of being a rapist or child molester if there's no actual proof they've done anything. Random blind accusations not only wreck lives, but weaken the word of *actual* victims. I can't speak for the people who've mentioned in your life, but AFAIK people like Milo and Trump *technically* haven't done anything wrong, despite being despicable people (well Trump maybe).\n\n>I'm a transwoman\n\nNice. We've got quite a bit of LGBT folk on here, but do be aware there *are* transphobes here. My network of sites will *always* be transphobe free, and I'll ban anyone who attempts it. Can't really say the same for other sites/people though.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1491367755",
+			"date_added": 1491396161
+		},
+		{
+			"comment_id": 21,
+			"body": "Lol. This isn't happening. Sorry. I'd love to see it, but even top of the line translation services like google translate still have issues. No way is a lazy unemployed girl working on a new platform using only javascript is going to manage to make something even remotely usable.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491444511",
+			"date_added": 1491446384
+		},
+		{
+			"comment_id": 22,
+			"body": "Lazy, mostly. I hardly ever check it, and when I do I just put off responding. Sorry. I'm kinda shitty like that.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491614121",
+			"date_added": 1491632482
+		},
+		{
+			"comment_id": 23,
+			"body": "@Plasmmer: I believe I answered that one already ;). Like the previous answer, mostly it's just because I haven't gotten around to it. I really don't have an answer besides that. That's literally the entire reason you haven't seen much of my development lately. I'd rather not go into the personal details of my life, but I've got some issues I need to work through before I can resume ZN development.\n\nAny sort of dev question almost certainly has the same answer; to save you some time. I haven't done much dev work in general, off and on ZN. And likely before that I need to get my actual income and living situations fixed.\n\nGithub is honestly on the to-do, but not for a while. The original plan was to get Kaffiene more or less automated and then move the code to github. But neither has happened yet.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491614121",
+			"date_added": 1491653637
+		},
+		{
+			"comment_id": 24,
+			"body": "Pretty much? Ever since the developer changed the site to try and detect peers and then not list unseeded videos, it's basically been unusable for me. It just gets stuck at the homepage trying to load videos. [KopyKate](/kopykate.bit) is much better and is likely what you're looking for.",
+			"post_uri": "1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b_1491654783",
+			"date_added": 1491697113
+		},
+		{
+			"comment_id": 25,
+			"body": "Pretty cool site but file uploads seem to be really broken.\nEdit: content signing error or something.",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491940364",
+			"date_added": 1491970260
+		},
+		{
+			"comment_id": 26,
+			"body": "@Glightstar: Yeah it's been working great. Firefox seems to lag though, so I've been using chrome with it and it works fine.",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491940364",
+			"date_added": 1492071896
+		},
+		{
+			"comment_id": 27,
+			"body": "How does ZeroMail do it? You can certainly see your sent messages there.",
+			"post_uri": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1492183929",
+			"date_added": 1492224123
+		},
+		{
+			"comment_id": 28,
+			"body": "@Thegillies: No one's here because it's new, and the users who *were* here have all kind of left because nothing was happening and it was pretty dead. We have a small community of people but we're all kinda lazy or busy. We really just need an influx of people who stick around. And for that we need a killer app that you don't really find elsewhere. No one will come for ZeroMe when they can just use twitter or facebook. But we *need* an active ZeroMe if we want people to stick around on zeronet.",
+			"post_uri": "1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x_1493000410",
+			"date_added": 1493018231
+		},
+		{
+			"comment_id": 29,
+			"body": "@Thegillies: Yeah all the stuff here is pretty solid. The problem is users and content. Users don't come if there's a lack of content, and without users content isn't posted. Chicken and egg problem. A killer app of some sort that's unique to zeronet will get people to use the platform, and hopefully adopt the network of sites in general.",
+			"post_uri": "1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x_1493000410",
+			"date_added": 1493018644
+		},
+		{
+			"comment_id": 30,
+			"body": "Haha, it's a very new feature. No live updates yet. I wanted to, but I can't figure out how to access the merged db from javascript.",
+			"post_uri": "1QEfmMwKVxgR4rkREbdJYjgUmF3Zy8pwHt_1493481909",
+			"date_added": 1493510592
+		}
+	]
+}

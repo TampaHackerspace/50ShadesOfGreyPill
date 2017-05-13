@@ -1,0 +1,39 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 1,
+	"next_follow_id": 4,
+	"avatar": "generate",
+	"user_name": "Davidagni",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1487796083,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1487796125,
+			"body": "hola soy nuevo me gusta mucho la interfas y la comunidad latina",
+			"date_added": 1487796123
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1C8XdM64s3CTFh9hcPRefEn1z7CvKqBSA5",
+			"user_name": "Et3rn0",
+			"date_added": 1487801841
+		},
+		{
+			"follow_id": 3,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1E685Xk8ewNowfe7Dr5PRWKpUQBRS1waZY",
+			"user_name": "Davidescudita",
+			"date_added": 1487801880
+		}
+	]
+}

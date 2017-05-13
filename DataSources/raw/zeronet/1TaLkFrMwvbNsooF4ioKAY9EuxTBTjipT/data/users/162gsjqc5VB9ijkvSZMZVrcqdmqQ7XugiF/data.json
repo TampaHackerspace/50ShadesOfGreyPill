@@ -1,0 +1,154 @@
+{
+	"next_topic_id": 10,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "[suggestion] ZIP export and import of (individual) sites",
+			"body": "Title says it all.\nGood for a more decentralized ZeroNet, makes it easier to share offline and online (without the ZeroNet network), and for backups.",
+			"added": 1486411596
+		},
+		{
+			"topic_id": 2,
+			"title": "[suggestion] Offline mode",
+			"body": "Add `--offline` to disable networking, useful for browsing already downloaded websites.",
+			"added": 1486411596
+		},
+		{
+			"topic_id": 4,
+			"title": "List of working ZeroNet proxies (access ZeroNet without ZeroNet)",
+			"body": "Here's a list of working ZeroNet Proxies:\n* https://fuckcf.cf\n* https://zeronet.korso.win/\n* https://onlyzero.net/\n* https://bit.surf:43110\n* https://proxy1.zeronet.functor.xyz:10443\n* http://cvhb5yx2qdclb76m.onion (Tor Hidden Service)\n* http://zero.btnova.org (no HTTPS)\n* https://antnet.org/ (broken TLS certificate)\n\nDown (?):\n* https://zeronet.maxweiss.io",
+			"added": 1486584341
+		},
+		{
+			"topic_id": 5,
+			"title": "[suggestion] Proof-of-work",
+			"body": "Allow Zite owners to whitelist hashes of the user's public key that match certain prefix or suffix (e.g. by using Regular Expressions).\nLike `'user_hash_regex': '^0000'`. Or maybe you could just use strings like `'user_hash_prefix': '0000'`\nThis would be useful for anonymous but still \"rate-limited\" user cert generation.",
+			"added": 1486585504
+		},
+		{
+			"topic_id": 6,
+			"title": "Beaker Browser, an experimental peer-to-peer browser",
+			"body": "Beaker Browser is an experimental browser for Mac OS X and Linux with peer-to-peer Web protocols (using Dat). \n* GitHub: https://github.com/beakerbrowser/beaker\n* Website: https://beakerbrowser.com/\n* Dat: https://datproject.org/",
+			"added": 1487088179
+		},
+		{
+			"topic_id": 7,
+			"title": "uBlock Origin - An efficient blocker for Firefox, Chrome,  Edge and Opera.",
+			"body": "The best free and open source (ad)blocker.\n* GitHub: https://github.com/gorhill/uBlock\n* [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)\n* [Chrome Extension](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)\n* [Edge Extension](https://www.microsoft.com/en-us/store/p/app/9nblggh444l4)\n* [Opera Extension](https://addons.opera.com/en/extensions/details/ublock/?display=en)",
+			"added": 1487191771
+		},
+		{
+			"topic_id": 8,
+			"title": "[suggestion] Invite-based user registration",
+			"body": "How I see this work:\n\n`content.json` of the user directory (managed by Zite owner):\n```\n  \"invites\": [\n    \"11SVkYkmCCFyBCVUU7Qaj8SAhyVT7m6pS\": {\"invites_allowed\": 10},\n    \"1889tLMuZze7YMshhe8u5h4NT4SSiA4PVB\",\n    \"1A3eo1m9ouw9KupiePER5ZdajEaUQnUqq\": {\"invites_allowed\": 0}\n  ],\n  \"invitation_rules\": {\n    \"invites_allowed\": 5\n  }\n```\n`data.json` of the user (managed by user):\n```\n  \"invites\": [\n    \"1669uhTeS1CptbLN8L88NVjP1BTgGMqk9W\",\n    \"1674XymFPbmAXh78xEpt3Pehtko6i2kvtA\",\n    \"1A3BvenLM5YXiyPoTrrhe4iMoeRmpwKWbV\"\n  ]\n```\n\nIf the Zite owner sees a user that invites spammers it can ban the whole tree by adding \n```\n  \"invites\": [\n    \"1A3eo1m9ouw9KupiePER5ZdajEaUQnUqq\": {\"invites_allowed\": 0}\n  ] \n```\nto the `content.json` in the `users` directory.",
+			"added": 1488032006
+		},
+		{
+			"topic_id": 9,
+			"title": "BitErrant attack - BitTorrent protocol SHA1 collision proof of concept",
+			"body": "https://biterrant.io/\n\n\"The BitErrant attack is a fun little exploit that shows what can go wrong in the BitTorrent protocol when SHA1 collisions become reality.\n\n\nSHA1 collisions resulting in chunks of the downloaded file become replaceable with a chunk that is completely different, corrupting the downloaded file OR triggering backdoor functionalities.\n\n\nAn attacker can alter the execution path of the executable by serving altered chunks when the victim is downloading the executable using the BitTorrent protocol.\n\nThank you good folks at Google and CWI for making SHA1 collision become a reality with the [SHAttered](http://www.shattered.io/) attack!\"",
+			"added": 1488828966
+		}
+	],
+	"topic_vote": {
+		"12_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"13_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_1GF4vSTBhLb7bgW874mtdELEGXSXCK1AhX": 1,
+		"1_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"1_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": 1,
+		"1_1HqPpF37myHjtxGUW4nAUPJL1pjQUL9Zyj": 1,
+		"13_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1
+	},
+	"next_comment_id": 19,
+	"comment": {
+		"4_1BEyFJrKVaGLuogLirnrsa7yV2MXNvYpcp": [
+			{
+				"comment_id": 1,
+				"body": ">it's so rare\nI don't think so, there are lots of duplicate files simply because cloning is so easy. \nI'll come back at this with some 'analysis'. Might submit a pull request.",
+				"added": 1486389352
+			},
+			{
+				"comment_id": 17,
+				"body": "Bump!\n> [shift](#comment_64_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7): ... and check across all sites if we already have that file - just copy make link to them if filesystem...\n\nAlso a good idea. Yes.",
+				"added": 1488404316
+			}
+		],
+		"12_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": [
+			{
+				"comment_id": 3,
+				"body": "Thanks for running the service.",
+				"added": 1486391283
+			}
+		],
+		"1_1GuYKebkQAqGJ4tNpNp4TD1UuoHHudCJLA": [],
+		"5_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [
+			{
+				"comment_id": 5,
+				"body": "> [nofish](#comment_870_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Same problem with any other PoW: If you require for example 1 hour of work from user, then a spammer with a decent GPU still able to create 100+ accounts/hour\n\nTrue...",
+				"added": 1486601557
+			}
+		],
+		"6_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 9,
+				"body": "1 non-free packages (WiFi firmware), 0.0% of 2299 installed packages.\n1 contrib packages (VirtualBox), 0.0% of 2299 installed packages.",
+				"added": 1487345730
+			}
+		],
+		"1_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 10,
+				"body": "I think this is quite a big problem for BitTorrent. \nThe BitTorrent info hash (magnet link) uses SHA1 as well.",
+				"added": 1488039088
+			}
+		],
+		"1_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": [
+			{
+				"comment_id": 11,
+				"body": "- **Use Tor Browser** (based on Firefox) https://torproject.org\n- **Use Linux** ([Xubuntu](https://xubuntu.org/), [Fedora](https://getfedora.org/), [Debian](https://debian.org/), [Arch Linux](https://www.archlinux.org/))\n  - Take a look at https://distrowatch.com/ for an overview of all Linux distributions\n- **Use Firefox** with [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) & [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/) installed\n  - Take a look at https://fixfirefox.com/ for more Firefox usage tips\n- **Don't use anything prefixed with smart** (smartphone, smart TV, smart thermostat).\n- **Don't use Google**\n  - Use [DuckDuckGo](https://duckduckgo.com/), [Searx](https://github.com/asciimoo/searx/wiki/Searx-instances) or [StartPage](https://www.startpage.com/)",
+				"added": 1488403369
+			}
+		],
+		"7_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [
+			{
+				"comment_id": 12,
+				"body": "Bump!",
+				"added": 1488403972
+			}
+		],
+		"8_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [
+			{
+				"comment_id": 13,
+				"body": "Bump!",
+				"added": 1488404027
+			}
+		],
+		"4_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [],
+		"1_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [
+			{
+				"comment_id": 15,
+				"body": "Bump!",
+				"added": 1488404291
+			}
+		],
+		"2_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [
+			{
+				"comment_id": 16,
+				"body": "Bump!",
+				"added": 1488404302
+			}
+		],
+		"1_156xbcM9BrbdhtYZUPAQBFvLDGGyy5AjdM": [
+			{
+				"comment_id": 18,
+				"body": "Bump!",
+				"added": 1488404361
+			}
+		]
+	},
+	"comment_vote": {
+		"64_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7": 1,
+		"44_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa": 1,
+		"4_1Mzjg3DjFFiUBz42zZa9w9oM2Lf4vHeLK3": 1
+	}
+}

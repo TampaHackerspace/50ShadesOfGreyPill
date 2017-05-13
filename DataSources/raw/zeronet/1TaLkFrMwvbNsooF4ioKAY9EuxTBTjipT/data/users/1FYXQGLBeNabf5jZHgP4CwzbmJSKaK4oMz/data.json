@@ -1,0 +1,738 @@
+{
+	"next_topic_id": 5,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "FileServer Internet offline with Tor?",
+			"body": "In the browser I have Port Closed, Tor Always, but when ZeroNet started, [05:11:55] FileServer Internet offline was the first error. I can browse sites, but all file transfers are dead (I constantly get Announce to 0 trackers in 0.xxxs, failed). How to debug?\n\n```\n echo 'PROTOCOLINFO' | nc 127.0.0.1 9051\n250-PROTOCOLINFO 1\n250-AUTH METHODS=COOKIE,SAFECOOKIE,HASHEDPASSWORD COOKIEFILE=\"/tor/tor-cookie/file\"\n250-VERSION Tor=\"0.2.8.2-alpha\"\n250 OK\n```",
+			"added": 1462249516
+		},
+		{
+			"topic_id": 2,
+			"title": "Getting .bit to work",
+			"body": "So I went to plugins directory and moved disabled-Dnschain to Dnschain\nI also went to my site's content.json and added \"domain\": \".....bit\",\nThen I executed siteSign --publish and started using the defaults (I understand 1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F is the default dot-bit resolver).\n\nBut:\n1) When I click on my site, I get <domain>.bit, it's not found\n2) When I go to http://127.0.0.1:43110/1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/, I don't see my .bit domain listed there. \n\nIt's been 24 hours since I made the update so I thought if 1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F fetches periodically it may take a while, but now I'm wondering if my procedure was correct. \n\nQ:\n1) Do we still need to enable Dnschain or not (if we use the default resolver 1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F)?\n2) How frequently does 1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F update the list?\n\nI think my data on Namechain is correct - I have only one site. This is my Current ZeroNet related value from Namecha.in UI (sorry I prefer to keep the domain and site private):\n```\n    \"<domain>\": {\n        \"\": \"<site-address>\"\n    }\n```",
+			"added": 1462435134
+		},
+		{
+			"topic_id": 3,
+			"title": "What kinds of content & sites is ZeroNet suitable for? (AKA \"Killer Apps\")",
+			"body": "While technically a lot can be done, some things are more suitable than others. \nFor example, in terms of content type, movies don't work so well yet. \nIn terms of applications (forums, downloads, blogs, etc.) it seems to me that blogs are not great and I'll explain why. \nSome time ago somebody said all ZN blogs are about ZN. Duh. Of course they are, because if you want more than 50 people to read your posts, you should post on clearnet. It is expected that ZN blogs would be about ZN (development, how-to posts, announcements and such).  While they're really helpful to those who create content and develop for ZN, they don't directly attract new users to ZN. \n\nPersonally I think a forum software that's easy to manage in terms of adding and deleting members would be interesting. This ZeroTalk forum is quite good and can be cloned, but it'd have to have a little bit better member management (for example, make it possible to send out invites to a user's ZeroID, and delete misbehaving users).\n\nAlso a DropBox-like app would be interesting: if you want (reasonable) anonymity you can access it over Tor, if not, then just use plain ZeroNet.\n\nZeroMail: I'd like to be able to use it, but it creates a lot of activity on my HDD. Also I think if it becomes popular, users' accounts will be spammed. \n\nWhat do you guys think?",
+			"added": 1478373146
+		},
+		{
+			"topic_id": 4,
+			"title": "DIY workaound for blocking the spammers and crap-creators",
+			"body": "##Intro\n\nWhile we wait for a native ZeroNet anti-spam system, here's what you can do to eliminate the spammers on community sites you visit the most.\n\n##How?\n\nOn Tor Browser (and FireFox), do this if you haven't already:\n\n1) Install AdBLock Plus and disable permitted ads\n2) Install Element Hiding Helper for AdBlock Plus\n3) Navigate to ZN site that you visit most often and press CTRL+SHIFT+F3 to activate Element Hiding Helper\n4) Block the motherfucker! \n\n##Walkthrough: Blocking `1B5iUj9wVHFvsujUy7e9yt1Q6t2RTJ77yt` aka `besmart@zeroid.bit`\n\nLet's say I mainly visit http://127.0.0.1:43110/Talk.ZeroNetwork.bit/ and personal blogs. For the personal blogs it's easy - I don't visit (and seed) a blog if it's crap. \nThe problem is blogs/forums/sites that serve the community because \"everyone is welcome\" (bad idea!). \n\nWhy? As any other network, ZeroTalk has a number of known spammers such as besmart so for now we want to ignore them, rather than \"fight them\".\n\nAll right. Visit http://127.0.0.1:43110/Talk.ZeroNetwork.bit/ and spot one of his posts you don't like (truth be told, it's not like he's capable of \"discussion\" on anything but one topic; it's safe to say we won't miss anything valuable - just find *any* of his posts in the feed). Do not click on the post title.\n\nNow hit `CTRL+SHIFT+F3` and use your mouse to hover over his post in the ZeroTalk feed. This won't work from the main feed on ZN home page. You must be browsing ZeroTalk (see the URL above). \n\nOnce you select the rectangle you will see the proposed custom filter that looks similar to this:\n`127.0.0.1###topic_1_1B5iUj9wVHFvsujUy7e9yt1Q6t2RTJ77yt`\n\nIf you got this right his post in the feed will disappear. Press `OK` only if you got this right, otherwise cancel and use `CTRL+SHIFT+F3` again. \n\nI think it should be possible to generalize this filter to something with wildcards (`topic_*` instead of `topic_1`), like this: `127.0.0.1###topic_*_1B5iUj9wVHFvsujUy7e9yt1Q6t2RTJ77yt`, but I need to understand more about https://adblockplus.org/filters before I can confirm that.\n\n##Issues\n\nThis is can get labor intensive, but at the moment it's very manageable. There's only about 20-30 spammers and I only care about ZeroTalk at the moment. \n\nNotice that blocking the idiot in the site feed still doesn't block his actual post (if you were to click on it before you hid it and navigate to it later you'll still see it), but that's not a problem - why would you visit that post anyway? You just don't want to see it in the feed you visit and you'll never hit the page itself unless you click on random links or search to find it.\n\nAnother issue is that you unwillingly seed his content. I've started experimenting with that (see Future Work before).\n\nSo what is that idiot (besmart@zeroid.bit) going to do? He will create new accounts. Let him.\n\nI just need to run a scheduled search script and find couple of keywords that repeat across 2 or more posts and can automatically extract his ZeroID and filter the shit out of him. \n\n##Future Work\n\nI am still experimenting with several other approaches:\n\n* Create a list of block-activating keywords; create a shell script that searches for those terms, isolates the post owner's ZeroNet ID's, deletes his mirrored content, makes his directories read-only and chown's them by root:root. I got this working but ZeroNet doesn't tolerate that well. \n* Same workflow as above, but to create auto-generated AblockPlus filter with wildcards. \n* Create a ZeroNet or `.onion` site that shares Adblock filter so that the workload can be shared and users can simply set their AdBlock Plus to get updates from the network.\n* Create a site that requires whitelisting (which can be automated). I already have a solution for this, but I don't have a reason to deploy it yet (because although it's automated it still requires some management and I don't have the time). \n\nAll these approaches are inferior to a native or ZeroNet-integrated anti-spam and reputation system, but until we have one a mix of these will do for me. \n\nOne important point I want to repeat is that there is **no issue with personal sites**. \n\nIf we persist on further decentralization, each site will be a personal site (even if it's community-oriented) and as soon as a private site that you visit becomes neglected, you can fork it and keep going. Someone (or better, several people) could fork this site (ZeroTalk) and offload management tasks from @nofish. Of course this site is \"personal\" too, but @nofish runs it as showcase community site. The idea is that there be many clones with different angles and focuses, but many fail to understand that and expect somebody will do something for them. \n\nRelated to this, notice how socialists/SJWs on this forum constantly bitch about the \"need\" for censorship, reputation, ratings, etc. but not a single one has done anything about it. For example, donate 0.05 BTC to develop this feature, or actually try to do something about it, such as fork this site, rename it and keep the spammers out on a daily basis.",
+			"added": 1478771228
+		}
+	],
+	"topic_vote": {
+		"9_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": 1,
+		"3_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ": 1,
+		"2_16tWPYFLbad3R8iGcMuetyiwC2q5qXp45T": 1,
+		"8_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ": 1,
+		"1_1NL5YZdozXc6ZNzKm78H4SjSMabyzV16YX": 1,
+		"1_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"27_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1
+	},
+	"next_comment_id": 111,
+	"comment": {
+		"4_1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp": [
+			{
+				"comment_id": 1,
+				"body": "Yeah, it's very easy: don't let others access the file with your identity info.",
+				"added": 1462005654
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 2,
+				"body": "I read the FAQs. One thing I'm not sure is if one enables Tor and in addition has port 15441 open, it seems most connections go over clearnet. What is the purpose of having Tor in that case?",
+				"added": 1462118323
+			},
+			{
+				"comment_id": 3,
+				"body": "> [muja](#comment_82_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr): From what I understand, the port is always closed when using --tor always. What operating system do you use?\n\nThat's exactly why I'm asking. https://zeronet.readthedocs.io/en/latest/faq/#how-to-use-zeronet-with-tor doesn't say what parameter to use. So `--tor always` is what we should use?",
+				"added": 1462189510
+			},
+			{
+				"comment_id": 4,
+				"body": "@nofish  thank you. The ReadTheDocs site has a wrong link to \"Edit on Github\" it should point to https://github.com/HelloZeroNet/Documentation, I realize now.\nI have another question: where can one find instructions on how to add just the commenting ability (so that one can use comments like these) to a minimal HTML static site? \nI looked at some existing ZeroNet templates, but they are all quite large and complicated, so it's not easy to trim them down. It seems it'd be easier to be able to add ZeroNet comments to a minimal HTML site.",
+				"added": 1462248473
+			},
+			{
+				"comment_id": 11,
+				"body": "> [grez](#comment_3_19arYgVKguUamTqtYGu6T9FSUsr19CyEcG): Is it possible to publish some file to ZeroNet that is not signed by anyone? Actually, I want to create a chat that is not require ZeroID and I don't see any other ways how to bring it to life.\n\nhttp://127.0.0.1:43110/Board.ZeroNetwork.bit/ doesn't require ZeroID",
+				"added": 1462363421
+			},
+			{
+				"comment_id": 15,
+				"body": "> [cyanlink](#comment_4_1HyGdgAam1jDwQzrMmAJavFGMZoCpsVZJA): need to know:which \"privatekey\" should i input when i visit a non localhost portal?the first line of users.json?\n\nWell it says `auth_privatekey` so that's most likely your private key. But I don't know what is the situation in which one may need to enter this anywhere. I use to to sign my site content and nothing else.",
+				"added": 1462454572
+			},
+			{
+				"comment_id": 20,
+				"body": "* Will ZeroBlog support tags (so that posts can be organized)\n* How to add multiple links to left-hand side of ZeroBlog? It seems only one link is displayed even if there are multiple rows.",
+				"added": 1462623494
+			},
+			{
+				"comment_id": 22,
+				"body": "> [grez](#comment_20_19arYgVKguUamTqtYGu6T9FSUsr19CyEcG): When I see \"Content published to 5 peers\" message, does this indicate, that 5 peers already downloaded my content, or only that the content was announced to them? How can I find out when they downloaded it, especially on sites with optional content, such as 0chan?\n\n> [ancap](#comment_20_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz): Will ZeroBlog support tags (so that posts can be organized)\n> How to add multiple links to left-hand side of ZeroBlog? It seems only one link is displayed even if there are multiple rows.\n\nReplying to my own question (#1): there's an enhanced ZeroBlog already (http://127.0.0.1:43110/19k2nhubaYsDJNPHL6iNs3D2K9Mgj66P4R) so it seems tags aren't far away.",
+				"added": 1462963759
+			},
+			{
+				"comment_id": 29,
+				"body": "Does `zeronet.py sitePublish` de-anonymize Tor users?",
+				"added": 1463325283
+			},
+			{
+				"comment_id": 30,
+				"body": "Does `zeronet.py sitePublish` de-anonymize Tor users? It seems it talk directly to trackers.",
+				"added": 1463325413
+			},
+			{
+				"comment_id": 36,
+				"body": "> [grez](#comment_21_19arYgVKguUamTqtYGu6T9FSUsr19CyEcG): No, if you use python zeronet.py --tor always siteSign <site_address> --publish command (I think it is a good idea to add this in FAQ).\n\nThanks, that's exactly what I noticed and I also think that's important enough for FAQs because it can ruin effects of `./zeronet.py --tor always` for network participants.\n(I didn't know that `--tor always` can be issued before sitePublish, online help doesn't give that impression and I think I tried to use it after sitePublish. Maybe that would have worked if I used your order. I'll have to try that).",
+				"added": 1463560356
+			},
+			{
+				"comment_id": 50,
+				"body": "> [grez](#comment_20_19arYgVKguUamTqtYGu6T9FSUsr19CyEcG): When I see \"Content published to 5 peers\" message, does this indicate, that 5 peers already downloaded my content, or only that the content was announced to them? How can I find out when they downloaded it, especially on sites with optional content, such as 0chan?\n\nDid you find the exact answer to this?\n\nHere's what I see:\n\n`[15:32:32] Site:1XXX..vuLu Publishing content.json to 4/13 peers (connected: 2) diffs: [u'data/data.json'] (8.03k)...`\n\nI would say that:\n\n* 13 visited the site\n* Some suspended updates (Pause), some disappeared from the network\n* 4 are mirroring the site\n* 2 are online and will receive latest updates\n\nYou could see (from the logs) which content was downloaded (should be all unless the files are larger than the \"manual download limit\").",
+				"added": 1464771137
+			},
+			{
+				"comment_id": 102,
+				"body": "> [daozen](#comment_1_1Pm6qTHfW1vkbNodfwZ1Ku2nHJaKZzy15i): I agree with freedom of speech, but can we downvote posts like this? No downvote option makes it easy for trolls to spam and discredit Zeronet. \n\nWhat good would that do? \nTo a troll a vote down _or_ up is an up-vote. \nThey get pissed off when they're ignored.  (Even banning an account doesn't work because it costs 0 to create a new one).\n\nIMO the next step would be that users set up interest/topic sites where they can control access and also censor, if they want.  Currently one problem is there's only 1-2 busy ZN sites (that I know of) because people mostly look to comment rather than create content (which makes sense since the audience is so small). \nThen all the trolls also gather here which makes it hard to manage since the admin is just one. \n\nIdeally there would be a network-wide ratings system for sites to tap in to, but it doesn't exist. So for time being, more smaller sites with more admins, and invite-only access is what is available now.  \n\nMaybe we should also experiment with real-world identity systems. That destroys the anonymity but maybe some ZN sites would benefit from that approach.",
+				"added": 1478371855
+			}
+		],
+		"1_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": [
+			{
+				"comment_id": 5,
+				"body": "I attribute the problem to general flakiness of s/w components. I tried an older tor version and I ran into the same problem. But after several restarts of everything, now it works (with `--tor always`). I haven't changed any settings.",
+				"added": 1462273177
+			},
+			{
+				"comment_id": 6,
+				"body": "Spoke too early. It doesn't work, it just appears to work (browser \"Port Closed | Tor Always\"). It'd be good to know what makes FileServer go offline (timeout too short?)",
+				"added": 1462273409
+			},
+			{
+				"comment_id": 7,
+				"body": "> [nofish](#comment_640_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): looks like something wrong with your tor connection, easiest way to test zeronet.py --debug peerPing boot3rdez4rzn36x.onion 15441\n\nFxxxing Debian... \n\n```\n- Generating RSA cert and key PEM files...openssl: /usr/lib/arm-linux-gnueabihf/libcrypto.so.1.0.0: version `OPENSSL_1.0.1s' not found (required by openssl) <=========!!!\n```\n\nIt was this bug: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=816559 \nI upgraded openssl (before 1.0.1k, now 1.0.1g-2 from March 2015) so now I don't get the same error, but it Tor still doesn't work. \n\nMy ZeroNet:\n```\n[13:09:42] - Version: 0.3.7 r1278, Python 2.7.9 (default, Mar  8 2015, 00:52:26)\n[GCC 4.9.2], Gevent: 1.0.1\n```\n\nRunning that debug command, here's what I get towards the end:\n\n```\nPluginManager New class accepts plugins: SiteManager (Loaded plugins: [<class 'Zeroname.SiteManagerPlugin.SiteManagerPlugin'>, <class 'Site.SiteManager.SiteManager'>])\nPluginManager New class accepts plugins: Site (Loaded plugins: [<class 'AnnounceZero.AnnounceZeroPlugin.SitePlugin'>, <class 'Site.Site.Site'>])\nTorManager Connecting to 127.0.0.1:9051\nTorManager > PROTOCOLINFO\nTorManager < 250-PROTOCOLINFO 1\n250-AUTH METHODS=COOKIE,SAFECOOKIE,HASHEDPASSWORD COOKIEFILE=\"/home/user/tor-cookie/file\"\n250-VERSION Tor=\"0.2.7.6\"\n250 OK\nTorManager > AUTHENTICATE ae6513e22b1d7808f32bf12145fea8dc0720bf2e99eac1a63f4f1fb4693bb01d\nTorManager < 250 OK\nTorManager Tor proxy port 127.0.0.1:9050 check ok\n- Pinging 5 times peer: boot3rdez4rzn36x.onion:15441...\nConnServer Conn# 1 boot3rdez4rzn36x.onion [?] > Connecting...\nTorManager Creating new socket to boot3rdez4rzn36x.onion:15441\nConnServer boot3rdez4rzn36x.onion Connect error: ProxyConnectionError: Error connecting to SOCKS5 proxy 127.0.0.1:9050: [Errno 111] Connection refused in ConnectionServer.py line 139 > Connection.py line 91 > TorManager.py line 271 > socks.py line 674\nConnServer Removing Conn# 1 boot3rdez4rzn36x.onion [?]...\nConnServer Conn# 2 boot3rdez4rzn36x.onion [?] > Connecting...\nTorManager Creating new socket to boot3rdez4rzn36x.onion:15441\nConnServer boot3rdez4rzn36x.onion Connect error: ProxyConnectionError: Error connecting to SOCKS5 proxy 127.0.0.1:9050: [Errno 111] Connection refused in ConnectionServer.py line 139 > Connection.py line 91 > TorManager.py line 271 > socks.py line 674\nConnServer Removing Conn# 2 boot3rdez4rzn36x.onion [?]...\nConnServer Conn# 3 boot3rdez4rzn36x.onion [?] > Connecting...\nTorManager Creating new socket to boot3rdez4rzn36x.onion:15441\nConnServer boot3rdez4rzn36x.onion Connect error: ProxyConnectionError: Error connecting to SOCKS5 proxy 127.0.0.1:9050: [Errno 111] Connection refused in ConnectionServer.py line 139 > Connection.py line 91 > TorManager.py line 271 > socks.py line 674\nConnServer Removing Conn# 3 boot3rdez4rzn36x.onion [?]...\nConnServer Conn# 4 boot3rdez4rzn36x.onion [?] > Connecting...\nTorManager Creating new socket to boot3rdez4rzn36x.onion:15441\nConnServer boot3rdez4rzn36x.onion Connect error: ProxyConnectionError: Error connecting to SOCKS5 proxy 127.0.0.1:9050: [Errno 111] Connection refused in ConnectionServer.py line 139 > Connection.py line 91 > TorManager.py line 271 > socks.py line 674\nConnServer Removing Conn# 4 boot3rdez4rzn36x.onion [?]...\nTraceback (most recent call last):\n  File \"./zeronet.py\", line 16, in main\n    main.start()\n  File \"./src/main.py\", line 413, in start\n    actions.call(config.action, action_kwargs)\n  File \"./src/main.py\", line 115, in call\n    func(**kwargs)\n  File \"./src/main.py\", line 358, in peerPing\n    print \"Response time: %.3fs (crypt: %s)\" % (peer.ping(), peer.connection.crypt)\nAttributeError: 'NoneType' object has no attribute 'crypt'\n\n```",
+				"added": 1462277430
+			},
+			{
+				"comment_id": 8,
+				"body": "Finally fixed the damn thing...  The SOCKS port # wasn't not consistent (between what ZeroNet wanted to use and what Tor had)",
+				"added": 1462278747
+			}
+		],
+		"9_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": [
+			{
+				"comment_id": 9,
+				"body": "Great job. I was looking for something like this this past weekend and couldn't find it so I settled with crappy DIY solution.\nIt'd be nice if things like comments and such* could be enabled by changing some config file.\nJust noticed (on Github) you accept donations (`1KtzUsnmwc1Wr7KWWEGnWzmBSQoyH917Pz`). I will send you some change\n\n* e.g. if this could be built in http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:46:ZeroNet+site+development+tutorial+2",
+				"added": 1462286166
+			}
+		],
+		"5490_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 10,
+				"body": "That's the guy who suggested the elimination of cash. \nThis is how his Govcoin would become successful: \"You have until 3pm today to exchange your cash for Govcoin\".",
+				"added": 1462360527
+			}
+		],
+		"1_12dctSb6GMpcRWnHjMXmEMrv3QvtHWpj2o": [
+			{
+				"comment_id": 12,
+				"body": "People post links to ZeroBoard. \nAlso there are few search engines, but still experimental.",
+				"added": 1462434032
+			}
+		],
+		"2_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": [
+			{
+				"comment_id": 13,
+				"body": "Thanks guys, I already have a .bit domain with ZeroNet data in it (see at the bottom of my post). It seems my JSON syntax is buggy, I'll update and try again!",
+				"added": 1462447073
+			}
+		],
+		"1_19jY7u41PdsoRuWKac3bU78SCsDVZFGucd": [
+			{
+				"comment_id": 14,
+				"body": "> [circle](#comment_6_1XGf6G78ZwZwz4FeZBtmzxtKAsTicgaBN): I think it would be better to find another way around, for example, keeping the size of the inbox below 10MB can be achieved by archiving old mails, or using ipfs or something like that, I'm sure there will be a perfect solution for this, but for now, IMHO, the architecture is not capable doing that (forcing people to host big things, just because they have spare disk space, or not use the service)\n\nThose ideas (archiving or IPFS) don't make any sense.  Delete your old messages or archive them yourself. \n\nThe inability to save too many messages is a good security feature.",
+				"added": 1462447228
+			}
+		],
+		"1_1PS7j5se3T4HdwKmz6GArtWtRQHzBxBW5V": [
+			{
+				"comment_id": 16,
+				"body": "http://127.0.0.1:43110/12Q63F1Nh2hVoYkBEfvKcoTWihsrUvvuLu/?Post:1:Tips+for+ZeroNet+and+Tor",
+				"added": 1462467540
+			}
+		],
+		"3_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ": [
+			{
+				"comment_id": 17,
+				"body": "Thanks for sharing. I added a Tor SOCKS5 proxy in my browser (since I don't use Tor Browser).\nhttp://127.0.0.1:43110/12Q63F1Nh2hVoYkBEfvKcoTWihsrUvvuLu/?Home",
+				"added": 1462474010
+			},
+			{
+				"comment_id": 18,
+				"body": "> [grez](#comment_4_19arYgVKguUamTqtYGu6T9FSUsr19CyEcG): Please, explain it.\n\nSee the source of his Web page or the link below",
+				"added": 1462475629
+			}
+		],
+		"7_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ": [
+			{
+				"comment_id": 19,
+				"body": "the vid is from 2014 i.e. old. i think the plugin used a fairly primitive approach to query NMC blockchain (similar to Dnschain, the disabled Zeronet plugin). \nif you have to rely on a web site for name resolution and go out to clearnet to get it, it's not a very good idea. when NMC SPV client becomes available then it will be different.",
+				"added": 1462587451
+			}
+		],
+		"8_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ": [
+			{
+				"comment_id": 21,
+				"body": "The code formatting in the post is completely messed up. \nYou should mention file size limitations as they are very important.",
+				"added": 1462627800
+			}
+		],
+		"9_1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp": [
+			{
+				"comment_id": 23,
+				"body": "> The main reason beyond many of this taxes is a \"legal\" but monopolistic society in the country that pretend to respect authors' right \n\nIt's not only authors' rights, it's consumer rights as well. \nYou get robbed whenever you move.\nTaxation is theft.",
+				"added": 1463024363
+			},
+			{
+				"comment_id": 24,
+				"body": "> The main reason beyond many of this taxes is a \"legal\" but monopolistic society in the country that pretend to respect authors' right \n\nIt's not only authors' rights, it's consumer rights as well. \nYou get robbed whenever you move.\nTaxation is theft.",
+				"added": 1463024371
+			}
+		],
+		"1_1BEBJ3HvfguEM6myAqsNkvbPzEhjf6c8Vf": [
+			{
+				"comment_id": 25,
+				"body": "Well, she/he is probably busy. I wasn't aware they guarantee to respond within 48 hours.\n\nIf you're in a hurry, buy NMC on an exchange.",
+				"added": 1463050060
+			}
+		],
+		"1_1KLBz9nduZYz3F456wf3T53CaEgj18EtJD": [
+			{
+				"comment_id": 26,
+				"body": "To buy proxy service is not less anonymous than it is to use Tor. But you could resell proxy service access, say on `ZeroBenefit.bit`. Who knows, maybe there's money to be made ?",
+				"added": 1463053666
+			}
+		],
+		"2_1QFypqt7F76svWztFgeFB89ChFfAwsWBcJ": [
+			{
+				"comment_id": 27,
+				"body": "What a ridiculous post.\nWe need anti-spam measures. \n1 satoshi per post or something.",
+				"added": 1463117678
+			}
+		],
+		"1_1N48vLbHxHJ94R317NGsBFM1X3871iEM8q": [
+			{
+				"comment_id": 28,
+				"body": "> [altair916](#comment_5_13WnNjGWpKx29MGErCCpUAnP772R3fYyMk): WARNING\n> Please don't search for it. You will find disturbing video. I had searched once before some months and ugh.... too bad.....\n> WARNING\n\nOf course, what were you thinking? \nA person you don't know, with no history of any useful contributions, posts some crap and you do exactly what they asked. \nYou're lucky if didn't download a virus (or maybe you did, if your browser or Flash was outdated).",
+				"added": 1463244309
+			}
+		],
+		"1_12zyC2je1V8Sfq6C5d6CSzUkjYf4bEdva4": [
+			{
+				"comment_id": 31,
+				"body": "> [david](#comment_2_15WPKoXwHMPcPvciHw3N12MxrYWsWD7WVp): I think he wants to know what the difference is between the tor modes \"enable\" (default) and \"always\".\"Enable\" does not always use the tor network?\n\n`always` is always and only, `enable` is \"also\".",
+				"added": 1463394824
+			},
+			{
+				"comment_id": 32,
+				"body": "> [vahcam](#comment_1_12zyC2je1V8Sfq6C5d6CSzUkjYf4bEdva4): No that is not the question, if I don't use Tor, would surfing here in ZeroNet respects my anonymity ?\n\nDefine anonymity. \nNobody knows who you are, so you are anonymous. \nCan people learn your IP address if you're not using Tor? Yes. \nIf you care, use Tor and take other measures. ZeroNet is not a privacy tool and as @klauszimmermann already pointed out, privacy and anonymity weren't the primary design goals. There are privacy tools such as Tor Browser that you have at your disposal. You're responsible for your own privacy, not ZeroNet.",
+				"added": 1463403680
+			},
+			{
+				"comment_id": 33,
+				"body": "> [david](#comment_3_15WPKoXwHMPcPvciHw3N12MxrYWsWD7WVp): So when does it use tor, and when does it not?\n\nIt uses tor in the both cases (enable & always), but it uses only Tor in the latter (always).  \nhttp://127.0.0.1:43110/12Q63F1Nh2hVoYkBEfvKcoTWihsrUvvuLu/ has some possibly useful info on this topic.",
+				"added": 1463403764
+			},
+			{
+				"comment_id": 39,
+				"body": "> [dankestdungeon](#comment_5_1NkUo6SseJPa4FP4CFNzNWfqTzGYoQK6VQ): Yeah, but then, with the default configuration, it shouldn't say \"TOR: OK\" on the top of the start page. That's misleading. Most people associate tor with internet anonymity.\n\n* Everyone is welcome to submit enhancement request at https://github.com/HelloZeroNet/ZeroNet/issues.\n* You can submit documentation enhancements at https://github.com/HelloZeroNet/Documentation/blob/master/docs/faq.md or elsewhere in this repo\n* `TOR: OK` means 'Tor is being used'. It is meant for users who otherwise may not be able to download or publish information that is blocked. Certainly a settings page with detailed privacy oriented settings would be welcome, but it's a free project and without donations in labor or money, it's going to take longer than it otherwise would.",
+				"added": 1463813960
+			}
+		],
+		"1_1AmCeetxMbGpZSEo2VbT8x8KStHs6KbpUE": [
+			{
+				"comment_id": 34,
+				"body": "shapeshift.io",
+				"added": 1463542864
+			},
+			{
+				"comment_id": 35,
+				"body": "pressed Enter too early; buy them at Poloniex.com. \nthere's a guy here who gives away small amounts of NMC, enough to register .bit. \nthere are also sites on the Web that help with registration. \nI'd suggest to buy at Polo, install Namecoin Qt, send NMC to your local Namecoin Qt, and then register a .bit domain.",
+				"added": 1463542990
+			},
+			{
+				"comment_id": 37,
+				"body": "domains4free said:  \"let me know your **namecoin** address\"",
+				"added": 1463560429
+			}
+		],
+		"2_1LY5srf6iJSafm2bZRvb9QdZdEEvC7kuUS": [
+			{
+				"comment_id": 38,
+				"body": "http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:83:Changelog,+May+6,+2016",
+				"added": 1463625724
+			}
+		],
+		"23_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": [
+			{
+				"comment_id": 40,
+				"body": "> [lukipuki](#comment_64_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8): I found something here: https://codepen.io/gil--/pen/bNxZWg\n> But I am not sure how should I put this into the existing .html .css and .js of the my zeronet blog. Do I just add this, or would this interfere somehow with existing things ?\n\nWhy don't you try and let us know if it works. I'm also curious.",
+				"added": 1463842887
+			},
+			{
+				"comment_id": 49,
+				"body": "\"Watch later\" would be nice (not instead, but in addition to what you want) because many access the network via Tor which is slow and vids can't be played unless they're downloaded first. And if I'm not mistaken, files larger than 1MB have to be manually downloaded, but then you have to wait, which is where \"Watch later\" would make more convenient.",
+				"added": 1464763228
+			},
+			{
+				"comment_id": 52,
+				"body": "> [lukipuki](#comment_67_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8): .On the other hand it reduces the amount of shared content from your (or my) site, resulting in low functionality for most people.\n\nMaybe it would reduce it less than otherwise - it's hard to tell in advance.\nFrom my own experience, some Zeronet sites I simply have to Pause after I visit them because my Tor connection isn't that good, so I postpone re-sync until next time I visit (and if I don't, I don't burden my Tor connection).\nI do this only with busy/large sites and I assume many would do the same with video content...\n\nAlso, your comment reminded me of this: say I have a copy of your HTML/JS files and 5 of 30 files (3 I set to Watch Later, 2 I watched while online). Now a guy downloads this site from me. What happens if they click on video #6 which I don't have a copy of? I don't know exactly, but as I said in the previous paragraph, I doubt I could have all or even most of your video files that are > 1 MB in size - it's simply impossible. \n\n (I think the project leader said (ZN on Github) he'll change the way downloads work so that each file that belongs to a site is downloaded from a different source)",
+				"added": 1464787605
+			}
+		],
+		"1_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": [
+			{
+				"comment_id": 41,
+				"body": "> [up4](#comment_13_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): my bad: I confirm that the json syntax errors were the cause of the non-updates.\n\nI'm still curious about your theory about the connection between ZeroName and Namecoin blockchain updates!",
+				"added": 1463893916
+			},
+			{
+				"comment_id": 43,
+				"body": "> [up4](#comment_14_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): if the domain's JSON value is malformed syntactically, it won't be added or updated to ZeroName\n> the JSON value can only be set by the domain's owner\n\nYeah but that's just for your own `d/domain`. If you mess it up, ZeroName will simply not find a valid entry. \nWouldn't it be ridiculous if it were possible that I make a malformed update to my Namecon domain and take ZeroName (and maybe a bunch of other `.bit` resolvers) down?",
+				"added": 1463932393
+			},
+			{
+				"comment_id": 44,
+				"body": "> [up4](#comment_15_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): \n> I was worried for a bit that there was a problem with the trusted zerosite that is used system-wide for Namecoin resolution and it happened not to be the case.\n\nI understand your point.\n\nIf I'm not mistaken (I'm too busy to check now) there's a place where you can decide your own ZeroName resolver, so if ZeroName were to be taken over, one could redirect ZeroNet to use another site. But until a good replacement is setup, .bit resolution wouldn't work (or would work incorrectly to cause more damage).\n\nSadly there's no SPV client yet, so it is what it is at the moment.",
+				"added": 1463976245
+			}
+		],
+		"2_1MxejC3wJ1PB6QbLwL7g3HzC4ZPojJogD3": [
+			{
+				"comment_id": 42,
+				"body": "Define \"anonymous\"",
+				"added": 1463895528
+			}
+		],
+		"1_19wHyK5qpV9YVMiB9PUL3dMsqoJ6KLvZts": [
+			{
+				"comment_id": 45,
+				"body": "It's too much to expect that anyone would read the docs or watch YouTube how-to's when it's easier to spam 100 people.\n\nThe network is growing (good) and the lazy bastard syndrome will soon become really annoying (bad).",
+				"added": 1464757980
+			}
+		],
+		"2_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 46,
+				"body": "Beautiful! Thank you for the contribution!",
+				"added": 1464758588
+			},
+			{
+				"comment_id": 47,
+				"body": "By the way, some technical feedback (unfortunately we can't edit comments within X min - maybe that'd be a good feature to delay publishing of comments by 5 min, @nofish): I'm running over Tor and the vids aren't playing. I don't know if they're supposed to or not.",
+				"added": 1464758741
+			}
+		],
+		"3_16JexJdvqRHRobrHnkbSWmdC8pfkkQzmiU": [
+			{
+				"comment_id": 48,
+				"body": "> If the site is illegal and any files of the site are on your computer, the feds can charge you with hosting an illegal site.\n\nEverything is illegal these days so we may as well ignore the law (as long as we know we're unlikely to get caught). \n\nPeople could probably claim ignorance, although in places where the legal system is crap that won't get one very far.\n\nIt would be nice if Tor browser be made mandatory to provide a better protection to ZN users, but there's a whole bunch of crybabies who want ZN to accommodate clearnet and so on. Depending on what direction the devs head in, we could get a better (security and privacy first) or worse (convenience first) ZN.",
+				"added": 1464759070
+			},
+			{
+				"comment_id": 55,
+				"body": "@testingzeronet12, this isn't news to experienced Tor users and ZN doesn't make any claims about anonymity that this post negates. If people don't make unwarranted assumptions, they'll be okay. If they don't read anything, these warnings won't help them either.\n\n> [testingzeronet12](#comment_17_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): And the usage of Tor could be made idiot-proof so that anyone knows how to use it. I think the developers already did a good job already though. \n\nIt's very hard to make things secure, even with Tor. Anyone who wants very good security should not run ZeroNet on a non-secure device such as your regular computer. ZN+Tor is the 2nd best choice and I think the Windows bundle does that. \n \nSecure deletion: I am not entirely convinced. If you simply don't click on random crap, you won't end up with unwanted content on your computer. If you think what is preferable - not download unwanted content, or being able to wipe unwanted content. I'd say the former is more important and it'd be better if we worked towards some sort of reputation system that can be used to lower the likelihood of unwanted downloads as well as to prevent spam and many other things. Even if you delete some unwanted content, if you left traces (IP address at the telco, ZeroNet log on your PC, etc.), securely deleting the content won't help you in most jurisdictions. \nLike with Tor, the only reasonable way is to use a secure OS (e.g. Tails) and not persist anything at all. And most users can't be bothered to do that.\n\n`user.deleteSiteData` (or whatever is used to delete a site) could contain a call to the shred command, but on Windows it seems there's no equivalent (maybe a CoreUtils binary could be added to ZN bundle?).",
+				"added": 1464871820
+			}
+		],
+		"8_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": [
+			{
+				"comment_id": 51,
+				"body": "No, it's the way things work right now. You download contents of sites you visit. ZeroMail the site contains all the messages so that's what it is.\n\nThere are better ways and as this situation becomes less and less bearable I'm sure we'll see innovation in this space. \nThere's no reason sites couldn't collect money from users, for example, so that messages are fewer as people delete them (or pay more). And maybe they could be set to auto-expire, and those who want to keep them could clone individual messages to their own archive.",
+				"added": 1464774600
+			}
+		],
+		"4_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 53,
+				"body": "Personally I'd like to see a method for this which can use (bitcoin) micropayments (look at 21.co's developer examples - you can charge micro amounts, e.g. 20 satoshi per second, although in our case we'd need something like 20 satoshi per MB served) so that there's a choice between paid and free. \nI copy/seed some ZN sites that I think are beneficial, but I'd do 100x more (seed anything, basically, except content objectionable to me) if I could cover my costs.\nWhile free is great, I do that now, I am not interested in doing much more without being compensated. And to be honest there are projects out there (Storj, for example) that will make it convenient to resell one's disk space, so if one can make some pocket change that way he won't donate 100 GB to just because it's cool.",
+				"added": 1464841297
+			},
+			{
+				"comment_id": 54,
+				"body": "> [testingzeronet12](#comment_15_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): This could hypothetically turn the ZeroNet network into a defacto paid-for service due to the price structure. I'm not saying I disagree with you, but what solutions would there be to stop ZeroNet turning into this?\n\nNotice that I am not arguing against free peer-assisted hosting on ZN - as I said I do it now. \nThe difference is that for some content there won't be enough (or any) free seeders. \n\n@nofish says if one has valuable content, he won't have problems. Yes, so free may work for those. But there are always others who would like to pay. It's a choice thing. If someone wants to pay (or wants to seed for money), why not let them? \nIt's not like noone would seed a site for free because some other guy is already seeding it for 5000 satoshi/day. You said it yourself (if the content is good, it will be seeded for free).\n\nThere are several important cases where only paid seeding can work:\na) When the poster can't be online all the time. Say the publisher doesn't own a computer or can't afford to pay for this cloud service, but can pay 0.001 BTC to service that strives to be online 24x7\nb) When the poster has content that requires a lot of resources (capacity, bandwidth, etc.)\nc) When any sort of \"customization\" is important. Say I am from Burundi, I publish only in local language, so I want to ensure at least one seeder outside of Burundi always has a copy of my latest content\n\nI could probably come up with more use cases, but the main point is that it's not really important what would people do. As long as there's a convenient way to do it (pay the seeders), good paid services *that ZeroNet users want* would thrive. \n\nWe shouldn't be worried about people monetizing ZN (at least I wouldn't, since I only gain to stand if *in addition* to existing free services I could also pay a bit to get even more amazing paid services).\n\n@nofish:\n\n> This service provider gives you a full machine access and you can run any kind of applications on it.\n\nIn case of any \"illegal\" content, the provider is screwed, and the customer (ZN user) is screwed too unless he uses some very anonymous way to pay for this service and connect to it. So this is a good choice for some, but it has its risks for many others.\nFrom a decentralization perspective, if something can be done efficiently in a decentralized way, why not provide a way to do it? (For example at the moment I can seed any ZN site and do it in a more private and cheaper way than any hosting company, but I don't know how the publisher can know that I am delivering on my promise to seed his site. In other words, how can some 1abcd...4565 site know that \"testingzeronet12\" is one of this mirrors and perhaps check his uptime.)",
+				"added": 1464869036
+			},
+			{
+				"comment_id": 59,
+				"body": "> [kingbudgie](#comment_4_17nphNHoGtz9EzvvTSSbZn7WHfM1ynpdsL): Well you can have seed boxes if you just leave zeronet running 24/7. So if you want seed boxes, just leave your running. Its what I do.\n\nHaha, that's right! \nBut he'd like you to use your resources to help him host massive ZN sites ;-)",
+				"added": 1465037526
+			},
+			{
+				"comment_id": 63,
+				"body": "> [testingzeronet12](#comment_19_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): I was thinking of doing this in a less power-intensive way by setting up a RaspBerry Pi as a seedbox. Does ZeroNet work on Raspberry Pi?\n> In addition to being power-saving, installing ZeroNet on a Raspberry Pi and using it as a seedbox means it can also be portable, ie, you can just seed from a free Wifi hotspot, as long as there is a power-bank attached to it and you SSH'ed into the Raspberry Pi earlier. This would provide a cheap, anonymous and cost-effective way to seed websites and videos.\n\nYou're not solving his problem. He wants people to seed tons of content for free. \n\nRunning on Pi or any small device isn't a solution (how many GB can you seed and how well from an overloaded (free) WiFi hotspot). In fact it's less efficient (effort and cost vs. outcome) than seeding from a proper x86 server (see the comment at the very bottom of this page) for 1 euro per month.",
+				"added": 1465064779
+			},
+			{
+				"comment_id": 65,
+				"body": "> [kingbudgie](#comment_6_17nphNHoGtz9EzvvTSSbZn7WHfM1ynpdsL): give me your ZN site fam. I'll seed the fug outta it.  c^:\n\nThanks, but I've been seeing for others for months now. I can seed 10's of TB's but I won't do it for free. \n@testingzeronet12 wants you to mirror and seed archive.org for free.",
+				"added": 1465108705
+			},
+			{
+				"comment_id": 66,
+				"body": "> [kingbudgie](#comment_6_17nphNHoGtz9EzvvTSSbZn7WHfM1ynpdsL): give me your ZN site fam. I'll seed the fug outta it.  c^:\n\nThanks, but I've been seeing for others for months now. I can seed 10's of TB's but I won't do it for free. \n@testingzeronet12 wants you to mirror and seed archive.org for free.",
+				"added": 1465108811
+			},
+			{
+				"comment_id": 67,
+				"body": "@kingbudgie thanks, but I've been seeing for others for months now. I can seed 10's of TB's but I won't do it for free. \n@testingzeronet12 wants you to mirror and seed archive.org for free.",
+				"added": 1465108874
+			}
+		],
+		"1_1DzpF7398yNGjFwHQqHAu9fRkbE3WZ6dZA": [
+			{
+				"comment_id": 56,
+				"body": "In your browser when you're on the home page of ZeroNet, in the top right corner right-click on TOR: ENABLED and select \"Disable ...\" (the bottom of drop down menu).\nIf you're running from the CLI just run `zeronet.py`, don't pass any Tor-related parameters.",
+				"added": 1464882328
+			}
+		],
+		"6_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 57,
+				"body": "It seems to me ZeroNet already does that (blog, forum, mail, etc. the apps that can work with ZN are included). \nZeroNet bundle for Windows is even better, it's really 0 click install.\n\nI agree it'd be great to have more apps but they need to be created. Among things that are possible now (with the current version of Zeronet), but not available in official ZeroNet installer is drag and drop for images and small videos in ZeroNet blog app, so that complete posts can be done from the Web interface.",
+				"added": 1464936928
+			}
+		],
+		"2_1DGVQKeEPAKbAUo9mLroTruuTQ9XvsGtRR": [
+			{
+				"comment_id": 58,
+				"body": "Yes. \n\n@teszt, a better way to explain that is \"If you want to browse and not publish and/or comment, Tails OS is a good choice for you\". \nAnd (I haven't tried, but it should be possible) what prevents one to have encrypted USB with one's ZN data? You still get all the benefits of no logs, anonymity and privacy.",
+				"added": 1465037447
+			},
+			{
+				"comment_id": 64,
+				"body": "> [teszt](#comment_9_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC): But even if encrypted 'one's ZN data' you could have the logs(encrypted) - and not amnesic any more.\n\nI would only put the ZN `data` directory on USB (or maybe just my own encrypted seed, so that I don't have any data), not any other stuff. \n\nYes, in some places you have to decrypt or else, but that wasn't part of the question. It's always good to consider other consequences of one's approach.",
+				"added": 1465068814
+			}
+		],
+		"6_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R": [
+			{
+				"comment_id": 60,
+				"body": "That doesn't make any sense. \nToo few people use Tor, let alone ZN. \nThe easiest and best way to grow the network (and make the platform more attractive to developers including those interested in VOIP) is to develop its core functionality which is Web publishing and serving.",
+				"added": 1465037761
+			}
+		],
+		"5_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R": [
+			{
+				"comment_id": 61,
+				"body": "If you can connect to a VPN why would you use Tor (if the only objective is to connect, and not stay anonymous)?",
+				"added": 1465037850
+			}
+		],
+		"3_13DyWatmb969sk7auVXrRHpaZh1VpbNBqw": [
+			{
+				"comment_id": 62,
+				"body": "Let's! \nIf you want to not start from scratch, use http://127.0.0.1:43110/0list.bit/",
+				"added": 1465042624
+			}
+		],
+		"6100_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 68,
+				"body": "allegations",
+				"added": 1465267348
+			}
+		],
+		"1_1KSynGkJ19GwKmR8BM2PTqWENa8rQ9vJS7": [
+			{
+				"comment_id": 69,
+				"body": "zeroid<=>bitcoin address mapping",
+				"added": 1465413537
+			}
+		],
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": [
+			{
+				"comment_id": 70,
+				"body": "> what I'm saying is giving an option to the community to democratically classify them that is a totally different thing\n\nWhy \"democratically\"? I don't give a rat's ass what the majority thinks, so if that's what you want - to censor or hide content from users simply because the network is swamped with SJW's - NO. \n\nPeople should be able to read what they want. Perhaps that means the ability to block certain users' (all all *but* certain users' as in \"whitelisting\") content. \n\n@planespherev2, in ZeroNet the site owner can ban users (regardless of their rating, but ratings and reputations can be considered by site owners who want to leverage them, and such ratings should come from not just one source of truth). Or they can whitelist known good users and prune bad ones. \n\nMultiple reputation and trust systems can be created and used on ZeroNet. Maybe an API could be added that would  allow sites/developers to pull reputation data from different sources. I don't have anything against a reference implementation, but each site should be able to use their own.",
+				"added": 1477229904
+			},
+			{
+				"comment_id": 73,
+				"body": "> [planespherev2](#comment_51_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj): Hi Ancap ;-)\n> What ZeroNet needs more than a reputation system is a good captcha anouncing system. Less troublesome than in freenet with the super hard letter but something with multiple picture scheme to solve.This alone put most of trolls and spammers at distance.\n\nHi planespherev2, that too. Few months back I blogged (here on ZeroNet) how spammers begun to infest the network probably due to its increasing popularity (but I still don't get it - the ROI must be terrible compared to clearnet). \nIt's a good problem to have but it doesn't seem so critical yet (except on 2-3 more popular ZN sites such as this one, but even here it can be handled manually). I need to think about it in coming days and weeks. \nI like whitelists, but they don't scale and people \"turn\" so some other mechanisms will be necessary to contain the zombies once ZN becomes more popular.",
+				"added": 1477243558
+			}
+		],
+		"2_1AWKKjCvCFvUbmrbBtqrMSfAGZ8D6tAVHt": [
+			{
+				"comment_id": 71,
+				"body": "You'd have to have a local or external resolver for .bit domains.\nThe Namecoin Project hasn't yet created software to run as trustless external resolver, so now it's only possible to install & run Namecoin locally and add a small program by Namecoin that provides DNS service to local host.\nThen site.bit would resolve to it's IP address (not to 127.0.0.1:43110/site.bit) but you would lose the anonymity. \n\nIt's too much hassle (for most people) and you can't expect regular users to bother with that.\n\nThe way ZeroNet provides this mapping is not trustless, but you don't have to trust the author more than you already do. Also you can verify that the sites are correctly mapped by checking in Namecoin explorers on the Web.\n\nSee the Namecoin site and forums for more info.",
+				"added": 1477231440
+			}
+		],
+		"6_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 72,
+				"body": "> IMPORTANT: Never change the Zeroid.bit input in User_contents. It'll just cause all of your future content to fail publishing, for some reason.\n\nYour private key signs content published by the address so obviously the address must be what identifies the site owner, not a domain name that anyone could set to the same value.\n\nThis is documented in ZeroNet documentation. For example https://zeronet.readthedocs.io/en/latest/using_zeronet/create_new_site/ (clearnet!) explains the signing concept.",
+				"added": 1477243145
+			}
+		],
+		"1_1EwDgtYPTUZhCQXt6toiRL6yM6bbXwbkCy": [
+			{
+				"comment_id": 74,
+				"body": "There are existing known issues related to Tor on ZeroNet Github repo. I think this is a known one.",
+				"added": 1477243648
+			}
+		],
+		"2_1HVJvkzPdXDEtsjBSzFLyx6KsG8Tg2nnr5": [
+			{
+				"comment_id": 75,
+				"body": "services aren't enabled by running the start command. \nGoogle it on clearnet, that has nothing to do with ZeroNet.",
+				"added": 1477243763
+			}
+		],
+		"5_1BYU9zV786auJ29dF3HMAQYhxA2WgN4ofi": [
+			{
+				"comment_id": 76,
+				"body": "Except that they can't call it that.\nAnd they steal from the people through state subsidies.",
+				"added": 1477243825
+			},
+			{
+				"comment_id": 79,
+				"body": "> [eibriel](#comment_6_1BYU9zV786auJ29dF3HMAQYhxA2WgN4ofi): You are misinformed about that...\n\nReally? How's that?\nhttp://www.latimes.com/business/la-fi-hy-musk-subsidies-20150531-story.html",
+				"added": 1477487347
+			},
+			{
+				"comment_id": 86,
+				"body": "> [eibriel](#comment_7_1BYU9zV786auJ29dF3HMAQYhxA2WgN4ofi): True!\n\nIf it's so great why does it need to take taxpayers' money? \nIt's great, but the buyers wouldn't buy it if they didn't get subsidized by $10,000 in tax money stolen from their fellow Americans. \nNice company, nice people!",
+				"added": 1477625688
+			},
+			{
+				"comment_id": 89,
+				"body": ">  Throw a 500 piece of equipment on every car/truck and drop the mortality rate by 5 times in one year. Just make it mandatory and give everyone the equivalent break in taxes. Win/Win.\n\nI see I'm dealing with clueless central planners here. \nWhy stop at that?\nWhy settle for $500 to still let 20% of the victims die or get injured?\nWhy not \"throw\" $5,000 or $50,000,000 worth of equipment on every car and completely eliminate pedestrian hits?\n\n> I thought about the same thing. On toyotas, anti-collision cost about 400 euros, and could avoid many pedestrian hit.\n\nRight, so why is the taxpayer forced to subsidize Tesla cars and various other monstrosities? The $400 that the average Joe could spend on this simple add-on ends up as subsidy for the socialist elite that buys Tesla cars.\nEach Tesla car (assuming average subsidy of $10,000) takes away 25 of these $400 anti-collision devices from the market\n\nDon't bother replying - I know you don't get it and can't understand any of this.",
+				"added": 1477810581
+			}
+		],
+		"8_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 77,
+				"body": "> I'm only interested in legal hidden services and semi-legal ones (that should be legal morally).\n\nThen you're (legally) in trouble because illegal but lawful sites could get you in trouble. \n\nAlso I don't see a point in bookmark sharing. There are search sites for Tor and they work quite well. Besides Tor sites frequently come and go and information collected this way gets stale quickly. \n\nAnd last but not least we don't know you and you don't know us, so it's rather stupid for you to click on links you get from us, and vice versa. \n\nBetter contribute to some Tor directory project or maybe start one which does proper curation and organization on ZeroNet.",
+				"added": 1477244205
+			},
+			{
+				"comment_id": 82,
+				"body": "> [testset](#comment_53_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp): I'm not sure...  For example,  there are plenty of countries where downloading copyrighted material from the internet is not illegal (only uploading them is illegal)...  but that is beside of the point now.\n> Moreover, Sci-Hub is quite harmless because open access is clearly the future of scientific and educational publications...\n> \n\nHarmless is your claim. If your country is in some TIPP partnership or whatever shit they're coming up with next, you can be Kim Dotcom-ed to the US. At least theoretically.\n\n> My main motivation of collecting a list of legal hidden services is disproving the general belief that only criminals sites have hidden services... probably there are other benefits of having such a list. \n\nI would suggest you to run a site with photos of flowers or trees. \nMuch better risk/reward ratio.\n \n> Why? I see no danger clicking a link (using torbrowser while the script blocker is on)...  Hanging around in ZeroNet is more dangerous, I guess... \n> \n\nCareful people will simply not click on a collection links just because they're posted by some guy who claims he's reviewed them. Tor isn't as secure and anonymous as you think.\n\n> If you know an already existing such ZeroNet project, then please tell me.If you think there is no such projects, please suggest me better ways to start one than this ZeroTalk thread.\n\nYou want to build a 90's Yahoo type of site (directory) whereas people have moved to Google type of service (search) to find content.  Most \"best of\" sites are outdated and the approach doesn't scale.",
+				"added": 1477488627
+			}
+		],
+		"1_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM": [
+			{
+				"comment_id": 78,
+				"body": "Haha what a clown",
+				"added": 1477273691
+			},
+			{
+				"comment_id": 80,
+				"body": "> [thisweb11](#comment_11_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM): hmm, no way to proove   destruction.\n\nwow, when did the the topic change to ZN as proof-of-publish tool? \nkeep trolling....",
+				"added": 1477487634
+			},
+			{
+				"comment_id": 81,
+				"body": "> [primo](#comment_1_1MbR4tiqHn8X3b7mEXXi1jaDdbJjbfCZSV): Yes, as long as there are people willing to seed the site, it's possible to create such a site on zeronet. \n\nIt's a silly idea to begin with. What you are saying is it's possible to make a censorship resistant page as long as you can get people to work for free, forever. In other words, it's impossible. \nWhy would anyone even bother volunteering to indiscriminately protect someone's garbage for free? \n\n> So, if you completely uninstall zeronet from your system after cloning zerotalk, there's no way to make changes to the cloned site afterwards, since the needed key is lost.\n\nWhy should anyone believe you that you deleted the private key (and even before that, that you hadn't made modifications to the contents)?",
+				"added": 1477488187
+			},
+			{
+				"comment_id": 84,
+				"body": "> [thisweb11](#comment_16_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM): Thanks.   I understand that.  There is nothing anyone can do to stop a file being seeded , copied, changed and readdressed once its out there.   But what Im wondering if there is any way to set up a page/forum (like this one) and be able to prove (cryptographically) to anyone who uses that specific page that it can no longer be moderated or censored for all eternity because the key has been destroyed.  Something like a bitcoin burn address.   ?   I think it would be useful and possible to have such a feature.\n\nOf course it's possible, but as always it's a matter of cost. It would be expensive. \nOne could have an add on that checksums each user's post and store the checksum in an off- or on-blockchain database that is read-only.\nAnd both ZeroNet and this other DB would have to remain available.\n\nAnother thing is ZN is not targeting that kind of use case.  Yours.network is (to some extent; now they still host stuff on their own servers) targeting curation. \n\nRight now storage here is \"free\", which isn't sustainable except for use cases where people voluntarily curate a site by \"mirroring\" it. It works for small sites because the incremental cost is low, but it can't work to store everything forever (even when the content is interesting just to 1 person). The checksum-to-outside-world feature could be added, but why would anyone spend their time to checksum the entire ZeroNet? I think the current approach is fine and people who want to curate could develop integration with external blockchains for such use cases.",
+				"added": 1477625345
+			}
+		],
+		"2_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM": [
+			{
+				"comment_id": 83,
+				"body": "You're missing the simple effort of reading answers to all these questions which waterrabbit had to re-key-in for you.",
+				"added": 1477624875
+			},
+			{
+				"comment_id": 85,
+				"body": "To clarify my previous comment: these questions have been asked and answered right here, many times, and file size support has been improving (see on Github).\nZN is great for what it does and IPFS is great for some other use cases.",
+				"added": 1477625526
+			}
+		],
+		"3_14UupgrdnT7Y8vMES7aqUFgD1fC5RYNrh8": [
+			{
+				"comment_id": 87,
+				"body": "lol like anyone wants to click on a random `.onion` link.",
+				"added": 1477626214
+			}
+		],
+		"2_1MdwjTFbwpWCLfyo2ZjeXzB7DbL7euNPBi": [
+			{
+				"comment_id": 88,
+				"body": "> Problem with Bitcoin, other cryto currency, gold, silver and other commodity based currency\nCommodity among all these currency is that, the quantity is limited.  When currency is limited, it can be manipulated by 1 or small group of people.\n\nSo what? Nobody forces you to use Bitcoin or other cryptocoin. You can use any crypto-currency you like, that's exactly why manipulation seen in fiat can't work in free crypto currencies. People can use whatever they want.\n\nYou may not be aware of that, but there are crypto-exchanges where you can sell whatever currency you agreed to accept, in exchange for whatever currency you find to suit your taste.",
+				"added": 1477733608
+			},
+			{
+				"comment_id": 92,
+				"body": "> [planespherev2]\n> Money, by essence, is chains. It always has been.  There will always be someone richer than some other. Whether because he is smarter or more talented, but more oftenly because he inherited it, or was simply lucky, or didn't have health problems. \n\nSo because people aren't the same, money is chains. What nonsense \"logic\" is that? \nYou don't need any money if you don't want something that belongs to others. \nProblem is, socialists want handouts, but they don't want to pay. \nSo, money is chains. Very deep!\n\n> Capitalism will absorb anything and everything. Soon children will be for sale everywhere. You'll have a chip under your skin to buy stuffs (or that what they want). \n\nYou may end up having a chip under your skin because you want free handouts by the state. \nIf you're a freeloader, yes, you have to accept to be a state serf. Enjoy your handouts.",
+				"added": 1477816256
+			},
+			{
+				"comment_id": 94,
+				"body": "> [planespherev2](#comment_76_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj): If i was a billionaire, i would probably act like them. Creating wars, making false flags, decimating the environment. \n\nHow can you make a profit if you destroy your field, or factory? You can't. \nYou misunderstand the problem and you don't even know why.\n\n> Thinking that there are good capitalists and bad ones is nonsense. If you play a particular game, you play by the rules. Even if the game is unfair by nature. I you do a MMA fight, don't expect it to be unfair if you got hit on the head while being on the ground. \n\nAgain, your comprehension of \"rules\" is incomplete. First off, in almost all of MMA only *kicks* (including knees) to the head of a grounded opponent are forbidden. And second, you based your misstated comparison on the UFC rules, apparently unaware of the fact that kicks to the head are allowed in some rules (e.g. PRIDE). \nNow I'm nitpicking on this unrelated stuff, but it's symptomatic - you simply don't have the knowledge required to debate this stuff.\n\n> I absolutely don't want anything that belongs to other. I want that everybody have everything he needs (without luxury bullshit and shiny garbage) covered. \n\nWho decides what is \"luxury bullshit\"? Chairman Mao?\nWhat if someone is too poor to get a a \"reasonable\" mobile phone but he can't afford it? How does he get one?\n\n> In a money less society, there is no exchanges. The production is shared, but no natural or legal person will take from you and give to others. \n\nNot everyone wants to live in Potemkin villages. Some people want to organize and live according to their own rules and values. \nBut the old problem with all communisms is that they are doomed to fail as long as people can go across the street. \nAs the greedy and competent leave your commune and sick and unable to compete join it, guess what happens? Obamacare happens. And then you need a chairman Mao to set quotas and micromanage phone manufacturing, etc.",
+				"added": 1477849173
+			}
+		],
+		"2_1Cxt2k3farSSee7HTkJKJ7eCTKxfFGNXe6": [
+			{
+				"comment_id": 90,
+				"body": "Of course she won't, because then it becomes more likely that she ends up where she deserves to be.\n\nThis week Assange said the next leak will get her arrested. \n\nWe can only hope he's right. So far it did't have much effect and I've lost count of the criminal acts leaked in recent months - I think at least 20-30 different things that the corrupt FBI failed to investigate and recommend to prosecution.",
+				"added": 1477810868
+			},
+			{
+				"comment_id": 91,
+				"body": "> [quasimodo775](#comment_3_1Cxt2k3farSSee7HTkJKJ7eCTKxfFGNXe6): what happens in a presidential candidatebows out before the election?\n\nGoogle it",
+				"added": 1477810966
+			},
+			{
+				"comment_id": 93,
+				"body": "> [quasimodo775](#comment_6_1Cxt2k3farSSee7HTkJKJ7eCTKxfFGNXe6): Speculation: is Huma a spy? It would fit the profile of spies --get close to a principal and then becometheir shadow. Is that what is about to break, forcing Comey to disobey Lynch and re-open the investigation?\n> All speculation: but are the thieves starting to fall out among themselves?\n\nComey reopened because that's the order he got from Congress, to let them know if anything changes. \nI think Weiner's material evidence was accepted and cataloged and only later did the FBI find a ton of material that's related to the email case. But at that point they couldn't destroy the evidence or cover it up. \nAt any rate nothing will happen before the election. If they don't prosecute before the election, they won't after either. \nComey is now a bit safer because \"he did his part\" - as long as he himself avoids going to jail for obstruction of justice he'll land a nice job in the private sector, so even if they fire him I don't think he gives a damn at this point.\n\nHillary must survive the next leak that's supposed to take her down and then her poor health. \nThe FBI investigation not a major concern for her presidency, as much as I'd like it to be.\nI do think the polls have been rigged, but I am not convinced they are completely false - she probably enjoys a small advantage over Trump even after all this. \n\nIt's not bad that the worst candidate is likely to win. The sooner this all comes down crumbling, the better.",
+				"added": 1477848209
+			},
+			{
+				"comment_id": 95,
+				"body": "> [enoch](#comment_10_1QH1N2BcCN6bQu1J98yUovsnnkvHn8TKhC): \n> I vow to live free, right now, not in some distant future. I call it \"sovereign in plain sight\". With Bitcoin, Bitmessage, ZeroNet and WebTorrent it's finally possible to simply ignore statists and go about your life.\n\nNice. I was going to add a similar (I guess) note in my previous comments but I hesitated because I didn't think the other two guys would understand and it's just invite more political or ideological discussion from them. But since you wrote this nice comment, here's what I had in mind: on the most fundamental level I don't give a crap if McCain is a Zionist (label from a comment below) and if Hillary is not.\nThere is no one in the government who will work for me as honestly and efficiently as I could get served in the private market, so I don't care who is or isn't something. I don't want any one of them and I don't want an \"honest\" person in their place either. \nOn surface I am rooting for Trump because I can't stand the Clintons, but should Trump be elected that wouldn't many any difference to me. I wish I was more pragmatic and had the ability to shill for Clinton on social media because if elected she would bring the system down faster, but I simply can't bring myself to it.\n \nYour approach to stealth income is nice: you are doing something for yourself *and others* right now (whereas other commenters want the government to do something for them, as usual by coercing their fellow men) and you are also working against the current system far more effectively than you could do by casting a vote in the next election.",
+				"added": 1477915465
+			}
+		],
+		"1_1BHd3LMHR6ktduvE7mGSdsR4y6JGeU24nv": [
+			{
+				"comment_id": 96,
+				"body": "LoL what an incredibly stupid question. \nI'd post some porn here just to annoy you, but I don't have any.",
+				"added": 1477915810
+			},
+			{
+				"comment_id": 97,
+				"body": "> [enoch](#comment_8_1QH1N2BcCN6bQu1J98yUovsnnkvHn8TKhC):\n> It's as simple as being a contentious neighbor and noticing if a child in your neighborhood needs help.\n\n(s)he is an armchair SJW. \n(s)he believes it's neither efficient nor desirable to spend your energy actually caring about real people. It requires real effort and - because the real life victims are usually children who need help - it's too much to deal with (especially if they're poor and \"low class\"). And it doesn't scale either. \nSo (s)he is an online activist who helps the world by posting comments like these. A community organizer that we all have been waiting for. \nWhat a wonderful way to improve the world!",
+				"added": 1477916157
+			}
+		],
+		"2_1Buu3gEo6EcUijPE6dkSToaYzXKGnAgXFy": [
+			{
+				"comment_id": 98,
+				"body": "paste your Nginx configuration and logs and then someone may want to bother.",
+				"added": 1477986489
+			},
+			{
+				"comment_id": 100,
+				"body": "> [dock9](#comment_2_1Buu3gEo6EcUijPE6dkSToaYzXKGnAgXFy): Nice welcoming attitude towards a new user of a small community trying to contribute.\n\nThat's my point - you're not trying to contribute. You're just offloading the question to others. \nAs you can see you've got no responses, perhaps because this is a small community that at this stage has more questions than answers.\nPaste your config and logs and contribute your partial how-to recipe. \nYou can create your own blog by cloning any other, explain what you did, paste the config and log and turn it into a how-to once you find a solution. Or is that too much to ask for?",
+				"added": 1478055436
+			},
+			{
+				"comment_id": 101,
+				"body": "> [dock9](#comment_3_1Buu3gEo6EcUijPE6dkSToaYzXKGnAgXFy):  A more welcoming tone would help grow the community faster, I might have written it off if not for devtest's response.\n\nIf you posted your config and logs the first time you would have had an answer earlier and provided others with an opportunity to actually learn something. It's that simple. \n\n>  how do you know I'm not trying to contribute?\n\nYou posted 2 (open ended) questions without sharing any information in those topics that would help the next person accomplish something. \nI see you also didn't help document what you learned in the documentation repo (https://github.com/HelloZeroNet/Documentation/commits/master) and it doesn't look like you blog about it here, so in all likelihood your \"efforts\" to fix your own problems aren't that helpful to anyone except yourself.\n\nThis reminds me of those community members who conclude their forum topics with \"Solved\", leaving everyone to wonder how they got so unlucky to come across that thread.",
+				"added": 1478147736
+			}
+		],
+		"6_1BYU9zV786auJ29dF3HMAQYhxA2WgN4ofi": [
+			{
+				"comment_id": 99,
+				"body": "Let us know when there's a move about the Malaysian corruption investigation that JLD is part of",
+				"added": 1477986584
+			}
+		],
+		"1_1ANXCwkxieV453iigVj4d6FNNkQJCHaPwE": [
+			{
+				"comment_id": 103,
+				"body": "This is an example of a totally useless post that contributes nothing.\nMy thoughts:\n1. Decreased censorship is already working (we have hateful and racist posts here)\n2. Decentralization is working (you can clone this forum and have your own)\n3. Diversity is working (we have posts from people from all over the world)\n4. Constructive content is subjective. I'm sure some racists find their post very constructive. If you don't find that content meaningful, create your own.",
+				"added": 1478493899
+			},
+			{
+				"comment_id": 105,
+				"body": "> [captains](#comment_2_1ANXCwkxieV453iigVj4d6FNNkQJCHaPwE): This alienates people from decentralization.  \n\nThat's the meaning of decentralization. Instead of the (lying) mainstream media experts, here we have true decentralization and freedom of speech. 10% of the content is racist garbage, 70% mediocre, 20% is good. \n\n> [armageddon](#comment_5_1Je6ZLuzvFihQPFFhveQ7GBU2FBWE28zDv): http://127.0.0.1:43110 You mean it is racism and hate to be informed about how Jews suck blood from baby penis ?\n\nYou're linking to racist posts and preach the need to improve.\nWhy did you even visit that post? Insane.\n\nI already told you: you can create and moderate and censor your own forums. You can't and won't tell others what they may or may not post. Live with it or go back to Facebook.com.",
+				"added": 1478579623
+			}
+		],
+		"1_1KhPxh1zeawh5Ktdmz9yfqrzKFEfwJ8g4x": [
+			{
+				"comment_id": 104,
+				"body": "Post the content here to Zeronet or bugger off",
+				"added": 1478494025
+			}
+		],
+		"4_1KVbKJBqXdkUr4ogZGJEjDFsm2y9vtX8Bj": [
+			{
+				"comment_id": 106,
+				"body": "You do have access to a clearnet search engine, don't you?",
+				"added": 1478579697
+			}
+		],
+		"1_1JpxTAYzGdJppaeg7xS7VmBaXZF9d94WRj": [
+			{
+				"comment_id": 107,
+				"body": "Hmm, I'm not clicking on clearnet links with unknown content. Create a blog and post your screenshots in there or submit a bug request on Github.",
+				"added": 1478720015
+			},
+			{
+				"comment_id": 110,
+				"body": "> [skylakexts](#comment_6_1JpxTAYzGdJppaeg7xS7VmBaXZF9d94WRj): it's a link to imgur.com , a massive website hosting pictures ................................... lol ...................................\n\nI know the site, I don't know the content. For all I know you may have posted illegal porn there, so I'll pass.",
+				"added": 1478863726
+			}
+		],
+		"2_153dW34Ng5fVUZ5D5NcZRfAbvRQS1jYC1k": [
+			{
+				"comment_id": 108,
+				"body": "Better post this where appropriate (Github). That's where people post issues so there may already be a solution or cause analysis on this.",
+				"added": 1478863585
+			}
+		],
+		"1_17iKAuuhDPPmh5cs8Ea465mTdnQiR8WaMK": [
+			{
+				"comment_id": 109,
+				"body": "Maybe it's not up to date. Why don't you post this to Github issues?",
+				"added": 1478863625
+			}
+		]
+	},
+	"comment_vote": {
+		"3_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1,
+		"82_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"10_14PXH1VLXEseL1h6gLpHqi3bXEAdamDwgg": 1,
+		"67_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k": 1,
+		"31_19qsuxKBkNZWYft3epWgn6u3gG82sQHs6n": 1,
+		"74_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"2_19arYgVKguUamTqtYGu6T9FSUsr19CyEcG": 1,
+		"644_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"4_19jY7u41PdsoRuWKac3bU78SCsDVZFGucd": 1,
+		"50_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k": 1,
+		"2_13WnNjGWpKx29MGErCCpUAnP772R3fYyMk": 1,
+		"18_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ": 1,
+		"1_14qxCejjdSRqXaDgcNdTTK6fBgKVtnvCea": 1,
+		"42_15QGRquMETTn5LnCHjTm1qa9eaXGtq7gpT": 1,
+		"45_19qsuxKBkNZWYft3epWgn6u3gG82sQHs6n": 1,
+		"83_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"667_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"13_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"11_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"4_17nphNHoGtz9EzvvTSSbZn7WHfM1ynpdsL": 1,
+		"20_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"13_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": 1,
+		"21_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"1_1L14vSk76tujfNoqrcRuFk2tBBZgUPy92t": 1,
+		"4_1CZhapKybCk4VkGiSso1YzXZd1oG5C3oAw": 1,
+		"38_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg": 1,
+		"34_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"37_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"10_1QH1N2BcCN6bQu1J98yUovsnnkvHn8TKhC": 1,
+		"8_1QH1N2BcCN6bQu1J98yUovsnnkvHn8TKhC": 1,
+		"4_1AxLMGKjSdsL3Sxa2x1WHJmoap3Z93YdCm": 1
+	}
+}

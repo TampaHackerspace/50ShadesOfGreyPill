@@ -1,0 +1,77 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Does ZeroNet plan to incorporate IPFS into the network stack?",
+			"body": "ZeroNet and IPFS share similar goals / use cases and both operate somewhat according to the UNIX philosophy whereby the parts which make up the whole are modular and interchangeable. It would be great if ZeroNet became part of the IPFS ecosystem by replacing http:// with ipfs:// thereby merging the two networks, and also eliminating duplication issues that come with using plain old bittorrent. Both protocols obviously need more work done before they are ready for use by the general public, but fingers crossed we will have some kind of distributed web in the near future. Oh, and I won't even mention SAFEnet here because I honestly don't know much about it. I would be curious if anyone thinks SAFEnet could work with these protocols also.",
+			"added": 1474976426
+		}
+	],
+	"topic_vote": {
+		"9_12i4LiZ39NxcYtsf36aTWJzcpzw4KFUCJy": 1,
+		"1_1JtxPipMFzvBTQ8fwSeupUxfiVMbutBfhG": 1,
+		"1_1C9LEodjjCPzJkYPh63xzGhWh3JrouaQ27": 1,
+		"1_1GVmhdQ9seQD5Mv6uzX7t8ZXVJPRHQfAHQ": 1,
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": 1,
+		"1_12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH": 1
+	},
+	"next_comment_id": 6,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "wew lads",
+				"added": 1474694329
+			}
+		],
+		"9_12i4LiZ39NxcYtsf36aTWJzcpzw4KFUCJy": [
+			{
+				"comment_id": 2,
+				"body": "Nationalism vs Globalism",
+				"added": 1474695575
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 3,
+				"body": "Why is 'GIF Time' included as a default zite in the ZeroHello sidebar? Don't make this into reddit.",
+				"added": 1474855099
+			}
+		],
+		"1_1GVmhdQ9seQD5Mv6uzX7t8ZXVJPRHQfAHQ": [
+			{
+				"comment_id": 4,
+				"body": "0chan is /pol/ bunker, so is Tox",
+				"added": 1474855565
+			}
+		],
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": [
+			{
+				"comment_id": 5,
+				"body": "Youtube replacement",
+				"added": 1474945598
+			}
+		]
+	},
+	"comment_vote": {
+		"2_12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH": 1,
+		"1_16Ck7ijXtS6nwVoPTpC4CprCvNuDjttYcV": 1,
+		"1_1PoA7YxWVZKoXWoD1PjdwByFqqCA8d2uqr": 1,
+		"146_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"9_1AvkR7PmGFLZL9drPpqCaBPEdcVipv2Ajs": 1,
+		"1_15WJPhvY6MCRGdWoJXsLUE7FjhWXsTjN6V": 1,
+		"3_1NnciDBNk2s2o8ASCmXkhfvqR1qws6QNuq": 1,
+		"2_1NnciDBNk2s2o8ASCmXkhfvqR1qws6QNuq": 1,
+		"1_15t5UGPdVqHdapgG1Kpe62KyQiTG5PcjEs": 1,
+		"1_1JuftAEz34c7m9RsxCEv6rDyiTkS8SCJFR": 1,
+		"2_1CEnKfVALihFLwjwwb9qbA6JojRKFjGAZM": 1,
+		"18_1NGTMtN8816KeCtNqy6W4fCQduU4P8iwty": 1,
+		"1_1CEnKfVALihFLwjwwb9qbA6JojRKFjGAZM": 1,
+		"1_1Lxi4PBAxhmirZjNbZ1EDfDWwa18kh4okm": 1,
+		"4_1CEnKfVALihFLwjwwb9qbA6JojRKFjGAZM": 1,
+		"2_1DuvpcdBfdmA8XF359JZ2xXbCMbvQEFopz": 1,
+		"4_12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH": 1,
+		"5_12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH": 1
+	}
+}

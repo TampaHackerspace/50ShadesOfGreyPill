@@ -1,0 +1,37 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Where is YIFY?",
+			"body": "Actually I don't usually download from YIFY due to the lack of audio quality but wouldn't it be awesome if there was a clone of YIFY's site on ZeroNet. Anyone know of anything like that?",
+			"added": 1473402952
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 4,
+	"comment": {
+		"1_1Psd8z6hvC62pEbVgtTAXbuM3PFPgz46tZ": [
+			{
+				"comment_id": 1,
+				"body": "> [tkarita](#comment_144_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): The closest is Play.  YIFY doesn't really exist anymore: https://torrentfreak.com/yts-ag-wants-to-be-the-new-yify-on-popular-torrent-sites-151113/\n\nYeah I actually use yts.ag some times but mostly, I'm using my headset for audio playback and it's got pretty decent sound quality so I download everything from rarbg which seems to be where Play get's it's content.",
+				"added": 1473407343
+			}
+		],
+		"1_18Sh2Z83C23xdd6pjCq6NGv7Y6svEBcUfb": [
+			{
+				"comment_id": 2,
+				"body": "> [a1user](#comment_2_18Sh2Z83C23xdd6pjCq6NGv7Y6svEBcUfb): Users should be able to use the same user id without having to copy .json files over to the new device.There should be a search engine.There should be html5.People should be able to very easily clone their existing ShitNet(regular Internet) websites over to here, and then be able to administrate them from here, eventually allowing them to dump their ShitNet websites.Ecommerce should be supported.Basically, you want ZeroNet to take over completely, and take all power away from the ShitNet.\n\nIf you want to copy your website over to ZeroNet, just create a symlink to connect your websites directory with your ZeroNet's website directory.",
+				"added": 1473573457
+			}
+		],
+		"1_1KkA3C1iVDfieotYpuPUCpUtKzdFcfHMRy": [
+			{
+				"comment_id": 3,
+				"body": "Yeah keep an out for something in the near future.",
+				"added": 1473573595
+			}
+		]
+	},
+	"comment_vote": {}
+}

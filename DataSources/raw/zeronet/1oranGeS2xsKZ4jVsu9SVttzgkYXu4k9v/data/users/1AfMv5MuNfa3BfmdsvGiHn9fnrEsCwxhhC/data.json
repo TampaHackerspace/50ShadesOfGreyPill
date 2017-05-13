@@ -1,0 +1,411 @@
+{
+	"next_post_id": 29,
+	"next_comment_id": 29,
+	"next_follow_id": 12,
+	"avatar": "jpg",
+	"user_name": "Jjg",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "One-man Skunkworks",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484321588,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1484321657,
+			"body": "Well this is exciting.  So far ZeroNet looks like something I wanted to build for a long time, but someone else built it for me.  Procrastination FTW!",
+			"date_added": 1484321655
+		},
+		{
+			"post_id": 1484328024,
+			"body": "If you know someone's @name here, is there a way to find them? #noob",
+			"date_added": 1484328021
+		},
+		{
+			"post_id": 1484343888,
+			"body": "This ZeroNet business is going to complement Turtl nicely...",
+			"date_added": 1484343884
+		},
+		{
+			"post_id": 1484344246,
+			"body": "Next album cover...",
+			"date_added": 1484344241,
+			"meta": "{\"img\":\"805,700,978ac3da28e37c54d6768aa48b85bd798b83946485674553,0001234455600714489A0AABB78A8A660799B644CCCB0A7A4DCCC0BCAEDECCCC666EEDFFFF0EEEE5FFFFEEFFD3\"}"
+		},
+		{
+			"post_id": 1484492235,
+			"body": "Another dumb question: How do I add a site to the \"Connected Sites\" list on ZeroHello using the site's URL (i.e.: http://127.0.0.1:43110/kaffiene.bit )?",
+			"date_added": 1484492229
+		},
+		{
+			"post_id": 1484577538,
+			"body": "Day 3 on ZeroNet.  Still working on finding my way around, but learning a little more each day.  Started taking notes to see if I can put together a guide for the people I drag into this with me (once I know what I'm doing :) )",
+			"date_added": 1484577531
+		},
+		{
+			"post_id": 1484579505,
+			"body": "Today's dumb question: what exactly are \"hubs\"?",
+			"date_added": 1484579497
+		},
+		{
+			"post_id": 1484581232,
+			"body": "Learning a lot about ZeroNet reading @kaffie's blog http://127.0.0.1:43110/blog.kaffie.bit/?Home",
+			"date_added": 1484581223
+		},
+		{
+			"post_id": 1484659743,
+			"body": "Came across this post and found the presentation extremely helpful in orienting myself within the ZeroNet universe: http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:34:Slides+about+ZeroNet",
+			"date_added": 1484659733
+		},
+		{
+			"post_id": 1484663390,
+			"body": "Day 4 on ZeroNet.  Taking notes in earnest now, trying to capture things from the new-user perspective.  My goal is to create a guide I can use for recruiting :)",
+			"date_added": 1484663379
+		},
+		{
+			"post_id": 1484666064,
+			"body": "Coding to The Doors is pretty trippy; quite a change from my typical Industrial/EDM mix.\n",
+			"date_added": 1484666052
+		},
+		{
+			"post_id": 1484667202,
+			"body": "Is there a good way to use ZeroNet/ZeroMe on Android?",
+			"date_added": 1484667189
+		},
+		{
+			"post_id": 1484682552,
+			"body": "Has anyone attempted to import/sync Wikipedia into a ZeroNet site?",
+			"date_added": 1484682538
+		},
+		{
+			"post_id": 1484740896,
+			"body": "You know things are weird when you're debating between purchasing home-automation outlets or a ka-bar fighting knife...",
+			"date_added": 1484740881
+		},
+		{
+			"post_id": 1484744084,
+			"body": "Day 5 on ZeroNet.  Tried publishing my first site (a clone of ZeroWiki), however I'm not able to access it on another machine (\"NO PEERS FOUND\").  \n\nMaybe I'm doing it wrong, or maybe I need to wait longer or...?",
+			"date_added": 1484744068
+		},
+		{
+			"post_id": 1484750835,
+			"body": "I am utterly fascinated by this: http://astronaut.io/",
+			"date_added": 1484750818
+		},
+		{
+			"post_id": 1484767387,
+			"body": "What does the \"This is my site\" switch do?",
+			"date_added": 1484767369
+		},
+		{
+			"post_id": 1485170737,
+			"body": "Day 6 on ZeroNet (I'm going by usage days not calendar ones):  Just getting back to it, things are a bit intense in my homeland at the moment.\n\nHoping to test running ZeroNet on some embed-able hardware to judge the potential for using it as the foundation for a couple mobile device projects.",
+			"date_added": 1485170718
+		},
+		{
+			"post_id": 1485380782,
+			"body": "Had some luck so far running ZeroNet on the $9 computer.  I need to find a reasonable LCD to slap on the thing and see what it's like running the UI on there as well.\n\nOne thing that occurs to me is that ZeroNet apps seem to demand a pretty powerful browser (something that at least supports Websockets).  I'm wondering how hard it would be to wire a complex ZeroNet app like ZeroMe into a \"native\" client and bypass the need for a browser in order to run these applications on hardware-constrained devices.",
+			"date_added": 1485380762
+		},
+		{
+			"post_id": 1485788729,
+			"body": "I'm new to Android hardware, any recommendations for getting it to run something open-source (or at least not vendor-provided/controlled)?",
+			"date_added": 1485788708
+		},
+		{
+			"post_id": 1485788872,
+			"body": "Day 7 on ZeroNet: Thinking about how to take advantage of current events to steer people toward distributed systems as a solution to government control over centralized architecture.\n\n",
+			"date_added": 1485788850
+		},
+		{
+			"post_id": 1485867802,
+			"body": "I'd like to share a ZeroNet blog outside of ZeroNet, so I think what I need is a \"proxy\".  Is that the right way to go and if so, are there any guides for setting something like that up?",
+			"date_added": 1485867779
+		},
+		{
+			"post_id": 1485871572,
+			"body": "Day 8 on ZeroNet.  Working on setting up a blog and figuring out how to publish it via http/s to lure new users into ZeroNet.",
+			"date_added": 1485871548
+		},
+		{
+			"post_id": 1485915475,
+			"body": "First foray into ZeroBlog: http://127.0.0.1:43110/1EmmHLTM44UnercnfHEeYVtz8a1axxz5Hz/",
+			"date_added": 1485915450
+		},
+		{
+			"post_id": 1485916331,
+			"body": "So, what's the best way to embed an image in a ZeroBlog post?  I see how you can add the markdown for it, but is there a standard way to make the image file itself accessible from the site?",
+			"date_added": 1485916305
+		},
+		{
+			"post_id": 1486245038,
+			"body": "Day 9 on ZeroNet.  Spent some time today hacking on ZeroPhone and finally figured out a problem with my Reprap thats been evading me forever.\n\nTurns out that it was dropping steps occasionally when retracting/un-retracting the filament.  The result was that sometimes there would be excessive nozzle pressure or worse, the filament would \"ratchet\" itself up until it disengaged from the extruder drive.  The result would look like a regular filament jam, but wouldn't respond to any of the typical jam troubleshooting steps.\n\nI love when I'm able to solve an unrelated problem while in pursuit of something productive (as opposed to time dedicated to troubleshooting).  Feels like getting something for nothing.",
+			"date_added": 1486245011
+		},
+		{
+			"post_id": 1486826141,
+			"body": "Day 10 on ZeroNet.  My \"news feed\" suddenly disappeared from ZeroHello; how do I get that back?",
+			"date_added": 1486826113
+		}
+	],
+	"post_like": {
+		"13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31_1484334006": 1484337401,
+		"1CR3B1Bwx6umZqL7H6hrbyPdXKJR7j8Mfn_1483209435": 1484342650,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484666949": 1484667009,
+		"18VBc2ZtepiJ8efvcNBwZSPvsd6RtZkFgt_1484731534": 1484765387,
+		"1PyJKf7erAPW5akUQsMSxQxRzkZNWZreFw_1485297633": 1485380468,
+		"12b5tJeqw6ww7m3QNGyunKU9T2kGrupkod_1486243002": 1486246177
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Jro: I'm not sure how to locate their profile to follow them, seems like the only way to find people is by looking through the list of posts.  I'm sure there is a way to go directly to someone by @name, but I don' t know how :)",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484328024",
+			"date_added": 1484340575
+		},
+		{
+			"comment_id": 2,
+			"body": "@Jro: Thanks for the tips, I'm still learning the vernacular (merger sites, etc.).  When I added Zerome I was prompted to select something (I think a merger site) but there was only one option so I picked that one :)  Sounds like there are multiples, and you can \"connect\" more than one a time, is that right?",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484328024",
+			"date_added": 1484409974
+		},
+		{
+			"comment_id": 3,
+			"body": "@ks: It doesn't, which is what I expected would happen.  When you visit that link does it start seeding for you?",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484492235",
+			"date_added": 1484576667
+		},
+		{
+			"comment_id": 4,
+			"body": "@ks: I do have a directory for the address in my data_dir, but even if I visit the URL as you posted it, the site doesn't get added to my ZeroHello list.  I'm wondering if there is something I need to do to \"activate\" it (if that's the right term, still learning the names of everything here)?",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484492235",
+			"date_added": 1484578044
+		},
+		{
+			"comment_id": 5,
+			"body": "@ks: curiouser and curiouser",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484492235",
+			"date_added": 1484579434
+		},
+		{
+			"comment_id": 6,
+			"body": "@ks: and like magic, it just appeared!  Perhaps I just wasn't patient enough. ",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484492235",
+			"date_added": 1484579552
+		},
+		{
+			"comment_id": 7,
+			"body": "@Nofish: so it's kind of like a shared storage area for a Zite, vs. regular Zite files that only the owner can modify, is that correct?",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484579505",
+			"date_added": 1484580743
+		},
+		{
+			"comment_id": 8,
+			"body": "@Nofish: I see, so are hubs primarily used for multiuser sites like ZeroNet?",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484579505",
+			"date_added": 1484581880
+		},
+		{
+			"comment_id": 9,
+			"body": "@Nofish: Ah I hadn't considered that.  Thank-you for answering all these questions.  I'm excited to start hacking on ZeroNet so I'm trying to learn as much as possible as quickly as possible :)",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484579505",
+			"date_added": 1484583449
+		},
+		{
+			"comment_id": 10,
+			"body": "Maybe I'm using the wrong url...",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484744084",
+			"date_added": 1484744137
+		},
+		{
+			"comment_id": 11,
+			"body": "@Durand: port appears to be open, the url is http://127.0.0.1:43110/18mFaFszijxNg49HPDoRSPzkSmQrV31LRH/",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484744084",
+			"date_added": 1484747286
+		},
+		{
+			"comment_id": 12,
+			"body": "Seems to be showing up now, although the test content is missing?",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484744084",
+			"date_added": 1484750610
+		},
+		{
+			"comment_id": 13,
+			"body": "@Jro: so if I cloned a site on one computer, and then I wanted to continue using my clone on another, should I throw that switch on both computers?",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484767387",
+			"date_added": 1484773778
+		},
+		{
+			"comment_id": 14,
+			"body": "I think I may have this figured out...",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484744084",
+			"date_added": 1484774192
+		},
+		{
+			"comment_id": 15,
+			"body": "@Firebox: good to know, and thanks for the link!",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484767387",
+			"date_added": 1484775407
+		},
+		{
+			"comment_id": 16,
+			"body": "@Brahman: indeed",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1485170737",
+			"date_added": 1485183564
+		},
+		{
+			"comment_id": 17,
+			"body": "I think I've met more anarchists here than anywhere else... ",
+			"post_uri": "1PyJKf7erAPW5akUQsMSxQxRzkZNWZreFw_1485297633",
+			"date_added": 1485380510
+		},
+		{
+			"comment_id": 18,
+			"body": "@ks: not sure, it's an HTC One M8 2014 (Verizon) ",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1485788729",
+			"date_added": 1485802314
+		},
+		{
+			"comment_id": 19,
+			"body": "Thank-you @ks, this is excellent info! ",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1485788729",
+			"date_added": 1485867125
+		},
+		{
+			"comment_id": 20,
+			"body": "@ks: Excellent, thank-you!",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1485867802",
+			"date_added": 1485869525
+		},
+		{
+			"comment_id": 21,
+			"body": "Wow, I've never heard of \"Caddy\" before, looks pretty cool.",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1485867802",
+			"date_added": 1485869671
+		},
+		{
+			"comment_id": 22,
+			"body": "That's awesome.  I've been doing that by hand using nginx and yeah, it's a pain :)  ",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1485867802",
+			"date_added": 1485870519
+		},
+		{
+			"comment_id": 23,
+			"body": "So with this setup can I point a regular DNS name at the proxy and have it resolve to a specific ZeroNet site (perhaps with some host header finagling) or is it strictly a proxy and requires the ZeroNet path/etc.?  My goal is to map specific DNS hosts (foo.bar.com) to particular ZeroNet sites (primarily a blog) so I can work inside ZeroNet but publish outside to recruit new users :)",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1485867802",
+			"date_added": 1485870768
+		},
+		{
+			"comment_id": 24,
+			"body": "Cool.  I'll give Caddy a try, it looks cool and I'd love to avoid dealing with SSL certificates.  If I get stuck I'll probably fall-back to nginx but I'll at least give Caddy a try.  One question I have about this setup is, when someone visits the zite via the proxy, do they have an \"identity\", i.e., what private key is used?  I want to allow anonymous access to my zite, so I can create a new key for that, but if visitors leave comments, etc. do they all looks like the same identity from a ZeroNet perspective?",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1485867802",
+			"date_added": 1485871184
+		},
+		{
+			"comment_id": 25,
+			"body": "Ah, I didn't know there was a multiuser setup :)  I have so much to learn...",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1485867802",
+			"date_added": 1485871324
+		},
+		{
+			"comment_id": 26,
+			"body": "@ks gave me some good tips in a previous post.  It sounds like what I want to do is run ZeroNet in multiuser mode behind an HTTP proxy (the suggested Caddy).  I have a server I can use, but I might use an existing public proxy until I get around to setting all that up :)",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1485871572",
+			"date_added": 1485915077
+		},
+		{
+			"comment_id": 27,
+			"body": "Awesome, thank-you @Rebelb0y11",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1485916331",
+			"date_added": 1485958641
+		},
+		{
+			"comment_id": 28,
+			"body": "nm, updating seems to have fixed it :)",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1486826141",
+			"date_added": 1486826429
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1CR3B1Bwx6umZqL7H6hrbyPdXKJR7j8Mfn",
+			"user_name": "Jackaboy",
+			"date_added": 1484323062
+		},
+		{
+			"follow_id": 3,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "18DbeZgtVCcLghmtzvg4Uv8uRQAwR8wnDQ",
+			"user_name": "jro",
+			"date_added": 1484340775
+		},
+		{
+			"follow_id": 4,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1D242AyQghFqqQTwo1f1csP5kRQe588BUm",
+			"user_name": "Francis Brunelle",
+			"date_added": 1484340836
+		},
+		{
+			"follow_id": 5,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1484581025
+		},
+		{
+			"follow_id": 6,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1484581405
+		},
+		{
+			"follow_id": 7,
+			"hub": "1NFiNiTYxiKn5PJo9eDEsiusJJUFkew5Vo",
+			"auth_address": "1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb",
+			"user_name": "ɃǾȾ",
+			"date_added": 1484581422
+		},
+		{
+			"follow_id": 8,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx",
+			"user_name": "ks",
+			"date_added": 1484582736
+		},
+		{
+			"follow_id": 9,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC",
+			"user_name": "Firebox",
+			"date_added": 1484775375
+		},
+		{
+			"follow_id": 10,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "12b5tJeqw6ww7m3QNGyunKU9T2kGrupkod",
+			"user_name": "Zerophone",
+			"date_added": 1485183741
+		},
+		{
+			"follow_id": 11,
+			"hub": "1BLACKtww78JmNU95yT162nmHZx76n7Wjz",
+			"auth_address": "1NhDPqhia3TEmpsa2n6qa7rDv4XLvohRv3",
+			"user_name": "Rebelb0y11",
+			"date_added": 1485915701
+		}
+	],
+	"settings": {
+		"reverse_comment_order": false,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"blocked": [],
+	"flags": {},
+	"comment_like": {}
+}

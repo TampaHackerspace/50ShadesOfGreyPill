@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HDSQvIh4V8gYQu7w6/bYjsNY4koVIo8o0r6Gbm+Dpp22C44LHx9QgN4SIQC4HBJ9vUGhAcXFfFpo7J6nTPjqtiU=",
+ "cert_user_id": "jonnynomad@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "acd2690d972459a0aa1c4835a58fdfcee2f2dbc2cf6f094d7c896cf4fa575c70",
+   "size": 1609
+  },
+  "data.json": {
+   "sha512": "f14beb2ae7b01fa141c4b1f35fa71ee197ab5719bc33c21e24a1f702bc6176d4",
+   "size": 4253
+  }
+ },
+ "inner_path": "data/users/15PchWszY3YyRT7qPBMHFyRoDHPPaVHyQP/content.json",
+ "modified": 1493968530,
+ "signs": {
+  "15PchWszY3YyRT7qPBMHFyRoDHPPaVHyQP": "Gyl1Ah7ttESyRq9TwHLBi7gYvgtrShg3rbls01HitkBgT6sIL/xsSXq2tgrkENcdc7bQwZa9chqG5nQmDC1e3RY="
+ }
+}

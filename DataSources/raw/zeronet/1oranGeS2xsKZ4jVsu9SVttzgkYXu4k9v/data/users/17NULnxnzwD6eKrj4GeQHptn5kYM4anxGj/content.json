@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G1d68YfS7nYOvp2hSk8ISSNFpdyEdOPdFSe68NOIJ6JuMbZNkG95ixJe7T67n+tdzspQxf1Of9vD3QTpOiwqLtw=",
+ "cert_user_id": "nanaya@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "43cc4dc5831c8f3ccaf95aa4ae16b4f771b23e462b013035b771c72c72837f47",
+   "size": 2040
+  },
+  "data.json": {
+   "sha512": "49a9d5265e5684d45fa844708c1f260d5b26ce73d50f3ccf346c22fe04b978f6",
+   "size": 402
+  }
+ },
+ "inner_path": "data/users/17NULnxnzwD6eKrj4GeQHptn5kYM4anxGj/content.json",
+ "modified": 1485171326,
+ "signs": {
+  "17NULnxnzwD6eKrj4GeQHptn5kYM4anxGj": "G98MWqVOvWn8B505IYIX7wP+2TySzIMKwXJJPbL84i1ljYko5yqkMFvJfvZyPaQa1QklQ+/44twXK4EC7lKJVdU="
+ }
+}

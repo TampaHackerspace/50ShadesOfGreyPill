@@ -1,0 +1,129 @@
+{
+	"next_topic_id": 6,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "DNS_PROBE_FINISHED_NXDOMAIN bug",
+			"body": "Whenever there is a non-ZeroNet url and i click it, it gives me the errror message \"DNS_PROBE_FINISHED_NXDOMAIN\". What now?",
+			"added": 1457104499
+		},
+		{
+			"topic_id": 2,
+			"title": "copying user.json is not copying identity",
+			"body": "I unzipped ZeroBundle on a different PC\nI copied the user.json and placed it in the data folder\nI opened zeronet with the cmd file\na new identity is created\n\nHow am I supposed to copy my identity?",
+			"added": 1457194476
+		},
+		{
+			"topic_id": 3,
+			"title": "Cant copy my identity",
+			"body": "I created an identity on computer1\ni started ZeroBundle on computer 2\nI stop ZeroBundle on computer 2\ni overwrote the user.json on computer 2\nI restarted ZeroBundle on computer2\nYet, the identity is not carried over.\n\nAnyone else have this issue?",
+			"added": 1457195803
+		},
+		{
+			"topic_id": 4,
+			"title": "Content missing",
+			"body": "Non-programmer here.\n\nI cloned the ZeroTalk and grep-ed the text to Japanese for the JP audience. I changed the static texts, published it, posted some stuff and all seems to work well. However, now my content is missing. I had 2 posts but it's gone... any ideas?\nhttp://127.0.0.1:43110/1KMSfa7mF911ert6iFQuwfJPMqpT8uZT8s/",
+			"added": 1458292930,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 5,
+			"title": "Testing Japanese board",
+			"body": "http://127.0.0.1:43110/1FhzTdzLKAXxu18xRn7LzH8LohQucsJNDq/",
+			"added": 1458404653
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 15,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "anyone commenting from a very restricted nation?",
+				"added": 1457098694
+			},
+			{
+				"comment_id": 2,
+				"body": "> [angristan](#comment_30_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7): France ? ¯_(ツ)_/¯\n\nlol, too open.\nwas hoping someone from Russia or Turkmenistan or some similar place",
+				"added": 1457099133
+			},
+			{
+				"comment_id": 4,
+				"body": "cant seem to import user.json into a new machine...",
+				"added": 1457229703
+			},
+			{
+				"comment_id": 5,
+				"body": "> [antiphase](#comment_30_1NoRNknY1JbJ8nMdn88LwczyMDFnR1GtNw): The file name is users.json, not user.json.\n\nsorry, meant users.json.\nPlaced the file in the same path of the new machine, but still will not import the data...\nFYI Win10",
+				"added": 1457229982
+			},
+			{
+				"comment_id": 6,
+				"body": "test",
+				"added": 1457709359
+			},
+			{
+				"comment_id": 14,
+				"body": "hi",
+				"added": 1487560800
+			}
+		],
+		"1_1P97itWECWCYp7D73wY4GaTKUyUo4A3Pcf": [
+			{
+				"comment_id": 3,
+				"body": "> [ovidiu](#comment_2_1P46rhvckorxi9PpbN5CvJc9xWwWmzDrRw): On Windows or Linux ?\n\nWindows 10 64bit",
+				"added": 1457141249
+			}
+		],
+		"2_14CxrQGKkqTPKda94c9j1z7zBX3q53dPfr": [
+			{
+				"comment_id": 7,
+				"body": "wont load.  Console says its giving up",
+				"added": 1457753060
+			}
+		],
+		"2_1MCsyW6W243LY69ZYm99XbV3M8Gbbrp5hF": [
+			{
+				"comment_id": 8,
+				"body": "I use PIA, simple and cheap,\nAlso fixes security issues relatively quickly (dns leaks, ssl, etc)",
+				"added": 1457753718
+			}
+		],
+		"14_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 9,
+				"body": "TorrentFreak",
+				"added": 1457831801
+			}
+		],
+		"6_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": [
+			{
+				"comment_id": 10,
+				"body": "how is this more secure?",
+				"added": 1458194395
+			}
+		],
+		"1_1HChVi4MV85rvyAkEpATe6TweGoUaxy2yy": [
+			{
+				"comment_id": 11,
+				"body": "agreed",
+				"added": 1458203479
+			}
+		],
+		"1_1PRsmkcDcCnKbCfFTeQizKYcDpNn98iQcT": [
+			{
+				"comment_id": 12,
+				"body": "各種UIテキストを日本語化してみた：\nhttp://127.0.0.1:43110/1FhzTdzLKAXxu18xRn7LzH8LohQucsJNDq/",
+				"added": 1458405167
+			},
+			{
+				"comment_id": 13,
+				"body": "> [whitecat6142](#comment_3_15ACVdcY7vF8pqtjs1GtMv8DtWyhJX3Ur2): Forbiddenってでて開けないです\n\nご報告ありがとうございます\n今、SIGNしなおして再Publishしました",
+				"added": 1458490949
+			}
+		]
+	},
+	"comment_vote": {
+		"44_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k": 1
+	}
+}

@@ -1,0 +1,64 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HPU461QMZoPPUzHV6ZB5Hw7qhiN5BdAF0kJFigv1sOHc6NnE/MjXl3dQoHjDnGqwNnmvJimKlhaA4iczviMgUJ0=",
+ "cert_user_id": "fragmentation@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "41c0139a2e30668eb29ca722ed1972fb1f2e893cc520d6cc00a67ad1baf8a00d",
+   "size": 47803
+  }
+ },
+ "files_optional": {
+  "1491357496.jpg": {
+   "sha512": "af597cfe487097a998120bb086f8470c399dce19892127a453b27a69d189a3a7",
+   "size": 90840
+  },
+  "1491357509.jpg": {
+   "sha512": "c592790f163f849850dd02162cfa52fffc30105e0aff6096275abfed2f577c6d",
+   "size": 56979
+  },
+  "1491357518.jpg": {
+   "sha512": "4aceca8b6c0284e4ce3dfe8441c4bda2ef7e29a6041279f5d0631487ed20f681",
+   "size": 97110
+  },
+  "1491357549.jpg": {
+   "sha512": "ab9b40920a5af7fdb7b09a1f18c59d450fada2ddf869a8d2c6d471ee4259cf8c",
+   "size": 31535
+  },
+  "1491357558.jpg": {
+   "sha512": "3a2d58d3ae3e7d370bc6afc663be954bf2626d6da71f5b73d8afc9aed323e1af",
+   "size": 80275
+  },
+  "1491357571.jpg": {
+   "sha512": "6912b51a440bc24ab3e02d6bdc82307d829a836571edf06a2632407bee89e378",
+   "size": 81152
+  },
+  "1491357587.jpg": {
+   "sha512": "9e89b5365b479e9df7c77ff901c012383f0a7859f819ddabcacfcd1961e6b978",
+   "size": 61142
+  },
+  "1491357596.jpg": {
+   "sha512": "df8cac9a8aa0acf761b4edb9a9a17ebcf8b5a624f22eee7731071eafa2c4e6d8",
+   "size": 75822
+  },
+  "1491357608.jpg": {
+   "sha512": "0eddd039b96491527dcf1bb427b41a26e68abcbfa62f0a8c66073dbb1bd81111",
+   "size": 99771
+  },
+  "1491357619.jpg": {
+   "sha512": "9c1ce7b3c6a35bebcdd5dfd7cc1dbb0a813aed3084d0212816ec6ed3e3b4ca0d",
+   "size": 79452
+  },
+  "1491357634.jpg": {
+   "sha512": "4ca329084af39fe25171e60bdeba25985d0f7081f3fdd0697e9498b999925c7a",
+   "size": 109057
+  }
+ },
+ "inner_path": "data/users/14kRyXfDJwJEHnTM5qa9NkQMFuuBvZfsqY/content.json",
+ "modified": 1491357714.039,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "14kRyXfDJwJEHnTM5qa9NkQMFuuBvZfsqY": "HLtAnIbwgQZ2JerhxfeNNuWP3dROFEqQ+KY7DsOTbf9g/DwigPdIHYCTFleSj2WSgvv2n4Ho4QpOOvlfS8hYaN8="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HNjRQgFcqsoa6i/bbi4uV+5oh2V0fMtzNg3dbTIkgejUJat8zvpkz+dCMpev80wSZ8TY+hPNo8u9AYDUm9GeoIo=",
+ "cert_user_id": "jewishmelange@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "026bc9cb0947c8f49f6dadafc3e17656ef511fe49383623a8732fffc75eed5a2",
+   "size": 900
+  }
+ },
+ "inner_path": "data/users/1DoE2oLDwVmMgdk56QaNB7khXJWuyZstnU/content.json",
+ "modified": 1491078181,
+ "signs": {
+  "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT": "G6RqtWjh2WlRtESLXDk7Tynsfed27xTaYt7UtPufR79E+a2qsm69TYrv2uST6MjEM4DDAFrPy6OMiJUo4DTNFmc="
+ }
+}

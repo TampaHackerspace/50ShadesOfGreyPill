@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G3FiUeb5C5PlopNLtCNV32hAvsa8mOnMWa7HiSpS22x6uiIci2bZA4fv6eZ62X7G0xn+CBQOyydURvDHFGghfKw=",
+ "cert_user_id": "vallerie@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "736dae56e3add79492cb2a7d19b1cb349883ac734c64703894db8a10a8e1ce23",
+   "size": 162
+  }
+ },
+ "inner_path": "data/users/1CHeogsdMZWSGbU1b3tturcaRYfiFkzrUA/content.json",
+ "modified": 1478442162.541,
+ "signs": {
+  "1CHeogsdMZWSGbU1b3tturcaRYfiFkzrUA": "HGkp0Eh2RQVFHsm54Ozv6+bnybOY5c+RH65sQGhuppCMkxaIU2Pk4UfrZgcnw/mc+dWf5oRJznm9WnbBiZW66Oo="
+ }
+}

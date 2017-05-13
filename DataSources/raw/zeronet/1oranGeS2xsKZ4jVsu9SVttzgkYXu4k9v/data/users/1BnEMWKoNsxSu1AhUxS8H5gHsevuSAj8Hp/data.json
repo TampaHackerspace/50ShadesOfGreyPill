@@ -1,0 +1,37 @@
+{
+	"next_post_id": 4,
+	"next_comment_id": 1,
+	"next_follow_id": 2,
+	"avatar": "jpg",
+	"user_name": "Chaman",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "From the jungles of silicon I know the medicines that cure all your ills",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1490043793,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1490043971,
+			"body": "Someone in Spain?",
+			"date_added": 1490043969
+		},
+		{
+			"post_id": 1490044938,
+			"body": "Someone from South America?",
+			"date_added": 1490044935
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd",
+			"user_name": "Styromaniac",
+			"date_added": 1490044713
+		}
+	]
+}

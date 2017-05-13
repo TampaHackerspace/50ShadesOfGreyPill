@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HFsVTCHYzeuXKNZN0NGvSW0jrIz9txAN2je00roA2/Wql4wBCrYeCUCBmYUt25klV+dDnHwbVBEQThE6apGbLf8=",
+ "cert_user_id": "yandom@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "60b980644a4b7efe958597a9bee88df1885e801e9b2c57ecfe90c41075e9cd58",
+   "size": 1131
+  }
+ },
+ "inner_path": "data/users/12sddEkXzneRp3ghMw5K6SoPLJdkybVrkj/content.json",
+ "modified": 1487329561,
+ "signs": {
+  "12sddEkXzneRp3ghMw5K6SoPLJdkybVrkj": "HMeNmW3607FP01OFu/N0RpZATTdvDZkuPp9aCIFEN05mqfOZutTbODG0y2JyQvdH7xKRtK8HsNJ9uNYiReJlt2I="
+ }
+}

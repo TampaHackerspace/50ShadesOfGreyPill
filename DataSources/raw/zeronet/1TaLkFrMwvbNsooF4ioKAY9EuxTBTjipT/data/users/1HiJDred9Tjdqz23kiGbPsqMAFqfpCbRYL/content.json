@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G83vVmcr2YEKw+z61EhsAmton2PrY6szpeXllX5/+vTWdY1E/3/bPBGkZF7Iaa+5yoIKa35aA27GxlPKSGJrQ+E=",
+ "cert_user_id": "besmart@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "23c0b42a4fb638b6dba7df56bc6d71ecab44f08b3c10f6031fffa276eb84fbb9",
+   "size": 3416
+  }
+ },
+ "inner_path": "data/users/1HiJDred9Tjdqz23kiGbPsqMAFqfpCbRYL/content.json",
+ "modified": 1491046791,
+ "signs": {
+  "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT": "G5/kECQYtdYdKTtu6VptaejyEgt/voHuXI01wsk4DTholso/a5fc16UlREjnmjHgJsVhi02K9cmco2V0wsEt260="
+ }
+}

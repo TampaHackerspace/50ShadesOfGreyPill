@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G1E/NSxIvBif3QWpLmeA3nmDTQ5qCuajDXy6Bn8MDrSY8ElNU7eiHGcWa1JLlHqASJ91BXsaZJCPgADiA8GkHIo=",
+ "cert_user_id": "unixguru1604@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "797fbf76a2ba8c27c0a0c7dcdc9cccdf676fa34d1a8fcbb3de12d5a9cfd3234c",
+   "size": 1652
+  },
+  "data.json": {
+   "sha512": "fd263b4d64e93a7c1d1406dff70db244cf47e68e62f297814aafe9f6c35b1be9",
+   "size": 2136
+  }
+ },
+ "inner_path": "data/users/1tsN2NZ2odhDRXK6gwDHxWV87UH4dk6bx/content.json",
+ "modified": 1490659055,
+ "signs": {
+  "1tsN2NZ2odhDRXK6gwDHxWV87UH4dk6bx": "HF86ZFzm/g+CdRCZWQHwIuq7KI1QhN8vLmeXcG7FaeLUNb5GIzz2+pHs5MqTJS8C0ZoMKYH3Xziww5nS4/dqZI4="
+ }
+}

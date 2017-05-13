@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HIEq1i9r4Sc58lf+1OjCMJXG4UFOhSxOlzhDqi/wKkvI5iatXqfIx1AnHxP8z1rgTYLDljipxK9MxO4raJ3P9iA=",
+ "cert_user_id": "swimmingpanda@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "6caf87900c9f590e58fc2fbfcdcc388c10a8bf3c96f9018c49f0856f069cb11b",
+   "size": 1227
+  },
+  "data.json": {
+   "sha512": "dd68a94b8f0bbdeda470e9fdb66c352ae7460ace9245c7318fa1dc1e625ad702",
+   "size": 339
+  }
+ },
+ "inner_path": "data/users/1HDKiyoRPonmjxCawHhoVHu24DnJbWbcao/content.json",
+ "modified": 1485563589,
+ "signs": {
+  "1HDKiyoRPonmjxCawHhoVHu24DnJbWbcao": "Gwg0KQwxigYNTinckd9yF9LwhdFLz0W4b3jTXmzf5jy6nXFsGqw1Ojzv61KNdj8j5E/DNcM4qQDFM7KG3+kwJuk="
+ }
+}

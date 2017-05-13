@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HKu3O17TN8D5jzggclvyZZ08PW64xYAmavoOeM30+Foo0s1sGrHbDY2Zkv61IGWKhO09j8Izi29RX3W9SgtNUDI=",
+ "cert_user_id": "afait2016@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "b9cd6e35f21d29cf46148f9d70f291927125e1333c222efa13037218394ac7f6",
+   "size": 340
+  }
+ },
+ "inner_path": "data/users/1LGu8bRwKQxHjXi5GPZnzJViiu6N9qtMML/content.json",
+ "modified": 1488617143,
+ "signs": {
+  "1LGu8bRwKQxHjXi5GPZnzJViiu6N9qtMML": "G0c9HdiHZWiYLCcCz1wTXiYIvkwCt8EGBPeqgov5+p4sQb8/yBod3Qj7kpYYSwk8fEcHe/EWwJzdIzW/eLGGoI0="
+ }
+}

@@ -1,0 +1,23 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "login on another machine",
+			"body": "I have an account already but re-installed zeronet because i couldn't find why my firewall was blocking it. I had to create new account, but I want to use my old one. How can I do that?",
+			"added": 1474939076
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 4,
+	"comment": {
+		"1_1ASFMANgCvtRUuZbz3GmxCsvRAJ4iHb6r2": [
+			{
+				"comment_id": 3,
+				"body": "> [kopykate](#comment_33_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4): Copy the old folder from your previous computer, put it on a USB stick, then transfer it to the new computer. The easiest and best way to do it, so you can keep all of your sites as well.\n> The more complicated way to do it is to copy the Masterseed in Users.json, but even I have had trouble getting it to work .. not worth the effort, haha.\n\nI restored the file from my recycle bin and saved it over the other folder. When I opened zeronet my only log in choice was this acc.. interesting hmm",
+				"added": 1474946692
+			}
+		]
+	},
+	"comment_vote": {}
+}

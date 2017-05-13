@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G8Pab99MfSRYmUhG+JNnfa3pfu3ubZ/ejixV12aL5B0V9WGkD8TPwTAqfTK9/BQrxjeADfIAJqR8DmgDEmkcyqs=",
+ "cert_user_id": "copyreddit@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "cbb13090041f755d5c65eef94397e267ea4165d85014e48d3af1a7cce6cff91e",
+   "size": 337
+  }
+ },
+ "inner_path": "data/users/1MocL2J4KmBk6xozE4eE4jQVfurHdGCTqM/content.json",
+ "modified": 1487512358,
+ "signs": {
+  "1MocL2J4KmBk6xozE4eE4jQVfurHdGCTqM": "HFxfGajepGvKIJ4nvHLkNNCIdJ1GC8ofrgN7JucOhc48wvzyaMmEaoMYXnxD2XV/OqPBCRxl+9FNcjI8b9gMcrE="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HChPLACfcclPjxpiLAQgbT2Qh8uHzZmPbTvPRwDJItEMPlcGrukuArX6qiDad4s8NEUe3xdPLCYsIV0zDWQ6ULo=",
+ "cert_user_id": "chendeben@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "672776c059dd84ec521d7e7a5345c1b203e8c96d6889f8ba209d4aec2ad8ed78",
+   "size": 340
+  }
+ },
+ "inner_path": "data/users/18bkPPruZrW7ot9apQMLVgsKyM8Ye1be7w/content.json",
+ "modified": 1486707706,
+ "signs": {
+  "18bkPPruZrW7ot9apQMLVgsKyM8Ye1be7w": "Gy2sk93SE3Cm9TVBLxyHbXbWn0z614Jmd3+WzmgSbSVcXZhjm+YG9raokT/vMDVAYR/lIH8qlh1366vJEsK0o7w="
+ }
+}

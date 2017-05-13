@@ -1,0 +1,154 @@
+{
+	"next_topic_id": 9,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Bitnation on ZeroNet",
+			"body": "So been talking with the Bitnation community, it seems they are excited about ZeroNet and would be good to have a Bitnation.bit domain to the new landing page.",
+			"added": 1457756834
+		},
+		{
+			"topic_id": 2,
+			"title": "Alguien de habla hispana?",
+			"body": "Me pregunto si estaria bien, empezar a trabajar en foros con su propia locale. Proponer a ZeroNetwork.bit un subdominio 'Habla.ZeroNetwork.bit'",
+			"added": 1457758970
+		},
+		{
+			"topic_id": 3,
+			"title": "You know if the Namecoin d/* is case-senstivie?",
+			"body": "i am in the process of registering a bunch of domains, but I wonder most of them are occupied by cybersquatters. I wonder if the namecoin \"namechain\" allows all-caps domains. So d/zeronet != ZeroNet",
+			"added": 1457948140
+		},
+		{
+			"topic_id": 4,
+			"title": "is there a ZeroWiki?",
+			"body": "Wonder if there is a ZeroWiki or a Wiki that could work on ZeroNet (Javascript Only).",
+			"added": 1458050087
+		},
+		{
+			"topic_id": 5,
+			"title": "ZN security",
+			"body": "I wonder if we have the same issue as early Bitcoin-core days where people steal the wallet.dat because of plain text. \nShould ZN have an encryption mechanism of the user.json and sites.json?\nHere is a pywallet encryption function that could be easily inserted into ZN.\nhttps://github.com/jackjack-jj/pywallet/blob/master/pywallet.py#L447",
+			"added": 1458490488
+		},
+		{
+			"topic_id": 6,
+			"title": "Migrating Wordpress to ZeroBlog",
+			"body": "So I want to migrate my blog to my crypto-blog, wodrpess export this as an XML and ZeroBlog, I was able to parse and register to sqlite. However after migrating my data in the sqlite the update showed on the blog but the publish wasnt happening. Someone on IRC suggest writing to data/data.json but was unable to sync the database to the posts on the new blog. I am pasting the script which will dump it into JSON: \nhttp://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?1MahZJTzjoEMMCv2jBReDWhyNGRhN5tvDq_0",
+			"added": 1459034560
+		},
+		{
+			"topic_id": 7,
+			"title": "Python for ZeroNet webapps",
+			"body": "I wonder if python can be used to generate the javascript for ZeroNet sites, and if so, which modules are suggested. There are many python-to-js preprocessors. I also have seen coffeescript and other languages to create sites like these.",
+			"added": 1459064247
+		},
+		{
+			"topic_id": 8,
+			"title": "Is it possible to connect to a blockchain from ZN",
+			"body": "Wonder if this is possible to connect to a blockchain and get data from it from ZN.",
+			"added": 1474313198
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 15,
+	"comment": {
+		"1_1BQg5MQZ63aEQZMzLEXP6yY3hsgznKpaps": [
+			{
+				"comment_id": 1,
+				"body": "Lots probably, I am in Arch. But if you will want to put this on your VPS, chances are high they are running linux or bsd.",
+				"added": 1457499983
+			}
+		],
+		"1_1H1MoVnTYgxbiBp3B7hCequmDfdwKVs4f2": [
+			{
+				"comment_id": 2,
+				"body": "thought his was a ZeroTalk group.",
+				"added": 1457500098
+			}
+		],
+		"1_14dNVE624kRnYCiLWcZmaeJCteW6txn7wA": [
+			{
+				"comment_id": 3,
+				"body": "Depends where you register it, you can do it from a namecoin node that you have, it will involved as a 8 nmc, at the current price today is around .013 usd, so 1 penny. \nMore information here:\nhttps://wiki.namecoin.info/index.php?title=Register_and_Configure_.bit_Domains\nYou can do it through a name registrer for up to .02 btc (10 usd). Here is a .bit registrar: \nhttps://domaincoin.net/",
+				"added": 1457760622
+			}
+		],
+		"1_1AFL4FFT3BuEDwTwVqychMq4LbxjuEY5Ss": [
+			{
+				"comment_id": 4,
+				"body": "Also the MAID coin has been performingv very well on the last month. Maybe because of the recent annoucements. I trust MaidSafe could be a worthy competitor of ZeroNet, but just like IPFS, I like ZeroNet ease of installation and configuration thanks to Python.\nIPFS uses Go which is a bit of a pain to install.",
+				"added": 1457769984
+			}
+		],
+		"2_1MahZJTzjoEMMCv2jBReDWhyNGRhN5tvDq": [
+			{
+				"comment_id": 5,
+				"body": "Ya estoy hablando con nofish para que vincule ese foro al dominio.",
+				"added": 1457778469
+			}
+		],
+		"1_1MahZJTzjoEMMCv2jBReDWhyNGRhN5tvDq": [
+			{
+				"comment_id": 6,
+				"body": "@Kahpecuce I am not a ethereum fanboy, however the ethereum adoption was plan way before the price uprise, and the reasons were more pragmantic than you think. Basically Bitnation adopt bitcoin because of the 'smart contract' hype. But implementing this on bitcoin would need a sidechain, which means that they rather go with a platform that support it at the protocol level, so you are not wrong saying they went with the hype but is not the same hype you are thinking off.",
+				"added": 1457804073
+			}
+		],
+		"5_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": [
+			{
+				"comment_id": 7,
+				"body": "LOL I was just posting about that. I could contirbute with CSS if you feel the need.",
+				"added": 1458050130
+			},
+			{
+				"comment_id": 8,
+				"body": "Sorry, small question, how do I clone it, I tried a direct copy to a free site that I created. I am just not sure what to copy, I did most of the files except for control.js but get this error notification:\n\"Internal error: TypeError: 'bool' object does not support item assignment\nUiWebsocket.py line 98 > UiWebsocket.py line 178 > UiWebsocket.py line 438\"\nDid I miss a file?",
+				"added": 1458051042
+			},
+			{
+				"comment_id": 9,
+				"body": "Thank @basxto got it working now...\nhttps://127.0.0.1:43110/holons.bit",
+				"added": 1458054075
+			},
+			{
+				"comment_id": 10,
+				"body": "Is there a github to the ZeroWiki project?",
+				"added": 1458518114
+			}
+		],
+		"6_1MahZJTzjoEMMCv2jBReDWhyNGRhN5tvDq": [
+			{
+				"comment_id": 11,
+				"body": "Interesting, however I wanted more like to migrate my blogposts into the cryptoverse. Given that there is already a Blogging app created (althought still crude). I wanted to port my wiki to this. I think I did a good job, althought it took me a bit of json encoding knowledge and some manual edits to get it right. Fortunately is working now. Maybe a plugin to export a wp blog into JSON format.",
+				"added": 1459064385
+			}
+		],
+		"1_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 12,
+				"body": "I've just posted this issue on the IRC channel, hope we can get this solved.",
+				"added": 1469088211
+			}
+		],
+		"8_1MahZJTzjoEMMCv2jBReDWhyNGRhN5tvDq": [
+			{
+				"comment_id": 13,
+				"body": "Let say if I want to get the bitcoin price from coinbase or blockchain.info and post it on the ZN site.",
+				"added": 1474313595
+			}
+		],
+		"1_1GQXkixafDKRyMy9ijwcwCVmKHM5XohQ1k": [
+			{
+				"comment_id": 14,
+				"body": "Have asked this before, but I wonder if its possible to get some data from the blockchain withing zeronet. Like get info from an explorer API.",
+				"added": 1474313986
+			}
+		]
+	},
+	"comment_vote": {
+		"27_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"42_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": 1,
+		"765_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

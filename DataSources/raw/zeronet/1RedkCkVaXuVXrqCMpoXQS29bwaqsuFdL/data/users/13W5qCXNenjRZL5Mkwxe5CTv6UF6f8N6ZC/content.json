@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G29qYONuLYWOa28qRV8nl711paGIb1FwEAmtgyXL5eWrHMtL0MeazTidNy78ilPkPhLxR3/agbwa+t4T82M9/gs=",
+ "cert_user_id": "bailtree@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "9df5fe4a5067b595d9b69f89f3f2941b75ff31a2c857f8c59ddf5763b7076253",
+   "size": 339
+  }
+ },
+ "inner_path": "data/users/13W5qCXNenjRZL5Mkwxe5CTv6UF6f8N6ZC/content.json",
+ "modified": 1470896655.316,
+ "signs": {
+  "13W5qCXNenjRZL5Mkwxe5CTv6UF6f8N6ZC": "GwpXpy0qk0vMEMB62rtsthPFbwL/tAbOSM/gPoKT4LBj+tiUiMmiaR/Z63rvdAdX9Kp0fk/iTTyPkqzvhFW3PT4="
+ }
+}

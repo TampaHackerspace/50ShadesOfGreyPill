@@ -1,0 +1,18 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G4enAawN6P178dX0bSWH0zmJdMpM73/VMseg0uTNNOPoVKm2thkJPd5UxmBUs5RynXyOUBl3qK0e1i+h0KBHBy0=",
+ "cert_user_id": "guaijia@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "2d5db74d159ea39b533d9223f76e34655e5ea09b198669619cf24ea493eaadc8",
+   "size": 422
+  }
+ },
+ "inner_path": "data/users/14GKqPVCqiEXYGfPK5nD3ntakVbSd5sCAQ/content.json",
+ "modified": 1482765692.079,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "14GKqPVCqiEXYGfPK5nD3ntakVbSd5sCAQ": "G6FKJ9PxxUR+fk4czdYEaMirjlIc1nCa/ANLj8R0Off5KL3XSq1ZQSYmoeqF8q303JgQHAlrA0MomxLBsmF0DJ4="
+ }
+}

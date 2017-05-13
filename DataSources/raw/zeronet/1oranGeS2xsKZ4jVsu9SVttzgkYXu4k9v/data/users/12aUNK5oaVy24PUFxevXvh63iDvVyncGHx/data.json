@@ -1,0 +1,142 @@
+{
+	"next_comment_id": 20,
+	"user_name": "Durand",
+	"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+	"post_like": {
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484096314": 1484098523,
+		"1DmEXmGEJ6nP3v4jcYEdUGC79w79Z4fxr3_1484073632": 1484098734,
+		"1KhTXa8KZ7CyGJgCtnpsnqAcbphfphd2k9_1": 1484101354,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484174131": 1484177013,
+		"1zSrxmpyw6huWdbDJ544BPu4fMNzDD25k_1": 1484283922,
+		"1Hc2G1REnkmsVL6AKFJJUTnb9LxkHydXVu_1": 1484365229,
+		"1CnetMi93ePccQhjUJcHjzD6e2DVRjWzqm_1484381141": 1484381166,
+		"1CnetMi93ePccQhjUJcHjzD6e2DVRjWzqm_1": 1484381170,
+		"1DaKXuy3MBNjayNS8oesbZwmUF4rJA8hsZ_1": 1484498191,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484666949": 1484729103,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1484739368": 1484746743,
+		"1AYyXGe2tuKtFpsC6ALa5qZx1vhnHpKUsz_1484791709": 1484814259,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1485390085": 1485456668
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Is it supposed to work on Linux? Because it initially loads but I soon get errors like this:\n> echo: http: response.WriteHeader on hijacked connection\n> echo: http: response.Write on hijacked connection\n> echo: http: response.WriteHeader on hijacked connection\n> echo: http: response.Write on hijacked connection\n\nI'm glad someone's working on a go client!",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1483277826",
+			"date_added": 1483426796
+		},
+		{
+			"comment_id": 2,
+			"body": "@G1tich: But it basically keeps repeating that while unable to load any web page :/",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1483277826",
+			"date_added": 1483500951
+		},
+		{
+			"comment_id": 3,
+			"body": "I mean, that drop was totally unpredictable... I expected the bubble to burst at some point but it happened just as bitcoin reached its peak, which doesn't really make any sense to me :/",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1483712097",
+			"date_added": 1483712277
+		},
+		{
+			"comment_id": 4,
+			"body": "I used to use optimus but it got annoying to fix Xorg every time the nvidia drivers were updated... so I just use nvidia-prime full time now.",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1483907815",
+			"date_added": 1483939567
+		},
+		{
+			"comment_id": 5,
+			"body": "@Firebox: You have to enable the nvidia card before enabling prime. In nvidia-settings, you need to set it to Performance mode under PRIME profiles. It means that your laptop will always use discrete graphics which might not be ideal for you but it does work.",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1483907815",
+			"date_added": 1483991181
+		},
+		{
+			"comment_id": 6,
+			"body": "@Firebox: I think you need to remove bumblebee, otherwise it tries to load the intel graphics drivers which prevents NVIDIA from starting. The whole system is a mess really..",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1483907815",
+			"date_added": 1484098456
+		},
+		{
+			"comment_id": 7,
+			"body": "Rather than creating a blocklist, it might be better to create a spam identifier that automatically tags content as spam. Blocklists would require a lot of work.",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484096314",
+			"date_added": 1484098646
+		},
+		{
+			"comment_id": 8,
+			"body": "@Martinv: Well, we could train a neural network to identify what is spam and what isn't. ZeroNetPlus has a spam tagger, for example which you could probably use to train the spam detection algorithm, as long as people flag what is spam and what isn't. There might even be o/s spam detection libraries available... Another thing that is effectively spam is comments in languages you don't understand. It would be great if a little bit of javascript tagged a comment as one language or another so users could filter out what they don't understand. ",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484096314",
+			"date_added": 1484100806
+		},
+		{
+			"comment_id": 9,
+			"body": "@Martinv: Indeed.",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484096314",
+			"date_added": 1484105071
+		},
+		{
+			"comment_id": 10,
+			"body": "@Movax: Good thoughts there. Proof of works seems like the only real solution we have so far...  I'm a little surprised that ZeroNet hasn't already been destroyed by spammers! I'm not sure if it is possible to \"not trust new accounts\" because the data is transferred to peers regardless of whether it is spam or not. It would be better if we could block spam before it is distributed, rather than after. Proof of work for new account creation might actually work, if it is, say ~30s long, and continuously improved over time...",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484096314",
+			"date_added": 1484381128
+		},
+		{
+			"comment_id": 11,
+			"body": "You can use [ZeroMePlus](/1Lj1oPcN7oZQL8HkS5KbkzQuKqs42zQWY6) to block them, but ZeroMePlus hasn't been updated in a while so it's not perfect.",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484397981",
+			"date_added": 1484399262
+		},
+		{
+			"comment_id": 12,
+			"body": "@Martinv: I'm trying to resurrect ZeroMePlus. Unfortunately @Talnicrom didn't save the coffee files with the source so it's a bit of a pain to port it to the newest ZeroMe... :/",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484397981",
+			"date_added": 1484403184
+		},
+		{
+			"comment_id": 13,
+			"body": "Hi!",
+			"post_uri": "1DaKXuy3MBNjayNS8oesbZwmUF4rJA8hsZ_1",
+			"date_added": 1484498207
+		},
+		{
+			"comment_id": 14,
+			"body": "@Eibriel: Maybe you could do it by just making the folder read-only? \n@Martinv: I'd like to make a more permanent solution. A bit busy at the moment but still working on porting @Talnicrom's work.",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484397981",
+			"date_added": 1484498406
+		},
+		{
+			"comment_id": 15,
+			"body": "@Talnicrom who made it has not been on ZeroMe in a while. They might be back but until then we need to reverse engineer what they did to sort out ZeroMe+. I'm working on it, but since I'm not fluent in Coffeescript, it's taking some effort!",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1484628503",
+			"date_added": 1484647096
+		},
+		{
+			"comment_id": 16,
+			"body": "You can delete posts! Click on the edit icon, then click on delete.",
+			"post_uri": "17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb_1484722094",
+			"date_added": 1484729201
+		},
+		{
+			"comment_id": 17,
+			"body": "Does it say Port: Opened on the Zeronet homepage? What's the URL?",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484744084",
+			"date_added": 1484746732
+		},
+		{
+			"comment_id": 18,
+			"body": "Hi!",
+			"post_uri": "1FWxwfP9qkS3jqxpj8njuCEUhwvFjPAEdk_1485114204",
+			"date_added": 1485123938
+		},
+		{
+			"comment_id": 19,
+			"body": "@MightyFedorus: [Here you go.](/1Lj1oPcN7oZQL8HkS5KbkzQuKqs42zQWY6)",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1484628503",
+			"date_added": 1485744465
+		}
+	],
+	"flags": {
+		"post-1ArVAHkGKYqRo2jQ1oPHjkFVHkYDvuBoci_1484397871": 1
+	},
+	"comment_like": {
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_48": 1484098512
+	}
+}

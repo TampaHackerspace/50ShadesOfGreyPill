@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HAkCkQy2Ax/qdDzUZ+3jOit3312HtashLmPuC35zVv8K1nJu363hmynPedYJo/I3F2eOMfY9GS4AA6H/Xoqsmh4=",
+ "cert_user_id": "magnesium@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "7ff0078323e4808ccd8046aaab4c1226add4f3cdc4aea4eb1666871d0400ae1a",
+   "size": 289
+  }
+ },
+ "inner_path": "data/users/1Mc7mfXxpUuj3gVws13WdfxNW1yaRRDuXU/content.json",
+ "modified": 1491948149,
+ "signs": {
+  "1Mc7mfXxpUuj3gVws13WdfxNW1yaRRDuXU": "HAK27KQaxpGfZYnYiqJvbZYKoMpuH0owbKp7ZpR0AcVVpZ72MYzJbSFx4302BnFje53vCrDCCu6WkWH1j2dhZzE="
+ }
+}

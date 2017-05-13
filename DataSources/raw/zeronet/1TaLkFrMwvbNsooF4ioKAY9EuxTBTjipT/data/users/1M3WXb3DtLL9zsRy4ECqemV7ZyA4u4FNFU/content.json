@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HP6kFI/tPM8PjSuTMiRM+GqLePfsFk4ElZ/0/3JVOUmSC+N/+aeHSX1YF1ECs6pjHqVMv5nZju8PP11jPAP+wzs=",
+ "cert_user_id": "gravypouch@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "c12d685958564e45f4f4bc3728dbff5879d79b8e6c2039c14f8f9c8d1db17937",
+   "size": 4687
+  }
+ },
+ "inner_path": "data/users/1M3WXb3DtLL9zsRy4ECqemV7ZyA4u4FNFU/content.json",
+ "modified": 1486219227,
+ "signs": {
+  "1M3WXb3DtLL9zsRy4ECqemV7ZyA4u4FNFU": "G4UhAWzOfoSOQRIP8/2ANyP2R10uVyD6RnkLI0hc0Y+7L0RRvavFiE1qMyC/3FonkV7wHnWsb58CEbRDxAvNGTo="
+ }
+}

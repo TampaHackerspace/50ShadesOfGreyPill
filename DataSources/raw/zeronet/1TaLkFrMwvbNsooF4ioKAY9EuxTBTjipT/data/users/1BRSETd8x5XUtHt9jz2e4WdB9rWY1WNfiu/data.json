@@ -1,0 +1,405 @@
+{
+	"next_topic_id": 6,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "ZeroNet with Tor",
+			"body": "I'm new to zeronet and I'm trying to use it with tor but I get a error message. I have port open and next to it Tor says Status error errno111 connection refused. Also I'm using linux mint and I'm just learning about linux as well. I had trouble understanding your directions here - http://zeronet.readthedocs.io/en/latest/faq/#how-to-make-zeronet-work-with-tor-under-linux I removed the # from the torrc file but now I'm not for sure what else I need to do.",
+			"added": 1484451075
+		},
+		{
+			"topic_id": 2,
+			"title": "Wine",
+			"body": "Can somebody tell me an easy way to install wine on linux. I installed it once with the software manager but it installed an old version of wine and I couldn't figure out how to update it so I un-installed it. How do I install the 2.0 version? Thanks in advance.",
+			"added": 1485559535
+		},
+		{
+			"topic_id": 3,
+			"title": "Editing the blog.",
+			"body": "I found this site that explains how to create a blog http://127.0.0.1:43110/13TL1Grj6fwLXRGxiYPjpTFZqWqFsVZhox/ But can someone please create a site like this that explains how to change the background color or use an image for the background and how to add buttons and a header to the blog.",
+			"added": 1486659764
+		},
+		{
+			"topic_id": 4,
+			"title": "ZeroNet bug",
+			"body": "I post a comment here http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:2_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc/Is+it+possible+to+remove+Windows+10+without+any+risk and when I went back to the main ZeroNet page it looked like this http://imgur.com/a/MbSrA Anybody have an idea what's wrong.",
+			"added": 1487194695
+		},
+		{
+			"topic_id": 5,
+			"title": "Icon not showing next to manage muted users.",
+			"body": "I'm unable to see the icon. I've been unable to figure out what's wrong. Here's a screenshot http://imgur.com/a/Sk40e I don't know if this is a firefox problem or a linux problem. I'm having the same problem with the icons on the social network Gab.ai, here's it's screenshot http://imgur.com/a/fQxpy I assume these are related in some way. Have any of you had this problem and know how to fix it. Thanks in advance.",
+			"added": 1487700845
+		}
+	],
+	"topic_vote": {
+		"1_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc": 1,
+		"2_1Gtj7AdXhzMFUVVvFm2ZGCbTFdgNwdtuMn": 1,
+		"1_1CYj7o5iamDZeKZvdSAW4P2aEngmAXb78T": 1,
+		"9998_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"1_183waZSH7rC3CMWuh9nSxpUmRVh498pwGQ": 1,
+		"1_12GaWA6iLCDZ2bfQ2QBBvrj3bY17HwFCgA": 1,
+		"2_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": 1,
+		"2_1GNdkBSxTw6SpRdGHxDCyfANXnwi7FG7rJ": 1,
+		"3_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": 1,
+		"2_19o28kY46qs4yztgepknRtS6HULZpQhiT7": 1,
+		"17_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": 1,
+		"18_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": 1,
+		"1_1PvAednzaMJiuMz1SD5wF3m3Hx7SK75zHv": 1,
+		"1_1wp4Vxx8LzVxcnjQLdFDtsCjqWBRJ3Wpr": 1,
+		"2_13bJpDYmLnZMLWy696GAxHA9mdizyZW2PK": 1,
+		"26_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": 1
+	},
+	"next_comment_id": 58,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "test",
+				"added": 1482900812
+			}
+		],
+		"1_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 2,
+				"body": "> [hyperbeam](#comment_5_114htPrU5VWip9ohwc6AnSvnpKpCdPKFqY): There are two lines you need to remove #'s from in the Torrc configuration file, did you remove it from both? You'll also need to add your user to the tor users group. You can do it like this:\n> Check the files Usergroup (You'll need to be a member of this usergroup to access the file):ls -al /var/run/tor/control.authcookie\n> then, add yourself to that user group:usermod -a -G [filegroup] [yourlinuxuser]\n> You'll then need to reboot your PC to ensure that your user account is reloaded, and the ZeroNet router is restarted.\n> If these things don't work, can you post the results of the following from your command line?echo 'PROTOCOLINFO' | nc 127.0.0.1 9051\n\nI removed both #. I'm not for sure what to do about about adding my user to tor users group. Do I need to just change my permission in the control.authcookie like in this screenshot http://imgur.com/a/059Ko or do I have to open up control.authcookie in a text editor and change it? This is the file I need to change some way isn't it. http://imgur.com/a/EzvWT",
+				"added": 1484588503
+			},
+			{
+				"comment_id": 3,
+				"body": "> [planespherev3](#comment_93_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS): The tutorial to run Tor with Zeronet with Debian is well done, however, with other distros it is not so simple. \n> Just a suggestion (and since i'm not in computer science), someone should add tutorials for the other mainstream linux distros,  or find a way to integrate tor in Zeronet in linux as well (i think it's already integrated in windows).\n\nI agree it needs to be integrated in ZeroNet for linux.",
+				"added": 1484589408
+			},
+			{
+				"comment_id": 4,
+				"body": "I got it working. Thanks guys.",
+				"added": 1484590857
+			},
+			{
+				"comment_id": 6,
+				"body": "> [planespherev3](#comment_112_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS): It works under my computer were it's the \"classic\" Tor\"\n> I have some computers were the Tor browser bundle is installed. \n> What's more i'd like to know a method to install it in some friends computer under ubuntu were the Tor browser bundle is installed as well. \n> Is there a method to make ZeroNet work with the Tor browser bundle? \n> I guess the answer is yes but the Torrc file is different with the Tor browser bundle.\n\nI just have it working with the firefox browser. I haven't tried to get it working with the tor browser bundle, I'd like to know how to.",
+				"added": 1485112237
+			}
+		],
+		"1_1HiJDred9Tjdqz23kiGbPsqMAFqfpCbRYL": [],
+		"2_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 7,
+				"body": "> [waylander](#comment_5_13GyWy7pXEtCorqUBAv7ZPjyzNfwMA6Hh2): use playonlinux  \nWhat's playonlinux? Do you have a link to what your talking about? I'm wanting to play some games like Witcher 3 on linux but linux lacks very badly when it comes to playing games like that.",
+				"added": 1485621306
+			},
+			{
+				"comment_id": 8,
+				"body": "> [rythyrix](#comment_21_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): WineHQ recently (2017-1-24) released v2.0 of Wine, where they switched to a yearly release model. These releases are not updated as frequently, but are much more stable than the development branch. On the other hand, the development branch will have support for more applications faster than releases. Consider which you require, stability or capability, and pick either release or development. The installation procedures will be different for each. Check out https://www.winehq.org/download for more information. I personally like speedy updates, so I chose the development channel.\n\n Thanks rythrix, I was wondering what was the difference between the releases. I was wanting one the easiest to install because I'm new to this linux as well. It's a lot different installing things on linux compared to windows which I used to have.",
+				"added": 1485622157
+			},
+			{
+				"comment_id": 10,
+				"body": "> [jerbear64](#comment_2_19QpUXaZfscvuTpEAveS3oNrvL7sasm2tY): The bad news is, you're not going to get Witcher 3 working.\n> WINE lacks DirectX 11 support for the most part, and in the future when Witcher 3 does run, expect low framerates. Very low.\n> As for PlayOnLinux, it's a program that acts as an easy to use WINE virtual drive manager. That way you can keep all of your programs separate. One of its features is that you can install a different version if WINE for each program. It's pretty nifty, I'd recommend checking it out.\n\nSo I take it I wont be able to play anything like Elder Scrolls either? Sounds like I need to go back to Windows.",
+				"added": 1485669032
+			},
+			{
+				"comment_id": 11,
+				"body": "> [movax](#comment_6_1PhkHDH3y7cxsACB2fndii39M5VrCFFeiZ): Which distro are you using? 2.0 was just released, so it might take some time until it is available in package managers, or current stable releases. There are some prebuild binaries available in various forms, or you can compile it yourself, but if you are asking questions like that, I am assuming it might be too complicated for you (it is more involved process). Knowing distro would make it easier to point in right direction.\n\nI'm not using wine at the moment. I used the linux software manager to download wine but it installed wine 1.6 and I couldn't figure out how to update it to the 2.0 version so I un-installed it. I have 0 experience at complying.",
+				"added": 1485709381
+			},
+			{
+				"comment_id": 12,
+				"body": "> [jerbear64](#comment_3_19QpUXaZfscvuTpEAveS3oNrvL7sasm2tY): Depends. Skyrim runs fine, but it's also a much older game and uses DirectX 9 (which WINE for the most part fully supports)\n\nThanks.",
+				"added": 1485709750
+			},
+			{
+				"comment_id": 13,
+				"body": "Can one of you guys tell me if I downloaded the right thing. I downloaded this http://dl.winehq.org/wine/source/2.0/wine-2.0.tar.bz2 Is this the prebuilt package? Or should I download wine using the command terminal? I did get PlayOnLinux installed with the software manager.",
+				"added": 1485887560
+			},
+			{
+				"comment_id": 14,
+				"body": "I got wine and playonlinux installed. I used this in the command terminal and installed playonlinux \nwget -q \"http://deb.playonlinux.com/public.gpg\" -O- | sudo apt-key add -\nsudo wget http://deb.playonlinux.com/playonlinux_trusty.list -O /etc/apt/sources.list.d/playonlinux.list\nsudo apt-get update\nsudo apt-get install playonlinux It seemed to install ok and it created the icon. \nThen I installed wine 2.0 with this \nsudo dpkg --add-architecture i386 \nsudo add-apt-repository ppa:wine/wine-builds\nsudo apt-get update\nsudo apt-get install --install-recommends winehq-devel It also seemed to install with no problems but I noticed it didn't create any icons like the 1.6 version did. So I have a question, isn't the new version of wine supposed to create icons to?",
+				"added": 1486063480
+			},
+			{
+				"comment_id": 15,
+				"body": "> [rythyrix](#comment_25_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): Right then, couple of hours lat but screw it.\n> Wine is not meant to be run by itself. Instead it's a compatibility layer to translate the system calls from Windows dotexes to Linux ones, and back again on the return trip. Running Wine by itself would be futile, so there's no premade shortcut. Instead, make an empty text document with the .desktop extension, i.e. wine-program.desktop following the example set by any that you currently possess on your machine. For example, this will work to start the ZeroNet.sh script:\n> [Desktop Entry]\n> Name=Start Zeronet\n> Comment=Censorship-resistent internet\n> Exec=/bin/bash -c \"cd /path/to/Zeronet/dir/  && ./ZeroNet.sh\"\n> Icon=/path/to/znet_logo.jpg\n> Terminal=false\n> Type=Application\n> Categories=Network;FileTransfer;\n> The [Desktop Entry] header is required to tell the system to start treating the file like a desktop entry, although due to the standard .desktop extension some systems can get away with just looking at the filename. Without it, most window managers display a text document icon, and the system opens it as a text document upon doubleclick.\n> Name=... is the displayed name of the shortcut when it is rendered by your window manager. Note that this does not change the filename; if you are interacting with it via the shell, you will need to specify whatever you saved it as, not what the line reads.\n> Exec=... is the command line that runs your given application. This example would navigate to /path/to/Zeronet/dir/ and, if the directory exists, run the executable script or binary named ZeroNet.sh in the current directory. I prefer this way because it makes the $PWD environment variable be passed to the script's shell, preventing some bugs that can be difficult to track down.\n> Icon=... is the path and filename to the image file displayed by the shortcut. Depending on your system, it may only support jpegs, so be sure to convert if you are uncertain.\n> Type=... tells the system to open it as this MIME type. Typically, this will be Application.\n> Terminal=... tells the system to spawn or not spawn a terminal window when running the application via this shortcut. Typically, when running an application via the GUI, one doesn't want a popup :P\n> Categories and Comments are typically optional. For more information, try the following two links:\n> ```https://specifications.freedesktop.org/desktop-entry-spec/latest/\n> \n> So let's try this with a Windows app under Wine. Wine is special, since by default its desktop files reference the wineprefix's emulated Windows filesystem. Try the following Exec=... line:Exec=env WINEPREFIX=/home/<insert username here>/.wine/ wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe C:\\\\\\\\path\\\\\\\\to\\\\\\\\exe\\\\\\\\file\\\\\\\\in\\\\\\\\wineprefix assuming that the dotexe is located (or even symlinked >:)) to a file in the wineprefix. This sets the environment variable WINEPREFIXto the root of the wineprefix, which is required and will be created/populated if not extant, tells Wine to start the Windows program starter, which then starts the file specified.\n> For troubleshooting, first ensure you have permissions to execute both the .desktop file and the dotexe.\n> If you have any questions, feel free to ask.\n\n> [rythyrix](#comment_25_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): Right then, couple of hours lat but screw it.\n> Wine is not meant to be run by itself. Instead it's a compatibility layer to translate the system calls from Windows dotexes to Linux ones, and back again on the return trip. Running Wine by itself would be futile, so there's no premade shortcut. Instead, make an empty text document with the .desktop extension, i.e. wine-program.desktop following the example set by any that you currently possess on your machine. For example, this will work to start the ZeroNet.sh script:\n> [Desktop Entry]\n> Name=Start Zeronet\n> Comment=Censorship-resistent internet\n> Exec=/bin/bash -c \"cd /path/to/Zeronet/dir/  && ./ZeroNet.sh\"\n> Icon=/path/to/znet_logo.jpg\n> Terminal=false\n> Type=Application\n> Categories=Network;FileTransfer;\n> The [Desktop Entry] header is required to tell the system to start treating the file like a desktop entry, although due to the standard .desktop extension some systems can get away with just looking at the filename. Without it, most window managers display a text document icon, and the system opens it as a text document upon doubleclick.\n> Name=... is the displayed name of the shortcut when it is rendered by your window manager. Note that this does not change the filename; if you are interacting with it via the shell, you will need to specify whatever you saved it as, not what the line reads.\n> Exec=... is the command line that runs your given application. This example would navigate to /path/to/Zeronet/dir/ and, if the directory exists, run the executable script or binary named ZeroNet.sh in the current directory. I prefer this way because it makes the $PWD environment variable be passed to the script's shell, preventing some bugs that can be difficult to track down.\n> Icon=... is the path and filename to the image file displayed by the shortcut. Depending on your system, it may only support jpegs, so be sure to convert if you are uncertain.\n> Type=... tells the system to open it as this MIME type. Typically, this will be Application.\n> Terminal=... tells the system to spawn or not spawn a terminal window when running the application via this shortcut. Typically, when running an application via the GUI, one doesn't want a popup :P\n> Categories and Comments are typically optional. For more information, try the following two links:\n> ```https://specifications.freedesktop.org/desktop-entry-spec/latest/\n> \n> So let's try this with a Windows app under Wine. Wine is special, since by default its desktop files reference the wineprefix's emulated Windows filesystem. Try the following Exec=... line:Exec=env WINEPREFIX=/home/<insert username here>/.wine/ wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe C:\\\\\\\\path\\\\\\\\to\\\\\\\\exe\\\\\\\\file\\\\\\\\in\\\\\\\\wineprefix assuming that the dotexe is located (or even symlinked >:)) to a file in the wineprefix. This sets the environment variable WINEPREFIXto the root of the wineprefix, which is required and will be created/populated if not extant, tells Wine to start the Windows program starter, which then starts the file specified.\n> For troubleshooting, first ensure you have permissions to execute both the .desktop file and the dotexe.\n> If you have any questions, feel free to ask.\n\nRemember I'm new at this linux shit. \nQuestion 1 Do I put Exec=env WINEPREFIX=/home/bob/.wine/ wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe C:\\\\\\\\path\\\\\\\\to\\\\\\\\exe\\\\\\\\file\\\\\\\\in\\\\\\\\wineprefix in the command terminal?\n I noticed that playonlinux has it's own command terminal http://imgur.com/a/cqh6M which one do I use? \nQuestion 2 Do I have to put sudo first?\nQuestion 3 is there a way to get games to play without using the command terminal? I hate using the command terminal, I didn't even use it once when I had WindowsXP. \nI downloaded a game called The Technomancer that I want to try to get to play. I had to download 7 zip files. http://imgur.com/a/l0RcR  On windows all I had to do is unzip the first folder and it automatically added the other folders, does linux do the same when you unzip the first folder?",
+				"added": 1486146315
+			},
+			{
+				"comment_id": 17,
+				"body": "> [rythyrix](#comment_26_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): A: That line is placed in the .desktop document, not directly into the command terminal. As an aside, you'll need to use four backslashes, since under the hood you are passing the command through two passes of the command processor.\n> B: NEVER run Wine as root. That will give any maliciously-infected Windows executable root access to your system, leading to Bad Things (tm).\n> C: Making a .desktop file is the standard way of starting applications via the GUI. On Ubuntu, ordinary apt-get installs automatically do this by copying a prebuilt to /usr/share/applications folder, where they show up in the Unity Dash searchbox. Try the gnome-panel package, and the gnome-desktop-item-edit tool. This will be the only time you need to interact with the command line, assuming you plan ahead and create a new dotdesktop file to create new dotdesktop files :P    1: Open a terminal and install the gnome-panel package with the following command line:        sudo apt-get install gnome-panel --no-install-recommends    2: Execute the following to open the GUI, while creating a new dotdesktop:        /usr/bin/gnome-desktop-item-edit /home/$USER/Desktop/ --create-new    This functions because it is invoking the program, then the first argument says to place this new dotdesktop file in the directory specifed (feel free to replace the $USER with the name of your user, since the command is being invoked by your terminal, it will expand to whatever the USER environment variable is for that particular shell, can cause problems if you have a nonstandard shell)    3: At the GUI, you will see an icon on the left, and a few fields. Click the icon to bring up a file picker and navigate to whatever icon you want displayed.    4: Type should remain Application. Name will be whatever you want displayed by your window manager. Comment can be ignored, but may be useful if you ever come back to edit it and forget what the dotdesktop is for :P    5: Finally, onto the Command field. This is what the Exec=... line is mapped to. Wine is special in that you will need to prefix the Linux location of the Windows executable with some arguments in order to make it work. For this example, I will be using /home/rythyrix/Desktop/catplanet.exe as the Windows executable I want to invoke.    6: Obtain the Linux path of the executable to invoke, and the wineprefix you want to use as the root of the Windows system. In this case, /home/rythyrix/.wine/    7: Open a text editor, as it's easier to just copy/paste into the Command box of the Create Launcher GUI. Keep in mind that the dotdesktop file will not create    8: Assemble the line as follows: env WINEPREFIX=\"<your wineprefix here>\" wine C:\\\\windows\\\\command\\\\start.exe /Unix \"<your Linux executable path here, with no expansions>\" For example, my line would be env WINEPREFIX=\"/home/rythyrix/.wine/\" wine C:\\\\windows\\\\command\\\\start.exe /Unix \"/home/rythyrix/Desktop/catplanet.exe\"\n> 9: Copy/paste the completed command line into the Command box, then click OK. If all went well, you should now have a new dotdesktop on your desktop. Double-click  on it to test if it works.\n> 10: To make a dotdesktop to make new dotdesktops on your desktop (what a mouthful), place the following command line in the Command box: ```/usr/bin/gnome-desktop-item-edit /home/<your username here>/Desktop --create-new```, adjust Name/Icon as desired, and click OK. Keep in mind you cannot use environment/tilde expansion in the Command box, so you need to type the path without such expansions.\n> \n> 11: If you are ever interested in learning the command line, this is a good place to start: ```http://www.linuxcommand.org/index.php```\n> Questions still welcome.\n\nYou lost me on 6 down. Do I put  /home/rythyrix/.wine/ in the command terminal? I looked at my home location and didn't see a folder called rythyrix that's why I was wondering, here's a screenshot http://imgur.com/a/TmuBU",
+				"added": 1486171580
+			},
+			{
+				"comment_id": 18,
+				"body": "> [rythyrix](#comment_27_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): Considering that that's my username, you may wish to replace it with your own. It's a file path pointing to the wineprefix location on your file tree, which the windows logic sees as its root directory. Makes it easy to remove Wine installs; delete the prefix, done. By default, Wine creates a .wine directory under the given user's home directory. To fix, use your computer's login in place of USER: /home/USER/.wine\n\nI found wine and I got this part now, env WINEPREFIX=\"/home/bob/.wine\" but I went to /home/bob/Desktop I only had three things there, I took screenshot http://imgur.com/a/0hbSW What do I do now? Shouldn't there be some kind of exe there? I don't know what to put after Desktop/\nHere's what I got so far env WINEPREFIX=\"/home/bob/.wine\" wine C:\\\\windows\\\\command\\\\start.exe /Unix \"/home/bob/Desktop/               \"",
+				"added": 1486174999
+			},
+			{
+				"comment_id": 19,
+				"body": "> [rythyrix](#comment_28_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): First, determine where in your file system the unmodified Windows exe is located. If it's located on your desktop, it will be under /home/bob/Desktop/program.exe . If you have an inkling of what the filename is, try this oneliner in the command terminal: find / -iname *.exe 2>/dev/null | grep -i -e \"<filename of exe here>\" to print where the program is. This will search your entire computer, so it may take a while. Grab a coffee.\n> In addition, ensure that the C:\\windows\\command\\start.exe has doubled backslashes (\\\\), because the final shortcut file will need four backslashes to function properly, and each one backslash will be doubled by the GUI.\n\nI've all but gave up. I don't know what the name this exe is I'm looking for. I found some exe files here /home/bob/.wine/dosdevices/c:/windows but I don't know if it's one of them. And when I installed wine it created a folder here to /opt/wine-devel it also has some exe files, and at this location /opt/wine-devel/share/applications I found something called wine.desktop I took a screenshot http://imgur.com/a/YeYgC Is that wine.desktop what I'm looking for?",
+				"added": 1486193607
+			},
+			{
+				"comment_id": 20,
+				"body": "> [rythyrix](#comment_29_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): ...Why would you install Wine without a program that you needed to run? Serious question here. Wine does nothing by itself. One thing you could do is navigate to where you are storing said EXE, if you know where it is, and then right click on some empty space in your file manager, there should be something akin to 'Open in Terminal' on the context menu.\n> Regardless, feel free to zmail me with questions, this is getting crowded and quicker response times may be what you need.\n\nThe only thing I want to run to is this game http://imgur.com/a/l0RcR But first don't I have to unzip it somewhere and then point wine to the games exe so it can read it? It's a small game I downloaded to practice using wine.",
+				"added": 1486194475
+			},
+			{
+				"comment_id": 21,
+				"body": "> [rythyrix](#comment_30_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): Given that I have no idea what the file structure is inside that split archive, you may be best served by creating a new directory and extracting each into there one at a time. That should emulate the split archive functionality of your archive manager, if it isn't supported. Try googling for Linux archive managers, most should support split RARs out of the box if yours doesn't. Alternatively, you may just not have all of them :P I haven't actually dealt with split archives lately, so take it with a grain of salt. Or the parts may just be individual RARs that happen to contain the seven parts of that game, in which the intended behavior is to extract them all on top of each other. Really depends on the packager.\n\nI sent you a Zmail",
+				"added": 1486236862
+			},
+			{
+				"comment_id": 22,
+				"body": "> [cyberfoo](#comment_3_1HQat1a4kYwNck8Bx3CGxh6rKCQ9CtBvME): well if your using ubuntu just do sudo apt install wine  and it should take care of every thing for you\n\nI'm using Linux Mint Cinnamon 17.3 Rosa I think I finally got wine installed right, at least I  hope so. Right now I'm trying to figure out how to install a non listed program. I have a game called The Technomancer  I want to try to install and see if it works. I have the PlayOnLinux Wizard opened and it's asking me if I what kind of virtual drive I want to create, a 32 bit one or a 64 bit one. I think I need to create the 64 bit one.",
+				"added": 1486405423
+			},
+			{
+				"comment_id": 23,
+				"body": "Does anyone know how to install blackbox games using playonlinux? I'm trying to install this game. http://www.blackboxrepack.com/the-technomancer-black-box/",
+				"added": 1486428426
+			},
+			{
+				"comment_id": 24,
+				"body": "> [rythyrix](#comment_31_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): export WINEPREFIX=<your wineprefix here>\n> export WINEARCH=win32cd <directory where the exe is stored>\n> wine ./<your exe here>\n> Try that.\n\nI tried this \nexport WINEPREFIX=\"/home/bob/.wine\"\nexport WINEARCH=win32\ncd /home/bob/Downloads/Games/The Technomancer\nwine ./Setup.exe \nBut after I typed cd /home/bob/Downloads/Games/The Technomancer and hit enter I got this \nbash: cd: /home/bob/Downloads/Games/The Technomance: No such file or directory. Can you tell me what I screwed on.",
+				"added": 1486453115
+			},
+			{
+				"comment_id": 25,
+				"body": "> [rythyrix](#comment_32_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): You have a space in the file path. Make sure to surround any arguments that contain spaces with doublequotes, or escape each one with a backslash. Quoting in bash is its own !!!FUN!!! thing.\n\nI've tried this cd \"/home/bob/Downloads/Games/The Technomancer\" and this cd/home/bob/Downloads/Games/The Technomancer and this cd /home/bob/Downloads/Games/The Technomancer and still no luck. I guess I understood your instruction right. I have a question I want to ask you though. My computer has three hard drives, one hard drive has linux on it, one has pictures,videos and music on it and the third hard drive is completely empty. Can I put a virtualbox on the empty drive and install windows on it just to play games? And thanks for you help.",
+				"added": 1486583041
+			},
+			{
+				"comment_id": 26,
+				"body": "> [rythyrix](#comment_32_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): You have a space in the file path. Make sure to surround any arguments that contain spaces with doublequotes, or escape each one with a backslash. Quoting in bash is its own !!!FUN!!! thing.\n\nI was able to get Tomb Raider Underworld installed using a CD but the graphics suck as you can see from this screenshot http://imgur.com/a/weWFL Do you have any idea what I need to do to improve the graphics? Is there something I need to change in the playonlinux configuation settings http://imgur.com/a/dnLT7",
+				"added": 1486678920
+			}
+		],
+		"8_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 9,
+				"body": "I have the same problem with a few sites. ZeroPolls for example, I can manually update but it always fails to update 2 files. Missing files: data/users/1A3eo1m9ouw9KupiePER5ZdajEaUQnUqq/data.json \n data/users/1GZvKfDijCJZJ7hyUpU4AdrgqFKe3DzLNv/data.json",
+				"added": 1485668511
+			}
+		],
+		"1_1PvP6Vjh8q44LhyXTiBZc4APMtyzwyttbL": [
+			{
+				"comment_id": 16,
+				"body": "Fuck youtube, I don't understand why people use it. Put your videos on https://vimeo.com/ or https://vid.me/",
+				"added": 1486148870
+			}
+		],
+		"3_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 27,
+				"body": "> [waterrabbit](#comment_121_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Go to ZeroNet/data/1YourSiteAddress/css/.\n\nI'm not a coder, I don't know what to change in the css. That's why I brought up that someone needs to create a site that explains how to.",
+				"added": 1486686548
+			},
+			{
+				"comment_id": 28,
+				"body": "> [hexkey](#comment_3_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF): CSS isn't too hard, and you can pick up some of the simpler parts pretty easily.\n> As an example, this bit changes all buttons to have a yellow background and white border when hovered over:\n> .button:hover {background-color: #FFF400; border-color: white}\n> For a background, you want to find body (ctrl-f for huge files) and change the color listed there.\n> I tried finding it for the main page's css file and it's on line 546 (body { background-color: #EDF2F5;...). This is the greyish background below the timeline's white one.\n\nThanks",
+				"added": 1486711563
+			},
+			{
+				"comment_id": 29,
+				"body": "> [hexkey](#comment_4_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF): You're welcome. Also, here is another nice little rundown.\n\nThanks for the links. It's a shame though that Zeroblog doesn't have some kind of content management system to change the background.",
+				"added": 1486762599
+			}
+		],
+		"2_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc": [
+			{
+				"comment_id": 30,
+				"body": "I've had linux now for a few months and I'm ready to go back to windows.",
+				"added": 1487193016
+			}
+		],
+		"4_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 31,
+				"body": "I just noticed I was following ZeroBlog and ZeroTalk Newsfeed and that's what caused it. But it still might be a bug because I never did not hit the Follow in Newsfeed button, it must have done it automatically.",
+				"added": 1487195961
+			},
+			{
+				"comment_id": 32,
+				"body": "It just did it again so it is automatically turning on the Follow in Newsfeed whenever I post a comment.",
+				"added": 1487196167
+			},
+			{
+				"comment_id": 33,
+				"body": "> [nofish](#comment_871_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yes, it was modified some days ago: https://github.com/HelloZeroNet/ZeroTalk/commit/fed4a21300a6025b573a637981c76c011d5a0435\n\nThanks.",
+				"added": 1487264330
+			}
+		],
+		"5_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": [
+			{
+				"comment_id": 34,
+				"body": "> [burningcold](#comment_13_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs): Again, video content on Zeronet is a no-go due to bandwidth/storage concerns.\n> \n> That exists, check out Kaffie's search engine: http://kaffiene.bit/\n\nZeroNet will fail if there is no video content.",
+				"added": 1487272171
+			},
+			{
+				"comment_id": 35,
+				"body": "> [p2p](#comment_266_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): Torrent network is OK for download, but it is not good enough for online watching. I think we need a user-friendly youtube-like zite, on which a user just need a single click to play the video online, without leaving the zite to a Torrent downloader and wait the download completion. Probably we don't need to re-create a Torrent network, what we need to do is-- integrate a Torrent client in ZeroNet and make it work as a video streaming server.\n> Someone did this https://github.com/zeronetscript/universal_p2p , but unfortunately the dev is inactive.\n\nI agree with you P2P. I found this site call ZeroTube http://127.0.0.1:43110/1FUQPLXHimgCvYHH7v3bJXspJ7bMBUXcEb/ but you have to download webtorrent to watch videos and it makes your IP vulnerable which isn't good. We do need something integrated into ZeroNet which doesn't make your IP vulnerable.",
+				"added": 1487369144
+			},
+			{
+				"comment_id": 36,
+				"body": "> [p2p](#comment_267_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): Then we need to disable the torrent plugin/feature in Tor always mode. In other mode, we don't worry about anonymity.  And I2P can keep anonymity when torrenting, ZeroNet should supports I2P.\n> \n> Asking users to install another thing is not a good idea.\n> \n> Nowadays more and more videos are already encoded browser-friendly. And we can re-encode using python with C library, just like what ZeroNet does when encrypting  and decrypting messages in ZeroMail, where browser does not do the hardwork at all.\n\nCan something like this be done on ZeroNet? http://www.ocsmag.com/2016/02/13/mytube-build-your-own-youtube-like-platform-in-45-minutes-or-less/",
+				"added": 1487375151
+			},
+			{
+				"comment_id": 37,
+				"body": "> [p2p](#comment_269_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): MediaDrop is Client/Server model, and can not work on windows server, so it's not easy to port to zeronet. Anyway, since it's written in Python, ZeroNet can learn something from it.\n\nOK I gotcha.",
+				"added": 1487387836
+			},
+			{
+				"comment_id": 45,
+				"body": "ZeroMail needs a feature where people can send pdf files and maybe a few pictures.",
+				"added": 1487804092
+			},
+			{
+				"comment_id": 46,
+				"body": "> [rythyrix](#comment_34_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): Considering that people zmail chatting will typically trust one another a bit more than a message board, consider setting up a ZeroMux dropbox that waterrabbit was working on. Here's a link to the blog post explaining it http://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/?Post:6:ZeroMux+Dropbox; in summary, set up your own zite and share the address with those you wish to exchange files with, and you now how a means of transferring the files through ZeroNet without bogging down non-participants with your encrypted cat photos. Alternatively, use Onionshare along with the Tor Browser to transfer, but that's also a bit of a pain and requires installation of other software, instead of being contained within ZeroNet.\n\nI don't have the technical skills to set up ZeroMux. I can't even figure out how to fix a font problem I'm having, and if I can't figure out a font problem, I'm definitely not going to be able to set up ZeroMux.",
+				"added": 1487810266
+			}
+		],
+		"15_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 38,
+				"body": "Here's one with img but I don't know if it can be cloned. http://127.0.0.1:43110/1C2JhCunGLtvyX56nQ88tcb87WnXspjWN/",
+				"added": 1487610090
+			},
+			{
+				"comment_id": 39,
+				"body": "> [kai0](#comment_20_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): thank you! it works but looks need work on alots. just post one img it show You are running out of your allowed space, please contact the site's admin at someone to raise your limit.\n\nPull out the side panel and set the size limit to 20 or 30",
+				"added": 1487646936
+			},
+			{
+				"comment_id": 40,
+				"body": "> [kai0](#comment_21_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): I set to 200m it still show, may be just have not change code.\n\nThat's weird, I got a message saying running out of space so I set it to 20 now it ok and the message hasn't appeared again.",
+				"added": 1487647986
+			},
+			{
+				"comment_id": 41,
+				"body": "> [kai0](#comment_22_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): we talk the different，it show at the place you posted the img，next to submit comment。\n\nWell someone created it a while back, it's probably has bugs in it.",
+				"added": 1487698714
+			},
+			{
+				"comment_id": 43,
+				"body": "> [kai0](#comment_23_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): are there any zerotalk with img show pic on home page?\n\nI don't believe there are. I haven't found any yet.",
+				"added": 1487730070
+			},
+			{
+				"comment_id": 47,
+				"body": "> [kai0](#comment_24_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): if you find any zerotalk with img which display img on home page, pls let me know.\n\nI will",
+				"added": 1487817415
+			}
+		],
+		"5_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 42,
+				"body": "> [hexkey](#comment_11_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF): I think this is it.\n> Might wanna tell the devs, too.\n\nThanks, it sounds like a font problem and I might need to fix something on my computer but I have no idea what.",
+				"added": 1487721197
+			},
+			{
+				"comment_id": 44,
+				"body": "> [hexkey](#comment_12_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF): found more things.\n\nI open my software manager and clicked on fonts and it said I had all of these installed. ttf-mscorefonts-installer\nttf-indic-fonts-core ttf-wqy-microhei fonts-kacst fonts-kacst-one fonts-khmeros-core fonts-tibetan-machine fonts-droid\nfonts-opensymbol fonts-dejavu fonts-dejavu-core fonts-dejavu-extra fonts-freefont-ttf fonts-laofonts-liberation \nfonts-lklug-sinhala fonts-nanum fonts-noto fonts-sil-abyssinica fonts-sil-padauk fonts-takao-pgothic fonts-thai-tlwg fonts-tlwg-garuda fonts-tlwg-kinnari fonts-tlwg-loma fonts-tlwg-mono fonts-tlwg-norasi fonts-tlwg-purisa\nfonts-tlwg-sawasdee fonts-tlwg-typewriter fonts-tlwg-typist fonts-tlwg-typo fonts-tlwg-umpush fonts-tlwg-waree\nfonts-wqy-microhei I just have no idea what's wrong. I'll read those links you gave me and maybe some day I'll figure it out. Thanks",
+				"added": 1487731692
+			}
+		],
+		"1_1QDaxALrGibcebKMN9NrxhBEPBu93hTMZQ": [
+			{
+				"comment_id": 48,
+				"body": "dc",
+				"added": 1487817685
+			}
+		],
+		"18_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 49,
+				"body": "You might want to ask some people for help on this ZeroBlog to. http://127.0.0.1:43110/1A2zwx1maY1fZv18vaEFFaCuiS88xqWvzV",
+				"added": 1487824425
+			},
+			{
+				"comment_id": 50,
+				"body": "> [kaishen](#comment_3_18WuQsUbszu95sZDiKvrfswRnEpuB5WEQh): there are bunch at zerome，I know that just talk。\n\nI  know. I can't help kai0 because I can't code. I don't even have a blog on ZeroNet because I can't code so I wouldn't be able to make one look decent. I just use ZeroMail and surf other peoples sites.",
+				"added": 1487832554
+			},
+			{
+				"comment_id": 51,
+				"body": "> [kaishen](#comment_4_18WuQsUbszu95sZDiKvrfswRnEpuB5WEQh): kai0 is my another acount，I have 3.\n\nok I gotcha",
+				"added": 1487839045
+			}
+		],
+		"1_1HMgB5kC5CXhxSngryrEDLUrPXkKgH1mtt": [
+			{
+				"comment_id": 52,
+				"body": "Here's two I use http://127.0.0.1:43110/kaffiene.bit/ and http://127.0.0.1:43110/1f7FYxZWSZ5YG7Nd8sGsHcWEQgvdnVvQF",
+				"added": 1488129087
+			}
+		],
+		"2_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 53,
+				"body": "How secure is ZeroMail 2.0 compared to the other ZeroMail?",
+				"added": 1488825447
+			},
+			{
+				"comment_id": 54,
+				"body": "Try to send me a photo and lets see if it works.",
+				"added": 1488832303
+			}
+		],
+		"3_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 55,
+				"body": "I know another reason why people should stop using Chrome -- Vault 7",
+				"added": 1488926972
+			},
+			{
+				"comment_id": 56,
+				"body": "> [rythyrix](#comment_38_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): Did that leak specify Chrome as a target? Or just proprietary browser = bad browser?\n\nThe leaks revealed vulnerabilities in chrome but I can see where your going with this. I'd say not to trust any propriety browser. So far I've only heard chrome mentioned. The leaks also mentioned Samsung and hacking their speakers so I did some more research on Samsung and found this.  http://imgur.com/a/pjTby DON'T BUY A SAMSUNG!!!!!",
+				"added": 1488954982
+			}
+		],
+		"26_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 57,
+				"body": "From my non-coding perspective ZeroNet needs a good working Youtube like site that you don't have to download a web torrent to use it like you do for  kopy kate. Some type of web torrent needs integrated into ZeroNet so people don't have to download it. The blog needs some work as well. I like the feature to easily add images to the blog but you have to modify the css to change the background. I was unwilling to do that so I deleted my blog. Non-coders WILL NOT get into the css or any other file to modify anything. The blog really needs a CMS. Every coders on ZeroNet needs to work together and work on one project at a time. You need 4 or 5 coders to get a working Youtube site up and running then when it's completed move onto another project like the CMS. I think the coders on ZeroNet are to spread out and doing their own thing when they should be working together more. So far the only thing I use on ZeroNet is ZeroMail.",
+				"added": 1488998513
+			}
+		]
+	},
+	"comment_vote": {
+		"202_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"3_1KjR9TbQzDhjyT4M8mgs5qs6kRhVKDRoWt": 1,
+		"2_1KiTdHqhaN4cLW9FxzDM61ypmKuaB1YgRA": 1,
+		"851_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"93_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS": 1,
+		"6_16osdFmHgwgy9sgBws1po2zP5PxwMALvZa": 1,
+		"112_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS": 1,
+		"52_18id3A8UHCU9RmkVBeBhsDrnPf27hQXdS1": 1,
+		"111_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"112_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"24_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y": 1,
+		"3_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"29_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": 1,
+		"30_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": 1,
+		"15_1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB": 1,
+		"4_14YdhMiNAG8LDichYEQvyZZboGL8bSeZEu": 1,
+		"2_18WuQsUbszu95sZDiKvrfswRnEpuB5WEQh": 1,
+		"2_14Jg9Gfa7bt5TgqR3LPoPVRQAyvxYhjFtE": 1,
+		"872_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1AYh9nb2TXUxj1oTUBCwk531TRJAjFcPez": 1,
+		"266_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"269_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"12_1JpxTAYzGdJppaeg7xS7VmBaXZF9d94WRj": 1,
+		"3_18WuQsUbszu95sZDiKvrfswRnEpuB5WEQh": 1,
+		"13_1JpxTAYzGdJppaeg7xS7VmBaXZF9d94WRj": 1,
+		"15_1JpxTAYzGdJppaeg7xS7VmBaXZF9d94WRj": 1,
+		"22_1GXcdmK9YpMdC5co7w3Mi8J7o7HjsNTKTz": 1,
+		"36_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y": 1,
+		"1_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"1_18VhT9MmPNHTj6ZaAXigPP251FAq1kxKVR": 1,
+		"10_13bJpDYmLnZMLWy696GAxHA9mdizyZW2PK": 1,
+		"24_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1
+	}
+}

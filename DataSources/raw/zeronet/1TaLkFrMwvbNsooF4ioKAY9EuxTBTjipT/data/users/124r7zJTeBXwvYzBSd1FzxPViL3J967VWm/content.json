@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HHGVXD9gsq4BUNYiD2IvlseDOlHPoo5qL998Roz0ALjzZTnMmOsD2jLfCKWDf9vu7iVNKscWKe5A6/sLdsANGJE=",
+ "cert_user_id": "dantox@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "71db2596b4729fb71f2bb9e861813c61c146984626e43fbd7981066e650661be",
+   "size": 3450
+  }
+ },
+ "inner_path": "data/users/124r7zJTeBXwvYzBSd1FzxPViL3J967VWm/content.json",
+ "modified": 1486050576,
+ "signs": {
+  "124r7zJTeBXwvYzBSd1FzxPViL3J967VWm": "HLoqpkrbd8T2PuqHk1fPTfqPjYVbgQ3vaiGEn1GlY2sal/aoeUoMxqZtG1edm3W+NrO3Iz6xnuUArboGb7l87qM="
+ }
+}

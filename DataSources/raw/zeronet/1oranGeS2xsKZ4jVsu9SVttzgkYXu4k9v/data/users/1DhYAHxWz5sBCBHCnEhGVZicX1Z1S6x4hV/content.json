@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GyPs5HtopRapYfzRvEE+hw/FY0RgTOsGgh8sl8iLIPZgq7qd2uBJqZLKOXAaY2RO/FcmitZWiJcTB26TqbHMODE=",
+ "cert_user_id": "necrotxilok@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "5e3f5b635c1a49cb36140bd9d6b5c1313607842359991cde57ee5e579bf6097f",
+   "size": 1311
+  },
+  "data.json": {
+   "sha512": "247cce7ed4ff16929e47a82b223a4834ddba0cc36d3d8cb3ac122406aa32c1d5",
+   "size": 338
+  }
+ },
+ "inner_path": "data/users/1DhYAHxWz5sBCBHCnEhGVZicX1Z1S6x4hV/content.json",
+ "modified": 1487327677,
+ "signs": {
+  "1DhYAHxWz5sBCBHCnEhGVZicX1Z1S6x4hV": "HNKXWGezdMY1kvGrYtUyJJ5PPCYa7VKsV3U1MZQZbU6OHLvriPSJzGVzCbI1FIMyHoT0SeaJiwjuPbAYZRH5lU8="
+ }
+}

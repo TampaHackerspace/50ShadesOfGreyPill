@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G5M3xZVcNZEgTbfrKrXqBs4v4O2VMsw/4eqkDpkBKvcOYRm4YNOG/u3D3543hse6Jey4Io8ur+sqg0zXDhKOayU=",
+ "cert_user_id": "eapyl@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "9ea5f3551fe7dad25d48175d97761edee44a7a808f7fc9513e868236a99794b1",
+   "size": 1602
+  },
+  "data.json": {
+   "sha512": "0ab8d20852d4c5059455b863bd10c97c917f3e73a5ca6bb349a8745f63ac6967",
+   "size": 853
+  }
+ },
+ "files_optional": {
+  "1480352387.jpg": {
+   "sha512": "6b2d4dab4bc1742f6417ffcf81e5133dc68019be5a4f6dd4b6b7884b304544a4",
+   "size": 19584
+  }
+ },
+ "inner_path": "data/users/1NRJy5uurcb2q7iFy8hPyKty8jRzKqML5N/content.json",
+ "modified": 1480352459.712538,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1NRJy5uurcb2q7iFy8hPyKty8jRzKqML5N": "G/mNLEDMb5x7whkWkZxlMz3GZYqNr+BE+W54P8sW3ABnblgHfbVvw1CJ+wH3TaZjk2j4rKOuXEP+k4IlBcrwxMY="
+ }
+}

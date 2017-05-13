@@ -1,0 +1,32 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GydWqMfllKroW1H9vzq4jcWGW5HQy/ltxjoJTgvEiZQ3m+BKoseDIeGJAJQO2QQu+HEFvCoSE7JKYW73lCKmAcE=",
+ "cert_user_id": "ranxerox@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "a69ae6f2ebc52310d752bf3ef98dae18f2915e9c5f895b6b4e05b7ae63baae98",
+   "size": 1997
+  },
+  "data.json": {
+   "sha512": "1b96383b8ac1e7765fa414299717488ac63a7afe4a54f58231bdb9393e8d2ad7",
+   "size": 15684
+  }
+ },
+ "files_optional": {
+  "1491231883.jpg": {
+   "sha512": "2b7e4787a54e4f00bc9b28c4e390ce5c22858aea37fdb461b7f1dc7b72ae6894",
+   "size": 90223
+  },
+  "1491517227.jpg": {
+   "sha512": "5cca00aa734504c3debe2eecb2d7053a029fb590a0c47839c9092df83cb28ac3",
+   "size": 73782
+  }
+ },
+ "inner_path": "data/users/1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b/content.json",
+ "modified": 1491730352,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b": "HG/dUXYYSjhoH3IsSrZ54R7mxZDpu34KIabX2OT+Rn839Sz4HamJQhOdB6o5X8UK/O4a0unS0IybGUvE1pGUZsE="
+ }
+}

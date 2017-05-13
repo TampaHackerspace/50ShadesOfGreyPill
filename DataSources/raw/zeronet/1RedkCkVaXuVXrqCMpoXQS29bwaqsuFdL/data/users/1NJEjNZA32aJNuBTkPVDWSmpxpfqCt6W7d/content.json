@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HEsd9kuWjDU5/za0gHKFnptrO6B06YpLIHaP85avNaBRhkzPytSNxvCS73t0zRHGBxeO6xSALyZZvh6TZ1dIMBw=",
+ "cert_user_id": "caliban@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "4071275f236f3146de5f4466a05a2433aa56e83ad37afd1dfdb90f9f39dc01e6",
+   "size": 426
+  }
+ },
+ "inner_path": "data/users/1NJEjNZA32aJNuBTkPVDWSmpxpfqCt6W7d/content.json",
+ "modified": 1486024706.4,
+ "signs": {
+  "1NJEjNZA32aJNuBTkPVDWSmpxpfqCt6W7d": "HPcbQlVClEqWJW7mZgMXqCqcZPrudrrH8lox2zLC/0JTaQ6dsHvQm6vCJ6qZ7hzpcGrPNPAL4S341l+DSZ2R4yM="
+ }
+}

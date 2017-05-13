@@ -1,0 +1,106 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 12,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Dullskull",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "新 ZeroNet 用户",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1481359919,
+			"body": "你好 ZeroMe!"
+		},
+		{
+			"post_id": 1481359986,
+			"body": "@P2P: \n@Lmath: 求助，另一个ZeroNet客户端无法发布内容，ZeroHello 所有站点无法更新，端口显示`关闭`（我的是拨号连接），进去其他站点拉开右侧工具栏显示`连接数0`，托盘图标右键菜单上显示`IP：false（passive）`，下面的连接数有数据。出现问题过程：试着部署Tor匿名登陆，按照tor文件夹下`manual_install`文件，下载tor文件到`tools\\tor`目录，并使用前置代理，`Tor allways`已成功，但是端口显示`关闭`，无法发布内容，提示`内容发布失败`。关闭前置代理，退出tor后就一直这样了，尝试删除tor目录，更新ZeroNet也不行。现在用的是重新下载的客户端登陆，端口显示`打开`但不稳定，ZeroNet连接正常，怎么解决那个客户端问题？",
+			"date_added": 1481359984
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Lmath: 怎么换端口",
+			"post_uri": "1464JyTpSgPeWwiM2rJAXnSJ2NzTLjbw27_1481359986",
+			"date_added": 1481360146
+		},
+		{
+			"comment_id": 2,
+			"body": "@Lmath: 端口显示关闭应该不影响ZeroNet连接啊。",
+			"post_uri": "1464JyTpSgPeWwiM2rJAXnSJ2NzTLjbw27_1481359986",
+			"date_added": 1481360225
+		},
+		{
+			"comment_id": 3,
+			"body": "@Lmath: 加到那个文件？",
+			"post_uri": "1464JyTpSgPeWwiM2rJAXnSJ2NzTLjbw27_1481359986",
+			"date_added": 1481360253
+		},
+		{
+			"comment_id": 4,
+			"body": "@Lmath: 折腾半下午了，换了新客户端没有问题。。等下我试试换端口行不。",
+			"post_uri": "1464JyTpSgPeWwiM2rJAXnSJ2NzTLjbw27_1481359986",
+			"date_added": 1481360351
+		},
+		{
+			"comment_id": 5,
+			"body": "@Lmath: 用的火绒，应该没问题啊。。",
+			"post_uri": "1464JyTpSgPeWwiM2rJAXnSJ2NzTLjbw27_1481359986",
+			"date_added": 1481360448
+		},
+		{
+			"comment_id": 6,
+			"body": "@Lmath: 显示`Tor Always `成功了啊。`\\tor\\torrc`添加了`HTTPSProxy 127.0.0.1:9666`",
+			"post_uri": "1464JyTpSgPeWwiM2rJAXnSJ2NzTLjbw27_1481359986",
+			"date_added": 1481360860
+		},
+		{
+			"comment_id": 7,
+			"body": "@Lmath: -_-，这么说是因为我tor没部署好。。`zeronet.conf`文件内还是 `tor = always` 。。所以一直没连接上。。",
+			"post_uri": "1464JyTpSgPeWwiM2rJAXnSJ2NzTLjbw27_1481359986",
+			"date_added": 1481361313
+		},
+		{
+			"comment_id": 8,
+			"body": "@Lmath:  果真，，删除`zeronet.conf`恢复正常。。哈哈。。谢谢",
+			"post_uri": "1464JyTpSgPeWwiM2rJAXnSJ2NzTLjbw27_1481359986",
+			"date_added": 1481361448
+		},
+		{
+			"comment_id": 9,
+			"body": "@Lmath: 搞定了。。哈哈",
+			"post_uri": "1464JyTpSgPeWwiM2rJAXnSJ2NzTLjbw27_1481359986",
+			"date_added": 1481361556
+		},
+		{
+			"comment_id": 10,
+			"body": "又可以愉快的潜水了。。。。",
+			"post_uri": "1464JyTpSgPeWwiM2rJAXnSJ2NzTLjbw27_1481359986",
+			"date_added": 1481361657
+		},
+		{
+			"comment_id": 11,
+			"body": "@Lmath: 是呀，我一直以为我弄好了。",
+			"post_uri": "1464JyTpSgPeWwiM2rJAXnSJ2NzTLjbw27_1481359986",
+			"date_added": 1481363060
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1481359965
+		},
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1958F7oCppj78MP966AfojMQwHg2WUupzq",
+			"user_name": "Lmath",
+			"date_added": 1481359969
+		}
+	]
+}

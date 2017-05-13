@@ -1,0 +1,23 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"2_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": [
+			{
+				"comment_id": 1,
+				"body": "My iMac crapped out after 2 month of Fedora (video card).  I heard that 10 has kill switches for dual boot.  The big players don't like competition.",
+				"added": 1488163845
+			}
+		],
+		"8_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 2,
+				"body": "https://software.opensuse.org/package/vidalia\nIf you use RPM you can force it through Vidalia (also works with Wheezy).  Setup network manager as a proxy.  You have to start ZeroNet first before Vidalia otherwise the Zero-server gets stuck configuring.  Lots of bugs and if it is only one dude working...  Tor does not work for me with ZeroNet but Vidalia kicks ass for speed!  ZeroNet works faster that i2p and for finacial reasons I think they should merge or cooperate.",
+				"added": 1488203532
+			}
+		]
+	},
+	"comment_vote": {}
+}

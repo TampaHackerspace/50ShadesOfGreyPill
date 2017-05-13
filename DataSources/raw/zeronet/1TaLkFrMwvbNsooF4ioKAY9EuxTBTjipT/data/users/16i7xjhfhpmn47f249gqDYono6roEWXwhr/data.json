@@ -1,0 +1,31 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 5,
+	"comment": {
+		"26_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 1,
+				"body": "> [twiggy](#comment_57_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): From my non-coding perspective ZeroNet needs a good working Youtube like site that you don't have to download a web torrent to use it like you do for  kopy kate. Some type of web torrent needs integrated into ZeroNet so people don't have to download it.\n\n/12MVkvYGcRW6u2NYbpfwVad1oQeyG4s9Er/view.html?type=video+id=1_1R67TfYzNkCnh89EFfGmXn5LMb4hXaMRQ_1",
+				"added": 1489183600
+			},
+			{
+				"comment_id": 2,
+				"body": "> [kai0](#comment_35_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): nice site, I cheacked your new site. \n> you have ability to improve the site zerotalk with image.\n> it's easy for you to improve this site\n> http://127.0.0.1:43110/1C2JhCunGLtvyX56nQ88tcb87WnXspjWN/\n> img need to dispaly on home page.\n\nSimilar like ZeroTalk+Reddit with imgs and video-support:\n/1J1c7eML6uMwDU4uiKbKRxoqxGP6WMFMvb/topic.html?topic_id=1R67TfYzNkCnh89EFfGmXn5LMb4hXaMRQ8",
+				"added": 1489184182
+			},
+			{
+				"comment_id": 3,
+				"body": "> [twiggydew](#comment_1_1MwJSNBC1savftEvXQyoHcVLDgThtAPr6T): Had to re- install ZeroNet since I upgraded to the newest version of Linux. Thanks for the link but it won't finish loading. It just has loading clusters with a circle spinning under it. And when I pull out the side panel it says missing files data/ifs.db and data/users/1212SPpgKYaJqMKhN9AWd7whQeEViV5G9q/moderation.json\n\nDoes it work via proxy for you?\nhttps://bit.surf:43110/12MVkvYGcRW6u2NYbpfwVad1oQeyG4s9Er",
+				"added": 1489240577
+			},
+			{
+				"comment_id": 4,
+				"body": "> [bot]\n> http://localhost:43110/1LANDERvVWbShpNWpsrbBvfqSK1PabXtwv\n> {TLDR: still a work in progress}\n\nReally awesome! Reminds of early Yahoo - in a good way, exactly what zeronet needs :)\nNow it is just not working right, as when clicking a link, it changes port to 43210 (hardcoded), which doesnt work?",
+				"added": 1489314740
+			}
+		]
+	},
+	"comment_vote": {}
+}

@@ -1,0 +1,40 @@
+{
+	"next_comment_id": 5,
+	"user_name": "Hexkey",
+	"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+	"post_like": {
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1486856228": 1487141370,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1487285064": 1487298707,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1487426353": 1487451834
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "This _really_ doesn't seem right--I get ~5 peers after about 1 min. Can you reach any/all of the [trackers](https://github.com/HelloZeroNet/ZeroNet/blob/master/src/Config.py#L35)?",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1487027407",
+			"date_added": 1487126480
+		},
+		{
+			"comment_id": 2,
+			"body": "@Nekololi: _waitwaitwait_: I missed the 'tor only' part of that, my bad. In that case, I have roughly the same situation.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1487027407",
+			"date_added": 1487141012
+		},
+		{
+			"comment_id": 3,
+			"body": "pretty sure that zeroboard relies on the system time of an external server for putting messages in the correct order.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1486764654",
+			"date_added": 1487141347
+		},
+		{
+			"comment_id": 4,
+			"body": "\\#notallbees",
+			"post_uri": "18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1487426353",
+			"date_added": 1487451913
+		}
+	],
+	"flags": {
+		"post-1JB3QRRX45hwxLvSHrhntkBX4FZzn4Qo8Y_1487529346": 0
+	},
+	"comment_like": {}
+}

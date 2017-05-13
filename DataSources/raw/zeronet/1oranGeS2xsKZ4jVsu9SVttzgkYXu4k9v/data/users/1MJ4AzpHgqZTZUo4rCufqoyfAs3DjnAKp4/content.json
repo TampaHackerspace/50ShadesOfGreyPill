@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HNlUslb5dvnDlcE6NmGjzB4suYf8gVkELuUU4vrQib+94jLCabjk/mTbVCrUEXCmTZZnhI/yoL5sAaRsSOOIVHo=",
+ "cert_user_id": "cliffcharles@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "552b9d8ddb0b9fb205c46c5c3804aaa4e69438bf73692568fd582d65f3a9eb78",
+   "size": 1580
+  },
+  "data.json": {
+   "sha512": "d480140b82ab3a2f68f4f592ccfb8559f9563230712a35e0ee0452af16822846",
+   "size": 691
+  }
+ },
+ "inner_path": "data/users/1MJ4AzpHgqZTZUo4rCufqoyfAs3DjnAKp4/content.json",
+ "modified": 1488280986,
+ "signs": {
+  "1MJ4AzpHgqZTZUo4rCufqoyfAs3DjnAKp4": "GzP88i7KY76Jg9ACH+NxoCTS4WxjGOQNN1n7n74tlZ5jp56Xpo+1Kcp75rvqkMLzfCoLysZBhZym/Zwt3UhoBdc="
+ }
+}

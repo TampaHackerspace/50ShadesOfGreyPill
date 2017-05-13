@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HKWRbRDoTdCk7fZaOj6CC5P2UcfsiVdOUyPDKbV735vihUiwI5mXw4hL/UuvPW9bUM90DPZL7nDpXolUxTpajl4=",
+ "cert_user_id": "fogfrog@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "9dd139d8459150b37d932d9f2b50332f3e9b1cb081e6749fc7bade71d2df2757",
+   "size": 1591
+  },
+  "data.json": {
+   "sha512": "a0c436c081cd0f6dfddb235797ee6a3b39cdea6620ed58bc1dd88bc911c629d1",
+   "size": 4697
+  }
+ },
+ "files_optional": {
+  "1481626487.jpg": {
+   "sha512": "66bbd3fd89cb8bda71dea9eb4ce62bed8db1401ecbf7a78e34e57f2192ccc044",
+   "size": 69273
+  }
+ },
+ "inner_path": "data/users/1PuEpLmGzwDtWzVn96wr8iyzyubM5YFQoX/content.json",
+ "modified": 1484923871.813958,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1PuEpLmGzwDtWzVn96wr8iyzyubM5YFQoX": "G97UAjw7rDI7DVjyHyUCawy51zKlzojKllfR70kMklq9fQHByYJaVHn5iONFA2WgOuGF5iyK7F+DI1HGeq/EBlg="
+ }
+}

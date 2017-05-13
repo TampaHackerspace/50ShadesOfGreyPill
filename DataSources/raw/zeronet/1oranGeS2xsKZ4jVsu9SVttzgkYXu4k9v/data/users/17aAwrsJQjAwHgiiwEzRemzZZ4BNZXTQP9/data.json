@@ -1,0 +1,46 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 3,
+	"avatar": "jpg",
+	"user_name": "Enternasyonal",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1487536329,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1487536401,
+			"body": "test",
+			"date_added": 1487536399
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Viyan: hell0!",
+			"post_uri": "17aAwrsJQjAwHgiiwEzRemzZZ4BNZXTQP9_1487536401",
+			"date_added": 1487536682
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17aAwrsJQjAwHgiiwEzRemzZZ4BNZXTQP9",
+			"user_name": "Enternasyonal",
+			"date_added": 1487536421
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17SgCrErt2cTfeJnhzN46uCjTzxhSsAdgK",
+			"user_name": "Viyan",
+			"date_added": 1487536693
+		}
+	]
+}

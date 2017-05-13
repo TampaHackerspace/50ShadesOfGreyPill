@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HKQGJfgT2xdfHdGi0ArMBRoRx8gmtkFS9M2jw6zx2IjoKl5OCp+VSHhuINAlH6PwnRChypKZIL5MQLF1awEulZw=",
+ "cert_user_id": "dagger308@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "4906ea4f97b2986576a272ef59519005c18903856d130366ee6215f22756f71e",
+   "size": 2377
+  },
+  "data.json": {
+   "sha512": "d18a6cffc9d24e1c4462f4ebd0188292e7884104e34ab0f249705b5f71cf4426",
+   "size": 2024
+  }
+ },
+ "files_optional": {
+  "1481032642.jpg": {
+   "sha512": "4735a02cf0e2df133cd9338f490714027aa19eca71e14fe88d1328c719649897",
+   "size": 123546
+  }
+ },
+ "inner_path": "data/users/1aKjFXQYNuDEh1PH7RfNHGSdxkKKNEPHM/content.json",
+ "modified": 1481039629.417213,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1aKjFXQYNuDEh1PH7RfNHGSdxkKKNEPHM": "G4k4i4mRLm9W46DsUvXyKSRN5l16QEyRUosqCJz4WyG3Rvtg1FCJGpjqB9zFAaf8cGAN7KNwurygaKoFJKyjIms="
+ }
+}

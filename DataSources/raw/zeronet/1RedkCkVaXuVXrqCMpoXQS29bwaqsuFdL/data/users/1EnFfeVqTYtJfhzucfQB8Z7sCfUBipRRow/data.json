@@ -1,0 +1,189 @@
+{
+	"next_comment_id": 28,
+	"user_name": "Militaryriotlab",
+	"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+	"post_like": {
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1476247331": 1476254161,
+		"15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1476220188": 1476278407,
+		"12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu_1476477476": 1476502388,
+		"15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1476532363": 1476539429,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1477127340": 1477137617,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1477272835": 1477307854,
+		"13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1478161999": 1478185440,
+		"13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1478612090": 1478612647,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1478620854": 1478626549,
+		"1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1478863604": 1478873269,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1478945358": 1478965545,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1479022235": 1479040785,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1479519280": 1479530564,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1480035058": 1480050820
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Great site ",
+			"post_uri": "1K6HCsJskZENYG42GR7ocJXg9WjFbEq9hc_1476012248",
+			"date_added": 1476013456
+		},
+		{
+			"comment_id": 2,
+			"body": "depends what you do with it, I own rpi zero, rpi 2 to host ownCloud and playing music, while Orange pi has SATA port and built-in storage which is faster than SD card, AFAIK ",
+			"post_uri": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1476019022",
+			"date_added": 1476019725
+		},
+		{
+			"comment_id": 3,
+			"body": "Thanks, I always looking for opensource software to replace btsync/resilio",
+			"post_uri": "1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT_1476055246",
+			"date_added": 1476069194
+		},
+		{
+			"comment_id": 4,
+			"body": "我诚邀狗蛋试用一下我建立的代理，https://onlyzero.net",
+			"post_uri": "12yaKkoqVKBUi66uB5pYXamWguKFaWdDnx_1472025195",
+			"date_added": 1476069540
+		},
+		{
+			"comment_id": 5,
+			"body": "Decoding video stream wont be a problem for rpi or orange pi since hardware-acceleration can be used instead of using CPU only IF the videos are H264 encoded and <=1080p with low bitrates, then it will not be a problem.\n\nThe problem is tracking objects and calculating its positions, it seems need lots of cpu power, if so, I am afraid only one is not enough\n\nThe good new is depending on your source of videos and how much cpu power needed, maybe you should try run it on Desktop first to see the needs, then consider how much rpi you need \n",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1476118332",
+			"date_added": 1476122590
+		},
+		{
+			"comment_id": 6,
+			"body": "You may consider setting a cluster of rpis\nhttp://makezine.com/projects/build-a-compact-4-node-raspberry-pi-cluster/\nto distribute the workload, but pay attention if buying too many rpi maybe not as worthy as buying a new server, or use Cloud service like Google Compute Engine, Amzon EC2 or renting dedicated server",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1476118332",
+			"date_added": 1476122945
+		},
+		{
+			"comment_id": 7,
+			"body": "@Musickiller: You are welcome :)",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1476118332",
+			"date_added": 1476123810
+		},
+		{
+			"comment_id": 8,
+			"body": "Please share the result of parallel processing,( of cause, if you are allowed and willing to ) I always wonder how it can be applied",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1476118332",
+			"date_added": 1476124220
+		},
+		{
+			"comment_id": 9,
+			"body": "Awesome, Zeronet music player?",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1476247331",
+			"date_added": 1476248204
+		},
+		{
+			"comment_id": 10,
+			"body": "I am glad it's developing, looking forward to it !",
+			"post_uri": "12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu_1476477476",
+			"date_added": 1476502439
+		},
+		{
+			"comment_id": 11,
+			"body": "it's working, can I uploads file on it ?",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1477127340",
+			"date_added": 1477137616
+		},
+		{
+			"comment_id": 12,
+			"body": "That sounds f-king hard !",
+			"post_uri": "1GNdkBSxTw6SpRdGHxDCyfANXnwi7FG7rJ_1477149190",
+			"date_added": 1477149485
+		},
+		{
+			"comment_id": 13,
+			"body": "叫他們自己掛個[代理](https://onlyzero.net)吧",
+			"post_uri": "17UbmvpS9j5p4YUVTERiXWJ5fwwEBAGbhR_1477195868",
+			"date_added": 1477208465
+		},
+		{
+			"comment_id": 14,
+			"body": "我來刷存在感了",
+			"post_uri": "13DSbEXrURkMaV8hTut2Xy8ds1ifU6N5ZL_1477291803",
+			"date_added": 1477307800
+		},
+		{
+			"comment_id": 15,
+			"body": "but spammers can also seed a lot",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1478422171",
+			"date_added": 1478422905
+		},
+		{
+			"comment_id": 16,
+			"body": "What's new in this version?",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1478585870",
+			"date_added": 1478603087
+		},
+		{
+			"comment_id": 17,
+			"body": "For your reference, I still seeding in the background but redirect traffic to a HTML file",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1478679877",
+			"date_added": 1478685623
+		},
+		{
+			"comment_id": 18,
+			"body": "KDE for Life !!!",
+			"post_uri": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1478698452",
+			"date_added": 1478698972
+		},
+		{
+			"comment_id": 19,
+			"body": "I thought EXIF data is already stripped, after all, they compress the image (a lot)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1478960097",
+			"date_added": 1478965378
+		},
+		{
+			"comment_id": 20,
+			"body": "Great project !",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1478945358",
+			"date_added": 1478965552
+		},
+		{
+			"comment_id": 21,
+			"body": "steady 300KB/s, takes 5 mins to download",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1479022235",
+			"date_added": 1479024977
+		},
+		{
+			"comment_id": 22,
+			"body": "where it is downloaded to ?",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1479022235",
+			"date_added": 1479024991
+		},
+		{
+			"comment_id": 23,
+			"body": "That's strange, I keep downloading the same file even after I have finished downloaded it.\nEDIT: \nWhen you download the file, the name (and extension+MIME as well) is wrong\nScreen capture[self-host]: https://onlyzero.net/onlyzero/ZeroMux_cap.png",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1479022235",
+			"date_added": 1479039989
+		},
+		{
+			"comment_id": 24,
+			"body": "When I download a file from a https proxy, browsers determine the file tried to download is a mixed content (from http plaint text connection), so it requires user to allow the download manually.\nEDIT: when you allow the mixed content, you need to refresh the page, resulted in loss of all data, the file cannot be downloaded",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1479022235",
+			"date_added": 1479127933
+		},
+		{
+			"comment_id": 25,
+			"body": "@Firebox: That's fine, I can rename the file myself",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1479022235",
+			"date_added": 1479206307
+		},
+		{
+			"comment_id": 26,
+			"body": "What suppose the file name should be?",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1479263285",
+			"date_added": 1479311743
+		},
+		{
+			"comment_id": 27,
+			"body": "NEIN",
+			"post_uri": "1PbPtbrRNGenhMsgQo5f1S1GVpPaom7PvQ_1481773148",
+			"date_added": 1481779698
+		}
+	],
+	"flags": {},
+	"comment_like": {
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_9": 1476254159
+	}
+}

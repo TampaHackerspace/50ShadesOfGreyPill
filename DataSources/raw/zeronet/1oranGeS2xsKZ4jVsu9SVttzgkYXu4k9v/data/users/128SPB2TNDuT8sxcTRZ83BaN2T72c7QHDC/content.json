@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HO5upIxy6IlpEC+eO96eRPsa78lBSjAI9jpoo1gR+ZRusdUe/R9IU4LEO6Bi7hK/CcjLJMpuvaV+a++kXatSMdo=",
+ "cert_user_id": "agama@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "85456f77b23d42c7e7e06f6d57bba16a1b07e5a93d69c58ceaac17181189b4e2",
+   "size": 1334
+  }
+ },
+ "files_optional": {
+  "1482919416.jpg": {
+   "sha512": "452f39dbbd389a2e0caff687fad33039a4518589955ee11a1aa12ced851cbac9",
+   "size": 29128
+  }
+ },
+ "inner_path": "data/users/128SPB2TNDuT8sxcTRZ83BaN2T72c7QHDC/content.json",
+ "modified": 1486185986.612,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "128SPB2TNDuT8sxcTRZ83BaN2T72c7QHDC": "G8ZGSMNqPEciZMztyRbo1pviZ6RMCKD+AywKSKZD0T583a9z4mBVx4H+sGcUeZvAesPgcVCuiqKt+3V5Nac27Y8="
+ }
+}

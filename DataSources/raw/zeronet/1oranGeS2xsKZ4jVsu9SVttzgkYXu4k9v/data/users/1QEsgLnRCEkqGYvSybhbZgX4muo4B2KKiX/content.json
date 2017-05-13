@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HK8CLPP8B40w++ja4kXOAVUOR4G4qnRDACSVsFhu/25v36OcgKmRPMhqGSMEUf1liqmfaXZr0jGMB32cYnC0Iyg=",
+ "cert_user_id": "yamaraja@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "3d54a70fae3a7e60c3b5f4ca599da7a69b4fe4b0f41a61520acd4f10afa397bb",
+   "size": 1087
+  },
+  "data.json": {
+   "sha512": "e61be71ee0c7c604e8655ffb019d7f6884c439d6a0164ecbbc72fd9be0abc6e3",
+   "size": 332
+  }
+ },
+ "inner_path": "data/users/1QEsgLnRCEkqGYvSybhbZgX4muo4B2KKiX/content.json",
+ "modified": 1484328283,
+ "signs": {
+  "1QEsgLnRCEkqGYvSybhbZgX4muo4B2KKiX": "G8tV5WgMFl/R0Mptv3Tvq+4YKxZW8eWUCq6kYTKYc8wIH0fEFNwaO/k2NyTaBVYdoXhCaH/GEDeJHMU0e2Cb0Xo="
+ }
+}

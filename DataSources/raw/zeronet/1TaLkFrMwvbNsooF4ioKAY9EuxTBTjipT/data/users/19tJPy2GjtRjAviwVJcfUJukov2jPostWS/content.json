@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "GwpRQqwpL3v0fyw8bPrnQEXFKxtZiIK2jFW/5i0d56LoTZeDfc4FhrYe1Fb0oSsiKNZJKguXsShtPLA1PH9gO/g=",
+ "cert_user_id": "bike@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "57b8441e1b4031927a8b1f5ec0add96d0d85663b78a9167de8c4a43063004ce0",
+   "size": 664
+  }
+ },
+ "inner_path": "data/users/19tJPy2GjtRjAviwVJcfUJukov2jPostWS/content.json",
+ "modified": 1486094711,
+ "signs": {
+  "19tJPy2GjtRjAviwVJcfUJukov2jPostWS": "G2t97rNKEKXfN2YVIlBTVtzSXWZTPJYTi5+lODoTwB7bLAfhL9F1zgPVIOxDam0LR/ZVWqh4PDUZpvPmcjDIrws="
+ }
+}

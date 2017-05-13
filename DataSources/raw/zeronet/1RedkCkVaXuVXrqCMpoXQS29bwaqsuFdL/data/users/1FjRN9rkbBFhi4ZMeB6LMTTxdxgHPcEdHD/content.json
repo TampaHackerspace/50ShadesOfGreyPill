@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HFiT8ChArYAJ8ERjKWf3hq2ntBpPRo0pC3aOoXYH76TXMDmeLD+81o6iifjRj/rJiEdyGJrI7Jk7Jxfivz//P+s=",
+ "cert_user_id": "boogiepop@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "94eeb6967de7d948cadf8d841c3517e1d04311a05b3df8f7c6ef25050d08c902",
+   "size": 309
+  }
+ },
+ "inner_path": "data/users/1FjRN9rkbBFhi4ZMeB6LMTTxdxgHPcEdHD/content.json",
+ "modified": 1487119528,
+ "signs": {
+  "1FjRN9rkbBFhi4ZMeB6LMTTxdxgHPcEdHD": "HCi7pvb2Rtj68Pn8J+1fUNxIUptiIjN2H6nviFlq7082OzkOKVaNj/jMzb2LFWp5BIncrKM75mnI2UUg/0vewxo="
+ }
+}

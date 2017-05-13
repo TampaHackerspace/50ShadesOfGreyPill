@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G2H52QnDzlmsToq80ZAIh3qR0qpaJEnQJ+KA0sVLX34YI7TGqNKLVfZolDhhPW0sJD5+Ht7KsdowsIUcGj9GuM4=",
+ "cert_user_id": "caribou@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "b226dc8378503e14f5a931f627ba3f42de0604902deff6d29e5501d2c82d8d02",
+   "size": 1223
+  },
+  "data.json": {
+   "sha512": "3d8ebd37679d6abd7107a876aff22daa1bea3df27c6d5f910e173a7d9eb653fc",
+   "size": 333
+  }
+ },
+ "inner_path": "data/users/13SV1KLmewM3YPvfnU9MuMgpzyUFXR7qVZ/content.json",
+ "modified": 1481348128.357,
+ "signs": {
+  "13SV1KLmewM3YPvfnU9MuMgpzyUFXR7qVZ": "G5p9LwQkjZ4kKcrM8st/rUmR0I8PfLycWjjmS+wyptgqQGuDBem8Oc4mttFLxES3lvh9YGd4LL2TnE4TbENXXI0="
+ }
+}

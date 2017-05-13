@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HMkAxWUPOzcqBHnH/pjNhXBsrXGoHnoOqP2Eq9CmimMXpt55+j8cqKhKI6TgBt7M2IkgWFi/OGJYHZewWLDV5H0=",
+ "cert_user_id": "realhistory@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "eaf1cba7a92392198d7d703c0d0911b67aa5580893410a9fb5d056bd6dfbff2f",
+   "size": 2534
+  }
+ },
+ "inner_path": "data/users/1HYeQcVHnP1eGBgjgFQXp3QmHviBdSMKTL/content.json",
+ "modified": 1484695836.189962,
+ "signs": {
+  "1HYeQcVHnP1eGBgjgFQXp3QmHviBdSMKTL": "HEJAk1UOsIjXdKpkZ3JwGWgWy01wm0RQ7+/JF8hmdeGfkqYx19VOPpbzwALIjczSNL2q5tExGjyjzYuoXU6JvDE="
+ }
+}

@@ -1,0 +1,68 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "content path",
+			"body": "Is there a way to change the path were all the content is being stored?\nI don't want it on my small root partition.",
+			"added": 1457276639
+		}
+	],
+	"topic_vote": {
+		"1_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": 1
+	},
+	"next_comment_id": 8,
+	"comment": {
+		"14_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 1,
+				"body": "some chatter on twister",
+				"added": 1457170929
+			}
+		],
+		"1_13AvYD3hX888Ey6y8kFEce3Ak8hVNLcdrg": [
+			{
+				"comment_id": 2,
+				"body": "Ok, will use a link then. I thought there would be an option to set the path in a config or as a prefix.\nThanks",
+				"added": 1457278447
+			},
+			{
+				"comment_id": 3,
+				"body": "> [nofish](#comment_443_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): you can also set it using --data_dir /somewhere/another/place or zeronet.conf:\n> [global]\n> data_dir = /somewhere/another/place\n\nthat's what I was looking for, thanks a lot",
+				"added": 1457280574
+			}
+		],
+		"1_1BQg5MQZ63aEQZMzLEXP6yY3hsgznKpaps": [
+			{
+				"comment_id": 4,
+				"body": "Arch Linux here.",
+				"added": 1457447131
+			}
+		],
+		"2_1FEikAyxCNPJcW996B69r5UFg29yfq579m": [
+			{
+				"comment_id": 5,
+				"body": "Is there a way to disable Bluetooth and just use it over network?",
+				"added": 1474619989
+			}
+		],
+		"8_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 6,
+				"body": "I think there is a difference between adblocking and torrenting.\nRegarding adblocking:\nI think most people aren't against adds in general but  against annoying pop up, full site, flashing and slowing adds. Which are the most adds a the moment. If you annoy your customers they won't visit your site or install an adblocker.\nSame problem with torrenting:\nIf you annoy your customer they won't buy your product. I reckon the biggest problem the separation of the world in regions. If I can't get the content because I live in country x, it's more likely to get pirated. Same goes for ease of consumption If I have to install apps and Stuff to view things it's easier to pirate them.\nSo give people an easy way to get your content and they will.",
+				"added": 1476954943
+			}
+		],
+		"1_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": [
+			{
+				"comment_id": 7,
+				"body": "Are you planing to access it from other devices, like smartphone? That's what i would be interested in.",
+				"added": 1485522677
+			}
+		]
+	},
+	"comment_vote": {
+		"443_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"28_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV": 1
+	}
+}

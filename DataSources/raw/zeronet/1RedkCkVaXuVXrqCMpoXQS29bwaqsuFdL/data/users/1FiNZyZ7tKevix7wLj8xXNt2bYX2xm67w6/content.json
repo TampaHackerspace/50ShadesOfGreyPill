@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HMMuYrXgD7uv0KIOM+UnX/20dhQqzVsA5MTCCgsm9+4Zoew9zyAi1CjUpouHPxPXdRvi88DZRrLnXWHU9u3Dj8c=",
+ "cert_user_id": "gromov@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "db7bcc48614c6a84873635260c7ed791634d6275fc2d6cab315e2d3b3d5e26ae",
+   "size": 337
+  }
+ },
+ "inner_path": "data/users/1FiNZyZ7tKevix7wLj8xXNt2bYX2xm67w6/content.json",
+ "modified": 1489875589,
+ "signs": {
+  "1FiNZyZ7tKevix7wLj8xXNt2bYX2xm67w6": "GycmttCHCx/+STKmA1hjExH2r1/sV3yJKBP6b97+ZpLDMnRnXocbb+yODIhEaEfDeERPnmA4dl/pQLI1hRvyY6c="
+ }
+}

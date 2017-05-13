@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HNCxw7GoJ4hKyOFxUONO8rdF39rKl/0++nG6stph2fn5vcAq26UGFUe1/5jPZYSFvsxjANmGTEzZh2ot29bbDjo=",
+ "cert_user_id": "saimadmax@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "c1a75ce419431d2e0183d008546e70ca0dff26a37bdd6bada89c2635d607508b",
+   "size": 947
+  }
+ },
+ "files_optional": {
+  "1491228267.jpg": {
+   "sha512": "bae116a8eaa6652aed406de63d48a026cc5894c1292b7108cae2f389b5ef1822",
+   "size": 115070
+  },
+  "1491228276.jpg": {
+   "sha512": "bae116a8eaa6652aed406de63d48a026cc5894c1292b7108cae2f389b5ef1822",
+   "size": 115070
+  }
+ },
+ "inner_path": "data/users/1F2AgY54hrJw6pcXsqGhPGGqm9hh366w9P/content.json",
+ "modified": 1491228530,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1F2AgY54hrJw6pcXsqGhPGGqm9hh366w9P": "G2BadOa4DRgh62x7GOGkqulM5HPKW8KQXbYaJISUISVBX+ohc2DKFw++8/oO+w3CkKD9HIHgT4LC1KKb/EmyHyk="
+ }
+}

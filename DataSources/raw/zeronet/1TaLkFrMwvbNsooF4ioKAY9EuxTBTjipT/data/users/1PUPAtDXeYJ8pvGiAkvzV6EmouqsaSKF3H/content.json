@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HL2v33pP1BzdL1kaSaY6x/KROkDI7iVgupyPVFfGTaYnzQIO353ltiRFpmJbnq+09P9r9K+cxeEAicL9VdWhNR8=",
+ "cert_user_id": "reiayanami@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "434c979774a2a58db58be589631532deeba801b479b73d4f6c812d27ed9a281d",
+   "size": 1007
+  }
+ },
+ "inner_path": "data/users/1PUPAtDXeYJ8pvGiAkvzV6EmouqsaSKF3H/content.json",
+ "modified": 1473521243.602,
+ "signs": {
+  "1PUPAtDXeYJ8pvGiAkvzV6EmouqsaSKF3H": "HBgFEC85hmm2zHoZf62gmjqoIMPma4Eud2SDX7PUz2z8uI8ubXkP2mwgHb89FTJDvHM4m1zUHzL+KvDdCME9g90="
+ }
+}

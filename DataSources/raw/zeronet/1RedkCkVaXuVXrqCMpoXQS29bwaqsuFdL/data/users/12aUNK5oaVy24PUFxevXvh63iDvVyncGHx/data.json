@@ -1,0 +1,181 @@
+{
+	"next_comment_id": 27,
+	"user_name": "Durand",
+	"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+	"post_like": {
+		"19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1473823013": 1473824500,
+		"19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1473872816": 1473879375,
+		"19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1473952536": 1473976017,
+		"1EErpRfR94YZwEMpAwsGKYsgSqHuRxvWib_1476781733": 1476827383,
+		"12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu_1476903289": 1476903569,
+		"1G9AYW9hkVjdLvsPUwKVipb1wxxLQbJkJ2_1477786594": 1477960736,
+		"1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1478003207": 1478029475,
+		"1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1478324125": 1478324786,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1479022235": 1479137124,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1479666435": 1479669991,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1480035058": 1480036719,
+		"1EErpRfR94YZwEMpAwsGKYsgSqHuRxvWib_1483992888": 1484098897,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1484306799": 1484365204,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1484882601": 1485126554
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "You could do a leech-only zeronet client for mobiles. I think that would be quick enough and light enough to run on phones without any problems. In fact, as it is written in python, it could probably already run on android with a few tweaks.",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1473431870",
+			"date_added": 1473437745
+		},
+		{
+			"comment_id": 2,
+			"body": "@Talnicrom: Hmm.. I think this would still be possible by using a \"proxy peer\". You publish to it and that peer takes care of forwarding it on to the rest of the network. Since the file is already signed by you, it should be secure.",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1473431870",
+			"date_added": 1473444183
+		},
+		{
+			"comment_id": 3,
+			"body": "Honestly, the moment you expect someone to run their own server on a computer is the moment you lose users. I consider myself to be very technically minded and I think expecting users to have a server always running is absurd. The only reason I have one is because I bought a Pi recently and zeronet works well on it but we shouldn't expect everyone to have to firstly download and app, secondly get a pi, then configure it to work on their network, and then connect to it every time they want to use zeronet. What about when someone is outside their network? They'd have to expose their server to the internet, with all the additional security risks associated. People are tending towards mobile-only solutions. Fewer and fewer people are buying laptops. Where do you expect them to host zeronet? This is not a good strategy.",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1473431870",
+			"date_added": 1473519294
+		},
+		{
+			"comment_id": 4,
+			"body": "This is great! Can I request a feature? :) I'd appreciate it if there was an option to default to the \"Everyone\" tab instead of \"Followed users\".",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1473823013",
+			"date_added": 1473824564
+		},
+		{
+			"comment_id": 5,
+			"body": "@Talnicrom: It works! Thanks a lot!",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1473823013",
+			"date_added": 1473872877
+		},
+		{
+			"comment_id": 6,
+			"body": "This database/client architecture is great. Everyone can upgrade the bits they don't like and everything still works.",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1473952536",
+			"date_added": 1473976048
+		},
+		{
+			"comment_id": 7,
+			"body": "For some reason, this setting doesn't stick like the other three. When I refresh the page, it reverts back to the default behaviour :/",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1473952536",
+			"date_added": 1474082931
+		},
+		{
+			"comment_id": 8,
+			"body": "@Talnicrom: It woks :) Thanks!",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1473952536",
+			"date_added": 1474138134
+		},
+		{
+			"comment_id": 9,
+			"body": "I've almost never seen anything other than 0 peers. I think they're still working on it because the current concept requires people to seed every video with a webtorrent client :/",
+			"post_uri": "1NZ4LvZqg61LxtRfEr5Y46KRhYCzWRnqck_1474323298",
+			"date_added": 1474325114
+		},
+		{
+			"comment_id": 10,
+			"body": "@Ericksoares3: I can see that one but it is a bit slow to download because only you are seeding it. I just noticed that the video doesn't play on ZeroTube but it does on https://instant.io/#53dd0f7429418b67ad271236e1a23c7dc1e583c9",
+			"post_uri": "1NZ4LvZqg61LxtRfEr5Y46KRhYCzWRnqck_1474323298",
+			"date_added": 1474335281
+		},
+		{
+			"comment_id": 11,
+			"body": "@Arsene Lupin: Huh? What server?",
+			"post_uri": "16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7_1474395817",
+			"date_added": 1474418556
+		},
+		{
+			"comment_id": 12,
+			"body": "@Shift: I don't think that's a great idea because it will just create a lot of unrelated spam and since most people on twitter aren't on zeronet, it won't match up anyway.",
+			"post_uri": "16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7_1474395817",
+			"date_added": 1474418622
+		},
+		{
+			"comment_id": 13,
+			"body": "@Sirenyc: With this setting in [contents.json](https://zeronet.readthedocs.io/en/latest/site_development/content_json/#optional).",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1474513657",
+			"date_added": 1474533610
+		},
+		{
+			"comment_id": 14,
+			"body": "@Shift: If you really want to import your tweets, it is very easy to add that feature with a little bit of javascript . I personally don't like it when people put their tweets on facebook so I wouldn't want the same thing to happen on zeronet. You can add a link to your twitter username under your profile status :)",
+			"post_uri": "16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7_1474395817",
+			"date_added": 1474534611
+		},
+		{
+			"comment_id": 15,
+			"body": "What problem do you have?",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1474524274",
+			"date_added": 1474535164
+		},
+		{
+			"comment_id": 16,
+			"body": "Hmmph :(",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1474524274",
+			"date_added": 1474543510
+		},
+		{
+			"comment_id": 17,
+			"body": "You need to download them all, yeah.",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1474582711",
+			"date_added": 1474623584
+		},
+		{
+			"comment_id": 18,
+			"body": "It's interesting but I'm not sure I understood much of that.. Still don't quite understand how formally verified code works :S\n\nOn another code, it's quite scary that there are military drones and self driving cars out there that are internet connected and have software that most likely contains bugs of some kind. Cars and drones are two things that can kill people and I'm pretty sure that companies like Tesla don't spend adequate amounts of money on security audits.",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1474638764",
+			"date_added": 1474650289
+		},
+		{
+			"comment_id": 19,
+			"body": "@Arne Bolen: Not everyone has the same philosophy as you and the beauty of ZeroNet is that we get to decide if it's censored or not. That doesn't mean that nothing can/should not be censored.",
+			"post_uri": "1AjxW1N844WRpscEFSotfsqLXsQurz83xc_1475067668",
+			"date_added": 1475159491
+		},
+		{
+			"comment_id": 20,
+			"body": "@Splinterk: So it's a snippet generator? ",
+			"post_uri": "12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu_1476903289",
+			"date_added": 1477385987
+		},
+		{
+			"comment_id": 21,
+			"body": "@Splinterk: Looks interesting actually but I'm already using Hugo!",
+			"post_uri": "12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu_1476903289",
+			"date_added": 1477502396
+		},
+		{
+			"comment_id": 22,
+			"body": "And use [ZeroMePlus](/1Lj1oPcN7oZQL8HkS5KbkzQuKqs42zQWY6/) to actively block them!",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1478319468",
+			"date_added": 1478324941
+		},
+		{
+			"comment_id": 23,
+			"body": "Hope they make some progress..",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1480035058",
+			"date_added": 1480036733
+		},
+		{
+			"comment_id": 24,
+			"body": "Interesting idea. Would be cool if you could search for creative commons books like those by Cory Doctorow, for example or out of copyright books.",
+			"post_uri": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1480018125",
+			"date_added": 1480038028
+		},
+		{
+			"comment_id": 25,
+			"body": "@Jjg: That's a very good point.",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1484306799",
+			"date_added": 1484729087
+		},
+		{
+			"comment_id": 26,
+			"body": "This is pretty cool!",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1484882601",
+			"date_added": 1485126564
+		}
+	],
+	"flags": {},
+	"comment_like": {}
+}

@@ -1,0 +1,34 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 1,
+	"next_follow_id": 3,
+	"avatar": "jpg",
+	"user_name": "Vivat",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Not random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1480448862,
+			"body": "Hi ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6",
+			"user_name": "Border0464fred",
+			"date_added": 1481397921
+		},
+		{
+			"follow_id": 2,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "12ZjwfLKmNhxH8vubjeyWonB3zjW1U3StP",
+			"user_name": "Marxist",
+			"date_added": 1481398134
+		}
+	]
+}

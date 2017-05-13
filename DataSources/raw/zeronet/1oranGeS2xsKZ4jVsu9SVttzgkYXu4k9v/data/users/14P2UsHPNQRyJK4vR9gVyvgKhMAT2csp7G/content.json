@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G853GMd0cgRmHRC+9G1gGf32VzJBY9wzEvQIHndHTvwH1EsUoPIwvEWUHrs1RxDMVoiPXDl6ROPJqeaNfObotCs=",
+ "cert_user_id": "archofautumn@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "7a702c47cacce39455d34e9de042800eae3b7e10e0afc4a6ba0bf7fcf3759631",
+   "size": 1564
+  },
+  "data.json": {
+   "sha512": "0789835837282cb1dcc1f8b763836f933ad4ed13adc0bea4fa9a9c9d2af1c1f3",
+   "size": 1256
+  }
+ },
+ "inner_path": "data/users/14P2UsHPNQRyJK4vR9gVyvgKhMAT2csp7G/content.json",
+ "modified": 1480920499.305872,
+ "signs": {
+  "14P2UsHPNQRyJK4vR9gVyvgKhMAT2csp7G": "G/pM9ZwjaUtgV92kPWaan7oUFiMuMPP/Y3yBae10s9xXFgICxpxo/iz1DQ2S0FSX5MmWJ+zTFBLUyiiPBNBsS1M="
+ }
+}

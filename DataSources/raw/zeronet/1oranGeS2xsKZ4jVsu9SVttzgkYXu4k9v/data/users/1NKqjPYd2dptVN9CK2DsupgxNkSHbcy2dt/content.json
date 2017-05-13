@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HGpmm/8dFCtATOdPalvoEc+SamRQo6lSyL89EgNp0JEdNBv024ppGyMWei4pHrBbtkCqlqK5WjDXP6GoYgBSGM4=",
+ "cert_user_id": "kudoxi@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "e14703f25a67c357908542d1337ee30cc7bb2c3c4fc83cdddceb36f5a404f68e",
+   "size": 1389
+  },
+  "data.json": {
+   "sha512": "aa164ce6abed4a635f45d6cd9bfae3d644fee41863c61daad298a0e26627d92b",
+   "size": 425
+  }
+ },
+ "inner_path": "data/users/1NKqjPYd2dptVN9CK2DsupgxNkSHbcy2dt/content.json",
+ "modified": 1485333082,
+ "signs": {
+  "1NKqjPYd2dptVN9CK2DsupgxNkSHbcy2dt": "HBYnsIma2u7pK/S4T5f2jzEX8V0Iczg+AfxX7gxg7FjvXrXvNHhwnExQQjy2x7eISxvy46LBeGxgr9XyY2RrvJU="
+ }
+}

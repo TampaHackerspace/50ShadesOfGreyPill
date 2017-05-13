@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HLhxjDS0pEwDb1QtXlhhLFPVP9lqJZQy3yFBRyKSRMAFKI+yFnHX4Pi63Qk3cqWLilSJGJWUfwmchhDjTW6wC4I=",
+ "cert_user_id": "franqueduarte@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ae654669fc0c0016d57c2821d054ede93368959a76e71606db2c355be91ff998",
+   "size": 285
+  }
+ },
+ "inner_path": "data/users/1ECu8YbijEri133nVD12iUTt1po33jZ9P4/content.json",
+ "modified": 1492050666,
+ "signs": {
+  "1ECu8YbijEri133nVD12iUTt1po33jZ9P4": "HCD7NBuQHnG/1ZbrSzcfcH++U1O4oAM28/F05PcTZndYQ2SuM17WaicKwmfgf5fWVW3BannS3a6Zla8lTc7xHJg="
+ }
+}

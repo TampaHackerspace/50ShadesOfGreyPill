@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G6ZKe3tHTWZfJlW/7Jeb/oigs6TLBZH1pmYwoVp2hW/UhGJTYEYTI4KcfFf2u0Yuan/jaaai6l4NOwzhZAyjwh0=",
+ "cert_user_id": "garnet@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "8006108219ae60e82404ee512b09ba13b4dcd65f868edbd9d0c104dd673ff29d",
+   "size": 644
+  }
+ },
+ "files_optional": {
+  "1484536923.jpg": {
+   "sha512": "c0485a351b349ae4c938c9bfe9e537afaf83524ba7c4b5b2d1d386ededa61bc9",
+   "size": 17881
+  },
+  "1484536999.jpg": {
+   "sha512": "fa7a4022871e26ea3c6d707c1f4ab3201727757f29517156f2f0cf9d58dd3016",
+   "size": 24912
+  }
+ },
+ "inner_path": "data/users/1Pn49nEdzapj7NpFqa94JzNNw4iATPvi63/content.json",
+ "modified": 1484536996,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1Pn49nEdzapj7NpFqa94JzNNw4iATPvi63": "HPiGNffVK8XCXo8NHCBWndbqFaqRE1444rAx9Iszdmds2uBsAnl4qtDzRR/TjVZRihy6WKMB8fuAnQ8nKdNf0xs="
+ }
+}

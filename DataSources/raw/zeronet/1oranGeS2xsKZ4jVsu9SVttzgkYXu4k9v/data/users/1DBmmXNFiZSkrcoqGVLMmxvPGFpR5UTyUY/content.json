@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HBmtQEh2eOrKOshK+Va/4OJVnnuvyWxjvWvk+UquoJTWpCE06P2FzI33iIQ1kspkAJJSQIfcttLggxI60HFnPAE=",
+ "cert_user_id": "zeptik@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "7439f42e59325b0f2beddf6de9699f3f9126d6368e318daea152636d5e0290ef",
+   "size": 1479
+  },
+  "data.json": {
+   "sha512": "a4b21716ead7fc20a91f4459e3e289f9e9cd853a02b5d4b693e61cf2df24653a",
+   "size": 345
+  }
+ },
+ "inner_path": "data/users/1DBmmXNFiZSkrcoqGVLMmxvPGFpR5UTyUY/content.json",
+ "modified": 1483619856.696846,
+ "signs": {
+  "1DBmmXNFiZSkrcoqGVLMmxvPGFpR5UTyUY": "HHWjzWwrmj7JmNDuPJA8Ek+oqLFS9PEKywxrQDtqn/3Aug66Wd82xH9Zofp6QuIr4YkdxHGA7YXuouKa4GoLIbE="
+ }
+}

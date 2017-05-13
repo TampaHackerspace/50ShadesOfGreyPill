@@ -1,0 +1,52 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 1,
+	"next_follow_id": 4,
+	"avatar": "generate",
+	"user_name": "Henur",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484353245,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"16VhV4rvza2UZNBB3cNRhcExU5zt738YmQ_1479959050": 1488503038
+	},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "16rU6wNZ8sWVkq9bGCVGYK8rtMWXPd11SA",
+			"auth_address": "18rNWN1si3s184kJSBfMc2CQbADRBXb7Lq",
+			"user_name": "Cyborgkg",
+			"date_added": 1488503672
+		},
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1488504427
+		},
+		{
+			"follow_id": 3,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa",
+			"user_name": "Talnicrom",
+			"date_added": 1488504497
+		}
+	],
+	"settings": {
+		"reverse_comment_order": true,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"blocked": [],
+	"flags": {},
+	"comment_like": {}
+}

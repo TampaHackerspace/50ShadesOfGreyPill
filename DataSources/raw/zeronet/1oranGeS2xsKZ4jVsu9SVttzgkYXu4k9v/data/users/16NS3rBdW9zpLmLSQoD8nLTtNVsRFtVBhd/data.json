@@ -1,0 +1,518 @@
+{
+	"next_post_id": 42,
+	"next_comment_id": 36,
+	"next_follow_id": 21,
+	"avatar": "jpg",
+	"user_name": "Styromaniac",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "https://mobile.twitter.com/styromaniac\n\nEthereum Wallet:\n0x41592C84072ba60B5329504ea159CE577b720C30",
+	"post": [
+		{
+			"post_id": 1488996787,
+			"body": "How do we get more people on ZeroNet? Would it be as simple as saying there are no bots, no ads, no censors, no trolls, no viruses, no password requirements and no downtime?\n\nHave I missed any details?",
+			"date_added": 1488996783
+		},
+		{
+			"post_id": 1488999066,
+			"body": "If Wikileaks surprises you, then you weren't paying attention sooner.",
+			"date_added": 1488999061
+		},
+		{
+			"post_id": 1489818696,
+			"body": "ZeroNet is now working great for me on Android. I use Lightning Browser, as it plays nicely with the ZeroHello site buttons besides that (0). I'd be using this in tandem with Frinwo, but Frinwo doesn't have any means of restricting who may daisy chain to your phone. ZeroNet-Kivy needs Frinwo's meshing capability. (I have not yet tested Frinwo myself, but it excites me to see it is actively developed and seems to live up to its claim)",
+			"date_added": 1489818690
+		},
+		{
+			"post_id": 1489822440,
+			"body": "The Slap 2\n\nhttps://youtu.be/hHZvUeAdzeI",
+			"date_added": 1489822431,
+			"meta": "{\"img\":\"900,506,88877645356499965546357864454358c479222368433246,001234450201663405450436610743285927AAB2CC5855BBDECECCEEFFFC\"}"
+		},
+		{
+			"post_id": 1489824043,
+			"body": "",
+			"date_added": 1489824028,
+			"meta": "{\"img\":\"465,700,322433444111644977766a99baa988a88cccfffede956a67,012032124451266665416678779995888A68BCDBDC78BDDBC8B888EFBDD8A87BDDA5F5\"}"
+		},
+		{
+			"post_id": 1489877469,
+			"body": "The only three Android torrenting apps that resolve magnet URIs are ZetaTorrent, libretorrent and BitX. BitX streams video in a modified, built in VLC Player. Unfortunately ZetaTorrent and Bitx aren't open source to my knowledge and I like them more than I do libretorrent. They are actively developed and the developers respond quickly to bug complaints in their Play Store pages via Review.",
+			"date_added": 1489877453
+		},
+		{
+			"post_id": 1489890101,
+			"body": "Tips for new ZeroMe users: Make posts that allude to what is in the images of your posts. Once you have enough followers you may go without alluding because by then your following builds a trust level that your images aren't illegal and amoral if the followers aren't amoral either. Maybe even confirm who you are on the clearnet by cross-linking (to your clearnet identities and back here) if you aren't under a totalitarian regime, so then it's obvious you aren't hiding who you are.\n\nThough I haven't seen illegal and amoral images uploaded here, like any clearnet service users could dare do that and just as well the site admin may rightfully delete such images, but ZeroMe requires you download what images you see to local storage. That's kind of the fabric of ZeroNet. I'm iffy about what images I should click.\n\nA web of trust needs to be built into ZeroNet as a feature, IMO. This should increase interaction. On that note I think ZeroNet should also have RSS and I mentioned that on ZeroTalk so the wait between responses is reduced by notification systems and would also increase interaction.\n\nWhat I mean by alluding to what is in your image would be like:\n\n*I think this will be my first tattoo.*",
+			"date_added": 1489890084,
+			"meta": "{\"img\":\"700,700,fffddae54bb27aaedddb3bc99a3766c42c93654bdcec2abb,000000000000000010000000023450000006787500009ABA5500018C555500336555550DE655555500FD5555550005555555\"}"
+		},
+		{
+			"post_id": 1489893249,
+			"body": "If you link to your ZeroMe, after stickied posts, QR codes are probably your best option, because localhost and IP address URLs are not allowed on most social network profiles and URL shorteners, but again you might be allowed to share the URL text in different ways on the same social network.\n\nBitly seems fine with ZeroNet URLs though, so you can use that to also bypass filters.\n\nhttp://bit.ly/2nmWLXe",
+			"date_added": 1489893231,
+			"meta": "{\"img\":\"700,700,eeedcfedea6ea7db8dcaeb9ddbf95e82ecbdbad93edcd,010102111013345675380459739542035A3B7A32253C46D73214433E33C0143ADCC99203979C475213993343420882202120\"}"
+		},
+		{
+			"post_id": 1489970454,
+			"body": "Really loving how ZeroMe has forks and merges. If only there was a Dark ZeroMe+. It's very much possible, and it's really cool how ZeroMe has no fragmentation. What you post on any of the three sites ends up on all versions of ZeroMe, thanks to ZeroNet's site merging feature. This is what Diaspora should have been from the beginning.",
+			"date_added": 1489970434
+		},
+		{
+			"post_id": 1490013191,
+			"body": "Use an automobile phone mount on a microwave stand with a keyboard connected to your Android phone via OTG (may need a USB hub or wireless charger) in MIDI mode, or via Bluetooth, on your lap and you will have a desktop experience.",
+			"date_added": 1490013170
+		},
+		{
+			"post_id": 1490149049,
+			"body": "My face when I don't know how to launch the portable Linux version of ZeroNet *with the multiuser command*. I know how to launch ZeroNet in the terminal and had been doing so until I moved on to ZeroNet-Kivy (Android), but the way multiuser had been explained isn't dumbed down enough for me, and I don't know how multiuser works. Do I get to use my users.json locally while it runs like this or does it generate users like the ZeroNet proxies do? I have friends on my WiFi whom I would like to have an installation-free experience, because they have a very limited storage space on their Android tablet. Again, at the same time, I want to keep my users.json for myself. Last question: Can ZeroNet-Kivy run multiuser?",
+			"date_added": 1490149027,
+			"meta": "{\"img\":\"900,599,432111557877643000433865ca9977ba8a87ba9ddc987cb9,0001123240110415674011784642641198AB6623117B4623BB67CDB2EAFBBCDD323CAE\"}"
+		},
+		{
+			"post_id": 1490677441,
+			"body": "YouTube censorship is ramping up quick and veteran YouTubers are getting pissed. Vid.me and Bitchute.com are your clearnet alternatives. Hopefully ZeroNet gets a site that is on par with Vid.me and Bitchute.com. ZeroTube has too much downtime and KopyKate isn't simple enough for most people to upload their videos.",
+			"date_added": 1490677416
+		},
+		{
+			"post_id": 1490746812,
+			"body": " I had a nematode infestation for 3/4 of a year, only finding out two months ago that it was in fact nematodes. I don't have the name of the species, but doctors couldn't help me. I had tried everything. What seems to resolve it is an endoparasitic fungi known as arthrobotrys conoides that had been tested on livestock. I am possibly the first human test subject, by my own desperation. If I am being cured, I have a long story to tell, in part because of the horror I went through, for the longest time finding myself unable to cure the infestation, and just in case it's the phytochemicals in my clothing having any part in resolving this, or the silver ion solution I produced. Maybe it's a combination of all of them. I've read there are nearly a billion people with roundworm infection. This fungus, if not my late routine, could be the cure.",
+			"date_added": 1490746786
+		},
+		{
+			"post_id": 1491190180,
+			"body": "In the event that users.json is compromised, I think there should be a feature with ID providers to allow certificate renewal, but IDK if it's workable or not.\n\nSay my device(s) started acting infected. I would renew my certificate on a device I believe isn't compromised before the hacker might take control.",
+			"date_added": 1491190153
+		},
+		{
+			"post_id": 1491191354,
+			"body": "Should you colonize another planet, I believe your life would be impacted minimally with ZeroNet and Ethereum.",
+			"date_added": 1491191326
+		},
+		{
+			"post_id": 1491305407,
+			"body": "I got tired of being spied on by my phone. I destroyed it without skipping a beat. Perhaps porn played a factor in spyware-like activity, but even a previous Google phone of mine was revealed as spying on me when Google first debuted their hardware permissions list and then redacted it for a revised version in a much later update.\n\nNonetheless, Google had tracked my purchases with my phone sitting at home while I shopped, with no prior knowledge of intent to make these purchases. I used a card that I plugged into Google Play. YouTube served an ad for the same product I purchased earlier that day.\n\nIf I looked up unpopular political memes, a white window would quickly popup and disappear. I can only guess that's a three letter organization trying to spy on me.\n\nIt's funny that whoever is behind the scenes would be using something so obvious. Maybe that is to make this average person with minimal computer skills appear like a tinfoil hatter.\n\nI'm trying to get away from Google, which is difficult considering the services I depend upon at this moment in time and the people I know connected to Google services. It's time I make the draw to other services with content served by me and that I make new friend and family connections elsewhere. I'm looking for alternatives. I pose no threat, but this is still uncomfortable.\n\nAt the very least, there is no camera nor mic that will be peering on me much anymore. I haven't used cameras except for when I was taking selfies and making video calls, both of which are not necessary. I don't have a webcam anyway. If I want to make phone calls, I can unplug the mic from my PC after use.\n\nLaw enforcement had failed to help me with my sexual assault case. Doctors had failed to cure my nematode infection and I'm finding solutions. Dentists nearly rotted my mouth out by deciding to leave in a retainer wire, so I busted it out and the decay stopped with serious disinfecting, which was ineffective before the removal of the wire. I'll let you guess how I feel after all of this as it goes without saying. Guess away, but I won't answer what my views are. You're smart enough to figure that part out.",
+			"date_added": 1491305378
+		},
+		{
+			"post_id": 1491367755,
+			"body": "@LGBT: are constantly being called perverts, yet I have a moral high ground and have instilled a godlike fear into two people, a hebephile Nazi *and* a diddler who screams the N word at black neighbors after outing him for being a diddler (I was a victim of his), who has sexual predator connections, to my other neighbors. I've also had a neighbor longer ago who hates black people and stalks and scares the living shit out of women about his age.\n\nMilo Yiannopoulos is a golden example of a fascist hebephile. Donald Trump is a golden example of a fascist child rapist and very open sexual assailant if you've ever heard of Epstein's Lolita Express and/or heard him say in audio \"I grab them by the pussy\" or how he's giving rise to greater lethal power-tripping to cops.\n\nThe reason we're called perverts is because of a dishonest tactic known as psychological/Freudian projection.\n\n*Psychological projection is a theory in psychology in which humans defend themselves against their own unconscious impulses or qualities (both positive and negative) by denying their existence in themselves while attributing them to others. For example, a person who is habitually rude may constantly accuse other people of being rude. It incorporates blame shifting.*\n\nhttps://en.wikipedia.org/wiki/Psychological_projection\n\nI'm a transwoman, BTW.",
+			"date_added": 1491367725
+		},
+		{
+			"post_id": 1491403810,
+			"body": "I see some fancy wallpapers on a few profiles. How do I upload one, or is that not a feature for us all yet?",
+			"date_added": 1491403779
+		},
+		{
+			"post_id": 1491599324,
+			"body": "I would like to engage in peace talks between troops hailing from East to West once the choreographed, theatric, and eventually globally violent unfolding of World War III reaches fruition.\n\nAt the very least, we're all noncombatant friends here with politics failing to divide us, but instead it's jokes, anti-authoritarianism and universal truths bringing us together.\n\nThe majority of us are humanitarians.\n\nI hope for the same to be true in physical space when shit eventually hits the fan, not exclusively in cyber space.",
+			"date_added": 1491599292
+		},
+		{
+			"post_id": 1493273401,
+			"body": "So @Plasmmer: says DCRS will basically be a webapp ecosystem and webapp store for ZeroNet with transparency to Linux under the hood?\n\nMy idea might have been a condensation of his his brilliant thinking all along, then.\n\nZeroNet can and should become this without much change, and that might just be what it and its users needed all along.\n\nThe base of ZeroNet can just be aesthetically and usably overhauled with review pages for every webapp and third parties add in any missing integrations.\n\nDCRS might do that and more.\n\nBut I should probably reread the DCRS mission statement to really know if that's the idea Plasmmer has. I don't want to mislead anyone.\n\nBut if all that I mention will be done, then that's awesome.",
+			"date_added": 1493273367
+		},
+		{
+			"post_id": 1493416269,
+			"body": "Rental assistance kicking in means I'll have a few hundred more dollars spared for this project whenever is that actually start donating. I have road bumps that will hit my budget a wee bit, but the budget is in an upward flux too.\n\nIt might end up being bigger than I thought it would be in the past.\n\nI *REALLY* want to make this a career for Tamas.",
+			"date_added": 1493416234
+		},
+		{
+			"post_id": 1493567664,
+			"body": "Animated PNG arrives to Chrome 59, only a decade later than Firefox. I'm hoping ZeroNet sites will ensure the animations work.",
+			"date_added": 1493567628,
+			"meta": "{\"img\":\"700,700,fffa9b55ceeed55ff8dd53384773959a2662244243bcbffe,0000000000000000000000000000000000123000000456700000089AB0000003CD00000003EE30000003FF30000000000000\"}"
+		},
+		{
+			"post_id": 1493602593,
+			"body": "The world is more vibrant than it appears.",
+			"date_added": 1493602556,
+			"meta": "{\"img\":\"422,700,532722542445654a98555b87b88fffcccfeedddbab7aed88,0111213024522246460278229999999A99B9CADADC99999999EE9BCCCCCF\"}"
+		},
+		{
+			"post_id": 1493602779,
+			"body": "Instant brain damage; just add tumblr.",
+			"date_added": 1493602741,
+			"meta": "{\"img\":\"422,700,76865799b88ababcbceeefffcccddd,001123454455666666667777667777887777666677677777999966696666\"}"
+		},
+		{
+			"post_id": 1494119123,
+			"body": "@Nofish: Scuttlebutt devs mention ZeroNet in their list of decentralizing projects.\n\nhttps://www.scuttlebutt.nz/",
+			"date_added": 1494119082
+		}
+	],
+	"post_like": {
+		"19AhH2eARoB96jgnYe55fL6ittMQnaU5Et_1488955975": 1488988290,
+		"1JmpQ1DRzGKmUwwgBQwTXMvrZyb4dhNkwT_1488877753": 1488990553,
+		"1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489519679": 1489965812,
+		"1ET4uyenSQc6gp9vnxcZYoZ63BYvRxWReX_1490082667": 1490099764,
+		"1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489854749": 1490229566,
+		"1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1490556660": 1490574725,
+		"1tsN2NZ2odhDRXK6gwDHxWV87UH4dk6bx_1490658977": 1490666929,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491177567": 1491182338,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491208160": 1491219841,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491178909": 1491219855,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491126505": 1491219904,
+		"17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq_1491363527": 1491366793,
+		"17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq_1491411091": 1491439195,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491590232": 1491600151,
+		"14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491504920": 1491605034,
+		"14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1491338809": 1491605086,
+		"14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy_1490622385": 1491605120,
+		"1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b_1491517227": 1491620723,
+		"17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq_1491625057": 1491665912,
+		"17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq_1491624958": 1491665921,
+		"17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq_1491624901": 1491665929,
+		"17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq_1491624854": 1491665937,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491614163": 1491667726,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491590147": 1491668463,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491525874": 1491668495,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491442138": 1491668614,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491449852": 1491668805,
+		"1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1493250130": 1493271965,
+		"1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x_1493076676": 1493391482
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Okay I forgot it struggles with peers for zites not included in the app's (Kivy's) zite directory.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488981502",
+			"date_added": 1488982720
+		},
+		{
+			"comment_id": 2,
+			"body": "@P2P: I'll appreciate it.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488981502",
+			"date_added": 1488982763
+		},
+		{
+			"comment_id": 3,
+			"body": "@P2P: I copied the text and named it data.json. I don't know where to drop the file.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488981502",
+			"date_added": 1488984126
+		},
+		{
+			"comment_id": 4,
+			"body": "@P2P: Maybe it's the fact that it uses Tor and my router isn't configured for the port it demands. I don't care to use Tor myself. An option to disable would be nice.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488983252",
+			"date_added": 1488984284
+		},
+		{
+			"comment_id": 5,
+			"body": "It doesn't seem to work. I had ZeroNet shut down too when I merged data.json.\n\nI'll be okay with forgetting about recovery and move on from my mistake.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488981502",
+			"date_added": 1488985313
+		},
+		{
+			"comment_id": 6,
+			"body": "@P2P: It tells me Tor is connected.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488983252",
+			"date_added": 1488985475
+		},
+		{
+			"comment_id": 7,
+			"body": "Answer: Notification goes to both accounts.",
+			"post_uri": "17BhLxj4noABqeWGdH2X6WRvEjnW8uiVaP_1488986158",
+			"date_added": 1488986276
+		},
+		{
+			"comment_id": 8,
+			"body": "http://me.zeronetwork.bit/?Post/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/17BhLxj4noABqeWGdH2X6WRvEjnW8uiVaP/1488986158\n\nYou can have multiple of the same username, but they require separate ID.",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1488983712",
+			"date_added": 1488986468
+		},
+		{
+			"comment_id": 9,
+			"body": "@Rythyrix: You sure? I believe Kaffie and ZeroID both have entries in the same users.json file I have.",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1488983712",
+			"date_added": 1488987950
+		},
+		{
+			"comment_id": 10,
+			"body": "I give up.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488981502",
+			"date_added": 1488990488
+		},
+		{
+			"comment_id": 12,
+			"body": "@橙色名字: Yes. Same information.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488999066",
+			"date_added": 1489200597
+		},
+		{
+			"comment_id": 13,
+			"body": "@12hlearn: That's corrected by using Lightning Browser.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1489818696",
+			"date_added": 1489841351
+		},
+		{
+			"comment_id": 14,
+			"body": "You can make offline posts and comments. They automatically sync when reconnected.",
+			"post_uri": "18HksBYRNHys5N4L7dAAdnmL4uvQgbT7rx_1489833807",
+			"date_added": 1489842460
+		},
+		{
+			"comment_id": 15,
+			"body": "()",
+			"post_uri": "17BhLxj4noABqeWGdH2X6WRvEjnW8uiVaP_1489854027",
+			"date_added": 1489854107
+		},
+		{
+			"comment_id": 16,
+			"body": "@Rythyrix: My bad. I think I didn't stick with libretorrent because you can't create a torrent with it while ZetaTorrent gives you that option to create a torrent file. I then use http://torrent2magnet.com/ to generate a magnet URI.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1489877469",
+			"date_added": 1489881806
+		},
+		{
+			"comment_id": 17,
+			"body": "@Booma: I don't like Frostwire. Magnet URIs don't parse to the app. It's got all the wrong features and none that I like.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1489877469",
+			"date_added": 1489885602
+		},
+		{
+			"comment_id": 18,
+			"body": "@12hlearn: You could also use Armorfly for a more app-like experience. It can be set to not open new tabs for the same TLD, reducing CPU usage and it has fullscreen browsing mode. More HTML5 video sites have a fullscreen video option, but it doesn't hide the system and navigation bars and my OLED on my 6p already has burn-in from Android's static images. I guess next time I'll get a phone with LED buttons separate from the screen.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1489818696",
+			"date_added": 1489887432
+		},
+		{
+			"comment_id": 19,
+			"body": "@12hlearn: I see you're Chinese. I'll warn you I don't believe Armorfly is open source. Lightning Browser is.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1489818696",
+			"date_added": 1489898423
+		},
+		{
+			"comment_id": 20,
+			"body": "No. This is like a massive orgy where we get off only talking about ZeroNet.",
+			"post_uri": "1Aa63ifDFsoYUZD4AtD7Dsm2JQrG6Stret_1489480275",
+			"date_added": 1489965976
+		},
+		{
+			"comment_id": 21,
+			"body": "@Jro: http://127.0.0.1:43110/1HmJ7GadjdiQUPevaK7QXVrK4nhyCp1fSj/",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1489970454",
+			"date_added": 1490007221
+		},
+		{
+			"comment_id": 22,
+			"body": "@Rythyrix: I got it working on the host device at 127.0.0.1:43110, my Nexus 6P running ZeroNet-Kivy, but the internal network IP address and port numbers aren't working on the phone nor the desktop computer.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1490149049",
+			"date_added": 1490186107
+		},
+		{
+			"comment_id": 23,
+			"body": "On the internet, no one knows you're a dog.",
+			"post_uri": "1tsN2NZ2odhDRXK6gwDHxWV87UH4dk6bx_1490658977",
+			"date_added": 1490666976
+		},
+		{
+			"comment_id": 24,
+			"body": "@Rythyrix: Do your own research. It's plain as day yet.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1490677441",
+			"date_added": 1490679593
+		},
+		{
+			"comment_id": 25,
+			"body": "@Flyman: Yes to both.",
+			"post_uri": "1tsN2NZ2odhDRXK6gwDHxWV87UH4dk6bx_1490658977",
+			"date_added": 1490696630
+		},
+		{
+			"comment_id": 26,
+			"body": "A good way to avoid assault of all kinds.",
+			"post_uri": "17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq_1491363527",
+			"date_added": 1491366833
+		},
+		{
+			"comment_id": 27,
+			"body": "@Schiz0: lol. That's a creative description.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1491367755",
+			"date_added": 1491374424
+		},
+		{
+			"comment_id": 28,
+			"body": "@Kaffie: I have legitimate reason to make those claims about the celebrities I've listed. You can research my claims on the clearnet.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1491367755",
+			"date_added": 1491399388
+		},
+		{
+			"comment_id": 29,
+			"body": "@Flyman: Yeah I hear that ignoring bad people eats them alive.",
+			"post_uri": "17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq_1491363527",
+			"date_added": 1491403471
+		},
+		{
+			"comment_id": 30,
+			"body": "@Plasmmer: Realtime kernel with 192Kbps audio output and input. Also, make it home theater friendly for Kodi and Steam Big Picture mode. Include Transmageddon and cryptocurrency wallets. Make Kernel+GPU driver combinations easy to select and install like in Manjaro. Make webapps and Android apps integral to a native-like experience.\n\nMake it installable with a compressed file you can decompress directly to a USB thumb drive, just like SteamOS is, because that makes the install process a breeze.\n\nI might be asking for too much, but I hold interest in your project regardless.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491590232",
+			"date_added": 1491600867
+		},
+		{
+			"comment_id": 31,
+			"body": "Frinwo is kind of a mesh network, but it routes all daisy chained devices to the internet, not P2P routed, so the ISP is still between all users even though they're directly connected to one another within proximity and with permission. There are libraries on Github for true P2P mesh networking on Android, but  I can't find an APK.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491614163",
+			"date_added": 1491667998
+		},
+		{
+			"comment_id": 32,
+			"body": "ZeroNet-Kivy, the Android app, is actually hosted on ZeroNet.io.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491593688",
+			"date_added": 1491668307
+		},
+		{
+			"comment_id": 33,
+			"body": "I propose Ethereum with smart contracts for DNS and 2FA and for interplanetary potential (I don't know if Namecoin can do that, being based on Bitcoin), but I'm just now checking out Emercoin and will return with my best educated response if I get educated enough.\n\nNofish had said that Ethereum has a large attack surface, however.\nhttps://www.youtube.com/watch?v=abwGjd4GsRE\n\nI would like to add though that Ethereum will switch to Casper, a hybrid model of Proof of Work and Proof of Stake, with security being the driver of its design.\nhttps://www.youtube.com/watch?v=StMBdBfwn8c",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491687587",
+			"date_added": 1491705829
+		},
+		{
+			"comment_id": 34,
+			"body": "I'm here.",
+			"post_uri": "1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x_1493000410",
+			"date_added": 1493026339
+		},
+		{
+			"comment_id": 35,
+			"body": "@delusion: I've tried that. Nobody cares. Maybe if mesh networking was built in it would gain Firechat's popularity.",
+			"post_uri": "1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x_1493000410",
+			"date_added": 1493043710
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1488988680
+		},
+		{
+			"follow_id": 3,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1489820634
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1489820641
+		},
+		{
+			"follow_id": 5,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "16nArdxrSaNThNp83kL8E6NLL9WD98iUne",
+			"user_name": "Jayofthezero",
+			"date_added": 1489965148
+		},
+		{
+			"follow_id": 6,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1H9R6W9QWUpYiJkLyAsFXmXhAV7HEqoHtN",
+			"user_name": "Flyman",
+			"date_added": 1489980161
+		},
+		{
+			"follow_id": 7,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18eCgEn1icSR4joCuyvpL7E5ZcgtJP5kC2",
+			"user_name": "RahulSingh",
+			"date_added": 1490574753
+		},
+		{
+			"follow_id": 8,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1Q4UrQsytGT18BoAAXZMWsDkcPd7XYLLyD",
+			"user_name": "LGBT",
+			"date_added": 1491182554
+		},
+		{
+			"follow_id": 9,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1LthwGGue7HvT6VyiHabgs4MSA1nwbQ98x",
+			"user_name": "Universal Smart Video",
+			"date_added": 1491182792
+		},
+		{
+			"follow_id": 10,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "19mjEz66HUSJrB1H3ZqaZK9BwCMm9sX6aj",
+			"user_name": "Tamigucho",
+			"date_added": 1491190608
+		},
+		{
+			"follow_id": 11,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq",
+			"user_name": "Humor",
+			"date_added": 1491219930
+		},
+		{
+			"follow_id": 12,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1491403554
+		},
+		{
+			"follow_id": 13,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "16YxtnaTrCSbvCXSYxrnvobmYnqtidxG23",
+			"user_name": "Hellozeronetwork",
+			"date_added": 1491403562
+		},
+		{
+			"follow_id": 14,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD",
+			"user_name": "Mkg20001",
+			"date_added": 1491601467
+		},
+		{
+			"follow_id": 15,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV",
+			"user_name": "Mynameislegion",
+			"date_added": 1491602532
+		},
+		{
+			"follow_id": 16,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy",
+			"user_name": "Glightstar",
+			"date_added": 1491605054
+		},
+		{
+			"follow_id": 17,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe",
+			"user_name": "Plasmmer",
+			"date_added": 1491667717
+		},
+		{
+			"follow_id": 18,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "16iuzjKJoS7bpUUApMV6U4e5CQqUNwmjWW",
+			"user_name": "Screens",
+			"date_added": 1493302518
+		},
+		{
+			"follow_id": 20,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "136wmwLTBJoGTjXTAa7sWmXewn9P53EKML",
+			"user_name": "Zero News",
+			"date_added": 1493506931
+		}
+	],
+	"settings": {
+		"reverse_comment_order": false,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"blocked": [],
+	"flags": {},
+	"comment_like": {}
+}

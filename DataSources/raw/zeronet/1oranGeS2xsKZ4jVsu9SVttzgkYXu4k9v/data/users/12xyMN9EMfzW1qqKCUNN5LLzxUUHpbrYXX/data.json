@@ -1,0 +1,260 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 10,
+	"next_follow_id": 25,
+	"avatar": "generate",
+	"user_name": "Monday",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1490559024,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1491892224,
+			"body": "Mass surveillance is not a problem at all. The problem is that we don't trust that few people on they'll use this data for the benefit of our community. In the end of the day, they're just humans, who can be selfish, biased, make mistakes, etc... They're all just humans, thus they cannot be that much smarter and cautious than any one of us. Decentralization can be a way towards swarm intelligence which is the only known case where a group can be smarter than an individual. [[ corrections are mostly welcomed ]]",
+			"date_added": 1491892222
+		}
+	],
+	"post_like": {
+		"18eCgEn1icSR4joCuyvpL7E5ZcgtJP5kC2_1490435071": 1490561336,
+		"1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1490556660": 1490562858,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490897414": 1490899259,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490910974": 1491049461,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491126505": 1491159376,
+		"17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq_1491411091": 1491421268,
+		"17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq_1491363527": 1491501700,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491858446": 1491891558,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1492087748": 1492203860,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1492253738": 1492260251,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1493094793": 1493143293
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "well, basically, he is right. We will all die, eventually; that's how life works :)",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490917500",
+			"date_added": 1490958273
+		},
+		{
+			"comment_id": 2,
+			"body": "@Flyman: Here is something by CCC (Chaos Computer Group); I think you may find it interesting. Talking about human mind, AI, manipulation, and how to identify a \"Mind Virus\". https://media.ccc.de/v/32c3-7483-computational_meta-psychology",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490931381",
+			"date_added": 1490962371
+		},
+		{
+			"comment_id": 3,
+			"body": "censorship is necessary (just think about someone rape your friend's child and upload to some porn site, and her classmates can see it, ruining her life). I think the problem is not with the censorship, but the centralized censorship in the hand of too few, where one can have too much power which he can't take responsibility for, whilst making himself a VERY valuable target for any exploitation (I'll say again, without the slightest change to be able to take full responsibility).",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490910974",
+			"date_added": 1490962939
+		},
+		{
+			"comment_id": 4,
+			"body": "@Plasmmer: yeah, that's exactly what I meant :)",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490910974",
+			"date_added": 1490983431
+		},
+		{
+			"comment_id": 5,
+			"body": "@Plasmmer: It's a very interesting idea indeed, we just need a good voting mechanism which always works (for example, if no one cares, we don't wait for their votes infinitely). I think I've seen a blockchain (ethereum) solution for that, I need to find it. I think the most important question now, is how many ZeroNet user thinks it's a great idea.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490910974",
+			"date_added": 1491049672
+		},
+		{
+			"comment_id": 6,
+			"body": "@Plasmmer: I think there will always be people who (rough categorization)  1/ wants democracy, 2/ wants anarcy 3/ wants dictators 4/ don't care, just try to make a living (which may bring them towards (3) without recognizing. -- so there'll be always people who resist, it's just an implication of diversity, thus it shouldn't stop us to try out new ideas :)",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490910974",
+			"date_added": 1491068617
+		},
+		{
+			"comment_id": 7,
+			"body": "it's 3,7 GB now, with everything in it's data directory.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491500198",
+			"date_added": 1491501560
+		},
+		{
+			"comment_id": 8,
+			"body": "@Plasmmer: the best way is to let namecoind do that, distributing blockchains with torrent is not recommended; see https://www.reddit.com/r/Namecoin/comments/4jc7m1/torrent_for_namecoin_blockchain/",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491500198",
+			"date_added": 1491505904
+		},
+		{
+			"comment_id": 9,
+			"body": "@Plasmmer: cool, I have a docker setup for namecoin + resolver setup, let me know if you're interested",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491500198",
+			"date_added": 1491582370
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h",
+			"user_name": "Binchan",
+			"date_added": 1490559064
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1CYj7o5iamDZeKZvdSAW4P2aEngmAXb78T",
+			"user_name": "Dentist",
+			"date_added": 1490559086
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf",
+			"user_name": "NotYourBit",
+			"date_added": 1490561381
+		},
+		{
+			"follow_id": 4,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1Ea3RG4YuLnifynBxvuWAA3Y2nLcTWfrjQ",
+			"user_name": "k0re",
+			"date_added": 1490561388
+		},
+		{
+			"follow_id": 5,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1490561400
+		},
+		{
+			"follow_id": 6,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1Ea3RG4YuLnifynBxvuWAA3Y2nLcTWfrjQ",
+			"user_name": "k0re",
+			"date_added": 1490561417
+		},
+		{
+			"follow_id": 7,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx",
+			"user_name": "ks",
+			"date_added": 1490561419
+		},
+		{
+			"follow_id": 8,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC",
+			"user_name": "Firebox",
+			"date_added": 1490561420
+		},
+		{
+			"follow_id": 9,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1KuwwnkAtVrfnyhv8pyGRxLqzNZbEkJt2u",
+			"user_name": "Lola",
+			"date_added": 1490561425
+		},
+		{
+			"follow_id": 10,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu",
+			"user_name": "PaintNinja",
+			"date_added": 1490561427
+		},
+		{
+			"follow_id": 11,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1490561434
+		},
+		{
+			"follow_id": 12,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ",
+			"user_name": "Musickiller",
+			"date_added": 1490561436
+		},
+		{
+			"follow_id": 13,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1490561437
+		},
+		{
+			"follow_id": 14,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe",
+			"user_name": "Plasmmer",
+			"date_added": 1490858000
+		},
+		{
+			"follow_id": 15,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N",
+			"user_name": "Quadrangle",
+			"date_added": 1490899913
+		},
+		{
+			"follow_id": 16,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1KBZKMhcAE42J4kbVjCXySKZyqLaxJf5WG",
+			"user_name": "Nicholas Scourgefury",
+			"date_added": 1490982162
+		},
+		{
+			"follow_id": 17,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1LyJMReywhzrtMYQHvRauRZ7khETPJkdoh",
+			"user_name": "Wonderingdane",
+			"date_added": 1490982287
+		},
+		{
+			"follow_id": 18,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1Q4UrQsytGT18BoAAXZMWsDkcPd7XYLLyD",
+			"user_name": "LGBT",
+			"date_added": 1491246449
+		},
+		{
+			"follow_id": 19,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17LS9KpShAY7QM9kcHoDGkcZCFNbnkwrCq",
+			"user_name": "Humor",
+			"date_added": 1491246481
+		},
+		{
+			"follow_id": 20,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1PBw3FYm9DHTVbdm4Hrf1kQJMJd2LRNujT",
+			"user_name": "Dogs",
+			"date_added": 1491246492
+		},
+		{
+			"follow_id": 21,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "18QRaL2iLVEKLihwERUgkB1hSCmsi7qx9y",
+			"user_name": "Cats",
+			"date_added": 1491246522
+		},
+		{
+			"follow_id": 22,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ",
+			"user_name": "ulrichard",
+			"date_added": 1491246567
+		},
+		{
+			"follow_id": 23,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1FRVCbdnFWN8nQGY2zw829pg5BXzru9Gb3",
+			"user_name": "Aldos",
+			"date_added": 1491246657
+		},
+		{
+			"follow_id": 24,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy",
+			"user_name": "Glightstar",
+			"date_added": 1491650447
+		}
+	]
+}

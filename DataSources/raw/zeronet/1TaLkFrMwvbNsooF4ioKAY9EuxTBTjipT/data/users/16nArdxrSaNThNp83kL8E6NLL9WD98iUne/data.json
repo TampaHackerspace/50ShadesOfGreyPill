@@ -1,0 +1,49 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"13_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1
+	},
+	"next_comment_id": 7,
+	"comment": {
+		"8_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": [
+			{
+				"comment_id": 1,
+				"body": "Your site doesn't load. Is your port open?",
+				"added": 1471872974
+			},
+			{
+				"comment_id": 2,
+				"body": "Odd, the site loaded in a proxy, but it still fails for me. I'm not having issues with any other sites, and my ports are open and Tor is running fine. :\\",
+				"added": 1471887308
+			},
+			{
+				"comment_id": 3,
+				"body": "Nope. The proxy has me wait a while, but then it errors out. Guess it's probably still downloading it from you maybe?\n\nProxy says it's currently storing 873MB for the site, which is odd since it says that 727MB of that are JSON files. You aren't actually including that many redundant JSON's right?\n\nHere's the link so you can check it out yourself: https://proxy1.zn.kindlyfire.me/16iXY7BX8UF1j2NJVQHADyuGorFJKFvnzG/",
+				"added": 1471892833
+			},
+			{
+				"comment_id": 4,
+				"body": "Maybe try making the file optional so that the main page might at least load.",
+				"added": 1471912113
+			},
+			{
+				"comment_id": 5,
+				"body": "Still no dice. Endless flipping square with \"Peers found: 40\"",
+				"added": 1472080460
+			}
+		],
+		"2_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": [
+			{
+				"comment_id": 6,
+				"body": "Look at it this way. \n\n- Do you already have a computer?\n- Is fiddling with a few things considered a pain?\n- Do you want to have to buy a new computer?\n- Are you willing to pay a lot of money for a small bit of convenience?\n\nIf you answered Yes to all four questions you can get a Mac if you want, otherwise I'd recommend Linux.",
+				"added": 1489011721
+			}
+		]
+	},
+	"comment_vote": {
+		"26_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"68_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"3_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": 1
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 3,
+	"next_follow_id": 1,
+	"avatar": "jpg",
+	"user_name": "Nora",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "A new random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1480296708,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "How can i delete my posts? :/",
+			"post_uri": "1NWaYFYGdfDnhgyjaGNYk2ewgEJUPmiZ2W_1",
+			"date_added": 1480296881
+		},
+		{
+			"comment_id": 2,
+			"body": "@Nora: ... And comments? I can't find any delete button / menu entry.",
+			"post_uri": "1NWaYFYGdfDnhgyjaGNYk2ewgEJUPmiZ2W_1",
+			"date_added": 1480296902
+		}
+	],
+	"follow": []
+}

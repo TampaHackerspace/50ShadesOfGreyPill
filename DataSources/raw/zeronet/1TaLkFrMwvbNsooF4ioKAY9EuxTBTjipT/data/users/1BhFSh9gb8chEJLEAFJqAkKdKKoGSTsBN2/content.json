@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "GweYhZ/JWdPpjFFx5hNqPnw/WxjlhO34hXhoVWJP7zGiq7pzAWKweiVyifNH5p0tjzmphfvODQksYDpHgnfY/fs=",
+ "cert_user_id": "psych@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "4da20ccb327ea5477c7bff006c58eb1f089e11f530374d962843788570534351",
+   "size": 822
+  }
+ },
+ "inner_path": "data/users/1BhFSh9gb8chEJLEAFJqAkKdKKoGSTsBN2/content.json",
+ "modified": 1474964571.547501,
+ "signs": {
+  "1BhFSh9gb8chEJLEAFJqAkKdKKoGSTsBN2": "HF7TviJUbXESkKH/pxt1lSavBA7s7lNqVvLW8RKWVnDOzvdrAq/zrzfnvtZAZD7PXmuPPktXIa+XYuyF7FnXoxo="
+ }
+}

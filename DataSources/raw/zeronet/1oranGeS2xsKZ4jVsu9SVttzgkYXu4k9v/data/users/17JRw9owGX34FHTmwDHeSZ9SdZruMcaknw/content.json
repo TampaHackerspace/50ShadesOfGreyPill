@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HJApjh/AUMgH8OHn/I9R95xLvZpXRLzlA503DeFllfezGNCT8eco/VTC08ToTM3jneh/sHT5Vo0Y5M3O4zTRrtk=",
+ "cert_user_id": "kotoshreder@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "39c60b891b06c654d05372ee7131505f02d5d9d9caae1fe937b97aefde41ada6",
+   "size": 580
+  }
+ },
+ "files_optional": {
+  "1480386574.jpg": {
+   "sha512": "b74f48d2b01080025e204f45048a48d6c93b9e4efd081c8aff56a62ae715c408",
+   "size": 58850
+  }
+ },
+ "inner_path": "data/users/17JRw9owGX34FHTmwDHeSZ9SdZruMcaknw/content.json",
+ "modified": 1480386573.235477,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "17JRw9owGX34FHTmwDHeSZ9SdZruMcaknw": "G26Ehb7imLk0gTwvAWr4ccCB8pGeip4OnxI6nEErqEfcqf9hG4yNdQGu2mTQ8vd/0iTS5hZFULH7BEybDEDp2sw="
+ }
+}

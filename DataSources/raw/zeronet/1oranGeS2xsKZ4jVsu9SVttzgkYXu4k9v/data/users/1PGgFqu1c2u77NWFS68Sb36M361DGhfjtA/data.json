@@ -1,0 +1,55 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 1,
+	"next_follow_id": 6,
+	"avatar": "generate",
+	"user_name": "USC",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Just another 0Net user!",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1482044855,
+			"body": "Hello world!"
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1482045110
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1PGgFqu1c2u77NWFS68Sb36M361DGhfjtA",
+			"user_name": "USC",
+			"date_added": 1482045237
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17pnj2wEu5qFeRtQErmLVtCBvYuocGum82",
+			"user_name": "Xeers2",
+			"date_added": 1482045475
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1482045499
+		},
+		{
+			"follow_id": 5,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN",
+			"user_name": "Cyborg Warrior",
+			"date_added": 1482045511
+		}
+	]
+}

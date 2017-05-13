@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HFnRIU1QIybYWYlcVxxJvpdZ72llKZT5PuGHvuFPfPqEvowYiZatIOaTY5czZCC2nyDoCaM+qkhvcvPJ6Ih091U=",
+ "cert_user_id": "platz@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "c8dce120f7f393d44103fbdf65cc725b0983873e6a71cfeefa101b91a5d2e890",
+   "size": 528
+  }
+ },
+ "inner_path": "data/users/132wSW9zX11F6aVLwJyxnp2bhEXRhZ4auy/content.json",
+ "modified": 1482060264.502903,
+ "signs": {
+  "132wSW9zX11F6aVLwJyxnp2bhEXRhZ4auy": "G9fVscqH18Gx3zgP61spo4pa6u7Jt8qHU+Sj+jtHBk/GJZikwmxST4Ewx+q+/p042lOHLjp355inHCOo415degM="
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G0nhmDesTHlHrJ4guEy81dlU71FG+i23kAVjC4YXt2R1MeFxw3yIVFUbAWovSUnr13v9HnFDfsFY5YzyletwC5Q=",
+ "cert_user_id": "kindlyfire@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "2bb73460cec4ce6918e4049797e44ad510922dc59dd5fd24fcd9cea9500b410c",
+   "size": 1614
+  },
+  "data.json": {
+   "sha512": "5a816697848075770f1d53c15cb806dbe624fa09bd5451161f757d54c6bd8db6",
+   "size": 4147
+  }
+ },
+ "inner_path": "data/users/1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx/content.json",
+ "modified": 1481982512.227551,
+ "signs": {
+  "1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": "HJtUB787Ht175vM8MfXpbGxTQzILE2AINATR1xHD6zS09BVvsr0F44H7JIj7xsuwgw8wXeBpGteWjNRhWd9JlW0="
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HON1cCnhh263jxG0pOa49hcJtWnQKzsJf6kgVMIWZ7WCNnTaFHCy+ylZrUDIGHHUAINGwpmx6HpTZL+2IWNyga4=",
+ "cert_user_id": "herova@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "617a1b70c680b9f2b4c515ea512ab8e11ecb2679795de0b03770167b7f39efbc",
+   "size": 2413
+  }
+ },
+ "files_optional": {
+  "1486116630.jpg": {
+   "sha512": "8a5b83ade86c456358d06942807a0a806b40006347a89b2cea358ef9c15e8428",
+   "size": 43002
+  },
+  "1486190921.jpg": {
+   "sha512": "d3b7e1a6eaa7c888cde4443b2b2593bc5f58c0410088d53050af98d448a05569",
+   "size": 47940
+  },
+  "1486194635.jpg": {
+   "sha512": "fe5efd962f259e7f7f5d1f372478526bb7b37e6c44791a01f7275dbb3597174d",
+   "size": 62568
+  }
+ },
+ "inner_path": "data/users/1846J4LLoJ5MuC4dW3WF73wv3NH6SMCP2H/content.json",
+ "modified": 1486195031,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1846J4LLoJ5MuC4dW3WF73wv3NH6SMCP2H": "HEYzhpY/3GSifIkqECvLYnze1P2eQP5TTZrKaDyVbhHvJj8vCCg3fsUW/o8W/CjiRd9BDPcHbvyT1HnakaFqi3Y="
+ }
+}

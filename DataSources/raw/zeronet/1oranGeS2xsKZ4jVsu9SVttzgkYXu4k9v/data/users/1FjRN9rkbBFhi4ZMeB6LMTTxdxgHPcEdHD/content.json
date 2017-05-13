@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HFiT8ChArYAJ8ERjKWf3hq2ntBpPRo0pC3aOoXYH76TXMDmeLD+81o6iifjRj/rJiEdyGJrI7Jk7Jxfivz//P+s=",
+ "cert_user_id": "boogiepop@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "11adef8fda45e4af13836debc751006dbf0752699eac17109416154dfed4a0fa",
+   "size": 1738
+  },
+  "data.json": {
+   "sha512": "1d5c2454992308a6633cc83abc49a0654083bf8556def81882fbc04da6c72e72",
+   "size": 723
+  }
+ },
+ "inner_path": "data/users/1FjRN9rkbBFhi4ZMeB6LMTTxdxgHPcEdHD/content.json",
+ "modified": 1487119550,
+ "signs": {
+  "1FjRN9rkbBFhi4ZMeB6LMTTxdxgHPcEdHD": "HAPrh7qdA+XP4DSm3f+L47A94MsamDzFS6BFfwN0gBoao9gUpfuXL/WHyj2DVRL7u4BlBIrhIGkw8fzoVfdhww0="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "Gz8MGBhjysZXH0zvi0rzVN1qKj8tk7GzsKxs1FwZAY+4BJZ98K9VfW2MVvV9aaN0ntJQqbvvq6g6Nac0v41WY+U=",
+ "cert_user_id": "perfume@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "e41ddcd2f7708e232ef0f6cd98299758e2374a9079eaff4546a1ad5c9088b154",
+   "size": 234
+  }
+ },
+ "inner_path": "data/users/1D45bPJBJPdt4RdGfZ1r41rGRDk6xXRjJ2/content.json",
+ "modified": 1493404220,
+ "signs": {
+  "1D45bPJBJPdt4RdGfZ1r41rGRDk6xXRjJ2": "G0fkEHUFOGRXVRmekx0RG/I5GozLbSjwhz+iijK1x0U5HmMd82dQjIZDebeBeVcHpCOV6roptpgfLntUkcIT0e4="
+ }
+}

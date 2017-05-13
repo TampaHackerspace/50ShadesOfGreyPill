@@ -1,0 +1,382 @@
+{
+	"next_post_id": 28,
+	"next_comment_id": 36,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Xiha",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "新 ZeroNet 用户",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1490026121,
+			"body": "你好 ZeroMe!"
+		},
+		{
+			"post_id": 1490161418,
+			"body": "http://127.0.0.1:43110/121LNqhY74JWBgtsJW6KEa2U8p3q1Rk12e/__example-player__.html\n这是视频 艾未未。。。  用了最新的zeromux 。。。支持在firefox 边下载边播放。。 从 \n0.dat 按着顺序 1.dat 一直往下下载。。。",
+			"date_added": 1490161416
+		},
+		{
+			"post_id": 1490252765,
+			"body": "我从新在草榴发的关于zeronet的帖子。。。  http://t66y.com/htm_data/7/1703/2316445.html",
+			"date_added": 1490252762
+		},
+		{
+			"post_id": 1490511678,
+			"body": "  我用的 联通内网。。。   没有公网ip   。。。  做了一个 200多m的视频 想上传到我的   搬挖工vps上。。。 我直接用 xftp上传上去了。。。。   zeronet 连不上啊。。传一点点就停了。。。用节点。。传了140m也停了。。我去",
+			"date_added": 1490511674
+		},
+		{
+			"post_id": 1491221001,
+			"body": "天气一人  蚊子也来了 讨厌\n",
+			"date_added": 1491220996
+		},
+		{
+			"post_id": 1491221211,
+			"body": "OrangeHub 作为 zeroMe默认的Hub  新用户一样都会选择这个Hub 。。。。加入这个Hub。。。   所有我一直在用这个Hub。。。方便和新用户沟通",
+			"date_added": 1491221205
+		},
+		{
+			"post_id": 1491528151,
+			"body": "我想 建个站点   在这个站点 每个 用户用 zeroid登录进来  可以设置系统管理员 会员 游客 等等角色。。。。  用什么好 ",
+			"date_added": 1491528144
+		},
+		{
+			"post_id": 1491539246,
+			"body": "现在 新用户都在 这个hub里面 哈哈 http://127.0.0.1:43110/1White24UrrwQrD86o6Vrc1apgZ1x1o51/",
+			"date_added": 1491539238
+		},
+		{
+			"post_id": 1491540413,
+			"body": "zeronet 的作者都到纽约排练演讲了。。。还取消了。。。折腾人玩呢？",
+			"date_added": 1491540404
+		},
+		{
+			"post_id": 1492180036,
+			"body": " 视频 名称 艾未未 。。。可以在firefox 边下边看 又可以在chrome下载好了可以播放 http://127.0.0.1:43110/121LNqhY74JWBgtsJW6KEa2U8p3q1Rk12e/files/aiueo-fixed.mp4/player.html?type=video/mp4&codecs=avc1.4d401f,mp4a.40.2&json=files/file.json&moov=files/moov_box.dat",
+			"date_added": 1492180026
+		},
+		{
+			"post_id": 1492208315,
+			"body": "How to put the video in the site can be seen under the firefox side can also be downloaded in the chrome can play\nturn on\nhttp://127.0.0.1:43110/17vUgpdVUpN4yWeMJJtid7AAeQfLahHtXH/loader/player.html?type=video/mp4&codecs=avc1.640028,mp4a.40.2&json=files/3b423693_antisamsung.mp4/file.json&moov=files/3b423693_antisamsung.mp4/moov_box.dat&poster=files/3b423693_antisamsung.mp4/poster.png  \nUnder its site\nAnd then go to your zeronet installation directory to find this address\n\\ ZeroNet \\ data \\ 17vUgpdVUpN4yWeMJJtid7AAeQfLahHtXH\nClose zeronet to disconnect the network\nPut your own site in zeronet date Bitbox address folder open\nSimilar to the above folder\nPut something in your own site folder to delete something in this folder\n\\ ZeroNet \\ data \\ 17vUgpdVUpN4yWeMJJtid7AAeQfLahHtXH are copied to your own site folder\nSignature and then add new post right corner of the 0 to the right drag the following check this is my site\nThen download the python software\nHttps://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi\ninstallation. The\nThen download zeromux zip\nDownload the latest version of https://github.com/MuxZeroNet/ZeroMux/releases here\nUnzip the wizard.py\nIn the http://127.0.0.1:18905 upload mp4 file. The\nAfter the success\n\nCopy the x.mp4 folder to the \\ ZeroMux \\ loader \\ files under zeromux's unpack directory.\nIn your site folder in the file folder\nThe x.mp4 folder from all the 0.dat to 1.dat 2.dat and other items are cut to the parent of its higher level \\ loader folder\n\nThen start zeronet first do not open the network connection\nin\nYou have made your own video files\nFiles / metadata.json\nIncluding\n{\"CodecString\": \"video / mp4; codecs = \\\" avc1.6XXXXX, mp4a.4XXX \\ \"\", \"format\": \"mp4\"}\nEdit your post content\nAdd http://127.0.0.1:43110/17vUgpdVUpN4yWeMJJtid7AAeQfLahHtXH/loader/player.html?type=video/mp4&codecs=avc1.640028,mp4a.40.2&json=files/3b423693_antisamsung.mp4/file.json&moov=files/3b423693_antisamsung.mp4/ Moov_box.dat & poster = files / 3b423693_antisamsung.mp4 / poster.png\n\nPut & codecs = avc1.640028, mp4a.40.2 &\nReplace it with your own codecs\n\nReplace this code with 3b423693_antisamsung.mp4 in your own video file name\n\nThen save the signature\nOpen the network connection\nReboot under zeronet\nThere is a connection to release\nDid not succeed 10 minutes and then released. The The\nSignature success in closing zeronet\nDid not restart again\nAfter the success of someone else's node to visit under your site to play under",
+			"date_added": 1492208304
+		},
+		{
+			"post_id": 1492348943,
+			"body": "https://proxy.th3nd.com/121LNqhY74JWBgtsJW6KEa2U8p3q1Rk12e/?type=video/mp4&?Post:20:%E8%A7%86%E9%A2%91+%E8%89%BE%E6%9C%AA%E6%9C%AA&codecs=avc1.4d401f,mp4a.40.2&json=files/file.json&moov=files/moov_box.dat   zeronet上的视频。。。。\n\n\n\n本地可能没同步过去 http://127.0.0.1:43110/121LNqhY74JWBgtsJW6KEa2U8p3q1Rk12e/?type=video/mp4&?Post:20:%E8%A7%86%E9%A2%91+%E8%89%BE%E6%9C%AA%E6%9C%AA&codecs=avc1.4d401f,mp4a.40.2&json=files/file.json&moov=files/moov_box.dat",
+			"date_added": 1492348931
+		},
+		{
+			"post_id": 1492379048,
+			"body": "我昨天想 让 在zeronet 看视频    在线视频下面直接就可以有回复框。。。。  然后 我直接把播放所需要的 js css  ，，都 复制到 类似呱呱啦 这个这站。。。 把index.html 中的 播放<div>替换了。。。  原本的播放元素的id 搜出来 都删了。。。zerobolg 原来是  通过 ?post 有值就显示回复框的。。。 然后把播放超链接加上了 ?post这个参数。，。就成了这样  视频 艾未未 。。 https://proxy.th3nd.com/121LNqhY74JWBgtsJW6KEa2U8p3q1Rk12e/?type=video/mp4&?Post:20:%E8%A7%86%E9%A2%91+%E8%89%BE%E6%9C%AA%E6%9C%AA&codecs=avc1.4d401f,mp4a.40.2&json=files/file.json&moov=files/moov_box.dat",
+			"date_added": 1492379035
+		},
+		{
+			"post_id": 1492395950,
+			"body": "我刚刚在zerome.io下载的win版。。。  注册了   打开zerome 出现这样的错误。。我的新号也不能在zerome发帖了 是 为什么？ \n\nmerged-ZeroMe/C:/data/users/Users/h/Desktop/ZeroNet-win-dist (1)/ZeroNet-win-dist/data/1MeFqFfFFGQfa1J3gJyYYUvb5Lksczq7nH/merged-ZeroMe/1White24UrrwQrD86o6Vrc1apgZ1x1o51/1DSD99DzHz7quJaLaeJZbgupiHuiTaHvtT/1492392813.jpg (ZeroMe/C:/data/users/Users/h/Desktop/ZeroNet-win-dist (1)/ZeroNet-win-dist/data not in [u'ZeroMe'])\nUiWebsocket.py line 105 > UiWebsocket.py line 214 > MergerSitePlugin.py line 157 > MergerSitePlugin.py line 127 > MergerSitePlugin.py line 43\n",
+			"date_added": 1492395936,
+			"meta": "{\"img\":\"900,506,eeeeffdddddfccfddefffbbbcccaaaabb,00100000021113410500110610211110016121111000160011778997AA77\"}"
+		},
+		{
+			"post_id": 1492413877,
+			"body": "http://127.0.0.1:43110/Board.ZeroNetwork.bit/  从这里就可以看出来 zeronet 对新来的人 体验很不好。。。  加入zero me 要 点很多下 很麻烦。。。 能不能把zerome 什么授权站点直接做好在安装的时候。。。进来直接注册 ",
+			"date_added": 1492413862
+		},
+		{
+			"post_id": 1492518573,
+			"body": "  在  京东买的 轮胎。。做活动花了1元买了线下安装服务。。。这比淘宝强多了",
+			"date_added": 1492518557
+		},
+		{
+			"post_id": 1492796268,
+			"body": "zerome 需要 内容",
+			"date_added": 1492796251
+		},
+		{
+			"post_id": 1493271070,
+			"body": "郭文贵要把令计划请来 召开 全球新闻发布会？",
+			"date_added": 1493271052
+		},
+		{
+			"post_id": 1493274694,
+			"body": "每次翻墙的工具不好用了 我就想来zeronet看看。。。",
+			"date_added": 1493274675
+		},
+		{
+			"post_id": 1494221292,
+			"body": "徐晓冬 心直口快\n",
+			"date_added": 1494221272
+		},
+		{
+			"post_id": 1494233612,
+			"body": " 采访zeronet作者的音频  可以看 翻译成中文的字幕  https://www.youtube.com/watch?v=1oVUY-pQiLU&t=51s  \n\n\n",
+			"date_added": 1494233591,
+			"meta": "{\"img\":\"900,554,ddd888677aaa666444ccd222111bbb999333655544,0000000000012133312404526662770452606287045499AB7704B5CD5777\"}"
+		},
+		{
+			"post_id": 1494335714,
+			"body": "希望越来越多的 P2P 网络程序出现 ",
+			"date_added": 1494335692
+		},
+		{
+			"post_id": 1494336162,
+			"body": "zeronet 作者说 大约有6000左右的用户。。。",
+			"date_added": 1494336139
+		},
+		{
+			"post_id": 1494477090,
+			"body": "马上要到  5月 35日了。。翻墙考试的日子到了\n",
+			"date_added": 1494477066
+		},
+		{
+			"post_id": 1494564918,
+			"body": "最近的  热点  黄艳   潘石屹  。。。。。。微博上好逗",
+			"date_added": 1494564893
+		},
+		{
+			"post_id": 1494565146,
+			"body": "郭文贵的 推特页面 被DDOS。。。 推特把 郭文贵的 推特页面降级到 手机网页版。，。  手机网页版 比 电脑版小很多。。。",
+			"date_added": 1494565120
+		},
+		{
+			"post_id": 1494571359,
+			"body": "去健身房玩了下  感觉还是不错的， 设备都是进口的 简介说  投资400w开的， 还有 散打擂台 也有一个散打教练，还有好几个私教 ，跑步机挺先进 可以设置陡坡的坡度 最高20度， 单车 可以设置 阻力大小  大了就 像骑自行车上山。。。  我太弱了  带着拳套打沙袋，沙袋动都不动一下。。。晚上还有  瑜伽课  肚皮舞可 散打课  体能课  健康饮食课。。。",
+			"date_added": 1494571332
+		}
+	],
+	"post_like": {
+		"13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1491528151": 1491538906,
+		"1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo_1492176060": 1492176704,
+		"18Qs7fci1Znc9TPxWjcHfTiKLAubR6yTcq_1492479322": 1492479315,
+		"17H6uxjm8hQK9Rk79yHkvQYQnTkJNroA3T_1492514380": 1492514440,
+		"13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1492518573": 1492518662,
+		"13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1492413877": 1492796195,
+		"13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1492379048": 1492796203,
+		"13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1492348943": 1492796216,
+		"1N2eNZ5w1dpoBcwatsSuTaeNzHgSLjyrpU_1493400449": 1493470868,
+		"13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1494233612": 1494233668,
+		"1BGf8Eh2uJiPr52hvPUwQgKN5QUjgBM1Ai_1494418334": 1494476491
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "欢迎你哦! 建议你打开[GetAllHub](http://127.0.0.1:43110/0hub.bit)解锁所有hub 就可以接收所有信息了~ 点击这里[ZeroNet网站中文导航](http://127.0.0.1:43110)   不知道wire",
+			"post_uri": "1CqeCjho4Ghz3PpUJqVsNATbhS3ZdbKmjC_1490156187",
+			"date_added": 1490156684
+		},
+		{
+			"comment_id": 2,
+			"body": "这就是、现实",
+			"post_uri": "18siMKLgnhAQP525vKpZ3iX21VwJ5qvXwy_1490232545",
+			"date_added": 1490232564
+		},
+		{
+			"comment_id": 3,
+			"body": "欢迎你哦! 建议你打开[GetAllHub](http://127.0.0.1:43110/0hub.bit)解锁所有hub 就可以接收所有信息了~ 点击这里[ZeroNet网站中文导航](http://127.0.0.1:43110)",
+			"post_uri": "1AM9bEnEiaJdLkpBw3sfFFRSstJH3JTEtq_1",
+			"date_added": 1490252586
+		},
+		{
+			"comment_id": 4,
+			"body": "都乱伦了还分什么公母",
+			"post_uri": "18siMKLgnhAQP525vKpZ3iX21VwJ5qvXwy_1490251951",
+			"date_added": 1490252631
+		},
+		{
+			"comment_id": 5,
+			"body": "欢迎你哦! 建议你打开[GetAllHub](http://127.0.0.1:43110/0hub.bit)解锁所有hub 就可以接收所有信息了~ 点击这里[ZeroNet网站中文导航](http://127.0.0.1:43110)",
+			"post_uri": "15x5AsfNFDmAbxcTxWoGnLF5DB1TCWietr_1",
+			"date_added": 1490252638
+		},
+		{
+			"comment_id": 6,
+			"body": "如何 使用 http://127.0.0.1:43110/NewGFWTalk.bit/?Topic:1_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/+3+9+Update+0cnguide",
+			"post_uri": "1C1aAbU3HHPiupcbEz2XmNjnjq6MT5SbVL_1490476533",
+			"date_added": 1490488833
+		},
+		{
+			"comment_id": 7,
+			"body": "如何建站 http://127.0.0.1:43110/NewGFWTalk.bit/?Topic:18_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/",
+			"post_uri": "1C1aAbU3HHPiupcbEz2XmNjnjq6MT5SbVL_1490476533",
+			"date_added": 1490488852
+		},
+		{
+			"comment_id": 8,
+			"body": "hi",
+			"post_uri": "1HRbSA5DVU2cd8AGvv7vrY94WSkBYHGct1_1490473282",
+			"date_added": 1490488983
+		},
+		{
+			"comment_id": 9,
+			"body": " 升级到 中国大局域网",
+			"post_uri": "1KojMUSr1fBEwwTJAa1kTH9tqmnAhjFwRp_1490586353",
+			"date_added": 1490608102
+		},
+		{
+			"comment_id": 10,
+			"body": "hi 中国",
+			"post_uri": "1tsN2NZ2odhDRXK6gwDHxWV87UH4dk6bx_1490659059",
+			"date_added": 1490659420
+		},
+		{
+			"comment_id": 11,
+			"body": "欢迎新来的小伙伴们~ 建议你们打开[GetAllHub](/0hub.bit)解锁所有hub 就可以接收所有信息了~ 点击这里[ZeroNet网站中文导航](/0cnguide.bit/)",
+			"post_uri": "1tsN2NZ2odhDRXK6gwDHxWV87UH4dk6bx_1490659059",
+			"date_added": 1490659466
+		},
+		{
+			"comment_id": 12,
+			"body": "不是可以自己选语言的啊",
+			"post_uri": "1L8waPPVatA855bU6SjqWs2K1DbwnUZbEp_1490638401",
+			"date_added": 1490659547
+		},
+		{
+			"comment_id": 13,
+			"body": "早",
+			"post_uri": "15gNgw9HLBXK725mxDjWjCLyhaPutED5JZ_1",
+			"date_added": 1491175390
+		},
+		{
+			"comment_id": 14,
+			"body": "你好o",
+			"post_uri": "1KGwaDVQCRddRWSreNPRjkcCXntBe375oZ_1",
+			"date_added": 1491220696
+		},
+		{
+			"comment_id": 15,
+			"body": "@EmperorLove:   推特还是我最常用的。。。。毕竟人多  热闹",
+			"post_uri": "1Q5b6uAJ9VE7KiABDJjWVBa8fG4KdHi5G3_1491207311",
+			"date_added": 1491220952
+		},
+		{
+			"comment_id": 16,
+			"body": "  有 站点放 视频 可以在firefox 边下边看的教程 http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/1Lamw1Fk5CrdjwLNPfkDBJH8C2znRuCcBL/booma@zeroid.bit   ",
+			"post_uri": "15gNgw9HLBXK725mxDjWjCLyhaPutED5JZ_1491191179",
+			"date_added": 1491539069
+		},
+		{
+			"comment_id": 17,
+			"body": "@公共:  你约过？",
+			"post_uri": "1KojMUSr1fBEwwTJAa1kTH9tqmnAhjFwRp_1491536709",
+			"date_added": 1491539310
+		},
+		{
+			"comment_id": 18,
+			"body": "@Niba:  教程呢？",
+			"post_uri": "13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1491528151",
+			"date_added": 1491539444
+		},
+		{
+			"comment_id": 19,
+			"body": "之前一直不成功。。。 今天在 chrome F12  看控制台 的错误信息 知道了  ",
+			"post_uri": "1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo_1492176060",
+			"date_added": 1492177510
+		},
+		{
+			"comment_id": 20,
+			"body": "政治很可怕",
+			"post_uri": "18Qs7fci1Znc9TPxWjcHfTiKLAubR6yTcq_1492243535",
+			"date_added": 1492245030
+		},
+		{
+			"comment_id": 21,
+			"body": "@Iloveyou: http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo/ubuntu1@zeroid.bit  有问题可以问我",
+			"post_uri": "1Ac5XVPgkvQaPFDjiyCTA91cF8SLzmuwAP_1492237409",
+			"date_added": 1492245094
+		},
+		{
+			"comment_id": 22,
+			"body": "@P2P:  点更新了 还是这样。。。",
+			"post_uri": "1Lamw1Fk5CrdjwLNPfkDBJH8C2znRuCcBL_1492347320",
+			"date_added": 1492349124
+		},
+		{
+			"comment_id": 23,
+			"body": "I from china ,  I can see on http://localhost:8080/ipfs/QmNURR5TctPteXKmTaq3oM3FSxYi4jYrFDK1p2R3f9eFKH",
+			"post_uri": "1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1491008239",
+			"date_added": 1492514420
+		},
+		{
+			"comment_id": 24,
+			"body": "@Jdfq:    没写",
+			"post_uri": "1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo_1492867479",
+			"date_added": 1492920867
+		},
+		{
+			"comment_id": 25,
+			"body": "用shadowsocksR吧",
+			"post_uri": "1P15MJjsGY8M8pMyDxnU4vESgJFzHzbLy3_1493119481",
+			"date_added": 1493122926
+		},
+		{
+			"comment_id": 26,
+			"body": "@猫叉酱:  博客没人看",
+			"post_uri": "1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo_1494318138",
+			"date_added": 1494335436
+		},
+		{
+			"comment_id": 27,
+			"body": "@大家一起p2p: 被屏蔽的信息的意思",
+			"post_uri": "1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo_1494318138",
+			"date_added": 1494335450
+		},
+		{
+			"comment_id": 28,
+			"body": "@大家一起p2p: 龙造物主 是什麽意思？",
+			"post_uri": "13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1494335714",
+			"date_added": 1494335949
+		},
+		{
+			"comment_id": 29,
+			"body": "@Cablecat: http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:list-of-zites",
+			"post_uri": "13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1494336162",
+			"date_added": 1494336578
+		},
+		{
+			"comment_id": 30,
+			"body": "@梭子鱼: 可爱的男孩子 不要钱",
+			"post_uri": "1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1494449908",
+			"date_added": 1494476421
+		},
+		{
+			"comment_id": 31,
+			"body": "@梭子鱼: 图中是 可爱的男孩子",
+			"post_uri": "1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1494449908",
+			"date_added": 1494477088
+		},
+		{
+			"comment_id": 32,
+			"body": "@Cyan: 谷歌 徐晓冬",
+			"post_uri": "13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1494221292",
+			"date_added": 1494479423
+		},
+		{
+			"comment_id": 33,
+			"body": "@大家一起p2p:   微博也就这点好玩了",
+			"post_uri": "13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1494564918",
+			"date_added": 1494570025
+		},
+		{
+			"comment_id": 34,
+			"body": "@P2P: 没说过  这是大家的猜测",
+			"post_uri": "13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1494565146",
+			"date_added": 1494574522
+		},
+		{
+			"comment_id": 35,
+			"body": "@梭子鱼: 我去微博都是 看 汽车自媒体的",
+			"post_uri": "13bLL5jEfUBqzFuScgrFujYyUkehuLFWnd_1494564918",
+			"date_added": 1494574549
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1ABFCaadiEa3bFNzN3RcCZSsviqMNTbz3m",
+			"auth_address": "17vKbxL13KnzGATstqawXSG2oiQygmdkcX",
+			"user_name": "ZeroNet",
+			"date_added": 1492923178
+		}
+	]
+}

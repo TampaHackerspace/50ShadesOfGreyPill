@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HC9gue2iGAzncbCwSgBZY623jmHqegjazoGKQk3F9YmfbgMpBMnOlh4H6PuYf4ycn1Y1ySAIC7enBlMRa4MHcs8=",
+ "cert_user_id": "royleech@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "9e107c6d60040815a58c2caf52dbeac55bbeef8133b3dbcbd2d3e80ed1120e39",
+   "size": 714
+  }
+ },
+ "files_optional": {
+  "1480834514.jpg": {
+   "sha512": "aaf8083cadb7e8e2c0f189e42e2a0ce1e93d41ef18a1e0841b7aaf8f23dcc61e",
+   "size": 61499
+  }
+ },
+ "inner_path": "data/users/18f8M21hy3qdzWEojPQtq4N5sq8PZBEtL5/content.json",
+ "modified": 1480834513.006344,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "18f8M21hy3qdzWEojPQtq4N5sq8PZBEtL5": "HJOQTZotDJTFrKgY0hsqR55iXpVcKTddoM+rjY/GFv9PDTsjZ7Fmc9a5VORnWBVwY4jgaBRGcDU9LwKZzbsrQCs="
+ }
+}

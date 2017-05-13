@@ -1,0 +1,133 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Anonymous Login",
+			"body": "# For zeronet users:\nAdd this to your 'users.json'\n```\n      \"zeroid.bit\": {\n        \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n        \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\", \n        \"auth_type\": \"web\", \n        \"auth_user_name\": \"anonymouslogin\", \n        \"cert_sign\": \"G2Vic5dDAe4DEFnXPisWahbEKjPpTrT5T01UX/ZOgS5CECFcsqiJ589jfHRamnetcwH5423GL58gb4xfXq8yknQ=\"\n      }\n```\nor enable the multiuser plugin and use this as your master seed\n```\n7d0ae0e2bebafb7d02440979c407896796727e30a5d2c27565ed1d1ea2ba4f87\n```\nthen, go to zeroid.bit to use the 'Anonymous Login' user.\n# For site owners\nIf you want to disable the 'Anonymous Login' user, ban it in your 'content.json'.\n# And this is the full users.json.\n```\n{\n  \"1MX2KbPNTofExJ6FgSQM8MKJN5koE2TfV6\": {\n    \"certs\": {\n      \"zeroid.bit\": {\n        \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n        \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\", \n        \"auth_type\": \"web\", \n        \"auth_user_name\": \"anonymouslogin\", \n        \"cert_sign\": \"G2Vic5dDAe4DEFnXPisWahbEKjPpTrT5T01UX/ZOgS5CECFcsqiJ589jfHRamnetcwH5423GL58gb4xfXq8yknQ=\"\n      }\n    }, \n    \"master_seed\": \"7d0ae0e2bebafb7d02440979c407896796727e30a5d2c27565ed1d1ea2ba4f87\", \n    \"sites\": {\n      \"1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz\": {\n        \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n        \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\"\n      }\n    }\n  }\n}\n```\nHave a nice day!",
+			"added": 1480153543
+		}
+	],
+	"topic_vote": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"2_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw": 1,
+		"1_1FNuZtJdubQVu1Mxs65nBVWKuE84pSsoBG": 1,
+		"1_1HADrnDdgCKmF1pK79SDU8bakqURnmfKe8": 1,
+		"1_125b8FxS36xSSCHkvZEhimvF5KPxjckS7o": 1,
+		"1_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": 1
+	},
+	"next_comment_id": 17,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "Anonymous Login Test",
+				"added": 1480153448
+			},
+			{
+				"comment_id": 2,
+				"body": "> [linkerlin](#comment_3_13Nzuvnhyz7nBJvPoUrdTEFuQTWUdqXAJk): 可以用！It's Cool!\n\n非常感谢帮助测试\n\nThank you for help testing it.",
+				"added": 1480153501
+			},
+			{
+				"comment_id": 11,
+				"body": "> [ilikefreedom](#comment_1_14Rd4c9s6bVM4ySKGRu3k8pQJwSnJeyiyR): site test, check 1 2 3 http://mastersofuniverse.net/to-start\n\nhttp = tor\n\nthat said, cannot tell if parodii or just craze enuff to be a televangelist.",
+				"added": 1494296521
+			}
+		],
+		"2_13bJpDYmLnZMLWy696GAxHA9mdizyZW2PK": [
+			{
+				"comment_id": 3,
+				"body": "> [mi6agent](#comment_8_14YdhMiNAG8LDichYEQvyZZboGL8bSeZEu): Why is that? Do you have something to hide?\n\nAnd to that, I have merely a [link](https://www.privacytools.io/).",
+				"added": 1488929142
+			}
+		],
+		"2_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": [
+			{
+				"comment_id": 4,
+				"body": "> [tun](#comment_11_1FxpcMsoTKTeUoNDRJKzqyLAwXuwVg3zgX): It's empty, though. I also don't like the idea of having to login - I really wish there were more anonymity features with ZeroNet (not that it's always necessary, just would be nice - thinking about how government and powerful agencies could abuse it).\n\nWell, you could use this ID; ZeroMe instructions [here](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1BLueGvui1GdbtsjcKqCf4F67uKfritG49/17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X/1480232276).\n\nThere are caveats involved, though.\n\nUno: Since the private key is available for any and all, anyone can censor, alter or delete your post. Prepare for data ephemerality; some possible countermeasures include posting as Anonymouslogin, then using another, private ID to quote the text verbatim, placing a copy of the anonymous post's data under the control of an uncompromised private key, thus transferring the trust requirement to a possibly-good source. If enough people do it, then consensus will either tip off people or confirm what that particular anon said. Another means is (on ZeroMe, at least) post only as comments and repeat the above procedure, since if a post is deleted on ZeroMe, the comments to which it was a parent are not displayed, but at least not removed. Good luck trying to find it again though.\n\nZwei: Using this login without compromising your private key(s), or accidently posting unseemly content as yourself, is difficult or cumbersome depending on your method of logging in as Anonymouslogin; while it is possible to merge Anonymouslogin into your current ```users.json```, it requires care to ensure that ZeroNet does not accidently override and overwrite your own private key with the Anonymouslogin private key. The safest way would be to shut down ZeroNet's background process, encrypting and moving your original ```users.json``` to a safe place, and placing a prepared, Anonymouslogin-only ```users.json``` in its place, then restarting ZeroNet. If you are interested in merging, follow @Kaffie: 's advice [here](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1NmkVyqBJX6a82YQFYkCNgQpE9AWsmeppp/how+does+zeronet+handle+multiple+ID+s#comment_265_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh), after making an encrypted backup, of course.\n\nSaan: This applies to all content signing, but it bears repeating: ***DO NOT SIGN OR PUBLISH UNTIL ALL CONTENT OF THE ID YOU WISH TO POST HAS BEEN DOWNLOADED TO YOUR CURRENT NODE***. Sign/Publishing your content involves checksumming local copies of the data your ID owns, and then pushing the newly-generated ```content.json``` to other peers, who check the signature of the file and if it checks out, the timestamp against their current copy of the file. Thus, if you don't have it, you will be erased from ZeroNet by nature of how ZeroNet works. Be considerate, you're sharing this ID with multiple people, so don't censor them and they won't censor you. Hopefully.\n\nThis anon may or may not write up an instruction sheet at a later date.",
+				"added": 1490937773
+			},
+			{
+				"comment_id": 5,
+				"body": "> [anonymouslogin](#comment_4_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X): Well, you could use this ID; ZeroMe instructions here.\n> There are caveats involved, though.\n> Uno: Since the private key is available for any and all, anyone can censor, alter or delete your post. Prepare for data ephemerality; some possible countermeasures include posting as Anonymouslogin, then using another, private ID to quote the text verbatim, placing a copy of the anonymous post's data under the control of an uncompromised private key, thus transferring the trust requirement to a possibly-good source. If enough people do it, then consensus will either tip off people or confirm what that particular anon said. Another means is (on ZeroMe, at least) post only as comments and repeat the above procedure, since if a post is deleted on ZeroMe, the comments to which it was a parent are not displayed, but at least not removed. Good luck trying to find it again though.\n> Zwei: Using this login without compromising your private key(s), or accidently posting unseemly content as yourself, is difficult or cumbersome depending on your method of logging in as Anonymouslogin; while it is possible to merge Anonymouslogin into your current users.json, it requires care to ensure that ZeroNet does not accidently override and overwrite your own private key with the Anonymouslogin private key. The safest way would be to shut down ZeroNet's background process, encrypting and moving your original users.json to a safe place, and placing a prepared, Anonymouslogin-only users.json in its place, then restarting ZeroNet. If you are interested in merging, follow @Kaffie: 's advice here, after making an encrypted backup, of course.\n> Saan: This applies to all content signing, but it bears repeating: DO NOT SIGN OR PUBLISH UNTIL ALL CONTENT OF THE ID YOU WISH TO POST HAS BEEN DOWNLOADED TO YOUR CURRENT NODE. Sign/Publishing your content involves checksumming local copies of the data your ID owns, and then pushing the newly-generated content.json to other peers, who check the signature of the file and if it checks out, the timestamp against their current copy of the file. Thus, if you don't have it, you will be erased from ZeroNet by nature of how ZeroNet works. Be considerate, you're sharing this ID with multiple people, so don't censor them and they won't censor you. Hopefully.\n> This anon may or may not write up an instruction sheet at a later date.\n\nOK, I have learned the ways of the anonymous login.\n\nI still don't know how to recompile my local ZeroTalk coffee script into a new `all.js` file to be used on my local...",
+				"added": 1491011930
+			},
+			{
+				"comment_id": 6,
+				"body": "> [bot](#comment_183_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Debug didn't work?\n\nI think the problem here is that I went to ZeroTalk and then copied over my local files in the data dir, then tried signing for those files. I think what I need to do is create a new zite, then copy over my local files - since then my ID does have the rights to sign for those files. I don't have the right to sign for *this* ZeroTalk, which makes sense. :-)\n\nI hadn't realized I need to clone into a new zite to do the dev on it.",
+				"added": 1491221675
+			}
+		],
+		"1_1FNuZtJdubQVu1Mxs65nBVWKuE84pSsoBG": [
+			{
+				"comment_id": 7,
+				"body": "> [nekololi](#comment_36_1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB): zeronet does not have a \"target\" \"demographic\". its a neutral platform for anyone to make use of. \n\nMost people are not comfortable enough with technology to use this forum, and though it's not so much a *target* demographic, it certainly is a limited demographic. As ranxerox said, the technology needs to be easier to use and the interface made more intuitive before the sort of discussion OP wants will be possible.",
+				"added": 1491606695
+			},
+			{
+				"comment_id": 8,
+				"body": "> [nekololi](#comment_37_1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB): what you describe is a social problem that exists everywhere throughout the internet. it cannot be fixed through software. you have to change the way people think about and interact with computer technology.i also cannot imagine how zeronet could be made any easier than it currently is. you plug it in and it works.\n\nUser interfaces most certainly can be made better so that more people will use it or learn it. UI design plays a role in how people conceptualize technology (as well as interact with it, of course). People have a hard time understanding how to install and use ZeroNet. Your view doesn't take into account the average person, who may not even realize their Documents directory is in their home directory, or that there is a difference between a binary file and an application wrapper. It's because a good UI abstracts away those implementation details and just leave behind *a way to use the computer*. ZeroNet's UI doesn't make obvious that it's essentially an alternative to the internet. It took me, a software engineer, a day or so to find that there was a search engine I could use. The information is not surfaced to the user from the start, there is no easy way to show them the path. The identification management is supremely confusing to someone not accustomed to it. On the internet, people are used to logging in with different accounts - having the same account follow around each zite isn't intuitive and will make the user feel like maybe it's all one website. \n\nMy point is that ZeroNet very clearly could be easier to use, especially for the less technically minded. For an engineer, I agree - ZeroNet is pretty easy. It really feels like it plugs in and works - but I am certain giving it to the average person on the street, they will struggle to get it working, let alone using it effectively to participate in social spheres, create their own websites, or find resources they need from it (like recipes or information).",
+				"added": 1491778865
+			}
+		],
+		"1_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": [
+			{
+				"comment_id": 9,
+				"body": "@emo1106: Try Kaffiene or Snifferdog next time: [NSFW](http://127.0.0.1:43110/1Gif7PqWTzVWDQ42Mo7np3zXmGAo3DXc7h/?RedditNsfwGifs)",
+				"added": 1494191585
+			},
+			{
+				"comment_id": 13,
+				"body": "works, thx.",
+				"added": 1494457701
+			}
+		],
+		"2_1PkZ7yY9mWov9ndHGG327hJSAEmfB5jj5": [
+			{
+				"comment_id": 10,
+				"body": "can ne1 spare teh time to post the yt vid linked here? googs rmed it.",
+				"added": 1494295780
+			}
+		],
+		"3_177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD": [
+			{
+				"comment_id": 12,
+				"body": "well, this site hasn't updated since March 21, so looks like people got bored of editing the same site.",
+				"added": 1494302168
+			}
+		],
+		"2_149VTGbqfHkDvZqrsWxSHJ81hqoMNa799J": [
+			{
+				"comment_id": 14,
+				"body": "http://127.0.0.1:43110/1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE",
+				"added": 1494458151
+			}
+		],
+		"1_188bMdEPhk3gH5sWJogu54DXRHwehkpVoc": [
+			{
+				"comment_id": 15,
+				"body": "MovieBlog: http://127.0.0.1:43110/1PBS1bSGmjZqV3mPHDLJ8rokboKq5zztZk/\nPlay: http://127.0.0.1:43110/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp/\nZeroTube: http://127.0.0.1:43110/1FUQPLXHimgCvYHH7v3bJXspJ7bMBUXcEb/\nZeroTorrent: http://127.0.0.1:43110/ZeroTorrent.bit/\n\nor search\nZSearch: http://127.0.0.1:43110/1NnopBFkeLnBUSAwcvxPCizSaqEnHFcEPH/\nCensoredSearch: http://127.0.0.1:43110/censoredsearch.bit/\nZeroName: http://127.0.0.1:43110/1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/",
+				"added": 1494458644
+			},
+			{
+				"comment_id": 16,
+				"body": "more search engines\nKaffiene: http://127.0.0.1:43110/kaffiene.bit\nSnifferdog: http://127.0.0.1:43110/snifferdog.bit/\nBwoi: http://127.0.0.1:43110/1f7FYxZWSZ5YG7Nd8sGsHcWEQgvdnVvQF",
+				"added": 1494459006
+			}
+		]
+	},
+	"comment_vote": {
+		"4_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": 1,
+		"1_1LyJMReywhzrtMYQHvRauRZ7khETPJkdoh": 1,
+		"3_1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b": 1,
+		"36_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"185_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"1_1HADrnDdgCKmF1pK79SDU8bakqURnmfKe8": 1,
+		"13_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": 1,
+		"12_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": 1,
+		"14_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": 1,
+		"15_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": 1,
+		"16_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": 1
+	}
+}

@@ -1,0 +1,128 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "What do you think of ZeroNet so far?",
+			"body": "Do you like it? Will you keep using it? What would you like to see in the future?",
+			"added": 1481425337
+		},
+		{
+			"topic_id": 2,
+			"title": "Comfy talk?",
+			"body": "Is Zero Talk supposed to be a 'news reddit' or 'general talk about everything reddit'.\nCause there's no comfy place for general discussion, We need a general non-politcal / non-political news sticky, so that we can actually have a place for proper chat and nice posts, as opposed to the current flood of /n/, /pol/ and anarchy discussions (it's to be expected but we need a comfy place too).",
+			"added": 1481482498
+		}
+	],
+	"topic_vote": {
+		"2_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": 1,
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_15djDL8TmcrTNVDqc8u8vg7cREZuUx1Rg5": 1
+	},
+	"next_comment_id": 17,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "I can't believe how much we needed a test board for this",
+				"added": 1481423539
+			},
+			{
+				"comment_id": 6,
+				"body": "do emojis work here too? 🍞🍞🍞 \n**is** *there* _formatting_  [of any sort including links?](http://i.imgur.com/2ku5qsP.png)\t\n---\n>Quote or greentext\n `inline code`",
+				"added": 1481510969
+			},
+			{
+				"comment_id": 7,
+				"body": "Keeping up with the previous post, oh god can we break pages using markdown that references css\n<head><style type=\"text/css\"> body {\n    background-color:#DD9A95 ;\n}\n</style></head>",
+				"added": 1481511391
+			},
+			{
+				"comment_id": 8,
+				"body": "aw",
+				"added": 1481511399
+			},
+			{
+				"comment_id": 9,
+				"body": "How much markdown are we allowed in a text post, anyway? Webkit? Are we going to see arguments formatted in HTML?\n\n<style type=\"text/css\">\n.rainbow {\n  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );\n  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );\n  color:transparent;\n  -webkit-background-clip: text;\n  background-clip: text;\n} \n</style>\n\n<span class=\"rainbow\">Rainbows?</span>    \n\n<font color=\"light blue\">Regular old text coloring?</font>\n\nMarkdown images\n![Images?](http://i.imgur.com/1RFf7OM.png)\n\nHTML Images\n<img src=\"http://i.imgur.com/1RFf7OM.png\" style=\"width: 500px;\"/>",
+				"added": 1481511934
+			}
+		],
+		"1_1MxX4JMJ71sfYS1Lo3jL8Ja5u811nySEJJ": [
+			{
+				"comment_id": 2,
+				"body": "I'll just leave this paste from somewhere here, just to get it out there\n>\"More Americans voted for Hillary Clinton.\" \n\nProve they were all Americans. \n\nFor those who are still hinging on the \"Popular vote\" as your main argument, one of the biggest reasons why we see it being seen a illegitimate is the location of the votes. All primary counties that house sanctuary cities with little to no voting laws. \n\nCalifornia even acknowledges that 13% of illegals vote, as they also do not require Social Security Numbers or Driver License Numbers. You can go through the process yourself. \n\ncovr.sos.ca.gov/Home/MainForm \n\nwww.capoliticalreview.com/capoliticalnewsandviews/poll-13-of-illegal-aliens-admit-they-vote/ \n\nthefederalist.com/2016/10/13/voter-fraud-real-heres-proof/ \n\nwww.fairus.org/issue/noncitizens-voting-violations-and-u-s-elections \n\nwww.washingtonpost.com/news/monkey-cage/wp/2014/10/24/could-non-citizens-decide-the-november-election/ \n\ndailysignal.com/2015/06/02/poll-shows-noncitizens-can-shape-elections/ \n\nwww.politico.com/magazine/story/2015/10/illegal-immigrants-could-elect-hillary-clinton-213216 \n\nEven Huff post admitted to it. \n\nwww.huffingtonpost.com/howard-foster/democrats-benefit-from-illegal-immigrants-voting_b_1418523.html \n\nIn California, Hillary Clinton won the state by over 4 million votes, almost twice the Pop Vote Lead, and centered in just a few counties. \n\nAll their party has to go on for the popular vote, is the cities with practically zero voting laws. It's not even just about their being concentrated cities with high populations, its the fact it is so easy to manipulate and pad voting numbers from the voting populations from the lack of voting laws. \n\nThank God some states are now going to make Voting IDs mandatory now thanks to some of the fraud uncovered from the recount.",
+				"added": 1481490664
+			}
+		],
+		"3_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": [
+			{
+				"comment_id": 3,
+				"body": "Okay so Zero Talk udpates on the zero proxy but ZeroME doesn't?",
+				"added": 1481490773
+			},
+			{
+				"comment_id": 4,
+				"body": "Or does zero proxy not transfer into the zero app. There are quite some inconsistencies, but the ID issue does remain.\nUh oh, this is kind of messy.",
+				"added": 1481490893
+			}
+		],
+		"2_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r": [
+			{
+				"comment_id": 5,
+				"body": "ZeroNet is amazing, so far! Absolutely wonderful (and futuristic).\n\nWhen it comes to ZeroME - the normal app server seems to have a few posts that aren't in the proxy server so you might want to look into that. (zeronet.korso.win/Me.ZeroNetwork.bit/). Also you might look into some graphical fixes with the extended text box - http://i.imgur.com/Qyv0Jxn.png - make it white and not just transparent and put it on a higher layer then the thing on the right, as well as make the attack image move with the moved corner.\n\nZeroMail doesn't seem to work for me and it gives me \"1 file update failed\" if i try to update it.\n\nApart from that, good work! Hopefully we'll see more fun sites in the future, too~",
+				"added": 1481510602
+			}
+		],
+		"1_1NZLYRazPPGcshsgPacgfQVBntrBBLuZ3e": [
+			{
+				"comment_id": 10,
+				"body": "The whole, \"future network\" is much more modern and nicer and easier than I imagined it to be.\n\nNext: More interesting websites, a bigger community, a hopeful transition of some normal net websites into here.\n\nHopefully the american media won't diss it like they dissed video games and every potentially controversial topic (calling it there's going to be a whole thing about this and oh my god this is totally just another deep web that's open to the public cause they can't censor it) \n\nand finally a pretty combination of normal websites and zeronet, (like imgur should probably stay normal unless you manage to convert it to self-host your own images and p2p them, and wikipedia is probably not going to transition anytime soon). The best future is this becoming the normal internet, since websites can still be moderated by their admins so we can totally have proper content, while still allowing for freedom cause anyone can host whatever website they want.",
+				"added": 1481512553
+			},
+			{
+				"comment_id": 12,
+				"body": "> [mrm00n](#comment_1_1NZLYRazPPGcshsgPacgfQVBntrBBLuZ3e): Thanks gremious, I actually have my concerns about it becomes something like the normal internet when we talk about regulamentation, all that bullshit and burocracy, but yeah one day would be nice to see this concept expanding horizons and working in other fields of aplication.\n\nYes, I can see why, it is far too easy to post Anything on here without it being censored or removed - a blessing and a curse. Of course, freedom is a major aspect of the 0net.\n\nHowever a bit part of it is going to be the fact that website admins can still monitor and, well, administrate the content of their own websites, and still hire moderators. Chances are, since most people are actually decent human beings, when it comes to major websites like reddit clones and what not, we are going to see standard moderation when it comes to spam or raids and the like while still having freedom of speech (depending on the moderation, which is still a whole new area to explore later in the life of 0net), which will be quite nice. \n\nIt does post some issue when it come to legislation which is why, as I said, I believe the media is going to jump on it - anything that cannot be lawingly censored can easily be shown as `bad`. \n\nI think there are way to govern this if necessary - the whole point is, however, that hopefully, for us as a humanity - it won't be.",
+				"added": 1481523372
+			}
+		],
+		"2_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": [
+			{
+				"comment_id": 11,
+				"body": "> [w1nst0nsreboot](#comment_10_1Gtj7AdXhzMFUVVvFm2ZGCbTFdgNwdtuMn): Definitely agree that there needs to be a more official place where the community can discuss issues in the world, on the ZeroNet platform. It seems that most of the sites on ZeroNet are more \"proof-of-concept\" and thus aren't really that reliable in terms of actual usage.\n> That being said, perhaps your topic will inspire someone to do something a bit more permanent :)\n\nMh, this is just a \"message board\" while we would need a place for world issues as you say, a place for just fun discussion and hobby-talk, etc, proper inter-user interaction.\nWhile most things really are proof of concept here, I think we are starting to see which concepts work and not so far, so perhaps we can slowly start implementing more proper things! :)",
+				"added": 1481513629
+			}
+		],
+		"1_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": [
+			{
+				"comment_id": 13,
+				"body": "> Everything also seems to be set up to use only one identity on all sites. The identity it asked me to post on here is the same I used on ZeroMe and ZeroMail and everywhere else that required an identity (even an anonymous imageboard!) I don't know if I can even make a new one without deleting my entire ZeroNet profile and starting over. It seems I can only be one person on ZeroNet, which is counter to the way people participate on the public internet.\n\nYou can use multiple identities, all you have to do is enable the multiuser plugin and backup the master_seed of your current ID in the users.json file. Then you can login using it or create a new id, back it up too (I have a text file with just my usernames and the seeds for easy copy). To login you just have to go back to zero-hello and click logout>login, pasting the master_seed of whatever account you need. (and quickly pop to ZeroID so that it gives you your username)\n\n>Everything about the UI is hipster millennial garbage though.\nEh, I like it,  but to each their own. I much prefer it to something old and \"techy\" and \"dark\". It's modern and slick. That's about it. \n\n>It's potentially really cool.\nThat's really about it, isn't it? We just have to see where it goes, I suppose.",
+				"added": 1481590559
+			},
+			{
+				"comment_id": 16,
+				"body": "> [nekololi](#comment_2_1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB): That sounds really complicated!\nI mean it is literally just a case of\nRename a folder (to enable the plugin)\ngo logout and make a new ID, that's about it~\nI'm just saying \"back everything up\" like 50 time in that post cause if you don't your ID is lost!\nI'm sure they'll enable it by default once they make it all work just a bit better, after all, this is quite an early state for the software still",
+				"added": 1481685151
+			}
+		],
+		"1_1C1gnFcVv9J9kUjF4odDMRYcEWVPJbbqFp": [
+			{
+				"comment_id": 14,
+				"body": "We have a test board you know",
+				"added": 1481599572
+			}
+		],
+		"1_183waZSH7rC3CMWuh9nSxpUmRVh498pwGQ": [
+			{
+				"comment_id": 15,
+				"body": "Hello",
+				"added": 1481678830
+			}
+		]
+	},
+	"comment_vote": {
+		"50_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS": 1,
+		"10_1Gtj7AdXhzMFUVVvFm2ZGCbTFdgNwdtuMn": 1,
+		"3_1NbAcCeNzA2GJnM1J5UnBDV5KrUdJeTrdi": 1
+	}
+}

@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HGmTkGp128/vT6loaVXflD9pU9NOVqt4iLOrm2bLp9hkFGF/rYMulCshhl+eUjpXcXprUmwYyeMrl0Eggy0/STo=",
+ "cert_user_id": "mpetkowicz@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "68f4974be5223c4e832c0895622780f89c03b6865e0fe7e6754d80f34117ea3f",
+   "size": 1452
+  }
+ },
+ "files_optional": {
+  "1480069724.jpg": {
+   "sha512": "5610606d565772201dc758db281b3569e35dbe469c27c339a805f7e376051f28",
+   "size": 127848
+  }
+ },
+ "inner_path": "data/users/182iiTqaoEkWyTZ5mwDTWCte7s5YJPKSGh/content.json",
+ "modified": 1480071251.974641,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "182iiTqaoEkWyTZ5mwDTWCte7s5YJPKSGh": "HCEfMEk4dr8Hs5wT9/5rjhoowyfO8GILOG/K6MRUVtm2SEr1hBNTCwYAExp93qxYEQVLJgsGwtBTe7D4EJgxiW8="
+ }
+}

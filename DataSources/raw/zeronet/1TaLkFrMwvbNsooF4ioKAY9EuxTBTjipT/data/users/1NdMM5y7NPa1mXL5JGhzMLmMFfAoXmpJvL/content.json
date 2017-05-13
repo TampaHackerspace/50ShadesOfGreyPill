@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HOk07fGIWUsiVcrIh05Mjo/1c8qWltVHrk53bH4VopbbE/21/02FWcCXswbhM07TFwfvdMcJX+LPqHdu4E9Pj3A=",
+ "cert_user_id": "underforge@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "aab1b20ca16f6cd85eb2da9b2937c633539777a978623df00c2110c26a4c72e8",
+   "size": 162
+  }
+ },
+ "inner_path": "data/users/1NdMM5y7NPa1mXL5JGhzMLmMFfAoXmpJvL/content.json",
+ "modified": 1475180100.23,
+ "signs": {
+  "1NdMM5y7NPa1mXL5JGhzMLmMFfAoXmpJvL": "HOe0rZkAatg7RmTq/UrFwCp8nEiigxHgSRdu5b883tUGzylybvR4QtsNfudp3oqvPBjLwTmzggUo0RCByTjn9dQ="
+ }
+}

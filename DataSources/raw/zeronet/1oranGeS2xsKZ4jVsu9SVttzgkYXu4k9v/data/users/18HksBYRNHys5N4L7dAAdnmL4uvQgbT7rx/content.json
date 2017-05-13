@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HDeuflneXiegn+/yxBMCpGXd+C/+6UbkM0r83VSoJ6j22mpW7/aR9513DvnxvNQMqhPk4pz1Q9Gytfrr2slBMj8=",
+ "cert_user_id": "luxferre@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "5a757c1f325b62c1236c08aa1cb762a9c0c34949b684cad54ec5c7f544dbcebe",
+   "size": 1371
+  },
+  "data.json": {
+   "sha512": "33603b64d905fdc512b59b00667050003594e3ae05c0233a450110a2b45b6048",
+   "size": 702
+  }
+ },
+ "files_optional": {
+  "1489833807.jpg": {
+   "sha512": "3848a8a8267c65fc5efae3c5582b5dc3fb0094884c9007fb0ffc95722e22721c",
+   "size": 69117
+  }
+ },
+ "inner_path": "data/users/18HksBYRNHys5N4L7dAAdnmL4uvQgbT7rx/content.json",
+ "modified": 1489833806,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "18HksBYRNHys5N4L7dAAdnmL4uvQgbT7rx": "G2kVzL0WZ+RWoB5n27ZUgal+7zSNl9D10ruHoD5d5x+k9gmj/UBCV7/zityP+qrXh2XYkqGAm1aWXyvzkzOUIFA="
+ }
+}

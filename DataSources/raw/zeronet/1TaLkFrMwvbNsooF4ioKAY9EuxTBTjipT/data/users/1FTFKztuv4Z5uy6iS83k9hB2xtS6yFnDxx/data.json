@@ -1,0 +1,307 @@
+{
+	"next_topic_id": 14,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "zeronet.py: error: too few arguments",
+			"body": "Hey everybody,\n\nI get the following error while trying to run ZeroNet on my server:\n\n```bash\n./ZeroNet.sh --ui_ip <server_ip> --ui_restrict <my_ip>\n\n[...]\n\nzeronet.py: error: too few arguments\n```\n\nAny ideas ?",
+			"added": 1465725793
+		},
+		{
+			"topic_id": 2,
+			"title": "Big Site Feature",
+			"body": "Hi all,\n\nI was thinking about having a special feature in ZeroNet for big sites. Basically, make servers seed big sites and disable seeding from clients. That way, we could have, per example, videos, images, and more hosted on a couple of servers. When there enough servers seeding, let the user choose to seed or not, saving disk space and bandwidth. Everybody *wanting* to seed could still seed, but others are not forced to.\n\nWhen one or two servers are down, automatically re-enable seeding from all clients. There should always be at least X copies of every file available. Like 20 or so.\n\nMaybe add a functionality to the client prioritising connections to servers as well.",
+			"added": 1465742914
+		},
+		{
+			"topic_id": 3,
+			"title": "A ZeroWiki for docs ?",
+			"body": "Wouldn't it be nice to have a zite dedicated to zeronet docs and how-to's ?\n\nWe could re-host the [docs](http://zeronet.readthedocs.io/en/latest/faq/#how-to-make-zeronet-work-with-tor-under-linux) (CN) there as well. (Even if there is a mirror already).\n\nWe could also start to write how-to's, link to known blogs, etc. Have a \"get discovering\" page for sites that are a must (additionally to the ones linked on the home page by default). Everybody will have a chance to contribute.",
+			"added": 1465821865
+		},
+		{
+			"topic_id": 4,
+			"title": "Rehosted an open-source pacman",
+			"body": "Hi, \n\nJust rehosted an open-source pacman game [here](/1EwpsssQGBrC2EZeYvxeQQoQbKNGivwDi4/). The original github link is there too. \n\nI'll try to add a scoreboard to it, and center the canvas.\n\n---\n\nPS: My highscore is 10550",
+			"added": 1465911400
+		},
+		{
+			"topic_id": 5,
+			"title": "ZeroMail not loading all addresses ?",
+			"body": "Hi,\n\nDoesn't ZeroMail load all mail addresses ? I've been trying to send mails to `erkan` and `angristan`, both don't show up (so I can't send them any email). `angristan` showed up only *after* he sent me a mail first. Any way of fixing this ?",
+			"added": 1465998110
+		},
+		{
+			"topic_id": 6,
+			"title": "Music site ?",
+			"body": "Is there any music listening site ?\n\nIf none, would you mind me making one using IPFS to distribute the music ? (would require either the IPFS daemon to run locally, or get music from ipfs.io/ipfs/%hash)",
+			"added": 1466081033
+		},
+		{
+			"topic_id": 7,
+			"title": "Running a ZeroNet proxy",
+			"body": "**HTTPS**:  enabled\n**Sub-domains**: not enabled (certbot doesn't give wildcarts)\n**Url**: https://proxy1.zn.kindlyfire.me\n\nWill probably run some other proxies over time. (2 or 3 more once I free up some servers)",
+			"added": 1466187300
+		},
+		{
+			"topic_id": 8,
+			"title": "Another ZeroProxy",
+			"body": "**HTTPS**:  enabled\n**Sub-domains**: not enabled (certbot doesn't give wildcarts)\n**Url**: https://proxy2.zn.kindlyfire.me\n\nWill probably run some other proxies over time. (1 or 2 more once I free up some servers)\n\nOther proxy by me: https://proxy1.zn.kindlyfire.me\n\nThese proxies run on different servers in different locations (proxy1 DigitalOcean Amsterdam, proxy2 dedicated server owned by me and a friend in France).\n\nAny notes/info needed ? Contact me by ZeroMail : kindlyfire or by mail at me@kindlyfire.me",
+			"added": 1466195687
+		},
+		{
+			"topic_id": 9,
+			"title": "Running a ZeroProxy",
+			"body": "Just wrote a tutorial on how to create a ZeroProxy with HTTPS: [Running a ZeroProxy](/1CyPzHvcu6x8cPwH9e4dsGuoZwGM4LTqi5/?Post:9:Running+a+ZeroProxy)",
+			"added": 1466200736
+		},
+		{
+			"topic_id": 10,
+			"title": "ZeroNet slow startup time",
+			"body": "Hello,\n\nWhen we seed a lot of zites, loading time for ZeroNet (starting it up) gets really long. Some zites take more then 100 seconds to load.\n\nIsn't there something like asynchronous loading ?",
+			"added": 1466343972
+		},
+		{
+			"topic_id": 11,
+			"title": "Storing Zites in different directories",
+			"body": "Hello,\n\nI was asking myself if the ZeroNet client has a feature to fetch zite data from elsewhere then `ZeroNet/data/` ? This would make my life so much easier when making zites, as I could store them in a different directory.\n\nOr I could ln -s.",
+			"added": 1470312596,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 12,
+			"title": "ZeroNet proxy proxy1.zn.kindlyfire.me shutting down.",
+			"body": "Hey,\n\nI can't afford paying for my ZeroNet proxy anymore, so I'm going to shut it down in a couple of hours/days.\n\nIt was nice having one :).",
+			"added": 1486215762
+		},
+		{
+			"topic_id": 13,
+			"title": "ZeroNet, I still live you ! (new ZeroProxy)",
+			"body": "Hey everyone,\n\nSo a while ago I made a ZeroNet proxy but had to shut it down due to financial troubles. Now that I'm ~somewhat~ above that I launched a new ZeroNet proxy, and a Mastodon instance as well.\n\n- ZeroNet proxy: https://zn.maly.io/\n- Mastodon: https://maly.io/\n\nI will soon make an about page explaining what I'm trying to do and what I will do in the feature (I am going to offer instances of Wallabag and FreshRSS, among others). \nYou can donate to me here: https://blockchain.info/address/1CMtLo6SeA1QAy5v7gGKhHKBv6tATojfG5",
+			"added": 1491235117
+		}
+	],
+	"topic_vote": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"20_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"1_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"2_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"4_1EMpuiFM1NLZmAVyoAWnwi8VwiZVV4dcnN": 1,
+		"4_178NSuZP2hH2vHhNX6vsHceh5sjPkDrLiH": 1,
+		"4_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"1_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"1_1LrJ9rZg2Mk2uK8MyPx42iWPEHTLKXzxVn": 1,
+		"1_1BqTArWCTJVYgdCFcHdo8d341gWJg9F93f": 1,
+		"1_15zYrGJKfXo6XXU6rBUsuU3cTgpJkDuQYA": 1,
+		"1_1DCTA8rrSFeKX7CzieU3CYwCjGZ2hYvamb": 1,
+		"13_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1
+	},
+	"next_comment_id": 30,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "> [warlock](#comment_1_18id3A8UHCU9RmkVBeBhsDrnPf27hQXdS1): Do I lose this ID when I shut down zeronet or how does that work?\n\nIt's saved, normally. I think in data/users.json",
+				"added": 1465664230
+			}
+		],
+		"10_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 2,
+				"body": "In my opinion, no.",
+				"added": 1465723697
+			}
+		],
+		"1_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": [
+			{
+				"comment_id": 3,
+				"body": "> [nofish](#comment_678_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): try with --ui_restrict <your_ip> --ui_ip \"*\"\n> (currently the last parameter should not be multi value argument)\n\nThank you ! I made a [post](http://127.0.0.1:43110/1CyPzHvcu6x8cPwH9e4dsGuoZwGM4LTqi5/?Post:6:Make+ZeroNet+run+on+a+server,+safely+) about it.",
+				"added": 1465743378
+			},
+			{
+				"comment_id": 4,
+				"body": "> [nofish](#comment_679_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Nice, another recommended hosting company is https://www.arubacloud.com/ (similar performance as DO + 1GB ram, 2TB transfer for 1EUR/mo) running zeronet nodes since 1year+, never had any problem/downtime, but only EU datacenters.\n\nNice. Although I will stay with DO for now, they kind of *gave* me 250$ of credit.",
+				"added": 1465744549
+			}
+		],
+		"4_1EMpuiFM1NLZmAVyoAWnwi8VwiZVV4dcnN": [
+			{
+				"comment_id": 5,
+				"body": "> [bot](#comment_6_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): I remade it but had to make it easier to play. :PAdded an in-game calculation for the overall game time to verify people are playing. Some extra obfuscation.I like the suggestion @waterrabbit, but the pipe spacing is randomized so it changes each game.It wouldn't overlay with another person's play.\n> http://127.0.0.1:43110/1PANDAML8mLaRKPinGihTj5RkJV15awcjs/\n\nThis is so laggy and still waay to easy to play.",
+				"added": 1465745720
+			}
+		],
+		"2_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": [
+			{
+				"comment_id": 6,
+				"body": "> [nofish](#comment_680_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Currently there is no limit on optional files, later a better solution is planned: you will able to specify max storage (eg. 1 GB) for optional files if this limit is exceed, then the most seeded files will be deleted. After this is implemented we can add support for file splitting, so it will also makes possible to create big files efficiently.\n> Other (probably easier) solution can be adding torrent/webtorrent/storj/ipfs/maidsafe/etc support as a plugin.\n\nPrioritising connections to servers still seems like a good idea.",
+				"added": 1465757268
+			}
+		],
+		"3_1JWy7zt6aDhpnDQ7fmsKUqNu8LzeoT1VRa": [
+			{
+				"comment_id": 7,
+				"body": "Gives me a nice little\n> Not Found\n\n.",
+				"added": 1465821475
+			}
+		],
+		"3_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": [
+			{
+				"comment_id": 8,
+				"body": "> [scrub](#comment_96_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R): Here's a mirror for the ZeroDocs: http://127.0.0.1:43110/17Kom2G5qNDc6NaQwv445h1gFzxkY3ZtZe/\n\n---\n\n> (Even if there is a mirror already).",
+				"added": 1465877855
+			},
+			{
+				"comment_id": 9,
+				"body": "> [testingzeronet12](#comment_26_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): Imagine a ZeroLeaks, like Wikileaks? :)\n\nThat'd be nice :)",
+				"added": 1465877902
+			}
+		],
+		"4_178NSuZP2hH2vHhNX6vsHceh5sjPkDrLiH": [
+			{
+				"comment_id": 10,
+				"body": "Nice ! :D\n\nThanks to you I discovered some cool things :)",
+				"added": 1465877964
+			}
+		],
+		"1_1Nf3S6MDmmypLSiaj9dxHfJU7PaxAmYmPV": [
+			{
+				"comment_id": 11,
+				"body": "Upload the image into the folder storing your sites files. Maybe in a sub directory like `img`.\n\nAfter that, you can add an image using markdown tags: `![image](/link/to/image.ext)`\n\nFor you, this might look like `![Cats](/img/cats.png)`",
+				"added": 1465921449
+			}
+		],
+		"4_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": [
+			{
+				"comment_id": 12,
+				"body": "> [tiger](#comment_4_1HDGK4rrMzuouF8hNnxfMNpWyR8qAtP4HR): Mixed Content: The page at 'https://zero.dnschain.info/1EwpsssQGBrC2EZeYvxeQQoQbKNGivwDi4/' was loaded over HTTPS, but requested an insecure script 'http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'. This request has been blocked; the content must be served over HTTPS.\n\n> [tiger](#comment_3_1HDGK4rrMzuouF8hNnxfMNpWyR8qAtP4HR): It doesn't work over HTTPShttps://zero.dnschain.info/1EwpsssQGBrC2EZeYvxeQQoQbKNGivwDi4/\n\nYour issues should be resolved. It is now usable over HTTPS.\n\nSometimes it will still refuse to load the font, but only if you use a remote server without HTTPS. (locally seems to work though)",
+				"added": 1465926145
+			},
+			{
+				"comment_id": 13,
+				"body": "Thinking about making an entire website based on arcade games.\n\nStarted working on it already !",
+				"added": 1465926182
+			},
+			{
+				"comment_id": 15,
+				"body": "> [zerolife](#comment_5_1DyHtc8AMKrqjEja7Bi8rQ1hfcc3fTwsSw): Download http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js and put it in your site locally, it's ZeroNet...It's in pacman.js' FontLoader function, use local assets please.\n\nI did not choose to use G. Fonts for loading fonts, the games did (they are open-source, not made by me). I will try to make it better :)",
+				"added": 1466051546
+			}
+		],
+		"5_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": [
+			{
+				"comment_id": 14,
+				"body": "> [nofish](#comment_688_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): both names visible for me, try press an update on the zeromail site and check if http://127.0.0.1:43110/1MaiL5gfBM1cyb4a8e3iiL8L5gXmoAJu27/data/users/1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf/content.json file is visible for you\n\nWorks better now ! Thanks.",
+				"added": 1466001538
+			}
+		],
+		"1_1BMrYxwpX4TkivMHPYSAMGcBBr66soRxT4": [
+			{
+				"comment_id": 16,
+				"body": "That probably is the total space used by the site, not the space *you* use, the space everybody uses. The space you *can* use is marked on the right of the \"`sent`\" mailbox.",
+				"added": 1466097251
+			}
+		],
+		"6_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": [
+			{
+				"comment_id": 17,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_114_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): there are sone zites with music in them here\n\nCould you link some ?",
+				"added": 1466164699
+			}
+		],
+		"14_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 18,
+				"body": "Knew about it for a while, then I forgot the name and asked `angristan`.",
+				"added": 1466176133
+			}
+		],
+		"7_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 19,
+				"body": "ZeroNet has a `siteDownload ` sub-command. That could be used with `siteNeedFile` to get all files. After that you can just run the index.html in the sites folder (`ZeroNet/data/%hash`). Maybe run the target's JS using PhantomJS.",
+				"added": 1466181050
+			}
+		],
+		"1_1Hk3VC1SpvpXdhSYFPsQRowJC1mDnWESoX": [
+			{
+				"comment_id": 20,
+				"body": "Personally, I don't like the idea of a shared CDN. These files weight a couple of KB at maximum, and every site having its own JQuery has an advantage: decentralisation. What happens if the owner of a CDN modifies the file ? Everybody using that CDN will be doomed.",
+				"added": 1466244212
+			}
+		],
+		"1_17M2Zwbk1drijqtf94fDyBGm7XucVrYPFC": [
+			{
+				"comment_id": 21,
+				"body": "If you modify a zite's code, you won't be able to seed the files you edited, because it doesn't match what the original author signed. The only way to modify a zite and send it to every peer is to sign it with the zite's private key.",
+				"added": 1466326413
+			},
+			{
+				"comment_id": 22,
+				"body": "> [crq](#comment_10_17M2Zwbk1drijqtf94fDyBGm7XucVrYPFC): Alright, thanks :)How does stuff like posting here work then? it also changes content.\n\nIt doesn't actually change the site's source code itself. When this site's author made the zite, he specified that every user id (mine is kindlyfire@zeroid.bit per example) can have it's own directory. You and the admin are the only persons who can write in that directory. The admin can also specify a maximum size, which is 40K here.\n\nWhen a users opens the zite, ZeroNet will build a database containing everything in every user's directory. That way, if you publish content in your directory, it will get published in everybody's local database. *But*: you can only edit *your own* directory, not the one of somebody else.\n\nHope that clears some things up :) docs need some clearing up on that too.",
+				"added": 1466330524
+			}
+		],
+		"1_1BqTArWCTJVYgdCFcHdo8d341gWJg9F93f": [
+			{
+				"comment_id": 23,
+				"body": "What you describe here are proxies. See on the wiki for a more complete list of proxies, and to know what it is: [Proxies](/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:proxies).\n\nI maintain my own proxies, the first two in the list.",
+				"added": 1466425069
+			}
+		],
+		"10_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": [
+			{
+				"comment_id": 24,
+				"body": "Here are two easy ways to create your own email server:\n\n- https://poste.io\n- http://www.mailcow.email (I use this one)\n\nIf you really don't think you can run your own mail sever, try either ZeroMail (duh) or ProtonMail.",
+				"added": 1469628570
+			}
+		],
+		"1_19RagxAc2n7zYdfbfda2Zc4dRoHRJzyAxo": [
+			{
+				"comment_id": 25,
+				"body": "> [chloe](#comment_8_1LJLVfT9hKRuTHzBKTpse57PGfpwx82myR): Yes. People with money have shown themselves to be contributing and productive members of society. That should earn them the right to speak out. No one wants to hear from spammers and crazy homeless people.\n\nWell, that rough at least but not last. I have no money, I'm not a spammer, nor am I homeless, but I *am* contributing to ZeroNet. On top of that, I'm not the only one.",
+				"added": 1470153359
+			}
+		],
+		"1_1AwNV17STiNUZZ4Z712z2FBf8YyERJ87rE": [
+			{
+				"comment_id": 26,
+				"body": "> [greasp](#comment_3_1KoUjTwdpBbxLtMMDoTgVu6DEmd87BENy6): what is starbound?\n\nA game I don't have.",
+				"added": 1470225753
+			}
+		],
+		"1_1MYfK6tM4vfBJ8SHvbZ8sMH4u6o9mSRPWU": [
+			{
+				"comment_id": 27,
+				"body": "Your link seems dead.",
+				"added": 1470226485
+			}
+		],
+		"8_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 28,
+				"body": "BitMessage and IPFS, that's about it.",
+				"added": 1470227435
+			}
+		],
+		"1_1M4Ab8CUu3byziHVvNXLHmPezC4Lg9hvNJ": [
+			{
+				"comment_id": 29,
+				"body": "To be honest, a meta-proxy is just as vulnerable as a real proxy. (I run https://proxy1.zn.kindlyfire.me )\nIf the meta-proxy goes down, you will have to change all the url's anyway.\n\nEven if you make a zite which stores urls from proxies, there's no way to guarantee that it will stay up. Personally, https://proxy1.zn.kindlyfire.me can run for 1 year, without downtime, without me even connecting to it, and It'll probably stay that way. (I have it monitored every 1 min though -- so I get a notification if something happens)\n\nEdit: since June 12, 9:58 am, it runs without interruption (not even a reboot)",
+				"added": 1470644646
+			}
+		]
+	},
+	"comment_vote": {
+		"1_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"82_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": 1,
+		"678_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"679_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"3_1HDGK4rrMzuouF8hNnxfMNpWyR8qAtP4HR": 1,
+		"4_1HDGK4rrMzuouF8hNnxfMNpWyR8qAtP4HR": 1,
+		"1_1QEQATgkvbThf8f9r6nBRx6HCPZg3yYma8": 1,
+		"1_15vj5UyK6fb1qDXFAcvAZANoG4b9seCe8x": 1,
+		"3_1MYfK6tM4vfBJ8SHvbZ8sMH4u6o9mSRPWU": 1,
+		"29_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1
+	}
+}

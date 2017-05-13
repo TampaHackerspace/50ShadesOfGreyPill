@@ -1,0 +1,63 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Inconsistency when compiling \"all.js\" when updating \".coffee\" files",
+			"body": "I created a test site and when I update a \".coffee\" file the zeronet.py engine, in debug mode, does not update the \"all.js\" file with the new modifications.\nI have to manually delete the \"all.js\" file for it to generate again, however, it still sometimes does not compile \"all.js\" with \".coffee\" updates.\nI have to stop zeronet.py and restart it so that it manages the \"all.js\" file with the updates. Even so, it still takes a lot for him to generate.\nWould the problem be some cache, or would I have to use another command?\nIf anyone can help me, thank you.",
+			"added": 1479761378
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 11,
+	"comment": {
+		"1_1Ehiyjqsa14WZrfsmRq54cA1jBXuhcTyjE": [
+			{
+				"comment_id": 1,
+				"body": "> [nofish](#comment_818_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): yes, to disable browser cache you have to open js console (F12) and check disable caching on Network tab (and keep it open)\n\nI had tried to disable the cache, but the problem persisted. Does the browser cache influence the compilation of the \"all.js\" file when an update occurs?",
+				"added": 1479764194
+			},
+			{
+				"comment_id": 3,
+				"body": "> [nofish](#comment_818_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): yes, to disable browser cache you have to open js console (F12) and check disable caching on Network tab (and keep it open)\n\nOFF TOPIC: Is there any typescript library for zeronet?",
+				"added": 1479764425
+			},
+			{
+				"comment_id": 4,
+				"body": "> [nofish](#comment_819_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yes, it's compiled when your browser requests it. (checks if any file's modification date is newer than all.js)I don't know about ts version of zeroframe helper.\n'\nI was able to disable the browser cache ... It was I who had done the wrong procedure, sorry. \n'\nWhat are the \".coffee\" core libraries that the developer needs to develop dynamic Web sites? [In addition to \"zeroframe.coffee\" only].",
+				"added": 1479768366
+			},
+			{
+				"comment_id": 5,
+				"body": "> [nofish](#comment_820_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): ZeroFrame.coffe is the only you need to use the API, the other libraries are up to you\n\nThank you for the informations. Just one more thing: to manipulate database files \".db\" (sqlite) you can only use \"zeroframe.coffee\" or you can use another arbitrary library, example: sequelizejs?",
+				"added": 1479770776
+			},
+			{
+				"comment_id": 6,
+				"body": "> [nofish](#comment_821_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): For query I think it could be possible to use ORM libraries, but not for inserting, because in ZeroNet it's done via .json file writing.\n\nI think I understand, because every time a registry is modified / added to the database, the \"data.json\" file must be signed with the new hash of the \"content.json\" file, and then be commited in \"database.db \". Did I get it right?",
+				"added": 1479772629
+			},
+			{
+				"comment_id": 7,
+				"body": "> [nofish](#comment_822_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yes, there is a tutorial @ zeroblog, that covers database insert/query/multi-user sites, that's the best way to start developing for zeronet.\n\nI followed this tutorial. In reference to this tutorial, what I did not understand right was the need to use \"data.json\" since \"database.db\" already exists. Is it mandatory to use \"data.json\"?",
+				"added": 1479773192
+			},
+			{
+				"comment_id": 9,
+				"body": "> [nofish](#comment_823_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): That's the only way to write to the database, you can't use INSERT/UPDATE/DELETE sql commands, only SELECT allowed.\n\nIf \"database.db\" exists what is the need for \"data.json\"?",
+				"added": 1479774437
+			},
+			{
+				"comment_id": 10,
+				"body": "> [nofish](#comment_824_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):\n\nThanks for the information and patience.",
+				"added": 1479776089
+			}
+		]
+	},
+	"comment_vote": {
+		"818_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"821_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"823_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"824_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G95Dbqkwus/1Jl83KGb7vBfIO8xpfEGsC2NlfiJdgnyvBRwNgDMVyj9P1wy9Gp/3dOC3014VZXxKGOthxCfxAuU=",
+ "cert_user_id": "moneymasters@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d3346019bbd35624204b7192c7e4b333ef1f790768c2763091b8f923440c3ead",
+   "size": 2597
+  }
+ },
+ "inner_path": "data/users/1E1fsmFRrsPsfiYVbXfifNMcaWwuk8iFcp/content.json",
+ "modified": 1490359816.097342,
+ "signs": {
+  "1E1fsmFRrsPsfiYVbXfifNMcaWwuk8iFcp": "G/5rjPlOKCmYh9/btWRIvQ7U2Ez7RuO/26eKmjA7zQ32vgPW0Jo6+YJRFjn02/1EDQiMWuIoEq7RRvbpmzXiTEw="
+ }
+}

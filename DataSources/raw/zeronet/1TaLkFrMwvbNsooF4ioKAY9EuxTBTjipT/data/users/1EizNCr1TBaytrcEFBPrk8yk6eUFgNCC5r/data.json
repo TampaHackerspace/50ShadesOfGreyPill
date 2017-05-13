@@ -1,0 +1,60 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "SQL and Relational Databases",
+			"body": "A place to talk about Relational Databases",
+			"added": 1468860614
+		}
+	],
+	"topic_vote": {
+		"1_1EizNCr1TBaytrcEFBPrk8yk6eUFgNCC5r": 1
+	},
+	"next_comment_id": 7,
+	"comment": {
+		"7_16tWPYFLbad3R8iGcMuetyiwC2q5qXp45T": [
+			{
+				"comment_id": 1,
+				"body": "I don't think they can shut it down completely. Maybe they can take down the default trackers that ZeroNet is using but you can always use other trackers.",
+				"added": 1462978381
+			}
+		],
+		"1_1EizNCr1TBaytrcEFBPrk8yk6eUFgNCC5r": [
+			{
+				"comment_id": 2,
+				"body": "What would be a sensible users/roles schema?\n\nI'm thinking about having a users table, a roles table and a users_roles table. The roles table should have all interactions as a tinyint (like can_block_users, can_remove_posts etc).\n\nWhat do you think?",
+				"added": 1468861164
+			}
+		],
+		"4_1Ci5Y4TxZwY1SQhvQR7Ttbdyyai4WRV5TU": [
+			{
+				"comment_id": 3,
+				"body": "Arch is a half-assed OS. I'm surprised that they included GNU coreutils in the official repo.",
+				"added": 1468862323
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 4,
+				"body": "> [scrub](#comment_120_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R): Hopefully someone can create an automated system which will give users an extra X amount of data each day if their account is older than X amount of days/weeks and if they've nearly used it all (otherwise, do nothing). This should keep the spammers away, but also keep the ordinary users going.\n\nThis needs somebody with access to the private key to interfere so it would only be possible for as long as the owner(s) care about the zite.",
+				"added": 1473472931
+			}
+		],
+		"3_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": [
+			{
+				"comment_id": 5,
+				"body": "The dynamic aspect in zites is only possible because of either javascript (client side computation) or a server that the zite can push/pull data from. If you go a layer deeper you could even have a server managing the zite (that means the server has the zite's private key). To take down a service in zeronet, you either have to hit the owner (anyone who has the private key for the zite) or hit the server the zite interacts with.  \nYou can't assign tasks to the peers. The peers can only run javascript. You could feed the result of running some algorithm in js back to zeronet but this is highly unreliable.",
+				"added": 1473478961
+			},
+			{
+				"comment_id": 6,
+				"body": "> [talnicrom](#comment_26_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa): What do you mean by unreliable?  Are you worried about dishonest users?  There are ways to deal with dishonest users.\n\nUnreliable in the sense that even if your browser can execute javascript from a zite, it can only do it if Zeronet is running, mobile is connected to the internet, browser is currently on the specified zite.\n\nToo many single points of failure to be reliable.",
+				"added": 1473506039
+			}
+		]
+	},
+	"comment_vote": {
+		"2_1EizNCr1TBaytrcEFBPrk8yk6eUFgNCC5r": 1
+	}
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HP3hSD6VJ46XvPfbVhFCzU+gBAknbWMS/4VAPTEX63S4gVJVo7d1kwnoZirVRP1hHVxHAAyvK5csL7JNVyN6Zog=",
+ "cert_user_id": "thescope@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "49d2bf9ae9bdee9374b2b696bc8e22ee3b40aad5df929ae9db6af09e39aa66df",
+   "size": 339
+  }
+ },
+ "inner_path": "data/users/1AGpwktbbXwNtxmxPFLyB18GmJ1JtmPmVs/content.json",
+ "modified": 1487401312,
+ "signs": {
+  "1AGpwktbbXwNtxmxPFLyB18GmJ1JtmPmVs": "G6I84cthyxSh7dZumdmlUNSK+DYiRBp9l7LgZvu6ItJ9w/DI7oVaRbRwiM8dzwINHOHq36LR1xQpEduSO0rbIYw="
+ }
+}

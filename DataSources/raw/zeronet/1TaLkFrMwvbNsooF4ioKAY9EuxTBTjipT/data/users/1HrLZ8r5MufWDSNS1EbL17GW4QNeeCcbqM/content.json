@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G9Xc+/5JPVywvHtLHtvV+8bLR/uSnGKnxNsMXKmRgTj90ZqQdsVxXihWM6UXJrKHyECQAV3kkin6EzcOZxJEQqA=",
+ "cert_user_id": "greentea@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "56a08bb6d46350e4f3950e410510a0bfc4e6c716277612c33473d1a5e7aeaab6",
+   "size": 1334
+  }
+ },
+ "inner_path": "data/users/1HrLZ8r5MufWDSNS1EbL17GW4QNeeCcbqM/content.json",
+ "modified": 1493153998,
+ "signs": {
+  "1HrLZ8r5MufWDSNS1EbL17GW4QNeeCcbqM": "G6JB+q6GRdynkV7XkuFOFmaO2+05Kq3BJX/21AxwroF/Yt9Ry/S/vJOVih+Pe/hxh4nafNdKmsTw0GnSvkVO3qg="
+ }
+}

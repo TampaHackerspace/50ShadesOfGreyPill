@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HK7yudlMuN0+zI2LX8Tmw1hk3UKGtoHYj8gw5xm+zaeR+aqepdq/JDRRsYuOFF89F3zqyD4TMPS8cmbMMvOPTOw=",
+ "cert_user_id": "eltaco@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "6550818d7df27671dbce112d918f08429f7dec3583a1f5a0152cb8199fe7a6f7",
+   "size": 387
+  }
+ },
+ "inner_path": "data/users/1EqKr92JBuiwZmjVMZyucXynj4RU9tyJGC/content.json",
+ "modified": 1482384172.001621,
+ "signs": {
+  "1EqKr92JBuiwZmjVMZyucXynj4RU9tyJGC": "GzEk2zafyQS2+aKjIGWIRhYCC6TST2rEPGmzvLxgisr9JpQ4aXDj6SnHPRpgwjonbMvlijy5ncp6lep1YuKsSIs="
+ }
+}

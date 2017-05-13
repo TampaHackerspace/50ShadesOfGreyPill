@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HIe1O8P5mg/S46krdWr/KYA3+7lAZjbLIodk7W6fjQbbUEk6HnnQkmn/O8dl4Bb0quauBWnM4Tg1OqjUMG46cIM=",
+ "cert_user_id": "drlane@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "0cfce266dc509c7ea73a4ee39ae50dbe07ac7dbcf8c95df856bcf107ff7827b2",
+   "size": 1247
+  }
+ },
+ "inner_path": "data/users/15EAH8W3qs47ZJ9wsxEakKtwZ238VFeYGt/content.json",
+ "modified": 1487449104,
+ "signs": {
+  "15EAH8W3qs47ZJ9wsxEakKtwZ238VFeYGt": "HDXaWypu6RuRqwkB7T7k6/0SED8v0dkFPL/BT+YgmqqrUhCLYvGNff4TXFDaNJe19JDPsc5DYek5NKm11fAftVw="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G4I8tmxSspa+dvQ1najDmrmp+Q13xr52b219M2BP5ylXcimOzNbxf3GpP4CqO/V3iGxHMTSp5VheXzxH1Hy8aFs=",
+ "cert_user_id": "movietime@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ff91e093c6412c24f9a2dc76155ed0fcb6b64e75325b641b06fd804ecdbae72d",
+   "size": 512
+  }
+ },
+ "inner_path": "data/users/1132HJL8Qzuhxy29fHc4g26yC1yPTmhprb/content.json",
+ "modified": 1489404928,
+ "signs": {
+  "1132HJL8Qzuhxy29fHc4g26yC1yPTmhprb": "G2r2f4Mm9xiIuf/w4ZkCXQuEiIF9RJq/P7CAdZ71AXMnIY/wbrE8uLcoF3026BUGFxUjFNU6inX/GgzfK2izF3Q="
+ }
+}

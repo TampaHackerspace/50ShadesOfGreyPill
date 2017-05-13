@@ -1,0 +1,132 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "How do I search for topics on ZeroTalk?",
+			"body": "The title says it all... How can I search for topics on ZeroTalk? And is there ways of choosing to sort from most upvoted topics, topics with most comments, etc... rather than just newest topics?",
+			"added": 1470426996
+		}
+	],
+	"topic_vote": {
+		"10_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": 1,
+		"1_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h": 1
+	},
+	"next_comment_id": 17,
+	"comment": {
+		"1_1MsUAPBMZkBpt4Z46849vSJQxRHbR7HyMt": [
+			{
+				"comment_id": 1,
+				"body": "How can I contact the admin of ZeroPlay? I have a large private collection of licensed stuff I wanna share links of...",
+				"added": 1470427181
+			}
+		],
+		"1_12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu": [
+			{
+				"comment_id": 2,
+				"body": "> [kaffie](#comment_113_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): Click 'follow in newfeed' when on the main ZeroTalk page (with all the threads). Then on the homepage, there should be a search box. Type your search and it'll search through all the stuff you're following.\nIt works! Thanks!",
+				"added": 1470480065
+			}
+		],
+		"2_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa": [
+			{
+				"comment_id": 3,
+				"body": "> [tkarita](#comment_61_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): Site owners can remove anything from their sites, but ZeroNet really depends on nobody trying to abuse it badly.  Fortunately even the Islamic State seems to be well-behaved.\n\nAs ironic as it seems, I believe moderate optional censorship would be appropriate for ZeroNet,\nespecially considering that ZeroNet provides site owners with the ability to remove content...\n\nI'm not talking about spying on people or preventing people from viewing content at all, but\nmaybe the ZeroNet software itself could actually search for keywords in pages during\nconnection and if the keywords match... show a warning page but still allow the user to\nview the content if they wish. And obviously the content is then only seeded if the user\naccepts the warning and proceeds to the content.\n\nBy using keywords instead of an actual list of sites, it also prevents those kinds of people from\neasily finding that content by looking up the list, as instead we just search for words like\n\"pedo\" or \"murder\" for example.",
+				"added": 1470481277
+			},
+			{
+				"comment_id": 7,
+				"body": "> [testingzeronet12](#comment_85_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): Thats the first step to censorship, ie a voluntary system of flagging content. Once this keyword blacklist becomes part of ZeroNet, it won't be long before it's capabilities evolve into a content blacklist which prevents the content from even loading. We are currently seeing this with IPFS which actually prevents nodes from sharing certain proscribed content.\n> Basically we will end up with a politically-correct \"decentralized uncensored internet\", with actual restrictions for certain arbitrarily-defined content.\n\nWho says you can't disable the block if they implement one that's on by default, especially when the source code is visible? Also, I heavily doubt ZeroNet would go around intentionally blocking content when one of their selling points are \"Uncensored: It's nowhere because it's everywhere!\". I'm talking about a warning system that's fully automated - no flagging and you can optionally proceed to the content (and face the consequences of knowingly proceeding), for the same reason @tkarita stated here.",
+				"added": 1470497904
+			},
+			{
+				"comment_id": 8,
+				"body": "Maybe we could combat this kind of content on ZeroNet by making people aware of the fact that your identity on ZeroNet is pseudo-anonymous, not entirely anonymous. Make these kinds of people aware that they can be tracked down when posting stuff like that on ZeroNet if someone tries hard enough, and they will probably go to a different network that has anonymity as one of the main aims.",
+				"added": 1470572762
+			},
+			{
+				"comment_id": 9,
+				"body": "> [testingzeronet12](#comment_89_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): It's a red herring the constantly bring up the issues of CP as if that is a guarantee that will happen. You are just as likely to accidentally download CP on the clearnet. I think these calls to implement software-based censorship into ZeroNet go further than just the issue of accidentally being a node to CP. You know full-well that you can delete any site you find objectionable, so in that respect it is no different to the clearnet. So why these calls to bring censorship?\n\nNot censorship, but a warning system without any specific URLs. It's a lot less hassle for someone to see a warning and click a back button on their browser than to see potentially disturbing content, and then needing to manually find the folder to delete it before closing the tab. A warning appears when the content of the page matches certain keywords and the user could turn the warning system off entirely if they wish or skip the warning on a per-page basis.",
+				"added": 1470573537
+			},
+			{
+				"comment_id": 10,
+				"body": "> [testingzeronet12](#comment_91_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): The problem with such a filter is that it actively filters content. Perhaps it won't block it, but being able to identify it by keyword is the first stage in being able to block it, even if that is not something you have planned. It provides the technological ability to do so.\n> I think a better solution is to develop a separate plugin which allows this capability, but would be voluntary due to it being a plugin, rather than building it into ZeroNet itself.\n\nI don't have any knowledge of creating browser extensions (for any browser, such as MS Edge, Firefox, Chrome, etc...) but I would definitely welcome someone making one and would support it.",
+				"added": 1470577642
+			},
+			{
+				"comment_id": 11,
+				"body": "> [armchairgenius](#comment_2_1DW9EhqZ7rndNKZTPbdxsttBU1jGtT2soT): Honestly, I'd much rather the devs work on improving and testing the security/encryption rather than trying to start censoring content.\n\nPersonally I'm happy with ZeroNet's security and encryption. I just wish they would add gzip support so the bandwidth and storage requirements aren't so high... If we had gzip support on ZeroNet we would likely have much higher storage allowances on sites like this one and ZeroMail. And as an added bonus, zites would download faster on first-time visits.\n\nI don't see ZeroNet aiming to be an entirely anonymous solution, and I'm fine with that. I myself would prefer having some moderation by pseudo-anonymity rather than people feeling like they can do whatever they want with no consequences. I don't even want to accidentally come across stuff like the op mentions, once I see it I might not be able to unsee it. My mind isn't like a computer where I can simply delete stuff.",
+				"added": 1470580466
+			},
+			{
+				"comment_id": 12,
+				"body": "> [armchairgenius](#comment_3_1DW9EhqZ7rndNKZTPbdxsttBU1jGtT2soT): If you don't want anonymity and privacy go back to the clearnet. The whole point of making something decentralized is to avoid censorship and increase privacy as no central organization or company can decide to reveal who you are or tell you what you can do.\n\nBut I like the benefits that decentralized networking brings outside of anonymity. Having sites consistently load instantly after my first visit while still always being up-to-date, being able to view them offline seamlessly, being able to start up my own website without any special software or cost, never having my site crash due to unexpected load or being inaccessible when my server's down. Never having to need an email and verify it just to make an account, never having to login everywhere with separate accounts to do simple things like write a comment... ZeroNet does so much more than the current clearnet can.",
+				"added": 1470580811
+			},
+			{
+				"comment_id": 13,
+				"body": "> [armchairgenius](#comment_4_1DW9EhqZ7rndNKZTPbdxsttBU1jGtT2soT): Then you better learn to live that some people can and will use it for things you disagree with.\n\nAlright then.",
+				"added": 1470584877
+			},
+			{
+				"comment_id": 14,
+				"body": "Fair enough, if anyone knows of a working, configurable content filtering extension for Firefox please let us know on this thread for anyone in a similar situation to me.",
+				"added": 1470588443
+			},
+			{
+				"comment_id": 15,
+				"body": "> [testingzeronet12](#comment_94_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): https://addons.mozilla.org/en-US/firefox/search/?q=parental+control&cat=all\n> I think some of them get their keywords from an international organisation which actively monitors child porn on the internet and updates a list of keywords and websites to be blocked or monitored.\n\nI've tried lots of different ones so far and none of them seem to be working on ZeroNet zites or localhost... I tried testing them on this page by setting keywords to find before serving a warning (using some keywords on this page) with no luck.",
+				"added": 1470588755
+			},
+			{
+				"comment_id": 16,
+				"body": "> [testingzeronet12](#comment_98_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): I think you should be pushing for, or helping to create an addon to ZeroNet (nofish did say ZeroNet has plugin functionality), not pushing to have the functionality built-in to the software itself.\n> Not everyone wants a hardcoded means to flag up content, because it would only take a very minor change in the future to change a warning system to a content blocking system. But a plugin offering that functionality does seem appropriate for people in your situation.\n\nAfter reading both sides of the debate, I agree that an addon/extension/plugin for either ZeroNet and/or web browsers would be a great solution.",
+				"added": 1470678979
+			}
+		],
+		"5_1LUP6SN7WrXAH7e5bUFxdmrVsFr2m43XB4": [
+			{
+				"comment_id": 4,
+				"body": "> [kaffie](#comment_117_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): \n> Currently mail cannot cross between sites.\n\nIt's a shame that email can't be sent across different providers yet... If a solution for this doesn't pop up we'll eventually need loads of different accounts on different email providers just to send emails to people - I don't want this to become into the messaging app annoyance where I need a different account for communicating with different people (e.g. Discord, TeamSpeak, Skype, IRC, FB Messenger, etc...). Competition is good but forcefulness is not.",
+				"added": 1470485982
+			}
+		],
+		"2_12xwWp1qTmxEXMxVxrG3AQKPk6MUWjQjM7": [
+			{
+				"comment_id": 5,
+				"body": "You should be careful generally when on a decentralized network... standardized moderation systems here are almost non-existent at the moment.",
+				"added": 1470486125
+			}
+		]
+	},
+	"comment_vote": {
+		"2_1GAndTogKBx71pmCZodMKhN9PpV5LRwLKf": 1,
+		"50_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"113_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"120_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R": 1,
+		"118_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"58_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"2_1GzGCc4PYVgD3XqQV3tpT8ow6bWGySa25a": 1,
+		"38_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": 1,
+		"6_1CZhapKybCk4VkGiSso1YzXZd1oG5C3oAw": 1,
+		"55_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"6_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"66_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"3_12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu": 1,
+		"7_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"2_1JCtHdfVM4pNWJnbJXYj1FAnGJy8NHEy8D": 1,
+		"6_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa": 1,
+		"1_1rZ7QjeErYTdNKKvTSonssHtzFttMQpsi": 1,
+		"2_1JYAaUBXsh3DrN8UZHz4suAUVXzV3X15QL": 1,
+		"114_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"3_1JCtHdfVM4pNWJnbJXYj1FAnGJy8NHEy8D": 1,
+		"6_1BePwsiwFD8BjtYfB8tQegiKXDLnHWW1Um": 1,
+		"30_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa": 1,
+		"16_12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu": 1,
+		"1_136Gy1TgLoykTBJzWfBCcmVrctB4VzNCPU": 1,
+		"16_1DcE9QfZbfLZhXxgtQ8Ui3oMZvs9NVjqZB": 1,
+		"27_1DcE9QfZbfLZhXxgtQ8Ui3oMZvs9NVjqZB": 1
+	}
+}

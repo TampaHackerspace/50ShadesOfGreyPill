@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G1W/vPMdH3rpKtJZbv3rSH1h2T3gOAIaF3ZmPkxI7YwRF2sQJ19QS69A6mjbeSdG0VbUyBRdyeU6vzj3Gu7Ki18=",
+ "cert_user_id": "burpsuite@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "35ad50e05865c47216722f14e2edcf1215ba47431bc86675cc1726c95bf9e6f7",
+   "size": 241
+  }
+ },
+ "inner_path": "data/users/17vpfBPFayeDyEuT7ShHQ4gLovZPT7gYcL/content.json",
+ "modified": 1492144745,
+ "signs": {
+  "17vpfBPFayeDyEuT7ShHQ4gLovZPT7gYcL": "G2/G7zdSioWp7jjSlV81FKSEWJirrLF35y52sSslKv3MRtrjSEsL0CKDXIpRnijXQAQyf0iUuI8wdEqBA39Lb9c="
+ }
+}

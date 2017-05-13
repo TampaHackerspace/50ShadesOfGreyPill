@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HOrfqUwVsIZPi3AqabI48fIXHvXsX8xEK4TFjb9zIOt33m76vHl1AygAUKF677mt7ZnUW1qLsgvSHefrl1WyDxc=",
+ "cert_user_id": "pitagoras@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ab23afda0d41cc6bbac7cc6d54b392c2f265317799acd9afe0aa4b55507f71f7",
+   "size": 500
+  }
+ },
+ "inner_path": "data/users/1Ac6LT2cpnAr51F4YYhXrQh2bs3XUVPzzV/content.json",
+ "modified": 1490715998,
+ "signs": {
+  "1Ac6LT2cpnAr51F4YYhXrQh2bs3XUVPzzV": "HFml8k9+jmuFTeUFLpKqgdzXMT+odC7Ab3QW8cGCE8DxkTgBvvKmIDaeHNbdQewEptuYaUdTggmMbeiVScVBaPg="
+ }
+}

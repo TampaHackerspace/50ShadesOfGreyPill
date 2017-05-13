@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G8V+Q+Jr8VGF3qBJQIexVyU9P30STi/9epN91xrM1vD0eTYqeOlZrvsOflUIwvaWGe/5cx7c3aFBpeU+zgTPw0I=",
+ "cert_user_id": "jacobin@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "488a6956f969322afd8f921d8d545161e7ae5cc6f7bf40f9205dfbab7fb6d03d",
+   "size": 338
+  }
+ },
+ "inner_path": "data/users/1QQyYRPCvFYCAoFGUgHxDovYdNxRCApzJ/content.json",
+ "modified": 1487914099,
+ "signs": {
+  "1QQyYRPCvFYCAoFGUgHxDovYdNxRCApzJ": "G629p8vPpefI4QylIK8tqOPJavsHHsGhWHuDJamxlIhGUeGsvcjJ4mcoCC6WGBt28WPmmyMKU95yk7u3oHs1FHw="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G2pgRnaU8nbC/B4s2Amg9nK26zxF47vL4oaSvo0bFHqmZC3qJ3s43enIVw+oRx8fDci5hS94MRduRweYCd0I8mM=",
+ "cert_user_id": "docker666@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "3ea6b8c039576b2df40d528be0ae7f4c11b253c55e47588b398b597c5cf41257",
+   "size": 313
+  }
+ },
+ "inner_path": "data/users/1QDDjn9CC7LnsVKFcGaMEepfBaXdgA6SPd/content.json",
+ "modified": 1490177906,
+ "signs": {
+  "1QDDjn9CC7LnsVKFcGaMEepfBaXdgA6SPd": "HGv1bOg9qMVyIOKGBLK7c7WNRMUsprjgh80FVMB4cvBkubrcZAG7sSC0DpSnzGd/nnTjx700dtoUBDa5B10aoGE="
+ }
+}

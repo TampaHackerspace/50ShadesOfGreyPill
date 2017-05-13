@@ -1,0 +1,16 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 2,
+	"comment": {
+		"1_1KWkL7gwdvnn1moF2cB9ZfdYCEtEWcPkWy": [
+			{
+				"comment_id": 1,
+				"body": "If you are using Docker, the user data (/root/data) is stored in a volume. If you don't define any volume at the time of running `docker run` (the \"-v <local_data_folder>:/root/data\" part in \"docker run -d -v <local_data_folder>:/root/data -p 15441:15441 -p 43110:43110 nofish/zeronet\") a new one different one will be implicitly created everytime you run `docker run`. That's what is happening when you run \"docker run -i -t nofish/zeronet /bin/bash\", it's creating a new empty volume for that particular container.\nIf you want to run bash in the existing ZeroNet container you should use `docker exec -ti <your ZeroNet container name as in docker ps> /bin/bash`, but if you set the volume to point to a local directory, you should be able to see the files from the host. Example of `docker run`:\ndocker run --restart=always --name ZeroNet -d -v /var/lib/zeronet:/root/data -p 15441:15441 -p 43110:43110 nofish/zeronet",
+				"added": 1474396405
+			}
+		]
+	},
+	"comment_vote": {}
+}

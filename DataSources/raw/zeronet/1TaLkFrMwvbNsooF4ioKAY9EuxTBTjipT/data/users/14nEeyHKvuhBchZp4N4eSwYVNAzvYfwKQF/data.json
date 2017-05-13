@@ -1,0 +1,57 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"7_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": 1
+	},
+	"next_comment_id": 10,
+	"comment": {
+		"1_1NMerKYwUayNpEZ35FxkzZch6kgoeFTWk": [],
+		"2_1DFDjUGJdSp1kMuFq1AtNS9ZWmkVtbp947": [
+			{
+				"comment_id": 2,
+				"body": "Just use uMatrix plugin (available for Chrome and Firefox)\nhttps://github.com/gorhill/uMatrix",
+				"added": 1457619498
+			}
+		],
+		"8_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": [
+			{
+				"comment_id": 3,
+				"body": "Heh, there is my issue \"Any site can add a new certificate for any domain\".",
+				"added": 1460147997
+			},
+			{
+				"comment_id": 4,
+				"body": "[#331](https://github.com/HelloZeroNet/ZeroNet/issues/331) just closed",
+				"added": 1460224790
+			}
+		],
+		"53_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": [
+			{
+				"comment_id": 5,
+				"body": "> this is a issue for chinese\nFor russian too",
+				"added": 1461489627
+			}
+		],
+		"1_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": [
+			{
+				"comment_id": 7,
+				"body": "Spam is coming",
+				"added": 1482709161
+			},
+			{
+				"comment_id": 8,
+				"body": "You should do as ZeroID - sign certificates on a central server. And show captcha to create identity.",
+				"added": 1482754913
+			},
+			{
+				"comment_id": 9,
+				"body": "Having a centralised authorization provider is a part of ZeroNet design... Other solution is only blockchain. But it is impossible now",
+				"added": 1482756045
+			}
+		]
+	},
+	"comment_vote": {
+		"1_1MMs5cwU5frEjF2rDwbXYwYH11FEaiR1Ro": 1
+	}
+}

@@ -1,0 +1,110 @@
+{
+	"next_topic_id": 5,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "我想在零网内发布一个文件，应该在哪发呢？谢谢",
+			"body": "如题，比如该文件是视频或者PDF又或者其它文件，谢谢",
+			"added": 1480909868
+		},
+		{
+			"topic_id": 2,
+			"title": "我之前Clone过一个站点,我应该怎么找到它?",
+			"body": "如题,之前我CLONE过一个站点,但是没有保存它的地址(太长了,我以为可以马上申请到bit网址,结果 发现要比特币).我现在想找到这个网址应该怎么做?谢谢",
+			"added": 1481123909
+		},
+		{
+			"topic_id": 3,
+			"title": "创建并绑定bit域名的网站找回问题，谢谢",
+			"body": "我之前在大家的帮助下创建自己的博客并绑定了bit域名，但是因为里边没什么内容所以也没有发布（就是说只有我自己电脑一个节点），前几天因为配置问题导致ZeroNet.cmd启动不了，我重新下载了ZeroBundle-win.zip并把自己的user.json替换，也把原date目录里我的博客目录拷贝到新date目录下。但是现在怎么也打不开了，我不知道是为什么，我应该怎么才能找回我的博客呢？谢谢\n另外如果找回了 也请大家帮我做个种吧，免得以后又打不到了 谢谢\n\nhttp://127.0.0.1:43110/jtree.bit/",
+			"added": 1481874408
+		},
+		{
+			"topic_id": 4,
+			"title": "祝贺我的博客诞生，我来上点干货。。。",
+			"body": "在大家的帮助下，我的博客成功上线，为了表示感谢，我上点干货，看看大家有没有兴趣哈 ，顺便推广一下我的博客：http://127.0.0.1:43110/jtree.bit/",
+			"added": 1481959237
+		}
+	],
+	"topic_vote": {
+		"1_1Ni6LMewr5Cbc9fuKvdkSpS5bNm12vAKe4": 1
+	},
+	"next_comment_id": 13,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "tryfasd",
+				"added": 1480908994
+			}
+		],
+		"1_1Ni6LMewr5Cbc9fuKvdkSpS5bNm12vAKe4": [
+			{
+				"comment_id": 2,
+				"body": "谢谢 ！！",
+				"added": 1480925230
+			}
+		],
+		"2_1Ni6LMewr5Cbc9fuKvdkSpS5bNm12vAKe4": [
+			{
+				"comment_id": 3,
+				"body": "哎 人还是太少了  长达16个小时没人回复",
+				"added": 1481181062
+			}
+		],
+		"3_1Ni6LMewr5Cbc9fuKvdkSpS5bNm12vAKe4": [
+			{
+				"comment_id": 4,
+				"body": "我已经找到另外一个方法来解决它，就是重新Clone一个博客，修改文件夹为原来博客的文件夹名，和绑定bit域名。这样一来是可以本地访问了，但是我又遇到一个新的问题，就是当我发布的时候，系统让我输入私钥，我怎么知道我的私钥呢？如果我从隐藏的菜单去发布，系统会让我选择一个content.json，点签名，发布都要让我输入私钥，这怎么办呢？谢谢",
+				"added": 1481880993
+			},
+			{
+				"comment_id": 5,
+				"body": "经过多次尝试终于找到是user.json文件里面的【\"privatekey\": \"**************************************\"】项。谢谢大家。但是已经签名成功，好像发布不了一样？什么情况？",
+				"added": 1481882063
+			},
+			{
+				"comment_id": 6,
+				"body": "> [weakish](#comment_65_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): 端口开了没有？如果端口没开，是否通过代理站访问的方式做种？\n\n谢谢大哥，不是太明白开哪个端口？是43110吗？谢谢",
+				"added": 1481901790
+			},
+			{
+				"comment_id": 7,
+				"body": "> [weakish](#comment_65_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): 端口开了没有？如果端口没开，是否通过代理站访问的方式做种？\n\n我在置顶帖里找到了是15441 但是好像我没办法打开 因为是 小区电信光纤 ，帖子上说可以不开端口 详情看置顶帖子，但是我还真没找到，哪个好心人能帮我帖入一下吗？谢谢",
+				"added": 1481902275
+			},
+			{
+				"comment_id": 8,
+				"body": "> [weakish](#comment_66_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): 传说某些地区的电信打电话投诉能要到公网ip.\n> 这里有一堆公共代理\n> 如果有VPS的话，可以转发15441端口\n\n谢谢，我尝试一下 ^v^",
+				"added": 1481936562
+			},
+			{
+				"comment_id": 9,
+				"body": "谢谢大家的帮助，我的小站已经成功发布，欢迎大家前来作客，http://127.0.0.1:43110/jtree.bit/ \n本博客不谈政治，不聊色情。纯粹是个闲谈站点和分享一点点有趣的东西。",
+				"added": 1481955443
+			}
+		],
+		"4_1Ni6LMewr5Cbc9fuKvdkSpS5bNm12vAKe4": [
+			{
+				"comment_id": 10,
+				"body": "顺便问点问题，我刚才写了一点东西，都好半天了，为什么通过代理却还没显示出来呢？比如https://proxy1.zn.kindlyfire.me/jtree.bit 或者 https://bit.no.com:43110/jtree.bit 都没有显示我刚才发的文章。这到底是还没更新还是我根本没发布出去，但是我点发布之后显示了已经更新到5个节点了呀？谢谢",
+				"added": 1481961046
+			}
+		],
+		"1_1LzgV46XiWUh623hsFjwBhSsFWBLHnB5Vg": [
+			{
+				"comment_id": 11,
+				"body": "Cannot be opened",
+				"added": 1482118891
+			}
+		],
+		"1_1BeoxzEDx9wiD8H67m3r2zaGnm4DQh4Xgj": [
+			{
+				"comment_id": 12,
+				"body": "是啊，你是最大的那一个",
+				"added": 1492246867
+			}
+		]
+	},
+	"comment_vote": {}
+}

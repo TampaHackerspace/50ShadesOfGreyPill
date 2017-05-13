@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GzB1B+n2h4f1hR7XgMNwHVbRgTgCkhlhTG+cwJyQ3HZFs5BD/i0g/p4S80wekjgGI++ELVKZuLSOsdQEAKmaIEs=",
+ "cert_user_id": "vivaed@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "a71698d18e8b4e130487438371c36046ec650d5cd79a6701376e2a07ecff306f",
+   "size": 1854
+  }
+ },
+ "files_optional": {
+  "1485039593.jpg": {
+   "sha512": "f1c06c59de4c89643b939e6e05a27cac85f761f994a988d59b4aaa821fdd69dc",
+   "size": 50751
+  }
+ },
+ "inner_path": "data/users/1PXG6BwvvDZ44hpCeq7d7njuvRtsMefo6J/content.json",
+ "modified": 1485097192,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1PXG6BwvvDZ44hpCeq7d7njuvRtsMefo6J": "G9DRobFqqMo6Z6LvE7NmEMCvTuZfZudIYJdyKL3Yxpb9ONNpn71BlvyaaxohMcDo70Bm5YyPX8ci/x6lfa1DyUE="
+ }
+}

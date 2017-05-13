@@ -1,0 +1,41 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 6,
+	"comment": {
+		"1_1B5iBCuHQgbGdgTJmM2A2pZNVfpfp3EU5u": [
+			{
+				"comment_id": 1,
+				"body": "you can use hugo and probably even hexo, since these output static files. \n\nFor hugo, just have to copy the \"public/\" folder to the zeronet folder that corresponds to your zero site\nFor hexo, just deploy via rsync to the zeronet folder that corresponds to your zero site\n\nIDK how to do it with jekyllrb but I am sure as heck there is a way, you just need to copy the files it outputs to your zeronet site folder.\n\nHugo example\nhttp://127.0.0.1:43110/126fBtopb2n7Pc42KhZyZyHhZKrecAdMdR/",
+				"added": 1492201928
+			}
+		],
+		"1_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY": [
+			{
+				"comment_id": 2,
+				"body": "My tox\n\nA2D2984CF472447B4C0D2779F47FB991054A2138D2A27C678434D3D370FBF1241024A84E48E8\n\nHere is my retroshare06 key\n\nCQEGAcOZxsFNBFibEcYBEADChQO/nf/Yw7f0Z4VQAIMbhYPhp2p2HUneR6dI1cRc\nXAHHtiprG5WyqEQMTZvdebOmi7vDaRSmYBdegGJM4966moGqx0lidAXkjGerlgnj\n8UjuC1ZGmIvkYs6iFMAKPp+GjdaIc5maSCl2S2ls5mK6pp7/+/+96uP0WgKHLUiV\nuLtkmfbSmw4raybIZpIJjhCgYTECs1QcQ5S6Mgv5UP6ldzyj7yEGhMBPfQqI2Q9D\nkeiAGdxpnox/O2yaMtM8ePvyJmhN85BIiqglEPIJ68l+mMqtBPi04LiG3yZzd81h\n3UPPq0uVXm5uqPGARFczICPvNZwKLS0JkjJKsKtPqs9l1YfqpxOj7SU71FGMP8/C\nmsNMcGNRkQibyHx9trQWeOpt0A+r8MIIqGoQgzHKxJFTEXggPtEcqOZxUc4UrDOG\nyTp7VXvFTMGz/Ia9qGWGSk1lCSd2cUYW80b7GzZltqo6J1Gj8ZaiTxNrmJ6BZ2IN\nhqhbjhq+52oHnx2KikDeZRXB7FSQpa+EmOgDTkElbNYBy0C9CCf/FSQ+0Vk5aWPS\nrXCR/cJyrbOGiu3AZD8IXeFARnVRkxtFb4WBDGLfBufh7Mkdp/PxbQCARboe/BIi\nwP2DbVyQoud6KF2+jqooC+75d2995bKTZh+xXUOTDzUjmu7U7wApNCb1XIzy/edE\nEwARAQABzSVqb2Vkb2U0NyAoR2VuZXJhdGVkIGJ5IFJldHJvU2hhcmUpIDw+wsFf\nBBMBAgATBQJYmxHGCRA43XNxqC4BOQIZAQAAchgP/ibQ4x3gBmkUm/WqZqbfBo6j\nSj3SJLccO0s6JHhOmK5/fywfb0ram+mLFQDudQsCTdmqvyqSlaEEntDJZ7rBG2Ly\no/fwrdpVZ29JDyClPeI0U/fG5deg++gNg6WlHrQvdEty+cjbZ25W9+H4ZT+2HF51\n/PIS1UoQtgL6biGD3HZfTaJvAbKiV1viiDhHfSmzYrxFIEys26+tZDoQOE6l72vt\nBZS5VPusbqUnSq5yunXPwKNUqgvEA+2+qEj2m9jE90rG6tto5chsqkIPtFfoM1lL\nhZoCTckVAhxvwzvwwc87cttRsbR78MccMgKM/x+HDD6Unw6k+fBy9PloYeYQzMwB\nEs42Hr5kRMRTSqxYssMkKfmEQBPhWyYOg1nBXC10oUEEt06tepx0fAzysMmk1LYB\nlwy+OxTeUWHz/xgO4mF8Ih3ObwvpP1aROv3WHC+JebFU54hRfjUNZQQYQVvQ5w40\n7cojvpym6UCgUrH4psxjhlLp8PfMOkQonAcKrAubz0Jp5rNSF2a/lMSFWxKVN977\nb4NVj4CJzGCxymqEw5V7/mGlotDZ2c0NqGQ+be+uG+FXP7RdQBF4VjHnvDoYl7cJ\n8mj3MuATEi4cZXDTs0iEiVX3GSVqIqIhgwGmQOpGgICnb3M9hFKvP6aUAtH8RA85\nSav3JFEn7VNq7T5YOAdtAgZi/kCoQ/UDBsCoAWRD9QQABgRIb21lBRBZnFczDg8n\nZcC9Q+pVtmDUBwPMaDM=",
+				"added": 1493872906
+			},
+			{
+				"comment_id": 3,
+				"body": "> [sorcererr](#comment_2_183CohB4d2oHT8aEq41e8UbrdJu1SdNkHh): Thought: should we be worried about spammers harvesting these addresses and mass-mailing people? I mean that's not an issue yet, but it's almost guaranteed to become one in the future.\n\nThe only spamming they can do is DDOS IPs but there isn't much a stranger can do other than that from an retroshare certificate. \n\nSince it is a friend to friend network, no damage happens until someone breaks the chain of trust. However even then you can block out annoying people.",
+				"added": 1494250350
+			},
+			{
+				"comment_id": 4,
+				"body": "> [1491301186](#comment_17_1AZG3avnpwcn37q9eeCEjXKFBye81eAxg5): CQEGAcOZxsFNBFkQu4QBEADEvmy7ftGUToebAeplcaplf1+zHvHILsot0ukHjQJQ\nLlerdHUzIVg9lnKPErjgS56Rm+lHfIRK9LxX1yubLCOOEDMoRAfDk2K18DsiVJNq\nS3f3ogtMpoDIwUGh4R17dEVDuFAWdEeJhgDGWCR8DfkDvqZfLNWHvHvE2EHT8YAg\nyhA0V9ih43UaMUl0Q0XoQijg4Mvc+fXez1wWHikkDEUS3GEJhBOhTAImjPWodtr1\nrxOrsyOSkQ27VPjo02BV5CxcjS8serRZ9Bd3ei0B/dwqY62u0yDqWvnz26EQKcC7\n8xxa8Pw2AiIx8L2vp/0aWR7pmLz4QDzXxHaJopz0/GUOSKRLNqMK2GUejnqsj4g3\njVlq8/xUNFQv+U4uinRbL/TLT/DnAed7VkF0HETnnLHXIwCRcNswOGTVoAmP4HQk\nyJZRdULQEvjpNVdmTPbxC5VOld5bwIae7jQBvjr5Y9lmgE6ufH+o2a5QtB9sMogJ\nxJsRcFyNa3n34D7PqF9zTfAsnHICS7vHZsImmWTwdVqM5b6IL6rH91vceF0yZXia\n7jffVegOQp+yB+w1tyiHp1PnCPFdtNcp3UVrN1iX67UTSVAmA8pul7piVt3RLm+P\namLxqKCiINiM4Y964Sn6MvAc1jzK0NjbIOa7oiw+ksrGsPJ7zsFiRMF7KHfD8lP0\n/QARAQABzSVKb2huIERvZSAoR2VuZXJhdGVkIGJ5IFJldHJvU2hhcmUpIDw+wsFf\nBBMBAgATBQJZELuECRA4uYbFkISCvwIZAQAArq4P/2fPU5o3MFY3vbLz7xX0YKMx\ne0MokKBt8IB4YHchVHH3iWFcVNRzkOZ53vMMxQFR5c/UlkAH3p/SWmPmXtfMquHF\nuaJ1KNCZ3aA6ysGJdU+8TSvFbYGOAvapi9/42Gx15P8arVNAKCILZx4jFGM7rKa8\nDOojn8PZ9ZvYvWbKTRbBuER2L85eoEh2SZCMNLjyOvA//kdSzuNTYAvGp1uIksdO\ncId3qm3fO3mUrO3TBp8g6ZqLn5EYxcpUdL9O/Qo7unCEECAJ+ER92cjEJWtwJazO\nW+5uOCLT63CyHSJZ/vKtUghBHwVA8iUfl+SFipWiDGZlhgv3yHzjuZZHtYxPupG6\nXCN84UpJJPSfHZpN+tqbpL15kRkpkMeM5hcR1df8bVyzJps0IOX/JPPg85RyYiwN\n2P5/KM8pWzuHF/poLT8EjL3qkEMlyper6dJUpk0l/XDROy+ojt/pwXgHFpiuxhH2\nIsjpOMbElU2zFIDt/L/XBE8chwvnrVuXTlkkGCavtARnELWtz3WMUzsVlTkHymOv\nZR8rXbAdDp+zc07uWhyhL+XAOWvF+IMIoV2dhSJrFwGGMTncgaKXCiXvXJ/x7XO3\nZwvDDL19f0MjsA+gunA4vGcmVgrRngRTMdPrOPrF9TcLuOgTS6l0DC5NqNQTJsX0\nkUv0r0+TyD9zLIx0sRgFCBszcndpZTc0amdjYTVxZjc1Lm9uaW9uOjc4MTIGB1pl\ncm9OZXQFEGX1cixBBXsEL2OMJOSPDIoHA6dV4g==\n\nNice 1 connection. lol. Thanks. I see that I connected to another 2 people but they don't seem to be online all the time.",
+				"added": 1494274359
+			},
+			{
+				"comment_id": 5,
+				"body": "> [1491301186](#comment_18_1AZG3avnpwcn37q9eeCEjXKFBye81eAxg5): Your certificate is rejected by my Retroshare06 client with the error message \"Not a valid Retroshare certificate!\". Are you using Retroshare05?\n\nnah I'm using 06. it should have a user orien3243 or joedoe47 (I forget)",
+				"added": 1494300094
+			}
+		]
+	},
+	"comment_vote": {
+		"8_1HxiFjyEUfLeqvXza7TqV1h4mpo167JnrL": 1,
+		"19_1AZG3avnpwcn37q9eeCEjXKFBye81eAxg5": 1
+	}
+}

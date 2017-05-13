@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HHCeGUWerfJEIK+Kr+xLkmDTWxRAUirNY61FJEGfoMqszp4qv6BlGGYNhdakqwQOyRhKhAGhUt90CEIjoVMQ3ak=",
+ "cert_user_id": "pyschopomp@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ab7db19745e31f2525aa903cf9fecddb970878f732aed1640538162b241cb905",
+   "size": 11725
+  }
+ },
+ "inner_path": "data/users/1D7uESYtAKV36MVPGJZXuE7LUKbLwfo4dX/content.json",
+ "modified": 1488086470,
+ "signs": {
+  "1D7uESYtAKV36MVPGJZXuE7LUKbLwfo4dX": "HGNi2Ab3oz8Eo0/6q88Vqm+sfwgo6FttlQpS0j0wUBkddTTVWg99AmIlcYlhCyfGspNqFUmCuHNJGam3rbB33EQ="
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G7mXK7O2AHO46icmwJdp/CM+B8pEDUlciHzjM1l+3050wAdrmtjxLJ1ENNhnV9JhYwZg895ADcLetGnO7P8iNoM=",
+ "cert_user_id": "ochukai@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "2d03973a842893aa5c4d1a48991e73771d15c4cac1b1c6515bf6c09fe53c75a9",
+   "size": 1691
+  },
+  "data.json": {
+   "sha512": "271e3964dbe4ff9531ad1c22a8a3f1c640587b884439a79c1c603257e4cbb4b7",
+   "size": 975
+  }
+ },
+ "files_optional": {
+  "1490060467.jpg": {
+   "sha512": "58f8dca652cf59b26cb544c9e5397d027a6cedf72cdc5b5360cb0700a8107a9d",
+   "size": 74243
+  }
+ },
+ "inner_path": "data/users/1NN1kgVnjsx3weMxYpdFZPYVHi3UVYs1PT/content.json",
+ "modified": 1490090095,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1NN1kgVnjsx3weMxYpdFZPYVHi3UVYs1PT": "G19AaulmLtaNtMIZM8UtRjzvmVByKzNGlU3OZASr36EHyFeif9Hsr2D4c9TbP08oszCEiDmszyPSqCxAmmnvFAY="
+ }
+}

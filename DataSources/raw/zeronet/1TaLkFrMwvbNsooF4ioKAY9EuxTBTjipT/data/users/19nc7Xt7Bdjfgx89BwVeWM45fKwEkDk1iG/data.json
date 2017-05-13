@@ -1,0 +1,47 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "This is a new topic",
+			"body": "with no comments",
+			"added": 1490662022
+		},
+		{
+			"topic_id": 2,
+			"title": "This is a comment with one comment",
+			"body": "Only one comment, yo.",
+			"added": 1490662038
+		},
+		{
+			"topic_id": 3,
+			"title": "Multiple comments!",
+			"body": "Yes, there should be multiple comments on this one.",
+			"added": 1490662055
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 4,
+	"comment": {
+		"2_19nc7Xt7Bdjfgx89BwVeWM45fKwEkDk1iG": [
+			{
+				"comment_id": 1,
+				"body": "This has only one comment.",
+				"added": 1490662076
+			}
+		],
+		"3_19nc7Xt7Bdjfgx89BwVeWM45fKwEkDk1iG": [
+			{
+				"comment_id": 2,
+				"body": "One comment",
+				"added": 1490662089
+			},
+			{
+				"comment_id": 3,
+				"body": "two comment**s**",
+				"added": 1490662103
+			}
+		]
+	},
+	"comment_vote": {}
+}

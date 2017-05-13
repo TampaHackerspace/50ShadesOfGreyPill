@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HOWK45N4UXTFMhCgvVqu4mzOsPsw5t+7sdnP2b+H563t968+pfWZOMntNucguXyXAhlsg1bJL6mgJ9kq9eAcGRE=",
+ "cert_user_id": "stairskeeper@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "b758e1fb9e70ce5224287bdc6633853a177b5a700a8858231ed9dc9d69c8dd2d",
+   "size": 1038
+  }
+ },
+ "inner_path": "data/users/1FiMS3zmuGDUicGZnLDie4hBvVG47dTvtK/content.json",
+ "modified": 1477458092.075482,
+ "signs": {
+  "1FiMS3zmuGDUicGZnLDie4hBvVG47dTvtK": "HBUewYDVgAiBTrq6je1KQMYsdD3jlGiYe67OtxiwySy82kME0j2W7AvCKEQ8LggSCGWvqvmb2mHK5Quk8ccXL3Q="
+ }
+}

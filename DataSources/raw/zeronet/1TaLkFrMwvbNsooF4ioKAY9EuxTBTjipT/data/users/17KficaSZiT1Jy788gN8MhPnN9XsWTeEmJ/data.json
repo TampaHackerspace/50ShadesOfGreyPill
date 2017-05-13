@@ -1,0 +1,26 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"2_1NGTMtN8816KeCtNqy6W4fCQduU4P8iwty": 1
+	},
+	"next_comment_id": 3,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "is it necessary to have port 15441 open to make a site accessible?",
+				"added": 1473118719
+			},
+			{
+				"comment_id": 2,
+				"body": "> [nofish](#comment_751_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It's recommended, but not needed. If you don't have open port then the first visitor should have and it takes some minute before your site is loaded. Alternatively if you booth connected to the Tor network (Tor: Available or Tor:  Always), then you can reach each other immediately even if none of you have opened port.\n\nthanks for the info! i'll test this soon.",
+				"added": 1473175198
+			}
+		]
+	},
+	"comment_vote": {
+		"133_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"751_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

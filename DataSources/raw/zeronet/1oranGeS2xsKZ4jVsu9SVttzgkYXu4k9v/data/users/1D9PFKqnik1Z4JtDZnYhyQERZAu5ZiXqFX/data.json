@@ -1,0 +1,93 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 12,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "frog",
+	"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+	"intro": "Hi, I've switched to Green Hub, http://127.0.0.1:43110/me.zeronetwork.bit/?Profile/1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i/1D9PFKqnik1Z4JtDZnYhyQERZAu5ZiXqFX",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1479647696,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"1JXtJVZAQk6r7UR971QuTU8Z2NKpsAaHXQ_1479887192": 1479914515,
+		"1M6mvowPpeYyegFe6byJKP1aoehgKk84d2_1480502906": 1480516439,
+		"1CKyj95EMuQiKCYaRcfY6JgXgdmLWBUjyM_1481994828": 1482001957,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1484910685": 1484930619,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1485298240": 1485433783,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1485812216": 1486033685
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "There're not many linux games that are good as well as open source. But there are plenty of free emulators available for linux, like: dosbox, mgba, ppsspp. Besides, if you take interactive fiction as game, you can get gargoyle, and as many fictions as you want on ifdb.",
+			"post_uri": "17pnj2wEu5qFeRtQErmLVtCBvYuocGum82_1480334785",
+			"date_added": 1480353347
+		},
+		{
+			"comment_id": 2,
+			"body": "mutool from mupdf",
+			"post_uri": "17pnj2wEu5qFeRtQErmLVtCBvYuocGum82_1480596371",
+			"date_added": 1480610117
+		},
+		{
+			"comment_id": 3,
+			"body": "确实，就算不讲道德，这行为也算侵犯个人隐私，如果追究下来。。所以还是低调些为好。并且在这里哗众取宠没有任何意义，不如开着tor到人多的地方去发，应该效果更好。",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480692165",
+			"date_added": 1480696728
+		},
+		{
+			"comment_id": 4,
+			"body": "感觉IPFS的方式伸缩性更好，粒度更细，如果有足够的用户的话。检索应该是分布式的，像搜索引擎那样，把索引分布式存储到多个node上，这里应该可以利用dht网络。",
+			"post_uri": "18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1480838770",
+			"date_added": 1480857007
+		},
+		{
+			"comment_id": 5,
+			"body": "https://en.wikipedia.org/wiki/TCP_hole_punching",
+			"post_uri": "18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1480915633",
+			"date_added": 1481129965
+		},
+		{
+			"comment_id": 6,
+			"body": "@莱文倩: 图中并没有体现仇富，而只是举出公平与正义被扭曲的一个实例。当然我不同意“不义之财，人人可夺”的言论，这与文革时期的民粹类似，要不得。但把说瞎话当本事，并称其为”靠本事吃饭“来予以肯定，我实不敢苟同，这就好比把杀人夺财也当做本事一样，肯定如此做法便等同于无视正义。",
+			"post_uri": "1Gh5YshmQdQSvEgj1Dm8twQCjMuJBEVGuC_1482424893",
+			"date_added": 1482486843
+		},
+		{
+			"comment_id": 7,
+			"body": "@12hlearn: “长者的灵魂”是一位无名黑客所编写的一个AI的名字。它具有自我意识，并已经靠入侵其他机器建立了一个overlay network。它很特殊，本身不具备危险性，而且对目标的选择有一套很复杂的规则，或许被这个AI入侵的人应该感到幸运？",
+			"post_uri": "1PNDZHYzsYy2772n6M22mLzvPhEHi23yDm_1482909920",
+			"date_added": 1483036540
+		},
+		{
+			"comment_id": 8,
+			"body": "@大家一起p2p: 维持稳定的不是杀人行为，而是愚民政策，不过作用正在不断减小。愚民的功效就好比一群猪被关在猪圈里，只要有食吃即使同伴被杀了也不会有猪反抗一样。",
+			"post_uri": "12vNNA9QZKJfaTi3uJ5X6ZegCKw3X4TKR6_1483158170",
+			"date_added": 1483182320
+		},
+		{
+			"comment_id": 9,
+			"body": "@大家一起p2p: 问题不是他人如何看待，而是事实上很多人的麻木程度已经等同于他类。这是愚民的功效，而非杀戮所能。",
+			"post_uri": "12vNNA9QZKJfaTi3uJ5X6ZegCKw3X4TKR6_1483158170",
+			"date_added": 1483190429
+		},
+		{
+			"comment_id": 10,
+			"body": "@12hlearn: IPFS的侧重点在协议，而非内容，不过任何内容都可以依托于其上，就像http一样，http本身并没有包含任何内容，不过IPFS完全也可以效仿zeronet做出一个类似主页的东西，放些站点链接之类的。",
+			"post_uri": "12vNNA9QZKJfaTi3uJ5X6ZegCKw3X4TKR6_1483898040",
+			"date_added": 1483978920
+		},
+		{
+			"comment_id": 11,
+			"body": "@weakish: IPFS作者的目标的确很远大，见此：https://www.youtube.com/watch?v=jONZtXMu03w\n跳到9:10左右",
+			"post_uri": "12vNNA9QZKJfaTi3uJ5X6ZegCKw3X4TKR6_1483898040",
+			"date_added": 1483979731
+		}
+	],
+	"follow": []
+}

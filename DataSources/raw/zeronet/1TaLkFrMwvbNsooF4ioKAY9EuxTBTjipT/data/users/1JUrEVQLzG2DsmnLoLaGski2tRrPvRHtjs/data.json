@@ -1,0 +1,125 @@
+{
+	"next_topic_id": 8,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "各位用什么杀毒软件？",
+			"body": "电脑好像中毒了",
+			"added": 1481359501
+		},
+		{
+			"topic_id": 2,
+			"title": "讨论的分区太少了",
+			"body": "像个玩具",
+			"added": 1481361097
+		},
+		{
+			"topic_id": 3,
+			"title": "京东12G用户数据疑似泄露，哪里可以下到？",
+			"body": "",
+			"added": 1481455052
+		},
+		{
+			"topic_id": 4,
+			"title": "国内黑客技术论坛已经基本沦陷，稍微敏感点的问题都谈不得，zeronet才是讨论安全技术的地方啊：）",
+			"body": "",
+			"added": 1481469626
+		},
+		{
+			"topic_id": 5,
+			"title": "现在首页变hello zeronet了，如何找到原来的首页呢？",
+			"body": "",
+			"added": 1481501583
+		},
+		{
+			"topic_id": 6,
+			"title": "删除zeroid之后，如何找到zeroid安装地址呢？",
+			"body": "老的首页找不到了，也找不到点击zeroid的地方了",
+			"added": 1481502052
+		},
+		{
+			"topic_id": 7,
+			"title": "how to configure zerohello to display number of current nodes and show official site?",
+			"body": "now zerohello only shows newsfeed i subscribe, the problem is how to show the old zerohello?",
+			"added": 1481503664
+		}
+	],
+	"topic_vote": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	},
+	"next_comment_id": 12,
+	"comment": {
+		"1_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs": [
+			{
+				"comment_id": 1,
+				"body": "> [jxtxzzw](#comment_1_1DYHycCgvkhNQke7z6scB7YodnZPdKTfLM): Avast\n\n这个软件收费么?",
+				"added": 1481360994
+			},
+			{
+				"comment_id": 2,
+				"body": "> [linkerlin](#comment_8_13Nzuvnhyz7nBJvPoUrdTEFuQTWUdqXAJk): Ubuntu\n\nlinux也有病毒吧?",
+				"added": 1481368659
+			}
+		],
+		"2_1Ni6LMewr5Cbc9fuKvdkSpS5bNm12vAKe4": [
+			{
+				"comment_id": 3,
+				"body": "> [sidmathers](#comment_1_13uQcc6CYGwmdYUeeQsJ7NLwdPKzRZKSiL): bit网址岂不是会很贵\n\n如何申请.biz域名？",
+				"added": 1481455221
+			}
+		],
+		"2_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs": [
+			{
+				"comment_id": 4,
+				"body": "> [eddychen](#comment_1_1HtJ5ZKNW32YnXxjJrSdCfXPPk2mEofwRk): 很卡主要是\n\n不是很卡吧，主要内容太少",
+				"added": 1481469728
+			}
+		],
+		"5_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs": [
+			{
+				"comment_id": 5,
+				"body": "> [goschech](#comment_3_19wGjxMT4cXn7sQDctssGyWwjjFigsrxgC): 没区别吧，最开始推荐的几个网站现在全在右侧了呀。\n\n但是如何找回原来的布局呢？\n我删除ZeroID站点，老首页还是没有找回。。。",
+				"added": 1481501819
+			},
+			{
+				"comment_id": 6,
+				"body": "> [goschech](#comment_4_19wGjxMT4cXn7sQDctssGyWwjjFigsrxgC): 如果是在ZeroHello左侧那栏删除了网站，只要重新再打开一遍那个网站就又有了（前提是能找到它的网址）。我已经忘了没id时的主页是啥了，只记得推荐了几个网站和功能。\n\n我的默认主页怎么成zerohello了呢？我把zerohello删除了也没用，刷新，zerohello又回来了，这个是zeronet的bug？",
+				"added": 1481502424
+			},
+			{
+				"comment_id": 9,
+				"body": "> [goschech](#comment_6_19wGjxMT4cXn7sQDctssGyWwjjFigsrxgC): ZeroHello是每个id的个性化首页吧，左侧记录了你下载的网站，右侧是状态时间流。如果想回到原始状态，我觉得需要的是退出帐号，访客浏览模式，第一次打开网站时会用id授权，我也不知道怎么取消这个授权。\n\n没找到退出账号的按钮，进入新站点发帖要登入，有按钮提示，退出找不到按钮。。。如何退出呢？",
+				"added": 1481504168
+			}
+		],
+		"6_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs": [
+			{
+				"comment_id": 7,
+				"body": "> [goschech](#comment_5_19wGjxMT4cXn7sQDctssGyWwjjFigsrxgC): http://127.0.0.1:43110/zeroid.bit/\n> 另外中文论坛请点击页面第一行最右侧『中文』两字。主论坛语言为英文，发中文不太好。\n\n没看到中文两个字，这个论坛中文贴比较多，哈哈",
+				"added": 1481503380
+			}
+		],
+		"2_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r": [
+			{
+				"comment_id": 8,
+				"body": "great project!",
+				"added": 1481503480
+			}
+		],
+		"3_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs": [
+			{
+				"comment_id": 10,
+				"body": "> [robot01](#comment_1_17DUiGGVifWBzkoyKLkaBQru1iz32AKbNp): 同求啊\n\n求到了么",
+				"added": 1481507266
+			}
+		],
+		"4_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs": [
+			{
+				"comment_id": 11,
+				"body": "> [weakish](#comment_62_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): 这里是英文论坛，请到中文论坛讨论：\n> -=其他技术讨论板块=-非ZeroNet相关技术讨论区 如网络技术、编程技术、开锁技术等……\n\n这个贴如何移动到中文版？",
+				"added": 1481538420
+			}
+		]
+	},
+	"comment_vote": {}
+}

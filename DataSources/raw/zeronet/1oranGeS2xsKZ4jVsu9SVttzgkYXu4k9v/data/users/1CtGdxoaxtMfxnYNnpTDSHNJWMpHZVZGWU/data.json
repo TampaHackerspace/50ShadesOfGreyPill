@@ -1,0 +1,26 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Exdeus",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484876614,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "It's possible to brute-force any password.",
+			"post_uri": "13ubWo7FfYPh2GTDzmR13Gpv6tYGywDcMZ_1484860269",
+			"date_added": 1484876677
+		}
+	],
+	"follow": []
+}

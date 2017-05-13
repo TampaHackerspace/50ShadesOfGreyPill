@@ -1,0 +1,84 @@
+{
+	"next_topic_id": 5,
+	"topic": [
+		{
+			"topic_id": 2,
+			"title": "It is upset that China's GFW has blocked the proxy https://bit.no.com:43110",
+			"body": "Friends,do you know any other proxies which can still working ?",
+			"added": 1471002061
+		},
+		{
+			"topic_id": 4,
+			"title": "Play 网站的来源（The origin of Play）",
+			"body": "貌似[Play网站][1]就是[这个网站：http://pelismag.net][2]的人建的，风格一样，内容一样。\n(The [Play magnet zite][1] is similar to this site:[http://pelismag.net][2],maybe [the site][2]'s people create [Play][1].)\n\n下载下来用了一下，好牛逼啊，从此Play可以在线播放，边下边播。\n[1]:http://127.0.0.1:43110/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp/\n[2]:http://pelismag.net/",
+			"added": 1474075031
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 12,
+	"comment": {
+		"6_1DcDDitsjFJohvwonPmpibRChmA7uGxqL7": [
+			{
+				"comment_id": 1,
+				"body": "> [lukipuki](#comment_41_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8): yes! Curators or moderators could be something like 'collections subscribtions' and 'filter subscribtion'. They could be added voluntarily by every zeronet user to influence the seeding behaviour of the own node.\n> I would like for example to have a blacklist that i can subscribe to that is automatically blocking every user or post that someone (i trust) put onto the blacklist. This could prevent users (me) to seed illegal content. It could also prevent me from content that I just don't want to spread (nazi propaganda for example - but then I would probably have to subscribe to another list/curator).\n> I want to expand a little on the idea.There could be single curators and collectives of curators. A single curator could be an expert in a certain topic - It would be like reading her/his blog (which would have links to other sites). A collective of curators could just be a group of people. Maybe like the circles of google+. A post's rating would get a higher significance (for me) if some people in a circle i have subscribed to are sharing/blocking it or have liked/disliked it.\n\nYour idea is like a chatroom ,ZN is a web.",
+				"added": 1470137751
+			}
+		],
+		"1_19ty8kLAFjGjoDGv4JrgMeYPqd4gQG6Hvc": [],
+		"2_12yaKkoqVKBUi66uB5pYXamWguKFaWdDnx": [
+			{
+				"comment_id": 3,
+				"body": "> [graveyardswatch](#comment_22_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF): Even if someone gives you another proxy, it will soon be blocked too.\n> Try using Zeronet through Tor.\n\nYes,it is right.I don't need to use tor ,I need the speed of zeronet. and zeronet client can't auto download tor ,because everytime the state of tor is error,maybe the tor website is blocked by GFW.",
+				"added": 1471011069
+			},
+			{
+				"comment_id": 4,
+				"body": "> [p2p](#comment_192_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:proxieshttp://127.0.0.1:43110/zeroproxies.bit\n\n谢谢大神，但是上面几乎都用不了了。好像只有一个能用而已，我就想要代理在手机看zeronet动态。",
+				"added": 1471011202
+			}
+		],
+		"3_12yaKkoqVKBUi66uB5pYXamWguKFaWdDnx": [
+			{
+				"comment_id": 5,
+				"body": "> [ks](#comment_162_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx): I believe you just do another name_update on the domain (if you bought the domain at a registrar you cannot use that solution, and you should probably contact the registrar in that case).\n\nHow to do another name_update ?The domain name is registed in the namecoin-QT wallet by myself.\nIs it re bind the zeronet address? like this { \"zeronet\" : { \"\" : \"zeronet address\"} }",
+				"added": 1471403275
+			}
+		],
+		"1_1PRsmkcDcCnKbCfFTeQizKYcDpNn98iQcT": [
+			{
+				"comment_id": 6,
+				"body": "八嘎，亚美蝶，一库一库。。。。",
+				"added": 1472025678
+			}
+		],
+		"1_1F2jegiyYVq9Byo8sezh3LG3njV8vcg9Md": [
+			{
+				"comment_id": 7,
+				"body": "WebTorrent :  https://instant.io/",
+				"added": 1473064390
+			}
+		],
+		"1_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": [
+			{
+				"comment_id": 8,
+				"body": "Yes，I have downloaded  the 19.3Mb video.不同段，慢慢填满一条线。cool.",
+				"added": 1473604644
+			}
+		],
+		"1_15oJLfpirNrTr2Fzhq6reLQ2aJGeDAnLHF": [
+			{
+				"comment_id": 10,
+				"body": "现在网站是有了，就差人来分享、丰富资源了。:\n---\n1.[电影大片有Play,海盗湾](http://127.0.0.1:43110/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp/)\n2.[0chan分享各种东西](http://127.0.0.1:43110/0chan.bit/)\n3.[zero里的搜索引擎](http://127.0.0.1:43110/zerosearch.bit/)\n4.[zeronet里的youtube](http://127.0.0.1:43110/1FUQPLXHimgCvYHH7v3bJXspJ7bMBUXcEb/)\n5.[KAT](http://127.0.0.1:43110/1LBr1dHoXvJAMjDgW8Wcg5kbCoKyJnzo6p/)\n6.[你想要的分布式色情网站](http://127.0.0.1:43110/1NZNtZQZHQRJXafvJpmY5jgqwRaCEZMsUc/),可惜现在只能发图,文字。\n7.so on...............",
+				"added": 1473673249
+			}
+		],
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": [
+			{
+				"comment_id": 11,
+				"body": "Need a function to delete the sites that I has visited less.need a botton to select use GPRG and WIFI only.",
+				"added": 1473912837
+			}
+		]
+	},
+	"comment_vote": {}
+}

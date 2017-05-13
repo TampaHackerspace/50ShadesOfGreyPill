@@ -1,0 +1,40 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HDGOSniZTvCfjl6kMeBJUOFynOfGc942ZEsLTCYxm4vMyLBvaPT6/IMMe5u7uXu/nstTI7JN6RtGBT7JpUECwoo=",
+ "cert_user_id": "michael514@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "0e77430f307101945e46e623ac351eb8e2fb7b0a3a3afccf1b4f89d1b86b45c6",
+   "size": 1417
+  },
+  "data.json": {
+   "sha512": "8d78e34824d2216c9d335cb2bfc8ffc09dc4522e8e7a0dd22b991c0fd8a22f6a",
+   "size": 2000
+  }
+ },
+ "files_optional": {
+  "1487020951.jpg": {
+   "sha512": "1ae6660a918f2b7bf653c63972c16e6248e863573dd089efd2f954cc344d668c",
+   "size": 80435
+  },
+  "1487074492.jpg": {
+   "sha512": "f3aef41834bb4d1420e45cb1fb5b3ee37f3e2e8a98c47f5acfeee59369d03ebe",
+   "size": 90597
+  },
+  "1487074731.jpg": {
+   "sha512": "d840a57104c2b4945c3e4f7c4700880184ccd87920d5874f86d16593037fd8fb",
+   "size": 58541
+  },
+  "1487195374.jpg": {
+   "sha512": "f88f7392b318750663d7cdde3892f54e36c21f83502c41aca7005fac77f58b3f",
+   "size": 39540
+  }
+ },
+ "inner_path": "data/users/1Ly1UsAhAvDUoXQdo1FP5979zjHEWAHAV1/content.json",
+ "modified": 1487196076,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1Ly1UsAhAvDUoXQdo1FP5979zjHEWAHAV1": "G3UF0WetRqe/ORDOUq92fALBUsbKRSSnwBeg/tSTTlOdb39WcBY59JhqAHzNlLL724/sFriZD520PQiXlfX3aPw="
+ }
+}

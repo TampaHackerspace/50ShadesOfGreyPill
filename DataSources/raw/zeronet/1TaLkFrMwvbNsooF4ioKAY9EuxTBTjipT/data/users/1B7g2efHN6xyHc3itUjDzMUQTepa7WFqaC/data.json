@@ -1,0 +1,32 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"3_19arYgVKguUamTqtYGu6T9FSUsr19CyEcG": 1
+	},
+	"next_comment_id": 4,
+	"comment": {
+		"1_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM": [
+			{
+				"comment_id": 1,
+				"body": "> [thisweb11](#comment_5_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM): A permenent page that is controlled by nobody once created?  \n\nCreate a website, destroy the private key = permanent",
+				"added": 1477333487
+			}
+		],
+		"3_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ": [
+			{
+				"comment_id": 2,
+				"body": "There is wrapperSetLocalStorage / wrapperGetLocalStorage commands to use browser's storage.\nhttp://zeronet.readthedocs.io/en/latest/site_development/zeroframe_api_reference/#wrappersetlocalstorage-data",
+				"added": 1477515025
+			}
+		],
+		"2_1Buu3gEo6EcUijPE6dkSToaYzXKGnAgXFy": [
+			{
+				"comment_id": 3,
+				"body": "[Here](?Topic:1_1LoYccWDeUavLo4g1zTbkqPn3EdBcquSYn) is example for nginx / apache",
+				"added": 1478087926
+			}
+		]
+	},
+	"comment_vote": {}
+}

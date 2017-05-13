@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G46L1W/d8MEupfTohdItvDcnHQScIeDXcHJ+cTXqOAn+2IZphxaOYvS5if1WyPuh77YWA5Z7p3l063uf94kYys0=",
+ "cert_user_id": "sunnylyx@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "db2327ff084b04647af4f37e0f89be18b4e4bf69f1f231e6a50e45826d4ffe3a",
+   "size": 1757
+  },
+  "data.json": {
+   "sha512": "a2c050ac6593ac4a569539efabc3023d7ab7cd016add760e9d8efadbe888dd44",
+   "size": 250
+  }
+ },
+ "inner_path": "data/users/1GW4LpksX7ch7mogtSsLA2NUVGxbVTiprM/content.json",
+ "modified": 1485824331,
+ "signs": {
+  "1GW4LpksX7ch7mogtSsLA2NUVGxbVTiprM": "G2Msev8H0rYe9PSxzXTbAl9txLcxvZwDcGzkin+jNmt5WzwapGKsus75BUGSn224OLvwtCRHf/EXECn4LgTVLkw="
+ }
+}

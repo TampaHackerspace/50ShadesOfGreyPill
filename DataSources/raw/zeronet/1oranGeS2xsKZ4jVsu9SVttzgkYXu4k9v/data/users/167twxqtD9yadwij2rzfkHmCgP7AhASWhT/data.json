@@ -1,0 +1,24 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 1,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Brannith",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484435377,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1485150755,
+			"body": "Just accidentally configured iptables to block all incoming and outgoing traffic — Good thing I had physical access the server! 😛",
+			"date_added": 1485150753
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": []
+}

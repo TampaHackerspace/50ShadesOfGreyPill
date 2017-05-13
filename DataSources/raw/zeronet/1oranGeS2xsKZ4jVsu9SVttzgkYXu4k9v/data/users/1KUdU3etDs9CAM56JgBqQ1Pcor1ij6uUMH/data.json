@@ -1,0 +1,39 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Azuldosax",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1481128070,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1481128882,
+			"body": "Hello Guys! are there portuguese people here?",
+			"date_added": 1481128880
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Porreiro!! xD",
+			"post_uri": "1KUdU3etDs9CAM56JgBqQ1Pcor1ij6uUMH_1481128882",
+			"date_added": 1481129559
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ",
+			"user_name": "Sirenyc",
+			"date_added": 1481129182
+		}
+	]
+}

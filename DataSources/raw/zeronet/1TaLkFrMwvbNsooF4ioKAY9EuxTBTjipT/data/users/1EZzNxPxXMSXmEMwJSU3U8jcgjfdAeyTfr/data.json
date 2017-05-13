@@ -1,0 +1,67 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Risc-v Emu Is Not Work For Me!",
+			"body": "say to zerome :::\ni try risc-v emu by bellard just make to compile but not work to me ::::\n$ make\ngcc -O2 -Wall -g -Werror -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -MMD -DCONFIG_VERSION=\\\"2017-01-12\\\" -DCONFIG_FS_NET -DMAX_XLEN=32 -c -o riscvemu32.o riscvemu.c\nriscvemu.c: In function ‘bf_read_async’:\nriscvemu.c:2405:17: error: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Werror=unused-result]\nfread(buf, 1, SECTOR_SIZE, bf->f);\n\n             ^\n\nriscvemu.c:2414:9: error: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Werror=unused-result]\nfread(buf, 1, n * SECTOR_SIZE, bf->f);\n\n     ^\n\nriscvemu.c: In function ‘tun_write_packet’:\nriscvemu.c:2612:5: error: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Werror=unused-result]\nwrite(fd, buf, len);\n^\ncc1: all warnings being treated as errors\nMakefile:67 : la recette pour la cible « riscvemu32.o » a échouée\nmake: * [riscvemu32.o] Erreur 1\n$ :(\nhelp is not normal?\n\nPS :: I Try Sign Up To Reddit to speak that me i not success so i speak the problem here",
+			"added": 1487060073
+		},
+		{
+			"topic_id": 2,
+			"title": "You Know Music Used By a great Company like google oracle ...",
+			"body": "hello everyone, it's Sick, question in level 9/10 when you watched the google's video or oracle you listen the music but what title of music? exemple ::: what music https://www.youtube.com/watch?v=S8Y77efFW-I and https://www.youtube.com/watch?v=8wNdixWzS_Y",
+			"added": 1488596398
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 8,
+	"comment": {
+		"5_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [
+			{
+				"comment_id": 1,
+				"body": "hashcash is a software use proof of work to fight spam, i speak to [zerome](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/1EZzNxPxXMSXmEMwJSU3U8jcgjfdAeyTfr/1487500468)\nexample in 24 bit :::: 1:24:170219:185185%sick::gIwxnUZvU6dyOg+E:000001WP3F\nis possible to add for zeronet?",
+				"added": 1487523730
+			},
+			{
+				"comment_id": 6,
+				"body": "i added this feature in zeroblog, use vanityhash for post a comment (the post in french but my comment in english) ::::: http://127.0.0.1:43110/1LmS6y5tSmkexzCdBB3NRXpY5JZTY1fXtR/?Post:1:Comment+Post%C3%A9+Un+Commentaire",
+				"added": 1490621569
+			}
+		],
+		"6_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": [
+			{
+				"comment_id": 2,
+				"body": "hello yinyue, nekololi, rythyrix, webzhouyan it's Sick!\nthanks for speak about my post, nice!",
+				"added": 1489859984
+			},
+			{
+				"comment_id": 3,
+				"body": "> Did you make the music zite, Sick?\n\nNo, but i make the music self i hope is liked it :::: http://127.0.0.1:43110/141EYXTVYTNRmLJA5cmQhrf9NreazoLi62/\nme too i am not a great coder",
+				"added": 1489865764
+			}
+		],
+		"1_1NnLEbZgqNo9QfGuopF2Co7Dy152rp3Pim": [
+			{
+				"comment_id": 4,
+				"body": "no, don't say this!",
+				"added": 1490478110
+			}
+		],
+		"3_17RJyBwfCuCAHTLwpirMuzvzN1zCe9845K": [
+			{
+				"comment_id": 5,
+				"body": "no don't say that OK",
+				"added": 1490478185
+			}
+		],
+		"1_17QqXT3pzw6gErZe3YwbqTJBFQmkLTfnMs": [
+			{
+				"comment_id": 7,
+				"body": "you can upload music in genre native american please",
+				"added": 1491125144
+			}
+		]
+	},
+	"comment_vote": {}
+}

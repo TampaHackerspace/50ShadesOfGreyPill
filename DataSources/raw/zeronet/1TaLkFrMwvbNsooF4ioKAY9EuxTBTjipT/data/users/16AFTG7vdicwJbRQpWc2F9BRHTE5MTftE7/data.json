@@ -1,0 +1,470 @@
+{
+	"next_topic_id": 6,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Make sub-forums on that forum",
+			"body": "It would be perfect if here we can have different sub-forums",
+			"added": 1455194660
+		},
+		{
+			"topic_id": 2,
+			"title": "How to make sub-topic in my own zero talk",
+			"body": "Like that http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topics:5_1PNyuY1iZqXBpft4ArouqcnE4pNRGYij5i/ZeroSearch+sub+topic",
+			"added": 1455633385
+		},
+		{
+			"topic_id": 3,
+			"title": "TTL for everything ?",
+			"body": "Feature request - TTL for user content (sites with multi signatures) or for all content. \nIt would be very good if we can have TTL variable for user content, because if we have it we can optimize network for future huge data (example - topic Test messages in that forum, another one - administration - admin of site can override TTL to zero - after that content should delete from other peers)",
+			"added": 1455808032
+		},
+		{
+			"topic_id": 4,
+			"title": "Thinking about search engine in zero network",
+			"body": "Some ideas inside",
+			"added": 1457638201
+		},
+		{
+			"topic_id": 5,
+			"title": "Google announce Python to GO compiler",
+			"body": "If it is work as google say, we can compile zeronet to binary and make them faster (and bring to android/ios) https://github.com/google/grumpy",
+			"added": 1483648002
+		}
+	],
+	"topic_vote": {
+		"1_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ": 1,
+		"18_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"3_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ": 1,
+		"3_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7": 1,
+		"1_1NMerKYwUayNpEZ35FxkzZch6kgoeFTWk": 1,
+		"1_1LnyrYbdxDU1K78nEYVZkfJ1Q4SYP1ukFV": 1,
+		"4_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7": 1,
+		"5_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": 1,
+		"43_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": 1,
+		"1_1UfvLnMuzShvi3phWGSqn79tio81Wn9Dt": 1,
+		"1_135FhWeyR5XiMwSgv2YfFheotfqYPkKnWj": 1,
+		"2_1Kgy2CdXdjNQSjK6pkLasWjmza9KQ1uZE4": 1,
+		"1_11pADbvn3XmFZ5sbM9ZANRb5Gv9igHLCF": 1,
+		"1_14fv4bZMEaK5kTUjad5k3FgcBymUbygupJ": 1,
+		"4_1BEyFJrKVaGLuogLirnrsa7yV2MXNvYpcp": 1,
+		"1_18jipjDsfAxAuq4ixbi2w24xJrYVfTYFPn": 1,
+		"1_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": 1,
+		"6_1C6qdRAX8iYqSB7TfUxk91yW8Y2SBKNgfA": 1,
+		"1_18GMgG7f7mYquJC1RCphMRLhMX1wsxzxff": 1,
+		"2_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": 1,
+		"1_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc": 1,
+		"1_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": 1,
+		"1_1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd": 1
+	},
+	"next_comment_id": 69,
+	"comment": {
+		"1_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ": [
+			{
+				"comment_id": 1,
+				"body": "О, тут оказывается много русских",
+				"added": 1455194288
+			},
+			{
+				"comment_id": 2,
+				"body": "@manrus знакомые люди, кажется )",
+				"added": 1455195611
+			},
+			{
+				"comment_id": 3,
+				"body": "Привет  @gomzik \n\nИнтересно сколько тут нас русскоговорящих, никто доки по zeronet не читал новые? раньше форум и пара мест работало централизовано, поправили?",
+				"added": 1455196189
+			},
+			{
+				"comment_id": 4,
+				"body": "есть где почитать? если это так то надо собрать полноценный единый  exe для винды и пост на хабре и полетит",
+				"added": 1455197139
+			},
+			{
+				"comment_id": 5,
+				"body": "я вкурсе, во время старого поста сеть была не распределенной, сейчас говорят лучше стало = нуже новый, бинарник понизит порог вхождения\n\nникто не хочет с pyinstaller покопатся?",
+				"added": 1455197542
+			},
+			{
+				"comment_id": 7,
+				"body": "> [zalex](#comment_41_1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS): А вообще, мое мнение таково, что пока нет особого смысла привлекать сюда юзверей. На данный момент. Им оно просто не надо, их мир часто ограничен вконтактиком и все. Сейчас нам нужно \"строить\" сеть, развивать её. И я не только про полезные фичи. Нам нужен контент. И пока что можно сильно не заморачиваться про юзверей. Кто оценит ZeroNet, тот его поставит без труда.Имхо, конечно.\n\nНу почему, живые люди это всегда хорошо, а если они тут будут будет и желание делать контент для них.",
+				"added": 1455200659
+			},
+			{
+				"comment_id": 8,
+				"body": "> [gomzik](#comment_19_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ): аааа, как много всего интересного!\n\nipfs на мобилках не взлетит. советую сразу думать о том, что может заработать на ios/android без рутов и извращений",
+				"added": 1455200802
+			},
+			{
+				"comment_id": 9,
+				"body": "> [zalex](#comment_42_1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS): Опыт показал, что юзверям если даже рассказать, то они не пойдут сюда. А если и пойдут, то не останутся. Я считаю, что на данном этапе развития стоит сфокусироваться на привлечении определённых категорий людей.\n\nпост на хабре это и есть определенные люди. \n\nИмхо, что бы сюда пошли более широкие круги людей нужна кроссплатформенность + контент\n\nPS удивился что ресурс всё еще работает 1FhhawHHvgLg5LS1w3w7DxT8KJSPihG9Cv",
+				"added": 1455201311
+			},
+			{
+				"comment_id": 10,
+				"body": "на тему того, что бы по нормальному по урлам можно было ходить, непонимаю почему никто не сделал враппер - в обычных интернетах оставлять ссылки вида zeronet://hash а сам клиент будет вешать обработку  этого протокола на себя и открывать его в браузере, profit, есть тут питонисты?",
+				"added": 1455201392
+			},
+			{
+				"comment_id": 11,
+				"body": "> [manrus](#comment_7_1NHZ2FfVkeCBzr2iS1cVnzf5xZfN4ZWEik): Я еще осенью пытался привести сюда людей с 2ch на http://127.0.0.1:43110/0chan.bitЧеловек 5 от силы написало пробный пост. Нужно улучшить функционал. И тогда может сработать. И обязательно удобство и простота установки/использования\n\nсам пилил это? как оно работает технически \nPS тут я заметил сделали какую-то местную почту, она работает? можно с кем-то потестить ?",
+				"added": 1455201441
+			},
+			{
+				"comment_id": 12,
+				"body": "> [gomzik](#comment_24_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ): А вообще, тут все такое вебдванольненькое. Реал тайм апдейты. Вкуснотища прям.\n\n\nНу так тебе не надо в коде разбиратся тебе нужно написать функцию которая будет вешать обработчик на вызов вот и всё =) можно еще issue создать и послушать что скажут на гитхабе. \n\nя вообще как посмотрел, проект ведет пару человек (судя по коммитам)",
+				"added": 1455202715
+			},
+			{
+				"comment_id": 13,
+				"body": "проверил, круто работает, но нехватает уведомлений",
+				"added": 1455202913
+			},
+			{
+				"comment_id": 14,
+				"body": "от фринета это отличается, нет шаринга файлов, хотя они наверно должны перейти в retroshare",
+				"added": 1455203860
+			},
+			{
+				"comment_id": 15,
+				"body": "я тоже отписал",
+				"added": 1455204060
+			},
+			{
+				"comment_id": 16,
+				"body": "Ну имхо надо выработать стратению к действию",
+				"added": 1455204074
+			},
+			{
+				"comment_id": 17,
+				"body": "Ну я бы не сказал про уникальные функции, в данный момент она меня подкупает уютностью, как и давно-давно началось всё с обычным интернетом",
+				"added": 1455204351
+			},
+			{
+				"comment_id": 18,
+				"body": "Нехватает на форуме редактора разметки добавления ссылок и вставки контента, оно где-как разрабатывается?",
+				"added": 1455205437
+			},
+			{
+				"comment_id": 19,
+				"body": "а смысл в поощрении сидирования если у  ресурсов на которые часто заходят и так всё будет хорошо с доступностью?",
+				"added": 1455216027
+			},
+			{
+				"comment_id": 20,
+				"body": "> [nippletwister](#comment_89_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): Я тоже про это подумал. Сидирование можно поощрять в зависимости от того, насколько редкО то, что сидируется. Вообще подобные идеи уже были у FileCoin, который планируется к запуску разработчиками IPFS.\n> Но монетки можно присваивать не только за сидирование, но и за выкладывание интересного контента, это называется экономикой внимания (см. валюту Synereo).\nУже всё есть https://github.com/NebulousLabs/Sia",
+				"added": 1455268908
+			},
+			{
+				"comment_id": 21,
+				"body": "> [nippletwister](#comment_94_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): Интересно можно ли эту Sia подключать как внешний жесткий диск для хранения Зеросайтов за денюжку? Оно уже работает, или пока демка только? Идея прикольная.\n\nхранение != сетевая доступность ресурса",
+				"added": 1455274446
+			},
+			{
+				"comment_id": 22,
+				"body": "На тему идей по сайтам, если сделают приватные сайты (впрос только как?) то можно филиал лепры открывать",
+				"added": 1455275181
+			},
+			{
+				"comment_id": 23,
+				"body": "> [zalex](#comment_46_1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS): ЗероХабр!\nНиже ссылку давали на сайт с цитатами - его можно реформировать в хабру. \n\nМеня всё вопрос по приватным сайтам мучает, как это реализовать возможно? на основе приватного торрента? ну ок, вылили в паблик и он будет публичный если только сделать что бы движок смотрел в какой-то файл и проверял подписи людей с дальнейшим приниманием решения о раздаче контента",
+				"added": 1455275691
+			},
+			{
+				"comment_id": 24,
+				"body": "> [zalex](#comment_47_1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS): Я полный ноль в JS, но разве не проще будет сделать многопользовательским ZeroBlog и возможность логиниться через ZeroID?\n\nВ блогах нет функций по +1 мультиюзера, а дизайн дело наживное =)",
+				"added": 1455276648
+			},
+			{
+				"comment_id": 25,
+				"body": "Кстати я заметил - P2P news flow это же раздел да?",
+				"added": 1455276669
+			},
+			{
+				"comment_id": 26,
+				"body": "работает не? http://127.0.0.1:43110/1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE/",
+				"added": 1455280819
+			},
+			{
+				"comment_id": 30,
+				"body": "бгг, по другим языкам темы начали появлятся",
+				"added": 1455484962
+			},
+			{
+				"comment_id": 38,
+				"body": "Апну что у нас есть своё уютненькое тут http://127.0.0.1:43110/1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE/ \n\ngomzik не хочешь в заголовок ссылку добавить?",
+				"added": 1457006614
+			},
+			{
+				"comment_id": 40,
+				"body": "И еще немного, Можно еще флаг ебануть что бы прямо видно было =) а то в общей ветке вижу много наших клиентов",
+				"added": 1457110159
+			},
+			{
+				"comment_id": 41,
+				"body": "> [request](#comment_2_137djEARJUyNEcwPXwXR7F7nwMAw8un5tJ): ДИАНОН, ТУТ ЖЕ ПРИВАТНОСТЬ ВАЖНА - ПРОВАЙДЕР ВИДИТ ТОЛЬКО КАШУ ШИФРОВАННОГО ТРАФИКА?\nи?",
+				"added": 1457112357
+			},
+			{
+				"comment_id": 59,
+				"body": "Для новоприбывших поднимаю [форум русскоговорящий тут](http://127.0.0.1:43110/1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE/)",
+				"added": 1457966494
+			}
+		],
+		"1_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7": [
+			{
+				"comment_id": 6,
+				"body": "because that resource is included in main distributive and it is popular.",
+				"added": 1455200425
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 27,
+				"body": "# test",
+				"added": 1455281921
+			},
+			{
+				"comment_id": 39,
+				"body": "русское сообщество поживает тут http://127.0.0.1:43110/1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE",
+				"added": 1457006686
+			},
+			{
+				"comment_id": 42,
+				"body": "Test",
+				"added": 1457172665
+			}
+		],
+		"1_1PPqTMbH8Uwrk496grUVuBk57dSoeU9hig": [
+			{
+				"comment_id": 28,
+				"body": "pros - can work on mobile (ipfs can't)\ni think that zeronet is all about services",
+				"added": 1455483924
+			}
+		],
+		"18_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 29,
+				"body": "+1",
+				"added": 1455484002
+			},
+			{
+				"comment_id": 31,
+				"body": "> [cgm616](#comment_24_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn): There is an upvote button btw. It would suck for this to turn into github issues.\n\nok, make issue =)",
+				"added": 1455485338
+			}
+		],
+		"3_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ": [
+			{
+				"comment_id": 32,
+				"body": "> [nofish](#comment_312_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Are you used the webui to sign the correct file? (data/users/content.json)Have you tried to restart your client?\n\ni have same problem, command <code>zeronet.py siteSign yoursiteaddress --inner_path data/users/content.json</code> help me! i think that command should be in docs or/and github",
+				"added": 1455538620
+			},
+			{
+				"comment_id": 33,
+				"body": "i have normal output but users don't get new content file: ` python zeronet.py siteSign 1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE --inner_path data/users/content.json\n- Starting ZeroNet...\n- OpenSSL loaded, version: 01000106F\n- Signing site: 1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE...\nSite:1Apr5b..6QgE Opening site data directory: data/1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE/data/users/...\nSite:1Apr5b..6QgE - [SKIPPED] content.json\nSite:1Apr5b..6QgE - [SKIPPED] zerotalk.db\nSite:1Apr5b..6QgE - [SKIPPED] 1NHZ2FfVkeCBzr2iS1cVnzf5xZfN4ZWEik/data.json\nSite:1Apr5b..6QgE - [SKIPPED] 1NHZ2FfVkeCBzr2iS1cVnzf5xZfN4ZWEik/content.json\nSite:1Apr5b..6QgE - [SKIPPED] 16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7/data.json\nSite:1Apr5b..6QgE - [SKIPPED] 16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7/content.json\nSite:1Apr5b..6QgE - [SKIPPED] 1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS/data.json\nSite:1Apr5b..6QgE - [SKIPPED] 1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS/content.json\nSite:1Apr5b..6QgE - [SKIPPED] 14NydP2LLY59TBYtWn61qJPuR7w7HizwjG/data.json\nSite:1Apr5b..6QgE - [SKIPPED] 14NydP2LLY59TBYtWn61qJPuR7w7HizwjG/content.json\nSite:1Apr5b..6QgE - [SKIPPED] 14kxkh1pLNYuCwCZ161HCQkSjvWW29ybNz/data.json\nSite:1Apr5b..6QgE - [SKIPPED] 14kxkh1pLNYuCwCZ161HCQkSjvWW29ybNz/content.json\nSite:1Apr5b..6QgE - [SKIPPED] 1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ/data.json\nSite:1Apr5b..6QgE - [SKIPPED] 1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ/content.json\nSite:1Apr5b..6QgE - [SKIPPED] 1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf/data.json\nSite:1Apr5b..6QgE - [SKIPPED] 1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf/content.json\nSite:1Apr5b..6QgE - [SKIPPED] 18iELxgQf2hpjFuBofjEJyuvVazJt2ekSp/data.json\nSite:1Apr5b..6QgE - [SKIPPED] 18iELxgQf2hpjFuBofjEJyuvVazJt2ekSp/content.json\nSite:1Apr5b..6QgE Adding timestamp and sha512sums to new content.json...\nSite:1Apr5b..6QgE Verifying private key...\nSite:1Apr5b..6QgE Correct 1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE in valid signers: ['1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE']\nSite:1Apr5b..6QgE Signing data/users/content.json...\nSite:1Apr5b..6QgE Saving to data/users/content.json...\nSite:1Apr5b..6QgE File data/users/content.json signed!`",
+				"added": 1455545460
+			}
+		],
+		"2_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7": [
+			{
+				"comment_id": 34,
+				"body": "ok, i find how to [do that ](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1L8UURA9tgSn2XcRxtpCRJYCQm5S9ELh2Y/How+do+you+create+sticky+posts+and+news+flows)",
+				"added": 1455647032
+			}
+		],
+		"3_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7": [
+			{
+				"comment_id": 35,
+				"body": "> [nofish](#comment_334_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):\n> But the owner able to create a simple script that archives/deletes old messages.\n\nHow it is possible if content were signed with not owner sign ? \n\n> [nofish](#comment_334_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):\n>It would be possible, but only for whole files (after x time all of your messages will be deleted), so it's not suitable to solve the sites with many messages problem.\n\nWhy? in zero talk  /data/users/user/data.json i see\n>\"comment_id\": \n>\"body\": \"some text\",\n>\"added\": 1455394379\n\n\"added\" looks like timestamp. Network can do self-maintaining every X days/content counts - scan json files, remove old content every node can do it itself without propagating to others.",
+				"added": 1455818923
+			},
+			{
+				"comment_id": 36,
+				"body": "> [gomzik](#comment_59_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ): But you cant erase data from that json, because it signed by user\n\nYep, but if we have TTL every node can erase old content by itself",
+				"added": 1455819286
+			},
+			{
+				"comment_id": 37,
+				"body": " i talk about if all posts have TTL not i add TTL to them and if core support self cleanup...",
+				"added": 1455820818
+			}
+		],
+		"1_1QH8SFnofdxLUZh5aqy1EgEms1UZAsemVD": [
+			{
+				"comment_id": 43,
+				"body": "Много нас, да и свой форум есть http://127.0.0.1:43110/1Apr5ba6u9Nz6eFASmFrefGvyBKkM76QgE/",
+				"added": 1457173706
+			},
+			{
+				"comment_id": 44,
+				"body": "По блогам походите на мимджборду или в /gif зайдите, ну и зацените крутой глобус если потянуть иконку 0 справа сверху на лево =)",
+				"added": 1457175345
+			}
+		],
+		"4_1EUyJtat7mbu5wMcR6nrJTPBBRons1mtMA": [
+			{
+				"comment_id": 45,
+				"body": "Yep, dont close python server =) \n",
+				"added": 1457175506
+			}
+		],
+		"2_15ymkjUYJS6tjUC35AekGMExZMN6iks8ma": [
+			{
+				"comment_id": 46,
+				"body": "> [nofish](#comment_422_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I think I was able to create a bundle for mac (no need to install anything, just unpack and run). Please help me verify it's working: https://github.com/HelloZeroNet/ZeroBundle/releases/download/0.1.1/ZeroBundle-mac-v0.1.1.zip\n> \n> (Close ZeroNet if already running for you)\n> Download, unpack, run ZeroNet(.app)\n> \n> It should download the latest version from github, start it and open ZeroHello in the browser.\n> Please also check http://127.0.0.1:43110/Benchmark if everything is ok. (no errors, openssl verify is working, the python version should be 2.7.11)\n> Thanks!\n\nPack all resources in one name.app folder =)",
+				"added": 1457200917
+			}
+		],
+		"1_13qeq1z87R1kQWDZUQYm3y7tDCLimnhfvS": [
+			{
+				"comment_id": 47,
+				"body": "This forum have upload function, maybe it can help you also http://127.0.0.1:43110/1C2JhCunGLtvyX56nQ88tcb87WnXspjWN",
+				"added": 1457201149
+			}
+		],
+		"1_1PtoWgfjhzMK8qz1eTVG3QsawNQ4DL8c8Y": [
+			{
+				"comment_id": 48,
+				"body": "am i right? zero mail = bit message ?",
+				"added": 1457216927
+			}
+		],
+		"1_1NMerKYwUayNpEZ35FxkzZch6kgoeFTWk": [
+			{
+				"comment_id": 49,
+				"body": "Большинство на локальном форуме тусят",
+				"added": 1457437201
+			},
+			{
+				"comment_id": 50,
+				"body": "> [musickiller](#comment_50_15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ): Russians everywhere http://risovach.ru/upload/2013/10/generator/bas-i-vudi_32586227_orig_.jpeg\n\n¯\\(°_o)/¯",
+				"added": 1457451119
+			}
+		],
+		"1_1PrEU3jo5aME6pebitM8DJ3Pm4KnsmzfpT": [
+			{
+				"comment_id": 51,
+				"body": "Привет",
+				"added": 1457547367
+			}
+		],
+		"4_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7": [
+			{
+				"comment_id": 52,
+				"body": "Search engine base on javascript/servers (like zero search) is bad idea for that network, i advice you look to Yacy but only to technology of yacy search. If we make search plugin for zeronet (python) it can indexes all user sites ( sites what user seeds) and broadcast index to DHT network (like yacy do) and that plugin should have zero api, so if you want to find some information in network you send request to DHT and recursively find what you want (like yacy do). \n\nWith this architecture we have:\n1) Scalable\n2) Everyone can make own search engine with different features\n3) Super fast search on sites that you downloaded",
+				"added": 1457638580
+			},
+			{
+				"comment_id": 53,
+				"body": "> [basxto](#comment_23_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k): bad thing: you can't find new sides this way and that is sometimes the intention behind using a search engine\n\nYou can, look to yacy or twister search all of them uses DHT recursive search",
+				"added": 1457649142
+			},
+			{
+				"comment_id": 54,
+				"body": "> [kaffie](#comment_65_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): This won't happen. I was talking with nofish about crawling sites. He doesn't want anything that could automatically 'reveal' sites that may be intentionally hidden. So any sort of crawling, or DHT searching, or w/e is off limits. Which means a few things: 1) it won't ever be included as a python script, meaning it has to be JS, or a separate download. 2) It won't have native support, meaning that the results would be inherently limited. 3) There's still no way to grab content, making the search practically useless.\n> I think the actual future of the search engines is probably going to be merger-sites, where various site indexes link out their list of sites, search engines grab and merge those, and then search through them. That way, users can select which indexes they want to search through, sites can be added by any participating peer, and it still works in the manner that's intended by ZeroNet.\n\nIf main problem - private sites that should be hidden maybe use same thing as robot.txt to block search on that sites and also if site private (how i know - we can get that feature in the future) it don't indexing at all. P2P search better than no search and also, search engine can help network growing",
+				"added": 1457688081
+			}
+		],
+		"3_15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ": [
+			{
+				"comment_id": 55,
+				"body": "to bring this you need:\n1) Make mobile version of zeronet\n2) Add multipeer framework from (apple/android) to project \n3) You're done",
+				"added": 1457706734
+			}
+		],
+		"1_12uS7AbHMQEc4YKxoPpASsmDSy6fRtEhrw": [
+			{
+				"comment_id": 56,
+				"body": "nofish, plz add this to manual it is common question",
+				"added": 1457706807
+			}
+		],
+		"5_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": [
+			{
+				"comment_id": 57,
+				"body": "cool project, make github repo for them, i think many devs can help you with them",
+				"added": 1457962187
+			},
+			{
+				"comment_id": 60,
+				"body": "> [basxto](#comment_41_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k): and as always the Russians are rushin' ahead\nWe preparing for China firewall analog in our country =)",
+				"added": 1458023833
+			}
+		],
+		"2_1NyFX6DUcyMs3S76Vz8X7ssDLC4uCCA1YM": [
+			{
+				"comment_id": 58,
+				"body": "Сайт бы сделали на местных блогах а не отсебятину, вырвиглазно же",
+				"added": 1457965171
+			}
+		],
+		"43_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": [
+			{
+				"comment_id": 61,
+				"body": "If zeronet can break china firewall - it is very good potential for growing",
+				"added": 1461168344
+			},
+			{
+				"comment_id": 63,
+				"body": "> [erkan](#comment_142_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf): To all of you who say ZeroNet can not be blocked/shutdown/...:\n> did you see yet G011 from ZeroSecurity?If I were the Chinese government, I'd start by blocking/redirecting those 8 trackers first.\n\nthats why we need DHT in network",
+				"added": 1461228090
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 62,
+				"body": "@nofis, add link too zero wiki to post, wiki also have useful info http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:home",
+				"added": 1461168721
+			}
+		],
+		"4_1BEyFJrKVaGLuogLirnrsa7yV2MXNvYpcp": [
+			{
+				"comment_id": 64,
+				"body": "... and check across all sites if we already have that file - just copy make link to them if filesystem...",
+				"added": 1480158598
+			}
+		],
+		"1_1BVc1i4Be8EHyQrYcxMxQiTvFzKCzstuKN": [
+			{
+				"comment_id": 65,
+				"body": "Очень просто, начните с 127.0.0.1 и конечно не стоит забывать ::1 \n:D",
+				"added": 1480404960
+			},
+			{
+				"comment_id": 66,
+				"body": "for english (not Russian users) - this topic is joke about Russian censoring government company - 'roskomnadzor'",
+				"added": 1480406548
+			}
+		],
+		"1_18GMgG7f7mYquJC1RCphMRLhMX1wsxzxff": [
+			{
+				"comment_id": 67,
+				"body": "Golang version of zeronet can work on ios/android..",
+				"added": 1481036153
+			}
+		],
+		"12_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 68,
+				"body": "> [p2p](#comment_256_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): interesting！Probably we can use pure JS running ZeroNet in browser over WebRTC, without install anything.\n\nOnly in browser - very heavy load",
+				"added": 1484770852
+			}
+		]
+	},
+	"comment_vote": {
+		"300_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"6_16bxMyoL49mWYhcZKBYVBT5zEFW9SQpiao": 1,
+		"1_1LJP7tDoGnWNppUGJoNS8cJbmYTS1TecCC": 1,
+		"17_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k": 1,
+		"488_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"114_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"124_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"41_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k": 1,
+		"29_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"42_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": 1,
+		"1_1DjezZz4h4amzFHeeq1cMJzWfNCnHcamby": 1,
+		"224_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"2_1BSdtt43kEFpFXqY7Le3tJkC6wWSrsXryh": 1
+	}
+}

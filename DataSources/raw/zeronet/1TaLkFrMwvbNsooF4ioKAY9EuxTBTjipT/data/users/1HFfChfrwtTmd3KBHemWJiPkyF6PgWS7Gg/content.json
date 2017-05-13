@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HH/Al9C8rIBir2QpMVBLSt8w67N1oH9ZbGiTz9ogewe2h4YDGKotLCvV/Cjjd7FMDCeciwkpPzZBVQgADquRAzE=",
+ "cert_user_id": "psychoanalysis@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "3d7e1a9b5a4f2b3bde4ea2d5bc42803cffa5c14e2740f05d0c286b8f552ace6d",
+   "size": 520
+  }
+ },
+ "inner_path": "data/users/1HFfChfrwtTmd3KBHemWJiPkyF6PgWS7Gg/content.json",
+ "modified": 1475135832.551052,
+ "signs": {
+  "1HFfChfrwtTmd3KBHemWJiPkyF6PgWS7Gg": "HG2dc/KGyEQHV1Od+gHsWlwInTerFumafTNTGYkpXxJ1isk+TC4/0kDeWd5a9BAOJcPyL47y0A8E3143XewroHI="
+ }
+}

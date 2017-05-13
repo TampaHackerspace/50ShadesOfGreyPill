@@ -1,0 +1,45 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Privacy and anonymity?",
+			"body": "if Tor is not activated by default here in Zeronet, so how privacy and Anonimity is managed ?",
+			"added": 1463316319
+		},
+		{
+			"topic_id": 2,
+			"title": "P-2-P",
+			"body": "Hello,\nWho agrees with me that ZeroNet is not really Peer-to-Peer \nBecause we connect and pass by a Tracker and if there is not a Tracker, we won't have the conection\nMy point of view, it is semi Peer-to-peer\nbefore anwser read this presenttion on page \"7\" https://docs.google.com/presentation/d/1_2qK1IuOKJ51pgBvllZ9Yu7Au2l551t3XBgyTSvilew/pub?start=false&loop=false&delayms=3000#slide=id.g9a3b93883_1_0 \nLets keep it realistic discussion",
+			"added": 1467749014
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 4,
+	"comment": {
+		"1_12zyC2je1V8Sfq6C5d6CSzUkjYf4bEdva4": [
+			{
+				"comment_id": 1,
+				"body": "> [nofish](#comment_655_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): you can easily hide your ip using Tor\n\nNo that is not the question, if I don't use Tor, would surfing here in ZeroNet respects my anonymity ?",
+				"added": 1463400484
+			}
+		],
+		"1_18ZbdG9rMgLWzfFrWMkyGXtSv7MyPfUuSj": [
+			{
+				"comment_id": 2,
+				"body": "can we download with Torrent while we have a proxy network or a VPN ? that may be too slow, right ?\nThx",
+				"added": 1472395431
+			}
+		],
+		"2_17d3S7saDQP5phkkWS9F7tMJTymqLCQmig": [
+			{
+				"comment_id": 3,
+				"body": "how do u know its annonymous ? can u prove it ?",
+				"added": 1477140206
+			}
+		]
+	},
+	"comment_vote": {
+		"659_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

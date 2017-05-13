@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G5SXyVNrzlGVHphc17L9bbMBDHqY4MOGnOnlQ04rTH3DwpAMFRGmyhXXhV4HBew31/eeyrISdpSObzqvvdI2W90=",
+ "cert_user_id": "monyinet@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "9c070bffd96397c52b7399a5a929908b32b4159ac3d4050ba6bae21a3a6720fb",
+   "size": 1187
+  },
+  "data.json": {
+   "sha512": "48272ab4077a39ac3cea7cc7fbea563538fd998c63d8980f7f5acc4b9018ad64",
+   "size": 475
+  }
+ },
+ "inner_path": "data/users/1Mk7Gi6FQk7qd2UarAMcK3z8zZ85gLn4mS/content.json",
+ "modified": 1490718185,
+ "signs": {
+  "1Mk7Gi6FQk7qd2UarAMcK3z8zZ85gLn4mS": "G+djyaGRTUfOt0jUw3NnYI+qdcPjh3/YwS+eliOanJPxGgjNUdWBOrLZEMUrhvE+t/XgvmAJG0ennhQQ7c7KeBY="
+ }
+}

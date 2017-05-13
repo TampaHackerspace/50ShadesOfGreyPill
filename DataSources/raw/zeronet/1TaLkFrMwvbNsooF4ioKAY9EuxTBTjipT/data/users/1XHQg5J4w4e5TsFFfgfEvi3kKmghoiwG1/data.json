@@ -1,0 +1,21 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "Hi, where is the source for \"zeronet.cmd\" that gets installed in the windows startup folder when you install? \n\nThere's a slight bug I'd like to make a pull request. The cmd window that sets the codepage stays open on Windows10 Server for some reason.",
+				"added": 1487619878
+			},
+			{
+				"comment_id": 2,
+				"body": "> [nofish](#comment_883_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It's there: https://github.com/HelloZeroNet/ZeroNet/blob/master/plugins/Trayicon/TrayiconPlugin.py#L140\n\nI have made a new pull request on github, it was several characters fix.",
+				"added": 1487708270
+			}
+		]
+	},
+	"comment_vote": {}
+}

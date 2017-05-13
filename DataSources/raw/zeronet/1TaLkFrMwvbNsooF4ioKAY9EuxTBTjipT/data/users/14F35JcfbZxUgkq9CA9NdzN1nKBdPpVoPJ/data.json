@@ -1,0 +1,20 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"2_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"1_188bMdEPhk3gH5sWJogu54DXRHwehkpVoc": 1,
+		"1_1C9HXUYFSVafLxanwkaFPZRcRgCEGsj2Cn": 1
+	},
+	"next_comment_id": 2,
+	"comment": {
+		"1_16bYoVV4ZHBY4kA416cTDvU1ZpjcLNkavi": [
+			{
+				"comment_id": 1,
+				"body": "Let's be serious, if you're on zeronet you're knowledgeable enough to set one up on a VPS as others have recommended. Packages like Algo and Streisand hold your hand through the entire process, and having a your own host avoids being blocked by VPN blacklists. Sans promotion, I think OVH has the cheapest machines out of the big providers, but it lacks support for automatically deploying machines with the aforementioned packages.",
+				"added": 1494139187
+			}
+		]
+	},
+	"comment_vote": {}
+}

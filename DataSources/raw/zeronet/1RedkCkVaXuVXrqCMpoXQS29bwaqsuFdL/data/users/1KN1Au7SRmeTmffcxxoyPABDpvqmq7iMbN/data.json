@@ -1,0 +1,166 @@
+{
+	"next_post_id": 21,
+	"next_comment_id": 8,
+	"next_follow_id": 2,
+	"avatar": "png",
+	"user_name": "Antilibrary",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"intro": "[Antilibrary.bit](/antilibrary.bit): Your unread books",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1472464343,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1480018125,
+			"body": "[Antilibrary.bit](/antilibrary.bit): Your unread books",
+			"date_added": 1480018123
+		},
+		{
+			"post_id": 1480026407,
+			"body": "**[Antilibrary.bit](/Antilibrary.bit) Updated:**\n\n- +22900 new books added\n- Pagination added to list of latest books\n",
+			"date_added": 1480026404
+		},
+		{
+			"post_id": 1480540993,
+			"body": "**[Antilibrary.bit](/Antilibrary.bit) Bug fix:**\n\n- Bug on the goodreads import fixed. If you imported your goodreads export CSV you will need to re-import it or the 'Pending' books won't be added by our systems into the database. \n\nSorry about this. :(\n",
+			"date_added": 1480540989
+		},
+		{
+			"post_id": 1480803837,
+			"body": "**[Antilibrary.bit](/Antilibrary.bit) Updated:**\n\n- Request books that are offline: You can now ask for offline books to be seeded. After requested, the book file may take from 10h to 24h to get online. You will be notified when this happens on your Antilibrary homepage.\n- New books are now added many timer per day (this should not increase your network traffic but let me know if it does)\n",
+			"date_added": 1480803832
+		},
+		{
+			"post_id": 1480866389,
+			"body": "**[Antilibrary.bit](/Antilibrary.bit) Updated:**\n\n- Chinese books database added.",
+			"date_added": 1480866383
+		},
+		{
+			"post_id": 1482358290,
+			"body": "We are having issues with our seedbox. This may affect the download of some files. The issue should be sorted soon.\n\nThis type of problem can be avoided once we have enough people donating bandwidth. If people help to seed the files on IPFS we won't have a single point of failure.  Check our About page if you want to help.",
+			"date_added": 1482358283
+		},
+		{
+			"post_id": 1482389979,
+			"body": "'In Antoine de Saint Exupéry's tale the Little Prince meets a businessman who accumulates stars with the sole purpose of being able to buy more stars. The Little Prince is perplexed. He owns only a flower, which he waters every day. Three volcanoes, which he cleans every week. \"_It is of some use to my volcanoes, and it is of some use to my flower, that I own them,\" he says, \"but you are of no use to the stars that you own_\".\nThere are many businessmen who own knowledge today. ...'\n\nRead the full letter: [In solidarity with Library Genesis and Sci-Hub](http://custodians.online/)",
+			"date_added": 1482389971
+		},
+		{
+			"post_id": 1483478395,
+			"body": "_\"I was receiving preprints long before graduate students further down the food chain,\" Ginsparg recalls. **\"When we have success we like to think it was because we worked harder, not just because we happened to have access.\"**_\n\nFrom: [Library-managed 'arXiv' spreads scientific advances rapidly and worldwide](http://ezramagazine.cornell.edu/FALL12/CoverStorySidebar2.html)",
+			"date_added": 1483478386
+		},
+		{
+			"post_id": 1486230894,
+			"body": "http://telegra.ph/Antilibrarybit-02-04\n\nSpreading the word.",
+			"date_added": 1486230884
+		},
+		{
+			"post_id": 1486584648,
+			"body": "_“Copyright, specially in literary works, is thus not an inevitable, divine, or natural right that confers on authors the absolute ownership of their creations. It is designed rather to stimulate activity and progress in the arts for the intellectual enrichment of the public.”_\n\nFrom: [The Delhi University case: equity in education more important than copyrights](http://www.communia-association.org/2017/02/03/delhi-university-case-equity-education-important-copyrights/)",
+			"date_added": 1486584637
+		},
+		{
+			"post_id": 1487054632,
+			"body": "[How Piracy Became a Cause Celebre in the World of Academics](https://motherboard.vice.com/en_us/article/academic-piracy-elsevier-sci-hub)",
+			"date_added": 1487054620
+		},
+		{
+			"post_id": 1487447294,
+			"body": "[Top Hat Raises $22.5 Million to Go After Pearson, McGraw-Hill](https://www.bloomberg.com/news/articles/2017-02-15/top-hat-raises-22-5-million-to-go-after-pearson-mcgraw-hill)",
+			"date_added": 1487447281
+		},
+		{
+			"post_id": 1488401320,
+			"body": "As some of you may have noticed the zite updates and book requests fulfilment are currently interrupted. \nThese should return to normality soon.\nSorry about that. \nWe will be making changes to avoid interruptions like this from happening again.",
+			"date_added": 1488401306
+		},
+		{
+			"post_id": 1489040723,
+			"body": "**[Antilibrary.bit](/Antilibrary.bit) Updated:**\n\n- All book descriptions are now compressed. This reduced the size of the English books database by 40%!\n- The backend scripts have been updated to allow a faster file request response (when you request a book file that is not currently online). It used to take up to 24h for a file to be posted online once requested, now it should take up to 1h. (this will be reduced even further in the near future)\n\nPlease let me know if you find any issues.\n\n**Coming up next:**\n\n- Book submission: Users will be able to add their own books into the database. (ETA: ~1 month)",
+			"date_added": 1489040708
+		},
+		{
+			"post_id": 1489315171,
+			"body": "**[Want to live longer? Read a book!](http://www.sciencedirect.com/science/article/pii/S0277953616303689)**\n\n\"*A 20% reduction in mortality was observed for those who read books, compared to those who did not read books. Further, our analyses demonstrated that any level of book reading gave a significantly stronger survival advantage than reading periodicals.*\"\n\n[Full study](http://sci-hub.cc/10.1016/j.socscimed.2016.07.014)",
+			"date_added": 1489315155
+		},
+		{
+			"post_id": 1489560510,
+			"body": "**How does Antilibrary works?**\n\n**Adding books:** Books can be added by anyone (wip). New books will be added to a separated database. Antilibrary will scan that database for new books and when a new book is found it will download the file from the user, download the metadata from the openweb, test the file to make sure it is a book and free of malware or viruses and then add the book to the main database.\n\n**Downloading ebooks:** Given that our currently backlog of books to add to the site is ~25TB we could not possibly keep all of that always online for download. What we do instead is, we keep the files offline using different ways (eg: cloud drives, hard drive space donated by users, etc) and when a user requests a file to be downloaded, Antilibrary will receive the request, get the file from where it may be and upload it to a seedbox where IPFS is running. Then the user will be notified (he will see a notification message next time he opens Antilibrary.bit). This whole process takes up to 1h.\n\n**Editing books metadata:** We want Antilibrary to be everyone's library. All control for the library content will be shared among trusted peers. The moderation features (eg: removing/editing books, etc) are not in place yet, but they are planned. If you want to be a moderator please email us so you can help us with feedback on how to best implement the moderation features.",
+			"date_added": 1489560493
+		},
+		{
+			"post_id": 1490651863,
+			"body": "**We're bigger than the Library of Alexandria!**\n\n[Antilibrary](/antilibrary.bit) has just surpassed **500K books**! \nThat's more books than the ancient [Library of Alexandria](https://en.wikipedia.org/wiki/Library_of_Alexandria) supposedly had.\nOur books are divided in  7 different languages and more will be added in the following months.\nAll books are available for download within 1h (we want to reduce this time to zero).\n\nWe want to keep growing the collection and giving access to all written knowledge that currently lives behind paywalls.\n\nThis is just day one for Antilibrary. \n\n**The library is dead. Long live the personal Antilibrary!**",
+			"date_added": 1490651845
+		},
+		{
+			"post_id": 1492376938,
+			"body": "**[Antilibrary.bit](/Antilibrary.bit) Updated:**\n\n- **eBook upload** (experimental): You can now upload your own ebooks files into antilibrary. Just go to *My Books* in your Antilibrary and then *Upload ebook*. \n\nIn the current implementation you need to host the ebook file on IPFS so it can be downloaded by antilibrary, we will then host the file in our servers.\n\nThis version of the ebook upload is suited for people who want to upload lots of files programmatically. A next version will support ebook uploads using native ZeroNet file upload.\n\nPlease let me know if you find any issues.",
+			"date_added": 1492376919
+		},
+		{
+			"post_id": 1493099535,
+			"body": "[Torching the Modern-Day Library of Alexandria](https://www.theatlantic.com/technology/archive/2017/04/the-tragedy-of-google-books/523320/)\n\n_\"It was strange to me, the idea that somewhere at Google there is a database containing 25-million books and nobody is allowed to read them. It’s like that scene at the end of the first Indiana Jones movie where they put the Ark of the Covenant back on a shelf somewhere, lost in the chaos of a vast warehouse. It’s there. The books are there. People have been trying to build a library like this for ages—to do so, they’ve said, would be to erect one of the great humanitarian artifacts of all time—and here we’ve done the work to make it real and we were about to give it to the world and now, instead, it’s 50 or 60 petabytes on disk, and the only people who can see it are half a dozen engineers on the project who happen to have access because they’re the ones responsible for locking it up.\"_\n\nGreat read for all book lovers!",
+			"date_added": 1493099515
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Silencer: I've noticed that error as well but I can't find any debug information. I'll give it another look and file a bug on zeronet if it is the case.\nFor the cover, I'm currently using whatever is on goodreads. In the future users will be able to correct the books information. Thanks for pointing it out anyway. Maybe there's a way to set the correct cover on goodreads?",
+			"post_uri": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1480540993",
+			"date_added": 1480698656
+		},
+		{
+			"comment_id": 2,
+			"body": "@Flyman: After you merge the database it takes some minutes until the database is rebuilt by zeronet. It should work after 5-10minutes. Please let me know if it doesn't.",
+			"post_uri": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1480803837",
+			"date_added": 1480843828
+		},
+		{
+			"comment_id": 3,
+			"body": "@ks: I'm not sure if I understand your question.\nWe just use goodreads as to normalize the libgen database. Currently users can't add books to the database.",
+			"post_uri": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1480803837",
+			"date_added": 1480857199
+		},
+		{
+			"comment_id": 4,
+			"body": "@ks: That's actually covered on the paper:\n\n*The mediation analyses showed for the first time that the survival advantage was due to the effect that book reading had on cognition. The adjustment for baseline cognition makes it unlikely that higher cognitive level causing increased reading was driving the mediation. We found that book reading did not mediate the relationship between cognition and survival, so there was not a reverse causality effect. That is, as predicted, cognition mediated the relationship between reading and survival but reading books did not mediate the relationship between cognition and survival. This finding suggests that reading books provide a survival advantage due to the immersive nature that helps maintain cognitive status.*",
+			"post_uri": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1489315171",
+			"date_added": 1489439078
+		},
+		{
+			"comment_id": 5,
+			"body": "@ulrichard: You definitely have a valid point with which I totally agree. Some authors are already working with the [pay what you want](https://en.wikipedia.org/wiki/Pay_what_you_want) model and some just give ebooks for free because they know it may increase sales for physical books.\nAntilibrary doesn't want to become a store. What it wants instead is to **give access** to the knowledge contained in books. Unlike what happens with entertainment or music, free ebooks are taken as 'free samples'. That is, people that consume free ebooks is people who would not have purchased the book in first place, but after reading a *pirated* book may end up purchasing a hard copy. If you google about the subject you will see that there's evidence to both outcomes (piracy hurting sales vs piracy increasing sales).\nThere is much more investment from the part of the reader on a book than on a movie for example. If the book is good the reader will be compelled to read more from that author and probably support the author. It's a deeper connection between creator and consumer.\nBut you made a good point. I'll make sure I add something to the site saying that supporting authors is probably the most important thing readers can do when they enjoy a book. \n\n\n@P2P: no need to run IPFS. The files are downloaded through the public IPFS gateway. All you need to do is to rename the files after the download.\n ",
+			"post_uri": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1489560510",
+			"date_added": 1489607954
+		},
+		{
+			"comment_id": 6,
+			"body": "@Jayofthezero: Thanks for reporting both issues.\nThe first problem is sorted. For some reason the seedbox was restarted (never happened before). I'll do something to avoid that in the future.\nThe second problem must be due to the quantity of books related to math. This should be solved once I implement pagination on the search results.",
+			"post_uri": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1490651863",
+			"date_added": 1490767363
+		},
+		{
+			"comment_id": 7,
+			"body": "@Sirenyc: Not yet. This is the next feature that will be implemented.",
+			"post_uri": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1490651863",
+			"date_added": 1491340895
+		}
+	],
+	"follow": [],
+	"settings": {
+		"reverse_comment_order": false,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"blocked": [],
+	"flags": {},
+	"comment_like": {}
+}

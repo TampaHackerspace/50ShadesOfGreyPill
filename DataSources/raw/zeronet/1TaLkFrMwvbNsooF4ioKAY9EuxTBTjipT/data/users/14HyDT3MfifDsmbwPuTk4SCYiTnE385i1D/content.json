@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G6DqkF9cRyN/uFslqDqY2XM0ei+vhpWcUoc6KfP1bAkEvThd212rLoOzrr4QUpBa3c6xhYZ8rxF/Nmg89zJDyUI=",
+ "cert_user_id": "malwarea@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d14be04c33b5df1d3c2f215c0acdd687aadc37a8c13045e5d91fbb8a16d94032",
+   "size": 288
+  }
+ },
+ "inner_path": "data/users/14HyDT3MfifDsmbwPuTk4SCYiTnE385i1D/content.json",
+ "modified": 1475714663.226187,
+ "signs": {
+  "14HyDT3MfifDsmbwPuTk4SCYiTnE385i1D": "G9bopJ6gv1FWMMC9MdHaisRJ19kAnqfJUTlofEiDFZLbrE8bJ6pi37XbCthEtXRzc61yw0aA7MwnJkCY4VXZqqQ="
+ }
+}

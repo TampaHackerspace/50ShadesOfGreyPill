@@ -1,0 +1,37 @@
+{
+	"next_post_id": 4,
+	"next_comment_id": 1,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Tuhand",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1482625044,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1482625086,
+			"body": "Sup Bitches",
+			"date_added": 1482625084
+		},
+		{
+			"post_id": 1482789915,
+			"body": "So is this going to be the new facebook type shit?",
+			"date_added": 1482789912
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "16pD8FqQAcr4sSzUJqUrRYtM35N5JeVbbv",
+			"user_name": "Zeroxu",
+			"date_added": 1482633400
+		}
+	]
+}

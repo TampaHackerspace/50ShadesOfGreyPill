@@ -1,0 +1,243 @@
+{
+	"next_topic_id": 5,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "I can't open my 15441 port...",
+			"body": "I have tried ALL (in ubuntu), Gufw, Ufw, terminal, and nothing works... This happen since I could configure my connection to use Zeronet and firewall through VPN...",
+			"added": 1448215429
+		},
+		{
+			"topic_id": 2,
+			"title": "How to add comments to html5 template in Zeronet",
+			"body": "I am trying to put a comment side into my zeronet webpage (in html5). How can I do this? (I have a low level in programs and computers...)\n\nThanks to all :)",
+			"added": 1460861144
+		},
+		{
+			"topic_id": 3,
+			"title": "Has anyone the same error? [content.json modify is in the future!]",
+			"body": "I have installed ZN in a Raspberry Pi (Raspbian - Jessie) and when I launch ZN this error appear for Zeroname Site: \"content.json modify is in the future!\" and no one page charge in the begining.",
+			"added": 1472587974
+		},
+		{
+			"topic_id": 4,
+			"title": "Support p2p music client",
+			"body": "### **Do you want an app like soundcloud or Spotify using p2p protocol?**\n\nTorrenttunes is the solution, try here http://torrenttunes.tk/ (not many seeders for now) support and develop this great software.\n\n\n*If you want a distributed internet, use distributed and p2p tools*",
+			"added": 1473704488
+		}
+	],
+	"topic_vote": {
+		"1_1FHS5V4FmPFyJQspXVNB3gDVPd3JyjHCv7": 1,
+		"1_12gppTfEoyX6PuQV1bZqoseLmk2Sn4eMtJ": 1,
+		"1_1acYbek83HRNEiAuGSuiDtEbkPXECdX23": 1,
+		"2_1LPrQCYEyVA3Pz3gEVEf7Qc2z12QGNCSbd": 1,
+		"2_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"1_1KCg4tQ1dBRfMWZ8ptrqXSSUKKR11rYb6P": 1,
+		"7_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"10_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"3_164W1rFVD9Bm7poGJWvjVUjvkbhhFC5nnt": 1,
+		"1_13MUkdCRgz1jXmufWdvJn5qgRrwhrWNYbK": 1,
+		"2_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"4_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1
+	},
+	"next_comment_id": 29,
+	"comment": {
+		"1_1FHS5V4FmPFyJQspXVNB3gDVPd3JyjHCv7": [
+			{
+				"comment_id": 1,
+				"body": "Hola hola, hasta ahora llego a explorar estos excelentes lugares... hagamos una comunidad en español muy grande!",
+				"added": 1448165546
+			}
+		],
+		"3_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": [
+			{
+				"comment_id": 2,
+				"body": "New site! Sharing books on zeronet http://127.0.0.1:43110/13NS3rSzCTpAYtH997rphfZDaWRypyjwnU :D",
+				"added": 1448230139
+			}
+		],
+		"1_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT": [
+			{
+				"comment_id": 3,
+				"body": "> [phezu](#comment_4_1GQgd9YDKghg4KKrerR7nfUdDfqj1WatLL): The port closed for me while I tried using a VPN with Zeronet too since it also doesn't work through TOR either even though this is a planned future feature.\n\nThanks :)",
+				"added": 1449967483
+			},
+			{
+				"comment_id": 4,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_58_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): your vpn have port forwarding?\n\nI don't know exactly, is P I A",
+				"added": 1449967528
+			}
+		],
+		"1_1Dg5EwremnCBAkBQSVoXcL4Mp2eSUuCRvn": [
+			{
+				"comment_id": 5,
+				"body": "Hola hola :)",
+				"added": 1457211297
+			}
+		],
+		"2_1Frg5nFndHFkmUaaGK7Qr46dRLX8a2BhBT": [
+			{
+				"comment_id": 6,
+				"body": "> [nofish](#comment_599_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Multiuser plugin should work:\n> \n> Stop ZeroNet\n> Backup users.json\n> Rename plugins/disabled-Multiuser to plugins/Multiuser\n> Create zeronet.conf where your zeronet.py is with content:[global]\n> multiuser_local\n> \n> Start ZeroNet\n> \n> You can login to your previous identity using the master_seed in users.json (use Logout button on ZeroHello page)\n\nThanks!",
+				"added": 1460861222
+			}
+		],
+		"2_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT": [
+			{
+				"comment_id": 7,
+				"body": "> [oracle](#comment_162_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP): These might help you. https://www.webdesignerdepot.com/2013/01/how-to-build-a-threaded-comment-block-with-html5-and-css3/ http://www.w3schools.com/html/html_comments.asp\n\nYes, but I am trying to put \"zeronet comments\" (with zeronet users) in my web, not comments hosted by me...",
+				"added": 1460863465
+			}
+		],
+		"2_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 8,
+				"body": "Finally a non-ugly content presentation in zeronet, please we need aesthetics in this place for the net grow :)",
+				"added": 1464888068
+			}
+		],
+		"1_1QFypqt7F76svWztFgeFB89ChFfAwsWBcJ": [
+			{
+				"comment_id": 9,
+				"body": "Is not in zeronet, but you can research about torrenttunes, an app that uses a software like peerflix but with music",
+				"added": 1465244484
+			}
+		],
+		"1_1GKVos5hEJ2zKjKfjXurFCfxwjtvT2CD28": [
+			{
+				"comment_id": 10,
+				"body": "Troll",
+				"added": 1468793577
+			},
+			{
+				"comment_id": 11,
+				"body": "Troll detected",
+				"added": 1468793581
+			}
+		],
+		"4_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [],
+		"7_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 13,
+				"body": "Very good idea, I want to help you",
+				"added": 1470684362
+			}
+		],
+		"3_164W1rFVD9Bm7poGJWvjVUjvkbhhFC5nnt": [
+			{
+				"comment_id": 14,
+				"body": "Good post mate, cheers",
+				"added": 1471122206
+			},
+			{
+				"comment_id": 15,
+				"body": "You can change your account by clicking in the \"user ID\" button (up in the ZeroNet home), and then you press logout. Then you can login by clicking again in that button and you must add your private key, and thats your new profile, or whatever you want. :)",
+				"added": 1471122398
+			}
+		],
+		"3_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT": [
+			{
+				"comment_id": 16,
+				"body": "> [nofish](#comment_744_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): you have to set your computer time\n\nVery hard task set time in a RP, but thanks, and thanks for your work.",
+				"added": 1472595084
+			},
+			{
+				"comment_id": 17,
+				"body": "> [nofish](#comment_744_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): you have to set your computer time\n\nAfter to set the time, ZN isn't active more, the last line in terminal is:  \"FileServer [OK :)] Port open: Port 15441 is open.\" Any idea?",
+				"added": 1472596746
+			},
+			{
+				"comment_id": 18,
+				"body": "> [nofish](#comment_745_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): start it with --debug or hcek log/debug.log for more info\n\nMany thanks, I did wait for a few time and now is working, long live to this network. :)",
+				"added": 1472608110
+			}
+		],
+		"1_1DBjD2Xf1DymmjxEi5K7aeoaRByAAXBvFW": [
+			{
+				"comment_id": 19,
+				"body": "Wasting data",
+				"added": 1473135951
+			}
+		],
+		"1_1DQAexBYLLtqRurHpCnmqUsGAxsXzhZWxP": [
+			{
+				"comment_id": 20,
+				"body": "For now, you can search \"books\" in Zerotorrent and you will have some good results http://127.0.0.1:43110/ZeroTorrent.bit/",
+				"added": 1473212095
+			}
+		],
+		"1_1KkA3C1iVDfieotYpuPUCpUtKzdFcfHMRy": [
+			{
+				"comment_id": 21,
+				"body": "Torrenttunes bro http://torrenttunes.tk/",
+				"added": 1473640892
+			}
+		],
+		"9_12i4LiZ39NxcYtsf36aTWJzcpzw4KFUCJy": [
+			{
+				"comment_id": 22,
+				"body": "Why you dont go away with your shity-north-american posts?",
+				"added": 1473704573
+			},
+			{
+				"comment_id": 25,
+				"body": "Too much idiots in this thread :P",
+				"added": 1475181766
+			}
+		],
+		"1_13MUkdCRgz1jXmufWdvJn5qgRrwhrWNYbK": [
+			{
+				"comment_id": 23,
+				"body": "anyone: more and better answers please...",
+				"added": 1474257152
+			}
+		],
+		"1_1HRrLnTaJwRCA24L45Sr3cYJ3nDmJmPabf": [
+			{
+				"comment_id": 24,
+				"body": "gringos go home!!",
+				"added": 1475181725
+			}
+		],
+		"3_1Kkc5j5xrEJevvV6sBqCrW93dscMVGbcDY": [
+			{
+				"comment_id": 26,
+				"body": "Yes, yes, my dear rat boy",
+				"added": 1475778255
+			}
+		],
+		"2_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 27,
+				"body": "Good question",
+				"added": 1475778390
+			}
+		],
+		"8_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 28,
+				"body": "No peers",
+				"added": 1476461560
+			}
+		]
+	},
+	"comment_vote": {
+		"81_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": 1,
+		"4_1GQgd9YDKghg4KKrerR7nfUdDfqj1WatLL": 1,
+		"7_1QH84f44yLPvMjMua9s7iM7c4RoJNZ2nTp": 1,
+		"2_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT": 1,
+		"2_12gppTfEoyX6PuQV1bZqoseLmk2Sn4eMtJ": 1,
+		"1_1HwDXzAszTiEGQ5QmFNTNqcTs61csYrFif": 1,
+		"599_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"18_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"2_13YAyCDYoiUAM2ogemrSJ8yEVDNvnEceWp": 1,
+		"4_13YAyCDYoiUAM2ogemrSJ8yEVDNvnEceWp": 1,
+		"744_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"745_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1EmKu3AxsUduZzr99SryZbfcPrihsZV9mg": 1,
+		"141_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"22_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT": 1,
+		"4_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"795_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

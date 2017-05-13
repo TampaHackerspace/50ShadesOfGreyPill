@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HIgYfsB5Er8dUbFoqK0jV0mnFeELIPXUda4efmKPz23AlXxPIZgrU7VXiNb8IyC5Tf9M8uZzf8CZqX2HckxuaY4=",
+ "cert_user_id": "hiddenwiki@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "261f21d940d44c3318c0a5be7822adbeb6822f2ef8dd85afc7e5e12026cde7dc",
+   "size": 1853
+  },
+  "data.json": {
+   "sha512": "37559a84d315b4342fc77005cc59497effbeaf6aef14b83d2a3a1541f59f3895",
+   "size": 979
+  }
+ },
+ "files_optional": {
+  "1480299960.jpg": {
+   "sha512": "55444b41343ff6f21f3b53b6c18529a1d13bd130b2c22b54f48fd88a601f0b21",
+   "size": 45852
+  }
+ },
+ "inner_path": "data/users/1DotBkgt16arqLm4UdSC2cPLy2uemhN8qM/content.json",
+ "modified": 1480299959.321,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1DotBkgt16arqLm4UdSC2cPLy2uemhN8qM": "HJQzjmtGllLOwl2KGzbVJSjI6sy1huei9NG+2IK/yM7e+0XzvR0ut2rVEUsEi6VML+FgiD39RG7g53gH9RYnZaA="
+ }
+}

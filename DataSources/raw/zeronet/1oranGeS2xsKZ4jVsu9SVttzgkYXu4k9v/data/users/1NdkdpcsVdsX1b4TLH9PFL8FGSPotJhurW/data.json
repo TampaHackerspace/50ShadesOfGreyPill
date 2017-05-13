@@ -1,0 +1,40 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 3,
+	"next_follow_id": 2,
+	"avatar": "jpg",
+	"user_name": "Fascis",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1482332714,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "I question the point of a social network on a net for anonymity.",
+			"post_uri": "1NdkdpcsVdsX1b4TLH9PFL8FGSPotJhurW_1",
+			"date_added": 1482332758
+		},
+		{
+			"comment_id": 2,
+			"body": "@一二三木头人: Yes, master, I shall eat my bread and watch my circuses\n@Border0464fred: The intent is browsing securely, no?",
+			"post_uri": "1NdkdpcsVdsX1b4TLH9PFL8FGSPotJhurW_1",
+			"date_added": 1482336032
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1NdkdpcsVdsX1b4TLH9PFL8FGSPotJhurW",
+			"user_name": "Fascis",
+			"date_added": 1482336041
+		}
+	]
+}

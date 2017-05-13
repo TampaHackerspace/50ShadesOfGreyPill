@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G7VGf8Mnei2nAIOQIsuBgpEQmhpR/LxEgwh5yLtvDytJPt/TpEpL8rjtZ0kpSYrLDVpcZQrdI3ulr9PbmDgb4pE=",
+ "cert_user_id": "nastia@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "8052da608716d31c9fcc8dc9b38192e07ce5c54273ff3a7bfe1fb527c33e156f",
+   "size": 638
+  }
+ },
+ "files_optional": {
+  "1479825074.jpg": {
+   "sha512": "3fee4aa19314516491d0a4db67637fcf94add9ed665ab522524036741082712e",
+   "size": 75364
+  }
+ },
+ "inner_path": "data/users/1KH4h56NgfPNwgcvsgTPbSxDkzXsRvocnJ/content.json",
+ "modified": 1479825072.421,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1KH4h56NgfPNwgcvsgTPbSxDkzXsRvocnJ": "HFK4WYvBd4EKLO1l7CKkXIiETKdfuTWSoJOifhx0/lavpvjL7wcfUsgmCW+hk3t/IXUMUSpYGmRAo3oMz6jAlWk="
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GzRpdsNWgtDUX/ylPvqLyTfjQ4yBqTjPC23SQjm2smNWz6MgIieGRywuxoOR6nlUxWANidVGWRjFUPxZXRLIb/E=",
+ "cert_user_id": "makesida@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "c6382cc567f25d0c7e9cc5bf4f76e4c6256bb126170b5626c463e7a7b3ecc3a8",
+   "size": 1654
+  },
+  "data.json": {
+   "sha512": "4a217049e20507e77df0d7a44d7270f3243a525269a087c31ed46d37de123c4b",
+   "size": 7157
+  }
+ },
+ "files_optional": {
+  "1487580324.jpg": {
+   "sha512": "18657d797752c799a863066109147671bf599f9536fa84d52ea17afa45295642",
+   "size": 45774
+  }
+ },
+ "inner_path": "data/users/1Q95acqUikgjvegqSv3MswmheKXq7DJbjB/content.json",
+ "modified": 1489051840,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1Q95acqUikgjvegqSv3MswmheKXq7DJbjB": "G1ogb4vvvGkrHgWVYm2Y2b5ULvoJc3z37QH6iaThoWM+Kw489lMXCmOwQmkngElobWIe+TiKh4O44qOyFBAXNpA="
+ }
+}

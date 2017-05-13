@@ -1,0 +1,26 @@
+{
+	"next_comment_id": 4,
+	"user_name": "Aengus",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Yuzu: ZeroNet 支持大文件？不支持吧，我试了下，挂了几天了，电脑上显示传出的数据量已经几十个G了，十几个大文件就同步成功了一个...很明显好多都重复请求的，很难有传输完整的，难道是不支持断点续传？\n\n测试网的地址，内容是百家讲坛：\nhttp://127.0.0.1:43110/1NfnpyrXsohYYpKkEt4X5Czyb7WmCbfjcf/",
+			"post_uri": "1PBMVMMVVtSK6FmMbfz4fhEw5fv6eZs5Dn_1491185682",
+			"date_added": 1493697428
+		},
+		{
+			"comment_id": 2,
+			"body": "这个站是我建的，就是想测试下看能不能用，这两天测试的效果也不好，没想到还会带来这样的问题，我一会儿把那个站改掉，把大文件全部去掉就是。",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1493706298",
+			"date_added": 1493716700
+		},
+		{
+			"comment_id": 3,
+			"body": "@P2P: ZeroMux 效果也不理想，暂时放弃在 ZeroNet 放大文件的想法",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1493706298",
+			"date_added": 1493720964
+		}
+	]
+}

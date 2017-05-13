@@ -1,0 +1,77 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 3,
+	"next_follow_id": 7,
+	"avatar": "generate",
+	"user_name": "Auguss",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1470928925,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1_1": 1470928964
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Hurry with KAT. I want to seed it on my 3TB ubuntu server so it stays running for everyone.",
+			"post_uri": "1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1_1",
+			"date_added": 1470928998
+		},
+		{
+			"comment_id": 2,
+			"body": "I have an headless ubuntu server and I want it to become a seed for a zite that auto updates without user interaction. Is this possible?",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_4",
+			"date_added": 1470929836
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1",
+			"user_name": "Kickasstorrents",
+			"date_added": 1470928954
+		},
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1470928975
+		},
+		{
+			"follow_id": 3,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1470929036
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1470929091
+		},
+		{
+			"follow_id": 5,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1470978908
+		},
+		{
+			"follow_id": 6,
+			"hub": null,
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": null,
+			"date_added": 1470978911
+		}
+	]
+}

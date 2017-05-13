@@ -1,0 +1,41 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Radiozen",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1486012890,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1486013027,
+			"body": "I want to be part of a global revolution!\n",
+			"date_added": 1486013025
+		}
+	],
+	"post_like": {
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1484306799": 1486013981
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Thank you! I just found ZeroNet today, what a cool concept!",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1484306799",
+			"date_added": 1486014057
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1486012990
+		}
+	]
+}

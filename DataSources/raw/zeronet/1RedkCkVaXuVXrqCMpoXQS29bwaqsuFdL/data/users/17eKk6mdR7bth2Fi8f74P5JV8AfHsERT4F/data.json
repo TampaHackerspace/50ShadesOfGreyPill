@@ -1,0 +1,737 @@
+{
+	"next_post_id": 27,
+	"next_comment_id": 43,
+	"next_follow_id": 53,
+	"avatar": "jpg",
+	"user_name": "Zerro",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"intro": "Тот самый, а может некто другой. \n\n## Information\n\nI'm interested in P2P networks, cryptocurrences and blockchain technology, free open source software, anime, imageboard culture, GNU/linux. ",
+	"post": [
+		{
+			"post_id": 5,
+			"body": "Example of DNS based on Ethereum Smart-contract.\n\n````solidity\ncontract NameSystem {\n    mapping (address => mapping (string => string)) subnames;\n    mapping (string => address) names;\n    \n    function associateSubnames(string _subname, string _subvalue) {\n        subnames[msg.sender][_subname] = _subvalue;\n    }\n\n    function buyName(string _name) {\n        if (msg.value < 0.1 ether) { throw; }\n        \n        // only free names allowed to buy\n        if (names[_name] != 0) { throw; }\n\n        names[_name] = msg.sender;\n\n        // send coins to miner\n        block.coinbase.send(msg.value);\n    }\n\n    function addressFor(string _name) constant returns (address) {\n        return names[_name];\n    }\n\n    function subnameFor(address _owner, string _subname) constant returns (string) {\n        return subnames[_owner][_subname];\n    }\n\n    function fullNameResolution(string _name, string _subname) constant returns (string) {\n        return subnames[addressFor(_name)][_subname];\n    }\n\n    function() { throw; }\n}\n````",
+			"date_added": 1471004979
+		},
+		{
+			"post_id": 6,
+			"body": "# Qubes OS\n\nИмея опыт использования Qubes OS на десктопе в течение некоторого времени, напишу примерную рекомендацию о том, как понять, нужно ли оно вам. Основная рекомендация такова: если вам случалось когда-либо задумываться над тем, чтобы разнести используемые данные и софт по нескольким устройствам, либо по нескольким отдельным установкам OS на одном устройстве с перезагрузкой между ними, то Qubes может оказаться вам полезной.\n\nНапример, приведу такой воображаемый случай, хотя он может быть вполне реальной потребностью. Вы используете Bitcoin (либо другую криптовалюту по вкусу) и боитесь утечки ключей. Потому вы решаете использовать отдельную установку ОС Linux, чисто для кошелька. Более того, например, вы используете cold storage возможности кошелька Armory и используете ещё одну установку ОС без доступа к сети для этого. Кроме этого у вас есть набор более-менее довереных программ, например с открытым кодом, с которыми вы обычно работаете. Это составляет набор приложения вашего основного десктопа. И напоследок, есть набор набор программ, которыми вам приходится пользоваться, но вы им не доверяете и тоже используете под отдельной установкой ОС. Вот весь такой сложный сценарий использования можно реализовать (заменить) одной установкой Qubes OS на одном устройстве без необходимости прибегать к перезагрузке. \n\nКроме того, есть ещё несколько плюсов использования Qubes OS. Так, некоторый функционал сетевых устройств тоже можно реализовать в виде отдельных VM в Qubes. Например, можно создать для отдельные прокси для доступа в интернет через Tor, VPN и с вашим реальным IP и пользоваться этим одновременно в разных окнах браузера. Так-же можно устанавливать несколько экземпляров или версий одного приложения. Хотя для этого лучше подходит изоляция уровня приложений, Qubes здесь может оказаться полезной при необходимости разделять так-же данные и настройки приложения. И в дополнение, в Qubes у меня не случалось подвисаний системы из-за поведения отдельных приложений, что имело место быть в случае использования Flatpak или Docker, и или просто установленных приложений с помощь пакетного менеджера в популярных дистрибутивов. \n\nА теперь к недостаткам. Самым главным является сложность использования периферийных устройств, проброса USB устройств. В настоящее время гарантированно работают только устройства хранения данных. Проброс USB устройств вообше является экспериментальным и может не работать. Вторым недостатком является повышенная требовательность ресурсам, особенно к объему оперативной памяти. При малом объеме оперативной памяти придется соверщать много телодвижений по запуску и остановке отдельных VM вручную и ограничивать доступный объем памяти внутри VM. Третим существенным недостатком является то что изоляция уровня VM не покрывает всех задач. Это не изоляция уровня приложений, и нужно проработать такую модель разделения приложений по разным VM, при которой с одной стороны вы удовлетворены  безопасностью решения, а с другой стророны вы ограничиваетесь не очень большим количеством VM. И ещё один недостаток. В случае использования внешних устройств хранения данных, вы получаете доступ в одно время только из одной из VM, и целиком ко всему диску. Возможно здесь можно решить проблему с помощью организации совместного доступа через сеть, например по  FTP c разными аккаунтами. Во всяком случае чтобы разграничить доступ к файлам на внешнем накопителе, а это очень насущная проблема, то придется колдовать. ",
+			"date_added": 1471025598
+		},
+		{
+			"post_id": 7,
+			"body": "Примерно так предполагаю сделать разрешения имен в ещё одной гребанной альтернативе DNS. \n\n`me.zerro.kas#zeronet/` => `http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F/zerro@zeroid.bit`\n\nили `zerome.zerro.kas/`",
+			"date_added": 1471190769
+		},
+		{
+			"post_id": 8,
+			"body": "Если я пропадаю, то это не потому-что потерял интерес к ZN. Скорее я либо не имею возможности запустить ноду, либо это связано с некоторыми неудобствами. ",
+			"date_added": 1472672643
+		},
+		{
+			"post_id": 1472732573,
+			"body": "Есть большое желание создать свой черный список сайтов, использующих CloudFlare, который требует ввода гуглокапчи при посещении через Tor. У кого-нибудь возникало подобное желание?",
+			"date_added": 1472732564
+		},
+		{
+			"post_id": 1472733619,
+			"body": "# Альтернатива DNS. Представление имён\n\nВот попробовал создать альтернативу DNS в Ethereum (Classic). не нашел ничего лучше чем представлять имена целым числом в виде непопулярного Base36. Зачем? На это две причины:\n\n1. Экономичность по сравнению со строками.\n2. Отсутствие необходимости в дополнительной проверке на допустимые символы.\n\nНедостатки:\n\n1. Для того чтобы указать размер имени нужно прибегать к извращениям вроде того чтобы все имена начинались с некоторого символа отличного от нуля. Например, для записи 0net значение будет x0net.\n2. Отсутствие символов отличных от алфавита Base36 в имени, например '-'.\n3. Необходимость преобразования значений в/из base36 в приложении.\n\nЧто я делаю не так?",
+			"date_added": 1472733609
+		},
+		{
+			"post_id": 1472845301,
+			"body": "Wallpapers\n\nhttps://ipfs.pics/ipfs/QmcVCu59L8SUoET6Td7qxejgQnk9S62PyvPBEWyFQwBr77\n\nhttps://ipfs.pics/ipfs/QmTcyk4muhfMJHiEDKQLHXUDeQ1Er5xBrzyUKAUWSovkjv",
+			"date_added": 1472845290
+		},
+		{
+			"post_id": 1472909993,
+			"body": "Странно видеть рост Monero и Shadow за пару месяцев от обещаного релиза Zcash.",
+			"date_added": 1472909980
+		},
+		{
+			"post_id": 1473817513,
+			"body": "@musickiller: а какой сейчас вход в форджинг в NXT?",
+			"date_added": 1473817499
+		},
+		{
+			"post_id": 1473875789,
+			"body": "В наш век люди не выбирают гражданство или вероисповедание, они выбирают блокчейн.",
+			"date_added": 1473875774
+		},
+		{
+			"post_id": 1475147132,
+			"body": "А тем временем, объем моего кэша зеросайтов достиг 3 Гб. ",
+			"date_added": 1475147116
+		},
+		{
+			"post_id": 1475230449,
+			"body": "Вот что больше напрягает при использовании Bitcoin Core или Armory в качестве кошелька, так это не хранения блокчейна весом 100 Гб, это медленная проверка блоков при загрузке, приводящая к долгим ожиданиям всего этого процесса, чаще когда нужно срочно куда-то биткоины отправить. В итоге в качестве кошелька все-равно легче использовать легкий, вроде Electrum. Кажется я нашел комромисс. Можно использовать локальный сервер Electrum, а при необходимости куда-то что-то срочно отправить, переключаться на один из публичных серверов. ",
+			"date_added": 1475230432
+		},
+		{
+			"post_id": 1475498762,
+			"body": "# Поставил Qubes\n\nВот с релизом 3.2 снова появилась причина перекатиться, и похоже, у меня это получилось. Внешне, если брать XFCE, то различий с 3.1 нет. Зато теперь есть проброс любых USB устройств, чего так не хватало до этого. То есть теперь оно почти готово для повседневного использования на десктопе. \n \nПока не решил для себя вопрос совместного использования USB-диска из разных VM. \n\n[Прошлый пост с размышлениями о Qubes.](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F/6)",
+			"date_added": 1475498744
+		},
+		{
+			"post_id": 1475500626,
+			"body": "# Почему Qubes\n\nВот несколько причин, по которым мне удобно использовать Qubes. \n\n##  Разграничение доступа приложений к сети\n\nЕсли нужна одновременая работа с  реальным IP, VPN, Tor и т. д., и при этом не бояться что они где-то пересекутся. В Qubes  это достигается довольно легко.\n\n##  Я переустанавливаю шиндовс по десять раз на дню\n\nТолько не шиндовс, а федору. Мне часто приходится пользоваться приложениями, которым я не доверяю. Это часто приложения которых нет в репозитории. Часто оно нужно просто на попробовать. При установке на рабочей системе, в случае классических дистров, всегда остается беспокойство за безопасность. Это приводит к тому, что т просто не доверяешь системе после запуска нескольких недоверенных приложений и опасаешься запускать что-то критичное. В Qubes это не проблема, так как приложения разнесены по VM. И если ты что-то сделал не так в какой-то VM нет никаких проблем создать новое окружение. \n\n## Тормоза при использовании контейнеров\n\nМожет у меня кривые руки, но при использовании Docker или Flatpak, процессы в контейнере часто приводят к тормозам всей системы. В Qubes такого нет.\n\n## Незащищенность иксов\n\nЛюбое приложения в иксах может получить доступ ко всем устройствам ввода и содержимому буфера обмена. Wayland эту проблему решает, но пока только небольшое количество приложений может нативно работать под Wayland. При использовании же XWayland, например в Gnome, все иксовые приложения используют один X-сервер, так что проблема остается. С  Mir и XMir все так-же. \n\n",
+			"date_added": 1475500607
+		},
+		{
+			"post_id": 1475504008,
+			"body": "Продолжая тему [поста](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i/156HySyXH37jFXXqKCwVq8HqsrZLZzy8Qx/1475384108) @rushka life feed: \n\nЯ в последнее время в IT интересуюсь в основном децентрализованными приложениями и в особенности блокчейн-веткой. Для меня стали шоком события этого лета, поизошедшее вокруг ситуации с хард-форком эфириума. Когда слово \"либертарианец\" использовали чуть ли не в уничижительном контексте. Либертарианцы изображались таким меньшинством, которое мешает развитию и росту Ethereum. И это криптовалютное сообщество? Насколько быстро оно наполнилось людьми, которые пришли туда за наживой, майнерами, спекулянтами и мошенниками хайпостроителями. Нет, есть люди, которые майнять или спекулируют на курсе, в этом нет ничего плохого, но при этом они не забывают о главных ценностях децентрализации: свобода, права человека на доступ к финансовым инструментам, противодействие цензуре.\n\nНет я по прежднему считаю блокчейн прорывной и важной идеей. Но теперь я знаю, что лишь небольшую часть криптовалютного сообщества я могу назвать единомышленниками, а с остальной достойно вступать в обсуждения по сугубо техническим вопросам.",
+			"date_added": 1475503988
+		},
+		{
+			"post_id": 1475675740,
+			"body": "Открыл для себя  [DPoS](http://127.0.0.1:43110/193ppYcRRw6L5D5xAqRSq1UR2jqs4htK9T/?Post:49:DPoS).\n\nОсталось ещё в Stellar Consensus Protocol разобраться, для полного счастья. ",
+			"date_added": 1475675719
+		},
+		{
+			"post_id": 1475694736,
+			"body": "Раз уж я представил [блог](http://127.0.0.1:43110/193ppYcRRw6L5D5xAqRSq1UR2jqs4htK9T), но так и не допилил к нему CSS, допиливать и тестировать буду на клоне. Содержание постов же подредактирую, и отныне это будет мой бложик.",
+			"date_added": 1475694714
+		},
+		{
+			"post_id": 1475826874,
+			"body": "[Авторское право](http://127.0.0.1:43110/193ppYcRRw6L5D5xAqRSq1UR2jqs4htK9T/?Post:50:%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B+%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B0%D0%B2%D0%B0). Предлагаю предварительное обсуждение. Потом доработку составление манифеста авторского права.",
+			"date_added": 1475826851
+		},
+		{
+			"post_id": 1475856451,
+			"body": "Так устал от всех этих криптовалют, сжечь бы это все напалмом.",
+			"date_added": 1475856427
+		},
+		{
+			"post_id": 1476055682,
+			"body": "Вот ZeroNet уже достаточно большой, чтобы насладиться всеми радостями его проблем. Концепция MergerSites напоминает концепцию федеративности. С той лишь разницей, что тут вместо узлов зеросайты. И есть похожие проблемы. Так как сейчас уже много хабов, в общей ленте можно не увидеть многие посты. Нужно теперь загружать либо все хабы, либо где-то координироваться с другими пользователями.",
+			"date_added": 1476055657
+		},
+		{
+			"post_id": 1477193793,
+			"body": "По причине того, что в ZeroNet весь постинг подписывается. Я, наверно, не буду долго держать один аккаунт. Или, может быть, стоит разносить посты по содержанию/тематике на разные профили.",
+			"date_added": 1477193767
+		}
+	],
+	"post_like": {
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_9": 1471272984,
+		"1HiYg779FznW6G8fWqAGL5iGvRmExfSasX_2": 1471277875,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_11": 1471502125,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1472462658": 1472730102,
+		"1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_7": 1472731339,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1476247331": 1476329143
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Почти. Много ещё будет всплывать проблем, которые придется решать. Но начало уже положено неплохое.",
+			"post_uri": "19xkVTXjXQR92UG2TyqtXnRRnGjHuKCbpX_1",
+			"date_added": 1470955011
+		},
+		{
+			"comment_id": 2,
+			"body": "It's like the red pill and the blue pill.",
+			"post_uri": "1KWti1fr5Z5ZYQHpgxeV3sv8hHkKrhayqt_3",
+			"date_added": 1470955162
+		},
+		{
+			"comment_id": 3,
+			"body": "I think uncensored networks can be moderated with moderation subscriptions, similar with the adblock lists. Users will reduce the noise in way they want and accepted. ",
+			"post_uri": "1wAS6N9Q2mfgKTcziJ4GaTSGZHuTyqFqf_2",
+			"date_added": 1470958857
+		},
+		{
+			"comment_id": 4,
+			"body": "3.5",
+			"post_uri": "1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ_11",
+			"date_added": 1470959537
+		},
+		{
+			"comment_id": 5,
+			"body": "Use encrypted MircroSD card for what you want hide from the gorvenment. It can be simple destroyed or hidden. ",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_21",
+			"date_added": 1471015643
+		},
+		{
+			"comment_id": 6,
+			"body": "If you have problem with Arch, use ArchWiki. It is very helpful.\n",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_21",
+			"date_added": 1471015731
+		},
+		{
+			"comment_id": 7,
+			"body": "The best way for Bitmessage or Bitcoin-like private keys, derivate it from good secure seed and remember the seed. Also you can use KeePassX, ",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_18",
+			"date_added": 1471015972
+		},
+		{
+			"comment_id": 8,
+			"body": "It is good to encrypt drive, if anybody can get physical access to the drive. It not affect on software, if you use decryption keys under it. Also, you may prohibit network access from the OS, where you open encrypted drives. Qubes OS is perfect tool for this purpose. ",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_22",
+			"date_added": 1471019122
+		},
+		{
+			"comment_id": 9,
+			"body": "Now you know the truth about security in GNU/Linux system. Software isolation (sandboxing) would solve this problem. It is why we need tools like Flatpak.",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_18",
+			"date_added": 1471019426
+		},
+		{
+			"comment_id": 10,
+			"body": "Sending payouts to the miner is not a good. Miners could get names for free. ",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_5",
+			"date_added": 1471019844
+		},
+		{
+			"comment_id": 11,
+			"body": "You say OS, but I think you mean various software installed in shared space and which can get access to the data on the drive. The OS components are more or less trustworthy but other apps aren't. From this point of view, security by compartmentalization is what you need.",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_22",
+			"date_added": 1471022366
+		},
+		{
+			"comment_id": 12,
+			"body": "Show him the tits.",
+			"post_uri": "14J8mC3K7k5Ygx22uu9LUzGWnBoDAQdyDo_5",
+			"date_added": 1471272754
+		},
+		{
+			"comment_id": 13,
+			"body": "https://www.qubes-os.org/doc/qubes-builder/",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_28",
+			"date_added": 1471281351
+		},
+		{
+			"comment_id": 14,
+			"body": "You can read qubes-builder source code and build Qubes from scratch if you don't want to trust. ",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_28",
+			"date_added": 1471282313
+		},
+		{
+			"comment_id": 15,
+			"body": "Как съедает? Опиши поподробнее, никогда с этим не сталкивался. ",
+			"post_uri": "19xkVTXjXQR92UG2TyqtXnRRnGjHuKCbpX_1472495900",
+			"date_added": 1472675096
+		},
+		{
+			"comment_id": 16,
+			"body": "Адаптивная верстка + собственный гейт. Пускать на мобиле всё-равно неэкономично для батареи.",
+			"post_uri": "19xkVTXjXQR92UG2TyqtXnRRnGjHuKCbpX_1",
+			"date_added": 1472675326
+		},
+		{
+			"comment_id": 17,
+			"body": "Глюк отображения в кошельке, значит. ",
+			"post_uri": "19xkVTXjXQR92UG2TyqtXnRRnGjHuKCbpX_1472495900",
+			"date_added": 1472723549
+		},
+		{
+			"comment_id": 18,
+			"body": "Feature request: to pin post(s).",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1472462658",
+			"date_added": 1472730289
+		},
+		{
+			"comment_id": 19,
+			"body": "Да, конечно. Для чего ещё блоги?",
+			"post_uri": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_7",
+			"date_added": 1472731322
+		},
+		{
+			"comment_id": 20,
+			"body": "あなたはここにいますか。",
+			"post_uri": "1HiYg779FznW6G8fWqAGL5iGvRmExfSasX_2",
+			"date_added": 1472731442
+		},
+		{
+			"comment_id": 21,
+			"body": "LTC for what? NXT? I have only ETC and BTC, and I don't need LTC. ",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1472734560",
+			"date_added": 1472737637
+		},
+		{
+			"comment_id": 22,
+			"body": "Fees in BTC is high because the popularity and the block size limit. If LTC will popular as BTC, it will have high fees as in Bitcoin. Block time is not a feature. Also target block time in LTC is not very small. Target time in Dogecoin is 60 seconds, in Ethreum is 17 seconds.",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1472734560",
+			"date_added": 1472813014
+		},
+		{
+			"comment_id": 23,
+			"body": "ETC is Ethereum Classic. A continuation of the original Ethereum blockchain without the DAO hardfork.",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1472734560",
+			"date_added": 1472813216
+		},
+		{
+			"comment_id": 24,
+			"body": "I don't like Pantheon. ",
+			"post_uri": "1CFhytwoGGPNqmueehPqotaf2iG9uxD98e_1472867302",
+			"date_added": 1472906678
+		},
+		{
+			"comment_id": 25,
+			"body": "@weakish: [b]strong[/b], [u]underline[/u] :-P",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1472854489",
+			"date_added": 1472908289
+		},
+		{
+			"comment_id": 26,
+			"body": "Shadow теперь Umbra. Вероятно, с этим и был связан памп.",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1472909993",
+			"date_added": 1473345657
+		},
+		{
+			"comment_id": 27,
+			"body": "Интересует именно возможность за приемлемое время создать блок.",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1473817513",
+			"date_added": 1473831854
+		},
+		{
+			"comment_id": 28,
+			"body": "Что-то не видно пока. Многие крупные ресурсы пользуюся и не видят проблемы.",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1472732573",
+			"date_added": 1473877117
+		},
+		{
+			"comment_id": 29,
+			"body": "И как можно увидеть что сгенерировал блок без транзакций? Ardor капает, хотя я не знаю на кой он мне нужен. И как пойдут сливать после окончания распределения. А может ещё и до.",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1473817513",
+			"date_added": 1473971080
+		},
+		{
+			"comment_id": 30,
+			"body": "> @Musickiller: Are there any \"open\" analogs of rasberry? Or may be cheaper analogs? Something from china?\n\n[C.H.I.P.](https://nextthing.co/)",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1474727485",
+			"date_added": 1475068445
+		},
+		{
+			"comment_id": 31,
+			"body": "С Zcash тоже не все так хорошо, как я понял. Плохое распределение, доля с майнинга идет инвесторам первые 4 года. Это даже хуже премайна. Но посмотрим, как оно будет.",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1472909993",
+			"date_added": 1475145657
+		},
+		{
+			"comment_id": 32,
+			"body": "Сейчас открыл через гейт. Там ничего интересного, нубские размышления.",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1475675740",
+			"date_added": 1475676316
+		},
+		{
+			"comment_id": 33,
+			"body": "Знаешь это что напоминает? Имена магазинов на RAMP. Юлмарт, Магнит и т.д. ",
+			"post_uri": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1475661545",
+			"date_added": 1475676468
+		},
+		{
+			"comment_id": 34,
+			"body": "А вот будет возможность просматривать имена через локальный namecoind, тогда зарегистрирую. А так оно безопаснее по адресам ходить.",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1475675740",
+			"date_added": 1475677128
+		},
+		{
+			"comment_id": 35,
+			"body": "Да не, спасибо, у меня нет проблем с тем, где достать крипты. Есть же shapeshift.io + регистрации на биржах. Была бы любая крипта, обменять не проблема.",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1475675740",
+			"date_added": 1475677365
+		},
+		{
+			"comment_id": 36,
+			"body": "@Sickbird: https://yandex.com",
+			"post_uri": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS_1475661545",
+			"date_added": 1475694151
+		},
+		{
+			"comment_id": 37,
+			"body": "Множество скама, курсодрочерство, годнота в тени и тоже не идеальна. Бывает вполне годные вещи, на которых какой-нибудь изъян или неправильное позиционирование меняет все коренным образом.",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1475856451",
+			"date_added": 1476008313
+		},
+		{
+			"comment_id": 38,
+			"body": "Федеративность не требует центрального сервера. Под этим обычно понимают сеть узлов c раздельным хранением контента. Diaspora, Friendiсa, Jabber. По сравнению с полностью распределенными P2P приложениями.В данном случае я сравниваю с федеративностью ту особенность, что нет  единного интерфейса.",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1476055682",
+			"date_added": 1476060888
+		},
+		{
+			"comment_id": 39,
+			"body": "GTK3",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1476118456",
+			"date_added": 1476135214
+		},
+		{
+			"comment_id": 40,
+			"body": "Xfburn would be burned of shame if it saw that.",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1476133522",
+			"date_added": 1476161688
+		},
+		{
+			"comment_id": 41,
+			"body": "Совсем немного осталось до Ardor.",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1473817513",
+			"date_added": 1476328810
+		},
+		{
+			"comment_id": 42,
+			"body": "Опциональные файлы.",
+			"post_uri": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1475147132",
+			"date_added": 1477219237
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS",
+			"user_name": "ZAlex",
+			"date_added": 1470952580
+		},
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ",
+			"user_name": "GomZik",
+			"date_added": 1470952587
+		},
+		{
+			"follow_id": 3,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ",
+			"user_name": "Musickiller",
+			"date_added": 1470952593
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "18iELxgQf2hpjFuBofjEJyuvVazJt2ekSp",
+			"user_name": "Wrewolf",
+			"date_added": 1470952605
+		},
+		{
+			"follow_id": 5,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19xkVTXjXQR92UG2TyqtXnRRnGjHuKCbpX",
+			"user_name": "Nulc",
+			"date_added": 1470955018
+		},
+		{
+			"follow_id": 6,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1KWti1fr5Z5ZYQHpgxeV3sv8hHkKrhayqt",
+			"user_name": "Selma0de",
+			"date_added": 1470955182
+		},
+		{
+			"follow_id": 7,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1470955358
+		},
+		{
+			"follow_id": 8,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1E59fpQH7EGuFwknQMd5VJKb5Zt68Jd1Jt",
+			"user_name": "Bsl",
+			"date_added": 1470955500
+		},
+		{
+			"follow_id": 9,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1APx2pf1wNGFz4mWCN2sFzrtTGzrLKZUQ2",
+			"user_name": "Dude",
+			"date_added": 1470958094
+		},
+		{
+			"follow_id": 10,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1470958521
+		},
+		{
+			"follow_id": 11,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1wAS6N9Q2mfgKTcziJ4GaTSGZHuTyqFqf",
+			"user_name": "Techniq",
+			"date_added": 1470958885
+		},
+		{
+			"follow_id": 12,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R",
+			"user_name": "Scrub",
+			"date_added": 1470959906
+		},
+		{
+			"follow_id": 13,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1EErpRfR94YZwEMpAwsGKYsgSqHuRxvWib",
+			"user_name": "megfault",
+			"date_added": 1470961796
+		},
+		{
+			"follow_id": 14,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1EtP9CTjup6B3GNiCt9dwRddYgkh3MKhj7",
+			"user_name": "Erikkl",
+			"date_added": 1470968266
+		},
+		{
+			"follow_id": 15,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1D242AyQghFqqQTwo1f1csP5kRQe588BUm",
+			"user_name": "Francis Brunelle",
+			"date_added": 1471001101
+		},
+		{
+			"follow_id": 16,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "15QGRquMETTn5LnCHjTm1qa9eaXGtq7gpT",
+			"user_name": "Klaus Jónsson Zimmermann",
+			"date_added": 1471167661
+		},
+		{
+			"follow_id": 18,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19arYgVKguUamTqtYGu6T9FSUsr19CyEcG",
+			"user_name": "Grez",
+			"date_added": 1471182149
+		},
+		{
+			"follow_id": 19,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1K7pivtg6E1qRnih7nmnnPrCnRRSxSCMQQ",
+			"user_name": "Wakelain",
+			"date_added": 1471185460
+		},
+		{
+			"follow_id": 20,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1471185478
+		},
+		{
+			"follow_id": 21,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7",
+			"user_name": "Shift",
+			"date_added": 1471269844
+		},
+		{
+			"follow_id": 22,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1HiYg779FznW6G8fWqAGL5iGvRmExfSasX",
+			"user_name": "Kuroto",
+			"date_added": 1471270519
+		},
+		{
+			"follow_id": 23,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "15jaNgmjoKnxPXsmZntqHUmGuuUd9xosym",
+			"user_name": "0dvar",
+			"date_added": 1471272793
+		},
+		{
+			"follow_id": 24,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "13ik1kNJ5kr7RkuAFTmAb5CLESDNbRHzpC",
+			"user_name": "NaoeQ",
+			"date_added": 1471339595
+		},
+		{
+			"follow_id": 25,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1HNzyvTnQ7pxsn2ypY3rDw9rJ578thajzJ",
+			"user_name": "Nyashkin",
+			"date_added": 1471339626
+		},
+		{
+			"follow_id": 26,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "17gEFavobc7RsKNGbSzZwoSZ6jNB7hT2KN",
+			"user_name": "Fav",
+			"date_added": 1471502083
+		},
+		{
+			"follow_id": 27,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1CPSoWx6aczUZdsPesjgVkLPsDuEYqDSBk",
+			"user_name": "Err Err",
+			"date_added": 1472673616
+		},
+		{
+			"follow_id": 28,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "13pAK1jj4Qwt56ytnn5BorrMfHA7J3Nc8C",
+			"user_name": "Kingz",
+			"date_added": 1472674875
+		},
+		{
+			"follow_id": 29,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1H9R6W9QWUpYiJkLyAsFXmXhAV7HEqoHtN",
+			"user_name": "Flyman",
+			"date_added": 1472676461
+		},
+		{
+			"follow_id": 30,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1Ass6guGVga526YPZYTa1fQSFyaezf2AQR",
+			"user_name": "Whisper",
+			"date_added": 1472723586
+		},
+		{
+			"follow_id": 31,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1889tLMuZze7YMshhe8u5h4NT4SSiA4PVB",
+			"user_name": "Zanity",
+			"date_added": 1472826556
+		},
+		{
+			"follow_id": 32,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1EizNCr1TBaytrcEFBPrk8yk6eUFgNCC5r",
+			"user_name": "Execin",
+			"date_added": 1472845568
+		},
+		{
+			"follow_id": 33,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1H5VKNWtkBA7RpJWyYuFw5bqjwbgjXoqKp",
+			"user_name": "Unanimous",
+			"date_added": 1472908117
+		},
+		{
+			"follow_id": 34,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1Exd7U88RdmPk4yfpTjkMQuSo5Jvys3ScJ",
+			"user_name": "Nishita",
+			"date_added": 1473343236
+		},
+		{
+			"follow_id": 35,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1M29UgKTUcDsSHafheTS2W8Ec9RZiNMvRk",
+			"user_name": "Communahara",
+			"date_added": 1473448085
+		},
+		{
+			"follow_id": 36,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "156HySyXH37jFXXqKCwVq8HqsrZLZzy8Qx",
+			"user_name": "rushka life feed",
+			"date_added": 1473590235
+		},
+		{
+			"follow_id": 37,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "16YP1ZeHrKq3KB3DdBWHec984oQAfVPT9d",
+			"user_name": "Wire",
+			"date_added": 1473600132
+		},
+		{
+			"follow_id": 38,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1EYE1FBEewUHZ26L9wu7HtPkNqmCQqDUis",
+			"user_name": "Cybertechpunzer",
+			"date_added": 1473820756
+		},
+		{
+			"follow_id": 39,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "15pULtc5fejthQRkqPpWxpnh5UynyCHaci",
+			"user_name": "Kami",
+			"date_added": 1473877024
+		},
+		{
+			"follow_id": 40,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "18iELxgQf2hpjFuBofjEJyuvVazJt2ekSp",
+			"user_name": "Wrewolf",
+			"date_added": 1474983356
+		},
+		{
+			"follow_id": 41,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "17KsAKebu6NJC9KTPu1yzhy435HtoUzBF1",
+			"user_name": "Covet",
+			"date_added": 1475090325
+		},
+		{
+			"follow_id": 42,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1NHR4Gdv1dVLZS5HRwY6aJWfngk9jCLF87",
+			"user_name": "Brom",
+			"date_added": 1475145546
+		},
+		{
+			"follow_id": 43,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1D1kHddEJtrq4MUUrc4P1u1yQrAfNHqvYK",
+			"user_name": "Package676",
+			"date_added": 1475146622
+		},
+		{
+			"follow_id": 44,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1MYu5fUSZFbpkXt5uih5zrkv3jfAPZGYn6",
+			"user_name": "Zerouniverse",
+			"date_added": 1475244986
+		},
+		{
+			"follow_id": 45,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1AKzkqDBZeXWgyudksDv6MekC9zbABNJ4r",
+			"user_name": "Fix",
+			"date_added": 1475245078
+		},
+		{
+			"follow_id": 46,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw",
+			"user_name": "Balancer73",
+			"date_added": 1475498787
+		},
+		{
+			"follow_id": 47,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1BidCEzNjETypKRCaRFQ6myvDo71o6FDyC",
+			"user_name": "Renha",
+			"date_added": 1475501517
+		},
+		{
+			"follow_id": 48,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1KAfCgw4ECkqUccYQZDoPuTMhA2YPMaZwG",
+			"user_name": "Voruman",
+			"date_added": 1475671685
+		},
+		{
+			"follow_id": 49,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "16ojERmxhsiYi13evABojDh1JgDNqodpZF",
+			"user_name": "Zentralsonne",
+			"date_added": 1475688310
+		},
+		{
+			"follow_id": 50,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "18ZZ3aWorqNxECp2TEEYuGTUxcrrM5LZrf",
+			"user_name": "Qubes",
+			"date_added": 1476136055
+		},
+		{
+			"follow_id": 51,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "14qbGJTZ1cyF9YcSUVYj73xfxyTJjUEQWY",
+			"user_name": "The33",
+			"date_added": 1476223753
+		},
+		{
+			"follow_id": 52,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "14kxkh1pLNYuCwCZ161HCQkSjvWW29ybNz",
+			"user_name": "Geobor",
+			"date_added": 1477089033
+		}
+	]
+}

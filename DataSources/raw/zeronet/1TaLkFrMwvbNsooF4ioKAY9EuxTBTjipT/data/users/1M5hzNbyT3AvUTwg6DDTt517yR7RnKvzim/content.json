@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "bitmsg",
+ "cert_sign": "HIlpGlWRuYiIqwlcwv17Odx8tnI/4Zq4qKPoemPcNNqANoVrqUMVsokCdmyt0T8XlFVerIRdMydP5RcdWS1aB/M=",
+ "cert_user_id": "supermaple@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "23c8921f3e15033d4fcf8f3574bc109825295ab841958d57bb0256af89bd70d9",
+   "size": 242
+  }
+ },
+ "inner_path": "data/users/1M5hzNbyT3AvUTwg6DDTt517yR7RnKvzim/content.json",
+ "modified": 1475404947.574,
+ "signs": {
+  "1M5hzNbyT3AvUTwg6DDTt517yR7RnKvzim": "G60LYKlXYDab1zjkCiyUxyhYJ26a5/fTYIAAJaUe5o3LhO3Njd8xWaI2Ss6QeQ/wS8LoZAGBBNDriTCPaBd2xz4="
+ }
+}

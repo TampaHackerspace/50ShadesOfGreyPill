@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G3Z4ILjU+2lxsm3Pl0GX9Ozt9zPfu/L1+NE4WeNMt2GNaj6CnthoMeID5D0cpqrLqdpQiTIM5FMIAGYvHJHAw+E=",
+ "cert_user_id": "jugband@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d6768bda21143e996759cab8ea0548346b80e4b7abc734c7e184bd21516002ed",
+   "size": 385
+  }
+ },
+ "inner_path": "data/users/1KNaemLKhPio4dCJiSvi81Q24AWUycwV3T/content.json",
+ "modified": 1490956246,
+ "signs": {
+  "1KNaemLKhPio4dCJiSvi81Q24AWUycwV3T": "HHqlJ2DqQ+x15G3idqpFq3NHIqrpAMaTP12Rcd3XdjVcBm3jsepdRKn3/JTwjW4vBKEzFVKqGISUg+CQRlyOu+g="
+ }
+}

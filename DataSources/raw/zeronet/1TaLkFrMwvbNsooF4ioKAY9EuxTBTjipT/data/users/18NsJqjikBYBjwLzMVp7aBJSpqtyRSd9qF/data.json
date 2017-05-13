@@ -1,0 +1,226 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "HELP SAVE THE INTERNET!",
+			"body": "Congress is voting to [kill the internet](https://act.eff.org/action/don-t-let-congress-undermine-our-online-privacy)...again. But we stand a chance of stopping it!\n\nThis is really important. If you live here in 'Murica, **Call your representatives!** \n\nIf you need help finding them, there is the official site here: http://www.house.gov/representatives/find/\n\nAnd a much simpler one here, which also lets you contact your rep in-browser: https://callyourreps.arcology.io/\n\nAgain, **I Can't stress how important this is.** Please, do it! Even if you are terrified of speaking to people, one more voice is better than none!\n\nAnd regardless of if you even live here or not: spread the word! We can't let this go down without a fight!",
+			"added": 1490651902
+		},
+		{
+			"topic_id": 2,
+			"title": "[PSA] Help Preserve Climate Data!",
+			"body": "Trump's regime is trying to erase decades worth of climate data. A huge number of scientists and activists are trying to rescue as much as possible--but *you can help too!*\n\nLook [here](https://www.datarefuge.org/) for more info. In a week or two when I have the time, I'm planning on writing something that can use the CKAN api to auto-publish some of it on zeronet (I may need help). \n\n Also, If you have a torrent client and storage/bandwidth to spare, there are [torrent backups](https://climate.daknob.net/) to distribute--Weather you can permaseed or just reach a ratio of 1.1, it'll help!",
+			"added": 1494184789
+		}
+	],
+	"topic_vote": {
+		"3_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": 1,
+		"1_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"2_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1
+	},
+	"next_comment_id": 34,
+	"comment": {
+		"4_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [
+			{
+				"comment_id": 1,
+				"body": "Also:\nhttps://zeronet.maxweiss.io\nhttp://antnet.org (has broken security certificate, but still works)",
+				"added": 1486624973
+			}
+		],
+		"3_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 3,
+				"body": "CSS isn't too hard, and you can pick up [some](http://www.w3schools.com/css/css3_backgrounds.asp) of the simpler parts pretty easily.\n\nAs an example, this bit changes all buttons to have a [yellow](http://www.colorhexa.com/fff400) background and white border when hovered over:\n\n``\n.button:hover {background-color: #FFF400; border-color: white}\n``\n\nFor a background, you want to find ``body`` (ctrl-f for huge files) and change the [color](http://www.w3schools.com/cssref/css_colors.asp) listed there.\n\nI tried finding it for the ~~main page's~~ this talk page's css file (better example) and it's on line 111 (`body { background-color: #F5F5F5;`). This is the greyish background here.",
+				"added": 1486708027
+			},
+			{
+				"comment_id": 4,
+				"body": "You're welcome. Also, [here](https://learnxinyminutes.com/docs/css/) is another nice little rundown.",
+				"added": 1486755845
+			}
+		],
+		"1_1PBMVMMVVtSK6FmMbfz4fhEw5fv6eZs5Dn": [
+			{
+				"comment_id": 5,
+				"body": "http://127.0.0.1:43110/NewGFWTalk.bit\n请使用这一个",
+				"added": 1486756406
+			}
+		],
+		"2_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": [
+			{
+				"comment_id": 6,
+				"body": "https://en.wikipedia.org/wiki/Online_disinhibition_effect",
+				"added": 1487032538
+			}
+		],
+		"1_15eCayxQsqggLVaj9kYJSCgTpoA2GPQEuW": [
+			{
+				"comment_id": 7,
+				"body": "@someuser: Are you the maintainer of the site? I've noticed a few problems with it.\n\n1. It seems to truncate any letter 'h's at the beginning of a query.\n2. It seems to have trouble with css and/or javascript on .bit sites, such as [here](http://nx.bit).\n3. I don't see any way way to tell apart .bit urls and zeronet urls. This may cause problems in some [cases](http://namecha.in/name/d/bluishcoder).\n\nStill, keep up the good work!",
+				"added": 1487266476
+			}
+		],
+		"1_19o28kY46qs4yztgepknRtS6HULZpQhiT7": [
+			{
+				"comment_id": 8,
+				"body": "https://wiki.namecoin.info/index.php?title=Register_and_Configure_.bit_Domains",
+				"added": 1487350526
+			}
+		],
+		"5_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [
+			{
+				"comment_id": 9,
+				"body": "Is there any reason why having the amount of work required increase (based on the rate of requests sent) wouldn't work?\n\nAlso, There are some [techniques](https://en.wikipedia.org/wiki/Guided_tour_puzzle_protocol) besides hashcash that might work better here to reduce spam.",
+				"added": 1487552498
+			}
+		],
+		"5_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 11,
+				"body": "I think [this](http://stackoverflow.com/questions/29067660) is it.\n\nMight wanna tell the devs, too.",
+				"added": 1487719755
+			},
+			{
+				"comment_id": 12,
+				"body": "[found](http://unicode.org/help/display_problems.html) more [things](http://stackoverflow.com/questions/35944219).",
+				"added": 1487729981
+			}
+		],
+		"1_17To4zKQntCiVqSZqHK3mwEpbLWVCtLHEe": [
+			{
+				"comment_id": 13,
+				"body": "Moved the response [here](/1HEXX7UamTbF6EwEFtN6QDGsjLdcY7Hkc5/?Post:13) for visibility.",
+				"added": 1487810660
+			},
+			{
+				"comment_id": 22,
+				"body": "> [styromaniac](#comment_1_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd): ZeroNet, WebTorrent, GitTorrent and Web2Web need DHT and need the widest adoption possible.\n\nGittorrent appears to be dead in the water, but we do have [something else](https://github.com/clehner/git-ssb).",
+				"added": 1488941495
+			},
+			{
+				"comment_id": 25,
+				"body": "> [sum1](#comment_1_18VhT9MmPNHTj6ZaAXigPP251FAq1kxKVR): If Zeronet was incorporated into Tribler somehow, then it would solve that issue.\n\n[Possible bad idea](https://lists.torproject.org/pipermail/tor-dev/2014-December/007999.html).",
+				"added": 1489020651
+			},
+			{
+				"comment_id": 28,
+				"body": "> [torezen](#comment_1_127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr): Standard bittorrent already supports trackerless torrents, doesn't it? Surely it must be possible to integrate this into Zeronet.\n\nhttps://github.com/HelloZeroNet/ZeroNet/issues/57",
+				"added": 1489350116
+			}
+		],
+		"1_1HMgB5kC5CXhxSngryrEDLUrPXkKgH1mtt": [
+			{
+				"comment_id": 15,
+				"body": "> [cyberfoo](#comment_5_1HQat1a4kYwNck8Bx3CGxh6rKCQ9CtBvME): well there used to be a search thing called zerosearch\n\n[this one?](/zearch.bit)",
+				"added": 1488149535
+			},
+			{
+				"comment_id": 16,
+				"body": "> [kaffie](#comment_243_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): Probably need therapy or something >_>\n\nI suggest mentioning it to your doctor to see how serious it is/isn't. Now (of all times) is a good time to consider this.",
+				"added": 1488346109
+			}
+		],
+		"22_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 17,
+				"body": "I don't know if [Redhat's business model](https://www.quora.com/How-does-Red-Hat-make-money) would work here.\n\nRight now, doing more development work on ZN so that it can eventually become stable is the best goal.",
+				"added": 1488347908
+			}
+		],
+		"2_12JNkg22um5nYeLgK8XgKavpivuwjrfHAy": [
+			{
+				"comment_id": 18,
+				"body": "These are the alternatives I can think of at the moment:\n\n1. A rolling blockchain/pruning, where a fixed amount of the last X transactions/ days are kept. Can also be set up so that storing more than the minimum is possible (and clients are rewarded for doing so).\n\n2. [Whatever the hell MaidSafe is doing](https://safe-network-explained.github.io/safe-for-bitcoiners#blockchain).\n\n3. Tangles: A new structure Invented by [IOTAtoken](http://iotatoken.com/). They're like a blockchain, but not strictly linear. The whitepaper is [here](http://iotatoken.com/IOTA_Whitepaper.pdf).",
+				"added": 1488650860
+			},
+			{
+				"comment_id": 20,
+				"body": "> [kopyjane](#comment_6_17ffrcHNzbFoUe81PyMEagQdv2DGNRLFcE): Apparently Kim Dotcom was going to create a platform that facilitates easier bitcoin micro-transactions ..\n\nI hope someone can persuade him to open source whatever is done so far, that'd be nice.\n\nTwo other things:\n\nI just remembered [Blockstack](http://blockstack.org/intro)--not exactly a solution, but an idea source. It's a DNS storage system with a \"virtual\"/\"meta\" blockchain that can use any other blockchain under the hood--almost like a merger site here, really, it's pretty clever. Also it does Dapps. More on the scalability [here](http://forum.blockstack.org/search?q=scale).\n\nand:\n\n> [cnocg](#comment_4_1L34ssdxfxnnSFEoUmy48LocCxnVAHtqSV): zcash is a choice.\n\nYou forgot the ``http://`` there cnocg. Might wanna add that.\n\n\nAlso since when have multiple replies at once been a thing?",
+				"added": 1488825594
+			}
+		],
+		"1_12JNkg22um5nYeLgK8XgKavpivuwjrfHAy": [
+			{
+				"comment_id": 19,
+				"body": "> [usc](#comment_1_1PGgFqu1c2u77NWFS68Sb36M361DGhfjtA): Is there any complete guide to setting up a domain with Namecoin on ZeroNet?\n\nIf you want, you can make a url that partly contains a string you want ([see here](/13x71nc7fju6afMqpEPfcu3Gx9Z5hNhH48/?Post:5)) at no cost (besides some one-time heavy CPU work). I used it so that [my zite url](/1HEXX7UamTbF6EwEFtN6QDGsjLdcY7Hkc5) starts with 'hex'.\n\nIf you want to install it, the blockchain's only 5GB, and multiple people here would be willing to toss some NMC your way--including me.",
+				"added": 1488680258
+			}
+		],
+		"9_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [
+			{
+				"comment_id": 21,
+				"body": "[Multihashes](https://github.com/multiformats/multihash) could be of use here.",
+				"added": 1488906972
+			}
+		],
+		"26_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 23,
+				"body": "> [kai0](#comment_32_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): I think it is wrong to consider the P2P network formed by the mobile now. Because the mobile's storage capacity is too small.\n\nPeople use a lot of mobile devices, and being able to use Zeronet on them would make people like it more. Also, streaming data instead of downloading is becoming more popular (like Netflix/Spotify/Youtube), so being able to do some amount of that is a good idea too.\n\n> For example, from 100000 personal computers constitute zeronet basic network, each computer to take 30G hard drive capacity, 100000X30G = 3000T. So big a P2P database, how to build? How to run How to maintain This is the real problem.\n\nThat example isn't totally right. A network can be very redundant, or have high capacity, but having more of one means having less of the other. You can have more of each, but that's much harder. ([this page](https://en.wikipedia.org/wiki/CAP_theorem) explains it a little more).\n\nFor example, if there was only one site with a size of 30GB, then the whole network can only store 30GB. I know it's not really like that--but in the real network, just adding up the storage of each device isn't correct.",
+				"added": 1488987334
+			},
+			{
+				"comment_id": 24,
+				"body": "> [kai0](#comment_34_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): everything is done。\n\n[It really isn't](https://github.com/HelloZeroNet/ZeroNet/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement). A better foundation is easier to build on top of.\n\nThere are people that have [already](http://createjs.org) made [CMSes](https://cdmedia.github.io/cms.js/) with Javascript, and it's possible to adapt one of those to use here. I know at least one [person](/126fBtopb2n7Pc42KhZyZyHhZKrecAdMdR) has already tried this.",
+				"added": 1489018913
+			},
+			{
+				"comment_id": 26,
+				"body": "> [kai0](#comment_38_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): I don't know css at all, to hard for me to change it.\n\nConsider learning [a bit](https://www.w3schools.com), it can be fun.\n\nThis is a little hard though, because \"making it look pretty\" is something graphical designers are better at, and \"making it do things\" is what programmers are best at (It's like having one person who is an expert on making sculptures, and one who is an expert on painting them). Nofish seems good at both, which is kind of rare. I don't think many other developers here are good at both skills.\nI'll also see if I can do something with it over the weekend, but there's only some much I can do unless I have more information. Maybe make a simple picture of what you're thinking of?",
+				"added": 1489131630
+			},
+			{
+				"comment_id": 27,
+				"body": "Someone made a blog with [Hexo](/14feUXtxkukdA9qutsHtKrAdXcYm5nnViu).",
+				"added": 1489349887
+			}
+		],
+		"1_1HJugahAiT2RnwJQdHuEd2RgW5fpWwNxnB": [
+			{
+				"comment_id": 29,
+				"body": "bad day?",
+				"added": 1489717941
+			}
+		],
+		"6_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 30,
+				"body": "yo we got ya [covered](/1F7b27kT38nMYZQg7tvDr33qWDZQgwnQpw) [fam](/12qyhjFvaCdbCwcsRX813aPwagd6FycFiU)",
+				"added": 1490463340
+			},
+			{
+				"comment_id": 32,
+				"body": "quick note(s):A: neither of these are mine, B: you may need to have git installed to make use of some of these, C: Download as many optional files as you can. They're sparse as-is.\nEdit: 0git seems to work fine, the other one is a bit flaky. Still, dl all those optional files plz, it helps.",
+				"added": 1490770997
+			}
+		],
+		"2_1DCTA8rrSFeKX7CzieU3CYwCjGZ2hYvamb": [
+			{
+				"comment_id": 33,
+				"body": "open task manager (ctrl-shift-esc) > go to the startup tab > right-click > disable\n\nAlthough it would help if you could find *where* the other version is running from..",
+				"added": 1492922374
+			}
+		]
+	},
+	"comment_vote": {
+		"27_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": 1,
+		"121_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"3_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"28_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": 1,
+		"7_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": 1,
+		"6_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"13_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"2_17To4zKQntCiVqSZqHK3mwEpbLWVCtLHEe": 1,
+		"1_17To4zKQntCiVqSZqHK3mwEpbLWVCtLHEe": 1,
+		"4_1LMNoBqBx1J5Ug83Huseh6fTQ4TAaDZoJj": 1,
+		"18_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"10_1PvAednzaMJiuMz1SD5wF3m3Hx7SK75zHv": 1,
+		"24_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"152_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"249_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"44_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y": 1,
+		"1_1HSLR7GTDxYLTqXLSSyVg1SieU7Nhk1FFW": 1,
+		"33_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1
+	}
+}

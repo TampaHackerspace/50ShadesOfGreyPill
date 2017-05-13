@@ -1,0 +1,56 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Using a Vpn with Zeronet would=Anominity",
+			"body": "Is this correct because the only thing that you share with others is your IP address?",
+			"added": 1471197606
+		},
+		{
+			"topic_id": 2,
+			"title": "Zero Net For Mobile?",
+			"body": "In the future would it be possible for zero net to run  on a mobile device such as an ipad or iphone?",
+			"added": 1471827658
+		},
+		{
+			"topic_id": 3,
+			"title": "The FBI iPhone Hacking Software Leak.",
+			"body": "Earlier this morning this was released on Pastebin.com by the hacker calling themselves BACKDOORZ.\nAnyway both download links don't work anymore so was wondering if anyone knew where to find the software. It's funny if BACKDOORZ had released the software on ZeroNet we wouldn't be having this problem.   \n \nThis is what was released on pastebin.com:\n\nRelease 1 - the supply chain - a backdoor with backdoors.\n \nIn this release find a small sample of the 900GB of mere 'user accounts and basic contact\ninformation' recently liberated from Cellebrite.\n \nThe exploit techniques that Cellebrite employ are wrapped in various encryption schemes\nin an attempt to protect 'their' intellectual property.  The custom routines for\ndecrypting this lame ass protection are included in this release along with an\naccompanying sample .eas (DLL designed to target devices and applications) and .epr\n(bootloaders, exploits and shellcode) files.\n \nThe more discerning eye will notice that some of the Apple exploits bear a remarkable\nresemblance to those available to any teenager interested in the jailbreaking scene;\nperhaps not all those tax dollars have been wasted, the Blackberry epr is still worth\na look at.\n \nThe ripped, decrypted and fully functioning python script set to utilize the exploits\nis also included within.\n \nDownload links:\n---------Links Have been taken down\n---------Links Have been taken down\n\nComing soon.....\n \nRelease 2 - watching the watchers - pivot to win.\n \nIn this release find a small sample of files retrieved via the weaponized Cellebrite\nupdate service deployed on MS Windows based devices and desktops (SYSTEM privs) within\nthe customer infrastructure.\n \nAnalysis of the compression and obfuscation employed by Cellebrite on products supplied to\nBritish MOD juxtaposed with the protection free versions supplied to SOCOM and others is\nalso included within.\n \n@FBI Be careful in what you wish for.\n \n     .->        .->  \n'-'---.\\  / ,---.   \\-,-----.'-'. ,--.\\    .'_ (`-')----. (`-')----. ,------,),(_/----.\n| .-. (/  | \\ /`.\\   |  .--./|  .'   /'`'-..__)( OO).-.  '( OO).-.  '|   /`. '|__,    |\n| '-' `.) '-'|_.' | /_) (`-')|      /)|  |  ' |( _) | |  |( _) | |  ||  |_.' | (_/   /\n| /`'.  |(|  .-.  | ||  |OO )|  .   ' |  |  / : \\|  |)|  | \\|  |)|  ||  .   .' .'  .'_\n| '--'  / |  | |  |(_'  '--'\\|  |\\   \\|  '-'  /  '  '-'  '  '  '-'  '|  |\\  \\ |       |\n`------'  `--' `--'   `-----'`--' '--'`------'    `-----'    `-----' `--' '--'`-------'",
+			"added": 1486219169
+		}
+	],
+	"topic_vote": {
+		"1_1M3WXb3DtLL9zsRy4ECqemV7ZyA4u4FNFU": 1,
+		"2_1M3WXb3DtLL9zsRy4ECqemV7ZyA4u4FNFU": 1,
+		"3_1M3WXb3DtLL9zsRy4ECqemV7ZyA4u4FNFU": 1
+	},
+	"next_comment_id": 4,
+	"comment": {
+		"1_1Hrxe8am5by9G5k4MeQDHVLepsJJ9yX5Fg": [
+			{
+				"comment_id": 1,
+				"body": "> [sirenyc](#comment_45_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): No Mans Sky-GOGhttps://rarbg.to/download.php?id=iwgtm4q&f=No%20Mans%20Sky-GOG-[rarbg.com].torrent\n> No.Mans.Sky-CODEXhttps://rarbg.to/download.php?id=6u7ljqg&f=No.Mans.Sky-CODEX-[rarbg.com].torrent\n\nthanks so much for the gog",
+				"added": 1471198097
+			}
+		],
+		"1_1M3WXb3DtLL9zsRy4ECqemV7ZyA4u4FNFU": [
+			{
+				"comment_id": 2,
+				"body": "> [zerocrat](#comment_13_1M4Ab8CUu3byziHVvNXLHmPezC4Lg9hvNJ): Yes absolutely, just like if you use a vpn with a torrent properly you can't be uniquely identified easily. 0net is alot safer because you have alot less backend server requests. It's clean and simple.\n\ncool thx so much",
+				"added": 1471227056
+			}
+		],
+		"2_1M3WXb3DtLL9zsRy4ECqemV7ZyA4u4FNFU": [
+			{
+				"comment_id": 3,
+				"body": "> [gerardmensoif](#comment_2_1G4nMD7txaYAvdpDeroZ9f67K3gtHsGn8H): I use Zeronet on my LG Nexus 5 which has Nethunter installed (Kali linux on android...). In this case, from a termianl window, I am able to download and launch Zeronet on the device. My Internet browser can connect to 127.0.0.1:43110 and I am able to create a Zeromail account... ;)\n\ncool",
+				"added": 1471949202
+			}
+		]
+	},
+	"comment_vote": {
+		"1_1FPzL4N6zBuQg72JRKx6f2XqxKMeQwXXn": 1,
+		"67_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1
+	}
+}

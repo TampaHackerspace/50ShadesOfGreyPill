@@ -1,0 +1,74 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 5,
+	"avatar": "generate",
+	"user_name": "Pseudo",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Just another user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1482963923,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"1HU1a2DMMZRHHNuPUk15pnrFfBnj59UutU_1482955218": 1482964081
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Pretty cool. Shame all cool decentralized projects are barely used.",
+			"post_uri": "1FGjKJX4U11aJBK9vAq5cYWTrSajWhV6ef_1",
+			"date_added": 1482964036
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx",
+			"user_name": "ks",
+			"date_added": 1483032155
+		},
+		{
+			"follow_id": 2,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1ACc4pa2pJam33SkSE1zF1seF3LQKWR24v",
+			"user_name": "Punkcoder",
+			"date_added": 1483032159
+		},
+		{
+			"follow_id": 3,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "14UupgrdnT7Y8vMES7aqUFgD1fC5RYNrh8",
+			"user_name": "Joczo",
+			"date_added": 1483032187
+		},
+		{
+			"follow_id": 4,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx",
+			"user_name": "ks",
+			"date_added": 1483032390
+		}
+	],
+	"settings": {
+		"reverse_comment_order": true,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": true
+	},
+	"blocked": [
+		"1Gh5YshmQdQSvEgj1Dm8twQCjMuJBEVGuC",
+		"17H6uxjm8hQK9Rk79yHkvQYQnTkJNroA3T"
+	],
+	"flags": {
+		"post-1Gh5YshmQdQSvEgj1Dm8twQCjMuJBEVGuC_1482997397": 0
+	},
+	"comment_like": {
+		"": 1483031752,
+		"1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9_13": 1483031761
+	}
+}

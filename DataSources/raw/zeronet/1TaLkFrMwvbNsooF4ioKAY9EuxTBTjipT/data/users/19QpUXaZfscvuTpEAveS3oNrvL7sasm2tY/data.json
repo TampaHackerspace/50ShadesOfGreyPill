@@ -1,0 +1,30 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"1_1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd": 1
+	},
+	"next_comment_id": 4,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "Test",
+				"added": 1485656551
+			}
+		],
+		"2_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 2,
+				"body": "> [twiggy](#comment_7_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): What's playonlinux? Do you have a link to what your talking about? I'm wanting to play some games like Witcher 3 on linux but linux lacks very badly when it comes to playing games like that.\n\nThe bad news is, you're not going to get Witcher 3 working.\n\nWINE lacks DirectX 11 support for the most part, and in the future when Witcher 3 does run, expect low framerates. *Very* low.\n\nAs for PlayOnLinux, it's a program that acts as an easy to use WINE virtual drive manager. That way you can keep all of your programs separate. One of its features is that you can install a different version if WINE for each program. It's pretty nifty, I'd recommend checking it out.",
+				"added": 1485657317
+			},
+			{
+				"comment_id": 3,
+				"body": "> [twiggy](#comment_10_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): So I take it I wont be able to play anything like Elder Scrolls either? Sounds like I need to go back to Windows.\n\nDepends. Skyrim runs fine, but it's also a much older game and uses DirectX 9 (which WINE for the most part fully supports)",
+				"added": 1485693192
+			}
+		]
+	},
+	"comment_vote": {}
+}

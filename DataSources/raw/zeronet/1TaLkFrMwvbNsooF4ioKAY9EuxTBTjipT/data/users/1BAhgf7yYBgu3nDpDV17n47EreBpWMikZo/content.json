@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HP1PcNuGfXhAEBIL0MkuThHD8EaC13WflgsxhI8IVdbSWbQJEsJP1OM1lrkYCCp+EVonZbafv5RvkaMHOPYRtLQ=",
+ "cert_user_id": "lolilove@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "48502559c324d8fea6eb04303efc8ea909cc0c466241ad69694a7aabf2117b45",
+   "size": 509
+  }
+ },
+ "inner_path": "data/users/1BAhgf7yYBgu3nDpDV17n47EreBpWMikZo/content.json",
+ "modified": 1490719565,
+ "signs": {
+  "1BAhgf7yYBgu3nDpDV17n47EreBpWMikZo": "HMBRNUsJElma9DirttFmmFbTaEoXmmND3Ir/ZFvUcT5R4uX+Df2nu2o8HH2DHfNX0PtSZJcJ+ro1Kq7aGqx2q9Q="
+ }
+}

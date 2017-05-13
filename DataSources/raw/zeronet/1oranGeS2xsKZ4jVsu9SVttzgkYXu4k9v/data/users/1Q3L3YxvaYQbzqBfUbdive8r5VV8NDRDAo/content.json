@@ -1,0 +1,44 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HCxpLM2JqjUXVboQVl1EYncN8ZhYhcZ+mxfENbOfnDiblxe1yLIjBli/M+obhni13MKvmRpJKN5enSX/pnIuiP8=",
+ "cert_user_id": "ubuntu1@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "374d0a5729a06ff96166fe4668b630414ec1eea7da8e83a2c342f05b6da24d88",
+   "size": 36487
+  }
+ },
+ "files_optional": {
+  "1492066697.jpg": {
+   "sha512": "641ec1525b77aed1610dafd1c9516ba74ede1ef9b55cff5b856dc61fef53e3d2",
+   "size": 46490
+  },
+  "1492090209.jpg": {
+   "sha512": "d4529a0bc171158cae415c7241ad0a3d431de6808bfab18a73bfb6e6cca93b03",
+   "size": 51097
+  },
+  "1492485984.jpg": {
+   "sha512": "c7eb7f4cce2da13ebce7a6b3cddf2e5fcea7f64a6f43d3446e8564b2e69b8ab8",
+   "size": 30508
+  },
+  "1492501269.jpg": {
+   "sha512": "f7213fc0bd1b1a2edbd054eaf919f4ccb9736bed09040acc10a2fa13e4f27222",
+   "size": 64542
+  },
+  "1494318138.jpg": {
+   "sha512": "bc90e9abec884bbe4a7b8797156abb532ac6c99e1f07573eaddc8fac92f63733",
+   "size": 79479
+  },
+  "bg.jpg": {
+   "sha512": "78d5adc37e04fd702cc26d96909a93af4248c5fa67275dff2fecd28a545aa2e1",
+   "size": 35398
+  }
+ },
+ "inner_path": "data/users/1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo/content.json",
+ "modified": 1494318267,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo": "G83DDtDFFnq8rO8QCMkajh1WmyXV+dSXrf5tjXWEFBgDOfCGqZK89IJ+fpA9XVKwscfl6CiJbGuDte38+02wPp4="
+ }
+}

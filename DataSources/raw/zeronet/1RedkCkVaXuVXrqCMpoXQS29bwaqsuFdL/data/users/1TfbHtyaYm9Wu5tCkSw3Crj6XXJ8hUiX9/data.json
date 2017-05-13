@@ -1,0 +1,26 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Ged",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1479383783,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@64: thanks m8",
+			"post_uri": "1TfbHtyaYm9Wu5tCkSw3Crj6XXJ8hUiX9_1",
+			"date_added": 1479394660
+		}
+	],
+	"follow": []
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HI0WX7QoK4w5GgCnHrGZkAPk4fo0/qE9AH8J5G0yjrPMSWiHiK2ReijJnW6TUaLV5i9j8R9gryh+WWpbPXhPpdU=",
+ "cert_user_id": "wanlov@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "5cce1318c1d2de6b046e96d19fdc34c38102439688f82ab427d37041ff4cfce1",
+   "size": 337
+  }
+ },
+ "inner_path": "data/users/1AbGTBU9EeJ7corWGrMwiTXjUurcVsGgLu/content.json",
+ "modified": 1485082018,
+ "signs": {
+  "1AbGTBU9EeJ7corWGrMwiTXjUurcVsGgLu": "HGigS6+hsZskc06z5jUX2cjatj8xnLRZZb0rapYnPbBmAaLVAsmX19VQ7Yv+WVGuQwjd6QMYH3lZx45J2XPhgaI="
+ }
+}

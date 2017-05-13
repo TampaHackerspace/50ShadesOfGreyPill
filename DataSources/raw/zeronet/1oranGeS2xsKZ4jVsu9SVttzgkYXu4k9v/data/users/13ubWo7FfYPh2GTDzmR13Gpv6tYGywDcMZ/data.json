@@ -1,0 +1,31 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Apocynoideae",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484860207,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1484860269,
+			"body": "is it possible to brute-force hhd passwords?",
+			"date_added": 1484860267
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "is it possible to bypass a hdd lock?",
+			"post_uri": "13ubWo7FfYPh2GTDzmR13Gpv6tYGywDcMZ_1484860269",
+			"date_added": 1485043831
+		}
+	],
+	"follow": []
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G5HSifyNz1u3lfeZFc8v+4C4DwIYzk7VGr+SnNYm0wqRwVFXo3EFKsZi/V4s3XJq1vOVNxzGS+cm3K925+z0WQY=",
+ "cert_user_id": "voruman@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ad9423295d26786e5885ea30b87ae24d7adb30e402f353930fa79b65ebd5d95e",
+   "size": 550
+  }
+ },
+ "inner_path": "data/users/1KAfCgw4ECkqUccYQZDoPuTMhA2YPMaZwG/content.json",
+ "modified": 1475581225.584596,
+ "signs": {
+  "1KAfCgw4ECkqUccYQZDoPuTMhA2YPMaZwG": "HAVOj0Ue4GmBu3WKq+Bw0aVOu5W/rvds7316JYYKVY2tdQUr4EalbAjoy2VqFaft3Pg+jKa5/9uxawBCHK7Emt8="
+ }
+}

@@ -1,0 +1,21 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"15_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 1,
+				"body": "> [bot](#comment_158_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): My study has mostly been in the node.js direction. Within Electron we can cross-feed data wherever there is a security roadblock in default Zeronet. The discussion and announcement of removing ajax and other techniques of reading or writing data made my decision to fork as best i could. \n\nYou use a fork of zeronet to do Fuzium, which is based on Electron framework, which is based on chromium, which is based on Google Chrome?\n\nWhile I LOVE the idea and implementation of Electron and the feeling of Web-based standalone apps in general (like firefox prism before), I am not sure if using anything Chromium-based for something as privacy-critical as zeronet is longterm good idea, because of too many unkown variables in the underlying monstercode and despite it being opensource (much like android):\nhttps://github.com/Eloston/ungoogled-chromium/tree/master\n\nI googled for something equivalent from mozilla, but it oddly seems their only counterproject (called Positron) has been discontinued a few days ago, which seems odd with Mozillas prime goal wanting to be at the front of webdevelopment.\n\nNevertheless please continue your work on Fuzium, maybe some people here or elsewhere figure things out because of importance with more and more people using electron as a base.",
+				"added": 1489672047
+			},
+			{
+				"comment_id": 2,
+				"body": "> [p2p](#comment_280_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): yeah, there are also C/S centralized web framework/Apps based on node.jsIMO the problem of node.js and Electron is the bundle package for user download is much bigger than python.\n\nI tried it and dont felt it was a huge problem.\n\nI would love though if one could point installation to a directory, which contains then the complete Fuzium + all apps + data instead of scattering things all over the place in a Windows installation.",
+				"added": 1489672223
+			}
+		]
+	},
+	"comment_vote": {}
+}

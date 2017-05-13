@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HKitG9mE/rIOrJo9Pf5ezXNVWK9qrzcM3NCudjRYyEpM41vKH6A2xFoIP+Yy46GWtY/X5QYELBIx/18iFaoT5Sk=",
+ "cert_user_id": "luisbalrog@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "f82950ee9e6e3edade803a0d4feb00a8f4cf88e4a69653caab31a26eb0521a13",
+   "size": 1882
+  },
+  "data.json": {
+   "sha512": "d6d2e964446e712a50042604d6c2f6a7ecdf6352e1776267208303668044d4a6",
+   "size": 547
+  }
+ },
+ "files_optional": {
+  "1484193518.jpg": {
+   "sha512": "6ffe6300a7678bb7d4e542d58c5e462aa51065c1104dca08235f59a4e5d4e536",
+   "size": 37721
+  }
+ },
+ "inner_path": "data/users/13x7dKEPrHK97ZoKWhLCYXu162GGeQZf6t/content.json",
+ "modified": 1484193516.624934,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "13x7dKEPrHK97ZoKWhLCYXu162GGeQZf6t": "HJ1Jo4eF0Dbp8ZU5TI7gNKJUz7s/HmK/N3K1gOmys9csLe/C3jDwtuzaOG+asUito+Vjj8A6okI95XGkxr8764A="
+ }
+}

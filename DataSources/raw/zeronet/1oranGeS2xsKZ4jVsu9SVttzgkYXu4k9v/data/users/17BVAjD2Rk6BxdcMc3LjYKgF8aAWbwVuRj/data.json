@@ -1,0 +1,42 @@
+{
+	"next_post_id": 4,
+	"next_comment_id": 3,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Cruze",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "新 ZeroNet 用户",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1483270934,
+			"body": "你好 ZeroMe!"
+		},
+		{
+			"post_id": 1483274882,
+			"body": "zeronet目前的功能已经非常完美了，唯一的问题可能就是用户数还太少吧",
+			"date_added": 1483274880
+		},
+		{
+			"post_id": 1483442350,
+			"body": "It would be better if ZeroMe is designed as Twitter/Weibo style with information stream in the main page",
+			"date_added": 1483442347
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@FraYoshi: Some media just like CNN or BBC are also needed here for a stable news broadcasting, I guess",
+			"post_uri": "17BVAjD2Rk6BxdcMc3LjYKgF8aAWbwVuRj_1483274882",
+			"date_added": 1483440810
+		},
+		{
+			"comment_id": 2,
+			"body": "@FraYoshi:  River of News seems to be updated more frequently but with ugly user-interface, hahaha. Thanks!",
+			"post_uri": "17BVAjD2Rk6BxdcMc3LjYKgF8aAWbwVuRj_1483274882",
+			"date_added": 1483502976
+		}
+	],
+	"follow": []
+}

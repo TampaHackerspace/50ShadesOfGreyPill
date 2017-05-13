@@ -1,0 +1,41 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Password protected proxy?",
+			"body": "I am running a zeronet node accessible from a non-standard outside port as a personal proxy when I am away from home.  Is it possible to password protect my proxy?\n\nThanks",
+			"added": 1477937435
+		},
+		{
+			"topic_id": 2,
+			"title": "\"Forbidden: Media referrer error\" on SSL Nginx Proxy",
+			"body": "I'm attempting to set up an SSL HTTPS nginx proxy with password protection so I can access zeronet from my mobile devices while I'm on the road.\n\nI have set up nginx on Ubuntu 16.04 with LetsEncrypt SSL certs according to http://www.htpcguides.com/secure-nginx-reverse-proxy-with-lets-encrypt-on-ubuntu-16-04-lts/\n\nUnfortunately, once I get the proxy up and running, any access results in ZeroNet reporting a \"Forbidden: Media referrer error\".  I assume it doesn't like the proxy referral?\n\nAny help appreciated, including any working configs.  Does anyone run ZeroNet behind an SSL proxy?\n\nThanks!",
+			"added": 1477972837
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 4,
+	"comment": {
+		"1_1Buu3gEo6EcUijPE6dkSToaYzXKGnAgXFy": [
+			{
+				"comment_id": 1,
+				"body": "Thanks.  I was hoping to avoid running a reverse proxy, but I guess it is not that big a deal.",
+				"added": 1477940494
+			}
+		],
+		"2_1Buu3gEo6EcUijPE6dkSToaYzXKGnAgXFy": [
+			{
+				"comment_id": 2,
+				"body": "Nice welcoming attitude towards a new user of a small community trying to contribute.",
+				"added": 1478054992
+			},
+			{
+				"comment_id": 3,
+				"body": "@devtest, thank you.  I will take a look when I get back in town and post my experience.\n\n@ancap how do you know I'm not trying to contribute?  I have professional crypto design experience and have started several open source projects.  I have obviously devoted hours to my interest in zeronet already.  A more welcoming tone would help grow the community faster, I might have written it off if not for devtest's response.",
+				"added": 1478132758
+			}
+		]
+	},
+	"comment_vote": {}
+}

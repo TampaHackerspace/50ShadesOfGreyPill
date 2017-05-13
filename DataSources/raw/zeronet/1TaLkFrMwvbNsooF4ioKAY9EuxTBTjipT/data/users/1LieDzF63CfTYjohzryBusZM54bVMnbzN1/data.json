@@ -1,0 +1,42 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "This Zeronet Proxy is going to be shut down. Reason: out of money.",
+			"body": "https://zeronet.iikb.org/147AsJCihV923F2VXnswwRUYDfjRDDDmyZ",
+			"added": 1491377875
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 5,
+	"comment": {
+		"1_1LieDzF63CfTYjohzryBusZM54bVMnbzN1": [
+			{
+				"comment_id": 1,
+				"body": "> [hymack](#comment_1_1FeMy46PzXdh28gL8AKC9mQX1cA5zARjAQ): Is this real?\n\nWhat do you mean? I just wrote that page. And yes, we're out of money.",
+				"added": 1491379758
+			},
+			{
+				"comment_id": 2,
+				"body": "If every red hub user filling the server's disk with donkey porn and whatnot would give one satoshi, this page wouldn't even be there.",
+				"added": 1491379869
+			}
+		],
+		"2_17ffrcHNzbFoUe81PyMEagQdv2DGNRLFcE": [
+			{
+				"comment_id": 3,
+				"body": "https://zeronet.iikb.org hosted on Latvia through https://yourserver.se ever since the early time of zeronet. When the server runs out of space, I usually delete a lot of what I believe is pornography. I can't possibly monitor all downloaded files to see what's there, nor I know of an automated method to remove \"unwanted material\".\nIf any agency which has jurisdiction at Latvia or the .org domain (the .xyz wasn't renewed) ever send any letter, then something may or may not happen.",
+				"added": 1491770657
+			}
+		],
+		"1_14YkpjZoU1Q897PhRG4CWyg6CL6Rn4QEVf": [
+			{
+				"comment_id": 4,
+				"body": "Zeronet uses bitcoin for addresses. For instance, this site's address is 1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT.\n\nYou don't download anything from the bitcoin blockchain.",
+				"added": 1491770844
+			}
+		]
+	},
+	"comment_vote": {}
+}

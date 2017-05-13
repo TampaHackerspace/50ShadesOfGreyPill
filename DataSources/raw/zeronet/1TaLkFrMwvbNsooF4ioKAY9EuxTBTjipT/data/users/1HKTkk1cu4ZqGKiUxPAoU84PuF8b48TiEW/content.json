@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HGn1A84C6LiKiySRMBnSfjBSuET/bSLsX77WK11DZcaIfmYtzCPui2/nwS0SEfa+5hePN+FBn62WksBVpjY/9LY=",
+ "cert_user_id": "searchthetruth@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "201280009857ff1756d8060339c472641049a731fa275e29b822837638d49709",
+   "size": 2408
+  }
+ },
+ "inner_path": "data/users/1HKTkk1cu4ZqGKiUxPAoU84PuF8b48TiEW/content.json",
+ "modified": 1482154973.902912,
+ "signs": {
+  "1HKTkk1cu4ZqGKiUxPAoU84PuF8b48TiEW": "G167mzY0v5C0ROhgUQ5REmF44LyWoV6UPTtpW6lkYkwUyIVmsbys4vGLLmcdppvfWXI2NA7oIZMjpueSeKJvsUo="
+ }
+}

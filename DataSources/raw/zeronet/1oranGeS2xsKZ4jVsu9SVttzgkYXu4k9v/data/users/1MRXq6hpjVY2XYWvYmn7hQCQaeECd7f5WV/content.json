@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G7GWBI6n/OmZGQeWwVGf6cPDJFZXyWyJg5CKWcznmkX+NaA57YN8/1uSobIaXCvXNuFdhIB8TpX+RZbOi2JtyZA=",
+ "cert_user_id": "faberrocha@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ec75ac3fa4a807ceb0894ecb41817bd3020abcad2db8a4806fe26aaffff6f5b0",
+   "size": 341
+  }
+ },
+ "inner_path": "data/users/1MRXq6hpjVY2XYWvYmn7hQCQaeECd7f5WV/content.json",
+ "modified": 1490569068,
+ "signs": {
+  "1MRXq6hpjVY2XYWvYmn7hQCQaeECd7f5WV": "G4IBg1VBUdyLTmU/+DnUWr0rVco+NSQatr1+EsiDCa9HNEcLSLOQlGQ1vvUKG6Pvb7jLLbN2uSH1QRfjTNhdhyc="
+ }
+}

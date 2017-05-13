@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HNKoNbxVWZ3vrYmjX6rJr9dowq+1za/8Jc43s3Wl3K+ZZd5AhM4Lkt/7NmoM7EFsdoIygoLbvH9QJylYEWN99LE=",
+ "cert_user_id": "thefuzzstone@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ef0806ad138140810c971cacd2322bdb3d16495af9111de5437cda40013fb3cc",
+   "size": 662
+  }
+ },
+ "inner_path": "data/users/13XkcrXX32AftHLaersVLMJjLyWcT4244D/content.json",
+ "modified": 1486139524,
+ "signs": {
+  "13XkcrXX32AftHLaersVLMJjLyWcT4244D": "G2k/qm6+eJFgtHkuk6KUMnlJGhPsQphkrB+preWO8DW4Zu3kx9n95OM4+2UnifNe7gVOqIBEN1yAw5/35nppd6c="
+ }
+}

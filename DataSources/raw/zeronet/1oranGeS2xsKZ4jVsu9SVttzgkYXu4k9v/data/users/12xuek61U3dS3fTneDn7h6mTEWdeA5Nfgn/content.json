@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G6Z8z6Yw55aiBglvbN4Hosoov3iIjIvPC7dhldMOGhzPoGzfP1d152RbWvfiVswLWK7xe19dwyiqGqYPt0vcr4s=",
+ "cert_user_id": "terriblegoatmilk@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "1dc172a07d472369463fb3b64486ca2b82c5ae92d58fcb5452290513bf33e207",
+   "size": 2082
+  },
+  "data.json": {
+   "sha512": "7c9e317e774aa5cab86c891d0aee338f8b8811e8b8eed2dd97a3d613f16ae805",
+   "size": 1105
+  }
+ },
+ "files_optional": {
+  "1483618167.jpg": {
+   "sha512": "cdb17f1de19044ad13f6a9f62bf41873e3908b937f5fb1dce147624cc46cd6a8",
+   "size": 87766
+  }
+ },
+ "inner_path": "data/users/12xuek61U3dS3fTneDn7h6mTEWdeA5Nfgn/content.json",
+ "modified": 1483618242.136,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "12xuek61U3dS3fTneDn7h6mTEWdeA5Nfgn": "HFKwUJzCaBcOXhSMN/OMIWVeRcRaYsTiC9ordhcgz++ITgPsNniYp2YztuWMILnsn4rSQhnGrI0SmAis0i0Zp4c="
+ }
+}

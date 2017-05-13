@@ -1,0 +1,794 @@
+{
+	"next_topic_id": 12,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "What happens if millions of poeple use Zeronet ?",
+			"body": "I mean, I will never be able to handle that much websites on my hard drive, neither my connection",
+			"added": 1457015453
+		},
+		{
+			"topic_id": 2,
+			"title": "ZeroNet websites size",
+			"body": "What happens if a website exceeds the size defined here ? (when you drag the zero to the left)\nhttps://lut.im/rEOYVKr8Ay/jhxqzMtHdi9CvRUU.png",
+			"added": 1457098402
+		},
+		{
+			"topic_id": 3,
+			"title": "Public ZeroNet Proxies",
+			"body": "In case of need\n\nhttps://zeronet.classcoder.com/\nhttp://bit.no.com:43110/\nhttp://zero.pags.to:43110/\nhttp://zeronet.crypt.cat:8080/\n\nSource : http://127.0.0.1:43110/1PwBECmfUmT4mcacoMUsCvhueDYQoRJSzr/",
+			"added": 1457099153
+		},
+		{
+			"topic_id": 4,
+			"title": "Get some seeder for your site",
+			"body": "Cool project : http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n",
+			"added": 1457208720
+		},
+		{
+			"topic_id": 5,
+			"title": "Using multiple users on 1 PC",
+			"body": "Hello, is there any way to user multiple ZeroID on a same instance of ZeroNet ?",
+			"added": 1457257205
+		},
+		{
+			"topic_id": 6,
+			"title": "Content sign failed: invalid private key.",
+			"body": "What does this mean ? It happens only on ZeroChat and other poeple faced it\n\n\nhttps://lut.im/lvHY6HegCH/NX9s1Q65PqffMtBF.png\n\nChat 1 : http://127.0.0.1:43110/1KzDGFWuVgniDVaKBdS1cY91FZBQeKbZMn\nChat 2 : http://127.0.0.1:43110/1CjR14fofbRJ54oj8A7rAfWpzpLawdP5uc",
+			"added": 1457263459
+		},
+		{
+			"topic_id": 7,
+			"title": "Error with ZeroBoard",
+			"body": "I get this error sometimes : \n>Message submit failed!\n>Parsing parameters... Please try again later.\n\nWhat is the problem ?",
+			"added": 1457266117
+		},
+		{
+			"topic_id": 8,
+			"title": "Change site owner",
+			"body": "Let's say someone wants me to be the owner of its website so I can make modifications. Is it possible to do this without changing the site adress ?",
+			"added": 1457287204
+		},
+		{
+			"topic_id": 9,
+			"title": "Find site creator",
+			"body": "Is it possible to find which person has created which site ?",
+			"added": 1457459493
+		},
+		{
+			"topic_id": 10,
+			"title": "ZeroNet = deep web ?",
+			"body": "Can ZeroNet be considred as a part of the deep web ?",
+			"added": 1458737477
+		},
+		{
+			"topic_id": 11,
+			"title": "Fuck the terrorism",
+			"body": "It happened again yesterday, in Belgium.\n\nFuck it.",
+			"added": 1458737646
+		}
+	],
+	"topic_vote": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"2_19qzd1DkCVqK753BX35iXU439DiusNCpCA": 1,
+		"1_1CcJZEvu57ZqSDjWDEJCAGEWzHQ7uXKKNR": 1,
+		"2_1KJFB4SEHaHCY11HMKsMGyth1mXKb3R5oY": 1,
+		"1_18SnQz5JhcaeKfh5XL2vUqM44F5ffueVYq": 1,
+		"12_1PNyuY1iZqXBpft4ArouqcnE4pNRGYij5i": 1,
+		"1_1Mwm45xgWJkwaqQeXcLKqPy4KcTNM8XcbD": 1,
+		"3_1GCsW9TFfjDsvcdmKPADq1n8Q3ha72UtDQ": 1,
+		"1_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": 1,
+		"1_18NAazqd14AcVXdCqN29NTUrxSLGyPy5gB": 1,
+		"1_17ApQKugX1XH727gpAeD3mrRLjLxASdakd": 1,
+		"7_1MxdAjWgnqwCaunGHmhY39tVR51qV3peJL": 1,
+		"3_1NRTwjkXBxbeyrWhUvik7pLVoxWtsSjHQi": 1,
+		"2_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"14_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"3_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": 1,
+		"1_11pADbvn3XmFZ5sbM9ZANRb5Gv9igHLCF": 1,
+		"1_16SHqxwSkfr3HFnhAq4AxsZ9TaoLzpPmGu": 1,
+		"1_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": 1,
+		"2_17PhTjw3o2wPhxyKeM3Ss975eWZ1UMsjQC": 1,
+		"1_1NZzwF41g4xAn2R6t8UC625wEDfQtQdB1B": 1,
+		"4_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": 1,
+		"3_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": 1,
+		"4_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": 1,
+		"1_1N9vyd78w2N6174aLsw7FvCk5Lij3Bu33Y": 1,
+		"2_1Kg7CXZM5h3wTPENsTDwWUmRBf9VhYy2cW": 1,
+		"5_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": 1,
+		"1_17oYQdLkvyzEVPH3hXRtK3ru4FLNKZUD3b": 1,
+		"1_13qeq1z87R1kQWDZUQYm3y7tDCLimnhfvS": 1,
+		"4_15ymkjUYJS6tjUC35AekGMExZMN6iks8ma": 1,
+		"4_1EMpuiFM1NLZmAVyoAWnwi8VwiZVV4dcnN": 1,
+		"6_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": 1,
+		"1_1674XymFPbmAXh78xEpt3Pehtko6i2kvtA": 1,
+		"2_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": 1,
+		"1_1PtoWgfjhzMK8qz1eTVG3QsawNQ4DL8c8Y": 1,
+		"7_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"1_15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ": 1,
+		"4_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn": 1,
+		"1_1BQg5MQZ63aEQZMzLEXP6yY3hsgznKpaps": 1,
+		"1_1FoCQCBaoX3Fi85goewPLRLr1mxFqmCKNU": 1,
+		"1_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": 1,
+		"8_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"1_1LJoVy98WbuHAVPb9nqKDLz4AWEiLqmvqh": 1,
+		"1_19LkvdTE3CmnUApuSwY8KGbm7n7sWCNEPC": 1,
+		"1_145RMBphDHxfAeUP5YPjozVkSMSw1GppVA": 1,
+		"3_1Kg7CXZM5h3wTPENsTDwWUmRBf9VhYy2cW": 1,
+		"1_19oTjiELVv5NKUxcchx4F7vyoznBfgodur": 1,
+		"2_154jAWx5PDRmvF4txGHo4Edw1BpduhDyvw": 1,
+		"1_1LoyRxaxKN6jn6urKfUeqPFuV37BNJFDc5": 1,
+		"10_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx": 1,
+		"1_1EgYg1XAxktqWHWC1aTWQoToF6Mr5QmEWq": 1,
+		"2_1BidR2Pw65fTPeh1R3LbwCdfEJUPB6FLes": 1,
+		"4_1JHQA9oFkFpFFRiscyT4N71AKLWg46pQ92": 1,
+		"5_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": 1,
+		"6_17n5jg4bBEoWodXDf8L4Y2u88ShagS272Y": 1,
+		"1_1D1n7qdeV3LL3BxKuPGxcfMGa2WENHNgNp": 1,
+		"15_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"3_19R2USgb9vPyg1jPQEJkGVoBwDuDcEmHRF": 1,
+		"11_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": 1,
+		"1_18jipjDsfAxAuq4ixbi2w24xJrYVfTYFPn": 1,
+		"1_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU": 1,
+		"7_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"1_1Dj5WCaPV2r18QcDQFHmyx2HnGmwMJce9b": 1,
+		"3_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": 1,
+		"1_1ANXCwkxieV453iigVj4d6FNNkQJCHaPwE": 1,
+		"2_13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31": 1,
+		"10_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1
+	},
+	"next_comment_id": 88,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "Greetings from France",
+				"added": 1457003010
+			},
+			{
+				"comment_id": 9,
+				"body": "zero://Talk.ZeroNetwork.bit\nhttp://zero/Talk.ZeroNetwork.bit\nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit",
+				"added": 1457036133
+			},
+			{
+				"comment_id": 18,
+				"body": "test",
+				"added": 1457082958
+			},
+			{
+				"comment_id": 30,
+				"body": "> [sin](#comment_1_1P97itWECWCYp7D73wY4GaTKUyUo4A3Pcf): anyone commenting from a very restricted nation?\n\nFrance ? ¯\\_(ツ)_/¯",
+				"added": 1457098968
+			},
+			{
+				"comment_id": 44,
+				"body": "test",
+				"added": 1457261223
+			},
+			{
+				"comment_id": 45,
+				"body": "test",
+				"added": 1457261329
+			},
+			{
+				"comment_id": 65,
+				"body": "> [vegemite](#comment_1_19Rv1T7iH7vVxga5z2DRyKoJ3pbVjku77G): why are there so many users. usually these projects are dead on arrival\n\nbecause ZeroNet is awesome",
+				"added": 1457547858
+			},
+			{
+				"comment_id": 68,
+				"body": "Is this possible to create a French ZeroTalk \"ZeroTalk en français\" and put it on the top left end corner of ZeroTalk ? :)",
+				"added": 1457799423
+			},
+			{
+				"comment_id": 69,
+				"body": "> [nofish](#comment_491_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Sure, if anyone know an active French ZeroTalk clone I will add it.\n\nHre it is http://127.0.0.1:43110/1Vp5LH4wegCaqeB72yMw2jgNdVm4aR7ET",
+				"added": 1457803592
+			},
+			{
+				"comment_id": 70,
+				"body": "> [nofish](#comment_493_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Nice, can you (or the owners) update it to latest version?\n> \n> Backup your site's directory (just in case)\n> Copy css, js directories and index.html from 1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT to 1Vp5LH4wegCaqeB72yMw2jgNdVm4aR7ET\n\nI can't reach the owner :(",
+				"added": 1457811439
+			}
+		],
+		"1_1EUyJtat7mbu5wMcR6nrJTPBBRons1mtMA": [
+			{
+				"comment_id": 2,
+				"body": "I learned about it here http://korben.info/zeronet.html",
+				"added": 1457015547
+			}
+		],
+		"1_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 3,
+				"body": "Yes but if I go on dozens of sittes every day, or if a website uses a lot of data",
+				"added": 1457015805
+			},
+			{
+				"comment_id": 4,
+				"body": "> Sites are limited of how much they can take up of your space and you can delete them if you want.\n\nHow much ?",
+				"added": 1457021576
+			}
+		],
+		"2_1GCsW9TFfjDsvcdmKPADq1n8Q3ha72UtDQ": [
+			{
+				"comment_id": 5,
+				"body": "Bash. :D",
+				"added": 1457021605
+			}
+		],
+		"2_1KJFB4SEHaHCY11HMKsMGyth1mXKb3R5oY": [
+			{
+				"comment_id": 6,
+				"body": "Nice, need a bit of CSS improvement ^^\n\nAnd, oh, Google Analytics on ZeroNet ?...",
+				"added": 1457034467
+			},
+			{
+				"comment_id": 7,
+				"body": "@apoapostolov same here\n@oxilic That's not a good thing. I use a VPN + TOR and P2P to go on a website. Why the hell Google comes here to track me",
+				"added": 1457035025
+			}
+		],
+		"2_1GmZJxRakRMJiJBLBXTy4YyDuA33UJUBoM": [
+			{
+				"comment_id": 8,
+				"body": "Yes http://zeronet.readthedocs.org/en/latest/faq/#is-it-possible-to-install-zeronet-to-a-remote-machine",
+				"added": 1457036082
+			}
+		],
+		"1_1Mwm45xgWJkwaqQeXcLKqPy4KcTNM8XcbD": [
+			{
+				"comment_id": 10,
+				"body": "Tout à fait d'accord avec vous, c'est l'avenir !\nJe compte en faire un article sur mon blog (https://angristan.fr/) très bientôt",
+				"added": 1457036819
+			},
+			{
+				"comment_id": 11,
+				"body": "Oui. J'espère qu'on ne sera pas contraints d'utiliser des réseaux alternatifs pour préserver notre liberté d'expression...",
+				"added": 1457036960
+			},
+			{
+				"comment_id": 12,
+				"body": "> [amz3](#comment_8_12fNTMaQH1mN5bPehdvkNgTAVxzQXop87e): pourquoi migrer? j'ai pas compris la blague\n\nParce que la Corée du nord serait peut-être mieux que le France sous peu #BigBrother",
+				"added": 1457037242
+			},
+			{
+				"comment_id": 13,
+				"body": "> [kilow](#comment_4_1Mwm45xgWJkwaqQeXcLKqPy4KcTNM8XcbD): Plus forum\n\nOn a qu'à faire un ZeroTalk français",
+				"added": 1457037288
+			},
+			{
+				"comment_id": 14,
+				"body": "> [nowhereman](#comment_2_15xAFv6aHXqo5xdaSoTEi5pRNokskECJXU): il y en a déja un : http://127.0.0.1:43110/1Vp5LH4wegCaqeB72yMw2jgNdVm4aR7ETet un zerochat: http://127.0.0.1:43110/1JX3mpfPCXf1xDodbuktrxEZqpPQuVaMr2\n\nZeroChat je savais, mais pas pour ZeroTalk Fr :D",
+				"added": 1457037380
+			},
+			{
+				"comment_id": 15,
+				"body": "> [nowhereman](#comment_3_15xAFv6aHXqo5xdaSoTEi5pRNokskECJXU): Comment tu l'as trouvé sans être passé par le talk? :p\n\nQuelqu'un l'avais mis sur ZeroBoard quand il a vu quelques français perdus :D",
+				"added": 1457037551
+			},
+			{
+				"comment_id": 16,
+				"body": "> [amz3](#comment_13_12fNTMaQH1mN5bPehdvkNgTAVxzQXop87e): Et pour le moteur de recherche... x)\n\nY'a quelques projets actuellement mais c'est super foireux. Faut ajouter les sites à la main aussi.",
+				"added": 1457037588
+			},
+			{
+				"comment_id": 17,
+				"body": "Salon IRC ZeroChat (nouvelle version) http://127.0.0.1:43110/1KzDGFWuVgniDVaKBdS1cY91FZBQeKbZMn",
+				"added": 1457042209
+			}
+		],
+		"1_1A6hcWNpQ9SSLoTTpuT19VsVQ6WCVRkyen": [
+			{
+				"comment_id": 19,
+				"body": "It's working again :D",
+				"added": 1457088984
+			}
+		],
+		"7_1MxdAjWgnqwCaunGHmhY39tVR51qV3peJL": [
+			{
+				"comment_id": 20,
+				"body": "> [ripper234](#comment_14_1MxdAjWgnqwCaunGHmhY39tVR51qV3peJL): Allow me to delete my posts & comments from ZeroTalk.(Deletion doesn't prevent someone from caching the content themselves, just effectively hides them).\n> While we're at it, allow me to edit my posts.\n\nAgreed",
+				"added": 1457089054
+			}
+		],
+		"2_15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ": [
+			{
+				"comment_id": 21,
+				"body": "VPN is better than a proxy",
+				"added": 1457097825
+			}
+		],
+		"4_1MxdAjWgnqwCaunGHmhY39tVR51qV3peJL": [
+			{
+				"comment_id": 22,
+				"body": "You can backup *\\ZeroNet\\data\\users.json to backup your user\nIf you backup your whole ZeroNet folder it will take a lot of time as it contains the websites you visited (thousands of files)",
+				"added": 1457097956
+			}
+		],
+		"1_1BGaNcH1UBqAdatPbT3YssmPRVdhepMNPW": [
+			{
+				"comment_id": 23,
+				"body": "Works well with a french OpenVPN :)",
+				"added": 1457098008
+			},
+			{
+				"comment_id": 29,
+				"body": "I have an OpenVPN server on my own Linux server with all ports opened, but my ZeroNet dashboard says I have my port closed. Why ?",
+				"added": 1457098839
+			}
+		],
+		"10_1MxdAjWgnqwCaunGHmhY39tVR51qV3peJL": [
+			{
+				"comment_id": 24,
+				"body": "> [ripper234](#comment_15_1MxdAjWgnqwCaunGHmhY39tVR51qV3peJL): I registered an email address and everything works. Kudos!\n> Now, how do I register another email address?\n\nYour mail adress = your ZeroID",
+				"added": 1457098135
+			},
+			{
+				"comment_id": 25,
+				"body": "Why is it so slow ? :p",
+				"added": 1457098151
+			},
+			{
+				"comment_id": 36,
+				"body": "Actually, ZeroMail was only slow yesterday (5h to receive a mail). Now it's very fast (5 minutes or less)",
+				"added": 1457116598
+			}
+		],
+		"2_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 26,
+				"body": "> [nofish](#comment_411_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It displays a \"Do you want to give more space to this site?\" dialog at 80% percent.\n\nNice feature. And if don't give more space, what happens ?",
+				"added": 1457098519
+			},
+			{
+				"comment_id": 27,
+				"body": "> [nofish](#comment_412_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Then you stop receiving new comments\n\nThe site stop updating, and that's all ?",
+				"added": 1457098588
+			},
+			{
+				"comment_id": 28,
+				"body": "> [nofish](#comment_413_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yes: no more space, no more message.\n\nNice. thanks for the answers",
+				"added": 1457098750
+			}
+		],
+		"3_13vL6ARzDm7215jaRjFvAATfkxBriSnGmb": [
+			{
+				"comment_id": 31,
+				"body": "Not found, too",
+				"added": 1457100246
+			}
+		],
+		"1_1GiYSQXB6Qsog3Mu7jL2zFmAm38d4XZDtZ": [
+			{
+				"comment_id": 32,
+				"body": "Yep https://zeronet.readthedocs.org/en/latest/faq/#is-it-possible-to-install-zeronet-to-a-remote-machine",
+				"added": 1457104776
+			}
+		],
+		"1_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": [
+			{
+				"comment_id": 33,
+				"body": "Also, I see that we can't clone ZeroBoard",
+				"added": 1457113668
+			}
+		],
+		"2_17PhTjw3o2wPhxyKeM3Ss975eWZ1UMsjQC": [
+			{
+				"comment_id": 34,
+				"body": "Technically, if you visit a site with illegal content, you also share it... What about the law here ?",
+				"added": 1457113869
+			},
+			{
+				"comment_id": 37,
+				"body": "> [rasptyper](#comment_1_126KBTYhyC5CgVsVYDrzpm42mjin6ihjSj): I understood that you share the stuff you visited. Even worse, by the time you visited the site it might have looked legit, but you constantly download updates even if you don't visit the site again. So using VPN should be the best you can do. Not sure how TOR comes into play here\n\nUsing a VPN + TOR is the best solution ^^",
+				"added": 1457118755
+			},
+			{
+				"comment_id": 38,
+				"body": "> [rasptyper](#comment_3_126KBTYhyC5CgVsVYDrzpm42mjin6ihjSj): TOR for what ? Seriously, If you don't trust your VPN, change it !\n\nMy VPN is on my own server so I trust it a little bit :p",
+				"added": 1457120456
+			},
+			{
+				"comment_id": 39,
+				"body": "Also, ZeroNet uses TOR by default, and I don't see why it's a problem",
+				"added": 1457120793
+			},
+			{
+				"comment_id": 41,
+				"body": "> [rasptyper](#comment_4_126KBTYhyC5CgVsVYDrzpm42mjin6ihjSj): My one isn't so I'm sure it can't be traced back to me (that easily)\n\nVPNs relies on the trust of your VPN provider :/",
+				"added": 1457122826
+			}
+		],
+		"1_11pADbvn3XmFZ5sbM9ZANRb5Gv9igHLCF": [
+			{
+				"comment_id": 35,
+				"body": "Hey abhay, greetings from France",
+				"added": 1457113910
+			}
+		],
+		"1_12fNTMaQH1mN5bPehdvkNgTAVxzQXop87e": [
+			{
+				"comment_id": 40,
+				"body": "http://127.0.0.1:43110/1C5P1EcTZA6FDEg4w6SacfPjvSDCWmzeyt/?Post:3:Are+you+still+trying+to+figure+out+Zeronet+",
+				"added": 1457120860
+			}
+		],
+		"5_1GCsW9TFfjDsvcdmKPADq1n8Q3ha72UtDQ": [
+			{
+				"comment_id": 42,
+				"body": "> [mod](#comment_13_1GCsW9TFfjDsvcdmKPADq1n8Q3ha72UtDQ): When I tried to set up with a linux server, I got this error when trying the following line of code:python get-pip.py --user gevent msgpack-pythonIt throws this error`Could not import setuptools which is required to install from a source distribution. Please install setuptools.\n\nYou don't have root access ? This works well for me https://zeronet.readthedocs.org/en/latest/using_zeronet/installing/#linux",
+				"added": 1457124622
+			}
+		],
+		"1_1N9vyd78w2N6174aLsw7FvCk5Lij3Bu33Y": [
+			{
+				"comment_id": 43,
+				"body": "> [h3ndr1x](#comment_8_1Pfbvp2DhbVrjAYSPaUaucJc6nZsxMpeK9): Not yet, but once the ZN devs add support for merger sites it will be possible. That way you can just download what you want to subscribe to instead of the whole damn site. Same goes for clones of Twitter, Facebook, Instagram, ect.\n\nThat will be a great evolution for ZN",
+				"added": 1457256786
+			}
+		],
+		"5_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 46,
+				"body": "> [eventi](#comment_7_1DcDDitsjFJohvwonPmpibRChmA7uGxqL7): I just wrote up a blog post for how to do this\n> http://127.0.0.1:43110/159bRwxjgvNGfhvXw1qzXsTPjenMzy2P4n\n> Sorry it's a WIP\n\nthx",
+				"added": 1457263028
+			}
+		],
+		"1_154jAWx5PDRmvF4txGHo4Edw1BpduhDyvw": [
+			{
+				"comment_id": 47,
+				"body": "> Sadly non-techies are unlikely to install Python and then figure out how to run and use it as it is.\n\nOn Windows you don't even have to install Python or TOR, it's all included... You just have to run a .cmd, no need to be a genius",
+				"added": 1457270192
+			}
+		],
+		"1_17oYQdLkvyzEVPH3hXRtK3ru4FLNKZUD3b": [
+			{
+				"comment_id": 48,
+				"body": "To sum up : we need a tool to censor/hide things  *only for ourselves* not for everyone else like in a centralized system.",
+				"added": 1457286079
+			}
+		],
+		"8_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 49,
+				"body": "Thx, where do we get the private key ?",
+				"added": 1457288988
+			},
+			{
+				"comment_id": 50,
+				"body": "> [cub3](#comment_20_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf): ZeroNet will give you the private key when you create the site.\n\nBut where can I find it now ?",
+				"added": 1457292682
+			}
+		],
+		"3_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 51,
+				"body": "> [antiphase](#comment_23_1NoRNknY1JbJ8nMdn88LwczyMDFnR1GtNw): CactusVPN isn't a ZeroNet proxy (gateway), it's just a plain VPN.\n\nremoved",
+				"added": 1457298575
+			}
+		],
+		"6_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 52,
+				"body": "Found a solution : go to data\\<site-id>\\data\\users and delete the folder of your user. Done ! :D",
+				"added": 1457299914
+			}
+		],
+		"3_1HcK5Hw1rPZeYdgTmqJGrVG2tSyR9Ke2Gt": [
+			{
+				"comment_id": 53,
+				"body": "Do not click on that link!",
+				"added": 1457386673
+			}
+		],
+		"1_1BQg5MQZ63aEQZMzLEXP6yY3hsgznKpaps": [
+			{
+				"comment_id": 54,
+				"body": "Arch / Solus",
+				"added": 1457452992
+			}
+		],
+		"2_1NdofSgkkvCXPx5FotgoSxX3K78Nn6MDue": [
+			{
+				"comment_id": 55,
+				"body": "FYI this is the real website. http://www.soyoustart.com/fr/serveurs-essential/",
+				"added": 1457453090
+			}
+		],
+		"4_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 56,
+				"body": "> In: 7403.34MB, Out: 36428.73MB\n\nWell, I'm seeding too :D",
+				"added": 1457459273
+			},
+			{
+				"comment_id": 58,
+				"body": "> [pycole](#comment_58_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): This reminds me of summer 2015. After over two months of leaving Zeronet running 24/7, I was proud of myself for seeding over 2GB out.Damn--the network has really grown.\n\n35GB in 4 days :o",
+				"added": 1457463616
+			}
+		],
+		"2_1HHSJHKhrpXzsGmtHhJmkk7hp2DZ9CRSN6": [
+			{
+				"comment_id": 57,
+				"body": "Like this http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:4_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7",
+				"added": 1457459350
+			}
+		],
+		"9_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 59,
+				"body": "> [pycole](#comment_57_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): You can create a site without ever having a ZeroId, so that option is off the table.However, you may be able to locate their IP address--unless they are protecting themself via the tor plugin.\n\nThx",
+				"added": 1457468768
+			}
+		],
+		"1_1LoYccWDeUavLo4g1zTbkqPn3EdBcquSYn": [
+			{
+				"comment_id": 60,
+				"body": "> [jsilence](#comment_4_1JoKQwXPzK8uyvMCRcwvMSAJPD5S4aH5Vt): Ah, cool. This should find its way into the ZeroNet documentation!\n\nNope, because it's not supposed to work this way, this is supposed to be decentralized",
+				"added": 1457528189
+			}
+		],
+		"1_1H1MoVnTYgxbiBp3B7hCequmDfdwKVs4f2": [
+			{
+				"comment_id": 61,
+				"body": "Do you know ZeroChat ?... x)",
+				"added": 1457528255
+			}
+		],
+		"1_1LJMypJ67iEBwah82xwVVdB8SGZ1mwqgHQ": [
+			{
+				"comment_id": 62,
+				"body": "Loop what IP have here http://127.0.0.1:43110/Stats",
+				"added": 1457537240
+			}
+		],
+		"1_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": [
+			{
+				"comment_id": 63,
+				"body": "> [yeti](#comment_18_14tJBPnxcrF9kMK5v7DULWnaJx3JepirXb): Why not on ZeroNet?\n> Youtube == Google == MEAN\n\nIs there a ZeroTube ? :p",
+				"added": 1457540979
+			}
+		],
+		"1_1PrEU3jo5aME6pebitM8DJ3Pm4KnsmzfpT": [
+			{
+				"comment_id": 64,
+				"body": "Welcome :)",
+				"added": 1457542759
+			}
+		],
+		"1_19LkvdTE3CmnUApuSwY8KGbm7n7sWCNEPC": [
+			{
+				"comment_id": 66,
+				"body": "Where do you buy Namecoins ?",
+				"added": 1457631013
+			}
+		],
+		"2_1MCsyW6W243LY69ZYm99XbV3M8Gbbrp5hF": [
+			{
+				"comment_id": 67,
+				"body": "CCrypto VPN\n\nor this on your own server https://github.com/Angristan/OpenVPN-install",
+				"added": 1457733540
+			},
+			{
+				"comment_id": 71,
+				"body": "> [nivaos](#comment_6_1KA3ubuBJwvMnMy4CnjgKzPEnYVHSwXc2a): Hey tanks i didn't know that tool... now i am looking at https://angristan.fr/ for more interesting stuff. :)\n\nYou're welcome :)",
+				"added": 1457862526
+			},
+			{
+				"comment_id": 74,
+				"body": "> [mkrmec](#comment_3_1DWiaV2NYmW7FKZAgRf2kfgLiS6gRTEBhT): Crypto VPN is slow as well.. under 10 mbits for me, on France servers\n\nWhere do you live ? I have 90mbps on the French Server ^^",
+				"added": 1458320977
+			}
+		],
+		"1_1NUhYYjx4VNjDwV6UWj218tA9v7RCKjonr": [
+			{
+				"comment_id": 72,
+				"body": "They are not ZeroNet sites",
+				"added": 1457870627
+			},
+			{
+				"comment_id": 73,
+				"body": "> [pesticide](#comment_1_1Eec7Brcy9PKqghLyTocYPMNxQvMUudsRE): yeah I think he’s asking how to use ZeroNet as a proxy (since it’s running Tor in background, this should be possible)\n\nThen, use TOR directly",
+				"added": 1457888238
+			}
+		],
+		"5_18rFd7W9y5QGQEVXaCoJV7jyt7D8aN156h": [
+			{
+				"comment_id": 75,
+				"body": "It's already on the top left corner",
+				"added": 1458681858
+			}
+		],
+		"10_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": [
+			{
+				"comment_id": 76,
+				"body": "ProtonMail.com\nOpenMailBox.org",
+				"added": 1458737506
+			}
+		],
+		"10_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 77,
+				"body": "It includes a lot of things that we can call deep web but if we stick at Wikipedia's definition, ZeroNet is part of it https://en.wikipedia.org/wiki/Deep_web\n\nZeroNet is a P2P network, but we can use TOR to connect to other peers... Can it be considred as a \"DarkNet\" ? https://en.wikipedia.org/wiki/Darknet",
+				"added": 1458738767
+			},
+			{
+				"comment_id": 78,
+				"body": "> [pycole](#comment_96_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): As for the terminology: 'darknet' refers to content that is not indexed by search engines.\n\nThis is deep web, not darknet",
+				"added": 1458768642
+			},
+			{
+				"comment_id": 81,
+				"body": "> [supernerd](#comment_1_1NFR6ctGtYa7E2tZWvnyZdqKZu2tDTCLMa): Does ZeroNet hide my identity as well Tor?\n\nZeroNet uses TOR, it's different",
+				"added": 1464294036
+			}
+		],
+		"1_18jipjDsfAxAuq4ixbi2w24xJrYVfTYFPn": [
+			{
+				"comment_id": 79,
+				"body": "France",
+				"added": 1459038750
+			}
+		],
+		"11_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 80,
+				"body": "> [zentralsonne](#comment_2_16ojERmxhsiYi13evABojDh1JgDNqodpZF): fuck islam, fuck liberals who bring islam terorist to Europe\n\n> [malbonkonduta](#comment_1_154gAnMB3ChRWzTgxj4DNwVX53JXyQYMZf): fuck islam!\n\nDumbass, do you know the difference between Muslims and Islamists ?",
+				"added": 1459106232
+			}
+		],
+		"1_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": [
+			{
+				"comment_id": 82,
+				"body": "Same error here",
+				"added": 1465726914
+			},
+			{
+				"comment_id": 83,
+				"body": "thx !",
+				"added": 1465743853
+			}
+		],
+		"4_178NSuZP2hH2vHhNX6vsHceh5sjPkDrLiH": [
+			{
+				"comment_id": 84,
+				"body": "Awesome :)",
+				"added": 1465816162
+			}
+		],
+		"1_1DqP4N3Nxp9RQQGuqrX5eCqE6t3gWNJXr": [
+			{
+				"comment_id": 85,
+				"body": "When a zerosite needs more than 10MB, you'll get an alert",
+				"added": 1466593365
+			}
+		],
+		"1_1ET7iT2Cot3uksKiR9TEvj5RSpqRUgJiso": [
+			{
+				"comment_id": 86,
+				"body": "hi",
+				"added": 1466593388
+			}
+		],
+		"3_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": [
+			{
+				"comment_id": 87,
+				"body": "You mean your reverse proxy's certificate ?",
+				"added": 1467398626
+			}
+		]
+	},
+	"comment_vote": {
+		"386_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"13_1PX7VW6xfccTT2tNUTwrYKJpGsGfrnoJfP": 1,
+		"4_12fNTMaQH1mN5bPehdvkNgTAVxzQXop87e": 1,
+		"1_1Mwm45xgWJkwaqQeXcLKqPy4KcTNM8XcbD": 1,
+		"1_15xAFv6aHXqo5xdaSoTEi5pRNokskECJXU": 1,
+		"2_15xAFv6aHXqo5xdaSoTEi5pRNokskECJXU": 1,
+		"6_1Mwm45xgWJkwaqQeXcLKqPy4KcTNM8XcbD": 1,
+		"17_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": 1,
+		"74_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"14_1MxdAjWgnqwCaunGHmhY39tVR51qV3peJL": 1,
+		"9_1ARYQJCvFL9sbxiQWyKAuZkTTKbft8d8aZ": 1,
+		"10_1CL2jU9pTjtMasNihDK3JCofdPWq2ZVGuu": 1,
+		"411_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"413_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"5_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": 1,
+		"11_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"397_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"13_1BEvmD7jRfwieXU5H3o1rCT35Y3VV1p9TW": 1,
+		"11_1EMpuiFM1NLZmAVyoAWnwi8VwiZVV4dcnN": 1,
+		"82_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"1_13tcdDYq9M2m3SGarHeBmeGxhjgtQ2Tg5J": 1,
+		"14_14tJBPnxcrF9kMK5v7DULWnaJx3JepirXb": 1,
+		"10_1DfkDpkeDXGbHJ2ZT31DPvYr5xR59Jr8BA": 1,
+		"6_16bxMyoL49mWYhcZKBYVBT5zEFW9SQpiao": 1,
+		"16_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": 1,
+		"1_18jeV4j4Wqo6peuqUPW9JDouvLjbpCm2HL": 1,
+		"3_1JA2umSc9f7VSNLaYLs1Cpk7rpvS4p18xe": 1,
+		"2_1Kg7CXZM5h3wTPENsTDwWUmRBf9VhYy2cW": 1,
+		"2_13qeq1z87R1kQWDZUQYm3y7tDCLimnhfvS": 1,
+		"51_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"2_1LVL5r7L5AwFk7waWmBwuVZ8Fcg9NDxakY": 1,
+		"39_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R": 1,
+		"8_1Pfbvp2DhbVrjAYSPaUaucJc6nZsxMpeK9": 1,
+		"7_1DcDDitsjFJohvwonPmpibRChmA7uGxqL7": 1,
+		"1_1EJckfivp9s6favZYU7eMAnFaQd64bXuRz": 1,
+		"7_14XqxwpdedXGY2FiUhvV3KVPkKTsABqGcm": 1,
+		"1_1KD4PhRK6xir4zGH1dtWjUzyTvMLHhLfAT": 1,
+		"2_1D7uESYtAKV36MVPGJZXuE7LUKbLwfo4dX": 1,
+		"12_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa": 1,
+		"2_16bxMyoL49mWYhcZKBYVBT5zEFW9SQpiao": 1,
+		"428_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"2_1BKURP8uJbQhPam8ub2ddqAXPgkmyAjpMR": 1,
+		"437_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"441_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"60_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"13_1An7ATsNMMNqRgSgB2upWwbpXgFXQ9E2XD": 1,
+		"88_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"27_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"25_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn": 1,
+		"28_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"89_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"446_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"23_1NoRNknY1JbJ8nMdn88LwczyMDFnR1GtNw": 1,
+		"85_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"450_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"17_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg": 1,
+		"16_14tJBPnxcrF9kMK5v7DULWnaJx3JepirXb": 1,
+		"1_18rwTQJ5QsASCHAguASWuN1uEZ3Fo9diyV": 1,
+		"5_146VSeNSr14tHL7cWkBrbq2n1Ywr1j2kXL": 1,
+		"4_1Ncbw6dFYevejdBHorBMe5civ2choWQHUW": 1,
+		"1_18x3cTfnPkGixpMrrWJQDxtgyT2hDviZVP": 1,
+		"2_18x3cTfnPkGixpMrrWJQDxtgyT2hDviZVP": 1,
+		"14_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k": 1,
+		"2_139DhDrdGXCawA3TSwVSQvddk3GeJbYfqZ": 1,
+		"58_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"57_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"1_1AiNe41vBkiiNKYomPUcxQLV4prbq1gi7D": 1,
+		"62_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"1_1MBQiBmt9BfoPnhYWenuxW9p9FGC1okjPU": 1,
+		"24_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"7_1KGozab6jp6jA6zVM8cTFdzMmBasriNP4f": 1,
+		"155_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"1_1PC7YAKzU8RNT3EFUz3NsUxiXMRgkHSovG": 1,
+		"1_15NqYrLDyqVqBwmtvV9KiRJVAu6CVkfjtB": 1,
+		"466_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1HRqkneE3JurBghnqGtp5DeRYrhC7utgyq": 1,
+		"11_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"42_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"13_19nb7BmBbBv1gMVrzMyL3fTkd3HaoteYF8": 1,
+		"1_182qc9mExb87iQFE2bubMMRM3jFjCxrv6d": 1,
+		"6_1KA3ubuBJwvMnMy4CnjgKzPEnYVHSwXc2a": 1,
+		"1_14a71ytPawLAfBLnEPaRy7h4yWFHJx1tJ8": 1,
+		"504_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"17_1GNdkBSxTw6SpRdGHxDCyfANXnwi7FG7rJ": 1,
+		"89_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"3_1MCsyW6W243LY69ZYm99XbV3M8Gbbrp5hF": 1,
+		"556_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"557_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"46_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"45_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"78_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k": 1,
+		"44_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"95_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"42_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"95_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"58_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"29_18rFd7W9y5QGQEVXaCoJV7jyt7D8aN156h": 1,
+		"96_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"1_1LSwXsnntscVeytsQChPkGXq1ExcR7ULvi": 1,
+		"4_15kuNrNeQtVRmDqENgbCqw6s3mG9noQ7zA": 1,
+		"27_16bxMyoL49mWYhcZKBYVBT5zEFW9SQpiao": 1,
+		"116_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"678_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"20_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"7_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": 1,
+		"3_1BbmERojUUFZUFTQjz7S9yfDBGsV6jfEx6": 1,
+		"1_1CuwQiB7TMQfh2D5j38m6Yni2gJLwUfzMZ": 1,
+		"1_13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31": 1
+	}
+}

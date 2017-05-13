@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HBSb8DK71K7+V3beD6UO7jaeRBxpPVydyq/U5StY69uTM3l33w4M+rgrJdOBZ75CfmcAqcuQJdMM0i/iKDyL39w=",
+ "cert_user_id": "fascis@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "3d658a74e6440816e4ad8ab28094dc5454f1d917adc703b8f05c6a24085d903b",
+   "size": 1309
+  },
+  "data.json": {
+   "sha512": "1a72eab65da4b37b044f8764dddf5fb1265dd04a53d7e30ce2af8ccfe7311f60",
+   "size": 969
+  }
+ },
+ "inner_path": "data/users/1NdkdpcsVdsX1b4TLH9PFL8FGSPotJhurW/content.json",
+ "modified": 1482336077.579,
+ "signs": {
+  "1NdkdpcsVdsX1b4TLH9PFL8FGSPotJhurW": "HE4seyzQGGTCv6WE+BcAepKKSKBnoNCn/jr1YiRix/oLrXI4qq2iyCNG8v5MJkX0pgpRnnyNF2lCG5nR7YaZ654="
+ }
+}

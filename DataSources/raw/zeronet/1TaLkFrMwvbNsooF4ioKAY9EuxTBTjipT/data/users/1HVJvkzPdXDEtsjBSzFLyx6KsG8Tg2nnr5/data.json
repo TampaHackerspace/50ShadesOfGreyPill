@@ -1,0 +1,100 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Hungarian Zer0Talk (Magyar Zer0Talk)",
+			"body": "Link: http://127.0.0.1:43110/1NPAmKPbZU33tAStGqygs8FD2bRq7zYoHb/\nI just created a forum for hungarian users,as there wasn't any before.\nMagyarok gyertek (hungarians come)!!! :D",
+			"added": 1474742237
+		},
+		{
+			"topic_id": 2,
+			"title": "How to auto-start Tor on Linux mint (ubuntu)?",
+			"body": "I installed tor and set up a hidden service(just for fun :D )\nNow it works fine,but only if I start with \"sudo su\" and \"tor\" after.\nIt doesn't work with \"service tor start\" or simply \"tor\" without root privileges.And due to this,I cannot make it start automatically with the system.\nSo how would you do it?Thanks! :D",
+			"added": 1477059506
+		}
+	],
+	"topic_vote": {
+		"6_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"7_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1
+	},
+	"next_comment_id": 11,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "wanna check my site homies? :D\nhttp://127.0.0.1:43110/15iZnHWsnhubk6JA9Ldb7KxDHJ7shBpYGj/",
+				"added": 1474656870
+			},
+			{
+				"comment_id": 2,
+				"body": "and hell yeah,zeronet is really fast btw",
+				"added": 1474656979
+			}
+		],
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": [
+			{
+				"comment_id": 3,
+				"body": "it would be great,if the pros could make tutorials for the noobs on interactive and changing sites.for example how to add a hit counter to your site,or last 10 hits with infos like system and browser.you know,these fun things.",
+				"added": 1474737403
+			},
+			{
+				"comment_id": 6,
+				"body": "And we also need Zer0net for mobile devices.That would bring a lot more activity to the network.And not only Android,also Windows Phone (I have WP 10...) and iOS.If we want to \"replace\" regular internet,this is a necessary.",
+				"added": 1475503052
+			}
+		],
+		"1_1HVJvkzPdXDEtsjBSzFLyx6KsG8Tg2nnr5": [
+			{
+				"comment_id": 4,
+				"body": "and yeah a request for the admin of the main site:if the hungarian site will be used,can you please add it to the others on the top?thx a lot :)",
+				"added": 1474742489
+			}
+		],
+		"6_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 5,
+				"body": "This method worked perfectly.Just doubled the available size of the Hungarian Zerotalk :)",
+				"added": 1475244297
+			}
+		],
+		"4_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 7,
+				"body": "Hi!If no problem,than here's my site (no content yet,but I will port my normal net page to it soon :) \nhttp://127.0.0.1:43110/15iZnHWsnhubk6JA9Ldb7KxDHJ7shBpYGj/\nAnd the Hungarian Zer0Talk site:\nhttp://127.0.0.1:43110/1NPAmKPbZU33tAStGqygs8FD2bRq7zYoHb/\nThank you! :) And btw,when my pc is running,I'm also seeding with high-speed (100mbps upload,500mbps download)",
+				"added": 1475838807
+			}
+		],
+		"2_14UupgrdnT7Y8vMES7aqUFgD1fC5RYNrh8": [
+			{
+				"comment_id": 8,
+				"body": "Hmm yea.This is more complicated than I thought :D \nYes,I was thinking about a site where you can check the speed of the swarm (if you have a fast connection).Just for experimentation.\nAnyways thanks for the infos,I learned a lot again.And maybe someone else whos also interested will make such tool in the future (that's not gonna be me,as I'm way too noobie :D )",
+				"added": 1475850553
+			}
+		],
+		"2_1MYX3cuihkhYv6b6PQTrGe5wMPb6wMDG9Z": [
+			{
+				"comment_id": 9,
+				"body": "Sqeek won't load for me..",
+				"added": 1476010158
+			}
+		],
+		"1_12shzNwEsUKcdzbWYFNH54LJjKzQ7MUwhp": [
+			{
+				"comment_id": 10,
+				"body": "lol\nmerrefele?megvenném",
+				"added": 1477835137
+			}
+		]
+	},
+	"comment_vote": {
+		"3_1CEnKfVALihFLwjwwb9qbA6JojRKFjGAZM": 1,
+		"1_1qPYxaAMLgLjBWaDAP5p6yT5aPeBccEe8": 1,
+		"37_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"1_1DTUNWykvXLbxZud5a8gJsq7DxmxcGk52E": 1,
+		"1_125YsAePTfndDrRX7Gfu5WjJcxamwBmBuC": 1,
+		"1_17mopAf4VFiVCbZ9V9aBTGp5c4Udjnjv7x": 1,
+		"35_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": 1,
+		"21_1Kkc5j5xrEJevvV6sBqCrW93dscMVGbcDY": 1
+	}
+}

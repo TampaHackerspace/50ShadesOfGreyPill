@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G7u5nep8ynvjNL5ESYS2vXGK4+hgwpU8fII8XbMvg9dmySBOWocWJPaFzEmuNLaWjDoEQ/c1IsYpY+96sMT/+1s=",
+ "cert_user_id": "hacnet@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ff70d228e46a9a75a2175431d163f7221c524ea8a3fed45c76d06490d379b086",
+   "size": 795
+  }
+ },
+ "inner_path": "data/users/12pASc9cvgx5fkDceuQT9U7ChARKmdepDt/content.json",
+ "modified": 1470960521.552,
+ "signs": {
+  "12pASc9cvgx5fkDceuQT9U7ChARKmdepDt": "G1VmOZgTFNFqfaDgtwflBtULAAqGZi9vfiaam5vLkpPD8OL4PWa7gq5aX442jZ7bripvpJlwn/MgqAgMNmVfbdI="
+ }
+}

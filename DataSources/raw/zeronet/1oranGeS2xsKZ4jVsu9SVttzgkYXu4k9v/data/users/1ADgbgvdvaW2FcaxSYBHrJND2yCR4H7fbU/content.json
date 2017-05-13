@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HIQUAlDuzs8Jdkr6qOc5bgrmypwNTT9ul2gxAJ1cLOTom7eNTLo8VdLYvLUXvmO3qX/oXniPuYy/kXufHLFZmQw=",
+ "cert_user_id": "androidzeronet@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "79e5b573d261361cf7da350b014e0f5e98087316845aa4624f8e6fbd4c09dcbb",
+   "size": 1268
+  }
+ },
+ "files_optional": {
+  "1484288304.jpg": {
+   "sha512": "f5000baa3ba2d432b0cfb03188d8aaccf6b7bc91ed7ec68752995431db64202c",
+   "size": 66896
+  },
+  "1484288429.jpg": {
+   "sha512": "fae8634534e269e25eb8d7c1c4028ecbab72bbde34eae16aee04bdaf576c604a",
+   "size": 31807
+  }
+ },
+ "inner_path": "data/users/1ADgbgvdvaW2FcaxSYBHrJND2yCR4H7fbU/content.json",
+ "modified": 1484288551,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1ADgbgvdvaW2FcaxSYBHrJND2yCR4H7fbU": "G+dtF2g4jjvwocxTe1rm8FH7kvJddToJcFiLMYKC/KLSWgRQ3H65kTRamvGhlWRLpnYIoTS+vtt/UaaDF4IBv14="
+ }
+}

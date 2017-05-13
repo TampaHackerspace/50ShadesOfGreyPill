@@ -1,0 +1,30 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 4,
+	"comment": {
+		"1_17iKAuuhDPPmh5cs8Ea465mTdnQiR8WaMK": [
+			{
+				"comment_id": 1,
+				"body": "This happened to me but I fixed it via disabling my vpn connection. I have a feeling that it's got something to do with the port being closed. Try opening the port zeronet gives you under your internet settings. You can find this by logging into your ISP account.",
+				"added": 1478997503
+			}
+		],
+		"1_1JpxTAYzGdJppaeg7xS7VmBaXZF9d94WRj": [
+			{
+				"comment_id": 2,
+				"body": "This is a decentralized network. Not a clearnet network. If you want to share images on ZeroNet, do it by using the services - otherwise, you might as well post the link on Twitter, Facebook and every other social network.",
+				"added": 1478997670
+			}
+		],
+		"1_1ANXCwkxieV453iigVj4d6FNNkQJCHaPwE": [
+			{
+				"comment_id": 3,
+				"body": "When people get the opportunity to hide their identity they take advantage of it. Also, racism etc is not so clear on the clearnet because it's illegal in some countries. But here, anyone can say anything. :)",
+				"added": 1478998385
+			}
+		]
+	},
+	"comment_vote": {}
+}

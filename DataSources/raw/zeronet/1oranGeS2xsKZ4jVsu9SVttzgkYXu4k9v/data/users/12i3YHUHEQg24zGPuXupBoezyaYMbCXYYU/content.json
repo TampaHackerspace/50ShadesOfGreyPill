@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G420AMHqckcIfmz9PLh4Z43sXSszJpRV2kwNUnMZEn3L+exacrtElFwOAqi0Upcv/CWsaTazeyu/GqvxVd9//5E=",
+ "cert_user_id": "lazyguy@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "ebb381fa1a3cf5153449d46a4b95637be84bdcdcb72ee820ec01343520416a76",
+   "size": 1070
+  },
+  "data.json": {
+   "sha512": "637b88ffec6bd619fb63819e73efb0299cf4330fe3461e19c5490d6a65c7444b",
+   "size": 8792
+  }
+ },
+ "files_optional": {
+  "1485027998.jpg": {
+   "sha512": "968038303c65638488df70aa3fc62221ae2c23ee021e0cc9443b61e106fed468",
+   "size": 21309
+  }
+ },
+ "inner_path": "data/users/12i3YHUHEQg24zGPuXupBoezyaYMbCXYYU/content.json",
+ "modified": 1485031831,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "12i3YHUHEQg24zGPuXupBoezyaYMbCXYYU": "HPsB5Ob3ib3iKUQKJZumAtIao2Zezg6wlk9/25xb0UzRmm4yaMEM/5G6jrIIc8pMWs5zRWBeo3Ww1tiyKQzeN/o="
+ }
+}

@@ -1,0 +1,33 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Johnlennon",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Pseudorandom ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1480708644,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1480708783,
+			"body": "Добрый вечерок!\n",
+			"date_added": 1480708781
+		}
+	],
+	"post_like": {
+		"1CvFGwkggUUCEzjK5wCYjiCx7uZ6B8X1MK_1480617299": 1481135196
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@9yqze: я так понимаю Русских здесь немного)",
+			"post_uri": "12qt84yXgh6GwRRRSyEZStVopvSZ7828dY_1480708783",
+			"date_added": 1481135327
+		}
+	],
+	"follow": []
+}

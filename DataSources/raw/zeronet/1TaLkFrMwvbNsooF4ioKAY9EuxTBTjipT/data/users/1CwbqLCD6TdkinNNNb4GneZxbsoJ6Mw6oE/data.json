@@ -1,0 +1,107 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "How to run ZeroNet on your router",
+			"body": "ref http://127.0.0.1:43110/17vUgpdVUpN4yWeMJJtid7AAeQfLahHtXH/?Post:3:How+to+run+ZeroNet+on+your+router\n\nRunning ZeroNet on the router can reduce carbon emissions, and as long as the router is not closed the entire LAN can be quick and easy access, the following, I will introduce how to run ZeroNet on the router.\n\n![1484830875.jpg (1064x857)](data/img/post_1_1484830875.jpg)\n\nFirst of all, check whether your router install [Padavan](https://bitbucket.org/padavan/rt-n56u) firmware and plug-in storage, if not, maybe it will not work.\n\nPadavan wiki tells you how to set up Entware. [https://bitbucket.org/padavan/rt-n56u/wiki/EN/HowToConfigureEntware](https://bitbucket.org/padavan/rt-n56u/wiki/EN/HowToConfigureEntware)\n(PS: if your router can not plug-in storage, maybe you can't run it.)\n\n* * *\n\nAfter that, ssh to router and execute the following command\n\n```shell\nopkg update && opkg install wget python-pip python-gevent python-greenlet tmux\n```\n\nUpdate and install these software, cd to your router's external storage, my hard drive on the router's directory is /media/AiDisk_a5, if you don't know where is your plug-in storge can be `df` command to view, /media directory that is.\n\n`cd /media/AiDisk_a5`\nThen, let's download ZeroNet:\n`wget https://github.com/HelloZeroNet/ZeroNet/archive/master.zip`\nDecompression:\n\n`unzip master.zip`\n\nOpen the file manager, access \\\\\\\\[your_router_ip] (such as I was \\\\\\\\192.168.123.1) and then open inside the AiDisk_ax folder (x on behalf of your hard drive number, such as my AiDisk_a5), you can see just downloaded master. Zip and unzipped the ZeroNet-master folder underneath. Then rename the ZeroNet-master folder to ZeroNet, enter the folder, then open the zeronet.py file with npp or other editor, and add the following two lines under `import sys` and save\n\n```python\nfrom thread import stack_size\nstack_size(32768)\n```\n\nIn the current directory and then create a new zeronet.conf file, enter the following and save:\n\n```\n[global]\nui_ip = 192.168.123.1\n```\n\nThen open the ZeroNet\\src\\lib\\opensslVerify\\opensslVerify.py file, line 203, add the following two lines:\n\n```\n        elif os.path.isfile(\"/opt/lib/libcrypto.so.1.0.0\"): # Router\n            dll_path = \"/opt/lib/libcrypto.so.1.0.0\"\n```\n\nModify the completion function style as follows\n\n```\ndef openLibrary():\n    global ssl\n    try:\n        if sys.platform.startswith(\"win\"):\n            dll_path = os.path.dirname(__file__) + \"/\" + \"libeay32.dll\"\n        elif sys.platform == \"cygwin\":\n            dll_path = \"/bin/cygcrypto-1.0.0.dll\"\n        elif os.path.isfile(\"../lib/libcrypto.so\"): # ZeroBundle OSX\n            dll_path = \"../lib/libcrypto.so\"\n        elif os.path.isfile(\"/opt/lib/libcrypto.so.1.0.0\"): # Router\n            dll_path = \"/opt/lib/libcrypto.so.1.0.0\"\n        else:\n            dll_path = \"/usr/local/ssl/lib/libcrypto.so\"\n        ssl = _OpenSSL(dll_path)\n        assert ssl\n    except Exception, err:\n        ssl = _OpenSSL(ctypes.util.find_library('ssl') or ctypes.util.find_library('crypto') or ctypes.util.find_library('libcrypto') or 'libeay32')\n    logging.debug(\"opensslVerify loaded: %s\", ssl._lib)\n```\n\nBack in ssh, execute these command\n\n```shell\ncd ZeroNet\ntmux\n```\n\nThis will be displayed as follows:\n\n![1484830120.png (774x374)](data/img/post_1_1484830120.png)​​​​​​​\n\nThen enter `pip install -r requirements.txt`\n\nWait finished,then type`python zeronet.py`and enter.\nNow, open your browser and go to [http://192.168.123.1:43110/](http://192.168.123.1:43110/).\n\n![1484830875.jpg (1064x857)](data/img/post_1_1484830875.jpg)\n\n：）enjoy it",
+			"added": 1484902542
+		},
+		{
+			"topic_id": 2,
+			"title": "【Get All Hub】1 click to see all post in ZeroMe!",
+			"body": "[Get All Hub](/0hub.bit)  1 click to see all post in ZeroMe!",
+			"added": 1484924657
+		}
+	],
+	"topic_vote": {
+		"2_1CwbqLCD6TdkinNNNb4GneZxbsoJ6Mw6oE": 1
+	},
+	"next_comment_id": 14,
+	"comment": {
+		"10_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 1,
+				"body": "噗。。。666，楼下这位要不要发动国内的GPL大军来讨伐一下？（手动斜眼2333）\n\nhttps://github.com/HelloZeroNet/ZeroNet\n\nZeroNet is GPL 2.0 LICENSE Software,  up4 not open source of libzeronet >->",
+				"added": 1483877363
+			}
+		],
+		"1_1CwbqLCD6TdkinNNNb4GneZxbsoJ6Mw6oE": [
+			{
+				"comment_id": 2,
+				"body": "> [alaric](#comment_3_1HiyP7AD74uGuGBZLqhcmfQgwu5VC8nnYY): The instructions need a little clarity and fine tuning for novice users, but everything here looks legit. Thanks 12hlearn -  It's a great guide on how to run ZeroNet off a USB drive attached directly to your router (if your router supports it).\n> Having said that, I'd suggest running ZeroNet on a stand-alone device instead. A Raspberry Pi would be much more suitable, or even an old PC you have lying around - Chuck your preferred flavor of Linux on there, setup your VPN, then chuck it in the corner and let it seed away. This way you have a little more control over Bandwidth and traffic allowances (for those people that still have to operate within peak/off-peak times).\n\nI agree with you,  but everyone have a router, Raspberry Pi not...",
+				"added": 1484913232
+			}
+		],
+		"4_1MpUdwe28gwynzoKg9ziFCRWcQK2FqNunb": [
+			{
+				"comment_id": 3,
+				"body": "[Get All Hub](/1GLndW2MJn7japuF3X2tbfBqgPMR52zaLQ/)  Update。已更新",
+				"added": 1484969141
+			},
+			{
+				"comment_id": 4,
+				"body": "> [firedog](#comment_1_1MpUdwe28gwynzoKg9ziFCRWcQK2FqNunb): 0hub.bit指向你的站点了  :)\n\nwow, Thanks a lot!",
+				"added": 1485001454
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 5,
+				"body": "signTestA",
+				"added": 1485221549
+			}
+		],
+		"1_15tUm55KP6pd33BRMEd6E6tdtDDREcXyxa": [
+			{
+				"comment_id": 6,
+				"body": "> [lmath](#comment_19_1958F7oCppj78MP966AfojMQwHg2WUupzq): Rán'ér nǐ pīnyīn dōu bú huì shuō (táo\n\n2333",
+				"added": 1485224102
+			}
+		],
+		"14_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 7,
+				"body": "> [p2p](#comment_258_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 你的帐号名非常具有迷惑性\n\n+1",
+				"added": 1485269356
+			}
+		],
+		"1_1NUFQJjEvnNe2MWwvxBXwwX6UfkDJf9kJ": [
+			{
+				"comment_id": 8,
+				"body": "请中国人到中文论坛讨论\nhttp://127.0.0.1:43110/NewGFWTalk.bit",
+				"added": 1486126989
+			}
+		],
+		"15_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 9,
+				"body": "I think it is a good idear, but will be diffcult to achieve.",
+				"added": 1489654256
+			},
+			{
+				"comment_id": 10,
+				"body": "> [p2p](#comment_282_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): I don't like old-style php forums either, but there are discourse-like php alternative http://vanillaforums.org/ and http://flarum.org/ . If we can find way to bundle all dependencies as we do for python ZeroNet, we can also port php Apps even Ruby on Rails Apps to ZeroNet. I don't think we can easily build a ZeroNet-native discourse from scratch because there are tons of features and tweaks to do. ( I just use discourse as an example)Another thing worthy considering: what if import existing discourse forum to ZeroNet? Extremely difficult if no porting because of the huge difference of structure. The use case: Alice has no money to pay the hosting fee for her existing discourse forum, Bob suffers DDOS to his existing discourse forum, both of them wants to import their own sites to ZeroNet.\n\nit's diffcult to do...that discourse Hardware Requirements :\n\n* Dual core CPU recommended\n* 1 GB RAM minimum (with swap)\n* 64 bit Linux compatible with Docker\n\nmeans a lot of device like raspberry pi , router, 32 bit computer, openvz vm, IOT, and other can't run it...not really decentralized",
+				"added": 1489717637
+			},
+			{
+				"comment_id": 11,
+				"body": "> [p2p](#comment_283_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): I just use discourse as an example to talk about my idea. Don't forget we can have semi-thin client and thin client as I mentioned in Q&A. And we also have discourse-like php alternative http://vanillaforums.org/ and http://flarum.org/ to choose. We even have https://github.com/codecollision/django-discourse of python, but sadly on longer actively developed.\n\nit's a hard work...",
+				"added": 1489718366
+			},
+			{
+				"comment_id": 12,
+				"body": "> [p2p](#comment_284_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): you once said porting ZeroNet to Android is a  hard work, but in fact we have done it afterwards. Without doing, everything is a hard work.\n\nIt is the first step that is troublesome.(万事开头难。) ;-)",
+				"added": 1489986720
+			}
+		],
+		"8_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": [
+			{
+				"comment_id": 13,
+				"body": "No, he can't.",
+				"added": 1489999462
+			}
+		]
+	},
+	"comment_vote": {}
+}

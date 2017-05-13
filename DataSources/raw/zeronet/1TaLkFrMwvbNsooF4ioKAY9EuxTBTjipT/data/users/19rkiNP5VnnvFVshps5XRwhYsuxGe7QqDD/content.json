@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G19iyzQLBx0JpGFoD9FAWRaD1YAyYmb3IYBc65XgxB8IRbM6etA/WNmoSGzPwHqkmmjCuvf9v3s5WRtW6pQKYsc=",
+ "cert_user_id": "sabex@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "7dd76151e9c1357a2b98b14160e10031749aaca376d064bee50b02aa22b6cb56",
+   "size": 712
+  }
+ },
+ "inner_path": "data/users/19rkiNP5VnnvFVshps5XRwhYsuxGe7QqDD/content.json",
+ "modified": 1491775786,
+ "signs": {
+  "19rkiNP5VnnvFVshps5XRwhYsuxGe7QqDD": "HAVM1cOoKubTVSM4hLefAJi96/hzquY9PiT0zMPZQUtWnAYE//9U1hwkrX/hT7OTv/eabw0zwMfeTVpyfG5anWA="
+ }
+}

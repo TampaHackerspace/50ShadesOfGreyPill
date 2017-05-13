@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GxXLqQJFGPBHAp47SS9dQsN5OPmW1CLqATTXfVVKcikRju9ZuOxxYdrd+sTVusEqQkh2QaA42I7W+q6VaMGQq1Y=",
+ "cert_user_id": "didido@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "34e44171683016a7e9ec4de942306e7104f59d019135aa1a97c17abd0c496086",
+   "size": 540
+  }
+ },
+ "inner_path": "data/users/1NJRasDbJJkmMHXjfRsUCouZigFnCPgu4p/content.json",
+ "modified": 1481680100.275,
+ "signs": {
+  "1NJRasDbJJkmMHXjfRsUCouZigFnCPgu4p": "HOwQ4JjasFfaMDre3SFRCMpqO06fYF0z0wh3emci0ASWe6uoW/wZAvQSTRiCwPEuYX8PmMJcmMwWu3ZDckB7QO8="
+ }
+}

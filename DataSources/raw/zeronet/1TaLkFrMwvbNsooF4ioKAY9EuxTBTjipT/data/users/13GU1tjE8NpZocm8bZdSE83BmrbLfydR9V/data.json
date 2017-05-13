@@ -1,0 +1,68 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Creating site withtout shutting down ZeroNet",
+			"body": "According from the official documentation, you need to call \"zeronet.sh siteCreate\" to create a new site. But this requires to have ZeroNet shut down before, isn't it?\n\nIs there a way to create a new site while ZeroNet keeps on running? And without clone-ing an existing one?",
+			"added": 1479123078
+		},
+		{
+			"topic_id": 2,
+			"title": "Serving gzipped files?",
+			"body": "Would it be possible to serve gzipped files? For instance, Javascript files could be big, and it might be useful to store them as .gz, and let ZeroNet gunzip them on the fly when requested from the browser.\n\nOr is it already done/considered harmful?",
+			"added": 1479289410,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		}
+	],
+	"topic_vote": {
+		"9_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1
+	},
+	"next_comment_id": 7,
+	"comment": {
+		"1_1FKNdvxJJGCu1KupdqZtSPEe2uCjqZs45s": [
+			{
+				"comment_id": 1,
+				"body": "Pourquoi tu mens?",
+				"added": 1463908848
+			}
+		],
+		"1_13GU1tjE8NpZocm8bZdSE83BmrbLfydR9V": [
+			{
+				"comment_id": 2,
+				"body": "Nothing prevents it, but it's not excessively convenient : if I script site creation, I'll have my node down at unpredictable times.",
+				"added": 1479132116
+			},
+			{
+				"comment_id": 3,
+				"body": "> [waterrabbit](#comment_51_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Create a site address using vanitygen. Make a folder using that public key in the data folder.Put files into it. Then use ZeroNet to access that URL.On the right sidebar, select \"This is my site\" and sign using your private key you just generated.\n\nDo I need to put a specific content.json? Or will it be created automagically on first sign?",
+				"added": 1479199623
+			}
+		],
+		"2_13GU1tjE8NpZocm8bZdSE83BmrbLfydR9V": [
+			{
+				"comment_id": 4,
+				"body": "> [nofish](#comment_811_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It's planned, but you only have to download once this file, so it's not a priority.For example ZeroMe site's full js source code (with all dependency): 255k, minified: 112k, minified+gzipped: 36kIt would allow to save 220kb in the first visit. (around the same size of an image)\n\nGood to know. Still, even if not important for \"traditionnal\" zites like ZeroMe, it might get pretty useful for asmjs/emscripten based app conversions. JSDOS sports a nifty 5mb js file, for instance.",
+				"added": 1479291062
+			}
+		],
+		"1_177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD": [
+			{
+				"comment_id": 5,
+				"body": "JK",
+				"added": 1479313171
+			}
+		],
+		"1_1Kn3RNTAmEKxnSLxNCYUGeCDPo4gsJHjQ8": [
+			{
+				"comment_id": 6,
+				"body": "> Am I anonymous?\n\nOf course you are, Ronald.",
+				"added": 1479416417
+			}
+		]
+	},
+	"comment_vote": {
+		"47_19qsuxKBkNZWYft3epWgn6u3gG82sQHs6n": 1,
+		"20_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1
+	}
+}

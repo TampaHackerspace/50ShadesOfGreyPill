@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HNoMvosdjhMuVyUTOw5L1bYDHJrwz5yJR082mOn7PxIZvBL9DnWTSLln+vWf0n7TevdffXTZdo0hR75jsMa6qVg=",
+ "cert_user_id": "cyrogenic@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "73c00dbefcbbba06b1008aa8505d66b00576c61a12e8a3e4f79cfad250b20083",
+   "size": 747
+  }
+ },
+ "files_optional": {
+  "1485349618.jpg": {
+   "sha512": "663d2ae23ff964f3569c9e2363f326f726f49105c6764df6e5ae0a1f06f30ec2",
+   "size": 51881
+  }
+ },
+ "inner_path": "data/users/1FYEkpfctPTu2mBL5ftrwai4ZpoSzy4ei1/content.json",
+ "modified": 1485508440,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1FYEkpfctPTu2mBL5ftrwai4ZpoSzy4ei1": "G2Be5JD9TBe2nCtCMByd5UFdhtdieqVqV7G+RRYSA4FDYFHznVu6Bde9BrB2zabhY7omICw2dh/KfY2gZqW2cUI="
+ }
+}

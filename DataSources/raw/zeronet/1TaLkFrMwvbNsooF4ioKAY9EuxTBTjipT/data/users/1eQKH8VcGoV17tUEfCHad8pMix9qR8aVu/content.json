@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "Gyp7Pd5DovF0ARENyG7sL3B/EXhLdKsJtTZ8H5nuoPluQkXxaLqLuEA4hg3Vql5bIc0TpGgr03a+wDB3ZGoCoEw=",
+ "cert_user_id": "delusion@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "2c8f21f18c81f33b3817786026da57f3c499b02df6dfb8e8efecd386a5581841",
+   "size": 3600
+  }
+ },
+ "inner_path": "data/users/1eQKH8VcGoV17tUEfCHad8pMix9qR8aVu/content.json",
+ "modified": 1492951712,
+ "signs": {
+  "1eQKH8VcGoV17tUEfCHad8pMix9qR8aVu": "HL7DWYBtKvlhaQcUxtZ5dsVGdbB4iBjNPUMshRSWk3nvXD5K7o0vwog7aD+Spa+v02ZDVtKxjNZt1S5t5hTTTgw="
+ }
+}

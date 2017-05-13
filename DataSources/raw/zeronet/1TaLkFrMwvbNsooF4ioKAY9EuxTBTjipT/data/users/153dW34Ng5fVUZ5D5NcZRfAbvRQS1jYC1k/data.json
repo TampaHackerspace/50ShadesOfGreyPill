@@ -1,0 +1,88 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Anonymous > NoTav",
+			"body": "tango down per il sito del tribunale di Torino",
+			"added": 1478194503
+		},
+		{
+			"topic_id": 2,
+			"title": "errors on SiteSign after update to ZeroNet 0.5.0",
+			"body": "",
+			"added": 1478859506
+		},
+		{
+			"topic_id": 3,
+			"title": "ZeroProxies",
+			"body": "http://127.0.0.1:43110/zeroproxies.bit/\nall proxies on this list are offline!\nand from this post\nhttp://127.0.0.1:43110/zeroblog.bit/?Post:53:we+need+more+proxies#Comments\nonly https://onlyzero.net/ is up",
+			"added": 1483966389
+		}
+	],
+	"topic_vote": {
+		"1_153dW34Ng5fVUZ5D5NcZRfAbvRQS1jYC1k": 1,
+		"1_1PvP6Vjh8q44LhyXTiBZc4APMtyzwyttbL": 1,
+		"1_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": 1,
+		"15_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_1A3XsuLB6P7LQPCw1QWASG7RGSwrCv6Xib": 1,
+		"14_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1
+	},
+	"next_comment_id": 8,
+	"comment": {
+		"1_153dW34Ng5fVUZ5D5NcZRfAbvRQS1jYC1k": [
+			{
+				"comment_id": 1,
+				"body": "Anonymous con Nicoletta: tango down per il sito del tribunale di Torino http://www.notav.info/post/anonymous-con-nicoletta-tango-down-per-il-sito-del-tribunale-di-torino/",
+				"added": 1478194567
+			},
+			{
+				"comment_id": 2,
+				"body": "Video dell’arresto di Nicoletta Dosio al Tribunale di Torino http://www.notav.info/post/video-dellarresto-di-nicoletta-dosio-al-tribunale-di-torino/",
+				"added": 1478194594
+			}
+		],
+		"2_153dW34Ng5fVUZ5D5NcZRfAbvRQS1jYC1k": [
+			{
+				"comment_id": 3,
+				"body": "Error in atexit._run_exitfuncs:\nTraceback (most recent call last):\n  File \"/usr/lib/python2.7/atexit.py\", line 24, in _run_exitfuncs\n    func(*targs, **kargs)\n  File \"plugins/MergerSite/MergerSitePlugin.py\", line 325, in save\n    self.updateMergerSites()\n  File \"plugins/MergerSite/MergerSitePlugin.py\", line 290, in updateMergerSites\n    for site in self.sites.itervalues():\nAttributeError: 'NoneType' object has no attribute 'itervalues'\nError in sys.exitfunc:\n- Unhandled exception\nNone\nTraceback (most recent call last):\n  File \"/usr/lib/python2.7/atexit.py\", line 24, in _run_exitfuncs\n    func(*targs, **kargs)\n  File \"plugins/MergerSite/MergerSitePlugin.py\", line 325, in save\n    self.updateMergerSites()\n  File \"plugins/MergerSite/MergerSitePlugin.py\", line 290, in updateMergerSites\n    for site in self.sites.itervalues():\nAttributeError: 'NoneType' object has no attribute 'itervalues'",
+				"added": 1478859540
+			}
+		],
+		"3_153dW34Ng5fVUZ5D5NcZRfAbvRQS1jYC1k": [
+			{
+				"comment_id": 4,
+				"body": "http://127.0.0.1:43110/zeroproxies.bit/ \nis outdated,\nsee\nhttp://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:proxies\ninstead",
+				"added": 1484038058
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 5,
+				"body": "> [thefuzzstone](#comment_3_13XkcrXX32AftHLaersVLMJjLyWcT4244D): Ciao cornuto ;)\n\nche bello,\nun po' di ruspantismo italico\n:)",
+				"added": 1486201318
+			}
+		],
+		"3_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": [
+			{
+				"comment_id": 6,
+				"body": "> [waterrabbit](#comment_134_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): I'll write about the glitches discovered and some ways to reduce logging noise.\n\neven more strange... after a wool fuzzification I've recently weaved a [Fuzzy textile module](/15Aj7PkCPHfCHqNFUnEMoKBDwqHAJ7b9Q6/Schize.html?VIEW=showall#outline-container-org3e6e771) :)",
+				"added": 1491737931
+			}
+		],
+		"14_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 7,
+				"body": "> [kaffie](#comment_289_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): Wonderful. I felt the same... for now I've decided to make ZeroNet my home...\n\nme too",
+				"added": 1493560777
+			}
+		]
+	},
+	"comment_vote": {
+		"289_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"36_1HiyP7AD74uGuGBZLqhcmfQgwu5VC8nnYY": 1,
+		"291_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"14_1AZG3avnpwcn37q9eeCEjXKFBye81eAxg5": 1,
+		"30_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY": 1
+	}
+}

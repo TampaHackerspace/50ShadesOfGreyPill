@@ -1,0 +1,37 @@
+{
+	"next_comment_id": 4,
+	"user_name": "Fractal",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"post_like": {
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1484306799": 1484349158,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1484467876": 1484494628,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1484952497": 1485288973,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1484882601": 1485289106,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1486025074": 1486058210,
+		"1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1485414528": 1486110978,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1486645557": 1486668897,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1486975997": 1487005164,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1486950059": 1487005237,
+		"1EZzNxPxXMSXmEMwJSU3U8jcgjfdAeyTfr_1487500468": 1487528421
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "I'm using it with ssh tunnel; \"ssh -L 43110:localhost:43110 you@yourserver.com\" and you can reach it at http://localhost:43110 (while the communication happens via the ssh tunnel). If you want to be more fancy, you can use sslh, as it accepts ssh connection (among with https / openvpn) via port 443 which is even less likely to notify. So your zeronet instance only have to listen on 127.0.0.1 - is this what you're looking for?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1485284510",
+			"date_added": 1485288176
+		},
+		{
+			"comment_id": 2,
+			"body": "@Mynameislegion: in this case, I think you can solve it by putting something above zeronet (nginx, apache, etc), which does the authentication, and you can reach it via socks5 proxy. Have you done things like that before ?",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1485284510",
+			"date_added": 1485289459
+		},
+		{
+			"comment_id": 3,
+			"body": "haha make sense :)",
+			"post_uri": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1485414528",
+			"date_added": 1485439593
+		}
+	]
+}

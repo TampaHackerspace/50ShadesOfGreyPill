@@ -1,0 +1,28 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 3,
+	"next_follow_id": 4,
+	"avatar": "generate",
+	"user_name": "Flock",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 2,
+			"body": "Hello!",
+			"post_uri": "15HetKok35YeZh6j5NPHcSs1XFFCsiyCbe_1482472202",
+			"date_added": 1482476214
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ",
+			"user_name": "Sirenyc",
+			"date_added": 1482476665
+		}
+	]
+}

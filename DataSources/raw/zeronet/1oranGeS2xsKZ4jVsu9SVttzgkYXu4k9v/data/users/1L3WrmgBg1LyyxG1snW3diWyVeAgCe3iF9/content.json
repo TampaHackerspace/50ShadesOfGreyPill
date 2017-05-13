@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HH0AOFjZnpULE+3si36c3lmXjmn4rH2odox4rxy+nS4cVRvxGOGvnYq8zmzhXlvdHFloI9+xb8XWoz7sUiAY0Ng=",
+ "cert_user_id": "csokimikulas@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "be1d0e7e85d2ddd97f4b4c9a991c1e18220724d3be3a3087b5f78cffccca88b7",
+   "size": 1176
+  },
+  "data.json": {
+   "sha512": "ae918338efbe1cc5a26452f2d130f2a33a6f8368cb7ea2dc99ee5ff5cb883374",
+   "size": 437
+  }
+ },
+ "inner_path": "data/users/1L3WrmgBg1LyyxG1snW3diWyVeAgCe3iF9/content.json",
+ "modified": 1491299800,
+ "signs": {
+  "1L3WrmgBg1LyyxG1snW3diWyVeAgCe3iF9": "G4Po2At2t3ApYq2Ny94WDaJTurvvdSgDWejSkTMA+y5/6gk7GsMoIqw0wfEwM9vQz/bqOAUj1i74OmncaLChSVk="
+ }
+}

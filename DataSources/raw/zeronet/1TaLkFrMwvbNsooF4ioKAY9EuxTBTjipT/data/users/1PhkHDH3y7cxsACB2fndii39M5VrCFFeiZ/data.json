@@ -1,0 +1,53 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"2_1Gtj7AdXhzMFUVVvFm2ZGCbTFdgNwdtuMn": 1,
+		"10040_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1
+	},
+	"next_comment_id": 7,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "Teścik. :)\n\n[Random image](https://i.imgur.com/COb4ASe.gif)\n\nProbably will not work.\n\nCan you edit comments? Yes!",
+				"added": 1483912398
+			},
+			{
+				"comment_id": 2,
+				"body": "> [hagee0r](#comment_1_1AwStNkJjRHgNPQE4f3ZxJMvfVYiFaH973): Wiadoomość testowa\n\nWitam witam.",
+				"added": 1483912433
+			}
+		],
+		"5_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7": [
+			{
+				"comment_id": 3,
+				"body": "The grumpy isn't necessarily faster than CPython, but if python code is written correctly, then grumpy should help with scalability to multiple cores and threads.\n\nI hope the ZeroNet will be rewritten at some point to be natively in Go instead, it should become then faster (and hopefully more secure) indeed. Using grumpy to convert all sources from Python to Go, might be a first step.",
+				"added": 1483913880
+			}
+		],
+		"9976_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 4,
+				"body": "To be fair, MongoDB should know that people are bad at security, and not ship in a default state with no admin password, but instead generate random passwords on a first run or something.",
+				"added": 1483914142
+			}
+		],
+		"12_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 5,
+				"body": "How about we ignore outdated Android versions. They are insecure any how probably due to the lack of updates, and once zeronet become popular, hopefully many people will update to newer phones. I know this puts a lot of users from developing countries (and China) out of the loop, but supporting old OSes is huge burden.\n\nGranted, 5.x is not old or very outdated, and still big chunk of android out there. Anything before 4.4 (KitKat) should probably be dropped tho. The older phones will have trouble with keeping with cpu, memory, storage and network use anyhow.\n\nHave you been able to reproduce the problem on a minimal size program? Does it happen on all 5.x phones?",
+				"added": 1484300094
+			}
+		],
+		"2_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 6,
+				"body": "Which distro are you using? 2.0 was just released, so it might take some time until it is available in package managers, or current stable releases. There are some prebuild binaries available in various forms, or you can compile it yourself, but if you are asking questions like that, I am assuming it might be too complicated for you (it is more involved process). Knowing distro would make it easier to point in right direction.",
+				"added": 1485670543
+			}
+		]
+	},
+	"comment_vote": {}
+}

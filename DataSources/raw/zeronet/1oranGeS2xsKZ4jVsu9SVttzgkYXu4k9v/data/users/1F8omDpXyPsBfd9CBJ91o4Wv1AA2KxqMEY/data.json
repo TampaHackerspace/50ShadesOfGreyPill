@@ -1,0 +1,78 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 5,
+	"next_follow_id": 5,
+	"avatar": "generate",
+	"user_name": "Akito",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1493359832,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1494618671,
+			"body": "Greetings.",
+			"date_added": 1494618669
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Check out the detailed explanation on why not to use torrent over tor.",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1493954606",
+			"date_added": 1493979763
+		},
+		{
+			"comment_id": 2,
+			"body": "Greetings",
+			"post_uri": "1ARSMav1J33Kzy2NHBnmKMVw4bP1uxqPVp_1",
+			"date_added": 1493979789
+		},
+		{
+			"comment_id": 3,
+			"body": "@Torezen: I don't think 2) does since webpages are tiny (comparatively) and files like videos and pictures are not downloaded/seeded automatically, you have to actively request it. Also not everyone using Zeronet uses also the \"Tor always on\" mode.\n\nAnd even if that was the case, there are already tons of people 24/7 doing exactly the wrong things with Tor and somehow it still works. Our couple KB per zite won't change anything about that.",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1493954606",
+			"date_added": 1494010724
+		},
+		{
+			"comment_id": 4,
+			"body": "@Torezen: Maybe you can ask on github.com.",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1493954606",
+			"date_added": 1494055313
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x",
+			"user_name": "Thegillies",
+			"date_added": 1493443873
+		},
+		{
+			"follow_id": 2,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "136wmwLTBJoGTjXTAa7sWmXewn9P53EKML",
+			"user_name": "Zero News",
+			"date_added": 1493443881
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr",
+			"user_name": "Torezen",
+			"date_added": 1494010848
+		},
+		{
+			"follow_id": 4,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "1ASwknt1jbYvCMTSyVJYZnd2z2rw6gG2bf",
+			"user_name": "Fallon",
+			"date_added": 1494618716
+		}
+	]
+}

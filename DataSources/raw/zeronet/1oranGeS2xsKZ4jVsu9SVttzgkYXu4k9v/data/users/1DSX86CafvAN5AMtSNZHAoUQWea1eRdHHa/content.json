@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GwMQV8CD83muP306cw12fO2G5EXhlm9XC5MH0vjcaMWM5FE0Re+cMRkLvcnk6HjYOpwNloC/Azzhebr/4szZuj0=",
+ "cert_user_id": "passfusion@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "63d35fd56fdda717087d59f2a3d654c6faaffaad23cd7770f3e5a3dfbc0bd164",
+   "size": 112
+  },
+  "data.json": {
+   "sha512": "c74e9b287a7b381562f82e925cd940cef313afb598b2fef5da8a2f4331e36254",
+   "size": 1953
+  }
+ },
+ "inner_path": "data/users/1DSX86CafvAN5AMtSNZHAoUQWea1eRdHHa/content.json",
+ "modified": 1488435034,
+ "signs": {
+  "1DSX86CafvAN5AMtSNZHAoUQWea1eRdHHa": "GxApa62S3tjbNY4AHOaZj2k1so6SAMsV39F+gRlLeifMC6UttwJQm0O050scU8Xu3aQzsqdiErXS8AToZfKd/ZA="
+ }
+}

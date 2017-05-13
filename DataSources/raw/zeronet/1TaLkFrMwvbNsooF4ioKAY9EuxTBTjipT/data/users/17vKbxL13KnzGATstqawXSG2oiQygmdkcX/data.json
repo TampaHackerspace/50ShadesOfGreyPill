@@ -1,0 +1,66 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Hillary Pure Evil (7.44Gb) magnet link",
+			"body": "HillaryPureEvil (7.44Gb) magnet link:[magnet:?xt=urn:btih:8CDB41AF8AA11D67AF85F919ABF53794308F9D30](magnet:?xt=urn:btih:8CDB41AF8AA11D67AF85F919ABF53794308F9D30)",
+			"added": 1481713673
+		},
+		{
+			"topic_id": 3,
+			"title": "@Sirenyc: Is ZeroTV down ? why all is black now?",
+			"body": "http://127.0.0.1:43110/1BEJbnufyav7TK23ADTs2Qi2UJeKSGDzw6/",
+			"added": 1494235935
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 9,
+	"comment": {
+		"3_17vKbxL13KnzGATstqawXSG2oiQygmdkcX": [
+			{
+				"comment_id": 1,
+				"body": "> @kaffie：\nIt is very pity, I have not backup this site. So now backup Play is a good choice.\n\nAnd Who have backup ZeroTV ? Please public it again.",
+				"added": 1494236487
+			},
+			{
+				"comment_id": 2,
+				"body": "> [testset](#comment_61_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp): I have tried to recover the deleted files with testdisk, but all of them is empty?!It seems like it was a more systematic data wipe than a simple delete.  [...]\n\nHere has a part of ZeroTV's backup, not all .Thanks @p2p: \nhttp://127.0.0.1:43110/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/loader/files/1BEJbnufyav7TK23ADTs2Qi2UJeKSGDzw6.tar.gz\n\nMaybe somebody has the whole backup.",
+				"added": 1494315515
+			},
+			{
+				"comment_id": 3,
+				"body": "> [kaffie](#comment_305_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): That'd require versioning, and take up more drive space for everyone.\n\nJust set a version control as optional plugin. default disable",
+				"added": 1494335587
+			},
+			{
+				"comment_id": 4,
+				"body": "> [1491301186](#comment_20_1AZG3avnpwcn37q9eeCEjXKFBye81eAxg5): A complete copy of ZeroTV as it was on Mar 25, 2017 can be found at:https://zeronet.korso.win/1BEJbnufyav7TK23ADTs2Qi2UJeKSGDzw6\n\nHow to backup it?",
+				"added": 1494380645
+			},
+			{
+				"comment_id": 5,
+				"body": "@Rythyrix: \nHave you downloaded it ? I have offline the index.html, but not magnet link. the `korso.win` proxy make have set no peer found itself",
+				"added": 1494386264
+			},
+			{
+				"comment_id": 6,
+				"body": "> [rythyrix](#comment_94_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): On its way. Careful if you try it yourself; the code I posted earlier has a couple of issues due to backslashes being interpreted in the comment box, and is not identical to that which I wrote in my shell. Do you want the files as well? I'll have to actually upload a zip of it for multiple people to use.\n\nYes, you can upload a zip, thanks :) only has the [content.json on 2017.03.25](http://127.0.0.1:43110/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/?17vKbxL13KnzGATstqawXSG2oiQygmdkcX_0) can't download the site.maybe all peers have updated.",
+				"added": 1494386764
+			},
+			{
+				"comment_id": 7,
+				"body": "> [rythyrix](#comment_95_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): For those interested, here is the zip of scraped files from the proxy below.\n\nThank you very much, I have downloaded it :) But all the html are error pages.",
+				"added": 1494391138
+			}
+		],
+		"49_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 8,
+				"body": "> [lda](#comment_8_12BYwQbaL2TeRKFD1ndDDV8FdSA8VHfpuB): 上面这网站写明了是Powered by WebTorrent，应该相当于BT或者迅雷下载，只不过是在浏览器里进行。并不是打通了youtube。\n\n就是网页BT下载，没人做种还是死翘翘",
+				"added": 1494470863
+			}
+		]
+	},
+	"comment_vote": {}
+}

@@ -1,0 +1,32 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G0I0g5v02LQOkiaz+N79diOuJ5hMNaJbVaw3i7UGbUC4U255b/O7rYPNgZpgEsLdERTV4SaTzrb3P+CwAzbhBRo=",
+ "cert_user_id": "nemochen@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "dad10d4388c1d901571fef279db5ebd33d4d6427de051570ad2984cae21a266e",
+   "size": 1555
+  },
+  "data.json": {
+   "sha512": "8a2bae4c0ae80792c233ef3f5471144436cccb5093a4152785bd477453daa94c",
+   "size": 12509
+  }
+ },
+ "files_optional": {
+  "1493355234.jpg": {
+   "sha512": "3f7d8d0e9ba2a578b711b8fc49b88e42a573b919faa58f9f975c9084db5a4088",
+   "size": 61129
+  },
+  "1493946513.jpg": {
+   "sha512": "6fc2fb94d5a2d901a6d76696e698900080822a19788244cf0a29614883d65a61",
+   "size": 68317
+  }
+ },
+ "inner_path": "data/users/1NCKCxEdGFRZAJ5XDkBHj9XvwAaAswjXTS/content.json",
+ "modified": 1494217698,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1NCKCxEdGFRZAJ5XDkBHj9XvwAaAswjXTS": "G/4RnPDNfnnfRqnIqVG3HCInOSuZLuqgruQXW5KN30ysCzyFCT91RYmvEu5jAGs9gnWngUXeNhxxrWjWXTxp/ro="
+ }
+}

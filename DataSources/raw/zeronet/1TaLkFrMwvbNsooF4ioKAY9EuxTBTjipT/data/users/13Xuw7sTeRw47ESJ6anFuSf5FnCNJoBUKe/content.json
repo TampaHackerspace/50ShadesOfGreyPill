@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HGG9f9v2HqC0dQfBQ6TJJT3/sStBxBIYFmxWgsGiwr/u3M1v9sBn+sAIguCPR1S1ZXtVu1SgmAUgyo/ChoEED0I=",
+ "cert_user_id": "sushrit@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "725b63ff86c1d23d904f62b1fcf9c808f63cfde1b2e7a96a5f11a390d3faf906",
+   "size": 206
+  }
+ },
+ "inner_path": "data/users/13Xuw7sTeRw47ESJ6anFuSf5FnCNJoBUKe/content.json",
+ "modified": 1489680684,
+ "signs": {
+  "13Xuw7sTeRw47ESJ6anFuSf5FnCNJoBUKe": "G8TvHVxp84GDZ0wTsIVNY/uZWMAAyXG2KvLbSZYHpNuqAWysK1HBtz9qINJnNRdmjMxc2mPWaTht6FtxKXydosI="
+ }
+}

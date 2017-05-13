@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G4SLwmPMMVJUDtHmsGnXqgGhsClORHOHK3OxbcH4lMmskytgMvMq+37MkvW4MfM5k1mqVexqxcUh9khk7RanHi8=",
+ "cert_user_id": "stanislaw@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "7ab7083c3c91c39f3cb45b62aaa1e805b7a49aadf3b1cbda20c7bfe3fe3165df",
+   "size": 1036
+  }
+ },
+ "inner_path": "data/users/19CWfqctukNdRfeqpsq4Q5oF9M3d7NwqKa/content.json",
+ "modified": 1480276892.107956,
+ "signs": {
+  "19CWfqctukNdRfeqpsq4Q5oF9M3d7NwqKa": "G4rcKcUgBNWBOfiH1AIPRh96wc0E017SYkmXl01vNUuBnf8IsFkDFQ8761hJ7JLELEk3PivgkwMUA642nJUFnso="
+ }
+}

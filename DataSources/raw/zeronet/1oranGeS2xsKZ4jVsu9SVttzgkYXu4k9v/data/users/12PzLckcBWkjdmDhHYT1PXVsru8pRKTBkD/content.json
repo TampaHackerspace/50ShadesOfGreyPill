@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HOtMYZ37mOd2IThcFOR4RqMYOTpG9Jz4c1tnqEyaiqtyJ0bURPqBUUXtJPkUGmK/gTxOK/ulqEaY5PyEX+tGzXQ=",
+ "cert_user_id": "porosnopenia@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "f3bdaaa32cc933d643931a72049157793678cddf3086ef762b9eb436add68344",
+   "size": 1705
+  },
+  "data.json": {
+   "sha512": "b18f3ac3a8793afb7709676598bdb6c5eddf3585dfa696247676d3995bc45f6b",
+   "size": 938
+  }
+ },
+ "inner_path": "data/users/12PzLckcBWkjdmDhHYT1PXVsru8pRKTBkD/content.json",
+ "modified": 1483627279.217,
+ "signs": {
+  "12PzLckcBWkjdmDhHYT1PXVsru8pRKTBkD": "HHr7YO++Ga9Wq1kntlStcn7hqLYqK3EBrnIBa/VdALLbMjAx91pehjzdipzRFQoM9FKPhmorQdgRAOKLcaGqoCc="
+ }
+}

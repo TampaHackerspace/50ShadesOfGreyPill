@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G9T/JL0BzOKvzntoXhO/vCVH2U+eSE8/HrdREIExp5GUOiyqII6Z/wxG3eRVn1veyAbIPUBBl0DLXBdSwTmyDNM=",
+ "cert_user_id": "thegimp@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "fcac265826eed5b26a51b3b4b65b23d560878257f57763008b831cd1220a8255",
+   "size": 351
+  }
+ },
+ "inner_path": "data/users/1GJA5CyU4C8rVw1DgEUVFWAcSwSUmUwt1i/content.json",
+ "modified": 1486026044,
+ "signs": {
+  "1GJA5CyU4C8rVw1DgEUVFWAcSwSUmUwt1i": "G/n+adlKkFCwdgdAOLTcV6+lGMbNGtz+nDtVu2NvNfO+/h4ICXScLlTIpK8zcFA2Zy1HIRyErgskNF9cC7U2IPI="
+ }
+}

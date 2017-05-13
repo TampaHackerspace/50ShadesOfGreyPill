@@ -1,0 +1,55 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "/r/collapse",
+			"body": "Alternative location for the /r/collapse Reddit community",
+			"added": 1484333115
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 7,
+	"comment": {
+		"1_1AbPJSk8hULMMSzFhidAu72itdHmTfjSrD": [
+			{
+				"comment_id": 1,
+				"body": "TAP TAP TAP\nIs this thing on?",
+				"added": 1484335856
+			},
+			{
+				"comment_id": 3,
+				"body": "> [goocy](#comment_1_114kU48efyoXi5ExjrE14aT4q62jNErRL7): Seems to work!\n> Now this is just a thread on the example ZeroTalk thread, so I'd like to set up an own ZeroTalk page.\n\nAllright, I'll look into that myself. But I really recommend you look at PC Engines https://www.amazon.de/PC-Engines-APU2C4-Komplett-Alu-Geh%C3%A4use/dp/B01GEIEI7M/ with a larger mSATA SSD than the 16 GB that kit ships with instead of a Raspie.",
+				"added": 1484393082
+			},
+			{
+				"comment_id": 4,
+				"body": "> [up4](#comment_74_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): I don't know man, you started it. Maybe it's because here, the collapse is a given fact not worth discussing. Interestingly in the last DNS DDoS attack, the dark web, including ZeroNet was the only internet still up for me…\n\nHigher availability due to decentralization is definitely a major plus. Projects like cjdns and ZeroNet, Tahoe LAFS do really look like they will be around for a long while.",
+				"added": 1484405915
+			},
+			{
+				"comment_id": 5,
+				"body": "Seems to be working still.",
+				"added": 1487517407
+			}
+		],
+		"1_13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31": [
+			{
+				"comment_id": 2,
+				"body": "You can use an exchange or use localbitcoins to get it for cash.",
+				"added": 1484336590
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 6,
+				"body": "Hey nofish, thanks for making ZeroNet. It is really quite useful already in this early stage.",
+				"added": 1488714352
+			}
+		]
+	},
+	"comment_vote": {
+		"1_114kU48efyoXi5ExjrE14aT4q62jNErRL7": 1,
+		"74_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"next_post_id": 4,
+	"next_comment_id": 3,
+	"next_follow_id": 6,
+	"avatar": "generate",
+	"user_name": "Anoraktrend0",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1490679965,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1490681106,
+			"body": "viva la revolucion",
+			"date_added": 1490681104
+		},
+		{
+			"post_id": 1490681412,
+			"body": "Between Sone and Zerome, I like Sone better, but only because its so classic looking",
+			"date_added": 1490681409
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "eyyyy US is still using freenet. along with the russians",
+			"post_uri": "1L8waPPVatA855bU6SjqWs2K1DbwnUZbEp_1490638401",
+			"date_added": 1490681210
+		},
+		{
+			"comment_id": 2,
+			"body": "FreeNet social network Plugin",
+			"post_uri": "1458rnSXXCUnMT9C92BExaYkWPpzbRWagy_1490681412",
+			"date_added": 1490706539
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp",
+			"user_name": "Loligod",
+			"date_added": 1490700073
+		},
+		{
+			"follow_id": 2,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1H9R6W9QWUpYiJkLyAsFXmXhAV7HEqoHtN",
+			"user_name": "Flyman",
+			"date_added": 1490700295
+		},
+		{
+			"follow_id": 3,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1LeqWgNKQHKdYdy8AREoHprsCEU6cPrTTC",
+			"user_name": "meidan",
+			"date_added": 1490700358
+		},
+		{
+			"follow_id": 4,
+			"hub": "1CouTPX7rK6cyffPCyyxttdZhB1u7NPtqz",
+			"auth_address": "1Pg3bGXNVV9uB2HnirHFU2vaJLvmK77Dox",
+			"user_name": "Ekodjtal",
+			"date_added": 1490706553
+		},
+		{
+			"follow_id": 5,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1nV6bXwqQ1YZmLJ48yxjPzucaWxubrBat",
+			"user_name": "Davlem",
+			"date_added": 1490707695
+		}
+	]
+}

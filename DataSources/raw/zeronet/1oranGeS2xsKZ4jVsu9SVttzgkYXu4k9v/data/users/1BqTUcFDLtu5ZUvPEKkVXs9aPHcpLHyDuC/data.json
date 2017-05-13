@@ -1,0 +1,730 @@
+{
+	"next_post_id": 39,
+	"next_comment_id": 78,
+	"next_follow_id": 11,
+	"avatar": "jpg",
+	"user_name": "Silencer",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "- 离岸大学生\n行走江湖不靠帆，全靠浪",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1480472177,
+			"body": "你好 ZeroMe!"
+		},
+		{
+			"post_id": 1480472276,
+			"body": "为什么我在我的电脑上看到的消息和在公共代理上看到的消息不同？好像少了好多。",
+			"date_added": 1480472274
+		},
+		{
+			"post_id": 1480474404,
+			"body": "@猫叉酱 @莱文倩 确是如此，压缩对于zeronet是十分有意义的。",
+			"date_added": 1480474401,
+			"meta": "{\"img\":\"876,700,ddedeecddeeedddefffffccd,01022002134333335333366666666636666666663666666666366666666635666666667474477400\"}"
+		},
+		{
+			"post_id": 1480475014,
+			"body": "发现一个十分有趣的站点，尤其是对于喜欢读书的人来说：[Antilibrary](/Antilibrary.bit/)",
+			"date_added": 1480475010
+		},
+		{
+			"post_id": 1480481309,
+			"body": "强烈推荐线上图书馆：http://127.0.0.1:43110/Antilibrary.bit/ \n或许我们也应该搞一个属于自己的 @P2P @莱文倩 ",
+			"date_added": 1480481304
+		},
+		{
+			"post_id": 1480481916,
+			"body": "为什么我在 http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Users 页面上方搜索栏内输入任意用户名，在开发者面板流量选项卡下websocket链接中可以看到返回的搜索结果，而页面上却不显示呢？",
+			"date_added": 1480481910
+		},
+		{
+			"post_id": 1480482111,
+			"body": "这里人好少诶，有什么好玩的地方吗？",
+			"date_added": 1480482104
+		},
+		{
+			"post_id": 1480490739,
+			"body": "[Linux Shell Scripting Cookbook](/Antilibrary.bit/?view:23637)\nwow~英文原版Linux Shell Scripting Cookbook 直接就能在Antilibrary.bit下载到，研究了一下发现网站的图书数据存储用的是ipfs，成功把两大p2p网络联合起来了。是不是应该让@nofish 把ipfs也修改一下加入进来作为大文件分享的解决办法呢？不然像这个网站通过getway访问有时还会碰到ipfs分享不完整的情况出现导致无法下载",
+			"date_added": 1480490731
+		},
+		{
+			"post_id": 1480490807,
+			"body": "[Learning Debian Gnu/Linux](/Antilibrary.bit/?view:28993)\n哈哈，在[Antilibrary](/Antilibrary.bit/)上搜索linux出来一堆好书，分享一下~",
+			"date_added": 1480490798
+		},
+		{
+			"post_id": 1480490886,
+			"body": "[Learning Python](/Antilibrary.bit/?view:187)\n想要开发zeronet底层部分python可要学好哦~",
+			"date_added": 1480490876
+		},
+		{
+			"post_id": 1480493934,
+			"body": "如果ipfs和zeronet整合，Antilibrary就可以脱离网络流量传输的限制加入在线阅读图书的功能，那样岂不是第二个多看书城~？而且还完全免费！好棒",
+			"date_added": 1480493923
+		},
+		{
+			"post_id": 1480494610,
+			"body": "如果您想要帮助[@Antilibrary](/Me.ZeroNetwork.bit/?Profile/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN/antilibrary@zeroid.bit) 项目，请给 antilibrary@zeroid.bit 发电子邮件，如果您可以帮助：\n* 拥有100GB以上的空间且您的计算机24小时在线，您可以帮助分发文件，（用户不会直接从您下载文件，您只能保留由种子箱下载的文件。）\n* 比特币捐赠：我们每月花费$ 15美元维护我们的种子盒以提供电子书下载。 捐款给：147nKEb9bBJgBDgQytEQhmiGjF8e6HkEua\n* 您想帮助维护图书收藏",
+			"date_added": 1480494598
+		},
+		{
+			"post_id": 1480494753,
+			"body": "zeronet的前端性能好像并没有经过优化，站点多了主页就变得很卡了。",
+			"date_added": 1480494740
+		},
+		{
+			"post_id": 1480494881,
+			"body": "正在研究怎么创建一个merge站点来放中文图书。哪儿有工程示例吗？",
+			"date_added": 1480494867
+		},
+		{
+			"post_id": 1480497819,
+			"body": "现在还有哪些翻墙工具还活着？来盘点一下~\n私人代理：\n* ShadowSocks\n* ShadowSocksR\n* SSH-Tunnel(干扰严重)\n* https porxy\n* uProxy\n\n公共代理：\n* 天行（优秀，有流量限制）\n* 赛风（一般，有时不稳定）\n* 自由门（亲测时好时坏）\n* 无界浏览(亲测半死不活)\n* Lantern（现在出收费版，免费版经常不稳定）\n* Tor 的 meek 网桥（普遍很慢）\n* alkasir (虽然速度很快，但是经常要手动点击把被屏蔽的站点加入代理列表)\n* XX-Net（php版已瘫痪（十分无力，测试未通过），开发后继无力）\n* Opera 内置 VPN （需要下载旧版并手工禁止自动更新）\n* FireFly （下载地址：[github](https://github.com/yinghuocho/download/\n)项目地址：[github](https://github.com/yinghuocho/firefly-proxy)）\n* goproxy（由GoAgent开发者研发的新代理工具）\n\n还有哪些呢？",
+			"date_added": 1480497804
+		},
+		{
+			"post_id": 1480505836,
+			"body": "有谁会python？快来加入ipfs的python版开发吧~https://github.com/ipfs/py-ipfs 日后完成了就容易把zeronet和ipfs整合了",
+			"date_added": 1480505820
+		},
+		{
+			"post_id": 1480511063,
+			"body": "为啥博客连上传文件的地方都没有，还得自己手动去放置文件，这用户体验真是醉了",
+			"date_added": 1480511046
+		},
+		{
+			"post_id": 1480511317,
+			"body": "感觉zeronet不完善的地方实在太多了，颜值惊艳，但功能却实在少了些。",
+			"date_added": 1480511299
+		},
+		{
+			"post_id": 1480511936,
+			"body": "我觉得，zeronet是不是要去各个论坛贴吧推广一下？",
+			"date_added": 1480511917
+		},
+		{
+			"post_id": 1480512230,
+			"body": "[The Adventures of Tom Sawyer](/Antilibrary.bit/?view:40001)\n哈哈~童年的回忆，英文原版终于找到了",
+			"date_added": 1480512210
+		},
+		{
+			"post_id": 1480513133,
+			"body": "我去，[Win10攻击神技巧：系统更新时长按 SHIFT+F10 键可以打开CMD界面](http://www.freebuf.com/vuls/121578.html)",
+			"date_added": 1480513112
+		},
+		{
+			"post_id": 1480555058,
+			"body": "360静默安装修改手机系统设置自动打开辅助功能，真是一个为用户安全操心到头的贴心管家：http://www.freebuf.com/articles/terminal/121253.html",
+			"date_added": 1480555036
+		},
+		{
+			"post_id": 1480567926,
+			"body": "谁有WordPress站点想要转移到zeroblog来的？发我一份WordPress导出文件我来试试转换",
+			"date_added": 1480567903
+		},
+		{
+			"post_id": 1480570750,
+			"body": "ZeroBlog有tag功能吗？",
+			"date_added": 1480570726
+		},
+		{
+			"post_id": 1480581780,
+			"body": "将WordPress博文导入ZeroBlog工具：[ZeroNet_WordPress2ZeroBlog](https://github.com/cxgreat2014/ZeroNet_WordPress2ZeroBlog)",
+			"date_added": 1480581755
+		},
+		{
+			"post_id": 1480581873,
+			"body": "谁的博客有tag功能？我想要clone一个",
+			"date_added": 1480581847
+		},
+		{
+			"post_id": 1480600778,
+			"body": "碰见恶心人了，不再分享。",
+			"date_added": 1480600751
+		},
+		{
+			"post_id": 1480601474,
+			"body": "明网，就是这么好。",
+			"date_added": 1480601446,
+			"meta": "{\"img\":\"367,700,cdceeefffbcceffdddbcba99aaaccb9bbbdd,0122231444512226122278592A8585B1111111110515191222\"}"
+		},
+		{
+			"post_id": 1480602352,
+			"body": "现在的zeroblog的tag功能字段实在是太差劲了，有谁能去优化一下吗？",
+			"date_added": 1480602323
+		},
+		{
+			"post_id": 1480602488,
+			"body": "2333，水够了，睡觉。晚安，zeronet",
+			"date_added": 1480602458,
+			"meta": "{\"img\":\"881,700,eddeeefffdeedddccbddebbe999bbbccc,01221223224111122412411112251246337618122222222222022212212242221129229121022A22\"}"
+		},
+		{
+			"post_id": 1480658340,
+			"body": "5LiN6KaB5aSq55CG5oOz5YyW77yM6L+Z5Liq56S+5Yy655qE5oiQ6ZW/6L+Y5pyJ5b6I6ZW/55qE6Lev6KaB6LWw77yM6ISa6LiP5a6e5Zyw5LiA5Liq5LiA5Liq5Luj56CB5pWy5Ye65p2l55qE5omN5piv55yf5a6e55qE77yM5ZCm5YiZ6YO95pivY2hlYXDjgII=",
+			"date_added": 1480658309
+		},
+		{
+			"post_id": 1480658851,
+			"body": "技术从来都是脚踏实地搞出来的，吹得再厉害webtorrent的弱势就在那里，不可能成为主流",
+			"date_added": 1480658819
+		},
+		{
+			"post_id": 1480659080,
+			"body": "# 互联网上技术才是第一生产力，而不是对技术的鼓吹。\n其实无论到哪，鼓吹都不可能成为第一生产力。\n**空谈误国，实干兴邦！**",
+			"date_added": 1480659047
+		},
+		{
+			"post_id": 1480692165,
+			"body": "人总是要遵守道德底线的，把他人私人信息随意在公共场合公布是什么行为？那些学生已经够惨的了你看完了还要把她们的图片贴到什么地方你才爽够？私人信息亲朋好友联系方式都不打码就放出来继续给她们家人和无辜牵连的同学朋友、单位带来影响与压力是什么行为？网络暴力已经够恐怖的了，放贷的人这么做本来就不对你还这么传，哈哈，真君子，真道德也。",
+			"date_added": 1480692131
+		},
+		{
+			"post_id": 1480692467,
+			"body": "妈的我不想爆粗口今天都要爆了，p2p社区的素质还没草榴sis好，哈哈，你们愉快，再也不见。",
+			"date_added": 1480692432
+		},
+		{
+			"post_id": 1480692787,
+			"body": "这是我对这个社区所做的唯二的贡献之一吧。直接贴上来了。\nConvert WordPress Export XML File To ZeroBlog:\n```\n# -*- coding: UTF-8 -*-\nimport xml.dom.minidom\nimport time\nimport json\nimport html2text\n\n# -------Edit Below-------\nsite_json_path = \"\"\n# Example: site_json_path = \"N:\\\\ZeroBundle\\\\ZeroNet\\\\data\\\\1NtyUa8gvLkwJeHYebVkZXA9hespXvTRFv\\\\data\\\\data.json\"\nWordPress_ExportXML_Path = \"\"\n# Your WordPress Export XML File Path\n# -------Edit End-------\n\nif not site_json_path or not WordPress_ExportXML_Path:\n    print('Please Edit Me And Set site_json_path and WordPress_ExportXML_Path')\n    exit(1)\n\nh = html2text.HTML2Text()\nsite_json = open(site_json_path, encoding='utf-8').read()\nopen('site_data_json.bak', 'wb').write(site_json.encode())\nsite_json = json.loads(site_json)\ncurrent_post_id = site_json['next_post_id']\nposts = site_json['post']\n\nDOMTree = xml.dom.minidom.parse(WordPress_ExportXML_Path)\nitems = DOMTree.documentElement.getElementsByTagName(\"item\")\nfor item in items:\n    if not item.getElementsByTagName('content:encoded')[0].childNodes:\n        continue\n    post_title = item.getElementsByTagName('title')[0].childNodes[0].data\n    post_time = items[1].getElementsByTagName('wp:post_date')[0].childNodes[0].data\n    post_time = time.mktime(time.strptime(post_time, '%Y-%m-%d %H:%M:%S')) \n    post_body = h.handle(item.getElementsByTagName('content:encoded')[0].childNodes[0].data)\n    post = {\"post_id\": current_post_id, \"title\": post_title, \"date_published\": post_time,\n            \"body\": post_body}\n    posts.insert(0, post)\n    current_post_id += 1\n\nsite_json['next_post_id'] = current_post_id\nopen(site_json_path, 'wb').write(json.dumps(site_json, ensure_ascii=False, indent=\"\\t\").encode())\nprint('Good! Convert Finished, Please sign site and published, then refresh the page, you will see your WordPress post')\n```",
+			"date_added": 1480692751
+		},
+		{
+			"post_id": 1480692879,
+			"body": "人只有隔着网络才能放下自己的底线，尤其是无监管网络，因为他们不怕查水表。",
+			"date_added": 1480692842
+		},
+		{
+			"post_id": 1480692926,
+			"body": "ZeroNet，在你成熟之前就此再见。",
+			"date_added": 1480692888
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "要不要我们也仿照这个来搞一个线上图书馆？@P2P",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480475014",
+			"date_added": 1480475658
+		},
+		{
+			"comment_id": 2,
+			"body": "@Lmath: 1BLueGvui1GdbtsjcKqCf4F67uKfritG49，zip，非固实，43.30%",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480474404",
+			"date_added": 1480478063
+		},
+		{
+			"comment_id": 3,
+			"body": "@Lmath: 哦，好的，谢谢",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480481916",
+			"date_added": 1480489884
+		},
+		{
+			"comment_id": 4,
+			"body": "@莱文倩: 哈哈~祝你的生活一样越来越好~",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480493934",
+			"date_added": 1480495126
+		},
+		{
+			"comment_id": 5,
+			"body": "@Lmath: 谢谢整理，还有几个在测试中，不过FireFly没找到这个软件",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480497819",
+			"date_added": 1480503534
+		},
+		{
+			"comment_id": 6,
+			"body": "@Lmath: Opera的VPN貌似在国内网络下已经使用不了了",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480497819",
+			"date_added": 1480503644
+		},
+		{
+			"comment_id": 7,
+			"body": "@Lmath: firefly有软件主页地址吗？",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480497819",
+			"date_added": 1480503680
+		},
+		{
+			"comment_id": 8,
+			"body": "@Lmath: 嗯，好的",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480497819",
+			"date_added": 1480503691
+		},
+		{
+			"comment_id": 9,
+			"body": "@Lmath: 收主流的吧，改host方法并不稳定，而且在手机端必须得获取root权限才能改系统host文件",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480497819",
+			"date_added": 1480503981
+		},
+		{
+			"comment_id": 10,
+			"body": "@Lmath: 毕竟大神少，小白多，不能要求每一个翻墙用户都变成linux程序员",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480497819",
+			"date_added": 1480504031
+		},
+		{
+			"comment_id": 11,
+			"body": "@Lmath: 但是这些操作都太繁琐了，而且想让中国网民付费才能翻墙就注定不会太多人买账",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480497819",
+			"date_added": 1480504549
+		},
+		{
+			"comment_id": 12,
+			"body": "@Lmath: 然而我的同学基本没有。。",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480497819",
+			"date_added": 1480505192
+		},
+		{
+			"comment_id": 13,
+			"body": "@Lmath: 我觉得和社会文化生活都有关系，学校里的网络对国外几个主要站点都做了技术，可以直接上google学术、INS等网站，但还是有一部分不能访问，但需求就没那么强烈了。",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480497819",
+			"date_added": 1480505400
+		},
+		{
+			"comment_id": 14,
+			"body": "@Lmath: 华东二线城市，ins被墙无法访问",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480497819",
+			"date_added": 1480505707
+		},
+		{
+			"comment_id": 15,
+			"body": "@Lmath: 大文件共享zeronet处于劣势呀",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480505836",
+			"date_added": 1480506035
+		},
+		{
+			"comment_id": 16,
+			"body": "@Lmath: 但是ipfs没有arm版的呀，而且看p2p的博文好像还有把zn移植到手机上的计划，若是下载对应的话那样手机就没法移植了（除非自己编译一套无依赖的arm版ipfs或者下载整套依赖工具链再下载要求依赖的ipfs）",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480505836",
+			"date_added": 1480506530
+		},
+		{
+			"comment_id": 17,
+			"body": "@Lmath: 那样的话工程差不多大，还不如一次性在python中解决完，远离依赖地狱",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480505836",
+			"date_added": 1480506720
+		},
+		{
+			"comment_id": 18,
+			"body": "@说鸡不说巴: 哦，好的，谢谢",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480497819",
+			"date_added": 1480511145
+		},
+		{
+			"comment_id": 19,
+			"body": "@Lmath: 啊？这么惨。。。",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480511063",
+			"date_added": 1480511415
+		},
+		{
+			"comment_id": 20,
+			"body": "@Lmath: 看来还有很长的路要走。。",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480511063",
+			"date_added": 1480511551
+		},
+		{
+			"comment_id": 21,
+			"body": "@Lmath: 用户体验决定了吸引力，目前看来好像还并不靠谱。。",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480511063",
+			"date_added": 1480511660
+		},
+		{
+			"comment_id": 22,
+			"body": "@Lmath: 好像聊来聊去就两三个人在这😂",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480511063",
+			"date_added": 1480511689
+		},
+		{
+			"comment_id": 23,
+			"body": "@Lmath: 只有更多的人参与到这个项目中才能够让这个项目健康发展，我觉得是不是应该去微博或者什么地方推广一下？",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480511063",
+			"date_added": 1480511761
+		},
+		{
+			"comment_id": 24,
+			"body": "@Lmath: 这又不是暗网，只要和他们说这里没有神兽验证码和广告就好，手机不是还有代理吗？",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480511936",
+			"date_added": 1480512265
+		},
+		{
+			"comment_id": 25,
+			"body": "@Lmath: 我去linux吧推荐，总不会出现这种事",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480511936",
+			"date_added": 1480513500
+		},
+		{
+			"comment_id": 26,
+			"body": "@Helloword: 我同意你的观点",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480511936",
+			"date_added": 1480554761
+		},
+		{
+			"comment_id": 27,
+			"body": "@Ysc3839: 汗，到现在还没修复",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480513133",
+			"date_added": 1480554870
+		},
+		{
+			"comment_id": 28,
+			"body": "First: use python\nSecond: slove :P",
+			"post_uri": "18x9rTnPPV3UdMf5KR1gPy7feMbWQbFgJq_1480556462",
+			"date_added": 1480556705
+		},
+		{
+			"comment_id": 29,
+			"body": "in fact u can use python in someway to get you wordpress blog post's html, and use \n```\nimport html2text\nh = html2text.HTML2Text()\nh.handle(post_html)\n```\nto get your post markdown，and write it tou your blog db, that's ok ",
+			"post_uri": "18x9rTnPPV3UdMf5KR1gPy7feMbWQbFgJq_1480556462",
+			"date_added": 1480556914
+		},
+		{
+			"comment_id": 30,
+			"body": "@Vladzh: Um...I will try to slove it...I have some idea, but I don't know it wiil work or not",
+			"post_uri": "18x9rTnPPV3UdMf5KR1gPy7feMbWQbFgJq_1480556462",
+			"date_added": 1480557381
+		},
+		{
+			"comment_id": 31,
+			"body": "@Vladzh: export your wordpress post, rename that file to 'wp_export.xml' ,and run these python code\n\n ```\nfrom xml.dom.minidom import parse\nimport xml.dom.minidom\nDOMTree = xml.dom.minidom.parse(\"wp_export.xml\")\nitems=DOMTree.documentElement.getElementsByTagName(\"item\")\nfor item in items:\n    if not item.getElementsByTagName('content:encoded')[0].childNodes:\n        continue\n    print(item.getElementsByTagName('title')[0].childNodes[0].data)\n    print(item.getElementsByTagName('content:encoded')[0].childNodes[0].data)\n```\n\nnow, you see, it print all you wordpress posts title and content",
+			"post_uri": "18x9rTnPPV3UdMf5KR1gPy7feMbWQbFgJq_1480556462",
+			"date_added": 1480559799
+		},
+		{
+			"comment_id": 32,
+			"body": "@Vladzh: but ...now it's a demo, it only can print it,  I'm trying to workout a really work \"convert wp to zeroblog\" application",
+			"post_uri": "18x9rTnPPV3UdMf5KR1gPy7feMbWQbFgJq_1480556462",
+			"date_added": 1480560816
+		},
+		{
+			"comment_id": 33,
+			"body": "@Vladzh: wait a while， I'm working it :P",
+			"post_uri": "18x9rTnPPV3UdMf5KR1gPy7feMbWQbFgJq_1480556462",
+			"date_added": 1480560887
+		},
+		{
+			"comment_id": 34,
+			"body": "@Vladzh: I'm already finish it, but I need some WordPress export data to test, could you offer me one？",
+			"post_uri": "18x9rTnPPV3UdMf5KR1gPy7feMbWQbFgJq_1480556462",
+			"date_added": 1480568025
+		},
+		{
+			"comment_id": 35,
+			"body": "@Lmath: ????",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480511063",
+			"date_added": 1480573960
+		},
+		{
+			"comment_id": 36,
+			"body": "@Vladzh: ok, It seems like work, here is the full application:[github - ZeroNet_WordPress2ZeroBlog](https://github.com/cxgreat2014/ZeroNet_WordPress2ZeroBlog), Export your wordpress post, you will get a xml file, download convert.py and edit it, set site_json_path and WordPress_ExportXMLFilePath, then run it python convert.py, wait it finished, sign your site and published it.then refresh webpage, you will see your post.",
+			"post_uri": "18x9rTnPPV3UdMf5KR1gPy7feMbWQbFgJq_1480556462",
+			"date_added": 1480574380
+		},
+		{
+			"comment_id": 37,
+			"body": "@Vladzh: but ..because zeroblog have no tag to classify, so it can't convert tag, I have submit a issue:[#29](https://github.com/HelloZeroNet/ZeroBlog/issues/29)",
+			"post_uri": "18x9rTnPPV3UdMf5KR1gPy7feMbWQbFgJq_1480556462",
+			"date_added": 1480574499
+		},
+		{
+			"comment_id": 38,
+			"body": "@莱文倩: 诶？js控制台可以把WordPress博文导入zeronet？",
+			"post_uri": "18x9rTnPPV3UdMf5KR1gPy7feMbWQbFgJq_1480556462",
+			"date_added": 1480581706
+		},
+		{
+			"comment_id": 39,
+			"body": "你好",
+			"post_uri": "1HmzSTd1Jp7jFZVXRY6yAehMwUgzmLTEW5_1",
+			"date_added": 1480583072
+		},
+		{
+			"comment_id": 40,
+			"body": "@Ysc3839: 诶，好的，谢谢~",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581873",
+			"date_added": 1480585723
+		},
+		{
+			"comment_id": 41,
+			"body": "@Ysc3839: 怎么你的博客标签功能也是那样dirtyhack的。。",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581873",
+			"date_added": 1480585930
+		},
+		{
+			"comment_id": 42,
+			"body": "@Ysc3839: \t\"tag\": [\n\t\t{\n\t\t\t\"value\": \"标签一\",\n\t\t\t\"post_id\": 2\n\t\t},\n\t\t{\n\t\t\t\"value\": \"标签二\",\n\t\t\t\"post_id\": 2\n\t\t},\n\t\t{\n\t\t\t\"value\": \"标签一\",\n\t\t\t\"post_id\": 1\n\t\t}\n\t]",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581873",
+			"date_added": 1480586102
+		},
+		{
+			"comment_id": 43,
+			"body": "@Ysc3839: 正确的处理方法不应该是\t\"tag\":[{\"value\":\"标签一\",\"post_id\":[1,2]},{\"value\":\"标签二\",\"post_id\":2}]吗。。。/汗。。。",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581873",
+			"date_added": 1480586241
+		},
+		{
+			"comment_id": 44,
+			"body": "@Ysc3839: 能不能改一改？",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581873",
+			"date_added": 1480586283
+		},
+		{
+			"comment_id": 45,
+			"body": "@Ysc3839: ==。。。。我也没时间。。等会还要上课呢",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581873",
+			"date_added": 1480586370
+		},
+		{
+			"comment_id": 46,
+			"body": "@Vladzh: 但是ZeroBlog没有tag和cate功能，因此没法分类。（虽然现在有私人修改版有tag功能但字段设计实在是太笨了，而且只有中文版。。期望官方版本能够加上，我已经提了issue：https://github.com/HelloZeroNet/ZeroBlog/issues/29 ）(PS:我英语很烂。。😂)",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480589023
+		},
+		{
+			"comment_id": 47,
+			"body": "@P2P: 23333，嘘。。那个号因为替所学发声已经被那两个追了，实在是烦，换小号躲他们。",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480598807
+		},
+		{
+			"comment_id": 48,
+			"body": "@P2P: 而且那个号因为重复加入hub已经不能正常运作了，我换这个可以正常看到消息",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480598841
+		},
+		{
+			"comment_id": 50,
+			"body": "@Rainlime: 主要是纯粹口水战，几千年都打不完，还不如换个跳脱的号来玩一玩",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480599046
+		},
+		{
+			"comment_id": 51,
+			"body": "@Rainlime: 然而me没有block，me+才有block2333",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480599146
+		},
+		{
+			"comment_id": 52,
+			"body": "@Rainlime: 但是现在zeronet更新这么无力。。唉。。很不看好",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480599182
+		},
+		{
+			"comment_id": 53,
+			"body": "@Lmath: .....干嘛说出来，小声点，别让他们再追过来了",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480599240
+		},
+		{
+			"comment_id": 54,
+			"body": "@Lmath: 唉。。",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480599251
+		},
+		{
+			"comment_id": 55,
+			"body": "@Lmath: 我也算是为这个社区尽了一份力吧",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480599270
+		},
+		{
+			"comment_id": 56,
+			"body": "@Rainlime: 哈哈，这也是被逼急了没办法啦，在这样的社区里管理员不出手升级还真是够烦的哈",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480599340
+		},
+		{
+			"comment_id": 57,
+			"body": "@Lmath: 我可以开发，但我学业怎么办？我还要上学呢",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480599372
+		},
+		{
+			"comment_id": 58,
+			"body": "@Lmath: 管理员删不删是一回事，出不出block和bad、ugly、spam投票功能是另一回事，看到那些恶心的东西你还投诉无门，郁闷要死",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480599648
+		},
+		{
+			"comment_id": 59,
+			"body": "@Lmath: 而且你还没办法不看，他就在那里恶心你",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480599669
+		},
+		{
+			"comment_id": 60,
+			"body": "@Lmath: ...你心理强大，我接受不了，看见那些东西心里就跟进了二十五只小老鼠似的就是想把它扫掉，不然我也没必要从知乎那地方到这来=_=...",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480600027
+		},
+		{
+			"comment_id": 61,
+			"body": "@Lmath: 我主要是受不了啥都管乱删多标管理员，他骂我举报可以豁免我骂他就删帖，知乎现在就是一群智障在管理",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480600450
+		},
+		{
+			"comment_id": 62,
+			"body": "@Rainlime: 没有，是一些裸持的资料。。小妹妹别看",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480600778",
+			"date_added": 1480600863
+		},
+		{
+			"comment_id": 63,
+			"body": "话说现在这些人也真是ＴＭ的丧心病狂",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480600778",
+			"date_added": 1480600956
+		},
+		{
+			"comment_id": 64,
+			"body": "这可是祖国的未来啊",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480600778",
+			"date_added": 1480600968
+		},
+		{
+			"comment_id": 65,
+			"body": "＝＿＝",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480600778",
+			"date_added": 1480600976
+		},
+		{
+			"comment_id": 66,
+			"body": "不过， @Rainlime: 据我所知，借贷宝在去年一月就被人拖库了，淘宝今年三月的数据黑客群里都有人在用",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480600778",
+			"date_added": 1480601065
+		},
+		{
+			"comment_id": 67,
+			"body": "@Lmath: 因为正太口味的比较小众",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480600778",
+			"date_added": 1480601087
+		},
+		{
+			"comment_id": 68,
+			"body": "@Ysc3839: 唉，每天太多事了，现在基本都快挂科了",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480601132
+		},
+		{
+			"comment_id": 69,
+			"body": "@Rainlime: 我下一条上截图",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480600778",
+			"date_added": 1480601164
+		},
+		{
+			"comment_id": 70,
+			"body": "@Lmath: 没时间，明天开始我要真正下线开始闭关修行了",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480601500
+		},
+		{
+			"comment_id": 71,
+			"body": "@Rainlime: 来自彼岸社区，非一手完全资料，目前已扩散",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480601474",
+			"date_added": 1480601595
+		},
+		{
+			"comment_id": 72,
+			"body": "@Ysc3839: 麻烦改下现在的tag的修改，现在那种存数据的方式纯粹脑残",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480601645
+		},
+		{
+			"comment_id": 73,
+			"body": "@说鸡不说巴: 没有网，私下传的。私人分享btsync，总数据有几百G",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480601474",
+			"date_added": 1480601709
+		},
+		{
+			"comment_id": 74,
+			"body": "@Ysc3839: 好吧，其实最好是官方出一个，tag和cate不是一个博客的基本功能吗？",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480602064
+		},
+		{
+			"comment_id": 75,
+			"body": "@Ysc3839: 也是",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480581780",
+			"date_added": 1480602421
+		},
+		{
+			"comment_id": 76,
+			"body": "Rm9yIExvLns5fQ==",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480658340",
+			"date_added": 1480658496
+		},
+		{
+			"comment_id": 77,
+			"body": "@莱文倩: 唉。。可惜可叹。",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480600778",
+			"date_added": 1480691911
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 2,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1DD52vhXkbAdaS54PoZ2vNauiQ8XMiswC5",
+			"user_name": "莱文倩",
+			"date_added": 1480472711
+		},
+		{
+			"follow_id": 3,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1480472715
+		},
+		{
+			"follow_id": 4,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1FHN4oukAG7zFUpiC9L2iz7QpQVTuT3xkz",
+			"user_name": "猫叉酱",
+			"date_added": 1480472725
+		},
+		{
+			"follow_id": 5,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1GAWwPWreQXo1CwcefCgL6w5wYPkNFWbsj",
+			"user_name": "西木野真姬",
+			"date_added": 1480472735
+		},
+		{
+			"follow_id": 6,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1480472748
+		},
+		{
+			"follow_id": 7,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1480472838
+		},
+		{
+			"follow_id": 8,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN",
+			"user_name": "Antilibrary",
+			"date_added": 1480494089
+		},
+		{
+			"follow_id": 10,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1EFRUQjydLVFKNFBiF2LW5rpQeqEr8EA6M",
+			"user_name": "Rainlime",
+			"date_added": 1480496965
+		}
+	],
+	"settings": {
+		"reverse_comment_order": false,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"blocked": [],
+	"flags": {},
+	"comment_like": {}
+}

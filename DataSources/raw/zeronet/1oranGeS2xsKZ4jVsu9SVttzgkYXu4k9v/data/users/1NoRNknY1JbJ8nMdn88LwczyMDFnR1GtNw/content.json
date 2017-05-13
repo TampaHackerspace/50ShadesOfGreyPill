@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G5ABWzzR3nqvnT9igFWukwJM7+bnCJwOB5zBg1fvCZsLFoJPukohX+gKC/f5kb5/LteGEM7u5i8jj9SdjULCO4U=",
+ "cert_user_id": "antiphase@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "180f666eb3d888f7a89ce573b7b43825ca18d457b9d9d4e294538fe2c00822b1",
+   "size": 340
+  }
+ },
+ "inner_path": "data/users/1NoRNknY1JbJ8nMdn88LwczyMDFnR1GtNw/content.json",
+ "modified": 1487213533,
+ "signs": {
+  "1NoRNknY1JbJ8nMdn88LwczyMDFnR1GtNw": "G4qK1aQ9ATxnfP3+uuivhRYW43d++iDuZnZxMGksbaqpF1dZmR0Hey14U0WUlbkkpprw6y4t1oXV/Ng920gFHfo="
+ }
+}

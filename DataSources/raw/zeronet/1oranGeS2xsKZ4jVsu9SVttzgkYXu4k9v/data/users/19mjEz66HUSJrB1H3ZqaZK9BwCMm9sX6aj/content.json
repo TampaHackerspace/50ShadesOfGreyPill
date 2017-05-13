@@ -1,0 +1,36 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G0Q9pGlcgwsUd7BvZ5wy796RvhN7DFelXXwQW1zz/vxHZgNYkdJcP4ntRNbiqx93YWx16gpQLxRt7XbhSDdZdSU=",
+ "cert_user_id": "tamigucho@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "5f295a73f70c1afa9162033667cd82f327881345b2ad0c158df2a325dc1a1c75",
+   "size": 1636
+  },
+  "data.json": {
+   "sha512": "e4a08aec54d88d67ddd1493684b1b25dd656c0dfb0fec486999c798d314e837f",
+   "size": 1480
+  }
+ },
+ "files_optional": {
+  "1491121451.jpg": {
+   "sha512": "5e26507ff3e6407ca421ab3d30e81baee601cd378a566fdf777d56c54b6c168e",
+   "size": 44382
+  },
+  "1491121477.jpg": {
+   "sha512": "c5c080a471398bfa5183a434db46ad453a2e1d3051bcdfc4e5461d32a226da09",
+   "size": 54178
+  },
+  "1491121645.jpg": {
+   "sha512": "fa0d88374a0ae9434c172a2a00e0486eb6d2f4d4f3f4ead1a22b83185b281a4c",
+   "size": 57807
+  }
+ },
+ "inner_path": "data/users/19mjEz66HUSJrB1H3ZqaZK9BwCMm9sX6aj/content.json",
+ "modified": 1491121474,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "19mjEz66HUSJrB1H3ZqaZK9BwCMm9sX6aj": "G0WbnlwzMPXCqGNnsksvPvFBPRq9/GeVc/LAliqSdrNg1gwrefhUG+9JFujYv8RurHkZfd6L29a7+uWzdNAiTI0="
+ }
+}

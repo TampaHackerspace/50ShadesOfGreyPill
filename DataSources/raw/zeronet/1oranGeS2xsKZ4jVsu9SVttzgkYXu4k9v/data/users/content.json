@@ -1,0 +1,65 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "files": {},
+ "ignore": ".*",
+ "inner_path": "data/users/content.json",
+ "modified": 1493934765,
+ "signs": {
+  "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v": "GzqE/KMju12k+nocB3IKmKIq8bTLaP7a1GYqBhMVCjNnLbkJkAX5y04OV75NyU0mJ/meNQ8xLWqCulNJlxnMVqc="
+ },
+ "user_contents": {
+  "archived": {
+   "17zvGKq1Vft7Fp8HhqgD7rpqcGi5wDDSQ4": 1484558909,
+   "1EFPRZRhijiQv6MvhJQLgV2SdPtHR6tJZ": 991486598402
+  },
+  "cert_signers": {
+   "zeroid.bit": [
+    "1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz"
+   ]
+  },
+  "permission_rules": {
+   ".*": {
+    "files_allowed": "(data.json|avatar.jpg|avatar.png)",
+    "max_size": 50000,
+    "max_size_optional": 10000000
+   },
+   "bitid/.*@zeroid.bit": {"max_size": 60000},
+   "bitmsg/.*@zeroid.bit": {"max_size": 60000}
+  },
+  "permissions": {
+   "12hlearn@zeroid.bit": {"max_size": 200000},
+   "adultsitedating@zeroid.bit": {"max_size": 160000},
+   "atheist@zeroid.bit": {"max_size": 100000},
+   "baddream@zeroid.bit": false,
+   "banexample@zeroid.bit": false,
+   "booma@zeroid.bit": {"max_size": 100000},
+   "catalunya@zeroid.bit": {"max_size": 100000},
+   "commagray@zeroid.bit": {"max_size": 100000},
+   "fire1314@zeroid.bit": {"max_size": 400000},
+   "fragmentation@zeroid.bit": {"max_size": 100000},
+   "generate@zeroid.bit": {"max_size": 100000},
+   "glightstar@zeroid.bit": {"max_size": 100000},
+   "iloveyou@zeroid.bit": {"max_size": 200000},
+   "johnbyte1221@zeroid.bit": {"max_size": 100000},
+   "kai123@zeroid.bit": {"max_size": 100000},
+   "kaishen@zeroid.bit": {"max_size": 80000},
+   "kof@zeroid.bit": {"max_size": 100000},
+   "lmath@zeroid.bit": {"max_size": 200000},
+   "lmt@zeroid.bit": {"max_size": 100000},
+   "loligod@zeroid.bit": {"max_size": 100000},
+   "longzaowuzhu@zeroid.bit": {"max_size": 400000},
+   "martinv@zeroid.bit": {"max_size": 100000},
+   "nekololi@zeroid.bit": {"max_size": 100000},
+   "nofish@zeroid.bit": {"max_size": 20000},
+   "notyourbit@zeroid.bit": {"max_size": 200000},
+   "omaidb@zeroid.bit": {"max_size": 100000},
+   "p2p@zeroid.bit": {"max_size": 200000},
+   "plasmmer@zeroid.bit": {"max_size": 200000},
+   "rythyrix@zeroid.bit": {"max_size": 100000},
+   "silencer@zeroid.bit": {"max_size": 80000},
+   "strawing@zeroid.bit": {"max_size": 80000},
+   "yinyue@zeroid.bit": {"max_size": 100000},
+   "zeronetapk@zeroid.bit": {"max_size": 100000}
+  }
+ }
+}

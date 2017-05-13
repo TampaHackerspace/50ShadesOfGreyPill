@@ -1,0 +1,51 @@
+{
+	"next_post_id": 4,
+	"next_comment_id": 1,
+	"next_follow_id": 4,
+	"avatar": "generate",
+	"user_name": "Zerdoe",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1470892798,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 2,
+			"body": "Hello",
+			"date_added": 1470892988
+		},
+		{
+			"post_id": 3,
+			"body": "Hello... I search for german speaking people. Anything here?",
+			"date_added": 1470895620
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1MGs2sg69x7G9Ng1Y2w5TqCgp1FMUztXmK",
+			"user_name": "Iole",
+			"date_added": 1470897208
+		},
+		{
+			"follow_id": 2,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1JYAaUBXsh3DrN8UZHz4suAUVXzV3X15QL",
+			"user_name": "Morpheus",
+			"date_added": 1470897228
+		},
+		{
+			"follow_id": 3,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "13Mt8T2256Uz4GHk9B4XvKqyz37wPgA26q",
+			"user_name": "Dadda",
+			"date_added": 1470897528
+		}
+	]
+}

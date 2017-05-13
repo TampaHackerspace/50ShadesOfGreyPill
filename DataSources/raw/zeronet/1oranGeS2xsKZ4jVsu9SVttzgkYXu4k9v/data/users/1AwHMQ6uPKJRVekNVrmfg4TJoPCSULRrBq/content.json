@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G+4Jv5RT/YonsvdhIFK+LI1gbCJBUj1JZ/aP6QIMhk5Ov0FrQb3pe7IJ4kHfmQJhVgI8nk3/UhVrLc8T0WT62KI=",
+ "cert_user_id": "eelco@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "fbd3d8cab1a6c1ff79ec1e150a5ef62a899a2ba3cc549384173d94a704047b6e",
+   "size": 336
+  }
+ },
+ "inner_path": "data/users/1AwHMQ6uPKJRVekNVrmfg4TJoPCSULRrBq/content.json",
+ "modified": 1488492193,
+ "signs": {
+  "1AwHMQ6uPKJRVekNVrmfg4TJoPCSULRrBq": "G/DEybV9f5PQQ7RJoFEazlSrTgoKLIkqthkz6b//Y3vnb5/XEfASREebyav5yBtGRp4sAtEJ6kG5cd+ZzRWnuVY="
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G5g1dHUtBOqqWWQCIOtQpVESidz+R8BL4ws2WHxMIEetNg4adN1oY7Px0ttm0fR5bLl28/L5NEEKu8ZkAEp8UDE=",
+ "cert_user_id": "betepawa@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "47195f5f01b5374dc9396579e77fee528c4c123440678e05b9cb50f92771bde0",
+   "size": 1316
+  }
+ },
+ "files_optional": {
+  "1490829973.jpg": {
+   "sha512": "c5533a21deba44caa2d7042598ca0e0737d4ea8af18f63de1cdbf7a0da48f733",
+   "size": 101402
+  },
+  "1490885736.jpg": {
+   "sha512": "153a49c603ddc527a83a237f56d52ff26fbfe8902f51c87f58a87ebaaf3d38e9",
+   "size": 57069
+  }
+ },
+ "inner_path": "data/users/12oSzXuMegPNBP56TZjVADPYTzHRwubQ5i/content.json",
+ "modified": 1490885734,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "12oSzXuMegPNBP56TZjVADPYTzHRwubQ5i": "GwMzsCgkb88+9fwUpblpuXegl+sxFyraE+XCNTglViIyVk4ojtGKCM7B6e3Ec8Bl9RjR+HY803NfZ+MGqWjWg3w="
+ }
+}

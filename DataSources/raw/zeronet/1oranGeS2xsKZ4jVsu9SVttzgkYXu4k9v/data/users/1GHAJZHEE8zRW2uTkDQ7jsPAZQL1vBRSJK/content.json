@@ -1,0 +1,18 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HCwS6zV/02e8cHNNs2M1hNaCefSyoMB6rEBS8KnIZksa1hevdpbMXjSJ6LiMpKZSf6WfGyEhrDdkOZzWZW4bD7k=",
+ "cert_user_id": "watanuo734@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d5f3f0a81d942e318399ee87cf10c88bd98bde3c4c41468e780191c5301a43a8",
+   "size": 4643
+  }
+ },
+ "inner_path": "data/users/1GHAJZHEE8zRW2uTkDQ7jsPAZQL1vBRSJK/content.json",
+ "modified": 1486622533,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1GHAJZHEE8zRW2uTkDQ7jsPAZQL1vBRSJK": "G51F0E4ZQ+Sz9PqPM2jDrPtWoJDpsVhOVCa4vQ+yuvHZZ7Gf70s1Tx1Y2get/bb0VpA0AoeyrpKTHroPxkoDmKs="
+ }
+}

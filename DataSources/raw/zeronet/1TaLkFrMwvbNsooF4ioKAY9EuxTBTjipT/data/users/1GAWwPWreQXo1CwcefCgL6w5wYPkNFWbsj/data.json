@@ -1,0 +1,29 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Remove zerome that limit!!!!!!",
+			"body": "i can't send any message to zerome if i using that \"pulic zeronet proxy(e.g. bit.no.com:43110)\" it's work but i really want to using my zeronet client not public proxy",
+			"added": 1481135942
+		},
+		{
+			"topic_id": 2,
+			"title": "i have a idea of Zerome",
+			"body": "three things：Rapids layer & Static layer & Blacklist\n\n\nwhat is Rapids layer? is public message just like Zerome \"everyone\" tab Rapids layer is storage\neveryone(you not followed) message but it's a little tiny For example eh... let's set it's 100MB\n(You can make the storage settings bigger if you want)\nWhen the Rapids layer storage is full it's will be \"forget\" the old data\nBTW use blacklist can make everyone(normal) message not be \"SPAM Buring\"\n(\"SPAM Buring\" is someone always sent spam and make normal message be the old data then be\"forget\")\n\n\nwhat is Static layer? is message of you followed user\nbut there's a new funcation is \"I want to save this content permanently（If you think a piece of content makes you very interested, or it is very useful or very important you can click the \"save button\" then it's will be moving to Static Layer Even if you are not following the user）\"\n\n\nBlacklist well... if you don't like someone always SPAM on zerome\njust click the“adduser to Blacklist” button\nit's will make you never receive the message of SPAM user",
+			"added": 1484048746
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 2,
+	"comment": {
+		"1_1GAWwPWreQXo1CwcefCgL6w5wYPkNFWbsj": [
+			{
+				"comment_id": 1,
+				"body": "> [waterrabbit](#comment_80_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Your Blue Hub content is roughly 30.8 KB.\n\n> [nofish](#comment_836_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It's hard to tell whats the problem based on the provided information: Please specify your OS, Client version, what exactly happening, what error message displayed, account name, etc.\n\ni deleted all data and restart i find my bluehub profile(My masterkey has been saved in a safe place)\nbut there's another question why all-hub can share profile even they is same zeroid\nif i change redhub profile it look's like \"i have mult-account\"\nand if i want to delete post when i send to redhub i can't using bluehub profile to do this... even is same zeroid",
+				"added": 1481148571
+			}
+		]
+	},
+	"comment_vote": {}
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G6VqXhV3kVCjAGsy/a3GfldjLLDPft9Jd/FDWcV1jpOAFQssB0AwKacuy3qB0eSYvJonloer/dgQ8Ob0Wsxk7Xk=",
+ "cert_user_id": "vivisect@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "0e759dd0e06ed8a0bf3ddd805bf944d68aaf2d6469a96dc93e3603d871a05c84",
+   "size": 534
+  }
+ },
+ "inner_path": "data/users/1L6AzNZhaGYwQcDWNffD1najBfyvzeKhsG/content.json",
+ "modified": 1475503124.609374,
+ "signs": {
+  "1L6AzNZhaGYwQcDWNffD1najBfyvzeKhsG": "HGRaJOXHULVGVS27zf9dAgaNgrH6O1JrsoFcDu0hzr7imkyMtuaUkMF46ChTkyh8/nAjYmSUbjfptU6jt+gDlb4="
+ }
+}

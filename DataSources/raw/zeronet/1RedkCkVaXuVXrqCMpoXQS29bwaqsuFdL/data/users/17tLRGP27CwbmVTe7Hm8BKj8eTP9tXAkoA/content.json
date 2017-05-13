@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HKSgknYXmCiuzC5ymrsDZk6QXZ1WRVrG/laaPMW8w6f7lzOM1HEVdMPFfmKx9F2nSIHbb3s6dN/+WJK5OH0jbOA=",
+ "cert_user_id": "compumatrix@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "042cd9d3e125cc3cfe49b37371dee0e1848498430573625d08e64edf26b245f8",
+   "size": 189
+  }
+ },
+ "inner_path": "data/users/17tLRGP27CwbmVTe7Hm8BKj8eTP9tXAkoA/content.json",
+ "modified": 1471006412.664,
+ "signs": {
+  "17tLRGP27CwbmVTe7Hm8BKj8eTP9tXAkoA": "HF1QQpJP7/UGY8lLiGYL8+879C3BQDnFoa4Ef9bN0WXIBkdX9tNj+sYyDChxgVOUWtoA2zXrfsZBg4NM2OfsL3g="
+ }
+}

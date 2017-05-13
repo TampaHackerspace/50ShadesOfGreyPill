@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G4I8tmxSspa+dvQ1najDmrmp+Q13xr52b219M2BP5ylXcimOzNbxf3GpP4CqO/V3iGxHMTSp5VheXzxH1Hy8aFs=",
+ "cert_user_id": "movietime@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "9bb8d2f152c64b79a5f2e8b4127e2c4d63d0b1d8386c5146e023f79428a41b3c",
+   "size": 1401
+  },
+  "data.json": {
+   "sha512": "b58e25df3fcdcd41046d36994f813a13338d1d9bdef8379c763a3c2336c0312a",
+   "size": 1997
+  }
+ },
+ "inner_path": "data/users/1132HJL8Qzuhxy29fHc4g26yC1yPTmhprb/content.json",
+ "modified": 1488516083,
+ "signs": {
+  "1132HJL8Qzuhxy29fHc4g26yC1yPTmhprb": "G/FnlzNXggRSh2dddDym6bzjSb77H50Jv4v+6rAuRVw7eajeYDCxltV1KFEA4kEvvq8vWQnAfn6xCpBA1FDS9Rk="
+ }
+}

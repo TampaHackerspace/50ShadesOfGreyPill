@@ -1,0 +1,35 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 1,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "0s",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "and 1s",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1481984594,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1481984621,
+			"body": "Sudo – The way of the future",
+			"date_added": 1481984619
+		}
+	],
+	"post_like": {
+		"1DcDDitsjFJohvwonPmpibRChmA7uGxqL7_1481984464": 1481984703,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1481982878": 1481984711
+	},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "12Ey5s7zz6eqFnKqG9ftW9Q9AVsf2e6NJW",
+			"user_name": "0s",
+			"date_added": 1481984638
+		}
+	]
+}

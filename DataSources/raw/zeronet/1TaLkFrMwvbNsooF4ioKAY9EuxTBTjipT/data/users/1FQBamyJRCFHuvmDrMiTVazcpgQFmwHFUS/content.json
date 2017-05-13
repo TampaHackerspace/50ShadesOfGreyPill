@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HBC5tAY9vcHLpu0FLpBF2InuwfY+GHgshagzz32AxFdKHhSI1i6mdRhdWZ1peqoP54zLyJv+mjH43fi6bcNx+/g=",
+ "cert_user_id": "comappcn@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "603a4ac710bd9b9db1557fa80e879c98a18a5799891f06d7437decd912fd0227",
+   "size": 309
+  }
+ },
+ "inner_path": "data/users/1FQBamyJRCFHuvmDrMiTVazcpgQFmwHFUS/content.json",
+ "modified": 1480511425.09,
+ "signs": {
+  "1FQBamyJRCFHuvmDrMiTVazcpgQFmwHFUS": "HPpqRwWBFUyO6gKElugZ359v/FJ6L9S1Yn/9REhZWpcvRML3DeADpqWBWw5Zj8PdPrUfWJ+cyvq+CW3H9wv20Js="
+ }
+}

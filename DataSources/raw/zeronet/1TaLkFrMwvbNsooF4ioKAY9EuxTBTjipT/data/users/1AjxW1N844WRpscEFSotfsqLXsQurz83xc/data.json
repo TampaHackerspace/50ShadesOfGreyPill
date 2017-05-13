@@ -1,0 +1,63 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "ZeroNet on a VPS",
+			"body": "Is it possible to run ZeroNet on a VPS?\n\nI have tried on Ubuntu 16.04 Server, but as soon as I close the ssh session terminal window ZeroNet stops working.",
+			"added": 1471291130,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		}
+	],
+	"topic_vote": {
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH": 1
+	},
+	"next_comment_id": 7,
+	"comment": {
+		"8_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 1,
+				"body": "I always use Tor and it's working very fast no matter how many sites I have. Even when I click on \"Update all sites\" there are no problems.\n\nYour internet connection, the Great Firewall of China or your computer may cause your issues.\n",
+				"added": 1471175826
+			},
+			{
+				"comment_id": 2,
+				"body": "> [p2p](#comment_202_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): are you sure under Tor always mode? if so, ZeroHello should says TOR: ALWAYS at the top of page.\n\nYes, it says \"TOR: ALWAYS\".\n\nActually, Tor is the only way for me to connect because I have added a file named zeronet.conf with the following content:\n[global]\ntor = always\n\nNo Tor = No ZeroNet P2P connections because of this file.",
+				"added": 1471193946
+			}
+		],
+		"1_1FCqLq42pcBRtdUQXfKghRxhtsMKVfrDmW": [
+			{
+				"comment_id": 3,
+				"body": "Bitmessage version 0.61 released today.\nhttps://bitmessage.org/wiki/Changelog\n\nBitMessage (when used with Tor) is probably the most secure messaging system available for text, images and other files. However, few people besides spies, whistle-blowers and criminals have any real need for a secure messaging system like Bitmessage.\n\nBM-2cUBZ2V6YnZgLkvNb5TiyWuyBa5oCzw6vF",
+				"added": 1471778746
+			}
+		],
+		"1_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": [
+			{
+				"comment_id": 4,
+				"body": "\"OpenBazaar is missing out on a huge market by failing to support tor or i2p.\"\n\nWhich market is that?",
+				"added": 1471895566
+			}
+		],
+		"1_15zYrGJKfXo6XXU6rBUsuU3cTgpJkDuQYA": [
+			{
+				"comment_id": 5,
+				"body": "Tried to open one of your leaks in Firefox and got the following error message:\n> Remote XUL\n\n> This page uses an unsupported technology that is no longer available by default in Firefox.\n\n>Please contact the website owners to inform them of this problem.",
+				"added": 1474228602
+			}
+		],
+		"8126_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 6,
+				"body": "Dark web means ZeroNet in this article. The pro-Islamic State hacking group is using ZeroNet as a platform.\n\n> \"We invite you to train for combat and learn how to build and detonate improvised explosives\" a chilling message on the front page of a new **Zeronet portal** observed by The Foreign Desk said.\n\n> \"If you cannot migrate from the land of the infidels to the Caliphate, then carrying out jihad in your own country will also be a victory for the Islamic State and all Muslims,\" the message read.\n\n> The website appeared on the **ZeroNet network**, a serverless peer-to-peer group of websites that rely on bitcoin cryptography and the BitTorrent network. These websites, though encrypted, making simple detection challenging for authorities, are accessible via a regular web browser.",
+				"added": 1475062538
+			}
+		]
+	},
+	"comment_vote": {
+		"732_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"161_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1
+	}
+}

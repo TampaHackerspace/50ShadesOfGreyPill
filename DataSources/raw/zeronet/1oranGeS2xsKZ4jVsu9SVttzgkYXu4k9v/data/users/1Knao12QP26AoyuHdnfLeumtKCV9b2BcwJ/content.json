@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GwTCYs4x0qcCpSj37U3mJNUGeJ35NSkrdm2UjFnqIORZZQ2yNgVRDnUAMfce3uOt8/YRh9tZJkxXaUSOnzPkS4A=",
+ "cert_user_id": "randallstephens@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "faab5b586a5ff5aecc9766fa516c8f17e7ea1ff27f8573be885dedb982544854",
+   "size": 346
+  }
+ },
+ "inner_path": "data/users/1Knao12QP26AoyuHdnfLeumtKCV9b2BcwJ/content.json",
+ "modified": 1485177550,
+ "signs": {
+  "1Knao12QP26AoyuHdnfLeumtKCV9b2BcwJ": "G6JerSt8T7XizrWQhgHGhKX35sCNayoxLE7GuC55ZRFBUVMcV5xI1Hp9nzUbqdKDMyAbpzlLBtU0srZT85WPfAM="
+ }
+}

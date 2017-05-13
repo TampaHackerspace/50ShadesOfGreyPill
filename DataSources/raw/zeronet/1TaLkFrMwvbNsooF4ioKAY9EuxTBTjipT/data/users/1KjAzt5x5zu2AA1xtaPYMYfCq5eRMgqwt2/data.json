@@ -1,0 +1,21 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"5_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": [
+			{
+				"comment_id": 1,
+				"body": "> [nofish](#comment_874_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):\n> Not sure what you mean, care to explain?\n\nJust one example (there are many):\nhttp://127.0.0.1:43110/1LibCDNvZoxnBSYKLHF8XbBujPxYRePQSp/\n\n\"I tried to fix it, but new changes to ZeroNet have caused me to have to say this projects is deprecated. I'll resurrect it later if I can. Was fun.\"",
+				"added": 1487753858
+			},
+			{
+				"comment_id": 2,
+				"body": "> [nofish](#comment_885_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I try to keep the API as backward compatible as possible, but cross-site resource linking was never supported, because it's allows the site owner to add new sites without the visitor's permission.You can do the same with merger sites API after the visitor granted the permission for that.\n\nCross-site resource usage and sharing is a very important characteristic to reduce redundancy, even more so with peers being crucial. \n\nAny other solution but disallowing it for the whole zeronet, like a permission setting?",
+				"added": 1487772689
+			}
+		]
+	},
+	"comment_vote": {}
+}

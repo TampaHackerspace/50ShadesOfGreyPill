@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HGiSvTV3oCyjXJ+l0ys+CXIKnop9d1YasbkguAbuvrWUlaHW8hJFpWl614p3Wai+I8ZIZdGdrbxo3+1Xyott63o=",
+ "cert_user_id": "turbobubble@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "393b424e64e00afbd156950130cdd8adad09f55df789ba8064e8bdcc055eb024",
+   "size": 1396
+  },
+  "data.json": {
+   "sha512": "13b176e5a59980e8b68657927bdb9d7ab40fa411cae09e22b5e78983fe97cd01",
+   "size": 562
+  }
+ },
+ "files_optional": {
+  "1480369318.jpg": {
+   "sha512": "132786e29bafda2f840630e19edeea1bef1a6637c5dad95f4319a7a5dd526aa2",
+   "size": 128698
+  }
+ },
+ "inner_path": "data/users/1KCiwTTtjGjLDgg35Kby4V1Dr6o8LAumg5/content.json",
+ "modified": 1480369317.046,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1KCiwTTtjGjLDgg35Kby4V1Dr6o8LAumg5": "HEPeGcDL/70Zf2oues+8ZN+Ht41nVbk/KyD4Zf041+KIkfV9bQZZnwSw7SJl+m8XRSQMWzSOQAUt5roWwTd6Mc8="
+ }
+}

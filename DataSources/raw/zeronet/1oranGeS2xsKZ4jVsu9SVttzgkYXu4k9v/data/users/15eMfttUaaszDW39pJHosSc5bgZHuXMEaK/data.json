@@ -1,0 +1,69 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 3,
+	"next_follow_id": 4,
+	"avatar": "generate",
+	"user_name": "Whacko",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1481745776,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1481738544": 1481745941,
+		"17pnj2wEu5qFeRtQErmLVtCBvYuocGum82_1481716176": 1481746169,
+		"1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA_1481481856": 1481746982
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Nofish: Are there any plans at all for Bitcoin wallet integration?",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1481738544",
+			"date_added": 1481746247
+		},
+		{
+			"comment_id": 2,
+			"body": "@Martinv: How does this work over Tor? I presume there isnt any sort of \"port forwarding\" type system on Tor, right?\n",
+			"post_uri": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1481732993",
+			"date_added": 1481746741
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA",
+			"user_name": "Gremious",
+			"date_added": 1481746667
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa",
+			"user_name": "Th3B3st",
+			"date_added": 1481746693
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj",
+			"user_name": "Martinv",
+			"date_added": 1481824739
+		}
+	],
+	"settings": {
+		"reverse_comment_order": false,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"blocked": [],
+	"flags": {
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481714064": 2
+	},
+	"comment_like": {}
+}

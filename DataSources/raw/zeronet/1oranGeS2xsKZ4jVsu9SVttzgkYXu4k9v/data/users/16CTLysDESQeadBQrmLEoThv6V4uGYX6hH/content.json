@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GxwFxCNiAI0sOghmgDdVIizPpemovrkWrh+LBwqovHv+GPhwSvvmkmb5FIiE9pgPM5iuLN4l8ZIC/08jpuE7Mw4=",
+ "cert_user_id": "simongreen@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "db06180a8676da8ed961bc1c28b77d6299c67a61575e6aaf9a71eb9f01242976",
+   "size": 1824
+  },
+  "data.json": {
+   "sha512": "80d7c5bbbbc853826c1adf8a5baabde742873f926d3ab3a0767c3a61b9c1b86f",
+   "size": 514
+  }
+ },
+ "inner_path": "data/users/16CTLysDESQeadBQrmLEoThv6V4uGYX6hH/content.json",
+ "modified": 1482993210.969805,
+ "signs": {
+  "16CTLysDESQeadBQrmLEoThv6V4uGYX6hH": "G+pFdy2f6UcG+unJPr24P1bd7EYJ11YVBBD12/bdiej2R2EjcvN3tueyT03PQobxtyymmmSx6S/yh+ARV2ELdcg="
+ }
+}

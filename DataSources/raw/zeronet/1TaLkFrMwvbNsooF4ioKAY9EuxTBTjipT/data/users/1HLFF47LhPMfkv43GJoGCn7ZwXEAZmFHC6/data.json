@@ -1,0 +1,80 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "0List",
+			"body": "I'm still digging my way through ZeroNet and one problem I encounter is the 0List site. It simply says Loading.....\n\nhttp://127.0.0.1:43110/0list.bit/\n\nIs this a non-existent site that I should delete?",
+			"added": 1489467185
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 10,
+	"comment": {
+		"1_1wp4Vxx8LzVxcnjQLdFDtsCjqWBRJ3Wpr": [
+			{
+				"comment_id": 1,
+				"body": "Just a thought as I'm wondering about this myself. It seems F2F protocols are great after contact has been established. Example being Snowden convincing Greenwald to use encryption.\n\nAt present I think many activists feel the tools provided by Tor and encrypted email and SecureDrop (just examples) is good enough for now. Or, and this is what I'm hoping for, serious activists / journalists etc have adopted these newer F2F protocols and use them without telling anyone. Example again: Snowden and Greenwald now communicate to each other via Bitmessage or ZeroNet (others) via Tor, I2P (others) but do not make this public knowledge. \n\nThe clearnet use of SecureDrop via Tor works to establish initial connection works OK for most initially.\n\nThe real problem with what I outlined is that when Snowden and Greenwald begin communication in an encrypted fashion you begin to lose transparency. That was an issue with the Occupy Movement. Everything planned / discussed etc, was to be out in the open and transparent. But how could you say plan a surprise protest if this was so? Movements can be hijacked easily if there is little transparency. Movements are ineffective if there is too much transparency.",
+				"added": 1488690681
+			}
+		],
+		"26_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 2,
+				"body": "> [hexkey](#comment_24_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF): It really isn't. A better foundation is easier to build on top of.\n> There are people that have already made CMSes with Javascript, and it's possible to adapt one of those to use here. I know at least one person has already tried this.\n\nI have been wondering if a site using HUGO would work. This example is the theme I was going to use as well. \n\nI am not a web developer (hence the need for something simple like HUGO) so would it just be a matter of directing the output of HUGO to the correct port?",
+				"added": 1489051286
+			}
+		],
+		"2_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": [
+			{
+				"comment_id": 3,
+				"body": "I am of the mindset that the free and open software ecosystem is quite revolutionary. Simply put... it's business and development model is far from what is corporate world offers today in the closed source pay for use system.\n\nDecentralized systems go hand in hand with open source software. Not the other way around. If one is committed to decentralization I don't think there is a choice really. \n\nLinux or other FOSS",
+				"added": 1489375089
+			}
+		],
+		"1_1MwJSNBC1savftEvXQyoHcVLDgThtAPr6T": [
+			{
+				"comment_id": 4,
+				"body": "Something to keep in mind is that all of the very popular social media systems have had large sums of cash inserted at various stages along the way. This supported not only coding and development but advertising and manipulating consumer confidence. Remember when Gmail first appeared and people were horrified that a corporation might scan the inbox to collect data (and then return it to you in the form of advertising). Google had a lot of money then. They have even more now.\n\nDecentralization and marketplace free content is not likely to inspire investors because there is no return on investment except personal gratification. \n\nWhat do you think Linus Torvalds would have said to you if you approached the initial development of Linux in the early years, the way you have ZeroNet in this post?? (hint: Torvalds doesn't mince his words) There were plenty of free and open source ecosystems floating around that time.  What made Linux fly is anyones guess. I'd guess the stars aligned right.\n\nTo me, your post is a slap to the face of the ZeroNet community. I'm sure the ZeroNet developers read this and thought... oh well... back to work.",
+				"added": 1489376549
+			}
+		],
+		"1_1HLFF47LhPMfkv43GJoGCn7ZwXEAZmFHC6": [
+			{
+				"comment_id": 5,
+				"body": "> [nekololi](#comment_30_1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB): it's weird that that site would be the only one you have trouble visiting. try deleting it and visiting it again maybe.\n\nThis worked. Thanks",
+				"added": 1489551065
+			}
+		],
+		"2_1PvAednzaMJiuMz1SD5wF3m3Hx7SK75zHv": [
+			{
+				"comment_id": 6,
+				"body": "It might be easier to have a second computer running ZeroNet and use the 'export  DISPLAY=:0' over ssh from the second computer to your main computer. \n\nExample:  http://askubuntu.com/questions/47642/how-to-start-a-gui-software-on-a-remote-linux-pc-via-ssh#47658\n\nYou might also look into creating separate users on your computer and see if you can export the display from user2 to user1. In some flavors of Linux it is pretty easy to log in as 2 or more users and switch between them with ctrl-alt-F7, F8, etc. Log in to both accounts and then start ZeroNet for each user. I would doubt you would have to configure ports doing it this way. This example exports display from user2 to user1\n\nhttp://unix.stackexchange.com/questions/108784/running-gui-application-as-another-non-root-user\n\nThis example assumes you use Linux. Mac and Win would be different.",
+				"added": 1490172855
+			},
+			{
+				"comment_id": 8,
+				"body": "> [border0464fred](#comment_79_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): ^ good point, that would be my best guess.  one one port 15441 and one on port 9050 \n> @sarasaDISPLAY=:0'  <<< there is no GUI in zeronet. it's completely irrevelent to set Xorg server\n>  creating separate users <<<  as it's in python virtualenv would probably be enough, but this would not solve the port problem\n\n@border0464fred doing this is not actually exporting a GUI per se, this is exporting a GUI application. \n\nhere are the steps I took on Ubuntu 16.04 LTS to display Firefox web browser using user2's .profile (bookmarks etc) on user1's desktop:\n\nfrom user1 terminal I entered: \n$xhost +SI:localuser:user2\nresult: localuser:jmd2 being added to access control list\n\nthen: \n$su -user2\npassword:\n\nThen:\n$firefox\n\nThere were a few errors in the terminal but firefox displayed with bookmarks etc from users .files indicating user2.\n\nUser2 did not have to be logged in at the time. I'm guessing one could start ZeroNet from the command line this way and then export a web browser to user1.\n\nThis could be an interesting use of ZeroNet. Running an instance on a VPS and logging in via ssh and exporting a display into your remote computer.",
+				"added": 1490419255
+			}
+		],
+		"1_1MxX4JMJ71sfYS1Lo3jL8Ja5u811nySEJJ": [
+			{
+				"comment_id": 7,
+				"body": "While I watch the headlines and I read some commentary along the way I really began to understand where we are today after two things came to play in my life .... this is where I began to make sense of all this shit .....\n\n1) several years ago I saw a talk given by a professor Al Bartlett. Title is: Arithmetic, Population and Energy. http://www.albartlett.org\n\n2) a couple of years ago I read a book called 'Ishmael' by Daniel Quinn. (since then I've read 'My Ishmael' and 'The Story of O' as well)\n\nWhile I have no answers (trust me ..nobody does) these two pieces of work were very profound in how I run my life.",
+				"added": 1490173994
+			}
+		],
+		"1_1E8KDakJCmMofVgTawocXc4pX9Fn3K3ob1": [
+			{
+				"comment_id": 9,
+				"body": "Times like this I sit back and think of the book \"Ishmael\" by Daniel Quinn. And his 2 follow up books: \"My, Ishmael\" and \"The Story of O\"\n\nI read these books many years after hearing Dr Al Bartlett's talk: \"The greatest shortcoming of the human race is our inability to understand the exponential function.\"\n\nAfter putting these two together I have come to the conclusion about how I should live my life. I've been quite happy ever since.",
+				"added": 1492707476
+			}
+		]
+	},
+	"comment_vote": {
+		"183_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS": 1,
+		"901_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "You have opened this page by clicking on a link. Please, confirm if you want to load this site.",
+			"body": "how come this always poped up ?  and after click open site all parameter are missing.",
+			"added": 1477388944
+		}
+	],
+	"topic_vote": {
+		"1_1DjzAt5gZScr6PzVi9tnBdNfF6nyXMR2h8": 1
+	},
+	"next_comment_id": 6,
+	"comment": {
+		"1_1DjzAt5gZScr6PzVi9tnBdNfF6nyXMR2h8": [
+			{
+				"comment_id": 1,
+				"body": "HELP PLEASE",
+				"added": 1477394582
+			},
+			{
+				"comment_id": 2,
+				"body": "am I the only person who get this annoying msg ? \n\nafter search in ZeroNet.git. I found this method displayOpenerDialog which cause the alert......\ncan anyone help me this out , what is wrong with my zeronet.\n\nThx.\n\n Wrapper.prototype.displayOpenerDialog = function() {\n      var elem;\n      elem = $(\"<div class='opener-overlay'><div class='dialog'>You have opened this page by clicking on a link. Please, confirm if you want to load this site.<a href='?' target='_blank' class='button'>Open site</a></div></div>\");\n      elem.find('a').on(\"click\", function() {\n        window.open(\"?\", \"_blank\");\n        window.close();\n        return false;\n      });\n      return $(\"body\").prepend(elem);\n    };",
+				"added": 1477478947
+			},
+			{
+				"comment_id": 3,
+				"body": "https://github.com/HelloZeroNet/ZeroNet/blob/master/src/Ui/media/Wrapper.coffee\n\nonMessageInner: (e) =>\n\t\t# No nonce security enabled, test if window opener present\n\t\tif not window.postmessage_nonce_security and @opener_tested == false\n\t\t\tif window.opener and window.opener != window\n\t\t\t\t@log \"Opener present\", window.opener\n\t\t\t\t@displayOpenerDialog()\n\t\t\t\treturn false\n\t\t\telse\n\t\t\t\t@opener_tested = true",
+				"added": 1477479171
+			},
+			{
+				"comment_id": 4,
+				"body": "could it be a local mozilla setting thing ?",
+				"added": 1477479448
+			},
+			{
+				"comment_id": 5,
+				"body": "I  add \"postmessage_nonce_security\": true, to content.json\nupdate ZeroFrame.js and add Class.js. \n\n then sign/publish it.\n\nnow it is working.",
+				"added": 1477508036
+			}
+		]
+	},
+	"comment_vote": {}
+}

@@ -1,0 +1,52 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HOvV4QXjVPXVCFIsoHlBpuuzrGkBhiURUKifQpzgRYx7e+fOrrdKVkeBPzW19Ykg6QOaafl4xh63/DqJgXYuz7U=",
+ "cert_user_id": "wonderingdane@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "caa6631dfe0c9a643993c5c4ecab505e3eaee67d725438ae072f7fd87735a026",
+   "size": 1504
+  },
+  "data.json": {
+   "sha512": "16c7e17cab25182d7b049f38951f97e2bcd4dfe73f8fa9b0382278381c45a5c3",
+   "size": 7281
+  }
+ },
+ "files_optional": {
+  "1490381918.jpg": {
+   "sha512": "ffa9116e04ae59d8ba687a5ecba41fa32fd592b7a0a79f1d807b4ea6ef019eb0",
+   "size": 52714
+  },
+  "1490391099.jpg": {
+   "sha512": "23bd1b59e0d2d35b971a8ff6470dc8433c2c3239059aebd4937f32fd70f10512",
+   "size": 66502
+  },
+  "1490729629.jpg": {
+   "sha512": "f5ee6e107b28a9335c99091900027b196d0756a2b91d3489a05163d70f5f1f0f",
+   "size": 38944
+  },
+  "1490943809.jpg": {
+   "sha512": "ced0141accf27eacd5a8978ffb4c1a80f000c2c44c26f8b50b4f1889489db9a7",
+   "size": 88642
+  },
+  "1490968753.jpg": {
+   "sha512": "088a361b283011e9520e5b7b9beb82346b95a2b28e334e9794a859e83f49fde9",
+   "size": 63643
+  },
+  "1491002469.jpg": {
+   "sha512": "f4dac5db59720982194f657d50288e19f3a4cd3d048666a1769b96fd6b227a6e",
+   "size": 59514
+  },
+  "1491160086.jpg": {
+   "sha512": "ef43f97a6cd83064ae6732b854e0444541b053d29bfaf6ca75750b5a0de3446f",
+   "size": 82436
+  }
+ },
+ "inner_path": "data/users/1LyJMReywhzrtMYQHvRauRZ7khETPJkdoh/content.json",
+ "modified": 1491179804,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1LyJMReywhzrtMYQHvRauRZ7khETPJkdoh": "HPaYYbAKGdR8PIYVTeBi3DI584q4AlLjIDmhpMJP6ZGdQL00CsDhAzJY92/0jKXgpe0O+aRegjcp1ZcSoCsAwtk="
+ }
+}

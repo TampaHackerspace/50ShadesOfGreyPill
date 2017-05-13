@@ -1,0 +1,1019 @@
+{
+	"next_topic_id": 6,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "remote hosting of a peer.",
+			"body": "So I made a little website in local, but I would like to have a peer running 24/7 on a VPS I have.\n\nI instaled zeronet on the server but I have no graphical interface.  I did try to \n\nwget  127.0.0.1:43110/1B__my hash bla bla bla__xZ\nand also curl \n\n But what I got is a html file saying (from both local and remote) : \n'Your browser is not supported please use <a href='http://outdatedbrowser.com'>Chrome or Firefox</a>.</div>\";'\n\n\n\nI also tried :\n ./ZeroNet.sh peerGetFile 1.my.ip.1 43110 1B__my hash bla bla bla__xZ  index.html\n\nbut it say 'ConnServer Internet offline' and crash (from both local and remote), \n\n\nWhat would be the good approach to this ?",
+			"added": 1469834315
+		},
+		{
+			"topic_id": 2,
+			"title": "files_optional",
+			"body": "from the doc here : \nhttps://zeronet.readthedocs.io/en/latest/site_development/content_json/\n\nit say:\n\"files_optional\nSize and sha512 hash of optional files contained in your site. Automatically added by the command zeronet.py siteSign siteaddress privatekey.\n\nExample:\n    \"data/myvideo.mp4\": {\n      \"sha512\": \"538c09328aa52765443464135cef644c144346418378199fa5cef61837819538\",\n      \"size\": 832103\n\"\n\nbut how to tell ' zeronet.py siteSign siteaddress' wich files I want to be optional ?",
+			"added": 1469893228,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 3,
+			"title": "total site size limit",
+			"body": "\n>    # Check total site size limit\n>        if site_size > site_size_limit:\n>           self.log.error(\"%s: Site too large %s > %s, aborting task...\" % (inner_path, site_size, site_size_limit))\n>            task = self.site.worker_manager.findTask(inner_path)\n>            if task:  # Dont try to download from other peers\n>                self.site.worker_manager.failTask(task)\n>            return False\n\n\n\n\nwhy that ? \nI can understand a file size limit but for the whole site ? Is there a reason for this ?",
+			"added": 1469899883,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 4,
+			"title": "How to query a file ?",
+			"body": "Hi, I did a site with optional files, Now I want to do a ajax query to load files. \n\nBut I receive: \nNo 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.\n\nSo I googled and come across :\nhttps://www.reddit.com/r/zeronet/comments/562mkm/can_zeronet_sites_load_individual_elements_from/\n\nWich was saying to use fileGet from the API\n\ngoogle lead me to :\nhttps://zeronet.readthedocs.io/en/latest/site_development/zeroframe_api_reference/?highlight=fileGet\n\nBut sadly the 'doc' as is just a function name with 2 argunments and no javascript example :(  \n\nI tried the function and it say: \nconsole.log(fileGet(\"folder/\"+file))\nUncaught ReferenceError: fileGet is not defined(…)\n\n\nIdk what to do now...",
+			"added": 1480823521,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 5,
+			"title": "Removing hardcoded trackers and still be able to publish ?!?",
+			"body": "- I deleted, ZeroNet/src/config.pyc \n- removed all hardcoded trackers from ZeroNet/src/config.py\n - maked shure ZeroNet/zeronet.conf have no trackers listed. \n - Launched ZeroNet.sh with no arguments\n - port 15441 is closed\n - tor is down\n \nAnd it's amazing im still able to push content and receive changes.  \nCan someone explain why this is appening ? \n\nI wish my node could talk to ONLY ONE private tracker,  but I can't isolate it...",
+			"added": 1490965752
+		}
+	],
+	"topic_vote": {
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": 1,
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1FxpcMsoTKTeUoNDRJKzqyLAwXuwVg3zgX": 1,
+		"3_136wmwLTBJoGTjXTAa7sWmXewn9P53EKML": 1,
+		"4_136wmwLTBJoGTjXTAa7sWmXewn9P53EKML": 1,
+		"4_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h": 1
+	},
+	"next_comment_id": 161,
+	"comment": {
+		"12_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 1,
+				"body": "> [ulrichard](#comment_8_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ): You could always host the large files on ipfs, and embed from there.\n\nKinda defeat the objective\n,",
+				"added": 1469388633
+			}
+		],
+		"3_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": [
+			{
+				"comment_id": 2,
+				"body": "hey we are on the internet, People are just text on screen.",
+				"added": 1469389069
+			}
+		],
+		"5_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 3,
+				"body": "Snowen have taken all the crasy tinfoil hat conspi theory about gouv spying and prove them with documentation.",
+				"added": 1469389750
+			}
+		],
+		"1_1GcHyprZfthQCYjj26euQ3K1XCDBdTagqY": [
+			{
+				"comment_id": 4,
+				"body": "He is just speaking bullshit. He have no fucking idea about il will make all his crap append. Trump is just a front, nothing behind.",
+				"added": 1469389851
+			},
+			{
+				"comment_id": 15,
+				"body": "/pol/",
+				"added": 1469889950
+			}
+		],
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": [
+			{
+				"comment_id": 5,
+				"body": "I would not call it abuse , only the real (and sad) face of the humanity. \n\nI would at first tend to I agree on user rating.  Not for shaming some users but to give a feel of what to expect from them. But building a web of trust open the door on the problem of authentifying identities in order to prevent webs of bots.    \n\nI personally do not wish to enter in this question consequently, I would tend to reject the voting due to the lack of alternative to the question of authentification.",
+				"added": 1469754411
+			},
+			{
+				"comment_id": 6,
+				"body": "> to \"zero censorship\" or it isn't \"zero\" anymore.\n\nI don't think the Idee at first was to ban people and remove content, just giving a reputation to content. So individuals could take the initiative to filter things with a bad reputation. \n\nThis, does not affect the liberty to speak. and respect the freedom of others to wear earsplug.",
+				"added": 1469815840
+			},
+			{
+				"comment_id": 7,
+				"body": "Regarding the amount of peers is a indicator atm. but It will be abused if people start relying on it",
+				"added": 1469815900
+			}
+		],
+		"2_1JXFzMzrQTJCiGw36YNQGg2Tmt1hTHy7ZT": [
+			{
+				"comment_id": 8,
+				"body": "yeah, it's silly. or people will reporte once and it won't help you much or this tread will get heavly spam spam",
+				"added": 1469838558
+			},
+			{
+				"comment_id": 16,
+				"body": "im online",
+				"added": 1469892987
+			}
+		],
+		"1_1DSoqCXNkqv7yJNXiF6YoaeK2bW8BFt2gh": [
+			{
+				"comment_id": 9,
+				"body": "how do sort retarded people ?",
+				"added": 1469841229
+			},
+			{
+				"comment_id": 12,
+				"body": "No, I mean who will be de juge an mainly on witch criteria and how the line will be draw.",
+				"added": 1469845689
+			},
+			{
+				"comment_id": 22,
+				"body": "It's cofusing @squeezit At the basic, no one can force you to look at it. \nYou don't want to see it on public places of zeronet or you don't want any cp across the network ?",
+				"added": 1470061243
+			}
+		],
+		"1_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": [
+			{
+				"comment_id": 10,
+				"body": "Oh damn siteDownload is documented, I just not seen it. Sorry my bad.\n\nI think it's working :), I see my other peer on the globe thing. Is there a 3rd party I could use to check if everything is good.",
+				"added": 1469845215
+			},
+			{
+				"comment_id": 11,
+				"body": "And if I edit on local, does my remote will update automaticly or I should have a cron to run the cmd agan ?",
+				"added": 1469845473
+			},
+			{
+				"comment_id": 13,
+				"body": "I will thy the ssh way, as it stay private it should be a good workaround for testing. \nBut im rly looking for a production level solution, as I don't want to depend on manual clicking for deployment.",
+				"added": 1469888690
+			}
+		],
+		"7_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": [
+			{
+				"comment_id": 14,
+				"body": "How do you test with the API without deploying your dev ? \nDo you use a separate zite URL for dev ?",
+				"added": 1469889410
+			}
+		],
+		"9_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": [
+			{
+				"comment_id": 17,
+				"body": "I jusd made a pull request. Thx for the work.",
+				"added": 1469895049
+			}
+		],
+		"3_1HMgJTFYY57XoH9wpBJHQZsWPvwsRp1WHX": [
+			{
+				"comment_id": 18,
+				"body": "peer not found",
+				"added": 1469916240
+			},
+			{
+				"comment_id": 19,
+				"body": "Anyway I wonder how you managed to upload 278MB site. \n\nI made a try this morning and came across this : \nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:3_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6",
+				"added": 1469916553
+			}
+		],
+		"2_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": [
+			{
+				"comment_id": 20,
+				"body": "So, if I understand, I must find hash and size on my own and add them manualy inside the content.json file ? \n\nediting automatically generated files seem to be receipt for a disaster. \nhttps://puppet.com/sysadminday-contest-2016/watching-consultants-try-change-settings-puppet-managing",
+				"added": 1470060663
+			}
+		],
+		"3_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": [
+			{
+				"comment_id": 21,
+				"body": "Wrong topic @sirenyc \n\n@nofish I understand for mandatory files. but this mean no music,  no video, no software, no .iso... on zeronet? \n\nOr there a way around it?\n",
+				"added": 1470060909
+			},
+			{
+				"comment_id": 23,
+				"body": "!up",
+				"added": 1470231754
+			},
+			{
+				"comment_id": 27,
+				"body": "webtorrent run on nodejs and require a serverside as far as I understand, Brigning users to zeronet is hard enough adding IPFS over it is harder. But if it's the limitation it;s ok.",
+				"added": 1471399726
+			}
+		],
+		"17_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 24,
+				"body": "I bet your problematic images are javascript loaded not in the html template, turn off your javascript in your browser and check if there is a concordance between what nojs broke and what httrack broke",
+				"added": 1470671446
+			},
+			{
+				"comment_id": 25,
+				"body": "Javascript could be weak and broke from the fact that httrack does not see the webpages as your server serve them. \n\nmeanwhile, I see no broken links in your page. \nhttps://imgur.com/a/wtnmk",
+				"added": 1470752920
+			},
+			{
+				"comment_id": 26,
+				"body": "To make a correlation test as I suggested you lower, you need to turn your browser's javascript off to look at the site like httrack would have broke it. Correlations are not proofs, but it can give you a good idea of where to look for under 10 min.",
+				"added": 1470829796
+			}
+		],
+		"4_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": [
+			{
+				"comment_id": 28,
+				"body": "Thx @nofish \n\nWith your suggestion I found related stuff in: http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:43:ZeroNet+site+development+tutorial+1\n\nSadly, the .coffee files don't automagicly transform them self into js/all.js Like tutorial say. \n\nThe comments below seem to agree that we need to install the coffee compilers into our computers and compile .coffee code provided by the tutorial to get a usable all.js file. <angryBashing>Witch I must say make no fucking sense in basic tutorial. Coffeescript, file concatenation, and minification are oprimisation. Not requirements </angryBashing>\n\nA guy provided: https://gist.github.com/GomZik/02e85df5fb7a5eb819cd\nAt the time he did it, there where no wrapper_nonce Under the script in the comment an other guy added a row to query the nonce (tested and it's working).\n\nBut IDK how to pass it back to the parent frame.  \n\nwrapper_nonce is not documented in the API documentation  https://zeronet.readthedocs.io/en/latest/ \n\nThe error I get is :  \n[Wrapper] Message nonce error: undefined != d13...c5c7",
+				"added": 1480893356
+			},
+			{
+				"comment_id": 29,
+				"body": "> [waterrabbit](#comment_74_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): I can use AJAX without any problem. Did you try to request for an .html file? Requesting these kind of files are prohibited as to avoid sandbox escaping.\n\nIt work if I allow Cross-origin_resource_sharing but it's not secure and I can't expect users to allow it. \nI tried to remove the file extention without success.",
+				"added": 1480893774
+			}
+		],
+		"2_1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp": [
+			{
+				"comment_id": 30,
+				"body": "Last test I made with streaming on IPFS hade wrong behaviours conserning partial data request. \n\nSo I droped the test here. It does not work and even don't return porper http error code",
+				"added": 1482547279
+			}
+		],
+		"3_12shzNwEsUKcdzbWYFNH54LJjKzQ7MUwhp": [
+			{
+				"comment_id": 31,
+				"body": "no need for blockchain, you just need signing, like PGP",
+				"added": 1482547391
+			},
+			{
+				"comment_id": 33,
+				"body": "don't drink the blockchain coolaid, it have his place but it's not that cool.",
+				"added": 1482548209
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 32,
+				"body": "when you are inside someone zite, you are a guess in this house,\nHe don't have to stand your bullshit in his house, There is no sensorship in showing the door to an undesired guess.",
+				"added": 1482548084
+			},
+			{
+				"comment_id": 35,
+				"body": "Is it possible to release an site ? \nI create sites for test, but when tests are done I don't need them and would like to release/reset them.",
+				"added": 1482894357
+			},
+			{
+				"comment_id": 37,
+				"body": " cool it worked. is there a way to do it from the CLI ?",
+				"added": 1482941993
+			},
+			{
+				"comment_id": 38,
+				"body": "When I create a Zite, If I include my own Database, it look like I still need to declare 'tables' in dbshema.json even if it's a read-only Database. \n\nOr I get the following error:\n>  File \"~/ZeroBundle/ZeroNet/src/Db/Db.py\", line 205, in checkTables\n>    for table_name, table_settings in self.schema[\"tables\"].items():\n>KeyError: 'tables'\n\n\nWitch is a real P.I.T.A if you have a complex DB. Considering that all the information is already inside my sqlite database file. \n\nIs there a way to avoid it or get an automatic way to generate it ? \nAnyone have a small & magic script to do it ?",
+				"added": 1482949165
+			},
+			{
+				"comment_id": 39,
+				"body": "> [pseudo](#comment_1_1FGjKJX4U11aJBK9vAq5cYWTrSajWhV6ef): If I open a site, does that mean i'm now hosting it as well?\n\nyes, once it's loaded you start seeding it, But if you disagree with his content. You can go in your zeronet home page and put the problematic site on pause (where you will either receive updates from it or seed it) or completely delete it.",
+				"added": 1482964729
+			},
+			{
+				"comment_id": 41,
+				"body": "hey, It's me agan :)\n\n> [nofish](#comment_846_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): \n> I have not tried, but I think creating a dbschema with empty tables node should work. \nI tested, it don't \"indexes\" seem be be mandatory (not sure why). \n\n---- \n\nI try to just simply add the simplest possible database to a site, The database looks like: https://imgur.com/a/bxdjv\n\n\nMy dbshema.json looks like;\n{\n    \"db_name\": \"A test user list \",\n    \"db_file\": \"data/userList.db\",\n    \"version\": 3,\n    \"tables\": {\n         \"users\": {\n              \"cols\": [\n                   [\"name\", \"TEXT\"],\n                   [\"age\", \"INTEGER\"]\n              ],\n              \"indexes\": [\"CREATE UNIQUE INDEX indexNames ON users(name)\"],\n              \"schema_changed\": 13\n         }\n    }\n}\n\nWhen I siteSign, The tables json, key_value and sqlite_sequence suddently appear in my database. But more importantly and my table 'users' get truncated completely. \n\nThis is a highly unexpected behaviour. Am I doing something wrong or I found a bug ?",
+				"added": 1482988342
+			},
+			{
+				"comment_id": 42,
+				"body": "> [nofish](#comment_847_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yes, it will create some tables, but you can ignore that, make tables: {}, so it will not bother it.\n\noh... oh crap... it's my fault.  \n\ntables: {} work and fixed the truncating problem. \n\nI probably had a syntax error when I tried it the first time, .... My bad, sorry. \n\nanyway, im back on track now ! thx",
+				"added": 1483026178
+			},
+			{
+				"comment_id": 44,
+				"body": "I feel like I get stuck at every step ;( \n\nI did publish my test site with the DB but it say 5 file missing when I try to contact my published site in fact only content.json got shared, \n\nSeem like my ISP is blocking 15441 Port, When seeding a site im owning is it mandatory to have the port open ?",
+				"added": 1483545850
+			},
+			{
+				"comment_id": 45,
+				"body": "> [cnboy20](#comment_1_139Xvh9xDghsGBUB7iefohBqQG7z5Y6VE9): \n\nYeah, when I do stupid mistake in not afraid to say it.   \nI tend to deal with it :D\n\n(insert gif of me receiving the cool 'deal with it   'glass)",
+				"added": 1483545947
+			},
+			{
+				"comment_id": 54,
+				"body": "Hi, im having trouble using a database into a zite. the database already exist, I just want to read from it.  \n\nThere is the log of what I do :  http://pastebin.com/b24DiifV\n\nAnd an image that show that the browser does not load it. but if I enter the database URL in the browser, I can download the database. https://imgur.com/a/FfQj1\n\nIm not shure how do debug this it show no error message.",
+				"added": 1487442312
+			},
+			{
+				"comment_id": 56,
+				"body": "[nofish] Is there a way I can make my little DB problem more conveiniant for you too look at ? I feel like im stuck any you are the only one that can help me. lol",
+				"added": 1487518783
+			},
+			{
+				"comment_id": 59,
+				"body": "> [nofish](#comment_879_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I think the root of the problem is you need dbschema.json, but you have dbshema.json. :)\n\nYeah my bad, \nnow I have: Object error: \"no such table: users\" in my debugger. \n\nYou can find an example of it here: \nhttp://127.0.0.1:43110/16hSgTofpCncCfkpcaEeuc7vTEXNKN6LYH\n\nAnd Get the database here: \nhttp://127.0.0.1:43110/16hSgTofpCncCfkpcaEeuc7vTEXNKN6LYH/data/userlist.db\n\nWhen I signed the code, ZeroNet added tables to my database so I guess zeronet see it now.\n\nThx for your time I value it.",
+				"added": 1487528978
+			},
+			{
+				"comment_id": 60,
+				"body": "> [nofish](#comment_880_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I get {error: \"no such table: names\"} error and zeronetApi.cmd(\"dbQuery\", \"SELECT * FROM users\") works fine\n\nHummm, Not sure what it mean, is it a bug ? \n\nI did removed the square brackets and the callback function as your example but still no luck :(\n\nThe 3 peice of code can be found here : \nhttp://127.0.0.1:43110/16hSgTofpCncCfkpcaEeuc7vTEXNKN6LYH",
+				"added": 1487530684
+			},
+			{
+				"comment_id": 61,
+				"body": "As soon as I have been able to publish my zite to others peers, I started to be able to read the database :D \n\nSo im back on track for my project. Thx for your patience nofish it's appreciated.",
+				"added": 1487539543
+			},
+			{
+				"comment_id": 64,
+				"body": "is there a limit of files or size in optional ? \n\nim trying to add 10286 files ofr a total of 1.4G in a optional folder\n\nwith \n\n \"files_optional\":{\n     \"optional/*\": {}\n},\n\nbut I getting the following error when I try to publish:\n\n- Unhandled exception: 'sha512'\nTraceback (most recent call last):\n  File \"/home/border/Desktop/ZeroBundle/ZeroNet/zeronet.py\", line 18, in main\n    main.start()\n  File \"/home/border/Desktop/ZeroBundle/ZeroNet/src/main.py\", line 464, in start\n    actions.call(config.action, action_kwargs)\n  File \"/home/border/Desktop/ZeroBundle/ZeroNet/src/main.py\", line 139, in call\n    func(**kwargs)\n  File \"/home/border/Desktop/ZeroBundle/ZeroNet/src/main.py\", line 213, in siteSign\n    succ = site.content_manager.sign(inner_path=inner_path, privatekey=privatekey, update_changed_files=True, remove_missing_optional=remove_missing_optional)\n  File \"/home/border/Desktop/ZeroBundle/ZeroNet/src/Content/ContentManager.py\", line 538, in sign\n    new_hash = files_merged[file_relative_path][\"sha512\"]\nKeyError: 'sha512'",
+				"added": 1487700820
+			},
+			{
+				"comment_id": 67,
+				"body": "There is something conseptual im missing about databases on zeronet, I taught I could provide a database with my own dataset. Witch work, but As soon as I click 'rebuild database' database got drop/erased. \n\nLooking at some zite around here, Looks like I should provide a bunch of json dataset. then letting people building the sqlite database them self ? At this point i wonder why not simply parsing  json directly into javascript as array/object.\n\nAlso is it possible to have database in optional and load them only if needed?",
+				"added": 1487963399
+			},
+			{
+				"comment_id": 68,
+				"body": "So database are not meant to be provided by Zite owner. But generated \"on client side\" at first load of the site and updated when some new data is published/change ?\n\nPlaying the role of local storage/parser. while data actualy travel in json across peers not sqlite?\n  \n",
+				"added": 1488036866
+			},
+			{
+				"comment_id": 73,
+				"body": "> [nilunaresh](#comment_1_1LXp3stM1g2RR6isjRVFYiKXVcasnYQ4j1): are there any anime zites where we can download from/ upload to?\n\nIm affraid you are offtopic sadly",
+				"added": 1489957021
+			},
+			{
+				"comment_id": 75,
+				"body": "> [nofish](#comment_884_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): \n\n> You should revert the modifications you did on your content.json, the correct format is: \"optional\": \"optional/.*\" in the root node, not within \"files_optional\".\n\nI found back the link where I got the wrong format. files_optional is documented here:\n\nhttps://zeronet.readthedocs.io/en/latest/site_development/content_json/#files_optional\nIm not shure if it's outdated or it's about some other features.  In anycase it been misguiding to me :D",
+				"added": 1490027913
+			},
+			{
+				"comment_id": 77,
+				"body": "Hi, (me agan)\nI want to include an optional .json dataset into the sqlite database.\n\nFirst, without the \"optional\" in content.json.  The .json is getting into the sqlite db like it should and Im happy.\n\nBut, If I add the \"optional\" without changing anything else the data does not get included into database.(obv cuz it's not downloaded)\n\nThen, If I use <script>zeronetApi.cmd('fileGet', ......) to query the json file. I can sucesfuly load&access the .json file content. But still, content does not get Imported into database. Witch make me sad. \n\nHow can I tell zeronet \"when this optional file is getting downloaded, add it to the sqlite db\". ? \n",
+				"added": 1490125142
+			},
+			{
+				"comment_id": 78,
+				"body": "On an other topic,  where/how should I add local trackers to zeronet. I have read on reddit that it should be in zeronet.conf but im missing the fromat. \n\nhttps://imgur.com/a/93xYS",
+				"added": 1490143028
+			},
+			{
+				"comment_id": 97,
+				"body": "txh rythyrix it start with no error, Now IDK how to prove it's working. \n\nThe tracker have been setup following this discussion : \nhttps://www.reddit.com/r/zeronet/comments/50h1xv/bittorrent_tracker_dht_i_need_help_understanding/",
+				"added": 1490886722
+			},
+			{
+				"comment_id": 98,
+				"body": "up, @nofish \n\n> [border0464fred](#comment_77_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): Hi, (me agan)I want to include an optional .json dataset into the sqlite database.\n> First, without the \"optional\" in content.json.  The .json is getting into the sqlite db like it should and Im happy.\n> But, If I add the \"optional\" without changing anything else the data does not get included into database.(obv cuz it's not downloaded)\n> Then, If I use <script>zeronetApi.cmd('fileGet', ......) to query the json file. I can sucesfuly load&access the .json file content. But still, content does not get Imported into database. Witch make me sad. \n> How can I tell zeronet \"when this optional file is getting downloaded, add it to the sqlite db\". ?",
+				"added": 1490887141
+			},
+			{
+				"comment_id": 99,
+				"body": "> [nofish](#comment_902_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): \n> Unfortunately in the next few weeks I not going to have much time for ZeroNet. \n140% understandable, thx.",
+				"added": 1490911433
+			},
+			{
+				"comment_id": 120,
+				"body": "> [blueberrypie](#comment_1_1Goh3nBrvw44F94NE7UsdJ3huL35bvkBmP): open TorBrowser to a ZeroNet page\n\nIm not pro at this but im pretty sure TorBrowser is preventing you to access localhost .... for oblivious security reasons.\n\nI don't think is a good practice to do it but you can add proxy exeptions in firefox settings.\n",
+				"added": 1491619596
+			},
+			{
+				"comment_id": 125,
+				"body": "> [akraut](#comment_1_1JUG95g9ysj439uw4rGEwVhAzpVu6vRzxA):  \"File Update Failed\" \n\nIt append when a user announce he have a new/updated file to distribute but disconnect before/while others peers are uploading it. There is nothing you can do about that. \n\nThe error message is only informative, it's not a fatal error that break something.\n\n(correct me senpai @nofish if im wrong)\n\n",
+				"added": 1491849930
+			},
+			{
+				"comment_id": 141,
+				"body": "> [akito](#comment_11_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY): \n\nLike how to github ? :p If you are not familiar with github there is tons of tutorial and documentation about that. Nothing zeronet specific.\n\nhttps://github.com/helloZeroNet/ZeroNet is a personal project not an organisation. So you need to fork the code do a commit, and send a pull request to the master branch I suppose.(testing seem quite outdated)\n\nYou can take a look here at the contributions guidelines but there is not much stuff.  https://zeronet.readthedocs.io/en/latest/help_zeronet/contributing/\n\nAlso, 21 pull request are pending, make sure your bug have not been solved already. \n",
+				"added": 1493245304
+			},
+			{
+				"comment_id": 144,
+				"body": "> [amuza](#comment_2_1NF9DMeY1kNvm7yNDcxkVgZ2Y9Jc893bgA): Hi there,I would like ZeroNet to be able to do LAN peer discovery out-of-the-box \n\nIm also very interested in this question, AFAIK it's undocumented, Maybe we should Open a tread somewhere to work on t his question.\n\nWhen the zombie apocalypse will come, Im scared the zombies will mistake fiber optics cable with brains due to the amount of intelligence running into them, If Zombies start shewing the internet backbone. Only Zeronet can save the internet !\n",
+				"added": 1493472273
+			},
+			{
+				"comment_id": 151,
+				"body": "I just realised my content.json is full of sha512 signatures of inexisting files. \n\nI think siteSign does not remove deleted optional file and keep the sha512 of old files. If someone can confirm this, I will open a issue on github(if non already exist)",
+				"added": 1493571815
+			},
+			{
+				"comment_id": 152,
+				"body": "> [rythyrix](#comment_76_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): \n\nThat interresting, but I don't see any usecase where one would like to sign a file he don't have. How to know what you are signing?",
+				"added": 1493644691
+			},
+			{
+				"comment_id": 153,
+				"body": "> [rythyrix](#comment_79_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): Usecase? I think any time the node you are on doesn't have the content to sum. Hard drive failure comes to mind, or sudden power failure during write to FDE-encrypted drive. While this can be worked around if your zite was popular enough, lesser-known zites with lots of optional files may not have any other option. [...]\n\nIm not sure to follow you. Im not sharing my private key with anyone, The node who sign the site is the node that have the original copy of content. If files are missing,  the files will be missing for everyone. I don't see how I would want to sign random hashes of files I don't have.\n\nIf I got HDD problems, and data are lost and can't be recovered from peers...... It's gone.... those files will never reapears. Next sign, they should be removed instead of causing missing files errors for eternity. \n\n content.json file size limit It's an anoying arbritrary limitating rule. but meh, ill play with the rules. :D",
+				"added": 1493688598
+			},
+			{
+				"comment_id": 154,
+				"body": "> [jaudo](#comment_2_1HciUodo7kXB56PcZ4Bj9EHRmpophE4H1y): Is there a way to have a contact list?\n\ncontact list of what ? on witch  site ? \n",
+				"added": 1493689685
+			},
+			{
+				"comment_id": 157,
+				"body": "> [rythyrix](#comment_80_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): I run multiple nodes (phone, tablet, laptop, desktop) as the same user, so I'm probably in the minority. [...]\nOk I understand. :D",
+				"added": 1493733892
+			},
+			{
+				"comment_id": 160,
+				"body": "> [snail225](#comment_6_1C9HXUYFSVafLxanwkaFPZRcRgCEGsj2Cn): Hi, sorry if I'm on the wrong place but idk where to give feedback. [...]\n\nHi, issues regarding zeroblog can submited here: https://github.com/HelloZeroNet/ZeroBlog/issues\n\nIm not sure if it's a graphical or a UX problem as you can create a space between 2 paragraph by having 2 empty lines between them.\n\n Maybe it's an expected behaviour, conform to the markup language specifications used in zeroblog ?  ",
+				"added": 1494467845
+			}
+		],
+		"1_18ZfPCaU1pYAeos3A7YhZVgtsmXqXeRRW7": [
+			{
+				"comment_id": 34,
+				"body": "blockchain and cryptocurrencyes  !==  k.i.s.s \n\nDon't drink the coolaid. Make shure you realy need them.\n",
+				"added": 1482892017
+			}
+		],
+		"1_1yvSQH5Z7aJra4y9s6KG2kjLeGXYhNgn7": [
+			{
+				"comment_id": 36,
+				"body": "Even here.. the pedo-nazi scare strike.\n\nOnce, I said that killing Trump would be a acceptable murder for the good of mankind( you know, im a utilitarian ). It's not illegal but I don't want trouble if he got killed. This is why I like anonymity.\n\nI also downloaded a song I didin't paid for with napster few years ago... ok maybe it was many years ago. But neverless it's completely illegal.",
+				"added": 1482895339
+			},
+			{
+				"comment_id": 47,
+				"body": "> [anonbeing](#comment_2_1L6pjaEajyF4kYhT5AXeJKUnUuSR5oGKrE): Murdering Trump for the the good of mankind? Really?\n\nI won't go off-topic sry",
+				"added": 1484518930
+			}
+		],
+		"1_14DujeMmUQr14gCcg6ZUVcdU1DA5GphYvG": [
+			{
+				"comment_id": 40,
+				"body": "When Someone sign a post as \"expert\" my eyes roll\n",
+				"added": 1482974483
+			}
+		],
+		"9_12i4LiZ39NxcYtsf36aTWJzcpzw4KFUCJy": [
+			{
+				"comment_id": 43,
+				"body": "The best thing about trump, is the fact he will vaccinate americans about pupulism and anti-intellectuals.",
+				"added": 1483200559
+			}
+		],
+		"1_1GuLRDu6kt8B3WNkw8yTBfJnjkoJWBYZak": [
+			{
+				"comment_id": 46,
+				"body": "check on the Rooter && ISP level",
+				"added": 1483891810
+			}
+		],
+		"2_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": [
+			{
+				"comment_id": 48,
+				"body": "Cuz NAZIS need places where people can't tell them to shut up an ban them to be able to sperad their propaganda. Sad for them but true, no one like them .",
+				"added": 1487371736
+			},
+			{
+				"comment_id": 62,
+				"body": "Civilizations rise and fall. the world will not end it's just history repeating it self.  \n lol @ \"Transcendent purpose\",    .... AKA stockholm syndrome. Nationalism is just a religion. \n\n\"and so fascism, like nature, is beginning to reassert itself\" Yep, Fachism like any primitive behaviour append when people lack of education and enlightment motivated by the struggle and fear.",
+				"added": 1487648410
+			},
+			{
+				"comment_id": 63,
+				"body": "> [eveline](#comment_2_1Jcavpcz68FpZVS6HDRZyYp2yc6bSF5sCg): \n\n>But child abuse exists and woman rape exists.\nYes they do, and they should be damn severly condamned for their individual actions. It became erronous when you switch from the actual target (the rapist/abuser) to a racial/rligious generalisation that serve a political holywar.\n\nWho ever put baby dick in his mouth should have the jaw dislocked by a giant buttplug. This said, I have nothing aganst Jews. This is the differance between hating pedos and jews.\n\nBeing jew should not be an excuse to be a pedo, on the same level, pedo should be addresed as pedo, not jews. \n",
+				"added": 1487690661
+			},
+			{
+				"comment_id": 83,
+				"body": "im motherfucking voting for @alaric",
+				"added": 1490375497
+			},
+			{
+				"comment_id": 87,
+				"body": "> [spacemandown](#comment_1_1G6X7Cx7yeezsCr1yrG3pt75w8rE3QkLvc): I appreciate that offensive content is present, I want to see the raw signal; So a gadfly acts much as a coal miner's canary for a platform's freedom.  For the effete, so obsessed with sugary comforts in their consumption, perhaps you're in the wrong place.\n\nI appreciate the freedom of publishing offensive and stupid content. But damn it's anoying ! And the edgies scare mass normies adoption witch is not good for zeronet future. \n\nNazis should stay in a dark corner IMHO.",
+				"added": 1490628027
+			},
+			{
+				"comment_id": 88,
+				"body": "> [spacemandown](#comment_2_1G6X7Cx7yeezsCr1yrG3pt75w8rE3QkLvc): So develop some sort of blacklist, filter, browser addon, etc.  You're ultimately responsible for filtering your own content.\n\nAnd living like a special snowlfake in his fragile safeplace ? NAAAAAHHH",
+				"added": 1490638027
+			},
+			{
+				"comment_id": 89,
+				"body": "> [border0464fred](#comment_88_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): And living like a special snowlfake in his fragile safeplace ? NAAAAAHHH\n\nIm totally ok to fight thoses retarded, My grand father have given me his lucky nazikiller bayonet form WW2 im all good.",
+				"added": 1490638140
+			},
+			{
+				"comment_id": 90,
+				"body": "> [planespherev3](#comment_187_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS): \nsomething which almost completely disappeared more than 70 years ago.\n\nnot in argentina wink wink. lol",
+				"added": 1490726742
+			},
+			{
+				"comment_id": 91,
+				"body": "> [opisafaggot](#comment_3_12p3yAJYYbtSY226FLMaxXLMtFkBaLxu9a): \n> USA USA USA USA USA USA!!!\n\nwhatever edgelord",
+				"added": 1490842675
+			},
+			{
+				"comment_id": 94,
+				"body": "> [opisafaggot](#comment_7_12p3yAJYYbtSY226FLMaxXLMtFkBaLxu9a): Supporting my country is being edgy? I don't think you know what that word means Tumblrite.\n\npatriotism is just an other kind of religious delirium that ask you sacrifice for abstract concepts. \n\nBaiting for imaginary fairy tails is edgy to me.",
+				"added": 1490844214
+			},
+			{
+				"comment_id": 105,
+				"body": "> [opisafaggot](#comment_10_12p3yAJYYbtSY226FLMaxXLMtFkBaLxu9a): This man voted for Bernie. Sorry no refunds goy.\n> Damn son! You sure hate making America great again. Is your last name Ramirez or Goldstein?\n\nim not even amerifat lollllll",
+				"added": 1490962150
+			},
+			{
+				"comment_id": 112,
+				"body": "I think there is a gap between censoring as banning/muting/deleting and asking nazi to not spam the main with  irrational bullshit. \n\nFrom what I read, i think most of people seem to agree that swagstika, opsiafaggot and others have their right to say the crap they want.(if all this is not about one guy with 10 ID) \n\nBut they endup spamming tons of non-constructive shitposting that ultimatly prevent any logical debate and kill the place.  Main looks like if /pol/ was on Facebook. It make no fucking sense.   \n\nProblem would be the same if it would be SJW , durr durrr smash window anarchist ....or fucking furries.   \n\nTrowing the censorship card on the table to avoid the problem is just too easy.",
+				"added": 1491022786
+			},
+			{
+				"comment_id": 113,
+				"body": "nazis have the right to free speech, only they should exerce it a goulag.\n",
+				"added": 1491023132
+			},
+			{
+				"comment_id": 114,
+				"body": "> [np](#comment_3_1Hr2EnaPQkPexyHaMMaVNNHbSwjMezoQWD):  but so are you.\n\nIm not doing it,  I feel like the main should be for common interest things.\nEven tho I don't dislike going on /pol/ calling some bullshit for a good fight. Lets not do it on the front door.\n",
+				"added": 1491269259
+			},
+			{
+				"comment_id": 115,
+				"body": "> [swagstika](#comment_10_1EgqAT7i9ipPjsMa5axHKjmLGbdttKd4E1): what?! how are you accusing me of being nazi?\n\nHow could I ? you shared the windmill of friend ship with me. We are friend now. \n\n(obv troll is way too obv, you loosed)\n",
+				"added": 1491269447
+			}
+		],
+		"5_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [
+			{
+				"comment_id": 49,
+				"body": "POW aka Social disparity enhancer.  The more money you got IRL the more POW you can provide online.",
+				"added": 1487372223
+			}
+		],
+		"1_1DxWcQsQ5cEBqXgc94pKWtzRo6Xn3iWsnK": [
+			{
+				"comment_id": 50,
+				"body": "How about: nope + GTFO pedo",
+				"added": 1487372419
+			},
+			{
+				"comment_id": 51,
+				"body": "> [jv8](#comment_1_1tAr8uDbAvSF7osa35esUsLwYyNe8ZgJD): ...This is a holly ritual for them and nobody may criticize it.\n\n<<< I fucking do. don't cut other people penises without their consent. Its Torture+Rape.",
+				"added": 1487372535
+			}
+		],
+		"1_13GyWy7pXEtCorqUBAv7ZPjyzNfwMA6Hh2": [
+			{
+				"comment_id": 52,
+				"body": "> [peppe](#comment_2_15kGEg2taVWYVqG6CuWX76BoNrVEMRAtya): Jews payed them to spam this forum.\n\nIt probably never append. You are just spreading propaganda and lies.",
+				"added": 1487372813
+			},
+			{
+				"comment_id": 57,
+				"body": "> [shalom](#comment_1_17B6o8NzBRZpxsv2gasegmWVtU5GsQbMSp): For Jews dogs are unclean. Ortodox Jews not even have dog pets.But they are some rumors that Chinese Jews eat barbequed aborted babies.According to this rumours Jewish owned restaurants in Taiwan and China buy died and aborted babies from hospitals.Most of the  Chinese-Jewish clients prefer white babies but some of them like black babies also because of the stronger flavour according to the same rumors.The mainstream media is speaking about fakenews in connection with barbequed babies and fetus soup.http://www.mylot.com/post/905685/barbecued-babies\n\nofftopic",
+				"added": 1487519052
+			},
+			{
+				"comment_id": 76,
+				"body": "blood drinking jews is the new sipderman tread ?",
+				"added": 1490121499
+			}
+		],
+		"1_1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd": [
+			{
+				"comment_id": 53,
+				"body": "> [planespherev3](#comment_158_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS): Yes i prefer a community moderation (FMS and Sone like)   \n\nIDK about this, do you have some link I could read ?",
+				"added": 1487375415
+			},
+			{
+				"comment_id": 55,
+				"body": "Reddit have a defined set of moral they enforce on users.",
+				"added": 1487442399
+			},
+			{
+				"comment_id": 58,
+				"body": "> [nofreespeech4goy](#comment_1_1A1itSy8SqrLrX5UZNpXUuRk11WvEHwGca): Hey, down vote as much as you want. We still know that your \"anti-semitic\" bullshit is just that, bullshit. We're here because of jews like you are running Google, Microsoft, mainstream media, Hollywood and every central bank in this world. Fuck you, kike. Fuck you.\n\nThere no 'we' standing here, I Strongly dissagree with your view of the world and im not here for the same reason you do, assume your self instead of hiding behind the 'we' to give your personal propaganda some weight.\n",
+				"added": 1487519298
+			}
+		],
+		"2_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": [
+			{
+				"comment_id": 69,
+				"body": "It's a false dilema as Linux can run on apple hardware.\nAnd OSx on normal PC",
+				"added": 1488140170
+			}
+		],
+		"8_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": [
+			{
+				"comment_id": 70,
+				"body": "he can close his trackers, that's all he can do.",
+				"added": 1489954475
+			}
+		],
+		"1_1MwJSNBC1savftEvXQyoHcVLDgThtAPr6T": [
+			{
+				"comment_id": 71,
+				"body": "This bait is so shiny.... I feel like I must hit it. \n\nI think OP talk about the lack of documentation about how to dev on zerome. I found really painful to try do more then a simple hello world on zeronet. Debugging is painfull and dev procedures are damn picky.",
+				"added": 1489956087
+			},
+			{
+				"comment_id": 74,
+				"body": "Shure, coffee script is.... it's ..... it probably been made by chuluth him self.\n\nMy next project on the list will be to host/mirror a tracker, but I did not found any Doc about it yet . \n  ",
+				"added": 1489968157
+			},
+			{
+				"comment_id": 84,
+				"body": "> [bot](#comment_170_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Pwning his non-coder ass was kinda fun thou eh. ;)\n\nbots can't have fun of even feeling .... Just Saying",
+				"added": 1490414126
+			}
+		],
+		"1_12May38MPRVcM5mY2LDut4U95YSbwekCwD": [
+			{
+				"comment_id": 72,
+				"body": "- stay safe, stay under your rock.\n- foreveralone mean foreveralive",
+				"added": 1489956694
+			}
+		],
+		"2_1PvAednzaMJiuMz1SD5wF3m3Hx7SK75zHv": [
+			{
+				"comment_id": 79,
+				"body": "> [ghostwriter](#comment_1_1L8waPPVatA855bU6SjqWs2K1DbwnUZbEp): If 15441 port is in use, atleast have tor connetion\n\n^ good point, that would be my best guess.  one one port 15441 and one on port 9050 \n\n@sarasa\nDISPLAY=:0'  <<< there is no GUI in zeronet. it's completely irrevelent to set Xorg server\n\n creating separate users <<<  as it's in python virtualenv would probably be enough, but this would not solve the port problem",
+				"added": 1490222465
+			}
+		],
+		"1_1HqPpF37myHjtxGUW4nAUPJL1pjQUL9Zyj": [
+			{
+				"comment_id": 80,
+				"body": "is it writen by someone who have a notorious expertise about being dead ?",
+				"added": 1490375161
+			},
+			{
+				"comment_id": 81,
+				"body": "... probably just amature noob stuff",
+				"added": 1490375183
+			}
+		],
+		"1_1FxpcMsoTKTeUoNDRJKzqyLAwXuwVg3zgX": [
+			{
+				"comment_id": 82,
+				"body": "<< talk is cheap, show me some code >>\npull request ?",
+				"added": 1490375370
+			}
+		],
+		"1_19Z8aJ32x4pE2iGvVssPJazJgpGe5L32rq": [
+			{
+				"comment_id": 85,
+				"body": "Looks like this Guy/Gal is hating the haters. how Ironic.",
+				"added": 1490469310
+			},
+			{
+				"comment_id": 92,
+				"body": "> [opisafaggot](#comment_4_12p3yAJYYbtSY226FLMaxXLMtFkBaLxu9a): Sorry there's no safe spaces outside of university. I know you miss that play-doh and people telling you how special, empowered and beautiful you are.\n\nIs it all americans university are about ? play-doh?",
+				"added": 1490842789
+			},
+			{
+				"comment_id": 93,
+				"body": "> [opisafaggot](#comment_5_12p3yAJYYbtSY226FLMaxXLMtFkBaLxu9a): \n\nSame thing in Canada, but it's got under critics lately even the left who slowly start to hate it, as at one point they feared it to turn into intolerant radicalism spirals.\n",
+				"added": 1490843585
+			},
+			{
+				"comment_id": 95,
+				"body": "> [opisafaggot](#comment_8_12p3yAJYYbtSY226FLMaxXLMtFkBaLxu9a): I heard Trudeau wanted to make any criticism of Islam a crime. Now he's legalizing weed in 2018. It seems he wants the society passive when the Muslim hordes come to rape and pillage your country.\n> Move out of your cities into a small town and get your guns and ammo.\n\nLOLLL  but we already had a law for hatespeaks it's part of our constitution. Trudeau have make a new one specialy for hate speaks aganst muslim cuz is SOOOOO progressive, but his law say exactly the same thing as the other one. So nothing changed. His law is completely useless.  \n\nHe is the master of looking progressive while doing sweet fuckall.  \n\nAnd as he lie as he speak 90% chance he won't make weed legal too.",
+				"added": 1490844977
+			}
+		],
+		"7_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 86,
+				"body": "we ?",
+				"added": 1490627535
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 96,
+				"body": "test",
+				"added": 1490845919
+			},
+			{
+				"comment_id": 106,
+				"body": "test",
+				"added": 1490963130
+			},
+			{
+				"comment_id": 107,
+				"body": "test",
+				"added": 1490963274
+			},
+			{
+				"comment_id": 108,
+				"body": "> [dun](#comment_2_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk): Why is this stickied? And who is able to sticky posts?\n\nnofish, as he is the owner of this site",
+				"added": 1490965878
+			},
+			{
+				"comment_id": 109,
+				"body": "test",
+				"added": 1490997205
+			}
+		],
+		"2_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": [
+			{
+				"comment_id": 100,
+				"body": "we need a zerostackoverflow lol",
+				"added": 1490912369
+			}
+		],
+		"8_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": [
+			{
+				"comment_id": 101,
+				"body": "Visit the site from a public gateway, as the public gateway is up and runing 24/7 (or wish it could ) once the gateway will have a copy of your site it will be able to seed it for eternity.\n \nThis said, it's a 3rd party service provided by nobody knows who. Don't put too much trust in it. \n\nhttps://bit.no.com:43110\n",
+				"added": 1490961308
+			}
+		],
+		"2_1JkWVgTiBciW42PznGVGuehTk4yDrB8XcV": [
+			{
+				"comment_id": 102,
+				"body": "test belong to :\n\nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/Test+messages",
+				"added": 1490961553
+			}
+		],
+		"1_1B9EV9cRouuL4fFMprXCYfNMsL6QVbsiDJ": [
+			{
+				"comment_id": 103,
+				"body": "FYI test belong to : \n\nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/Test+messages",
+				"added": 1490961612
+			}
+		],
+		"6_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 104,
+				"body": "and D, check your checksum before running code downloaded from an unknown source.",
+				"added": 1490961820
+			}
+		],
+		"11469_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [],
+		"5_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": [
+			{
+				"comment_id": 111,
+				"body": "oh yes, you where right on, now it behave as expected. THX",
+				"added": 1491014406
+			},
+			{
+				"comment_id": 135,
+				"body": "> [kaffie](#comment_277_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): That's actually pretty cool. So if the trackers go down, ZeroNet can still technically be used.\n\nYe, if thoses seeds could share the seed they know, would have a real decentralised network",
+				"added": 1492985724
+			},
+			{
+				"comment_id": 138,
+				"body": "oh, ok. I understand. It can't replace DHT or alike.",
+				"added": 1493135157
+			}
+		],
+		"3_1EPdUhNJsw4KzWrnUJZvFfWCGweKtFeRGP": [
+			{
+				"comment_id": 116,
+				"body": "FYI Main is english, have a good day\n",
+				"added": 1491269538
+			}
+		],
+		"1_1PfXizQkX7L7ho96Yqva2hvdk6VFT9Dnk7": [
+			{
+				"comment_id": 117,
+				"body": "Main is supposed to be in english, As it say the frist time you load the site. \n\nNot becose all people are english native speakers, but becose it's the common language of most people.",
+				"added": 1491408367
+			}
+		],
+		"1_1FNuZtJdubQVu1Mxs65nBVWKuE84pSsoBG": [
+			{
+				"comment_id": 118,
+				"body": "> [bot](#comment_187_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb):  CMS-level clonable zite.\n\n ... not sure it will help, we already have tons of empty cloned blog, People clone and forget. \nHaving to put some coding effort into it is a filter for the interest of providing content.",
+				"added": 1491408716
+			},
+			{
+				"comment_id": 128,
+				"body": "> [tsetair](#comment_1_1DTshv8e673kT3yQX3HhM4M9XYg4A4KceE): OP IS A FAGGOT!!!!!!!!!!!!!! MAKE YOUR OWN DIRECTION, YOUR OWN PROJECT INSTEAD OF FUCKING COMMING HERE AND TELLING OTHERS HOW TO ACT BECAUSE YOU ARE TOO FUCKING RETARDED TO START SOMETHING YOURSELF.  [...]\n\nhow about you just stop following instead of being a trigered raging faggot",
+				"added": 1491851491
+			}
+		],
+		"2_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw": [
+			{
+				"comment_id": 119,
+				"body": "I think the first time you load  main it have a yellow message that stipulate that main is english. If everyone start to speak his own language Zerotalk will hell of a mess.\n\nOmelette au fromage baguette baguette",
+				"added": 1491619352
+			}
+		],
+		"3_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": [
+			{
+				"comment_id": 122,
+				"body": "Have you done it ?  or you are asking someone else to do it ?",
+				"added": 1491625048
+			},
+			{
+				"comment_id": 127,
+				"body": "> [darvy](#comment_30_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk): You sound like a Fed trying to trick people into helping you crash ZeroNet. Feds have been known to trick people. I find it odd nofish gets canceled at Ted Talks and now there's someone on ZeroNet wanting to crash it. 🤔\n\nhe is not the first one who want to pentest zeronet .... I don't think we have enough here to establish a correlation.",
+				"added": 1491851345
+			}
+		],
+		"2_17ffrcHNzbFoUe81PyMEagQdv2DGNRLFcE": [
+			{
+				"comment_id": 123,
+				"body": "depend uneder witch juridisction the VPS is. Also your providers might have TOS aganst it",
+				"added": 1491661008
+			}
+		],
+		"1_1FfxZY6BWRHFxjMWa8BMtkmhQeWdQuNteL": [
+			{
+				"comment_id": 124,
+				"body": "Main board is english FYI. Also welcome\n",
+				"added": 1491661402
+			}
+		],
+		"2_1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b": [
+			{
+				"comment_id": 126,
+				"body": "They came from having been banned on others social social networks, that's why the concentration is high here.\n\nit's damn annoying, but it's the price of freespeech. IMO they should be pushed in a corner but there is not much that can be done.",
+				"added": 1491851143
+			},
+			{
+				"comment_id": 129,
+				"body": "> [realjewish](#comment_1_16oFbMssGoY14BsDeV65raz5RvHL6TY1Ws): Is Truth-Speaking the same with Jew-Hating ?And Yes I am from Israel.Look on my site to find answers.Why I Left Judaism ?http://www.realjewnews.com/?p=180Why The Jews Hate Jesus Christ ?http://www.realjewnews.com/?p=34How The Jews Destroyed America ?http://www.realjewnews.com/?p=932 [...]\n\nI give 0 fuck about this spamming",
+				"added": 1491927779
+			}
+		],
+		"1_1GeNYmPV2DqfpW7imG5Rx3b6AvgyLHAXL6": [
+			{
+				"comment_id": 130,
+				"body": "Jews might get butthurt or not, no body care, it's not about them.\n\nSean Spicer is in trouble cuz he is an incompetent idiot and he got called on his bullshit. \n\n Erdogan is wise, he tell unverifiable lies and keep narative inside the plosible scope.\n\nIncompetent people should be replaced.",
+				"added": 1492080427
+			}
+		],
+		"1_1CDcBUTtVqQWFLPb9sieczmPwzyivk9QYt": [
+			{
+				"comment_id": 131,
+				"body": "Memes are likely belong to offtopic ? \nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topics:9_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/Offtopic",
+				"added": 1492114419
+			}
+		],
+		"1_1H7K8A2z57cN6Hc2X37yYjUYX5v9LkMrtU": [
+			{
+				"comment_id": 132,
+				"body": "This bullshit belong to http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topics:9_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/Offtopic",
+				"added": 1492273039
+			}
+		],
+		"1_1Dceoz8UQk4pxj22JwrfNT3EWiFBmBJZd3": [
+			{
+				"comment_id": 133,
+				"body": "probably at instagram.... it's an web API, where would you want it to be ?",
+				"added": 1492581085
+			}
+		],
+		"1_1E8KDakJCmMofVgTawocXc4pX9Fn3K3ob1": [
+			{
+				"comment_id": 134,
+				"body": "There will be no WW3 as there been WW1 & WW2, we don't do war like this anymore this time is over.",
+				"added": 1492581201
+			}
+		],
+		"1_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": [
+			{
+				"comment_id": 136,
+				"body": "IMO freespeech is the thing they like to fight for. Way more then hating jews(or others). \nThey just use offensive material to make their point about Censorship.\n\nFun fact, there is no censorship on zeronet. ....They tried as hard as they could but censorship didin't append.\n\nSomeone even made a 'racist talk' forum for them to be. I think it helped a lot on making a point about protecting freespeech but not want to hear them. IDK who did it, but I think it played a major role.",
+				"added": 1493129948
+			},
+			{
+				"comment_id": 137,
+				"body": "BTW nofish posted  on Apr 19, 2017  \nHe is not dead, or maybe he have been replaced by a well advanced bot.( as long as the bot keep developing zeronet I don't care :p)\n\n \nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/ZeroNet+help+FAQ",
+				"added": 1493130299
+			},
+			{
+				"comment_id": 139,
+				"body": "> [1491301186](#comment_4_1AZG3avnpwcn37q9eeCEjXKFBye81eAxg5): It has decreased only because nofish has banned many trolls and crazy users, currently there are 3,238 banned users:http://127.0.0.1:43110/Talk.ZeroNetwork.bit/data/users/content.json\n\noh, i didin't know about that. Nice add to the discussion, it's a game changer",
+				"added": 1493152282
+			},
+			{
+				"comment_id": 140,
+				"body": "> [1491301186](#comment_5_1AZG3avnpwcn37q9eeCEjXKFBye81eAxg5): nofish is in Canada at the TED2017 conference and he will be back next week.\n\nI taught the TED have been canceled",
+				"added": 1493152413
+			},
+			{
+				"comment_id": 146,
+				"body": "1491301186 is too long. I wanted to short it with something like i18n but it's already numbers. So now on ill call you 1eight6   lol\n",
+				"added": 1493494398
+			},
+			{
+				"comment_id": 147,
+				"body": "> [monsterjazz](#comment_2_15TSdTU5ZrAHXXiMQvMUEEUm17GFt5WqWp):  The election didnt help\n\nIt's kinda imply that most of them are from US. :p\n",
+				"added": 1493494526
+			}
+		],
+		"1_12PByNvF6X2aF9wf68iSLFD1JDBKKAGTvo": [
+			{
+				"comment_id": 142,
+				"body": "ZeroBundle/ZeroNet/data/ if you are using the bundle",
+				"added": 1493327364
+			}
+		],
+		"4_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h": [
+			{
+				"comment_id": 143,
+				"body": "zeronet now support plugins, would it technicaly possible to make one out of this script ?",
+				"added": 1493467442
+			}
+		],
+		"4_136wmwLTBJoGTjXTAa7sWmXewn9P53EKML": [
+			{
+				"comment_id": 145,
+				"body": "Hummm, an other protocol implementation that do the same thing that torrent do. \n\nTorrent is doing the job for a long time now and webtorrent have bring the protocol to the streaming age.  Strange that people keep writhing new things that server the same purpus Without addressing why torrent is not yet the new standard.",
+				"added": 1493493999
+			},
+			{
+				"comment_id": 148,
+				"body": "Ok it have a paiment system witch can bring direct paiment to the authors (minus a part for the miners ) \nLike a music bend running a WooCommerce and giving 3% to paypal. \nIm courious, How much is the transaction fee for a 0.99$ song on LBRY?\n\nI still belive this thing try to look distruptive but in fact do the same job as napster do since 2004. \n\n---\nBtw, I don't think we know each others znews sorry.",
+				"added": 1493559558
+			}
+		],
+		"14_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 149,
+				"body": "+1 I've decided to make ZeroNet my home... \n\nThere is one thing that still need to append for me before saying zeronet is the futur.\n\n@nofish have great ideas and is steady at making it append. But if Zeronet gain in popularity. Top A senior python developers & experianced  FOSS community managers will come.\n\nThey will shake the house, requesting community guidelines, coding standard, reimplementation of majors section of the code, documentation, decisions process, having elected members on a fundation, and so on..... (things you can see at debian project for example)\n\nThere will be a LOT of drama and Power games, it will be painfull. If zeronet survive to this, Zeronet it the future. but it's yet to come IMO.",
+				"added": 1493565421
+			},
+			{
+				"comment_id": 150,
+				"body": "Or worst the FOSS black widow named Oracle might get interested in zeronet. lol ",
+				"added": 1493565440
+			}
+		],
+		"2_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY": [
+			{
+				"comment_id": 155,
+				"body": "At the same time, it's ideas that are missing, it's pull request.\non a gift base economy you can't expect much, it's hard to request things. Ye can only be gratefull of what we have.\n",
+				"added": 1493733337
+			},
+			{
+				"comment_id": 156,
+				"body": "This said, I like the idea of brainstorming here anyway",
+				"added": 1493733638
+			}
+		],
+		"1_1GNKWQQPjcUhqU4zLAckUSuVKjGXcEzMnM": [
+			{
+				"comment_id": 158,
+				"body": "thanks you sir. !",
+				"added": 1494077922
+			}
+		],
+		"1_1C9HXUYFSVafLxanwkaFPZRcRgCEGsj2Cn": []
+	},
+	"comment_vote": {
+		"2_1Fpr6zPwHnEmQMXsuEcCZL35GJg1vvifW": 1,
+		"708_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"560_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"15_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"845_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"846_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_17KficaSZiT1Jy788gN8MhPnN9XsWTeEmJ": 1,
+		"1_13Zr2FP3CQFnqHvyHrzSyGZMHfV7qYLp4L": 1,
+		"2_18XZPW5mfffaUbAWtRkYCHosgJkc6TtkK1": 1,
+		"870_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"158_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS": 1,
+		"160_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS": 1,
+		"19_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": 1,
+		"879_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1Q95acqUikgjvegqSv3MswmheKXq7DJbjB": 1,
+		"884_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"5_1MrRShZ9dp1stuYhAyzguqFXv8X4E4AjCn": 1,
+		"50_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"20_1L6pjaEajyF4kYhT5AXeJKUnUuSR5oGKrE": 1,
+		"24_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV": 1,
+		"887_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"888_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"22_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": 1,
+		"6_1AbPJSk8hULMMSzFhidAu72itdHmTfjSrD": 1,
+		"27_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"1_15uGmuKWTYg2PmfPYNXCNM4DXnHhXswZtc": 1,
+		"3_1FxpcMsoTKTeUoNDRJKzqyLAwXuwVg3zgX": 1,
+		"16_1LJLVfT9hKRuTHzBKTpse57PGfpwx82myR": 1,
+		"8_1HiyP7AD74uGuGBZLqhcmfQgwu5VC8nnYY": 1,
+		"5_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": 1,
+		"54_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y": 1,
+		"2_1EgqAT7i9ipPjsMa5axHKjmLGbdttKd4E1": 1,
+		"4_12p3yAJYYbtSY226FLMaxXLMtFkBaLxu9a": 1,
+		"1_1FyUsevvqGJCdB4MnwC7cBT9QSpTKdDJUC": 1,
+		"96_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"5_1EgqAT7i9ipPjsMa5axHKjmLGbdttKd4E1": 1,
+		"107_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"106_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"1_1Q5mZCsHbsmtuqUKMqboHrZDxAhn22ehv": 1,
+		"1_1FQ13HkBuC9JwACwVn48dbeSUxXVDiwzkt": 1,
+		"1_16tcanMsgSnAn6HSzkFowVFn6mkR8HE75u": 1,
+		"2_1FyUsevvqGJCdB4MnwC7cBT9QSpTKdDJUC": 1,
+		"8_1Bte1EMmKsRq3aCPtKQNh3NLuhuXL8VVv": 1,
+		"1_12Y4vAujUKeEmX5ipyB2iNN19dTTAzAyCU": 1,
+		"8_1QEfmMwKVxgR4rkREbdJYjgUmF3Zy8pwHt": 1,
+		"4_1QEfmMwKVxgR4rkREbdJYjgUmF3Zy8pwHt": 1,
+		"1_1Knawnt5nvLJhkJw3EuGEvCpjrz82PCWMy": 1,
+		"1_1MwkA8i1cqh2sPfXMXwVrFegsJoGGms7Cv": 1,
+		"2_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": 1,
+		"3_1QEfmMwKVxgR4rkREbdJYjgUmF3Zy8pwHt": 1,
+		"1_1HujVT1G2KHuDNivhbxCrPNKaDgqcEqhRe": 1,
+		"108_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"1_1CvyxRucf7BbDvGtFe5LayTS2qX88VN7Er": 1,
+		"109_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"14_1HiyP7AD74uGuGBZLqhcmfQgwu5VC8nnYY": 1,
+		"3_19dfuqqdasCxD56Yn8KGcgcckbdkV9SZi4": 1,
+		"6_1eQKH8VcGoV17tUEfCHad8pMix9qR8aVu": 1,
+		"70_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y": 1,
+		"28_1HiyP7AD74uGuGBZLqhcmfQgwu5VC8nnYY": 1,
+		"2_1NF9DMeY1kNvm7yNDcxkVgZ2Y9Jc893bgA": 1,
+		"289_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"286_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"12_1AZG3avnpwcn37q9eeCEjXKFBye81eAxg5": 1
+	}
+}

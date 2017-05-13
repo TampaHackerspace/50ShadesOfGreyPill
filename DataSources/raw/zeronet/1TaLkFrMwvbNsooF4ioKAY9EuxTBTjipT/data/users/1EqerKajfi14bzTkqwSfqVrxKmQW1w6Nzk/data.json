@@ -1,0 +1,358 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "ZeroBlog",
+			"body": "I started this ZeroBlog and for some reason I have a yellow bell next to it and it says one update failed http://127.0.0.1:43110/1AMK1LVqr2i5UAWddWNEiDUK9msAydUSUn/ I opened up the side panel and it says the content.json is missing. Does anyone know what's up when this happens? Is it some kind of bug?",
+			"added": 1489536633
+		},
+		{
+			"topic_id": 2,
+			"title": "Yeti CMS",
+			"body": "Since some people do want a CMS I'm going to try to get Yeti CMS to work with ZeroBlog but I have zero experience at it. I decided on Yeti because it has drag and drop features. I've downloaded the Yeti frontend zip file from here https://github.com/kidGodzilla/yeti-frontend and I also downloaded the Yeti CMS Distributable zip file from here https://github.com/Yeti-CMS/Distributable Can one or two of you experienced people please check these links out and see what is needed to get it working and please talk me through it.",
+			"added": 1489872605
+		},
+		{
+			"topic_id": 3,
+			"title": "Music Site Project",
+			"body": "Guys I saved this site http://tindeck.com/ as a web page complete to try to create something similar on ZeroNet but I'm not a coder and I'm unable to finish it. I was able to change some of the HTML and there's some code in the HTML that's not needed. I put everything in a zip file and uploaded it to NullFolder http://127.0.0.1:43110/1GrtBsG57kjU2Z3iAQebG9D5c8CRDRLoPj/ If you guys are interested in trying to do something with it here's the hash a525effa7d7851ec86e9fe09332a0d948bac2281 and here's this blob:null/1467a108-6857-4c94-93c6-04d0cbdfbf6c I also added a picture in the zip of what I was trying to get it to look like. Also it uses AJAX requests that will have to be changed to use ZeroFrame API commands.",
+			"added": 1490743338
+		}
+	],
+	"topic_vote": {
+		"15_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"16_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_1QEfmMwKVxgR4rkREbdJYjgUmF3Zy8pwHt": 1,
+		"3_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"1_1FNuZtJdubQVu1Mxs65nBVWKuE84pSsoBG": 1,
+		"35_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": 1,
+		"2_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"2_12UhiqqmEFy9e5iDphNwnugKQrhWMMAP3J": 1
+	},
+	"next_comment_id": 52,
+	"comment": {
+		"1_1H1GKxHTUrNaP34cFdgAfTUJ8tpktSXAu2": [
+			{
+				"comment_id": 1,
+				"body": "I found this https://github.com/leoloso/PoP and here is a link to some people talking about integrating wordpress with zeronet. https://github.com/leoloso/PoP/issues/9",
+				"added": 1489465551
+			}
+		],
+		"1_1MwJSNBC1savftEvXQyoHcVLDgThtAPr6T": [
+			{
+				"comment_id": 2,
+				"body": "> [bot](#comment_155_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): The CMS is hit clone, then open the sidebar and rename the site. It couldn't be easier for a non-coder.After that you use any text editor to change colors. If people are afraid of text editor then they shouldn't be thinking to run a site. Certainly not expecting 99% of the internet to flock to that site. Expecting other people to do every last line of perfectly functioning code, keep your security and privacy intact and so on and so forth, just so that you don't have to even open a text editor once is disingenuous.\n> It is not right to run around where people are working every single day and night without lives to build something completely new and turning around and saying shit is broken so you are leaving. (i haven't even seen any posts @twiggydew has made about fixing or improving anything, which would be useful feedback) This post doesn't even mention a single bug. What are \"all of these bugs\" you mention? Anything not working needs to be explained, or it doesn't get fixed.\n> People are working hard, almost without exception for nothing in return other than praise. This 'huge golden carrot' (payday) for the project which reaches some level of perfection that is not explained isn't the way to use money to support hardworking individuals. How about asking for something very specific and offering a few hundred bucks to get it done. I mean Zeronet would not be here without the support Tamas has received from people who have been doing exactly that.\n\nI think twiggydew was talking about changing the zeroblogs background from white to a different color or using image for the background without having to mess with the css to do it. I can see what twiggydew is talking about there. I use wordpress and I don't have to go into the css to change anything on my wordpress blog, I do it with the wordpress cms. With a wordpress cms you can add banner, change the background color and you can even use templates. I noticed you can upload images to zeroblog easy but something needs integrated into it to add banners or headers like wordpress and an easy way to change the background, maybe even some zeroblog templates.",
+				"added": 1489467839
+			},
+			{
+				"comment_id": 9,
+				"body": "> [bot](#comment_165_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): \"research\"\n> https://chrome.google.com/webstore/detail/custom-google-background/jepibmfmhopgkplegmkjgifmhabbjadg?hl=en\n\nIt'd be nice if something like that could be integrated into ZeroBlog so a person could just click on a button and change the color or add a picture to the background.",
+				"added": 1489895905
+			},
+			{
+				"comment_id": 11,
+				"body": "> [kaffie](#comment_253_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): He's talking about a GUI for it, rather than just mucking around with CSS and such.\n\nIt could definitely use a GUI.",
+				"added": 1490076432
+			},
+			{
+				"comment_id": 12,
+				"body": "> [bot](#comment_168_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Took me an hour to add background color picker. A day or so to add profile avatars. A year to get that fast. :D\n> https://github.com/kustomzone/ZeroPlus\n\nI waited for 25 minutes and it still didn't fully load that site. http://imgur.com/a/YQnng",
+				"added": 1490105486
+			},
+			{
+				"comment_id": 13,
+				"body": "> [bot](#comment_169_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Swy about that. There was a bug affecting default Zeronet (not affecting Fuzium) which was fixed yesterday.Both Fuzium and Zeronet have same v0.5.3 so it was unexpected.\n\nYe I noticed you fixed it. I went to that site today and it loaded fine.",
+				"added": 1490236538
+			},
+			{
+				"comment_id": 44,
+				"body": "> [bot](#comment_201_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): I read some personal issues (Kaffiene Search is opensource) might stop your coding. Not prying. I just automatically assume money is the main thing that limits people coding. (besides motivation, which is tied to money insidiously in our current society) But yes, the existing model (Googles, Facebooks, Twitter especially right now) are bad for lots of reasons which are well known. [...]\n\nMoney isn't the only thing, some people just hate to code. I've tried to code at least four times and every time I try to code I hate it even more. I even work with a group of kids younger than me and they made straight A's in coding at their school because it's a required course they had to pass. I tried to get them to try ZeroNet and as soon as I told them you had to be able to code some on the ZeroBlog to change the look of it they wanted no part of it. One of the guys said he hated JavaScript even though he made straight A's in it. I've even considered leaving ZeroNet because I can't do anything with my ZeroBlog, I'm just holding off on doing it because I'm hoping nofish can do something to the blog to make it so non-coders can use it better. I already quit promoting ZeroNet months ago because I finally decided I will only promote things I can use myself. I can't use ZeroBlog so there's really no reason for me to promote ZeroNet.",
+				"added": 1493524120
+			},
+			{
+				"comment_id": 45,
+				"body": "> [kaffie](#comment_287_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): Money is one of the reasons. Hard to code when you need money haha. But yeah, I have a lot of instability in my life at the moment and sometimes it's hard to focus on coding. Which is why there's such huge gaps in my development schedule. Hopefully though things are starting to work out and I can work on Kaffiene a bit more consistently. [...]\n\nI don't care for the look and feel of ZeroMe so I don't use it and I've tried multiple times to upload videos to KopyKate with no luck and there's to many steps needed to upload the videos, fifteen steps needed. All I have to do on youtube is log in then upload the video. I gave up trying to upload videos to KopyKate so I quit seeding the site. I only use ZeroMail, ZeroTalk and ZeroMusic and sometimes I post a picture to ZeroPlus. I'm just holding out to see if nofish can do something with ZeroBlog to make it more usable for non-coders. I heard nofish has been looking at this https://github.com/artf/grapesjs Hopefully he can add something like this to ZeroBlog, if not then there's no reason for me to stay.",
+				"added": 1493535976
+			}
+		],
+		"1_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": [
+			{
+				"comment_id": 3,
+				"body": "> [bot](#comment_157_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): You have to sign the \"inner\" json files. The sidebar lets you do this, or can do it from console with signing option..\n> --inner_path data/users/content.json\n> or data/content.json if located there.\n\nI pulled out the side panel and hit sign button after I cloned the blog but it didn't make a difference but after I read your comment I went back and did it again and the second time it worked. Thanks",
+				"added": 1489537716
+			}
+		],
+		"1_1HJugahAiT2RnwJQdHuEd2RgW5fpWwNxnB": [
+			{
+				"comment_id": 4,
+				"body": "> [planespherev3](#comment_184_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS): I think it's twiggydew, the person from the \"leaving ZeroNet\" post, with an other username.\n> Working prototypes are rarely successful. See with electric car. 30 years they are trying, and it's only taking off now. \n> Before ZeroNet there was freenet, and it think there will be an other P2P network in the years to come which will have a real popular success. \n> An all in one stuff like the Tor browser bundle would probably have more success. Download, click to install, use. \n> Most casual users don't understand why they should type http://127.0.0.1:43110/ in their adress bar. \n> In the end, P2P internet will be successful, not because people are awakened, but because it's more efficient : cheaper than huge central servers, like bitcoin vs the visa system,  no down servers, ddos immunity, could also be faster than central internet in a few years.\n\nI don't think this is twiggydew. I finally met twiggydew on Pidgin and on Pidgin he goes buy oracle. He said he's done a lot of research on decentralized internet and he likes ZeroNet but he thinks it's going to go nowhere like other decentralized projects like Freenet. He said coders who create these projects are unwilling to make them user friendly for non-coders. He brought up ZeroBlog needing a cms because the majority of the population use some form of cms. He said he had a friend who worked for General Motors and his friend tried to get General Motors interested in being one of the first companies to start a small website on Zeronet but they refused because there's no cms. Most of your businesses even use some form of cms. He also said coders who create these projects have a bad habit of getting angry when they hear negative comments about these projects but the coders fail to realize that the negative comments are to let the them know what they need to work on and they should appreciate getting negative feedback just as much as positive feedback.",
+				"added": 1489854546
+			},
+			{
+				"comment_id": 8,
+				"body": "> [planespherev3](#comment_185_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS): P2P internet will take off anyway. \n> Will be a shame if it's a closed sourced P2P project thought.\n> I'm  a non-coder but i'm almost sure that a pre-configured web browser for ZeroNet, like Tor browser, and some adjustment, like Kaffiene or any other search engine on the start page, should significantly increase the number of users. \n> What would also be good would be for the all the clear torrent site to definitively be closed. After the summer 2016 shutdown, i feel that there was an increase in interest in  Zeronet because of that, but now with Torrentz2 with onion mirrors and other mirrors in countries which are out of reach, torrents sites in the clear are even better than before.\n\nThey might take off a little bit but not a lot. I kind of think the same way as twiggydew though about the cms. A lot of people use them and so do businesses. I can go right now to my wordpress site and click on a button in the cms to change the background color or use an image for the background. On the ZeroBlog you can't do that, instead you have to go and change something in the css file. I'd rather have buttons to change the look of my ZeroBlog instead of going to the css file to do it. A lot of people feel the same way. So far I cloned the ZeroBlog and I've done nothing else with it because I don't want to go into the files and change anything. It'll probably stay that way till I delete it. I don't even want to mess with one line of code. I'm trying to find a cms that maybe nofish can integrate into ZeroBlog.",
+				"added": 1489885534
+			}
+		],
+		"2_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": [
+			{
+				"comment_id": 5,
+				"body": "> [nofish](#comment_898_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It would be good idea, but it looks like not compatible with latest browsers as the demo site does not works anymore: http://yeti-cms.github.io/yeti-frontend/?yedit&editing=true\n\nYe I just noticed that. That sucks because at the bottom of the page I saw where it say it just need a himl and one line of javascript. The PHP was for the backend which I don't think in needed on ZeroNet. Correct me if I'm wrong but a CMS for ZeroNet would have to be made with html css and javascript is that correct or would it need something else?",
+				"added": 1489878712
+			},
+			{
+				"comment_id": 6,
+				"body": "> [nofish](#comment_899_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): With some modifications (use ZeroFrame API commands instead of AJAX requests) something like Yeti could work on ZeroNet.\n\nI don't no anything about the ZeroFrame API or how to modify it. Is there any documentation about the ZeroFrame API?",
+				"added": 1489879075
+			},
+			{
+				"comment_id": 7,
+				"body": "> [nofish](#comment_900_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Unfortunately it's not possible without it, but if you find a good one that actually works fine and maintained, then I will try to make it work with ZeroNet\n\nOk thanks, I'll keep looking",
+				"added": 1489880702
+			},
+			{
+				"comment_id": 16,
+				"body": "> [p2p](#comment_287_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): can this work with ZeroNet via ZeroFrame API commands: https://getpop.orgthe author of PoP talked about ZeroNet here: https://github.com/leoloso/PoP/issues/9\n\nI saw that as well. That guy leoloso seems to think there's a way to get it to work. I've looked my ass off for a CMS, the only other one I know of that might work is Grav. https://getgrav.org/ If we can't find one maybe a coder can build one from scratch for ZeroBlog. I definitely wish it had a CMS, I can't do a damn thing to my blog but add pictures to it, it's depressing.",
+				"added": 1490420828
+			},
+			{
+				"comment_id": 17,
+				"body": "> [bot](#comment_173_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Starting with one that is over 99% PHP (grav core) is a very hard way of going about it i think.(i done php for a few years, so i think it's not easy to just swipe the frontend part)I've been finding some nice json-based stores that are much closer to the Zeroframe API target.\n> http://brian.io/lawnchair/\n\nI finally found these but I don't know if any of it could be useful. https://github.com/StaticWebCMS/core https://github.com/JRGEMCP/MAHRIO-CMS https://github.com/plone https://github.com/jmdesiderio/swan-cms https://pypi.python.org/pypi/PieCrust",
+				"added": 1490471461
+			},
+			{
+				"comment_id": 18,
+				"body": "> [nofish](#comment_900_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Unfortunately it's not possible without it, but if you find a good one that actually works fine and maintained, then I will try to make it work with ZeroNet\n\nQuestion - Is there a way you can add drag and drop features to ZeroBlog so people can drop stuff like this? http://imgur.com/a/EjiT5 I seen a few videos on youtube about drag and drop in html 5 so I figured I'd ask.",
+				"added": 1490491581
+			},
+			{
+				"comment_id": 24,
+				"body": "> [nofish](#comment_900_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Unfortunately it's not possible without it, but if you find a good one that actually works fine and maintained, then I will try to make it work with ZeroNet\n\nPieCrust is about the only thing I've been able to find that has a flat file CMS that might work on ZeroNet. Can you please take a look at it and if it's possible please integrate it into ZeroBlog. https://pypi.python.org/pypi/PieCrust",
+				"added": 1491046762
+			},
+			{
+				"comment_id": 25,
+				"body": "> [nofish](#comment_904_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): We need something that is written in pure javascript/html with pluggable data storage.\n\nWell I looked my butt off and I can't find any that are pure javascript so I guess I wont be using ZeroBlog any time soon. Maybe you can figure something out later to make it easy to add headers and change the background of ZeroBlog, maybe drag and drop features like this. http://imgur.com/a/EjiT5 I seen some videos about being able to do that with HTML 5 so maybe you can do it with ZeroBlog.",
+				"added": 1491070846
+			},
+			{
+				"comment_id": 26,
+				"body": "> [p2p](#comment_296_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): no need to be pure javascript IMO. nofish said it is OK for Yeti CMS to port to ZeroNet if Yeti CMS is well maintained. Yeti CMS has font-end (javascript) and back-end (php)  relatively separated, which is good for porting. So anything similar to this is OK, but it is still not easy to find one.\n\nHard as fuck to find one, most cms's are php and Yeti isn't well maintained. I've looked all of github and have had no luck. I'm ready to give up.",
+				"added": 1491109425
+			},
+			{
+				"comment_id": 31,
+				"body": "Pure JavaScript Drag and Drop Library http://www.cssscript.com/pure-javascript-drag-and-drop-library-dragula-js/ Github https://github.com/bevacqua/dragula  CSS Script\nJavaScript / HTML5 / CSS3 http://www.cssscript.com/categories/drag-drop/",
+				"added": 1491672489
+			},
+			{
+				"comment_id": 32,
+				"body": "> [nofish](#comment_904_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): We need something that is written in pure javascript/html with pluggable data storage.\n\nnofish last night I found this site http://sitebuilder.simplereg.com/en/brand/1421/ You can create an entire site by dragging and dropping content into it. I love this site. On the top bar all you have to do is hover over the icons then hold the mouse down on them and drag that element to the page and then edit it the way you want. Is it possible for you to create a similar site like that on ZeroNet with those drag and drop features for people to clone and use. Maybe you can add another zero button on ZeroBlog and when people click on it, it opens those features for people to use, something like the pull out zero button on the right. Please check that site out and see if you can add those features to ZeroBlog. 🙂",
+				"added": 1491859915
+			},
+			{
+				"comment_id": 33,
+				"body": "> [nofish](#comment_909_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Looking nice, unfortunately it's not opensource :(\n\nThere's no way you can create those features on ZeroBlog?",
+				"added": 1491860553
+			},
+			{
+				"comment_id": 34,
+				"body": "> [nofish](#comment_910_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): With lots of work it could be possible. Simplereg's builder contains 51000 lines of code, as comparison ZeroBlog's current source code is 3100 lines.\n\nIt would be awesome to have that on ZeroBlog then I could do something with my blog.",
+				"added": 1491862436
+			},
+			{
+				"comment_id": 35,
+				"body": "> [nofish](#comment_909_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Looking nice, unfortunately it's not opensource :(\n\nHere's three I found that are similar and have drag and drop. They also have Github pages. https://www.odoo.com https://github.com/odoo/odoo/page/website-builder -- https://mobirise.com/ https://github.com/Mobirise?tab=repositories -- https://www.silex.me/ https://github.com/silexlabs/Silex Hope you can figure out a way to get those features on ZeroBlog.",
+				"added": 1491876381
+			},
+			{
+				"comment_id": 36,
+				"body": "> [broccoli](#comment_8_1Koe97YQ3wR5oFauQoGuUCBNqZ73SMTrKi): Any luck?\n\nNot really",
+				"added": 1491949517
+			},
+			{
+				"comment_id": 40,
+				"body": "> [bot](#comment_191_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Spamming a dev topic is just asking for censorship.\n\n> [ooo7](#comment_4_12WAPD3EzET8DYTdKmaymGznXppM5apAKu): \"它是我们的责任，迫使所有的人类接受七诺亚法律，如果没有 ~ 他们会被杀死。\"~ 拉比伊扎克 · 金斯伯格\"有人可能称之为共产主义，但我叫它是什么︰ 犹太教。\"~ 拉比斯蒂芬 · 韦斯\n\nI don't care if he spams or not, I've given up on ZeroBlog getting a CMS anyway.",
+				"added": 1492370920
+			},
+			{
+				"comment_id": 41,
+				"body": "> [p2p](#comment_299_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): Good news:nofish Stared this Free and Open source Web Builder Framework. Next generation tool for building templates without coding https://github.com/artf/grapesjsand he commented here:\n\nHopefully nofish can figure out someway to get it to work with ZeroNet.",
+				"added": 1492611754
+			},
+			{
+				"comment_id": 42,
+				"body": "> [p2p](#comment_299_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): Good news:nofish Stared this Free and Open source Web Builder Framework. Next generation tool for building templates without coding https://github.com/artf/grapesjsand he commented here:\n\nI finally found time to try out the Grapes Demo . I like it, I hope nofish can figure out a way to integrate it into ZeroBlog.",
+				"added": 1493063764
+			},
+			{
+				"comment_id": 47,
+				"body": "> [bot](#comment_204_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): I'm a cybernaut. Done nothing but research the web for 22 years while not working. Been coding on Zeronet 12 of the past 15 months. (spent the other 3 months learning Electron and blockchains etc) Everyone saw me spend 2 weeks building ZeroPlus for Kai0 who i've never met and wasn't paying me, also while i'm not working and paying rent, so it's out of my pocket. In fact i essentially borrowed $10k during 2016 to learn what i have. Don't start this \"coders don't care\" shit. Your feedback is terrible. How hard is it to give simple feedback which would get something fixed instead of this \"I'm leaving Zeronet\" or \"Zeronet has failed\" attitude?\n\nTwiggydew did give simple feedback. twiggydew said it needs something like GrapesJS or some form of a CMS. I appreciate what you guys have done so far but I can tell you guys just don't like negative feedback. You need to keep in mind not all of your feedback is going to be positive. You should be glad to also get negative feedback, it lets you know what things you need to work on, you shouldn't get mad for getting some. You coders should put yourself in a non-coders place. How would you feel if you couldn't do anything to your blog because it lacks features you normally use. I haven't done one thing to my blog since I cloned it a almost year ago. Again I appreciate what you coders are doing but please try to add features to the blog so non-coders don't have to worry about getting into the CSS file or any of the other files. Thank you bot.",
+				"added": 1493671317
+			},
+			{
+				"comment_id": 48,
+				"body": "> [bot](#comment_205_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Why did i spend 2 weeks helping Kai0? [...]\n\nBut some of us don't want to mess with any of those files like the CSS. If the blog doesn't get something like Grapes then there's really no reason for me to stick around because I will never get into those files to change the code. I use things like a CMS and drag and drop features. The reason I use them is because they are less of a hassle. With coding if you get something wrong in the code nothing works right then you have to get back into the code and try to figure out whats wrong. I stare at the code till I get massive headache then I have to start taking asprin, I hate it. Please try to figure out a way to change the look and feel of the blog without the need to code.",
+				"added": 1493675889
+			},
+			{
+				"comment_id": 49,
+				"body": "> [akito](#comment_37_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY): I still don't understand how some people want a good thing and think that every bad aspect of this good thing can just disappear into nirvana with a little of writing. There is a purpose, a goal and yes I'd call it a mission behind #redecentralize that makes projects like ZeroNet worth using, even if it isn't build YET(!!!) according to your highest satisfaction that was poured into you when using commercial and corporation infected web. You are right, it is not as easy to use, as the normal web. But is it not worth it to use it due to its big freedom and hugh mungus advantages for the people? Do you want to remain a corporate slave because they make using a channel or creating a blog a little easier and dumber for you? I don't think that is a valid reason. [...]\n\nI don't want to be a corporate slave but if I can't have things like a CMS or drag and drop on ZeroNet then I will stay on the centralized network and I'll just give up my privacy and security, many other people will do the same. What's the point of getting on ZeroNet if you can't use it. On the centralized networks it might be less private and secure but at least I can use it. Most non-coders will stick with what they can use. If you want to attract those non-coders to ZeroNet you have to add the same things they use on the centralized network. Think of the old saying - How to attract bees with honey. To non-coders features like drag and drop and CMS's are the honey.",
+				"added": 1493681060
+			},
+			{
+				"comment_id": 50,
+				"body": "> [bot](#comment_206_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): And i understand that too. I guess i put the time to help someone who strongly supports Zeronet (Kai0 is very active to get more Chinese using it) also was prepared to learn. When people clone his zite, he'll likely take the time to explain it if they have the time to learn ..and so on. [...]\n\nI hope you have luck integrating something into the blog.",
+				"added": 1493681192
+			},
+			{
+				"comment_id": 51,
+				"body": "> [akito](#comment_38_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY): What's the point of using a clearnet site for blogging if I sell my soul for it. That is my question opposed to your question. Also you CAN use it. It's just not AS easy. But not really hard either. What if your daughter would be like \"nah, I don't wanna learn to ride the bicycle. They should make it easier to use for me.\"? Or they don't want to learn swimming, because there are boats. Don't want to learn math in elementary school, because we have calculators. What would you say to them? I want to give the same answer to you.\n\nI want to change the look and feel of my blog without coding anything. You can't force people to learn to code, it will never work. If you want to get more non-coders on ZeroNet you have to give them the same things they use on the centralized network. Not everybody likes to code. I've even tried to get kids younger than me to use ZeroNet and these kids made straight A's in school in Javascript. I wanted them to test ZeroNet and I told them that to change some things on the ZeroBlog you needed to code some stuff and as soon as I told them that they wanted no part of ZeroNet. You would think if a person that made straight A's in Javascript they would use ZeroNet but it turns out that's not true. They hate coding too and only made straight A's to pass their course. If you coders on ZeroNet  really want to help ZeroNet succeed and get more people to use it you have to give them the things they use, and thank you for your replies.",
+				"added": 1493683249
+			}
+		],
+		"15_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 10,
+				"body": "https://github.com/search?utf8=%E2%9C%93&q=CMS+Django+&type=Repositories&ref=searchresults",
+				"added": 1490001944
+			}
+		],
+		"6_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": [
+			{
+				"comment_id": 14,
+				"body": "I like the Music site and I like that shade of purple. The songs play for me with no problems and I've uploaded a few songs to it, but it needs to look more like this site but in that purple color. http://mp3clan.com/mp3/acdc.html That way people can upload music to different categories.",
+				"added": 1490251622
+			},
+			{
+				"comment_id": 15,
+				"body": "I found another site called tindeck that's looks pretty cool. http://tindeck.com/ Also I have a question, couldn't one of you coders save a site like this as web page complete and then change the code as needed to get it work on ZeroNet? I assume that's possible and then you could give it a different name instead of tindeck.",
+				"added": 1490339403
+			}
+		],
+		"4_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": [
+			{
+				"comment_id": 19,
+				"body": "This ZeroTalk you can't but this one you can. http://127.0.0.1:43110/1C2JhCunGLtvyX56nQ88tcb87WnXspjWN Also you can post pics here http://127.0.0.1:43110/1NCRELKZ3zWRS6DijziYrfWi9dsUY8Fh8n/",
+				"added": 1490592206
+			}
+		],
+		"3_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": [
+			{
+				"comment_id": 20,
+				"body": "Here are two ZeroTalk sites in Chinese. http://127.0.0.1:43110/1Cjb8FNxaqhzBE7LQtPMQqkLyYmmdEtfEY http://127.0.0.1:43110/15i81tftAKTcsnV1ZRwq3b5nBoT7QSvhER",
+				"added": 1490596768
+			}
+		],
+		"3_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": [
+			{
+				"comment_id": 21,
+				"body": "> [ivesen](#comment_7_1NmkVyqBJX6a82YQFYkCNgQpE9AWsmeppp): if you just want to look at some code that has accomplished the same / similar things I have a couple of linksI'd love to help you but I can't say I've worked enough with zeronet yet ( actually I haven't even made a test zite for myself yet lol)\n> zeromusic:http://127.0.0.1:43110/1MusicXkuN2pk5hRdmroeyaCLDJtzTicpB/music:http://127.0.0.1:43110/1JMuapWVoZWAYgty4fdo3ngopAULbCPC6i/\n\nYe I'm seeding those two sites but those sites need a way to put the songs in categories. I figured I'd try to create one with categories but I have no coding experience and I fucking hate coding anyway. I'd rather shoot myself in the foot than code, so I just decided to pass it to someone who might be interested in working on it. I'd never finish it.",
+				"added": 1490750656
+			}
+		],
+		"2_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": [
+			{
+				"comment_id": 22,
+				"body": "Zeronet Central has a Zite development channel on the right. http://127.0.0.1:43110/1J1c7eML6uMwDU4uiKbKRxoqxGP6WMFMvb/",
+				"added": 1490839083
+			},
+			{
+				"comment_id": 23,
+				"body": "> [tun](#comment_11_1FxpcMsoTKTeUoNDRJKzqyLAwXuwVg3zgX): It's empty, though. I also don't like the idea of having to login - I really wish there were more anonymity features with ZeroNet (not that it's always necessary, just would be nice - thinking about how government and powerful agencies could abuse it).\n\nI see your point.",
+				"added": 1490935688
+			}
+		],
+		"1_1FNuZtJdubQVu1Mxs65nBVWKuE84pSsoBG": [
+			{
+				"comment_id": 27,
+				"body": "> [border0464fred](#comment_118_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): ... not sure it will help, we already have tons of empty cloned blog, People clone and forget.Having to put some coding effort into it is a filter for the interest of providing content.\n\nI cloned a blog and haven't done anything with it but thats just because the ZeroBlog has no kind of CMS similar to wordpress. I can't add a header to it and I can't change the background to a different color or even use a picture for the background. To do things like that you have to get into the CSS file and I'm not going to that because I hate coding, I've tried coding and I just don't like it one bit. ZeroBlog just isn't user friendly for non-coders. If it had a CMS I'd do something with my blog.",
+				"added": 1491417348
+			},
+			{
+				"comment_id": 28,
+				"body": "> [kw](#comment_11_1NbWEYaqzV7f2KRsayU2wGqjM17m9XyWCi): Check this out: http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:zerowiki\n\nThanks I'll check that site out, but ZeroBlog does need a way to be designed without getting into the CSS to add a header or to change the background, I don't have to code with wordpress to change the background or add a header. You can add images easily to a post in ZeroBlog, you just can't use one for a background without getting into the CSS. I'll never do anything with my ZeroBlog if I have to code. Take a look at ZeroBlog if you haven't.",
+				"added": 1491440652
+			},
+			{
+				"comment_id": 29,
+				"body": "> [kw](#comment_11_1NbWEYaqzV7f2KRsayU2wGqjM17m9XyWCi): Check this out: http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:zerowiki\n\nI did read where in HTML 5 you could drag and drop pretty much anything. It would be nice if a coder on ZeroNet could create a site that's all drag and drop and people could clone it. Then I could create headers and stuff in Gimp and just drag and drop them in my site. Here's all the things I believe you can drag and drop in HTML 5. http://imgur.com/a/EjiT5",
+				"added": 1491442499
+			}
+		],
+		"3_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": [
+			{
+				"comment_id": 30,
+				"body": "You sound like a Fed trying to trick people into helping you crash ZeroNet. Feds have been known to trick people. I find it odd nofish gets canceled at Ted Talks and now there's someone on ZeroNet wanting to crash it. 🤔",
+				"added": 1491668853
+			}
+		],
+		"13_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 37,
+				"body": "I'm trying LBRY but I get an error message so it's still a little buggy.",
+				"added": 1492050130
+			},
+			{
+				"comment_id": 38,
+				"body": "> [bot](#comment_190_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Yeh, i did the quickstart which all worked fine, then plugged in my wallet address to receive 50 credits for completing the task and got... \"-6: Account has insufficient funds\" ...yeh, not enough funds to receive funds. :P [...]\n\nI keep getting this error message http://imgur.com/a/BMERA Someone created an issue on LBRY's github page about this error so apparently I'm not the only one having this problem.",
+				"added": 1492102484
+			}
+		],
+		"1_1B5iBCuHQgbGdgTJmM2A2pZNVfpfp3EU5u": [],
+		"32_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 43,
+				"body": "Check out Beaker Browser https://beakerbrowser.com/",
+				"added": 1493495612
+			}
+		],
+		"14_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": []
+	},
+	"comment_vote": {
+		"57_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": 1,
+		"898_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"253_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"169_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"255_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"67_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": 1,
+		"15_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"287_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"288_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"30_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"8_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": 1,
+		"2_1FxpcMsoTKTeUoNDRJKzqyLAwXuwVg3zgX": 1,
+		"48_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"179_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"18_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"187_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"36_1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB": 1,
+		"7_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": 1,
+		"29_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"8_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": 1,
+		"27_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"31_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"128_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"910_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"8_1Koe97YQ3wR5oFauQoGuUCBNqZ73SMTrKi": 1,
+		"36_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"35_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"34_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"191_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"299_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"41_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"190_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"42_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"42_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"2_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY": 1,
+		"278_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"48_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"201_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"3_1R67TfYzNkCnh89EFfGmXn5LMb4hXaMRQ": 1,
+		"45_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"46_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"57_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"58_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1
+	}
+}

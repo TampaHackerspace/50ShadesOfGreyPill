@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G7/TFGwK2Hcp76azyEP9PVkJTW1IhvUsVV8ZjhIC5UcZu+Q0Isd3hTf8AZOp1uewfFEeJE2STRo+FFgCbQ6voJE=",
+ "cert_user_id": "thereisnopenguin@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "5b34901831ec32d8449d7a28404d2df49837aa868d05b2795f3f8d884d125539",
+   "size": 491
+  }
+ },
+ "inner_path": "data/users/1A2WvfAvmJ4RKp9YLt6u941eSpF4L53CTT/content.json",
+ "modified": 1494204043,
+ "signs": {
+  "1A2WvfAvmJ4RKp9YLt6u941eSpF4L53CTT": "G4w2XmAR6CvYGK3CO6gycPGHMsTJIcRF4AHTCxZmV5fsPwpFBi0bLVrybylNFgCq5oFIkMhXblDz43f2OPEbMaU="
+ }
+}

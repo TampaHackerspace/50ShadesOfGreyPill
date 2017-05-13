@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "bitmsg",
+ "cert_sign": "GxuhawEJKc4jFM1B3AH7qBY0syNu/zTIMcGJd5YTEpI3QqsSJa6MjFguFjqEteMDQYp5hIKLB5RH7TeNpVZ98Lw=",
+ "cert_user_id": "aesir@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "72825a744781197777d76ff8028e24473ce5b39a57d169aadb72c568142f32f9",
+   "size": 391
+  }
+ },
+ "inner_path": "data/users/12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH/content.json",
+ "modified": 1474831440.854709,
+ "signs": {
+  "12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH": "HLC7GWh2rw1fWVc7p676buLPZ7AMIyFGtlEtZjLqQU3z06XN4AyjVXm5EMoESQ94TpKuU9A95xWExrgg+BVgHog="
+ }
+}

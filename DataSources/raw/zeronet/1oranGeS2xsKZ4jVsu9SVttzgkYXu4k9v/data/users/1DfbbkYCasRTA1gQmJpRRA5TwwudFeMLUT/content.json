@@ -1,0 +1,48 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G4sTpEhvh2bjeR+eeG1fBIcmnMvMCsv+IlY90MPFECNIvnkuxtAXZyYSwheAIkMbwXKwIsBmZBK5+6ii6U0fnkk=",
+ "cert_user_id": "emilie@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "ebb0061a4cb84fc65b90614372bebcd16fa03bd5ef61801b3efc380d3a8e00f3",
+   "size": 1356
+  },
+  "data.json": {
+   "sha512": "8f5a9d06936c437951e63594c5e40344aff6457b61cbbda2a33316aef117d55a",
+   "size": 18056
+  }
+ },
+ "files_optional": {
+  "1489350760.jpg": {
+   "sha512": "6678938dc7c3847c8ddb18f9ca985d604ab957ec0ec0a22d72b68f479971fbc1",
+   "size": 50246
+  },
+  "1490061593.jpg": {
+   "sha512": "79db2158b05e4fa0692a308acc288dc529f4eeb1b9daf09b4887eb630f97644b",
+   "size": 51542
+  },
+  "1490312278.jpg": {
+   "sha512": "f0841e8b257c98ccc2ce0ee7177694a73c130b35faeb8c8113cdea9378b01622",
+   "size": 38592
+  },
+  "1491636543.jpg": {
+   "sha512": "211c04ac2980a937fdfe22b6a94aa69055faf5cea8a2911c1818c29be61e3295",
+   "size": 60774
+  },
+  "1491636912.jpg": {
+   "sha512": "2686fbdfcdb8daa2ffb268d94a2387493799cd6119cda26ff62339079d91982c",
+   "size": 26512
+  },
+  "1491637417.jpg": {
+   "sha512": "4864b5e8730987c11fdac2d0061aaa16b2b52cf9d195367a93af8d6a5fccce73",
+   "size": 48915
+  }
+ },
+ "inner_path": "data/users/1DfbbkYCasRTA1gQmJpRRA5TwwudFeMLUT/content.json",
+ "modified": 1492860361,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1DfbbkYCasRTA1gQmJpRRA5TwwudFeMLUT": "HIiQy4FxJnrEUG47wwlDBrH1hlJjRmLpzUujPWH38hCMaGvf+acx0QghEf1AzJ3qxGPknJ9tL4X/H6/Eqfa8DZU="
+ }
+}

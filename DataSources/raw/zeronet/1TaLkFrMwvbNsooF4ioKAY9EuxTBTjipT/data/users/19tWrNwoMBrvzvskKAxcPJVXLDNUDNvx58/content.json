@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HP3+FiK4C4+5THXfMsBAZ+V1//mUOYlrCzwIl4GBpZwzfujk188P1gZfZLAVEL4gzM/IotDBKnekk92+HxJrlsg=",
+ "cert_user_id": "zerochan@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "5034b4405532e86c203252e4f6630b338989ebad681467c9df3883201b04a1d4",
+   "size": 459
+  }
+ },
+ "inner_path": "data/users/19tWrNwoMBrvzvskKAxcPJVXLDNUDNvx58/content.json",
+ "modified": 1484836305,
+ "signs": {
+  "19tWrNwoMBrvzvskKAxcPJVXLDNUDNvx58": "G2z0Kqhx+T/aTjuU/vvaDQ1UTUWkuMA2PCWCUnagTZ+KQYfdQc/1BjbwOHVF4NheJR18RyTiit/vmIHdpbPKlFk="
+ }
+}

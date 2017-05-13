@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HOZ641REqIdaD0oIukQZYAxE7nCtRVWt0rO7YP4svbXQMf3C2pPg3f6Irpik/9jvxKHN+WWNxEYqvwN1jqJdisI=",
+ "cert_user_id": "cyberops@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "b5adfe26ba2ee3b8f054069ccf35462b7c831262f9f22b14fc80b3630dadf358",
+   "size": 241
+  }
+ },
+ "inner_path": "data/users/1B7uHVn9QWvjHE21UfYe3X7tJLVM2BjVKE/content.json",
+ "modified": 1494211283,
+ "signs": {
+  "1B7uHVn9QWvjHE21UfYe3X7tJLVM2BjVKE": "G6l3syGnW0oHflo7GOeJ9ZOx3DvkG/+RRPAGmS0uQNJoVzCUSFZ5yFZ1zqjGg/6NeKlz+QAewnhbQQNfIxeId0k="
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HCVZdMM3/p8NFhCJ5axKyYy5qr8sjPQbP2fJRqtqusljxWEdzKDGtLSCD3MLcb/DppvsUoNkdDO0FxbZsEz4em0=",
+ "cert_user_id": "leonidluka@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "6541864e28fce31873ef352aeac9e60abdcf7ee4ad46d54203ffcf17ab17be9d",
+   "size": 660
+  }
+ },
+ "files_optional": {
+  "1480591545.jpg": {
+   "sha512": "7e0991c07cb67e4ef2bb350d51442a12d5634dd12a7f66fbe41ac8d0739202bd",
+   "size": 39423
+  }
+ },
+ "inner_path": "data/users/13FrzA3UQhNmpYqtW6XfoadE3tRXKAuUEm/content.json",
+ "modified": 1480591542.443,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "13FrzA3UQhNmpYqtW6XfoadE3tRXKAuUEm": "G50X/bEJJT+2wOF3c/G8cuE+On/3qdlp8ggaaFcuF8+r6OKmAyc/ZYH0fkIetBzMzbEd+2ABNra5Ql6ymfnZ8JA="
+ }
+}

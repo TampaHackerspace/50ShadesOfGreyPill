@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HMrWv1QmyNi7Pz9FEOc8i0kTK33lnOWRIm+zTWF3snZ+WcGZiSZexN1hjfvYSBX4cOx6/6lwh/s0/bekqrlrjhw=",
+ "cert_user_id": "bbc@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "2c141f8503e969683bcdd14a7faf87893f68b3746ab448bcfb3480607f84deb8",
+   "size": 1487
+  },
+  "data.json": {
+   "sha512": "def471a80c8c4a32bd5d5e73930492649aa5736905959ea83bd30a6453b2f828",
+   "size": 5991
+  }
+ },
+ "inner_path": "data/users/1BNnSNUfRvzpCFumrbg5tbiE9dT61CZP9h/content.json",
+ "modified": 1484298904.862,
+ "signs": {
+  "1BNnSNUfRvzpCFumrbg5tbiE9dT61CZP9h": "G8Cwzt5sfwyaAvjHibel6QWOpgQ5l73DdHkGYUJxCwpmQNWqRtlxU4nYS1Sz8Q5syp5ipO4q79lNQ7fv6ye5JbQ="
+ }
+}

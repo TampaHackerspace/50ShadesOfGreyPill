@@ -1,0 +1,68 @@
+{
+	"next_comment_id": 7,
+	"user_name": "Emeraude",
+	"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+	"post_like": {
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1481738088": 1481755252,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1481738544": 1481756784,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1481825996": 1481847645,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1481655618": 1482367047,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1482805514": 1482805516,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1482861407": 1482876961,
+		"19BHxREFyyDejQPMrmhz2FgE2djzjWSLgm_1482877885": 1482878533,
+		"17pnj2wEu5qFeRtQErmLVtCBvYuocGum82_1482868915": 1482897333,
+		"1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h_1483544761": 1483551008,
+		"12vNNA9QZKJfaTi3uJ5X6ZegCKw3X4TKR6_1484152837": 1484153402,
+		"17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb_1484076428": 1484196273,
+		"1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484321657": 1484335313,
+		"1GuYKebkQAqGJ4tNpNp4TD1UuoHHudCJLA_1486452199": 1486469056,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1486503540": 1486570460,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1486691863": 1486746586,
+		"1DunM8CUWAxBcf3RWvweEke85AMqhVoTUs_1486850440": 1486905515,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1487122650": 1487169049,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488853940": 1488923116,
+		"1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b_1491402181": 1491402771
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@G1tich: I think python is usefull for POCs. Once your project works in python (especially in the case of ZeroNet), you have to rewrite it in a compiled language. It allows to build a library that can be used by any language that supports shared libraries (even PHP does) and to have a faster program. I don't know anything about Go and I don't want to learn it right now so I will not contribute to ZeroGo but I really think what you are doing is **cool**.",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1481459499",
+			"date_added": 1481679944
+		},
+		{
+			"comment_id": 2,
+			"body": "And add a button to change the language of a post you wrote, since a lot of users are writting posts both in english and in their mother tongue.",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1481738088",
+			"date_added": 1481755329
+		},
+		{
+			"comment_id": 3,
+			"body": "Indeed, I always tought it was a notification counter.",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1482861407",
+			"date_added": 1482877007
+		},
+		{
+			"comment_id": 4,
+			"body": "There are 3 halves ? :P",
+			"post_uri": "19BHxREFyyDejQPMrmhz2FgE2djzjWSLgm_1482877885",
+			"date_added": 1482878572
+		},
+		{
+			"comment_id": 5,
+			"body": "Since I'm using a laptop, I'm leaving ZeroNet running as much as I can (I probably have an uptime of 95%).",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1483466772",
+			"date_added": 1483477510
+		},
+		{
+			"comment_id": 6,
+			"body": "There are two ways to create such content: via an existing zite or by creating a new one. But if a zite contains malware/pedo, its visitors will just stop seeding it.\nBut propagating this kind of shit via existing zites, I think the zites have to adapt. As an example, we can flag accounts as spam on ZeroMePlus.\nThe illegal content is not really an issue. If hosting and seeding pedo stuff was that worrying, google and amazon would have been imprisoned years ago.\nRegarding the malware part, we need some security audit to prevent it. But remember that downloading malware is harmless if you do not execute it.",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484096314",
+			"date_added": 1484097063
+		}
+	],
+	"flags": {},
+	"comment_like": {
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_16": 1481847665
+	}
+}

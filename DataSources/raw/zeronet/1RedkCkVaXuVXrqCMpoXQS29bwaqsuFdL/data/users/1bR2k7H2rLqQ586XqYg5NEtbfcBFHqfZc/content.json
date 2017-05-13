@@ -1,0 +1,21 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G52PAmanTSfQaZxBqT4ZEonWbNYJgfvJwn9rk3GeUqMo8ThKwiqahIF2pQg4o6D2E+R8Nf5prARjS/QhewoxlQs=",
+ "cert_user_id": "lolcoolkat@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "b45367293d68ab4a62b2399a33747df1ae2fc92cd0ccf3dfb2adf2a7c469a30d",
+   "size": 1953
+  },
+  "data.json": {
+   "sha512": "24791e8687c993d23fa0ed7bfb93f830c33c31b840ec3fa62d47f38b5e0b7afb",
+   "size": 1213
+  }
+ },
+ "inner_path": "data/users/1bR2k7H2rLqQ586XqYg5NEtbfcBFHqfZc/content.json",
+ "modified": 1488600701,
+ "signs": {
+  "1bR2k7H2rLqQ586XqYg5NEtbfcBFHqfZc": "G2MviAn+FZ8iNDLxc0AT2wxF62VHphJ4Ir++jqR3ltAnCSTMTdDb3uYi6YFiWbSv1UGy0QKwDisKgNxXmOZENXQ="
+ }
+}

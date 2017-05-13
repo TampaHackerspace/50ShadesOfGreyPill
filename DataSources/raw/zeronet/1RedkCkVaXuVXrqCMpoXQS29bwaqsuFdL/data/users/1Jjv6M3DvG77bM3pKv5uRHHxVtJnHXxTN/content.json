@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HPurl3Xgo2IGo/NPE526VegGCtJ3gjXH83JaamZIbv+xrjss5EATw6vkOKn7S/NLROi6cYSKGG+UvWQLSE3GDHY=",
+ "cert_user_id": "wendyltan@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "bc65cebf6d7ab4104a97428035feb5d58753489572f6b5fbf3f98c242531d25b",
+   "size": 2048
+  }
+ },
+ "inner_path": "data/users/1Jjv6M3DvG77bM3pKv5uRHHxVtJnHXxTN/content.json",
+ "modified": 1485432754,
+ "signs": {
+  "1Jjv6M3DvG77bM3pKv5uRHHxVtJnHXxTN": "GzRnAUDKO9g2X58/OBsyOPvVXhLOPeGcmjtZ2IoyhbMY/8w66W8CwH5EBkdVxzmu3wrOWbVS8cVnDbU0qzB7jMs="
+ }
+}

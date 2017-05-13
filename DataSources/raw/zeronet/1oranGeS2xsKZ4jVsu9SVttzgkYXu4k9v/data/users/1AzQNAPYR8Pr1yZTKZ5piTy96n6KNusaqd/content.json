@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GyKyGP6GV+S+kaGRasu2PhMCpz9uK4gQ1oTaaUAYoLX7ZtEVgN1IFz+JiHLIRfMRONPq3ylojlBUb0XqPsmySjE=",
+ "cert_user_id": "uhdclub@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "8350e2cf1ae3f6861860e6928dea68a8f1c551873d4c5d8513061e55abbd7307",
+   "size": 1273
+  },
+  "data.json": {
+   "sha512": "145b95c88ba7c804cf191ba485046b1d98b8045a1ce713ba93c82316f86d7c77",
+   "size": 524
+  }
+ },
+ "inner_path": "data/users/1AzQNAPYR8Pr1yZTKZ5piTy96n6KNusaqd/content.json",
+ "modified": 1486705093,
+ "signs": {
+  "1AzQNAPYR8Pr1yZTKZ5piTy96n6KNusaqd": "HAfO/EIiiutnSkZw9e+FHExFB/lXXQ6POmZRc00VvDRUfbsr6SuQOBzcuzqBIaK65Y1B7bHCVBm28qudqXZvzq0="
+ }
+}

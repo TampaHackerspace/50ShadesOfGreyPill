@@ -1,0 +1,39 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Side2907",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1480525750,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1480526915,
+			"body": "Есть кто живой?)",
+			"date_added": 1480526913
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Grae: :)))",
+			"post_uri": "1CR8tDsJR9pptbN3kMFP5BiCzCi5zrDfr9_1",
+			"date_added": 1480526302
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1PPXv7mDwngXqE1D6hmUwSSF1j8JFhWpSP",
+			"user_name": "Zenprog",
+			"date_added": 1480527118
+		}
+	]
+}

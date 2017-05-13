@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HNklwyLeF11cH05llmisgTpCFekydODdjJuFBrKS85IJzMIWCurXTGNpFQd0AJYoERdV7qXQwxbWgh4MLJRny54=",
+ "cert_user_id": "mightyfedora@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "1138903ebf5cc77f9825de036ac741541ed500187d2b8253a1498fc624685b7b",
+   "size": 1634
+  },
+  "data.json": {
+   "sha512": "722167353ff85aa61ff64c38c35d0cf42ab71daad83e1990554cbaf1e5ad38c4",
+   "size": 375
+  }
+ },
+ "inner_path": "data/users/18CuHWkbYUJGALkjk8pkCusJBcsj7Um98y/content.json",
+ "modified": 1485452438,
+ "signs": {
+  "18CuHWkbYUJGALkjk8pkCusJBcsj7Um98y": "G0BRx+dLepyqMF1F1OJefGd1H80fzPYVciJgt+I3zA6xFG6/OxlGyXLXS8i+F8VK3V7tBPX8Bn0GItwCQJ+XHHg="
+ }
+}

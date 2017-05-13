@@ -1,0 +1,31 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "jpg",
+	"user_name": "Kimifish",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1480349142,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1480349224,
+			"body": "Превед, превед, распределённый интернет!",
+			"date_added": 1480349222
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Stellaris, Don't Starve",
+			"post_uri": "17pnj2wEu5qFeRtQErmLVtCBvYuocGum82_1480334785",
+			"date_added": 1480349372
+		}
+	],
+	"follow": []
+}

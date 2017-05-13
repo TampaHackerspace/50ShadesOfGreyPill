@@ -1,0 +1,27 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 1,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Qhostfiwazew",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"intro": "Olağan bir ZeroNet kullanıcısı",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1485042414,
+			"body": "Merhaba ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "16YmMiEjDG73LbzyBoKt12TMpCeb24jVQR",
+			"user_name": "Qhostfiwazew",
+			"date_added": 1485042625
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HBi8qw8EK4EYUqxenW5vWt0pzPrbT3hq49eTC+FLrvu5DvBIpeYSXloMvxda3moNqmeV5EHDnnnnqOH1QLWcw0w=",
+ "cert_user_id": "freeland@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "3958e473eef3f5a2ff5dbfabfd4026f98f9354cdcbe3fe2811c30a53131f3d99",
+   "size": 339
+  }
+ },
+ "inner_path": "data/users/1J8gSmYVtns2ezWCEbX4u5RGzYVrKRc3E3/content.json",
+ "modified": 1483853943,
+ "signs": {
+  "1J8gSmYVtns2ezWCEbX4u5RGzYVrKRc3E3": "G+zxWbVZMrXrSp5kset+MoBHLFo0Q1LXWYpW4z09HcPmBkP5pzI3//LW89BklGV05HvacMOlzN8aUviGdN73nRw="
+ }
+}

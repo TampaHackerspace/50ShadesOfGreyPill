@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HHGddcwARjmlp80y9RT8SY7HhHJTcelgrhhxREZ8ZDnXJ+uxb8qCVSKcCZT8+2ODLmw7XdIU/5aI+cPuPeloBq0=",
+ "cert_user_id": "hanamemo@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ff0cd7cceb311623d3aff2c5563a6035f90623daa93cabf2e6638bcaaabcc252",
+   "size": 926
+  }
+ },
+ "inner_path": "data/users/149VTGbqfHkDvZqrsWxSHJ81hqoMNa799J/content.json",
+ "modified": 1494435658,
+ "signs": {
+  "149VTGbqfHkDvZqrsWxSHJ81hqoMNa799J": "G2/E5FCxf82hM6grDCkC38IOMaCrkiMxLiqiAyRfQP/9HCtPb7gPJpSIIHAxzB8CSei11nXtvvqvC96jN/GKxsw="
+ }
+}

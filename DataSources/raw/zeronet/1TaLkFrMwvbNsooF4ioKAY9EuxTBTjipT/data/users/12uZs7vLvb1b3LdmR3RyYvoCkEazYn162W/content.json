@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G9x8fRJigRu5l+jg+PWKbQSiVuXT4M3CLtKf5XZYAZWV1qB3PXscXhxc06tpvhx4NcMhHYB+9Gb59njyT5ILg4k=",
+ "cert_user_id": "donaldwangqf@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "b6ea599224c6d248a8ed77cedaa887384dc7b74a1061d54998f6046db75acc72",
+   "size": 262
+  }
+ },
+ "inner_path": "data/users/12uZs7vLvb1b3LdmR3RyYvoCkEazYn162W/content.json",
+ "modified": 1493656625,
+ "signs": {
+  "12uZs7vLvb1b3LdmR3RyYvoCkEazYn162W": "G8FD4R37RnJsKofZ5PCr/Xdt4SWDPkg4UKzvA8n7oEBBYm1Yp4sRgD/3vpq36PdeSzmhPjsbQkyuzGmSLoN69/o="
+ }
+}

@@ -1,0 +1,205 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "ZeroLeaks - Bringing you the Snowden Leaks",
+			"body": "ZeroLeaks |Bringing you the Snowden files| is up and running: http://127.0.0.1:43110/1DaXkbpBN7d9h78T5mjB2gTV9Ui46Bjwcv/\n\nClick on the images to open the pdfs (and be patient, there are 545 of them).\n\nPlease share the love and help seeding :)\n",
+			"added": 1472241048
+		}
+	],
+	"topic_vote": {
+		"7_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"10_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"3_1M4Ab8CUu3byziHVvNXLHmPezC4Lg9hvNJ": 1,
+		"12_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"6_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR": 1,
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": 1,
+		"4_1BEyFJrKVaGLuogLirnrsa7yV2MXNvYpcp": 1,
+		"1_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": 1,
+		"1_19Z8aJ32x4pE2iGvVssPJazJgpGe5L32rq": 1,
+		"1_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": 1,
+		"6_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"1_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"2_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": 1,
+		"2_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw": 1
+	},
+	"next_comment_id": 29,
+	"comment": {
+		"7_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 1,
+				"body": "I like the progress on the site so far. But why there is no ebook section :(",
+				"added": 1471044549
+			},
+			{
+				"comment_id": 2,
+				"body": "> [sirenyc](#comment_47_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): Still in development!\n\nNice stuff, I am looking forward to upload some :)",
+				"added": 1471099703
+			}
+		],
+		"1_1N5Rs6CHsGPdDB1y3JqjYm9SLSWUTkjwEF": [
+			{
+				"comment_id": 3,
+				"body": "as @rapapobre says, give us a section for ebooks please :)",
+				"added": 1471272559
+			},
+			{
+				"comment_id": 4,
+				"body": "> [sirenyc](#comment_61_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): there is no way, no admin appears.\n\nthis is fun, the same crap as the other page then :(",
+				"added": 1471282934
+			}
+		],
+		"1_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV": [
+			{
+				"comment_id": 8,
+				"body": "> [testingzeronet12](#comment_131_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): Did you implement optional files? if so, how did you do so?\n\nYou can look at the content.json - I added the below line to content.json and then signed and published, what automatically generated a long list of all the (optional) files from the folders:\n\n<code>\"optional\" : \"(folder/subfolder/.*)\",</code>",
+				"added": 1472291455
+			},
+			{
+				"comment_id": 12,
+				"body": "> [testingzeronet12](#comment_134_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): Thanks. On which line number should I add that piece of code?\n\nI don't think the line number does really matter, but have a look at the content.json file in the site above and scroll down to the very bottom, you will see this line there.",
+				"added": 1472345409
+			},
+			{
+				"comment_id": 13,
+				"body": "> [testingzeronet12](#comment_135_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): The lines with optional that I see are:\n>  \"files_optional\": {  \"SIDtoday/data/0001.pdf\": {   \"sha512\": \"bbc311bb92e0b5dc474036edc0eeee9ebeb3821e0741cf181252a808a83d5942\",   \"size\": 29937\n> and\n> \"optional\": \"(EquationGroup/data/.|SnowdenLeaks/.|SIDtoday/.*)\",\n\nThe \"optional\" it is. The long \"files_optional\" list automatically gets generated when signing a content.json with the \"optional\" line. \"Files_optional\" lists all items from the folders specified under \"optional\".",
+				"added": 1472378266
+			}
+		],
+		"2_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR": [
+			{
+				"comment_id": 9,
+				"body": "For safety reasons I would install it on a virtual machine, especially when using Windows. If a site hosts malicious software, it'd be downloaded to your machine. Just get virtual box (it is free), install Windows (with activation hack) or Ubuntu on it and you're good to go.",
+				"added": 1472317108
+			},
+			{
+				"comment_id": 10,
+				"body": "> [zarty](#comment_5_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR): Interesting.  Can you tell me where to find free virtual boxes?  Sounds good to me!\n\nThere's a bit of a learning curve involved but it is doable with the right tutorials (That's how I learnt it).\nWith virtualbox you can create a computer inside of your computer and install an OS in it. Now I could write a book but there's a lot of information out there on Google.\n\nLooks like you have MacOS. You should have at least 2 GB RAM free for your virtual machine and a nice CPU as your hardware will be shared by two computers.\n\n1. First of all, you will need to download the virtualbox software on your computer. Get virtualbox from https://www.virtualbox.org/wiki/Downloads\n\n2. Get an ISO file for the OS you want to install - for Linux (for absolute beginners Mint Cinnamon would be a good choice as the UI is similar to Windows, simply head to https://www.linuxmint.com/edition.php?id=217). \nIf you want to install Windows, you can get an iso (at best Win7 64bit) from a torrent website, e.g. pirate bay or maybe you have a physical disk at home. For Windows you would neen an activation crack as well of course. \n\n3. To create a virtual machine with virtualbox and the iso, you will find thousands of guides online, e.g. http://www.makeuseof.com/tag/how-to-use-virtualbox/ or https://www.youtube.com/watch?v=PL7Dh6drlBw\n\n4. You will have a computer inside a computer, on which you can install ZeroNet.",
+				"added": 1472321190
+			},
+			{
+				"comment_id": 11,
+				"body": "> [zarty](#comment_6_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR): Thank you. Much appreciated.\n\nYou are welcome :) If you install Ubuntu/Linux Mint on the VM, setting up Tor is not too hard:\n\nhttp://127.0.0.1:43110/17Kom2G5qNDc6NaQwv445h1gFzxkY3ZtZe/faq/",
+				"added": 1472333061
+			}
+		],
+		"6_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR": [
+			{
+				"comment_id": 14,
+				"body": "I am not a dev either, but e.g. you could add content that adds value to the platform and attracts visitors. Or make a donation :)",
+				"added": 1472394702
+			}
+		],
+		"5_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 15,
+				"body": "I am paying for a music subscription service and am very happy with it. Games I buy on Steam. But Netflix shot itself in the leg when they started blocking VPN's. Outside of the US it has less content and is more expensive - not really a good deal.",
+				"added": 1474956719
+			}
+		],
+		"6_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 16,
+				"body": "Have a look at the help guide, under user_contents:\n\nhttp://127.0.0.1:43110/17Kom2G5qNDc6NaQwv445h1gFzxkY3ZtZe/site_development/content_json/\n\nuser_contents\n\nRules of allowed user content of current directory.\nNode \tDescription\ncert_signers \tAccepted domains and it's valid signer's addresses\npermission_rules \tAllowed file names and total directory size based on cert domain or authorization method\npermissions \tPer-user permissions. (false = banned user)\n\nExample:\n\n  \"user_contents\": {\n    \"cert_signers\": {\n      \"zeroid.bit\": [ \"1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz\" ]\n    },\n    \"permission_rules\": {\n      \".*\": {\n        \"files_allowed\": \"data.json\",\n        \"max_size\": 10000\n      },\n      \"bitid/.*@zeroid.bit\": { \"max_size\": 40000 },\n      \"bitmsg/.*@zeroid.bit\": { \"max_size\": 15000 }\n    },\n    \"permissions\": {\n      \"bad@zeroid.bit\": false,\n      \"nofish@zeroid.bit\": { \"max_size\": 100000 }\n    }\n  }",
+				"added": 1475083747
+			}
+		],
+		"1_17iKAuuhDPPmh5cs8Ea465mTdnQiR8WaMK": [
+			{
+				"comment_id": 17,
+				"body": "If you are hosting a page, is your port opened?",
+				"added": 1478958931
+			}
+		],
+		"1_19yAwBp684rPwVd8KBF1S8fcauSBNWvyFr": [
+			{
+				"comment_id": 18,
+				"body": "There are some torrent sites - but if you want something like play then build it. You could clone Play or ZeroTV and then modify them.",
+				"added": 1479927735
+			}
+		],
+		"3_1AeoDwzudke45NR3b6LfU4LsmPFs8AXUvi": [
+			{
+				"comment_id": 19,
+				"body": "> [shellbound](#comment_23_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9): Not an answer but have you considered the open source Darktable?\n\nYes Darktable is great :)",
+				"added": 1481570054
+			}
+		],
+		"1_13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR": [
+			{
+				"comment_id": 20,
+				"body": "http://127.0.0.1:43110/1RETRoPXWgnP5K5v7ggwBHTo7eyumPvq1/",
+				"added": 1481828898
+			}
+		],
+		"1_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": [
+			{
+				"comment_id": 21,
+				"body": "Yes you can do that - however, if you want to tunnel through tor then do not use raspbian - as the only got an old tor version in their repos which is long outdated. Edit: Arch with a light DE works well https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3",
+				"added": 1485466046
+			}
+		],
+		"2_13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31": [
+			{
+				"comment_id": 22,
+				"body": "Can also recommend https://prism-break.org/",
+				"added": 1485468061
+			}
+		],
+		"3_1MYGosq77dvsLueKyo2wVSNr5sfwjEFFhb": [
+			{
+				"comment_id": 23,
+				"body": "Dude you can stop it works",
+				"added": 1485500873
+			}
+		],
+		"1_1DxWcQsQ5cEBqXgc94pKWtzRo6Xn3iWsnK": [
+			{
+				"comment_id": 24,
+				"body": "May your dick rot and fall off, pervert.",
+				"added": 1485759664
+			}
+		],
+		"1_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": [
+			{
+				"comment_id": 25,
+				"body": "You can publish even if the port is closed, or if you have another port that you would like to use run \"python zeronet.py --fileserver_port [portnumber]\"",
+				"added": 1490436750
+			}
+		],
+		"1_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": [
+			{
+				"comment_id": 26,
+				"body": "I agree that I would like to see a site with upvote/downvote functionality like on reddit, that way the issues that we have with spam on ZeroTalk could be solved (unless the Arian brotherhood gets busy upvoting)",
+				"added": 1490446602
+			}
+		],
+		"1_1DoE2oLDwVmMgdk56QaNB7khXJWuyZstnU": [
+			{
+				"comment_id": 27,
+				"body": "That's what Hitler did, deep in the bunker after Stauffenberg missed him. Clone this page, call it ZeroEndSieg and disappear please.",
+				"added": 1491054859
+			}
+		],
+		"2_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": [
+			{
+				"comment_id": 28,
+				"body": "Fascists, I will try to be nice: ZeroNet is a project of people from many different countries - for that reason I do not believe it is the right place for you guys. I mean the Hitler Youth didn't camp in the Synagogue, right?\n\nStill, I believe everyone is entitled to their own opinion - if you want to discuss Jews, please start your own site and discuss the purity of your genes there. \n\nIf you want to contribute to ZeroNet in other ways than spreading your ideology like the witnesses of Jehova, you are welcome to participate on the main page.",
+				"added": 1491057908
+			}
+		]
+	},
+	"comment_vote": {
+		"47_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"11_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi": 1,
+		"12_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi": 1,
+		"3_1K6HCsJskZENYG42GR7ocJXg9WjFbEq9hc": 1,
+		"1_1K6HCsJskZENYG42GR7ocJXg9WjFbEq9hc": 1,
+		"14_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9": 1,
+		"4_1Kkc5j5xrEJevvV6sBqCrW93dscMVGbcDY": 1,
+		"28_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"23_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9": 1,
+		"22_1HiyP7AD74uGuGBZLqhcmfQgwu5VC8nnYY": 1
+	}
+}

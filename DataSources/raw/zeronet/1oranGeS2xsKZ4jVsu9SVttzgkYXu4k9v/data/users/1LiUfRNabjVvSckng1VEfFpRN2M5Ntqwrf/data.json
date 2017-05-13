@@ -1,0 +1,56 @@
+{
+	"next_post_id": 4,
+	"next_comment_id": 1,
+	"next_follow_id": 4,
+	"avatar": "generate",
+	"user_name": "Kisik21",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Irrationally random ZeroNet user. Also bash shitcoder and stuff.",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1487447428,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1487447480,
+			"body": "Okay, seems like this thing is working. But how?\n\nAlso, if the developer reads this, y'need to know - add Ctrl+Enter to submit posts.",
+			"date_added": 1487447478
+		},
+		{
+			"post_id": 1487491992,
+			"body": "This site probably needs a search bar to find more cute anime girls.",
+			"date_added": 1487491989
+		}
+	],
+	"post_like": {
+		"13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR_1482687215": 1487449624,
+		"13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR_1482687137": 1487449630,
+		"13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR_1482686748": 1487449738,
+		"13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR_1482686563": 1487449746
+	},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB",
+			"user_name": "Nekololi",
+			"date_added": 1487449545
+		},
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1487452169
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1LiUfRNabjVvSckng1VEfFpRN2M5Ntqwrf",
+			"user_name": "Kisik21",
+			"date_added": 1487459963
+		}
+	]
+}

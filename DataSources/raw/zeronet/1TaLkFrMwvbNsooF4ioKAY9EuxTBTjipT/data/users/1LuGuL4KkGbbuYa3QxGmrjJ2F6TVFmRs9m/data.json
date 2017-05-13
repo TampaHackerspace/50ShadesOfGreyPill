@@ -1,0 +1,28 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 4,
+	"comment": {
+		"2_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 1,
+				"body": "> [talnicrom](#comment_14_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa): So does this mean that, from the point of view of plain vanilla users, a site owner can lie about what users on the site are saying?  Of course they can't fake the user's signature.  Should the ZeroNet process somehow make the fact that user data is signed by the site but not the user more transparent?\n\nThat could happen on any online forum on the internet. Moderators edit people's topics all the time, especially if they break the forum rules.\n\nThen again, a site would quickly get called out and lose popularity if the site owner got caught modifying people's topics in a deceiving way.",
+				"added": 1473586511
+			},
+			{
+				"comment_id": 2,
+				"body": "> [nofish](#comment_756_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): If you have the site's private key (if you cloned it then it's in data/users.json), then you can modify any file:\n> \n> Remove the Topic/Comment from the user's data.json file\n> Open the sidebar\n> At the bottom change content.json to data/users/1editeduseraddress/content.json\n> Press Sign, enter your site's privatekey, publish and you are done\n\nThanks nofish.. you're my hero!\n\nAlso, there's a 5th step you forgot to mention: Reload and rebuild the Database. This refreshes the database to reflect the manual changes to data/users.\n\n@teszt - the reason you don't have access to the data/users/ folder is because there is an \"ignore\": command line written into the content.json of the main folder. This command tells the folder to skip all of the contents inside the data/users folder, so as to prevent topics from vanishing or going out of sync whenever the site admin makes modifications to the index.",
+				"added": 1473586657
+			}
+		],
+		"1_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 3,
+				"body": "Site updated to BETA v1.1 \nLots of updates and bug fixes. Remember that it can take up to 60-90 seconds for videos to load (this is an exaggerated estimate, to avoid disappointing!), especially large ones on a slow connection. My high school friend is too lazy to help seed my videos, lol",
+				"added": 1474382749
+			}
+		]
+	},
+	"comment_vote": {}
+}

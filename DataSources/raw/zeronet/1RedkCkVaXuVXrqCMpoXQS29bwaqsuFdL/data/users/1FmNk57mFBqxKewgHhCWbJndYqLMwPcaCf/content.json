@@ -1,0 +1,21 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HPQnm2Cj6a81OUL5kekePQaDFEwndtDqn8x98dmNAPaygGbD0tRkMTpW/bfcx/6LPIrdt1pAsvbmsQd9Vim9ypY=",
+ "cert_user_id": "kasota@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "66c682d17f9ebfb42a8c6b9670b2d2794270864d001207abcfd6085174dcc09d",
+   "size": 1430
+  },
+  "data.json": {
+   "sha512": "1a35362f86e3934d2e9120d41b77d20699d10a635cd7b47e96e1da2a0c8a5348",
+   "size": 1185
+  }
+ },
+ "inner_path": "data/users/1FmNk57mFBqxKewgHhCWbJndYqLMwPcaCf/content.json",
+ "modified": 1492095430,
+ "signs": {
+  "1FmNk57mFBqxKewgHhCWbJndYqLMwPcaCf": "G374+k/gCDOlxRPz4kjxuF0blBnpuVUgGPeMwgcjGME7gdpxDUqzTq4PmirNBYDNuQv1xpqUuhKRvTv36oNBpME="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "GxeoIae0fH/ZN6TS6MtRfHjCLRw5IZc68GflnB1cRlcrnu592qDU1avt1+pRyqp548dN9MG3VpGxqpQliM5Uu1I=",
+ "cert_user_id": "thinkabout@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "69c1c472975e68b3088f32c5f7883f0d4504f63b4ebc21433de9b81933610dd2",
+   "size": 670
+  }
+ },
+ "inner_path": "data/users/1BTBCmXf5nmJ1R6S75Q6cm43BrAfWQBv25/content.json",
+ "modified": 1480715073.954109,
+ "signs": {
+  "1BTBCmXf5nmJ1R6S75Q6cm43BrAfWQBv25": "HLULWHLcDHXRpD48D+EpHPA5J47x2m0oLVDS50oSETzO0VkDwTSyBMhbJFyMkKKTL5/l0rLI9+l19Bj21CN4QBY="
+ }
+}

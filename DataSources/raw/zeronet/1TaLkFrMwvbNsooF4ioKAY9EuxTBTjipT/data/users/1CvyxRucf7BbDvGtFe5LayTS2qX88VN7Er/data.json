@@ -1,0 +1,59 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"13_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"2_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw": 1,
+		"2_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"1_136wmwLTBJoGTjXTAa7sWmXewn9P53EKML": 1,
+		"36_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"1_1FLQiXhoa56vb91aiVxyAiC8L5YJy4W3Hi": 1,
+		"1_1CjmMpMZgtzY2w9REEwLWQbtHhd5B5NStZ": 1,
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"4_15XeFY67fYKCKxQPfeo246ELto2Gff1hAe": 1,
+		"1_1DFDjUGJdSp1kMuFq1AtNS9ZWmkVtbp947": 1
+	},
+	"next_comment_id": 6,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "test",
+				"added": 1490968710
+			}
+		],
+		"1_136wmwLTBJoGTjXTAa7sWmXewn9P53EKML": [
+			{
+				"comment_id": 2,
+				"body": "A lot of interesting features... Waited for this release for a long time.",
+				"added": 1492926272
+			}
+		],
+		"4_15XeFY67fYKCKxQPfeo246ELto2Gff1hAe": [
+			{
+				"comment_id": 3,
+				"body": "> [bot](#comment_195_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Haven't tried.. but prolly something like.. [...]\n\n1. Don't use sites when making zites\n2. ZeroNet has its own way to show different text for different languages (like ZeroHello - it is \"SITES\" and \"FILES\" for you but \"САЙТЫ\" and \"ФАЙЛЫ\" for me). The only problem is that I've forgotten that way. :D",
+				"added": 1493225224
+			},
+			{
+				"comment_id": 5,
+				"body": "> [bot](#comment_196_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Or within Electron you have \"locales\" folder at the main app (exe) level.\n\nThe only problem is that ZeroNet doesn't support Electron. :D",
+				"added": 1493473120
+			}
+		],
+		"1_12PByNvF6X2aF9wf68iSLFD1JDBKKAGTvo": [
+			{
+				"comment_id": 4,
+				"body": "Files are cached by your browser, I suppose. You can just delete cache for http://127.0.0.1:43110 and your sites will show new data. If you have a dynamic site, you should probably load data with JavaScript.\n*For developers:* You can probably disable HTTP caching in developer console settings.",
+				"added": 1493290525
+			}
+		]
+	},
+	"comment_vote": {
+		"41_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"279_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"3_1CvyxRucf7BbDvGtFe5LayTS2qX88VN7Er": 1,
+		"4_1CvyxRucf7BbDvGtFe5LayTS2qX88VN7Er": 1
+	}
+}

@@ -1,0 +1,72 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G1aw/VIDeeQi+6Gam4txCPbphWc76wITP6cM43wtMS194e4w1jbL9V2sdlsavXoS+oaOW8s6gRjqYeM9zCKw0+U=",
+ "cert_user_id": "binchan2@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "c5bcb5220bb9475e997cd68a176f32d07d2469f50fe9550b490c1398eff6246e",
+   "size": 29600
+  }
+ },
+ "files_optional": {
+  "1483544761.jpg": {
+   "sha512": "d7e7dbd90e3f84b7f0b439bf0f1aa8e53e756571126603d7aa9f0ff3e1818b89",
+   "size": 41682
+  },
+  "1483682081.jpg": {
+   "sha512": "580965d880f23fc6b6afff41896ca4836576fe6e390ee3a22fde7823eac5f52b",
+   "size": 37491
+  },
+  "1486607903.jpg": {
+   "sha512": "0bd0b3aaa56dc41c9a63df2cdc63eca6ab26e85ec8a2e4ed6166dc8195a1027b",
+   "size": 108119
+  },
+  "1488463144.jpg": {
+   "sha512": "46fc0101677b00292a47e9a604eb4588e4b5a16bf8858867cbb91f0db408af94",
+   "size": 74807
+  },
+  "1489026002.jpg": {
+   "sha512": "56b5b56633d9acf88d36d7c8099acd15ae7d0439b013bb2fa77c8207eee615f8",
+   "size": 51449
+  },
+  "1489064664.jpg": {
+   "sha512": "ca287c0630a78b5a5ca1dab9e8c17b823fc085f34a0f076625c463621065e8a1",
+   "size": 54838
+  },
+  "1489989516.jpg": {
+   "sha512": "6d8ce038eaeff80b67c6883061a42998b83f3ce431bc5ec9976fc7ada31107e8",
+   "size": 55184
+  },
+  "1491734172.jpg": {
+   "sha512": "ee08105ce35384b23370279724fe863dd21526cd2fbb3b769fee3e867d390993",
+   "size": 89512
+  },
+  "1492140736.jpg": {
+   "sha512": "a2abf4a8a41e711266b8da76ddbe6c583879188180b545078fabf6181d498fe9",
+   "size": 44318
+  },
+  "1493020715.jpg": {
+   "sha512": "817e33d32af20fb38e6d92602a5b293da855eecd8796a17dca1c881c17d4fac2",
+   "size": 36640
+  },
+  "1493266668.jpg": {
+   "sha512": "3a06fb422c514c94d7445a124c0b807e83f1aa37fefe443d063a4465163200fd",
+   "size": 32802
+  },
+  "1493424295.jpg": {
+   "sha512": "0074f25ed7332ce972efb1d4b4dfc0a536bbeef739fb53c647f1cd2b041c57a1",
+   "size": 34112
+  },
+  "bg.jpg": {
+   "sha512": "82f17336b9f7a550326c75f2e02bf7d77d0707faae06e4ac8e70144eec718a7d",
+   "size": 100278
+  }
+ },
+ "inner_path": "data/users/1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h/content.json",
+ "modified": 1494507826,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h": "HLz41lEvV0KJK8PIfevDkq+0oEdniASyh9XtvwMyxPHQeoUt6Jbb5PFnwLK/202wuoS3JpPucNZWOXmO0qs8l1U="
+ }
+}

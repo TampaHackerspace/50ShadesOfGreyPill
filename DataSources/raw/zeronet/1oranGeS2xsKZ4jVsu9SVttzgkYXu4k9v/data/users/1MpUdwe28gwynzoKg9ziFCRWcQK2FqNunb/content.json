@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HP+WZxZlOE62EUFyQ+ktknwjOCwIAdeohBhEx7wLztftFeJEVTvMsclXGCj59P6g3WIGB1QGyvpq44F50IycDGY=",
+ "cert_user_id": "firedog@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "3970a50f249c41f7dd7fb87eee8b2e62a99ec4bbe04d6d1feb4fa8afa09b43ff",
+   "size": 11249
+  }
+ },
+ "inner_path": "data/users/1MpUdwe28gwynzoKg9ziFCRWcQK2FqNunb/content.json",
+ "modified": 1485095013,
+ "signs": {
+  "1MpUdwe28gwynzoKg9ziFCRWcQK2FqNunb": "Gzwfibt+qpcxD5X3pep6tIB4GX2q4kPlqYImG2o5ObyhKjcVyarVBwvdGaoj/TpgufzuiyGlfdX3XUbfslGoscg="
+ }
+}

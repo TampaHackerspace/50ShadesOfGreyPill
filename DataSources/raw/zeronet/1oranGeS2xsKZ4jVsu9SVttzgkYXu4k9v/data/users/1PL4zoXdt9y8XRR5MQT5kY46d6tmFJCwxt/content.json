@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HA1hfXwFAto+7Rc9Djp+pvZqNQ9l2MJogQk9HOYPIBP0lwWPU0xS0LfAi0J+JiJR0m6GS27kxKUipKibn6GWg78=",
+ "cert_user_id": "starsky@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "b6fcb0abedd559f5c47ef4e18d67532ca2f5f6528ffd2a46c143312a66b9b86f",
+   "size": 1349
+  },
+  "data.json": {
+   "sha512": "33149f60441f88a9e26e7240a92cfec7daee471f4f27f73d858c5ac15f2b7eff",
+   "size": 368
+  }
+ },
+ "inner_path": "data/users/1PL4zoXdt9y8XRR5MQT5kY46d6tmFJCwxt/content.json",
+ "modified": 1486007777,
+ "signs": {
+  "1PL4zoXdt9y8XRR5MQT5kY46d6tmFJCwxt": "HCwZB7u3qyZ4t1cEaYcxwOY0kar4jPG6iWGrNOuCAUmpVKCdIq9/6jaO7q6SoUDeRdAtRab5jOqb6T6a0RjBtIo="
+ }
+}

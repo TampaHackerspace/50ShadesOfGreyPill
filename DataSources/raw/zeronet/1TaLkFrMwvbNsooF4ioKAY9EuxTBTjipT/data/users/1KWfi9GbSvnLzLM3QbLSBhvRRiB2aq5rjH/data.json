@@ -1,0 +1,95 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Recommend what to parts of a website to save",
+			"body": "Is it in any way possible as a zeronet site to have a little checkbox for saving a specific part of a website.\n\nI'm thinking for example a website for sharing comics, music or whatever, where you could just hit one switch to save the whole comic, so that you would seed it and also read it offline.\nInstead of just seeding what you recently visited, you could seed what you actually want to store offline.\nOf course a website would need to get some kind of permission before it could add this part of the website to your local storage.",
+			"added": 1478631145
+		},
+		{
+			"topic_id": 2,
+			"title": "What does Zeronet do against Sybil attacks and Spam?",
+			"body": "Does zeronet have any protections currently against spam and sybil attacks. I think this is a crucial problem in the future and scale of zeronet.",
+			"added": 1479332679
+		}
+	],
+	"topic_vote": {
+		"1_1BF9gEDMjApfYpXer7fwiX2s5BJnCfFoew": 1,
+		"2_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH": 1,
+		"4_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ": 1,
+		"1_1AhXDbKvcLap7TcS2542J7bFYzKHM3xeRU": 1
+	},
+	"next_comment_id": 8,
+	"comment": {
+		"1_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH": [
+			{
+				"comment_id": 1,
+				"body": "> [skylakexts](#comment_5_1JpxTAYzGdJppaeg7xS7VmBaXZF9d94WRj): You could try right click on the zero net icon in your taskbar and click on \" Request feature/report bug \" and then post there what you posted here , and if the developers will take it into consideration maybe it will be added as a new feature of the website. Good luck buddy.\n\nYeah thanks for the tip, if you or anybody is interested in their response: https://github.com/HelloZeroNet/ZeroNet/issues/635",
+				"added": 1478631927
+			}
+		],
+		"1_1BF9gEDMjApfYpXer7fwiX2s5BJnCfFoew": [
+			{
+				"comment_id": 2,
+				"body": "Thank you, this looks pretty useful. Will test it out soon!",
+				"added": 1479084274
+			}
+		],
+		"2_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH": [
+			{
+				"comment_id": 3,
+				"body": "> [waterrabbit](#comment_55_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Do you mean attacking ZeroNet by deploying a lot of \"dead\" nodes? I came up with a \"weighted peer count\" concept before. This algorithm tries to rate every peer with a score. By changing the definition and domain of the weights, that algorithm can be very paranoid.\n\nvery interesting read.\nI was mostly wondering how you keep people from creating new ids and spamming everywhere. Places like 0chan.bit seem to also have some problems with that and that [concept of decentralized captcha](http://127.0.0.1:43110/1Naw2p9tCVcipXFR8AJGCB1XtXMGyu9Dfb/captcha.html) doesn't really seem to solve this.\nCurrently ZeroID prevents that, but this is a centralized server afaik. I'm not sure how much information this server has and how important it is. Is it only used for account creation, or does it verify more even after that?\nYour weighted peer count seems to help with that. If only \"trusted\" or positively weighted peers could for example down vote spam or even post at all that could help out a lot.\nThough I'm not completely sure how this would be implemented in a trustless p2p.\nAs far as I currently understand it, a site owner in a kind of trusted and centralized way is able to delete content and is also always needed for new content to be uploaded, but he is able to authorize other users to allow content to be added.\nIdeally a site should be able to grow and gain even if the network gets seperated or peers are offline.\n\nSorry for my pretty much random and unorganized thoughts, but I'm very much interested in this topic and if you have further references on this topic, I would be very inclined to know about them, since the documentation for ZeroNet doesn't seem to go to indepth on the technology.\n\nEdit: [Trusted authorization providers](http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:40:Trusted+authorization+providers)\nAh so this answers most of my questions. It's not truly decentralized anymore, but I guess the best compromise. It doesn't allow for anonymity, though it would be great if this could at least be obscured more so that it's not that easily identifiable on 0chan for example.\nBut this would mean if I would run zeronet in a local network I could maybe create a post on this site and see it myself, but other people in this network wouldn't see my post since it can't be verified?\n\nEdit Edit: Currently reading through your blog apparently, you've already thought a lot about this. Very interesting!",
+				"added": 1479350044
+			}
+		],
+		"1_1AhXDbKvcLap7TcS2542J7bFYzKHM3xeRU": [
+			{
+				"comment_id": 4,
+				"body": "> [binero](#comment_84_17ac9ybVj5CtUpBvi5NeP1EwNZjfJoZWvt): I take no issue with censorship. Censor all you want, it's your right. \n> Comparing development of the Linux kernel to launching a rocket is a bit unfair. Building a kernel is just a minor requirement for building a rocket, and something like a space mission needs a clear objective, while the Linux kernel does not.\n\nSince when is censoring a right. I guess you mean self censorship, but even that can be problematic if you're forced to do so. Free speech is a right, censoring would be the opposite, but lately the term has been misused a lot, for example when people compared youtube not giving adsense to controversial videos to censorship.\nOf course deleting comments from a forum is not censorship, you have the right to free speech, but nobody is required to give you a platform to do so. Zeronet and other decentralized systems are a platform from everyone for everyone for free speech",
+				"added": 1479843197
+			}
+		],
+		"2_1J7dTw3ZsXUsXzpBqVWVj5aXRUMsMC6Nfc": [
+			{
+				"comment_id": 5,
+				"body": "My biggest hopes are still in the https://matrix.org project\nand the https://riot.im client that supports it.\nIt's not really a telegram/whatsapp replacement though, since it doesn't work with phone numbers, but imo that's a good thing.",
+				"added": 1480104998
+			},
+			{
+				"comment_id": 6,
+				"body": "No clue why people here like Signal so much, I couldn't even install it on my phone since it needs google play services and I'm not really interested doxxing myself as in giving them my phone number to send my messages to a proprietary server. WhatsApp isn't even open source at all, so there is no way I'm trusting that, same goes for wire.",
+				"added": 1480458822
+			},
+			{
+				"comment_id": 7,
+				"body": "> [erneraude](#comment_10_1JwPBvZYXLJzrA6YisjpsyTuuieFLCARS6): I'm pretty sure you don't know anything about Signal. They are not storing any messages and they can't even read them since they are end-to-end encrypted. Furthermore, they are only storing your phone number, your registration date and your last time signin date. I don't like storing metadata, but you have to agree this is quite reasonnable.About the google play services, I haven't had this issue.\n\nI do understand that. I guess my point about proprietary servers isn't really relevant since the encryption is client side and they use proven standards and their app is open source. Nothing I said was wrong though, you do send your messages to a proprietary server though, it just doesn't matter since they are encrypted. Don't know why you immediately have to assume I don't know anything since my points about meta data are still very much true and the only fork (I know of) that doesn't use google services [LibreSignal](https://github.com/wtfs/LibreSignal-BB10) can't be continued anymore since WhisperSystems doesn't want anyone using their services with anything but the standard Signal app. Hosting your own service is impossible though, since the server code is completely propietary, afaik.\nFrom more investigation I think you can install gsmCore to *fake* google services, but I'm not yet sure if it works with my rom, I will test it hoping it won't brick my phone, heh.\nSure I was maybe a little too negative about Signal, if you're okay with these compromises than it's probably your best option currently. It's really designed to be used by everyday people and that is it's biggest feature. (Even though I personally don't know anyone who uses it, just telegram and whatsapp)\n\nPersonally I'm using matrix where encryption is still in highly alpha stage or I use XMPP, which also doesn't come without it's flaws. The few people that have a pgp key I use email with pgp encryption.\nHonestly I really just wanted to play devils advocate and I was slightly pissed not to be able to easily install Signal just because I don't have gapps. It's a great project I definitely support, it's just not the perfect end to all communication, there are still ways to go and I have my biggest hopes on https://matrix.org currently.\n\nEdit: Well there is a signal-server repo, I guess the text-secure part is open, but not the redphone part? I really don't know",
+				"added": 1480548912
+			}
+		]
+	},
+	"comment_vote": {
+		"5_1JpxTAYzGdJppaeg7xS7VmBaXZF9d94WRj": 1,
+		"44_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"45_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"55_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"811_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"812_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"56_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"48_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"49_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"82_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM": 1,
+		"4_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH": 1,
+		"31_1H6K1WXWJnJVftS9SBB7aQZS8mJeHHUr6C": 1,
+		"5_13hcYDp4XW3GQo4LMtmPf8qUZLZcxFSmVw": 1,
+		"85_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"57_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"21_1KGozab6jp6jA6zVM8cTFdzMmBasriNP4f": 1,
+		"215_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"7_1LH3seL2knRt5Np5LeGRcgGdpwEu4Nc9Bx": 1,
+		"91_17ac9ybVj5CtUpBvi5NeP1EwNZjfJoZWvt": 1,
+		"5_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH": 1,
+		"7_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH": 1,
+		"13_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1
+	}
+}

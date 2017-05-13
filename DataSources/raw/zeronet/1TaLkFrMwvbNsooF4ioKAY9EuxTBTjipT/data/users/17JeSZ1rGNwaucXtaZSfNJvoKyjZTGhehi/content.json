@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HHO95CoNLY2HbUwVr1lwsIfVUscP0U+xzZvjmSfDQhVqQ5gp5O5iqV3d22i/UeIXnxihGDNAFdzjg745TK2ZRDg=",
+ "cert_user_id": "topsecrets@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "327e04d0ea09e94bdea29bc6faa855d15eea52325aa66c932c65e1ae8240358d",
+   "size": 1809
+  }
+ },
+ "inner_path": "data/users/17JeSZ1rGNwaucXtaZSfNJvoKyjZTGhehi/content.json",
+ "modified": 1480628517.110004,
+ "signs": {
+  "17JeSZ1rGNwaucXtaZSfNJvoKyjZTGhehi": "HFFu8sfVvNTkaLUA9/paX4lovQezLniaeuP49L3UMoSMKxaL3c/aQYVqQG/zOEd1qIWXA5iGAQEl2a60KJqk3Vg="
+ }
+}

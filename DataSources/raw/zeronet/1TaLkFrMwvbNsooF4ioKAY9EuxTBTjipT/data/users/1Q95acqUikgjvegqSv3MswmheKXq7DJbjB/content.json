@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "GzRpdsNWgtDUX/ylPvqLyTfjQ4yBqTjPC23SQjm2smNWz6MgIieGRywuxoOR6nlUxWANidVGWRjFUPxZXRLIb/E=",
+ "cert_user_id": "makesida@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "f1b6e80143b93781a76d6babca2fe9927e2f25dd3b4537808d22d57bcb25ce95",
+   "size": 495
+  }
+ },
+ "inner_path": "data/users/1Q95acqUikgjvegqSv3MswmheKXq7DJbjB/content.json",
+ "modified": 1487744247,
+ "signs": {
+  "1Q95acqUikgjvegqSv3MswmheKXq7DJbjB": "HE4pt4mDSD1Jrw8F5pTw/KTvvUZMqBQg9j4fdV+sAj0+H0/EgDzAOR/y25+anN4/YLL1en+TCu8yQNj7NZgmvPk="
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HLVmbsgnuvOwjnjScmJxIN7ObIw0KoFL0VlvcmWfu5FrPM77+kP83fyz4RbYNbJKM8qvWJF+wdfvlE2mZCQ2mOY=",
+ "cert_user_id": "fishmaster@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "1d2151a93c62997a210d2c84f4d3b2996aed842d182a31c8e5ad5d0b67acbcf3",
+   "size": 513
+  },
+  "data.json": {
+   "sha512": "ac95182a8f30766b83759715c4ee60052b690cafa0b15025bd25db473e2eb187",
+   "size": 761
+  }
+ },
+ "files_optional": {
+  "1482308428.jpg": {
+   "sha512": "188e0308f0134d5cb7eb2fa389e7fdca843b155d406d232a2c1ca69e92325d23",
+   "size": 42152
+  }
+ },
+ "inner_path": "data/users/1HvRYrzcqSr4DqvsjAtLaNR7Kv8fEQzjK9/content.json",
+ "modified": 1482316391.752,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1HvRYrzcqSr4DqvsjAtLaNR7Kv8fEQzjK9": "HK/qOW102QVWiNkLzAvwrcFBjk8eGWLhMQQfNFoF85ZgJfIn3cMR7Auqev9dsZDCa+Hw5Z20E9gQPOXfvZeP/zI="
+ }
+}

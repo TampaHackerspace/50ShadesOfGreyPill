@@ -1,0 +1,32 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HMlio/SSaH+m4h9vCxB4nnNEwXIqXWmlq1IOKGWDv5gc4bIYqZONl36Yejhx3AsWhEW2gdyLv/vfaAynGKdKuPo=",
+ "cert_user_id": "tianlang2929@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "976f2350529444387f1f7ff3b45da7556f8d8f4777804f982fa8bb172e3d2801",
+   "size": 1863
+  },
+  "data.json": {
+   "sha512": "cb1c92a539705c06beaf6bc2cef55888157ee9fe149870bfc0f61f55201744af",
+   "size": 46927
+  }
+ },
+ "files_optional": {
+  "1494160903.jpg": {
+   "sha512": "32ebda701e20ccf934db8411cbec65609531994c98e8044976408bfaa5cec159",
+   "size": 36485
+  },
+  "1494166504.jpg": {
+   "sha512": "ecf8ac4a09c784830e549855cb754e9bfe3412e8edfada41b678f702b84ab799",
+   "size": 65038
+  }
+ },
+ "inner_path": "data/users/19VX63e8XidEWrjJhGjMh4Pwf7vd5Yh7bz/content.json",
+ "modified": 1494215837,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "19VX63e8XidEWrjJhGjMh4Pwf7vd5Yh7bz": "G0LhErX892jTnjvM3K0MiZwKmZlKeklXFMtXgsljUlWJDKixV/tGTXTGZEokEvkFBeJjKuNykfncp7VDiH+nUtE="
+ }
+}

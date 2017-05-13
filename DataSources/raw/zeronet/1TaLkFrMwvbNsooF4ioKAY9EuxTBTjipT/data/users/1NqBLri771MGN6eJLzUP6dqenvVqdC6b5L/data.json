@@ -1,0 +1,59 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"7_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"8_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": 1,
+		"1_1NLj8uWHVf68dt53Wuz5HRqQvX7fScCXpD": 1
+	},
+	"next_comment_id": 9,
+	"comment": {
+		"7_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 1,
+				"body": "I run mine at boot with systemd :)\n\nPut:\n```\n[Unit]\nDescription=ZeroNet Service\nAfter=multi-user.target\n\n[Service]\nType=idle\nWorkingDirectory=/opt/ZeroNet-master\nExecStart=/usr/bin/python /opt/ZeroNet-master/zeronet.py\nUser=NAME\n\n[Install]\nWantedBy=multi-user.target\n```\nin: \"/lib/systemd/system/zeronet.service\" (change \"/opt/ZeroNet-master\" to your install location and \"NAME\" with the name of your user that runs ZeroNet)\n\nThen execute: `sudo systemctl daemon-reload`, `sudo systemctl enable zeronet.service`\n\nand: `sudo systemctl start zeronet.service`",
+				"added": 1476137662
+			},
+			{
+				"comment_id": 8,
+				"body": "Look here in the bottom:\nhttp://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n/",
+				"added": 1476493267
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 2,
+				"body": "test",
+				"added": 1476194420
+			},
+			{
+				"comment_id": 3,
+				"body": "test",
+				"added": 1476194453
+			},
+			{
+				"comment_id": 4,
+				"body": "> [01served](#comment_3_1NqBLri771MGN6eJLzUP6dqenvVqdC6b5L): test\n\nreply",
+				"added": 1476197629
+			},
+			{
+				"comment_id": 5,
+				"body": "> [01served](#comment_4_1NqBLri771MGN6eJLzUP6dqenvVqdC6b5L): reply\n\nrply",
+				"added": 1476198251
+			},
+			{
+				"comment_id": 6,
+				"body": "> [01served](#comment_5_1NqBLri771MGN6eJLzUP6dqenvVqdC6b5L): rply\n\nreply",
+				"added": 1476201104
+			},
+			{
+				"comment_id": 7,
+				"body": "test",
+				"added": 1476216049
+			}
+		]
+	},
+	"comment_vote": {
+		"46_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj": 1
+	}
+}

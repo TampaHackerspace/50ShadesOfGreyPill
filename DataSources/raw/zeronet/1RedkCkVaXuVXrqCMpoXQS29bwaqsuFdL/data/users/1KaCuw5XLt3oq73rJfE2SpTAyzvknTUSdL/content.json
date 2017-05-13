@@ -1,0 +1,28 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "GzTtuDc/rE8Jp9NM4osbFtLVA89Xliv/81Waj2e/+BJsabCXwfmBDren4MtCh8s5CSGB2yn64VWiAdm41QdDgHo=",
+ "cert_user_id": "liuropot@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "c0a2a9f22b94b6b08a2b56513688ef5db4d22aebaf0ceee8b1c321806d4c4468",
+   "size": 2150
+  },
+  "data.json": {
+   "sha512": "c93424ffce297c538cb887d0470b7e1f5ec953c5d867c26b285f8853482b27b8",
+   "size": 4742
+  }
+ },
+ "files_optional": {
+  "1490109736.jpg": {
+   "sha512": "d457e0ef9f9c41471b14329b0d4a9d4ba32d3124f21c23a047983276df23ee01",
+   "size": 71864
+  }
+ },
+ "inner_path": "data/users/1KaCuw5XLt3oq73rJfE2SpTAyzvknTUSdL/content.json",
+ "modified": 1490280072,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1KaCuw5XLt3oq73rJfE2SpTAyzvknTUSdL": "G2Z+A7clhycb6ZZmCaEfh06kYaa8UYHiOz9k4SLsx0PWE7AVSo5PjHGv28ZXck0aE0ghkaJUN/RsiVQkMVrETyo="
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HDCxWaXfG79wRfdf/gakEptpLyyLmobaPTVEIjA69yvQ+BZYTVampsjBmJbRTl+b2aQ/aHsgNyKjPlySOA8jntI=",
+ "cert_user_id": "marcsullivan@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "696f8b27bde4f6a58053e3a2e2c064249428838d00e526784f867ed131011955",
+   "size": 1694
+  }
+ },
+ "files_optional": {
+  "1483321494.jpg": {
+   "sha512": "30b7274fa178a090f8d525c9fb68aea5dddd0904e98e53d74f35557d4148bed1",
+   "size": 63172
+  }
+ },
+ "inner_path": "data/users/1AZYuruEDNTL2mivpgXFZs5iaUW359WXXc/content.json",
+ "modified": 1483324851.545855,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1AZYuruEDNTL2mivpgXFZs5iaUW359WXXc": "HLj3AIv5m4UPSuYYveW/QaQ+HY9D7V5Y/f3zezXVEMSjohS3HnaSSxhs6eD137n7q8AbHGzP3Tf3Eb0Q3Baapvc="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "Gw4xpwHH54rqRLbiRAiW9GtfFWrwrlaPcbl9xDy8XOhq8zUQhbcBH0dSyxolD+FhtdtICpsyfp4qweYH6GS9Gyo=",
+ "cert_user_id": "bartly@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "8fc67c22f7aea5b50855d30f4a29e8afb2e945d9a74f7f948f3998a269fc9fea",
+   "size": 1444
+  }
+ },
+ "inner_path": "data/users/1NTyunqMj3zioKiVtg9zxHjfyWjfXuYraV/content.json",
+ "modified": 1475369370.18857,
+ "signs": {
+  "1NTyunqMj3zioKiVtg9zxHjfyWjfXuYraV": "G4wOsuunBAzX4fMzh6k1aOl3be5E4Fmg973l1zn3P+NxtvhPQi5bx5+SqvZmBCI+VwwwH6ySUdhz/VfwvbP05gU="
+ }
+}

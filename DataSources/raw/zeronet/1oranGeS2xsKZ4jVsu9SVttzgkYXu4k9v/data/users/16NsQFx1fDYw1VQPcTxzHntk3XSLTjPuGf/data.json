@@ -1,0 +1,53 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 4,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Mahyar",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1483913754,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"1FDJZLxSkRZtQ1RcN9v8dkt5ujcS35E9rK_1483895945": 1483913807,
+		"1DxWcQsQ5cEBqXgc94pKWtzRo6Xn3iWsnK_1483890014": 1483913882,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1483887936": 1483914180,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1483752168": 1483914274,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1483717659": 1483914316,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1483466772": 1483914377
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "The developer went bananas :))",
+			"post_uri": "1FDJZLxSkRZtQ1RcN9v8dkt5ujcS35E9rK_1483895945",
+			"date_added": 1483913857
+		},
+		{
+			"comment_id": 2,
+			"body": "lmfao :))))",
+			"post_uri": "1DxWcQsQ5cEBqXgc94pKWtzRo6Xn3iWsnK_1483890014",
+			"date_added": 1483913898
+		},
+		{
+			"comment_id": 3,
+			"body": "running all the time on a local server",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1483466772",
+			"date_added": 1483914430
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj",
+			"user_name": "Martinv",
+			"date_added": 1483914171
+		}
+	]
+}

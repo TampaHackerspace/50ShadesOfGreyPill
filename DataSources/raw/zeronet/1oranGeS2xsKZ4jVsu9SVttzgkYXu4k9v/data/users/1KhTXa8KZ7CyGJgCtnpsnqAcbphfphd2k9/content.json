@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HDs3nLzzM8MufjQUcwmM6L8GGa3sInXDq2EBLhZQXr9BzbdVtNJ7tfCPJf/uQrMUgAcpXv/4kKgnk8OqDdzzFGo=",
+ "cert_user_id": "oddsocks@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "626c87296c3d6db9cba4ef11bc0ae47f1dce34d6efd2b20ede8a17a78f21e000",
+   "size": 1640
+  },
+  "data.json": {
+   "sha512": "330bd6d3fd25703b55da2fa2723a5745ce00848719ec069341271fb347343f8b",
+   "size": 583
+  }
+ },
+ "files_optional": {
+  "1484060665.jpg": {
+   "sha512": "9f218d6f92a250c99b2ef62344ed60b8a15daedbbcaeab6833ecc1695f66a97e",
+   "size": 32108
+  }
+ },
+ "inner_path": "data/users/1KhTXa8KZ7CyGJgCtnpsnqAcbphfphd2k9/content.json",
+ "modified": 1484060663,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1KhTXa8KZ7CyGJgCtnpsnqAcbphfphd2k9": "HC0ZrPHd34Grot1j7qSA5vy56BaKmmsTNXq6oj/9BLmy2CWqxerq1uY0+5S5rn20Et6miAhMpqzxEiz1RUReoJ0="
+ }
+}

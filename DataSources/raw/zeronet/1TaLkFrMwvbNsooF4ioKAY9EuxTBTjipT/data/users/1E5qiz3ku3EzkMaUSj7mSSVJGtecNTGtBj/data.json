@@ -1,0 +1,36 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Tor to hide IP",
+			"body": "Hello Zeronet users I have a question regarding the setup of using tor and getting tor to work on here.  As I follow the guide that is found on \"How To Make Tor Connection Work\" when I reach the mcedit /etc/tor/torrc part I get an Error saying \"Cannot Open /etc/tor/torrc For Reading\". Do any of you know how to get past this Error? Any help will be greatly appreciated.",
+			"added": 1468283421
+		},
+		{
+			"topic_id": 2,
+			"title": "ZeroID assistance",
+			"body": "How does one change their ZeroID name?",
+			"added": 1487122548
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"4893_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 1,
+				"body": "It's safe in the sense that you have TRUE ownership of the value that is applied to your address when comparing to how much you have in say a bank account.",
+				"added": 1459604343
+			}
+		],
+		"2_1E5qiz3ku3EzkMaUSj7mSSVJGtecNTGtBj": [
+			{
+				"comment_id": 2,
+				"body": "Great Thank you @mi6agent",
+				"added": 1487128117
+			}
+		]
+	},
+	"comment_vote": {}
+}

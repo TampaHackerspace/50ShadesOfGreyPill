@@ -1,0 +1,137 @@
+{
+	"next_topic_id": 9,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "help me!!i can not publish my site becuase i cannot open port 15441",
+			"body": "because i didn't have independent public ip address.i just can admin my professional router instead of ISP router",
+			"added": 1490430030
+		},
+		{
+			"topic_id": 2,
+			"title": "i create zite in the linux.then i visite the zite i created as a test but the browser page showed peer not found.",
+			"body": "why the zite i created cannot visited by the visitors.the port 15441 port is closed because i cannot administor the ISP router,but so many zeronet developers told me that the site can be visited even if the creator close the 15441 port",
+			"added": 1490529470
+		},
+		{
+			"topic_id": 3,
+			"title": "ok,let's talk in english here.but we should build other Chinese ZEROTALK zite",
+			"body": "",
+			"added": 1490591497
+		},
+		{
+			"topic_id": 4,
+			"title": "can i upload the picture to the ZEROTALK?",
+			"body": "I didn't find the upload button here.of course , it is not necessary here.but i want to build my own zite with upload picture function. i didn't know if i can implement that.",
+			"added": 1490591629
+		},
+		{
+			"topic_id": 7,
+			"title": "why i cannot visite my zite on another computer after i had published my site succesfully",
+			"body": "i can visite my zite on https://bit.no.com:43110/1A2YEocLvAV2pbPa4VJPDm3GNVyLYCMCsX successfully. but when i viewed my zite on http://127.0.0.1:43110/1A2YEocLvAV2pbPa4VJPDm3GNVyLYCMCsX, it showed no found peer.",
+			"added": 1490947161
+		},
+		{
+			"topic_id": 8,
+			"title": "how to make my site have enough connect to ensure whoever people can view my zite as they want whenever.",
+			"body": "",
+			"added": 1490947550
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 16,
+	"comment": {
+		"1_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": [
+			{
+				"comment_id": 1,
+				"body": "> [mynameislegion](#comment_25_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV): You can publish even if the port is closed, or if you have another port that you would like to use run \"python zeronet.py --fileserver_port [portnumber]\"\n\n########HERE IS THE CONSOLE INFO#############\n- Starting ZeroNet...\n- OpenSSL loaded, version: 01000207F\n- Version: 0.5.3 r2004, Python 2.7.11 (default, Jan  7 2016, 23:20:55) \n[GCC 4.4.7 20120313 (Red Hat 4.4.7-16)], Gevent: 1.2.1\n- Loading site...\n- Creating FileServer....\nTorManager Tor controller connect error: error: [Errno 111] Connection refused in TorManager.py line 159 > _socket2.py line 231\nFileServer Checking port 15441 using portchecker.co...\nFileServer [BAD :(] Port closed: Port 15441 is closed.\nFileServer Trying to open port using UpnpPunch...\nFileServer UpnpPunch run error: UpnpError: Failed to communicate with igd using port 15441 on local machine after 3 tries. in FileServer.py line 74 > UpnpPunch.py line 324 > UpnpPunch.py line 315\n- Gathering peers from tracker\nSite:1NXGcr..Fpj9 Publishing content.json to 5/0 peers (connected: 0) diffs: [] (0.00k)...\n- No peers found, sitePublish command only works if you already have visitors serving your site\n#######################################################\n\nmy console info is below,it said no peers found.i guess the error related to the 15441 port closed.",
+				"added": 1490527400
+			},
+			{
+				"comment_id": 2,
+				"body": "> [mynameislegion](#comment_25_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV): You can publish even if the port is closed, or if you have another port that you would like to use run \"python zeronet.py --fileserver_port [portnumber]\"\n\n> [mynameislegion](#comment_25_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV): You can publish even if the port is closed, or if you have another port that you would like to use run \"python zeronet.py --fileserver_port [portnumber]\"\n\n########HERE IS THE CONSOLE INFO#############\n- Starting ZeroNet...\n- OpenSSL loaded, version: 01000207F\n- Version: 0.5.3 r2004, Python 2.7.11 (default, Jan  7 2016, 23:20:55) \n[GCC 4.4.7 20120313 (Red Hat 4.4.7-16)], Gevent: 1.2.1\n- Loading site...\n- Creating FileServer....\nTorManager Tor controller connect error: error: [Errno 111] Connection refused in TorManager.py line 159 > _socket2.py line 231\nFileServer Checking port 15441 using portchecker.co...\nFileServer [BAD :(] Port closed: Port 15441 is closed.\nFileServer Trying to open port using UpnpPunch...\nFileServer UpnpPunch run error: UpnpError: Failed to communicate with igd using port 15441 on local machine after 3 tries. in FileServer.py line 74 > UpnpPunch.py line 324 > UpnpPunch.py line 315\n- Gathering peers from tracker\nSite:1NXGcr..Fpj9 Publishing content.json to 5/0 peers (connected: 0) diffs: [] (0.00k)...\n- No peers found, sitePublish command only works if you already have visitors serving your site\n#######################################################\n\nmy console info is below,it said no peers found.i guess the error related to the 15441 port closed.",
+				"added": 1490527457
+			},
+			{
+				"comment_id": 8,
+				"body": "> [flappyearz](#comment_5_1QEfmMwKVxgR4rkREbdJYjgUmF3Zy8pwHt): Do I look like someone who talks in such hieroglyphs? :-PWhy do you chinese people spam your gibberish everywhere? We cannot read it. Most of us don't even want to. What's the purpose, apart from providing minor annoyance? (Or you need peers to cache your stuff? Why not tell it in English?)\n\ndon't be aggressive.he really helped me",
+				"added": 1490591384
+			}
+		],
+		"2_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": [
+			{
+				"comment_id": 3,
+				"body": "EDIT!\ni created the zite in the linux,i visited the zite in windows on the other computers",
+				"added": 1490529568
+			},
+			{
+				"comment_id": 4,
+				"body": "> [kai0](#comment_70_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): https://bit.no.com:43110/[your blog address] ,then sign & publish.\n\nok,thanks,i would try",
+				"added": 1490529794
+			},
+			{
+				"comment_id": 5,
+				"body": "> [kai0](#comment_70_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): https://bit.no.com:43110/[your blog address] ,then sign & publish.\n\nworks!!!great!!",
+				"added": 1490530114
+			},
+			{
+				"comment_id": 6,
+				"body": "> [kai0](#comment_70_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): https://bit.no.com:43110/[your blog address] ,then sign & publish.\n\nhow can i add you as a friend here?",
+				"added": 1490530137
+			},
+			{
+				"comment_id": 7,
+				"body": "> [kai0](#comment_71_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): http://127.0.0.1:43110/1JfzWXHBzELkVF12km6ZdnKSZFUAs8mZBw/\n> http://127.0.0.1:43110/18CTdsSrkWBi3aPV2uh5DmCcqqDGdZ7h4B/\n\nsupport you!!i am from China too,can you give me a public contact method?(of course,not including your privacy data)",
+				"added": 1490546042
+			}
+		],
+		"1_1NmT7R64j1uMJ9qs3Bfgda5cGczFqNmCBL": [
+			{
+				"comment_id": 9,
+				"body": "javascript only you should learn",
+				"added": 1490591419
+			},
+			{
+				"comment_id": 12,
+				"body": "> [dun](#comment_19_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk): Yeah, while javascript is probably the biggest language right now (and very pertinent to web), I would suggest also learning a scripting language like python and a backend language like Java.\n\ni didn't suggest java.which is so heavey but uncompetitive.i suggest go or C++",
+				"added": 1490618542
+			}
+		],
+		"1_1FxpcMsoTKTeUoNDRJKzqyLAwXuwVg3zgX": [
+			{
+				"comment_id": 10,
+				"body": "i am Chinese and i use English here",
+				"added": 1490604508
+			}
+		],
+		"11377_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 11,
+				"body": "the most unstable sector of the cryptocurrency is the altcoin's competetions.the Bitcoin, ETH all had the possiblities to be repleaced by the altcoin in the future",
+				"added": 1490611180
+			}
+		],
+		"3_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": [
+			{
+				"comment_id": 13,
+				"body": "> [dun](#comment_15_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk): Yeah, there already is a Chinese language zite, linked from the top menu. Don't you see? -\n\nok, i had seen that.thank you",
+				"added": 1490618598
+			}
+		],
+		"7_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": [
+			{
+				"comment_id": 14,
+				"body": "in addition,i cannot publish my comment content successfuly just now when i enable the tor",
+				"added": 1490947242
+			}
+		],
+		"8_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": [
+			{
+				"comment_id": 15,
+				"body": "i am so puzzled how to build a solid website in zeronet",
+				"added": 1490947641
+			}
+		]
+	},
+	"comment_vote": {}
+}

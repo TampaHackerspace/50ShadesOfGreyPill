@@ -1,0 +1,22 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HDpmmmygmI860wJAylyAoaatwzikuizkKfioOk/GxyVWPIowMCPDnwlLRtd4FK/sSfLly3QvS4282rPN44ZEnRc=",
+ "cert_user_id": "megfault@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "ed6d192f3846aa758240116d8903ee4ed0a5f1b5a4b3dc2746bd0efba7929c6b",
+   "size": 1324
+  },
+  "data.json": {
+   "sha512": "6147cae44f133fec4b0cf4a1ee438fa391ef3c6aa46d7ff9d8e812ec06c27820",
+   "size": 20551
+  }
+ },
+ "inner_path": "data/users/1EErpRfR94YZwEMpAwsGKYsgSqHuRxvWib/content.json",
+ "modified": 1483994435.956138,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1EErpRfR94YZwEMpAwsGKYsgSqHuRxvWib": "HI2WSx2SeXRa0UeAN/SLE8fWW1uqQbTuWywM89oroAqzVr7YJwWBiJOgczX9eb4YdyORy/KlQxjAhS97DmT7OWg="
+ }
+}

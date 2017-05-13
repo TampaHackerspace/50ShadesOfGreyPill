@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HIX1jFrtD0l6kwAyzn+w0CBcREhso6wUbSfHkHEESsxPVC3X2eI90/oolTMcJJWJ1acR1dV3XHRXAWQIY3GghN8=",
+ "cert_user_id": "demize@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "1e36fdae85cc264bb6552afbf3b32ce285ac99dc51a9267e32d6ffbcb9364108",
+   "size": 1264
+  },
+  "data.json": {
+   "sha512": "377b047d432d2a32d7968832eb23577f896d8b04566a9fe3e20984b8403fe720",
+   "size": 1098
+  }
+ },
+ "files_optional": {
+  "1481996393.jpg": {
+   "sha512": "49ccf1c13f68e65ffd34fec802a3789c6f58ce8c66eba70cde845e3cc6edf6c6",
+   "size": 46851
+  }
+ },
+ "inner_path": "data/users/1Hw29Ubsa8ER1BffmTP3m5NqMTqUZtH5JB/content.json",
+ "modified": 1481997466.387924,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1Hw29Ubsa8ER1BffmTP3m5NqMTqUZtH5JB": "HFF050i4oA6wR9+Ad5uRj5qRy2710Dub5+U0Pr2OZyRjQkg0tNduavBMFTKYx/rSUKFlXzNxoiB7gxeYhFTAPTQ="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G4PNfc0s5cAvpTuhHZG22tq1ZmbtlgbF4lB9VKYS3fDRYnXqSJoe8T0e68MN44ZHGNrzUInC64O7t0aluAKp1is=",
+ "cert_user_id": "raulchiesa@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "8dfaae705f35c9cd554e88bd16b13231cc36f77759e98e98d730aca9f9255732",
+   "size": 732
+  }
+ },
+ "inner_path": "data/users/192y8Miw6vvoWX8gyiSnbnHPq2XV7pemet/content.json",
+ "modified": 1485192091,
+ "signs": {
+  "192y8Miw6vvoWX8gyiSnbnHPq2XV7pemet": "G621BJnc3M5FL32IpgBkqxb5HEAz8VGNwdNIfBbgshV5PCgCVpFom5PEpUGxR1iDSEZNQT1+oBu8QRNU/PBTRSE="
+ }
+}

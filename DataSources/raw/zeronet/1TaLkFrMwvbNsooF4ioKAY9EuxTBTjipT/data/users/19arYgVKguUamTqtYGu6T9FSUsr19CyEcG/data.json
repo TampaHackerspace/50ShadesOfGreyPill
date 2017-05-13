@@ -1,0 +1,220 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Realtime browser multiplayer games",
+			"body": "Is there any possibility now or in the future to create such games as agar.io in ZeroNet? Discuss.",
+			"added": 1462354747
+		},
+		{
+			"topic_id": 2,
+			"title": "Help me understand purpose of different keys",
+			"body": "I backed up and deleted all files from _ZeroNet/data/_. When I start zeronet, four files appear: _cert-rsa.pem_, _key-rsa.pem_, _sites.json_, _users.json_.\nContent of _users.json_: https://i.imgur.com/5wQldRj.png\nContent of _sites.json_: https://i.imgur.com/SjkKKAL.png\n\nHere the questions:\n1. What is the purpose of two _.pem_ keys?\n2. What is the first key \"19SViQ...kz\" in _users.json_?\n3. What is \"auth\\_address\" and \"auth\\_privatekey\" for certs and sites in _users.json_?\n4. With what key is created certificate signature \"cert\\_sign\" in _users.json_?\n5. What is \"master\\_seed\"  in _users.json_? What key is created from this seed?\n6. What is \"wrapper\\_key\" in _sites.json_? Does it have any relation to wrapper\\_nonce in iframe link?\n\nP. S. Sorry, for posting imgur links, I don't know any picture hosting sites in ZeroNet, and there is not possible to post code blocks here as far I know.",
+			"added": 1462891371,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 3,
+			"title": "A concept of a decentralized CAPTCHA for ZeroNet",
+			"body": "http://127.0.0.1:43110/1Naw2p9tCVcipXFR8AJGCB1XtXMGyu9Dfb/captcha.html",
+			"added": 1477508157
+		}
+	],
+	"topic_vote": {
+		"2_1Frg5nFndHFkmUaaGK7Qr46dRLX8a2BhBT": 1,
+		"3_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ": 1,
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_19g2fuT55MsWGycWVxRcfuJ8QnFFujXFyD": 1,
+		"2_14PXH1VLXEseL1h6gLpHqi3bXEAdamDwgg": 1,
+		"1_1CbSb2Wm1E5GjcsetipwHLb5Qc9Yj6dx7x": 1,
+		"3_1LJLVfT9hKRuTHzBKTpse57PGfpwx82myR": 1,
+		"7_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1
+	},
+	"next_comment_id": 28,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "http://127.0.0.1:43110/1LU8xoH9wk1DaWDkegEqT1d4UP6R2MJgXd/",
+				"added": 1462124480
+			},
+			{
+				"comment_id": 10,
+				"body": "**bold**",
+				"added": 1462887712
+			},
+			{
+				"comment_id": 11,
+				"body": "_italics_",
+				"added": 1462887724
+			},
+			{
+				"comment_id": 12,
+				"body": "<pre>\nCode\nc o  d e\n</pre>",
+				"added": 1462887770
+			},
+			{
+				"comment_id": 13,
+				"body": "``\nfdfg\nbb bn    n\n``",
+				"added": 1462887857
+			},
+			{
+				"comment_id": 14,
+				"body": "``fd``\n``ccc``",
+				"added": 1462887874
+			},
+			{
+				"comment_id": 15,
+				"body": "vb\n    h   t",
+				"added": 1462887961
+			},
+			{
+				"comment_id": 16,
+				"body": "{\n  \"19SViQDfXFDx75GFTTu1cjuqQ8Gw4Y21kz\": {\n    \"certs\": {\n      \"nanasi\": {\n        \"auth_address\": \"1PqSJjCNLRD35EfuBjUvDQqw5Tv6Px9Hzo\", \n        \"auth_privatekey\": \"5K8nTBJBxwxGE2zf5iJGC8UszqUfmFhvA4YqJwEm1Kvyh2cBiPG\", \n        \"auth_type\": \"web\", \n        \"auth_user_name\": \"1PqSJjCNLRD35\", \n        \"cert_sign\": \"Hx373w1iYodNC65U4z7jDffD4yLelX4vAQWXwqlPZE0SaeWli8Iq9WOJ+CLCYBcgpCaoqDQfIqBfq2HnyCvS6uE=\"\n      }\n    }, \n    \"master_seed\": \"0395749a8d9b61aff1c0bfb801d365ffd4c59f7f3ea2d116575d53c4b3887f3d\", \n    \"sites\": {\n      \"16KzwuSAjFnivNimSHuRdPrYd1pNPhuHqN\": {\n        \"auth_address\": \"1PqSJjCNLRD35EfuBjUvDQqw5Tv6Px9Hzo\", \n        \"auth_privatekey\": \"5K8nTBJBxwxGE2zf5iJGC8UszqUfmFhvA4YqJwEm1Kvyh2cBiPG\", \n        \"cert\": \"nanasi\"\n      }, \n      \"1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D\": {\n        \"auth_address\": \"188bMErmRdJ3xQ8pxjGDprj81WpMfquBhP\", \n        \"auth_privatekey\": \"5KRpNKTYKYA9Egz2mwvuZZUbrqev8B3vGFJ9aMEkABCA23Dt3rZ\"\n      }, \n      \"1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F\": {\n        \"auth_address\": \"1J1Yv9wiVV2q4tJqbDmMnMvTugpRdL8Qvm\", \n        \"auth_privatekey\": \"5JX5Ba8M1LJahEHqX9FXhProiLCq7xCZH1PvoVFqbVaUhMPkW8Z\"\n      }\n    }\n  }\n}",
+				"added": 1462888037
+			},
+			{
+				"comment_id": 17,
+				"body": "``{``\n``  \"19SViQDfXFDx75GFTTu1cjuqQ8Gw4Y21kz\": {``\n``    \"certs\": {``\n``      \"nanasi\": {``\n``        \"auth_address\": \"1PqSJjCNLRD35EfuBjUvDQqw5Tv6Px9Hzo\", ``\n        \"auth_privatekey\": \"5K8nTBJBxwxGE2zf5iJGC8UszqUfmFhvA4YqJwEm1Kvyh2cBiPG\", \n        \"auth_type\": \"web\", \n        \"auth_user_name\": \"1PqSJjCNLRD35\", \n        \"cert_sign\": \"Hx373w1iYodNC65U4z7jDffD4yLelX4vAQWXwqlPZE0SaeWli8Iq9WOJ+CLCYBcgpCaoqDQfIqBfq2HnyCvS6uE=\"\n      }\n    }, \n    \"master_seed\": \"0395749a8d9b61aff1c0bfb801d365ffd4c59f7f3ea2d116575d53c4b3887f3d\", \n    \"sites\": {\n      \"16KzwuSAjFnivNimSHuRdPrYd1pNPhuHqN\": {\n        \"auth_address\": \"1PqSJjCNLRD35EfuBjUvDQqw5Tv6Px9Hzo\", \n        \"auth_privatekey\": \"5K8nTBJBxwxGE2zf5iJGC8UszqUfmFhvA4YqJwEm1Kvyh2cBiPG\", \n        \"cert\": \"nanasi\"\n      }, \n      \"1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D\": {\n        \"auth_address\": \"188bMErmRdJ3xQ8pxjGDprj81WpMfquBhP\", \n        \"auth_privatekey\": \"5KRpNKTYKYA9Egz2mwvuZZUbrqev8B3vGFJ9aMEkABCA23Dt3rZ\"\n      }, \n      \"1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F\": {\n        \"auth_address\": \"1J1Yv9wiVV2q4tJqbDmMnMvTugpRdL8Qvm\", \n        \"auth_privatekey\": \"5JX5Ba8M1LJahEHqX9FXhProiLCq7xCZH1PvoVFqbVaUhMPkW8Z\"\n      }\n    }\n  }\n}",
+				"added": 1462888065
+			},
+			{
+				"comment_id": 18,
+				"body": "_h_",
+				"added": 1462890192
+			}
+		],
+		"1_1DEGNzqUcsqYMGB68Py4M7UdksAd5ed4AW": [
+			{
+				"comment_id": 2,
+				"body": "> [nobite](#comment_2_13KnmV3n2ZEpU77hx4WuLVdBrUR3kidtq7): Ah. That makes sense. I had thought it is only .onions that I then connect to and they sort of relay the content of non-tor users by simply serving it too.So\n[xx:xx:xx] Site:xxxxxx...xxxx [OK] 66.159.108.162:15441: File not changed 3/3\ndoes not mean I connected to that ip directly, but via exit nodes.OK, thank you.\n\nYou connect to that ip directly if you not started ZeroNet with option \"-tor always\", otherwise you connect to that ip via random TOR exit node.",
+				"added": 1462350756
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 3,
+				"body": "Is it possible to publish some file to ZeroNet that is not signed by anyone? Actually, I want to create a chat that is not require ZeroID and I don't see any other ways how to bring it to life.",
+				"added": 1462361604
+			},
+			{
+				"comment_id": 20,
+				"body": "When I see \"Content published to 5 peers\" message, does this indicate, that 5 peers already downloaded my content, or only that the content was announced to them? How can I find out when they downloaded it, especially on sites with optional content, such as [0chan](http://127.0.0.1:43110/0chan.bit/)?",
+				"added": 1462894634
+			},
+			{
+				"comment_id": 21,
+				"body": "> [ancap](#comment_29_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz): Does zeronet.py sitePublish de-anonymize Tor users?\n\nNo, if you use `python zeronet.py --tor always siteSign <site_address> --publish` command (I think it is a good idea to add this in FAQ).\nBefore publishing make sure that the other instances of zeronet is not running, otherwise you will get this error and nothing will be published: \n`FileServer StreamServer bind error, must be running already: [Errno 98] Address already in use: ('127.0.0.1', 15441)`",
+				"added": 1463329086
+			}
+		],
+		"3_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ": [
+			{
+				"comment_id": 4,
+				"body": "Please, explain it.",
+				"added": 1462474672
+			}
+		],
+		"1_16JexJdvqRHRobrHnkbSWmdC8pfkkQzmiU": [
+			{
+				"comment_id": 6,
+				"body": "You can also use proxies to distribute your site. For example:\nhttp://zeronet.crypt.cat:8880/1PKiXD9pbxNLZUUz2WGxCPbr9hXYX6JszU\nhttps://bit.no.com:43110/1PKiXD9pbxNLZUUz2WGxCPbr9hXYX6JszU",
+				"added": 1462791366
+			}
+		],
+		"7_16tWPYFLbad3R8iGcMuetyiwC2q5qXp45T": [
+			{
+				"comment_id": 7,
+				"body": "It's a prank.",
+				"added": 1462803069
+			}
+		],
+		"1_19g2fuT55MsWGycWVxRcfuJ8QnFFujXFyD": [
+			{
+				"comment_id": 8,
+				"body": "Thanks.",
+				"added": 1462883452
+			}
+		],
+		"7_1DcDDitsjFJohvwonPmpibRChmA7uGxqL7": [
+			{
+				"comment_id": 9,
+				"body": "> [zozon](#comment_117_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55): How it is determined that the site is 'able to define' such info?Still trying to understand what has to be done to the 'page' code to make site feed.Is it specific Java function/object?it needs a bit more explaination (or better some simple example that does only feed)\n\nThis queries for every site stored in users.json, and your site can write to this file with ZeroFrame API command \"feedFollow\".",
+				"added": 1462884379
+			}
+		],
+		"2_19arYgVKguUamTqtYGu6T9FSUsr19CyEcG": [
+			{
+				"comment_id": 19,
+				"body": "> [ks](#comment_80_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx): You should probably consider the username nanasi compromised since you have disclosed its private key.\n\nThis sertificate automatically created [here](http://127.0.0.1:43110/16KzwuSAjFnivNimSHuRdPrYd1pNPhuHqN/). The username is actually \"1PqSJjCNLRD35\", as I understand, \"nanashi\" is a name of certificate authority.",
+				"added": 1462893290
+			}
+		],
+		"1_1JWy7zt6aDhpnDQ7fmsKUqNu8LzeoT1VRa": [
+			{
+				"comment_id": 22,
+				"body": "> I opened a ZeroBlog. to make it available online is needed that the ZeroNet Bundle (the software i run on my pc to visit ZeroNet) must run always, or is rest available also if i shutdown the pc sometimes?\n\nNo, it is not necessary to run ZeroNet bundle 24/7. Visitors of your blog will seed it while you are offline.",
+				"added": 1465075318
+			}
+		],
+		"2_1JXFzMzrQTJCiGw36YNQGg2Tmt1hTHy7ZT": [
+			{
+				"comment_id": 23,
+				"body": "+",
+				"added": 1469883170
+			}
+		],
+		"2_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": [
+			{
+				"comment_id": 24,
+				"body": "From your link:\n> optional\n> Preg pattern of optional files\n> Example: (data/mp4/.*|updater/.*) (everything in data/mp4 and updater directory is optional)\n\nAnother example, if you want pictures of your zite be optional, just add this to content.json:\n\"optional\": \".*\\\\.(png|jpg|gif)\"",
+				"added": 1469959681
+			}
+		],
+		"2_1JHrskNwA3oo9gxvCbo3Q1RZTUuKCDdfUa": [
+			{
+				"comment_id": 25,
+				"body": "Do you want something like it http://ftp.debian.org/debian/ ?",
+				"added": 1471083161
+			}
+		],
+		"1_12ammmMtU2utLCtNGwLwrh3K8LsmzR4k8T": [
+			{
+				"comment_id": 26,
+				"body": "Your identity stored in ZeroNet/data/users.json, subscriptions in ZeroNet/data/sites.js. Just stop ZeroNet, remove users.js, and you will achieve what you want. Subscriptions won't be lost.\nI think this must be in FAQ.",
+				"added": 1471084046
+			}
+		],
+		"1_16XR1GVbekHSMMoUZ5pTQWFpq2anbkHgrC": [
+			{
+				"comment_id": 27,
+				"body": "What do you mean by \"stats on ZeroNet usage\"? What it will include and measure?",
+				"added": 1471084357
+			}
+		]
+	},
+	"comment_vote": {
+		"104_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"4_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1,
+		"643_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"38_19qsuxKBkNZWYft3epWgn6u3gG82sQHs6n": 1,
+		"39_19qsuxKBkNZWYft3epWgn6u3gG82sQHs6n": 1,
+		"17_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1,
+		"4_19arYgVKguUamTqtYGu6T9FSUsr19CyEcG": 1,
+		"165_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"3_16JexJdvqRHRobrHnkbSWmdC8pfkkQzmiU": 1,
+		"1_1KHswWMnd5LF3d6gE8P47WjcXnoag1MXAU": 1,
+		"90_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"45_19qsuxKBkNZWYft3epWgn6u3gG82sQHs6n": 1,
+		"1_1CbSb2Wm1E5GjcsetipwHLb5Qc9Yj6dx7x": 1,
+		"46_19qsuxKBkNZWYft3epWgn6u3gG82sQHs6n": 1,
+		"2_13WnNjGWpKx29MGErCCpUAnP772R3fYyMk": 1,
+		"10_19jY7u41PdsoRuWKac3bU78SCsDVZFGucd": 1,
+		"662_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"11_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"37_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"46_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"175_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1
+	}
+}

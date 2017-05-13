@@ -1,0 +1,21 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HEE+RCRMhCa+4+95QNT5M+gfvsRR0W7kpltVeHVD1PVcd7Yz8vYIm1+301BbyrXvo8qERiL33jBFrGEx2171HhY=",
+ "cert_user_id": "lanbingxuanyi@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "cc3c7e559eb2675c3a5f064e70c4c118d3a3709af0d19e93bcc14f3e13d1cecc",
+   "size": 1748
+  },
+  "data.json": {
+   "sha512": "dd28b91db67acb4fcb4ef71938c62ac0032e91df1deed9a63e5c99c9668238d5",
+   "size": 1066
+  }
+ },
+ "inner_path": "data/users/15YhLvWdYZMpHTCxzhF4h9d55ZWck5a54P/content.json",
+ "modified": 1484643816,
+ "signs": {
+  "15YhLvWdYZMpHTCxzhF4h9d55ZWck5a54P": "G3TfbcjIyjN3f5/sMslEfP7J9vGReLqeILxTIGOzJq0ZGXYVCahSSGVaFXcvbtBSJksbTfnvGd0+AlzIOWWJ2cE="
+ }
+}

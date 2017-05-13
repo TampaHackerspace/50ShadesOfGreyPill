@@ -1,0 +1,49 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Hello",
+			"body": "Well hello ZeroNet. I'm new to the network. I figured I'd say hello. I've been using this for a couple days now. I've found a lot of the most used sites like Play. So far I'm really enjoying my time here. Say hello if you want.",
+			"added": 1473577462
+		},
+		{
+			"topic_id": 2,
+			"title": "VPN",
+			"body": "So I thought about it and I think this is a post that needs to be made. I see this debate all the time and it cracks me up because people are so misinformed but honestly it's not something to laugh about. A VPN will not offer you privacy. \n\nWhy? Your provider maintains the encryption keys that are used to encrypt the traffic which means they have the ability to decrypt at any time. However, there is still a way to encrypt the traffic on your end so there is a second layer of encryption which only you are able to decrypt.\n\nSo how do you go about doing this? Well, I'm not going to give you step by step instructions but I will lead you in the direction which you need to go.\n\nDNSCrypt: https://wiki.archlinux.org/index.php/DNSCrypt\nOTR: https://ssd.eff.org/en/module/how-use-otr-linux\nSignal: https://ssd.eff.org/en/module/how-use-signal-android\nChatSecure: https://ssd.eff.org/en/module/how-install-and-use-chatsecure\nNextcloud: https://github.com/nextcloud/server\nJitsi Meet: https://github.com/jitsi/jitsi-meet/blob/master/doc/manual-install.md\n\nThese are all free software software projects which allow for client side encryption for the web and for peer to peer (p2p) communications.\n\nAs you'll notice I've mentioned Jitsi Meet and if you've heard of it, you'll know they use WebRTC. There is a way to prevent it from deanonymizing you on Firefox and on Chromium if you look into it.\n\nWhere providers are concerned, if you want some extra protection just make sure that your provider offers some type of obfuscation service like Obfsproxy. And make sure they offer PFS.\n\nAlso, this will be challenging to find but look for a provider who deploys their own physical machines for the various servers. This might mean you'll have limited locations to choose from but it ensures only they have access to the encryption keys and not also a third party hosting provider.\n\nAs for other software recommendations that will be up to anyone who'd like to comment. There are many more. Just be careful when deciding what to install and always compile from source yourself.\n\nOf course, I always recommend that you stay away from VPN's just to avoid the hassle but not everyone is okay with the limited bandwidth that you'll get from Tor.\n\nHowever, if you're okay with it, use Tor and create your own personal VPN at home on WRT hardware if possible. This ensures that only you can decrypt the traffic and Tor will provide you with the anonymity. If you'd like a post on increasing anonymity with Tor, let me know.",
+			"added": 1473578987
+		},
+		{
+			"topic_id": 3,
+			"title": "Would anyone like to join me in a game of Xonotic?",
+			"body": "You can pick it up at http://xonotic.org/ if you'd like to play. I can create a server for us to play.",
+			"added": 1473797993
+		}
+	],
+	"topic_vote": {
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	},
+	"next_comment_id": 4,
+	"comment": {
+		"1_16YP1ZeHrKq3KB3DdBWHec984oQAfVPT9d": [
+			{
+				"comment_id": 1,
+				"body": "> [tkarita](#comment_147_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): hello!\n\nhey, what's up?",
+				"added": 1473579008
+			},
+			{
+				"comment_id": 2,
+				"body": "> [tkarita](#comment_148_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): peers for http://127.0.0.1:43110/1KuwNEQXaF7SmAibxLs2wgJQJjGYTDMErc/ are up, and I don't know why.\n\nwhat is that?",
+				"added": 1473579400
+			},
+			{
+				"comment_id": 3,
+				"body": "> [tkarita](#comment_149_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): A cryptography book.  I guess ZeroNet likes it more than this one: http://127.0.0.1:43110/1EmfJvSsZWtikUqWnHbhMQ9yV5ATUBEooc/\n\noh okay, the page won't work for me.",
+				"added": 1473580539
+			}
+		]
+	},
+	"comment_vote": {
+		"147_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1
+	}
+}

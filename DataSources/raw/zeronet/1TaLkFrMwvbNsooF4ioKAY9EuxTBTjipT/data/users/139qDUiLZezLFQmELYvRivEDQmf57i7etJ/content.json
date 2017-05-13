@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G9swOounI94+Z/4wXsfl0hSWenwzelkUSgJ8jjtHeYnAwd8X+GVLMDx7c+f0dz53FyBg8+4kUhPMOPcTATUHgSo=",
+ "cert_user_id": "volta@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "c3769f8ddde606165fb611df464dc0a11838da24956b800635d33963657a2864",
+   "size": 252
+  }
+ },
+ "inner_path": "data/users/139qDUiLZezLFQmELYvRivEDQmf57i7etJ/content.json",
+ "modified": 1481804920.885,
+ "signs": {
+  "139qDUiLZezLFQmELYvRivEDQmf57i7etJ": "HNXevbkL9EhGvZ6/ZDJyJ8PUcSOs2dU3IQs/sOhlmjA3DbKqgMmawztGchFqRlx1sIcojW9TMD6ueHnHLpazOQo="
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HHx9iH8hoiWSIZK6qtI/ppFhsAKADnOcx8SREI8aBX9cuCq64NXtLbTdc+iw0ukWBzEBbxWMrBa4Xc0nWE24JdY=",
+ "cert_user_id": "gypsymistress@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "57147ca34ff0d0c67b2cfb9fa4c304180bcdb0762740f0f4b4b89a6bba8604c4",
+   "size": 1806
+  },
+  "data.json": {
+   "sha512": "d7c3251016ab62bfa584dc85253421a2d5071d11b586415988b181cce019f5d9",
+   "size": 1600
+  }
+ },
+ "files_optional": {
+  "1486045305.jpg": {
+   "sha512": "a52f2abf85168d0ab17f93a554d03dbb49b2bf28caf4f63d15aa45ef5f1e0909",
+   "size": 86029
+  }
+ },
+ "inner_path": "data/users/17Zq9PnZssnzBceKDLgSxemJyEtWM5mGbG/content.json",
+ "modified": 1486062884,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "17Zq9PnZssnzBceKDLgSxemJyEtWM5mGbG": "G8aZ4s265eJ+qyTYYAv+NOsCPwIMUQ4JVTteu3ilgJ+Paq2hCuF8klVwT+BG1H8hsdK9G0RiUKYwq2Jy4U/BaTM="
+ }
+}

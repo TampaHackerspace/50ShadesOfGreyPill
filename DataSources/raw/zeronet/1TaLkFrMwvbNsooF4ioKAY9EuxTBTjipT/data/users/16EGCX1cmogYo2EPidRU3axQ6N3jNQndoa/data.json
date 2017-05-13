@@ -1,0 +1,25 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "How censorship-resistant is ZeroNet?",
+			"body": "Without Tor, it should be trivial for a state-level censor to hunt down every Zeronet-user by harvesting all IPs. With Tor, users can already access any ClearNet site and even host their own site via Onion address. So what's the added value of using ZeroNet?",
+			"added": 1485527675
+		}
+	],
+	"topic_vote": {
+		"1_16EGCX1cmogYo2EPidRU3axQ6N3jNQndoa": 1
+	},
+	"next_comment_id": 2,
+	"comment": {
+		"1_16EGCX1cmogYo2EPidRU3axQ6N3jNQndoa": [
+			{
+				"comment_id": 1,
+				"body": "Nobody? No thoughts on this?",
+				"added": 1486391643
+			}
+		]
+	},
+	"comment_vote": {}
+}

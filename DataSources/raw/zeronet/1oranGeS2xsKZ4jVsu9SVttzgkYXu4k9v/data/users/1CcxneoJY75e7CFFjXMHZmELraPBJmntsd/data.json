@@ -1,0 +1,50 @@
+{
+	"next_post_id": 4,
+	"next_comment_id": 3,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Jackofspades",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Computer enthusiast and armature hacker.",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484348383,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1484348984,
+			"body": "anyone have any suggestions for what to do on zero net?",
+			"date_added": 1484348982
+		},
+		{
+			"post_id": 1488841614,
+			"body": "Hey. Good to be back. Whats new?",
+			"date_added": 1488841611
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "realy? only 2 years? WOW.",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484347318",
+			"date_added": 1484349005
+		},
+		{
+			"comment_id": 2,
+			"body": "@Daddywarbuck: create what?",
+			"post_uri": "1CcxneoJY75e7CFFjXMHZmELraPBJmntsd_1484348984",
+			"date_added": 1484350188
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1484351552
+		}
+	]
+}

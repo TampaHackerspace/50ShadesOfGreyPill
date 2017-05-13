@@ -1,0 +1,40 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 4,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Astzor",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1470934354,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"1EErpRfR94YZwEMpAwsGKYsgSqHuRxvWib_7": 1470961913
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "How did you create the link?",
+			"post_uri": "1EErpRfR94YZwEMpAwsGKYsgSqHuRxvWib_2",
+			"date_added": 1470942824
+		},
+		{
+			"comment_id": 2,
+			"body": "Qubes is complicated af",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_30",
+			"date_added": 1471303396
+		},
+		{
+			"comment_id": 3,
+			"body": "Don't use this, webrtc is a piece of javascript that CAN REVEAL YOUR IP UNDER A VPN",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_13",
+			"date_added": 1471303455
+		}
+	],
+	"follow": []
+}

@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G1rppkex/hoHNyHdplFyGoSeCT73ii7lru/vKOw2RUoRRPmkNrhisxSArk+z77lqkWZOu1X5IK1vHNLXxAnIaGM=",
+ "cert_user_id": "gaomx@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "bfd1a37184e61cd84926bdeff27fda863ca3d8be959b61f7aa7f6594488aa604",
+   "size": 1369
+  },
+  "data.json": {
+   "sha512": "c03257150eb532ee8b54e68afe88f19dbc1f53230abcb56c6b2e3f96d83dacc4",
+   "size": 4107
+  }
+ },
+ "inner_path": "data/users/12eN34vAks154fpAXSrC54c9g6yHwvdRF9/content.json",
+ "modified": 1481707279.505,
+ "signs": {
+  "12eN34vAks154fpAXSrC54c9g6yHwvdRF9": "HEnIW/Dnf2ynVkfKOG/lM3At+jQqPpVMzOvSbsljuZzQZBgr5NpW7shmseDooe9cKJLs0bDg9VEPSOzZn0UkewU="
+ }
+}

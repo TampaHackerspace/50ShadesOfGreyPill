@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G9a/ILCyJarbK9uloQT30kA6tQOOx52kkQ7beq8Zs2mlQ6+6JWrmnvW970Fl7XqCWKVj6OqZ3MFfTgK7mKvHmJU=",
+ "cert_user_id": "idolohas@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "2e27204782969e1538fd170de90b2eb8acde032c46d35c1326b494a32cb620ee",
+   "size": 241
+  }
+ },
+ "inner_path": "data/users/1CvR1eGEGFdZbrbUGkaR18AhcczSGQ2hGF/content.json",
+ "modified": 1489234605,
+ "signs": {
+  "1CvR1eGEGFdZbrbUGkaR18AhcczSGQ2hGF": "G/+3BxlyxKGqhl/v+baUuHnE0DzJFO9R9+K/keZhYTxtafqa9BzgB1dL7AUVXvRtL6kS8SRq4bDqaIatkWI2C8w="
+ }
+}

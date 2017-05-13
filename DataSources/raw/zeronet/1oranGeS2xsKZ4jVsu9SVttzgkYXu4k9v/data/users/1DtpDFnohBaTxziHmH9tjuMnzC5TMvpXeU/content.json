@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HOV5ND7AApadtdLFHOxaJjFW2GpAcNRlSEwBzOu1bxbDxdc0H2DhgnaaaH27GZRqHs6xvZm3FF/EqV6qVJJ/Po8=",
+ "cert_user_id": "satoshilee@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "7135c049fcb944dccf6405e29748c0891353135807556b455dee334ca8fb8f80",
+   "size": 1512
+  },
+  "data.json": {
+   "sha512": "5f8d3e984217125e05afeabf9610f085e77be0c471ca2986219392e1a18d325f",
+   "size": 1098
+  }
+ },
+ "files_optional": {
+  "1480736375.jpg": {
+   "sha512": "942b74b12df372e290a7c71bc200ac8d1c9602de0cd1480aac7d235106eea6ed",
+   "size": 81109
+  }
+ },
+ "inner_path": "data/users/1DtpDFnohBaTxziHmH9tjuMnzC5TMvpXeU/content.json",
+ "modified": 1480834142.135154,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1DtpDFnohBaTxziHmH9tjuMnzC5TMvpXeU": "G9AmMNxtdpMjr/0BZ5YyxoXj8J9nCP90cfa2zxLjO9UA1oxtzey3ISmLFLGe7MgvIGNJJGL8Nsm525+G3XgeIWo="
+ }
+}

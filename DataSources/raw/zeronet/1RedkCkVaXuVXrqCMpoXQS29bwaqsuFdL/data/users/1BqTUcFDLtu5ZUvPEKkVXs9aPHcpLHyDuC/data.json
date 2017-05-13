@@ -1,0 +1,144 @@
+{
+	"next_comment_id": 24,
+	"user_name": "Silencer",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"post_like": {
+		"1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1480540993": 1480554258
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@P2P: 这么说来，用户的发言机会岂不是很宝贵？",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480495073
+		},
+		{
+			"comment_id": 2,
+			"body": "@Lmath: 哦，还好还好，看到今天一天好像都只有我一个人讲话刚才我还在考虑是不是再过不久就要被“禁言”了呢，哈哈~不过这里人真的好少啊。。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480496535
+		},
+		{
+			"comment_id": 3,
+			"body": "现在提限额都是hub的创建者手动去调吗？岂不是很麻烦。。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480505469
+		},
+		{
+			"comment_id": 4,
+			"body": "@Lmath: 我觉得是不是应该在zeronet中设置一个自律规则，限制一段时间中的发帖数量但又不影响访问，通过机器人的话去中心化就没意义了呀",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480506131
+		},
+		{
+			"comment_id": 6,
+			"body": "@Lmath: 自律规则就是一套反spam规则呀，通过限定接收数据来反spam",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480506628
+		},
+		{
+			"comment_id": 7,
+			"body": "@Lmath: 对于捣乱的数据自律规则抛弃就可以了",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480506666
+		},
+		{
+			"comment_id": 8,
+			"body": "你好",
+			"post_uri": "1BaLTmm1fcVdg18pxXaLRKGbCuVvVA5cCQ_1",
+			"date_added": 1480506848
+		},
+		{
+			"comment_id": 9,
+			"body": "@Lmath: 站点发布者呀",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480506864
+		},
+		{
+			"comment_id": 10,
+			"body": "@Lmath: 站点发布者可以设置一套全局，个人可以再进阶设置局部",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480506910
+		},
+		{
+			"comment_id": 11,
+			"body": "@Lmath: 站点发布者的规则可以倾向于那些无意义的刷屏大量重复数据，或者通过某种方式自动清除无意义数据，用户的可以设置自己的偏好，大致这样",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480507001
+		},
+		{
+			"comment_id": 12,
+			"body": "@Lmath: 具体实现或许还有些难度，虽然Python的machine learning非常好，但是考虑到客户端算力不可能每台机器上都跑智能自律代码呀。。所以还得看实现",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480507088
+		},
+		{
+			"comment_id": 13,
+			"body": "@Lmath: 我记得腾讯有反这个的研发，等等，我找找论文",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480509866
+		},
+		{
+			"comment_id": 14,
+			"body": "@Lmath: 这一个是知乎的：https://zhuanlan.zhihu.com/p/23385044",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480510078
+		},
+		{
+			"comment_id": 15,
+			"body": "@Lmath: 这一个是另一篇：http://zhuanlan.zhihu.com/p/22453613",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480510343
+		},
+		{
+			"comment_id": 16,
+			"body": "@Lmath: 找不到了，不过大概原理还记得，通过去除特殊字符以及全部转小写火星文转化之后和比对即可，智能一点的还可以通过machine learning，记得有的成功率达到百分之74到百分之96，优化算法还有更多，得继续研究",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480510665
+		},
+		{
+			"comment_id": 17,
+			"body": "@Lmath: 不是抽风率，是拦截成功率，指在经过训练样本大量训练总结之后的结果再进行啥。。机器学习方面我很水啦，但这个有自动学习功能，发的spam越多他学的越多，也越精确，不会那样误删",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1480422387",
+			"date_added": 1480510922
+		},
+		{
+			"comment_id": 18,
+			"body": "Thanks~! But when I import my goodreads export CSV, It show a error to me:\"File write error: undefined\", I don't know how to deal with it.",
+			"post_uri": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1480540993",
+			"date_added": 1480554664
+		},
+		{
+			"comment_id": 19,
+			"body": "@P2P: 替代工具也不是那么好给的呀。。而且基于人类的懒惰性那些人大多数都不会去折腾卸载这些。再说，360系列还喜欢搞卸载了软件就不给你启动/蓝屏/修改explorer.exe让你开机没桌面等等一系列手段让用户不敢卸载，并不是那么简单的事情。说360是中国互联网最大的一颗毒瘤，丝毫不为过。",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1480516438",
+			"date_added": 1480555410
+		},
+		{
+			"comment_id": 20,
+			"body": "and book [The Adventures of Tom Sawyer](/Antilibrary.bit/?view:40001)'s cover image url should be http://images.gr-assets.com/books/1366551846m/7010346.jpg , not be http://d.gr-assets.com/books/1366551846m/7010346.jpg",
+			"post_uri": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1480540993",
+			"date_added": 1480556640
+		},
+		{
+			"comment_id": 21,
+			"body": "@Lmath: 然后装完下载一个软件，腾讯、360、百度全家桶全部来了（逃",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1480516438",
+			"date_added": 1480581546
+		},
+		{
+			"comment_id": 22,
+			"body": "@P2P: 难度太大，很多人太笨没法普及",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1480516438",
+			"date_added": 1480581570
+		},
+		{
+			"comment_id": 23,
+			"body": "@weakish: 别把用户想得太聪明。。",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1480516438",
+			"date_added": 1480593753
+		}
+	],
+	"flags": {},
+	"comment_like": {}
+}

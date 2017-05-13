@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HJGLwQ/1nMI3Wm1EkpPBMqzXdr/VjeGnAGvgSOmN88jFag+9EF8utP43zSKTLOJqjWNlgSTeBKRmrm084i/HSAU=",
+ "cert_user_id": "methane@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "babf211c07a0eafef9e78d5d3bdd978e3ed918372341fe57c8f55a0d60629da6",
+   "size": 1997
+  }
+ },
+ "inner_path": "data/users/1765rBagMqT5WbfJvixmJZi8tHyh6LHkvG/content.json",
+ "modified": 1491749752,
+ "signs": {
+  "1765rBagMqT5WbfJvixmJZi8tHyh6LHkvG": "GwD09YntQ77qr3nizy/AI4Y50HvEqqUqTIKvsy+7x5RL0Ldf38F8GkuG23jvhYo4vhHDYD1xvSyCF7rqHjwJMeM="
+ }
+}

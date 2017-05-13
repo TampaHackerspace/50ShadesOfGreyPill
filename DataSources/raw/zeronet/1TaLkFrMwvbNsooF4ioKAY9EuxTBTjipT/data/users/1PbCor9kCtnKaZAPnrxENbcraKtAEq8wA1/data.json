@@ -1,0 +1,54 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "YaCy works with ZeroNet zites?",
+			"body": "YaCy is a descentralized search engine, I wanna know if it can search ZeroNet zites",
+			"added": 1488202073
+		}
+	],
+	"topic_vote": {
+		"1_18Sh2Z83C23xdd6pjCq6NGv7Y6svEBcUfb": 1,
+		"2_14UupgrdnT7Y8vMES7aqUFgD1fC5RYNrh8": 1,
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": 1,
+		"1_1EcTBTYsro4Vr5ea5NahkseWCK883quWM1": 1,
+		"10_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"11_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"12_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": 1,
+		"1_1CYj7o5iamDZeKZvdSAW4P2aEngmAXb78T": 1,
+		"1_1PbCor9kCtnKaZAPnrxENbcraKtAEq8wA1": 1
+	},
+	"next_comment_id": 3,
+	"comment": {
+		"1_1EcTBTYsro4Vr5ea5NahkseWCK883quWM1": [
+			{
+				"comment_id": 1,
+				"body": "> [dutypeer](#comment_1_1LSL3xUhh2WzVGsUZDcviE1ns6tKjvtJtP): Check this out \n> http://127.0.0.1:43110/zeroblog.bit/?Post:71:in+progress:+comparing:+1.+ZeroNet+%3C-%3E+IPFS,+twister+--+2.+tor+%3C-%3E+i2p\n\nNot found",
+				"added": 1477184244
+			}
+		],
+		"1_1PbCor9kCtnKaZAPnrxENbcraKtAEq8wA1": [
+			{
+				"comment_id": 2,
+				"body": "> [nofish](#comment_891_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): No, currently YaCy only support normal http sites. (but indexing zeronet proxy should work)\n\nThanks for the information",
+				"added": 1488230695
+			}
+		]
+	},
+	"comment_vote": {
+		"8_1Kkc5j5xrEJevvV6sBqCrW93dscMVGbcDY": 1,
+		"5_1HRqipL1thbTsztjAvhN76qkzQBZ1k93nJ": 1,
+		"5_1CZhapKybCk4VkGiSso1YzXZd1oG5C3oAw": 1,
+		"3_164W1rFVD9Bm7poGJWvjVUjvkbhhFC5nnt": 1,
+		"4_164W1rFVD9Bm7poGJWvjVUjvkbhhFC5nnt": 1,
+		"34_1Kkc5j5xrEJevvV6sBqCrW93dscMVGbcDY": 1,
+		"851_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"13_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": 1,
+		"13_1Gtj7AdXhzMFUVVvFm2ZGCbTFdgNwdtuMn": 1,
+		"9_18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj": 1,
+		"1_1L6pjaEajyF4kYhT5AXeJKUnUuSR5oGKrE": 1,
+		"891_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

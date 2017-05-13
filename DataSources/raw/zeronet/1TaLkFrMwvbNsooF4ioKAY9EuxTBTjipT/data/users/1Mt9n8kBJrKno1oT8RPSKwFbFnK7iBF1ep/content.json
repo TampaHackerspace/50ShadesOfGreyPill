@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G1TNph4vrWMh87SzydFeZLCAfgTK43LNc9hAvaqbtVVySGOzYJn4ZnobwFTs2VsGLCtQ2LIWLpoU3sAt2ZS3QMI=",
+ "cert_user_id": "philswimmerman@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "999644feb18fda6522ca0741ff3d6fe74c9d09abd4a8b77976077fd05ec1f3eb",
+   "size": 163
+  }
+ },
+ "inner_path": "data/users/1Mt9n8kBJrKno1oT8RPSKwFbFnK7iBF1ep/content.json",
+ "modified": 1488905401,
+ "signs": {
+  "1Mt9n8kBJrKno1oT8RPSKwFbFnK7iBF1ep": "GwWt5BbfPx20mIiwerDFFMf89f/YgQJOTitKv7PbQWyd4u7/8Bu4EEv6oL8EC1yvMPq3GXzyb87OfeaRPj0P974="
+ }
+}

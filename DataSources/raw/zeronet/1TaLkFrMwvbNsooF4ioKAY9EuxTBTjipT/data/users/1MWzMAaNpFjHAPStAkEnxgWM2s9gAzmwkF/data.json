@@ -1,0 +1,29 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"2_17bo4yV2YQ8qERFytHMogwancQzQmzzaDM": 1,
+		"2_1Dg6pvJYXjj2jBffi8Ba5jW9wgQPTkGTMG": 1
+	},
+	"next_comment_id": 3,
+	"comment": {
+		"2_1CR3B1Bwx6umZqL7H6hrbyPdXKJR7j8Mfn": [
+			{
+				"comment_id": 1,
+				"body": "Big shit",
+				"added": 1483379648
+			}
+		],
+		"12_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 2,
+				"body": "> [p2p](#comment_252_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): adb logcat\n> ./adb logcat | grep zn\n> I/ActivityManager(  340): Start proc android.test.myapp17:service_zn for service android.test.myapp17/.ServiceZn: pid=1562 uid=10054 gids={50054, 9997, 1028, 1015, 3003} abi=armeabi-v7a\n> I/zn      ( 1562): testing python print redirection\n> I/zn      ( 1562): ('Android path', ['/data/data/android.test.myapp17/files/app/lib/python27.zip', '/data/data/android.test.myapp17/files/app/lib/python2.7/', '/data/data/android.test.myapp17/files/app/lib/python2.7/lib-dynload/', '/data/data/android.test.myapp17/files/app/lib/python2.7/site-packages/', '/data/data/android.test.myapp17/files/app'])\n> I/zn      ( 1562): ('os.environ is', {'ANDROID_APP_PATH': '/data/data/android.test.myapp17/files/app', 'EXTERNAL_STORAGE': '/storage/sdcard', 'LOOP_MOUNTPOINT': '/mnt/obb', 'SYSTEMSERVERCLASSPATH': '/system/framework/services.jar:/system/framework/ethernet-service.jar:/system/framework/wifi-service.jar', 'PYTHON_SERVICE_ARGUMENT': '', 'ANDROID_SOCKET_zygote': '9', 'BOOTCLASSPATH': '/system/framework/core-libart.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/mms-common.jar:/system/framework/android.policy.jar:/system/framework/apache-xml.jar', 'ANDROID_PROPERTY_WORKSPACE': '8,0', 'PATH': '/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin', 'ANDROID_STORAGE': '/storage', 'ANDROID_BOOTLOGO': '1', 'ANDROID_ASSETS': '/system/app', 'PYTHONOPTIMIZE': '2', 'ANDROID_PRIVATE': '/data/data/android.test.myapp17/files', 'ANDROID_ENTRYPOINT': 'serviceloader.py', 'PYTHONPATH': '/data/data/android.test.myapp17/files/app:/data/data/android.test.myapp17/files/app/lib', 'ANDROID_DATA': '/data', 'PYTHON_NAME': 'zn', 'LD_PRELOAD': 'libsigchain.so', 'ANDROID_ROOT': '/system', 'PYTHONHOME': '/data/data/android.test.myapp17/files/app', 'ASEC_MOUNTPOINT': '/mnt/asec', 'ANDROID_ARGUMENT': '/data/data/android.test.myapp17/files/app'})\n> I/zn      ( 1562): ('Android kivy bootstrap done. __name__ is', '__main__')\n> I/zn      ( 1562): ['/data/data/android.test.myapp17/files/app/lib/python2.7/site-packages', '/data/data/android.test.myapp17/files/app/lib/site-python']\n> I/zn      ( 1562): /storage/sdcard/Android/data/android.test.myapp17/files/zero\n> I/zn      ( 1562): - Starting ZeroNet...\n> I/zn      ( 1562): Traceback (most recent call last):\n> I/zn      ( 1562):   File \"/home/ubuntu16/ZeroNet/.buildozer/android/app/zero/zeronet.py\", line 17, in main\n> I/zn      ( 1562):   File \"/home/ubuntu16/ZeroNet/.buildozer/android/app/zero/src/main.py\", line 37, in <module>\n> \n> I/zn      ( 1562): OSError: [Errno 1] Operation not permitted: 'data/sites.json'\n> I/ActivityManager(  340): Process android.test.myapp17:service_zn (pid 1562) has died\n> ( Please don't be surprised to the ubuntu16. It was my build environment. The APK was built by buildozer, with all py converted to pyo files which contain the building environment info. )\n> error.log:\n> Traceback (most recent call last):\n>   File \"/home/ubuntu16/ZeroNet/.buildozer/android/app/zero/zeronet.py\", line 17, in main\n>   File \"/home/ubuntu16/ZeroNet/.buildozer/android/app/zero/src/main.py\", line 37, in <module>\n> \n> OSError: [Errno 1] Operation not permitted: 'data/sites.json'\n> But the 'data/sites.json' is successfully created (the content of sites.json is {} ).  Next time start the APK, it will say Operation not permitted: 'data/users.json' ( sites,json is already there and pass )\n\nThe app is opening the file, and the same is already open and Android 5.0 is not recognizing.\n\nmain.py: line 37\n>os.chmod(\"%s/sites.json\" % config.data_dir, stat.S_IRUSR | stat.S_IWUSR)",
+				"added": 1484430294
+			}
+		]
+	},
+	"comment_vote": {
+		"103_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": 1,
+		"253_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1
+	}
+}

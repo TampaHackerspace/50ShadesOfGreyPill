@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HJIjll1ONwDgeJqpTFwV+PmiJGmVFNX8F2twHpL8WQSxfHnQGBNFaNe8GRPU8lI+qcsZ68gjHGFKentVRTd0qUU=",
+ "cert_user_id": "dilanhant@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "3e10115c01a0b81d842d478b628a338402112a28978acb5911595897b293e395",
+   "size": 876
+  }
+ },
+ "files_optional": {
+  "1480869843.jpg": {
+   "sha512": "4b5a3f827011467a9778fa898bdaf0e56b98bdf9a3f221e7363ba0066c69bc0c",
+   "size": 58615
+  }
+ },
+ "inner_path": "data/users/1AvCnsCFxEyBY7F1AnUJiidqYrC4eFNBrg/content.json",
+ "modified": 1481443553.018029,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1AvCnsCFxEyBY7F1AnUJiidqYrC4eFNBrg": "G+fqaMw2gFRhpLQfYM5FHLnt0ZSk971rakDNpmMyRt/e0DLcCPDEIdNB9tmqpKsLBeloAXUW5LBwTTXmzeN4wnk="
+ }
+}

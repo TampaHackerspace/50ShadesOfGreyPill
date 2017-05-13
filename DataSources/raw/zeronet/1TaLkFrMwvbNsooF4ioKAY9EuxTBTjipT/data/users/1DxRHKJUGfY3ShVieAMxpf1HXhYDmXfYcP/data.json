@@ -1,0 +1,23 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Zeronet + Tor + OSX = Status error ([Errno 61] Connection refused) - 90% RESOLVED",
+			"body": "Hi everyone. Can get Zeronet working perfectly but everytime I  try to activate Tor connection I got the error in the title. Specs are as follow : latest OSX version 10.12, Latest TOR Browser version 6.0.5, \"127.0.0.1\" is specified in advanced settings of Tor under \"no proxy for...\". Tried the FAQ from Zeronet but it didn't gave me useful information to resolve this issue. Tried to search online ... found a lot of forums where users were having similar type of issues but it's rarely on OS X and when it is it seems no one can have a correct full working «easy» solution. \n\nI am sure there is a simple solution, something I may have forgotten somewhere, something I don't understand... Any idea ?\n\nBtw my TOR Browser has everything by default excepting the «no proxy for» above mentioned.",
+			"added": 1475724608
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 2,
+	"comment": {
+		"1_1DxRHKJUGfY3ShVieAMxpf1HXhYDmXfYcP": [
+			{
+				"comment_id": 1,
+				"body": "Just resolved this situation : I had forgotten to edit the «torrc» file !! For the future people having same issue as me on OSX you can find this Torrc file at Finder>Go To>Hold option key>Library>Application Support>TorBrowser-Data>Tor. Here it is. Open it with TextEdit, search for this line \"#ControlPort 9051\" and remove the \"#\". If you are like me and the file doesn't contain the line then just add it at the end \"ControlPort 9051\", save it, restart Tor and restart ZeroNet. \n\nThen...\n\nYou may find a new \"problem\" : the Tor popup window saying \"connecting to the Tor Network...\" stays there, does not go away and just cease responding never leading to the full Tor browser window. But ZeroNet just works fine in an other browser saying it is connected to Tor. \n\nAnyone has an idea what I did wrong to get this Tor not responding situation ?",
+				"added": 1475725911
+			}
+		]
+	},
+	"comment_vote": {}
+}

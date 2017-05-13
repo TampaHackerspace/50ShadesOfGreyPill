@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HHoi80SrtSoVSiYvpjfWL5d7GQKPHwdHbmLET+amC7g2wc9oTzJhUW1M3u0cs/3v5KXooxrM0nb97qt3OX7ft6w=",
+ "cert_user_id": "nisiaspidistra@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "96ecc408791c48cec6d1a29a6f0c1557468e7d16a6c5411e4363e935d83f383e",
+   "size": 1545
+  },
+  "data.json": {
+   "sha512": "cce4a4ab9be45c7f693934ce4ce4deda6290b087eaf6b0213fe7b33e20dc4adc",
+   "size": 557
+  }
+ },
+ "files_optional": {
+  "1489648018.jpg": {
+   "sha512": "6def7e7a59f25c9c6fc85a350c2ddafabeea58cfe7314b01953398cb3dd760c6",
+   "size": 175542
+  }
+ },
+ "inner_path": "data/users/1EhxM8LDvgehedGGDhrZruhzbiXdAXXP6t/content.json",
+ "modified": 1489648327,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1EhxM8LDvgehedGGDhrZruhzbiXdAXXP6t": "HNQMwoOMnlyoT1UgY49Q/z7qsHxw/sNAVxbJ9h9lHVxzZ4GMsbahUsxbJ3tU0P+NiJcaXT7pbfCzoxpmpsHogcw="
+ }
+}

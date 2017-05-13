@@ -1,0 +1,85 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 9,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Bwoi",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1480807919,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1480807989,
+			"body": "Uh I kinda screwed up my ZeroMe a bit :S",
+			"date_added": 1480807987
+		}
+	],
+	"post_like": {
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1486503540": 1486504163
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "brb. indexing catchan properly",
+			"post_uri": "1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA_1481481856",
+			"date_added": 1481483605
+		},
+		{
+			"comment_id": 2,
+			"body": "Hey.  If you're setting up a site, the best thing to do is to get peers, otherwise nobody can access it! Visit this Zite: http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n and add your Zite to the list so that it can be seeded by a few people, though you might need to keep ZeroNet open for ~10-15 minutes afterwards.  It's really useful for getting started and it'll allow people to visit your Zite while you're offline! :) This should fix the \"NO PEERS FOUND\" issue, and allow everyone to see what your Zite contains.  I'll also add the Zite to Bwoi if you so wish.  Have a nice day! :)",
+			"post_uri": "12kVnbiPFSDTYsmT2rf5rbRj4qxzFvqSBm_1481464361",
+			"date_added": 1481483871
+		},
+		{
+			"comment_id": 3,
+			"body": "Does this offer any advantage over the Python version of ZeroNet?",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1481459499",
+			"date_added": 1481483902
+		},
+		{
+			"comment_id": 4,
+			"body": "@Sirenyc: ZeroGo is a Golang port of ZeroNet, which is written in Python.",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1481459499",
+			"date_added": 1481484816
+		},
+		{
+			"comment_id": 5,
+			"body": "Me too.  Great game, well worth the money and time invested, absolutely loved the ending, hope there's a third game :)",
+			"post_uri": "1DZiH4sE9ynRAFbAUjYhZtsjFNhe1wrooW_1482428264",
+			"date_added": 1482432890
+		},
+		{
+			"comment_id": 6,
+			"body": "@Rebelb0y11: nvidia masterrace",
+			"post_uri": "13RamsLvfoBKUrP6Z3KR5UeRrVwfYrygiS_1486448054",
+			"date_added": 1486504350
+		},
+		{
+			"comment_id": 7,
+			"body": "install gentoo",
+			"post_uri": "13RamsLvfoBKUrP6Z3KR5UeRrVwfYrygiS_1486448054",
+			"date_added": 1486504357
+		},
+		{
+			"comment_id": 8,
+			"body": "glad to see bwoi got a mention thanks",
+			"post_uri": "1qA5PLyTTNtJjaK1zRz1fnyQMgiDpv5td_1480756107",
+			"date_added": 1486504635
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1F1kDrT693w8ATbcXV1wHmGSD6SpSY4f5L",
+			"user_name": "Bwoi",
+			"date_added": 1480807991
+		}
+	],
+	"flags": {},
+	"comment_like": {}
+}

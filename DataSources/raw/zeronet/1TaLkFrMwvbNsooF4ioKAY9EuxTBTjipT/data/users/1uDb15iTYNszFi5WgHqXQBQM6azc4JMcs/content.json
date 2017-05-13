@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "GxrumCyAymlCyKzAWjqIbdXETgs/X/j+76PBwi6mnexzwGzFWdT4eokGqQyL8VgMUV/OTlh9LcCb/FwuDaCcW1Y=",
+ "cert_user_id": "murphyslaw@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "e373e9e00d7eea179e2ce0a34252cde988a220a8a1d6e41cc56ee3a5d6532319",
+   "size": 392
+  }
+ },
+ "inner_path": "data/users/1uDb15iTYNszFi5WgHqXQBQM6azc4JMcs/content.json",
+ "modified": 1485394399,
+ "signs": {
+  "1uDb15iTYNszFi5WgHqXQBQM6azc4JMcs": "HPoEfraMG/PSWsVs0kSc++Dd9D0mt0Ha3mERmnww6fFFPaYLaFHyfFbuPdtjE+qC+RDvGi55D005jSNAEG5VnfI="
+ }
+}

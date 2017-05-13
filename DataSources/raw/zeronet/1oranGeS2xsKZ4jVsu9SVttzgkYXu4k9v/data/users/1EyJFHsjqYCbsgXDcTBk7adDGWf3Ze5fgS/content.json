@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G4FKEfERFN2BZyfK0cZsFqNYm3Av286uVkcDSFhII9+P7xzCvsO124TQ1cy/6KWo4ziqSZ532IIfCiV5j7Qiiuw=",
+ "cert_user_id": "andreibereta@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "e9fc230497f60cd861e9ecaf7698716cde89dd565303e8323f31364a144497e8",
+   "size": 343
+  }
+ },
+ "inner_path": "data/users/1EyJFHsjqYCbsgXDcTBk7adDGWf3Ze5fgS/content.json",
+ "modified": 1489333320,
+ "signs": {
+  "1EyJFHsjqYCbsgXDcTBk7adDGWf3Ze5fgS": "HJrrnJFJQ4I9GQ61MzI5m05Os5FLiGTrpWypr9H6dfUrUkbR5u3+j93GwlgBd0nHeELd8fV6YLGQu5C1j9LmgBI="
+ }
+}

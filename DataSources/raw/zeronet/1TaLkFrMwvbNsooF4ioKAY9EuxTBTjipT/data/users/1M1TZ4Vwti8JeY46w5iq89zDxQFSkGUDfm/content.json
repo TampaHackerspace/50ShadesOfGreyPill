@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HL0bjyO/dxbWWTrax7GQt1CieWuHNpTMCITL9Rqtuy/+Z75TJm+ZLuTaORNlERGliweVV5bouwIyckvTNfQItgM=",
+ "cert_user_id": "redpanda@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "fe663c0e94b7e7276aa8b142b9c5d3f0072d1bed25ce1389621c90bec6d02854",
+   "size": 210
+  }
+ },
+ "inner_path": "data/users/1M1TZ4Vwti8JeY46w5iq89zDxQFSkGUDfm/content.json",
+ "modified": 1491285555,
+ "signs": {
+  "1M1TZ4Vwti8JeY46w5iq89zDxQFSkGUDfm": "HGdv8LRFLleTQx1yv+HPpYUlXRSAEuSAF5GoLDs2hT3lb+SzPRTcm0cv3I3Ejl6aejZ+9bneklIIe1JaF1QBsT8="
+ }
+}

@@ -1,0 +1,31 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Grandpa",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "BTC: 32AgL6ehQH9ut5dxNivS17hwBKtUXPhsuq",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484345249,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1484358614,
+			"body": "From a place of zero knowledge: how is ZeroNet different from Freenet?",
+			"date_added": 1484358612
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "what kind of things?",
+			"post_uri": "1CYj7o5iamDZeKZvdSAW4P2aEngmAXb78T_1484355031",
+			"date_added": 1484357676
+		}
+	],
+	"follow": []
+}

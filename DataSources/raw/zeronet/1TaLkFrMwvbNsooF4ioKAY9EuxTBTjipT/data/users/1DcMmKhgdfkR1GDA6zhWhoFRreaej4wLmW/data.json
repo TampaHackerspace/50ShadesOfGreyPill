@@ -1,0 +1,74 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 12,
+	"comment": {
+		"1_1HNrC2FtMufABF5zctJ9SLgqnz8bvqmPdG": [
+			{
+				"comment_id": 1,
+				"body": "楼主用的pptp么？",
+				"added": 1481878656
+			},
+			{
+				"comment_id": 5,
+				"body": "> [vicco](#comment_3_1AD3TXdzAXUY92xuZtBC59EnjrbHUWF5Zi): 没有觉得 在北京一直用SS\n\n自己架的服务器，还是买的？",
+				"added": 1481963886
+			}
+		],
+		"1_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": [
+			{
+				"comment_id": 2,
+				"body": "great tool",
+				"added": 1481879340
+			}
+		],
+		"1_1BG8WrV2VY1bNjQiKR4tcL52FAw6Y6BoJ8": [
+			{
+				"comment_id": 3,
+				"body": "即使比特币失败，zeronet不会失败",
+				"added": 1481880500
+			},
+			{
+				"comment_id": 4,
+				"body": "> [freechina](#comment_1_1GQXkixafDKRyMy9ijwcwCVmKHM5XohQ1k): 带宽和存储容量提升十倍的时候，也就是分散式应用大爆发的时候\n\n硬盘的容量现在很难上去了吧，从120G到3t，用了差不多10年，10年后，主流配置能到90t么？",
+				"added": 1481880561
+			},
+			{
+				"comment_id": 6,
+				"body": "数据中心的主要开销是硬盘损耗么？",
+				"added": 1482088149
+			},
+			{
+				"comment_id": 7,
+				"body": "> [freechina](#comment_1_1GQXkixafDKRyMy9ijwcwCVmKHM5XohQ1k): 带宽和存储容量提升十倍的时候，也就是分散式应用大爆发的时候\n\n局域网1秒1GB数据的时候么？ 现在只有100MB一秒",
+				"added": 1482088254
+			},
+			{
+				"comment_id": 8,
+				"body": "> [lmath](#comment_15_1958F7oCppj78MP966AfojMQwHg2WUupzq): 带宽也是要成本的。\n\n现在主要的问题是技术还没到这一步吧",
+				"added": 1482216410
+			},
+			{
+				"comment_id": 9,
+				"body": "> [freechina](#comment_1_1GQXkixafDKRyMy9ijwcwCVmKHM5XohQ1k): 带宽和存储容量提升十倍的时候，也就是分散式应用大爆发的时候\n\n带宽和存储容量提升十倍，现在很难了吧",
+				"added": 1482216532
+			}
+		],
+		"18_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ": [
+			{
+				"comment_id": 10,
+				"body": "> [namecoinfontas](#comment_26_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ): when people dont know shit they use words like consensus and smart - contract\n\nwhy fucked, fontas",
+				"added": 1482239425
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 11,
+				"body": "> [nofish](#comment_839_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): This should work:\n> \n> Modify data.json\n> zeronet.py siteSign yoursiteaddress --publish\n\nwhy some resource like xxx.css is omitted when using siteSign command",
+				"added": 1482310899
+			}
+		]
+	},
+	"comment_vote": {}
+}

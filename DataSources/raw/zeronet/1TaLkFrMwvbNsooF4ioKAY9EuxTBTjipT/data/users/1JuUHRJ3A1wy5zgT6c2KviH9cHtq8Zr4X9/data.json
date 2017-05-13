@@ -1,0 +1,52 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"7_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"7_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"8_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": 1,
+		"8_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1
+	},
+	"next_comment_id": 7,
+	"comment": {
+		"1_1CQ2rCSbuSxkeDcrvBu1wvkUSg8233tAUu": [
+			{
+				"comment_id": 1,
+				"body": "I've been bookmarking sites that I go to a lot.  It would be nice if you could see your ZeroMe updates *on ZeroMe*.",
+				"added": 1474496370
+			}
+		],
+		"7_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 2,
+				"body": "> [bot](#comment_120_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): The trick is to move away from Proof of Work which wastes power to another type of proof which has profit incentive built in. \n\nThat POW schemes waste work in some way misunderstands basic economics.  @truthcoin explains it [here](http://www.truthcoin.info/blog/pow-cheapest/).",
+				"added": 1475426977
+			},
+			{
+				"comment_id": 3,
+				"body": "@bot Did you read the link I posted?",
+				"added": 1475548470
+			},
+			{
+				"comment_id": 4,
+				"body": "I think that the fact that people are willing to exchange BTC for goods and services is a very positive outcome and worth the \"wasted\" electricity.  As long as users are free to mine as much as they want, they will mine until the cost of new equipment, electricity, etc. exceeds the value of additional mined coins.  In order to have a system where nobody makes large mining investments, you either need to force people to limit the scope of their mining or else make sure that the coins are worthless.  The main problem for Bitcoin decentralization is that when it was first designed, nobody thought it would be possible for such a small group of players to pay for all the hashing.  Conclusion: BTC mining is not \"wasteful\" enough!",
+				"added": 1475594615
+			}
+		],
+		"8_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": [
+			{
+				"comment_id": 5,
+				"body": "I'm going to give it a whirl.",
+				"added": 1476282299
+			},
+			{
+				"comment_id": 6,
+				"body": "I got it up and running with a little hacking.  Let me know if you get it to work.  I think I see how to disable all but i2p connections, so we can test if the i2p.socket listener works under gevent after the recent patch.",
+				"added": 1476290462
+			}
+		]
+	},
+	"comment_vote": {
+		"4_1F1zfoai6i629oFmUa6EyQyQR8Atj7XjnV": 1
+	}
+}

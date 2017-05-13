@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "GyF04rFfk71svRYJOiP2vpIBckApbO9s1cDug91jflg6WyxfSfks8NqiOArlZiEZ/2LmSFI7ckI3Gb6llU3xizo=",
+ "cert_user_id": "lifetrix@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "3c5dd286a75be4fde2b6aa4f1e3b536252759979468103a1004a9ff7e868e76e",
+   "size": 1863
+  }
+ },
+ "inner_path": "data/users/17d3S7saDQP5phkkWS9F7tMJTymqLCQmig/content.json",
+ "modified": 1475580875.011901,
+ "signs": {
+  "17d3S7saDQP5phkkWS9F7tMJTymqLCQmig": "GwP/3AMwCHDdy9UCBqWB7Xuj5XhH+R18DfzE+w0bTAWPCUHy6GUaU/tW4NvARTWRV8hlkvAbU6y8cWivhiPr2E0="
+ }
+}

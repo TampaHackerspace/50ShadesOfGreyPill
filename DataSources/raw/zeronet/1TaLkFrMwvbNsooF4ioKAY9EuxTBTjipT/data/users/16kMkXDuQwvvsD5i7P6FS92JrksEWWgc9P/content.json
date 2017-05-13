@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G2YbZvUEYwnNA7ZTV5Tz7bCiZG5qwIW0u48wKBwLFu4wRhwspu0082ONe8EB/95ZTdPeQWf6UIBlgLGKTe8l85U=",
+ "cert_user_id": "chipster@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "5491b0a8bdcd78ce5aba9239cd66327b4ff1e5fc46ec679ce961f4f090af7838",
+   "size": 308
+  }
+ },
+ "inner_path": "data/users/16kMkXDuQwvvsD5i7P6FS92JrksEWWgc9P/content.json",
+ "modified": 1474964935.208296,
+ "signs": {
+  "16kMkXDuQwvvsD5i7P6FS92JrksEWWgc9P": "HOGjS/bS24da6W2EhILDJ4jdJMi3HiNy8rKfMf0O8acEe/AEGAYmYTA9KRyI/rMv2S/ED1boShw1Afwa2B2pMho="
+ }
+}

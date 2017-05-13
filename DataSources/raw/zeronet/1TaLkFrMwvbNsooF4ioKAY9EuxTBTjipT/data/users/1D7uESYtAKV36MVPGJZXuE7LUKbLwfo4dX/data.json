@@ -1,0 +1,144 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "ZeroNet data resiliance and file ownership",
+			"body": "Because I think it deserves its own thread\n\nInspired by mtsvip's reply on  http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1A6hcWNpQ9SSLoTTpuT19VsVQ6WCVRkyen/Sending+ZeroMail+not+working\n\nmtsvip: Each owner has a key and proof of ownership of the data, if you delete something not yours it should be re-uploaded back to you because you are not the owner. You can remove only your files...\n\nLet me see if I understand\n\n1. I create a file and sign it, therefore I'm the owner\n2. Other Users (OU) receive a copy of the file\n3. OU have a copy but you don't own it.\n3. I delete my copy of the message for whatever reason (inbox management, security, etc)\n4. The changes get pushed, OU to lose their copies of the files\n\nThis seems to be the intended behaviour for ZeroNet in general but it also exposes how resilient data in ZeroNet actually is. If the original seeder of the data is somehow forced to delete his data, will everyone lose their copy?\n\nAm I right in this reasoning? Or did I miss something?",
+			"added": 1457144118
+		}
+	],
+	"topic_vote": {
+		"1_154jAWx5PDRmvF4txGHo4Edw1BpduhDyvw": 1,
+		"2_17PhTjw3o2wPhxyKeM3Ss975eWZ1UMsjQC": 1,
+		"1_1D7uESYtAKV36MVPGJZXuE7LUKbLwfo4dX": 1,
+		"9_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"1_15zYrGJKfXo6XXU6rBUsuU3cTgpJkDuQYA": 1,
+		"1_1HvZzixBMnPehyouwx83zNYK3E97MrUVxS": 1,
+		"1_13GyWy7pXEtCorqUBAv7ZPjyzNfwMA6Hh2": 1
+	},
+	"next_comment_id": 20,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "where the hood at?",
+				"added": 1456964471
+			}
+		],
+		"1_154jAWx5PDRmvF4txGHo4Edw1BpduhDyvw": [
+			{
+				"comment_id": 2,
+				"body": "No offense, but \"normals\" is the reason the web sucks and is being pushed for stronger censorship.\nFor those who have been around long enough all technologies begin like this. BBS, ant then Web 1.0. \nI think ZeroNet has a lot of potential but it's too early to start bridging with the regular joe. ZeroNet is for a censorship free internet, and allowing people with sensibilities in now could actually hinder that goal.",
+				"added": 1457034853
+			}
+		],
+		"1_1LnyrYbdxDU1K78nEYVZkfJ1Q4SYP1ukFV": [
+			{
+				"comment_id": 3,
+				"body": "here\nhttp://reddit.com",
+				"added": 1457044860
+			},
+			{
+				"comment_id": 5,
+				"body": "> [bitfish](#comment_4_1FfLoFiiFnaf2RPE4nqHEP8mB9uU2rPTmH): Since most Z-net websites are open source, a fork of this forum with down-voting added would be interesting.\n\nSure thing buddy, you go do that.",
+				"added": 1457046271
+			}
+		],
+		"1_1A6hcWNpQ9SSLoTTpuT19VsVQ6WCVRkyen": [
+			{
+				"comment_id": 4,
+				"body": "I think ZeroMail is not working as intended in general. Sent two messages to echobot but only got the second reply. Also another user sent me an email I didn't get it.",
+				"added": 1457044991
+			},
+			{
+				"comment_id": 7,
+				"body": "> [nofish](#comment_408_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):  So if you remove the message from your file, then it will be also removed from other user's inbox.\n\nA few questions regarding this:\nIs this the intended behaviour for ZeroMail in particular? \nAre users expected to backup their messages elsewhere in the event of the other party deleting the message form their end? \nIf any of the above is true, what is the thought behind it? or is this an unintended side effect of ZeroNet's default behaviour?\n\nCheers",
+				"added": 1457141011
+			},
+			{
+				"comment_id": 8,
+				"body": "> [mtsvip](#comment_8_17tRugXJrS18zKWVEYqZCPisSTk43hqUzx): Each owner has a key and proof of ownership of the data, if you delete something not yours it should be re-uploaded back to you because you are not the owner. You can remove only your files...\n\nLet me see if I understand\n\n1. I create a message (file?) therefore I'm the owner\n2. I send it to you\n3. You have a copy but you don't own it.\n4. I delete my copy of the message for whatever reason (inbox management, security, etc) \n5. The changes get pushed, causing  you to lose your copy \n\nThis seems to be the intended behaviour for ZeroNet in general but it also exposes how resilient data in ZeroNet actually is. If the original seeder of the data is somehow forced to delete his data, will everyone lose their copy?\n\nOn a different train of thought, the way e-mail is understood is that you manage your own copy of the messages. If the creator deletes his copy it won't have an effect in yours. But in ZeroMail, who is owning the messages?",
+				"added": 1457142649
+			},
+			{
+				"comment_id": 10,
+				"body": "@nofish can we move this discussion here? http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1D7uESYtAKV36MVPGJZXuE7LUKbLwfo4dX/ZeroNet+data+resiliance+and+file+ownership",
+				"added": 1457145094
+			}
+		],
+		"2_17PhTjw3o2wPhxyKeM3Ss975eWZ1UMsjQC": [
+			{
+				"comment_id": 6,
+				"body": "> [odd](#comment_11_1EMpuiFM1NLZmAVyoAWnwi8VwiZVV4dcnN): This is a problem unfortunately.\n> Ideally ZeroNet would encrypt the data files on disk. I hope that happens at some time. It'd be nice if image boards had their NSFW files set to 'optional' so users could choose to share them.\n\nAlternatively I hope they include an option that lets you decide what to host and what not within a site. Perhaps hash blacklisting?",
+				"added": 1457140048
+			}
+		],
+		"1_1D7uESYtAKV36MVPGJZXuE7LUKbLwfo4dX": [
+			{
+				"comment_id": 9,
+				"body": "I thought so, and yes, data can be easy backed up by just coping the '''data''' folder to a new location. \n\nWhat it's worth nothing, is that data could disappear causing an unaware user to lose their data and an slow user to never it at all. Shouldn't there be a mechanism to prevent data disappear on whim? If avoiding censorship is the goal of ZeroNet then the owner of the data (or anyone identifying as such) becomes the single point of failure.",
+				"added": 1457145037
+			},
+			{
+				"comment_id": 11,
+				"body": "> [mtsvip](#comment_11_17tRugXJrS18zKWVEYqZCPisSTk43hqUzx): We'll have to test more. But I really don't think we can remove data in someone else's Inbox and Sent folders.. They become the owners... \n> My reply to another thread:\"I think, when you receive an email you become an owner of it and only you can delete your emails from your inbox.. And you are the owner of your emails in Sent folder. Same goes for the receiver, he owns the email that was sent to him that he now has in his inbox.\"\n\nnofish replied in the other thread and said users don't receive a copy, they read the message from file's sender. Which brings us back to question how resilient data in ZeroNet actually is.",
+				"added": 1457145264
+			},
+			{
+				"comment_id": 12,
+				"body": "> [mtsvip](#comment_13_17tRugXJrS18zKWVEYqZCPisSTk43hqUzx): The data should be resilient. For example this Zerotalk forum where we speak now. If you delete files that you don't own, I think it will be recreated in your file system. At least this is the design I would expect.\n\nI'm moving this beyond messaging but to any and all data shared through ZeroNet. \n\nIf I put any data (files/images/messages/video) and somehow I'm forced to delete it; or a third party get ahold of my keys then the data might be modified or just pain disappear. No questions asked.\n\nAlso, Hell yeah, I think this is a good stage to start tackling the issues.\n\n> [superlugia](#comment_9_1AFL4FFT3BuEDwTwVqychMq4LbxjuEY5Ss): But wouldn't the person who received the copy of the data actually have to personally delete it. I think all that would happen is that the person would stop receiving updates.\n\nI'm not entirely sure that's how it works.",
+				"added": 1457145741
+			},
+			{
+				"comment_id": 13,
+				"body": "> [nofish](#comment_419_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Imagine ZeroMail as this topic. If you want to send someone a new mail you create a comment like this: username: Your messageThe user's inbox lists all messages in this topic that is starts with his username. You only able to modify/delete your own comments, but you can't touch other people's.\n\nAnd what about all other data? See reply below yours.",
+				"added": 1457146212
+			},
+			{
+				"comment_id": 14,
+				"body": "> [nofish](#comment_420_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Anyone who has the private key owns the data, so able to delete/modify anything he/she posted before.\n\nBut doesn't this goes against the goal of censorship? If owner's (or parties identified as such) can remove content at their hearts content, then what's the point? Shouldn't there be a way to either accept or reject changes to data in my own copies?",
+				"added": 1457146509
+			},
+			{
+				"comment_id": 15,
+				"body": "> [nofish](#comment_421_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Third-party censorship is not possible, only the owner able to modify the data. (you can hide your IP with Tor if necessary)\n> You can easily create backup of the sites every day, so you will be able to rollback if you thing it should be. \n> It could be possible to create one-way sites (no modification/delete accepted for old content), but i'm not sure if its necessary.\n\nSo in the end **it is up to the users to backup any data they obtained through ZeroNet**. That's fair enough but it should be on the tin so users are aware that they should backup any data they don't want to be modified.\nAlso a mechanism to do this through the interface would be nice, along with a notification that a new version of the data will be pushed. \nI'm bringing this up because I've encountered different levels of technical proficiency on the ZeroNet and AFAIK no one was aware of this. It would suck if suddenly people can't find old content and they don't know why.",
+				"added": 1457146802
+			}
+		],
+		"6875_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 16,
+				"body": "Seems like no news to me, given that people everywhere smokes pot as is mostly harmless (i.e. no addiction, no withdrawn syndrome, quite cheap).",
+				"added": 1469068003
+			}
+		],
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": [
+			{
+				"comment_id": 17,
+				"body": "Hahaha, same faggotry all ove again. This IS NOT reddit.\nIf you don't like something, just walk away. Don't be an idiot",
+				"added": 1470625957
+			},
+			{
+				"comment_id": 19,
+				"body": "> [silverstorm](#comment_12_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH): There are tons of ways to implement a reputation system also in a decentralized network, ignorant. People like you that like disturb discussions screaming and insult other users when are hidden by a nickname in real life are frustrated pussy with erection problems that poop in their pants. > rkshow: to all the homos, that want reputation system, please open you butt hole and slid in your finger inside while you exit ZeroNET.  the developers already said NO to reputation systems.\n\nSo you don't like his/her comment and you want everyone to notice how much s/he is disliked, huh?  It would be easier to just hide that username and pass you along some butthurt cream.\nThat way you can have all the comment from your sockpuppets accounts and circlejerk friends. :^)",
+				"added": 1470966121
+			}
+		],
+		"6_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 18,
+				"body": "Why do all links point to TF on clearnet? Aren't they supposed to be shared/hosted?",
+				"added": 1470626849
+			}
+		]
+	},
+	"comment_vote": {
+		"35_1PNyuY1iZqXBpft4ArouqcnE4pNRGYij5i": 1,
+		"3_1ErPzcG2oTKhq4q7MyDhvuUQBDtpD4i9mR": 1,
+		"11_1EMpuiFM1NLZmAVyoAWnwi8VwiZVV4dcnN": 1,
+		"8_17tRugXJrS18zKWVEYqZCPisSTk43hqUzx": 1,
+		"11_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa": 1,
+		"1_15zYrGJKfXo6XXU6rBUsuU3cTgpJkDuQYA": 1
+	}
+}

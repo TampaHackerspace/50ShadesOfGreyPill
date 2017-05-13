@@ -1,0 +1,21 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"1_1LpVhoCZkmD9hg63AKJF5kdfZ6fB46xsEM": [
+			{
+				"comment_id": 1,
+				"body": "防火墙上我也设置了开放这个端口，但依然显示关闭，搞不懂",
+				"added": 1480769649
+			},
+			{
+				"comment_id": 2,
+				"body": "> [linkerlin](#comment_5_13Nzuvnhyz7nBJvPoUrdTEFuQTWUdqXAJk): 我遇到同样的问题。主要是ISP启用啦NAT44，当我访问部分（主要是国外）IP的时候，我的出口IP是NAT掉的。所以，端口是打不开的。我是啦很多软件，换了系统和机器，都是一样的。\n\n看这架势是没办法了，无良电信，不过还好还有公网ip",
+				"added": 1480835077
+			}
+		]
+	},
+	"comment_vote": {}
+}

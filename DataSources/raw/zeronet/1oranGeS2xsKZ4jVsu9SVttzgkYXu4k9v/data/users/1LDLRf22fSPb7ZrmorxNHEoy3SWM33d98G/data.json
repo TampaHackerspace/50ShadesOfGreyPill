@@ -1,0 +1,47 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Nicer",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1480880499,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1480881015,
+			"body": "#test",
+			"date_added": 1480881013,
+			"meta": "{\"img\":\"900,506,321642766976a84666222543864852331a74632000b93888,01123433563478422121892756A77BC9486D777901EADD7F57C14ADDA32A\"}"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "И чего в этом такого? )) Умрем и все. п.с. я оптимист",
+			"post_uri": "1M6mvowPpeYyegFe6byJKP1aoehgKk84d2_1480822470",
+			"date_added": 1480880771
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1PChmSemiXAoFbhxQDUAivb4G5Qi7jUbUz",
+			"user_name": "Pztrn",
+			"date_added": 1480880515
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "12qEax5gsEoqUdwb6ZKmfYugwmBae7TNVN",
+			"user_name": "Beez",
+			"date_added": 1481025123
+		}
+	]
+}

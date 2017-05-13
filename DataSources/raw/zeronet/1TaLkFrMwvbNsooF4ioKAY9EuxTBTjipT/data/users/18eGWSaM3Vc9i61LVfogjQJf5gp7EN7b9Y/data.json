@@ -1,0 +1,596 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Coppersurfer.tk script: Should I be concerned?",
+			"body": "If you visit http://coppersurfer.tk ; there's a script on it while examining the page via Firefox's Element Inspecter (right click > Inspect Element (Q)) , but not when you view its source. Given that it's an HTTP connection, my ISP could easily be injecting traffic into the packet. Can anyone confirm this? Script is apparently titled PostRPC, which a quick google gives as Microsoft's Remote Procedure Call. Can post what I see if needed.",
+			"added": 1480651432
+		},
+		{
+			"topic_id": 2,
+			"title": "US House of Representatives to vote on FCC privacy protection rollback 2017-03-28",
+			"body": "Fight for the Future blew the whistle that US Congress is going to vote on whether to roll back the FCC's privacy protections, and the ISP industry has enough senators bought to rig the vote. If you are a US citizen, please please PLEASE call your senators RIGHT NOW. The link has phone numbers for those that are sympathetic. If you care at all about an uncomprimised Internet, this is something you need to spread, or the dollar-per-hollar shills will make life that much harder. \n\nhttps://www.fightforthefuture.org/news/2017-03-23-congress-votes-today-on-whether-to-gut-the-fccs/\n\nEDIT: Now it has to pass the House of Representatives. Just as a reminder: If the House votes yes, your personal data such as which banks you visit, hospitals and doctors you trust, your worker associations, all of that can and will be inferred from the metadata that the ISPs will be allowed to collect and sell, potentially making you get blackballed from a higher-paying job or targeted for discrimination. PLEASE call your reps and tell them to vote no on the CRA vote on Tuesday.\n\nhttps://www.eff.org/deeplinks/2017/03/we-have-24-hours-save-online-privacy-rules",
+			"added": 1490288861
+		}
+	],
+	"topic_vote": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"1_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1
+	},
+	"next_comment_id": 98,
+	"comment": {
+		"1_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 1,
+				"body": "I typically use:\nudp://tracker.coppersurfer.tk:6969\nudp://pow7.com:80/announce",
+				"added": 1469069363
+			},
+			{
+				"comment_id": 3,
+				"body": "> [astzor](#comment_6_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz): Check out Play, it hosted on Zeronet\n\nWhile Play exists, and indeed performs admirably on the UI front with its search engine correlating many, many torrents into one entry, it is currently limited to movies. ZeroTorrent.bit has applications, games, TV shows and music in addition to movies. Thus, depending on what you are wanting to torrent, ZeroTorrent might be a better choice.\n\nProps to Play, however, for sourcing its content from the clearnet, and providing source links. Depends on how used you are to trawling through torrents.",
+				"added": 1469075441
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 2,
+				"body": "A gate opened to Another Dimension in Independence Square.",
+				"added": 1469069429
+			},
+			{
+				"comment_id": 77,
+				"body": "Failure to push; push push push",
+				"added": 1493605751
+			},
+			{
+				"comment_id": 90,
+				"body": "Push fixing.",
+				"added": 1494376015
+			}
+		],
+		"14_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 4,
+				"body": "Also TorrentFreak.",
+				"added": 1469148206
+			}
+		],
+		"2_1JXFzMzrQTJCiGw36YNQGg2Tmt1hTHy7ZT": [
+			{
+				"comment_id": 5,
+				"body": "Pong.",
+				"added": 1469938869
+			}
+		],
+		"1_1HRrLnTaJwRCA24L45Sr3cYJ3nDmJmPabf": [
+			{
+				"comment_id": 6,
+				"body": "West Coast, USA.",
+				"added": 1473469182
+			}
+		],
+		"1_1F2PXhSgvJJvhpJzVmE2eEpgoUbDt4k1gk": [
+			{
+				"comment_id": 7,
+				"body": "For ZeroTorrent, please embed site's banner logo in the zite's Zeronet content, not request from clearnet, even over HTTPS. It generates metadata that can be tracked, which is always a bad thing.",
+				"added": 1474759625
+			}
+		],
+		"1_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y": [
+			{
+				"comment_id": 8,
+				"body": "Sourcedump:\n<html><head><script id=\"__lg_script\">(function(){function _PostRPC() {\t\t// include all code here to inject easily\n\n\tPostRPC = function(name, sendObj, receiveObj) {\n\t\tthis._id = Math.floor(Math.random()*1000000);\n\t\tthis._ns = '__PostRPC_' + name;\n\t\tthis._sendObj = sendObj;\n\t\tthis._calls = {};\n\t\tthis._methods = {};\n\n\t\tif(!receiveObj) return;\t\t// send-only RPC\n\n\t\tif(receiveObj.emit) {\n\t\t\treceiveObj.on(this._ns, this._receiveMessage.bind(this));\n\t\t} else {\n\t\t\tvar _this = this;\n\t\t\treceiveObj.addEventListener(\"message\", function(event) {\n\t\t\t\tvar data = event.data && event.data[_this._ns];\t\t// everything is inside ns, to minimize conflicts with other message\n\t\t\t\tif(data)\n\t\t\t\t\t_this._receiveMessage(data);\n\t\t\t}, false);\n\t\t}\n\t};\n\n\t// public methods\n\tPostRPC.prototype.register = function(name, fun) {\n\t\tthis._methods[name] = fun;\n\t};\n\tPostRPC.prototype.call = function(method, args, handler) {\n\t\tvar callId;\n\t\tif(handler) {\n\t\t\tcallId = Math.floor(Math.random()*1000000);\n\t\t\tthis._calls[callId] = handler;\n\t\t}\n\t\tif(!args) args = [];\n\n\t\tthis._sendMessage({ method: method, args: args, callId: callId, from: this._id });\n\t};\n\n\t// private methods for sending/receiving messages\n\tPostRPC.prototype._sendMessage = function(message) {\n\t\tif(this._sendObj.emit)\n\t\t\tthis._sendObj.emit(this._ns, message);\n\t\telse {\n\t\t\t// everything is inside ns, to minimize conflicts with other messages\n\t\t\tvar temp = {};\n\t\t\ttemp[this._ns] = message;\n\t\t\tthis._sendObj.postMessage(temp, \"*\");\n\t\t}\n\t}\n\n\tPostRPC.prototype._receiveMessage = function(data) {\n\t\tif(data.method) {\n\t\t\t// message call\n\t\t\tif(data.from == this._id) return;\t\t\t\t\t\t// we made this call, the other side should reply\n\t\t\tif(!this._methods[data.method]) {\t\t\t\t\t\t// not registered\n\t\t\t\tBrowser.log('PostRPC: no handler for '+data.method);\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\t// pass returnHandler, used to send back the result\n\t\t\tvar replyHandler;\n\t\t\tif(data.callId) {\n\t\t\t\tvar _this = this;\n\t\t\t\treplyHandler = function() {\n\t\t\t\t\tvar args = Array.prototype.slice.call(arguments);\t// arguments in real array\n\t\t\t\t\t_this._sendMessage({ callId: data.callId, value: args });\n\t\t\t\t};\n\t\t\t} else {\n\t\t\t\treplyHandler = function() {};\t\t// no result expected, use dummy handler\n\t\t\t}\n\n\t\t\tvar dataArgs = Array.prototype.slice.call(data.args);\t// cannot modify data.args in Firefox 32, clone as workaround\n\t\t\tdataArgs.push(replyHandler);\n\n\t\t\tthis._methods[data.method].apply(null, dataArgs);\n\n\t\t} else {\n\t\t\t// return value\n\t\t\tvar c = this._calls[data.callId];\n\t\t\tdelete this._calls[data.callId];\n\t\t\tif(!c) return;\t\t\t\t\t\t\t\t\t\t\t// return value for the other side, or no return handler\n\t\t\tc.apply(null, data.value);\n\t\t}\n\t}\n}function injectedCode() {\n\tif(!navigator.geolocation) return;\t\t/* no geolocation API */\n\n\tvar prpc;\n\n\t// we replace geolocation methods with our own\n\t// the real methods will be called by the content script (not by the page)\n\t// so we dont need to keep them at all.\n\n\tnavigator.geolocation.getCurrentPosition = function(cb1, cb2, options) {\n\t\t// create a PostRPC object only when getCurrentPosition is called. This\n\t\t// avoids having our own postMessage handler on every page\n\t\tif(!prpc)\n\t\t\tprpc = new PostRPC('page-content', document.defaultView, window);\n\n\t\t// call getNoisyPosition on the content-script\n\t\tprpc.call('getNoisyPosition', [options], function(success, res) {\n\t\t\t// call cb1 on success, cb2 on failure\n\t\t\tvar f = success ? cb1 : cb2;\n\t\t\tif(f) f(res);\n\t\t});\n\t};\n\n\tnavigator.geolocation.watchPosition = function(cb1, cb2, options) {\n\t\t// we don't install a real watch, just return the position once\n\t\t// TODO: implement something closer to a watch\n\t\tthis.getCurrentPosition(cb1, cb2, options);\n\t\treturn Math.floor(Math.random()*10000);\t\t// return random id, it's not really used\n\t};\n\n\tnavigator.geolocation.clearWatch = function () {\n\t\t// nothing to do\n\t};\n\n\t// remove script\n\tvar s = document.getElementById('__lg_script');\n\tif(s) s.remove();\t// DEMO: in demo injectCode is run directly so there's no script\n}_PostRPC(); injectedCode();})()</script>\n\t\t<title>open torrent tracker coppersurfer.tk</title>  \n\t\t<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"style.css\">\n\t\t<link type=\"text/css\" rel=\"stylesheet\" href=\"http://fonts.googleapis.com/css?family=Open+Sans:300\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"resource://jid1-mnnxcxisbpnsxq-at-jetpack/data/skin/socialwidgets.css\"></head>\n    <body>\n\t\t<div class=\"d\">\n\t\t\t<!--img src=\"censorship_quote.jpg\" style=\"margin-left: auto; margin-right: auto; text-align: center; display: block; margin-top: 15px; border: 10px solid black; border-radius: 11px;\"-->\n\t\t\t<!--h1 style=\"text-align: center;\">coppersurfer.tk</h1-->\n\t\t\t<h2 style=\"text-align: center; margin-left: 30px; margin-right: 30px;\">Free for all, open <img style=\"position: relative; top: 2px;\" src=\"img/bittorrent_icon.png\">p2p tracker, <br><img style=\"position: relative; top: 1px; right: 1px;\" src=\"img/bitcoin_icon.png\">bitcoin node and <img src=\"img/tor_icon.png\">tor relay</h2>\n\t\t\t<p class=\"tracker\">just use<br>\n\t\t\t<b>udp://tracker.coppersurfer.tk:6969/announce</b><br>\n\t\t\t<small>don't use any other url variations or ports of coppersurfer.tk that will just increase server load</small>\n\t\t\t</p>\n\t\t\t<p id=\"ty\">Things you should know:\n\t\t\t</p><ul>\n\t\t\t\t<li>We don't keep logs.</li>\n\t\t\t\t<li>Random IP addresses are inserted into the peer list.<sup><a href=\"http://opentracker.blog.h3q.com/2007/02/12/perfect-deniability/\">[•]</a></sup><sup> <a href=\"http://en.wikipedia.org/wiki/Opentracker#Features\">[••]</a></sup></li>\n\t\t\t\t<li>You can use coppersurfer as a default tracker.</li>\n\t\t\t\t<li>We do not have any file content, we are not a bittorrent site, we don't have any torrent files.</li>\n\t\t\t\t<li>The full aggregated <a href=\"http://coppersurfer.tk/full_scrape_not_a_tracker.tar.gz\">scrape</a> file is updated every 1 hour. The name of full scrape file may change in the future.</li>\n\t\t\t</ul>\n\t\t\t<p></p>\n\t\t\t<p id=\"ty\">Stable trackers you could use:\n\t\t\t</p><ul>\n\t\t\t\t<textarea id=\"t\">udp://tracker.internetwarriors.net:1337/announce\n\nudp://tracker.leechers-paradise.org:6969/announce\n\nudp://tracker.coppersurfer.tk:6969/announce\n\nudp://exodus.desync.com:6969/announce\n\nudp://tracker.openbittorrent.com:80/announce\n\nudp://tracker.sktorrent.net:6969/announce\n\nudp://tracker.zer0day.to:1337/announce\n\nudp://tracker.pirateparty.gr:6969/announce\n</textarea>\n\t\t\t</ul>\n\t\t\t<p></p>\t\n\t\t\t<br>powered by:<br><a href=\"http://erdgeist.org/arts/software/opentracker/\">erdgeist opentracker</a>\t\n\t\t\t<br><br>contact / report abuse:<br><img style=\"opacity: 0.6; margin-left: -3px; height: 17px;\" src=\"c.png\"><p></p>\t\n\t\t\t<a target=\"_NEW\" href=\"http://bitcoin.org\">bitcoin:</a><br>\t\n\t\t\t<a href=\"bitcoin:1FM8drTx8xyiuAeoQJD6MtyPuV82x6werG\">1FM8drTx8xyiuAeoQJD6MtyPuV82x6werG</a>\n</div>\n\t\t<center id=\"torrents\" style=\"margin-bottom: 46px; margin-top: 20px;\">\n\t\t<a href=\"http://www.kopimi.com/kopimi/\"><img src=\"img/kopimi.png\" border=\"0\" width=\"80\" height=\"15\"></a>\n\t\t<!--a href=\"http://freebsd.org/\"><img width=\"80\" height=\"15\" border=\"0\" src=\"img/freebsd.gif\"></a-->\n\t\t<a href=\"http://tracker.pirateparty.gr/\"><img src=\"img/tracker.pirateparty.gr.png\" border=\"0\" width=\"80\" height=\"15\"></a>\n\t\t<a href=\"https://www.torproject.org/\"><img src=\"img/torproject.gif\" border=\"0\" width=\"80\" height=\"15\"></a>\n\t\t<a href=\"https://www.pirateparty.gr/\"><img src=\"img/votepirate.png\" border=\"0\" width=\"80\" height=\"15\"></a>\n\t\t<br>\n\t\t<a href=\"http://openbittorrent.com/\"><img src=\"img/openbittorrent.png\" border=\"0\" width=\"80\" height=\"15\"></a>\n\t\t<a href=\"https://eff.org/\"><img src=\"img/eff.png\" border=\"0\" width=\"80\" height=\"15\"></a>\n\t\t<a href=\"http://zer0day.to/\"><img src=\"img/zer0day.png\" border=\"0\" width=\"80\" height=\"15\"></a>\n\t\t<a href=\"http://coppersurfer.tk/\"><img src=\"img/coppersurfer.png\" border=\"0\" width=\"80\" height=\"15\"></a>\n\t\t<br>\n\t\t</center>\n\t\n\n</body></html>\n\nScript appears to be injected prior to title line.",
+				"added": 1480651859
+			},
+			{
+				"comment_id": 9,
+				"body": "> [waterrabbit](#comment_69_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): It seems to be calling the GeoLocation API...\n\nWhere might I find this Tor Mailing List? Plus, I am using Firefox, not the Tor Browser. I'll see if restarting with addons disabled produces the same result.",
+				"added": 1480663986
+			},
+			{
+				"comment_id": 10,
+				"body": "@waterrabbit : If you're on the mailing list, you will be receiving the mailing list at your next dump. Thanks for the referral.",
+				"added": 1480740519
+			},
+			{
+				"comment_id": 11,
+				"body": "The worst part, this is following me around on every HTTP connection I use. Been trying different JS injectors to remove the element, but none of them offer either fine-grained enough filters or an option to inject the removal script prior to the self-deleting script. Any suggestions?",
+				"added": 1480753183
+			},
+			{
+				"comment_id": 12,
+				"body": "@waterrabbit: I did. Tor Browser didn't show the script, at least not in the element inspector. Free VPNs are a trap and both ```https://phx.sslsecureproxy.com``` and ```https://www.proxyssl.org``` had the script pop up in the head tag. Given that the proxy sites in question had HTTPS connections, it seems unlikely that this is limited to my ISP alone. But if that's true, then I wonder what's causing it to inject itself into every HTTP connection...\n\nEDIT: ... Waterrabbit, would you be willing to install and addon and see if you get the same result? I think an addon called Location Guard is doing this, given that HTTPS connections are getting the same script just inside the head tag\n\nLink to addon: ```https://addons.mozilla.org/en-US/firefox/addon/location-guard/```\n\nI swear, if I got myself worked up into a panic over this I am going to be peeved.\n\nEDIT 2: ... Yes. Yes it is. Looking at the GitHub repo for the addon, it shows exactly what I was looking for. Apologies for wasting your time.",
+				"added": 1480794617
+			}
+		],
+		"2_17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb": [
+			{
+				"comment_id": 13,
+				"body": "If you are talking about a bookmark list of zites for your ZeroHello, click the three vertical dots to the right of the zite's entry on the left side of the screen, and select Favorite. It'll stay above the list of zites you have already connected to. \n\nContent bookmarks on zites themselves are up the the zite's developer.",
+				"added": 1482044534
+			}
+		],
+		"2_1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp": [
+			{
+				"comment_id": 15,
+				"body": "> [kaffie](#comment_216_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): I can never seem to get IPFS to work right. Everything has problems loading, even though I'm running it as instructed. Dead files, slow connections, files don't load right, etc. For something that's focused on 'permanence', there sure does seem to be a huge difficulty in actually getting the files.\n\nI have the opposite problem. Everything loads fine (except for fuse...). I just can't find anything to actually download. Got any lists?",
+				"added": 1482045948
+			}
+		],
+		"1_1CYj7o5iamDZeKZvdSAW4P2aEngmAXb78T": [
+			{
+				"comment_id": 16,
+				"body": "The options (enabled by default, of course) of greater care in handling of user's private keys at rest, and a passphrase protection on startup. Right now, they are stored as cleartext. On Windows machines, this is not a good thing, as Window's access controls leave something to be desired, and well, there's always Linux boot flash drives to get around them. Having a public-private keypair system would be best, although that turns the something-you-know into something-you-have , which is not always the best of ideas. File-based encryption of data at rest seems like it would be the best compromise between security and usability, preferably with a switch for that zite's data.",
+				"added": 1484020761
+			}
+		],
+		"5_1NGTMtN8816KeCtNqy6W4fCQduU4P8iwty": [
+			{
+				"comment_id": 17,
+				"body": "What precisely do you have against MobVoi? It looks like the file you linked is just a page for a job listing, in a DB instead of an HTML file.\n\nIf it's just leaking a new smartwatch, I can forward this to XDA :D",
+				"added": 1484021221
+			}
+		],
+		"31_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 18,
+				"body": "Opera's making a resurgence? Something to investigate.",
+				"added": 1484462582
+			}
+		],
+		"1_1HF6ebZEJMpTefpfhne3sB2NqNDbnwsXZu": [
+			{
+				"comment_id": 19,
+				"body": "Carcosa.",
+				"added": 1484856758
+			}
+		],
+		"1_13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31": [
+			{
+				"comment_id": 20,
+				"body": "@couldbeworse: What's the delay between initiating a transaction and receiving usable *coins? Does it vary by coin? What's Bitcoin's current and future-expected blockchain size? What prices have you found for VPN access? Inquiring minds want to know.",
+				"added": 1485061301
+			}
+		],
+		"2_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 21,
+				"body": "WineHQ recently (2017-1-24) released v2.0 of Wine, where they switched to a yearly release model. These releases are not updated as frequently, but are much more stable than the development branch. On the other hand, the development branch will have support for more applications faster than releases. Consider which you require, stability or capability, and pick either release or development. The installation procedures will be different for each. Check out ```https://www.winehq.org/download``` for more information. I personally like speedy updates, so I chose the development channel.",
+				"added": 1485568877
+			},
+			{
+				"comment_id": 23,
+				"body": "@twiggy: This is the source package. Check for prebuilts under https://www.winehq.org/download under the WineHQ Binary Packages section for Ubuntu, Debian, Fedora, Mageia and macOS versions, and Distro Binary Packages for SUSE, Slackware and FreeBSD. If you aren't running one of these distros (Linux Mint has both Debian and Ubuntu parents; it's odd), then you will need to compile the source code yourself.",
+				"added": 1485904684
+			},
+			{
+				"comment_id": 24,
+				"body": "Wine is not a frontend application. Instead, it is a shim between your unmodified Windows dotexe and your Linux system. More in 3hrs, have stuff to do.",
+				"added": 1486067043
+			},
+			{
+				"comment_id": 25,
+				"body": "Right then, couple of hours lat but screw it.\n\nWine is not meant to be run by itself. Instead it's a compatibility layer to translate the system calls from Windows dotexes to Linux ones, and back again on the return trip. Running Wine by itself would be futile, so there's no premade shortcut. Instead, make an empty text document with the ```.desktop``` extension, i.e. ```wine-program.desktop``` following the example set by any that you currently possess on your machine. For example, this will work to start the ZeroNet.sh script:\n\n```[Desktop Entry]\nName=Start Zeronet\nComment=Censorship-resistent internet\nExec=/bin/bash -c \"cd /path/to/Zeronet/dir/  && ./ZeroNet.sh\"\nIcon=/path/to/znet_logo.jpg\nTerminal=false\nType=Application\nCategories=Network;FileTransfer;```\n\nThe ```[Desktop Entry]``` header is required to tell the system to start treating the file like a desktop entry, although due to the standard ```.desktop``` extension some systems can get away with just looking at the filename. Without it, most window managers display a text document icon, and the system opens it as a text document upon doubleclick.\n\n```Name=...``` is the displayed name of the shortcut when it is rendered by your window manager. Note that this does not change the filename; if you are interacting with it via the shell, you will need to specify whatever you saved it as, not what the line reads.\n\n```Exec=...``` is the command line that runs your given application. This example would navigate to ```/path/to/Zeronet/dir/``` and, if the directory exists, run the executable script or binary named ```ZeroNet.sh``` in the current directory. I prefer this way because it makes the ```$PWD``` environment variable be passed to the script's shell, preventing some bugs that can be difficult to track down.\n\n```Icon=...``` is the path and filename to the image file displayed by the shortcut. Depending on your system, it may only support jpegs, so be sure to convert if you are uncertain.\n\n```Type=...``` tells the system to open it as this MIME type. Typically, this will be Application.\n\n```Terminal=...``` tells the system to spawn or not spawn a terminal window when running the application via this shortcut. Typically, when running an application via the GUI, one doesn't want a popup :P\n\nCategories and Comments are typically optional. For more information, try the following two links:\n```https://help.ubuntu.com/community/UnityLaunchersAndDesktopFiles```\n```https://specifications.freedesktop.org/desktop-entry-spec/latest/```\n\nSo let's try this with a Windows app under Wine. Wine is special, since by default its desktop files reference the wineprefix's emulated Windows filesystem. Try the following Exec=... line:\n```Exec=env WINEPREFIX=/home/<insert username here>/.wine/ wine C:\\\\\\\\windows\\\\\\\\command\\\\\\\\start.exe C:\\\\\\\\path\\\\\\\\to\\\\\\\\exe\\\\\\\\file\\\\\\\\in\\\\\\\\wineprefix``` assuming that the dotexe is located (or even symlinked >:)) to a file in the wineprefix. This sets the environment variable ```WINEPREFIX```to the root of the wineprefix, which is required and will be created/populated if not extant, tells Wine to start the Windows program starter, which then starts the file specified.\n\nFor troubleshooting, first ensure you have permissions to execute both the ```.desktop``` file and the dotexe.\n\nIf you have any questions, feel free to ask.",
+				"added": 1486084109
+			},
+			{
+				"comment_id": 26,
+				"body": "> [twiggy](#comment_15_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): snip\nA: That line is placed in the ```.desktop``` document, not directly into the command terminal. As an aside, you'll need to use four backslashes, since under the hood you are passing the command through two passes of the command processor.\n\nB: NEVER run Wine as root. That will give any maliciously-infected Windows executable root access to your system, leading to Bad Things (tm).\n\nC: Making a ```.desktop``` file is the standard way of starting applications via the GUI. On Ubuntu, ordinary ```apt-get``` installs automatically do this by copying a prebuilt to ```/usr/share/applications``` folder, where they show up in the Unity Dash searchbox. Try the ```gnome-panel``` package, and the ```gnome-desktop-item-edit``` tool. This will be the only time you need to interact with the command line, assuming you plan ahead and create a new dotdesktop file to create new dotdesktop files :P\n\t1: Open a terminal and install the ```gnome-panel``` package with the following command line:\n\t\t```sudo apt-get install gnome-panel --no-install-recommends```\n\t2: Execute the following to open the GUI, while creating a new dotdesktop:\n\t\t```/usr/bin/gnome-desktop-item-edit /home/$USER/Desktop/ --create-new```\n\tThis functions because it is invoking the program, then the first argument says to place this new dotdesktop file in the directory specifed (feel free to replace the $USER with the name of your user, since the command is being invoked by your terminal, it will expand to whatever the ```USER``` environment variable is for that particular shell, can cause problems if you have a nonstandard shell) \n\t3: At the GUI, you will see an icon on the left, and a few fields. Click the icon to bring up a file picker and navigate to whatever icon you want displayed. \n\t4: Type should remain Application. Name will be whatever you want displayed by your window manager. Comment can be ignored, but may be useful if you ever come back to edit it and forget what the dotdesktop is for :P\n\t5: Finally, onto the Command field. This is what the ```Exec=...``` line is mapped to. Wine is special in that you will need to prefix the Linux location of the Windows executable with some arguments in order to make it work. For this example, I will be using ```/home/rythyrix/Desktop/catplanet.exe``` as the Windows executable I want to invoke.\n\t6: Obtain the Linux path of the executable to invoke, and the wineprefix you want to use as the root of the Windows system. In this case, ```/home/rythyrix/.wine/```\n\t7: Open a text editor, as it's easier to just copy/paste into the Command box of the Create Launcher GUI. Keep in mind that the dotdesktop file will not create\n\t8: Assemble the line as follows: ```env WINEPREFIX=\"<your wineprefix here>\" wine C:\\\\windows\\\\command\\\\start.exe /Unix \"<your Linux executable path here, with no expansions>\"``` For example, my line would be ```env WINEPREFIX=\"/home/rythyrix/.wine/\" wine C:\\\\windows\\\\command\\\\start.exe /Unix \"/home/rythyrix/Desktop/catplanet.exe\"```\n\t9: Copy/paste the completed command line into the Command box, then click OK. If all went well, you should now have a new dotdesktop on your desktop. Double-click  on it to test if it works.\n\t10: To make a dotdesktop to make new dotdesktops on your desktop (what a mouthful), place the following command line in the Command box: ```/usr/bin/gnome-desktop-item-edit /home/<your username here>/Desktop --create-new```, adjust Name/Icon as desired, and click OK. Keep in mind you cannot use environment/tilde expansion in the Command box, so you need to type the path without such expansions.\n\t11: If you are ever interested in learning the command line, this is a good place to start: ```http://www.linuxcommand.org/index.php```\n\nQuestions still welcome.",
+				"added": 1486155432
+			},
+			{
+				"comment_id": 27,
+				"body": "Considering that that's my username, you may wish to replace it with your own. It's a file path pointing to the wineprefix location on your file tree, which the windows logic sees as its root directory. Makes it easy to remove Wine installs; delete the prefix, done. By default, Wine creates a ```.wine``` directory under the given user's home directory. To fix, use your computer's login in place of USER: ```/home/USER/.wine```",
+				"added": 1486173340
+			},
+			{
+				"comment_id": 28,
+				"body": "First, determine where in your file system the unmodified Windows exe is located. If it's located on your desktop, it will be under ```/home/bob/Desktop/program.exe``` . If you have an inkling of what the filename is, try this oneliner in the command terminal: ```find / -iname *.exe 2>/dev/null | grep -i -e \"<filename of exe here>\"``` to print where the program is. This will search your entire computer, so it may take a while. Grab a coffee.\n\nIn addition, ensure that the ```C:\\windows\\command\\start.exe``` has doubled backslashes (``` \\\\ ```), because the final shortcut file will need four backslashes to function properly, and each one backslash will be doubled by the GUI.",
+				"added": 1486183718
+			},
+			{
+				"comment_id": 29,
+				"body": "...Why would you install Wine without a program that you needed to run? Serious question here. Wine does nothing by itself. One thing you could do is navigate to where you are storing said EXE, if you know where it is, and then right click on some empty space in your file manager, there should be something akin to 'Open in Terminal' on the context menu.\n\nRegardless, feel free to zmail me with questions, this is getting crowded and quicker response times may be what you need.",
+				"added": 1486193904
+			},
+			{
+				"comment_id": 30,
+				"body": "Given that I have no idea what the file structure is inside that split archive, you may be best served by creating a new directory and extracting each into there one at a time. That should emulate the split archive functionality of your archive manager, if it isn't supported. Try googling for Linux archive managers, most should support split RARs out of the box if yours doesn't. Alternatively, you may just not have all of them :P I haven't actually dealt with split archives lately, so take it with a grain of salt. Or the parts may just be individual RARs that happen to contain the seven parts of that game, in which the intended behavior is to extract them all on top of each other. Really depends on the packager.",
+				"added": 1486194859
+			},
+			{
+				"comment_id": 31,
+				"body": "export WINEPREFIX=<your wineprefix here>\nexport WINEARCH=win32\ncd <directory where the exe is stored>\nwine ./<your exe here>\n\n\nTry that.",
+				"added": 1486442023
+			},
+			{
+				"comment_id": 32,
+				"body": "> [twiggy](#comment_24_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): snip\nYou have a space in the file path. Make sure to surround any arguments that contain spaces with doublequotes, or escape each one with a backslash. Quoting in bash is its own !!!FUN!!! thing.",
+				"added": 1486523405
+			}
+		],
+		"1_17fhLVyDDVzpRBDNcE12pp3uvw1jkNaQkq": [
+			{
+				"comment_id": 22,
+				"body": "Can't tell if prank. Not old enough.",
+				"added": 1485576709
+			}
+		],
+		"5_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": [
+			{
+				"comment_id": 33,
+				"body": "> [burningcold](#comment_16_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs): snip\n\nI think that one of the major roadblocks to that is the involuntary hosting and redistribution of illegal content that would serve as a deterrent and give opponents of such a system more ammunition. Since it can be legally liable, no datacenter is going to want to host such a system. IPFS, is still voluntary only, even in the whitepaper.",
+				"added": 1487293692
+			},
+			{
+				"comment_id": 34,
+				"body": "> [twiggy](#comment_45_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): ZeroMail needs a feature where people can send pdf files and maybe a few pictures.\n\nConsidering that people zmail chatting will typically trust one another a bit more than a message board, consider setting up a ZeroMux dropbox that waterrabbit was working on. Here's a link to the blog post explaining it ```http://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/?Post:6:ZeroMux+Dropbox```; in summary, set up your own zite and share the address with those you wish to exchange files with, and you now how a means of transferring the files through ZeroNet without bogging down non-participants with your encrypted cat photos. Alternatively, use Onionshare along with the Tor Browser to transfer, but that's also a bit of a pain and requires installation of other software, instead of being contained within ZeroNet.",
+				"added": 1487808079
+			}
+		],
+		"1_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 35,
+				"body": "At least until BitTorrent Inc posts an update or alternative to the protocol to take the new hashes into account,whatever algorithm it may be. I'm suspicious that they will use this collision as an excuse to drop BitTorrent's standard from open to closed. They've been trying to get rid of the bad press that BitTorrent has developed as a result of piracy.",
+				"added": 1488055398
+			}
+		],
+		"2_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 36,
+				"body": "> [twiggy](#comment_53_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): How secure is ZeroMail 2.0 compared to the other ZeroMail?\n\nThat is dependent upon how well-encrypted the content is, and whether your reciepients can be inferred from your own content.json.",
+				"added": 1488855468
+			}
+		],
+		"3_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 37,
+				"body": "Wait, I know Richard Stallman supposedly endorsed EME being included in W3C's HTML5 standards, but did that actually get passed? If so, WTF W3C? How much pressure are they under by the megacorps?\n\nEDIT: Wow, I've been living under a rock.",
+				"added": 1488866922
+			},
+			{
+				"comment_id": 38,
+				"body": "> [twiggy](#comment_55_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): I know another reason why people should stop using Chrome -- Vault 7\n\nDid that leak specify Chrome as a target? Or just proprietary browser = bad browser?",
+				"added": 1488928262
+			}
+		],
+		"25_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 39,
+				"body": "The ability to send a notification ala what the Firefox extension Self-Destructing Cookies does, but whenever a participant sends a message, would be of benefit for any ZeroNet-based chatroom. Right now, one must manually look at the previous update time for the zite and determine if it's been updated manually. Push notifications can solve that via keeping participation moving with reminders.",
+				"added": 1488928460
+			},
+			{
+				"comment_id": 40,
+				"body": "> [harshasahoo76730](#comment_1_18YE3Sc5daizwqVAoPu3YDvURfie2VmSwC): are there any zites for free book downloads??????\n\nTry [Antilibrary](http://127.0.0.1:43110/Antilibrary.bit). Sourced from Libgen.io and will Soon(tm) be adding user uploads.",
+				"added": 1489265889
+			}
+		],
+		"2_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": [
+			{
+				"comment_id": 41,
+				"body": "> [oooo](#comment_1_12TPAPjmQUAi2qoNKL9gGLss2sFYtqx3dJ): Arch is my favorite :)\n\nI want Arch, but have too much investment of data in my desktop to swap from Ubuntu, and laptop has i686 architecture, which Arch is dropping support for. Sound like time to get a new laptop :P",
+				"added": 1489267128
+			}
+		],
+		"1_18YE3Sc5daizwqVAoPu3YDvURfie2VmSwC": [
+			{
+				"comment_id": 42,
+				"body": "> [nekololi](#comment_29_1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB): how do you propose we share them?\n\nTorrents? ZeroMux? OnionShare? Take your pick, but some methods may be better than others.",
+				"added": 1489462706
+			}
+		],
+		"6_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": [
+			{
+				"comment_id": 43,
+				"body": "This is an awesome idea! A communal jukebox, where everyone can post their choice of music. Will you be making permanently store the tracks, or will you be aiming more toward ephemerality?",
+				"added": 1489708370
+			},
+			{
+				"comment_id": 45,
+				"body": "> [nekololi](#comment_33_1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB): snip\nSick making it is possible, maybe we should ask him :P\n\nI do concur that a rolling garbage collection model may be a good fit; I wonder which of MB used or popularity of songs is a better criterion. Or alternatively, put the user in control of it; have a switch that controls whether it automatically removes old/unpopular songs. Solves a bit of discomfort with maybe removing a song that you like.\n\n> [185185](#comment_2_1EZzNxPxXMSXmEMwJSU3U8jcgjfdAeyTfr): snip\nDid you make the music zite, Sick?",
+				"added": 1489865491
+			},
+			{
+				"comment_id": 46,
+				"body": "> [yinyue](#comment_27_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t): No peers found !\n\nHow odd. I'm seeding it.",
+				"added": 1489899576
+			}
+		],
+		"1_1HJugahAiT2RnwJQdHuEd2RgW5fpWwNxnB": [
+			{
+				"comment_id": 44,
+				"body": "As shiny and awesome as ZeroNet is, theres a couple of flaws inherent in its design that prevents many people from adopting it: it requires a daemon, and it has remote disk modification capabilities.\n\nLess technically-savvy users don't want to install something that isn't a pretty installer with a wizard and everything; more technically-savvy users don't want the large, LARGE attack surface ZeroNet represents.\n\nI've mitigated the attack surface factor a little by mountbinding my ZeroNet/data directory with fmask 117 and running the daemon as a user with only one group, but both of those require Linux, which represents about 2% of all desktop users. Windows is still king of desktopland.\n\nPoint is, there's a lot of work and polish left to do before ZeroNet can possibly get enough users to compete with a centralized service provider; kind of a chicken-and-egg scenario. Market penetration in the modern internet is a bit of a pain.",
+				"added": 1489724612
+			}
+		],
+		"3_177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD": [
+			{
+				"comment_id": 47,
+				"body": "Hijacked; this zite is now about RWBY.",
+				"added": 1489952037
+			}
+		],
+		"1_1QEeAynSzdEKo9DZnFJccGBwSS33mZedpz": [
+			{
+				"comment_id": 48,
+				"body": "If you run multiple instances of ZeroNet, make sure to publish one set of modifications and receive them on the other device(s) before publishing on any others. Since you publish whatever one instance has, if they aren't synced then you will lose data.",
+				"added": 1489964441
+			}
+		],
+		"10_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": [
+			{
+				"comment_id": 49,
+				"body": "Which leak is this one? Any and all? Wikileaks Vault 7? Some specificity would be nice.",
+				"added": 1489965541
+			}
+		],
+		"2_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y": [
+			{
+				"comment_id": 51,
+				"body": "Passed the Senate. Given Trump's unskeptical view on industrial claims, it's likely going to be signed into law.\n\nEDIT: Got the order wrong; it still has to pass the House. Please call your reps.\nhttps://act.eff.org/action/don-t-let-congress-undermine-our-online-privacy",
+				"added": 1490315648
+			},
+			{
+				"comment_id": 56,
+				"body": "Oh good, it has to pass the House, so we have another chance. Please do read what ISPs will be allowed to do if these rules are repealed, then ask yourself: What can someone who can see where I go on the internet infer about me? Can I risk myself or my friends and family being discriminated against for a wayward click? Call your reps and tell them that this bullshit is unacceptable.",
+				"added": 1490588078
+			}
+		],
+		"1_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": [
+			{
+				"comment_id": 52,
+				"body": "Firewalls tend only to stop incoming traffic, not outgoing. Initial peers for your content may be hard to get, but that's what [New ZeroNet Sites](http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n/) is for :D Plus you can always go to a proxy and add your zite to their node, but try not to flood the proxy's HDD. Be sure to advertise your site too, otherwise no one will know it exists.",
+				"added": 1490430580
+			}
+		],
+		"6_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 53,
+				"body": "On limited node ATM, what do you host @hexkey?\n\nRegarding ZeroNet updates, there actually is a site @nofish publishes the source on. It is located [here](http://127.0.0.1:43110/1UPDatEDxnvHDo7TXvq6AEBARfNkyfxsp/)",
+				"added": 1490470765
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 54,
+				"body": "> [border0464fred](#comment_78_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): snip\nTry ```trackers = ['protocol://url','another://tracker']``` \nMake sure to include the punctuation, as this is a json array.\n\nYou can find the source under ZeroNet/src/Config.py with the lines labeled ```self.parser.add_argument```. The scheme used in zeronet.conf is ```option-name = option-value```, one per line, do not include the double dashes like you would at the command line.",
+				"added": 1490509767
+			},
+			{
+				"comment_id": 71,
+				"body": "> [akito](#comment_18_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY): I have two issues: [...]\n\nRegarding favorited sites, ZeroNet stores your favorite zites as a JSON object inside your browser's local storage. According to [this Superuser post](https://superuser.com/questions/629525/how-to-control-websites-use-of-localstorage-in-firefox#771799), Firefox's cookie and local storage permissions are linked. First, check if your cookies are allowed for ```127.0.0.1``` and/or ```localhost``` and not wiped between closing all tabs/the window (hello, Self-Destructing Cookies addon, fancy seeing you here). This should fix the issue, but I've never experienced the problem, so YMMV.\n\nRegarding the default browser, ZeroNet exposes the option of which to use via the command line option ```--open_browser [path_to_browser_as_one_argument]```. If not specified, assumes the OS's default. If you want to not start with a browser, you'll need to edit either your shortcut or sh/cmd file to not have that argument, or change the ```zeronet.conf``` file to do the same.",
+				"added": 1493425739
+			},
+			{
+				"comment_id": 72,
+				"body": "> [akito](#comment_20_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY): Thank you, very helpful.By now I have another additional problem: some sites tell me e.g. \"1 File update failed!\". How do I fix this?\n\nThat's simply the fact that none of your peers you have connected (connected, not available, there's a difference) have that file, or the file was corrupted en route, or the peer sent a file with the wrong sum. Could be a number of things. Go to the zite that has that error, and drag the purple 0 at the top right leftward. Scroll down to 'Missing Files' and see what file it is. Chances are high it's a user's file, i.e. starting with ```data/users/``` and no one has a correctly signed or summed copy. It happens, and as your connections refresh or swap between your peers, it should resolve itself unless zero people have valid copies.",
+				"added": 1493433001
+			},
+			{
+				"comment_id": 74,
+				"body": "> [akito](#comment_21_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY): [snip]\n\nCheck your ZeroMail.",
+				"added": 1493445615
+			},
+			{
+				"comment_id": 76,
+				"body": "> [border0464fred](#comment_151_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): I just realised my content.json is full of sha512 signatures of inexisting files.  [...]\n\nI am actually against this; forcing resumming of each file, even optional, forces two things: A) your node must have all content on the site in order to sum it, and B) doing so takes a comparatively long time, resulting in long sum times per sign, restricting the practical size of zites. Not resumming optional files enables zites to quickly publish new content. On the other hand, when one signs their zite, how does the parser tell not to resum? Timestamp checking, whilst useful, can be defeated with a simple ```touch -t $(date -d @UNIX_EPOCH_SECONDS +%y%m%d%H%m.%S) FILE```. Perhaps a pregex or a seperate json file, in a similar vein to the current model for user content rules?",
+				"added": 1493579062
+			},
+			{
+				"comment_id": 78,
+				"body": "> [torezen](#comment_4_127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr): [snip]\n\nDepends, there doesn't seem to be a GUI for it, but each site's sent/received byte count is stored under ```ZeroNet/data/sites.json```. Total them all, and there's your values.",
+				"added": 1493606347
+			},
+			{
+				"comment_id": 79,
+				"body": "> [border0464fred](#comment_152_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): [snip]\n\nUsecase? I think any time the node you are on doesn't have the content to sum. Hard drive failure comes to mind, or sudden power failure during write to FDE-encrypted drive. While this can be worked around if your zite was popular enough, lesser-known zites with lots of optional files may not have any other option.\n\nPlus, as mentioned, including many optional files increases the sum time per signing, and inflates the size of ```content.json```. This limits the practical size of zites significantly, although with compression support and specialization of zites ala @Kaffie's Kaffiene, this can be mitigated.",
+				"added": 1493683627
+			},
+			{
+				"comment_id": 80,
+				"body": "> [border0464fred](#comment_153_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6):  [...]\nI run multiple nodes (phone, tablet, laptop, desktop) as the same user, so I'm probably in the minority.\n\nRegarding missing files and said hashes, I'm not disputing that the hashes should be rejected by default. Rather, I would like the option to disable the re-hashing of already-registered files, to cut down on sign times and to prevent data loss. Since the signing node's copy overwrites all peer's copies, rather than merge, it's possible that you could overwrite some files peers wish to keep. I'll admit it's not a likely scenario now, but in a future where ZeroNet is the standard, zite operators, especially commercial ones where remote admin is commonplace, would benefit from the ability to recover from any drive failure, so long as the private key was recovered.\n\nI agree that ```content.json``` should not count towards zite limit, but should count toward total ZeroNet space limit.",
+				"added": 1493697683
+			},
+			{
+				"comment_id": 81,
+				"body": "> [akito](#comment_41_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY): How do you run Zeronet on the phone?\n\nCheck out the lovely @mkg20001's [tutorial and prebuilt APKs](https://github.com/mkg20001/ZeroNet-kivy). The prebuilt isn't secure for private keys or other sensitive data, at least not without root access and mountbinds, due to exposing the data directory and therefore users.json to USB file transfers (MTP). :( If you can, root your phone, not like OEMs will honor warranties anyway.",
+				"added": 1493698011
+			},
+			{
+				"comment_id": 82,
+				"body": "> [akito](#comment_42_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY): In my country we have warranties that are enforced by law. I don't live in a third world country, like USA is one. (No healthcare system = no first world country)\n\nSnark damage! Also, check your zmail.",
+				"added": 1493698149
+			}
+		],
+		"1_1QEfmMwKVxgR4rkREbdJYjgUmF3Zy8pwHt": [
+			{
+				"comment_id": 55,
+				"body": "> [flappyearz](#comment_11_1QEfmMwKVxgR4rkREbdJYjgUmF3Zy8pwHt): snip\n\nBlocked? How so? Just down, even through proxies and Tor?",
+				"added": 1490583124
+			}
+		],
+		"1_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": [
+			{
+				"comment_id": 57,
+				"body": "This is rather important, people; everything that the EFF claims will happen. truly can. The more places such sensitive data is stored, the more places for hackers to obtain it, and it only takes one breach to make your life go down the crapper.\n\nFor everyone outside of the US: Keep in mind, the egotistical people in power here hold sway over you, as well. The Internet is global, after all, and because many of the largest services you are used to are headquartered in the US, US law applies to them, too. As a user of them (Gmail, Facebook, Twitter) your information falls under US jurisdiction. Ask your friends in the USA to call their reps to vote against it.",
+				"added": 1490654570
+			}
+		],
+		"3_19nc7Xt7Bdjfgx89BwVeWM45fKwEkDk1iG": [
+			{
+				"comment_id": 58,
+				"body": "Are you directly editing your ```data/users/<key>/data.json``` ? Because that is pretty cool. EDIT: This edit was made directly editing ```data/users/<key>/data.json```.",
+				"added": 1490664797
+			},
+			{
+				"comment_id": 62,
+				"body": "> [dun](#comment_22_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk): nice!\n\nDon't be too impressed; I'm still lacking in a CLI publish method. I just edited a different post, which signed my data.json and pushed that comment through at the same time.",
+				"added": 1490927095
+			}
+		],
+		"1_1NmkVyqBJX6a82YQFYkCNgQpE9AWsmeppp": [
+			{
+				"comment_id": 59,
+				"body": "Each ID has its own certificate and private key. Your node can use any one of them depending on which certs are accepted by the given zite. Having more than one in a single users.json is no detriment, save perhaps confusion as to which ID you are posting under. However, ZeroNet does not currently support multiple certs by the same signer, so you can't have both alice@zeroid.bit and bob@zeroid.bit. You could have alice@kaffie.bit and alice@zeroid.bit , if you felt so inclined. For now, you'll need to swap out different instances of users.json and restart your ZeroNet daemon to swap IDs that are from the same signer.",
+				"added": 1490749740
+			}
+		],
+		"1_12p3yAJYYbtSY226FLMaxXLMtFkBaLxu9a": [
+			{
+				"comment_id": 60,
+				"body": "To acquire a ```well-rounded education``` to make resumes, transcripts and adverts look good. BS, IMO. Welcome to College, Inc.",
+				"added": 1490850258
+			}
+		],
+		"2_1JkWVgTiBciW42PznGVGuehTk4yDrB8XcV": [
+			{
+				"comment_id": 61,
+				"body": "There are certainly a great quantity of testers who do not notice the 'Test messages' sticky :P",
+				"added": 1490926754
+			}
+		],
+		"13_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 63,
+				"body": "The code defining ban handling is under ```src/Content/ContentManager.py```, line 375 seems the deepest the stack goes. Appears to check per-user permissions FIRST, then regex-based rules, unconditional of success or failure of ban rules. Makes me think I am missing something about Python if statements. (Maybe blank lines terminate conditional blocks?)",
+				"added": 1490935945
+			}
+		],
+		"1_172ALy9XgaQ3gJUx5zVzgeqp2oLsAoqo6m": [
+			{
+				"comment_id": 64,
+				"body": "Disassociate your clearnet aliases from your ZeroID?",
+				"added": 1491348991
+			},
+			{
+				"comment_id": 65,
+				"body": "GNU shred, found in coreutils. Works on mediums that write data in place, as opposed to wear leveling mediums such as EMMCs or SSDs.Given your professed level of geekdom, you should be able to open a shell. I don't have a comp that's not also a workstation to host on, so reboots are needed every so often, reducing the utility of a ramdisk.",
+				"added": 1491350746
+			}
+		],
+		"35_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 66,
+				"body": "Details man. We can't leap before we look. Hmm, setup a znet proxy for exactly that purpose? Something to do on a weekend, I suppose.",
+				"added": 1491608905
+			}
+		],
+		"1_17x8jz45zq7SowdS5GNFDnaNSKxtgm1d5g": [
+			{
+				"comment_id": 67,
+				"body": "> [styromaniac](#comment_36_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd): Asking us to post memes on a site without image upload.\n\nYour snark wins one ZeroNet.",
+				"added": 1491688746
+			}
+		],
+		"1_1CwxK59mAFkKoFhnEw3ZyuHsVSEF2bj76": [
+			{
+				"comment_id": 68,
+				"body": "Hi there! In no particular order:\n\nTry [Important Zites](http://127.0.0.1:43110/15Pf9VVuDT8NSWj1qUBh4V89yPmrmzRw6a/) for starters; it has a lot of useful links. Another one would be [Antilibrary](http://127.0.0.1:43110/antilibrary.bit) for all the books ever. [Thunderwave](http://127.0.0.1:43110/thunderwave.bit) is a realtime chat zite, with an encrypted message function too. [Snifferdog](http://127.0.0.1:43110/snifferdog.bit/) is the newest of the (currently) four search engines on ZeroNet, and was based off of [Kaffiene](http://127.0.0.1:43110/kaffiene.bit/).  [0chan](http://127.0.0.1:43110/0chan.bit/) is a chan, obvs. [ZeroMusic](http://127.0.0.1:43110/1MusicXkuN2pk5hRdmroeyaCLDJtzTicpB/) is a user-generated music player.\n\nIf you aren't adverse to using additional (beta) software, try [Loligod's IPFS video site](http://127.0.0.1:43110/16pz3DbSRyz7D7e3qsxWMq98Z8VztJZN4j/), for which you will need to download and run the IPFS binary. [KopyKate](http://127.0.0.1:43110/1aCq7GiJfUfGZ4GftjYaYbsEngPFzcxvN/) is a WebTorrent video streamer, not unlike YouTube.",
+				"added": 1492405199
+			}
+		],
+		"36_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 69,
+				"body": "> [balancer73](#comment_34_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw): [...]\n\nA directory of zite links, organized by function of the zite in question. Can submit links for review and addition, but it is centralized.",
+				"added": 1492942802
+			}
+		],
+		"5_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": [
+			{
+				"comment_id": 70,
+				"body": "> [border0464fred](#comment_135_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): Ye, if thoses seeds could share the seed they know, would have a real decentralised network\nPeer Exchange is a thing. It's still not a replacement for trackers, due to the insular outcome; every peer sends every other peer the list of peers they know, but no new peers can connect short of manually editing the file and attempting the connection. If two sets of peers rely only on PEX, and there isn't at least one peer in common between the two sets, then those two sets will never meet. Thus, trackers are still a needed thing. Now, if there was say a zeronet-hosted tracker, there's the problem of updates with them, and naturally, as it is hosted on  ZeroNet, all such information would be public. Also runs into problems of hidden services, due to ZeroNet by default randomizing the onion addresses it uses at each startup, due to regenerating the SSL cert used to encrypt communications.",
+				"added": 1492991607
+			}
+		],
+		"1_1D45bPJBJPdt4RdGfZ1r41rGRDk6xXRjJ2": [
+			{
+				"comment_id": 73,
+				"body": "<dalek>YES, WE KNOW WHO YOU ARE.</dalek>",
+				"added": 1493433939
+			}
+		],
+		"1_18Kax1M9zrX1cFrYwvfc22uFKBmjbn5atN": [
+			{
+				"comment_id": 75,
+				"body": "Incoming port for what? The GUI to connect to, ie 43110 or the fileserver, 15441? Either way, same idea on command line or line in ```zeronet.conf```\n\n```--ui_port PORT\n--fileserver_port PORT``` on the command line when running ZeroNet.sh or ZeroNet.cmd\n\n```ui_port = PORT\nfileserver_port PORT``` in ```zeronet.conf```\n\nCommand line args override conf file args. Afterwards, restart ZeroNet and it will use the new port.",
+				"added": 1493493843
+			}
+		],
+		"1_1PFMNdR2S3k9PbHU3dhBZXEvsnrYKszTNe": [
+			{
+				"comment_id": 83,
+				"body": "Salutations!",
+				"added": 1494077951
+			}
+		],
+		"1_15dMbdM7c2RT9RhNTJRqzc4vYSvrSJvxyG": [
+			{
+				"comment_id": 84,
+				"body": "ZeroHello is the welcome page. You might be thinking of ZeroMe, where you can choose to automatically distribute a given user's new images.\n\nEach zite may or may not define optional files via filename filtering against a regular expression; it is not required. When you flick the switch in the purple 0 sidebar for a given zite labeled 'Download and help distribute all files', you're downloading and seeding all the files that you would ordinarily have to request prior to viewing, saving time when browsing said zite at the cost of additional hard drive space, but helping others obtain the zite as well. \n\nAlso, @koure: Link to ZeroMaps? That's one I don't have on this node.",
+				"added": 1494173867
+			},
+			{
+				"comment_id": 85,
+				"body": "@wieke: Ah, yes. That's the place to find all of the optional files your node has; the aforementioned switches do the same thing as ticking one of ZeroHello's checkboxes.",
+				"added": 1494178369
+			},
+			{
+				"comment_id": 86,
+				"body": "> [b0b0lf0](#comment_1_1HBTzHV2pSqMGo8R4UyrRP3BvzJVxRXPS6): which more sites are useful?\n[ZeroMusic](http://127.0.0.1:43110/1MusicXkuN2pk5hRdmroeyaCLDJtzTicpB/). Always ZeroMusic. So many gigabytes, so little bandwidth.\n\n[myNullPaste](http://127.0.0.1:43110/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/) is a pastebin, always worth seeding.\n\nThe original [NullPaste](http://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/), same.\n\n[ThunderWave](http://127.0.0.1:43110/thunderwave.bit/), a chat zite with optional pictures is fine too.\n\nALL the [Antilibrary](http://127.0.0.1:43110/antilibrary.bit) DBs, see Antilibrary > My Books > Settings > click DBs to seed. No seriously, all of them.",
+				"added": 1494208173
+			},
+			{
+				"comment_id": 87,
+				"body": "> [uv](#comment_2_15vJjtekghtind7a1xjLBFN96PSXDx9mso): link to ZeroMaps?\n\nTry some search engines; [Snifferdog](http://127.0.0.1:43110/snifferdog.bit/), [Kaffiene](http://127.0.0.1:43110/kaffiene.bit/) and [Bwoi](http://127.0.0.1:43110/1f7FYxZWSZ5YG7Nd8sGsHcWEQgvdnVvQF) are the three big ones off the top of my head. Helping seed them helps others too :)",
+				"added": 1494287860
+			},
+			{
+				"comment_id": 88,
+				"body": "> [deafboy](#comment_45_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa): Gif Time :) Currently 885.66MB\n\nDoing so also includes all the porn. This puts the prudes off somewhat.",
+				"added": 1494375433
+			}
+		],
+		"3_17vKbxL13KnzGATstqawXSG2oiQygmdkcX": [
+			{
+				"comment_id": 91,
+				"body": "I think I'm a jerk.\n\n```TEMPFILESDIR=$(mktemp -d)\ntorsocks curl \"https://zeronet.korso.win/1BEJbnufyav7TK23ADTs2Qi2UJeKSGDzw6/content.json\" > \"${TEMPFILESDIR}/remotefilesjson.txt\"\ncat \"${TEMPFILESDIR}/remotefilesjson.txt\" | jq '.files,.files_optional' | sed -n '/{$/s@.*\"\\([^\"]\\+\\)\".*@\\1@p' | while read file; do torsocks curl \"https://zeronet.korso.win/1BEJbnufyav7TK23ADTs2Qi2UJeKSGDzw6/${file}\" > \"${TEMPFILESDIR}/${file}\" ; done```\n\nThink I just nuked that proxy by requesting all those resources?",
+				"added": 1494384826
+			},
+			{
+				"comment_id": 92,
+				"body": "> [kaffie](#comment_307_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): Care to share? I'd rather not nuke the server again doing it myself if we can avoid it.\n\nNo problem, onionshare OK? Well, when it's done. Should have made a curl batch job with its -K cli option.",
+				"added": 1494385110
+			},
+			{
+				"comment_id": 93,
+				"body": "> [kaffie](#comment_308_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): Onionshare? This? I'll have to figure out how to use it but sure. I just meant like posting it onto mediafire or mega or something lol. Or hell, even putting it on nullfolder.\n\n```du -sh``` shows 8.5MB and climbing @~15% done. Nullfolder can handle that large a size from one user?\n\nAnd yes, that's the onionshare I was talking about. You only need that client if you wish to send, not to receive. Receiving needs some form of connecting to the Tor network with a GUI (something to look at, moi).\n\nEDIT: Also, see you at ThunderWave to preserve kb here.",
+				"added": 1494385610
+			},
+			{
+				"comment_id": 94,
+				"body": "> [zeronet0](#comment_5_17vKbxL13KnzGATstqawXSG2oiQygmdkcX): @Rythyrix:Have you downloaded it ?\n\nOn its way. Careful if you try it yourself; the code I posted earlier has a couple of issues due to backslashes being interpreted in the comment box, and is not identical to that which I wrote in my shell. Do you want the files as well? I'll have to actually upload a zip of it for multiple people to use.\n\nEDIT: To download the zite, open a command prompt in the directory in which ```ZeroNet.[sh|cmd]``` is stored, then run ```ZeroNet.sh siteDownload 1BEJbnufyav7TK23ADTs2Qi2UJeKSGDzw6```. Or just go [here](http://127.0.0.1:43110/1BEJbnufyav7TK23ADTs2Qi2UJeKSGDzw6/). The content.json the proxy has doesn't show any user-editable jsons, so that's good news for file completeness.",
+				"added": 1494386497
+			},
+			{
+				"comment_id": 95,
+				"body": "For those interested, [here](https://w1r3.net/pLeWen.zip) is the zip of scraped files from the proxy below.",
+				"added": 1494389763
+			},
+			{
+				"comment_id": 96,
+				"body": "> [zeronet0](#comment_7_17vKbxL13KnzGATstqawXSG2oiQygmdkcX): Thank you very much, I have downloaded it :) But all the html are error pages.\n\nThe proxy didn't have all the files :(",
+				"added": 1494391910
+			},
+			{
+				"comment_id": 97,
+				"body": "Went by the content.json. Wasn't going recursively through the scraped html files for more links; threw that together in minute or less. Either way, were there any files you didn't have already?\n\nEDIT:... i fail. Not actually sure how to get around the wrapper nonce issue; maybe pipe thru rhino, but that requires having the js to exec already...",
+				"added": 1494392190
+			}
+		]
+	},
+	"comment_vote": {}
+}

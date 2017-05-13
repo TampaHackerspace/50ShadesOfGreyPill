@@ -1,0 +1,22 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G9KfaeF3NXiDawBChAKX/IT79siRRuU7EnC0NjDcyhyt9N9TW0g7paGbqlB8SHH/Q7g51eRq6Q5fL+NbUsfn1CY=",
+ "cert_user_id": "dark2light@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "a55e9d88e40817adb2517903d898e82c471503d47dcede256c695ef909bd274e",
+   "size": 1206
+  },
+  "data.json": {
+   "sha512": "dfdcdeff6e5bb3562e19d9d1a7d18c901e95cd517eb94dab0cc259e13ba8ad5d",
+   "size": 13557
+  }
+ },
+ "inner_path": "data/users/1PW4C7gyeEABoTFTqZFswWKLkqNR9hicFt/content.json",
+ "modified": 1484846119,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1PW4C7gyeEABoTFTqZFswWKLkqNR9hicFt": "G4L2B/XIbvHjyxJg99SFSY84gCRfSp7d9XOnXfq7vNSRzo/ExKbz7G1gwTIikSzXfcpPza2rZDtRs6aN+ki+5oc="
+ }
+}

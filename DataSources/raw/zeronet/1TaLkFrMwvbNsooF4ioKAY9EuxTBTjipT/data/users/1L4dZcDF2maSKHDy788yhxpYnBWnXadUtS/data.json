@@ -1,0 +1,76 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "When my site get +1 peer and how long he/she will be peer?",
+			"body": "When my site get one peer? When someone visit my webpage it automatically become peer for as long as he is on the page or as long as he has ZeroNet app turned on / untill he delete my webpage from his ZeroHello page sidebar?",
+			"added": 1463689885
+		},
+		{
+			"topic_id": 2,
+			"title": "Feedbacks on 1Kt7xxVRcxHcK14Mt7YZdXfh8MzUJMkvpk",
+			"body": "This is the place where You can post your suggestions regarding ZeroNet page:\nhttp://127.0.0.1:43110/1Kt7xxVRcxHcK14Mt7YZdXfh8MzUJMkvpk",
+			"added": 1463737598
+		},
+		{
+			"topic_id": 3,
+			"title": "ZeroNet distribution and no single point of failure - explanation?",
+			"body": "Hello, please anyone can explain how my computer knows which IP it needs to connect in order to establish connection to zeronet while ZeroNet is claimed to be \"No single point of failure\" (at https://zeronet.io/)? So there is no node that is essental t connect to zero net? How it works then?",
+			"added": 1475091909
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 7,
+	"comment": {
+		"1_1L4dZcDF2maSKHDy788yhxpYnBWnXadUtS": [
+			{
+				"comment_id": 1,
+				"body": "Thx @nofish for helpfull expanation.\nWhen my page has:\n Peers\n    Connected:    2\n    Connectable:    21\n    Onion:    5\n    Total:    21\n\nIt means that there is 21 people who has at east part of my site (not just page) saved on their computer and if they become online on ZeroNet and \"Connected: 0\", there is possibity they will seed the site even they are not on my site currently?",
+				"added": 1463737566
+			}
+		],
+		"1_13EDCw412fCWqTmR4RxRw99aEd2ucYzDyM": [
+			{
+				"comment_id": 2,
+				"body": "Why should this be needed? Stream it from within torrent client like qbittorrent. It support streaming of the torrent video: http://internetlifeforum.com/computers-technology/4772-how-play-movie-via-torrent-instantly-without-pre-downloading/\nNot sure how do you imagine such site concept and how webtorrent would help in that case. Most of the time there wont be more than 1 video viewer, so i assume such site would need to cover all data transfer (videos) cost of all its visitors. PS: im noob\nPS2: Here is example html page where is streamed one video file via webtorrent: http://127.0.0.1:43110/1Kt7xxVRcxHcK14Mt7YZdXfh8MzUJMkvpk/webtorrentstream.html",
+				"added": 1464096986
+			}
+		],
+		"3_1L4dZcDF2maSKHDy788yhxpYnBWnXadUtS": [
+			{
+				"comment_id": 3,
+				"body": "thx, i do not understand the code. Can't find any explanation regarding these \"trackers\". I know what is torrent tracker, but i wish explanation targeted to Zeronet. How many zeronet traackers there is, how can i create tracker..?",
+				"added": 1475092500
+			}
+		],
+		"1_1JtxPipMFzvBTQ8fwSeupUxfiVMbutBfhG": [
+			{
+				"comment_id": 4,
+				"body": "wrong. it is You who is globalizing many people into one group.\nmaybe muslims \"follow\" religion which main book contains phrases inviting killing or enslave non muslims, but i doubt most of the muslims actually wish or want to do such a thing. so i would not hate someone who do not wish to do such a thing.",
+				"added": 1475093261
+			}
+		],
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": [
+			{
+				"comment_id": 5,
+				"body": "App that will allow importing clearnet websites somehow into zeronet zites\nOr app that will allow anyone to generate dynamic zite\nyes, some better forums like phpbb, vbulletin, mybb",
+				"added": 1475093523
+			}
+		],
+		"9_12i4LiZ39NxcYtsf36aTWJzcpzw4KFUCJy": [
+			{
+				"comment_id": 6,
+				"body": "> patriotism is very important.\ni do not think so, i think it makes it easier for politics to do bad things like war\nor harm freedom in the name of terror mitigation/protection\n--\nback to the topic, i love that trump is not 100% stupid.",
+				"added": 1475094008
+			}
+		]
+	},
+	"comment_vote": {
+		"665_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"18_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa": 1,
+		"3_14UupgrdnT7Y8vMES7aqUFgD1fC5RYNrh8": 1,
+		"5_12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH": 1,
+		"770_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

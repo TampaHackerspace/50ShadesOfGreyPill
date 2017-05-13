@@ -1,0 +1,1047 @@
+{
+	"next_topic_id": 13,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Content publish failed",
+			"body": "I frequently see this error on forum pages, but it isn't explained anywhere (it even occurred while posting this message).  What does it mean?  Comments seem to be posted successfully regardless of which \"content publish\" notification appears.  However, after deleting my copy of a forum and resyncing, my comments have disappeared.  What causes the error?  Does every comment have to be resent manually when it occurs?",
+			"added": 1469747984
+		},
+		{
+			"topic_id": 4,
+			"title": "Attaching a subforum",
+			"body": "http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topics:2_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t/Subforums\n\nDoes this display a subforum for everyone else?  What needs to be done to attach it to the main forum?",
+			"added": 1469804537
+		},
+		{
+			"topic_id": 5,
+			"title": "File write error: [object Object]",
+			"body": "This error shows up when commenting on ZeroTorrent.  What does it mean?",
+			"added": 1470005162
+		},
+		{
+			"topic_id": 6,
+			"title": "Timeout, Skipping ... Can't update content.json",
+			"body": "I'm trying to create the site http://127.0.0.1:43110/1KuwNEQXaF7SmAibxLs2wgJQJjGYTDMErc/ but ZeroNet fails to update content.json.  In my browser, the site appears to be working.  The \"publish\" button produces the notification \"No peers found, but your content is ready to access.\"  However, another user sees \"CONTENT.JSON DOWNLOAD FAILED\" and the log seems to show ZeroNet \"taking more than 15+0 secs\" trying to access a local file.  There is a line \"Hash failed: content.json, failed peers: 0\" which seems nonsensical.  What could be going wrong?",
+			"added": 1470298558,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 7,
+			"title": "\"ASCII encoded\" filenames",
+			"body": "The [limited character set recognized as ASCII](https://github.com/HelloZeroNet/ZeroNet/issues/364) frequently causes problems for [ZeroTorrent](http://127.0.0.1:43110/ZeroTorrent.bit/).  Probably the site owner didn't know filenames have to be sanitized before ZeroNet sees them.  There are now many broken links to torrent files with spaces, etc. in their names.  Is it really necessary to exclude so many characters?",
+			"added": 1470375344
+		},
+		{
+			"topic_id": 8,
+			"title": "Torrent Project data dump",
+			"body": "https://torrentproject.se/ has been disturbingly unstable recently.  They were entirely offline for most of the past week.  Currently they have server problems; in case they aren't back for some time, here is a data dump of their verified torrents from ~~a few days ago~~ August 6:\n\nhttp://127.0.0.1:43110/16iXY7BX8UF1j2NJVQHADyuGorFJKFvnzG/",
+			"added": 1470543841
+		},
+		{
+			"topic_id": 9,
+			"title": "The Intercept",
+			"body": "https://theintercept.com/ is a news site edited by Glenn Greenwald, Laura Poitras, and Jeremy Scahill, which published the leaks from Edward Snowden.  Someone claims to have mirrored it on ZeroNet (although nobody seems to have a copy) and they shared the link on the [Nanasi text board](http://127.0.0.1:43110/16KzwuSAjFnivNimSHuRdPrYd1pNPhuHqN/) (!)\n\n- http://127.0.0.1:43110/1MVPxVaimxnd7aKdgfJzCnUZCwEYAd3DnD/",
+			"added": 1470623690
+		},
+		{
+			"topic_id": 10,
+			"title": "Site size: 876MB is larger than default allowed 200MB",
+			"body": "The \"[theintercept.com mirror](http://127.0.0.1:43110/1MVPxVaimxnd7aKdgfJzCnUZCwEYAd3DnD/)\" has wildly varying data storage requirements.  ZeroNet suggested increasing the limit to 2GB to load the site, which seemed excessive until the site grew to 1.4GB.  However, nothing is ever downloaded to its directory, not even content.json or index.html.  Without content.json, could the size be misreported?",
+			"added": 1470651300
+		},
+		{
+			"topic_id": 11,
+			"title": "Failed update to 0.4.0",
+			"body": "After I clicked the update link on ZeroHello, the error `UiServer Websocket error, please reload the page.` appeared.  ZeroNet seemed to have halted rather than updating.  From error.log, during update.update():\n\n> error: [Errno 10013] An attempt was made to access a socket in a way forbidden by its access permissions.\n\nAnd in debug.log, numerous errors:\n\n> Socket error: error: [Errno 10054] An existing connection was forcibly closed by the remote host in Connection.py line 137 > ssl.py line 208 > ssl.py line 110\n\nFollowed by:\n\n> FileServer emhxv2f3crujyhsa.onion Connect error: ProxyConnectionError: Error connecting to SOCKS5 proxy 127.0.0.1:49050: [Errno 10061] No connection could be made because the target machine actively refused it. in ConnectionServer.py line 139 > Connection.py line 91 > TorManager.py line 267 > socks.py line 674\n\nDid the updater try to access Tor after shutting it down?",
+			"added": 1470856619
+		},
+		{
+			"topic_id": 12,
+			"title": "一个网站！",
+			"body": "http://127.0.0.1:43110/wangzhan.bit/ is another torrent site, currently inactive.  Someone copied [someone](http://127.0.0.1:43110/Mail.ZeroNetwork.bit/?to=someone)'s ZeroTorrent and added a few categories.  It has:\n* [movies](http://127.0.0.1:43110/wangzhan.bit/?Category:movies)\n* [tvepisodes](http://127.0.0.1:43110/wangzhan.bit/?Category:tvepisodes)\n* [zongyi](http://127.0.0.1:43110/wangzhan.bit/?Category:zongyi), and 30GB... what is that?\n* [comic](http://127.0.0.1:43110/wangzhan.bit/?Category:comic), which is really anime and not manhua or manga\n* [music](http://127.0.0.1:43110/wangzhan.bit/?Category:music)\n* [applications](http://127.0.0.1:43110/wangzhan.bit/?Category:applications)\n* [porn](http://127.0.0.1:43110/wangzhan.bit/?Category:porn)\n* [other](http://127.0.0.1:43110/wangzhan.bit/?Category:other)",
+			"added": 1473584217
+		}
+	],
+	"topic_vote": {
+		"2_1K9bJ8uijgvt5B3YfzPv2HqVx6kNDoEqtM": 1,
+		"6_13hcYDp4XW3GQo4LMtmPf8qUZLZcxFSmVw": 1,
+		"1_1LJLVfT9hKRuTHzBKTpse57PGfpwx82myR": 1,
+		"1_1J977d47QgTcnJwZ3u67h3wX9ysJTNpfLL": 1,
+		"1_1HMgJTFYY57XoH9wpBJHQZsWPvwsRp1WHX": 1,
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": 1,
+		"1_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF": 1,
+		"14_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"2_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"1_19GDcmuGz3D2epgu9k65yMY9WMYDG8eZCP": 1,
+		"2_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"1_17Cs2auSHSVjKaYMXqbNMApRQrgXcwJUpL": 1,
+		"4_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"6_1DcDDitsjFJohvwonPmpibRChmA7uGxqL7": 1,
+		"4_12GC9MQGPcN7PiMoRYVyZX66PnQjZKUpf2": 1,
+		"1_1Buq4fyG8B3MxAvs7h4bASyWbrKFxmg4CJ": 1,
+		"3_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"1_1DjUq8hd2jYZgc5uNhQEtWUVZjMHkMQkpU": 1,
+		"1_13Mt8T2256Uz4GHk9B4XvKqyz37wPgA26q": 1,
+		"1_12xwWp1qTmxEXMxVxrG3AQKPk6MUWjQjM7": 1,
+		"2_12xwWp1qTmxEXMxVxrG3AQKPk6MUWjQjM7": 1,
+		"1_16urzDUk5S1EYSaL8XGaJav7BicYSnsxe3": 1,
+		"1_1KCg4tQ1dBRfMWZ8ptrqXSSUKKR11rYb6P": 1,
+		"9_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"7_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"24_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"10_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"3_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": 1,
+		"5_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"3_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": 1,
+		"3_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"7_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"8_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"2_1NFGC1D6xSXn1gvT2wWEYCvsUodtspQk8C": 1,
+		"1_1N5Rs6CHsGPdDB1y3JqjYm9SLSWUTkjwEF": 1,
+		"2_1JxXTcp37TWcgSBYVQXzDnGD2MJDrdaFmE": 1,
+		"3_1M4Ab8CUu3byziHVvNXLHmPezC4Lg9hvNJ": 1,
+		"1_1B5V7hn9Ng6T3LgihQemdwJdnsv7VTffaR": 1,
+		"3_17Cs2auSHSVjKaYMXqbNMApRQrgXcwJUpL": 1,
+		"4_17Cs2auSHSVjKaYMXqbNMApRQrgXcwJUpL": 1,
+		"1_1EN9Ape9Gbe2FAcP8qNWsyvg7x7z92LhA7": 1,
+		"3_13U9mRgV3bdkXiNXjMZeBWTcSHZjgNmk2z": 1,
+		"2_1DBrH9TDEYB9CqnFsPR8Cqn8xW3xNEv6i3": 1,
+		"11_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"1_1HJnF1xNKtUDP33AtynJaH9UDmd8FTv27H": 1,
+		"2_1BDTDgpyizvUDsc1hcL1pjCvXCy4ozzSFN": 1,
+		"1_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"1_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"5_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"5_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": 1,
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": 1,
+		"1_1DQAexBYLLtqRurHpCnmqUsGAxsXzhZWxP": 1,
+		"1_14hiNi2B2XEnvPSwetWUfzimNXQ1Keahnm": 1,
+		"1_1CQ2rCSbuSxkeDcrvBu1wvkUSg8233tAUu": 1
+	},
+	"next_comment_id": 158,
+	"comment": {
+		"6_13hcYDp4XW3GQo4LMtmPf8qUZLZcxFSmVw": [],
+		"2_1K9bJ8uijgvt5B3YfzPv2HqVx6kNDoEqtM": [
+			{
+				"comment_id": 2,
+				"body": "(ZeroNet lost my comment last time.  Hopefully it's working now.)\n\nZeroID can be persuaded to authorize an ID from another site. For example, [Nanasi](http://127.0.0.1:43110/16KzwuSAjFnivNimSHuRdPrYd1pNPhuHqN/). However, ZeroNet can't manage multiple IDs for the same site simultaneously; if I choose one ZeroID, it overwrites the other. That must be what the multiuser plugin addresses.\n\nThere is also ZeroVerse, but it's slow; I'm still waiting for the BitMessage reply I need.\n\n> [nuttyneurotic](#comment_9_1K9bJ8uijgvt5B3YfzPv2HqVx6kNDoEqtM): That makes sense, thanks for explaining! Im guessing this means I cant have multiple IDs without the plugin?\n\nYou can have multiple ZeroIDs; I have two. To create additional ZeroIDs, you need an identity address that isn't the \"unique to site\" address. Since Nanasi will sign anything, you can get a certificate from there which identifies you sufficiently for ZeroNet to recognize the Nanasi address anywhere.",
+				"added": 1469749490
+			}
+		],
+		"1_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": [
+			{
+				"comment_id": 3,
+				"body": "> [dxtjgxz](#comment_13_1EN9Ape9Gbe2FAcP8qNWsyvg7x7z92LhA7): Based on how ZeroNet works, your content was submitted to the peers you were connected with at that time successfully, however the peers you downloaded the copy of the site after deleting and resyncing did not yet have your comment. There is no solution to this except to just wait for your comment to move across the peers until it gets back to you.\n\nI always see my comments immediately after posting them, even with the error.  They seem to be stored locally but sometimes never uploaded.\n\n> Unless of course you meant that ALL of your comments disappeared which would most likely be an issue with the site itself and how it handles content submission.\n\nThat's what I meant.  I've seen the \"content published\" notification before, but I don't remember when.",
+				"added": 1469751250
+			}
+		],
+		"2_1LJLVfT9hKRuTHzBKTpse57PGfpwx82myR": [
+			{
+				"comment_id": 4,
+				"body": "Torrents don't work over Tor because you have to announce a real IP address in order for the rest of the swarm to communicate with you.  Torrent traffic also involves many, many connections, which would put a heavy burden on the Tor network.\n\nThe best option is probably to find a VPN you can trust not to give up your information.  However, these have subscription costs and there is probably no basis for trust unless you know the operators.\n\nA seedbox can handle all the torrent activity and then serve files at your convenience.  The trust issue remains, although maybe you could download your local copy through Tor.  [ZeroMail 2.0](http://127.0.0.1:43110/16X3emHaVgNPrx39U1sYd24dFk5L5swTua/) has a rudimentary file sharing service which seems to be ineffective for large transfers.\n\nYou can likely avoid interference just by requiring encryption on all your torrent connections.  If this were clearnet, [Google Public DNS](https://developers.google.com/speed/public-dns/) could help to prevent your ISP from seeing DNS requests for torrent sites.  (An alternate DNS might still help with some torrent client configurations.)\n\nThe current Play site makes me very uneasy: its listings mix http links to imdb with unidentified media links to unknown content from an unknown host.  I can't see immediately that it links to ZeroNet at all.  It has no magnet links, which could be used anonymously.  You would probably be better off with:\n- https://torrentproject.se\n- https://torrentz.eu\n- https://extratorrent.cc\n- https://rarbg.to",
+				"added": 1469769423
+			}
+		],
+		"1_1J977d47QgTcnJwZ3u67h3wX9ysJTNpfLL": [
+			{
+				"comment_id": 5,
+				"body": "ZeroNet:\n- http://127.0.0.1:43110/ZeroTorrent.bit/ (currently very limited)\n- http://127.0.0.1:43110/tvepisodes.bit/ (what it says)\n\nClearnet:\n- https://torrentproject.se (very good advanced search)\n- https://torrentz.eu (metasearch)\n- https://extratorrent.cc (ettv)\n- https://rarbg.to (well organized)",
+				"added": 1469771051
+			},
+			{
+				"comment_id": 6,
+				"body": "I miss KAT's RSS feeds.  I hope someone has a copy of Torcache.  A lot of material was lost when that went offline.  [According to TorrentFreak](https://torrentfreak.com/kickasstorrents-alleged-owner-retains-kim-dotcoms-lawyer-160728/), Artem Vaulin is defended by Ira Rothken, who seems optimistic about his case being dismissed.  The amount of money Vaulin is accused of laundering makes it difficult to believe he'll escape.",
+				"added": 1469781337
+			}
+		],
+		"1_1LJLVfT9hKRuTHzBKTpse57PGfpwx82myR": [
+			{
+				"comment_id": 7,
+				"body": "> [72](#comment_19_14Ph48APoNHojAArCqa6FAwXiobE9JByCy): This post is related to ...\n\nWhile we're drawing comparisons to other sites: another site with similar needs is [StackExchange](https://stackexchange.com/).  Their reputation system is convoluted and tedious, but they also use tagging to identify clusters of related topics.",
+				"added": 1469790290
+			},
+			{
+				"comment_id": 8,
+				"body": "..wait, what?  I'm not offended; I was suggesting a tag system could be helpful for tracking related-ness within this forum.  Combining that with a vote/reputation system could avoid some of the problems with single up/down counters that Reddit has.",
+				"added": 1469793468
+			}
+		],
+		"15_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 9,
+				"body": "What do they mean by \"theft\"?",
+				"added": 1469794224
+			}
+		],
+		"4_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": [
+			{
+				"comment_id": 10,
+				"body": "> [zeroexef](#comment_21_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): How is this done?\n\nChanging \"Topic\" in the URL to \"Topics\" and choosing an unused sequence number lets you add topics to a [semi-private forum](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topics:99_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t/Semi+private+forum).  The forum text can be changed if \"Topics\" is changed back to \"Topic\", but there's a [display problem](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:2_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t/Subforums).",
+				"added": 1469832423
+			}
+		],
+		"2_1JXFzMzrQTJCiGw36YNQGg2Tmt1hTHy7ZT": [
+			{
+				"comment_id": 11,
+				"body": "To be accurate, this would have to involve publishing at regular intervals, wouldn't it?  Updating a single online status file for each user would be much better than adding another comment somewhere each time.  What's the rate limit for publishing?",
+				"added": 1469834413
+			},
+			{
+				"comment_id": 24,
+				"body": "Maybe this post should link to the chat sites (more space efficient...)\n- [0rc](http://127.0.0.1:43110/main.0rc.bit)\n- [1avfst pcaam](http://127.0.0.1:43110/1AvF5TpcaamRNtqvN1cnDEWzNmUtD47Npg)",
+				"added": 1470079715
+			},
+			{
+				"comment_id": 26,
+				"body": "> [zynklap](#comment_1_1DZr3dWHcLESuHx7UeC23QSXfQFvBdFT9s): Im online and im guessing znet will become more popular soon\n\nIt was [mentioned again by TorrentFreak](https://torrentfreak.com/peter-sundes-pirate-innovation-dream-wont-happen-anytime-soon-160731/) yesterday.",
+				"added": 1470089684
+			}
+		],
+		"2_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 12,
+				"body": "Is that supposed to be on http://127.0.0.1:43110/1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/?  I don't see a search box.",
+				"added": 1469871320
+			}
+		],
+		"1_19GDcmuGz3D2epgu9k65yMY9WMYDG8eZCP": [
+			{
+				"comment_id": 15,
+				"body": "> [methodx](#comment_6_1CFhytwoGGPNqmueehPqotaf2iG9uxD98e): ZeroNet needs a Kickass Torrents clone or at least something with a decent UI. PLAY is a good start.\n\nA site can be too GUI.  Play makes me think _it's a trap_, although I'm sure it isn't.  Obvious text links and magnet links would help a lot.",
+				"added": 1469920205
+			},
+			{
+				"comment_id": 69,
+				"body": "> [saya53](#comment_1_1HeiZ9FHQ2zRNnyuyCpvXZcGBzeC58Lptf): Is there a specific tracker for zerotorrent we should be using?\n\nZeroTorrent is picking up torrents from everywhere, so the trackers vary.  Trying to get all of its users onto the same tracker might not be a good idea.",
+				"added": 1470591384
+			}
+		],
+		"1_17Cs2auSHSVjKaYMXqbNMApRQrgXcwJUpL": [
+			{
+				"comment_id": 17,
+				"body": "I like the concept, but there are some strange design decisions that seriously limit ZeroNet's potential.  The central ID authorities are points of failure; ZeroVerse is no longer working.  I had some doubts about the scalability of packing everything into data.json, but until sirenyc's posting was interrupted, I hadn't realized the problem would arise early in the form of a hard bytesize limit.\n\nI found out about ZeroNet a few days ago when TorrentFreak mentioned it in their podcast.  Already I'm using over a quarter of the ZeroTalk quota, and in the top 3% of users who haven't exceeded it.  In [0rc](http://127.0.0.1:43110/main.0rc.bit), erkan reached their limit months ago.  This doesn't seem sustainable.",
+				"added": 1470011160
+			},
+			{
+				"comment_id": 18,
+				"body": "> [bot](#comment_81_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): @tkarita  maybe sirency deleted his pics (?) but right now only has 2kb in data.json. \n> Only 2 people are at or near 2MB. (one person has a single 1.6MB jpg)  ..and the other is more typical 1.2MB in images, 550kb in json data, and 4 torrents totalling 132kb)\n\nCould there be a missing update?  I still have a content.json showing sirenyc just below 2MB.",
+				"added": 1470015946
+			},
+			{
+				"comment_id": 19,
+				"body": "> [bot](#comment_82_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): ah, wrong user. what's sirenyc's address?\n\n19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ",
+				"added": 1470016327
+			},
+			{
+				"comment_id": 20,
+				"body": "> [bot](#comment_81_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): the designer of the site should consider how to allot more space to it's top users with a reputation system of some kind.\n\nTying quota to reputation has some unsettling problems.  Currently one user has the responsibility to prevent everyone else from DOSing themselves, and can decide how long they continue participating.  A reputation system adds a shared decision and might punish users who post frequently without gaining many votes.  It wouldn't help to control abuse; someone determined enough would change their ID whenever they reach a quota, which would disrupt any efforts to avoid hosting their data.",
+				"added": 1470021396
+			},
+			{
+				"comment_id": 29,
+				"body": "> [zynklap](#comment_9_1DZr3dWHcLESuHx7UeC23QSXfQFvBdFT9s): Unless you disable cloning, which you can do in the json file.\n\nThey could still copy everything manually.  Trying to block that from content.json seems like an oversight.",
+				"added": 1470093250
+			}
+		],
+		"2_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 21,
+				"body": "> [sirenyc](#comment_18_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): I sent the email, and received no response to date = /\n\nDeleting images should help.",
+				"added": 1470028011
+			},
+			{
+				"comment_id": 22,
+				"body": "> [sirenyc](#comment_19_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): which images? = /\n\nYour largest image is [here](http://127.0.0.1:43110/ZeroTorrent.bit/?Topic:633_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ/Rebelution+Falling+Into+Place+2016).  Maybe it could be scaled down?",
+				"added": 1470030280
+			},
+			{
+				"comment_id": 23,
+				"body": "> [sirenyc](#comment_22_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): has no way to take the picture!\n\nThe ZeroTalk interface has some usability problems.  The link to edit your own posts is a faint pencil icon about the size of a mouse pointer, and is invisible until you mouse over the left margin next to the first line below your username.  It should be textual and at least as visible as the \"reply\" link.",
+				"added": 1470078793
+			},
+			{
+				"comment_id": 25,
+				"body": "> [sirenyc](#comment_25_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): the pencil icon appears to edit the image, only the texts.\n\nWhen you edit a comment, you can choose to delete it... but the \"delete\" link is _also_ invisible until you mouse over the blank space between \"save\" and \"cancel\".",
+				"added": 1470083413
+			},
+			{
+				"comment_id": 31,
+				"body": "> [sirenyc](#comment_26_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): Deleted the image more does not make much difference =/\n\nIt looks like you have to overwrite \"COVER.jpg\".  Try adding a comment there, and attach any smaller image with exactly that name.  If you upload something that isn't really an image, COVER.jpg might be deleted.",
+				"added": 1470094633
+			}
+		],
+		"1_1DZr3dWHcLESuHx7UeC23QSXfQFvBdFT9s": [
+			{
+				"comment_id": 27,
+				"body": "You could clone ZeroTalk.  I think you have to contact nofish to get added to the list.",
+				"added": 1470090187
+			},
+			{
+				"comment_id": 28,
+				"body": "http://127.0.0.1:43110/Mail.ZeroNetwork.bit/?to=nofish",
+				"added": 1470090303
+			}
+		],
+		"1_1MZ697S3uwCpZD4zSq51NHJDrj7CWxsmd3": [
+			{
+				"comment_id": 30,
+				"body": "> [quarkgate](#comment_17_12GC9MQGPcN7PiMoRYVyZX66PnQjZKUpf2): The problem is, that there is no cloneable torrent site on zero. ZeroTorrent is great, and could be adaptable to a comics community easy. Problem is, the site owner of ZeroTorrent did not decide to share a cloneable version.It shouldn't even be so hard to make. It's a clone of ZeroTalk. You can clone ZeroTalk yourself, and try to adapt it.\n\nZeroTorrent is in data/192dZ1EG5tU7PnCfuwGMDEBrr2eLqvs4t3.  It just can't be copied from the ZeroNet interface.",
+				"added": 1470093580
+			},
+			{
+				"comment_id": 32,
+				"body": "> [quarkgate](#comment_18_12GC9MQGPcN7PiMoRYVyZX66PnQjZKUpf2): I tried to manually copy the data from that folder into a folder where I have my own site hosted. It almost works, but when I add the magnet link to it it doesn't get included in the post that is created on my site. (although the post is in fact created) Do you know why by any chance?\n\nSomeone in [Zite development](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topics:3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k/Zite+development) should know.",
+				"added": 1470095348
+			},
+			{
+				"comment_id": 33,
+				"body": "Actually, you can clone ZeroTorrent by adding\n\n> \"cloneable\": true,\n\nto its content.json and restarting ZeroNet.  The missing file updates have to be dealt with somehow, but ZeroNet only requires the file list to be complete.",
+				"added": 1470098160
+			},
+			{
+				"comment_id": 34,
+				"body": "> [quarkgate](#comment_19_12GC9MQGPcN7PiMoRYVyZX66PnQjZKUpf2): I'll give what you said a go though, see if it changes something.EDIT:I tried it, and it didn't work...\n\nIt didn't?  What happened?",
+				"added": 1470098985
+			},
+			{
+				"comment_id": 35,
+				"body": "Oops, I'm noticing that my clone still has links into ZeroTorrent.bit.  It would have to be cleaned up a bit.  Couldn't you copy index.html from the other site?",
+				"added": 1470099658
+			}
+		],
+		"1_1Buq4fyG8B3MxAvs7h4bASyWbrKFxmg4CJ": [
+			{
+				"comment_id": 36,
+				"body": "The site promoters have multiple addresses.  This time it's 16V375PksR7cEwnMDf2m5TYckuud9xUjVq.  Here's an opportunity to find ways of stifling their data.",
+				"added": 1470167423
+			},
+			{
+				"comment_id": 37,
+				"body": "Their topic goes away after deleting their json, changing the directory permissions, and deleting zerotalk.db.",
+				"added": 1470167959
+			}
+		],
+		"4_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 38,
+				"body": "> [cannonfodder](#comment_30_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg): I have most of the kat magnet hash list in a database.\n\nHow complete is that, and how large?  It would be good to have a copy available on ZeroNet.",
+				"added": 1470181707
+			}
+		],
+		"10_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 39,
+				"body": "[Here](https://s-media-cache-ak0.pinimg.com/564x/cd/4b/12/cd4b126fcd97c6109bb3cfeee6346edc.jpg) is the \"deep web infographic\" originally posted as a joke.  Some people thought it was true.",
+				"added": 1470203933
+			}
+		],
+		"1_1NpaQyMLjikY9FXdfyG4p8CNmS2YrupsRR": [
+			{
+				"comment_id": 40,
+				"body": "[ZeroMail 2.0](http://127.0.0.1:43110/16X3emHaVgNPrx39U1sYd24dFk5L5swTua/) has the same filesharing service, which seems to be very slow.  NullFolder looks nicer; does it seem to work better?",
+				"added": 1470207202
+			},
+			{
+				"comment_id": 68,
+				"body": "set: izeronet found the Inside torrent.\n\nhttp://127.0.0.1:43110/ZeroTorrent.bit/?Topic:27_17uX92w4VUjxjS9Quq2Es5JdXEMehvzs6g/INSIDE+Cracked+MULTI14+FitGirl+Repack",
+				"added": 1470541041
+			}
+		],
+		"1_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": [
+			{
+				"comment_id": 41,
+				"body": "If you really want to delete every comment, you can edit/remove data.json and make it unwritable.  Since everything is duplicated in SQL, you also have to update the database; deleting it will force it to be recreated.  That happens when ZeroNet is restarted.  Probably you should pause the site or stop ZeroNet while you modify its data.",
+				"added": 1470218546
+			},
+			{
+				"comment_id": 42,
+				"body": "> [genericusername](#comment_1_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny): Will other peers pick up the changes though or will they have to restart their clients?\n\nI think that would only affect your copy.  Maybe you could persuade a majority of peers to make the same changes.",
+				"added": 1470219402
+			}
+		],
+		"1_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 43,
+				"body": "It might be possible to arrange a strong enough [secret sharing](https://en.wikipedia.org/wiki/Secret_sharing) scheme among some quorum of the peers.  If the owner can't reconstruct the data independently, they shouldn't be able to interfere with it effectively.",
+				"added": 1470224857
+			},
+			{
+				"comment_id": 44,
+				"body": "Chapter 19 of [Cryptography Made Simple](http://127.0.0.1:43110/1KuwNEQXaF7SmAibxLs2wgJQJjGYTDMErc/) describes secret sharing in more detail.  [Algebraic Curves in Cryptography](http://127.0.0.1:43110/1EmfJvSsZWtikUqWnHbhMQ9yV5ATUBEooc/) has a different approach.",
+				"added": 1470231228
+			}
+		],
+		"1_1MYfK6tM4vfBJ8SHvbZ8sMH4u6o9mSRPWU": [
+			{
+				"comment_id": 45,
+				"body": "freec: somehow, you've overwritten the Atlantic leak topic.",
+				"added": 1470231683
+			}
+		],
+		"1_1BN8WpGJNnYExwy7PwasLhP3iAjmXJjB6g": [
+			{
+				"comment_id": 46,
+				"body": "The middle east would be in a much better condition now if IS asked a focus group how they felt about it.",
+				"added": 1470237462
+			}
+		],
+		"6_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": [
+			{
+				"comment_id": 47,
+				"body": "There is an unusual line:\n\n> Site:1KuwNE..MErc Http tracker http : //torrent.gresille.org/announce?uploaded=0&downloaded=0&numwant=30&compact=1&event=started&peer_id=-ZN0037-AZtxIG206eU9&port=0&info_hash=%9F%CA%9A%13%DA%B8%AB%89%BBFe%B4%B0%B4%BB%2CE%81f%7D&left=0 error: local variable 'response' referenced before assignment\n\ngresille.org is very unreliable; could it be causing problems?",
+				"added": 1470298879
+			},
+			{
+				"comment_id": 48,
+				"body": "Another error:\n\n> FileServer nebf4o37mll3unha.onion Connect error: SOCKS5Error: 0x04: Host unreachable in ConnectionServer.py line 139 > Connection.py line 91 > TorManager.py line 267 > socks.py line 681 > socks.py line 383 > socks.py line 458",
+				"added": 1470299235
+			}
+		],
+		"1_1MsUAPBMZkBpt4Z46849vSJQxRHbR7HyMt": [
+			{
+				"comment_id": 50,
+				"body": "http://127.0.0.1:43110/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp\n\n[0list](http://127.0.0.1:43110/0list.bit/) has many of the other sites.",
+				"added": 1470311002
+			}
+		],
+		"1_1GH5MK7TbSzDpre9PETw5xPXD9Z8apoogG": [
+			{
+				"comment_id": 51,
+				"body": "Does someone understand why the Chinese users would support IS?",
+				"added": 1470323521
+			}
+		],
+		"1_1DjUq8hd2jYZgc5uNhQEtWUVZjMHkMQkpU": [
+			{
+				"comment_id": 52,
+				"body": "> Torrentz will always love you. Farewell.\n\nThat was abrupt.  Maybe this is preemptive and temporary.  [TorrentFreak](http://127.0.0.1:43110/1JNqdTGVATFWRLzzYwVu19CuWYus5VmoUS/) has an [article](https://torrentfreak.com/torrentz-shuts-down-largest-torrent-meta-search-engine-says-farewell-160805/) about them.\n\nhttps://torrentproject.se was also down for most of the week, but is up again.",
+				"added": 1470398418
+			},
+			{
+				"comment_id": 53,
+				"body": "alek, libertus: are you here from the [Reddit post](https://www.reddit.com/r/torrents/comments/4w7owh/torrentz_quits/)?",
+				"added": 1470403725
+			},
+			{
+				"comment_id": 54,
+				"body": "With the other topic off the main page, this is probably a good time to mention the IRC-like chat sites.\n\n- [0rc](http://127.0.0.1:43110/main.0rc.bit)\n- [1avfst pcaam](http://127.0.0.1:43110/1AvF5TpcaamRNtqvN1cnDEWzNmUtD47Npg)\n- [ZeroMedia](http://127.0.0.1:43110/zeromedia.bit/)",
+				"added": 1470407860
+			},
+			{
+				"comment_id": 59,
+				"body": "> [ergo](#comment_3_1AeoDwzudke45NR3b6LfU4LsmPFs8AXUvi): wondering how safe it is to upload movies to torrents on zeronet\n\nPosting to [ZeroTorrent](http://127.0.0.1:43110/ZeroTorrent.bit/) is untraceable.  Actually seeding the content might harm your anonymity, especially if nobody else has a copy.",
+				"added": 1470456247
+			},
+			{
+				"comment_id": 60,
+				"body": "> [ergo](#comment_4_1AeoDwzudke45NR3b6LfU4LsmPFs8AXUvi): Any way around that?\n\nYou could use Tor and a seedbox.  Some of them accept bitcoin.",
+				"added": 1470456453
+			},
+			{
+				"comment_id": 62,
+				"body": "> [ergo](#comment_5_1AeoDwzudke45NR3b6LfU4LsmPFs8AXUvi): Haven't been able to use zeronet on Tor... I think I am too noob to work it out. Still learning more about zeronet daily.\n\nOn [ZeroHello](http://127.0.0.1:43110/1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/) you can change the setting to \"Tor: Always\".  That won't help with an external torrent client though.  http://127.0.0.1:43110/zerosecurity.bit/ has more tips.",
+				"added": 1470457211
+			}
+		],
+		"2_12xwWp1qTmxEXMxVxrG3AQKPk6MUWjQjM7": [
+			{
+				"comment_id": 55,
+				"body": "Although most people seem happy with it, Play makes me too uneasy to download from because I can't tell whether any of the links go to a ZeroNet site.  I don't know whether some link might be replaced with something dangerous.",
+				"added": 1470443967
+			},
+			{
+				"comment_id": 56,
+				"body": "> [joker999](#comment_1_15rFdTgS9qGHgxUFDo2yHXZkQ4H9fvZxXQ): It's fine, you can check the link before click, hover it and the browser will show you the address.\n\nIt's the front page that makes me uncomfortable.  The movie links there don't show their addresses.",
+				"added": 1470446341
+			},
+			{
+				"comment_id": 65,
+				"body": "> [joker999](#comment_2_15rFdTgS9qGHgxUFDo2yHXZkQ4H9fvZxXQ): http://imgur.com/a/KHvPB\n\nThanks, but what I'm getting at is: you had to click something for those links to appear.",
+				"added": 1470492491
+			}
+		],
+		"1_13Mt8T2256Uz4GHk9B4XvKqyz37wPgA26q": [],
+		"1_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa": [
+			{
+				"comment_id": 58,
+				"body": "> What if they start shutting down trackers? will the torrent system survive?\n\nAs long as DHT keeps working, the content can remain available.  You could backup magnet links, like the [Torrent Project data dumps](https://torrentproject.se/api).\n\n> is there any workaround over here?\n\n[ZeroTorrent](http://127.0.0.1:43110/ZeroTorrent.bit/) is resilient, but it isn't operating well without the site owner.  In March, it began rejecting filenames with spaces and less common characters, so the .torrent upload fails silently, leading to broken links and failing updates.  The most prolific uploader was suddenly cut off by reaching the quota, which needs to be adjusted.\n\n> something like p2p sharing using this Zeronet network?\n\nZeroNet has some filesharing services, but they stop working if the uploader closes their browser window.  [File transfer](https://xkcd.com/949/) isn't easy.  [My experiment](http://127.0.0.1:43110/1KuwNEQXaF7SmAibxLs2wgJQJjGYTDMErc/) to distribute a 4MB file hasn't worked very well.",
+				"added": 1470453382
+			}
+		],
+		"2_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa": [
+			{
+				"comment_id": 61,
+				"body": "Site owners can remove anything from their sites, but ZeroNet really depends on nobody trying to abuse it badly.  Fortunately even the _Islamic State_ seems to be [well-behaved](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1BN8WpGJNnYExwy7PwasLhP3iAjmXJjB6g).",
+				"added": 1470456910
+			},
+			{
+				"comment_id": 137,
+				"body": "> [antyhrabia](#comment_23_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD): cartels nartkotykowych\n\nIs that \"narcotics cartels\"?  \"Drug cartel\" is common in English.",
+				"added": 1473192999
+			}
+		],
+		"7167_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [],
+		"1_16urzDUk5S1EYSaL8XGaJav7BicYSnsxe3": [],
+		"7169_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 67,
+				"body": "Another case that demonstrates how important it is to keep your online identity separate from your offline identity.  Artem Vaulin made an easily traced iTunes transaction and logged in to Facebook with the same IP.  David Ryan Burchard _contacted the US government_ to trademark his vendor account name.",
+				"added": 1470497234
+			}
+		],
+		"9_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 70,
+				"body": "Something like https://www.ixquick.com/ (proxied web search) could help a lot.  Search engines are easy, right?\n\nZeroTorrent has image upload, but it's as broken as its torrent upload because ZeroNet has [weird ideas about the definition of ASCII](https://github.com/HelloZeroNet/ZeroNet/issues/364).  There isn't a good way to [transfer specific files](https://xkcd.com/949/) yet.",
+				"added": 1470625653
+			},
+			{
+				"comment_id": 74,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_136_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): is there a chat where some people just hangout?\n\nThere are a few [chat sites](http://127.0.0.1:43110/zerochatrooms.bit/):\n\n- [0rc](http://127.0.0.1:43110/main.0rc.bit)\n- [1avfst pcaam](http://127.0.0.1:43110/1AvF5TpcaamRNtqvN1cnDEWzNmUtD47Npg)\n- [ZeroMedia](http://127.0.0.1:43110/zeromedia.bit/)\n\n0rc and ZeroMedia have /me and name highlighting.  ZeroMedia has [click highlighting and private messages](http://127.0.0.1:43110/zeromedia.bit/chat_commands.html).  1avfst pcaam is just basic chat, but seems to get the most visitors.",
+				"added": 1470656818
+			}
+		],
+		"9_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": [
+			{
+				"comment_id": 71,
+				"body": "> [beoxoeb](#comment_11_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa): Is not loading, it says: \"content.json download failed\"\n\nWith my own sites, content.json seems to be distributed only after there are at least five peers.  Here there are twenty and the update has failed all day.  Maybe the owner is rarely connected.",
+				"added": 1470630264
+			}
+		],
+		"1_1KCg4tQ1dBRfMWZ8ptrqXSSUKKR11rYb6P": [
+			{
+				"comment_id": 72,
+				"body": "> [genericusername](#comment_5_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny): Here's a little something I've been experimenting with - http://127.0.0.1:43110/1LBr1dHoXvJAMjDgW8Wcg5kbCoKyJnzo6p/\n> It's a straight up clone of ZeroTorrent I've been reverse engineering (still am) with the source code available on Gitlab.\n\nawesome sauce.  Do you have notes on what you had to do to get the clone working?  Others have tried and found surprising problems (with uploading in particular).  Also, if it's working well enough, you should increase the quota for sirenyc and a few others so they can post again.",
+				"added": 1470639728
+			}
+		],
+		"7_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 73,
+				"body": "> [newuser123](#comment_21_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv): With any luck the former KickAssTorrents community will move here boosting the usage of zero-net.\n\nSending a message to TorrentFreak should help.  They're keeping track of KAT replacements, and they've mentioned ZeroNet a few times before.",
+				"added": 1470643362
+			},
+			{
+				"comment_id": 83,
+				"body": "> [kickasstorrents](#comment_7_1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1): Size limits can be solved I'm just not sure how (I guess @nofish would no for sure).\n\nThe quota is controlled by `max_size` entries in data/users/content.json.  Nobody seems to have good intuition for how large it should be: even in the [chat rooms](http://127.0.0.1:43110/zerochatrooms.bit/) people reach the limits ([erkan](http://127.0.0.1:43110/zeroblog.bit/??Post:24) deleted his history to post again); in ZeroTorrent 2MB isn't large enough to accommodate uploaded files (interrupting sirenyc); in ZeroTalk the default limit can easily be reached in about a week (as bot and I have done).",
+				"added": 1470847291
+			},
+			{
+				"comment_id": 84,
+				"body": "> [spartanshield](#comment_5_13WWWFi6iuSLazDcNvHgBEjjeAofAhAwtE): I fail to see how it can prevent spam. If someone uses a bot to spam on the network, they also can program it to change the size limit.\n\nIt isn't great just for limiting spam either.  40k spread across one word posts would be a lot of noise, even with rate limiting.  Sites with higher limits and less maintenance could be flooded before the owner responds.",
+				"added": 1470918268
+			},
+			{
+				"comment_id": 86,
+				"body": "For example, look at ZeroTorrent.  edantes has a nice automated torrent scraper which has used up a quarter of the quota in less than a day.  The rate limiter doesn't seem to be much of an obstacle.  It's a good thing that the script is being used helpfully.",
+				"added": 1470923708
+			},
+			{
+				"comment_id": 87,
+				"body": "> [edantes](#comment_7_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi): So there needs to be a way of blocking specific IP ranges and blacklisting rogue users, standard stuff.\n\nUsers can be blacklisted, but it's easy to get new usernames.  Since ZeroNet encourages use of Tor, IP bans wouldn't be effective.",
+				"added": 1470930008
+			}
+		],
+		"2_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": [
+			{
+				"comment_id": 75,
+				"body": "I've been thinking about sending [partial data](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp) through ZeroNet.  To access clearnet sites through ZeroNet, we might distribute work to peers, which retrieve whatever they can through Tor and bring it back into ZeroNet for some limited caching.  ZeroNet requests could be disconnected from clearnet/onion requests, which could avoid interference or tracking.  Probably there would be some very difficult issues to address.",
+				"added": 1470657634
+			},
+			{
+				"comment_id": 76,
+				"body": "> [newuser123](#comment_28_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv): if the site itself is taken down a proxy would be useless.\n\nSince ZeroNet distributes to everyone, a proxy could keep the clearnet site accessible.",
+				"added": 1470659205
+			}
+		],
+		"10_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": [
+			{
+				"comment_id": 77,
+				"body": "There's a display issue with huge sizes.  The site has since expanded to over 5GB, so ZeroNet suggested a limit of 10GB.  In the sidebar, that displays as \"1000 MB\" with the fourth zero hidden.",
+				"added": 1470667721
+			},
+			{
+				"comment_id": 78,
+				"body": "The number of peers is hovering around 25, but neither content.json nor index.html will download.  Could there be an issue with the priority placed on downloading the site infrastructure?",
+				"added": 1470671078
+			}
+		],
+		"10_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 79,
+				"body": "> How do I get zeronet to remember the private key so I don't have to keep punching it in?\n\nYou can add a `\"privatekey\":` line to the site's entry in data/users.json.  ZeroNet does that automatically when you clone a site.\n\n> Edit: Honestly, the quota system is the most frustrating part of ZeroNet by far.\n\nbot has reached the ZeroTalk quota.  I'm nearly there, and I deleted some older posts to recover a little space before nofish responds to my mail.  It's frustrating that sites can become unusable if the owner is absent for too long.",
+				"added": 1470712977
+			},
+			{
+				"comment_id": 80,
+				"body": "> [kaffie](#comment_127_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): I have that set for both sites, and both are marked as 'owned' in the side bar, but it still prompts me for a key every time I click sign/publish.\n\nMaybe ZeroNet hasn't read the file.  Does it work if you restart ZeroNet?",
+				"added": 1470713855
+			}
+		],
+		"24_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 81,
+				"body": "cub3 has some [HTML5 games](http://127.0.0.1:43110/14zQjCbU2BAy3uAUAXN5UJhq8YdAHyzUqK).",
+				"added": 1470748047
+			}
+		],
+		"1_163sF1Kdsd5LdpjAXDKBshdEBNJH6PUqvg": [
+			{
+				"comment_id": 82,
+				"body": "Cloning a site automatically adds its private key to data/users.json.",
+				"added": 1470842176
+			}
+		],
+		"3_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": [
+			{
+				"comment_id": 85,
+				"body": "You were trying to follow everyone at once?",
+				"added": 1470918372
+			}
+		],
+		"18_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 88,
+				"body": "> [testingzeronet12](#comment_114_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): Can you tell me whether the PDF on my test site works? \n> http://127.0.0.1:43110/15eqKjfTfECvBGt2fUemQfcn6NMV37t6WT/\n\nZeroNet didn't update the PDF for some time, but it's working now.",
+				"added": 1470931839
+			}
+		],
+		"1_1Mxv7my8HRBiVNRtiFaHrrbb11hmPqa6qL": [
+			{
+				"comment_id": 89,
+				"body": "> [lastirk](#comment_1_1Mxv7my8HRBiVNRtiFaHrrbb11hmPqa6qL): BitMessage can't get the encryption key.\n\nI've had the same problem for several days.",
+				"added": 1471016123
+			}
+		],
+		"3_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": [
+			{
+				"comment_id": 90,
+				"body": "Usernames in reply comments are unstyled when they look like XML tags (compare replies to kaffie and myself).\n\n* http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1BLueGvui1GdbtsjcKqCf4F67uKfritG49/1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi/edantes@zeroid.bit",
+				"added": 1471089845
+			},
+			{
+				"comment_id": 91,
+				"body": "> [newuser123](#comment_51_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv): Right now I'm getting a 'Content sign failed: invalid private key.' error whenever I try to do something on ZeroMe\n\nWhen I had that error, it turned out ZeroNet thought Blue Hub had grown to 10.2MB, past the 10MB size limit.  It was really using less than 1MB and clicking \"update\" in the sidebar reset the reported size.  This seems a lot like the size misreporting from sites that load continuously, like [The Intercept](http://127.0.0.1:43110/1MVPxVaimxnd7aKdgfJzCnUZCwEYAd3DnD/), which grew to many gigabytes.",
+				"added": 1471137796
+			},
+			{
+				"comment_id": 97,
+				"body": "> [testset](#comment_47_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp): Is that normal that both Blue and Red hubs are persistently 100+ updates behind?\n\nI'm missing one file from Red and Green.  The others seem up to date.  Blue shows no activity for two hours.",
+				"added": 1471620155
+			}
+		],
+		"1_14dWJrtWbw6sQKHgfeukbzBDJvBSnfRnTw": [
+			{
+				"comment_id": 92,
+				"body": "There are the webtorrent services of [ZeroMail 2.0](http://127.0.0.1:43110/16X3emHaVgNPrx39U1sYd24dFk5L5swTua) and [NullFolder](http://127.0.0.1:43110/1GrtBsG57kjU2Z3iAQebG9D5c8CRDRLoPj), but webtorrent uses its own protocol which is incompatible with normal torrents.  It also needs an active browser window, so it stops working if all the seeding windows go away.",
+				"added": 1471153668
+			}
+		],
+		"8_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 93,
+				"body": "I've seen my peers for all sites drop to zero at about the same time on each of the past two days.  Sometimes Tor gets into a bad internal state that it doesn't recover from well, but removing its cache and restarting everything doesn't seem to help with reconnecting to ZeroNet.  An issue seems to be that ZeroNet will try to update every site simultaneously, overwhelming Tor with connections it can't satisfy.  We might need more frequent but staggered updates.",
+				"added": 1471159959
+			}
+		],
+		"4_164W1rFVD9Bm7poGJWvjVUjvkbhhFC5nnt": [
+			{
+				"comment_id": 94,
+				"body": "Some of their announcements are really weird.  \"Anonymous North Texas\" released something very similar a year ago and called it [Operation Matrix III](https://www.facebook.com/opmatrixiii).",
+				"added": 1471236030
+			},
+			{
+				"comment_id": 95,
+				"body": "> [truth](#comment_28_164W1rFVD9Bm7poGJWvjVUjvkbhhFC5nnt): I will stay out of cancer FB.\n\nYes... it's basically the same thing in the middle of a wall of noise.",
+				"added": 1471247062
+			}
+		],
+		"1_1N5Rs6CHsGPdDB1y3JqjYm9SLSWUTkjwEF": [
+			{
+				"comment_id": 96,
+				"body": "> [edantes](#comment_16_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi): And with all this back-and-forth hubs business thats going on I'm not even sure if a manageable index site is viable yet, there needs to be at least one hub per category and there are going to be at least 8 or so, right?\n\nIt isn't clear whether the current merger sites could support that.  Users might be posting to several hubs, but joining multiple hubs has caused problems for ZeroMe.  I think Kaffie has said the problems are mainly due to design flaws in ZeroMe; maybe a categorized site is possible now.",
+				"added": 1471399459
+			}
+		],
+		"1_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": [
+			{
+				"comment_id": 98,
+				"body": "It seems to have been [deliberate](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1JUDmCT4UCSdnPsJAHBoXNkDS61Y31Ue52/13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG/3).",
+				"added": 1471730245
+			}
+		],
+		"1_12p6D4y9g3NXwXgUzbUVV44pJsgPvdimJq": [
+			{
+				"comment_id": 99,
+				"body": "[Here](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/1FJf2hQWT6YY9oxXozkx1ZvBHyAJVYmb76/gorgamin@zeroid.bit).  They haven't been very active.",
+				"added": 1471730844
+			}
+		],
+		"1_1AeoDwzudke45NR3b6LfU4LsmPFs8AXUvi": [
+			{
+				"comment_id": 100,
+				"body": "- [FLAC](magnet:?xt=urn:btih:7E453A02F097453C936039DF1C75B02AB92D3C0E)\n- [M4A](magnet:?xt=urn:btih:9B555E81B338DD8743EC7BAAE49EE1A185F598EA)",
+				"added": 1471755046
+			}
+		],
+		"1_15JuC9Nz1ua8s7M7tUemvJN1r6NZhffCVq": [
+			{
+				"comment_id": 101,
+				"body": "The ZeroNet sites that support markdown use [Wordpress syntax](https://en.support.wordpress.com/markdown-quick-reference/) and not bbcode like you might have hoped.",
+				"added": 1471860302
+			}
+		],
+		"8_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": [
+			{
+				"comment_id": 102,
+				"body": "> [jayofthezero](#comment_1_16nArdxrSaNThNp83kL8E6NLL9WD98iUne): Your site doesn't load. Is your port open?\n\nI'm using tor always, so it's closed.  At one time, it uploaded to several people, but since then the number of peers dropped to zero.  After mentioning the site again, four peers might be trying to connect.  It might need at least one more to start working again.",
+				"added": 1471874002
+			},
+			{
+				"comment_id": 103,
+				"body": "> [sirenyc](#comment_69_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): CONTENT.JSON DOWNLOAD FAILED!\n\n:(\n\nThat's five peers, with two connected.  I don't see ZeroNet uploading yet.",
+				"added": 1471883047
+			},
+			{
+				"comment_id": 104,
+				"body": "> [jayofthezero](#comment_2_16nArdxrSaNThNp83kL8E6NLL9WD98iUne): Odd, the site loaded in a proxy, but it still fails for me. I'm not having issues with any other sites, and my ports are open and Tor is running fine. :\\\n\nWith nine peers and three connected, it's uploading to someone.  Can you download the big file from the proxy?",
+				"added": 1471889483
+			},
+			{
+				"comment_id": 105,
+				"body": "> [jayofthezero](#comment_3_16nArdxrSaNThNp83kL8E6NLL9WD98iUne): Nope. The proxy has me wait a while, but then it errors out. Guess it's probably still downloading it from you maybe?\n\nThere might have been another complete copy uploaded.  kindlyfire gives me a 504 instead of sending the file (and now index.html is 502).  bit.no.com doesn't seem to have the full site, but hasn't displayed an error.\n\n> Proxy says it's currently storing 873MB for the site, which is odd since it says that 727MB of that are JSON files. You aren't actually including that many redundant JSON's right?\n\nThe site is only about 150MB (the size difference), with about 1kB of json.  @nofish mentioned fixing a size calculation in 1422, but this seems like the same bug that caused The Intercept mirror to grow larger and larger while loading.  It might be the bug that caused a similar problem for me with Blue Hub.",
+				"added": 1471897646
+			},
+			{
+				"comment_id": 106,
+				"body": "> [edantes](#comment_18_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi): is this legit?\n\nI sure hope so, it's my site.",
+				"added": 1471900397
+			},
+			{
+				"comment_id": 107,
+				"body": "> [sirenyc](#comment_70_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): 18 PEERS ! CONTENT.JSON DOWNLOAD FAILED  =/\n\nI think for large sites ZeroNet gets distracted trying to transfer the largest files.  Getting out of the loading screen doesn't seem to have a high enough priority.",
+				"added": 1471906762
+			},
+			{
+				"comment_id": 108,
+				"body": "> [edantes](#comment_21_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi): Running out of size limit (1892.4MB/2000MB)\n\nThat's the same bug The Intercept had.  Which version of ZeroNet are you using?",
+				"added": 1471923023
+			},
+			{
+				"comment_id": 109,
+				"body": "> [edantes](#comment_22_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi): 0.4.0 (rev 1400)\n\n1424 doesn't log anything about failing to upload files.  I never found an error that helped explain The Intercept's problem.",
+				"added": 1471925447
+			},
+			{
+				"comment_id": 110,
+				"body": "Attention peaked again some time ago.  Transferring large files through ZeroNet is much harder than expected.  Are sites like [IOL](http://127.0.0.1:43110/1PYydUXYkUMNyrUNxr6SzJG68z8qkCbc2v/) really distributing their content successfully?",
+				"added": 1471967287
+			},
+			{
+				"comment_id": 111,
+				"body": "> [edantes](#comment_23_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi): So is there any other way to get this? Don't really think ZN is optimized for large file files, IPFS is better suited for that.\n\nI've been processing the index to make it easier to work with, but there are 6.6 million lines to get through, which takes a lot of time.  The index is in IPFS at https://ipfs.io/ipfs/QmcwwiMrCCiKjVuFGHXa4owLTuwL3msxrUeqXhBKbtVYMn.",
+				"added": 1472010081
+			},
+			{
+				"comment_id": 112,
+				"body": "30 peers... does someone have a working copy of the site?",
+				"added": 1472057119
+			},
+			{
+				"comment_id": 114,
+				"body": "ZeroNet has sent another gigabyte since the last time I checked.  Do you have the site's data directory?",
+				"added": 1472079360
+			},
+			{
+				"comment_id": 115,
+				"body": "Another 400MB uploaded and 60 peers.  Does nobody else have all three files?",
+				"added": 1472145880
+			},
+			{
+				"comment_id": 116,
+				"body": "> [fdgdsfgrtwtv3563](#comment_1_1M4LdHrgXDet1arcP3etQQHQ5KWYjtBfhf): What should I see when I enter the site ?\n\nhttps://proxy1.zn.kindlyfire.me/16iXY7BX8UF1j2NJVQHADyuGorFJKFvnzG/ has content.json and index.html, but without the data those are useless.",
+				"added": 1472149649
+			}
+		],
+		"1_1HJnF1xNKtUDP33AtynJaH9UDmd8FTv27H": [
+			{
+				"comment_id": 113,
+				"body": "Kaffie has a ZeroNet site search called [Kaffiene](http://127.0.0.1:43110/kaffiene.bit/).",
+				"added": 1472060104
+			}
+		],
+		"2_1HUrhTUZFB2KKsXLUv1vugPH358iB6zsiY": [
+			{
+				"comment_id": 117,
+				"body": "Here's a more descriptive site name:\n\n```\n15andbox4W3bS4NLnb4hNFLMnZQiMmUKYV\n5JyEpe4M4bCmFJ7edFnUrRyH3p56d8Db9fgTPb5AWKRF3jmkp4c\n```",
+				"added": 1472236393
+			}
+		],
+		"4_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR": [
+			{
+				"comment_id": 118,
+				"body": "Those are magnet links.  You'll need to open them with a torrent client.  [Tixati](http://127.0.0.1:43110/15CmNF5L1murN3UMb4fZMuWJtpq689JRhx/?Topic:1_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t/+Desktop+Software+Tixati+2+43) is good.",
+				"added": 1472329779
+			}
+		],
+		"1_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": [
+			{
+				"comment_id": 119,
+				"body": "Nice.  In Firefox, the embedded player vanishes just after downloading, which makes the file difficult to play.  It seems to be reassembled successfully, though.",
+				"added": 1472393629
+			},
+			{
+				"comment_id": 122,
+				"body": "> [waterrabbit](#comment_5_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): I added a link to download the file. Could you see it now?\n\nOops, I missed this.  The download link works well enough.  Is Firefox ignoring the usual methods for setting a default filename?",
+				"added": 1472479398
+			},
+			{
+				"comment_id": 123,
+				"body": "The video works better.  Strangely, Firefox's HTML5 player controls don't work, but \"play\" from the context menu does.  What are you using to chop up the files and hash the pieces?",
+				"added": 1472534769
+			}
+		],
+		"1_1PPVb3FDDiNyNqbdb5UAv8ykEC1K1Nwquy": [
+			{
+				"comment_id": 120,
+				"body": "There's no place like 127.0.0.1.",
+				"added": 1472393935
+			}
+		],
+		"7_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR": [
+			{
+				"comment_id": 121,
+				"body": "The ZeroTorrent list is gigantic.  You're better off using the search box and hoping the thing you want exists.  \"Initial sync in progress\" is the default message used to indicate a ZeroTalk forum hasn't downloaded any posts yet.  When there are no posts simply because they've all been excluded by a search, it isn't accurate anymore.  Are you using the Tor browser, and that hangs?",
+				"added": 1472479117
+			}
+		],
+		"1_1JecQYorYpL9F9vArLj13LKvc3v3iSdDHA": [
+			{
+				"comment_id": 124,
+				"body": "The recommendation is to [set a non-working proxy](http://127.0.0.1:43110/zeroblog.bit/?Post:60:protect+yourselves:+set+a+non-working+proxy).  http://127.0.0.1:43110/zerosecurity.bit/ has some other notes.",
+				"added": 1472539992
+			}
+		],
+		"1_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 125,
+				"body": "A more recent [TPB backup](http://127.0.0.1:43110/ZeroTorrent.bit/?Topic:19_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t/The+Pirate+Bay+Full+Backup+9+24+2015) is less portable... 1.6GB.  Nobody expects them to stay offline, so the smaller versions are difficult to find.",
+				"added": 1472553986
+			}
+		],
+		"11_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 126,
+				"body": "> [awpnoob](#comment_1_17B39eHX5VLaAH6U1utJx2JVrVnuXPdnxC): that is working?\n\nSupposedly the early versions were very buggy.  [This version](http://127.0.0.1:43110/ZeroTorrent.bit/?Topic:69_1K6HCsJskZENYG42GR7ocJXg9WjFbEq9hc/No+Man+s+Sky+2204+GOG+TPB+Mercs215) might work better.",
+				"added": 1472719632
+			}
+		],
+		"16_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 128,
+				"body": "> [kingbudgie](#comment_12_17nphNHoGtz9EzvvTSSbZn7WHfM1ynpdsL): Patreon takes care of the funding. Millions of users now have another legit usage for torrents and bitcoin like technology.\n\nNot _bitcoin like_, actual bitcoin.  Anyone can donate directly to [bitcoin:1FUQPLXHimgCvYHH7v3bJXspJ7bMBUXcEb](bitcoin:1FUQPLXHimgCvYHH7v3bJXspJ7bMBUXcEb).",
+				"added": 1472947858
+			}
+		],
+		"1_18WbbZHfRWnk1ufSw4EBywk6KTocZiydUE": [
+			{
+				"comment_id": 129,
+				"body": "oh noes, foreign iCans on our intertubes",
+				"added": 1473047813
+			}
+		],
+		"1_1F2jegiyYVq9Byo8sezh3LG3njV8vcg9Md": [
+			{
+				"comment_id": 130,
+				"body": "All of these use webtorrent in an active browser window to seed.  They can share anything, but some of them might be less convenient for certain types of files.\n* [NullFolder](http://127.0.0.1:43110/1GrtBsG57kjU2Z3iAQebG9D5c8CRDRLoPj/)\n* [ZeroMail 2.0](http://127.0.0.1:43110/16X3emHaVgNPrx39U1sYd24dFk5L5swTua/)\n* [ZeroTube](http://127.0.0.1:43110/1FUQPLXHimgCvYHH7v3bJXspJ7bMBUXcEb/)\n* [NinjaBeats](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu/paintninja@zeroid.bit)\n* [Bwoi](http://127.0.0.1:43110/1f7FYxZWSZ5YG7Nd8sGsHcWEQgvdnVvQF/) (missing its interface now, see [this post](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i/1F1kDrT693w8ATbcXV1wHmGSD6SpSY4f5L/1472893054))\n* [KopyKate](http://127.0.0.1:43110/123XVG3HV1q2mEjp15dEmrQk1ZGH4jTFgG/)",
+				"added": 1473053437
+			}
+		],
+		"1_1EmKu3AxsUduZzr99SryZbfcPrihsZV9mg": [
+			{
+				"comment_id": 131,
+				"body": "ZeroHello can search through sites you're following in the newsfeed, but tbh you can find more with `grep`.  Almost everything is stored in plain text.",
+				"added": 1473100439
+			},
+			{
+				"comment_id": 140,
+				"body": "> [catoz](#comment_1_17nrdrMeoWYaXSMX4mgSje5i4UviaoSxUT): Wait...do you mean that ZeroNet stores everything in plain text locally? but the traffic is always encrypted?\n\nThat's right.  ZeroMail encrypts to keep messages private, but most other data is easily accessible.",
+				"added": 1473210200
+			}
+		],
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": [
+			{
+				"comment_id": 132,
+				"body": "* replacement for webtorrent/IPFS, contained within ZeroNet\n* distributed computing\n* caching proxy for clearnet",
+				"added": 1473111315
+			},
+			{
+				"comment_id": 133,
+				"body": "[Oekaki](https://en.wikipedia.org/wiki/Oekaki)/[paint chat](https://en.wikipedia.org/wiki/Paint_chat)/[whiteboarding](https://www.quora.com/What-is-the-best-online-whiteboard).  What could go wrong?",
+				"added": 1473117113
+			},
+			{
+				"comment_id": 138,
+				"body": "> [betatester2](#comment_21_1C6qdRAX8iYqSB7TfUxk91yW8Y2SBKNgfA): A real email client, which handles attachements. Currently what we get with Zeromail is more a messenging Bitmessage like app. Zeromail 2.0 adds the possibility to share a file but it has never worked with me so far. It has to be a real replacement for Outlook otherwise it's going to be difficult to get people to adopt a decentralized emailing system.\n\nZeroMail 2 and [NullFolder](http://127.0.0.1:43110/1GrtBsG57kjU2Z3iAQebG9D5c8CRDRLoPj/) use webtorrent, which uses WebRTC to transfer files from one browser window to another.  It stops working if the sender closes their window or even refreshes the page.  Coming from ZeroMail, one probably expects that the file sharing would store files in the same way that messages are stored.  It might be easier to create a new site to host your file than to arrange for both participants to be available [at the same time](http://xkcd.com/921/).",
+				"added": 1473195742
+			}
+		],
+		"5_1C6qdRAX8iYqSB7TfUxk91yW8Y2SBKNgfA": [
+			{
+				"comment_id": 134,
+				"body": "> [waterrabbit](#comment_14_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Yeah, blame your browser... or simply, set your proxy to 0.0.0.0 : 6666, no proxy for 127.0.0.1\n\nYou could also proxy through ZeroNet's instance of Tor: `127.0.0.1:49050`.  That has similar advantages to using the Tor browser, without using a separate browser or disabling your history.",
+				"added": 1473125774
+			}
+		],
+		"7735_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 136,
+				"body": "Reality imitates [xkcd](http://www.xkcd.com/576/).",
+				"added": 1473142318
+			}
+		],
+		"1_1DQAexBYLLtqRurHpCnmqUsGAxsXzhZWxP": [
+			{
+				"comment_id": 139,
+				"body": "Yes; there are several book-related sites.\n* http://127.0.0.1:43110/13NS3rSzCTpAYtH997rphfZDaWRypyjwnU/\n* http://127.0.0.1:43110/1Hsv1b1ij5gAk5SGc23tmDmUQXwF31aXWb/\n* http://127.0.0.1:43110/15rm8ew4pamdiFmpyYwzmEqJVx6Etnv8pP/ ([The Corsair](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/1LkRBTdWeynXXmUhb5DXxesygs2aKaUnXx/3))\n* http://127.0.0.1:43110/12CVHBbLwwYjgYtjpWmempoyZN7xWXJN8j/\n* http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ/2\n* http://127.0.0.1:43110/192dZ1EG5tU7PnCfuwGMDEBrr2eLqvs4t3/?Category:books\n\nAlso I have been creating sites to host PDF.  A collection of these could be indexed by a large merger site.  Retaining peers for them is difficult, however.\n* [Sapiens: A Brief History of Humankind](http://127.0.0.1:43110/1ABHoH2K2PBKv3bBDqfyLeNxBDT2XiH63A/)\n* [Elliptic Curves](http://127.0.0.1:43110/111GTMxRyZBvXVZgJZrkjpPLVZDFnEU8h/)\n* [Algebraic Curves in Cryptography](http://127.0.0.1:43110/1EmfJvSsZWtikUqWnHbhMQ9yV5ATUBEooc/)\n* [Cryptography Made Simple](http://127.0.0.1:43110/1KuwNEQXaF7SmAibxLs2wgJQJjGYTDMErc/)\n* [The Penguin Dictionary of Curious and Interesting Geometry](http://127.0.0.1:43110/1PDFcigDTymiqMkiK5iXLgtXxDwT5ts3WC/) (this has many more peers than the others even though I've barely mentioned it)",
+				"added": 1473204376
+			}
+		],
+		"1_1s4ktC4KGGoNu93Cgxc2H9u89awHGQaBM": [
+			{
+				"comment_id": 141,
+				"body": "You can add torrents to [ZeroTorrent](http://127.0.0.1:43110/ZeroTorrent.bit/), but Play doesn't have any posting from ZeroNet.  Probably you could get things added to Play if you had a trusted account on rarbg.to.",
+				"added": 1473227895
+			}
+		],
+		"19_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 143,
+				"body": "> [vladcelmare](#comment_1_18sPuRGSkTLe9D3iSMCPBQpS6G7YX6LC2U): can u upload music for pirating purposes?\n\nIt uses webtorrent and you can really upload anything.  To download you can paste the infohash into [NullFolder](http://127.0.0.1:43110/1GrtBsG57kjU2Z3iAQebG9D5c8CRDRLoPj/files.html).",
+				"added": 1473233081
+			}
+		],
+		"1_1Psd8z6hvC62pEbVgtTAXbuM3PFPgz46tZ": [
+			{
+				"comment_id": 144,
+				"body": "The closest is [Play](http://127.0.0.1:43110/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp/).  YIFY doesn't really exist anymore: https://torrentfreak.com/yts-ag-wants-to-be-the-new-yify-on-popular-torrent-sites-151113/",
+				"added": 1473403900
+			}
+		],
+		"9_12i4LiZ39NxcYtsf36aTWJzcpzw4KFUCJy": [
+			{
+				"comment_id": 145,
+				"body": "> [fergish](#comment_1_1HQFucU7voutGuUsYknGcDpJg19CBC6gpY): I must attribute the observation to Tom Woods (http://tomwoods.com/podcasts/) but he nailed it: Whatever else you think about Trump, you have to LOVE the fact that he rather completely (and probably permanently) ended the political career of Jeb Bush. This I LOVE.\n\nMany people LOVE that Trump is destroying the Republican party and its legitimacy among broad groups of voters.  It's hard to believe a Democratic plant would select Pence as running mate, but together they make a caricature of Republican policies.",
+				"added": 1473560038
+			},
+			{
+				"comment_id": 146,
+				"body": "> [kingbudgie](#comment_29_17nphNHoGtz9EzvvTSSbZn7WHfM1ynpdsL): and wasserman schults who promised the DNC was not biased but referred to the other candidates as jokes.\n\nThe DNC seems to be very corrupt.  On RT (the Russian news station that punked Trump) there is a show called [Redacted Tonight](https://www.youtube.com/user/redactedtonight) which has been following the anomalies on the Democratic side.",
+				"added": 1473567273
+			}
+		],
+		"1_16YP1ZeHrKq3KB3DdBWHec984oQAfVPT9d": [
+			{
+				"comment_id": 147,
+				"body": "hello!",
+				"added": 1473577799
+			},
+			{
+				"comment_id": 148,
+				"body": "> [wire](#comment_1_16YP1ZeHrKq3KB3DdBWHec984oQAfVPT9d): hey, what's up?\n\npeers for http://127.0.0.1:43110/1KuwNEQXaF7SmAibxLs2wgJQJjGYTDMErc/ are up, and I [don't know why](http://127.0.0.1:43110/zeromedia.bit/).",
+				"added": 1473579161
+			},
+			{
+				"comment_id": 149,
+				"body": "> [wire](#comment_2_16YP1ZeHrKq3KB3DdBWHec984oQAfVPT9d): what is that?\n\nA cryptography book.  I guess ZeroNet likes it more than this one: http://127.0.0.1:43110/1EmfJvSsZWtikUqWnHbhMQ9yV5ATUBEooc/",
+				"added": 1473579499
+			},
+			{
+				"comment_id": 150,
+				"body": "> [wire](#comment_3_16YP1ZeHrKq3KB3DdBWHec984oQAfVPT9d): oh okay, the page won't work for me.\n\nIt might be slow, or there could be some problem with <embed> support.  If the site at least passes the loading screen, its PDF will be in ZeroNet's directory.",
+				"added": 1473581088
+			}
+		],
+		"1_1PoA7YxWVZKoXWoD1PjdwByFqqCA8d2uqr": [
+			{
+				"comment_id": 151,
+				"body": "> personal .json files are required on the device accessing it, instead the .json files should be stored on ZeroNet itself\n\nWhere else could they be stored?  ZeroNet exists _only_ on each device running its software.",
+				"added": 1473645462
+			},
+			{
+				"comment_id": 152,
+				"body": "> [thyseus](#comment_1_1L7VS8tunVTbfpy77kbS9FMXpXwjj6Bbnx): I'm looking for a \"ZeroMirror\" feature. Just enter the URL of an classic web page. It gets fetched with curl/wget/somwhat and is mirrored as a ZeroNet page. Entering the URL again only fetches changes and new content. Does anybody know of such an project already? Thanks !\n\nIt would be difficult.  One of my [suggestions](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2) is a ZeroNet proxy for clearnet.  Issues would be the amount of temporary storage needed and distributing all the content efficiently.  An additional challenge could be building a secure ZeroNet web browser from there.  I think we would need a good distributed filesystem in ZeroNet and a way to request work from peers.",
+				"added": 1473752358
+			}
+		],
+		"1_17nMTJo6vFTiFupGEjkcVV5jDh9Ycx7yv7": [
+			{
+				"comment_id": 153,
+				"body": "Wow, that's a lot of menus.  How many sites are there?",
+				"added": 1473918742
+			}
+		],
+		"3_1MDjoCqFDeRHGESqDBF8oGhG3ZjCdVo8pr": [
+			{
+				"comment_id": 154,
+				"body": "If the site owner doesn't communicate and hasn't provided any contact information, there isn't much that can be done to discover who they are.  `content.json` has `admin` and `admin_href` settings, but they're often neglected and Play doesn't include them.  You might be able to track down the owner by comparing timestamps and trying to find a user with a similar pattern of activity.  If they weren't using Tor, you could try to find their IP address and contact them directly.",
+				"added": 1474373122
+			}
+		],
+		"1_1LE1ngFyG62KJC1Q7G2xyZGjaB2QubXSi9": [
+			{
+				"comment_id": 155,
+				"body": "> [kopykate](#comment_23_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4): have multiple people who know the private key, all over the world .. and have a backup of the site on their hard drivers. It shouldn't be that hard to backup the database.. it's basically just raw text.\n\nThere are two experimental [sandbox](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1BLueGvui1GdbtsjcKqCf4F67uKfritG49/1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t/1472286311) sites, where the private key is public.  It turns out that anything deleted tends to reappear when the next person signs, because deletions aren't published and everyone else still has the files.  Instead, content has to be overwritten to destroy it.",
+				"added": 1474463984
+			}
+		],
+		"2_13MUkdCRgz1jXmufWdvJn5qgRrwhrWNYbK": [
+			{
+				"comment_id": 156,
+				"body": "http://127.0.0.1:43110/zeromedia.bit/ has a lot of activity.",
+				"added": 1474527395
+			}
+		],
+		"1_1546FEZjAaS8Soy8Pzc6weXgbFTVAv84Vi": [
+			{
+				"comment_id": 157,
+				"body": "There are frequently people chatting in [ZeroMedia](http://127.0.0.1:43110/zeromedia.bit/).",
+				"added": 1474665494
+			}
+		]
+	},
+	"comment_vote": {
+		"128_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"6_1CFhytwoGGPNqmueehPqotaf2iG9uxD98e": 1,
+		"15_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"5_1NpaQyMLjikY9FXdfyG4p8CNmS2YrupsRR": 1,
+		"1_1BHhjvSEumzmpaxz1pqbD1BoDU94xQhwJ1": 1,
+		"41_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"5_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": 1,
+		"2_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT": 1,
+		"9_1D6Pn4487L8QyFtVSU14nxxtnfEgEs2Ny1": 1,
+		"22_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"24_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"25_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"14_164W1rFVD9Bm7poGJWvjVUjvkbhhFC5nnt": 1,
+		"24_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": 1,
+		"25_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": 1,
+		"159_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"33_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"28_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": 1,
+		"16_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi": 1,
+		"1_17Cs2auSHSVjKaYMXqbNMApRQrgXcwJUpL": 1,
+		"37_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"167_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"47_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"8_1JwPBvZYXLJzrA6YisjpsyTuuieFLCARS6": 1,
+		"6_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": 1,
+		"3_1HJnF1xNKtUDP33AtynJaH9UDmd8FTv27H": 1,
+		"1_1PP8Hgtsu36kRvB7QBcGXfEi6eLReCvPp6": 1,
+		"2_1CQ2rCSbuSxkeDcrvBu1wvkUSg8233tAUu": 1,
+		"4_17bo4yV2YQ8qERFytHMogwancQzQmzzaDM": 1,
+		"1_1L7VS8tunVTbfpy77kbS9FMXpXwjj6Bbnx": 1,
+		"23_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1
+	}
+}

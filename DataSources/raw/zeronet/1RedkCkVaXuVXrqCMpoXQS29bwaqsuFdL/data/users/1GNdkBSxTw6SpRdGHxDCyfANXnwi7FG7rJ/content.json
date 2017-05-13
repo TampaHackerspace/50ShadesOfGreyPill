@@ -1,0 +1,21 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HE/VU0CZywTIiMqjK1tAFamgozidJhReZEVmTLwIctZJK+3D9O2aWDGY0R/hiPNvy1G0pmRYTQF/JP7/25qMtH0=",
+ "cert_user_id": "teddydd@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "581a8092e08686c9ed381df66abfc3f0a3e5e5dddab4c80bdfe57fab4e3a6586",
+   "size": 1313
+  },
+  "data.json": {
+   "sha512": "cd6ea4778d21a04e37b23dfec02a2dce0ce6e711a60e413797ff921092c34c47",
+   "size": 8549
+  }
+ },
+ "inner_path": "data/users/1GNdkBSxTw6SpRdGHxDCyfANXnwi7FG7rJ/content.json",
+ "modified": 1491489081,
+ "signs": {
+  "1GNdkBSxTw6SpRdGHxDCyfANXnwi7FG7rJ": "HPtlIA190O7R5RSsnsWXaT6vgP9IXv6l3M1qhb3IGBcVW+Af0wusLn6dgS16MwmQhi5O6CPUrdBF+LLTJelONxc="
+ }
+}

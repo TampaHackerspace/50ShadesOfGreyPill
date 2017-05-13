@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G8TZqhRPX8MZIXjar4DI5nB6f2ncyxn8X936O+AKBsJFPgHBMVw3tFsDi1cXjHgidFvjlnnkQV7nVBzY1ph8cVc=",
+ "cert_user_id": "mantenimentgna@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "6f817c620f698f494808c2574230b402eda4b7bff66e09c1aff280737e9a9198",
+   "size": 1481
+  },
+  "data.json": {
+   "sha512": "7446ff8de6ce6a6821373f8f9528d79044b31d4cf2e3881ebe9187a9fb688bb7",
+   "size": 4580
+  }
+ },
+ "inner_path": "data/users/1HZmZetWZyuDruPnusSbFFLh8bAmJBnwA6/content.json",
+ "modified": 1491038771,
+ "signs": {
+  "1HZmZetWZyuDruPnusSbFFLh8bAmJBnwA6": "HButlUC80bO3ukiiOyP3VCUZZIGw0YFU2EiSeQdFR6R3asXKUOwJJIhiOhLj2kWlTnMi1iBU4cdu+zSmoISwF/c="
+ }
+}

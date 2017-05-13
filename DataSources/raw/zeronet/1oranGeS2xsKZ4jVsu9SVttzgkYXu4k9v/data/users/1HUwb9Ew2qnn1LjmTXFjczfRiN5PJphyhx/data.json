@@ -1,0 +1,26 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "123as",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484393936,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "пробный комментарий :D",
+			"post_uri": "1CnetMi93ePccQhjUJcHjzD6e2DVRjWzqm_1484381325",
+			"date_added": 1484394076
+		}
+	],
+	"follow": []
+}

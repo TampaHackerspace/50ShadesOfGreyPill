@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HNdpfaFs6QtpnaYiEnDuxQ5fGrSP5wp78hx59Dv7WKOLiiDh0aGfz9yicaCsQvVN2W6aST+3Fkx6/44eiUT8GCU=",
+ "cert_user_id": "buddhistpunk@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d7869b9a1ae31a639dc3b5fd22f2d1c24716b888f52bbf02c9e9ae1c29fab623",
+   "size": 256
+  }
+ },
+ "inner_path": "data/users/12Zch2rTKPeMTfUdUUfxeFxYFptJYqLr85/content.json",
+ "modified": 1479405290.603,
+ "signs": {
+  "12Zch2rTKPeMTfUdUUfxeFxYFptJYqLr85": "HJHyZQcjUQCbkgebX6+qmuA4lewKAulBAB+1vZPgxza38gDxLLSBGRO8nhXc9ATZUq4BxOXNtGfvk06msAaJC7E="
+ }
+}

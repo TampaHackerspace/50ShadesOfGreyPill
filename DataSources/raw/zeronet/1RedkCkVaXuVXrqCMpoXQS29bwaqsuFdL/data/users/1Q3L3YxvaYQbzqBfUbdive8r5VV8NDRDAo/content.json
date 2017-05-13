@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HCxpLM2JqjUXVboQVl1EYncN8ZhYhcZ+mxfENbOfnDiblxe1yLIjBli/M+obhni13MKvmRpJKN5enSX/pnIuiP8=",
+ "cert_user_id": "ubuntu1@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "1bcb35e6784fd0cb0614ce11c18b6b64d16af60fe53ce349b780271c30f36a49",
+   "size": 5163
+  }
+ },
+ "inner_path": "data/users/1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo/content.json",
+ "modified": 1494394390,
+ "signs": {
+  "1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo": "HGshdEkeN0UibvKHBJhm3cbcTBbhC38fBnSTKRSmNCkhEw7IPJz+qEXglwGp+yNj6phrSP0nttOLVpUX+t3Yl/4="
+ }
+}

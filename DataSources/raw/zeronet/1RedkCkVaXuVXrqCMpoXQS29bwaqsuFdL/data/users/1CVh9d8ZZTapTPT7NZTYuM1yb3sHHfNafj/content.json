@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HKkBUneqNrw7Fhrjh5ruaBySBSf6mHzqZo3fbthqlZdeSMaCfHtWZ0MGr5hI2Nfg/kk0qb1h3C8ZzOlPQwe5H6M=",
+ "cert_user_id": "lexvore@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "93a4b806fea31634010d74a5eda960082ddd4f6aa98f161d62a98eb124aa74e7",
+   "size": 453
+  }
+ },
+ "inner_path": "data/users/1CVh9d8ZZTapTPT7NZTYuM1yb3sHHfNafj/content.json",
+ "modified": 1486314666,
+ "signs": {
+  "1CVh9d8ZZTapTPT7NZTYuM1yb3sHHfNafj": "HDouRrOan5HVRH8OQwETSfapRVuJ6XUhNH5AKLgFJtJkiVQIMaVuTFG/2zqJvuEdxC7edgiHDHsON0V4WVk/LVI="
+ }
+}

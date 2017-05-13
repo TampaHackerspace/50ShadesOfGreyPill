@@ -1,0 +1,31 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Zero proof",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1489140891,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1489140983,
+			"body": "Y'a t-il des français ici ?",
+			"date_added": 1489140981
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Shingen: Salut, j'habite en france (Nice) je test ZeroNet ça a l'air très sympa le concept ... en combinaison avec I2P ou TOR c'est une tuerie !",
+			"post_uri": "1H45Xxwf3SJSRtdZPFCT4SLS9wo3fZSHia_1489140983",
+			"date_added": 1489142014
+		}
+	],
+	"follow": []
+}

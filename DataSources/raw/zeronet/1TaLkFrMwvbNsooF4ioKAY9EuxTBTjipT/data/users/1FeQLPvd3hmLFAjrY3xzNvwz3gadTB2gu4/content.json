@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G/t3/GFeCsJau+nZzqoOs8KQOoMAxoC+JzpJuWM8oGoXcvPMahJD3DDZqCxmGvEhpkpJCFf5zYoioIyKmzmQJXY=",
+ "cert_user_id": "montana@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "619543031ce4546eacb6ab119a2e19d6df387f0a8bb068d9a1f277e2561993fd",
+   "size": 727
+  }
+ },
+ "inner_path": "data/users/1FeQLPvd3hmLFAjrY3xzNvwz3gadTB2gu4/content.json",
+ "modified": 1477345966.51157,
+ "signs": {
+  "1FeQLPvd3hmLFAjrY3xzNvwz3gadTB2gu4": "HN3DBpUIMAyT30pMEZxZI/y/h3G8lfaEZexlH17QWDKYWSLNM8BnOGx4OgzjsklbmaQIeyvILj76zWWZBLIjPU4="
+ }
+}

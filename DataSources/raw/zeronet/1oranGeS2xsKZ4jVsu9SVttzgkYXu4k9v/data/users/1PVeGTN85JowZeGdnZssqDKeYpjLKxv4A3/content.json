@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G6qbO9tOHN65rDnMHcKUSK4OrCsq0pysgJU/yzrWf5jjfuB5/L55Nn9yOtLBPudiy7tC0vVCcCKhG114nT7Aik4=",
+ "cert_user_id": "alucard001@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "2c8006b9226ff9b7bc152d443a1de7aa07c1e62c30bce3b6f4437ec8cd16d1af",
+   "size": 1377
+  },
+  "data.json": {
+   "sha512": "f453a53db037f677011ef9e8723556ba314c90407991515c5bfa7aae5c3213a7",
+   "size": 527
+  }
+ },
+ "inner_path": "data/users/1PVeGTN85JowZeGdnZssqDKeYpjLKxv4A3/content.json",
+ "modified": 1491020700,
+ "signs": {
+  "1PVeGTN85JowZeGdnZssqDKeYpjLKxv4A3": "GzWKF7RmdZT9wGQPvPBBnyMKOf7vCpSs38H49UBPCEU9wDuk5MufT63giHMpq1mxHrD1WHt8aE27D2U7rfiR2jU="
+ }
+}

@@ -1,0 +1,153 @@
+{
+	"next_topic_id": 31,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "ZeroTalk + Linux + Tor Error",
+			"body": "$ python zeronet.py &\nStarting ZeroNet...\n...\nTorManager Tor controller connect error: [Errno 111] Connection refused\n...\nUi.UiServer Web interface: http://127.0.0.1:43110/\n...\n\nI see into gedit src/Tor/TorManager.py and see\n....\nself.tor_exe = \"tools/tor/tor.exe\"\n....\nBut there isnt a tor.exe in Linux... Is that a Bug?",
+			"added": 1456990977
+		},
+		{
+			"topic_id": 2,
+			"title": "PLAY no me convence, Torrents en Clearnet",
+			"body": "Play puede ser un buen sitio (alternativo a TPB) y resistente a ataques de los defensores del Copyright. \n\nEl problema viene por el lado de los usuarios... si descargamos esos Torrents estaremos igual de indefensos ante ataques de esos idiotas.\n\nLa unica forma de descargar Torrents de forma anonima y privada es usando I2P.",
+			"added": 1456992288
+		},
+		{
+			"topic_id": 3,
+			"title": "Blogeando",
+			"body": "http://127.0.0.1:43110/15vXv74dDjPLUtCnA6m7vwcucRNtJfcEgp\nUn espacio exponiendo la otra realidad... ser anonimo y mantenerse es un derecho.",
+			"added": 1457197872
+		},
+		{
+			"topic_id": 4,
+			"title": "I2P",
+			"body": "How can I configure ZeroNet to run on I2P?",
+			"added": 1458239854
+		},
+		{
+			"topic_id": 5,
+			"title": "How can I find messages on Zer0Talk?",
+			"body": "I want to search a lot of messages about one Topics... How can i do it?",
+			"added": 1458573938
+		},
+		{
+			"topic_id": 6,
+			"title": "(es) Twister, Totalmente descentralizado",
+			"body": "Twister, una red de 140 caracteres descentralizada\n\nhttp://127.0.0.1:43110/procesos.bit/?Post:36",
+			"added": 1458643693
+		},
+		{
+			"topic_id": 7,
+			"title": "RetroShare una red F2F",
+			"body": "http://127.0.0.1:43110/procesos.bit/?Post:38",
+			"added": 1458725705
+		},
+		{
+			"topic_id": 25,
+			"title": "Zeronet en crisis?",
+			"body": "Ya hay opiniones que hablan de la lenta muerte de Zeronet porque los usuarios no encuentran lo que andan buscando.\n\nEn mi opinion, la sobrevivencia de ZN no depende en exclusiva de esos pocos usuarios, que tienen internalizada la cultura de ser simplemente clientes y que no son capaces de crear contenidos; sino del exito en crear espacios para el desarrollo.\n\nContinua en http://127.0.0.1:43110/procesos.bit/?Post:88",
+			"added": 1461648495
+		},
+		{
+			"topic_id": 26,
+			"title": "Pornografia, 007 con derecho a...",
+			"body": "Los derechos humanos y de los niños fueron declarados y aceptados por casi todos los paises (a excepcion de USA, que nunca los ha ratificado, asi como otros tantos tratados: los de no proliferacion de armas, ni el de Viena, ni el de armas nucleares, ni contra la tortura, ni el... etc, etc, etc y cual es el pais con mas centros clandestinos de tortura? adivinen)...\n\nhttp://127.0.0.1:43110/procesos.bit/?Post:102",
+			"added": 1461913207
+		},
+		{
+			"topic_id": 27,
+			"title": "Twister, P2P Microblogging Actual",
+			"body": "Twister se acaba de actualizar y recibir algunas interesantes novedades: URL-Shortener, soporte para WebTorrent, y varias correcciones de errores.\n\nhttp://127.0.0.1:43110/procesos.bit/?Post:108",
+			"added": 1462818696
+		},
+		{
+			"topic_id": 28,
+			"title": "Evitar efecto Freedom Hosting",
+			"body": "Todavia recuerdo el escandalo que significo la supuesta captura del administrador y la confiscacion de miles de webs onion.\n\nCual fue el error? http://127.0.0.1:43110/procesos.bit/?Post:110",
+			"added": 1462954524
+		},
+		{
+			"topic_id": 29,
+			"title": "Freenet, esa gran desconocida!",
+			"body": "procesos.bit/?Post:115\n\n\"De pronto la policia esta en la puerta de tu casa entrando a la fuerza y requizando tu computadora, y bingo... sin que tu jamas hallas visitado una pagina prohibida en Freenet, todavia asi encuentran fotos de pornografia!\"",
+			"added": 1466590707
+		},
+		{
+			"topic_id": 30,
+			"title": "Feed RSS and Zeronet",
+			"body": "Do you know an app or plugin for Zeronet to public news from other websites?",
+			"added": 1475266598
+		}
+	],
+	"topic_vote": {
+		"8_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": 1
+	},
+	"next_comment_id": 10,
+	"comment": {
+		"1_1GHF28rHoAH3fBV1W9sHwWBxNAur9RGXD5": [
+			{
+				"comment_id": 1,
+				"body": "Saludos desde la darknet I2P http://geti2p.net ... no solo privacidad, sino anonimo :-)",
+				"added": 1456990519
+			}
+		],
+		"1_1JHQA9oFkFpFFRiscyT4N71AKLWg46pQ92": [
+			{
+				"comment_id": 2,
+				"body": "I found the Answer...\n\nNo, I downloaded the Linux version, but both have very similar code.\n\nThe solution is:\n\n$ cd ~/directory/from/ZeroNet/\n$ proxychains tor -f tools/tor/torrc &\n$ python zeronet.py --tor always &\n\nI dont want to use the default port of Tor, then I use ProxyChains to change it (force).\n\nHopelly, ZeroNet will have support for I2P in the nearly futur!",
+				"added": 1457002732
+			}
+		],
+		"2_15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ": [
+			{
+				"comment_id": 3,
+				"body": "> [bowl](#comment_3_1PmQPsmpcuDvtjKQ6J9g2bH39w1TKAwGPr): privateinternetaccess.com\n\nPIA is very bad!",
+				"added": 1457028101
+			}
+		],
+		"2_1JHQA9oFkFpFFRiscyT4N71AKLWg46pQ92": [
+			{
+				"comment_id": 4,
+				"body": "Ni tribler, ni Deluge, ni una VPN te salvaran si descargas Torrents usando Trackers Abiertos (como PLAY o TPB)... solo usando trackers dentro de Tor (p.e. trackers.onion) o en I2P se puede ser anonimo.",
+				"added": 1457076611
+			}
+		],
+		"2_13vL6ARzDm7215jaRjFvAATfkxBriSnGmb": [
+			{
+				"comment_id": 5,
+				"body": "Hi. How did you do it? Do you have a Tutorial?",
+				"added": 1457103647
+			}
+		],
+		"1_1Dg5EwremnCBAkBQSVoXcL4Mp2eSUuCRvn": [
+			{
+				"comment_id": 6,
+				"body": "> [pabloserna](#comment_1_1C6de54CHt5yb6ujiXpdkHQG9if1dD282n): Vamos a ponernos las pilas para que haya contenido de calidad en castellano y otras lenguas españolas.\n\nhttp://127.0.0.1:43110/15vXv74dDjPLUtCnA6m7vwcucRNtJfcEgp",
+				"added": 1457197950
+			}
+		],
+		"4_1JHQA9oFkFpFFRiscyT4N71AKLWg46pQ92": [
+			{
+				"comment_id": 7,
+				"body": "> [pycole](#comment_80_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): Full I2p support seems to be planned, but there are some kinks to work out first (see the Github page).In the meantime, BOB (the Basic open Bridge) may be of use: It lets non i2p-aware applications communicate over i2p. That's probably not ideal (and might be too demanding on i2p's network), but nobody seems to have the 'best' way to do this just yet.\n\nDo you have any idea (tutorial) to configure Zeronet with BOB for I2P?",
+				"added": 1458563765
+			}
+		],
+		"3_1EbkgVAJKgrTeYAmF3FSEJ8dRabpWH87it": [
+			{
+				"comment_id": 8,
+				"body": "And why the fuck you use WinVirus or WinShit?\n\nWith Linux you are free as Freedom !!!",
+				"added": 1458643839
+			}
+		],
+		"2_1Frg5nFndHFkmUaaGK7Qr46dRLX8a2BhBT": [
+			{
+				"comment_id": 9,
+				"body": "Very interesting Tip... \n1. ZN shutdown, done...\n2. Multiple pluging activated, done...\n3. users.json moved, done...\n4. zeronet.conf edited, done...\n5. ZN re-started, done...\n6. New master-ID, done...\n7. zeroid.bit visited, done...\n8. new zeroid created, wrongh!!! error! doesnt work.\n\nWhere could be the problem? Is there logs-file, where I can look for the error?",
+				"added": 1461743282
+			}
+		]
+	},
+	"comment_vote": {}
+}

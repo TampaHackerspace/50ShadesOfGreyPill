@@ -1,0 +1,85 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Hello everyone",
+			"body": "I have a question,What are the fun sites for zeronet?",
+			"added": 1490372232
+		},
+		{
+			"topic_id": 2,
+			"title": "how can i delete zeroid?",
+			"body": "RT",
+			"added": 1494226424
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 10,
+	"comment": {
+		"1_1BG8WrV2VY1bNjQiKR4tcL52FAw6Y6BoJ8": [
+			{
+				"comment_id": 1,
+				"body": "> [p2p](#comment_178_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 我找到了原文：https://leonax.net/p/8267/zeronet-will-be-the-next-failure/以下是我在那篇文章的回复，转到这里：\n> 本文槽点非常多，论据有问题，论证逻辑也不严密。不完全分析如下：\n> \n> 文中说比特币核心开发者宣称比特币失败（核心这两个字是链接，比特币不是链接，怎么断句不用我说了吧）。这也不能全怪你，这是典型国内编辑无知导致的翻译不准确。英文原文是Bitcoin Core developer，Bitcoin Core是个专有名词，应该翻译为比特币内核开发者。那些国内编辑本身对英文原文就理解错误，谈何翻译？事实上那个宣称比特币失败的人在Bitcoin Core的开发team里是个小角色，不信可以去google。但翻译成比特币核心开发者，意思大不同，毒害了不少人。\n> 国内比特币交易所现货交易基本上都是免手续费的，而国外的基本上都是收手续费的。忽略了这个关键点，就说“90% 以上的交易量发生在中国的比特币市场，足以证明一个“分布式”项目的失败”，有失偏颇吧\n> 你说“没有商业公司支持的项目，不可能胜过一个有商业背景的项目”，并以你之前的博文论述的Linux平台和Windows平台向后兼容性做论据： https://leonax.net/p/6697/open-source-software-without-commercial-support-is-a-joke/你用从 Windows 95 到 Windows 8 都能玩 DOOM 2来说明Windows向后兼容性好，未免有点以偏概全了吧。君不见有很多经典的行业软件因为不更新了，只能运行在XP下，M$为了让这些用户能升级到Win7，搞了个XP Mode的虚拟机出来，以半内置的方式放在Win7里。连M$自己都承认了Windows向后兼容性不行，怎么以此说明有商业背景的项目比没有商业公司支持的项目好？\n> 迅雷离线下载能没有审查么？你懂的视频都能下载么？百度网盘8秒听说过吧\n> 终于谈到ZeroNet了。5.1 你的存储空间估算方法非常有问题。根据二八原理，大概20%的资源是热门资源，剩下80%访问人数很少，甚至无人访问。google这样的公司并没有过期机制，100%地保存了所有资源，所以数据量很大。而ZeroNet就像Bittorrent一样，有个自然的优胜劣汰机制，所以实际需要的存储空间远小于你的估计值。同理，大量冷门资源的冗余也达不到1000（也没有达到1000的必要），使得实际需要的存储空间更小。5.2 你的成本估算方法也有问题。用户的硬盘不是专门为了ZeroNet买的，本来就有硬盘，只是用空余空间来存储并贡献，这个成本当然不能以整块硬盘的价格来计算。实际上，用户付出的成本几乎是为零的。（我是看到了有人把你的博文转贴到ZeroNet内部论坛，才google到你这的。不好意思来砸了你的场子。我以上写的会回复到ZeroNet内部论坛对应转贴中，就算你不爽把我在你博客的帖子删了，也有个备份。顺便说一下，抗审查抗删帖是去中心化的ZeroNet一个非常大的优点，你博文里没有提及，我感到很遗憾）\n\n6的不行，评论区我就服你！",
+				"added": 1482742095
+			}
+		],
+		"1_1NUFQJjEvnNe2MWwvxBXwwX6UfkDJf9kJ": [
+			{
+				"comment_id": 2,
+				"body": "神经病吧你",
+				"added": 1483205825
+			}
+		],
+		"3_15uGmuKWTYg2PmfPYNXCNM4DXnHhXswZtc": [
+			{
+				"comment_id": 3,
+				"body": ":)",
+				"added": 1490371987
+			}
+		],
+		"1_1FaKUqa1nMyNwEpKXvb8o8uvZSpr3jXpNT": [
+			{
+				"comment_id": 4,
+				"body": "> [ivesen](#comment_1_1NmkVyqBJX6a82YQFYkCNgQpE9AWsmeppp): giftime is pretty cool I guesshttp://127.0.0.1:43110/1Gif7PqWTzVWDQ42Mo7np3zXmGAo3DXc7h/\n> if you're looking for something specific we have a few of search engineshttp://127.0.0.1:43110/kaffiene.bit/http://127.0.0.1:43110/zerosearch.bit\n> 0list is nice if you want to just browse and find stuffhttp://127.0.0.1:43110/0list.bit/\n> personally I like to just browse 0list and see what kind of random shit I can find\n\nThank you ivesen\nThe last update is 2016 for giftime ,why  not new gif?",
+				"added": 1490374912
+			},
+			{
+				"comment_id": 5,
+				"body": "> [ivesen](#comment_2_1NmkVyqBJX6a82YQFYkCNgQpE9AWsmeppp): that's for r/DevopsReactions, if you look in the top left you'll see there are two more sections, r/Gifs was updated a couple of hours ago!\n\nGet it!Thank~",
+				"added": 1490376078
+			}
+		],
+		"1_1ARvJH7KjUo8xQyGuHiz8RwbNQ7R4tyDB5": [
+			{
+				"comment_id": 6,
+				"body": "中文内容，请移步中文论坛：http://127.0.0.1:43110/NewGFWTalk.bit",
+				"added": 1490527630
+			}
+		],
+		"1_1PHqzPhNctAHuhB4TNC3vyHAw9qtaUpmrs": [
+			{
+				"comment_id": 7,
+				"body": "中文内容，请移步中文论坛：http://127.0.0.1:43110/NewGFWTalk.bit",
+				"added": 1490527651
+			}
+		],
+		"1_191YUcBpkK35i9mzAJG66cubAXSxVLdrwS": [
+			{
+				"comment_id": 8,
+				"body": "？？？",
+				"added": 1494014536
+			}
+		],
+		"2_1FaKUqa1nMyNwEpKXvb8o8uvZSpr3jXpNT": [
+			{
+				"comment_id": 9,
+				"body": "> [kaffie](#comment_300_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): You cannot. A ZeroID is just a public/private key combination mapped to a username and given a signed certificate by the ZeroID site (which currently has a private backend). To delete your public/private key, just delete your users.json file, or remove the relevant entries. At the moment you're unable to remove the mapping to the name, though you may be able to get @nofish to help with that. I doubt he will though, as it hasn't been done before. [...]\n\nthk kaffie",
+				"added": 1494227038
+			}
+		]
+	},
+	"comment_vote": {
+		"3_1FaKUqa1nMyNwEpKXvb8o8uvZSpr3jXpNT": 1
+	}
+}

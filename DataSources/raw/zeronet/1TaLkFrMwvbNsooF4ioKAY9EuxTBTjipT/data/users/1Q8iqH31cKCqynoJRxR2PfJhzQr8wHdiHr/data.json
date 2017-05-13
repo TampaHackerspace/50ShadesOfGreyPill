@@ -1,0 +1,231 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "The amount of Play peers",
+			"body": "If find it quite funny that the Torrent site [Play](http://127.0.0.1:43110/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp) currently has more peers than ZeroTalk, though I'd like for ZeroNet to be known for something else than hosting torrents",
+			"added": 1456871308
+		}
+	],
+	"topic_vote": {
+		"1_12SuCFUNDaMYRHG9DsWCyCN1NgHGjddwSJ": 1,
+		"1_14tJBPnxcrF9kMK5v7DULWnaJx3JepirXb": 1,
+		"1_1Q8iqH31cKCqynoJRxR2PfJhzQr8wHdiHr": 1,
+		"1_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"2_17PhTjw3o2wPhxyKeM3Ss975eWZ1UMsjQC": 1,
+		"1_16SHqxwSkfr3HFnhAq4AxsZ9TaoLzpPmGu": 1,
+		"1_17oYQdLkvyzEVPH3hXRtK3ru4FLNKZUD3b": 1,
+		"2_1674XymFPbmAXh78xEpt3Pehtko6i2kvtA": 1
+	},
+	"next_comment_id": 25,
+	"comment": {
+		"2_13KqD3BoaRMudEG5QU2fnGLkSVx8qDXKof": [
+			{
+				"comment_id": 1,
+				"body": "> [ow](#comment_5_13KqD3BoaRMudEG5QU2fnGLkSVx8qDXKof): Yeah, Java is pretty bloated. The sleeker I2pd (C++) implementation is working, but it is probably not ready for integration alongside another project. \n> Tor is not currently bundled with ZeroNet, is it? I built from github and do not remember seeing anything about Tor in the build process.\n\nI think Tor is bundled in the precompiled windows bundle, but I'm not sure",
+				"added": 1454775074
+			}
+		],
+		"6_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": [
+			{
+				"comment_id": 2,
+				"body": "I don't know how you would run it on mobile without a lot of work, but I run zeronet.py with --ui_ip 0.0.0.0 so I can access it using the computers ip. This only works for your local network though. You could portforward your router to your computer, but if anyone knew your ip they could use your identity. You could set up a VPN to your network and therefore not have problems with your identity being used. \nAnyway, have fun tinkering around :)\nSending this from my phone btw",
+				"added": 1454855406
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 3,
+				"body": "> [kasthuri](#comment_10_1BBKD8mSqtGDaK5GQ5Q6A6mLhpc8xrgW97): as my knowledge i m using internet to know the unknown things and to clarify the doubts and all ,,,in zero net we dont have such options since it is decentralized ...then what is the use of it ...\n\nremoving censorship and allowing for cheap publication of information. In the current model of the Internet websites can get taken down pretty easily if for example the local government disagrees with the views expressed on that site.\n\nThere is also cost involved in keeping a server running, which means not everybody can publish the information they want(They could post on other websites, but if the website owners/government disagree it could get taken down).\n\nIn the future you might be able to search the ZeroNet like you do the Internet now, in the mean time there is: http://127.0.0.1:43110/zerosearch.bit",
+				"added": 1454881658
+			}
+		],
+		"10_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 4,
+				"body": "> [zozon](#comment_54_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55): how that would work?\n\nI don't really know, but a user wanting to create a \"Subreddit\" could ask the website owner to add his \"Subreddit\" similar to how comments are handled now. It's not merging in the literal sense but I think it could work like that.",
+				"added": 1454959554
+			}
+		],
+		"3_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": [
+			{
+				"comment_id": 5,
+				"body": "Created my Blog today: http://127.0.0.1:43110/13x71nc7fju6afMqpEPfcu3Gx9Z5hNhH48\nUsing a custom Address(notice my nickname in the address; Check my Blog In a few days for a tutorial ;)    ). I will be posting pretty much everything, but mostly programming etc.",
+				"added": 1456525209
+			}
+		],
+		"1_15TvXKjFRmekdNpMEM5aTzTGxPP8QaGtG4": [
+			{
+				"comment_id": 6,
+				"body": "test",
+				"added": 1456778692
+			}
+		],
+		"1_1EUyJtat7mbu5wMcR6nrJTPBBRons1mtMA": [
+			{
+				"comment_id": 7,
+				"body": "I think it was about a half year ago somewhere on reddit. I only really started using it ~3 weeks ago, though.",
+				"added": 1456870726
+			}
+		],
+		"1_1Q8iqH31cKCqynoJRxR2PfJhzQr8wHdiHr": [
+			{
+				"comment_id": 8,
+				"body": "> [kad](#comment_1_19K8YrrmPZKnHCWzSm7j8K1Rfvkx3cnfdm): http://127.0.0.1:43110/192dZ1EG5tU7PnCfuwGMDEBrr2eLqvs4t3/ 0torrent.bit accept user submitted torrents, Play does not. :<\nTo be fair, Play looks better and that's what attracts attention.\n\n> [muja](#comment_42_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr): How many peers are you seeing for Play?\nI see 162 for Play and 152 for ZeroTalk.",
+				"added": 1456872696
+			},
+			{
+				"comment_id": 9,
+				"body": "> [kad](#comment_6_19K8YrrmPZKnHCWzSm7j8K1Rfvkx3cnfdm): IT'S GROWING :DDDDDDDDDD\n\nI'm generally surprised by all the traffic going through ZeroNet right now, haven't seen log so active yet. My poor Internet :)",
+				"added": 1456873156
+			}
+		],
+		"27_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 10,
+				"body": "Tor uses quite a bit of cpu power when dealing with many connections. I think right now there is a lot of activity and therefore a lot for tor to encrypt/decrypt",
+				"added": 1456875350
+			}
+		],
+		"1_1DfkDpkeDXGbHJ2ZT31DPvYr5xR59Jr8BA": [
+			{
+				"comment_id": 11,
+				"body": "run zeronet with the --ui_ip 0.0.0.0 flag.\nOn Linux that would be ```python zeronet.py --ui_ip 0.0.0.0```\nOn Windows it would probably be best to edit the .cmd file",
+				"added": 1456930567
+			}
+		],
+		"1_15EnNiQcFsavvvm7WHt7SCjCv4vV6Gyu7z": [
+			{
+				"comment_id": 12,
+				"body": "Not that i know of. With ZeroNet there is pretty much no shortage of seeders, because many people happily seed, as it is not illegal unlike certain torrents",
+				"added": 1456934040
+			}
+		],
+		"1_1GCsW9TFfjDsvcdmKPADq1n8Q3ha72UtDQ": [
+			{
+				"comment_id": 13,
+				"body": "> [dafleroh](#comment_4_19KtmLJftUcLg5ZtwmAfe616J2vp6iJBHU): Nobody. Thats whats great about this platform. If I create a market platform and release it on here I am not liable for what is done with it. I am not hosting it, or allowing it to run. There is no one to hold liable for creating such a platform.\n\nThat's not entirely true. From the laws perspective everyone visiting(and therefore hosting) the site is liable. The main liability is at the creators end, because he has the private key and could remove illegal content.",
+				"added": 1456945425
+			},
+			{
+				"comment_id": 15,
+				"body": "> [dafleroh](#comment_5_19KtmLJftUcLg5ZtwmAfe616J2vp6iJBHU): Ugh, its so trivial. I do not think there is a right answer, its speculative. If I create and upload a market platform with no visible intent for illegal use, can I still get in trouble? All I did was create a market source code, I do not host or maintain it. I just threw it out and let people do what they want with it. You cannot be prosecuted. Especially if the owner \"throws away\" the key to edit the site. Now, you could say that those hosting are responsible, but that's not realistically prosecutable. As I said, I think this is so out-there we will have to wait and see what happens.. I hope the platform catches on, though.  noiamo: Agreed\n\nThe most similar case I can think of right now is the pirate bay. All they did is host a torrent site, with no intention for it being used illegally, yet they still landed in court.",
+				"added": 1457028781
+			}
+		],
+		"2_15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ": [
+			{
+				"comment_id": 14,
+				"body": "> [bowl](#comment_2_1PmQPsmpcuDvtjKQ6J9g2bH39w1TKAwGPr): so far i've only gotten tor and PIA to work with ZN.\nwhat is PIA?",
+				"added": 1456958673
+			}
+		],
+		"1_1CGidpguPpSkqbX3c19P5NUtipRzLJenX": [
+			{
+				"comment_id": 16,
+				"body": "I think most people just clone ZeroBlog and post their pictures there, but if you have a lot of large files people might choose not to seed your site because it gets to big. I don't really know how to tackle that problem, but [hashtag_trashbag](http://127.0.0.1:43110/1HzKesHsWG3N96CfW9eC2aL9VKY7EDm2Zj) tried out .webp files a while ago. They are smaller than .jpg files with comparable quality loss. The drawback here is that .webp only works in google chrome, but you could use[webpJS](https://webpjs.appspot.com/) to add support for other browsers through javascript. This requires some programming experience, though. I might look into figuring out how to do it and post a tutorial on my [Blog](http://127.0.0.1:43110/13x71nc7fju6afMqpEPfcu3Gx9Z5hNhH48).",
+				"added": 1457030295
+			},
+			{
+				"comment_id": 17,
+				"body": "> [apoapostolov](#comment_1_1CGidpguPpSkqbX3c19P5NUtipRzLJenX): Even with ZeroBlog, I have to manually add images in the folder of my site, then link it in a post? Looks like there's huge niche for a gallery app that handles image uploads and is clone-able.\n\nI guess one could write a program that automatically adds all your images to the right folder and links them to your page.(Probably easier on Linux than on Windows) Again, I might look into it if i find the time.",
+				"added": 1457031163
+			},
+			{
+				"comment_id": 18,
+				"body": "> [lukipuki](#comment_10_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8): Hey I would love that! (btw cool to see my blog mentioned here :) )I actually saw a similar thing but with .flif (free lossless image format) which is even better than webp. that could be cool.I looked into the js/all.js file in my folder and it is really difficult to figure something out. I also don't have any real experience with programming...\n\nJust did some tests with webpjs and it sadly seems it wont work for ZeroBlog sites. This is because the script looks at all the img tags and, if they are webp files, converts them. ZeroBlog has a script create the html from the data.json file, so webjs is unable to the tags. \nSites that don't use a script to create the html should work though.",
+				"added": 1457044051
+			}
+		],
+		"1_17oYQdLkvyzEVPH3hXRtK3ru4FLNKZUD3b": [
+			{
+				"comment_id": 19,
+				"body": "I would like to have a button with which I can add the current zeronet site to a blacklist and delete all its content on my harddrive. If I ever tried to visit that site again a warning would pop up and ask if i really want to open that site.\n\nRight now it's kind of a hassle to find the site on ZeroHello and delete it and will only get harder in the future, when the number of zeronet sites increases.\n\nYou could then also have zeronet sites where people can list illegal zeronet sites, so others can add them to their blacklists",
+				"added": 1457274020
+			}
+		],
+		"1_1MtAfPUXCiZYVLjjUjBWmmYGzZ6j3aQYfG": [
+			{
+				"comment_id": 20,
+				"body": "Well, first off you are a peer right now. once you visit a site you start seeding it.\nSecondly you can use Tor to gain anonymity. If you are using the ZeroBundle it should be preconfigured.",
+				"added": 1457298590
+			}
+		],
+		"7_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": [
+			{
+				"comment_id": 21,
+				"body": "> [scrub](#comment_68_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R): I think one way to deal with this is to allow a website owner to grant others they trust to help delete that kind of content from their site. I don't know if a website owner can remove any content their users put onto it, but if they can't, I think they should be able to. \n> So yeah, I support self-censorship, not governmental censorship etc.\n\nI agree that at least imageboards like 0chan should have moderators who delete **illegal** content, not content they disagree with it. And there shouldn't be to many, maybe 3-4 around the globe. They also should be known in the community, so there is a certain level of trust.",
+				"added": 1457298870
+			},
+			{
+				"comment_id": 22,
+				"body": "> [cannonfodder](#comment_17_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg): What's illegal? Do you mean illegal in the country where it's hosted? In ZeroNet it's hosted everywhere. Do you mean by the union of all laws that ZeroNet is hosted in? If so, that includes countries with very strict laws. Gif Time would be illegal.\n\nI meant content that is illegal internationally, child porn for example. Thats pretty much the only type of content i can think of right now. Everything else is fine i think.",
+				"added": 1457300707
+			}
+		],
+		"1_1L6xF49cuRomTe1Dae675yqRHgH8JsFsZf": [
+			{
+				"comment_id": 23,
+				"body": "> [sandtrpi](#comment_3_1L6xF49cuRomTe1Dae675yqRHgH8JsFsZf): Because the IP into the site that you say me,show my real IP address.\n\nIf you don't use Tor to connect to ZeroNet, your \"real\" IP is used. ZeroNet does NOT make anonymous.",
+				"added": 1458475942
+			}
+		],
+		"3_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": [
+			{
+				"comment_id": 24,
+				"body": "Though I am not 100% certain, I don't think it will work, as everyone else in the network would try to interpret your certificate as an RSA certificate and therefore think it's invalid",
+				"added": 1467373478
+			}
+		]
+	},
+	"comment_vote": {
+		"25_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"45_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"6_19K8YrrmPZKnHCWzSm7j8K1Rfvkx3cnfdm": 1,
+		"7_19K8YrrmPZKnHCWzSm7j8K1Rfvkx3cnfdm": 1,
+		"1_19KtmLJftUcLg5ZtwmAfe616J2vp6iJBHU": 1,
+		"1_1NZ4KfxSXotoN5b1Y8YyKPJJNmoaBg5zYo": 1,
+		"56_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"1_1KDGdLBa6JmXLrFvM2upw7KZDXkouJz5w4": 1,
+		"5_13zsigUYso1gENPWyPd66wVACoF32W4Mnq": 1,
+		"3_1HSBkju9y9tQrpph3yKgcdzxM6pnkvgmNy": 1,
+		"2_1D7uESYtAKV36MVPGJZXuE7LUKbLwfo4dX": 1,
+		"7_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"13_14tJBPnxcrF9kMK5v7DULWnaJx3JepirXb": 1,
+		"74_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"77_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"18_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"16_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg": 1,
+		"442_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"60_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"48_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": 1,
+		"88_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"68_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R": 1,
+		"450_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"18_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg": 1,
+		"15_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"16_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"17_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"19_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"20_12SuCFUNDaMYRHG9DsWCyCN1NgHGjddwSJ": 1,
+		"8_1DfkDpkeDXGbHJ2ZT31DPvYr5xR59Jr8BA": 1,
+		"6_1JA2umSc9f7VSNLaYLs1Cpk7rpvS4p18xe": 1,
+		"56_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"13_1GNdkBSxTw6SpRdGHxDCyfANXnwi7FG7rJ": 1,
+		"36_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"11_1BidR2Pw65fTPeh1R3LbwCdfEJUPB6FLes": 1,
+		"44_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"46_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"45_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"557_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"5_15YUzYgogtiHYqXP5HXtdLS2dLZuxnvuRQ": 1,
+		"51_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"51_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"37_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"2_1LrJ9rZg2Mk2uK8MyPx42iWPEHTLKXzxVn": 1,
+		"43_18id3A8UHCU9RmkVBeBhsDrnPf27hQXdS1": 1,
+		"12_1L6pjaEajyF4kYhT5AXeJKUnUuSR5oGKrE": 1,
+		"24_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV": 1
+	}
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HEOtDs1zm/Ips4FvY8k0Try+FCM6qm7qZolQuTmNWOZkjfypkQuGBGl1y9E6ZZxmBPAl70XjlxVtqI9bkQS4BW8=",
+ "cert_user_id": "blackviking@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "6ca882ddec71364b6b01f36196c332216490d883f7a647c6e2a9994ebde2c65c",
+   "size": 400
+  }
+ },
+ "inner_path": "data/users/1N9N4ztGaqF1yX2sML4wQ48ZAH29rzSMwc/content.json",
+ "modified": 1492072741,
+ "signs": {
+  "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT": "G4E8k4HrDaW9hK9GDJylmoLz62P8ulRY+m0yr4qghUojD2Blig+IkyRFJZQ89iMvnsFv7/otLI6N2kqANVLA2k4="
+ }
+}

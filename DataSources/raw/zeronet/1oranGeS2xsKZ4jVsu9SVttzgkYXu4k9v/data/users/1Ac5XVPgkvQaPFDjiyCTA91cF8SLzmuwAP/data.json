@@ -1,0 +1,323 @@
+{
+	"next_post_id": 17,
+	"next_comment_id": 39,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Bili",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "新 ZeroNet 用户",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1488962947,
+			"body": "你好 ZeroMe!"
+		},
+		{
+			"post_id": 1488964177,
+			"body": "又困又冷\n",
+			"date_added": 1488964175
+		},
+		{
+			"post_id": 1488964209,
+			"body": "Liked  变成收藏功能了e\n",
+			"date_added": 1488964206
+		},
+		{
+			"post_id": 1489018041,
+			"body": "现在安装的chrome  。。。。打开youku 说 flash不是最新版  ，。。。。播放不了。。。我去。。。然后去下载flash插件才可以。。。flash不安全的锅  谷歌不背",
+			"date_added": 1489018037
+		},
+		{
+			"post_id": 1489048954,
+			"body": "看了下 freenet  没有类似 Zero me的功能。。。没什么人用。。。",
+			"date_added": 1489048949
+		},
+		{
+			"post_id": 1489051523,
+			"body": "建议zeronet 有个 选项  不连接没加密的节点 http://127.0.0.1:43110/Stats",
+			"date_added": 1489051517,
+			"meta": "{\"img\":\"900,660,ededddeeefffccd,0122222222211122222221212112122101222222222232222222233333334133202223\"}"
+		},
+		{
+			"post_id": 1489123999,
+			"body": "ZeroNet的作者获邀请在4月的TED大会上演讲！ 。需要大家的帮助：请分享你的想法/想法/故事：\n\n为什么去中心对你很重要？\n\n当前的互联网有什么坏处？\n\n你为什么使用ZeroNet？\nhttp://127.0.0.1:43110/Blog.ZeroNetwork.bit/  ",
+			"date_added": 1489123992,
+			"meta": "{\"img\":\"900,677,001111212102434545645532313323634003311911611413,0012201111334567547438945A4467283BCDC399222CEECBBB111CFC113B12201BBBB00330000000\"}"
+		},
+		{
+			"post_id": 1489124900,
+			"body": " https://ted2017.ted.com/program 帅",
+			"date_added": 1489124892,
+			"meta": "{\"img\":\"857,700,c8b9a8b9ad7cd8c8c87c85a7bdedeecde49c6ad8bdfffeee,012343333356655557778889AA9BCBAA8988ABDBEEEEEEEEEEEEEEEFEEEEFFFFFFFFFFFFFFFFFFEE\"}"
+		},
+		{
+			"post_id": 1489137579,
+			"body": "zeronet 的作者 怎么不把 zeromux内置到 zeronet中呢？？ 不是挺好的啊\n",
+			"date_added": 1489137567
+		},
+		{
+			"post_id": 1489197461,
+			"body": "怎么克隆 呱啦啦 的视频 博客 然后在自己的博客发视频贴\n先自己建站点 然后把自己的站点用别人的节点访问下\n视频教程  https://www.youtube.com/watch?v=TDQfTtdMB5k\n\nzeronet上的视频地址 \n\nhttp://127.0.0.1:43110/1EYXRadbHmRhqfoFkbFcuu9RJymwcDFQSd/?type=video/mp4&json=files/h.mp4/file.json&poster=files/h.mp4/poster.jpg\n\n\n\n教程在这\n\nhttp://127.0.0.1:43110/NewGFWTalk.bit/?Topic:18_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/\n\n然后打开这个 呱啦啦 的站点\nhttp://127.0.0.1:43110/1MjzGw2HQRpJuiuX2U1Gr2PpNPz3rKXCJ\n然后去 你的zeronet的安装目录中找这个地址\n\n\\ZeroNet\\data\\1MjzGw2HQRpJuiuX2U1Gr2PpNPz3rKXCJ\n\n关闭zeronet 把网络也断开\n\n把自己的站点 在 zeronet date 比特币地址 的文件夹打开\n\n类似于上面 呱啦啦的文件夹\n\n把自己站点文件夹中的东西都删除 把 这个文件夹中的东西\n\n\\ZeroNet\\data\\1MjzGw2HQRpJuiuX2U1Gr2PpNPz3rKXCJ 都复制到你自己的站点的文件夹中\n\n签名下 然后 add new post 右上角的0往右拖拽 下面 勾下 这是我的站点\n\n然后下载python 软件\n\nhttps://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi\n\n安装。。\n\n然后下载zeromux的zip\n\nhttp://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/big/bundle/\n\n解压 运行 wizard.py\n\n在 http://127.0.0.1:18905 upload mp4文件。。\n\n成功后\n在 zeromux的解压 目录下面的 \\ZeroMux\\loader\\files 中把 x.mp4的文件夹 复制到\n\n你的站点文件夹中的 file文件夹中\n\n然后启动zeronet 先别打开网络连接\n\n编辑你的帖子内容\n\n把这段代码中的 hafo.mp4 替换成你自己的视频文件名称\n\n然后保存 签名\n\n打开网络连接\n\n重启下zeronet\n\n有连接就发布\n\n没成功 10分钟再发布。。。\n\n签名成功 在关闭zeronet\n\n没成功再重启\n\n成功后 用别人的节点 访问下你的站点 播放下  ",
+			"date_added": 1489197447
+		},
+		{
+			"post_id": 1492236975,
+			"body": "下午 困啊 头疼",
+			"date_added": 1492236960
+		},
+		{
+			"post_id": 1492237409,
+			"body": "我昨天晚上21点 用 zeronet的代理给我的视频文件做种 速度很快。。。现在14点  很忙。。。。国际出口高峰\n",
+			"date_added": 1492237393
+		}
+	],
+	"post_like": {
+		"1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo_1492176060": 1492237315
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@大家一起p2p:  nice",
+			"post_uri": "17z1L6L8fCS8QWnX3jYUoMGv3MGdyGmLtj_1",
+			"date_added": 1488962972
+		},
+		{
+			"comment_id": 2,
+			"body": "欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了",
+			"post_uri": "17z1L6L8fCS8QWnX3jYUoMGv3MGdyGmLtj_1",
+			"date_added": 1488964656
+		},
+		{
+			"comment_id": 3,
+			"body": "@Aom: 就是可以单独看你like过得帖子了",
+			"post_uri": "1Ac5XVPgkvQaPFDjiyCTA91cF8SLzmuwAP_1488964209",
+			"date_added": 1488970895
+		},
+		{
+			"comment_id": 4,
+			"body": "消灭0回复",
+			"post_uri": "1N2eNZ5w1dpoBcwatsSuTaeNzHgSLjyrpU_1488982181",
+			"date_added": 1489018919
+		},
+		{
+			"comment_id": 5,
+			"body": "然后又说  反恐需要////、",
+			"post_uri": "1GDC9WtGFWbdtKm4so8dsfbHeUrPaUbGPd_1489031802",
+			"date_added": 1489032911
+		},
+		{
+			"comment_id": 6,
+			"body": "欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了",
+			"post_uri": "1KLJdpErCrsngMhssESXvMJygYyEbw74fQ_1",
+			"date_added": 1489047929
+		},
+		{
+			"comment_id": 7,
+			"body": "http://127.0.0.1:43110/NewGFWTalk.bit/?Topic:18_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/ 教程",
+			"post_uri": "1Q2hx8UhNcBniBNEs8E44aQMP4RyswUKcQ_1489042422",
+			"date_added": 1489048048
+		},
+		{
+			"comment_id": 8,
+			"body": "\n欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了",
+			"post_uri": "16hDf5ydYyPQLRDPY2A2477YFRmFRdmQbk_1",
+			"date_added": 1489048958
+		},
+		{
+			"comment_id": 9,
+			"body": "谷歌翻译",
+			"post_uri": "1N2eNZ5w1dpoBcwatsSuTaeNzHgSLjyrpU_1489050622",
+			"date_added": 1489050617
+		},
+		{
+			"comment_id": 10,
+			"body": "@大家一起p2p:     AI啊",
+			"post_uri": "1N2eNZ5w1dpoBcwatsSuTaeNzHgSLjyrpU_1489050622",
+			"date_added": 1489051262
+		},
+		{
+			"comment_id": 11,
+			"body": "\n欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了",
+			"post_uri": "1Fg3YU1sXbok1WUCn68sp9wM7GyvEijAsX_1",
+			"date_added": 1489051274
+		},
+		{
+			"comment_id": 12,
+			"body": "就是这样用的",
+			"post_uri": "1Fg3YU1sXbok1WUCn68sp9wM7GyvEijAsX_1489051595",
+			"date_added": 1489051528
+		},
+		{
+			"comment_id": 13,
+			"body": "\n欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了",
+			"post_uri": "1EnoCH3SrvLrcneVRZrhw3PJrfUUWEJ2c2_1",
+			"date_added": 1489055543
+		},
+		{
+			"comment_id": 14,
+			"body": "@大家一起p2p: 回复你博客里",
+			"post_uri": "1N2eNZ5w1dpoBcwatsSuTaeNzHgSLjyrpU_1489050622",
+			"date_added": 1489055828
+		},
+		{
+			"comment_id": 15,
+			"body": "\n欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了    中文 导航网址 http://127.0.0.1:43110/0cnguide.bit/",
+			"post_uri": "14ksvKnvk6ikJ113PtNfewF3hv7yTesiWR_1489061368",
+			"date_added": 1489061266
+		},
+		{
+			"comment_id": 16,
+			"body": "洗脑的结果",
+			"post_uri": "14ksvKnvk6ikJ113PtNfewF3hv7yTesiWR_1489061415",
+			"date_added": 1489061316
+		},
+		{
+			"comment_id": 17,
+			"body": "\n欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了 中文 导航网址 http://127.0.0.1:43110/0cnguide.bit/",
+			"post_uri": "16QrQKbuTxebyXcfBqPcACQt44PSrWxEhP_1",
+			"date_added": 1489062347
+		},
+		{
+			"comment_id": 18,
+			"body": "\n欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了 中文 导航网址 http://127.0.0.1:43110/0cnguide.bit/",
+			"post_uri": "1JpWmfyZFm8k2BYTCvUNTzAmrDhkHjKRKT_1",
+			"date_added": 1489062351
+		},
+		{
+			"comment_id": 19,
+			"body": "\n欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了 中文 导航网址 http://127.0.0.1:43110/0cnguide.bit/",
+			"post_uri": "1E2MMoxCY1ryBQEJaVYRbwnRW5ow1E3TCU_1489061521",
+			"date_added": 1489062356
+		},
+		{
+			"comment_id": 20,
+			"body": "暴露了年龄？？？",
+			"post_uri": "14ksvKnvk6ikJ113PtNfewF3hv7yTesiWR_1489062097",
+			"date_added": 1489062376
+		},
+		{
+			"comment_id": 21,
+			"body": "\n欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了 中文 导航网址 http://127.0.0.1:43110/0cnguide.bit/",
+			"post_uri": "16YUUTYwTEZxyghB9hEcvdekwp2Zyntx64_1",
+			"date_added": 1489105462
+		},
+		{
+			"comment_id": 22,
+			"body": "\n欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了 中文 导航网址 http://127.0.0.1:43110/0cnguide.bit/",
+			"post_uri": "1By5b1uj4urxDosWeFBftj1n2DWrZEUcDe_1",
+			"date_added": 1489105471
+		},
+		{
+			"comment_id": 23,
+			"body": "\n欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了 中文 导航网址 http://127.0.0.1:43110/0cnguide.bit/",
+			"post_uri": "1C7UPs56iXCuRMQvRSRa2TUyNJPTfNhAw6_1",
+			"date_added": 1489105477
+		},
+		{
+			"comment_id": 24,
+			"body": "yes",
+			"post_uri": "1ERTo8mDkS9qaC3WHV4mXU8f2iTEErbcDq_1489134503",
+			"date_added": 1489134703
+		},
+		{
+			"comment_id": 25,
+			"body": "@Dray: 你 听听",
+			"post_uri": "1Ac5XVPgkvQaPFDjiyCTA91cF8SLzmuwAP_1489133064",
+			"date_added": 1489136440
+		},
+		{
+			"comment_id": 26,
+			"body": "\n欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了 中文 导航网址 http://127.0.0.1:43110/0cnguide.bit/",
+			"post_uri": "14GBpMrCEtexuQUTzZiL9t7C3QiCoEk4M7_1",
+			"date_added": 1489147680
+		},
+		{
+			"comment_id": 27,
+			"body": "@Nextbit: I have 2",
+			"post_uri": "18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1489147511",
+			"date_added": 1489149152
+		},
+		{
+			"comment_id": 28,
+			"body": "太长了、",
+			"post_uri": "1Lu83qdv5RzCUyWB6SyftWQ2rPkZQ4YFoi_1489144717",
+			"date_added": 1489152239
+		},
+		{
+			"comment_id": 29,
+			"body": "\n欢迎你哦 建议你打开 http://127.0.0.1:43110/0hub.bit 解锁所有hub 就可以接收所有信息了 中文 导航网址 http://127.0.0.1:43110/0cnguide.bit/",
+			"post_uri": "1Lu83qdv5RzCUyWB6SyftWQ2rPkZQ4YFoi_1",
+			"date_added": 1489152260
+		},
+		{
+			"comment_id": 30,
+			"body": "@Watcher:   我技术不好  瞎整",
+			"post_uri": "1Ac5XVPgkvQaPFDjiyCTA91cF8SLzmuwAP_1489197461",
+			"date_added": 1489199699
+		},
+		{
+			"comment_id": 31,
+			"body": "@P2P: 而zeromux作者Firebox的demo是可以的 http://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/big/?type=video/mp4&codecs=avc1.640028,mp4a.40.2&json=files/yrc_op_mp4/file.json&poster=files/yrc_op_mp4/poster.png  在firefox浏览器好慢 还不如在chrome下载了看",
+			"post_uri": "1Ac5XVPgkvQaPFDjiyCTA91cF8SLzmuwAP_1489197461",
+			"date_added": 1489207077
+		},
+		{
+			"comment_id": 32,
+			"body": "@P2P: 一开始缓冲一下 我也可以看了 就是 声音放5秒 卡住2秒 再放5秒 这样循环。。。。 还有 它的博客我直接替换还要其他的签名之类的。。。英文不好啊。。。不知道怎么克隆他的视频播放方法。。。。。替换了文件。。。。在chrome能播放。。。在firefox直接放不了",
+			"post_uri": "1Ac5XVPgkvQaPFDjiyCTA91cF8SLzmuwAP_1489197461",
+			"date_added": 1489224940
+		},
+		{
+			"comment_id": 33,
+			"body": "直播里面也可以直播点有意义的",
+			"post_uri": "12Ugp53jiMdvj1Kxa1w7c2LcXUBdGPs1oK_1489243156",
+			"date_added": 1489277702
+		},
+		{
+			"comment_id": 34,
+			"body": "@Yinyue: 来点av啊。。。放图没劲。。。zeronet在线看的",
+			"post_uri": "14QmbKUm65nsCFYpBgt4D8Gm5dcGn5iMDL_1",
+			"date_added": 1489277934
+		},
+		{
+			"comment_id": 35,
+			"body": "安徽 你好",
+			"post_uri": "15m6bo6nGqLUVq2CBfjojEZ3smawtntQ8u_1489210615",
+			"date_added": 1489278013
+		},
+		{
+			"comment_id": 36,
+			"body": "@Mopperwhite:  做种的太少了",
+			"post_uri": "1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo_1492127095",
+			"date_added": 1492237263
+		},
+		{
+			"comment_id": 37,
+			"body": "@Jdfq:   对于普通用户来说 是很不方便",
+			"post_uri": "1Q3L3YxvaYQbzqBfUbdive8r5VV8NDRDAo_1492157930",
+			"date_added": 1492237431
+		},
+		{
+			"comment_id": 38,
+			"body": "@Jdfq:   我也不懂。。。我也没遇到这样的问题。。   虽然提示你  内容签名失败  但是 你的信息发送成功了。。。。  我重来不改昵称。。。    我可能就会 重新下载zerome   重新安装。。重新用个账号。。",
+			"post_uri": "1Ac5XVPgkvQaPFDjiyCTA91cF8SLzmuwAP_1492237409",
+			"date_added": 1492237853
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1N2eNZ5w1dpoBcwatsSuTaeNzHgSLjyrpU",
+			"user_name": "大家一起p2p",
+			"date_added": 1488964473
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1Ac5XVPgkvQaPFDjiyCTA91cF8SLzmuwAP",
+			"user_name": "Bili",
+			"date_added": 1489125567
+		}
+	]
+}

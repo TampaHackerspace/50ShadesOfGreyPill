@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HMrWv1QmyNi7Pz9FEOc8i0kTK33lnOWRIm+zTWF3snZ+WcGZiSZexN1hjfvYSBX4cOx6/6lwh/s0/bekqrlrjhw=",
+ "cert_user_id": "bbc@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "384110ffd62f096e664f4f82dc559b2920b3e33bde6679a55ea74dc35e0b773d",
+   "size": 323
+  }
+ },
+ "inner_path": "data/users/1BNnSNUfRvzpCFumrbg5tbiE9dT61CZP9h/content.json",
+ "modified": 1484296305.71,
+ "signs": {
+  "1BNnSNUfRvzpCFumrbg5tbiE9dT61CZP9h": "HHvmSkjLT5ykbZLTVT1eyk8Kz8Nv8qzXvV31bfCzjZ/JnWcIQpeFpPcmtoLBj0XMVAaZmtkDcCGyWpVfmX/sBxw="
+ }
+}

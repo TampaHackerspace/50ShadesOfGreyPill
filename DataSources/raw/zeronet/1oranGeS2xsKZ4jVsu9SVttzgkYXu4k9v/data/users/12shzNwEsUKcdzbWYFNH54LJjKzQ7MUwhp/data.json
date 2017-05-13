@@ -1,0 +1,36 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Bela333",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Átlagos ZeroNet felhasználó",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1485199595,
+			"body": "Szia ZeroMe!"
+		}
+	],
+	"post_like": {
+		"12shzNwEsUKcdzbWYFNH54LJjKzQ7MUwhp_1": 1485200068
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Damn, this week was slow. It can't even remember Monday",
+			"post_uri": "12shzNwEsUKcdzbWYFNH54LJjKzQ7MUwhp_1",
+			"date_added": 1485711272
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1485199891
+		}
+	]
+}

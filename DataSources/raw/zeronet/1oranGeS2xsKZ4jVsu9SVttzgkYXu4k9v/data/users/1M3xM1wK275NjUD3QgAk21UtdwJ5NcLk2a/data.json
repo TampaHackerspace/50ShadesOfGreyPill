@@ -1,0 +1,40 @@
+{
+	"next_post_id": 4,
+	"next_comment_id": 2,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Cuppatea",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "I like bread.",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1481855106,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1481855124,
+			"body": "Well this is new o-o",
+			"date_added": 1481855122
+		},
+		{
+			"post_id": 1481855708,
+			"body": "Does this platform accept active gifs?",
+			"date_added": 1481855705
+		}
+	],
+	"post_like": {
+		"188JHeuQ2jJZCcqu2F6LLcGVSgRPrPfy3T_1": 1481855134,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1481855561": 1481855640,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1481828833": 1481855672
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Interesting, Ill keep a lookout. Ill try to post some reddit gifs or something to spice things up :P",
+			"post_uri": "1M3xM1wK275NjUD3QgAk21UtdwJ5NcLk2a_1481855708",
+			"date_added": 1481856343
+		}
+	],
+	"follow": []
+}

@@ -1,0 +1,27 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"2_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH": 1
+	},
+	"next_comment_id": 3,
+	"comment": {
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "questions on comparing zeronet to tor hidden services....\nOn tor hidden services, to my understanding, you setup a webserver, and setup tor to point to webserver, on certain .onion address. this means that only one server is hosting, and despite being hidden, its a simple point of failure. Server goes down, hidden services down too. This also makes it more identifiable.\nNow, on zeronet after you invite someone to visit/or share your site, they become a peer and \"seed\" your site. \nI've enabled port forwarding, so im seeding, multiple sites, and in Stats i can see some ip's and such. \nIs it possible know what X ip is hosting? Like on bittorrent, if im downloading a torrent, i can see which ip's are downloading that same torrent, so how it is in zeronet?\n\nAwesome, project. Amazing coding",
+				"added": 1479086888
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 2,
+				"body": "suck a dick",
+				"added": 1479296787
+			}
+		]
+	},
+	"comment_vote": {
+		"808_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

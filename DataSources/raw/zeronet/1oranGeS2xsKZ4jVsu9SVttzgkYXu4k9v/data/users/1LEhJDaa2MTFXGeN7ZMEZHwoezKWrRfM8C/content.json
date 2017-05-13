@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G/phUB48W0n8w6KUgQCyv6JJq8iMlvPupvirqZSDE7fQiiLzthJzi73KorKCF4bLXRXSCe6eAefqYbtmY2SVdFw=",
+ "cert_user_id": "derickblue41@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "59adc804479b1aea5752b1500d7cb5db524d9dfb36e39f484e4cf14c1d91488f",
+   "size": 903
+  },
+  "data.json": {
+   "sha512": "2e78e5eccbcd5ccddaeb98ac57571bf4c0024f55675ccdf781a023960bb8ad04",
+   "size": 338
+  }
+ },
+ "inner_path": "data/users/1LEhJDaa2MTFXGeN7ZMEZHwoezKWrRfM8C/content.json",
+ "modified": 1484587740,
+ "signs": {
+  "1LEhJDaa2MTFXGeN7ZMEZHwoezKWrRfM8C": "GzKt/al65QTmf1n5v/TbOgUjfwxwQwYum/in5lrK1pnOLBECunlw50N705t47dj3/pIDXlluanqys7vOhgjwuwQ="
+ }
+}

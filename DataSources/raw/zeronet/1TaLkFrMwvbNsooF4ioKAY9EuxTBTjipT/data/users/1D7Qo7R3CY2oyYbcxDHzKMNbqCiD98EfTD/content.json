@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HOZg/k4ybaQZDjhp7q5SwSifkeqUJotxen71g1ZZCYhVSzQQ5NuwYbDN1Pk45meb0CHfaSfkZ30UR9FYQoxoCms=",
+ "cert_user_id": "cbsorg@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "a1df63ea85f2c8acb0143fa982e2b1b0c65d9402c87e017485689eb078398b4d",
+   "size": 240
+  }
+ },
+ "inner_path": "data/users/1D7Qo7R3CY2oyYbcxDHzKMNbqCiD98EfTD/content.json",
+ "modified": 1487175531,
+ "signs": {
+  "1D7Qo7R3CY2oyYbcxDHzKMNbqCiD98EfTD": "G1CwMQxT0b2/M+bHIPnPLa7cLIltJwyNKy+WLZvXzh+OkWYR2FZ2/CfCV9wCuxxFr546GwQpM9LkCksQb9ll/Ls="
+ }
+}

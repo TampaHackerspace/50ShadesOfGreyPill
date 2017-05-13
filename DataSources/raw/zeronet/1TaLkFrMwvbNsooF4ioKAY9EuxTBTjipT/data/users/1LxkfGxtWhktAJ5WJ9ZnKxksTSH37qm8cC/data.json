@@ -1,0 +1,909 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Big File Splitting Test",
+			"body": "I created a site to test my experimental script of downloading big files (currently 5MB). Can anyone have a look and test it out?\nhttp://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/",
+			"added": 1472389975
+		},
+		{
+			"topic_id": 2,
+			"title": "ZeroNet big file support progress",
+			"body": "Is any of these ZeroNet functionalities, ranking from easy to hard, planed for future development?\n- UI for creating separate `content.json` files.\n- Fetching a relatively big file from multiple peers simultaneously.\n- \"Super node\" and packet routing (help two passive peers communicate).",
+			"added": 1480493919
+		},
+		{
+			"topic_id": 3,
+			"title": "[zn-dev] Fuzz Testing ZeroNet",
+			"body": "Let's go crazy. No fuzzing test case for ZeroNet has been deployed yet. Let's talk about how to crash ZeroNet via fuzzing!\n- - -\n\n## There are three major \"public doorways\" in ZeroNet:\n\n- The FileServer, public to every peer in the network.\n- The UiServer, on a gateway, public to every visitor.\n- The ZeroFrame APIs, can be abused by JavaScript programs on a ZeroNet site.\n\nI don't expect we can discover ZeroDay exploits by running casual fuzz testings. However, fuzz testing can help devs find unknown programming errors and improve program quality.\n- - -\n\n## How to fuzz ZeroNet?\n\nFor the FileServer, I can set up a socket and feed `os.urandom(4096)`. Here we are not only testing the robustness of `msgpack`. Therefore, to increase code coverage, we may have to use `msgpack` encoded messages.\n\nHow to tell if the result is unexpected?\n- Error messages that say \"exception\" \"OSError\"  etc.\n- Unexpected keys and values.\n- Unexpected data types.\n- Response can't be decoded by `msgpack`.\n- No response after 5 seconds.\n- The error reporting procedure in ZeroNet is not consistent (i.e. connection suddenly closed no matter what), which makes automatic testing hard. Add a `--test` arg and rewrite some server-side code?\n\nFor the UI server, I can use the `urllib` to get data put into the program, but I must have to find a way to prevent unwanted sites from being downloaded.\n\nHow to tell if the result is unexpected?\n- Unexpected status code (i.e. 500 instead of 403. 200 instead of 404.)\n- Invalid headers (i.e. `Access-Control-*` headers should not appear in HTML page responses)\n- Wrapper nonces are not being invalidated (i.e. garbled wrapper_nonce or reused wrapper_nonce grants access to HTML content)\n- HTTP response does not conform to RFC. (i.e. `\\xd4\\x9ax\\x87\\xac\\xa5Srr\\xbc\\xd8.\\xfd\\xb8u` instead of `HTTP/1.1 200 OK`)\n- No repsonse after 5 seconds\n\nFor the ZeroFrame APIs, I don't know how to fuzz it automatically. :(\n- - -\n\n## Help Needed\nIt's impossible for one to make all of these tests and keep the test cases updated. Collective ideas are needed to build better software. \n\nDo you have shiny ideas of generating garbled, malicious and well-crafted input specifically for ZeroNet? Write down your ideas.\n\nDo you know how to fuzz WebSocket-based APIs? Tell us!\n\nDo you have experience fuzz testing programs or crashing programs?   Please discuss it in the comments!",
+			"added": 1491624612
+		}
+	],
+	"topic_vote": {
+		"7_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"1_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH": 1,
+		"1_18GMgG7f7mYquJC1RCphMRLhMX1wsxzxff": 1,
+		"1_19kv7mYoQVMHBXPCCH4vDXnzqPwR9LSrwJ": 1,
+		"12_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"9_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": 1,
+		"13_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1
+	},
+	"next_comment_id": 138,
+	"comment": {
+		"4_1EMpuiFM1NLZmAVyoAWnwi8VwiZVV4dcnN": [
+			{
+				"comment_id": 1,
+				"body": "I suggest the site owner record each player's input and replay most players' route when we play it. Then, we can see thousands of birds crashing into pipes. //",
+				"added": 1459086787
+			}
+		],
+		"10_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 2,
+				"body": "The Deep Dark Fantasy.",
+				"added": 1459129034
+			},
+			{
+				"comment_id": 3,
+				"body": "The Deep Dark Fantasy.",
+				"added": 1467645087
+			}
+		],
+		"1_1PPVb3FDDiNyNqbdb5UAv8ykEC1K1Nwquy": [
+			{
+				"comment_id": 4,
+				"body": "They are .bit domains of NameCoin. http://127.0.0.1:43110/blog.0list.bit/",
+				"added": 1472393339
+			}
+		],
+		"1_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": [
+			{
+				"comment_id": 5,
+				"body": "> [tkarita](#comment_119_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): Nice.  In Firefox, the embedded player vanishes just after downloading, which makes the file difficult to play.  It seems to be reassembled successfully, though.\n\nI added a link to download the file. Could you see it now?",
+				"added": 1472398217
+			},
+			{
+				"comment_id": 7,
+				"body": "> [tkarita](#comment_122_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): Oops, I missed this.  The download link works well enough.  Is Firefox ignoring the usual methods for setting a default filename?\n\nYes. It is possibly a bug.",
+				"added": 1472482420
+			},
+			{
+				"comment_id": 8,
+				"body": "> [waterrabbit](#comment_7_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Yes. It is possibly a bug.\n\nIt is probably a bug of Firefox. The renaming works well in Chrome.",
+				"added": 1472520377
+			},
+			{
+				"comment_id": 10,
+				"body": "> [tkarita](#comment_123_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): The video works better.  Strangely, Firefox's HTML5 player controls don't work, but \"play\" from the context menu does.  What are you using to chop up the files and hash the pieces?\n\nPython.",
+				"added": 1472541010
+			},
+			{
+				"comment_id": 12,
+				"body": "http://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/\nFirefox users can now play the video when it is still being downloaded.\nThe player will show up when the first 1/5 of the progress bar has been filled.\n\nPlease click on the links labelled **Stream** if you would like to test this feature. I was not realized that the first two videos are not streaming friendly.\n\nThere is a Chrome bug that prevents the program from accessing Source Buffer in a sandboxed iframe. That bug has been found and reported several years ago, but not yet been fixed.",
+				"added": 1472737040
+			},
+			{
+				"comment_id": 13,
+				"body": "Thanks everyone who has been testing and seeding it. It is 50MB now, if you download **all** of the files.",
+				"added": 1472737117
+			},
+			{
+				"comment_id": 21,
+				"body": "http://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V\nNow the big file streaming script is checking the hash of the big, reassembled file in a Web Worker.\n\nI tested it against a 200MB file. When the hash of the big file was being checked, the web page still responded to scrolling and video seeking.\n\nThough it is not necessary to check the hash of the reassembled file, I worked out a way to use Web Workers in ZeroNet's `iframe` without running into any cross origin errors.\n\nIf a cross origin error causes `new Worker(\"async-hash.js\");` and `importScripts('asmcrypto.js');` to fail, putting the content of the script into a `blob:` URL can bypass this error.",
+				"added": 1473599513
+			},
+			{
+				"comment_id": 23,
+				"body": "http://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V\nThe MP4 multiplexer, written completely in JavaScript, is finally live on my website!\nIf you are using **Firefox**, you can **play any video** on that page as you are **buffering** it.",
+				"added": 1473925027
+			}
+		],
+		"1_1JecQYorYpL9F9vArLj13LKvc3v3iSdDHA": [
+			{
+				"comment_id": 9,
+				"body": "> [kuuuurija](#comment_1_1JecQYorYpL9F9vArLj13LKvc3v3iSdDHA): Thanks.But it will also block my access to regular internet, right?\n\nYes. (so I use two browsers)",
+				"added": 1472540979
+			}
+		],
+		"6_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR": [
+			{
+				"comment_id": 11,
+				"body": "> [jarmund](#comment_4_1CiHRyU3rHFGR1rEyTPDYH7xjN99iPZkBJ): Why? I'm not a Tor users but I don't know why is it a problem to have many Tor users on Zeronet?\n\nZeroNet's --proxy and --tor options do not work together, ~~so if you are using Tor, your will be connecting to Tor users only.~~\n\nIf more non-Tor users come, there can be more active seeders on the clear net.\nIf more Tor users come, there can be more active seeders on the Tor network.",
+				"added": 1472642129
+			}
+		],
+		"5_1C6qdRAX8iYqSB7TfUxk91yW8Y2SBKNgfA": [
+			{
+				"comment_id": 14,
+				"body": "> [nofish](#comment_748_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): ZeroNet does not modify your browser, so if any of the sites has files linked from the clearnet, then your browser will use standard connection. To avoid this you can run ZeroNet is Tor browser.\n\nYeah, blame your browser... or simply, set your proxy to `0.0.0.0 : 6666`, no proxy for `127.0.0.1`",
+				"added": 1473125288
+			},
+			{
+				"comment_id": 15,
+				"body": "Have a look at Erkan's blog. http://127.0.0.1:43110/zeroblog.bit/?Post:60:protect+yourselves:+set+a+non-working+proxy\n\nHe wrote a blog for people who are highly paranoid, like me, but it's a pity that he is too busy in his real world life to continue writing now.",
+				"added": 1473125492
+			},
+			{
+				"comment_id": 17,
+				"body": "If you are really paranoid, being afraid of javascript exploits, you can also use a virtual machine.",
+				"added": 1473250927
+			}
+		],
+		"1_1JgHfDK4eojCkVZHKey9hiMAcAc9mxMUK2": [
+			{
+				"comment_id": 16,
+				"body": "[ZeroBlog Lab](/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/)",
+				"added": 1473126259
+			}
+		],
+		"2_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": [
+			{
+				"comment_id": 18,
+				"body": "Nofish, the ZeroNet developer, is working on it.",
+				"added": 1473297567
+			}
+		],
+		"2_1NLKyC1Eq7gZeRKZ6oPN45wMWorx9yFWUW": [
+			{
+				"comment_id": 19,
+				"body": "Clone this site.",
+				"added": 1473312346
+			}
+		],
+		"1_15WJPhvY6MCRGdWoJXsLUE7FjhWXsTjN6V": [
+			{
+				"comment_id": 20,
+				"body": "It works like a Bitcoin wallet.",
+				"added": 1473516249
+			}
+		],
+		"1_1DBjD2Xf1DymmjxEi5K7aeoaRByAAXBvFW": [
+			{
+				"comment_id": 22,
+				"body": "Click on the \"up vote\" button to up vote. Click on it again to cancel your vote.",
+				"added": 1473778384
+			}
+		],
+		"1_1LE1ngFyG62KJC1Q7G2xyZGjaB2QubXSi9": [
+			{
+				"comment_id": 24,
+				"body": "> I think the solution to that would be to have multiple people who know the private key, all over the world .\nBesides it, at least one people must make an announcement to tell visitors to backup the site and stop accepting site updates (pause)",
+				"added": 1474501178
+			}
+		],
+		"1_1NmwA9EFPu94QaN7yMYpzu2iSg1dGAYV6n": [
+			{
+				"comment_id": 25,
+				"body": "`wget --no-check-certificate `\n\nAre you sure?",
+				"added": 1475517486
+			}
+		],
+		"1_1Nv4Sz7ExDb5tJBZt27RwWWkUvQ8JFosFM": [
+			{
+				"comment_id": 26,
+				"body": "ZeroNet has an [\"optional\" file](https://zeronet.readthedocs.io/en/latest/site_development/content_json/#optional) feature. An optional file is not downloaded and saved until a site visitor wants to see it.\n\nZeroNet also keeps track of site size and inform site visitors to increase the size limit.",
+				"added": 1475952410
+			}
+		],
+		"4_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 27,
+				"body": "Hi, here is the homepage of project ZeroMux as well as my personal blog: http://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/\nThe big files on the site are marked as \"optional\" If you like to, please also help distribute the big files.",
+				"added": 1475952930
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 28,
+				"body": "> [redpill](#comment_1_1HRqipL1thbTsztjAvhN76qkzQBZ1k93nJ): How do we know this isn't a joint effort project prism  like honeypot project?\n\nSource code: https://github.com/HelloZeroNet",
+				"added": 1475955763
+			}
+		],
+		"2_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ": [
+			{
+				"comment_id": 29,
+				"body": "<meta name=\"referrer\" content=\"no-referrer\">\n<link href=\"./css/font-awesome-4.0.3.css\" rel=\"stylesheet\" crossorigin=\"anonymous\">\nHave a try...",
+				"added": 1476307933
+			}
+		],
+		"7_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 30,
+				"body": "http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n/\nNew ZeroNet Sites maintains a place where people having new sites can publish site addresses.\n\nAddresses of new sites are published there. A seeder can download the list of addresses periodically and seed the sites.",
+				"added": 1476494575
+			}
+		],
+		"1_1CxJ7M6Vx3BUxb9f8CKnGPGvC6mJ9Y5hL1": [
+			{
+				"comment_id": 31,
+				"body": "Hey, buddy, welcome to the Deep Dark Fantasy. I think you've got the wrong door. The leather club's two blocks down.",
+				"added": 1476598874
+			}
+		],
+		"2_1AWKKjCvCFvUbmrbBtqrMSfAGZ8D6tAVHt": [
+			{
+				"comment_id": 32,
+				"body": "`.bit` domains in ZeroNet are namecoin domains often resolved to a public decryption key. Before ZeroNet, there were only some plugins on resolving `.bit` domains.",
+				"added": 1476642742
+			}
+		],
+		"1_1JLptrZjV8VrpvMBex8CnCHGjNpCizYq1x": [
+			{
+				"comment_id": 33,
+				"body": "You need a private key. Unless you steal the private key from nofish, there is no easy way to take control over the site that is not really yours.",
+				"added": 1476912306
+			}
+		],
+		"8_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 34,
+				"body": "List of Tor hidden services operated by the Tor Project:\nhttps://onion.torproject.org/",
+				"added": 1476990212
+			}
+		],
+		"1_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM": [
+			{
+				"comment_id": 35,
+				"body": "Unless you spam this site, the moderator will not censor your posts. If you want to be a moderator of a forum, \"Clone\" this site. If you are a moderator and want to ban someone,  modify the `permission` field of your `data/users/content.json`. Here is an example: http://127.0.0.1:43110/Talk.ZeroNetwork.bit/data/users/content.json",
+				"added": 1477259865
+			}
+		],
+		"1_1EwDgtYPTUZhCQXt6toiRL6yM6bbXwbkCy": [
+			{
+				"comment_id": 36,
+				"body": "> [nofish](#comment_806_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): probably Whonix does not allows you to communicate with tor's controll protocol, so try zeronet.py --tor disable --proxy 127.0.0.1:9050\n> in this mode you won't fire up hidden services, but you will use tor for every connection.\n\nThere is a `--tor inside` pull request on GitHub. Do you consider checking it and merging it?",
+				"added": 1477260012
+			}
+		],
+		"2_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM": [
+			{
+				"comment_id": 37,
+				"body": "ZeroNet's developer is working on Big File Support, but the sole developer has other important things to do in his real life. If you are looking for a solution for transferring big files within ZeroNet for now, have a look at [ZeroMux](http://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/).\n\nGenerally, we want to keep sites as small as possible, because every visited site is saved in the `data/` folder, and if you move the files in it away, ZeroNet cannot find and seed them.",
+				"added": 1477623445
+			}
+		],
+		"9_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 38,
+				"body": "Delete all your contents; sign and publish.",
+				"added": 1477637832
+			}
+		],
+		"1_1GmFtovuzg5At7ou22N5omKn4kXNmuEmVB": [
+			{
+				"comment_id": 39,
+				"body": "Torrenting in ZeroNet is hard. The sole ZeroNet developer is working on it.",
+				"added": 1477941121
+			}
+		],
+		"1_11pADbvn3XmFZ5sbM9ZANRb5Gv9igHLCF": [
+			{
+				"comment_id": 40,
+				"body": "These days children have very decent computer skills...",
+				"added": 1478161935
+			}
+		],
+		"8_1BYU9zV786auJ29dF3HMAQYhxA2WgN4ofi": [
+			{
+				"comment_id": 41,
+				"body": "In a P2P network, there are no private data, since everyone tries to distribute data to as many people as possible. If there is really another ZeroNet network, people who can join the network can still access the data in that network, because the data are still public.",
+				"added": 1478333681
+			}
+		],
+		"1_18PuQzBFvhs9sX96qbMmcer7oUoCKkiyLx": [
+			{
+				"comment_id": 42,
+				"body": "It works on bit.no.com. If you have your port closed, try Tor Always mode. Tor Always mode does not require a port opened because it creates a Tor Hidden Service.",
+				"added": 1478472829
+			}
+		],
+		"1_15Ai6sZdDgtsiFYZy7JnXsiLT2htEC446a": [
+			{
+				"comment_id": 43,
+				"body": "~~Paste it into your file downloader.~~",
+				"added": 1478507017
+			}
+		],
+		"1_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH": [
+			{
+				"comment_id": 44,
+				"body": "I think ZeroNet's optional file storage space can be made into two parts:\nthe \"pinned\" part and the \"random\" part.\n\nIn the \"pinned\" part, you save the files you like to read offline, and ZeroNet will NOT delete them automatically for you.\n\nIn the \"random\" part, you host random content you once downloaded but don't really care about, and ZeroNet will clean up the files in the \"random\" part periodically.",
+				"added": 1478635121
+			},
+			{
+				"comment_id": 45,
+				"body": "\"Help distribute this user's all new files\" -> `PinFiles( [file for file in optionalFiles if some_logic] )`\n\"Save this series of comics\" -> \"Download these files. Are you sure? (40MB)\" -> `PinFiles( [file for file in optionalFiles if InUserDefinedGroup(file, \"comic1\")] )`",
+				"added": 1478636162
+			}
+		],
+		"1_17iKAuuhDPPmh5cs8Ea465mTdnQiR8WaMK": [
+			{
+				"comment_id": 46,
+				"body": "Delete that site from your computer and try again.",
+				"added": 1478901899
+			}
+		],
+		"4_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ": [
+			{
+				"comment_id": 47,
+				"body": "You are advised to keep your content.json as small as possible, since people visiting your site for the first time need to download the whole file.json before they can start downloading other site files.",
+				"added": 1478981535
+			},
+			{
+				"comment_id": 48,
+				"body": "https://zeronet.readthedocs.io/en/latest/site_development/content_json/#includes\nhttps://zeronet.readthedocs.io/en/latest/site_development/content_json/#ignore\n\nYou can \"include\" your separate json files in your content.json\nand make content.json \"ignore\" the files included in separate json files.",
+				"added": 1479066522
+			},
+			{
+				"comment_id": 49,
+				"body": "Example:\n```\nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/content.json\n\n\"ignore\": \"((js|css)/(?!all.(js|css))|data/users/.*db|data/users/.*/.*|.*.py)\",\n\"includes\": {\n  \"data/users/content.json\": {\n   \"signers\": [],\n   \"signers_required\": 1\n  }\n},\n```\n\nHowever, I don't know how to sign separate json files.",
+				"added": 1479066964
+			},
+			{
+				"comment_id": 50,
+				"body": "> [arsenelupin](#comment_6_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ):  overhead of having one content.json per book.json\n\nYou can have one separate book.json for every series of books. For example, all books published in 2015 can share one book.json. On the other hand, you may have to write a script to organize books and sign files.",
+				"added": 1479071956
+			},
+			{
+				"comment_id": 54,
+				"body": "You may need this command: `zeronet.py siteSign yoursite --inner_path books/2014/content.json`\nBtw, can the GUI generate a separate content.json for me?",
+				"added": 1479275908
+			}
+		],
+		"1_13GU1tjE8NpZocm8bZdSE83BmrbLfydR9V": [
+			{
+				"comment_id": 51,
+				"body": "Create a site address using vanitygen. Make a folder using that public key in the `data` folder.\nPut files into it. Then use ZeroNet to access that URL.\nOn the right sidebar, select \"This is my site\" and sign using your private key you just generated.",
+				"added": 1479164942
+			},
+			{
+				"comment_id": 52,
+				"body": "> [itsatest](#comment_3_13GU1tjE8NpZocm8bZdSE83BmrbLfydR9V): Do I need to put a specific content.json? Or will it be created automagically on first sign?\n\nNo need to put content.json",
+				"added": 1479275725
+			},
+			{
+				"comment_id": 53,
+				"body": "Here is another possible way (I didn't try it):\nClone ZeroBlog.\nGo to the folder of your new public key.\nDelete all contents; then put your own content there.\nSign.",
+				"added": 1479275809
+			}
+		],
+		"2_1KWfi9GbSvnLzLM3QbLSBhvRRiB2aq5rjH": [
+			{
+				"comment_id": 55,
+				"body": "Do you mean attacking ZeroNet by deploying a lot of \"dead\" nodes? I came up with a [\"weighted peer count\"](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC/1478679877) concept before. This algorithm tries to rate every peer with a score. By changing the definition and domain of the weights, that algorithm can be very paranoid.",
+				"added": 1479345239
+			},
+			{
+				"comment_id": 56,
+				"body": "In a podcast on YouTube about ZeroNet, the host said by mistake that ZeroID used NameCoin. Actually, the `.bit` domains use NameCoins. However, it is very clever to use NameCoin to create IDs.",
+				"added": 1479356101
+			}
+		],
+		"1_1Kn3RNTAmEKxnSLxNCYUGeCDPo4gsJHjQ8": [
+			{
+				"comment_id": 57,
+				"body": "1) Things are stored in the `ZeroNet/data/1TaLk.../data/users/` folder. Your things are automatically signed and published to everyone else. Other people in this network will also store your things for you.\n\n2)  You are NOT anonymous.",
+				"added": 1479413177
+			}
+		],
+		"4_156xbcM9BrbdhtYZUPAQBFvLDGGyy5AjdM": [
+			{
+				"comment_id": 58,
+				"body": "Is it possible via ZeroFrame API?",
+				"added": 1479688819
+			}
+		],
+		"3_156xbcM9BrbdhtYZUPAQBFvLDGGyy5AjdM": [
+			{
+				"comment_id": 59,
+				"body": "There is a Pause option.",
+				"added": 1479688875
+			}
+		],
+		"1_17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb": [
+			{
+				"comment_id": 60,
+				"body": "There are sites like [ZeroTorrent](http://127.0.0.1:43110/ZeroTorrent.bit/), [ZeroTV](http://127.0.0.1:43110/1BEJbnufyav7TK23ADTs2Qi2UJeKSGDzw6/), [TV Episodes](http://127.0.0.1:43110/tvepisodes.bit/), [Play](http://127.0.0.1:43110/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp) and a self-hosted file sharing program called [ZeroMux](http://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/big/docs/)",
+				"added": 1479954657
+			}
+		],
+		"5_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM": [
+			{
+				"comment_id": 61,
+				"body": "If you clone the original ZeroBlog, your cloned blog will have an area for comments. You can sign in with your ZeroID and add comment on your blog.",
+				"added": 1480027491
+			},
+			{
+				"comment_id": 63,
+				"body": "> [thisweb11](#comment_92_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM): I cloned the blog, it has no comments area.  This is all I gethttp://127.0.0.1:43110/139hQHRnw7g7nmnLhrpNZ4xvu9969BQEMj\n\nCan't load your site. Make sure you keep ZeroNet open.",
+				"added": 1480033595
+			},
+			{
+				"comment_id": 64,
+				"body": "> [thisweb11](#comment_113_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM): \n> No comments bit :(\n\nClick on the title of your blog post.",
+				"added": 1480038350
+			}
+		],
+		"2_1BEyFJrKVaGLuogLirnrsa7yV2MXNvYpcp": [
+			{
+				"comment_id": 62,
+				"body": "If you use Tor Browser to browse 127.0.0.1:43110 and only allow script for that domain, the script in the iframe will be disabled.",
+				"added": 1480027593
+			}
+		],
+		"9246_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 65,
+				"body": "https://lists.torproject.org/pipermail/tor-talk/2016-November/042639.html",
+				"added": 1480490284
+			}
+		],
+		"1_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": [
+			{
+				"comment_id": 66,
+				"body": "> [anonymous3](#comment_1_1E7BcFiayaHgga2s3JhRpXfTE4rVUqFGgs): Thanks! Maybe you could experiment with storing files as hashes (more efficient, less bandwidth, less duplication).Like: files/0e/3e/0e3e75234abc68f4378a86b3f4b32a198ba301845b0cd6e50106e874345700ccThis is just a client-side optimization, won't need to require other peers to do the same as you.\n\nInstead of changing directory tree, an easier way is to organize the hash sums of files into a database like file. We don't really want to change the directory tree.\n\nIf nofish wants ZeroNet to reuse existing files, he will probably choose to search for hash sums (information that shows two files are the same) in a data source (in any form). This \"data source\" can be represented either as directory tree or as a separate database.",
+				"added": 1480546127
+			}
+		],
+		"9280_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 67,
+				"body": "How many porn videos did the programmers watch?",
+				"added": 1480648917
+			}
+		],
+		"1_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y": [
+			{
+				"comment_id": 68,
+				"body": "I did not find any `<script>` tags or text containing `js` in `view-source:http://coppersurfer.tk/` over Tor.",
+				"added": 1480651628
+			},
+			{
+				"comment_id": 69,
+				"body": "It seems to be calling the GeoLocation API. I don't know if it contains code that makes use of exploits. Perhaps you can also post it to the Tor Mailing List, since people raised awareness on JavaScript exploits after a NIT was found.",
+				"added": 1480661852
+			},
+			{
+				"comment_id": 70,
+				"body": "https://lists.torproject.org/cgi-bin/mailman/listinfo\nHere are all of Tor Project's mailing lists. An active talk for general discussion on the use of Tor and Internet censorship is the [tor-talk](https://lists.torproject.org/cgi-bin/mailman/listinfo/tor-talk) list. Perhaps you can get some advice from Tor's security researchers.",
+				"added": 1480668058
+			},
+			{
+				"comment_id": 71,
+				"body": "Interesting... I just googled the first line of the script. There is only one result that contains this script snippet. \nhttps://4gttzu6677777888utffffghh.blogspot.fr/2016/09/nsyteldetailpagecpnnpmqtqjsm4joxlfjdoci.html",
+				"added": 1480745646
+			},
+			{
+				"comment_id": 72,
+				"body": "> [rythyrix](#comment_11_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): The worst part, this is following me around on every HTTP connection I use. Been trying different JS injectors to remove the element, but none of them offer either fine-grained enough filters or an option to inject the removal script prior to the self-deleting script. Any suggestions?\n\nI guess your ISP is changing the content of coppersurfer.tk. Did you try using an encrypted proxy, VPN or the Tor Browser to visit coppersurfer.tk ?\n\n\n",
+				"added": 1480757050
+			},
+			{
+				"comment_id": 73,
+				"body": "By the way, The way the script sending the geo-location information back home is confusing.",
+				"added": 1480757515
+			}
+		],
+		"4_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": [
+			{
+				"comment_id": 74,
+				"body": "I can use AJAX without any problem. Did you try to request for an `.html` file? Requesting these kind of files are prohibited as to avoid sandbox escaping.",
+				"added": 1480826122
+			},
+			{
+				"comment_id": 75,
+				"body": "> [nofish](#comment_833_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): This version should work:https://gist.github.com/ilian/e8197b249fda2a312a2cec0f85b419c8\n> I'm also planning to write a non-coffeescript tutorial. (site-type suggestions are welcome)\n\nI hope ZeroNet will allow AJAX in the future. Cross Origin attacks can be mitigated by requiring the presence and correctness of referrer header for AJAX requests.",
+				"added": 1480920367
+			}
+		],
+		"1_1Ni6LMewr5Cbc9fuKvdkSpS5bNm12vAKe4": [
+			{
+				"comment_id": 76,
+				"body": "> 我想在零网内发布一个文件，应该在哪发呢？谢谢\n> 如题，比如该文件是视频或者PDF又或者其它文件，谢谢\n\n> I would like to publish a document in zero net, which should be made? Thank you\n> If that, such as the document is video or PDF or other documents, thank you\n\n1. put them on [IPFS](https://github.com/ipfs/ipfs)\n2. put them on [Freenet](https://freenetproject.org/)\n3. put them on other P2P software, such as [SyncThing](https://syncthing.net/)\n4. make them torrents and put a magnet link on your site. [WebTorrent](https://webtorrent.io/)\n4. For small files, put them directly on your ZeroNet site. [Example](http://127.0.0.1:43110/Blog.ZeroNetwork.bit/data/pdf/zeronet_presentation.pdf)\n5. If you insist putting all of your files on ZeroNet, check out [ZeroMux Bundle](/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/big/docs/)",
+				"added": 1480920785
+			}
+		],
+		"1_18GMgG7f7mYquJC1RCphMRLhMX1wsxzxff": [
+			{
+				"comment_id": 77,
+				"body": "ZeroNet only has one developer, and he doesn't have experience on writing programs that run on mobile phones. However, there are people trying to make ZeroNet run on Android using Kivy framework, and people writing [alternative implementations](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ/ZeroNet+Golang+client) of ZeroNet.",
+				"added": 1480966967
+			},
+			{
+				"comment_id": 86,
+				"body": "> [christopherm](#comment_10_1DDCitotp8M6rCiHrNJ4VVLGTqXykLmD1t): @waterrabbit Can you post a link to running Zeronet using Kivy framework?\n\nThere is no usable mobile version or discussion on it, yet. Nofish mentioned running ZeroNet on Kivy would be a good idea, but no one had ever tried it out.",
+				"added": 1481322318
+			}
+		],
+		"6_1C6qdRAX8iYqSB7TfUxk91yW8Y2SBKNgfA": [
+			{
+				"comment_id": 78,
+				"body": "There are all kinds of standards for peer to peer systems, because people are exploring the ways to build a secure and reliable peer to peer system for the unreliable Internet.\n\nI haven't read through the source code, but there are some generalized details on the front page:\n\n> I am doing this all for **free** for **all humanity** because I hate evil. My #1 guiding moral principal is that **I am morally opposed to slavery in every form,** including the covert economic slavery powered by lies that is used today in all nations that claim they do not allow slavery. I do not believe in 'neccessary evil'. Infact, I know that there is no neccessary evil, such is only shortcuts which lead to destruction.\n\n\n\n> (Libre and) **OPEN SOURCE**\n> Written in **Python** and 100% open source, MORPHiS is intended to be free to open collaboration, transparency, and rapid prototyping. Lets work together to get this project off the ground!\n> OPEN SOURCE **(GNU GPL v2)**\n\nZeroNet is also free and open source software.\n\n> SECURE\n> MORPHiS is a custom (enhanced with inventions) **Kademlia DHT** over a custom (enhanced with optimizations for performance in security) **SSH protocol.** MORPHiS is written in Python, a free and open language that is memory safe with high performance asynchronous I/O, and is not controlled by US/NSA corporations.\n\nNofish is working on a DHT that works through Tor. ZeroNet transfers signed contents with an additional protection layer of TLS.\n\n\n> MODULAR\n> The network is optimized for performance and low latency to allow for applications to be built on top of it using MORPHiS ames **TCP** to be 100% **compatible with TOR** so that it is as anonymous as TOR for those who connect their node through TOR to the MORPHiS network.\n\nZeroNet also supports Tor.\n\n\n> WEB OF TRUST\n> Through a **trust based system of reputation,** this feature will enable reputation based searches (deprecating GOOGLE/BING/ETC, DNS, and so on), forums (bye bye disqus, etc!), and eventually deprecating democracy and stone age government (democracy via stone age paper ballots VS real time direct voting).\n \n\n> I have dedicated myself to this project. **Nothing** will stop me from completing **my life's work,** my **purpose in life.** This is my **calling.** I am and for years already been working on this full time; and I will continue to do so until I can say: it is finished!\n> This is my **life's work.** I have been designing it, full-time, for years. I have been coding full-time since December of 2014. I am a **very good programmer** (at least with distributed systems, networks, databases, security, cryptography, and some other areas). This is my **purpose in life.** I have found my **calling!** I have a vision, and I am seeing it through until the end. That end is the **World Brain** peacefully overthrowing the existing system, world-wide.\n",
+				"added": 1480968197
+			}
+		],
+		"1_1GAWwPWreQXo1CwcefCgL6w5wYPkNFWbsj": [
+			{
+				"comment_id": 79,
+				"body": "I ran into \"content publish failed\" simply because I could not connect to Tor. After I turned off Tor Always mode it finally works. \"Content publish failed\" doesn't necessarily mean that you run out of limit. You can double check your quota at your hub.",
+				"added": 1481138948
+			},
+			{
+				"comment_id": 80,
+				"body": "Your Blue Hub content is roughly 30.8 KB.",
+				"added": 1481139088
+			},
+			{
+				"comment_id": 83,
+				"body": "> Both Red Hub and Blue Hub accept ZeroIDs. Signing up for both hubs makes me look like that I have multiple accounts\nShowing only one ID can be done by making a pull request to ZeroMe,\nbut note that both hubs allow you to customize your profile, ZeroMe may have to merge these conflict and redundant information in a wise way.\n\n> I can't use my RedHub account to delete my post in BlueHub.\n......\n\n> Remove zerome that goddamn limit!!!!!!\nStop sh*tposting so that Nofish will consider expanding your quota.",
+				"added": 1481154571
+			}
+		],
+		"2_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": [
+			{
+				"comment_id": 81,
+				"body": "ZeroMon Go!",
+				"added": 1481139148
+			},
+			{
+				"comment_id": 84,
+				"body": "LightNet BitNet",
+				"added": 1481229872
+			},
+			{
+				"comment_id": 85,
+				"body": "GopherZeroNet\nBlueZeroNet\nPurpleZeroNet",
+				"added": 1481314073
+			}
+		],
+		"1_1FNWXmY94yzHMaWnLMup3XZyuWkqnNP12U": [
+			{
+				"comment_id": 82,
+				"body": "Forums: Main · Español · Français · German · Hungarian · Italian · Polish · Português · Russian · Ukrainian · **中文**\n\nDidn't you see that sh*t in your own language?",
+				"added": 1481139209
+			},
+			{
+				"comment_id": 87,
+				"body": "> [p2p](#comment_226_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): They tend to ignore it since the ZeroTalk 's UI is already translated  into Chinese. It was not a problem before ZeroTalk 's UI is translated. We need to think an idea about it.\n\nSimply remove the translation for the top.",
+				"added": 1481353537
+			}
+		],
+		"1_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": [
+			{
+				"comment_id": 88,
+				"body": "Yes. Yes. More good content.",
+				"added": 1481434872
+			}
+		],
+		"1_1BsBRAymoTQ5qbXBLeGj3EFVkZz98kCbfh": [
+			{
+				"comment_id": 89,
+				"body": "The following error was encountered while trying to retrieve the URL: http://zeronet.daoapp.io/\n\n    Connection to 106.75.86.13 failed.\n\nThe system returned: (60) Operation timed out\n\nThe remote host or network may be down. Please try the request again.\n\nYour cache administrator is admin@localhost.",
+				"added": 1481446633
+			}
+		],
+		"1_1C1gnFcVv9J9kUjF4odDMRYcEWVPJbbqFp": [
+			{
+				"comment_id": 90,
+				"body": "Free Software Foundation\nSan Francisco, San Franciscans.",
+				"added": 1481590985
+			}
+		],
+		"1_14DujeMmUQr14gCcg6ZUVcdU1DA5GphYvG": [
+			{
+				"comment_id": 91,
+				"body": "Is OP from NSA? Huh? :-]",
+				"added": 1482642639
+			}
+		],
+		"1_1yvSQH5Z7aJra4y9s6KG2kjLeGXYhNgn7": [
+			{
+				"comment_id": 92,
+				"body": "A public ID",
+				"added": 1482719113
+			}
+		],
+		"1_1CYj7o5iamDZeKZvdSAW4P2aEngmAXb78T": [
+			{
+				"comment_id": 93,
+				"body": "ZeroNet developer could try fetching a big enough file from multiple peers simultaneously. It increases code complexity but it will be a major improvement of speed.",
+				"added": 1484031159
+			}
+		],
+		"2_1yvSQH5Z7aJra4y9s6KG2kjLeGXYhNgn7": [
+			{
+				"comment_id": 94,
+				"body": "The public ID which is mostly used to spam ZeroTalk. I hope Nofish can white list this person's posts, and require such spammer to give a CPU only Proof of Work before posting new content.",
+				"added": 1484122045
+			}
+		],
+		"1_16K1z3cbKjRquq72sJZ1dgHxNQosHRrub4": [
+			{
+				"comment_id": 95,
+				"body": "> [nofish](#comment_859_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Fighting spam really hard without giving up on anonymity. A feature is planned where you can build your own blacklist of users who you don't want to see contents.\n\nAnd the choice to make blocklists private.",
+				"added": 1484602754
+			}
+		],
+		"1_1GgG19jpQvxQLzjMqdJLfJEHzcNu3QiemN": [
+			{
+				"comment_id": 96,
+				"body": "Spam",
+				"added": 1485146081
+			}
+		],
+		"1_1pGdkP4RBt8QW66TEBLLY3124RzVw4mSg": [
+			{
+				"comment_id": 97,
+				"body": "Find the [ZeroBlog of NoFish](http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:3:How+to+have+a+blog+like+this), then \"clone\" it.\n",
+				"added": 1485146153
+			}
+		],
+		"2_13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31": [
+			{
+				"comment_id": 98,
+				"body": "Their official ZeroNet mirror: http://127.0.0.1:43110/14gSEpfWfF5Go7u5y7UidZQCnGa6eSBYZ9/",
+				"added": 1485146400
+			},
+			{
+				"comment_id": 100,
+				"body": "> [antyhrabia](#comment_33_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD): Is this real their official ZeroNet mirror? Is there any announce about it?\n\nhttps://www.privacytools.io/\n\nDarknet: Tor, I2P, ZeroNet",
+				"added": 1485210557
+			}
+		],
+		"4_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": [
+			{
+				"comment_id": 99,
+				"body": "MIT should have a website like mit.edu.bit",
+				"added": 1485210260
+			}
+		],
+		"1_1Bugx9zqizRw7N2UQvktWnXxupmC39TDtD": [
+			{
+				"comment_id": 101,
+				"body": "https://bit.no.com:43110",
+				"added": 1485210639
+			}
+		],
+		"1_1FcbvYEPcYdZVWw2pzSPHiB5bLuLJLR6GX": [
+			{
+				"comment_id": 102,
+				"body": "null\nNone\nundefined",
+				"added": 1485210680
+			}
+		],
+		"8_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 103,
+				"body": "While morally you can't make malware to infect old computers and create a large Zero-botnet, you should be aware that ZeroNet can run basically everywhere. NoFish runs ZeroNet on his $9 CHIP computer. Lots of people on ZeroMe host full-time nodes on Raspberry Pi. Furthermore, there is a guy who runs ZeroNet [on his router](https://github.com/HelloZeroNet/ZeroNet/issues/783).",
+				"added": 1485246167
+			}
+		],
+		"10_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 104,
+				"body": "Yeah!!\nBTW, [here](https://github.com/MuxZeroNet/ZeroMux) is how to upload and stream MP4 files.",
+				"added": 1485246293
+			}
+		],
+		"9_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 105,
+				"body": "I will fail if my instructor see me write like this. :-[",
+				"added": 1485246467
+			}
+		],
+		"1_1Ekf2tGQLhG3iifFsuUk9RcBPx26cQmCD1": [
+			{
+				"comment_id": 106,
+				"body": "What happens if you set your system clock forward?\nYour post goes to the top.\nZeroMe refuses to show it.",
+				"added": 1485302441
+			}
+		],
+		"1_13GyWy7pXEtCorqUBAv7ZPjyzNfwMA6Hh2": [],
+		"1_16EGCX1cmogYo2EPidRU3axQ6N3jNQndoa": [
+			{
+				"comment_id": 108,
+				"body": "1. We just have to steal his private key. :-]\nOut there are tens of forked versions of ZeroTalk.\n2. We just have to blow up every single tracker. :-]\nZeroNet remembers the _contact information_ of each peer, once you have bootstrapped it.\n3. We just have to block it at ISP. :-]\nHalf of ZeroNet's traffic is from Tor.",
+				"added": 1485555414
+			}
+		],
+		"3_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 109,
+				"body": "Digression:\nMake a Ubuntu live USB stick. Boot your old computer.",
+				"added": 1485555818
+			}
+		],
+		"2_1FTdEtiDR5QdcZstHH46RYAxDFL5B23BiP": [
+			{
+				"comment_id": 110,
+				"body": "Public seeders and gateways:\nhttps://bit.no.com:43110/14HSaCdhWk6qVNxYJbeor8zEsJ1wUXzj1X\nhttps://onlyzero.net/14HSaCdhWk6qVNxYJbeor8zEsJ1wUXzj1X\nhttps://zeronet.korso.win/14HSaCdhWk6qVNxYJbeor8zEsJ1wUXzj1X\nhttps://zero.btnova.org/14HSaCdhWk6qVNxYJbeor8zEsJ1wUXzj1X",
+				"added": 1485555912
+			}
+		],
+		"12_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 111,
+				"body": "Where?",
+				"added": 1485575029
+			},
+			{
+				"comment_id": 112,
+				"body": "> [kaishen](#comment_1_18WuQsUbszu95sZDiKvrfswRnEpuB5WEQh): Videos.db\n\nI mean _address_.",
+				"added": 1485584779
+			},
+			{
+				"comment_id": 113,
+				"body": "> [kai0](#comment_18_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): you want try？it will bring truble to you.\n\nThen I guess the site is linking directly to the video file. Your browser recognized that you are loading a video file, so it played the file for you. The site owner could have used an embedded video element.",
+				"added": 1485589482
+			}
+		],
+		"2_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": [
+			{
+				"comment_id": 114,
+				"body": "Did you **change**~~d~~ your proxy settings?",
+				"added": 1485589572
+			}
+		],
+		"2_1Bugx9zqizRw7N2UQvktWnXxupmC39TDtD": [
+			{
+				"comment_id": 115,
+				"body": "Change your proxy settings. HTTP Proxy: 127.0.0.1:43110",
+				"added": 1485726240
+			}
+		],
+		"4_14UupgrdnT7Y8vMES7aqUFgD1fC5RYNrh8": [
+			{
+				"comment_id": 116,
+				"body": "More than 1000\n\n0chan: more than 3000",
+				"added": 1485931906
+			},
+			{
+				"comment_id": 117,
+				"body": "> [joczo](#comment_17_14UupgrdnT7Y8vMES7aqUFgD1fC5RYNrh8): I only have 400peers on 0chan..I don't understand this,cause in theory everybody should see the same amount of seeders from the tracker.Than how can that happen,that everyone sees different amounts...strange.\n\nThere are several ways in which ZeroNet can discover peer addresses. Peers addresses are fetched from trackers every 3 hours. Peers addresses, including `.onion` addresses, are exchanged between known peers. Once obtained, peer addresses are stored on the hard disk and will be loaded immediately at the next bootstrap. In addition to this, ZeroNet features a developing mechanism of down-voting slow peers.\n\nThe peer count you see depends on how much time you spent on ZeroNet.",
+				"added": 1485985032
+			}
+		],
+		"1_1DxWcQsQ5cEBqXgc94pKWtzRo6Xn3iWsnK": [
+			{
+				"comment_id": 118,
+				"body": "ZeroNet is NOT an anonymous network. cops are coming.",
+				"added": 1485985382
+			}
+		],
+		"1_1JCX1dUow9XuawEHFBjuNA3n9fncto8KwW": [
+			{
+				"comment_id": 119,
+				"body": "This is ZeroNet. This is not ZoeNet. [0List](http://127.0.0.1:43110/0list.bit/)",
+				"added": 1486373013
+			}
+		],
+		"2_1GNdkBSxTw6SpRdGHxDCyfANXnwi7FG7rJ": [
+			{
+				"comment_id": 120,
+				"body": "Its UI looks really _retro_. I like the idea of PGP integrated F2F network, but I have trouble making RetroShare working.",
+				"added": 1486634051
+			}
+		],
+		"3_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 121,
+				"body": "Go to `ZeroNet/data/1YourSiteAddress/css/`.",
+				"added": 1486686219
+			}
+		],
+		"1_1PeirVr8v5FWFre6TPF9GdJY3gSDY56ZRe": [
+			{
+				"comment_id": 122,
+				"body": "Sure. https://angularjs.org/",
+				"added": 1486686354
+			}
+		],
+		"1_12wGEUrb2N4oeNxs7bEjcV5GJe8VP9Cdsq": [
+			{
+				"comment_id": 123,
+				"body": "Libre and Open Source is the baseline of privacy software. Never trust a proprietary software for its security and privacy. I felt a little disappointed when I saw there was no actual code pushed to Demonsaw's [GitHub repository](https://github.com/demonsaw).\n\nThe moderator of https://reddit.com/r/privacy emphasizes that:\n\nIf you find privacy related software, services or subreddits you think are great please run them by the mods before you post them. **Close source software is not permitted.**\n\nThe promotion of **closed** source privacy software is **not welcome** in /r/privacy. By its nature you can not verify easily that it does what it claims and as a result this puts your privacy and security at risk.",
+				"added": 1487485964
+			}
+		],
+		"1_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 124,
+				"body": "It is definitely a threat to Git, but it is not a threat to ZeroNet **network protocol**. The protocol uses sha512 and Bitcoin's curve rather than sha1. The \"infohash\" of each site is just the sha1 hash of the Bitcoin address and is only used to aggregate peers together.",
+				"added": 1488068939
+			},
+			{
+				"comment_id": 125,
+				"body": "```python\n>>> import base64\n>>> import hashlib\n\n>>> s = hashlib.sha512(\"Replace SHA-1 with stronger message digest functions!\").digest()\n>>> base64.b32encode(s)\n'EYVH4MBTKSZQOARCINCZZXUARJFP2SY4GXZITGS27VSZKUANE27XMNUZZ52O6UP6GUKS3LMVSGWYVBKAL3CLY5AXKN4C4HDYLBY4J2A='\n>>> new_infohash = base64.b32encode(s).lower().strip(\"=\")\n>>> new_urn = \"bsha\"\n>>> new_maglink = \"magnet:?xt=urn:%s:%s\" % (new_urn, new_infohash)\n>>> new_maglink\n'magnet:?xt=urn:bsha:eyvh4mbtkszqoarcinczzxuarjfp2sy4gxzitgs27vszkuane27xmnuzz52o6up6guks3lmvsgwyvbkal3cly5axkn4c4hdylby4j2a'\n```",
+				"added": 1488070093
+			},
+			{
+				"comment_id": 126,
+				"body": "Tor Hidden Service also uses SHA-1 as the digest algorithm of public keys. Fortunately the Tor Project is moving very fast to adopt the next generation Tor Onion Services.",
+				"added": 1488070889
+			}
+		],
+		"1_1H1GKxHTUrNaP34cFdgAfTUJ8tpktSXAu2": [
+			{
+				"comment_id": 127,
+				"body": "**StaticGen**",
+				"added": 1489465031
+			}
+		],
+		"2_1JwPBvZYXLJzrA6YisjpsyTuuieFLCARS6": [
+			{
+				"comment_id": 128,
+				"body": "`\".git\"` should be `\"\\\\.git\"`. It is a regular expression.\n\n`\"files_allowed\"` defines the allowed required files. In Red Hub, it says `(data.json|avatar.jpg|avatar.png)`\n\nEach user has to define his or her own optional file rules in his or her own `content.json`. For instance, your own `content.json` in the Hub says `\"optional\": \"(?!avatar).*jpg\"`",
+				"added": 1490233187
+			},
+			{
+				"comment_id": 130,
+				"body": "```\n>>> import re\n>>> help(re.match)\nHelp on function match in module re:\n\nmatch(pattern, string, flags=0)\n    Try to apply the pattern at the start of the string, returning\n    a match object, or None if no match was found.\n\n>>> re.match(\"\", \"path/to/any/file.jpg\")\n<_sre.SRE_Match object at 0x0000000002D559F0>\n```",
+				"added": 1490235956
+			}
+		],
+		"1_1PJ3ZFAEWRBbNRvHX6BjwECWvJk3v8JrGh": [
+			{
+				"comment_id": 129,
+				"body": "Resilio Sync?",
+				"added": 1490234602
+			}
+		],
+		"1_1CaKMBzYVUN9x1WwzU5WPBaZYU7Nkn3uGK": [
+			{
+				"comment_id": 131,
+				"body": "gpg --import public_key.asc",
+				"added": 1491035330
+			}
+		],
+		"1_1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b": [
+			{
+				"comment_id": 132,
+				"body": "Discussion on ZeroMe: http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/1491244225",
+				"added": 1491455455
+			}
+		],
+		"3_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": [
+			{
+				"comment_id": 133,
+				"body": "> [border0464fred](#comment_122_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): Have you done it ?  or you are asking someone else to do it ?\n\nI am planning to do it, but I feel it is too hard to do it alone.\n\nI found that some code in ZeroNet handles malicious input by explicitly throwing an unexpected exception, which is noisy for testing.",
+				"added": 1491625234
+			},
+			{
+				"comment_id": 134,
+				"body": "> [brahman](#comment_3_17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb): quite strange i was just investigating fuzzing, and now i find this, it would be really nice for me to learn something if you post a good tutorial of what you already accomplish.\n\nI'll write about the glitches discovered and some ways to reduce logging noise.",
+				"added": 1491731016
+			},
+			{
+				"comment_id": 135,
+				"body": "Here is the fuzz testing repo: http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC/1491812671",
+				"added": 1491813024
+			}
+		],
+		"1_1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x": [
+			{
+				"comment_id": 136,
+				"body": "Don't click on NSFW pics. (Normally they won't be downloaded unless you click on them and make ZeroNet request for them)\nDon't seed those illegal sites.",
+				"added": 1492990242
+			}
+		],
+		"1_1PhJvd1cbGDqEBcCr2gbDuEopCtBtVB9BP": [
+			{
+				"comment_id": 137,
+				"body": "That's a link to YouTube. => You are testing markdown formatting.",
+				"added": 1494053528
+			}
+		]
+	},
+	"comment_vote": {
+		"19_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT": 1,
+		"804_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"37_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": 1,
+		"833_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"834_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"135_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"865_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"20_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1
+	}
+}

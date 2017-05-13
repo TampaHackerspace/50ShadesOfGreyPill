@@ -1,0 +1,52 @@
+{
+	"next_post_id": 4,
+	"next_comment_id": 2,
+	"next_follow_id": 3,
+	"avatar": "jpg",
+	"user_name": "Leopoldo",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1485280506,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1485280691,
+			"body": "Testeando",
+			"date_added": 1485280689,
+			"meta": "{\"img\":\"900,600,000111222455556123677777223456566233,000000000001112210001111341100115567810011559A211001118B11501111110010\"}"
+		},
+		{
+			"post_id": 1485283800,
+			"body": "Hola",
+			"date_added": 1485283797
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Johndark: Gracias por la bienvenida, John",
+			"post_uri": "1EPhZoJxikVTvLohs92tqxsqYRT2YmJKFH_1485283800",
+			"date_added": 1485284025
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1PGFKCfMSL1QdudndfYCo4mGM8E8XKzMMG",
+			"user_name": "Roberth Castaño",
+			"date_added": 1485283845
+		},
+		{
+			"follow_id": 2,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1JHQA9oFkFpFFRiscyT4N71AKLWg46pQ92",
+			"user_name": "Fre3neT",
+			"date_added": 1485283936
+		}
+	]
+}

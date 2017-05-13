@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G5+Ze5EIbgnquD/8bIQYOea5F0ZqbhmnOKtUhw+KxTUDPeEv6ZUPXsrjoAi/pnO+clPU42SpwMsu03rhWL/6uP0=",
+ "cert_user_id": "picueto@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "c7947705c891a1e37c90a97a5921752b470967a8d04c730a3fb2ec41e52842ad",
+   "size": 547
+  }
+ },
+ "files_optional": {
+  "1488402713.jpg": {
+   "sha512": "a3f4f3c9596b86e3643a9ae654fe53693dbe856b379a9f249947d75436e64dfe",
+   "size": 27880
+  }
+ },
+ "inner_path": "data/users/15K2PmhdHLh1d8aUujnnQHh2wQVuetZP5x/content.json",
+ "modified": 1488402711,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "15K2PmhdHLh1d8aUujnnQHh2wQVuetZP5x": "G0Rifcaz7PC0wPMey4SGx3zj0l8z8EBXpKt++CQ47cLqScpGoL0LcCKXslscWh38RNQU9lgOuw8jjU9hFUPpT6o="
+ }
+}

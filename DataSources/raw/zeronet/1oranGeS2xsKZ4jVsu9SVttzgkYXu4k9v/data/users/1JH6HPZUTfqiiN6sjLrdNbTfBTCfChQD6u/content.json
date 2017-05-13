@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G7O1pTehQmZMiQgVArlLyIoIUUauxKV4cAErRgz9v3k5UoCgh855khY4Mykfaxi4gGKU1OxvcpPFYYjEeyNowY4=",
+ "cert_user_id": "wisbold@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "44503ba3b1c39da167484eed555ec866290ee923dd5e200ea7fb4594b14ee49f",
+   "size": 440
+  }
+ },
+ "inner_path": "data/users/1JH6HPZUTfqiiN6sjLrdNbTfBTCfChQD6u/content.json",
+ "modified": 1488545345,
+ "signs": {
+  "1JH6HPZUTfqiiN6sjLrdNbTfBTCfChQD6u": "HABxOw4FDu0fXUNlPGy6DBeIiC02JD8Xc5vKVop0gnPCDh87FY3JAnfA5pwPspqIgysbackrdFFkb+WgbI9mP8U="
+ }
+}

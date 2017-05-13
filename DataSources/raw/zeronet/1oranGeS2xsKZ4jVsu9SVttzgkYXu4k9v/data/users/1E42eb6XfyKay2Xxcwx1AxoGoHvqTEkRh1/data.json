@@ -1,0 +1,32 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 1,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Fred2016",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "新 ZeroNet 用户",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1481297240,
+			"body": "你好 ZeroMe!"
+		},
+		{
+			"post_id": 1481297264,
+			"body": "新人多多关照",
+			"date_added": 1481297262
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1E42eb6XfyKay2Xxcwx1AxoGoHvqTEkRh1",
+			"user_name": "Fred2016",
+			"date_added": 1481297288
+		}
+	]
+}

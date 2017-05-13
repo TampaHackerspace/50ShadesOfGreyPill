@@ -1,0 +1,51 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 4,
+	"avatar": "generate",
+	"user_name": "Steelferret",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1488579306,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488938689": 1488972473,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1487723655": 1488972490
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Guess we'll just have to self-govern ourselves and try to play nice.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488842530",
+			"date_added": 1488892965
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp",
+			"user_name": "Loligod",
+			"date_added": 1488888074
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17VVNL4EzWGK5UBVQakDK8EjSTmZk1KWhX",
+			"user_name": "Unixy",
+			"date_added": 1488888786
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB",
+			"user_name": "Nekololi",
+			"date_added": 1488891903
+		}
+	]
+}

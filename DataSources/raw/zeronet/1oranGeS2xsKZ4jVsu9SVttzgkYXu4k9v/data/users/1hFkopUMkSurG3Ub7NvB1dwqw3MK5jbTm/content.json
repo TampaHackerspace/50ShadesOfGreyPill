@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HCTSDguzWMbGN3h3YFl7po8JyDfsFLHRwlT+sQ7L0lxPchuH/8iKmCIYawFc1GJvCVmCGcm+wdF+uCnPV9bRzdQ=",
+ "cert_user_id": "francaisdesouche@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "6cd8071f2d0cb586016d80f693e36a545c394f9f7d5e6cc2b2a15e0356db40be",
+   "size": 7303
+  }
+ },
+ "files_optional": {
+  "1488640026.jpg": {
+   "sha512": "97cf2dc1b8621dcf5abed6eb4417c7febf7e79f16b83a43ac645e086d4497f58",
+   "size": 59203
+  }
+ },
+ "inner_path": "data/users/1hFkopUMkSurG3Ub7NvB1dwqw3MK5jbTm/content.json",
+ "modified": 1493136409,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1hFkopUMkSurG3Ub7NvB1dwqw3MK5jbTm": "G3SXdVc9X/bHWQs07VrM4h6elbaS1y+welI9UJRMRWuvjtW+SnwlVHjuY09bfnDam0LE4dVUSPXVmG03OPhy3CY="
+ }
+}

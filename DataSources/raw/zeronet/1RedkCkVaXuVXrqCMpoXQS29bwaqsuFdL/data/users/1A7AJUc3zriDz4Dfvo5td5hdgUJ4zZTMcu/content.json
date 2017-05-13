@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G5YITsh9luyeyU4WUnVtME+oe4OouuE2rTdmfRmcJf8Jn+d6WWGppPSdDTEeSLWsqwlQ3+62peDsvg22+J4h4Cc=",
+ "cert_user_id": "roguespear@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "0dd79c6a508fe9bc443a5f3e74e7258408d18756f2937e87b7b8711d250c11bd",
+   "size": 6562
+  }
+ },
+ "inner_path": "data/users/1A7AJUc3zriDz4Dfvo5td5hdgUJ4zZTMcu/content.json",
+ "modified": 1485167242,
+ "signs": {
+  "1A7AJUc3zriDz4Dfvo5td5hdgUJ4zZTMcu": "Gwg5zPcBY4GT57q1MSsQXrkQl3EbSALdNf45L9QwhOy9+8CMaHKbV2y/lX0eu7OrhXYAakQv6ibdFcsNoGb/BbI="
+ }
+}

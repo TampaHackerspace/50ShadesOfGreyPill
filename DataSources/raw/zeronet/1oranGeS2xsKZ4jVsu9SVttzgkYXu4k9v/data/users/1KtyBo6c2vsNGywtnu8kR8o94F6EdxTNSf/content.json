@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G9ye2VL9O0rggHxGckuWXQoAluJNEic8WoLOTvf4hL8No3WHJB7+NL4GvV0jSKq/aNLN+1nXq/3W6hI6PCMc4EA=",
+ "cert_user_id": "neochapay@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "a64f781a201e84562e807c0fee6680f28e9ae15fb1c3f7badc3d16bf551e2b01",
+   "size": 1588
+  },
+  "data.json": {
+   "sha512": "ab2e4b7cfa7ecbdae0fe864242ad079ce4e150ddd2b999323a3aa1381220dbe8",
+   "size": 680
+  }
+ },
+ "files_optional": {
+  "1480403906.jpg": {
+   "sha512": "f8e886b2fd1fbbddd077554fe4f2616bbc8e074e17e8e7f4532c14d9200c84e8",
+   "size": 157691
+  }
+ },
+ "inner_path": "data/users/1KtyBo6c2vsNGywtnu8kR8o94F6EdxTNSf/content.json",
+ "modified": 1480403903.841016,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1KtyBo6c2vsNGywtnu8kR8o94F6EdxTNSf": "G5ZQAOSaDb9EM7pY1jpLOG4xuaqkHmj/ElTvqrb5poHZkc6O+58NYx/BnyOtHtiXSEECBFncgxyJt2m/3uYr6rA="
+ }
+}

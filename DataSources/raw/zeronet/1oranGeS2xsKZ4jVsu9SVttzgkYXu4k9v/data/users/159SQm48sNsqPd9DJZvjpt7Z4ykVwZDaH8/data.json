@@ -1,0 +1,33 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 1,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Blackcat",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484506207,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1484506260,
+			"body": "Привет крошки",
+			"date_added": 1484506258,
+			"meta": "{\"img\":\"560,700,a98765543222332544433221665555111554877333766,00123345678779A37B033CAAA147A57A6D3D75AA6833D24733373DD373333647A7373533EDAA763D\"}"
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1e8YB1DA5f8CZKnhEveGhwomQuTE68r8b",
+			"user_name": "The Boss",
+			"date_added": 1484506873
+		}
+	]
+}

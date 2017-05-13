@@ -1,0 +1,28 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "Gx4S+35Rbs69qzzZPwPEnk9u/iHOx3dFB8xjAwbRUEa+uCFbEfKJDX/ud0A4oj0p81C+wEJ921Yr6MEuVaI7DBE=",
+ "cert_user_id": "tina@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "07b073057a6fc38be25f812b5a5b293c473d78a01d13591ef114e5c5c98d1ccf",
+   "size": 1704
+  },
+  "data.json": {
+   "sha512": "c9a31664b6951fb3fedb5000d5d14d89a7e130516368eec0af8c308ba7a913a7",
+   "size": 1695
+  }
+ },
+ "files_optional": {
+  "1486481351.jpg": {
+   "sha512": "6fcd17325e74f81dce2f0c02cd3af3da0f7b807a431b17e4a1defff5e82c4fbe",
+   "size": 6963
+  }
+ },
+ "inner_path": "data/users/1ogKPnZWjCoXWhQUk9QXExE1Y5nBEfgYr/content.json",
+ "modified": 1487179384,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1ogKPnZWjCoXWhQUk9QXExE1Y5nBEfgYr": "HKw6wbKw3xnjmwnsaNSngGdQybMwHrUQoGWK7LMI2/Ri0utH9NJFBipj9fbNDBlIxOuaFnzECoYNRaszC4ZOX0E="
+ }
+}

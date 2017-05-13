@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HHuezLug8LWBhlGbLCc9tqPE2PnCk6QudSnJQ27LT1fsrZlyZH+JBtDJcYXsJECCr0xKm+wJ6EBKg3dVkTZ9DtU=",
+ "cert_user_id": "mango120815@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "053af84f17252ef7cdc132ada7565bc9db3634997d3edd5dc8f3e9e43d7d68f1",
+   "size": 1925
+  }
+ },
+ "files_optional": {
+  "1485506500.jpg": {
+   "sha512": "00f27d43aa913a532312ba73b538c8d3d483112b9fd7c995eddb0aedf76367a9",
+   "size": 115396
+  },
+  "1485564194.jpg": {
+   "sha512": "e2c74500eeda98d3b3d4d4bb52af91864a1348613d0a9c3b1d6b5ceb3e7281d0",
+   "size": 71668
+  }
+ },
+ "inner_path": "data/users/12eVvFtCGFebK1FiWwVAuH79DyPjYKZc8q/content.json",
+ "modified": 1488294979,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "12eVvFtCGFebK1FiWwVAuH79DyPjYKZc8q": "Gx2j/FenwyKYAom+cZ2k+2mSz91s+gdFuopA4TeOV3D/LruYXlbhyYRSIk74/ZcFXt2dRnOnbLQK5eTnFy22deU="
+ }
+}

@@ -1,0 +1,25 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"1_16EGCX1cmogYo2EPidRU3axQ6N3jNQndoa": [
+			{
+				"comment_id": 1,
+				"body": "> [whitemask](#comment_2_1FnQQkQ4AwjwBhbz61RmqPazDrvdBGy79K): faster than tor\n\nFaster, but less secure - which is the point of the question.",
+				"added": 1485582867
+			}
+		],
+		"1_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": [
+			{
+				"comment_id": 2,
+				"body": "> [jsilence](#comment_20_1JoKQwXPzK8uyvMCRcwvMSAJPD5S4aH5Vt): Please create an Ansible script for automated setup of the Pi and host at Github or Gitlab. This way others can easily replicate this setup. Possible starting point (sans the Arduino stuff): https://gitlab.com/urbanisten/ansible-pi-arduino\n\n404 - page not found. :(",
+				"added": 1485583031
+			}
+		]
+	},
+	"comment_vote": {
+		"6_1GNdkBSxTw6SpRdGHxDCyfANXnwi7FG7rJ": 1
+	}
+}

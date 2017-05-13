@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GwaQwsJXRb1uB98yGUnzfLxD89umo4uDeT7TDdeaQSraw9LugvzihKMnQAe04CiyD03+dGj7bgolQqluWY00Xcg=",
+ "cert_user_id": "swagstika@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "bea3a8fa0b28d88dc78da05a0999752742ebc5f31ff2576c99169d669be42a27",
+   "size": 589
+  }
+ },
+ "files_optional": {
+  "1490842743.jpg": {
+   "sha512": "1a22920d2fba97953ccd045c6e4caaba836114fa5e6ea1f8d92f17a955da67eb",
+   "size": 56379
+  }
+ },
+ "inner_path": "data/users/1EgqAT7i9ipPjsMa5axHKjmLGbdttKd4E1/content.json",
+ "modified": 1490842759,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1EgqAT7i9ipPjsMa5axHKjmLGbdttKd4E1": "HIBI42dGATZRiLwI+IsNJAtYUv6xSpoYCUc/K7RyccM/tJsN0gcHMPE0uD9cbjLZZCOFvjTrduGyumbEHtXYvHY="
+ }
+}

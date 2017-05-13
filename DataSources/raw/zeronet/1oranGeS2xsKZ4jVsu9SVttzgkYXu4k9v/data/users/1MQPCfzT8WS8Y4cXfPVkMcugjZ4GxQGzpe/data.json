@@ -1,0 +1,34 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 1,
+	"next_follow_id": 6,
+	"avatar": "generate",
+	"user_name": "Aurorazero",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random Cats?!",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484499901,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1e8YB1DA5f8CZKnhEveGhwomQuTE68r8b",
+			"user_name": "The Boss",
+			"date_added": 1484499927
+		},
+		{
+			"follow_id": 5,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf",
+			"user_name": "NotYourBit",
+			"date_added": 1484506317
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"next_post_id": 4,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Betepawa",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1490829025,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1490829973,
+			"body": "пикрандом",
+			"date_added": 1490829971,
+			"meta": "{\"img\":\"900,675,b23b88988baacbb722a98a55764933876743853865521963,000012344300501233360789AA3336BA8CD864332342AE8632D2622A81438F68D8D6DAA23ADD66D2\"}"
+		},
+		{
+			"post_id": 1490885736,
+			"date_added": 1490885733,
+			"meta": "{\"img\":\"700,700,544754766964967965c87a87b99dccbaaa56c79eeeedd433,0012343121001333352201226778741112989A3534A799B8342CCDEA88214352E97982F255551810218733720111A865A0FF\"}"
+		}
+	],
+	"post_like": {
+		"16zq7grzS9W8rDKyqahF7pPXLGpr8Kw8vZ_1490686361": 1490831680
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Смотря что подразумевается под \"русский\".",
+			"post_uri": "1BsJQJNAc4bhf2J8hMYinAvRifMsz5anLv_1490539703",
+			"date_added": 1490832053
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1L7rUF9yPb5zHAaLcBeFApPWAfjBThGtvh",
+			"user_name": "jUUROPA",
+			"date_added": 1490831980
+		}
+	]
+}

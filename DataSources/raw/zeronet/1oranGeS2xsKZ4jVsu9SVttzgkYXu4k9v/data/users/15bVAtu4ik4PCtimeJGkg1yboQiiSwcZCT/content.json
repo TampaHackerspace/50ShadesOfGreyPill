@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HLs4M8TzoakgEVOhrqc2Ge2/MPZuAjiZVzh0LED9ukDJB8gt+4Op5kBdwt3aHorjhFVBBIpnW+oHxwjciwtGdeM=",
+ "cert_user_id": "hanpullthefoot@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "41102281be3c44d8694e3838a3e94dedc1053975938fba3d1e1e5fe92536aedb",
+   "size": 1854
+  },
+  "data.json": {
+   "sha512": "d768278014ff64a90853a59b9dd3c9f2a5160ffa8cddeea7363898def02359d3",
+   "size": 349
+  }
+ },
+ "inner_path": "data/users/15bVAtu4ik4PCtimeJGkg1yboQiiSwcZCT/content.json",
+ "modified": 1489715426,
+ "signs": {
+  "15bVAtu4ik4PCtimeJGkg1yboQiiSwcZCT": "GwMfn6da6wOQoTm7H+qb/NWBCQkG1UKBou2jSMucEIiy9Q/lqkGse7HVMGhvXrSE0JqCF8/hZU6M8EiY0/E4Jp4="
+ }
+}

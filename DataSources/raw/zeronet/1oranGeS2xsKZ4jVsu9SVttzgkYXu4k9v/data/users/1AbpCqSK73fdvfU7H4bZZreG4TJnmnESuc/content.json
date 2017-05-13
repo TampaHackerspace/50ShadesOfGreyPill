@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G8Lj2DVR9Fnan/pEiwp3Rwmh3IgIYbNQ9Su+cPtGhIWxFytBF83ZxliQxgoLHLU6fIB5cTKvqB1kEfRHQp84Nl4=",
+ "cert_user_id": "usbstick@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "bbff84b0964075d35a6b22759ff6d04e513676adf57b11172f19e48d89f7b541",
+   "size": 339
+  }
+ },
+ "inner_path": "data/users/1AbpCqSK73fdvfU7H4bZZreG4TJnmnESuc/content.json",
+ "modified": 1486976890,
+ "signs": {
+  "1AbpCqSK73fdvfU7H4bZZreG4TJnmnESuc": "G6KQpVHk8Tdlp9Pa6+u/0Arj7WCVApbaObMZqJqN5oifJUgTZdkUtbR2sJ7ZrxSn3Go9JY239mGk+GXubXEfz8o="
+ }
+}

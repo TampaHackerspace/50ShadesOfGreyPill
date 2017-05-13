@@ -1,0 +1,34 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Akslerted",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1480361060,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1480361115,
+			"body": "Just a test message! ",
+			"date_added": 1480361113,
+			"meta": "{\"img\":\"525,700,10111175454477765532399967945846915b433333555,00000001000123000001451000067810001179101111AB1111C681111125266616C22CDD6DD35ECD\"}"
+		}
+	],
+	"post_like": {
+		"1JYuciLWTsfRgvBFe2yMX38W61bbBSG6ra_1": 1480361163
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "comment here! strange thing",
+			"post_uri": "1JYuciLWTsfRgvBFe2yMX38W61bbBSG6ra_1",
+			"date_added": 1480361182
+		}
+	],
+	"follow": []
+}

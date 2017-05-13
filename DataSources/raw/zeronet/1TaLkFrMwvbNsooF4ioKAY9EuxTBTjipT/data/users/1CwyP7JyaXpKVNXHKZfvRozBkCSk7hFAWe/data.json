@@ -1,0 +1,42 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 6,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "I will get a flash after 5 peers are able to seed this comment.",
+				"added": 1466694184
+			},
+			{
+				"comment_id": 2,
+				"body": "Demoing the comment publishing again...",
+				"added": 1467054762
+			}
+		],
+		"2_12zyC2je1V8Sfq6C5d6CSzUkjYf4bEdva4": [
+			{
+				"comment_id": 3,
+				"body": "If @vahcam speaks about trackers only, he should check this part of the code:\nhttps://github.com/HelloZeroNet/ZeroNet/blob/81f196647b10e9086c159e3458f50f0437423355/src/Config.py#L32\n\nI agree with him though that there are still parts of ZeroNet that need more decentralization. It will improve with time though.",
+				"added": 1467799614
+			}
+		],
+		"2_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": [
+			{
+				"comment_id": 4,
+				"body": "Well, there are many anti-semitic people. I even know many jews who are anti-semitic :) On the clearnet they are censored, here they are not. It is a great challenge for the decentralized internet to provide everyone a comfortable [filter bubble](https://en.wikipedia.org/wiki/Filter_bubble) like on the clearnet, but one that anyone can look out from when they feel strong enough.",
+				"added": 1487167942
+			}
+		],
+		"8_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": [
+			{
+				"comment_id": 5,
+				"body": "Only if you trust him too much. All the software is open-source, all the algorithms are public. There are a few centralized points though, most of those are not controlled by nofish. Trackers are not his stuff, portchecker is not his stuff. Some of the startup zites are controlled by him, but if you fork the code, you can replace them with your own zites (like ZeroHello).\n\nThe real question is, can NSA destroy ZeroNet? :)",
+				"added": 1490015295
+			}
+		]
+	},
+	"comment_vote": {}
+}

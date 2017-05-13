@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HDIm4gf3kqYkTyRpRnbUHpXpIDU/kq7ar6yKq//l49w37Lgvn3RxVcO2CLY2Owk+LhWobys1P+6PgC52aQCIW1g=",
+ "cert_user_id": "amfonco@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "b0663597f5dafbf78585bb4a345b91bd3954f998d556ca49602b2161febfb24f",
+   "size": 515
+  }
+ },
+ "inner_path": "data/users/18CLJH8BZEufmQheGSSaqxHEwwrMvGuNaK/content.json",
+ "modified": 1482933209.617587,
+ "signs": {
+  "18CLJH8BZEufmQheGSSaqxHEwwrMvGuNaK": "HDNog/kAx0ABatcIMtDR3II9X7vTs5BJSWOqhs+pLTmRjYOU1UxyEJjHOsq4KlkimXU0UcVGseWQgFdU0v2WTdY="
+ }
+}

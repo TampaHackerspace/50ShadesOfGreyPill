@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HF8H6hriHl1IkLjB5xzKVvqeki2C7MgN+TwMB9CUqjk1gnz5xs3cHVcGrMXSb4rNY2toQflvWwK6emBEvlK6cDM=",
+ "cert_user_id": "avix@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "07147503af2c2f85d1f9101ee39e1e5fd3a7ee58408455f9b28b6f9dcafb7077",
+   "size": 1014
+  }
+ },
+ "inner_path": "data/users/1FKz1gMjBGdRd26tfZZenr4KELEqwLD681/content.json",
+ "modified": 1490575449,
+ "signs": {
+  "1FKz1gMjBGdRd26tfZZenr4KELEqwLD681": "HGeLhg1G9TAW9Ntsv26tgH/vgq+c+stWjPoUZ2WbcIZPoRfJ2vojxv39SfZ7Q2eW7Ml4SaK+Ygnv2d6rfgEWsGE="
+ }
+}

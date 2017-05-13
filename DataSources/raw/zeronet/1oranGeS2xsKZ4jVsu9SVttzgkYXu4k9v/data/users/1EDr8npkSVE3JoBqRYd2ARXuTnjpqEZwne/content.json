@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HA5qzEyOv1F/wYXPARXZAB1WhjYQOqIaqkPfUI2VcMSKISz6gkd7KTfsvS0IcFqu7APGhiMPS8kBusevR+hwD4A=",
+ "cert_user_id": "artificialflower@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "b4c76f7253337a1b1245813034ac03c49c10f90db30eac0ed928d954a4834833",
+   "size": 1780
+  },
+  "data.json": {
+   "sha512": "3b30742bfe242e1513b2d5f4a8c9c736a7d70342e429893baa57b06e1a79f58d",
+   "size": 450
+  }
+ },
+ "inner_path": "data/users/1EDr8npkSVE3JoBqRYd2ARXuTnjpqEZwne/content.json",
+ "modified": 1488992430,
+ "signs": {
+  "1EDr8npkSVE3JoBqRYd2ARXuTnjpqEZwne": "HGn0xj9ILMf1gZGMX4nMTbgBw5/qjXbli+jAOFHzC2twpP8/b1TaRvpDXLlvcyiTKkakEeg3Up+zrDx+uJbYPcU="
+ }
+}

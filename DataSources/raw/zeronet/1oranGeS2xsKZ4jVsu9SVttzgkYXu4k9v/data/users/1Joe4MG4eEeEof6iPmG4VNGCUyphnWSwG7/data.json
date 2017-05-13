@@ -1,0 +1,45 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 3,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Canyoubelieveit",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1479808830,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1479809824,
+			"body": "Wow this is a quick growing network",
+			"date_added": 1479809822
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Hi doctor nick!",
+			"post_uri": "1K68pnhE33DCxLeAhDPPYZ8WpRv2uHPiB5_1479847897",
+			"date_added": 1479886078
+		},
+		{
+			"comment_id": 2,
+			"body": "Mojang Serge?",
+			"post_uri": "1HPG2UX7CcfeGwVoCAwGn5uURMvEtsMroz_1479734906",
+			"date_added": 1479886146
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1HPG2UX7CcfeGwVoCAwGn5uURMvEtsMroz",
+			"user_name": "Serge",
+			"date_added": 1479886166
+		}
+	]
+}

@@ -1,0 +1,542 @@
+{
+	"next_topic_id": 11,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Can the owner of ZeroTalk delete/modify any content here?",
+			"body": "I'm mainly interested if there is any safeguard ensuring that nobody (not even the owner of the Zite) can delete/modify the topic or comment added by somebody else. \n\nIf there is such a safeguard, please explain how does it work, and how can we check if a clone of this Zite also has that feature. \n\nIf there is no such safeguard, is it possible/difficult to create a Zite having that feature?",
+			"added": 1469655080
+		},
+		{
+			"topic_id": 2,
+			"title": "Why there is no search function on ZeroTalk?",
+			"body": "It would be really nice to be able to search trough topics.\n\n@nofis: Please, if you can, add at least some basic search functionality. \nAt least something like the one on [ZeroTorrent](http://127.0.0.1:43110/ZeroTorrent.bit).",
+			"added": 1469870718
+		},
+		{
+			"topic_id": 3,
+			"title": "ZeroBoard: Message submit failed! undefined [solved]",
+			"body": "Every time I try to submit something on [ZeroBoard](http://127.0.0.1:43110/Board.ZeroNetwork.bit/), I get the \"Message submit failed! undefined\" error message... :-(",
+			"added": 1470265910
+		},
+		{
+			"topic_id": 4,
+			"title": "Can it be told beforehand if a magnet link points to a trustworthy software or not?",
+			"body": "It would be nice to be able to tell before downloading the file if it corresponds to the unmodified or a compromised one. \n\nFor example, [ZeroLinux](http://127.0.0.1:43110/zerolinux.bit/) contains a really nice collection of magnet links. The only thing I miss is some assurance that the if we download an iso file using those links we get the unmodified versions. \n  \nTake for example the magnet link of Tails Linux 2.4:\nmagnet:?xt=urn:btih:e507dc3c0e30772fe561bbd78d627254495bd9be&dn=tails-i386-2.4\nIs it possible to tell from the bittorrent info hash (btih) if it corresponds to the unmodified iso file? \n\nI'm wonder if there is a good way to extend the [ISRtalk](http://127.0.0.1:43110/15CmNF5L1murN3UMb4fZMuWJtpq689JRhx/) SHA256 and MD5 hash sum database to gain trust in magnet links, too.",
+			"added": 1470577300
+		},
+		{
+			"topic_id": 5,
+			"title": "We should attract more people with web developing skills to ZeroNet.",
+			"body": "ZeroNet is really awesome. I do hope it is the future.\nI think in the current state what it needs most are more people who are capable (and willing) to create new Zites that worth to visit. \n\nAny ideas where from and how could we attract these kind of people here? \n\nI think the feature one can have webpages on ZeroNet without paying for a server could be quite attractive for some people... especially if we take it into account that Zites are also reachable from outside via [proxies](http://127.0.0.1:43110/zeroproxies.bit/).",
+			"added": 1470747317
+		},
+		{
+			"topic_id": 6,
+			"title": "How Free (as in freedom) is your system?",
+			"body": "Run [vrms](https://en.wikipedia.org/wiki/Vrms) and share your level of Freedom.",
+			"added": 1471807128
+		},
+		{
+			"topic_id": 7,
+			"title": "Internal error: Exception: Merger site (ZeroMe) does not have permission for merged site: 1NFiNiTYxiKn5PJo9eDEsiusJJUFkew5Vo",
+			"body": "What does that mean? How to overcome it?\nThe error message come up when I wanted to comment on a post on a profile I visited directly from ZeroMe.",
+			"added": 1472152316
+		},
+		{
+			"topic_id": 8,
+			"title": "Let's collect here some legal (and semi-legal) hidden services",
+			"body": "Please help me build here a collection of legal (and semi-legal) hidden services. \n\n\n_Legal hidden services:_\n- DuckDuckGo: http://3g2upl4pq6kufc4m.onion/\n- The Hidden Wiki:  http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page\n- ProPublica (independent non-profit public interest newsroom):  http://www.propub3r6espa33w.onion\n- Facebook: https://www.facebookcorewwwi.onion\n- Onion services run by the Debian project: http://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp_6\n- \n\n_Semi-legal hidden services:_\n- Sci-Hub: http://scihub22266oqcxt.onion/\n- \n\nI'm only interested in legal hidden services and semi-legal ones (that should be legal morally).",
+			"added": 1476966967
+		},
+		{
+			"topic_id": 9,
+			"title": "[Question] Can a ZeroNet account be closed?",
+			"body": "If not, what is the closest thing that we can do if we would like to close an account?",
+			"added": 1477637213
+		},
+		{
+			"topic_id": 10,
+			"title": "Which is your favorite unix shell? And why?",
+			"body": "You can also vote [here](http://127.0.0.1:43110/ZeroPolls.bit/?Poll:4-17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp).",
+			"added": 1487709529
+		}
+	],
+	"topic_vote": {
+		"14_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"1_12GC9MQGPcN7PiMoRYVyZX66PnQjZKUpf2": 1,
+		"3_13y1BVkYsWXbNMjdk2PrRVwpuXqohTRNHi": 1,
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": 1,
+		"1_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"2_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"1_1HMgJTFYY57XoH9wpBJHQZsWPvwsRp1WHX": 1,
+		"4_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"10_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"1_1MYfK6tM4vfBJ8SHvbZ8sMH4u6o9mSRPWU": 1,
+		"8_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"2_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"24_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"11_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"2_1mytj22YfKjQujw9Fo43WBwSJB658vqyY": 1,
+		"3_13Mt8T2256Uz4GHk9B4XvKqyz37wPgA26q": 1,
+		"3_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"8_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"1_16XR1GVbekHSMMoUZ5pTQWFpq2anbkHgrC": 1,
+		"1_1P6rReMY7WD7qNmUXntLJoa1XptgiHkhz3": 1,
+		"1_1MxinCGP4R54Rxxmig41K132aGrUJgwq4A": 1,
+		"1_1BFMV9uKFo1S3suDBbWvcaNBorRMm6mDRe": 1,
+		"8_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"9_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"2_13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31": 1,
+		"6_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"2_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc": 1,
+		"7_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": 1,
+		"10_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"2_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": 1
+	},
+	"next_comment_id": 62,
+	"comment": {
+		"2_1aDHG1wjqZ9BuF1PoPwtPqZsrnu7NZHGR": [
+			{
+				"comment_id": 1,
+				"body": "> [sbeee](#comment_26_13k6itGVhzLTZUZKiqWWJ5KdvVUEMqDWDv): no peers found :/\n\nTry again, I see 18 peers now.",
+				"added": 1469523738
+			},
+			{
+				"comment_id": 2,
+				"body": "@talk: Can you please add some white \"quite zone\" around the generated image symmetrically? \n\nIt will make your QR Code Generator unquestionably better than the one we are already playing with in this [0Chan thread](http://127.0.0.1:43110/0chan.bit/?/b/thread/596e394df4bee5a8164942fa8a4b6b63).",
+				"added": 1469524587
+			}
+		],
+		"14_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 3,
+				"body": "> [zeroexef](#comment_6_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): The idea is that we verify the one on their site (by having several people download and hash the files), then ours are more reliable because we've distributed the result.\n\nOkay, you got my attention.\nCan you please explain it in more detail because I'm not sure I get it, but I'm interested.",
+				"added": 1469525766
+			},
+			{
+				"comment_id": 5,
+				"body": "> [zeroexef](#comment_7_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): It's not foolproof, but if have a bunch of people download the software (pref. from different countries, areas, whatever), and we take the most common version across the world (everybody rums an md5sum, we discard anything that doesn't match the majority), then we can 'ensure' the software is genuine. This way if anybody tried to modify the original website (and md5sum posted there) in any single country/area (e.g. MITM), we would be able to show that that version isn't the same as the one everybody else has.\n\nCount me in. \n\nI can contribute with the following: if you provide me a list of Download links, I can automatically Download all the files and generate the a list of SHA1 and MD5 sums. As a proof of concept, I have generated this list: http://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp_0",
+				"added": 1469552982
+			},
+			{
+				"comment_id": 7,
+				"body": "> [zeroexef](#comment_13_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): http://127.0.0.1:43110/15CmNF5L1murN3UMb4fZMuWJtpq689JRhx\n\nCool. That was fast.",
+				"added": 1469608059
+			},
+			{
+				"comment_id": 8,
+				"body": "> [zeroexef](#comment_13_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): http://127.0.0.1:43110/15CmNF5L1murN3UMb4fZMuWJtpq689JRhx\n\nTo encourage and help people to contribute to the database, here is a simple Bash script that auto generates all the important info (file name, timestamp, source, sha256 and md5 sums) from a download link (they just have to copy-paste the outcome in the corresponding topic): [0isrsum.sh](http://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp_2)",
+				"added": 1469696259
+			},
+			{
+				"comment_id": 9,
+				"body": "> [zeroexef](#comment_17_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf): So I got the optional files up and running. If you can spare ~600MB it would be a huge help if you all could go to the site enable all optional files.\n> \n> Just drag the 0 in the top right corner to get to page settings, then scroll down and enable \"Download and help distribute all files\"\n\nIt took two days to download, but now finally I have and seed them all... =)",
+				"added": 1469831941
+			},
+			{
+				"comment_id": 12,
+				"body": "I have improved the data generating script. Now [0isrsum.sh](http://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp_3) works with both links pointing to files and with files that are already downloaded.",
+				"added": 1469972701
+			}
+		],
+		"3_13y1BVkYsWXbNMjdk2PrRVwpuXqohTRNHi": [
+			{
+				"comment_id": 4,
+				"body": "> [sbeee](#comment_28_13k6itGVhzLTZUZKiqWWJ5KdvVUEMqDWDv): error when I click on the torrent links , XUL error ;o\n\nTry to set an application for opening magnet links in your browser.",
+				"added": 1469551757
+			}
+		],
+		"3_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 6,
+				"body": "If this is a bait, it is a good one.\n\nBut if you are serious, then I think you are the one missing the point of ZeroNet. \n\nThe following is from http://zeronet.io/:\n> We believe in\n> open, free, and uncensored\n> network and communication.\nThe word \"uncensored\" is literally in their slogan. So banning politics from ZeroNet is a ridiculous idea. \nOf course, banning it from certain Zites (especially from your Zite) is a different thing. \n\nBy the way, I also hate politics. However, there are times when we should not stick our heads in the sand. So I would not even agree with you if you were only arguing for banning politics completely from ZeroTalk.  \n\nNevertheless, I agree with you in that it matters a lot what kind of content we fill the first Zites. And that depends only on us, but I don't mind that the main powers we have here against trolls is ignoring them and not joining them. \n\nFinal thoughts: It is worthless asking trolls to behave nicely. It is better asking the others to ignore them and to fill ZeroNet with quality content instead.",
+				"added": 1469606001
+			}
+		],
+		"2_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 10,
+				"body": "@nofish & @decentrius: Thank you for your fast and helpful answers.",
+				"added": 1469872101
+			}
+		],
+		"2_1K9bJ8uijgvt5B3YfzPv2HqVx6kNDoEqtM": [
+			{
+				"comment_id": 11,
+				"body": "[Here](http://127.0.0.1:43110/1QLLPpowM6BWxKYKops1WkCafuFPhFBnAx/?Post:4:Changing+and+encrypting+ZeroIds) on muja's blog, there is another solution for using multiple ZeroIDs without using the multiuser plugin.",
+				"added": 1469872300
+			}
+		],
+		"1_1HMgJTFYY57XoH9wpBJHQZsWPvwsRp1WHX": [
+			{
+				"comment_id": 13,
+				"body": "@decentrius: Nice idea. \nLet's build a Church of Emacs on ZeroNet.",
+				"added": 1469973640
+			},
+			{
+				"comment_id": 23,
+				"body": "@decentrius: Don't get me wrong, but I think as the founder/leader of the first Church of Emacs on ZeroNet you should be a bit more active both in interacting with people in the church and in encouraging folks to join the church visiting it actively and regularly.\n\nYesterday, I wanted to start a \"confession topic\" for confessing sins of using proprietary software in the church and also to start a tread on [0chan](http://127.0.0.1:43110/0chan.bit/?/b/) to evangelize the lost folks there, but I have no idea what kind of activity you would like to have in the church and it is hard to guess without your active presence. I would like to combine the serious discussion about free software and having some fun in your church but not without your consent.  \n\nSo pleas lead and give us some directions, but at least tell us how we should behave in your church. A [sticked post](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:2_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf) in the church with some general guidance would also be nice. \n\nWhat do you think?",
+				"added": 1470303844
+			}
+		],
+		"1_19RagxAc2n7zYdfbfda2Zc4dRoHRJzyAxo": [
+			{
+				"comment_id": 14,
+				"body": "♫ ♪♫ ♩ _...We don't need no thought control..._ ♫ ♪♫ ♩",
+				"added": 1469994819
+			}
+		],
+		"2_1JXFzMzrQTJCiGw36YNQGg2Tmt1hTHy7ZT": [
+			{
+				"comment_id": 15,
+				"body": "What is the point of this topic?\nHow should it work (at least in theory)?\nShould we add a comment here every time we become online?!?",
+				"added": 1470084259
+			},
+			{
+				"comment_id": 18,
+				"body": "> [tkarita](#comment_24_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): Maybe this post should link to the chat sites (more space efficient...)\n> \n> 0rc\n> 1avfst pcaam\n\nLet's also mention the chat Zite [ZeroMedia](http://127.0.0.1:43110/zeromedia.bit/). I think it is the most popular from [all the known chat Zites](http://127.0.0.1:43110/ZeroChatrooms.bit) of ZeroNet.",
+				"added": 1470171233
+			}
+		],
+		"1_17Cs2auSHSVjKaYMXqbNMApRQrgXcwJUpL": [
+			{
+				"comment_id": 16,
+				"body": "> [zynklap](#comment_11_1DZr3dWHcLESuHx7UeC23QSXfQFvBdFT9s): Btw /b/ on 0chan needs moar ppl, pls guys :<   http://127.0.0.1:43110/0chan.bit/?/b/\n\n0chan is not the only place on ZeroNet that need more __active__ people.  From the [Church of Emacs](http://127.0.0.1:43110/1KzQwXnzikwsLvBcvKexRgnRRe92ec1xHK/) through [ZeroPolls](http://127.0.0.1:43110/ZeroPolls.bit/) to the several [chatrooms](http://127.0.0.1:43110/ZeroChatrooms.bit), most of the Zites have the same issue with to few active people. \n\nThe best thing we can do is to\n1. be active \n2. encourage other to do the same\n3. hope this will work and the Zites of ZeroNet will prosper.",
+				"added": 1470118489
+			}
+		],
+		"4_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 17,
+				"body": "Sineryc is right there are several Zites for torrent sharing on ZeroNet, but they are not good enough. \n\n[Play](http://127.0.0.1:43110/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp/) is only for movies and it lacks the possibility of user contribution. \n\n[TV episodes](http://127.0.0.1:43110/tvepisodes.bit/) is only for series, it lacks lacks the possibility of user contribution and a good search function. \n\n[ZeroTorrent](http://127.0.0.1:43110/ZeroTorrent.bit/) has the possibility of user contribution and a search function, but it is clumsy. It is quite clear that it was cloned from a Zite that was designed for something else. It also lacks some automatic generation of magnet links like that of [TV episodes](http://127.0.0.1:43110/tvepisodes.bit/). \n\nSo I agree: it would be really cool if someone designed a Zite for torrent sharing that has all the good features but not the bad ones of the already existing Zites.",
+				"added": 1470170323
+			}
+		],
+		"1_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 19,
+				"body": "> [nofish](#comment_705_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The site owner able to modify any content on his/her site: Edit the user's json file from data dir, then sign/publish it using the sidebar with the site's privatekey.\n\nI don't know if that is a bad or a good feature in general, but there are certain situations where it would be quite important to have a safeguard like that.  \n\nFor example, in the [Zero ISR](http://127.0.0.1:43110/12oGb8xBjLYz23CGJxRQyzZ6mGybZokEKt/) software repository the sha256 and md5 sums are considered trustworthy based on the [ISRtalk](http://127.0.0.1:43110/15CmNF5L1murN3UMb4fZMuWJtpq689JRhx/) community collected sha256 and md5 sum database. \n\nThe lack of this safeguard (ensuring that the comments are not manipulated) seems to be a security risk in these kind of projects where something becomes trustworthy if plenty of independent users have the same results. \n\nSo I think my second question is still interesting and important: \n_Is it possible to create a Zite having a safeguard ensuring that the comments have not been modified by some one else (not even by the owner of the Zite)?_",
+				"added": 1470221355
+			},
+			{
+				"comment_id": 25,
+				"body": "@tkarita: I don't quite see yet how can it be used to make the [ISRtalk](http://127.0.0.1:43110/15CmNF5L1murN3UMb4fZMuWJtpq689JRhx/) hash repository more secure, but thanx for the interesting info anyway.",
+				"added": 1470333724
+			}
+		],
+		"1_1JGTZxxkeZuhNBRfW6imTjeYbzjgqkU48N": [
+			{
+				"comment_id": 20,
+				"body": "> [freec](#comment_3_1MYfK6tM4vfBJ8SHvbZ8sMH4u6o9mSRPWU): Extraterrestrial life is very likely to exist in the past, present or future though we currently have no proof of it.\n\nIndeed. \"The universe is a pretty big place. It's bigger than anything anyone has ever dreamed of before. So if it's just us... seems like an awful waste of space. Right?\" -- from the Contact (1997) movie.",
+				"added": 1470223281
+			}
+		],
+		"3_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 21,
+				"body": "I'm on a GNU/Linux using Firefox 47.0. \nYes, I have rebooted my computer recently. My uptime is only 16 days =) \nThis is a persistent error. I got it several times in the past couple of months. \nThe only difference is that now I thought I mention it here. \nMaybe others have the same issue and someone knows how to solve it.",
+				"added": 1470297411
+			},
+			{
+				"comment_id": 27,
+				"body": "It was add-on related my [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/) was blocking XHR from site demo.zeronet.io. Whitelisting XHR from demo.zeronet.io on uMatrix solved the message submission problem.\n\nReading [protect yourselves: set a non-working proxy](http://127.0.0.1:43110/zeroblog.bit/?Post:60:protect+yourselves:+set+a+non-working+proxy) on Erkan's blog helped me lot finding the root of my message submitting problem. I do recommend reading that blog post especially if you prefer not sending your data/info through the clearnet. \n \nRelated to this subject it also worth quoting \"ZeroBoard sends your data (IP, ...) into normal internet\" from http://127.0.0.1:43110/zerosecurity.bit.",
+				"added": 1470351667
+			}
+		],
+		"8_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 22,
+				"body": "On a regular basis: only Tor and Tox,\nbut I have also tried YaCy, BitMessage, Ring, and IPFS.\n\nEdit: Yes, I also use Syncthing... I don't know why I have forgotten it.  ",
+				"added": 1470301821
+			},
+			{
+				"comment_id": 29,
+				"body": "> [kensan](#comment_38_1LUP6SN7WrXAH7e5bUFxdmrVsFr2m43XB4): Diaspora*?\n\nDiaspora* is not P2P but it is a nice Decentralized/Federated project. \nI was not listing it because I was not sure if it counts here. \nI think it should count but it depend what @kaffie meant by \"P2P/Decentralized\".",
+				"added": 1470522515
+			},
+			{
+				"comment_id": 30,
+				"body": "> [kaffie](#comment_120_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): I wasn't really aiming for stuff like diaspora. More of software you run on your local machine to connect to a larger network of peers to achieve something. I mean, it's fine. More for the list, but not really what I was after.\n\nSo my hesitation was right... By the way, people can run their own Diaspora* pods to connect the network. So I still think it is sort of a borderline case...",
+				"added": 1470522993
+			},
+			{
+				"comment_id": 31,
+				"body": "> [kensan](#comment_41_1LUP6SN7WrXAH7e5bUFxdmrVsFr2m43XB4): It is like Facebook but decentralized.\n\n@kensan: I know you meant well and sorry for my comment, but for me saying \"Diaspora* is like Facebook\" is similar to saying \"Heaven is like Hell\"... you know some religious people think we go one of those places after death... yes maybe Heaven is a bit less crowded... but no real difference ;-)\n\nYes, [Diaspora*](https://diasporafoundation.org/) is also a social network, but\n- it respects your freedom and privacy\n- it does not spies on you\n- it does not poisons your mind with ads\n- it does not create a [filter bubble](http://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles?language=en) around you\n- you can trust it (you can inspect/modify/redistribute the source code and you can host your own pod)\n- etc.\n\nSo, _no_, Diaspora* is not like Facebook at all.",
+				"added": 1470559976
+			},
+			{
+				"comment_id": 35,
+				"body": "> [kensan](#comment_44_1LUP6SN7WrXAH7e5bUFxdmrVsFr2m43XB4): Yes I agree, but if you know nothing about D*, i can tell you that ;)\n> It is \"my\" pod:https://diasp.eu\n\nIt's okay. I just could not resit. It just felt so good expressing how much better D* is than fb. =)",
+				"added": 1470668087
+			}
+		],
+		"1_1MYfK6tM4vfBJ8SHvbZ8sMH4u6o9mSRPWU": [
+			{
+				"comment_id": 32,
+				"body": "It is a nice and interesting game. \n\nIt's a pity that there are only a few peers.",
+				"added": 1470568547
+			},
+			{
+				"comment_id": 33,
+				"body": "The 'save' feature does not work here. The game restart every time I reload the Zite. Any ideas why?",
+				"added": 1470586117
+			}
+		],
+		"1_18KdJfRwXmQqa5d3wwbc963b9RMyeXpuWS": [
+			{
+				"comment_id": 26,
+				"body": "FYI the [ZeroNet Docs](http://127.0.0.1:43110/17Kom2G5qNDc6NaQwv445h1gFzxkY3ZtZe/) has a ZeroNet version, too. Here is a link to the [Create new ZeroNet site](http://127.0.0.1:43110/17Kom2G5qNDc6NaQwv445h1gFzxkY3ZtZe/using_zeronet/create_new_site/) section and a link to the [Sample ZeroNet sites](http://127.0.0.1:43110/17Kom2G5qNDc6NaQwv445h1gFzxkY3ZtZe/using_zeronet/sample_sites/).",
+				"added": 1470345491
+			}
+		],
+		"1_1DjUq8hd2jYZgc5uNhQEtWUVZjMHkMQkpU": [
+			{
+				"comment_id": 28,
+				"body": "No, a Diaspora* post lured me here.\nI stayed because my impression is that a new era of internet is being born here.",
+				"added": 1470402123
+			}
+		],
+		"2_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": [
+			{
+				"comment_id": 34,
+				"body": "> [newuser123](#comment_27_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv): True, but it can still be useful to circumvent censorship.\n\nHow? If a clearnet site is being censored, what a \"ZeroNet -> clearnet\" proxy could do about that?\nMaybe creating mirrors on ZeroNet to censorship endangered sites would help. Something like http://127.0.0.1:43110/1J625kWnshbcBk9gE9BdPr4peTeXusRzU8/, which is a ZeroNet mirror of privacytools.io. What do you think?",
+				"added": 1470654212
+			}
+		],
+		"24_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 36,
+				"body": "Chess is a good idea, but something simpler like Five in a Row would also be good.\n\nI would prefer some simple games that can be played by several users together (the more the merrier).",
+				"added": 1470684446
+			},
+			{
+				"comment_id": 37,
+				"body": "There is a Reversi game on Zite [AlertChat](http://127.0.0.1:43110/164KTePHASdAB4o24XEZw1peQtwyjmFQxF/), but currently it is way too complicated to play. It needs some redesign, but I think it can be a basis of a simple but good board game on ZeroNet.    \n\nCan someone from here improve it?\n\nJoin the conversation even if you have no need idea how to improve the game but you have the web developing skills and capacity to do that. Probably, the rest of ZeroNet community will be able to provide you the required ideas, see for example the recent discussion on http://127.0.0.1:43110/zeromedia.bit/.",
+				"added": 1470740453
+			},
+			{
+				"comment_id": 38,
+				"body": "> [tkarita](#comment_81_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): cub3 has some HTML5 games.\n\nThanks for the link! \nI have added the games there to the [game list](http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:zite-list-games).",
+				"added": 1470751427
+			}
+		],
+		"2_1mytj22YfKjQujw9Fo43WBwSJB658vqyY": [
+			{
+				"comment_id": 39,
+				"body": "I have just joined the seeders. \nGo GNU/Linux! Go free software!",
+				"added": 1470855742
+			},
+			{
+				"comment_id": 40,
+				"body": "Why don't you use [optional files](http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:optional-files)?",
+				"added": 1470912380
+			}
+		],
+		"3_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": [
+			{
+				"comment_id": 41,
+				"body": "> [astzor](#comment_29_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz): I registered my account, but now when I can't connect to either Red or Blue hub, my screenshot of when I try to join either: https://lut.im/nlMABrnGlN/fVnMQw1tj7bQk6v3.png\n\nTry http://127.0.0.1:43110/Me.ZeroNetwork.bit/",
+				"added": 1470939506
+			},
+			{
+				"comment_id": 47,
+				"body": "Is that normal that both Blue and Red hubs are persistently 100+ updates behind?",
+				"added": 1471618633
+			},
+			{
+				"comment_id": 48,
+				"body": "> [nofish](#comment_734_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): 1-2 files are normal, if you see more then you should check the console and log/debug.log for error messages\n\nI don't know what to look for in the debug.log file, but I see a  \n\"RuntimeError: maximum recursion depth exceeded in cmp\" \nmessage in the terminal, where I have started zeronet.py. \nCan it be related to my hub updating problem?",
+				"added": 1471712721
+			},
+			{
+				"comment_id": 49,
+				"body": "> [nofish](#comment_735_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Could be, make sure you have the latest version of zeronet installed.\n\nUpdating to the latest development version solved my problem.\nThank you!",
+				"added": 1471714420
+			}
+		],
+		"3_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": [
+			{
+				"comment_id": 42,
+				"body": "What is the point in following everyone? \nAlso there is a link \"Everyone\" next to \"Followed users\"...",
+				"added": 1470940124
+			}
+		],
+		"20_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 43,
+				"body": "If anonymity/privacy is top priority for you, I suggest not getting a wallet from Google Play.\nUse [F-Droid](https://f-droid.org/) instead.",
+				"added": 1471232018
+			}
+		],
+		"4_164W1rFVD9Bm7poGJWvjVUjvkbhhFC5nnt": [
+			{
+				"comment_id": 44,
+				"body": "We should all switch to scout mindset.\nSee Julia Galef's talk [Why you think you're right -- even if you're wrong](https://www.ted.com/talks/julia_galef_why_you_think_you_re_right_even_if_you_re_wrong).",
+				"added": 1471241199
+			}
+		],
+		"1_1LPyB18qg6mGFb1v8zMYd6TBCXK2c7BmRm": [
+			{
+				"comment_id": 45,
+				"body": "`echo HELLO WORLD`",
+				"added": 1471557362
+			}
+		],
+		"1_1L56HBBtEbSL8aHaL5DcjSgrpsoVmZen5B": [
+			{
+				"comment_id": 46,
+				"body": "Discussing weather even here... \nAre you British, or what? =)",
+				"added": 1471557564
+			}
+		],
+		"6_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 50,
+				"body": "Mine is 99.9% Free. In more detail: \n4 non-free packages, 0.1% of 3036 installed packages.\n9 contrib packages, 0.3% of 3036 installed packages.",
+				"added": 1471807219
+			},
+			{
+				"comment_id": 51,
+				"body": "> [ulrichard](#comment_13_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ): vrms is not in the trisquel repos\n\nYou can download vrms from [here](https://packages.debian.org/stable/admin/vrms)\n\nI would be really surprised if Trisquel wouldn't 100% Free.",
+				"added": 1471981206
+			}
+		],
+		"4_1LJLVfT9hKRuTHzBKTpse57PGfpwx82myR": [
+			{
+				"comment_id": 52,
+				"body": "Is it me or this video was just some random bullshiting about 0 together with a totally unrelated hypnotic animation in the beginning?\n\nBy the way, imagine that the whole universe is just a point and your are done with imagining the 0th dimension...",
+				"added": 1472116104
+			}
+		],
+		"8_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 53,
+				"body": "> [ancap](#comment_77_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz): Then you're (legally) in trouble because illegal but lawful sites could get you in trouble. \n\nI'm not sure...  For example,  there are plenty of countries where downloading copyrighted material from the internet is not illegal (only uploading them is illegal)...  but that is beside of the point now.\n\nMoreover, Sci-Hub is quite harmless because open access is clearly the future of scientific and educational publications...\n\n> Also I don't see a point in bookmark sharing. There are search sites for Tor and they work quite well. Besides Tor sites frequently come and go and information collected this way gets stale quickly.\n\nMy main motivation of collecting a list of legal hidden services is disproving the general belief that only criminals sites have hidden services... probably there are other benefits of having such a list. For example, I learn about onion sites from lists and not by using hidden search engines, but I'm a pretty causal user of the Tor network... \n\nPlease, suggest good hidden search engines for this list.   \n \n> And last but not least we don't know you and you don't know us, so it's rather stupid for you to click on links you get from us, and vice versa. \n\nWhy? I see no danger clicking a link (using torbrowser while the script blocker is on)...  Hanging around in ZeroNet is more dangerous, I guess... \n\n> Better contribute to some Tor directory project or maybe start one which does proper curation and organization on ZeroNet.\n\nIf you know an already existing such ZeroNet project, then please tell me. \nIf you think there is no such projects, please suggest me better ways to start one than this ZeroTalk thread.",
+				"added": 1477314125
+			}
+		],
+		"9_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 54,
+				"body": "> [waterrabbit](#comment_38_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Delete all your contents; sign and publish.\n\nHow can that be done? Is deleting mean recursively removing all the folders corresponding to the account, say folders 17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp in my case? If not, what does it mean? If yes, how to sing an publish?",
+				"added": 1477692354
+			}
+		],
+		"1_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc": [
+			{
+				"comment_id": 55,
+				"body": "Happy new year [12017](https://www.youtube.com/watch?v=czgOWmtGVGs)!!!",
+				"added": 1483366823
+			}
+		],
+		"2_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc": [
+			{
+				"comment_id": 56,
+				"body": "Go for it!!! Dump Micro$oft for good and don't even look back! I have done that over 15 years ago. It was one of my best decisions. Seriously. Even when I'm forced to use Windows (which alas sometimes it happens at my workplace) I use it inside a virtual box.",
+				"added": 1487628074
+			}
+		],
+		"2_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": [
+			{
+				"comment_id": 57,
+				"body": "I'm pretty sure there is only 1 pathetic guy with plenty of accounts trying hard to pretend they are many ;-)",
+				"added": 1487628449
+			}
+		],
+		"2_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": [
+			{
+				"comment_id": 58,
+				"body": "GNU/Linux without hesitation!",
+				"added": 1488281311
+			},
+			{
+				"comment_id": 60,
+				"body": "> [fredix](#comment_1_1HTE2nRSdvSk3NopxAM7W3RwLTsTqJ1Dhw): Linux ! Mac is too expensive ..\n\nI totally agree! Loosing the freedom over controlling your OS is a way too high price to pay... ;^)",
+				"added": 1489258491
+			}
+		],
+		"10_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 59,
+				"body": "> [nofish](#comment_886_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Fish :P\n\nSeriously? Or you just couldn't resits the joke/pun?",
+				"added": 1488281676
+			}
+		],
+		"3_17vKbxL13KnzGATstqawXSG2oiQygmdkcX": [
+			{
+				"comment_id": 61,
+				"body": "I have tried to recover the deleted files with ```testdisk```, but all of them is empty?! \nIt seems like it was a more systematic data wipe than a simple delete. \n\nHowever, some Zeronet user with more a advanced file recovery skill may still be able to recover the deleted data from the remains on his/her drive. \n\nSo if you had the data and have the skills (or a friend with the skills), please recover it and share the recovered data. Someone may be able to use it to rebuild ZeroTv.",
+				"added": 1494315252
+			}
+		]
+	},
+	"comment_vote": {
+		"5_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"1_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": 1,
+		"1_1ELrvskr1xGbmZpbTWS9mC9U8fBouk1Em2": 1,
+		"11_12GC9MQGPcN7PiMoRYVyZX66PnQjZKUpf2": 1,
+		"5_1K9bJ8uijgvt5B3YfzPv2HqVx6kNDoEqtM": 1,
+		"16_15JNF8bdyG4zEWVASsgbkFirzM6gyYpSBA": 1,
+		"4_1CFhytwoGGPNqmueehPqotaf2iG9uxD98e": 1,
+		"27_13t2ME4cTtkxrwPeugeZgdJF5Kg7C5CSEy": 1,
+		"130_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"18_1JpAsfEeBYdr8U3DtAzj8SyczL5Gx1EtQ9": 1,
+		"75_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"77_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"1_14J8mC3K7k5Ygx22uu9LUzGWnBoDAQdyDo": 1,
+		"705_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1AwNV17STiNUZZ4Z712z2FBf8YyERJ87rE": 1,
+		"1_15HtoZZhqyYzQRhCjNxRZoXyYmLu75oy8n": 1,
+		"10_1DZr3dWHcLESuHx7UeC23QSXfQFvBdFT9s": 1,
+		"12_1DZr3dWHcLESuHx7UeC23QSXfQFvBdFT9s": 1,
+		"3_1MYfK6tM4vfBJ8SHvbZ8sMH4u6o9mSRPWU": 1,
+		"44_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"43_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"1_18KdJfRwXmQqa5d3wwbc963b9RMyeXpuWS": 1,
+		"24_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa": 1,
+		"28_1LfQ8dwqkqkGQNCg1kBevHPxjvTRJTQYBz": 1,
+		"1_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9": 1,
+		"38_1LUP6SN7WrXAH7e5bUFxdmrVsFr2m43XB4": 1,
+		"1_18Bh4CUNYKa2M3gABy1KVZf5yrr89qy6Yx": 1,
+		"44_1LUP6SN7WrXAH7e5bUFxdmrVsFr2m43XB4": 1,
+		"1_1Q7GGVsUqJnosk5rRWPWwT3oqTJwCSjRGC": 1,
+		"55_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"56_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"65_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"1_1wnjTS6YRUp6Q6yjECuoh1o28TPkvrnq2": 1,
+		"81_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"1_163sF1Kdsd5LdpjAXDKBshdEBNJH6PUqvg": 1,
+		"49_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": 1,
+		"2_16XR1GVbekHSMMoUZ5pTQWFpq2anbkHgrC": 1,
+		"148_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"2_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"734_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"97_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"735_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"169_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"7_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9": 1,
+		"165_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"19_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ": 1,
+		"20_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"34_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"32_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": 1,
+		"38_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"1_18c4cJrQmz1fQ4izSac3Wg9iQeR5hbUCQv": 1,
+		"1_15ow7KnfDY1jW2aVvh6hroh64m6iRKqeQS": 1,
+		"10_13k6itGVhzLTZUZKiqWWJ5KdvVUEMqDWDv": 1,
+		"21_1KGozab6jp6jA6zVM8cTFdzMmBasriNP4f": 1,
+		"2_14TVizquRR7YJMWRHaWnC97p6GWFRp8nVr": 1,
+		"66_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS": 1,
+		"848_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"25_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ": 1,
+		"2_1KGjE6zPQ9XBhwTekirPXX6yuZxLF4Hn4o": 1,
+		"1_14RQTYAoxrtr5YKeezHVMMP2H6mUW33KXL": 1,
+		"2_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": 1,
+		"1_1DfbbkYCasRTA1gQmJpRRA5TwwudFeMLUT": 1,
+		"174_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS": 1,
+		"10_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc": 1,
+		"3_1HLFF47LhPMfkv43GJoGCn7ZwXEAZmFHC6": 1,
+		"1_1BtsYSiQaA3awA2z6sWLFEbzf8GmLzyx2X": 1
+	}
+}

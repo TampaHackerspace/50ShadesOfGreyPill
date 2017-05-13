@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HOrpfbOTWCAiHhDAToQN6sSAAWvc2ekhCrs6o/mEZWxMKiQ2OKG+Aj54+iY6BNkE9jB0D0a3Z96exYSTTANa2X0=",
+ "cert_user_id": "greatagain@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "f17ab0d98550674f43630d8b6ac2ab0576640111051665beabd0cfff71bb4a17",
+   "size": 1420
+  }
+ },
+ "inner_path": "data/users/1GMhZGJsYFtB9DDF1DzBvYiGu6bGiYeiDx/content.json",
+ "modified": 1484890221.704,
+ "signs": {
+  "1GMhZGJsYFtB9DDF1DzBvYiGu6bGiYeiDx": "HItzylQEdWgzerkT4/Fyze8O4zSeusPc0xYOA00FiVdyBMuaQbr+M0qPSw9TznxDinzsCImHywp0zzBsY0i6+9c="
+ }
+}

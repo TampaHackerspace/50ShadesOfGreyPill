@@ -1,0 +1,18 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HECbNnAyqrDeBR6DEVWYBDyEJuLSsq+D4DoPNi+VU88tBxKZjuyDmsBC1g7X3b0JjslOvkhP685yC86a6/qhkN4=",
+ "cert_user_id": "shishi900@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "b8c5ef794ff10e60f14326ed41cc27bdff3e70bf507348982b84c1f0b5e2f986",
+   "size": 3901
+  }
+ },
+ "inner_path": "data/users/17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc/content.json",
+ "modified": 1485534165,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": "G5GvcuPwVQ6ehM529nrLqmOGphpFgcFLaBe2FYmlh9QZjkZp6XTWHpWZ4zH6+7xYFXiKIkw/aXZZmDWA6tmD+D0="
+ }
+}

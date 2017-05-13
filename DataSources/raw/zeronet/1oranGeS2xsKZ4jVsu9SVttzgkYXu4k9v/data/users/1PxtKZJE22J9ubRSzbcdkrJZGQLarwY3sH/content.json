@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HE/OYYNSjE26fmWxQsUW616xvHS6i+hyNTf0eZFrRRneEYg1IcJIQJDTNsBwAziqR4gVpcgc572jiwP1MtgjIBQ=",
+ "cert_user_id": "crypdick@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "94d0bcd952b181d43b1c847c3fb1e22008857adb1e780b94e4dcbbcad9751425",
+   "size": 290
+  },
+  "data.json": {
+   "sha512": "a847c77b15a12f668bbadfba8fd1d7d8af87dbb0d83eb16e27637a7a3bf3043d",
+   "size": 15119
+  }
+ },
+ "inner_path": "data/users/1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH/content.json",
+ "modified": 1486255854.252457,
+ "signs": {
+  "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH": "HEWBuxiBKbSsioM+ffFTa2gHoyJgtV4CwUrfvEq9v1tyXcrH+r1edybQsn5tWyiQN/DcI7/PugGnwEeISUZ2v5Y="
+ }
+}

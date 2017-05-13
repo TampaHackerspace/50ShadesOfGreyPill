@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GzY02JhB3gHmAIsfhsm03WuE7rfbriW14B0JOtL1K44yal9Uwp6OfxbHQ91cc19H95ZBmgwmFSxz+3BvCZ/H4So=",
+ "cert_user_id": "karthikeyan@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "a216e130e4026881ce5549b5d5dc326d145192c5a27d0312244b33e112053f80",
+   "size": 1584
+  },
+  "data.json": {
+   "sha512": "710319bafce29b6a10a6002c9bf24685290abd4687d04e3de985bb71acb5d338",
+   "size": 1185
+  }
+ },
+ "inner_path": "data/users/1P1dzsx7H2Nz6vzzqmE45aa43AiHM3WLq4/content.json",
+ "modified": 1494247360,
+ "signs": {
+  "1P1dzsx7H2Nz6vzzqmE45aa43AiHM3WLq4": "G2h3bkb5xGrAdXwCjrRR5s5DZerAo164qa+WH5kG8sAnM9p3IzsYu3ZJk+OWLW9u20+WyJdLtm8Pnkiyer4Czd0="
+ }
+}

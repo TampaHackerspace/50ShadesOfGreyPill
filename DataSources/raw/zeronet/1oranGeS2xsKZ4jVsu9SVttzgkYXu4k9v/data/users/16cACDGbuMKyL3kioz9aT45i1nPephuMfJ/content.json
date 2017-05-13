@@ -1,0 +1,18 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HFKBpEwcDwvt94fNMHfDnfq7BS5PHX7fmeKHisbGly52yQthcRPOTrJMvMn++V5qubibaHjzcqyP/ZcANIoIjHM=",
+ "cert_user_id": "finwiki@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "cd0b378a73ffd3199699d7b966417e1e243b46af5b676982b3e4b37f41e1f113",
+   "size": 341
+  }
+ },
+ "inner_path": "data/users/16cACDGbuMKyL3kioz9aT45i1nPephuMfJ/content.json",
+ "modified": 1490076014,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "16cACDGbuMKyL3kioz9aT45i1nPephuMfJ": "HFJi7xPLJqkbdT0dOYMGqdXsQYvb+2bZ2FEtOeF9GkpI4YDQOSPkavtkbfpr0rHioUvO7eiDQV6piwlczNFbG5Q="
+ }
+}

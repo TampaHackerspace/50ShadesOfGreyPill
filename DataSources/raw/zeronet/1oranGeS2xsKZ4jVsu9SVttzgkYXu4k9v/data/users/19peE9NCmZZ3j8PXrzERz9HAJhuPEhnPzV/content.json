@@ -1,0 +1,40 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GzfDIV2bFGSxYpfBoZt45rpAaoixH0HWJet0qraMAZohBKKCM34C3CqT1mEbFSz263uaHOXGSwJJM3p27zLXt34=",
+ "cert_user_id": "banixc@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "23d8faa25c12fc9ade88c8860b8c629d3e7ed094a928af4555ee8d18240174e8",
+   "size": 1706
+  },
+  "data.json": {
+   "sha512": "ec6350e12c103b09495d53dabb7ced575f6965640a1ad193724bc780c9c7403d",
+   "size": 1430
+  }
+ },
+ "files_optional": {
+  "1490339212.jpg": {
+   "sha512": "7619c547754d194c9d317108dd5c4ad2cd615945693d55ac0a9e4d00131be6cd",
+   "size": 76205
+  },
+  "1490588497.jpg": {
+   "sha512": "1daf8a38e8ca04ac3701ab4080989b1056b8a34c7c827723ca0761bc456991f5",
+   "size": 103017
+  },
+  "1490634338.jpg": {
+   "sha512": "57121de4e8859cc841def0d12e4d64add4ab31ff1e9cff5164af4e6df2cf231d",
+   "size": 121823
+  },
+  "1490718040.jpg": {
+   "sha512": "1ba5cfd21302678cfa64c882cf9a948048f489beec73878425c78cc1bc3cf24e",
+   "size": 163056
+  }
+ },
+ "inner_path": "data/users/19peE9NCmZZ3j8PXrzERz9HAJhuPEhnPzV/content.json",
+ "modified": 1493048469,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "19peE9NCmZZ3j8PXrzERz9HAJhuPEhnPzV": "G5SfOvl2PAJS+8uLlBdCXxMt77gQbwOp3t2EQz7iue4SchmdFckQP7I/aRcItpqicuzKWCh+BRGjfm+LFa6r8LM="
+ }
+}

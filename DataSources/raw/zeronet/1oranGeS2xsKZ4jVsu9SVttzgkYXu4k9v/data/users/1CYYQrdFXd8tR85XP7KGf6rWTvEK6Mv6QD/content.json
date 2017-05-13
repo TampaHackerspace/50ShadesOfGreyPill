@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HPaqg0Qvdp/3BJdbFl+2cD8uz0Is+Td/qhk+lo9TQ8KtmAJIJu9Op0vmIJ1exjvs3Mj5fdvxr9cITscY0tLn1dE=",
+ "cert_user_id": "mibox@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ca7ed58812fed1c7b733b30caa4ae503eda57077a03af763aca10db8590f4dde",
+   "size": 2821
+  }
+ },
+ "files_optional": {
+  "1485573022.jpg": {
+   "sha512": "ca9b7ed548fda7cc8c703c5c9621358359bfe2f362dc9e357d3063a0c7d9f616",
+   "size": 72227
+  }
+ },
+ "inner_path": "data/users/1CYYQrdFXd8tR85XP7KGf6rWTvEK6Mv6QD/content.json",
+ "modified": 1485761879,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1CYYQrdFXd8tR85XP7KGf6rWTvEK6Mv6QD": "HErsH4GngM86QYxCjaMG5x7I87F1Rg83rEsHJv5Bu245fnaJhhUlVDpuQVbmOD61QhHoI4FhaXjLIXkh83cu15Y="
+ }
+}

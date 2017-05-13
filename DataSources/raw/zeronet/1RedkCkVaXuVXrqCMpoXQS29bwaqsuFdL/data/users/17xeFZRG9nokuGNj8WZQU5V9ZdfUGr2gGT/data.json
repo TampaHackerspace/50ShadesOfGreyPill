@@ -1,0 +1,188 @@
+{
+	"next_comment_id": 31,
+	"user_name": "Testapp",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@P2P: xargs",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484541886",
+			"date_added": 1484556203
+		},
+		{
+			"comment_id": 2,
+			"body": "@12hstudyshouji: 还好 Nofish 给我提限额。程序按照自身的“价值观”来屏蔽一些内容在我看来还是有一定“人治”的意味。完全的“法治”，应该是用户根据自己的需求来屏蔽内容，当然这就免不了你之前提到的刚开始使用要恶心一下，对新手不友好的问题。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484562663",
+			"date_added": 1484694335
+		},
+		{
+			"comment_id": 3,
+			"body": "@编程狗的博客: 邮件授权也有一定的问题。如果你允许任意域的邮件注册的话，spamer 可以注册一个域名，然后想有多少邮件地址就有多少邮件地址。而如果你只允许严格限制注册的公共邮箱才能注册的话，那么注册那个邮箱的时候基本需要一些身份信息，对用户来说做到匿名就难了。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484538258",
+			"date_added": 1484694724
+		},
+		{
+			"comment_id": 4,
+			"body": "@P2P: @Woodsfirezyj: Android 除了有后台服务，还有前台服务（通知栏常驻一条通知那种）。设为前台服务后，除非内存奇缺，在非国产机型上，应该可以通过设为前台服务来解决开久了被杀掉的问题。国产机的 ROM 由于国产机的流氓特性，应该必须加入用户手动设置的白名单才行。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484316504",
+			"date_added": 1484709657
+		},
+		{
+			"comment_id": 5,
+			"body": "@Zeronetapk: 之所以论坛在国内流行度下降除了对移动端不友好，与出现得早而被管制得更多也有关系。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484584374",
+			"date_added": 1484711213
+		},
+		{
+			"comment_id": 6,
+			"body": "@Brahman: Probably I need send that in two languages, but I'm not good at English.",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1484510031",
+			"date_added": 1484711418
+		},
+		{
+			"comment_id": 7,
+			"body": "@Mzero: 出一个版本就行，首次启动的时候提示订阅屏蔽列表，高级用户可以选择订阅自己来养屏蔽列表。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484562663",
+			"date_added": 1484748199
+		},
+		{
+			"comment_id": 8,
+			"body": "@Watcher: 在签名时 ZeroNet 需要一个解密后的私钥，如果加密保存的话，如何解密这个私钥？如果是将解密主私钥的密钥放在另一个文件里的话，那么想要窃取密钥的程序/人分明也可以窃取用于解密主私钥的密钥；而如果是需要用户输入的话，那么每次签名内容时都需要用户输入密码（可以在内存中缓存一段时间来减少密码输入次数），但是这样的用户体验并不好。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484918887",
+			"date_added": 1484971464
+		},
+		{
+			"comment_id": 9,
+			"body": "@Mbp374: 实际上，Freenet 将使用另一个安全的密钥声明主密钥无效的方式也称为“吊销”。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484918887",
+			"date_added": 1484974571
+		},
+		{
+			"comment_id": 10,
+			"body": "@Mbp374: \nauth_privatekey: 证书私钥，用于给用户内容签名。\nprivatekey: 普通的私钥，用于给站点的内容签名。\nauth_key: 不太清楚是干嘛的。\nwrapper_key: 由于各种站点以及 wrapper 在一个域上，生成的一个防止跨站的类似于令牌的东西。\n如果你泄露了你的站点与其他分配给你权限的身份的 privatekey ，那么获得 privatekey 的用户可以签名这些内容；\n如果你泄露了 auth_privatekey ，那么就可以以你的证书身份签名用户内容了。",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1484953080",
+			"date_added": 1484986683
+		},
+		{
+			"comment_id": 11,
+			"body": "Any possibility for Chrome?",
+			"post_uri": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1485055780",
+			"date_added": 1485055793
+		},
+		{
+			"comment_id": 12,
+			"body": "@Yinyue: 是 `users.json` 。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484496342",
+			"date_added": 1485069357
+		},
+		{
+			"comment_id": 13,
+			"body": "@12hlearn: 我以前一个功能机上用过一个 J2ME 的文件管理器貌似就叫 Explore 。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484496342",
+			"date_added": 1485069434
+		},
+		{
+			"comment_id": 14,
+			"body": "@Ysc3839: \n>我的附庸的附庸不是我的附庸\n明白了吗？",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1485090208",
+			"date_added": 1485096375
+		},
+		{
+			"comment_id": 15,
+			"body": "@Niba: 他不能清旧站的除自己之外的帖子，因为没有权限。要是他有权限的话也就不需要复刻一个站点了。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484918887",
+			"date_added": 1485097622
+		},
+		{
+			"comment_id": 16,
+			"body": "@12hlearn: 你去看看你是不是有小号加入了这个坑货 Hub 然后就变只读了吧！",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1485094445",
+			"date_added": 1485136846
+		},
+		{
+			"comment_id": 17,
+			"body": "@12hlearn: 不幸加在这个 Hub 里的用户，没法发言了。可以，这很 GFW 。我刚开始也加在这个 Hub ，幸好逃离了。",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1485094445",
+			"date_added": 1485143642
+		},
+		{
+			"comment_id": 18,
+			"body": "@P2P: ZeroGit 什么时候能出来？",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1485166109",
+			"date_added": 1485177751
+		},
+		{
+			"comment_id": 19,
+			"body": "@P2P: 看起来 Firebox 也成 ZeroNet 全职开发了？",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1485166109",
+			"date_added": 1485178101
+		},
+		{
+			"comment_id": 20,
+			"body": "@Nekocross: 然而值得注意的是：\"signers\": 里面的比特币钱包地址不一定需要 ZeroID 或者其他的证书颁发者签名，它可以是一个“裸”地址。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1485166109",
+			"date_added": 1485277898
+		},
+		{
+			"comment_id": 21,
+			"body": "@P2P: 事实上我刚刚想表达的意思就是如果没有在 ZeroID 找到身份地址并不代表就安全。BTW, 还没睡啊？太晚睡长不高哦！",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1485166109",
+			"date_added": 1485279307
+		},
+		{
+			"comment_id": 22,
+			"body": "提醒下，请更新下你的 ZeroMe 个人资料页的描述，并将里面的论坛地址指向新论坛。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484914558",
+			"date_added": 1485309547
+		},
+		{
+			"comment_id": 23,
+			"body": "@Bingyuhuo: 不，我说的是某机构做出很难绕过审查的终端很难。因为对境外网络依赖度很高的需求一般都是较为小众的需求。这可很难通过开源界的东西改改出来。",
+			"post_uri": "1M6V4wECbz5e1aUmuij2BB72ensHCYNFmd_1485225822",
+			"date_added": 1485332704
+		},
+		{
+			"comment_id": 24,
+			"body": "@Fargo: 貌似目前 ZeroNet 还没支持 DHT 吧！",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484914558",
+			"date_added": 1485402458
+		},
+		{
+			"comment_id": 25,
+			"body": "@P2P: Click \"Check files\" in ZeroHello's site list, then all files of the site will be recheck.",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1485661938",
+			"date_added": 1485669338
+		},
+		{
+			"comment_id": 26,
+			"body": "@P2P: 这个发布站在开放代理前就已经打开帮助分发了。",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1485875398",
+			"date_added": 1485885224
+		},
+		{
+			"comment_id": 27,
+			"body": "- 感谢提醒，我之前也是发现了数据并没有升级。删除 inject.py 与 inject.pyo 并覆盖安装后 OpenSSL 已经加载正常。\n- 现在测试阶段包名先这样吧！以后或许正式发布时改成 org.hellozeronet.kivy.zeronet ？",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1485880834",
+			"date_added": 1485916269
+		},
+		{
+			"comment_id": 28,
+			"body": "@Nofish: Can't create symlink and chmod / chown in /storage due to filesystem configuration.",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1485876841",
+			"date_added": 1485916640
+		},
+		{
+			"comment_id": 29,
+			"body": "@Bobsong: 事实上，我极度不喜欢完整的页面还放在内嵌 WebView 里的应用，原因如下：\n- 大多数这样的应用都是“单线程”的，也就是说只能同时开一个页面。如果在网络不好的情况下，我会被阻塞在等待加载的过程中很长时间。虽然 ZeroNet 是从本地加载的，但是打开新站点与新的可选文件时还是要等待一定的时间。如果是在浏览器里，我可以利用多标签页的特性另开一个页面在等待加载完成之前访问其他的。\n- 浏览器中可以安装各种附加组件来定制页面，内嵌 WebView 里面你就干瞪眼吧！\n- 浏览器默认有书签功能，内嵌 WebView 你就自己实现个收藏功能吧！\n- 页面字体问题与页面本身有关，如果觉得页面对移动端适配不好，应该调整页面，而不是调整在什么里面访问。它不解决这个问题。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484496342",
+			"date_added": 1485918549
+		},
+		{
+			"comment_id": 30,
+			"body": "@12hlearn: 你把原来的 pr 重开不就好了？好几个 pr 关掉再开新的你是想闹哪样？",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1486118278",
+			"date_added": 1486184928
+		}
+	]
+}

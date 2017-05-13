@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G8LHi4EljnFk9N5+1w+IWJtp94etD3gDV2u2nKQyWnK52YjwHP/Fzfc2qUL0AnQ7XINHLjpcf/9Wf1Ub43402HY=",
+ "cert_user_id": "hollymolly@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "7403ef84cd7e9d12652f0a7544e2a982702ce17b2d7849aa8a6e5ce369ababe5",
+   "size": 1538
+  },
+  "data.json": {
+   "sha512": "da0d33756109a8c2bbd683687aeb8995ae223eefd07411e8321d3d8ffe6caf6b",
+   "size": 6730
+  }
+ },
+ "files_optional": {
+  "1480046330.jpg": {
+   "sha512": "6a4d5be6952f5f52894df344d532ad2d466294d512085206df96f64b8dd732eb",
+   "size": 52137
+  }
+ },
+ "inner_path": "data/users/1A8LDqE5cfr5BctvATQBYkNKLaHTEu7aQx/content.json",
+ "modified": 1480173319.234,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1A8LDqE5cfr5BctvATQBYkNKLaHTEu7aQx": "G5FPco/51RhPMMCGFnX5jEBfqjNQeA1Q7t9zzhOHoEMNmIiKY+E3ZfuJ04JuZwMzIUkg1eXwfhhOORaJ5ZxWFIo="
+ }
+}

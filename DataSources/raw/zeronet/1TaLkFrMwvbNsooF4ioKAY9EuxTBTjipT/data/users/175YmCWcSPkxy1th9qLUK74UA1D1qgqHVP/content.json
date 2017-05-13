@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G9WN3wmnHH+KIgK6/pQMchQRC5byfyZnNC+S8HuZQQbv0JVxYfaKJcG6lH22Wmz7BcjDP2rg5KzWZB5jFA6TQo0=",
+ "cert_user_id": "armlook@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "0ee5ea23ea897ff4ae75e11997d4d2e6a0bcb492bd1faf84d071534fa2b5c9aa",
+   "size": 239
+  }
+ },
+ "inner_path": "data/users/175YmCWcSPkxy1th9qLUK74UA1D1qgqHVP/content.json",
+ "modified": 1484084487,
+ "signs": {
+  "175YmCWcSPkxy1th9qLUK74UA1D1qgqHVP": "G0M1bM6HicBfEQGgjGC2vnswxPqZePsrmzoQFL9P8Pfxc/xni/55NXCA0k7JutWSmWL4Jq2ms/Dbgv1AoXxHeSs="
+ }
+}

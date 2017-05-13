@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HG73K23+7kLe1uzWd82a5z+wedp3//dWpWQOJ/zetfMgGvz5lDNCqK41fIgxnnPO4/AqBLtqpDWIbCLFFAh6B0E=",
+ "cert_user_id": "xueqingwanwang@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "9a86d098cf2e11b24e32012d6a47c6838afa09df10ab92f4f9eb3c880b447921",
+   "size": 1322
+  },
+  "data.json": {
+   "sha512": "294690f367d237664647aa678951653f171d886c11fcf0f6ad677304d59e1bd9",
+   "size": 16430
+  }
+ },
+ "files_optional": {
+  "1480163160.jpg": {
+   "sha512": "2f1d5ea43e5ac828efaf9beefc41b1c3c6631ae41615c98ef547dc40e0d0b4b8",
+   "size": 39920
+  }
+ },
+ "inner_path": "data/users/14bCxrpn5sMttEXaeD2NvQUPjLNrj8DghA/content.json",
+ "modified": 1480228613.622,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "14bCxrpn5sMttEXaeD2NvQUPjLNrj8DghA": "HDUMmptRtMhMeHmEn+WxJrCcrZRB+cq+wtgmqnWCQJB0OxtgBurdSPPcatYG6q7BxZKMpl7wD+vROhYJhEqsQNs="
+ }
+}

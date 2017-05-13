@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G1GwCElH0Q1Nj2NBETHA3ZffWUtnH3FHdX3f0QJECiGHq6BKUH6tlaSpAwVqyIzPnocFtsVwxPYAoaXE4NbiUk4=",
+ "cert_user_id": "smallorange@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "8dc0e6aeb8ae213be35e8e7570fca81aab1061ecb2b5bfd297a445252e53b3ad",
+   "size": 18281
+  }
+ },
+ "inner_path": "data/users/17u2vBbwR5NAkg6XarzRXdmW1czuFgYMor/content.json",
+ "modified": 1486883331,
+ "signs": {
+  "17u2vBbwR5NAkg6XarzRXdmW1czuFgYMor": "HNNp7ugRuTkNOIZfqLlG2TYjGPFaKGkoP33nFBZUdIlbRWOQt9Izvg+yHmQqnkR69odxnLQhX2Nf4qOhVb8kEJU="
+ }
+}

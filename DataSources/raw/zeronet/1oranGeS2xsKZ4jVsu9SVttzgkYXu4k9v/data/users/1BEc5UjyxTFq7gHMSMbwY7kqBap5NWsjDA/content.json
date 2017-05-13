@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G1ijZ0IAYuO6tPZIRxubioc7X3YxkFgrWPfsE2zkaEyNOm0nRwupYkWl8HnXi/Pa9j+g8+Tgo37OBeXWE9DI9UA=",
+ "cert_user_id": "adeel41@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "4ba47acd4e92940d15862182c765c8eaa4aefc75c42a517e764c79bc3b8fc365",
+   "size": 544
+  }
+ },
+ "files_optional": {
+  "1492896720.jpg": {
+   "sha512": "1cf91796434d6cc140af443accc3ccfc0705b8c907f847717ea94af4ca4b1e58",
+   "size": 86808
+  }
+ },
+ "inner_path": "data/users/1BEc5UjyxTFq7gHMSMbwY7kqBap5NWsjDA/content.json",
+ "modified": 1492896718,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1BEc5UjyxTFq7gHMSMbwY7kqBap5NWsjDA": "G45+kBvXSGjOyDmKuBq9zqusm6ILwxdIojSrI8W9r+YrPgKy/me6gcUNtzTgVunp/BMuUEtSVJiqoHXeBGyLdqQ="
+ }
+}

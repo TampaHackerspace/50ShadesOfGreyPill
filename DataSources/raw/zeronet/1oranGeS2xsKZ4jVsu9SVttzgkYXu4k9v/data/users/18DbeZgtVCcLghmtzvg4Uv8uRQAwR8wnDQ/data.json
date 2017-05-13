@@ -1,0 +1,242 @@
+{
+	"next_comment_id": 36,
+	"user_name": "Jro",
+	"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+	"post_like": {
+		"178c9u6Fuxz7bmteRtz5hSHfvRpNuG7HBz_1480614115": 1480618160,
+		"18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1481186696": 1481187106,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1482839839": 1482860875,
+		"19BHxREFyyDejQPMrmhz2FgE2djzjWSLgm_1482877885": 1482896798,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1483806690": 1483808631,
+		"1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484663390": 1484664440,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1485119895": 1485143459,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1485189136": 1485229837,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1485595136": 1485621743,
+		"1HQat1a4kYwNck8Bx3CGxh6rKCQ9CtBvME_1486403145": 1486444182,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1486640392": 1486648522,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1486728905": 1486729993,
+		"1HQat1a4kYwNck8Bx3CGxh6rKCQ9CtBvME_1486785117": 1486786350,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1487285064": 1487305948,
+		"15m6bo6nGqLUVq2CBfjojEZ3smawtntQ8u_1489210615": 1489224560,
+		"127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1489334065": 1489337445,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1489597095": 1489597171,
+		"1L8waPPVatA855bU6SjqWs2K1DbwnUZbEp_1490338933": 1490340792
+	},
+	"comment": [
+		{
+			"comment_id": 2,
+			"body": "use @username",
+			"post_uri": "1PRH7JxEdBVJCZETgt6vXrbmxHiMNffJS3_1481126371",
+			"date_added": 1481130703
+		},
+		{
+			"comment_id": 3,
+			"body": "Someone will do that and someone else will write a tracking blocker for the end users :-D",
+			"post_uri": "18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1481256097",
+			"date_added": 1481257413
+		},
+		{
+			"comment_id": 4,
+			"body": "localStorage cannot be used direct in ZeroNet. You must use API wrappers for that. Hard to translate as ZeroNet API is using callback technique ... https://zeronet.readthedocs.io/en/latest/site_development/zeroframe_api_reference/#wrappergetlocalstorage",
+			"post_uri": "18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1481721561",
+			"date_added": 1481724379
+		},
+		{
+			"comment_id": 5,
+			"body": "@Generate: A lot of hard work here as I am not used to do things the ZeroNet way. Regarding localStorage. In my site I keep a copy of localStorage in a JS object and use this object instead in my localStorage interface\n",
+			"post_uri": "18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1481721561",
+			"date_added": 1481729516
+		},
+		{
+			"comment_id": 6,
+			"body": "    // sessionStorage and localStorage implementation. direct calls are not working in ZeroNet. Error: The operation is insecure\n    // sessionStorage is implemented as a JS object\n    // localStorage is implemented as a JS object stored and updates sync asynchronously in ZeroFrame API\n\n    // sessionStorage.\n    var session_storage = {} ;\n\n    // localStorage javascript copy is loaded from ZeroFrame API. Initialized asyn. Takes a moment before JS local_storage copy is ready\n    var local_storage = { loading: true } ;\n    var local_storage_functions = [] ; // functions waiting for localStorage to be ready. see authCtrl.set_register_yn\n    function ls_bind(f) {\n        if (local_storage.loading) local_storage_functions.push(f);\n        else f() ;\n    } // ls_bind\n    ZeroFrame.cmd(\"wrapperGetLocalStorage\", [], function (res) {\n        var pgm = module + '.wrapperGetLocalStorage callback (1): ';\n        // console.log(pgm + 'typeof res =' + typeof res) ;\n        // console.log(pgm + 'res = ' + JSON.stringify(res)) ;\n        if (!res) res = [{}] ;\n        res = res[0];\n        // moving values received from ZeroFrame API to JS copy of local storage\n        // console.log(pgm + 'old local_storage = ' + JSON.stringify(local_storage)) ;\n        // console.log(pgm + 'moving values received from ZeroFrame API to JS local_storage copy');\n        var key ;\n        for (key in local_storage) if (!res.hasOwnProperty(key)) delete local_storage[key] ;\n        for (key in res) local_storage[key] = res[key] ;\n        // console.log(pgm + 'local_storage = ' + JSON.stringify(local_storage));\n        // execute any function waiting for localStorage to be ready\n        for (var i=0 ; i<local_storage_functions.length ; i++) {\n            var f = local_storage_functions[i] ;\n            f();\n        }\n        local_storage_functions.length = 0 ;\n    }) ;\n\n    // write JS copy of local storage back to ZeroFrame API\n    function ls_save() {\n        var pgm = module + '.ls_save: ' ;\n        // console.log(pgm + 'calling wrapperSetLocalStorage');\n\n        ZeroFrame.cmd(\"wrapperSetLocalStorage\", [local_storage], function () {\n            var pgm = module + '.ls_save wrapperSetLocalStorage callback: ';\n            // console.log(pgm + 'OK');\n        }) ;\n    } // ls_save\n\n",
+			"post_uri": "18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1481721561",
+			"date_added": 1481729619
+		},
+		{
+			"comment_id": 7,
+			"body": "@Generate: The code below was just a start. You have to rewrite all localStorage calls. And \"ZeroFrame\" is my extension of ZeroFrame API. It is called something else in your site. \n\nlocalStorage.setItem(\"lastname\", \"Smith\") <=>  { local_storage[\"last_name\"] = \"Smidt\" ; ls_save() \nx = localStorage.getItem(\"lastname\") <=> x = local_storage[\"last_name\"]\n\nMaybe it is possible to make a custom localStorage class so you can avoid a lot of code rewrite ...",
+			"post_uri": "18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1481721561",
+			"date_added": 1481773584
+		},
+		{
+			"comment_id": 8,
+			"body": "@Generate: Please tell me if you find a good solution with a custom localStorage class or a easier way to make localStorage calls in ZeroNet. Looking forward to see your site finished",
+			"post_uri": "18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1481721561",
+			"date_added": 1481774462
+		},
+		{
+			"comment_id": 9,
+			"body": "Tried to make the JS code a little better but still not working",
+			"post_uri": "18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1481721561",
+			"date_added": 1482046225
+		},
+		{
+			"comment_id": 10,
+			"body": "window.localStorage = (function () {\n    var local_storage = {\n      loading: true\n    };\n    var local_storage_functions = [];\n    function ls_bind(f) {\n      if (local_storage.loading) local_storage_functions.push(f);\n      else f()\n    }\n\n    ZeroFrame.cmd(\"wrapperGetLocalStorage\", [], function (res) {\n      if (!res) res = [{}];\n      res = res[0];\n      var key;\n      for (key in local_storage) if (!res.hasOwnProperty(key)) delete local_storage[key];\n      for (key in res) local_storage[key] = res[key];\n      for (var i = 0; i < local_storage_functions.length; i++) {\n        var f = local_storage_functions[i];\n        f()\n      }\n      local_storage_functions.length = 0\n    });\n\n    function ls_save() {\n      ZeroFrame.cmd(\"wrapperSetLocalStorage\", [local_storage], function () {\n        var pgm = module + '.ls_save wrapperSetLocalStorage callback: '\n      })\n    }\n\n    function setItem(key, value) {\n      local_storage[key] = value ;\n      ls_save() ;\n    }\n    function getItem (key) {\n      return local_storage[key]\n    }\n\n    return {\n      setItem: setItem,\n      getItem: getItem\n    }\n\n  })();\n",
+			"post_uri": "18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1481721561",
+			"date_added": 1482046228
+		},
+		{
+			"comment_id": 11,
+			"body": "window.sessionStorage = (function () {\n  var session_storage = {\n  };\n\n  function setItem(key, value) {\n    session_storage[key] = value ;\n  }\n  function getItem (key) {\n    return session_storage[key]\n  }\n\n  return {\n    setItem: setItem,\n    getItem: getItem\n  }\n\n})();",
+			"post_uri": "18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1481721561",
+			"date_added": 1482047162
+		},
+		{
+			"comment_id": 12,
+			"body": "I am not sure but I think that you just should call the missing hub direct. Will add the hub to your list of sites and maybe solve the problem.  http://127.0.0.1:43110/1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i ",
+			"post_uri": "1BA2fUtT5cqyWHx4p3caoEYo2YFGU5dnn4_1",
+			"date_added": 1482939893
+		},
+		{
+			"comment_id": 13,
+			"body": "@编程狗的博客:  I did have a similar problem for a few weeks ago in ZeroMe after having restored my user and sites json files from a backup. I do not remember it 100% but I think I deleted ALL sites in my sites.json file and added them again by entering  http://127.0.0.1:32110/xxxxxx. But be carefull. I can't promise that it will work for you ... ",
+			"post_uri": "1BA2fUtT5cqyWHx4p3caoEYo2YFGU5dnn4_1",
+			"date_added": 1482947553
+		},
+		{
+			"comment_id": 15,
+			"body": "How \"find them\"? ",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484328024",
+			"date_added": 1484329544
+		},
+		{
+			"comment_id": 16,
+			"body": "@Jjg: Check out \"New users - Browse all\" section. \nAn other problem is merger sites. User profiles are distributed on different merger sites. You have to click on user and add merger sites. See MERGED: ZEROME on Hello ZeroNet page. Adding more merger sites = more post in ZeroMe. Try [Get All Hub](/1GLndW2MJn7japuF3X2tbfBqgPMR52zaLQ/) to find all ZeroMe merger sites. \nTry search field in Hello ZeroNet page\nTry search in [ZeroMePlus](/1Lj1oPcN7oZQL8HkS5KbkzQuKqs42zQWY6)",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484328024",
+			"date_added": 1484366105
+		},
+		{
+			"comment_id": 17,
+			"body": "@Jjg: yes. Many ZeroMe merger sites/hubs. I have only 5. Maybe \"Get All Hub\" is not working. Update: \"Get All Hub\" is working but you must allow popup in your browser.",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484328024",
+			"date_added": 1484414915
+		},
+		{
+			"comment_id": 18,
+			"body": "For once it ensures that all.js is generated from your js files and not being downloaded from other clients on ZeroNet",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484767387",
+			"date_added": 1484771365
+		},
+		{
+			"comment_id": 19,
+			"body": "Do you believe in Einstein?",
+			"post_uri": "12qjihKND6jEzokvuzxCe5htUhkbRBe699_1485039201",
+			"date_added": 1485060223
+		},
+		{
+			"comment_id": 20,
+			"body": "That's OK. Hubs only contain data. UI is ZeroMe (or ZeroMePlus)",
+			"post_uri": "19naVAHk8V5KPiEvmuJ75fwAs5KVZQv6KC_1485161558",
+			"date_added": 1485163946
+		},
+		{
+			"comment_id": 21,
+			"body": "1835",
+			"post_uri": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1485119895",
+			"date_added": 1485187502
+		},
+		{
+			"comment_id": 22,
+			"body": "Sure. And many Chinese here also :-)",
+			"post_uri": "1PyJKf7erAPW5akUQsMSxQxRzkZNWZreFw_1485297633",
+			"date_added": 1485318904
+		},
+		{
+			"comment_id": 23,
+			"body": "1848",
+			"post_uri": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1485189136",
+			"date_added": 1485574819
+		},
+		{
+			"comment_id": 24,
+			"body": "Tell if you find a way. A single site proxy maybe? ",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1485871572",
+			"date_added": 1485893330
+		},
+		{
+			"comment_id": 25,
+			"body": "Have dropped it. Site too big and I never receive any mail :-)",
+			"post_uri": "1HQat1a4kYwNck8Bx3CGxh6rKCQ9CtBvME_1486403145",
+			"date_added": 1486444217
+		},
+		{
+			"comment_id": 26,
+			"body": "I think that you must be using proxy servers when visiting my site? Proxy servers only save certificates temporary. I have the same experience when testing my site on proxy servers. \n\nAbout certificates: I do not like the idea with very few ID providers on ZeroNet. Users may use TOR but that does not matter when all user data is saved unencrypted under the same ZeroNet ID. It is too easy to collect all data for a user and use that information to ID the user in real world. So in my site you can choice between your normal central ID provider (zeroid.bit, kaffie.bit) or you can use decentral anonymous ID (xxx@moneynetwork.bit). The decentral ID xxx@moneynetwork.bit can only be use in MoneyNetwork. xxx@moneynetwork.bit ID is implemented the same way as ID in Nanasi Text Board. \nAbout encryption: The other thing that I do not like about ZeroNet is that all data except for a few sites (ZeroMail) are stored unencrypted. So in MoneyNetwork data is primary saved encrypted in your browser (localStorage). The ZeroNet ID is used for communication between users and most data is saved on ZeroNet is encrypted.\nAbout trust: I try very hard to make my site secure (anonymous and encrypted). Should be a more secure that ZeroMe. All JS files are saved uncompressed and well commented. And there are a lot of debug options in Account page you can enable and get additional information about what is going on behind the UI. \n\nBut I understand you. A lot of users are using ZeroMe and no one are using MoneyNetwork. The number of users also count. \n",
+			"post_uri": "1LExHAGduhvTgxYjDCJT6rMYi2zAuuWDju_1486765755",
+			"date_added": 1486786160
+		},
+		{
+			"comment_id": 27,
+			"body": "I think you only see activity for the last <n> days. No likes or comments the last <n> days => no newsfeed",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1486826141",
+			"date_added": 1486841853
+		},
+		{
+			"comment_id": 29,
+			"body": "I think the new mute option works global. Mute in ZeroMe => mute in all sites?",
+			"post_uri": "1EYg7m4SNBMYvJdfL164LugLoir9mDmuiw_1486851533",
+			"date_added": 1486883170
+		},
+		{
+			"comment_id": 30,
+			"body": "Just use the mute option if there is something you don't want to see. Can't see the problem?",
+			"post_uri": "1DnhwsShChvDmLiG3hMnPHCgMj2nJbxG8J_1487019777",
+			"date_added": 1487063619
+		},
+		{
+			"comment_id": 31,
+			"body": "Strange. Rev 1941 on a VM without ZeroUpdate installed and rev 1936 on a machine with ZeroUpdate installed. Maybe no point in using the ZeroUpdate site?\nUpdate: Deleted ZeroUpdate and upgraded from rev 1936 to 1941 on the other machine. Now 1941 on all machines",
+			"post_uri": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1487972371",
+			"date_added": 1488038624
+		},
+		{
+			"comment_id": 32,
+			"body": "[nanasi text board](http://127.0.0.1:43110/16KzwuSAjFnivNimSHuRdPrYd1pNPhuHqN/)",
+			"post_uri": "1DDkP7BAr5BmvW4FgdnDFMHgjfzxvP1pEb_1488898409",
+			"date_added": 1489038361
+		},
+		{
+			"comment_id": 33,
+			"body": "And more freedom for the users in ZeroNet to use any ID provider. Today list of allowed ID providers are hardcoded in each site. Normally only one or very few.",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1489334065",
+			"date_added": 1489337575
+		},
+		{
+			"comment_id": 34,
+			"body": "Receiving/downloading messages. Special receiving optional files (pictures) can take some time depending of number of peers",
+			"post_uri": "17wvV3ETVFUjZex3NDRTsbwYtz8xPNUUsa_1489920775",
+			"date_added": 1489923979
+		},
+		{
+			"comment_id": 35,
+			"body": "What is third version of ZeroMe?",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1489970454",
+			"date_added": 1489986741
+		}
+	],
+	"flags": {
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481714064": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481713762": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481661721": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481661272": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481660011": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481659264": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481596217": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481576197": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481537132": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481535586": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481529299": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481779961": 2,
+		"post-13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR_1481755937": 2,
+		"post-13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR_1481755870": 2,
+		"post-13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR_1481755835": 2,
+		"post-13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR_1481755406": 2,
+		"post-13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR_1481753601": 2,
+		"post-13zWkqwCxJ9i7bbgBEW2D2HEoovzmgoivR_1481753099": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481715129": 2,
+		"post-1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481794595": 2
+	},
+	"comment_like": {}
+}

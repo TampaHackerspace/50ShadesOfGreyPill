@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G5n23gPLwpTgafCah3BlbIDNFH2E8kSAvvNa8uBu2+AthuH6lP3ckRJV8ABkXVCn5TLFLOW3JLIAs8MGpN8X2d8=",
+ "cert_user_id": "daotangbill@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "a1113904d6f83e9b612ee1fd52c22631885209b94d457bcabc502eb164877eb2",
+   "size": 1542
+  },
+  "data.json": {
+   "sha512": "394387d854b50417bfe41b6024d959a6578530a847504d80228771b5f50d3501",
+   "size": 529
+  }
+ },
+ "inner_path": "data/users/1Hxh3CmkanGoyszWTuHPfz596Msz88XS3h/content.json",
+ "modified": 1488359617,
+ "signs": {
+  "1Hxh3CmkanGoyszWTuHPfz596Msz88XS3h": "G7fwL3TFy2ERCFj5WvfxouB3VE7S6MCr4k1zwSUc32biJF0F6I1H3ELpGfPDq78l4fSeihwPMzbRtNy8f7p1A0E="
+ }
+}

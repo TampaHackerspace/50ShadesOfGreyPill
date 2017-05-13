@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HMnxF487l7PsYWY2d9A+SomuFtmswAQhE7lqj1egB04r3gcyYuGqXTEmP2NuGu0gsf66CqcQGPPR//1lPkU3fAo=",
+ "cert_user_id": "resilio@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "7a38b38d485f56081e6e41bcb002cc3fcd6ab482213ae54eb2cb4ec0189f162f",
+   "size": 670
+  }
+ },
+ "inner_path": "data/users/1KdvjQagxMgh7PaE92QuwKVHvUJM8LEq98/content.json",
+ "modified": 1491655824,
+ "signs": {
+  "1KdvjQagxMgh7PaE92QuwKVHvUJM8LEq98": "GwDUpIejV/awvhnG9TKQJe1a2Wnu9DbkmgeXyZ2xCIey2qzHctZEiolo9j19V8RWskD6FNTaQvVrf14R86uQHEA="
+ }
+}

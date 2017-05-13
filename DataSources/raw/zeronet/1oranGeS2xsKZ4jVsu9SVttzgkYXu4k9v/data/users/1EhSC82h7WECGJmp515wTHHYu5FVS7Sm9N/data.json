@@ -1,0 +1,64 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Mrawesome",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1481511363,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481506707": 1481511391,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1482049079": 1482051473,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1482136111": 1482136225,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1482125362": 1482136228,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1482119682": 1482136232,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1482045244": 1482136236,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1482031648": 1482136237,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1482024315": 1482136238,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481970398": 1482136240,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481963652": 1482136242,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481940371": 1482136244,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481878603": 1482136246,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481860024": 1482136248,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481848569": 1482136250,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481794595": 1482136252,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481779961": 1482136254,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481715129": 1482136256,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481714064": 1482136258,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481713762": 1482136260,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481661721": 1482136261,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481661272": 1482136263,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481660011": 1482136265,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481659264": 1482136266,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481596217": 1482136268,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481576197": 1482136269,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1481537132": 1482136271,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1483577892": 1483578820,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1487544332": 1487550523,
+		"1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1491008239": 1491008758
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Aycaramba: Banned? To my knowledge IPFS makes a merkle hash from the contents. If this video gets put on a block list wouldn't it be possible to just add in a nullbyte to the file end to change the hash while maintaining the file's integrity? \n\nI'm a little bit confused on how banning any kind of IPFS file would work. Blocklists would be pointless.",
+			"post_uri": "1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp_1483337194",
+			"date_added": 1483574239
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp",
+			"user_name": "Loligod",
+			"date_added": 1481529298
+		}
+	]
+}

@@ -1,0 +1,76 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 7,
+	"avatar": "generate",
+	"user_name": "Movax",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1483918651,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"1FDJZLxSkRZtQ1RcN9v8dkt5ujcS35E9rK_1483895945": 1483919108,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1483868984": 1483919176,
+		"17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb_1483904803": 1483921273,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1484082779": 1484107767,
+		"18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484070194": 1484108799,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1485119895": 1485137982
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "I believe the spam is the biggest problem. Illegal content and malware can be dealt in similar way as the clearnet, but filtering spam in decentralized system is hard. You could create some filtering system based on keywords, machine learning, etc, but because ultimately the code would be available (as a black box) or open source, spammers would be able to bypass it.\n\nWe need some sort of consensus based protocols among peers, maybe some trust based system for major apps (like ZeroMe and ZeroTalk), and test from there.\n\nHaving good spam prevention, might actually make the platform more friendly to advertisement, and overall improve the quality of life. Also, it might be too easy to spam and ddos system by creating too much content. So sort of the zeroid that first requires a proof of work (i.e. solve some crypto puzzle for few minutes), could also prevent mass creation of accounts. Also newly created accounts should not be trusted, unless they a) age, b) acquire trust from other trusted users, c) maybe some web of trust, maybe ala pagerank, so cluster of spam accounts, cannot play the system by trusting each other.\n",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484096314",
+			"date_added": 1484300345
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj",
+			"user_name": "Martinv",
+			"date_added": 1483918771
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1PW4C7gyeEABoTFTqZFswWKLkqNR9hicFt",
+			"user_name": "Dark2light",
+			"date_added": 1483918843
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "192RrVMsT8jyw5HqeoPkcoBzDyu1GTeQ3M",
+			"user_name": "Adultsitedating",
+			"date_added": 1483918866
+		},
+		{
+			"follow_id": 4,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb",
+			"user_name": "Brahman",
+			"date_added": 1483918904
+		},
+		{
+			"follow_id": 5,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1FDJZLxSkRZtQ1RcN9v8dkt5ujcS35E9rK",
+			"user_name": "Kuwagata",
+			"date_added": 1483919114
+		},
+		{
+			"follow_id": 6,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa",
+			"user_name": "Th3B3st",
+			"date_added": 1483919180
+		}
+	]
+}

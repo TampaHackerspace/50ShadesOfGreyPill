@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HCD1GtnGG/d4L1lKxBW3cJc/WJpiZ4vLfc7qd2Co8NNcz/4D+ponOH55B8KPR2YlpPozAV3RhOTM/pK/1y+71cc=",
+ "cert_user_id": "gangashman@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "4851653ebae698b0fa53cf427dea7299363517f2ae1f7201877c3306aa4fc980",
+   "size": 1695
+  },
+  "data.json": {
+   "sha512": "344666d69851fb60a84970d943873bb8ea2c6efbf50fbf76d3750ce17bd7f2da",
+   "size": 323
+  }
+ },
+ "inner_path": "data/users/1EAYXneMsH6rcifXZiRk11PMVnw3zqaB1n/content.json",
+ "modified": 1490893315,
+ "signs": {
+  "1EAYXneMsH6rcifXZiRk11PMVnw3zqaB1n": "HF+lckoIKeShqzlsDYnHBLg3lE535ECWLDm5G2R8Ib2x5borfWxu9hLIjV10WRfQWD5F9FQ/XowTeIYpU2viSXM="
+ }
+}

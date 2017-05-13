@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "Gxx1bXV0vLWLmgC5Vdd0Ew6NNNP6GL5NzluQl80qL+E1C1y/37voRDOc9MdxZ9vo5onoHW+j5G22xyBAPBPg65o=",
+ "cert_user_id": "cassidyjames@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "895acc64b5928eaeb4c05525d12728e609671e508d79f409dea0bef423608eb1",
+   "size": 1815
+  },
+  "data.json": {
+   "sha512": "9143c9f4318cddd8ca915a517d771a4da61c5dda89ac2d09359831069be87dbe",
+   "size": 671
+  }
+ },
+ "inner_path": "data/users/1LZ43ipVVRxM2MV8ETkeLqbVfmz82RqHZH/content.json",
+ "modified": 1480458970.984288,
+ "signs": {
+  "1LZ43ipVVRxM2MV8ETkeLqbVfmz82RqHZH": "G2Xd5Ksbq2aNfXSO/xNTt/GXs7AJwSdQyFrq0LeDMZRJoVvtPHV0pxIXKGFf0XdkzALJld0ws+nGNzZSjcC6760="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HMh478HD7aQppRa2Swhq+dh5pEfFLcGi7yyINkUQhJbu/aHXnG4z8df5vYs5Fu+Yob9m7QWXP9ZhAGAu6t3Ak3g=",
+ "cert_user_id": "refrement@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "7dd185df94e314d6c6f8c7969f2587a95045cd92626d8c3c8e69cc727238dcb9",
+   "size": 654
+  }
+ },
+ "inner_path": "data/users/1MT8mV16KRehARLL4iayCR5XXq2hczayiW/content.json",
+ "modified": 1490625134.468,
+ "signs": {
+  "1MT8mV16KRehARLL4iayCR5XXq2hczayiW": "HITtisJVFuEmoxAKpXUMx+Mf4u21tayfbjzvemrHBS5ytX9mW3HY73K/IhNOmLNCDBlscPHtFS+OyMBYTWIux4c="
+ }
+}

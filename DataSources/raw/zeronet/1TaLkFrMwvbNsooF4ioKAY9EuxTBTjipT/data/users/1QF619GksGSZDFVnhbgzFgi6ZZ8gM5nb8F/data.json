@@ -1,0 +1,17 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "新版本不能用，3.8.3可以正常使用。",
+			"body": "[2016-09-19 22:50:12] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。\n   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)\n   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)\n   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)\n   --- 内部异常堆栈跟踪的结尾 ---\n   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)\n   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)\n   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)\n   --- 内部异常堆栈跟踪的结尾 ---\n   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()\n   在 Shadowsocks.Controller.GFWListUpdater.http_DownloadGFWTemplateCompleted(Object sender, DownloadStringCompletedEventArgs e)",
+			"added": 1474297055
+		}
+	],
+	"topic_vote": {
+		"1_1QF619GksGSZDFVnhbgzFgi6ZZ8gM5nb8F": 1
+	},
+	"next_comment_id": 1,
+	"comment": {},
+	"comment_vote": {}
+}

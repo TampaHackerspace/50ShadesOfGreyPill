@@ -1,0 +1,56 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G1B8HkZ3weEJXttc6X4D/P3Tyb7/K9U3v1yG7AXwydLRV67I+lK37SdJ/5/rE7nEwm6fmcHJYtuS5wNvHp/4UjM=",
+ "cert_user_id": "styromaniac@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "93e8cc041eb5a140c4b8be1a0f554eadb4f13313b2980ffbd59bbb827e4322d0",
+   "size": 1212
+  },
+  "data.json": {
+   "sha512": "f90fb2f511670f56a39e9c87a4067bebae80fea80a0f07a9fee925f0a4b94e40",
+   "size": 29259
+  }
+ },
+ "files_optional": {
+  "1489822440.jpg": {
+   "sha512": "7af848962f57c9e2c1a56c38b0d972c03995716a211d51686439265a78512e05",
+   "size": 96452
+  },
+  "1489824043.jpg": {
+   "sha512": "435a00b0da1d12229b0213d926224c66009e999acc34f95a9d92b4153cdc7491",
+   "size": 34205
+  },
+  "1489890101.jpg": {
+   "sha512": "2d43f471a486bd1879845feb7fc0daafcda42923ff13c55cc297451c1a21f0d4",
+   "size": 38270
+  },
+  "1489893249.jpg": {
+   "sha512": "5e70080e5484ca35ba3c99d56840880d633ffbec9fcb6e91963feff67147a2e6",
+   "size": 121954
+  },
+  "1490149049.jpg": {
+   "sha512": "dfb42540da815bb25bd3c2ff4a58aba0ef90658ae1ee5ebad0d3702e6aa4d713",
+   "size": 59117
+  },
+  "1493567664.jpg": {
+   "sha512": "13f4fa6c9e790692a3024c382e595429da2d1f3d4954d236a745968322ee96c0",
+   "size": 15460
+  },
+  "1493602593.jpg": {
+   "sha512": "3ae18057d0cfb5dd421bfee8d275da2aff91b78cc5097342b3b754287bf40782",
+   "size": 53228
+  },
+  "1493602779.jpg": {
+   "sha512": "8cccd664a9a7ddebfb2bd0a1b657c77fb10c9f4679ccae9ee2416fc1281ed36f",
+   "size": 55819
+  }
+ },
+ "inner_path": "data/users/16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd/content.json",
+ "modified": 1494119082,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": "HJBGlUHIYLU8S57NKwJ3Y1xByro4PihsCq3s6/ZlNW8xFJNqbHkFL8IAUH9tzs4DVowpFc2JA2SMNJJj1+EFgyE="
+ }
+}

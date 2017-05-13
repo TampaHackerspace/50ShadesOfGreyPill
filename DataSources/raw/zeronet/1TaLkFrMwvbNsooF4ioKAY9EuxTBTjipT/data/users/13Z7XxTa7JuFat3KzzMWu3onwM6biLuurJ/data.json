@@ -1,0 +1,1941 @@
+{
+	"next_topic_id": 17,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "does this make Zeronet work in Tails and Whonix with full Tor support?",
+			"body": "@nofish said [here](https://github.com/HelloZeroNet/ZeroNet/issues/276#issuecomment-188689512):\n>If you start your tor process on port 9050 and 9051, then it should work fine. The tor browser uses different port (9150 and 9151), be we don't connect to that service, because if you close the tor browser it would also make zeronet stop working.\n>If you want to share service with the browser then you have to start it using zeronet.py --tor_controller 127.0.0.1:9151 --tor_proxy 127.0.0.1:9150\n\ndoes this make zeronet work in tails and whonix with full tor support (ability to talk with .onion)? port number may be different. anyone test it?",
+			"added": 1456553736
+		},
+		{
+			"topic_id": 2,
+			"title": "@nofish, how is ZeroName  ( namecoin support ) implemented? no blockchain on client side?",
+			"body": "my guess:\nu run a script in ur VPS to put latest zeronet related info from namecoin blockchain to ZeroName site's content.json, so no namecoin blockchain on ZeroNet users' client side. in other words, we get .bit domain info only in ZeroNet's P2P way.\nam i right?\nthx.",
+			"added": 1457227434
+		},
+		{
+			"topic_id": 3,
+			"title": "[ Solved] any ideas to make ZeoNet portable in winXP?",
+			"body": "in order to run ZeoNet in winXP, we have to install first Visual C++ 2008 Redistributable Package (python.exe requires it):\nhttps://www.microsoft.com/en-us/download/details.aspx?id=29\n~~any ideas to make it portable ( no need to install anything )? i ask here because @nofish said he can't ~~ . i know XP is old, but quite a lot chinese people still use it, especially in some not rich area. \n THX!\nEDIT:  the problem is solved ( pls look at the zerobundle repo commits history at that time )",
+			"added": 1460789030
+		},
+		{
+			"topic_id": 4,
+			"title": "Automated rsync snapshot script to make it truly impossible to takedown a ZeroNet site! ( 5/14 UPDATE )",
+			"body": "people discussed \"complete site deletion/takedown preventing\" [here](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:11_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf) and [here](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:4_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf).\ninstead of waiting ZeroNet's build-in versioning feature to be implemented, i want something similar for now, so i wrote a script. anyone can use this script to make a series of snapshots for his/her own sites and others' sites automatically. the famous open-sourced tool, rsync, supports hardlink feature, easy for snapshots which need no more disk space. the script is only tested in Linux.\n- make sure u have rsync installed.\n- copy this code to ur text editor, and  make some settings fit ur environment.\n\n```shell\n#!/bin/bash\n# ------------- settings -----------------------------------------\n\nn=30  # the max amount of snapshots\nyour_zeronet_folder=~/ZeroBundle/ZeroNet/data # the path should NOT contain any whitespace or non-ASCII character!\nyour_backup_folder=/media/sda1/ZeroNet_snapshot # the path should NOT contain any whitespace or non-ASCII character!\n\n# ------------- the script itself --------------------------------------\n\nrm -rf $your_backup_folder/backup.$n\nfor((i=$n;i>=1;i--)); do\n  mv $your_backup_folder/backup.$(($i-1)) /$your_backup_folder/backup.$i\ndone\nrsync -av --delete --link-dest=../backup.1 $your_zeronet_folder/  $your_backup_folder/backup.0/\n```\n- save the script as .sh file, and set executable permission to it\n- run this script and it'll start to snapshot for the first time, waiting it to finish. second and later snapshots will be very fast, since we use the cool tool: rsync\n- make the script executed automatically: set it using cron. if u want to set it via GUI, i recommend `Gnome schedule` for Gnome desktop, and `Task Scheduler`( aka. kcron,  built-in KDE desktop) which could be found in System Settings -> Advanced -> System section -> Task Scheduler. i set it run automatically every 10 mins, u can make ur own choice:)\n\nthe original script and more info can be found [here](http://www.mikerubel.org/computers/rsync_snapshots/), THX  the author.\nany idea to this post is welcomed:)\nPS: the chinese (more detailed) version of this post is [here](http://127.0.0.1:43110/gfwtalk.bit/?Topic:30_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/+ZeroNet)\n\n---\n\n5/14 UPDATE:\n`cp -al ` hard link based method to archive snapshots for longer period ( _**must be used together with the script above**_, add it into cron with different period after setting executable permission to it. No more disk space needed ):\n```\n#!/bin/bash\n# ------------- settings -----------------------------------------\n\nt=daily # the prefix of backup name, you can name it hourly, weekly, monthly, whatever\nn=30 # the max amount of  backups\nyour_backup_folder=/media/sda1/ZeroNet_snapshot # the path should NOT contain any whitespace or non-ASCII character!\n\n# ------------- the script itself --------------------------------------\n\nrm -rf $your_backup_folder/${t}_backup.$n\nfor((i=$n;i>=1;i--)); do\n\n  mv $your_backup_folder/${t}_backup.$(($i-1)) /$your_backup_folder/${t}_backup.$i\ndone\ncp -al  $your_backup_folder/backup.2 $your_backup_folder/${t}_backup.0\n```",
+			"added": 1462066763
+		},
+		{
+			"topic_id": 5,
+			"title": "Anyone successfully set `signers_sign` to give ownership or Multisig? @nofish pls come in",
+			"body": "@nofish said creating a signers_sign means you can sign the site any of listed public addresses, see [here](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:11_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf). but it failed in my testing. @nofish's explain and his [doc](http://zeronet.readthedocs.org/en/latest/site_development/content_json/#signers_sign) are unclear and confusing. i don't know which format is right:\n```\n \"signers_sign\": {\n  \"1\": \"1Kxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,1Lyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy\"\n },\n```\nor\n```\n \"signers_sign\":  [ \"1:1Kxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,1Lyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy\"],\n```\nor something else. i tried both above, no luck:(\nno matter what to set signers_sign, it'll be overwritten after clicking `Sign` button. does py really try to read the value of signers_sign?\nafter looking at the py code [ContentManager.py#L505](https://github.com/HelloZeroNet/ZeroNet/blob/8b545383e75cd9aaaf85c1207315267b030ae2f1/src/Content/ContentManager.py#L505) i wonder we should add a `signers` field containing  public addresses in the root content.json instead of setting the `signers_sign`. i tried, still no luck.\ni have successfully set  the `signers` to others' `auth_address` (can be found in corresponding site section of  `sites` field of others'  users.json, others can use corresponding `auth_privatekey` to sign then) in the `includes` field of root content.json  as describe in [src/Test/testdata/.../content.json#L119](https://github.com/HelloZeroNet/ZeroNet/blob/8b545383e75cd9aaaf85c1207315267b030ae2f1/src/Test/testdata/1TeSTvb4w2PWE81S2rEELgmX2GCCExQGT/content.json#L119) and in the `permission_rules` field of user content.json as described in [src/Test/testdata/.../data/users/content.json#L20](https://github.com/HelloZeroNet/ZeroNet/blob/8b545383e75cd9aaaf85c1207315267b030ae2f1/src/Test/testdata/1TeSTvb4w2PWE81S2rEELgmX2GCCExQGT/data/users/content.json#L20), it works well. but setting `signers_sign` is not described in testdata, has it been tested?\nbtw, i'v seen Multisig is marked `TODO`, is it not implemented yet? i'v tried to set `signers_required` as 2 and `signers` as 2 addresses in the `includes` field, but it only needs 1 sign.\nTHX for reading.",
+			"added": 1462106553
+		},
+		{
+			"topic_id": 6,
+			"title": "Come on to see handsome @nofish in Decentralized Web Summit!!\n【UPDATE】：added an interview video of @nofish",
+			"body": "live stream address is in the official site:\nhttp://www.decentralizedweb.net/\n@nofish 's announce to attend it:\nhttp://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:84:ZeroNet+talk+@+Decentralized+Web+Summit\n\n---\n\nUPDATE：\naccoding [official schedule](http://www.decentralizedweb.net/schedule/)\n@nofish (Tamas Kocsis) will present in Lightning Talks at 11:00-12:30 p.m. PST Jun 9, in Workshops at 1:30-3:00 p.m. i hope we can see him in live stream:)\n\n---\n\nUPDATE2：\n~~Can anyone see youtube playback of Lightning Talks _**Section B**_  of Decentralized Web Summit, in which @nofish presented?\nhttps://www.youtube.com/watch?v=PfWgin3JlAU\ni can see the video, but it only lasts 4 hours( it should be 8 hours ), lacking Section A and Section B. something wrong?~~\nbtw, i can see the Day 1's playback of 8 hours with no problems.\n\nit was fixed!! \n### come on to see handsome @nofish !!  \n_**Lightning Talks video**_  of Decentralized Web Summit:\nhttps://youtu.be/PfWgin3JlAU?t=10989\n\n---\n\nUPDATE3：\n+ _**interview video**_ of @nofish in Decentralized Web Summit on Jun 7, Builders' Day:\nhttps://archive.org/details/DecentralizedWeb20160607pt3\n@nofish 's part starts at about 50:00 of the video, and u can download several formats of video ( download links can be found on that page ) if u suffer inconvenience watching on web.\n+ @nofish 's handsome _**images**_ can be found here:\nhttps://archive.org/stream/DecentralizedWeb20160607Images/DecentralizedWeb20160607pt2#page/n447/mode/1up",
+			"added": 1465405024
+		},
+		{
+			"topic_id": 7,
+			"title": "Recent ZeroMe structure is bad for hub migrating and censorship proof. My idea is...",
+			"body": "Although I'v posted my idea under @kaffie 's post in ZeroMe, I'd post here for better discuss.\nAs you can see, both @kaffie and @bot migrated their hubs, but I don't think they were perfect migratings. [As @kaffie said](http://127.0.0.1:43110/kaffie.bit/?Post:25#Comments), his old posts have to be left in the old hub because the comments (posted by others) linking to the old posts are still there, he can NOT migrate them. That's the problem! Just imagine, the old hub owner censors your old posts but your migrating does not help. In that case, you lose data, old posts or old posts' comments. So, recent ZeroMe is not designed for graceful hub migrating.\nIMO, comments (posted by others) and likes should be in the sub folder of the user folder, which allows the user to control all of the comments and likes, migrate them as a whole. That is **Nested includes** if i'm not wrong (see [official doc](http://zeronet.readthedocs.io/en/latest/site_development/content_json/#includes)).\nWith Nested includes, there will be an issue of  increasing your folder size, but it can be resolved via counting the sub-sub-folders' size by commenters' ZeroID addresses, consuming their own quota, not yours. This counting method may eat more CPU, RAM and I/O, but we could use database or something to make it eat as little as possible.\nIn case of something unexpected happen, e.g. censorship by hub owner/post owner,  or hub private key being stolen, or even their misoperation, we need the feature of backup hub, I described the idea in [this post comments](http://127.0.0.1:43110/zeroblog.bit/?Post:65#Comments). In addition, all my comments posted to sub folder of an user in other hubs should be also backup-ed to my profile's primary hub and backup hubs in case of something unexpected happen.\nI afraid it would not be easy to implement these 2 features, especially Nested includes style comments, with migrating all the  recent ZeroMe users' data during update ( just like we had the old ZeroTalk's data locked about one year ago and started a blank new one--the one we are using now to support ZeroID ). But at the early stage of ZeroMe, this is more or less acceptable, as ZeroTalk switch from the old one. The sooner the better.",
+			"added": 1471094510
+		},
+		{
+			"topic_id": 8,
+			"title": "@nofish , There are long time painful things using ZeroNet under Tor always mode",
+			"body": "There are long time painful things using ZeroNet under Tor always mode:\n- Connections of a zite ( even though hundreds of peers ) can be 0 after sometime, I have to manually click `Update` to get several peers to update.\n- Although there are several connections, sometimes I can see `1 FILE UPDATE FAILED`, I have to manually click `Update` to update the file.\n- The worst thing is, sometimes, manually click `Update` does NOT help! No matter how many times I click it, a specific user's file is never to be updated( others' files are updated OK though), e.g. @shuiku 's new file in [GFW Talk](http://127.0.0.1:43110/gfwtalk.bit/) was posted 2 days ago, but I still have old file now  without his new replies. However, I can see his new replies in proxies.\n\nThese issues exist for a long time, but I can't stand any more now because I have hubs to update(manually click `Update`) and more hubs are coming!\nMaybe more frequent zites automatic-update under Tor always mode _**partially**_ solves these issues?\nTHX for reading!",
+			"added": 1471158932
+		},
+		{
+			"topic_id": 9,
+			"title": "Anyone packaging APK of ZeroNet?? all ZeroNet's dependency already built in python-for-android",
+			"body": "##Update: The newest APK is developed here: https://github.com/HelloZeroNet/ZeroNet-kivy and compiled/packaged automatically by Travis CI: https://github.com/HelloZeroNet/ZeroNet-kivy/releases\n\nWith all ZeroNet's dependency (gevent msgpack-python) already built in here, could anyone please package an APK of ZeroNet? https://github.com/kivy/python-for-android/tree/master/pythonforandroid/recipes Docs: http://python-for-android.readthedocs.io/en/latest/",
+			"added": 1479129275
+		},
+		{
+			"topic_id": 10,
+			"title": "test version of ZeroNet Android APK released! !",
+			"body": "After long-time working, [finding out this issue](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/1483450432) _ and_ [writing a patch](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/1483713389), I was able to pack an APK of ZeroNet. Currently no optimization , please contribute to optimize.  Tutorial of packing APK is ~~on the way~~, stay tuned :)\n\n## Update: The newest APK is developed here: https://github.com/HelloZeroNet/ZeroNet-kivy and compiled/packaged automatically by Travis CI: https://github.com/HelloZeroNet/ZeroNet-kivy/releases\n\n\n**UPDATE:**  Tutorial of packing APK is out, see: http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:11_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/Tutorial+of+packing+APK+for+ZeroNet\n\n**How to use**：\n- be careful of your phone' firewall and permission control, let the APK go.\n- no UI currently, so you can only see `Loading` without moving.\n- but don't worry! press home button of your phone to go to launcher, open your browser, type  http://127.0.0.1:43110/ enter, you'll see ZeroNet UI ( if you have any problem using the web UI, you can try anther browser)\n- if you wanna shut down, click ZeroHello's top-left ⋮ button, choose `shut down`\n\n**How to download**：\n- please wait for loading patiently, if you have any problem , you can try anther browser ( in Firefox you may have to rename ti to xx.apk manually)\n- sha256 checksum: d09c3f9d7b45cd37b6af7626b23a1eae9475f32520d59472eba8366c2e2c78cf\n- links： \nproxy:\n https://zeronet.korso.win/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/loader/?1dHXGGGJ\ninner ZeroNet:\nhttp://127.0.0.1:43110/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/loader/?1dHXGGGJ\nGoogle Drive by @lmath:\nhttps://drive.google.com/file/d/0B6-qEDTzpw3VV1N0WHFjUHJ1clE/view?usp=sharing\n\nEDIT：\n- you can root your phone to go to /data/data/android.test.myapp16 to find the APK's files, you can replace .pyo files to your modified .py files, shut down ZeroNet and start again, your new code will be run.\n- ~~currently biggest problem is openssl cannot create new cert and do others things,~~ but both openssl and pyopenssl have been packed in, （see [this post](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/1483549028)）. Waiting for anyone to fix it.\n- you can use adb or other log viewer to see python output log by searching for(or filtering) keyword `python`\n- if you have problem reading the zeronet.conf, please edit Config.py directly.\n\n@nofish @ks @bot @shift @waterrabbit and others.",
+			"added": 1483762127
+		},
+		{
+			"topic_id": 11,
+			"title": "Tutorial of packing APK for ZeroNet",
+			"body": "## Update: this tutorial may be out of date. The newest APK is developed here: https://github.com/HelloZeroNet/ZeroNet-kivy and compiled/packaged automatically by Travis CI: https://github.com/HelloZeroNet/ZeroNet-kivy/releases\n\n- Using [this doc](http://buildozer.readthedocs.io/en/latest/installation.html)  to install buildozer and other dependencies. Ubuntu16 is recommended, you can install Ubuntu16 in a virtual machine. ( You can use [kivy  official virtual machine image](https://kivy.org/docs/guide/packaging-android-vm.html#kivy-android-vm), but not tested.)\n- Download [ZeroNet source code](https://github.com/HelloZeroNet/ZeroNet) and [ZeroNet-kivy souce code](https://github.com/HelloZeroNet/ZeroNet-kivy), copy all things of ZeroNet source code to `zero` sub-folder of `ZeroNet-kivy`, and then do as [this doc](http://buildozer.readthedocs.io/en/latest/quickstart.html) says, enter the said `ZeroNet-kivy` folder in terminal, run `buildozer init` to create buildozer.spec file in  ZeroNet-kivy folder ( you can use the existing buildozer.spec file provided by ZeroNet-kivy project )\n-  Use your editor to edit buildozer.spec. The modification can be `source.include_exts =`、`requirements = sqlite3,openssl,m2crypto,gevent,msgpack-python,pil,hostpython2,kivy` ( if your want to use old toolchain, it might be `requirements = sqlite3,openssl,m2crypto,gevent,msgpack,pil,hostpython,kivy`, new toolchain is highly recommended)、`orientation = portrait`、`android.permissions = INTERNET`、`log_level = 2`. The above  modification is not perfect, you can try your own.\n- ( Optional ) Proxy setting. During auto-compile, it will auto-download and install many dependencies, as well as download xml files from google. After run next step's command and SDK is downloaded, if you want to set proxy you can run `$HOME/.buildozer/android/platform/android-sdk-20/tools/android` file after it is set executable, do some settings including HTTP proxy via menu Tools->Options ( if you can't find menu , please google `android sdk proxy setting`, you'll find how to do that via config file). You can also use VPN anyway.\n- In the terminal window of second step,  run `buildozer -v android_new debug logcat >buildozer.log` to start auto-compile ( if you want to use old toolchain, run `buildozer -v android debug logcat >buildozer.log` instead). If it says some dependencies are missing or too old, you should install them manually; if it says error and fails, search the error in google. If you use new toolchain, the most tricky thing is that after it says success, you need to remove all lines related sqlite3 (usually at the bottom of the file) from  `ZeroNet/.buildozer/android/platform/build/dist/your_app_name/blacklist.txt` and `ZeroNet/.buildozer/android/platform/build/dist/your_app_name/build/blacklist.txt` manually, save the file,  and then run `buildozer -v android_new debug logcat >buildozer.log` once more! ( who can help to file  buildozer project an issue of this? I've google it was said that sqlite3 is supposed to be auto-removed from blacklist.txt if you specify sqlite3 in the buildozer.spec)\n- If compiling succeeds, a bin folder appears in ZeroNet folder, where your APK is lying in it. You can copy it to your phone to install\n- You can use adb or other log viewer to see python output log by searching for(or filtering) keyword `python` and see ZeroNet ifself output log by searching for(or filtering) keyword `zn`. Some part of logs can be found in External Storage/Android/data/package_name(e.g. android.test.myapp17)/files/zero/log\n\n**How to use**：\n- Be careful of your phone's firewall and permission control, let the APK go.\n- If you have any problem using the web UI, you can try anther browser\n- If you wanna shut down, click ZeroHello's top-left ⋮ button, choose `shut down`\n- You can update ZeroNet itself source code just as you do in PC: click ZeroHello's top-left ⋮ button, choose Version x.x.x( rev xxxx), regardless saying Up to date. Just choose it, you'll get newest dev version of ZeroNet.\n\n（my packed APK and other things you might be interested can be found [here](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:10_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ)）",
+			"added": 1483795897
+		},
+		{
+			"topic_id": 12,
+			"title": "Things of ZeroNet needs to be changed for Android APK",
+			"body": "Days ago I release [a test version of ZeroNet Android APK](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:10_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ), getting a lot of feedback, thanks for everyone involved. \n##Update: some issues mentioned below are fixed, while others still not. The newest APK is developed here: https://github.com/HelloZeroNet/ZeroNet-kivy and compiled/packaged automatically by Travis CI: https://github.com/HelloZeroNet/ZeroNet-kivy/releases\n\nYesterday I released a newer test version of it in small group of ZeroMe Chinese community for testing, soon problems were found. The biggest problem is that it crashes when new version APK tries to write data to external storage instead of internal storage where old version writes. The problem only affects on Android 5.x, which has a known bug of wrong write permission management. The ZeroNet's log says `Operation not permitted` when writes users.json/sites.json etc., and then it ends running. But the tricky thing is it actually writes successfully! IMO in py code this `Operation not permitted` exception can be well dealt with or just ignored to avoid the issue. It can first try to write, and then read, if it confirms writing is OK, then is OK to go next.  _** @nofish , This problem is most urgent currently, as being a new version release blocker.**_\n\n---\n\nSecond problem is actually found in the first test version' feedback. Many users have not root their phone, so it's hard to import their users.json to the internal storage where old version's data stored in. So I tried stored data in external storage this time. Another reason to stored data in external storage is internal storage is so small that we cannot store many sites' data in it. But storing external is facing another problem: other apps on the phone can access the sensitive data  ( e.g. users.json, sites.json, some db, some zites' data) . As a result, we really need more argument of ZeroNet, e.g. ` --pri_dir` to specify path of private and sensitive info directory.\n\n---\n\nThird problem is battery and data quota consuming in mobile devices. IMO we need more arguments to specify:\n- number of peers to help transmitting\n- time interval to sleep and wake up to get site's update\n\nWith these arguments, we can auto-adjust the behavior of ZeroNet in different scenarios, e.g. using Wifi or cellular data, being charged or low battery. Of course, users can adjust it by themselves.",
+			"added": 1484233477
+		},
+		{
+			"topic_id": 13,
+			"title": "Check out repo ZeroNet-kivy! Newest APK is released there.",
+			"body": "All news of the APK will be released here, including English version: https://github.com/HelloZeroNet/ZeroNet-kivy and the APK is compiled/packaged automatically by Travis CI: https://github.com/HelloZeroNet/ZeroNet-kivy/releases where you can download the newest APK.\nAny feedback and commit are welcome!\nSome dev discussions are here:\nhttp://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1BLueGvui1GdbtsjcKqCf4F67uKfritG49/177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD/1486904274\n\n",
+			"added": 1484497526
+		},
+		{
+			"topic_id": 14,
+			"title": "新中文论坛上线，请各位到那发帖，这里是英文论坛 （New Chinese forum is out! Please post Chinese to there!）",
+			"body": "域名： http://127.0.0.1:43110/NewGFWTalk.bit/\n\n地址： http://127.0.0.1:43110/19BPUZYAdCMxExKHoVSG3cG95wfUfFTEC9/",
+			"added": 1485185063
+		},
+		{
+			"topic_id": 15,
+			"title": "Discussion on porting C/S centralized web framework/Apps to ZeroNet, not so hard as you think",
+			"body": "At the moment we talk about only Python opensource web framework/Apps, e.g. django. Many Apps are based on django, including forum engines, CMS, wiki engines...In theory, if we manage to port django, we can port many Apps very easily. Of course, django is one of the Python web frameworks, just take it as an example when I am talking my idea.\n_We should find the most graceful and easy way to do the porting._\nSo my idea is:\n- every node runs ZeroNet and django locally at the same time (django as a super-plugin downloaded automatically by ZeroNet)\n- implement a reverse proxy written by Python. The reverse proxy works like a man-in-the-middle between browser and locally-running django. Every change ( e.g. administrator changes the settings, users post a comment) submitted from browser to django, which I'd call `commit`, is transited forward to django by the reverse proxy.\n- at the same time, the reverse proxy also submits a commit ( probably as a json file ) to ZeroNet to sign and publish ( probably via ZeroFrame). Private data will be encrypted before leaving the machine and decrypted before forward to browser by the reverse proxy ( just think about ZeroMail ).\n- of course, the build-in user authentication of django should be removed or disabled, and completely open for any commits since ZeroNet does user authentication via ZeroID ( already )\n- when get other users' json from P2P network, commit to django after checking signature. django will treat a commit as if a original user submit it.\n\n@nofish , Please consider this when you are giving TED talk. (A picture showing the structure may be needed.) IMO the porting would be a big step to make the internet more decentralized and significantly attract people's interest of ZeroNet.\nAny ideas from anyone are welcome. @bot @waterrabbit\n\n---\n\nQ&A:\n- Why we need to port them?\nBecause they are developed for many years, typically have many user-friendly features which ZeroNet lacks and may take long time to implement. I don't think we can easily build a ZeroNet-native discourse from scratch because there are tons of features and tweaks to do. ( I just use discourse as an example)\nAnother thing worthy considering: what if import _existing_ discourse forum to ZeroNet? Extremely difficult if no porting because of the huge difference of structure. The use case: Alice has no money to pay the hosting fee for her _existing_ discourse forum, Bob suffers DDOS to his _existing_ discourse forum, both of them want to import their own sites to ZeroNet.\n- Security?\nAll the python super-plugin including the django and the App on it, should be open-sourced, patched and updated officially. A GUI for user to enable or disable them. Impossible for zite owners to do evil things.\n- Mobile client?\nWe can try our best to port the web framework/Apps to Android/iOS, also we can offer semi-thin client and thin client of ZeroNet _with the reserve proxy._ Semi-thin client means ZeroNet runs on mobile phone and contact random public remote proxy server running the web framework/Apps through the local reserve proxy. Thin client is similar to semi-thin client except that only runs the reserve proxy without a locally running ZeroNet.\n\nFor your information:\nhttps://en.wikipedia.org/wiki/Comparison_of_web_frameworks#Python\nhttps://github.com/vinta/awesome-python#cms\nhttps://wiki.python.org/moin/ContentManagementSystems\nhttps://en.wikipedia.org/wiki/List_of_content_management_systems#Python\nhttps://github.com/kivy/python-for-android/tree/master/pythonforandroid/recipes\nhttps://djangopackages.org/\nhttps://github.com/rosarior/awesome-django\n\nPS: django is actually portable because its dependencies ( argon2-cffi and bcrypt ) are [optional and not used by default](https://github.com/django/django/blob/master/docs/topics/auth/passwords.txt) and totally useless for ZeroNet's authentication.\nafter quick search, the web framework [Flask](https://github.com/search?utf8=%E2%9C%93&q=Flask&type=Repositories&ref=searchresults) is also OK as it supported by python-for-android ",
+			"added": 1489640405
+		},
+		{
+			"topic_id": 16,
+			"title": "@ppload3  and other Zer0net dev team members, both your IFS blog and ZeroVoat don't work properly",
+			"body": "Hi, I know your team is working hard on IFS dev, but your [IFS blog](http://127.0.0.1:43110/1Cd1SqtZUUpK8e8KUUqBttHzwPfbG1CU6y/?Home) and [ZeroVoat/Zeronet Central](http://127.0.0.1:43110/1J1c7eML6uMwDU4uiKbKRxoqxGP6WMFMvb/) do not work properly: users can not post a comment on both of them.\nFor IFS blog the log says `Site:1Cd1Sq..CU6y FileWrite forbidden 13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ not in valid_signers ['1Cd1SqtZUUpK8e8KUUqBttHzwPfbG1CU6y']`\nIt is due to the root content.json lacks `ignore` and `includes` settings.\nFor ZeroVoat when login the log says `Site:1J1c7e..FMvb data/users/13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/content.json fileGet error: [Errno 2] No such file or directory: u'data/1J1c7eML6uMwDU4uiKbKRxoqxGP6WMFMvb/data/users/13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/content.json`\n\n---\n\nFor the `How to create a more persistent Zeronet?` topic in IFS blog, IMO you are free to make anything you want as plugins of ZeroNet, e.g. cross-site file (linked) using, file versioning, big file support, (streaming) torrent, DHT, IPFS...\nAn appstore-like plugin manage UI is planned by @nofish , however, you can implement it for him:)",
+			"added": 1490244210
+		}
+	],
+	"topic_vote": {
+		"1_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"4_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": 1,
+		"4_1KdQMFyXwPY2vjMDL9UiPnckwGbyvUjpcj": 1,
+		"10_1PNyuY1iZqXBpft4ArouqcnE4pNRGYij5i": 1,
+		"3_1QGWjfYfANXvVDaHaH8n5w86KWkKcjiAoE": 1,
+		"10_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": 1,
+		"2_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": 1,
+		"1_1NyFX6DUcyMs3S76Vz8X7ssDLC4uCCA1YM": 1,
+		"1_1GJBNW9bp5qdF1dvQssuE6cVx2doeGt2Qf": 1,
+		"2_12HTPzQjWn9V57oxH7fA5KV3PQZ5vuj2Fm": 1,
+		"1_1MBZrgSwMQMRnMFjQkw2JpwdWRaKo7Eb55": 1,
+		"1_1FKv8ekYrPvVxZASX4Rk6EYQYpASnHaiXn": 1,
+		"2_12Ex3Mrd75wY2r5rB21jBcmgj9hxwUK1w2": 1,
+		"1_1L8UURA9tgSn2XcRxtpCRJYCQm5S9ELh2Y": 1,
+		"1_1M5ztUWkCMP5Pv7MjwApWT7CNvWimGFaFa": 1,
+		"3_1NibKcCcidCHue94Rhr7F4Gvu3Lg6FAESp": 1,
+		"12_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"1_1M6scJRBJiCnXTM4wPKK6gAGHzs9HMbf4V": 1,
+		"17_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"3_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"6_167eTX5f6jJt4HPvfQqf2QuwdTFCnxJCf2": 1,
+		"6_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": 1,
+		"15_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"2_1L4fuhUB75eAdVbDY9AJ4z2i2dwMho7MV8": 1,
+		"21_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"7_167eTX5f6jJt4HPvfQqf2QuwdTFCnxJCf2": 1,
+		"6_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx": 1,
+		"2_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7": 1,
+		"10_167eTX5f6jJt4HPvfQqf2QuwdTFCnxJCf2": 1,
+		"3_1FzQ2ZsCgLRL4PTqPKtomrzSpKLTuNRXRo": 1,
+		"1_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ": 1,
+		"2_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": 1,
+		"1_12fNTMaQH1mN5bPehdvkNgTAVxzQXop87e": 1,
+		"2_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_18SV5U2zbB3EjxYCBTQzwakTKRjf81AfPQ": 1,
+		"4_16iYwD5U2fNoS22p6447J7992iL3DHjSHY": 1,
+		"1_13jLz92kNNVJPG2AgUr83SzTwfsS8RUrcG": 1,
+		"9_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"11_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": 1,
+		"1_1M4Ab8CUu3byziHVvNXLHmPezC4Lg9hvNJ": 1,
+		"7_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"3_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": 1,
+		"1_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": 1,
+		"3_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": 1,
+		"1_1BsBRAymoTQ5qbXBLeGj3EFVkZz98kCbfh": 1,
+		"5_16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7": 1,
+		"4_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": 1,
+		"10_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"12_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"13_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"15_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"13_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"3_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1
+	},
+	"next_comment_id": 306,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "test with zeroid",
+				"added": 1436404179
+			}
+		],
+		"1_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 2,
+				"body": "> [nofish](#comment_8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The archived, old version of ZeroTalk: http://127.0.0.1:43110/1TaLk3zM7ZRskJvrh3ZNCDVGXvkJusPKQ\n\nwill the content(posts, comments ) of old version of ZeroTalk be migrated to new ZeroTalk?",
+				"added": 1436404470
+			}
+		],
+		"1_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r": [
+			{
+				"comment_id": 3,
+				"body": "> [nofish](#comment_22_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): This is not github replacement, just using peer discovery over torrent. You can also host any kind of files on ZeroNet even Git, SVN or HG repository.The problem is with the webui and the pull request.\n\nin the article, the author says there would be decentralized user registration, comments, issues and  pull requests features in gittorrent  in the future, and gittorrent would be not only peer discovery over torrent, but also host repos in decentralized way instead of Git servers like github.\non the other hand, decentralized G+/FB-like social site ( we have Twister for decentralized 140-character-limit-twitter already ) has more novelty and will help more people speaking freely.\n",
+				"added": 1437889301
+			}
+		],
+		"1_1UfvLnMuzShvi3phWGSqn79tio81Wn9Dt": [
+			{
+				"comment_id": 5,
+				"body": "> [r3](#comment_7_1UfvLnMuzShvi3phWGSqn79tio81Wn9Dt): ZeroNet目前的社交属性不强。去中心化的互联网应该是WEB3.0，3.0也应该具备1.0和2.0的所有特点和优势。社交化属性才能增强粘性，这应该是ZeroNet未来产品设计的方向。任重道远，日拱一卒！\n\n作者nofish说ZeroNet的社交网络在计划之中。会英文的同学可以多跟nofish交流，把社交网络的想法、点子跟他说。",
+				"added": 1438392802
+			},
+			{
+				"comment_id": 6,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_18_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): which language do you guys use? :)\n\nchinese",
+				"added": 1438442102
+			},
+			{
+				"comment_id": 7,
+				"body": "> [o4zw5vmpoz5hz78z](#comment_21_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): it looks just like some drawing\n\nyes, it is very hard to learn. you haven't seen any chinese word before?",
+				"added": 1438559534
+			},
+			{
+				"comment_id": 8,
+				"body": "> [smallorange](#comment_1_17u2vBbwR5NAkg6XarzRXdmW1czuFgYMor): 问一下 nuzerotalk 和zerotale有什么不同\n\n原来的升级成nuzerotalk了，最重要的新特性是支持clone功能，就是能一键克隆出一个新的论坛！",
+				"added": 1438559691
+			},
+			{
+				"comment_id": 10,
+				"body": "> [usb](#comment_3_1LhndGLG7drNPWiqjSE6CRxSgYkwLsNhUV): 能不能将中文区的中文站点做一个链接的列表，然后大家都互相踩一踩，增加各自节点数。反正现在中文站点的内容不会很多很大，彼此缓存一下也符合P2P的精神——人人为我、我为人人！各位以为如何？如果同意的话就将你们的博客、论坛等站点的地址贴出来吧，小弟来为大家整理一个列表。\n\n我帮@r3宣传一下： 第一个ZeroNet上的中文*论坛* http://127.0.0.1:43110/1Cjb8FNxaqhzBE7LQtPMQqkLyYmmdEtfEY",
+				"added": 1439135411
+			},
+			{
+				"comment_id": 11,
+				"body": "> [usb](#comment_4_1LhndGLG7drNPWiqjSE6CRxSgYkwLsNhUV): 忽然想到如果有人做一个成人站点的话，那ZreoNet一定火了呵呵\n\n管理员的匿名措施要做好，否则会被嫖娼",
+				"added": 1439223606
+			},
+			{
+				"comment_id": 13,
+				"body": "> [usb](#comment_5_1LhndGLG7drNPWiqjSE6CRxSgYkwLsNhUV): 请问需要使用TOR吗？ZeroNet的注册都是匿名的，并且传输是P2P的，有安全漏洞吗？如何防范？\n\nZeroNet的注册【不】是完全匿名的！目前注册都需要发送HTTP请求到作者的服务器，再由服务器将你的帐号信息写入P2P网络里。这样一来，你的IP就会暴露给作者的服务器。所以要想匿名，整个浏览器要设置tor为代理，还要设置zeronet通过tor联网：\n python ./zeronet.py  --proxy 127.0.0.1:9050 --disable_udp\n\nUPDATE：新版的zeronet完全走tor的使用方法是python ./zeronet.py --tor always",
+				"added": 1439430625
+			},
+			{
+				"comment_id": 14,
+				"body": "> [r3](#comment_12_1UfvLnMuzShvi3phWGSqn79tio81Wn9Dt): 那这个站点会几百MB甚至数GB，有人要浏览需要下全站的数据－_－b\n\n恩，目前zeronet对数据量很大的网站支持还不够",
+				"added": 1439454233
+			},
+			{
+				"comment_id": 15,
+				"body": "> [idlesong](#comment_2_1L4fuhUB75eAdVbDY9AJ4z2i2dwMho7MV8): 我有兴趣做社交化的内容，可是看了看zeronet，感觉难度对于我来说实在太大了。如果有高手在做这方面的事情，我可以帮忙打下手，呵呵\n\n我已经在这回复你了\nhttp://127.0.0.1:43110/1Cjb8FNxaqhzBE7LQtPMQqkLyYmmdEtfEY/?Topic:5_1UfvLnMuzShvi3phWGSqn79tio81Wn9Dt/ZeroNet+Twister",
+				"added": 1439608645
+			},
+			{
+				"comment_id": 33,
+				"body": "> [bts](#comment_3_1FzTit1guKjbDc251Gkw5WmqqVzQb1CvD3): 我刚刚点这个帖子右上角的“Following”，返回首页的时候发现这个帖子的内容竟然出现在首页啊，这样对于跟踪信息还是很有帮助的，挺人性化的嘿嘿\n\n这是个里程碑的功能，酝酿了n久啊",
+				"added": 1454424179
+			},
+			{
+				"comment_id": 34,
+				"body": "> [r3](#comment_12_1UfvLnMuzShvi3phWGSqn79tio81Wn9Dt): 那这个站点会几百MB甚至数GB，有人要浏览需要下全站的数据－_－b\n\n新版已经不需要下载全站数据了。你浏览哪就下载哪。示例站：\nhttp://127.0.0.1:43110/1Gif7PqWTzVWDQ42Mo7np3zXmGAo3DXc7h",
+				"added": 1454425047
+			},
+			{
+				"comment_id": 66,
+				"body": "顶",
+				"added": 1458653272
+			},
+			{
+				"comment_id": 67,
+				"body": "> [bbc](#comment_6_1BNnSNUfRvzpCFumrbg5tbiE9dT61CZP9h): 貌似注册了一个ID就不能换了？有没有人知道怎么注册新的ID\n\n看看这篇博文（用不同的ID provider来注册以及切换帐号的方法）：\nhttp://127.0.0.1:43110/zeroblog.bit/?Post:15:get+yourself+an+ID+@+ZeroVerse.bit\n同一个ID provider里注册多个帐号的话，我不知道有没有简易方法，把你硬盘上那个ID provider对应目录里的数据移到别的地方，应该是可以的。",
+				"added": 1458704380
+			},
+			{
+				"comment_id": 68,
+				"body": "中文博客 http://127.0.0.1:43110/12ygu8wKLgAyK5u7fScYDsubRXHAHUoFQL\n中文论坛 http://127.0.0.1:43110/1Cjb8FNxaqhzBE7LQtPMQqkLyYmmdEtfEY\n博主和坛主是同一人，很久没看到他人了",
+				"added": 1458704530
+			},
+			{
+				"comment_id": 69,
+				"body": "> [wangyong](#comment_3_1Me2Ru8xwXbnMkwJp5FJozecq4KvDFRe4m): 签到，目前还不太会用。\n\n有啥不会用的，能发贴回复就算会用了，不要想得太复杂",
+				"added": 1458739056
+			},
+			{
+				"comment_id": 71,
+				"body": "> [bbc](#comment_7_1BNnSNUfRvzpCFumrbg5tbiE9dT61CZP9h): 多谢多谢\n\n不客气",
+				"added": 1458890242
+			},
+			{
+				"comment_id": 77,
+				"body": "> [xiaolan65535](#comment_1_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): 签到~\n\n抓到一只hacker!",
+				"added": 1458926176
+			},
+			{
+				"comment_id": 87,
+				"body": "### 很多新人可能不知道的ZeroNet几个小技巧\n1. 鼠标移到帖子/博文/标题的上方，左边出现铅笔的图标，点击铅笔图标以后能够编辑帖子/博文/标题，还可以删除帖子/博文。编辑的时候页面下方有个问号，点击它会出现markdown格式的帮助信息，能够很简单地写出像本文那样排版~~优美~~的帖子/博文（本文markdown源码在[这里](http://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1)，欢迎参考、传播）\n- 每个页面的右上角有个0图标，用鼠标按住它，向左拖拽，就会出现很多关于该页面的很多信息，还能做很多设置，还不赶快试一下！\n- 创建自己博客/论坛/...的超简单方法：\n - 先按照[这个图片](http://127.0.0.1:43110/Blog.ZeroNetwork.bit/data/img/clone.png)的方法点`Clone`按钮\n - 然后到[这里](http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n)贴你的网址，那个节点会帮你做种：\n过几分钟后，你在你刚建的网站发贴试试，应该就能发布到节点了。\n - 再不行的话到http://127.0.0.1:43110/zeroproxies.bit\n用那些公用proxy访问你的网站，访问过后，这些节点会帮你做种，过几分钟后，你再在你刚建的网站发贴试试。",
+				"added": 1458964241
+			},
+			{
+				"comment_id": 88,
+				"body": "> [xiaolan65535](#comment_5_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): 我不是黑阔\n\n知名hacker——xiaolan（虽然他不承认）搞的GFW Talk中文论坛：\nhttp://127.0.0.1:43110/1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy",
+				"added": 1458964835
+			},
+			{
+				"comment_id": 94,
+				"body": "ZeroNet站点集合 & 搜索引擎\nhttp://127.0.0.1:43110/1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy/?Topic:2_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/ZeroNet",
+				"added": 1458990628
+			},
+			{
+				"comment_id": 95,
+				"body": "> [xiaolan65535](#comment_17_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): 不行,大于10mb,即使去除图片还是11mb...zeronet只支持10mb的站点..... :(\n\n谁说不能大于10MB？ 用optional files，详见这个post:\nhttp://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:61:Changelog,+November+9,+2015",
+				"added": 1458996834
+			},
+			{
+				"comment_id": 97,
+				"body": "> [xiaolan65535](#comment_18_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): http://127.0.0.1:43110/15gfg6DUVkp7ApLSMQvC2ig5qy8j91jXeW编程随想的博客 ZeroNet 镜像..\n\n博文里的图片显示不出，可能是节点较少？\n大家做种可以把DOWNLOAD AND HELP DISTRIBUTE ALL FILES选项打开（拖拽隐藏菜单里），否则图片是optional files，种子太少。还可以去公共节点上打开那个选项。\nxiaolan你把optional files相关方法补充到你的博文里吧，这是第一个中文optional files网站啊",
+				"added": 1458999961
+			},
+			{
+				"comment_id": 99,
+				"body": "> [xiaolan65535](#comment_19_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): 这个有空单独开一篇文章,讲解content.json文件....\n\n还有.bit域名，折腾无止境",
+				"added": 1459000966
+			},
+			{
+				"comment_id": 102,
+				"body": "> [chinanet](#comment_17_1MZ6f3V1cBuhNwzajMVPu8vb1wRt1p6dpt): 测试ok果然要点Create my mailbox\n\n已更新： `很多新人可能不知道的ZeroNet几个小技巧`，增加ZeroMail相关信息\nhttp://127.0.0.1:43110/1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy/?Topic:1_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/+ZeroNet",
+				"added": 1459066010
+			},
+			{
+				"comment_id": 103,
+				"body": "> [darkmatter](#comment_4_1GaejKrF2nq2BCEktthhK11jfxLi2GsboU): 这算是一个Bug吗？\n\n貌似我也遇到，可能是个bug，再观察一下，看看有什么规律。",
+				"added": 1459081270
+			},
+			{
+				"comment_id": 104,
+				"body": "> [darkmatter](#comment_5_1GaejKrF2nq2BCEktthhK11jfxLi2GsboU): 据我目前的观察，推测这个FAVORITED标记是存储到Cookie里的，清理浏览器Cookie、切换到隐身模式或者换用其他浏览器，都会消失。\n\n也有可能存到local storage里了",
+				"added": 1459087658
+			},
+			{
+				"comment_id": 105,
+				"body": "> [mzero](#comment_8_144GQ5Uz9dYQJ1MwjSFWWboLgHwdGpv21x): zeronet里可以删贴吗？\n\n可以。自己想删帖，鼠标移到你自己的帖子上，有个铅笔符号，点击以后可以编辑/删帖。另外坛主可以删帖，可能会有限制言论自由的情况，但引入社交功能后一定程度上能避免，我在这个帖子里有非常详细的论述（请看完）：\nhttp://127.0.0.1:43110/1Cjb8FNxaqhzBE7LQtPMQqkLyYmmdEtfEY/?Topic:5_1UfvLnMuzShvi3phWGSqn79tio81Wn9Dt/ZeroNet+Twister",
+				"added": 1459220971
+			},
+			{
+				"comment_id": 108,
+				"body": "> [bigboy](#comment_7_1648MEdSw43PgqQ5PcdrtKv5HVK3Bj2qCX): 发现上面人真少啊，一天来一趟都没发现没多少更新信息。\n\n你来过中文论坛吗？\nhttp://127.0.0.1:43110/1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy/\n大家都在那啊",
+				"added": 1459505356
+			},
+			{
+				"comment_id": 123,
+				"body": "> [missy](#comment_1_12wKuwYfiHRwDxcJhqkcBPrsks2Gmm5L5P): 我已經按上述官方的做法設定TOR browser ，可是開啟zeronet的時候仍然自動跳出firefox 連結 zeronet ，請問如何解決這問題?\n\n你设定完成后，在Tor Browser地址栏里输入`127.0.0.1:43110`回车即可。那个自动打开的firefox不用管它，直接关掉即可。\n或者你把Tor Browser设置成默认浏览器，那么就会自动打开Tor Browser了。",
+				"added": 1460268035
+			},
+			{
+				"comment_id": 124,
+				"body": "> [emacsen](#comment_1_12kgNNnBaR3s7bN761BCQtkzSC7EbrK2Jd): 好吧，菜鸟请教如何吧zeronet数据流定向到ss之类的翻墙客户端上去？\n> ss都是 我自己配置的\n\n\n添加参数--proxy 127.0.0.1:1080 --disable_udp（端口设成自己的）来启动zeronet，添加方法见中文论坛置顶帖",
+				"added": 1460292298
+			},
+			{
+				"comment_id": 125,
+				"body": "> [mylifewaiting](#comment_12_14MrxSzhaSXiFwsAbyhwtipmU3Lh55Xcrr): 挺好的，谁知道怎么配置证书吗\n\n配置证书？",
+				"added": 1460338852
+			},
+			{
+				"comment_id": 132,
+				"body": "> [lifent](#comment_12_13jLz92kNNVJPG2AgUr83SzTwfsS8RUrcG): ZeroNet\\src\\config.py 这个文件中的tracker服务器主要做什么用？尝试全部屏蔽，貌似会影响数据传输？尝试只开启zero开头的几个服务器地址，可以正常传输数据。\n\n相当于BT里的tracker，负责帮你找到节点",
+				"added": 1460728506
+			},
+			{
+				"comment_id": 135,
+				"body": "> [martian](#comment_1_14QqCjKbh4YwwRvoqyDXQVXPotSmTLB3er): 所以还是做不到 去中心，\n\nTracker可以任意指定啊，通过设置启动参数，或者通过程序升级。如果固定一个tracker那才是做不到 去中心",
+				"added": 1460733870
+			},
+			{
+				"comment_id": 136,
+				"body": "> [lifent](#comment_13_13jLz92kNNVJPG2AgUr83SzTwfsS8RUrcG): zero开头的地址是新的协议？\n\n算是吧，除了传统tracker另一种发现节点的方法：有公网IP并且能开端口，打开bootstrapper插件，自己的节点就成为类似tracker的东西",
+				"added": 1460774097
+			},
+			{
+				"comment_id": 142,
+				"body": "> [sen](#comment_1_16CUzjyLSv6JFMYgL8eAkzyRHugfH3RCcQ): 感觉人好少的样子。。。\n\n中文论坛：页面左上角有个`MORE`，鼠标移过去，再点击`中文`",
+				"added": 1461037193
+			},
+			{
+				"comment_id": 143,
+				"body": "> [rokai](#comment_11_1Fu4wBqn3GzzsF1DikSDiwZ2PvUBeyvigP): 没人了？\n\n中文论坛：页面左上角有个`MORE`，鼠标移过去，再点击`中文`\n或者直接进入 http://127.0.0.1:43110/GFWtalk.bit",
+				"added": 1461197212
+			}
+		],
+		"1_1Fh1qJMyqb7RpcZpuU6qszaPG6fKRG1bG7": [
+			{
+				"comment_id": 9,
+				"body": "> [brunoloff](#comment_13_1KdQMFyXwPY2vjMDL9UiPnckwGbyvUjpcj): you can donwload this link: https://github.com/HelloZeroNet/ZeroNet/archive/master.zip\n> and extract the archive on top of the current version\n> (I'm not sure of how tech savvy you are, just say if that's not enough information)\n\nIMHO, better way of updating is to execute in ZeroNet folder:\npython ./update.py",
+				"added": 1439101697
+			}
+		],
+		"4_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": [
+			{
+				"comment_id": 12,
+				"body": "THX！GOOD JOB！",
+				"added": 1439224162
+			}
+		],
+		"2_1MS7WkWAZUSohgV5uUF2Ze3kdbifi4J82L": [
+			{
+				"comment_id": 16,
+				"body": "ZeroNet is opensourced, but Maelstrom is not. ZeroNet is not based on java, but some p2p projects based on java. many people hate java, including me. IMHO, user experience of ZeroNet is better than most p2p projects.",
+				"added": 1439944445
+			},
+			{
+				"comment_id": 17,
+				"body": "> [nofish](#comment_39_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Maelstrom was the main inspiration for creating ZeroNet.I have already thought about a system like ZeroNet since mid-2014, but didn't had courage to start it (and lack of cryptography skills)In December I was happy to see BitTorrent was working on similar system, downloaded it, but I was disappointed: It was closed source, Browser pinned and lack of dynamic content support.After that, I started to coding and 1 month later released ZeroNet's first working version.\n\nTHX for sharing ur story, and for opensourcing it! ",
+				"added": 1440578297
+			},
+			{
+				"comment_id": 18,
+				"body": "> [betatester](#comment_5_1MS7WkWAZUSohgV5uUF2Ze3kdbifi4J82L): Correct me if I'm wrong, but with ZeroHello websites can be updated by the original developper whereas a Maelstrom website would stay as it was launched since there is no way to modify the original file once it has started seeding. From there, if I were to build a decentralized website, I would go ZeroHello. Freenet allows for that but isn't accessible from the clearnet. I like the Freenet's decentralized encrypted storage system, unless I missed something with ZeroHello, a website has to be \"followed\" by a peer to stay available, there is no way to provide storage to the ZeroHello peer so that random data can be saved. I need to spend more time reading the blog, but is it possible to have several administrators for a ZeroHello website, the same way we do for a centralized website I mean, two people not being at the same place and being able to edit the same website. By the way, do we say ZeroHello or ZeroNet when we talk about decentralized websites? Thanks to all.\n\ni don't know much about Maelstrom and Freenet, so i can't comment more.\nAFAIK, we say ZeroNet rather than ZeroHello, because ZeroHello is one of sites in ZeroNet. ",
+				"added": 1440578901
+			}
+		],
+		"1_1NyFX6DUcyMs3S76Vz8X7ssDLC4uCCA1YM": [
+			{
+				"comment_id": 19,
+				"body": ">点对点 Japanese ZeroTalk: http://127.0.0.1:43110/1Cjb8FNxaqhzBE7LQtPMQqkLyYmmdEtfEY/\n>Japanese Blog: http://127.0.0.1:43110/12ygu8wKLgAyK5u7fScYDsubRXHAHUoFQL/\n\nthese two are not Japanese, but Chinese.",
+				"added": 1445705169
+			}
+		],
+		"24_1JdoX9KdJeRVjN9zvK8N9C5jybEHzZe8n": [
+			{
+				"comment_id": 20,
+				"body": "glad to see u have similar idea and share more details. u can see my post:\nidea of ZeroSocial -- timeline view of ZeroHello http://127.0.0.1:43110/1TaLk3zM7ZRskJvrh3ZNCDVGXvkJusPKQ/?Topic:4@62/idea+of+ZeroSocial+timeline+view+of+ZeroHello\nand u can see nofish's idea in https://www.reddit.com/r/zeronet/comments/3h627h/is_there_any_plan_to_add_some_social_features_or/\n\nthe disadvantage of ur idea is not able to see someone's mention unless u follow him/her. one solution nofish once said ( i can't find where is his post ) is to build a public ZeroNet site which stores all users' nick names, biographies, avatars, mentions...only posts and private messages are stored in users' own sites. do u think it is better?\nthanks for reading!",
+				"added": 1446109476
+			},
+			{
+				"comment_id": 21,
+				"body": "> [oracle](#comment_23_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP): Synereo is a new decentralized social network, check it out. It might give you some ideas for a social network on zeronet. http://www.synereo.com/\n\nTHX！Synereo is not opensource, is it? IMHO, putting coins in a social network is not a good idea. anyway, some point of Synereo is good.",
+				"added": 1446169936
+			},
+			{
+				"comment_id": 22,
+				"body": "> [oracle](#comment_22_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP): Where is nofish, I haven't seen him post any comments in a while.\n\nyes. but he is active in zeronet's github repo and his zeronet blog:)",
+				"added": 1446170028
+			},
+			{
+				"comment_id": 23,
+				"body": "> [oracle](#comment_24_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP): Synereo code is open source https://github.com/synereo/ and I found another project called Matrix https://www.matrix.org/ and it's open source https://github.com/matrix-org/synapse These might give someone a better idea on how to start a social network on Zeronet.\n\nowning a github account doesn't mean open source. recently, i can't find any source of Synereo itself available in the github account. the repos in the github account contains other things, and u can see the repos have very few watch/star/fork.\nthanks for telling us good projects. but i found matrix is Instant Messaging and VoIP, is it social enough?",
+				"added": 1446303127
+			},
+			{
+				"comment_id": 24,
+				"body": "> [oracle](#comment_25_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP): Ye I don't know much about Matrix, I just found it and figured I'd share the link, also I don't know why synereo hasn't made their code available. I did find the source code for Diaspora, I don't know if it will be of any use but here's the link. https://github.com/diaspora/diaspora\n\nTHX for sharing. let's see what nofish once wrote:\n\n> nofish: Diaspora is more decentralized than facebook, but - far as i know - it's not P2P. Your content is hosted on ruby on rails servers called \"pods\".\n\ni agree with nofish. what's more, \"pods\" are not easy to set up.",
+				"added": 1446345491
+			},
+			{
+				"comment_id": 25,
+				"body": "> [oracle](#comment_26_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP): Pandora https://github.com/Novator/Pandora p2p-social-network https://github.com/lsjroberts/p2p-social-network Vole http://vole.cc/ Twister http://twister.net.co/?page_id=23\n\nTHX for sharing. i didn't know we have such P2P social networks before. after a quick view:\nPandora -- hard to set up and use;\np2p-social-network -- not active for 2 years;\nVole -- also not active for 2 years;\nTwister -- i've used it, but it is a P2P microblog. i think we also need P2P FB/G+ which ZeroNet would be.",
+				"added": 1446528371
+			}
+		],
+		"8_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 26,
+				"body": "i agree. many things can be improved. but it takes time.",
+				"added": 1447218070
+			}
+		],
+		"2_12HTPzQjWn9V57oxH7fA5KV3PQZ5vuj2Fm": [
+			{
+				"comment_id": 27,
+				"body": "so cool!",
+				"added": 1447218164
+			}
+		],
+		"4_1QH84f44yLPvMjMua9s7iM7c4RoJNZ2nTp": [
+			{
+				"comment_id": 28,
+				"body": "mine is p2p",
+				"added": 1449881330
+			},
+			{
+				"comment_id": 29,
+				"body": "> [heathenman](#comment_15_16dVbybDseQBQnxdJDuQhCzYAij8iR8YEc): heathenmancontact for bphf and zero.pags.to proxy (&of course my other projects outside of zeronet)btw: proxy is up-to-date , gnusocial on pags.to working again, yacy restarted (crashes very often) , bphf 131215 out now\n\nhi, heathenman.\ni'v got ur mail. is it a new site auto-notification?",
+				"added": 1450106217
+			}
+		],
+		"1_1L4fuhUB75eAdVbDY9AJ4z2i2dwMho7MV8": [
+			{
+				"comment_id": 30,
+				"body": "see ZeroMe:\nhttps://github.com/HelloZeroNet/ZeroNet/issues/232",
+				"added": 1453562658
+			},
+			{
+				"comment_id": 31,
+				"body": "> [nofish](#comment_216_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The new ZeroHello with newsfeed will solve this problem, you will be able to follow new blog posts/comments/topics/username mentions. It's already working, some more modifications/testing left, it should be out net week. Preview: http://i.imgur.com/H60OAHY.png\n\ncool! man",
+				"added": 1454238416
+			}
+		],
+		"3_1NibKcCcidCHue94Rhr7F4Gvu3Lg6FAESp": [
+			{
+				"comment_id": 32,
+				"body": "> [hotdog](#comment_5_18eNH913qX7e9vBExuMiv7qAMSRkJYNa21): just run tails, download zeronet with git, and use it with the tor option\n\nwhat about Whonix? https://www.whonix.org\nanother anonymous OS, which has two VMs( Gateway and Workstation). Tor runs in Gateway VM, how to run ZeorNet with full Tor support in Workstation VM?",
+				"added": 1454238927
+			},
+			{
+				"comment_id": 40,
+				"body": "> [nofish](#comment_236_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The problem is by default Tails does not allow to access unknown process create hidden services, so Full Tor support is not possible without modifying OS config files.But I have successfully started it by using zeronet.py --proxy 127.0.0.1:9050 --tor disable --ui_ip 10.0.2.16 (your ip can be different from this use /sbin/ifconfig as root to see yours)Then access using http://10.0.2.16:43110\n\nThanks! what about Whonix?  https://www.whonix.org\nanother anonymous OS.",
+				"added": 1455026010
+			}
+		],
+		"8_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 36,
+				"body": "> [nofish](#comment_226_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): ZeroBoard is not sql based, but zerochat is possible.\n\nwhat about comments in ZeroBlog? i want to follow comments of a post in ZeroBlog.\nand i also want to get a mention notification when someone replies my comments in ZeroBlog.",
+				"added": 1454430286
+			},
+			{
+				"comment_id": 37,
+				"body": "> [nofish](#comment_227_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): You can enable follow comments by clicking again on Following button. I will also add mention following there.\n\ngreat! but i think it would be better if while the mouse hovers the \"Follow in Newsfeed\" button the menu popups, instead of first click to follow & second click to open the menu & third click to check follow comments.",
+				"added": 1454459986
+			},
+			{
+				"comment_id": 38,
+				"body": "> [ekaterina](#comment_9_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD): Or/and open the menu the first time after you click to follow, so that new users know that there are options if you click on it.\n\ni prefer  open the menu **before** the first time you click to follow, i.e. the **hover feature**.",
+				"added": 1454462801
+			}
+		],
+		"1_15QGRquMETTn5LnCHjTm1qa9eaXGtq7gpT": [
+			{
+				"comment_id": 39,
+				"body": "@nofish said in ZeroBlog comment: You can enable follow comments by clicking again on Following button. I will also add mention following there.",
+				"added": 1454462968
+			}
+		],
+		"3_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": [
+			{
+				"comment_id": 41,
+				"body": "> [sthetz](#comment_1_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9): Hey guys. \n> I was making an imageboard engine last November, but then disappeared until now due to some personal issues. Well now I'm back and I'll continue my work. Already implemented optional files, so you're all welcome to test it. Suggestions are also encouraged. \n> http://127.0.0.1:43110/0chan.bit\n\nmany thanks! \nwhere are old posts in dev.0chan.bit?",
+				"added": 1455075094
+			},
+			{
+				"comment_id": 42,
+				"body": "> [sthetz](#comment_2_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9): They're deleted because I needed new database structure.\n> Can you please post something to my site? I want to know if posting works not just form for me :)\n\nit works for me! Thanks!",
+				"added": 1455111707
+			}
+		],
+		"5_1MmPY9fniJwwhP6WsgH4jWoq5rBAVV6KWy": [
+			{
+				"comment_id": 43,
+				"body": "yes, of course!",
+				"added": 1455268965
+			}
+		],
+		"6_1MmPY9fniJwwhP6WsgH4jWoq5rBAVV6KWy": [
+			{
+				"comment_id": 44,
+				"body": "> [nozoz](#comment_4_1Pfwz3A2J1fDNtxvtaivd482mrMdGGdimU): What I can say about this... things are not always that easy. Take this example:\n> Once upon a time a couple of torrent programmers decided that it is important to have a p2p chat system between torrent peers. They took pascal and wrote free peer to peer software called 'sky p2p' or better known at that time as 'skyper'. But they couldn't register doman skyper.com because someone already had it, so they shorthen domain to skype. For a while it was great, it worked and was fun, but had a problem that people would have same name and no way of reserving it - there was no central server for the authentication...\n> ... cut a long story short...over some long time... & lot of money exchanging hands...& passing ownership over code...\n> These days Microsoft makes 'Skype for business' to replace Lync as instant messenger in enterprise environment.\n> Where the idea started, where it ended up?\n\ngood example, thx!",
+				"added": 1455451258
+			}
+		],
+		"2_1L4fuhUB75eAdVbDY9AJ4z2i2dwMho7MV8": [
+			{
+				"comment_id": 45,
+				"body": "> [nofish](#comment_300_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Not UI yet, but it's really easy:\n> \n> Backup your data/yoursiteaddress directory (just in case)\n> Copy and overwrite every file and directory from data/1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8 to data/yoursiteaddress except data directory and content.json \n> Sign + Publish your site using the sidebar.\n\njust now, I cloned a zeroblog without any copying files manually. I just did a couple of clicks in browser UI, then adding post ( click the 'Add new post' button at the top of the page ) & editing post ( hover mouse & click the pencil icon ) seemed OK, finally clicked the Sign + Publish button in bottom right corner of the page. So I think everyone can clone a blog extremely easily by a couple of clicks in browser UI which has been already implemented.\n( at present, what can't be done by UI is adding images to posts )\nsee my test blog:\nhttp://127.0.0.1:43110/1LG84a67iErzM2ifJXJAgNGq6pYCNt3URP",
+				"added": 1455465339
+			},
+			{
+				"comment_id": 46,
+				"body": "> [nippletwister](#comment_103_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): Can't load it.\n\nu have to  use tor. i'm in tor always mode.",
+				"added": 1455467294
+			},
+			{
+				"comment_id": 47,
+				"body": "> [nippletwister](#comment_105_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): Me too. That isn't the problem. \n> content.json download failed\n\nstrange. i see  5 peers in my blog's sidebar, 2 of 5 are onion. maybe need to wait.",
+				"added": 1455467666
+			},
+			{
+				"comment_id": 48,
+				"body": "> [nofish](#comment_303_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Probably you need to sign your blog.\n\n> [nippletwister](#comment_106_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): Sometimes I see this: index.html not found\n\ni edited my blog and clicked the Sign & Publish button again. please fresh ur page.",
+				"added": 1455467981
+			},
+			{
+				"comment_id": 49,
+				"body": "> [nippletwister](#comment_107_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): Now it is working.\n\nyes, it may need to Sign & Publish _again_ after having some peers. thx for ur quick response :)",
+				"added": 1455468163
+			},
+			{
+				"comment_id": 50,
+				"body": "> [nofish](#comment_308_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): When creating site:\n> \n> Have opened port: Best case, anyone able to contact you immediately\n> Don't have opened port, but Tor is running fine (Tor: OK or ALWAYS in ZeroHello): The peers, who also have Tor running able to contact you immediately (after 1-2 minute of .onion address warmup), others have to wait 1-10 minutes if they have opened port, otherwise they not able to contact you.\n> Don't have opened port and Tor mode is not running (Tor: Error in ZeroHello): Only peers with opened port able to contact you and they are have to wait 1-10 minutes.\n\nthx for explaining, but in my test it seemed something went wrong. both @nippletwister and i are in tor always mode, but @nippletwister could _not_ contact me for my new site within 10 mins, unless i edited my blog and clicked the Sign & Publish button _again_.",
+				"added": 1455526102
+			}
+		],
+		"1_1PPqTMbH8Uwrk496grUVuBk57dSoeU9hig": [
+			{
+				"comment_id": 51,
+				"body": "IPFS does not support Tor AFAIK, so i avoid to use it.",
+				"added": 1455526479
+			},
+			{
+				"comment_id": 53,
+				"body": "> [vethit](#comment_5_1JdKZXpUz9vvevT99mmfTdbs3hjszJzqDX): Freenet-Sites can't be deleted-No javascript-Takes a few minuets to sync-Loads faster if left on for a while-Higher learning curve-Most secure when peering with friends rather than strangers-Best for anyone who lives in heavily censored countries\n> Zeronet-Websites can be deleted-Mostly java sites so far-Syncs up immediately-Cleaner interface-Faster load load times, especially for popular websites-Security through Tor network-Less need for selective peering\n\nthanks for sharing. IMO, the worst thing of freenet is that it's based on java which many people hate.",
+				"added": 1455686535
+			}
+		],
+		"15_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 52,
+				"body": "> [ekaterina](#comment_25_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD): Looks like all data is stored on the blockchain, including html, css, images, everything and you can only upload static websites. The dynamic websites (like the blog) are only from the Qora creators,  not created by users, but everyone can make his own blog, just not anything else other than a blog. At least I think that is the case, the documentation is all over the place and hard to find all of it. It seems they are working on an \"Asset API\" which I guess could be used to make websites dynamic, although someone has to pay for uploading these assets to the blockchain, so either you or your website's users would have to pay money to use your site.\n> So, I'd say it's an interesting project but not nearly as interesting as ZeroNet.\n\nit's really bad idea to store all things in blockchain.",
+				"added": 1455686176
+			}
+		],
+		"14_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 54,
+				"body": "> [vethit](#comment_4_1JdKZXpUz9vvevT99mmfTdbs3hjszJzqDX): From what I know.\n> Freenet-Sites can't be deleted-No javascript-Takes a few minuets to sync-Loads faster if left on for a while-Higher learning curve-Most secure when peering with friends rather than strangers-Best for anyone who lives in heavily censored countries\n> Zeronet-Websites can be deleted-Mostly java sites so far-Syncs up immediately-Cleaner interface-Faster load load times, especially for popular websites-Security through Tor network-Less need for selective peering\n\nthanks for sharing. IMO, the worst thing of freenet is that it's based on java which many people hate.",
+				"added": 1455686625
+			}
+		],
+		"1_1FzQ2ZsCgLRL4PTqPKtomrzSpKLTuNRXRo": [
+			{
+				"comment_id": 55,
+				"body": "> [maggie](#comment_3_1FzQ2ZsCgLRL4PTqPKtomrzSpKLTuNRXRo): don't know anymore. but thanks! I will note it next time.\n\nyou could see:\nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:2_1L4fuhUB75eAdVbDY9AJ4z2i2dwMho7MV8\nyou could follow the steps mentioned in that post.",
+				"added": 1455880835
+			},
+			{
+				"comment_id": 57,
+				"body": "> [maggie](#comment_10_1FzQ2ZsCgLRL4PTqPKtomrzSpKLTuNRXRo): 刚发现是中国人哦，你好！ :)\n\n你好，你的是什么网站啊？你怎么看出我是中国人的？呵呵",
+				"added": 1456751168
+			},
+			{
+				"comment_id": 58,
+				"body": "> [maggie](#comment_11_1FzQ2ZsCgLRL4PTqPKtomrzSpKLTuNRXRo): 嗨，我看到有个帖子你写了中文。:)\n\n呵呵，那你肯定翻了很多帖子。这里还有一些中文资源，就是目前人不多。\nhttp://127.0.0.1:43110/12ygu8wKLgAyK5u7fScYDsubRXHAHUoFQL\nhttp://127.0.0.1:43110/1Cjb8FNxaqhzBE7LQtPMQqkLyYmmdEtfEY",
+				"added": 1456830151
+			}
+		],
+		"1_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 56,
+				"body": "> [ha](#comment_8_1BDTDgpyizvUDsc1hcL1pjCvXCy4ozzSFN): Whonix does not support on the fly .onion creation, as of yet.Source: https://www.whonix.org/wiki/Next#onionshare\n> \n> For now Whonix can run without .onions by doing the following: \n> \n> For Whonix users, you can still reach peers and .onions, you just cannot host your own.\n\nthx. in whonix,  how to make zeronet reach .onions without hosting own .onion?",
+				"added": 1456674119
+			}
+		],
+		"1_1EFyYHRG136W3HscisQ8ig1MutG6zT3zbV": [
+			{
+				"comment_id": 59,
+				"body": "你好，欢迎，你们怎么知道这的？这两天突然来了很多人，不知怎么火爆起来的。",
+				"added": 1456988143
+			},
+			{
+				"comment_id": 60,
+				"body": "> [nukeman](#comment_2_18zg1HMr44epAr9yAPpaZJW8VHjZDCwE3N): 在中國竟然可以上tor。。。怎麼做到的\n\nzeronet不是完全依赖tor的，tor是选配。\n如果给tor加前置代理，一直都可以在大陆上tor。\n新版tor browser由于内置了meek插件，不用前置代理也可以上tor了。",
+				"added": 1457055491
+			},
+			{
+				"comment_id": 72,
+				"body": "顶个，沉得好快!",
+				"added": 1458892156
+			},
+			{
+				"comment_id": 73,
+				"body": "> [mzero](#comment_4_144GQ5Uz9dYQJ1MwjSFWWboLgHwdGpv21x): 赵国居民对自由网络的需求很大啊\n\n那是当然。来这的都不是赵家人",
+				"added": 1458899820
+			},
+			{
+				"comment_id": 74,
+				"body": "> [smallorange](#comment_4_17u2vBbwR5NAkg6XarzRXdmW1czuFgYMor): Freenet有很多功能值得借鉴比如\n\n你是在编程随想那宣传freenet那位吗？\n他回复你了，说java不安全。freenet的开发者们有没有计划用其他语言开发？\nzeronet目前先把社交等基础功能搞出来，你说的那些附加功能，以后再完善。",
+				"added": 1458909850
+			},
+			{
+				"comment_id": 75,
+				"body": "> [smallorange](#comment_6_17u2vBbwR5NAkg6XarzRXdmW1czuFgYMor): 不懂技术，既然java不安全，那么是不是可以反向理解比特币技术很安全。\n\njava跟比特币技术不是一个层面的东西，不能相比较。\njava只是一种编程语言，比特币技术也可能用java来实现。\n与java对应的是c/c++、python等编程语言。zeronet是用python编写的。\n你的建议挺不错，本来开源项目就应该相互学习，博采众长。但是不可操之过急，应该先实现基础功能，然后再完善，循序渐进。",
+				"added": 1458915860
+			},
+			{
+				"comment_id": 76,
+				"body": "> [smallorange](#comment_7_17u2vBbwR5NAkg6XarzRXdmW1czuFgYMor): 刚才特意去看了下编程的博客\n\n你现在才去看啊，这么说你不是在那宣传freenet的啰？\n奇怪，为什么突然冒出这么多人到处在宣传freenet?",
+				"added": 1458922133
+			},
+			{
+				"comment_id": 98,
+				"body": "> [cubarco](#comment_3_1PaNruTHEkkv54U1HabrjsdZviRFMdgt4x): 话说zeronet的缓存文件是存在哪的？\n\nZeroNet/data里",
+				"added": 1459000766
+			}
+		],
+		"4_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": [
+			{
+				"comment_id": 61,
+				"body": "a better solution:\nadd versioning feature of site's data. any reader of the site can restore it.",
+				"added": 1457267976
+			},
+			{
+				"comment_id": 156,
+				"body": "> [cub3](#comment_19_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf): Yeah, versioning would be really cool,\n\ni wrote an Automated rsync snapshot scrip here, when used by many people it'll help preventing site deletion/takedown: \nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:4_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/Automated+rsync+snapshot+script+to+make+it+truly+impossible+to+takedown+a+ZeroNet+site",
+				"added": 1462067380
+			},
+			{
+				"comment_id": 160,
+				"body": "> [ace](#comment_19_1An7ATsNMMNqRgSgB2upWwbpXgFXQ9E2XD): That is a pretty good idea, for HTML and CSS contents wouldn't something like Git or other versioning software be useful?\n\ni'm not familiar with these versioning softwares, either many users IMHO. creating an easy-to-use script is good for more users. any way, u can use these versioning softwares if u like.",
+				"added": 1462247300
+			}
+		],
+		"1_1BNnSNUfRvzpCFumrbg5tbiE9dT61CZP9h": [
+			{
+				"comment_id": 62,
+				"body": "大家好，你们是从哪里知道ZeroNet的？\n怎么变成骂战了？",
+				"added": 1458639880
+			},
+			{
+				"comment_id": 63,
+				"body": "中文博客 http://127.0.0.1:43110/12ygu8wKLgAyK5u7fScYDsubRXHAHUoFQL\n中文论坛 http://127.0.0.1:43110/1Cjb8FNxaqhzBE7LQtPMQqkLyYmmdEtfEY\n博主和坛主是同一人，很久没看到他人了",
+				"added": 1458640704
+			},
+			{
+				"comment_id": 100,
+				"body": "> [bigboy](#comment_4_1648MEdSw43PgqQ5PcdrtKv5HVK3Bj2qCX): >  我从xiaolan网站上看到的，花了一下午时间搭建，设置。成功注册帐号，运行Tor环境至今感觉还不错，只是人还是有点少，中国人更少。\n\n没有那么复杂吧，搞一下午？",
+				"added": 1459065480
+			},
+			{
+				"comment_id": 101,
+				"body": "> [rokai](#comment_9_1Fu4wBqn3GzzsF1DikSDiwZ2PvUBeyvigP): 没用Tor的话会咋样。。。看到好多人都在用Tor\n\n你又没写什么公开信，不是那种非用tor不可的。",
+				"added": 1459065535
+			},
+			{
+				"comment_id": 106,
+				"body": "> [zicibuzici](#comment_1_19e5pQbCumyrHAQ3K1n6R9de3b6SdQHcjD): 現在有沒有這裡的站點導航  不知道怎麼找了\n\nZeroNet站点集合 & 搜索引擎\nhttp://127.0.0.1:43110/1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy/?Topic:2_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/ZeroNet",
+				"added": 1459314905
+			}
+		],
+		"1_1Me2Ru8xwXbnMkwJp5FJozecq4KvDFRe4m": [
+			{
+				"comment_id": 64,
+				"body": "你好\n大家最好在已有的中文帖子里留言，如果没有什么重要的事，就不要开新帖了，否则版面很乱，谢谢！",
+				"added": 1458652788
+			}
+		],
+		"1_19ayk8E29EihqeEqZCXFpanBQm9Z63USEB": [
+			{
+				"comment_id": 70,
+				"body": "你好\n大家最好在已有的中文帖子里留言，如果没有什么重要的事，就不要开新帖了，否则版面很乱，谢谢！",
+				"added": 1458796086
+			},
+			{
+				"comment_id": 90,
+				"body": "> [jike3131](#comment_3_15BRvtDV2dHLJ9A564o4rXTFACqa4ztAoR): zeroname 是干嘛的？各位大侠\n\n论坛聊天的，还可以建博客",
+				"added": 1458973992
+			},
+			{
+				"comment_id": 91,
+				"body": "> [si49k2pvgx](#comment_1_12cAtDMxiK2t91LfxgifBNqsmUNs1byJMf): 还搞不懂这是干什么用的\n\n没有删帖的天涯，不用翻墙的草榴……懂了吧\n接下来马上会有社交功能，没有封号的微博",
+				"added": 1458976806
+			},
+			{
+				"comment_id": 93,
+				"body": "> [darkmatter](#comment_1_1GaejKrF2nq2BCEktthhK11jfxLi2GsboU): 里面有什么有趣的网站，大家分享一下\n\n这里有些站点集合\nhttp://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:list-of-zites\nhttp://127.0.0.1:43110/zaphods.bit/RM.html\nhttp://127.0.0.1:43110/0list.bit/\nhttp://127.0.0.1:43110/1Dt7FR5aNLkqAjmosWh8cMWzJu633GYN6u/\n\n搜索引擎\nhttp://127.0.0.1:43110/kaffiene.bit\nhttp://127.0.0.1:43110/zerosearch.bit/",
+				"added": 1458990352
+			},
+			{
+				"comment_id": 96,
+				"body": "> [darkmatter](#comment_2_1GaejKrF2nq2BCEktthhK11jfxLi2GsboU): 谢谢！我找到一个更全的站点导航  http://127.0.0.1:43110/zaphods.bit/RM.html\n\n我写的第二个就是啊，亲",
+				"added": 1458997253
+			},
+			{
+				"comment_id": 110,
+				"body": "> [yty](#comment_1_1McESjc8CgW2oDSNErSQx2UUJe863bYcqM): 英语盲完全看不懂！！！\n\n你不是看懂会发贴了吗\n中文论坛：\nhttp://127.0.0.1:43110/16XGXyrKrHdoqW5uY8Jy4uhePysAkaqcPG",
+				"added": 1459574416
+			},
+			{
+				"comment_id": 116,
+				"body": "> [flydust](#comment_1_1MJiYYyhNykFih6GSVQnmRRaL3TciiLmso): 大家好啊~感觉这个东西界面真的超级漂亮有木有\n\n漂亮得不像实力派\n你能想象这是作者一个人搞出来的么？界面设计、美工、前后端代码都是一个人搞",
+				"added": 1459678330
+			},
+			{
+				"comment_id": 121,
+				"body": "> [idlesong](#comment_4_1L4fuhUB75eAdVbDY9AJ4z2i2dwMho7MV8): 几天没来怎么这么多中文用户了，连东先生（mydf）都来建博客了，赞。\n\n还有中文论坛呢\n本页面左上角的MORE里",
+				"added": 1460002589
+			},
+			{
+				"comment_id": 122,
+				"body": "> [p2p](#comment_121_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 还有中文论坛呢本页面左上角的MORE里\n\n另外还有一个比较活跃的中文论坛 by @tuzi\nhttp://127.0.0.1:43110/1NzWeweqJ32aRVdM5UzFnYCszuvG5xV3vS",
+				"added": 1460002825
+			}
+		],
+		"1_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa": [
+			{
+				"comment_id": 78,
+				"body": "> [xiaolan65535](#comment_4_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): Thank you!\n\nInitial sync in progress?",
+				"added": 1458926405
+			},
+			{
+				"comment_id": 79,
+				"body": "> [xiaolan65535](#comment_6_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): don't know what happened, it should be a forum....but at least can access it......\n\ndid u just clone it using clone button of zerotalk?",
+				"added": 1458926768
+			},
+			{
+				"comment_id": 80,
+				"body": "> [xiaolan65535](#comment_7_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): yes... https://github.com/HelloZeroNet/ZeroTalk\n\ni meant clone button in ZeroHello",
+				"added": 1458926904
+			},
+			{
+				"comment_id": 81,
+				"body": "> [xiaolan65535](#comment_7_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): yes... https://github.com/HelloZeroNet/ZeroTalk\n\nsee this post:\nhttp://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:42:Changelog:+June+10,+2015",
+				"added": 1458926966
+			},
+			{
+				"comment_id": 82,
+				"body": "> [xiaolan65535](#comment_8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): Let me try.. thank you!\n\njust guess:\nmaybe it does not support chinese in site's name.",
+				"added": 1458927275
+			},
+			{
+				"comment_id": 83,
+				"body": "> [xiaolan65535](#comment_8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): Let me try.. thank you!\n\nno luck?",
+				"added": 1458927454
+			},
+			{
+				"comment_id": 84,
+				"body": "> [xiaolan65535](#comment_8_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): Let me try.. thank you!\n\ni cloned one:\nhttp://127.0.0.1:43110/16XGXyrKrHdoqW5uY8Jy4uhePysAkaqcPG",
+				"added": 1458927592
+			},
+			{
+				"comment_id": 85,
+				"body": "> [xiaolan65535](#comment_9_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa): works http://127.0.0.1:43110/1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy/:)\n\nyep!",
+				"added": 1458928300
+			},
+			{
+				"comment_id": 86,
+				"body": "> [p2p](#comment_84_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): i cloned one:http://127.0.0.1:43110/16XGXyrKrHdoqW5uY8Jy4uhePysAkaqcPG\n\nseems mine is working too:)",
+				"added": 1458928426
+			}
+		],
+		"2_1KSNSPNM5FTUwPJeyyHrLXek1dsumpnFm1": [
+			{
+				"comment_id": 89,
+				"body": "> [zeroworld](#comment_3_1KSNSPNM5FTUwPJeyyHrLXek1dsumpnFm1): Try again?\n\n@erkan said,\nTry to do this， http://127.0.0.1:43110/zeroblog.bit/?Post:31:How+to+make+sure+your+site+is+always+reachable+\nI assume you have a similar problem like the description in last link there?",
+				"added": 1458973898
+			}
+		],
+		"1_16i62xobxgjHCGoyT9uZVpYewkJvKMMMLt": [
+			{
+				"comment_id": 92,
+				"body": "see this pic:\nhttp://127.0.0.1:43110/Blog.ZeroNetwork.bit/data/img/clone.png\nyou can favorite a site or delete a site.",
+				"added": 1458988161
+			}
+		],
+		"6_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": [
+			{
+				"comment_id": 107,
+				"body": "nice work!\ni wonder can we send mail from Mail.ZeroNetwork.bit to mail.zeroverse.bit or vice versa?",
+				"added": 1459348427
+			}
+		],
+		"1_1McESjc8CgW2oDSNErSQx2UUJe863bYcqM": [
+			{
+				"comment_id": 109,
+				"body": "你不是看懂会发贴了吗\n中文论坛：\nhttp://127.0.0.1:43110/16XGXyrKrHdoqW5uY8Jy4uhePysAkaqcPG",
+				"added": 1459574396
+			}
+		],
+		"6_15ymkjUYJS6tjUC35AekGMExZMN6iks8ma": [
+			{
+				"comment_id": 111,
+				"body": "> [tuzi](#comment_5_1M1c7x7SLau8D2bm8Gw8iWQbBqe9X4zqPw): 对user_content.json单独签名后重新发布。\n\n人家已经解决并标记[SOLVED] 了，另外pls speak english",
+				"added": 1459655047
+			}
+		],
+		"2_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": [
+			{
+				"comment_id": 112,
+				"body": "> [tuzi](#comment_4_1M1c7x7SLau8D2bm8Gw8iWQbBqe9X4zqPw): 请问一下，如何连续使用代码行？我在我的站点对技术文档在进行中文化翻译（http://127.0.0.1:43110/1NzWeweqJ32aRVdM5UzFnYCszuvG5xV3vS/?Topic:8_1M1c7x7SLau8D2bm8Gw8iWQbBqe9X4zqPw），可是显示的非常难看，请问怎么做？如下：\n> <html><body><input type=\"text\" id=\"message\"><input type=\"button\" id=\"send\" value=\"Send!\"/><ul id=\"messages\"><li>Welcome to ZeroChat!</li></ul></body></html>\n\n我不是跟你说过了吗？发到NullPaste http://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/",
+				"added": 1459655181
+			},
+			{
+				"comment_id": 114,
+				"body": "> [tuzi](#comment_8_1M1c7x7SLau8D2bm8Gw8iWQbBqe9X4zqPw): 我明白你的意思的。我主要是想在文档中直接包含这些代码。\n\noh i see, but pls speak english to ask here",
+				"added": 1459655586
+			},
+			{
+				"comment_id": 115,
+				"body": "> [tuzi](#comment_9_1M1c7x7SLau8D2bm8Gw8iWQbBqe9X4zqPw): ok,ths.\n\ntripple ``` does that\nmore info in chinese:\nhttp://127.0.0.1:43110/1NzWeweqJ32aRVdM5UzFnYCszuvG5xV3vS/?Topic:8_1M1c7x7SLau8D2bm8Gw8iWQbBqe9X4zqPw/+1",
+				"added": 1459658906
+			}
+		],
+		"1_1dw6MzRpqpSXVaJRSDMfPwnEy9i5tYef3": [
+			{
+				"comment_id": 113,
+				"body": "中文论坛 http://127.0.0.1:43110/1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy/",
+				"added": 1459655274
+			}
+		],
+		"1_18ZfPCaU1pYAeos3A7YhZVgtsmXqXeRRW7": [
+			{
+				"comment_id": 117,
+				"body": "> [nofish](#comment_589_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): But you can start creating 10000 users at once, so the delay will be ineffective. PoW is not really useful against spam (a powerful GPU able to solve it 1000x faster than an average CPU)\n\nis CAPTCHA a good idea?",
+				"added": 1459790556
+			}
+		],
+		"1_14MrxSzhaSXiFwsAbyhwtipmU3Lh55Xcrr": [
+			{
+				"comment_id": 118,
+				"body": "欢迎！",
+				"added": 1459864661
+			}
+		],
+		"1_1LBz6orS5KPtvoS7BaTsgquYnMsystDNjE": [
+			{
+				"comment_id": 119,
+				"body": "cool！\ncan u share howto?",
+				"added": 1459869256
+			}
+		],
+		"1_18kDuSDb2D5QTtabXj6Ert7dTvnUA3FSHN": [
+			{
+				"comment_id": 120,
+				"body": "赞，不知youtube有没有？",
+				"added": 1459909063
+			}
+		],
+		"5_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": [
+			{
+				"comment_id": 126,
+				"body": "Not Found\n\nindex.html",
+				"added": 1460547092
+			}
+		],
+		"7_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": [
+			{
+				"comment_id": 127,
+				"body": "> [yo](#comment_11_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD): that is not the solution i am looking for :P\n\nprobably because ur site is bigger than ur site's limit. try to increase the limit via hidden menu. if does not work, try to restart ur browser and zeronet.",
+				"added": 1460551486
+			},
+			{
+				"comment_id": 128,
+				"body": "what? this topic is deleted by @yo?",
+				"added": 1460554679
+			}
+		],
+		"2_14MrxSzhaSXiFwsAbyhwtipmU3Lh55Xcrr": [
+			{
+				"comment_id": 129,
+				"body": "晕，你怎么发在这了\n中文论坛你不知道？页面左上角的 MORE里边",
+				"added": 1460627169
+			}
+		],
+		"1_1DpaSfcvYquSq5SGZZYA4ghtzjs6CmsZNV": [
+			{
+				"comment_id": 130,
+				"body": "页面左上角有个`MORE`，鼠标移过去，再点击`中文`，就可以进入中文论坛，置顶帖有详细使用教程",
+				"added": 1460694119
+			}
+		],
+		"1_1MDFGD6PJsZLnTg8Y9BcZKTPfKHMRrTL83": [
+			{
+				"comment_id": 131,
+				"body": "> [zeroraw](#comment_1_19Vndr5JwcmQX6nPNSqyRzJ6bdkW4k2sQo): 为什么中文前面突然出现空格隔断句子的？\n\n换个浏览器试试。\n中文论坛：本页面左上角有个`MORE`，鼠标移过去，再点击`中文`",
+				"added": 1460713125
+			},
+			{
+				"comment_id": 154,
+				"body": "> [tonydong1975](#comment_1_17iX5vz8vk5BZWPdcNiA6nnXJ9eAHwgrjW): 请问这个怎么用 www.ip138.com 还是原来的ip 没变呀 怎么浏览网页 谢谢\n\n这个不是用来翻墙的，是用来浏览zeronet内部网站\n这个有个导航:\nhttp://127.0.0.1:43110/0net123.bit",
+				"added": 1461741386
+			}
+		],
+		"1_13zBD3ynpfnnByEHFegySzsaeWKvzGWAVx": [
+			{
+				"comment_id": 133,
+				"body": "中文论坛：本页面左上角有个`MORE`，鼠标移过去，再点击`中文`",
+				"added": 1460731393
+			}
+		],
+		"2_13zBD3ynpfnnByEHFegySzsaeWKvzGWAVx": [
+			{
+				"comment_id": 134,
+				"body": "微软的东西能有多少是好的",
+				"added": 1460731440
+			}
+		],
+		"1_1GxD4vHoUzM5ZKUpP5sHHhbh9H6uoevWuj": [
+			{
+				"comment_id": 137,
+				"body": "谢谢！蛮好的一个博客。他在墙内写这些没有被删被审查么？\n另外，在不连外网的情况下，网页排版不好，因为调用了一些外网服务器上的元素。把这些元素转为本地，应该就好了。你可以用这个方法来测试：\nhttp://127.0.0.1:43110/zeroblog.bit/?Post:60:protect+yourselves:+set+a+non-working+proxy\n\n我给老外@yo写的，搬过来：\ndid u try to use [HTTrack](https://en.wikipedia.org/wiki/HTTrack)  or  [sth like that](https://en.wikipedia.org/wiki/Offline_reader#Website-mirroring_software) to mirror VOA/BBC/... ？they are designed for that purpose, so all the pics may be mirrored to local with the pics's links replaced to relative links.",
+				"added": 1460782042
+			},
+			{
+				"comment_id": 141,
+				"body": "> [mylifewaiting](#comment_19_14MrxSzhaSXiFwsAbyhwtipmU3Lh55Xcrr): 我已经做种，文件有500MB以上呢，提了三次传输大小才同步过来的\n\n看来你碰到类似问题。你在隐藏菜单里能看到那个站明明只有64MB，但是估计居然是10倍！我怀疑是bug",
+				"added": 1460972673
+			}
+		],
+		"3_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 138,
+				"body": "> [erkan](#comment_131_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf): My best guess would have been the ZeroBundle\n\nyes, its ZeroBundle. a lot of people in china don't know anything about freer OS or VM. if they know, to install a dependency is not a problem at all.",
+				"added": 1460796988
+			},
+			{
+				"comment_id": 260,
+				"body": "> [waterrabbit](#comment_109_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Digression:Make a Ubuntu live USB stick. Boot your old computer.\n\n> [mg318](#comment_2_1PUq48SD7mPzr41ukHAeczbgpGwJnkwSLv): 我用的世界之窗http://www.theworld.cn/\n\n> [waylander](#comment_3_13GyWy7pXEtCorqUBAv7ZPjyzNfwMA6Hh2): i think something like VMWare ThinApp, Evalaze, Enigma Virtual Box or Spoon Studio will help. anyway using python in windows is always a pain in the ass\n\nTHX！ the post is outdated, the problem is solved ( pls look at the zerobundle repo commits history at that time ) and I forgot to mark it as `solved` ( marked now )",
+				"added": 1485573360
+			}
+		],
+		"1_15RzGDnzJD4sUKbL4FgiMG8ULi69qGbyvh": [
+			{
+				"comment_id": 139,
+				"body": "MIAOSS开源吗？",
+				"added": 1460856457
+			}
+		],
+		"2_13iQF6zdjdmkL3jXz4ZV6DgBJ8qqzqUaFV": [
+			{
+				"comment_id": 140,
+				"body": "楼主，你的论坛里并没有这本书，包括《失控》，你是不是搞错了？\n另外有个建议：\n欢迎你分享电子书，但是这个论坛是官方论坛，不仅仅有中文用户，主要以英文交流为主，你每本书开一个帖子，这样会占用版面，可能会影响到非中文用户。我们不能像某些中国游客在外国那样不考虑别人的感受。\n你可以开一个主贴，有新的书就在下面跟贴，同时更新主贴，你觉得怎样？",
+				"added": 1460870579
+			}
+		],
+		"1_1Nhc87fApEuLfZev9tu5wFnVt2CLpPjB1W": [
+			{
+				"comment_id": 144,
+				"body": "感谢\n你做的这个proxy，因为没有开mutil-users plugin，所以默认已登录anonymous001这个用户，别人能用这个帐号发贴，但也能用这个帐号编辑、删除已发的贴。我不知道你是不是故意想要这种效果。关于mutil-users plugin的效果，请看其他公用proxy:\nhttp://127.0.0.1:43110/zeroproxies.bit",
+				"added": 1461560869
+			},
+			{
+				"comment_id": 145,
+				"body": "> [anonymous001](#comment_5_1Nhc87fApEuLfZev9tu5wFnVt2CLpPjB1W): 主要目的是提供一个访问点\n\n理解。\n因为zeronet不像twister那样发贴后就不能删除，所以不能很好的做一个树洞帐号。",
+				"added": 1461564527
+			},
+			{
+				"comment_id": 146,
+				"body": "> [lordjx](#comment_1_1KeUskXbAeoaUUXuhza467yEgmbwd4VSmS): 还没完全搞懂这个软件有什么用？\n\nP2P交流平台",
+				"added": 1461564559
+			},
+			{
+				"comment_id": 147,
+				"body": "> [lordjx](#comment_2_1KeUskXbAeoaUUXuhza467yEgmbwd4VSmS): 和一般的论坛相比有什么不同吗？> p2p: P2P交流平台\n\n一般的论坛要有个服务器，而这个没有。\n一般的论坛删帖封号那是家常便饭，你懂的",
+				"added": 1461564885
+			},
+			{
+				"comment_id": 148,
+				"body": "> [lordjx](#comment_3_1KeUskXbAeoaUUXuhza467yEgmbwd4VSmS): O，有手机版本的吗？> p2p: 一般的论坛要有个服务器，而这个没有。一般的论坛删帖封号那是家常便饭，你懂的\n\n暂时没有\n你回复我的时候，直接点Reply，然后直接打字，不要有其他多余操作，否则你回复的格式会乱",
+				"added": 1461565179
+			},
+			{
+				"comment_id": 149,
+				"body": "> [anonymous001](#comment_6_1Nhc87fApEuLfZev9tu5wFnVt2CLpPjB1W): 手机直接打开http://146.20.69.201\n\n或者这里的网站，也支持手机访问：\nhttp://127.0.0.1:43110/zeroproxies.bit/",
+				"added": 1461565406
+			},
+			{
+				"comment_id": 150,
+				"body": "> [lordjx](#comment_5_1KeUskXbAeoaUUXuhza467yEgmbwd4VSmS): 3Q> anonymous001: 手机直接打开http://146.20.69.201\n\n你回复的格式还是乱的\n你看看人家回复的格式",
+				"added": 1461565457
+			},
+			{
+				"comment_id": 151,
+				"body": "> [lordjx](#comment_6_1KeUskXbAeoaUUXuhza467yEgmbwd4VSmS): 我是点Reply，直接回复的啊，也没有其它操作方式了。不知道怎么回事？> p2p: 你回复的格式还是乱的你看看人家回复的格式\n\n点reply后，【直接】打字，不要把光标放在文本框左上角！！而应保持在左下角",
+				"added": 1461567657
+			}
+		],
+		"1_1Ap5x5L8jycDLfFKaGHVpayC5kS526v7Ub": [
+			{
+				"comment_id": 152,
+				"body": "感谢分享",
+				"added": 1461637117
+			}
+		],
+		"1_1Ao2nMbB9yJPeCbGwKxzJsdDTmtP6N6bWZ": [
+			{
+				"comment_id": 153,
+				"body": "建议把网址贴在正文\nhttp://127.0.0.1:43110/18QZWGa9CcPucthAzobYhpeRTBRa1hUzD3/",
+				"added": 1461741079
+			}
+		],
+		"22_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": [
+			{
+				"comment_id": 155,
+				"body": "> [fornews](#comment_3_16MnXWFj7bYgDHm4zYF4bKGigZDfRfq5Yj): this zeroblog demo implements tag , you can try ithttp://127.0.0.1:43118/19k2nhubaYsDJNPHL6iNs3D2K9Mgj66P4R\n\n43118 aganin!\ndo u use 43118 for another zeronet account? many zn instances running at the same time, hoho!",
+				"added": 1461903999
+			}
+		],
+		"11_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 157,
+				"body": "> [nippletwister](#comment_63_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): In this case I didn't worry about getting ability to do something with my data (as you said I am screwed already) rather than making it easy to undelete and make it available for every seeder back.\n\ni wrote an Automated rsync snapshot scrip here, when used by many people it'll help preventing site deletion/takedown: \nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:4_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/Automated+rsync+snapshot+script+to+make+it+truly+impossible+to+takedown+a+ZeroNet+site",
+				"added": 1462067443
+			}
+		],
+		"5_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 158,
+				"body": "> [nofish](#comment_632_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): You have to add the address as \"signs\" node and then the signers_sign should be generated from it, but it's not well tested. Multisig is enabled yet.\n\noh, ur description is still unclear, i tried several formats just now, still no luck. pls test it if u have time. and add it to the testdata, so that we can see clearly. THX!\nbtw, u said \"Multisig is enabled yet.\" u meant \"Multisig is NOT enabled yet\" or  \"Multisig has already been enabled.\" ?",
+				"added": 1462117732
+			},
+			{
+				"comment_id": 159,
+				"body": "> [nofish](#comment_633_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):I was able to make multiple site owners feature work:\n\n\ni tried, seems sign is fine, but when publishing the peers said `File invalid`( 1Lxxxx..xxxx is my own site ):\n```\nSite:1Lxxxx..xxxx Correct 1Lxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx in valid signers: \n[u'1Fyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy', u'1Lxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx']\nSite:1Lxxxx..xxxx Signing content.json...\nSite:1Lxxxx..xxxx Saving to content.json...\nSite:1Lxxxx..xxxx File content.json signed!\n...\n[FAILED] x.x.x.x:15441: {'to': 3, 'cmd': 'response', 'error': 'File invalid'}\n```\ndid u test publish?",
+				"added": 1462152788
+			},
+			{
+				"comment_id": 161,
+				"body": "> [nofish](#comment_634_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yes, for some reasons it does not work when publishing (i suspect signers.keys() order is different on signing and verification), but if you remove the site's address from \"signers\", then it's got accepted, so: \"signers\": { \"otheraddress\": 1 }, (you will be still able to sign with the site's address, since it's always accepted)\n\ni tried `\"signers\": { \"otheraddress\": 1 },` just now, when publishing still got `File invalid` :(",
+				"added": 1462253539
+			},
+			{
+				"comment_id": 162,
+				"body": "> [nofish](#comment_636_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I have also tried and it works for me After you did the modification you have to re-sign it with the site owner's address, then with the otheraddress\n\nu meant before publishing i need to sign  it with my address, then with the otheraddress?\nin real-world situation, i need to send the signed content.json to the other owner to sign before publishing?",
+				"added": 1462260306
+			},
+			{
+				"comment_id": 163,
+				"body": "> [nofish](#comment_637_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It's just needs to done one time, after that you can sign it with the otheraddress. Demo: http://127.0.0.1:43110/1LNV4AdQ3FeJwPvHcPwt5gj1JUzKnuStJk/content.json (signed by 1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D)\n\nwould u pls publish the site again? there are already 8 peers but still can't open ur site. i also checked it with public proxies, but all said:\ncontent.json download failed",
+				"added": 1462263692
+			},
+			{
+				"comment_id": 164,
+				"body": "> [nofish](#comment_638_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): looks like it only works if the peer is downloaded the site before, so you can't use it right nowyou can specify alternative signers for sub-directories and that should work as it was used in previous version of ZeroTalk: http://127.0.0.1:43110/1TaLk3zM7ZRskJvrh3ZNCDVGXvkJusPKQ/data/users/content.json\n\nto specify alternative signers for sub-directories is a easy job i've successfully done. see the original post (am i right to use `auth_address`? ):\n>i have successfully set  the `signers` to others' `auth_address` (can be found in corresponding site section of  `sites` field of others'  users.json, others can use corresponding `auth_privatekey` to sign then) in the `includes` field of root content.json\n\nsome chinese users want the multi-owner site feature, rather than alternative signers for sub-directories.",
+				"added": 1462271431
+			},
+			{
+				"comment_id": 165,
+				"body": "> [nofish](#comment_639_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It's not possible yet, i will fix it later, but it takes long time until everyone update. Using auth_address to sign sub-directories should work.\n\nOK，THX",
+				"added": 1462272703
+			}
+		],
+		"1_19UUQiWDwTnDgApP6wSf85n139ipdvDVDG": [
+			{
+				"comment_id": 166,
+				"body": "请看完中文论坛置顶贴再来发表高见\nhttp://127.0.0.1:43110/gfwtalk.bit/",
+				"added": 1462877377
+			}
+		],
+		"1_1KfQcjCVHpRxCipSLJijpZJU6okBC8AcPq": [
+			{
+				"comment_id": 167,
+				"body": "请看中文论坛\nhttp://127.0.0.1:43110/gfwtalk.bit/",
+				"added": 1462877481
+			}
+		],
+		"2_1NL5YZdozXc6ZNzKm78H4SjSMabyzV16YX": [
+			{
+				"comment_id": 168,
+				"body": "中文FAQ：http://127.0.0.1:43110/gfwtalk.bit/?Topic:37_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/\n## 5.12\\. ZeroNet网站真的没有办法被关闭吗？\n请参考：[通用的自动快照脚本来创建一系列ZeroNet网站快照，实现真正不可能关闭的网站！](http://127.0.0.1:43110/gfwtalk.bit/?Topic:31_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ)",
+				"added": 1463154011
+			}
+		],
+		"6_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 169,
+				"body": "> [bullishonline](#comment_8_1Hw8MgzEGWsLfBRhKkCfah1SLqXoh2f64g): Here's the address in ZeroNet: 127.0.0.1:43110/16Ryx9pbfzaPb1dbttA6DiFojHQGqrMokU/\n\naccoding [official schedule](http://www.decentralizedweb.net/schedule/)\n@nofish (Tamas Kocsis) will present in Lightning Talks at 11:00-12:30 p.m. PST Jun 9, in Workshops at 1:30-3:00 p.m. i hope we can see him in live stream:)",
+				"added": 1465489974
+			},
+			{
+				"comment_id": 170,
+				"body": "~~Can anyone see youtube playback of Lightning Talks _**Section B**_  of Decentralized Web Summit, in which @nofish presented?\nhttps://www.youtube.com/watch?v=PfWgin3JlAU\ni can see the video, but it only lasts 4 hours( it should be 8 hours ), lacking Section A and Section B. something wrong?~~\nbtw, i can see the Day 1's playback of 8 hours with no problems.",
+				"added": 1465523401
+			},
+			{
+				"comment_id": 172,
+				"body": "it was fixed!!\ncome on to see handsome @nofish !!\nhttps://youtu.be/PfWgin3JlAU?t=10989",
+				"added": 1465541128
+			},
+			{
+				"comment_id": 174,
+				"body": "+ _**interview video**_ of @nofish in Decentralized Web Summit on Jun 7, Builders' Day:\nhttps://archive.org/details/DecentralizedWeb20160607pt3\n@nofish 's part starts at about 50:00 of the video, and u can download several formats of video ( download links can be found on that page ) if u suffer inconvenience watching on web.\n+ @nofish 's handsome _**images**_ can be found here:\nhttps://archive.org/stream/DecentralizedWeb20160607Images/DecentralizedWeb20160607pt2#page/n447/mode/1up",
+				"added": 1465699281
+			}
+		],
+		"1_1Fg4UN4uP6uvjT5gZmnxYx5dNJVGuwNtgG": [
+			{
+				"comment_id": 171,
+				"body": "> [deafboy](#comment_22_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa): Livestream link: https://www.youtube.com/watch?v=PfWgin3JlAU\n\n~~Can anyone see youtube playback of Lightning Talks _**Section B**_  of Decentralized Web Summit, in which @nofish presented?\nhttps://www.youtube.com/watch?v=PfWgin3JlAU\ni can see the video, but it only lasts 4 hours( it should be 8 hours ), lacking Section A and Section B. something wrong?~~\nbtw, i can see the Day 1's playback of 8 hours with no problems.",
+				"added": 1465523485
+			},
+			{
+				"comment_id": 173,
+				"body": "it was fixed!!\ncome on to see handsome @nofish !!\nhttps://youtu.be/PfWgin3JlAU?t=10989",
+				"added": 1465541336
+			},
+			{
+				"comment_id": 175,
+				"body": "> [nofish](#comment_677_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Thanks guys, it was really nice to be there, meet so much nice people and see that they appreciate what I do! :)\n\n+ _**interview video**_ of @nofish in Decentralized Web Summit on Jun 7, Builders' Day:\nhttps://archive.org/details/DecentralizedWeb20160607pt3\n@nofish 's part starts at about 50:00 of the video, and u can download several formats of video ( download links can be found on that page ) if u suffer inconvenience watching on web.\n+ @nofish 's handsome _**images**_ can be found here:\nhttps://archive.org/stream/DecentralizedWeb20160607Images/DecentralizedWeb20160607pt2#page/n447/mode/1up",
+				"added": 1465699301
+			}
+		],
+		"1_1BG8WrV2VY1bNjQiKR4tcL52FAw6Y6BoJ8": [
+			{
+				"comment_id": 176,
+				"body": "楼主居然把原帖改了，搞得下面评论看上去跟本文无关。原帖如下（我在快照里找的）：\n\n>使用新号前需要先备份旧号（以免覆盖旧号就没了），然后把ZeroNet\\\\data里的所有数据删除，再把新号复制进来，打开zeronet.cmd，就能用新号了。。\n\n至于本文内容，明天有空再讨论",
+				"added": 1467392578
+			},
+			{
+				"comment_id": 178,
+				"body": "我找到了原文：\nhttps://leonax.net/p/8267/zeronet-will-be-the-next-failure/\n以下是我在那篇文章的回复，转到这里：\n\n本文槽点非常多，论据有问题，论证逻辑也不严密。\n不完全分析如下：\n1. 文中说比特币核心开发者宣称比特币失败（核心这两个字是链接，比特币不是链接，怎么断句不用我说了吧）。这也不能全怪你，这是典型国内编辑无知导致的翻译不准确。英文原文是Bitcoin Core developer，Bitcoin Core是个专有名词，应该翻译为比特币内核开发者。那些国内编辑本身对英文原文就理解错误，谈何翻译？事实上那个宣称比特币失败的人在Bitcoin Core的开发team里是个小角色，不信可以去google。但翻译成比特币核心开发者，意思大不同，毒害了不少人。\n2. 国内比特币交易所现货交易基本上都是免手续费的，而国外的基本上都是收手续费的。忽略了这个关键点，就说“90% 以上的交易量发生在中国的比特币市场，足以证明一个“分布式”项目的失败”，有失偏颇吧\n3. 你说“没有商业公司支持的项目，不可能胜过一个有商业背景的项目”，并以你之前的博文论述的Linux平台和Windows平台向后兼容性做论据： https://leonax.net/p/6697/open-source-software-without-commercial-support-is-a-joke/\n你用从 Windows 95 到 Windows 8 都能玩 DOOM 2来说明Windows向后兼容性好，未免有点以偏概全了吧。君不见有很多经典的行业软件因为不更新了，只能运行在XP下，M$为了让这些用户能升级到Win7，搞了个XP Mode的虚拟机出来，以半内置的方式放在Win7里。连M$自己都承认了Windows向后兼容性不行，怎么以此说明有商业背景的项目比没有商业公司支持的项目好？\n4. 迅雷离线下载能没有审查么？你懂的视频都能下载么？百度网盘8秒听说过吧\n5. 终于谈到ZeroNet了。\n5.1 你的存储空间估算方法非常有问题。根据二八原理，大概20%的资源是热门资源，剩下80%访问人数很少，甚至无人访问。google这样的公司并没有过期机制，100%地保存了所有资源，所以数据量很大。而ZeroNet就像Bittorrent一样，有个自然的优胜劣汰机制，所以实际需要的存储空间远小于你的估计值。同理，大量冷门资源的冗余也达不到1000（也没有达到1000的必要），使得实际需要的存储空间更小。\n5.2 你的成本估算方法也有问题。用户的硬盘不是专门为了ZeroNet买的，本来就有硬盘，只是用空余空间来存储并贡献，这个成本当然不能以整块硬盘的价格来计算。实际上，用户付出的成本几乎是为零的。\n（我是看到了有人把你的博文转贴到ZeroNet内部论坛，才google到你这的。不好意思来砸了你的场子。我以上写的会回复到ZeroNet内部论坛对应转贴中，就算你不爽把我在你博客的帖子删了，也有个备份。顺便说一下，抗审查抗删帖是去中心化的ZeroNet一个非常大的优点，你博文里没有提及，我感到很遗憾）",
+				"added": 1467448582
+			},
+			{
+				"comment_id": 180,
+				"body": "> [peer2peer](#comment_3_1BG8WrV2VY1bNjQiKR4tcL52FAw6Y6BoJ8): @p2p你分析得真够详细，在下佩服佩服。\n\n多谢捧场\n\n>收益分配按提供的硬盘大小、所储存数据多少、连续在线时间等条件进行分配\n\n这应该是个技术难点：如何准确评估这三项指标，并且防止作弊\n现在zeronet还没遇到存储的问题，所以这个方案的优先级不高。现在在等zeronet的社交功能出来，就算出来后，各方面完善也需要很长时间，这个的优先级高",
+				"added": 1467528462
+			},
+			{
+				"comment_id": 182,
+				"body": "> [197](#comment_1_15JNF8bdyG4zEWVASsgbkFirzM6gyYpSBA): 宣称比特币失败的 Mike Hearn 虽说没有直接 Commit 的特权，但也不是什么「小角色」，而是被比特币创始人 Satoshi Nakamoto 所托负的 Gavin Andresen 亲自邀请的第一批区块链开发者，讲他是核心开发者并没什么错。\n\nhttps://github.com/mikehearn/bitcoin\n看看那家伙对Bitcoin Core的fork，代码停留在3年前。“邀请他”，跟“他做出了贡献”是两码事吧\n\n> Bitcoin Core 实际上说的不是比特币「内核」（又不是 Linux 有个 Kernel），要理解它，需要先了解一些背景知识。\n\n你对比特币研究挺深，多谢分享\n我说“内核”并不是指Linux Kernel那种内核。我只是说翻译成“比特币内核开发者”，比翻译成“比特币核心开发者”更准确，更能避免歧义。\nBitcoin Core并不是为了区分那三个版本而改名，而是：To reduce confusion between Bitcoin-the-network and Bitcoin-the-software we have renamed the reference client to Bitcoin Core.\nhttps://bitcoin.org/en/release/v0.9.0#rebranding-to-bitcoin-core",
+				"added": 1467903853
+			},
+			{
+				"comment_id": 183,
+				"body": "> [197](#comment_7_15JNF8bdyG4zEWVASsgbkFirzM6gyYpSBA): Mike Hearn 后来基本投入到 Bitcoin XT 了：https://github.com/mikehearn/bitcoinxt/commits/0.11D 。\n\n关键是bitcoinxt的watch、star、fork很少，可见没啥影响力。相当于另起炉灶，对Bitcoin Core的贡献少，更称不上“核心开发者”",
+				"added": 1467964512
+			},
+			{
+				"comment_id": 185,
+				"body": "> [197](#comment_9_15JNF8bdyG4zEWVASsgbkFirzM6gyYpSBA): 你对于影响力的理解只是数 Star 和 commit 么。\n\n我没有说只看star，但至少star是影响力的一个反映。你说Gavin Andresen 的类似 fork 只有 64 Star，注意那个fork的描述Feature branches that aren't yet, or never will be, ready for mainline bitcoin ，也就是明摆着说那个是个玩票的repo，当然不会有很多人star\n总共150多个BIP，4个真的算多么？而且其中两个Final还是跟别人共同署名。BIP只是提案，还只是纸上谈兵，真正贡献当然还要看commits\n对比一下这两个吧（你没有看错，第一个链接只有3个commits）：\nhttps://github.com/bitcoin/bitcoin/commits/?author=mikehearn\nhttps://github.com/bitcoin/bitcoin/commits/?author=gavinandresen",
+				"added": 1468207046
+			},
+			{
+				"comment_id": 206,
+				"body": "> [197](#comment_11_15JNF8bdyG4zEWVASsgbkFirzM6gyYpSBA): 我反对的只是你说的 Mike Hearn「是个小角色」而已，可没有说他的贡献比肩 Gavin Andresen 。你现在对「小角色」的标准已经上升到了「有4个BIP」以及「能和 Gavin Andresen 比 commit 数」（我都说了，结果你还是在数 commit 数）的地步了，既然你那么看不起 Mike Hearn，我也没什么别的好说。\n\n现在才看到你的回复。我并没有说「能和 Gavin Andresen 比 commit 数」才算厉害角色，我给出对比只是想说明，两人commit数的差距有多大，跨了几个数量级。用不着「能和 Gavin Andresen 比 commit 数」，能够达到其commit 数十分之一，应该能入围影响力大的人了吧。但Mike Hearn的commit 数差距实在太大。比Mike Hearn的commit数多几十倍百倍的人恐怕也上百人了吧。\n我的观点是，commit 数多影响力不一定大，但是commit 数只有3个而且代码量很小的人，影响力一定不大。",
+				"added": 1472294334
+			},
+			{
+				"comment_id": 207,
+				"body": "> [symeon](#comment_1_137rkKX9pJ4sdjoHtiEV9qtHWc7xVgNj5n): ZeroNet如果失败绝不是因为P2P而是项目目前还没有完全成熟，很多特性在TODO list，如果主程不干了那么这个项目或许会前景暗淡。\n\n好消息！[据报道](http://www.ibtimes.co.uk/zeronet-revolutionary-new-decentralised-p2p-internet-post-edward-snowden-world-1580897)，ZeroNet作者获得[Blue Systems](https://en.wikipedia.org/wiki/Blue_Systems)资助，全职开发ZeroNet。这下子ZeroNet的后续开发就有保证了，不会因为各种原因停滞。Blue Systems是个德国富二代拥有的，专门资助自由软件，是KDE的主要资助者。（天朝的富二代们怎么跟人家差距这么大？）",
+				"added": 1473906436
+			}
+		],
+		"10_16tWPYFLbad3R8iGcMuetyiwC2q5qXp45T": [
+			{
+				"comment_id": 177,
+				"body": "我找到了原文：\nhttps://leonax.net/p/8267/zeronet-will-be-the-next-failure/\n我在那篇文章的回复，转到了这里：\nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1BG8WrV2VY1bNjQiKR4tcL52FAw6Y6BoJ8/ZeroNet#comment_178_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+				"added": 1467448385
+			}
+		],
+		"2_1BG8WrV2VY1bNjQiKR4tcL52FAw6Y6BoJ8": [
+			{
+				"comment_id": 179,
+				"body": "我找到了原文：\nhttps://leonax.net/p/8267/zeronet-will-be-the-next-failure/\n我在那篇文章的回复，转到了这里：\nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1BG8WrV2VY1bNjQiKR4tcL52FAw6Y6BoJ8/ZeroNet#comment_178_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+				"added": 1467448802
+			}
+		],
+		"3_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": [
+			{
+				"comment_id": 181,
+				"body": "i hope that there will be a video of it and subtitle of english.",
+				"added": 1467680212
+			}
+		],
+		"6_15ATNsS6aHGvBg5xoMP94sXpNaLX4fSHjN": [
+			{
+				"comment_id": 184,
+				"body": "why you can't access GitHub through Tor? \na famous chinese blogger wrote some tips about accessing GitHub through Tor:\nhttp://127.0.0.1:43110/15gfg6DUVkp7ApLSMQvC2ig5qy8j91jXeW/2016/03/GitHub-Security-Tips.html",
+				"added": 1468161667
+			}
+		],
+		"1_1M4Ab8CUu3byziHVvNXLHmPezC4Lg9hvNJ": [
+			{
+				"comment_id": 186,
+				"body": "great!\nit's really useful! THX!\ncan we access that github page via .github.io, an easier to remember one?",
+				"added": 1470637796
+			}
+		],
+		"1_1mytj22YfKjQujw9Fo43WBwSJB658vqyY": [
+			{
+				"comment_id": 187,
+				"body": "man, don't click `update` in the sidebar. just click `sign` and then `publish `",
+				"added": 1470719599
+			}
+		],
+		"8_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 188,
+				"body": "> [nofish](#comment_721_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Only visit \n\ndid u push 0.4.0 update? I updated manually before, so I don't know.",
+				"added": 1470877405
+			}
+		],
+		"10_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 189,
+				"body": "> [kaffie](#comment_136_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): I can't sign \n\nactually you can, but not a normal sign, an inner_path sign instead ( you can do it easily via the sidebar, turn on `This is my site`,  type `data/users/your_ID_address/content.json` in left box of  `Sign` button, and then click `Sign` finally `Publish`)\n\n**There's an easier way**: merge your data manually via editing json files, and then post something via web UI, your merged data will be signed and published automatically.\n\n__**always remember, backup before doing!!**__\n\nupdate:\nif it prompts for a private key in the sign way( not the easier way ), copy&paste your zeroid.bit auth_privatekey which can be found in `ZeroNet/data/users.json`",
+				"added": 1470883270
+			},
+			{
+				"comment_id": 190,
+				"body": "> [bot](#comment_105_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Hell yeah that was an interesting test...\n\nin fact, your clone of ZeroMe ( the merger site, not the hub) is responsible for this error. when I visited it and clicked `Grant`, all the hubs stopped updating, the log output tons of errors. after I deleted it, all become well.\nSo I think only one merger site is allowed.",
+				"added": 1470883985
+			}
+		],
+		"1_1JHrskNwA3oo9gxvCbo3Q1RZTUuKCDdfUa": [
+			{
+				"comment_id": 191,
+				"body": "Great! \nI'v shared an automated rsync snapshot script here http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:4_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ \nBut my personal machine is not running 7*24. If your machine always keeps running and your snapshots are easily accessed by other people, it would be much better.\nMaybe you can snapshot all the ZeroTalk clones of other languages whose links are at the top of this page.",
+				"added": 1470970522
+			},
+			{
+				"comment_id": 193,
+				"body": "> [revolutionary](#comment_6_1JHrskNwA3oo9gxvCbo3Q1RZTUuKCDdfUa): Thanks. I've wrote you a email.\n\nreplied",
+				"added": 1471020526
+			}
+		],
+		"2_12yaKkoqVKBUi66uB5pYXamWguKFaWdDnx": [
+			{
+				"comment_id": 192,
+				"body": "http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:proxies\nhttp://127.0.0.1:43110/zeroproxies.bit",
+				"added": 1471007065
+			}
+		],
+		"7_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 194,
+				"body": "> [nofish](#comment_723_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): then you can move this files to your own hub if necessary.\n\nbackup script is easy, actually I wrote [an automated rsync snapshot script](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:4_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ) to snapshot all sites I seed. But restore script is much harder: to find out who comment to my posts, and copy to my new hub, delete comments not belong to my posts, reset the comment counter. That's beyond most users skills, including me. If someone share a restore/migrate script, or even ZeroNet support it directly, that would be great. \n\n>But if you worry about censorship, then you should run your own hub, so this should not be a problem.\n\nEveryone in ZeroNet more or less worries about censorship, or they'll stay in big companies network. But I don't think everyone should be encouraged to run his/her own hub, if so, there is no actual meaning of the hub feature. With backup hub feature I said, non-tech users don't worry about it, no need to run a snapshot script in the background, no need to open a port or find a seeder to run an own hub, on need to run a restore/migrate script.",
+				"added": 1471137197
+			},
+			{
+				"comment_id": 195,
+				"body": "> [weakish](#comment_11_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): If there is \n\nso, what's your point? How to solve?\nIMO, in general, 80% users are inactive, 50KB quota is enough for them. It's OK for them to stay Red/Blue hubs. 20% are active, they need to migrate to other hub. 50KB is soon to use up for some of us, so we really need a easy-to-use migrating script( migrating both posts and others' comments ), in the long term, one-click migrating like one-click clone is preferred.\nFor censorship issue, someone can use VPS to setup a snapshot server, helping to snapshot most zites. Meanwhile, the VPS acts as a web server, people can get the snapshot files easily. We already have some proxies servers to browser ZeroNet from clearnet, these proxies servers can also be the snapshot servers.",
+				"added": 1471156325
+			},
+			{
+				"comment_id": 198,
+				"body": "> [nofish](#comment_726_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): There is a simple solution for this\n\noptional file is preferred.\nAnd what's your idea of re-share, or RT?\nwhat happen if someone I follow RT something in which hub I'm not seeding? Can I see it?",
+				"added": 1471172926
+			},
+			{
+				"comment_id": 199,
+				"body": "> [nofish](#comment_727_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): On share you should include the original post in your file, so its not a problem. (like on reply here)\n\nRT a long post consume much of my quota? I'll think twice befor RT that then:(\nCould I choose RT part of a long post and append a link of the original post?",
+				"added": 1471173425
+			},
+			{
+				"comment_id": 200,
+				"body": "> [nofish](#comment_729_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Sure, you can delete the irrelevant parts (same as replying to someone)\n\nthen we'll need a unique URL of a specific post or comment.",
+				"added": 1471174102
+			},
+			{
+				"comment_id": 201,
+				"body": "> [weakish](#comment_14_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR):  The problem of optional file is it breaks links.URIs should not change.Later posts may link to old posts.\n\nlinks only contain post ID or comment ID, NOT contain a file location.",
+				"added": 1471176251
+			}
+		],
+		"8_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 196,
+				"body": "> [tkarita](#comment_93_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t): I've seen my peers for all sites drop to zero\n\nTor is not down in my scenario, because after I  manually click `Update`, I can get several connections.",
+				"added": 1471163212
+			},
+			{
+				"comment_id": 197,
+				"body": "> [nofish](#comment_725_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I was unable to reproduce the problem, \n\nmy Tor connection is not slow, I can browse clearnet website quite fast.\nyeah, I'm serving many sites, but how to switch between serving many sites and serving a few sites? switch between 2 sites.json? any side effect?",
+				"added": 1471172028
+			},
+			{
+				"comment_id": 202,
+				"body": "> [arnebolen](#comment_1_1AjxW1N844WRpscEFSotfsqLXsQurz83xc): I always use Tor \n\nare you sure under Tor always mode? if so, ZeroHello should says `TOR: ALWAYS` at the top of page.",
+				"added": 1471177183
+			},
+			{
+				"comment_id": 203,
+				"body": "> [arnebolen](#comment_2_1AjxW1N844WRpscEFSotfsqLXsQurz83xc): Yes, it says \"TOR: ALWAYS\".\n\nhow many sites are you seeding? 20+, or 100+, 300+?",
+				"added": 1471241721
+			},
+			{
+				"comment_id": 204,
+				"body": "> [nofish](#comment_728_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The easiest way to do that is create 2 \n\nafter some test, I found:\n- serving 300+ zites over clearnet -> OK\n- serving 10+  zites under tor always mode -> OK\n- serving 300+ zites under tor always mode  -> some problems mention above\n\nSo, can ZeroNet control Tor to deal with many connections more nicely? ( stream isolation, more socks port, more Guard node...)\nHub feature, reducing the needed number of connections, is important under Tor always mode. Thus, can we easily tell someone to run his/her own hub? Obviously, more hubs more connections. Then we run into the previous discussion: http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:7_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/Recent+ZeroMe+structure+is+bad+for+hub+migrating+and+censorship+proof+My+idea+is which is worthy of thinking again.",
+				"added": 1471271115
+			},
+			{
+				"comment_id": 261,
+				"body": "one cause of this issue: http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/1485661938",
+				"added": 1485664896
+			},
+			{
+				"comment_id": 271,
+				"body": "another cause of this issue: \nhttp://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/1487855082",
+				"added": 1488004487
+			},
+			{
+				"comment_id": 272,
+				"body": "> [pulamea](#comment_2_1DkgaSRRD2j1JM7Vfg1Ra2CijnmMaW7YUp): https://software.opensuse.org/package/vidaliaIf you use RPM you can force it through Vidalia (also works with Wheezy).  Setup network manager as a proxy.  You have to start ZeroNet first before Vidalia otherwise the Zero-server gets stuck configuring.  Lots of bugs and if it is only one dude working...  Tor does not work for me with ZeroNet but Vidalia kicks ass for speed!  ZeroNet works faster that i2p and for finacial reasons I think they should merge or cooperate.\n\nVidalia is no longer developed, please use `arm` instead. ",
+				"added": 1488214750
+			}
+		],
+		"2_16iYwD5U2fNoS22p6447J7992iL3DHjSHY": [
+			{
+				"comment_id": 205,
+				"body": "> [nofish](#comment_198_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Try start the browser then zeronet using zeronet.py --tor_proxy 127.0.0.1:9150 --tor_controller 127.0.0.1:9051\n\nfor Tor Browser,  it should be  `--tor_controller 127.0.0.1:9151`",
+				"added": 1472036999
+			}
+		],
+		"3_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": [
+			{
+				"comment_id": 208,
+				"body": "nofish and I talked about moblie client here ( bottom of comments ): http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:86:Why+do+we+need+to+change+the+Web+#Comments",
+				"added": 1473908314
+			}
+		],
+		"7_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": [
+			{
+				"comment_id": 209,
+				"body": "> [nofish](#comment_778_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): can you paste the content of \n\nsame error here. must be a bug.",
+				"added": 1475131305
+			},
+			{
+				"comment_id": 210,
+				"body": "> [nofish](#comment_778_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): can you paste the content of \n\nmine is \n```\n{\n \"address\": \"1UDbADib99KE9d3qZ87NqJF2QLTHmMkoV\",\n \"cert_auth_type\": \"web\",\n \"cert_sign\": \"HIB2MRwN/koMwKBMzt81Ilj6q3LLSiHa03ZetVrUAZpcTaSwDAs0PEpK61MBOgNRWSjqTRlZ5rnWHt08Hrukoms=\",\n \"cert_user_id\": \"p2p@zeroid.bit\",\n \"files\": {},\n \"inner_path\": \"data/userdb/13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/content.json\",\n \"modified\": 1475131199.034222,\n \"signs\": {\n  \"13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ\": \"GxLTk7CutBHREqNm5hCcHyVdEQyQMnMuuDDl0K4K0x4MUiBTApJXh9RwMA01EQIhj+CzmlIeZabjpPBHN95aAWY=\"\n },\n \"user\": [\n  {\n   \"avatar\": \"jpg\",\n   \"date_added\": 1470870599,\n   \"hub\": \"1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL\",\n   \"intro\": \"P2P user from China. \\u4e2d\\u6587\\u7528\\u6237\\u3002ZeroNet\\u8001\\u53f8\\u673a\\uff1a\\uff09\\u8bf7\\u52a1\\u5fc5\\u770b[ \\u4e2d\\u6587\\u8bba\\u575b ](http://127.0.0.1:43110/GFWtalk.bit)\\u9891\\u7e41\\u66f4\\u65b0\\u7684**\\u7f6e\\u9876\\u8d34**\\uff0c\\u5305\\u542b\\u6700\\u65b0\\u7684ZeroMe\\u3001ZeroNet\\u4f7f\\u7528\\u6280\\u5de7\\u548c\\u6ce8\\u610f\\u4e8b\\u9879\\u3002\",\n   \"user_name\": \"P2P\"\n  }\n ]\n}\n```\nRev 1523",
+				"added": 1475131430
+			},
+			{
+				"comment_id": 211,
+				"body": "> [nofish](#comment_779_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Can you please check \n\ni've changed to test, seems ok. ",
+				"added": 1475136643
+			},
+			{
+				"comment_id": 212,
+				"body": "> [nofish](#comment_779_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Can you please check\n\nStrange! after editing my profile's introduction, the Site:1UDbAD..MkoV error is gone! when i post, it does not try to publish to  Site:1UDbAD..MkoV. why?",
+				"added": 1475137268
+			},
+			{
+				"comment_id": 213,
+				"body": "> [nofish](#comment_779_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Can you please check \n\nStrange plus!! after switching my profile's introduction back, the Site:1UDbAD..MkoV error is back! when i post, it try to  Site:1UDbAD..MkoV and 'File invalid'",
+				"added": 1475137575
+			},
+			{
+				"comment_id": 214,
+				"body": "> [nofish](#comment_780_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Normally the UDb \n\nwhen i switch to test, all peers accept it; but when i switch back, very few peers accept it, most peers said 'File invalid'",
+				"added": 1475140782
+			},
+			{
+				"comment_id": 215,
+				"body": "> [nofish](#comment_780_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Normally the UDb \n\nFinally i found it after test many many times!!\nIt is the `[中文]` in my profile! if the amount of chinese word in `[]` more than one, the encoded string contains spaces, causing the error. There is bug in your parse function for content.json (note that you use user\": [] instead of user\": {})",
+				"added": 1475142483
+			},
+			{
+				"comment_id": 216,
+				"body": "> [p2p](#comment_215_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): Finally i found it after test many many times!!\n\nbut what makes me confused is not all chinese word reproduce this bug, e.g. ~~`[测试]` has no problem~~ some peers said ok, while some said invalid.",
+				"added": 1475143149
+			},
+			{
+				"comment_id": 217,
+				"body": "> [p2p](#comment_216_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): but what makes me confused is not all chinese word reproduce this bug, e.g. [测试] has no problem\n\ni forgot to say: this bug has no thing to do with the length of the profile, only 4 character or word `[中文]` can cause the error.",
+				"added": 1475143623
+			},
+			{
+				"comment_id": 218,
+				"body": "> [nofish](#comment_782_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I was able to reproduce the problem and it's happens because the json formatter adding an extra space after the [ character, working on fix...\n\nmaybe the bug is in diff function, i just guess.",
+				"added": 1475146546
+			},
+			{
+				"comment_id": 219,
+				"body": "> [nofish](#comment_783_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Fixed in latest version\n\nTHX！ FIXED",
+				"added": 1475151499
+			}
+		],
+		"4_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 220,
+				"body": "Thanks！\nHave you joined in the **_automatic_** seeders group?\nPlease see this: http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n\nYou can easily join via Cron the script provided in above site.",
+				"added": 1476705318
+			},
+			{
+				"comment_id": 221,
+				"body": "Please seed the Chinese forum http://127.0.0.1:43110/GFWtalk.bit",
+				"added": 1476705502
+			}
+		],
+		"9_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 222,
+				"body": "> [weakish](#comment_38_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): More docs:\n> \n> buildozer seems can automate the entire build process, i.e. downloads and sets up all the prequisites for python-for-android.\n> An alternative approach is install the Kivy launcher (apk), then load ZeroNet on SD card (may still needs some packageing but no need to compile)\n\ndid u try it?",
+				"added": 1479214636
+			}
+		],
+		"1_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": [
+			{
+				"comment_id": 223,
+				"body": "cool!!\nis Golang easier to compile for android?",
+				"added": 1480579105
+			},
+			{
+				"comment_id": 224,
+				"body": "It now lives at https://github.com/G1itchZero/zeronet-go",
+				"added": 1480934139
+			}
+		],
+		"1_1NUFQJjEvnNe2MWwvxBXwwX6UfkDJf9kJ": [
+			{
+				"comment_id": 225,
+				"body": "本页面顶部的`中文`是中文论坛的意思，请到那里",
+				"added": 1481352608
+			}
+		],
+		"1_1FNWXmY94yzHMaWnLMup3XZyuWkqnNP12U": [
+			{
+				"comment_id": 226,
+				"body": "> [waterrabbit](#comment_82_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Forums: Main · Español · Français · German · Hungarian · Italian · Polish · Português · Russian · Ukrainian · 中文\n> Didn't you see that sh*t in your own language?\n\nThey tend to ignore it since the ZeroTalk 's UI is already translated  into Chinese. It was not a problem before ZeroTalk 's UI is translated. We need to think an idea about it.",
+				"added": 1481352918
+			},
+			{
+				"comment_id": 227,
+				"body": "> [waterrabbit](#comment_87_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Simply remove the translation for the top.\n\nthen some would ask why ZeroTalk is not translated. My idea is replace `中文` to `中文论坛`，which means Chinese forum.",
+				"added": 1481356179
+			}
+		],
+		"1_1BsBRAymoTQ5qbXBLeGj3EFVkZz98kCbfh": [
+			{
+				"comment_id": 228,
+				"body": "no https?",
+				"added": 1481440195
+			}
+		],
+		"3_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": [
+			{
+				"comment_id": 229,
+				"body": "> [g1tich](#comment_9_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): Main problem of zeronet - lack of documentation.\n> siteSign not working with activated multiuser plugin. When i define inner path for .exe file - its too large (so, need i sign optional files?), when i trying to sign data/data.json - its said \"no rules\". Very informative.\n\nHaven't you read the official doc? https://zeronet.readthedocs.org/en/latest/\nYou should always sign whatever/content.json , not other json or exe ( other files will be signed automatically )\nYou can do it easily via the sidebar (hidden menu) 's This is my site section. ( no typing required, just mouse several clicks)",
+				"added": 1481462672
+			},
+			{
+				"comment_id": 230,
+				"body": "> [g1tich](#comment_10_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): Yes, i read it. Can you give me url for page like \"i change files, how i can check it and how troubleshoot common errors\"? =) So, i create copy of my zeronet folder, disable plugins, and \"sign and publish\" from ui. Now ZeroGo download data/data.json with content. It works?\n\n\nI can see you blog post.\nYou can see logs in ZeroNet/log folder",
+				"added": 1481463348
+			},
+			{
+				"comment_id": 231,
+				"body": "> [g1tich](#comment_11_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): Logs is great thing, when it helps. But its say nothing for my. why data.json was empty =(\n\nwhen these logs appear? command line sign or UI sign?",
+				"added": 1481463605
+			},
+			{
+				"comment_id": 232,
+				"body": "> [bot](#comment_132_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Yes, blog content working fine.\n> Again, thanks for the fine work you're doing! Will try to help any way i can. (still learning Go ;)\n\ncan you download the zeronet.exe from his blog?\nI can not.",
+				"added": 1481463659
+			},
+			{
+				"comment_id": 233,
+				"body": "> [g1tich](#comment_12_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): cmd. Ui did it successfully, i think. But only after disabling multiuser plugin.\n\nof course you should disable multiuser plugin before UI sign since multiuser plugin is designed for open public proxy.\nthe right command is ( if you read the doc and nofish's ZeroBlog you'll know ):\n`python.exe zeronet.py siteSign site_address content.json --publish`\n*You should always sign whatever/content.json , not other json or exe ( other files will be signed automatically )*",
+				"added": 1481464110
+			},
+			{
+				"comment_id": 234,
+				"body": "> [g1tich](#comment_13_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): Maybe you can improve this page: http://zeronet.readthedocs.io/en/latest/using_zeronet/create_new_site/?highlight=siteSign ?\n\nLet me see the link.\nBy the way, I can download the zeronet.exe from your blog now.\na question: why the zeronet.exe is so big? I used to think Go binary is small.",
+				"added": 1481464918
+			},
+			{
+				"comment_id": 235,
+				"body": "> [g1tich](#comment_15_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): Nice, now i cant sign my own site, due to invalid private key=/ I used multiuser plugin, because i have only master seed of g1itch (nice, i found typo in my nickname)  account and cant find place where u can save it.Write client easier then use it=)\n\nyou can also easily sign data/users/content.json after u change it (e.g. boost blog's comment limit for commenters ) via UI, just choose `data/users/content.json` instead of `content.json` in the hidden menu.",
+				"added": 1481468165
+			},
+			{
+				"comment_id": 236,
+				"body": "> [g1tich](#comment_16_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): Yeah, i found it and it works, but only from ui. I hate working on windows, and its cmd hates me. Will try make it right tomorrow from work.\n\nif u want to sign data/users/content.json in command line, u should do an inner_path sign :\n`python.exe zeronet.py siteSign site_address --inner_path data/users/content.json --publish`",
+				"added": 1481468861
+			},
+			{
+				"comment_id": 237,
+				"body": "> [g1tich](#comment_13_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): Maybe you can improve this page: http://zeronet.readthedocs.io/en/latest/using_zeronet/create_new_site/?highlight=siteSign ?\n\nI review the doc and find page http://zeronet.readthedocs.io/en/latest/site_development/getting_started/ has 2 links which tell u the right way:\nhttp://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:43:ZeroNet+site+development+tutorial+1\nhttp://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:46:ZeroNet+site+development+tutorial+2\nAnother useful post is:\nhttp://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:3:How+to+have+a+blog+like+this#alternative-manual-method-",
+				"added": 1481469871
+			},
+			{
+				"comment_id": 238,
+				"body": "> [g1tich](#comment_16_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): Yeah, i found it and it works, but only from ui. I hate working on windows, and its cmd hates me. Will try make it right tomorrow from work.\n\nseems that u didn't pack zeronet.exe well , it crashes, @lmath reported",
+				"added": 1481470033
+			},
+			{
+				"comment_id": 239,
+				"body": "> [g1tich](#comment_17_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): Something unexpected in tracker response. Trying to reproduce...\n\nwhy the log says `averr_000`? is it your name? why the log shows that name?",
+				"added": 1481470875
+			},
+			{
+				"comment_id": 240,
+				"body": "> [g1tich](#comment_18_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): G1itch - is a fake nickname, yes, but \"averr_000\" - its name which  windows 10 generate for my user folder. I dont know how windows choose it.\n\nbut why the exact path including your system name appears in the log? is it normal? did you pack it well?",
+				"added": 1481471325
+			},
+			{
+				"comment_id": 242,
+				"body": "> [g1tich](#comment_19_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): Update binary in blog post with possibly fixed crash\n> Now i upload packed version, but im not sure that i used all available keys for cutting out debug info\n\nTHX！",
+				"added": 1481471630
+			},
+			{
+				"comment_id": 243,
+				"body": "> [g1tich](#comment_20_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): Linux version uploaded. Its stripped and packed, so its ~2.5mb.\n\nnot found.  the *right* link is http://127.0.0.1:43110/g1itch.bit/ZeroGo-lin-0.0.1.run",
+				"added": 1481556220
+			},
+			{
+				"comment_id": 245,
+				"body": "> [g1tich](#comment_21_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ): thx!!\n\nbut the exe is gone, why?",
+				"added": 1481557678
+			}
+		],
+		"1_1FHN4oukAG7zFUpiC9L2iz7QpQVTuT3xkz": [
+			{
+				"comment_id": 241,
+				"body": "> [nekocross](#comment_1_1FHN4oukAG7zFUpiC9L2iz7QpQVTuT3xkz): ![aaa](http://127.0.0.1:43110/nekox.bit/data/users/1FHN4oukAG7zFUpiC9L2iz7QpQVTuT3xkz/e3a9632043c7691620d28cdf7d8917ae-thumb.jpg)\n\n默默地来顶一下，太无奈了",
+				"added": 1481471447
+			},
+			{
+				"comment_id": 244,
+				"body": "> [lmath](#comment_5_1958F7oCppj78MP966AfojMQwHg2WUupzq): 那你说说怎么翻译呗！这个翻译是 @p2p 建议的。（实力甩锅）\n\n本来`main`也就是主论坛的意思。只是顶部的那个布局容易让人以为是语言切换选项",
+				"added": 1481556309
+			}
+		],
+		"1_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": [
+			{
+				"comment_id": 246,
+				"body": "> [sthetz](#comment_24_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9): Unfortunately this is not possible at the moment. Certificate provider private key is exposed in the client-side code (to generate anonymous certificates) — so even if you manage to implement a p2p captcha mechanism, an attacker will be able to just use the private key to generate as many identities as he wants without solving any captcha.\n> The only working solution against spam is just deleting it.\n\nbut in Freenet there is Web of Trust including a p2p captcha mechanism to avoid spam, I don't know technical detail of it though. https://wiki.freenetproject.org/Web_of_Trust",
+				"added": 1482759144
+			}
+		],
+		"10_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 247,
+				"body": "> [mkg20001](#comment_5_177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD): Maybe give us the GitHub url for the souce code?\n\n Tutorial of packing APK is on the way.\nWith latest official ZeroNet source code, no patch is needed.",
+				"added": 1483789805
+			},
+			{
+				"comment_id": 248,
+				"body": "> [mkg20001](#comment_5_177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD): Maybe give us the GitHub url for the souce code?\n\nTutorial of packing APK is out, see: http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:11_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/Tutorial+of+packing+APK+for+ZeroNet",
+				"added": 1483796299
+			},
+			{
+				"comment_id": 249,
+				"body": "> [k9](#comment_6_1AWSA7oG2qrhWYgeSiJtDHCwc2KvyR7ijs): you expect people to use your app without having any way to verify its legit? post github??\n\nplease write the post carefully.\nThis is only a test version, just showing the possibility of running ZeroNet on android, and inspiring further developing.\nI wrote a patch to solve the issue on android. The link of the patch's code  is listed above.\nTutorial of packing APK is out, whose link is also listed above.\nWith latest official ZeroNet source code, no patch is needed, so you can always pack APK by yourself.",
+				"added": 1483846894
+			},
+			{
+				"comment_id": 275,
+				"body": "Update: The newest APK is developed here: https://github.com/HelloZeroNet/ZeroNet-kivy and compiled/packaged automatically by Travis CI: https://github.com/HelloZeroNet/ZeroNet-kivy/releases",
+				"added": 1488955067
+			}
+		],
+		"12_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 250,
+				"body": "> [nofish](#comment_854_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The problem is re-connecting \n\n\nOK，don't forget the most urgent problem, thx!",
+				"added": 1484244314
+			},
+			{
+				"comment_id": 251,
+				"body": "> [movax](#comment_5_1PhkHDH3y7cxsACB2fndii39M5VrCFFeiZ): How about we ignore outdated Android versions. \n\nZeroNet is running on Android 4.x very well, only 5.x affected.\nSo no reason to drop a OS suupport if already run on it out of box. In fact, all the Android eco-system is insecure, no matter how new version you have. Not only android but also iOS, you can not rely on smart phones if you want very high level security.\nYes, many 5.x users reported it. I also tested it in Google official emulator with official images. It is a known bug of 5.x, which is wrong write permission management.",
+				"added": 1484309079
+			},
+			{
+				"comment_id": 252,
+				"body": "> [nofish](#comment_855_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Can you please paste the exact error?\n\nadb logcat\n```\n./adb logcat | grep zn\nI/ActivityManager(  340): Start proc android.test.myapp17:service_zn for service android.test.myapp17/.ServiceZn: pid=1562 uid=10054 gids={50054, 9997, 1028, 1015, 3003} abi=armeabi-v7a\nI/zn      ( 1562): testing python print redirection\nI/zn      ( 1562): ('Android path', ['/data/data/android.test.myapp17/files/app/lib/python27.zip', '/data/data/android.test.myapp17/files/app/lib/python2.7/', '/data/data/android.test.myapp17/files/app/lib/python2.7/lib-dynload/', '/data/data/android.test.myapp17/files/app/lib/python2.7/site-packages/', '/data/data/android.test.myapp17/files/app'])\nI/zn      ( 1562): ('os.environ is', {'ANDROID_APP_PATH': '/data/data/android.test.myapp17/files/app', 'EXTERNAL_STORAGE': '/storage/sdcard', 'LOOP_MOUNTPOINT': '/mnt/obb', 'SYSTEMSERVERCLASSPATH': '/system/framework/services.jar:/system/framework/ethernet-service.jar:/system/framework/wifi-service.jar', 'PYTHON_SERVICE_ARGUMENT': '', 'ANDROID_SOCKET_zygote': '9', 'BOOTCLASSPATH': '/system/framework/core-libart.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/mms-common.jar:/system/framework/android.policy.jar:/system/framework/apache-xml.jar', 'ANDROID_PROPERTY_WORKSPACE': '8,0', 'PATH': '/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin', 'ANDROID_STORAGE': '/storage', 'ANDROID_BOOTLOGO': '1', 'ANDROID_ASSETS': '/system/app', 'PYTHONOPTIMIZE': '2', 'ANDROID_PRIVATE': '/data/data/android.test.myapp17/files', 'ANDROID_ENTRYPOINT': 'serviceloader.py', 'PYTHONPATH': '/data/data/android.test.myapp17/files/app:/data/data/android.test.myapp17/files/app/lib', 'ANDROID_DATA': '/data', 'PYTHON_NAME': 'zn', 'LD_PRELOAD': 'libsigchain.so', 'ANDROID_ROOT': '/system', 'PYTHONHOME': '/data/data/android.test.myapp17/files/app', 'ASEC_MOUNTPOINT': '/mnt/asec', 'ANDROID_ARGUMENT': '/data/data/android.test.myapp17/files/app'})\nI/zn      ( 1562): ('Android kivy bootstrap done. __name__ is', '__main__')\nI/zn      ( 1562): ['/data/data/android.test.myapp17/files/app/lib/python2.7/site-packages', '/data/data/android.test.myapp17/files/app/lib/site-python']\nI/zn      ( 1562): /storage/sdcard/Android/data/android.test.myapp17/files/zero\nI/zn      ( 1562): - Starting ZeroNet...\nI/zn      ( 1562): Traceback (most recent call last):\nI/zn      ( 1562):   File \"/home/ubuntu16/ZeroNet/.buildozer/android/app/zero/zeronet.py\", line 17, in main\nI/zn      ( 1562):   File \"/home/ubuntu16/ZeroNet/.buildozer/android/app/zero/src/main.py\", line 37, in <module>\nI/zn      ( 1562): OSError: [Errno 1] Operation not permitted: 'data/sites.json'\nI/ActivityManager(  340): Process android.test.myapp17:service_zn (pid 1562) has died\n\n```\n( Please don't be surprised to the `ubuntu16`. It was my build environment. The APK was built by buildozer, with all py converted to pyo files which contain the building environment info. )\n\nerror.log:\n```\nTraceback (most recent call last):\n  File \"/home/ubuntu16/ZeroNet/.buildozer/android/app/zero/zeronet.py\", line 17, in main\n  File \"/home/ubuntu16/ZeroNet/.buildozer/android/app/zero/src/main.py\", line 37, in <module>\nOSError: [Errno 1] Operation not permitted: 'data/sites.json'\n```\nBut the 'data/sites.json' is successfully created (the content of sites.json is `{}` ).  Next time start the APK, it will say Operation not permitted: 'data/users.json' ( sites,json is already there and pass )",
+				"added": 1484309408
+			},
+			{
+				"comment_id": 253,
+				"body": "> [clebermatheus](#comment_2_1MWzMAaNpFjHAPStAkEnxgWM2s9gAzmwkF): The app is opening the file, and the same is already open and Android 5.0 is not recognizing.\n> main.py: line 37\n\nTHX！ with your guide, I think I succeed in finding the exact cause of it.\n```\nif not os.path.isfile(\"%s/sites.json\" % config.data_dir):\n    open(\"%s/sites.json\" % config.data_dir, \"w\").write(\"{}\")\n    os.chmod(\"%s/sites.json\" % config.data_dir, stat.S_IRUSR | stat.S_IWUSR)\n```\nhttps://github.com/HelloZeroNet/ZeroNet/blob/master/src/main.py#L37\nWhen I comment this `os.chmod(\"%s/sites.json\" % config.data_dir, stat.S_IRUSR | stat.S_IWUSR)` , the error is gone!\nOf cource, I also comment these 2 lines, zeronet is running well on Android 5.0!\nhttps://github.com/HelloZeroNet/ZeroNet/blob/master/src/main.py#L40\nhttps://github.com/HelloZeroNet/ZeroNet/blob/master/src/util/helper.py#L26\nI don't know whether  os.chmod is necessary though.",
+				"added": 1484457340
+			},
+			{
+				"comment_id": 255,
+				"body": "> [nofish](#comment_858_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Thanks for the reveal, I have added modifications that tries to modify the data and the log directory permissions instead of files: https://github.com/HelloZeroNet/ZeroNet/commit/8c9457d63617f210448ffd3a824a70b28be73bef (and ignores the error if it failed)\n\nTHX！The error is gone. Next issue to deal with may be the .pem files generating issue on Android.",
+				"added": 1484500103
+			}
+		],
+		"13_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 254,
+				"body": "> [usdyi](#comment_7_16osdFmHgwgy9sgBws1po2zP5PxwMALvZa): Very good !\n\nTHX！ released!",
+				"added": 1484499699
+			},
+			{
+				"comment_id": 262,
+				"body": "New version 0.2.2 of ZeroNet Android APK released!",
+				"added": 1485882688
+			},
+			{
+				"comment_id": 263,
+				"body": "New version 0.2.3 of ZeroNet Android APK released! Quick fix a 0.2.2 bug.",
+				"added": 1485956245
+			},
+			{
+				"comment_id": 264,
+				"body": "> [jjg](#comment_6_1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC): What's the best way to update?\n\nAll news of the APK will be released here, including English version: https://github.com/HelloZeroNet/ZeroNet-kivy",
+				"added": 1486350618
+			},
+			{
+				"comment_id": 286,
+				"body": "> [iphizic](#comment_1_14HmFoEtmv6iw4TiaASeaFaDLwmquUtg6j): To keep your identity safe don't forget to backup your data/users.json file! How I do it on no root android?\n\nExternal Storage/Android/data/package_name(e.g. net.mkg20001.zeronet)/files/zero/data",
+				"added": 1490231583
+			}
+		],
+		"12_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 256,
+				"body": "interesting！\nProbably we can use pure JS running ZeroNet in browser over WebRTC, without installing anything.",
+				"added": 1484753960
+			},
+			{
+				"comment_id": 290,
+				"body": "> [bot](#comment_171_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): \n> Can't say. I lost my Ubuntu laptop in fire just over a year ago.\n\nOh, sad story. sorry to hear that.\nAny way, you can use Travis CI to build it just like we do for ZeroNet-kivy https://github.com/HelloZeroNet/ZeroNet-kivy/commit/1b4409bb609ff64bbd005d43052c8a77afea684a",
+				"added": 1490446285
+			}
+		],
+		"14_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 257,
+				"body": "> [noflsh](#comment_3_1Eb5t7dUbRC2STfwf9iPeEYkPmX2tmLUds): @p2p，Be out 是出局的意思吗？\n\nBe out 的意思太多了，我见过类似我这样的用法，比如\nTails - Tails 2.7.1 is out\nhttps://tails.boum.org/news/version_2.7.1/index.en.html",
+				"added": 1485239667
+			},
+			{
+				"comment_id": 258,
+				"body": "> [noflsh](#comment_3_1Eb5t7dUbRC2STfwf9iPeEYkPmX2tmLUds): @p2p，Be out 是出局的意思吗？\n\n你的帐号名非常具有迷惑性",
+				"added": 1485239792
+			},
+			{
+				"comment_id": 265,
+				"body": "sorry for spam",
+				"added": 1487076087
+			}
+		],
+		"2_1CrAd3DZyZQjHfGcPeu1WdZ1LjRA8eD65b": [
+			{
+				"comment_id": 259,
+				"body": "你肯定是自己动过签名的，你看别人正常博客的这个文件http://127.0.0.1:53110/1A2zwx1maY1fZv18vaEFFaCuiS88xqWvzV/data/users/content.json\n你需要手动改成正常的格式，然后根据中文论坛置顶贴建站部分的方法，对data/users/content.json签名\n另外这里是英文论坛，请到中文论坛，页面顶部有链接",
+				"added": 1485449891
+			}
+		],
+		"5_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": [
+			{
+				"comment_id": 266,
+				"body": "> [nofish](#comment_873_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): ZeroNet is created for real-time updated sites and communication. To share and download the latest movies you can use the Torrent network. It's doing really fine job there with millions of users and well optimized clients.\n> I'm not holding back the technology, but I don't think it's important, since there is a network that doing that already pretty well.\n\nTorrent network is OK for download, but it is not good enough for online watching. I think we need a user-friendly youtube-like zite, on which a user just need a single click to play the video online, without leaving the zite to a Torrent downloader and wait the download completion. Probably we don't need to re-create a Torrent network, what we need to do is-- integrate a Torrent client in ZeroNet and make it work as a video streaming server.\n\nSomeone did this https://github.com/zeronetscript/universal_p2p , but unfortunately the dev is inactive.",
+				"added": 1487335833
+			},
+			{
+				"comment_id": 267,
+				"body": "> [nofish](#comment_874_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): \n> I'm not sure if it's a good idea, since it does not support Tor network or ZeroNet configurations, so it could leak your identity. \n\nThen we need to disable the torrent plugin/feature in Tor always mode. In other mode, we don't worry about anonymity.  And I2P can keep anonymity when torrenting, ZeroNet should supports I2P.\n\n>Using a browser extension (or a separate browser that also support Torrent protocol) sounds like a better idea.\n\nAsking users to install another thing is not a good idea.\n\n> You won't be able to play most of the videos in the browser, because of various video/audio codecs. If you want to create a youtube alternative, that can play videos in browser, then you need to re-encode videos before upload which is really hard to do in browser.\n\nNowadays more and more videos are already encoded browser-friendly. And we can re-encode using python with C library, just like what ZeroNet does when encrypting  and decrypting messages in ZeroMail, where browser does not do the hardwork at all.",
+				"added": 1487340386
+			},
+			{
+				"comment_id": 268,
+				"body": "> [nofish](#comment_874_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): \n\nmy quick search results about torrent streaming clients written in Python ( maybe easy integrated into ZeroNet) :\n\nhttps://github.com/adw0rd/django-torrent-stream\nhttps://github.com/touchandgo-devs/touchandgo\nhttps://github.com/izderadicka/btclient",
+				"added": 1487342170
+			},
+			{
+				"comment_id": 269,
+				"body": "> [twiggy](#comment_36_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): Can something like this be done on ZeroNet? http://www.ocsmag.com/2016/02/13/mytube-build-your-own-youtube-like-platform-in-45-minutes-or-less/\n\nMediaDrop is Client/Server model, and can not work on windows server, so it's not easy to port to zeronet. Anyway, since it's written in Python, ZeroNet can learn something from it.",
+				"added": 1487386013
+			}
+		],
+		"1_1D7Qo7R3CY2oyYbcxDHzKMNbqCiD98EfTD": [
+			{
+				"comment_id": 270,
+				"body": "敢不敢点击页面顶部的`中文论坛`？",
+				"added": 1487752364
+			}
+		],
+		"1_1958F7oCppj78MP966AfojMQwHg2WUupzq": [
+			{
+				"comment_id": 273,
+				"body": "> [sirenyc](#comment_145_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): \n\nAmethystHub is\nhttp://127.0.0.1:43110/1KNmG5rJUGhgUJGFbLkv2B5isaqu9PrZqi/",
+				"added": 1488366533
+			}
+		],
+		"11_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 274,
+				"body": "Update: this tutorial may be out of date. The newest APK is developed here: https://github.com/HelloZeroNet/ZeroNet-kivy and compiled/packaged automatically by Travis CI: https://github.com/HelloZeroNet/ZeroNet-kivy/releases",
+				"added": 1488955014
+			}
+		],
+		"28_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv": [
+			{
+				"comment_id": 276,
+				"body": "> [bot](#comment_149_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): \n\nTheir source code:\nhttps://github.com/zer0net\n@ppload3 is one of the devs",
+				"added": 1489238520
+			},
+			{
+				"comment_id": 278,
+				"body": "> [bot](#comment_151_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Thanks! Is it a group i can join? (username: kustomzone)\n\nI don't know. You can ZeroMail to ppload3 directly, or comment/commit to the repo",
+				"added": 1489299097
+			}
+		],
+		"1_1MwJSNBC1savftEvXQyoHcVLDgThtAPr6T": [
+			{
+				"comment_id": 277,
+				"body": "I don't think a project can work out all of the bugs, even though by commercial giants like Apple, Google, MS....",
+				"added": 1489298528
+			}
+		],
+		"15_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 279,
+				"body": "> [12hlearn](#comment_9_1CwbqLCD6TdkinNNNb4GneZxbsoJ6Mw6oE): I think it is a good idear, but will be diffcult to achieve.\n\nI don't think it difficult, because we mainly only need to implement the reserve proxy.\nBTW: the Q&A is updated",
+				"added": 1489659513
+			},
+			{
+				"comment_id": 280,
+				"body": "> [bot](#comment_158_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): My study has mostly been in the node.js direction.\n\nyeah, there are also C/S centralized web framework/Apps based on node.js\nIMO the problem of node.js and Electron is the bundle package for user download is much bigger than python.\nBut it would be nice if there are more kinds of clients for user's choice.\nPure JS version of Zeronet sounds great because it would be possible to run in browser over webRTC without installing anything.\nMy python is even weaker, that's why I'd like to share my idea instead of implementing it.",
+				"added": 1489666442
+			},
+			{
+				"comment_id": 281,
+				"body": "> [nofish](#comment_897_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The biggest problem is security: Python does not designed to run untrusted code.\n\nI mentioned in Q&A:\nSecurity?\nAll the python super-plugin including the django and the App on it, should be open-sourced, patched and updated officially. A GUI for user to enable or disable them. Impossible for zite owners to do evil things.\n\nAnd when we google `Python untrusted code` or `Python sandbox` or `Python Restricted` we can get lots of results. It would be nice if we can sandbox super-plugins in case of some security bugs in them.",
+				"added": 1489710601
+			},
+			{
+				"comment_id": 282,
+				"body": "> [arsenelupin](#comment_10_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ): I'm not sure if the effort is worth. \n\nI don't like old-style php forums either, but there are discourse-like php alternative http://vanillaforums.org/ and http://flarum.org/ . If we can find way to bundle all dependencies as we do for python ZeroNet, we can also port php Apps even Ruby on Rails Apps to ZeroNet. I don't think we can easily build a ZeroNet-native discourse from scratch because there are tons of features and tweaks to do. ( I just use discourse as an example)\nAnother thing worthy considering: what if import _existing_ discourse forum to ZeroNet? Extremely difficult if no porting because of the huge difference of structure. The use case: Alice has no money to pay the hosting fee for her _existing_ discourse forum, Bob suffers DDOS to his _existing_ discourse forum, both of them want to import their own sites to ZeroNet.",
+				"added": 1489717082
+			},
+			{
+				"comment_id": 283,
+				"body": "> [12hlearn](#comment_10_1CwbqLCD6TdkinNNNb4GneZxbsoJ6Mw6oE): it's diffcult to do...that discourse Hardware Requirements :\n\nI just use discourse as an example to talk about my idea. Don't forget we can have semi-thin client and thin client as I mentioned in Q&A. And we also have discourse-like php alternative http://vanillaforums.org/ and http://flarum.org/ to choose. We even have https://github.com/codecollision/django-discourse of python, but sadly on longer actively developed.",
+				"added": 1489718029
+			},
+			{
+				"comment_id": 284,
+				"body": "> [12hlearn](#comment_11_1CwbqLCD6TdkinNNNb4GneZxbsoJ6Mw6oE): it's a hard work...\n\nyou once said porting ZeroNet to Android is a  hard work, but in fact we have done it afterwards. Without doing, everything is a hard work.",
+				"added": 1489718884
+			},
+			{
+				"comment_id": 288,
+				"body": "an interesting project: https://getpop.org\nthe author of PoP talked about ZeroNet here: https://github.com/leoloso/PoP/issues/9",
+				"added": 1490418672
+			}
+		],
+		"5_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": [
+			{
+				"comment_id": 285,
+				"body": "This is an bug of upstream -- python-for-android\n@lmath is expected to file an issue to the python-for-android repo",
+				"added": 1490021297
+			}
+		],
+		"2_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": [
+			{
+				"comment_id": 287,
+				"body": "> [nofish](#comment_900_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Unfortunately it's not possible without it, but if you find a good one that actually works fine and maintained, then I will try to make it work with ZeroNet\n\ncan this work with ZeroNet via ZeroFrame API commands: https://getpop.org\nthe author of PoP talked about ZeroNet here: https://github.com/leoloso/PoP/issues/9",
+				"added": 1490418589
+			},
+			{
+				"comment_id": 289,
+				"body": "> [bot](#comment_173_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): \n> http://brian.io/lawnchair/\n\nsomething wrong with my tor browser? the homepage of lawnchair looks so bad. We need a CMS for better user experience, but I don't see lawnchair has any user experience if my tor browser renders it well.",
+				"added": 1490442807
+			},
+			{
+				"comment_id": 296,
+				"body": "> [darvy](#comment_25_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk): Well I looked my butt off and I can't find any that are pure javascript so I guess I wont be using ZeroBlog any time soon. Maybe you can figure something out later to make it easy to add headers and change the background of ZeroBlog, maybe drag and drop features like this. http://imgur.com/a/EjiT5 I seen some videos about being able to do that with HTML 5 so maybe you can do it with ZeroBlog.\n\nno need to be pure javascript IMO. nofish said it is OK for Yeti CMS to port to ZeroNet if Yeti CMS is well maintained. Yeti CMS has font-end (javascript) and back-end (php)  relatively separated, which is good for porting. So anything similar to this is OK, but it is still not easy to find one.",
+				"added": 1491099282
+			},
+			{
+				"comment_id": 299,
+				"body": "> [darvy](#comment_36_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk): Not really\n\n> [bot](#comment_192_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): I wouldn't give up. I've followed all your links and downloaded many more to find the shortest possible solution. People (one more notable for his 'offer' of a large reward) have asked for a various different things: Moderator functions, layout dragging, customizability, as well as member profiles. (we don't even have sigs yet! ;) [...]\n\nGood news:\nnofish Stared this Free and Open source Web Builder Framework. Next generation tool for building templates without coding https://github.com/artf/grapesjs\nand he commented [here](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/1492523540):\n>It could work, parts that needs to be modified:\n>- Saving/loading html pages\n>- Image uploading",
+				"added": 1492562393
+			},
+			{
+				"comment_id": 302,
+				"body": "> [twiggydew](#comment_6_1MwJSNBC1savftEvXQyoHcVLDgThtAPr6T): Give it up\n\nWe do have user experience improvement:\nhttp://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:100:Easy+post+formatting\nhttp://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:101:Image+uploading+and+zooming\nhttps://twitter.com/HelloZeroNet/status/815662043017703428\nBut we have more important thing to do in ZeroNet core source code to improve usability and stability(e.g. many zites are exceeding the 10MB default limit and suffering long initial download time, json and db are still sometimes corrupted). Without that, improvement of front-end is in vain. Coders have limited time and give different priority to to-do things. So be patient!",
+				"added": 1493613692
+			}
+		],
+		"2_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": [
+			{
+				"comment_id": 291,
+				"body": "just post here--ZeroTalk",
+				"added": 1490505823
+			},
+			{
+				"comment_id": 292,
+				"body": "> [bot](#comment_180_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): Devs can't work on restricted KB so ZT is not suited.\n\nThen clone a ZT? I don't really like a chatroom because chatroom is not topic/thread organised and not friendly for searching info.\n\n>For testing you'll have to right-click reload frame then reload page to get the new all.js version loaded.\n\nin chrome's F12, the Network tab has `Disable cache`( Disable cache while Devtool is open) \nin FF's F12, the Toolbox Option's Advacned settings also has similar option.",
+				"added": 1490584465
+			}
+		],
+		"3_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": [
+			{
+				"comment_id": 293,
+				"body": "why you don't ever see 中文论坛 in the top of this page?",
+				"added": 1490596343
+			}
+		],
+		"1_1FxpcMsoTKTeUoNDRJKzqyLAwXuwVg3zgX": [
+			{
+				"comment_id": 294,
+				"body": "before entering ZeroTalk probably we need an auto-language-detect popup window which tells users there is a his/her own language forum. e.g. in Chinese it says \"There is a Chinese forum, do you want to go there?\" , two button say \"Yes, take me there.\" \"No, I just want to go to English forum.\" and a checkbox says \"Don't show the popup window again.\" Save the checkbox value in users.json.",
+				"added": 1490597427
+			}
+		],
+		"5_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": [
+			{
+				"comment_id": 295,
+				"body": "data/content.db has peers' info stored. If you also remove it, you'll know.",
+				"added": 1490966705
+			}
+		],
+		"1_1HxiFjyEUfLeqvXza7TqV1h4mpo167JnrL": [
+			{
+				"comment_id": 297,
+				"body": "http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:proxies",
+				"added": 1492048147
+			},
+			{
+				"comment_id": 298,
+				"body": "https://proxy.th3nd.com series is the fastest",
+				"added": 1492048245
+			}
+		],
+		"1_1DFDjUGJdSp1kMuFq1AtNS9ZWmkVtbp947": [
+			{
+				"comment_id": 300,
+				"body": "> [mario](#comment_4_1DFDjUGJdSp1kMuFq1AtNS9ZWmkVtbp947): That's what I did... the login interface can detect my correct ZeroID name but then ZeroMe asks me to create an account. I had an account before...\n\nnormally this site http://127.0.0.1:43110/1UDbADib99KE9d3qZ87NqJF2QLTHmMkoV/ will be added automatically when you visit ZeroMe. You have to wait for it synced patiently. And if u recreate an account before it synced, it would be a disaster -- your info of old account will be overwritten. I always think there should be a better way for ZeroNet to deal with this issue, and inform users well in the UI.",
+				"added": 1493340508
+			}
+		],
+		"4_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h": [
+			{
+				"comment_id": 301,
+				"body": "THX!\nWhat about make it as a zeronet plugin with html2text and Mastodon.py included?",
+				"added": 1493428319
+			}
+		],
+		"3_17vKbxL13KnzGATstqawXSG2oiQygmdkcX": [
+			{
+				"comment_id": 303,
+				"body": "> [zeronet0](#comment_2_17vKbxL13KnzGATstqawXSG2oiQygmdkcX): Here has a part of ZeroTV's backup, not all .Thanks @p2p:http://127.0.0.1:43110/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/loader/files/1BEJbnufyav7TK23ADTs2Qi2UJeKSGDzw6.tar.gz\n\nagain, I'd like to post http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:4_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/Automated+rsync+snapshot+script+to+make+it+truly+impossible+to+takedown+a+ZeroNet+site+5+14+UPDATE\nI urge people do snapshot because my node sometimes fails to snapshot the latest ( my snapshot of ZeroTV is not latest since I haven't raised the space limit of ZeroTV)",
+				"added": 1494316042
+			},
+			{
+				"comment_id": 304,
+				"body": "> [kaffie](#comment_310_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): Just need the html page+pics for all of the tv shows that weren't in the backup. Index/javascript stuff can be easily grabbed in the browser.\n\n> [rythyrix](#comment_97_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): Went by the content.json. Wasn't going recursively through the scraped html files for more links; threw that together in minute or less. Either way, were there any files you didn't have already? [...]\n\nTo avoid error when curl zites:\nhttp://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1BLueGvui1GdbtsjcKqCf4F67uKfritG49/14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx/1483356261\n\n\n\n> [rythyrix](#comment_94_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): On its way. Careful if you try it yourself; the code I posted earlier has a couple of issues due to backslashes being interpreted in the comment box\n\ntripple ` should be in a separate line\n```\ntest\ntest\n```",
+				"added": 1494503097
+			},
+			{
+				"comment_id": 305,
+				"body": "> [kaffie](#comment_313_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): I just ended up modding my grab.py python script. See here. My backup should be the latest available now.\n\nGood example to use PhantomJS!",
+				"added": 1494568977
+			}
+		]
+	},
+	"comment_vote": {
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"9_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"10_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1KLafGGRHDuijHzTX6w9KAdGiSwbBhuJar": 1,
+		"24_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"33_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1GRV5gyyU59aCz41JTsLS3pwafbGPfrNEH": 1,
+		"36_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"39_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"71_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"58_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"121_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"216_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"206_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"205_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"223_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"227_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"229_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"2_1MmPY9fniJwwhP6WsgH4jWoq5rBAVV6KWy": 1,
+		"232_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"14_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"236_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": 1,
+		"23_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"284_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"287_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"285_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_17eqyrLy9JS7zUKe6xH2yVPemhLWmZELkG": 1,
+		"325_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"331_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"34_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"8_1BDTDgpyizvUDsc1hcL1pjCvXCy4ozzSFN": 1,
+		"1_1DeDB1i9uCW1YDwhVfVhZjuEruoBWPNqx7": 1,
+		"46_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"63_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"61_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD": 1,
+		"439_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"51_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": 1,
+		"265_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"686_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"29_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"34_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": 1,
+		"801_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"180_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"901_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

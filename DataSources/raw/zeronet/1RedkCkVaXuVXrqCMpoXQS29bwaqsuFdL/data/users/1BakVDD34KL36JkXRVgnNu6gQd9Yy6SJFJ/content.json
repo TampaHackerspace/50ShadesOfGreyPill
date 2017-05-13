@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "bitmsg",
+ "cert_sign": "HB2C1AuUjeBmskNgEyMwJA6j6FM20WE4CygEjQW3onnO9YO/69qPpoNddPdRuV5oiLE0+UF/7Iix5swIFZqcQ/o=",
+ "cert_user_id": "smuntroleum@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "bfc1b0a14b079692d07f884212d38bee46d9f4251ebd6bc150c4b45a97daa589",
+   "size": 1045
+  }
+ },
+ "inner_path": "data/users/1BakVDD34KL36JkXRVgnNu6gQd9Yy6SJFJ/content.json",
+ "modified": 1475076631.259132,
+ "signs": {
+  "1BakVDD34KL36JkXRVgnNu6gQd9Yy6SJFJ": "HKFng1saTUqXgCf3dk/JbK/8rLTdcM8qXaHiMECW5Ijtmt8OHzJVuf1CTugUvbravPsKRh4dVQCasky6l9xMS5o="
+ }
+}

@@ -1,0 +1,35 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 3,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Hav0k",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1485672179,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {
+		"19UnnS8HRggr6VTJCR7ArqKUF6MM1mmG1N_1485835291": 1485845727,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1485812477": 1485845933
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "slack... why not at least run a mattermost server, keep your own chat data in-house?",
+			"post_uri": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1485723312",
+			"date_added": 1485846147
+		},
+		{
+			"comment_id": 2,
+			"body": ".... O_o",
+			"post_uri": "15M1BtDV7tZXysaf1xSD8aL83vDagRiQgj_1486226449",
+			"date_added": 1486315005
+		}
+	],
+	"follow": []
+}

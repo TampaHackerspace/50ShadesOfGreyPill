@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G3EvjdIEdIuak8Z0a6feHc/kSqCFJ4WVtabNDbW54h5+6B1T2yY15yvX/249HTNdfOpwJisfeHWZQimVoKdPMR0=",
+ "cert_user_id": "endorango@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "75f62dc32cc6ef61975deaa1a5eb22385fb74e122d696ca868cfc44db0146cf8",
+   "size": 340
+  }
+ },
+ "inner_path": "data/users/1EkTdniAt5ubJ6c5cdFkkKLSYgag7VA33g/content.json",
+ "modified": 1483732646.627,
+ "signs": {
+  "1EkTdniAt5ubJ6c5cdFkkKLSYgag7VA33g": "G9sdppDsaVWsmmybCTzWm2BhYrHmUa9UZbpKwAwuFGyLxO0BDS9sJeXYtedc7y5l0X7eYyeN4uM+rzZXwDXEvo0="
+ }
+}

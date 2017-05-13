@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "GybNaax0Te+l5Evx9WVcRECpe/oprGNJDjhk3TkI8cmGSZefi8+a+hOpElQl3wfsCRtmKj/m7tTf800n/OoUJJM=",
+ "cert_user_id": "braquila@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "374af63a9791740a8496b39717f40a9424920490cdd3dce279066081a73c6dd0",
+   "size": 6100
+  }
+ },
+ "inner_path": "data/users/1PADhbAdo94jAP5HdLT1BSL6qbnNXp7nkt/content.json",
+ "modified": 1484072177,
+ "signs": {
+  "1PADhbAdo94jAP5HdLT1BSL6qbnNXp7nkt": "G50aqKbQ2p64mr5geVf3bKbLaeh+JOkFxbK3WBTYu43VWYRFi5GaQesrLuyoiqeolGGKE1sqAEqmIsPVVKgbBhE="
+ }
+}

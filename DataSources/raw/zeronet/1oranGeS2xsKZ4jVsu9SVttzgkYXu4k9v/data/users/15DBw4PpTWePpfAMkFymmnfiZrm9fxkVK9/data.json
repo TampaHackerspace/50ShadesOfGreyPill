@@ -1,0 +1,32 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Giorgioantani",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [],
+	"post_like": {
+		"133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1": 1480349150,
+		"1G4c8KQX9GczjTKPjHQrEqcc2LhhVTGtc5_1480349099": 1480349152,
+		"1A6ogwcCQzS3L3y1uxkM4FdBT4znZrhkjx_1": 1480349227
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "hi there!",
+			"post_uri": "133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ_1",
+			"date_added": 1480349140
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1G4c8KQX9GczjTKPjHQrEqcc2LhhVTGtc5",
+			"user_name": "Developer",
+			"date_added": 1480349284
+		}
+	]
+}

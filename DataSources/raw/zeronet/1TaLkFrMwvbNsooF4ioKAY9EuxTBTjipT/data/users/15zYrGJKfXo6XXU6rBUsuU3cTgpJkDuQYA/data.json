@@ -1,0 +1,77 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "InternetOfLeaks",
+			"body": "Internet of Leaks project started: http://127.0.0.1:43110/1PYydUXYkUMNyrUNxr6SzJG68z8qkCbc2v/",
+			"added": 1470106639
+		},
+		{
+			"topic_id": 2,
+			"title": "Request for new leaks",
+			"body": "I am looking for new leaks. I would be happy to add them to my repository. Please contact me via ZeroMail.\nhttp://127.0.0.1:43110/1PYydUXYkUMNyrUNxr6SzJG68z8qkCbc2v/",
+			"added": 1488039008
+		}
+	],
+	"topic_vote": {
+		"1_15zYrGJKfXo6XXU6rBUsuU3cTgpJkDuQYA": 1
+	},
+	"next_comment_id": 10,
+	"comment": {
+		"1_15zYrGJKfXo6XXU6rBUsuU3cTgpJkDuQYA": [
+			{
+				"comment_id": 1,
+				"body": "I see on average 35+ users sharing it so I am confident to say your feedback is welcome, just let me know what needs to be improved.",
+				"added": 1470496843
+			},
+			{
+				"comment_id": 2,
+				"body": "Thanks for the feedback I will improve the navigation issue with Firefox. ETA is within 14 days.",
+				"added": 1470593775
+			},
+			{
+				"comment_id": 5,
+				"body": "About 20 new leaks.\nWebsite rebuilt for minimalist approach.",
+				"added": 1473513680
+			},
+			{
+				"comment_id": 6,
+				"body": "Wolrd.Anti-Doping.Agency leak added.",
+				"added": 1474190063
+			},
+			{
+				"comment_id": 7,
+				"body": "Dear sifr,\nRight mouse click -> Save Link As...\nThis should allow you to download all the leaks.\nIn case for some reason the html would be corrupt I will release within the next five minutes a new version.\nKind regards,\nDani",
+				"added": 1474302427
+			},
+			{
+				"comment_id": 8,
+				"body": "> [phr34kz](#comment_16_1NGTMtN8816KeCtNqy6W4fCQduU4P8iwty): Take a look at google search ---> dump site:\"thecthulhu.com\"\n> https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=dump+site:%22thecthulhu.com%22&tbs=qdr:y\n\nIf all leaks would be available by cthulhu I would simply link it. But neither are all leaks available which are on my page nor via ZeroNet which offers are more easy to use built-in TOR functionality.\nHowever I do not want to make the impression I performed any hack myself. This is the reason why when possible it is mentioned within the files itself.",
+				"added": 1474660243
+			}
+		],
+		"4_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 3,
+				"body": "edantes is right. You would either need to be able to rate and comment links or to have some kind of moderation. But you cannot build up the hashsum of a \"magnet\" hash because you have any other kind of hash, you would need the actual file.\nIt is also with any other site or media that you are using, that you need to trust them (i.e. that they not modify all hashes). Same reason there is a very specific procedure you have to get \"Tails\" through official channels and not from anywhere else.",
+				"added": 1470594373
+			}
+		],
+		"2_13Mt8T2256Uz4GHk9B4XvKqyz37wPgA26q": [
+			{
+				"comment_id": 4,
+				"body": "No optional files are not count. My site can be taken as an example which hosts 204'814'431'037 bytes optional data. IOL: http://127.0.0.1:43110/1PYydUXYkUMNyrUNxr6SzJG68z8qkCbc2v/",
+				"added": 1470842345
+			}
+		],
+		"2_15zYrGJKfXo6XXU6rBUsuU3cTgpJkDuQYA": [
+			{
+				"comment_id": 9,
+				"body": "Pics or it didn't happen!",
+				"added": 1488056177
+			}
+		]
+	},
+	"comment_vote": {}
+}

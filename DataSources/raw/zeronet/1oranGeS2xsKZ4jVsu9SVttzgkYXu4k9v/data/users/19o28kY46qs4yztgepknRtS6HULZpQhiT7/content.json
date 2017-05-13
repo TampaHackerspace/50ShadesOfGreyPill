@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G4UfB0Ew9uRqPzXKPqJ/Jr1lhFT+wtZofLMU3/a/phDyzTKGTh65XJrn2ahVC5zlSEFRMrkTG0TGTlh421+vLkA=",
+ "cert_user_id": "captnnemo@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "ec47480458aacc754564717da623715daaecc8660d014689de2e88722b957223",
+   "size": 1956
+  },
+  "data.json": {
+   "sha512": "01b6066e218f75871d6120f545966057e2cc035bd81b94d745a69b27ca266ef6",
+   "size": 616
+  }
+ },
+ "files_optional": {
+  "1487285290.jpg": {
+   "sha512": "bca5c222e033f7fdca3054fbb4be95cd379882a0ef987cc37aefaf7166ef37da",
+   "size": 70419
+  }
+ },
+ "inner_path": "data/users/19o28kY46qs4yztgepknRtS6HULZpQhiT7/content.json",
+ "modified": 1487350261,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "19o28kY46qs4yztgepknRtS6HULZpQhiT7": "HBWS4oufqLhuaRcC26QJXJ6PqxH0EhZfYZy9urWdcowyRB9v8Xm1CqU08L3jMpVQ0yZROw4onKI10bsSDTTaqj8="
+ }
+}

@@ -1,0 +1,15 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Zeronet on docker: where is user.json?",
+			"body": "So, I'm running zeronnet inside docker container but I would like to change my user masterseed. I \"entered\" the docker container: \n\nsudo docker run -i -t nofish/zeronet /bin/bash\n\nWhile I can find zeronet.py inside /root/ the \"/root/data\" folder is empty. Normally a users.json file would be in that folder but I can't find it... Anyone has any idea?",
+			"added": 1474393838
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 1,
+	"comment": {},
+	"comment_vote": {}
+}

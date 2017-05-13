@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HB/9L7NbLmLeV9W0jTDWIR0wImu1TCzm8M3XkSndw1m+XmCIBQRkG907CNS9lVojFh9jUo+mWeLny0c0gBqMArg=",
+ "cert_user_id": "infinisil@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "35716e1da3a7c2dc7e27998cf603e635b1b936b27d0393773720bb33e7adea86",
+   "size": 210
+  }
+ },
+ "inner_path": "data/users/1HHyE6FZSPhjLX6mhT182c7gPPrZfD3MNn/content.json",
+ "modified": 1484968780,
+ "signs": {
+  "1HHyE6FZSPhjLX6mhT182c7gPPrZfD3MNn": "G7j/2apviflldvfoKgMuat1NUegKTrhO4AMgfKWiuE/wpr9SGEDWZMa8ez72Od5mG71bLHTkbUr+RaEH8ruYOwU="
+ }
+}

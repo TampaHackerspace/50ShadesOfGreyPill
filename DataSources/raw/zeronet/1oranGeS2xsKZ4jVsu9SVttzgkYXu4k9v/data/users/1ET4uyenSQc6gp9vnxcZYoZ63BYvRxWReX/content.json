@@ -1,0 +1,32 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HBWrVjxGNLIHXK8mw3FIv/k5FVo/AwRbuwrvvKpQ98z2TwKeXCe8Q3FiNAahsnbMS3PW4bOyPpltCCypi0aBlvM=",
+ "cert_user_id": "anoraktrend@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "c685741295e352b32324304aadc7e986ccf055e7b6f078fae1559826bdf69075",
+   "size": 1156
+  },
+  "data.json": {
+   "sha512": "d66f6f1ef22b7b7816b822e0689d502919849350c14ed0f46e2de340a4a5f967",
+   "size": 2851
+  }
+ },
+ "files_optional": {
+  "1490187079.jpg": {
+   "sha512": "01cac14da167bd95561d01c63f874c450b744e4e54d161a89cbed26a48966e12",
+   "size": 35154
+  },
+  "1490368388.jpg": {
+   "sha512": "86e842cddb762a3d77c9bf2bd43e3eb7d62c83662ccb2298847e17918703d246",
+   "size": 30276
+  }
+ },
+ "inner_path": "data/users/1ET4uyenSQc6gp9vnxcZYoZ63BYvRxWReX/content.json",
+ "modified": 1490368939,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1ET4uyenSQc6gp9vnxcZYoZ63BYvRxWReX": "G5xoluD3iwCF6+w60Kf7HokZvtpXTWafYTVVJTRzww6RQo7E4TpuaZWX0LdpOiPm8GweldjyW0kcMAUOCHX7BIY="
+ }
+}

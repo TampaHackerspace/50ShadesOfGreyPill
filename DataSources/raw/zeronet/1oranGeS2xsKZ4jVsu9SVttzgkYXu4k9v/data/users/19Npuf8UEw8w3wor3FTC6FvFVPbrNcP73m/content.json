@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G7G2tRisiVDZrB/Rti1qbI90SE2Nbt0IuhfrRt99OwlVef55mSLERCe6ffIZZcH5U4BtZlXYGgbs5zx3z8Pa4Ws=",
+ "cert_user_id": "dientedeleon@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "756f392a31e621d90228f503fe619969d114c01c76617dae7f73a9ee921c0c8d",
+   "size": 1240
+  },
+  "data.json": {
+   "sha512": "c73d9e947f3f35c35d95ef4427776142638e669a5f4d87b50e3aaa0039cb51cc",
+   "size": 893
+  }
+ },
+ "inner_path": "data/users/19Npuf8UEw8w3wor3FTC6FvFVPbrNcP73m/content.json",
+ "modified": 1486761646,
+ "signs": {
+  "19Npuf8UEw8w3wor3FTC6FvFVPbrNcP73m": "GwOqd/GL+Zi2Z3sLHIpBzUFFjsaZsWH+3AEDN41xDYqOu4QpIyLkWasenGbj+kQeHDP+hI7iMspEQ90PgsGsfwE="
+ }
+}

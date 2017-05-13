@@ -1,0 +1,47 @@
+{
+	"next_comment_id": 7,
+	"user_name": "Bobsong",
+	"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+	"post_like": {
+		"16hXTgSRZXycC7eduqyEaYiUXd7WKD4KUB_1485976918": 1485977077,
+		"1N2eNZ5w1dpoBcwatsSuTaeNzHgSLjyrpU_1485020721": 1486063094
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": " @longzaowuzhu 有搜索工具： http://127.0.0.1:43110/kaffiene.bit/",
+			"post_uri": "1N2eNZ5w1dpoBcwatsSuTaeNzHgSLjyrpU_1486002205",
+			"date_added": 1486062925
+		},
+		{
+			"comment_id": 2,
+			"body": "在手机触屏上两个手指撑开，就可以放大字体",
+			"post_uri": "16hXTgSRZXycC7eduqyEaYiUXd7WKD4KUB_1485976918",
+			"date_added": 1486322864
+		},
+		{
+			"comment_id": 3,
+			"body": "发现ZeroNet的4个有待改进或完善的地方：\n1. zeroNet首页左侧的GreenHub或其他hub，为什么更新失败？\n2. 已经Join了两个Hub，导致数据不一致、刚刚提交的帖子自动消失，请问如何从其中一个Hub退出？zeroMe对hub的管理方面的功能较弱？\n3. 每个帖子下方如果有很多评论，点击超链接“查看更多评论...”，就可以展开评论区，但是没有收起评论区、或者称为折叠评论区的功能。\n4. ZeroBlog的每篇博客标题的下方，有显示评论数量、like数量、文章最后修改时间等等基本信息，但是没有阅读数量。希望提供阅读数量的功能。因为：公知、意见领袖、社会活动家、评论家、民主战士、维权律师等等很多人在经常发表博客，如果看不到阅读人数量（有可能阅读的人很多很多，只是他不知道），或者发现博客阅读人数太少，甚至没有，会误会读者、误会民众，影响他们发布博客的积极性、使用ZeroBlog的积极性、为自由民主奋斗的情怀。",
+			"post_uri": "16hXTgSRZXycC7eduqyEaYiUXd7WKD4KUB_1485976918",
+			"date_added": 1486384202
+		},
+		{
+			"comment_id": 4,
+			"body": "@P2P: \n告诉大家Join多个Hub的入口，不过请大家不要Join，因为会让你的帖子自动消失（偶尔发生）,会让你抓狂的，除非你想把你的当前zeroId作废。\n入口是http://127.0.0.1:43110/0hub.bit\n然后点击页面上的第一个超链接，然后会出现很多Join按钮，再次提醒：请大家不要点这些Join按钮。\n请英语比较好的朋友，提醒开发者去掉这个入口，加个if判断，如果用户ZeroBundle\\ZeroNet\\data文件夹里面的users.json里存放了id，那么就不允许Join。\n@P2P @12hlearn @testapp @ysc3839",
+			"post_uri": "16hXTgSRZXycC7eduqyEaYiUXd7WKD4KUB_1485976918",
+			"date_added": 1486574524
+		},
+		{
+			"comment_id": 5,
+			"body": "我的twister能用，不用翻墙就能使用。我几乎天天用。bbc_world每天都在twister上面发推。不要过早唱衰twister。它的开发者Miguel Freitas于2017年2月4日发推了，招募志愿者。",
+			"post_uri": "13vBk64Ftz6si7rFuafufLhoQiSVWm2XZc_1486742761",
+			"date_added": 1486881293
+		},
+		{
+			"comment_id": 6,
+			"body": "我的twister能用，不用翻墙就能使用。我几乎天天用。bbc_world每天都在twister上面发推。不要过早唱衰twister。它的开发者Miguel Freitas于2017年2月4日发推了，招募志愿者。 @zzai: @longzaowuzhu: ",
+			"post_uri": "13vBk64Ftz6si7rFuafufLhoQiSVWm2XZc_1486741611",
+			"date_added": 1486881441
+		}
+	]
+}

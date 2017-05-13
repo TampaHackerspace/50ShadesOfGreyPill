@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G+k2+39DjM08Kma9DVBjp2fVFGZQyGVzsV+guMKnLJSiARAErXvzhAwfWsiWhwOZ4RfkFvPE8NV06q1JokgGYMQ=",
+ "cert_user_id": "davidaurora@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "b61e1c6dc1304f0b9799331576c1f670c887b1a73feb2df9170ad65002c59b26",
+   "size": 1385
+  },
+  "data.json": {
+   "sha512": "8164b8927a78d643e80ad97de04fae9dc272aa933eb029d029b651f0ab88e2a3",
+   "size": 331
+  }
+ },
+ "inner_path": "data/users/1NAgcqs5Mvey7h9ea2ZW7CVXzc42ZHd8ep/content.json",
+ "modified": 1481007705.74,
+ "signs": {
+  "1NAgcqs5Mvey7h9ea2ZW7CVXzc42ZHd8ep": "G8tr7A3yFixQgNTMOJFiZ/yijUGu+2qTxuyfuIjnTbjJuBz88A+InE5/7AYFoxQmEJkD8zaRzpmDh791o9uV8o4="
+ }
+}

@@ -1,0 +1,27 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 1,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Cyrus",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "In way over my head.",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484614944,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1PK1etigF57r7Amr3bavcM6sHYwAbV5oVL",
+			"user_name": "Cyrus",
+			"date_added": 1484615406
+		}
+	]
+}

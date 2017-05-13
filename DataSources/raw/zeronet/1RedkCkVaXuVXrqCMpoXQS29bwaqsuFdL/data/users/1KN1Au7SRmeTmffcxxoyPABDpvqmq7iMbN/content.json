@@ -1,0 +1,21 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G8K86GIMm+0RRZaQUB80a4usesLLoGcEIdEcHOvb5Uizb1iSLQvB2O6XDZpP+6za3zSQCMzgfOWNgnoDaEAe4TI=",
+ "cert_user_id": "antilibrary@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "c54cb14e4100ccf34ae7fd4f73807c6f7f13ed29b2fb7efcaa37947169b9229b",
+   "size": 630
+  },
+  "data.json": {
+   "sha512": "39c62cb391e0ced1afe3a4842c5d0d0575018288580e953cd3f7c6a18161bc4f",
+   "size": 14285
+  }
+ },
+ "inner_path": "data/users/1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN/content.json",
+ "modified": 1493099570,
+ "signs": {
+  "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN": "HPhUB9wToNl0898jEgkXXnoIW9EYPxUNwWITG/jdPaLKIFj9pi4VA39q9zKmKmaghmEqGgdtgBvrwfWmIZKKjj0="
+ }
+}

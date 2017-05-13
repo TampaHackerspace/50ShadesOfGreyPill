@@ -1,0 +1,26 @@
+{
+	"next_comment_id": 4,
+	"user_name": "0x1337",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Resist what?\nEdit, I see:\n> Trump administration mandating EPA scientific studies, data undergo review by political staff before public release.\nhttps://twitter.com/AP/status/824374557893083146",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1485462406",
+			"date_added": 1485554719
+		},
+		{
+			"comment_id": 2,
+			"body": "This isn't good, because it is unnecesssary and will ~~lead to centralization again~~ potentially cause breakages and the owner has full control over the \"CDN\" so it could maliciously edit the files.\nAnyway, the problem you're trying to solve should be solved at ZeroNet client level simply by de-duplicating files.\nSo someone should add an issue on Github or submit a Pull Request to implement data de-duplication.",
+			"post_uri": "1NhDPqhia3TEmpsa2n6qa7rDv4XLvohRv3_1485714204",
+			"date_added": 1485719127
+		},
+		{
+			"comment_id": 3,
+			"body": "*[See edited post below]*",
+			"post_uri": "1NhDPqhia3TEmpsa2n6qa7rDv4XLvohRv3_1485714204",
+			"date_added": 1485733985
+		}
+	]
+}

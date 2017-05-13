@@ -1,0 +1,34 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "How to register a Domain?",
+			"body": "I know how to add a Domain on my Site but i doesn't know how to register a domain.",
+			"added": 1487349040
+		},
+		{
+			"topic_id": 2,
+			"title": "File Upload in Zeronet",
+			"body": "I want to upload files on my site but i don't know how to do it.\nI know how to do it with node.js or php but i cant use this languages.",
+			"added": 1487365102
+		}
+	],
+	"topic_vote": {
+		"1_19o28kY46qs4yztgepknRtS6HULZpQhiT7": 1,
+		"2_19o28kY46qs4yztgepknRtS6HULZpQhiT7": 1
+	},
+	"next_comment_id": 2,
+	"comment": {
+		"1_19o28kY46qs4yztgepknRtS6HULZpQhiT7": [
+			{
+				"comment_id": 1,
+				"body": "> [hexkey](#comment_8_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF): https://wiki.namecoin.info/index.php?title=Register_and_Configure_.bit_Domains\n\nThanks!",
+				"added": 1487360981
+			}
+		]
+	},
+	"comment_vote": {
+		"8_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1
+	}
+}

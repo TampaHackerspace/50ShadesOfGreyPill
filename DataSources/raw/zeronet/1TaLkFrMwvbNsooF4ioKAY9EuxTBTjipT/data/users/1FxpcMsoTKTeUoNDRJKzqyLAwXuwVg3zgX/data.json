@@ -1,0 +1,135 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Why Do the Chinese Use the English Board",
+			"body": "Seems strange to me... maybe ZeroTalk needs to not default to any board and force the user to select the language first...",
+			"added": 1490364726
+		}
+	],
+	"topic_vote": {
+		"2_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": 1,
+		"1_1FxpcMsoTKTeUoNDRJKzqyLAwXuwVg3zgX": 1,
+		"2_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": 1
+	},
+	"next_comment_id": 12,
+	"comment": {
+		"1_1MwJSNBC1savftEvXQyoHcVLDgThtAPr6T": [
+			{
+				"comment_id": 1,
+				"body": "> [kai0](#comment_66_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): what You said the problem is needed to solve by Microsoft . what You say is the web design, the most simple kind of computer work. which Can be fully automated program.\n\nWhat the fuck are you talking about? You can't automate web design... You can try automating layouts by using composability, but someone has clearly never had to work on the frontend of a large scale website before.\n\n> Microsoft should once again develop its basic language. Interprets natural language into programming language. Used to design web pages.\n> Now the CPU speed is fully able to do this.\n> If the web design can not be natural language, then the natural language of programming is simply impossible.\n\nYou sound like a crazy person. Natural language is great, and something like a fourth generation language for composing websites seems possible, but it has nothing to do with Microsoft.",
+				"added": 1490359064
+			}
+		],
+		"2_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": [
+			{
+				"comment_id": 2,
+				"body": "> [whitethunder](#comment_2_1LQSdNRDWWooy3Z9o5DH3EqggaburDsTu9): All niggers, spics, kikes, and goat fuckers must fucking hang.\n\nFuck you.",
+				"added": 1490359709
+			},
+			{
+				"comment_id": 3,
+				"body": "> [burningcold](#comment_6_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs): I would appreciate that. So far I have besmart@zeroid.bit (1HiJDred9Tjdqz23kiGbPsqMAFqfpCbRYL) and deception@zeroid.bit (125b8FxS36xSSCHkvZEhimvF5KPxjckS7o) blocked.\n\nHow do you setup a blacklist?",
+				"added": 1490359862
+			}
+		],
+		"2_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": [
+			{
+				"comment_id": 4,
+				"body": "> [kaffie](#comment_247_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): Mac is great, and it's definitely a step up from windows, but if you're free to (and happy to) choose linux, definitely go with that instead. I think the ideal setup for a lot of people is Apple/Mac hardware and then run linux on it.\n\nI prefer my own hardware... I managed after much work to get Ubuntu running on an old Mac Book Pro, but the EFI bootloader is a pain in the ass, and the drivers aren't as great. I would say it's pants-on-fire false that Apple hardware is what most people prefer to put their Linux distro on. For laptops I think more people put Linux on a Thinkpad.\n\n>  Personally, I've gotten too comfortable with OSX's UX features to make a comfortable switch to linux for now. But you should support free/open software when you can.\n\nUnity DE and ElementaryOS both have rather similar UX patterns as OSX. I personally hate the OSX UX, mostly because it's slow and in the way. I prefer running OpenBox.",
+				"added": 1490360800
+			}
+		],
+		"10_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 5,
+				"body": "The only reason I don't use zsh or fish is because I like being able to use any environment or server and not depend on those fancier features, so I voted for bash.",
+				"added": 1490363343
+			}
+		],
+		"1_1FxpcMsoTKTeUoNDRJKzqyLAwXuwVg3zgX": [
+			{
+				"comment_id": 6,
+				"body": "> [border0464fred](#comment_82_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): << talk is cheap, show me some code >>\n> pull request ?\n\nYeah, I could do that. I would need to spend a lot of time. If there is enough support for it, I would invest more time in it though. This is early stage discussion, and you went nuclear from the start! :D I like your enthusiasm, though.",
+				"added": 1490383221
+			}
+		],
+		"1_1No1EtiPxGfiXXqM4tJNGWxiEH64jgm63Y": [
+			{
+				"comment_id": 7,
+				"body": "> [maojewishagent](#comment_1_14cD14KoAxGw9wzVgh4yFVMLtQ3uL7PVh8): Similarly as in Russia the Communism in China was created by Jews.Mao exactly as Lenin was a Jewish agent and he was payed and instructed by his Jewish advisors to kill as much non-Jews in China as possible.http://jewishjournal.com/news/world/179731/请点击这里阅读此文章的中文版。http://jewishjournal.com/news/world/179934/\n\nYeah, I heard Jews supported the Chinese authoritarian government because it banned religion! Fleeing the Russian Revolution, they clearly had seen the way of Sovietism and decided that's what they were going to try to create in China!\n\nYou would have to really have no education to believe this shit. Furthermore, you would have to ignore common sense.",
+				"added": 1490803205
+			}
+		],
+		"3_19nc7Xt7Bdjfgx89BwVeWM45fKwEkDk1iG": [
+			{
+				"comment_id": 8,
+				"body": "> [rythyrix](#comment_58_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): Are you directly editing your data/users/<key>/data.json ? Because that is pretty cool.\n\nWhat? Not sure I understand. I was using a local version of ZeroTalk to test changes I made: https://github.com/HelloZeroNet/ZeroTalk/pull/43\n\nI can't get the `all.js` to be recompiled though - I need to manually use `siteSign`, and to do that I need to know how to use the private key - which I haven't figured out yet, and isn't documented anywhere I can find.",
+				"added": 1490803568
+			}
+		],
+		"1_14GeFTj8h85EgnWpS4LPJr5eMrjpKH1e5S": [
+			{
+				"comment_id": 9,
+				"body": "It's basically like the world wide web - you have \"zites\" that are pretty much the same as websites. `ZeroTalk` is just another website, essentially - but instead of served by a server, it's uploaded to you by a bunch of \"peers\" - we all are distributing the website to one another.",
+				"added": 1490822887
+			}
+		],
+		"2_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": [
+			{
+				"comment_id": 10,
+				"body": "> [border0464fred](#comment_100_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): we need a zerostackoverflow lol\n\nyes!",
+				"added": 1490913771
+			},
+			{
+				"comment_id": 11,
+				"body": "> [darvy](#comment_22_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk): Zeronet Central has a Zite development channel on the right. http://127.0.0.1:43110/1J1c7eML6uMwDU4uiKbKRxoqxGP6WMFMvb/\n\nIt's empty, though. I also don't like the idea of having to login - I really wish there were more anonymity features with ZeroNet (not that it's always necessary, just would be nice - thinking about how government and powerful agencies could abuse it).",
+				"added": 1490913837
+			}
+		]
+	},
+	"comment_vote": {
+		"3_195Xafx3aZsxtngKo7D3XWgByQ5rYJX1C": 1,
+		"249_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"18_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"4_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"253_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"11_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"344_1D9w8AJTfqmn26iT2kF81B8HxXFfycXuXM": 1,
+		"8_1HiyP7AD74uGuGBZLqhcmfQgwu5VC8nnYY": 1,
+		"2_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": 1,
+		"6_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": 1,
+		"7_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": 1,
+		"8_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc": 1,
+		"2_19Z8aJ32x4pE2iGvVssPJazJgpGe5L32rq": 1,
+		"1_19Z8aJ32x4pE2iGvVssPJazJgpGe5L32rq": 1,
+		"1_1AkjEyx5ntypmrPYqc9DeikVFEpBvxnHXA": 1,
+		"255_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"5_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": 1,
+		"1_1BtsYSiQaA3awA2z6sWLFEbzf8GmLzyx2X": 1,
+		"1_12TPAPjmQUAi2qoNKL9gGLss2sFYtqx3dJ": 1,
+		"3_16GMXUiefH9e271vTdr5h41WHkXKPS7ceY": 1,
+		"10_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc": 1,
+		"165_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS": 1,
+		"1_1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR": 1,
+		"1_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"11_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": 1,
+		"13_16osdFmHgwgy9sgBws1po2zP5PxwMALvZa": 1,
+		"7_1HiyP7AD74uGuGBZLqhcmfQgwu5VC8nnYY": 1,
+		"5_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"126_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"56_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": 1,
+		"123_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"4_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": 1,
+		"74_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"22_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"21_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": 1,
+		"100_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"10_1FxpcMsoTKTeUoNDRJKzqyLAwXuwVg3zgX": 1,
+		"4_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": 1,
+		"271_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"23_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"24_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": 1
+	}
+}

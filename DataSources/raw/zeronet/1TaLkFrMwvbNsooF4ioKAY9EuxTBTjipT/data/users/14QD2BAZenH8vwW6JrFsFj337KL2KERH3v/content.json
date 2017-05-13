@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HBR9L7439k36tcqTHQQyPrgltRhX6V7eN71Uad0g/RoADuK6qqV8tW9AZdDlC5k5ZhrGpE3AXCaveLuMeCXjFUU=",
+ "cert_user_id": "nazi@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "5aac0d1bdc819ce7781e19d6c1ad6b9b1997b1180c5b0a5b166dd53ff942ae14",
+   "size": 627
+  }
+ },
+ "inner_path": "data/users/14QD2BAZenH8vwW6JrFsFj337KL2KERH3v/content.json",
+ "modified": 1491158567,
+ "signs": {
+  "14QD2BAZenH8vwW6JrFsFj337KL2KERH3v": "HKbaPbxUMez3gSpLNIJqCj1OMYhw26TMgPgg/vWuAbzzEN3sfv57joUB44NCJnuDoa66L6WytbtzWRMwOEfk8os="
+ }
+}

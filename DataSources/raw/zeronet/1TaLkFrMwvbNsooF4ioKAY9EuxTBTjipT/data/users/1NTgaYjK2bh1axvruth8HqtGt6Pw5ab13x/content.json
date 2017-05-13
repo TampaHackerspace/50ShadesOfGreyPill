@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G0SzZR+7n8cD/L1BHJGFUAjcyqvB4WV3NKGTaOmEVxIUUf2eVt3FLDOEDjd9UT6N+b8W6v+7Viqy4h74u578xNs=",
+ "cert_user_id": "thegillies@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "6d0fd3beaa7263ca20ff1a501534d72079281714bea8d342274062dd6b0866ef",
+   "size": 6621
+  }
+ },
+ "inner_path": "data/users/1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x/content.json",
+ "modified": 1494202618,
+ "signs": {
+  "1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x": "G7594ZR/gnuX7FreEhQfPJivUtYKs7y9i9Pvm2WOoiMNWRkKk40e99kJZgTR2Sbb6dHe+jbD5n1j6TYgZcHTy3Q="
+ }
+}

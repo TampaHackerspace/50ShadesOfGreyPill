@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HCofJKyQ2+C+x4HcdWwMmyqTjUtSWJXmnRK9plqEvxPF8M/Sn2b8CRyoX67q62seNKfAxecY9amt79VjC14yAFQ=",
+ "cert_user_id": "timedou@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "8576338fcead1f4c1a4287476577dbad48a335e264470b6f48d97d7821c454b6",
+   "size": 1334
+  },
+  "data.json": {
+   "sha512": "52f2d079fbebf4a92dc857bebaaf2ef22cbb3e22fff4ce0b605ddc6893c8ef16",
+   "size": 333
+  }
+ },
+ "inner_path": "data/users/1AExB9ZGVzq54SRMkUJoCYHVq2LV2WvjJv/content.json",
+ "modified": 1488536921,
+ "signs": {
+  "1AExB9ZGVzq54SRMkUJoCYHVq2LV2WvjJv": "G+HL8v5g+CqSgxuSpEIWk8m0GHUlsouTASWJ6bjdRipra3SzDS9MF9FVSgTpcJ9Saej+nzVfqG97vPwdyjVX8ww="
+ }
+}

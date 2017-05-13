@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HOhbcQPErALAlrfgrISgh05Ag8aqqGlu1EUFAOpGjPSC1YHRozhgIKHw68czwOMCdsLZ1OXTePedooL1XK0DecU=",
+ "cert_user_id": "sidorex@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "5b0146dab297eae01828aa9d7a7ac42eb33dd3091528de4d7a1f205ca70dc77f",
+   "size": 357
+  }
+ },
+ "inner_path": "data/users/1FaczRFzXxx1e9UmeuMRiySoi7vHX2SwZT/content.json",
+ "modified": 1486842336,
+ "signs": {
+  "1FaczRFzXxx1e9UmeuMRiySoi7vHX2SwZT": "HBVwZlmT9/fuSV2HtReqnQ26PwPqI2u9v+E07ojBNvG3GK7nXhidWGdmI5Nn98lC4SPppoe0IWyx3xGxUEDDtr8="
+ }
+}

@@ -1,0 +1,39 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "jpg",
+	"user_name": "D3fcom",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1483608918,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1483608946,
+			"body": "WHatzzup Zer0_n3t!!!",
+			"date_added": 1483608944
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "ETH is on Fireeee!",
+			"post_uri": "12FdBxCUGATvDWoA7BiY11G6n1G6MeA26t_1483590742",
+			"date_added": 1483609057
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "137ajoV6uVv5PASQ5frVYVLCE79PLRQPzH",
+			"user_name": "D3fcom",
+			"date_added": 1483609953
+		}
+	]
+}

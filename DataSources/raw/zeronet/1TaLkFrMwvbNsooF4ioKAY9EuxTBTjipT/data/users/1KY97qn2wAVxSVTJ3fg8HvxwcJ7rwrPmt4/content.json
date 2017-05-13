@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G2QDhP2zUlulE/jdSHHGfxRqL93N5NPKo7pED26+BGK2VpuK9yyNiAOpeL9PdE5dButHLwAWqmlCJaC77wmCaVQ=",
+ "cert_user_id": "tempcom@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "5b1a641f1ad5ea4d6513eaab3d5dd14fd3e93767ced1a6751eaef2c56d48b439",
+   "size": 928
+  }
+ },
+ "inner_path": "data/users/1KY97qn2wAVxSVTJ3fg8HvxwcJ7rwrPmt4/content.json",
+ "modified": 1476212665.043,
+ "signs": {
+  "1KY97qn2wAVxSVTJ3fg8HvxwcJ7rwrPmt4": "G5B2iPTcRUofW3srfD/Cq9scc5h00C7NzH9LmGVsoqq/apqFZR8n23cZPVusee7xHMglh8rN/KQxWMUZfQWptLI="
+ }
+}

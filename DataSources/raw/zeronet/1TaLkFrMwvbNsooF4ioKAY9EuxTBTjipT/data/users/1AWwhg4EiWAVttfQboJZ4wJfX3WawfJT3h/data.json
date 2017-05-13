@@ -1,0 +1,83 @@
+{
+	"next_topic_id": 5,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "A ZeroNet Dark Theme",
+			"body": "This theme should works on all official zites and their clones. Some unofficial zites are also supported, like NullPaste, ZeroWiki, Kaffiene Search. Nevertheless, some other zites may have side effects - that some bright elements are still not changed. You can ask me to modify them, or try it yourself.\n\nReport bug or give suggestion here. You can also get it at my NullPaste bin ;) Install it with Stylish, Greasemonkey, etc.\n\nGet it from:\n[my NullPaste bin](/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?user_binchan2@zeroid.bit)\n[Repository on git.gnu.io](https://git.gnu.io/chbinnc/Userscripts/raw/a95f87421b0cadd7bcfa5fcbc46ce48becd48d2a/Userstyles/zeronet-dark-theme.userstyle.css)\n[userstyle.org](https://userstyles.org/styles/136470/zeronet-dark-theme) (Unmaintained, easy to install but the website contains many third-party javascripts)",
+			"added": 1481859492
+		},
+		{
+			"topic_id": 2,
+			"title": "DemoHouse: collection of JavaScript, CSS3, Canvas, SVG and Web Animation demos.",
+			"body": "Demos are all independent and guess they should be able to directly use for building ZeroNet site.\nWeirdly the origin project (quite famous) has been deleted from github, so the link below is a fork. Licence is MIT.\nhttps://github.com/opt-luo/DemoHouse",
+			"added": 1483713151
+		},
+		{
+			"topic_id": 3,
+			"title": "ZeroMe Feed Bot",
+			"body": "This is a python script that will turn a ZeroMe Profile into a RSS feed reader.\n\n> RSS (Rich Site Summary; originally RDF Site Summary; often called Really Simple Syndication) uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called \"feed\", \"web feed\", or \"channel\") includes full or summarized text, and metadata, like publishing date and author's name. [Src:Wiki](https://en.wikipedia.org/wiki/RSS)\n\n[How to Subscribe to RSS Feeds](http://rss-tutorial.com/rss-how-to-subscribe-to-feeds.htm)\n\n## How to Install:\n\n1.  Backup your `/path/to/zeronet/data/users.json`, delete it and restart ZeroNet. Create a new ID (ZeroID, [KaffieID](/id.kaffie.bit/), etc).\n    Clone a hub (**Don't mess up existing hub, newcomers will be disappointed when they find only Robots and Zombies in the public timeline. Also you can control your post storage limit with your own hub, or suffer this `content.json: Include too large 277327 > 50000 ... Sign failed: Invalid content` XD**), then login ZeroMe with your new ID and your hub.\n\n2.  Create a folder named `FeedBot` under your ZeroNet root directory:\n    `$ cd /path/to/zeronet && mkdir FeedBot`\n    Download [the script file ↗](https://git.gnu.io/chbinnc/Userscripts/raw/master/FeedBot/feedbot.py) or [copy it from Nullpaste](/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?user_binchan2@zeroid.bit) to the folder, open it with your fav editor. Copy your hub `address`, new ID `auth_address` and new ID `auth_privatekey` (you can find them in the new `users.json`) respectively to\n\n    ```\n    SITE_ADDRESS = ''\n    AUTH_ADDRESS = ''\n    AUTH_KEY = b''  # key needs to be byte\n    ```\n\n    Also under `FeedBot` folder create an empty file named with `rssAddresses.txt`.\n\n    PS: One-line command (except that you need to manually add your addresses and key, likewise you can use `$ sed -i \"s/SITE_ADDRESS = ''/SITE_ADDRESS = 'your_site_address'/\" feedbot.py`.): `$ cd /path/to/zeronet && mkdir FeedBot && cd FeedBot && touch rssAddresses.txt && wget https://git.gnu.io/chbinnc/Userscripts/raw/master/FeedBot/feedbot.py`\n\n3.  Add your feeds:\n    There are two way to add your feeds:\n    One way is to directly copy your feed url to `rssAddresses.txt`, one url one line.\n    The other way is to create post with your bot ZeroMe account. The format is `add-feed YOUR_FEED_URL`. Your can also delete your feed with `del-feed URL`. That's cool, isn't it ;) You can also use your major ZeroMe account to add and delete feed url. Check the code to add the feature by yourself :P\n\n4.  Backup `/path/to/zeronet/data/users.json`, restore your major `users.json` and restart ZeroNet.\n\n5.  Run the script:\n    Install package dependency `feedparser`: `$ pip install feedparser` or with other method. Then simply run it with `$ python feedbot.py`. If you want to run it periodically, you can use `$ watch -n TIME_INTERVAL_IN_SECOND -x python feedbot.py`. The script normally won't fetch anything if there are no new content. But some websites don't support `etag` and `last-modified header`, the script has to always fetch feeds from them, but still won't update anything.\n    PS: On my Raspberry pi 2 `watch` doesn't work together with `tmux`, so I use this one instead: `$ while sleep TIME_INTERVAL_IN_SECOND; do python feedbot.py; done`.\n\n## Screenshot:\n\n[Screenshot](/Me.ZeroNetwork.bit/merged-ZeroMe/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/data/users/1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h/1492140736.jpg)\n\n## Bugs and Troubleshooting:\n\n### 1\\. The script sometimes hangs up.\n\nOfficial `feedparser` package [doesn't support timeout setting](https://github.com/kurtmckee/feedparser/pull/80), so you need to install it from another branch. How to:\n\n1.  Uninstall the package if you've installed it: `$ pip uninstall feedparser`.\n2.  Clone the branch with timeout function and install it (Default is 30 seconds, check [this](https://github.com/kurtmckee/feedparser/pull/80)): `$ git clone https://github.com/JPFrancoia/feedparser && cd feedparser && python setup.py install --user`\n\nNote: There is another solution by using `requests` library instead [[1]](http://stackoverflow.com/questions/9772691/feedparser-with-timeout) [[2]](http://stackoverflow.com/questions/27621689/not-getting-a-304-response-even-after-adding-etag-header), I will check it later^TM if I have time.\n\n\n## Todo:\n\n*   ~~Also add Feed Summary (300-500 character limit).~~\n*   Keyword filters especially for large websites.\n*   Remove posts with keyword\n*   Set limit of post size\n*   Any recommendation?\n\n## License:\n\nMIT\n",
+			"added": 1492169845
+		},
+		{
+			"topic_id": 4,
+			"title": "ZeroMe Mastodon Bridge",
+			"body": "Another python script :3 This script gives you the power to cross post between ZeroMe and Mastodon, which means when you post something on ZeroMe, it will also post to your Mastodon account, and vice versa.\n\nWhat is Mastodon? It's a Twitter-like, that based on OStatus protocol, distributed social network, and recently its user base and development are exploding. For more information check [its github repository](https://github.com/tootsuite/mastodon/).\n\n## How to Install:\n\nUnlike Feedbot.py, this time the installation is quite simple. First you need to have an account from [a Mastodon instance](https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/List-of-Mastodon-instances.md). Then\ncreate a folder named `ZeroMeMastodonBridge` under your ZeroNet root directory (Or simply use the FeedBot folder if you have created one):\n`$ cd /path/to/zeronet && mkdir ZeroMeMastodonBridge`\nDownload [the script file ↗](https://git.gnu.io/chbinnc/Userscripts/raw/master/ZeroMeMastodonBridge/zerome_mastodon_bridge.py) or [copy it from Nullpaste](/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?user_binchan2@zeroid.bit) to the folder, open it with your fav editor. Copy your hub `address`, ID `auth_address`, ID `auth_privatekey` (you can find them in the `users.json`) and your Mastodon instance website address respectively to\n\n```\nSITE_ADDRESS = ''\nAUTH_ADDRESS = ''\nAUTH_KEY = b''  # key needs to be byte\n\nMASTODON_SITE = ''\n```\n\nThen install dependent packages `html2text` and `Mastodon.py` like with `$ pip install html2text --user && pip install Mastodon.py --user`. That's all. Finally run the script with `$ python zerome_mastodon_bridge.py`, just at the first time it will ask you to input your username and password of your Mastodon account. Also I suggest you keep repeating the script with `$ while sleep TIME_INTERVAL_IN_SECOND; do python zerome_mastodon_bridge.py; done`. The script doesn't support Python 2\\. If you insist using Python 2, you need to slightly change the code by yourself.\n\nPS: The script also supports to set last timestamps without cross-posting anything, with command: `$ cd /path/to/zeronet/ZeroMeMastodonBridge && python -c 'from zeronet_mastodon_bridge import initGlobalName, setLastTimestamp; initGlobalName(); setLastTimestamp()'`\n\n## Bugs and Troubleshooting:\n\n1. Currently Mastodon doesn't support markdown, so your post from ZeroMe to Mastodon won't be well formatted. But in contrast post from Mastodon to ZeroMe will be formatted, thanks to `html2text`, though it may still have some bugs. Also Mastodon limits post to 500 characters by default.\n\n## Todo^TM:\n\n* Image support is possible ...\n* ZeroMe API\n\n## License:\n\nMIT\n\n\n## A Small Proposal:\n\nCurrently ZeroMe still has not many users (though I also like small community), and most hubs have quite heavy limit to content size. But I believe ZeroMe is still quite a promising project . Besides keep improving performance and adding functions, similiar to using same protocol like traditional email service, Diaspora* with Friendica (Friendica also supports connecting to many other websites, before it could also hack Facebook, but later Facebook built some high wall...) and Hubzilla, Mastodon with StatusNet, Gnusocial and Quitter. In the long term it may be better that ZeroMe and ZeroNet can communicate with other distributed (social) network, or just P2P (social) network. Therefore ZeroMe and ZeroNet project won't become an isolated island.",
+			"added": 1493423715
+		}
+	],
+	"topic_vote": {
+		"13_1By85xCDz7VyZEq9WjmhtbNaPKimQwhPLp": 1,
+		"3_1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x": 1,
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	},
+	"next_comment_id": 7,
+	"comment": {
+		"1_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h": [
+			{
+				"comment_id": 1,
+				"body": "> [shellbound](#comment_24_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9): Has some issues on ZeroMePlus but seems to work well otherwise... thanks ;)\n\nZeroMePlus added ;)",
+				"added": 1481880153
+			},
+			{
+				"comment_id": 2,
+				"body": "> [shellbound](#comment_25_1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9): Ahh, there we go.. awesome job! ;)\n\nThx :D\n\n> [martinv](#comment_1_18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj): Not exactly the same, but you can also use a browser plugin like \"High contrast\" for Chrome, which inverts the colors giving a similar result.https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph\n\nI'm also using a plugin named Colorfic in Icecat (Firefox's niece) that has similar function, but that's always not better than well-handcrafted theme ;) Hope that ZeroNet will officially provide dark theme soon.",
+				"added": 1481951909
+			}
+		],
+		"2_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw": [
+			{
+				"comment_id": 3,
+				"body": "Maybe it's better to create a specific English forum, and just keep the main forum multi-languages supported. Anyway, like what @mi6agent seems to express, we still can't list all languages on the navbar. And I guess it's better to have one with multi languages support :) For example, it helps everyone to learn or just perceive different cultures.",
+				"added": 1491536100
+			},
+			{
+				"comment_id": 4,
+				"body": "> [border0464fred](#comment_119_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): I think the first time you load  main it have a yellow message that stipulate that main is english. If everyone start to speak his own language Zerotalk will hell of a mess. [...]\n\nBut it doesn't work very well, thus this topic pops up. So we may need a better solution. Better filtering or banning solution, create another, or just ignore them.",
+				"added": 1491630282
+			}
+		],
+		"2_1NTgaYjK2bh1axvruth8HqtGt6Pw5ab13x": [
+			{
+				"comment_id": 5,
+				"body": "[How to change your ZeroMe Hub](/blog.kaffie.bit/?Post:25:How+to+change+your+ZeroMe+Hub)",
+				"added": 1493019939
+			}
+		],
+		"4_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h": [
+			{
+				"comment_id": 6,
+				"body": "> [p2p](#comment_301_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): make it as a zeronet plugin\n\nThx for the suggestion! I'll look into it. Guess it will be more convenient to user in that way.",
+				"added": 1493457990
+			}
+		]
+	},
+	"comment_vote": {
+		"802_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_1R67TfYzNkCnh89EFfGmXn5LMb4hXaMRQ": 1,
+		"15_1HiyP7AD74uGuGBZLqhcmfQgwu5VC8nnYY": 1,
+		"1_16M32Yo79s3joGgDJabSCSC4D5fS3gB5Ue": 1,
+		"300_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"42_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY": 1
+	}
+}

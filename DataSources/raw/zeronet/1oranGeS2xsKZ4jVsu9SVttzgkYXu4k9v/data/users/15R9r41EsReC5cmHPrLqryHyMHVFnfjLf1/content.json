@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G+j2Q+jCA75o5VMMGC5yvT7IbGUaMzTO1ZdpbSg2VC8NGGTPOd07ZsSyx7Ptd8ZQgj1YUfzsHohheRVRJKs4s9w=",
+ "cert_user_id": "rypedub@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "10b82c119320313132ea8c640eb29902895ad19519d3686bf810f035e2a3bcb3",
+   "size": 1468
+  },
+  "data.json": {
+   "sha512": "62a419939c9544d0993c82a224fa909268a45498d66ae2aac594f24c89668c7d",
+   "size": 2099
+  }
+ },
+ "inner_path": "data/users/15R9r41EsReC5cmHPrLqryHyMHVFnfjLf1/content.json",
+ "modified": 1485855777,
+ "signs": {
+  "15R9r41EsReC5cmHPrLqryHyMHVFnfjLf1": "G3dqM1MHXZzyOckrT0CgD0cZoFmp+fKrvI3HAVXuOea+/6aZ1BfSU+tA/mqQ033xTfhPfyLI2dWQsC2AlHGFZXw="
+ }
+}

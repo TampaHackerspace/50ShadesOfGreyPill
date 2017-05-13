@@ -1,0 +1,32 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GyXNPKm2nhRtIW6h7c+D3LqDZE4YkN8/fxdfbWDHfifn2PawAwLteA8cmuQ3Ut/kWLux3bt2bZXvXFsn+h6es0s=",
+ "cert_user_id": "brahman@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "4e11169786e645549c4a369e2f9f3c17455e2cfc5d68a0d7a5a4039ba5dd1bbe",
+   "size": 334
+  },
+  "data.json": {
+   "sha512": "fb6ef7b43c14427d7877c0f1bf1af38af0c91e5d5feb959d4c5ee6b256e61b6a",
+   "size": 20345
+  }
+ },
+ "files_optional": {
+  "1486495923.jpg": {
+   "sha512": "f5f23ab95c36111f43438a2a777590f58f1b9917f8d3f1786aedddcb0207ff7c",
+   "size": 57556
+  },
+  "1486496011.jpg": {
+   "sha512": "967c9b2cf0401a5dbcf51761d4b65e683cdc5ca038ec2f89fd971166fba67470",
+   "size": 32179
+  }
+ },
+ "inner_path": "data/users/17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb/content.json",
+ "modified": 1493080879.345,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb": "GxbJKB4UXRd62m951Jy0PyNinXF6x8v8UKHjOZ8Ncu2hF3K0IzAeYPhINgF4tUfJypRNH14sUtC9XWC87GCfGd4="
+ }
+}

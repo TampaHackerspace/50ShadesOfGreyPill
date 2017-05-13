@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GzGk2dnxVj0sDgYGHXqCduJ/dH5RCu/FdNfTVdJzczoeI0L+4BDa1K41ilAAlqEMg+vEFrZZd+HNJF3Qarwr3Y0=",
+ "cert_user_id": "terriblecupcakes@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "30dd7bc5fd0af4b8b6eca494b80e24935aebdbcac1e1d9b968278a3e2646559d",
+   "size": 932
+  }
+ },
+ "files_optional": {
+  "1488949920.jpg": {
+   "sha512": "f6c2f7e13f2169b6a11d8315c1998f6a53b49cbeb4635dc6cb290e218d6ceef8",
+   "size": 38770
+  }
+ },
+ "inner_path": "data/users/1GCwjWciSJyLFWsTU3CcGJQDGsybgUNjKm/content.json",
+ "modified": 1488977135,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1GCwjWciSJyLFWsTU3CcGJQDGsybgUNjKm": "GzlgMpeMb+qZqVSc/maNeGqhzKw3f0d1ZxmZs2ns5yt42eCHwYbz2MaaqkIpyKCCnFf7VkK7nxF8f55uUKkogwM="
+ }
+}

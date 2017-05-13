@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HIItyehv5/1t3Ii4okYvCb6IGDd/0rwQHBda76vXKUCz2DWzTEH6XRXWBLK5zgP8EFotQEuGNgirVqRMXCF7xnM=",
+ "cert_user_id": "polyomino@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "c4128b13c675d3b732d1b12941f3d942762c72e1b1356c228c7476233b0f0f50",
+   "size": 4979
+  }
+ },
+ "inner_path": "data/users/1AMdyAHJ7RdjV8rDNs3jy22fdoMcGESJdG/content.json",
+ "modified": 1474144458.73,
+ "signs": {
+  "1AMdyAHJ7RdjV8rDNs3jy22fdoMcGESJdG": "Gx1bzVIkatFHnnuPHWsow+XsqFlpjeL10abL6qaEoXzTzW2PFs1VmR/yPJ1LDxxdQh4uPqk89ZG18IIs2SLXWIM="
+ }
+}

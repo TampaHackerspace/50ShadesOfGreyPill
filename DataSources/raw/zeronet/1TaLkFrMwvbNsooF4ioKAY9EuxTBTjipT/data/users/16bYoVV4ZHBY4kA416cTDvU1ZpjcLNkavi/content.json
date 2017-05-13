@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HGgH3IVinyJXnqKueABTntSwIC/0DZNF+GKoZDfKLXAcTPVNU1uBgZcwncyt+wf+NZLgAAUKzbZbylQvKnrRFLU=",
+ "cert_user_id": "bebopfunk@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ba21a8f385985865f5d117a7ba2802d2c400d07399a846d6f82f6ada7f9cf4ef",
+   "size": 267
+  }
+ },
+ "inner_path": "data/users/16bYoVV4ZHBY4kA416cTDvU1ZpjcLNkavi/content.json",
+ "modified": 1492913601,
+ "signs": {
+  "16bYoVV4ZHBY4kA416cTDvU1ZpjcLNkavi": "G/VtGRzHGgIe0576+YJvAyJJJ7PEG8gUsgZdEyVYjLrMNK2CecYni8ky02u21aT8UJwk4olSsrChtY6jWc5riPw="
+ }
+}

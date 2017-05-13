@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G1c/C1npfZesp5KYMy8QGEO92ENTmocNFHfIRn+cJEuZS4Z3rTfXw8Au2TUw1E5kCULjpeGt84T/pvEEtkhO0G8=",
+ "cert_user_id": "antignu@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "41c02b0295b6e968c7c5d2eaccbe912b75cd8197a3bb0bb8556bccfca143557b",
+   "size": 2675
+  }
+ },
+ "inner_path": "data/users/1JtVjiuh8wNNNS63aMT7sxjZx5jLtqGw4N/content.json",
+ "modified": 1485858058,
+ "signs": {
+  "1JtVjiuh8wNNNS63aMT7sxjZx5jLtqGw4N": "G+hBvteSv1LSrP5WE6CXnqWriTnMCr5sP3Y9ELPG0othm8AfQh/WRAjyjGvffo/tMeo/o5dwYf/zVYycEZ0fn1A="
+ }
+}

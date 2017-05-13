@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HMmhjfjol3EJp/3vnA97qV+5Y6EpVS1AJBum6MLEvpwtLlM/xhC7fhVwqCxOWyMRTQHcmeos+SIMwXY+WLxIGHc=",
+ "cert_user_id": "donaldtramp@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "5e9d42f2ad527d26b9632cd14163c9e35ff8332659b926132e8cba03793e3c70",
+   "size": 481
+  }
+ },
+ "inner_path": "data/users/1AkjEyx5ntypmrPYqc9DeikVFEpBvxnHXA/content.json",
+ "modified": 1482690297.103945,
+ "signs": {
+  "1AkjEyx5ntypmrPYqc9DeikVFEpBvxnHXA": "G33ecNnB34tF0xreb2L1FaM9TrKrlpUABr3kfuKuFhwtXgQ3Hc9rrtND+rWBMO8kfQBxZNPJjV24Ii0IBG8IsbU="
+ }
+}

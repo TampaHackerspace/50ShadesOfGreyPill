@@ -1,0 +1,80 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "KopyKate v1.3.1 BETA (YouTube/Netflix alternative for ZeroNet) - UPDATE!",
+			"body": "**KopyKate v1.3.1 BETA - UPDATE**\n&nbsp;\nZeroNet link: http://127.0.0.1:43110/kopykate.bit/\nFor viewing outside of ZeroNet: http://kopykate.ga/\n**New features:**\n- Enhanced mobile page view (mobile only works on android!)\n- All the newest major 2016 DVD releases uploaded\n- Improved uploader + Video tutorials!\n- Improved video player layout",
+			"added": 1491621062
+		},
+		{
+			"topic_id": 2,
+			"title": "Are ZeroNet proxies illegal?",
+			"body": "Is it illegal to host a ZeroNet proxy on a VPS, if it has the potential to load torrent sites?",
+			"added": 1491629037
+		}
+	],
+	"topic_vote": {
+		"29_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"1_1ATpj32EgvgApKTmBq1KiY62B5UjzfSRJS": 1,
+		"2_12JNkg22um5nYeLgK8XgKavpivuwjrfHAy": 1,
+		"2_1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b": 1
+	},
+	"next_comment_id": 9,
+	"comment": {
+		"10_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 1,
+				"body": "**UPDATE:**\n**- Added new TV show BrainDead. All past episodes are currently being encoded for online streaming. Once it's finished, new episodes will be added as soon as they're released.**\n**- Improved seeding of KopyKate torrents thanks to additional software testing.**",
+				"added": 1481437681
+			},
+			{
+				"comment_id": 2,
+				"body": "Up+dated. ;)",
+				"added": 1482717712
+			}
+		],
+		"1_1PvAednzaMJiuMz1SD5wF3m3Hx7SK75zHv": [
+			{
+				"comment_id": 3,
+				"body": "Hi there ;)\nFYI - I've just uploaded my torrents to a seedbox, so they're now available 24/7. Any torrent submitted by Kopyjane or Kopykate will be web-seeded.\n\nA big problem we have is that **people are too lazy to seed..** they just expect others to do all the seeding. And because we can't borrow any peers from BitTorrent clients, we kinda have to start from scratch.\n\nSo the solution is to use HTTP web-seeds as a temporary backup, at least until the site goes viral. In fact, every time you stream the videos - you are simultaneously seeding them .. so the more viewers we get, the better.\n\nSite is also available at  http://kopykate.ga/ .. which will Forward the link to a ZeroNet proxy. \n\n**REGARDING UPLOADING - Because this is not YouTube.com, videos need to be seeded by the user in order to play. Don't close the tab of the Upload page until you've added your magnet link to the Webtorrent Desktop client. Use the x264 and AAC codecs because we can't encode on your behalf, as this is not a webserver.**\n\n**REGARDING WEBRTC - It will not work in Tor browser. It will NOT reveal your IP address IF you are using a VPN. Cheers!**\n\n**And last but not least; The whole purpose of using ZeroNet + WebTorrent magnet links is to maintain a database of torrents that cannot be shut down by authority.**\n\nEnjoy ;)",
+				"added": 1488668288
+			},
+			{
+				"comment_id": 5,
+				"body": "> [testuser789](#comment_9_1PvAednzaMJiuMz1SD5wF3m3Hx7SK75zHv): OH YEAH ! Oh yeah! OH YEAH, FOLKS ! It works! Now on Kopy Kate OFFICIAL I've managed to do streaming down and uploading videos ! Fucking great. And as always: Once you've managed it, it doesn't appear that hard ;) Here's how I've done upload on Kopy Kate OFFICIAL:\n> \n> Using firefox browser - new, private window (before making sure webRTC is on by config:about - media.peerconnection.enable 'true')\n> Going on Kopy Kate OFFICIAL - http://127.0.0.1:43110/1aCq7GiJfUfGZ4GftjYaYbsEngPFzcxvN/\n> right click on \"+ Upload new video!\" and open new tab with it\n> Under \"Upload .mp4 file:\" click on \"search\", look for the video you want to upload and confirm with \"ok\"\n> Type in Title, description, look online fore a nice pic of your video and copy its link and paste it in the respective field, choose the video category\n> Left-click, hold, drag & drop the \"magnet link\" into your WebTorrent.desktop - here's a screenshot how it looks like: https://abload.de/img/kopykateofficialuploa9ekiu.png\n> wait until WebTorrent.desktop is done with loading\n> Then on the upload page of Kopy Kate OFFICIAL click on the \"add video\" button\n> \n> THAT'S IT !!! SUCCESS !!! You can tell by yourself when you visit Kopy Kate OFFICIAL after the upload, see your video in the list, click on it and then on Kopy Kate OFFICIAL you'll see how your video is being streamed down and has at least 1 peer.\n> Ah, and here's the link of my first successful video upload: http://127.0.0.1:43110/1aCq7GiJfUfGZ4GftjYaYbsEngPFzcxvN/?Topic:6_1PvAednzaMJiuMz1SD5wF3m3Hx7SK75zHv/Reclaim+your+freedom+with+free+libre+software+now+Richard+Stallman+of+Free+Software+Movement\n> When I find the time for it, I will re-shape my starting posting here to be more like a tutorial...\n\nYour computer must be switched off right now? :p\n\nI'll have to do a tutorial on how to create a Webseed, as well. Of course, it's only a matter of adding ' &ws= ' to the end of your magnet link and then adding a HTTPS:// link to the exact same file that the torrent contains, but stored inside a webserver.. then previewing this magnet link in Instant.io, downloading the resulting .torrent file .. and uploading the torrent file into the same folder as the original .mp4 you have on your webserver. Of course, this can still confuse a lot of people .. \n\nYou can actually use Dropbox to create webseeds. At least, until they fix the exploit which allows you to create direct links by using the dl.dropboxusercontent.com domain. \n\nI'm using a VPS for my seedbox and it's got about 200GB storage, for $9 a month (6 USD). So .. it could fit about 220 movies.. or 500-700 TV-show episodes. And I'm friends with the owner of the VPS provider.\n\nWhat I like about it is that I can just go to a friend's house and then just stream the movies I want instead of carrying a USB drive or installing uTorrent on their computer.. so it kinda benefits me as well. :p",
+				"added": 1488744850
+			},
+			{
+				"comment_id": 7,
+				"body": "> [kaffie](#comment_244_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): I've tried a few times now and I can't manage to get webseeded torrents to actually play properly. The only way it ends up working is if I open webtorrent desktop, let the page 'find' the peers, and then close webtorrent desktop and let the page download from the webseed. But of course that defeats the whole point of having them webseeded in the first place.\n> Edit: Figured it out. KopyKate auto-filled the magnet link and using the magnet doesn't seem to work, but pasting in the link to the .torrent (like I did originally to load the upload page) allows the video to be webseeded properly. Sweet. Time to upload some videos :3\n\nI'll create a video tutorial soon. :-)",
+				"added": 1488831946
+			}
+		],
+		"1_1ATpj32EgvgApKTmBq1KiY62B5UjzfSRJS": [
+			{
+				"comment_id": 4,
+				"body": "Humanity will destroy itself.\nLight up, crack that beer open . . and at least learn to enjoy the show.",
+				"added": 1488687489
+			}
+		],
+		"2_12JNkg22um5nYeLgK8XgKavpivuwjrfHAy": [
+			{
+				"comment_id": 6,
+				"body": "Apparently Kim Dotcom was going to create a platform that facilitates easier bitcoin micro-transactions .. but of course, with all the legal burdens that are piling up on him as we speak .. progress has no doubt gotten a bit slow.\n\nhttp://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11786023",
+				"added": 1488791842
+			}
+		],
+		"2_1165u6pt5mQNFjyhMVwy6azB7bZuQGLA9b": [
+			{
+				"comment_id": 8,
+				"body": "Still not as crazy as YouTube commentators.",
+				"added": 1491887729
+			}
+		]
+	},
+	"comment_vote": {
+		"9_1PvAednzaMJiuMz1SD5wF3m3Hx7SK75zHv": 1,
+		"244_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1
+	}
+}

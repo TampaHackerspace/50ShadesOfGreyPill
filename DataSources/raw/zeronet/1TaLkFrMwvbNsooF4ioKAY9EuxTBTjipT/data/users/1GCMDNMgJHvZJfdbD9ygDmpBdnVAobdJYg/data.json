@@ -1,0 +1,282 @@
+{
+	"next_topic_id": 8,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "1MagneTS  for TV Torrents is back",
+			"body": "I've been away from ZeroNet but have come back and brought back [the 1MagneTs TV Torrent](http://127.0.0.1:43110/1MagneTSMMkNmJTMsTGJtfuNsqGjzzXgQv) site. I like the recent ZeroNet changes. It looks really nice.",
+			"added": 1456888444
+		},
+		{
+			"topic_id": 3,
+			"title": "GIF Time - Download and distribute files",
+			"body": "The sidebar in the GIF TIme site has a section for \"Optional Files\". What is this? Is it for seeding the GIF content? Is there documentation on this somewhere?\n\nThere's a slider for \"Download and distribute files\" which is off. If I turn it on when I hide the sidebar then show it again it shows as off again. How do you turn it on?",
+			"added": 1457004522
+		},
+		{
+			"topic_id": 4,
+			"title": "TV Episode zsite updated with files stored in Freenet",
+			"body": "I've updated the [TV Episode](/tvepisodes.bit) zsite to download the episodes via bittorrent and upload them into Freenet. The Freenet key is displayed on the site if one is available for the torrent. This provides a decentralized and anonymous method of retrieving the episode without using bittorrent.\n\nI posted [about it on my blog](/1KjvahynCGKAqGhQKyuHiiXCELUffmC7f4/?Post:7:TV+Episode+Freenet+Links+Available) if you want extra details. Another option might be to create a zsite just for the torrent and put the files there as 'optional' files so they don't automatically get shared. I'm not sure ZeroNet would work well for sending large files between peers even if they are optional though.",
+			"added": 1458959209
+		},
+		{
+			"topic_id": 5,
+			"title": "Large file sharing with IPFS is not anonymous",
+			"body": "I've seen discussion on using IPFS for sharing large files in Zeronet. The problem with IPFS is it is not anonymous. It does not have Tor suport. There is [discussion on it](https://github.com/ipfs/notes/issues/37) but no working solution yet. You can find the IP address of anyone pinning content with a given hash with an `ipfs` command.\n\nThis is one of the reasons I use [Freenet](https://freenetproject.org/) for sharing large files in the [tvepisodes.bit](http://127.0.0.1:43110/tvepisodes.bit/) site. It's slower but works well for large file downloads and is anonymous.\n\nIdeally  a solution built in to ZeroNet would be better.",
+			"added": 1466920631
+		},
+		{
+			"topic_id": 6,
+			"title": "tvepisodes.bit is now using RARBG as the source for new magnet links",
+			"body": "I've switched [tvepisodes.bit](http://127.0.0.1:43110/tvepisodes.bit/) from using eztv.ag to rarbg.to and updates have resumed. New files continue to be inserted into freenet for anonymous downloading.",
+			"added": 1474778903
+		},
+		{
+			"topic_id": 7,
+			"title": "TV Episodes Magnet Listing plus Freenet Inserts",
+			"body": "[tvepisodes.bit](http://127.0.0.1:43110/tvepisodes.bit) has a list of TV episodes and their magnet hash plus some of the files inserted into Freenet for completely anonymous downloading.",
+			"added": 1491984456
+		}
+	],
+	"topic_vote": {
+		"1_15zfQw1PPLNRYGUtuzTj1LN5hX6K24rUnY": 1
+	},
+	"next_comment_id": 39,
+	"comment": {
+		"14_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 1,
+				"body": "From reddit.",
+				"added": 1456889015
+			}
+		],
+		"1_15zfQw1PPLNRYGUtuzTj1LN5hX6K24rUnY": [
+			{
+				"comment_id": 2,
+				"body": "> [kaffie](#comment_14_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): This is already the case though. There's no way to actually register a .bit domain for use with zeronet without diving into the whole namecoin thing and learning how that works. Right now I'm in the middle of downloading the entire namecoin block chain simply so I can attempt to register a domain. On top of that, I still need to figure out how to get namecoin, since it's not exactly clear.\n\nPost a namecoin address and I'll send you enough coins to get a name. Same for anyone else who wants one. If you want you can zeromail me at cannonfodder and I'll register the name set to the site address you want. When/if you get namecoin installed I'll then transfer you the name.",
+				"added": 1456911897
+			},
+			{
+				"comment_id": 3,
+				"body": "> [gundam](#comment_4_17z5FGPZEN2L6xMFDT5n4YTKvPivJfiuSG): I'll take you up on your kind offer, just sent you a mail there :)\n\nMail received. I sent you some coins.",
+				"added": 1456915063
+			},
+			{
+				"comment_id": 12,
+				"body": "> [cheese](#comment_1_1A6hcWNpQ9SSLoTTpuT19VsVQ6WCVRkyen): Hi, can I take you up on your offer?  I have sent you zeromail.  Thanks in advance.\n\nSure, I haven't received the zeromail yet though. Did you send it to [cannonfodder](/Mail.ZeroNetwork.bit/?to=cannonfodder)?",
+				"added": 1457006429
+			}
+		],
+		"1_1HUcb3CxEYsKmTbQcWtMfLrrThBgopC4ax": [
+			{
+				"comment_id": 4,
+				"body": "http://127.0.0.1:43110/tvepisodes.bit",
+				"added": 1456957575
+			}
+		],
+		"1_1KXwZN8yqqDZTL5kE8bkkaZKAk9VPAxNFT": [
+			{
+				"comment_id": 5,
+				"body": "> [muja](#comment_49_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr): Like this?\n\nFlappy bird! That's nice. There's also a [space invaders emulator](http://127.0.0.1:43110/1GamESVFyJfkmbxtcrLR2VX4m4VFmwyeRY).",
+				"added": 1456969714
+			}
+		],
+		"2_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 6,
+				"body": "`ulimit -n` should show you the limit for numbers of open files. You could try increasing that in the terminal where you run ZeroNet. I'm not sure how to do it system wide on Mac OS X.",
+				"added": 1456969859
+			}
+		],
+		"2_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg": [
+			{
+				"comment_id": 7,
+				"body": "> [antiphase](#comment_9_1NoRNknY1JbJ8nMdn88LwczyMDFnR1GtNw): On ZeroNet you're using everyone else's resources to host your site, so you don't need revenue. ;)\n\nIt still costs time and resources to write the site software, maintain the content, etc. A news site for example would have to have some way of employing staff to write and edit stories.",
+				"added": 1457003685
+			},
+			{
+				"comment_id": 8,
+				"body": "> [kaffie](#comment_27_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): Hands down the best thing about ZeroNet at the moment is that all the sites are independent little sites rather than giant bandwidth hogging corporate sites. I've honestly read more blogs and visited more random small info sites here than I have in the past few years on the regular net. It's just so easy to publish a site and have it seen by a few people.\n\nThat's how the web started too - I was there. Eventually ads will come if there's nothing else available and that's what I'd like to avoid.",
+				"added": 1457004669
+			}
+		],
+		"3_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg": [
+			{
+				"comment_id": 9,
+				"body": "I'm using Firefox 44.0 on Ubuntu Linux. Do I need to click the save button after changing the state of the \"Download and distribute\" toggle? If I click the toggle I get no error in the console. If I click save I get:\n\n    [ZeroBlog] Unknown command Object { cmd: \"wrapperPopstate\", result: Object }",
+				"added": 1457005444
+			},
+			{
+				"comment_id": 10,
+				"body": "> Sounds like a bug, what browser/os are you using? can you please check javascript console (F12) for error when you  try to enable it?\n\nI just tried in Chrome and it didn't save the state of the toggle either.",
+				"added": 1457005593
+			},
+			{
+				"comment_id": 13,
+				"body": "I did some more testing. The owner setting toggle doesn't work either. It toggles but the state isn't saved. However if I do the same on another system it works. This is using the same browser but newer Linux version. I'll try and narrow down the differences.",
+				"added": 1457068618
+			},
+			{
+				"comment_id": 14,
+				"body": "I manually added the key in sites.json and set it to true. It's now seeding the optional files and the toggle shows as on. I can't toggle it off from the UI. I'm guessing it's some package difference on Ubuntu 14.04 LTS.",
+				"added": 1457069197
+			},
+			{
+				"comment_id": 15,
+				"body": "> [nofish](#comment_406_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): There was a modification of the sidebar last night, please update your client to latest revision (you can do it using the version menu item on zerohello) and try again.\n\nI'm running the latest version from git - problem still exists. When I get time I'll try to narrow it down.",
+				"added": 1457087910
+			}
+		],
+		"1_1PeCNnnCzJoLGn8bfcAUsWydeiERdHwdLu": [
+			{
+				"comment_id": 11,
+				"body": "The date for this post seems to be in the future. That's why it's appearing above all the other topics. It's currently epoch `1457005824` but the time for this post is epoch `1457007283`.",
+				"added": 1457005848
+			}
+		],
+		"3_1PxoifFb2bXeMVcRE6T39Az8jSbhkpxpoY": [
+			{
+				"comment_id": 16,
+				"body": "This links to a site selling botnet code, not porn.",
+				"added": 1457135744
+			}
+		],
+		"7_17fgJ3tZjhM7HCkTkd5TWf2BLLWmhRKcXB": [
+			{
+				"comment_id": 17,
+				"body": "> [3x71nc7](#comment_21_1Q8iqH31cKCqynoJRxR2PfJhzQr8wHdiHr): I agree that at least imageboards like 0chan should have moderators who delete illegal content, not content they disagree with it. And there shouldn't be to many, maybe 3-4 around the globe. They also should be known in the community, so there is a certain level of trust.\n\nWhat's illegal? Do you mean illegal in the country where it's hosted? In ZeroNet it's hosted everywhere. Do you mean by the union of all laws that ZeroNet is hosted in? If so, that includes countries with very strict laws. Gif Time would be illegal.",
+				"added": 1457299875
+			},
+			{
+				"comment_id": 18,
+				"body": "> [3x71nc7](#comment_22_1Q8iqH31cKCqynoJRxR2PfJhzQr8wHdiHr): I meant content that is illegal internationally, child porn for example. Thats pretty much the only type of content i can think of right now. Everything else is fine i think.\n\nThe problem with using the word 'porn' is defining it is difficult but everyone seems to know what it is. By that I mean everyone has their own definition that is different from others. Is a naked 14 year old child porn? What if they are posing seductively? In some countries it can be, in others it isn't. What about drawings of child porn? Or fictional stories involving children? Again, in some countries legal, in others not.\n\nWhenever there is a censorship debate based on morals it seems to come down to \"Well, yeah, the type of thing I want to ban is obvious\". But it isn't. It's the edge cases where people disagree - that some want to ban and others don't - that fractures communities.\n\nThe nice thing about ZeroNet is creators of sites can define what they consider to be the line in the sand of censorship they want to take. Don't like it? Then don't seed their site and use another one. Or create one. I would like better options to prevent accidental seeding of content you find offensive. For example, not immediately seeding a site you visit, perhaps having a delay.",
+				"added": 1457305415
+			}
+		],
+		"5_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg": [
+			{
+				"comment_id": 19,
+				"body": "> [testingzeronet12](#comment_41_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): I am not sure what this means. Are you saying that they have stopped development of Zeronet?\n\nDevelopment hasn't stopped. The ZeroNet development blog is still updated with progress.",
+				"added": 1466981364
+			},
+			{
+				"comment_id": 20,
+				"body": "> [up4](#comment_37_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): What it means is: I think the time has come for a fork that is interoperable with the reference implementation. Even if it is just a \"safety\" measure against what is currently a centralized development effort. Ask yourself these questions: what if (God forbid) something happens to nofish ? What if he gets bored ? How about trying different approaches and have the best one win organically ?\n\nIf nofish stops developing the project is open source so anyone can continue the development.",
+				"added": 1466981424
+			}
+		],
+		"1_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 21,
+				"body": "I've been running [tvepisodes.bit](http://127.0.0.1:43110/tvepisodes.bit) for listings of TV torrents/magnets. I also insert many of the TV episodes into Freenet and provide the keys for fully decentralized and anonymous file downloads. Unfortunately I sourced from kat.cr so I'm looking for a new source now. It shows the concept of a ZeroNet hosted site is workable for magnets.",
+				"added": 1469099898
+			},
+			{
+				"comment_id": 22,
+				"body": "> [quarkgate](#comment_4_12GC9MQGPcN7PiMoRYVyZX66PnQjZKUpf2): This is quite impressive. Thank you for your efforts. Have you tried sourcing from tpb?\n\nI'm looking for a new source at the moment and will be trying tpb, ettv, amongst others. Longer term I think I'll pull data from the bittorrent DHT directly as an additional source.",
+				"added": 1469340469
+			},
+			{
+				"comment_id": 23,
+				"body": "Thanks everyone for the suggestions. [tvepisodes.bit](http://127.0.0.1:43110/tvepisodes.bit/) is running again using eztv.ag as the source. I'll work on the interface and adding more sources in upcoming updates.",
+				"added": 1469353183
+			},
+			{
+				"comment_id": 24,
+				"body": "> [quarkgate](#comment_12_12GC9MQGPcN7PiMoRYVyZX66PnQjZKUpf2): But to say it's a scam. Well, I'd ask you to be more specific, how it is a scam?\n\nIt's a scam in that they are misrepresenting themselves as being the original eztv group. They aren't but they are gaining advertizing income from site with the torrents they are linking to. It's possible they are tracking IPs of users who go to the site. At least going through [tvepisodes.bit](http://127.0.0.1:43110/tvepisodes.bit/) they get no income and they get no IP tracking.",
+				"added": 1469670307
+			},
+			{
+				"comment_id": 25,
+				"body": "> [quarkgate](#comment_13_12GC9MQGPcN7PiMoRYVyZX66PnQjZKUpf2): It's not a matter of covering server costs, domains, etc. Which could probably be covered by donations anyway.And you might get to the point where you say to yourself, It's fine when you torrent shit for fun, everyone gets their media freely. But when someone becomes really rich off your sharing, are you still okay with it?\n\nYou would be very disappointed in the amount of donations received by sites. It's very difficult. You have to be like ad companies - putting the donation in peoples face, making the experience not so good for those that don't donate - to even get a trickle.\n\nGiven the potential downsides of getting caught I don't have a problem with the Kat founder making money.",
+				"added": 1469703357
+			}
+		],
+		"1_19GDcmuGz3D2epgu9k65yMY9WMYDG8eZCP": [
+			{
+				"comment_id": 26,
+				"body": "There's [tvepisodes](http://127.0.0.1:43110/tvepisodes.bit) for TV torrents. Episodes are also inserted into Freenet.",
+				"added": 1469949356
+			}
+		],
+		"1_13o2BgF1FL4bwNSGMVySUjQmKMMkj9vFTK": [
+			{
+				"comment_id": 27,
+				"body": "> [nosugarthanks](#comment_1_1Bd4j47rR3s67WdngGXfeN5GYRQHXDgwWM): http://127.0.0.1:43110/tvepisodes.bit/ is using kat.cr afaik (kat is dead)\n\nIt is using eztv as a source now.",
+				"added": 1470046037
+			}
+		],
+		"2_1LJLVfT9hKRuTHzBKTpse57PGfpwx82myR": [
+			{
+				"comment_id": 28,
+				"body": "Use [put.io](https://put.io/) over Tor. Pay using Bitcoin, or if that's not anonymous enough, use the anonymous currency [Monero](http://www.getmonero.org/) and pay via [xmr.to](http://xmr.to/) which converts your Monero to bitcoin and pays it for you.\n\nput.io lets you put in a magnet link, it torrents it and provides a download link for you. If the service has already torrented the link it'll make it available immediately.",
+				"added": 1470046408
+			},
+			{
+				"comment_id": 29,
+				"body": "> [necklace](#comment_1_1BxnfGNvTGZYvrGp6vf3zgKrowMKxh9PrY): Use a VPN, I've heard https://cryptostorm.is/ is good.Now I already knew that torrenting over Tor was a bad idea, but what about wget/curl -ing? A website should obviously be fine but what about larger > 25MB files?\n\nI wget/curl large files over tor all the time. It works fine.",
+				"added": 1470117858
+			}
+		],
+		"4_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 30,
+				"body": "> [testset](#comment_17_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp): \n> TV episodes is only for series, it lacks lacks the possibility of user contribution and a good search function. \n\nMy plan for [tvepisodes.bit](http://127.0.0.1:43110/tvepisodes.bit/) is to work on:\n\n* Search. I have most of the kat magnet hash list in a database. The site currently only pulls TV for the past two weeks from this. I want to enable search for the rest.\n* Make it look nicer.\n* Add .torrent files.\n* Enable commenting/user accounts.\n\nUser contribution of torrents is more difficult as it has overhead to check if they are valid.",
+				"added": 1470179728
+			}
+		],
+		"1_1DjUq8hd2jYZgc5uNhQEtWUVZjMHkMQkpU": [
+			{
+				"comment_id": 31,
+				"body": "[tvepisodes.bit](http://127.0.0.1:43110/tvepisodes.bit/) has TV torrents and inserts into Freenet for anonymous downloading.",
+				"added": 1470443901
+			}
+		],
+		"8_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 32,
+				"body": "Freenet",
+				"added": 1470443950
+			}
+		],
+		"1_18ZbdG9rMgLWzfFrWMkyGXtSv7MyPfUuSj": [
+			{
+				"comment_id": 33,
+				"body": "You can't - unless you're torrenting over a network designed for anonymity like I2P.",
+				"added": 1472375563
+			}
+		],
+		"5_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR": [
+			{
+				"comment_id": 34,
+				"body": "Just be aware that you are exposing your real IP address to the torrent network so you lose anonymity there.",
+				"added": 1472469524
+			},
+			{
+				"comment_id": 35,
+				"body": "> [zarty](#comment_12_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR): Ok, thanks everyone.  I think understand it now.  I decided to try out a seedhost in the cloud to handle the downloading. I just copy the magnet URL of the torrent from one of the zerotorrents, paste it via an https web page session onto the seed host and it handles the download.  I can then use sftp to get the downloads onto my client.  Sound secure?\n\nYes, as long as you trust the seedhost. You might want to always connect to the seedhost via tor and pay using Monero. Another approach is to use [put.io](https://put.io) over Tor.",
+				"added": 1472518984
+			}
+		],
+		"1_18bQkfM17covYY1Ha8JS6tgKv17bE3fE3v": [
+			{
+				"comment_id": 36,
+				"body": "http://127.0.0.1:43110/tvepisodes.bit/",
+				"added": 1473304162
+			}
+		],
+		"1_1EcTBTYsro4Vr5ea5NahkseWCK883quWM1": [
+			{
+				"comment_id": 37,
+				"body": "The problem with IPFS is it's not anonymous. You'll reveal your IP address if you pin content to be shared so it's no real improvement over bittorrent.",
+				"added": 1476943181
+			},
+			{
+				"comment_id": 38,
+				"body": "If you want to find out who is sharing content from IPFS you can run:\n\n    ipfs dht findprovs <hash>\n\nWhere '<hash>' is the key of the content. This returns a list of peer id's. From that you can get IP addresses:\n\n    ipfs id <peerid>\n\nThis returns all IP addresses on that peer - even private ones.\n\nHere's an example using an IPFS pic from ZeroBlog:\n\n    $ ipfs dht findprovs QmZij319iVYz9ZSMKtKhXvVkhYoEAxFFftcUvV5Ey6qR1J\n    QmSoLPppuBtQSGwKDZT2M73ULpjvfd3aZ6ha4oFGL1KrGM\n    QmbasknWNMUMmTQAJjbTv9nByGKao9F9KFH1PF5jJUpdzU\n    QmSoLMeWqB7YGVLJN3pNLQpmmEk35v6wYtsMGLzSr5QBU3\n    ...\n\n    $ ipfs id QmSoLPppuBtQSGwKDZT2M73ULpjvfd3aZ6ha4oFGL1KrGM\n    {\n\t    \"ID\": \"QmSoLPppuBtQSGwKDZT2M73ULpjvfd3aZ6ha4oFGL1KrGM\",\n\t    \"PublicKey\":     \"...\",\n            \"Addresses\": [\n\t\t\"/ip6/fc98:424c:b433:d7e2:7ee3:9541:73ff:2cdb/tcp/4001\",\n\t\t\"/ip4/104.236.179.241/tcp/4001\",\n\t\t\"/ip4/127.0.0.1/tcp/4001\",\n\t\t\"/ip4/172.17.0.1/tcp/4001\",\n\t\t\"/ip6/::1/tcp/4001\"\n\t    ],\n\t    \"AgentVersion\": \"go-libp2p/3.3.4\",\n\t    \"ProtocolVersion\": \"ipfs/0.1.0\"\n    }\n\nThese are just people sharing the content - either someone who has pinned it (maybe the IPFS pic service), or people browsing the image at that time. It looks like that particular peer is running Docker - the internal IP address of '172.17.0.1' is a docker bridge private address. From this you can see that information leakage is an issue.",
+				"added": 1476995980
+			}
+		]
+	},
+	"comment_vote": {}
+}

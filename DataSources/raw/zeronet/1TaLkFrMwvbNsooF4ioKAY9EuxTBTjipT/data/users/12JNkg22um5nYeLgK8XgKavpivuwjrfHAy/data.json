@@ -1,0 +1,132 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Can I use Zeronet without namecoin?",
+			"body": "Sure, the \"\"url\"\" will be a string of alphanum but I don't mind. I can make/host a website on zeronet without paying any namecoin right?",
+			"added": 1488640550
+		},
+		{
+			"topic_id": 2,
+			"title": "How should Bitcoin scale?",
+			"body": "In your opinion, how should bitcoin scale?",
+			"added": 1488640676
+		},
+		{
+			"topic_id": 3,
+			"title": "Can admin of site remove content from his website?",
+			"body": "I want to make a zeronet website but want to keep spam posters out. Can an admin remove such spam posts? Thanks.",
+			"added": 1488640728
+		}
+	],
+	"topic_vote": {
+		"33_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1
+	},
+	"next_comment_id": 17,
+	"comment": {
+		"2_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": [
+			{
+				"comment_id": 1,
+				"body": "Hello, this is my first comment to see if zero net works.  \n\nWell it depends on what you want to do. I personally prefer Linux as it is open source.",
+				"added": 1488639981
+			},
+			{
+				"comment_id": 2,
+				"body": "> [planespherev3](#comment_174_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS): Paying a lot so users are not a little puzzled. \n> I prefer to use open source and be a little puzzled.\n\nHaha, true. When one gets \"puzzled\" they truly get to know how things work.",
+				"added": 1488640027
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 3,
+				"body": "hello world. Can I know user stats? How many people use this site in a day?",
+				"added": 1488640064
+			},
+			{
+				"comment_id": 9,
+				"body": ":_",
+				"added": 1488641223
+			},
+			{
+				"comment_id": 10,
+				"body": ":-)",
+				"added": 1488641237
+			}
+		],
+		"1_17LQPJZz9sBC1besM5ZwKFKt9CmndJTjcA": [
+			{
+				"comment_id": 4,
+				"body": "Hello, I suppose there is a way to remove wrong content by the administrator?",
+				"added": 1488640113
+			}
+		],
+		"4_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [
+			{
+				"comment_id": 5,
+				"body": "Honestly doesn't make sense, why not just use zeronet?",
+				"added": 1488640176
+			}
+		],
+		"4_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t": [
+			{
+				"comment_id": 6,
+				"body": "Nice, hopefully interesting things to come :)",
+				"added": 1488640364
+			}
+		],
+		"1_1JHumjFpXMTtSgm1ygdHqsvL9321Z87NDc": [
+			{
+				"comment_id": 7,
+				"body": "Linux as OS.   \nUse Tor whenever possible.\nDisable all trackers/ads and use https everywhere when not using Tor (In tor it already does this).\nUse DuckDuckGo / startpage.",
+				"added": 1488640436
+			},
+			{
+				"comment_id": 12,
+				"body": "> [freemandave](#comment_2_19VooSAyz8sBqHyNQcDoq6o5Wa9uar4Hhc): I can understand android, but why did you list iOS? Apple is very conscientious about their user's privacy. They would've gone all the way to the supreme court to fight for user privacy if the FBI didn't chicken out.\n\nAhem, you think NSA doesn't already have a backdoor? Anyway I do use Apple, just for low key stuff though.",
+				"added": 1488713778
+			}
+		],
+		"32_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 8,
+				"body": "In my opinion, why a new browser? Why not create an \"brave\" extension in an open source borwser?",
+				"added": 1488640650
+			}
+		],
+		"1_12JNkg22um5nYeLgK8XgKavpivuwjrfHAy": [
+			{
+				"comment_id": 11,
+				"body": "> [nofish](#comment_894_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Nope, it's not possible. If you want a domain, then you have to register it using Namecoin.\n\nI don't want domain name, just the \"hash\", ( I don't know zeronet properly yet so forgive me).",
+				"added": 1488713696
+			}
+		],
+		"2_12JNkg22um5nYeLgK8XgKavpivuwjrfHAy": [
+			{
+				"comment_id": 13,
+				"body": "> [cnocg](#comment_4_1L34ssdxfxnnSFEoUmy48LocCxnVAHtqSV): zcash is a choice.\n\nIt has many problems.",
+				"added": 1488713842
+			},
+			{
+				"comment_id": 14,
+				"body": "> [hexkey](#comment_18_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF): These are the alternatives I can think of at the moment:\n> \n> A rolling blockchain/pruning, where a fixed amount of the last X transactions/ days are kept. Can also be set up so that storing more than the minimum is possible (and clients are rewarded for doing so).\n> \n> Whatever the hell MaidSafe is doing.\n> \n> Tangles: A new structure Invented by IOTAtoken. They're like a blockchain, but not strictly linear. The whitepaper is here.\n\nThanks, will check the links!",
+				"added": 1488713853
+			},
+			{
+				"comment_id": 15,
+				"body": "> [nyanloutre1](#comment_1_16DswuPUkkHtoGGMtCDGYewGRuPt6NWCfw): The most urgent would be to rise the max blocksize and then look for better alternatives\n\nSo do segwit now? 2mb.",
+				"added": 1488777941
+			}
+		],
+		"33_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 16,
+				"body": "For those who liked opera before, check out Vivaldi",
+				"added": 1488881646
+			}
+		]
+	},
+	"comment_vote": {
+		"8_12JNkg22um5nYeLgK8XgKavpivuwjrfHAy": 1
+	}
+}

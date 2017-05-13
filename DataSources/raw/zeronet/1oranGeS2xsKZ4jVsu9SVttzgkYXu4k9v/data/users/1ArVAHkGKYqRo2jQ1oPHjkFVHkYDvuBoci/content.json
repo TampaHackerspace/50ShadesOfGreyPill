@@ -1,0 +1,40 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G5ZyTPnP/Qs1YZbMh7SB2Y1MONUmAZLxZLLTLRRE3Yb7u90F+Fek6eMGog8DpHqax7fUSCYeox4VZjXQ5nCh3TI=",
+ "cert_user_id": "noti0news@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "ba6ee049c2c69c860acfe9bf42022fcced9c7d8c882ad271082040deab068fe4",
+   "size": 1586
+  },
+  "data.json": {
+   "sha512": "3694011c60830da49f77a4639d59c2dd368a2dba38ff035480f21f47a60c6c83",
+   "size": 23335
+  }
+ },
+ "files_optional": {
+  "1484396090.jpg": {
+   "sha512": "8df76057efddc5f6ad99affcaa16fa8ecd41acf7af350a29e43f50d2bc166219",
+   "size": 57685
+  },
+  "1484396121.jpg": {
+   "sha512": "31b13f476ea7bad031cfee4a51c0cd4404137ed5ebadcd4a0c4351a8cd6fd1a6",
+   "size": 67302
+  },
+  "1484397871.jpg": {
+   "sha512": "3749f12dded5797ad485a7035d11c4867337e7ffee1a114c2979582463911e24",
+   "size": 90775
+  },
+  "1484401344.jpg": {
+   "sha512": "e84938ecf606f943439e662ea02da506e16772c53b53ab15bea727ad001dcb05",
+   "size": 95644
+  }
+ },
+ "inner_path": "data/users/1ArVAHkGKYqRo2jQ1oPHjkFVHkYDvuBoci/content.json",
+ "modified": 1484585209,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1ArVAHkGKYqRo2jQ1oPHjkFVHkYDvuBoci": "G7ExneNAagfRL6ggUhGhPb/lsyK6k0t5p9vEynLBBLpdco4hJaxepBiJJEShni8kYp1BvkPKsaAL9K9BCziePqc="
+ }
+}

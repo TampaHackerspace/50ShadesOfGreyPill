@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HMwy9xBo8xqH5Dxustrp9sqvEbXOOxZiwv4XGb9Oo8mlXzJcLX5edER6P6lXZOYaMzRn41YF+awoW4AVJ4YJBqQ=",
+ "cert_user_id": "nicolaith@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "50c63943caa46bbbf09acc4f209747604f13134fe26b212a25169819b0f61132",
+   "size": 1617
+  },
+  "data.json": {
+   "sha512": "515490fdd8129ce209e24a729eb4bf94ac6c0d7fc243c291559bc126f0b6d51d",
+   "size": 578
+  }
+ },
+ "files_optional": {
+  "1480403104.jpg": {
+   "sha512": "6631ecf818793f12d56f52646f482cb444b4d1d49c78ee148f5ed9ae6c18fc09",
+   "size": 112922
+  }
+ },
+ "inner_path": "data/users/1EA2A9K7M1agtM6gE2MWtiF26dYcaSLbh/content.json",
+ "modified": 1483339865.07143,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1EA2A9K7M1agtM6gE2MWtiF26dYcaSLbh": "G5S0w8n/X9EhY4KrPpZT1NE0gWZP9iZ2ItlsvwVvGZ98DUZ8bgE2L3V4SqsmOUE0pf9Cregg6tn6q2a6WAwsw1s="
+ }
+}

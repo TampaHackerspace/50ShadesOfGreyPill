@@ -1,0 +1,1222 @@
+{
+	"next_topic_id": 6,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "mylock.bit – easy encryption",
+			"body": "[Unhosted](http://unhosted.org/) has quite a few [example apps](http://unhosted.org/apps/), some of which may run on ZeroNet.\n\nPlease meet [mylock.bit](/mylock.bit) (easy file encryption).",
+			"added": 1457860263
+		},
+		{
+			"topic_id": 2,
+			"title": "Notifications for Namecoin domain expiration",
+			"body": "I stumbled upon [namealert.mvps.eu](http://namealert.mvps.eu/). It looks good. However, I prefer something I can run on my own box — preferrably a commandline tool. Does anyone know of such a utility?",
+			"added": 1457862246
+		},
+		{
+			"topic_id": 3,
+			"title": "Would a non-RSA certificate work?",
+			"body": "What if I changed my Zeronet node's certificate from an RSA to, say, a secp384r1 elliptic curve certificate, would it still work?",
+			"added": 1467363393
+		},
+		{
+			"topic_id": 4,
+			"title": "Have reached limit of 50'000 on the Blue Hub, now what?",
+			"body": "I seem to have reached a limit of 50'000 on the Blue Hub (ZeroMe) — now what?",
+			"added": 1472135974
+		},
+		{
+			"topic_id": 5,
+			"title": "All ZeroVerse sites are officially obsolete",
+			"body": "I just had a minimal chat on IRC with Erkan Yılmaz, the guy behind all things ZeroVerse (e.g., ZeroVerse Mail and ID), and he told me that he is not using ZeroNet anymore. Around three months ago Erkan became very silent, but I hoped he had just gone to spend the summer in Turkey, or something. Instead it turns out he dropped out of ZeroNet. It's somewhat unfortunate, partly because some people were/are using his ZeroVerse ID+Mail services, partly because Erkan has squatted _a lot_ of zero*.bit domains, and of course also because Erkan had many good intentions for ZeroNet.\nWell, we can't force people how to spend their energy, so instead of moaning the fact that Erkan has left ZeroNet, let's try to be practical. I, for one, will stop seeding all of Erkan's zites and stop using ZeroVerse Mail+ID. I suggest you guys do the same. Erkan might donate his lot of .bit domains to someone, but I'm not going to hold my breath. If he doesn't (and if he doesn't choose to renew the registration) they'll expire in about 84 days and will be up for the grabs.\n\n/me hops off soapbox",
+			"added": 1472678260
+		}
+	],
+	"topic_vote": {
+		"5_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"6_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"9_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": 1,
+		"1_1JKjdEGjhxQxn7jAUM9kcHAqDEFF5TpxGQ": 1,
+		"5_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg": 1,
+		"6_13hcYDp4XW3GQo4LMtmPf8qUZLZcxFSmVw": 1,
+		"7_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_13G7h5b1e4Ch1vBfWvA4Nuttaqa8cf91W4": 1,
+		"5_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"3_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": 1,
+		"1_18bhKSvY452ovjqMjtwvCbb8SjzDvUvn6T": 1,
+		"1_1546FEZjAaS8Soy8Pzc6weXgbFTVAv84Vi": 1,
+		"4_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"1_1Buu3gEo6EcUijPE6dkSToaYzXKGnAgXFy": 1,
+		"1_1JpxTAYzGdJppaeg7xS7VmBaXZF9d94WRj": 1
+	},
+	"next_comment_id": 185,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "O mordo tua nuora, o aro un autodromo…",
+				"added": 1456685019
+			}
+		],
+		"1_19hZjnvGuFY2sB3nDpX6869nJgkXURTvxX": [
+			{
+				"comment_id": 2,
+				"body": "אני רוצה ללמוד עברית אבל אין אולפנים בדנמרק",
+				"added": 1457216867
+			}
+		],
+		"1_1EqRTFLe3aeLBGPMMqW7r8mFxLXuEhsCMm": [
+			{
+				"comment_id": 3,
+				"body": "A microblogging app",
+				"added": 1457366044
+			},
+			{
+				"comment_id": 4,
+				"body": "> [dadix4e](#comment_3_1EqRTFLe3aeLBGPMMqW7r8mFxLXuEhsCMm): I saw somewhere that developers are working on a social network on this platform which will be ready to test on a month\n\nCool! 👍",
+				"added": 1457368535
+			}
+		],
+		"1_1ArMJqDaBJqeJ4MX3VqSnkfwkHe23PtLrW": [
+			{
+				"comment_id": 5,
+				"body": "I tried to put ZeroNet behind a proxy but have problems with the websocket. How do I set up a reverse proxy? TIA!",
+				"added": 1457393191
+			}
+		],
+		"6_1Kg7CXZM5h3wTPENsTDwWUmRBf9VhYy2cW": [
+			{
+				"comment_id": 6,
+				"body": "I wonder if apps like the ones at https://unhosted.org/apps/ would run on ZeroNet?",
+				"added": 1457419419
+			}
+		],
+		"1_1LoYccWDeUavLo4g1zTbkqPn3EdBcquSYn": [
+			{
+				"comment_id": 7,
+				"body": "@akademic: please tell us how you do, perhaps we can ‘translate’ your configuration (I use [Caddy](https://caddyserver.com/)).",
+				"added": 1457454609
+			},
+			{
+				"comment_id": 23,
+				"body": "I tried the following for [Caddy](https://caddyserver.com/docs/proxy), but it doesn't work:\n```sh\nzeronet.example.com {\n  proxy / 127.0.0.1:43110 {\n    proxy_header Host {host}\n  }\n  proxy /Websocket 127.0.0.1:43110 {\n    proxy_header Host {host}\n    websocket\n  }\n}\n```\nI can see in the logfile that the browser attempts to GET HTTP 1.1:\n```sh\nzeronet.example.com/Websocket?wrapper_key=2948b…e9c28\n```\nbut Caddy barfs “400 Bad request”.\n\nAnybody?",
+				"added": 1457741561
+			}
+		],
+		"1_1DfCtyHHrhkEYTyTAPhqQprTD1pHYMtrXz": [
+			{
+				"comment_id": 8,
+				"body": "It's an obfuscated link to http://uploadkon.ir/fl/dd/83069 that I don't want to click on.",
+				"added": 1457544001
+			},
+			{
+				"comment_id": 10,
+				"body": "@pycole if you `unhexlify()` the contents of all the hex strings and join them, you end up with http://pastebin.com/a0zhj94j (not that it makes me any wiser).",
+				"added": 1457553955
+			}
+		],
+		"1_1PrEU3jo5aME6pebitM8DJ3Pm4KnsmzfpT": [
+			{
+				"comment_id": 9,
+				"body": "שלום",
+				"added": 1457544086
+			}
+		],
+		"1_1DHp9XeGd9EU3nm7h3Uf7BvxxiQsRUjmdJ": [
+			{
+				"comment_id": 11,
+				"body": "If you really expect somebody to help you, you need to give us much more details: Which operating system are you talking about? Windows, Linux, Mac, …? How did said person “enter your computer”? What kind of help do you expect from people here?",
+				"added": 1457554505
+			}
+		],
+		"2_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": [
+			{
+				"comment_id": 12,
+				"body": "http://127.0.0.1:43110/ZeroPolls.bit",
+				"added": 1457596699
+			}
+		],
+		"1_1DNC6AjsXjJkGS9Rnv6GYPqfNpMMFbU4cz": [
+			{
+				"comment_id": 13,
+				"body": "CryptonBits has a writeup ⌘ http://127.0.0.1:43110/1C5P1EcTZA6FDEg4w6SacfPjvSDCWmzeyt/?Post:6:Zeronet+Markdown+Cheatsheet",
+				"added": 1457621877
+			}
+		],
+		"1_1ATu1DyVH63v9TKZ8MGCQ61dLYpEVgBy9X": [
+			{
+				"comment_id": 14,
+				"body": "What happens if you stop Zeronet after cloning, change CSS and HTML as needed, then sign the changes before starting Zeronet again?",
+				"added": 1457624133
+			},
+			{
+				"comment_id": 15,
+				"body": ":)",
+				"added": 1457624242
+			}
+		],
+		"1_1Nm5x2LqGhYyMnfyPfBdywyvX9R2FUPrfj": [
+			{
+				"comment_id": 16,
+				"body": "You could ask [Bwoi](http://127.0.0.1:43110/bwoi.bit).",
+				"added": 1457642588
+			}
+		],
+		"3_1LJMypJ67iEBwah82xwVVdB8SGZ1mwqgHQ": [
+			{
+				"comment_id": 17,
+				"body": "“No peers found”…",
+				"added": 1457692728
+			},
+			{
+				"comment_id": 18,
+				"body": "Got it now, thanks!!",
+				"added": 1457693422
+			},
+			{
+				"comment_id": 19,
+				"body": "> [ks](#comment_18_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx): Got it now, thanks!!\n\nExcept it cannot find `content.json`.",
+				"added": 1457693888
+			},
+			{
+				"comment_id": 20,
+				"body": "I got it this time, and I am seeding.",
+				"added": 1457695932
+			}
+		],
+		"1_1BQg5MQZ63aEQZMzLEXP6yY3hsgznKpaps": [
+			{
+				"comment_id": 21,
+				"body": "ArchLinux here, too!",
+				"added": 1457700162
+			}
+		],
+		"2_1FieP4c1gxFme5webFJB9x5ZPBXdR6p3Fs": [
+			{
+				"comment_id": 22,
+				"body": "I bought NMC with BTC on shapeshift.io just a few days ago. And I can choose BTC→NMC on Shapeshift right now.",
+				"added": 1457727179
+			}
+		],
+		"1_1LSqcdgCBoUofD1han9nyX37DHPvZRon3H": [
+			{
+				"comment_id": 24,
+				"body": "Basically you could just `python2 zeronet.py siteCreate` in the ZeroNet folder, then make your changes and sign the new contents with `siteSign`. Look at the sidebar in the ZeroBlog site.",
+				"added": 1457820380
+			}
+		],
+		"1_18sw1reMFB1fpxc4vjfjoCrLaFs8UbMeQH": [
+			{
+				"comment_id": 25,
+				"body": "From a purely experimental view it would be interesting to see a world with Donald Trump as president and Sarah Palin as vice-president.",
+				"added": 1457870614
+			}
+		],
+		"3_14gsmmDALpphFSCB6nM57HtfPsGckNpjZE": [
+			{
+				"comment_id": 26,
+				"body": "PLAY ought to be expanded with a music section. ;)",
+				"added": 1457898507
+			}
+		],
+		"3_1MahZJTzjoEMMCv2jBReDWhyNGRhN5tvDq": [
+			{
+				"comment_id": 27,
+				"body": "The [domain name specification](https://wiki.namecoin.org/index.php?title=Domain_Name_Specification#Name_field) says “Name is a lowercase string, which begins with d/, followed by the domain name.”",
+				"added": 1457948562
+			}
+		],
+		"5_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": [
+			{
+				"comment_id": 28,
+				"body": "It's a bit confusing: on ZeroTalk boards links are red. However, on ZeroWiki non-existent links are red.",
+				"added": 1457974939
+			}
+		],
+		"10_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx": [
+			{
+				"comment_id": 29,
+				"body": "And/or refer to a FAQ section in the [ZeroWiki](/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/).",
+				"added": 1458052226
+			}
+		],
+		"6_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 30,
+				"body": "Caveat: I'm not a ZeroNet developer.\n\nAs it stands, ZeroNet only works with IPv4 addresses and so it cannot currently work with a mesh network like hyperboria / cjdns that uses fc00::/8.\n\nPerhaps [Zerotier](https://www.zerotier.com/#try_zerotier) could play a part? I have used it successfully for interconnecting my VPSes.  In the default setting it only allows 10 nodes if the node announcement is to be taken care of by ZeroTierOne, but the software is open source so it should be somewhat easy to set up controller nodes.\n\nBest thing would be a fully decentralized and auto-discoverable mesh network, though. Are there any such beasts out there?",
+				"added": 1458115139
+			},
+			{
+				"comment_id": 31,
+				"body": "Last [Byzantium commit](https://github.com/Byzantium/Byzantium/commits/master) was 1½ years ago, and their [last blog entry](http://project-byzantium.org/byzantium-v0-5b-hybrid/) is even older: it dates back to July 2013. He's dead, Jim. 😵",
+				"added": 1458162262
+			}
+		],
+		"12_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx": [
+			{
+				"comment_id": 32,
+				"body": "At a first glance it looks good. However, I'm a bit sceptical — but I hope someone can put me into shame…\n\nBlockstack is the technology behind [Onename](https://onename.com/). Register a name there, and you get `yourname.id` as your identity/domain. Now, I'd forgotten that I had already registered an ID there, and some of the data ) entered at that time were obsolete and I updated the whole thing. This is now 36+ hours ago and the changes are still not reflected on the blockchain (i.e., if I `blockstack lookup ${MYID}.id` I still see the obsolete data).\n\nAs it stands, I cannot know whether delay is caused by onename.com or the blockstack technology, but we have all seen the outrageous time it takes to have a transaction included in the blockchain these days, so my suggestion is that blockstack/onename.com should have chosen another blockchain to ‘host’ their data.\n\nI hope someone has more info about the inner workings of this technology.",
+				"added": 1458208789
+			},
+			{
+				"comment_id": 33,
+				"body": "> http://blog.namecoin.org/post/130158040415/onenames-blockstore-is-much-less-secure-than\n\nA long and interesting read. Thanks, Erkan.",
+				"added": 1458209828
+			},
+			{
+				"comment_id": 34,
+				"body": "And then there's [EmerCoin](http://emercoin.com/EMCDNS_and_NVS), that seems to be built for such things. However, Microsoft seems to be deeply involved in that coin — that's a bad sign.",
+				"added": 1458237548
+			}
+		],
+		"1_1Da4ebREvCs4FX8pME6HGhuS8yqMHvPw8r": [
+			{
+				"comment_id": 35,
+				"body": "> I would like to set-up a website using TiddlyWiki\n\nI think it will be hard to save to changes — you will most likely be prompted with a requester that asks you where you'd like to save the resultant file.\n\n> 127.0.0.1:43110/1g9s2eptrshvmmxar1egengcbl9wdeqfaa\n\nZeroNet links are actually Bitcoin addresses, and as such they're case-sensitive. It's impossible to open the link you gave us as long as it's all lowercase.",
+				"added": 1458248574
+			},
+			{
+				"comment_id": 36,
+				"body": "That said, a TiddlyWiki would be very welcome!",
+				"added": 1458249594
+			},
+			{
+				"comment_id": 37,
+				"body": "@teddyd\n\n> You might try to use MdWiki\n\nMdWiki seems to be a markdown viewer, not a wiki per se. Am I right? It's only possible to add pages by dropping `.md` files in its folder, and you can only edit the pages by editing the raw markdown loacally.",
+				"added": 1458271478
+			}
+		],
+		"7_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 38,
+				"body": "If you're a subscriber, couldn't you go directly for the ${SITE_ADDRESS}/data/data.json file (at least when it comes to ZeroBlog zites)?",
+				"added": 1458294337
+			}
+		],
+		"7_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r": [
+			{
+				"comment_id": 39,
+				"body": "The pic shows 5 sites: ZeroName and New ZeroHello both with over 1800 peers, and Zero{Blog,Talk,Mail} with peer numbers in the range 655..799.",
+				"added": 1458471382
+			}
+		],
+		"9_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": [
+			{
+				"comment_id": 40,
+				"body": "What a nice idea! 👍\n\nThe site doesn't seem to be loading right now (the “no peers” thing), but perhaps it will later. I have a question, though: will the Kopi site on Zeronet always reflect the latest Github release so that cloning the zite will give you the most up-to-date features?",
+				"added": 1458726335
+			},
+			{
+				"comment_id": 41,
+				"body": "Here we go. Five of my VPSes are now seeding the site.\n\nGood work!",
+				"added": 1458727238
+			}
+		],
+		"10_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7": [
+			{
+				"comment_id": 42,
+				"body": "@angristan however, it could very well be that at least parts of Zeronet is indexed because of the open proxies (if the crawler is able to do websockets). Here's what happens when archive.is meets Zeronet: https://archive.is/YqPUk",
+				"added": 1458744912
+			}
+		],
+		"6_18rFd7W9y5QGQEVXaCoJV7jyt7D8aN156h": [
+			{
+				"comment_id": 43,
+				"body": "Sure! Add something like this in a Zeroblog:\n\n![Something's waiting in the bushes of love](https://img.youtube.com/vi/RySHDUU2juM/0.jpg)",
+				"added": 1458766140
+			},
+			{
+				"comment_id": 44,
+				"body": "I have no idea, but I guess you could make it block everything except 127.0.0.1 — that should work.\nIt would be an interesting experiment.",
+				"added": 1458766890
+			}
+		],
+		"2_13BepSu3vkeSQB3ZWkCDg7Lu5w64tfpeTa": [
+			{
+				"comment_id": 45,
+				"body": "Only if you set {\"cloneable\": true} in the site's content.json file.",
+				"added": 1458820398
+			},
+			{
+				"comment_id": 46,
+				"body": "If you set “{\"cloneable\": false}” there will be no “clone” item for your site in ZeroHello. If said option is set to true, obviously people can clone the site in ZeroHello.\n\nI don't understand what you mean by “cloning the folder”.",
+				"added": 1458820752
+			},
+			{
+				"comment_id": 47,
+				"body": "Well, you can always create a new site with siteCreate, then copy stuff from an otherwise uncloneable site to the newly created site and the sign the contents, if that's what you mean.",
+				"added": 1458821196
+			}
+		],
+		"1_1JUpDSHYzrNk5idwwA5csnzJbcoB2zLUC4": [
+			{
+				"comment_id": 48,
+				"body": "See also [KOPI](/1KtzUsnmwc1Wr7KWWEGnWzmBSQoyH917Pz/).",
+				"added": 1458898105
+			}
+		],
+		"1_1Hz5zjZ6UfmEckdzBWxMFyYWMvBix3ABTZ": [
+			{
+				"comment_id": 49,
+				"body": "You can put anything you like on Zeronet. If other people like it, too, they will seed your stuff.",
+				"added": 1458923024
+			},
+			{
+				"comment_id": 50,
+				"body": "Zeronet will attempt to fetch the whole site with all its files, so the answer is yes.",
+				"added": 1458923880
+			},
+			{
+				"comment_id": 51,
+				"body": "> [shanth](#comment_4_1Hz5zjZ6UfmEckdzBWxMFyYWMvBix3ABTZ):  site owner can make all files \"optional\"\n\nI didn't know that was possible.",
+				"added": 1458931179
+			}
+		],
+		"2_1BDapygZHNG8GxEuSsEpK9Xipm9mFfW1F2": [
+			{
+				"comment_id": 52,
+				"body": "How does it NOT work in your case? And did you load the js in the <head/> or the </body>?\n\nThese two sites both use js:\n* http://127.0.0.1:43110/bitcoinqrcode.bit/\n* http://127.0.0.1:43110/bip32gen.bit/",
+				"added": 1459010913
+			}
+		],
+		"1_1NHQdXhX5sU4wz4EsknTwYrwcAVt8tCQhv": [
+			{
+				"comment_id": 53,
+				"body": "The blockchain based p2p microblogging app? If so: I left Twister about 1 month ago after having used it extensively for more than 2 years.",
+				"added": 1459218717
+			},
+			{
+				"comment_id": 55,
+				"body": "> Are you @kseistrup?\n\nYup! And I'm [not the only twistnik on Zeronet](/kappasigma.bit/?Post:21). :)\n\nDo you have a zite?",
+				"added": 1459248728
+			},
+			{
+				"comment_id": 57,
+				"body": "> [deafboy](#comment_21_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa): I'm just one of the non-creative content-consuming types :)\n\nFair enough. Welcome!",
+				"added": 1459278540
+			}
+		],
+		"3_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": [
+			{
+				"comment_id": 54,
+				"body": "http://127.0.0.1:43110/16WQegoxdJkiyBuTNUN4Qh3A99f1p2iCNd/\n\nZenPen ~ Minimal Distraction, Maximum Zen\n\nPorted to Zeronet from [www.zenpen.io](http://www.zenpen.io/).\n\nToggle fullscreen, invert colours, and set target word count don't seem to work quite as advertised, but writing, formatting, and saving does. It's been minimally tested, so don't use it for anything important.",
+				"added": 1459242084
+			},
+			{
+				"comment_id": 56,
+				"body": "> [exobyte](#comment_1_17pB9xXBseGh2pWwmPZDAKW1bVApf1wdi2):\n> And did you code all the nice animations yourself?\n\nI didn't code anything, I just cloned the original source from Github and adapted the HTML page and the fonts to Zeronet. Unfortunately I don't speak JS, so somebody else will have to do the keyboard shortcuts, but I agree that it would be a nice addition.\n\nBtw, what I really wanted was a Zeronet version of Litewrite or Laverna, but no matter what I do they won't work the way they're supposed to. It's probably a localStorage issue, but I'm unable to solve it.\n",
+				"added": 1459254772
+			}
+		],
+		"1_12YXQ7Mi4nWmAKfHytZqaLvKGp3kwi7MXi": [
+			{
+				"comment_id": 58,
+				"body": "If you're lucky, the zite admin has published his zeromail address or has a another way of being reached (e.g., one could look up the owner if we're talking about a .bit domain).\nOther than that I guess that indecency is a part of free speech, and the best you can do is to ignore stuff that offends you.",
+				"added": 1459279662
+			}
+		],
+		"1_1HHx8ndzv5HniuG3CHmBWJyXnBcnXgnShX": [
+			{
+				"comment_id": 59,
+				"body": "The last part is case-sensitive. There is both [/Stats](/Stats) and [/Benchmark](/Benchmark).",
+				"added": 1459495236
+			}
+		],
+		"1_1LfktQ7VL42sTNLScveXL3rpnwnNFjYJUn": [
+			{
+				"comment_id": 60,
+				"body": "What about it?",
+				"added": 1459523462
+			}
+		],
+		"6_16bxMyoL49mWYhcZKBYVBT5zEFW9SQpiao": [
+			{
+				"comment_id": 61,
+				"body": "How did you fail? You seem pretty clear on the filter criteria.",
+				"added": 1459532822
+			},
+			{
+				"comment_id": 62,
+				"body": "I would probably put the filter in the Python code, but I can't code in JS.",
+				"added": 1459533222
+			}
+		],
+		"1_18ZfPCaU1pYAeos3A7YhZVgtsmXqXeRRW7": [
+			{
+				"comment_id": 63,
+				"body": "> [nofish](#comment_585_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):  Later it could be swiched to blockchain based id, but it would require everyone to own/destroy bitcoins on registration, which is a bad idea at current state of project. (I also dislike this solution, but have not found any better yet)\n\nIf we use [signmessage() / verifymessage()](/kappasigma.bit/?Post:26) there should be no need to destroy bitcoins (although it will still cost some namepennies to register an ID).",
+				"added": 1459760306
+			},
+			{
+				"comment_id": 64,
+				"body": "> [nofish](#comment_586_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Destroying (or donating) bitcoin is required to have limit on user accounts, without it anyone would able to create many account at low costs.\n\nJust like any user can create an almost unlimited number of .bit domains, provided they take the trouble and pay for it.",
+				"added": 1459764323
+			},
+			{
+				"comment_id": 65,
+				"body": "> [nofish](#comment_587_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The user creation should cost much more, than domain creation (1000x+)\n\nOr you could just add another criterion: that a user id should have a certain number of confirmations before it's valid.",
+				"added": 1459769809
+			},
+			{
+				"comment_id": 66,
+				"body": "> [nofish](#comment_588_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It's only delays the user creation, but does not makes it any harder\n\nAnd that delay may be all that is needed to give site owners the time to block spamming IDs.\n\nPlus you could throw in some PoW (e.g., hashcash) if you want to make it harder.",
+				"added": 1459770764
+			},
+			{
+				"comment_id": 67,
+				"body": "If people want to cheat they're going to cheat, and we will fight back. But I believe that's a fight that can never be won.\nInsisting that people buy their usernames with bitcoin (or by burning bitcoin) will just leave out a lot of otherwise potential users.",
+				"added": 1459788726
+			}
+		],
+		"1_1553ESgsQifUjrsT9wcyG1iHt6MEXNK2sA": [
+			{
+				"comment_id": 68,
+				"body": "You could easily have provided us with a link, rather than having each one of us look it up.",
+				"added": 1459922738
+			}
+		],
+		"8_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": [
+			{
+				"comment_id": 69,
+				"body": "That happens to me if I click on a zite and navigate away from the page before the zite is fully loaded.\nI wouldn't worry.",
+				"added": 1460563886
+			}
+		],
+		"22_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx": [
+			{
+				"comment_id": 70,
+				"body": "@noiamo perhaps you could use the information on the [/Stats](/Stats \"Zeronet statistics\") page, possibly combined with files you find in the `data/1*` directories of your local Zeronet instance.\nYou cannot crawl other people's instances via their IP address.",
+				"added": 1460712051
+			}
+		],
+		"9_13dUD5qbY6LaXH9pfh5iDgXHgKjCZPxvZV": [
+			{
+				"comment_id": 71,
+				"body": "It should also be possible on IPFSTube: https://ipfstube.erindachtler.me/v/QmexFxbQ4mxieg2KiRSY3UqpeEC4p4mpHhJvQt8pcEoYyT",
+				"added": 1461156924
+			}
+		],
+		"9_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": [
+			{
+				"comment_id": 72,
+				"body": "[myLock](/mylock.bit/)\n\nOh, it's already there…",
+				"added": 1461276949
+			}
+		],
+		"52_1GtJqyJRsuZhmxVtw5USgvqGbUmVH7EmBD": [
+			{
+				"comment_id": 73,
+				"body": "Sometimes this happens to some of my zites if the title has a space in it:\n```pytb\n…/content.json load error: ValueError: Invalid control character at: line 139 column 18 (char 4589) in ContentManager.py  line 49 > __init__.py line 291 > __init__.py line 339 > decoder.py line 364 > decoder.py line 380\n```\nThe character pointed at is always a SPACE (ASCII 0x20) character.",
+				"added": 1461486506
+			},
+			{
+				"comment_id": 74,
+				"body": "> [nofish](#comment_615_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): it means the json file is invalid, you can get more detailed error using eg.: https://jsonformatter.curiousconcept.com/\n\nSaid JSON Formatter rates the given JSON file as “VALID JSON (RFC 4627)”, which is no surprise since the Python JSON module has no problems loading this file if I do it manually.",
+				"added": 1461487579
+			}
+		],
+		"23_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx": [
+			{
+				"comment_id": 75,
+				"body": "The site address is your public key. If you import the private key in a bitcoin client, the public key will appear on the list of bitcoin addresses.",
+				"added": 1461678619
+			}
+		],
+		"1_1KJstFfmFWuU4ttPJGMigZJgdn4gg2GZ1b": [
+			{
+				"comment_id": 76,
+				"body": "[Scaleway](https://www.scaleway.com/pricing/) has baremetal ARM servers for €3 (< $3.50) per month.",
+				"added": 1461709671
+			}
+		],
+		"1_16S7cvRVax2agHYdAcWDRicQdZXZ6PAhmt": [
+			{
+				"comment_id": 77,
+				"body": "👍",
+				"added": 1461746046
+			}
+		],
+		"27_1JHQA9oFkFpFFRiscyT4N71AKLWg46pQ92": [
+			{
+				"comment_id": 78,
+				"body": "How many characters per twist does Twister allow these days? I left Twister after 2+ years because the main developer didn't want to even think about increasing the max limit beyong 140 frakking characters..",
+				"added": 1462819792
+			},
+			{
+				"comment_id": 79,
+				"body": "> [chinanet](#comment_20_1MZ6f3V1cBuhNwzajMVPu8vb1wRt1p6dpt)\n\nThanks, mate!",
+				"added": 1462876065
+			}
+		],
+		"2_19arYgVKguUamTqtYGu6T9FSUsr19CyEcG": [
+			{
+				"comment_id": 80,
+				"body": "You should probably consider the username `nanasi` compromised since you have disclosed its private key.",
+				"added": 1462892456
+			}
+		],
+		"1_1AX8F6CWxs8RKafScjWUFs3hs1Z1QXEcj2": [
+			{
+				"comment_id": 81,
+				"body": "[Here](/1PLAYgDQboKojowD3kwdb3CtWmWaokXvfp/)",
+				"added": 1462898944
+			}
+		],
+		"1_1NhzhmkUZMUAYqNj2YsiC9pW97cqZGmPYB": [
+			{
+				"comment_id": 82,
+				"body": "Perhaps you could start by writing a little about yourself?",
+				"added": 1463071893
+			}
+		],
+		"1_1L4dZcDF2maSKHDy788yhxpYnBWnXadUtS": [
+			{
+				"comment_id": 83,
+				"body": "The first seeder will remain a peer for as long as they (1) keep their node online, and (2) don't delete (or pause) the zite from ZeroHello.",
+				"added": 1463581484
+			},
+			{
+				"comment_id": 84,
+				"body": "Just make sure your zite is popular/attractive so that people want to subscribe to it – then you're all set.\n\nAlternatively, you could rent a cheap VPS (Scaleway has bare-metal ARM VPSes for €3 per month), set up Zeronet on said VPS and let it seed whatever zites you have.",
+				"added": 1463590190
+			},
+			{
+				"comment_id": 85,
+				"body": "I believe I have an invite for Scaleway. If you're interested, PM me your email address in a zmail.\n\nArubacloud looks fine, though.",
+				"added": 1463595939
+			}
+		],
+		"2_1LY5srf6iJSafm2bZRvb9QdZdEEvC7kuUS": [
+			{
+				"comment_id": 86,
+				"body": "> [ancap](#comment_38_1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz)\n\nThere's also the [EarthNet initiative](/1NpNCPyBpZaGe9BdhuVAkwqVZXg8Hy7VB/), although I'm unsure how close it is to being useful.",
+				"added": 1463634909
+			}
+		],
+		"19_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ": [
+			{
+				"comment_id": 87,
+				"body": "The JSON for `d/zeroadmin` is invalid. The stuff should be enclosed in curlies:\n```json\n{\n  \"zeronet\": {\n    \"\": \"1PS42oyyb6Xi8CdsZcXMWRdc3TxyiVbHU3\"\n  }\n}\n```",
+				"added": 1464119663
+			},
+			{
+				"comment_id": 88,
+				"body": "Oh, and namecha.in supports TLS: https://namecha.in/name/d/zeroadmin 😊",
+				"added": 1464119832
+			},
+			{
+				"comment_id": 89,
+				"body": "That one has two SPACEs in the subdomain. It should be `\"\"`, not `\"  \"`.",
+				"added": 1464121764
+			}
+		],
+		"21_1P8VJL2iKWfUB4hqQkrFdXCbC8RrimAZoZ": [
+			{
+				"comment_id": 90,
+				"body": "It has already been indexed.",
+				"added": 1464186406
+			}
+		],
+		"1_1DqP4N3Nxp9RQQGuqrX5eCqE6t3gWNJXr": [
+			{
+				"comment_id": 91,
+				"body": "I'd say that you can change your local limit to whatever you need. Then it's up to your readers / seeders to accept the higher limit (they'll be prompted).\n\nYou can also make some or all of your files optional.",
+				"added": 1466597815
+			},
+			{
+				"comment_id": 92,
+				"body": "I don't know how it works if users are accessing the site through a proxy (since it's not their own storage), but they are prompted if they access zeronet directly.",
+				"added": 1466598599
+			}
+		],
+		"5_1JWy7zt6aDhpnDQ7fmsKUqNu8LzeoT1VRa": [
+			{
+				"comment_id": 93,
+				"body": "Not found",
+				"added": 1466659790
+			}
+		],
+		"6_178NSuZP2hH2vHhNX6vsHceh5sjPkDrLiH": [
+			{
+				"comment_id": 94,
+				"body": "In its current incarnation IPFS is primarily aimed at static content. And if you actually try it, you will find that IPFS is far slower at fetching files from its peers than Zeronet are. Also, its naming is not meant for humans (e.g., `/ipns/QmYsCYvMXHNtNwjnXu94UCMssaGE3iUd7AAwG5iKdMZ2vP/twtxt.txt`) and at the moment you can only have one name per peer, AFAIK.\n\nThat said, IPFS is an amazing piece of work and I look forward to see where it will go. I can also imagine that IPFS and Zeronet at some point will be able to complement each other so that IPFS could be used as sort of a backend for larger files to be served on Zeronet.",
+				"added": 1466843894
+			},
+			{
+				"comment_id": 95,
+				"body": "See also the thread [Large file sharing with IPFS is not anonymous](/Talk.ZeroNetwork.bit/?Topic:5_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg/).",
+				"added": 1466920780
+			}
+		],
+		"1_12xXVxkjN2oM6hwtzaSSJxAaiT7VW51VHQ": [
+			{
+				"comment_id": 96,
+				"body": "AFAIK, WhatsApp is using the same encryption as Signal: https://github.com/WhisperSystems/Signal-iOS/wiki/FAQ\n\nhttps://whispersystems.org/blog/whatsapp-complete/",
+				"added": 1467121814
+			}
+		],
+		"3_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": [
+			{
+				"comment_id": 97,
+				"body": "> [3x71nc7](#comment_24_1Q8iqH31cKCqynoJRxR2PfJhzQr8wHdiHr): […] everyone else in the network would try to interpret your certificate as an RSA certificate […]\n\nWould they? Isn't the certificate algorithm part of the certificate?",
+				"added": 1467389737
+			},
+			{
+				"comment_id": 98,
+				"body": "> [angristan](#comment_87_1MEWJRMLgvofqG9Mbsb2Rc4hFFyv7HeRx7): You mean your reverse proxy's certificate ?\n\nNope, I mean the certificate that Zeronet creates at every startup: `$data_dir/{cert,key}-rsa.pem`.",
+				"added": 1467402389
+			},
+			{
+				"comment_id": 99,
+				"body": "> [nofish](#comment_698_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): it should work if the remote peer also supports it.\n\nThanks!!",
+				"added": 1467441469
+			}
+		],
+		"2_1674XymFPbmAXh78xEpt3Pehtko6i2kvtA": [
+			{
+				"comment_id": 100,
+				"body": "> [sbsbsb](#comment_10_1AK1hfaXrnxZL8wPJ5x47HuGCM8BXRFUS4): http://freifunk.net/\n\nIt's even on HTTPS (and in English) ⌘ https://freifunk.net/en/",
+				"added": 1467543802
+			},
+			{
+				"comment_id": 101,
+				"body": "> [sbsbsb](#comment_12_1AK1hfaXrnxZL8wPJ5x47HuGCM8BXRFUS4): so they have to use zeronet instead of their website ?\n\nI didn't say that, I merely pointed out that Freifunk's website is also available over a secure connection — and in English. However, I believe that Freifunk works at a level under Zeronet: You could use Freifunk as the carrier of Zeronet, but you can't replace Freifunk with Zeronet.",
+				"added": 1467615559
+			}
+		],
+		"1_1APYdL14VpAq7uVutA49oEGAqPqQjRz6gJ": [
+			{
+				"comment_id": 102,
+				"body": "That limerick neither rhymes, nor scans. How about\n\nA charming young gay from Khartoum\nBrought a lesbian up to his room\n&nbsp;&nbsp;&nbsp;&nbsp;They argued all night\n&nbsp;&nbsp;&nbsp;&nbsp;As to who had the right\nTo do what, and in which way, to whom",
+				"added": 1467700986
+			},
+			{
+				"comment_id": 105,
+				"body": "> [up4](#comment_44_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): @ks : Yes please ! More !!!!!!!\n\nUnfortunately I'm not the poet of the limerick, I merely picked the first google knew about. I agree, though, it'd be nice to learn how the night ended…",
+				"added": 1467741766
+			},
+			{
+				"comment_id": 106,
+				"body": "> [up4](#comment_46_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): But seriously, are you kektopia ? Do you know he/she/it ? Why is the term \"fag\" even being used here ?\n\nNo, no, and I don't know.",
+				"added": 1467784317
+			}
+		],
+		"1_1Ci5Y4TxZwY1SQhvQR7Ttbdyyai4WRV5TU": [
+			{
+				"comment_id": 103,
+				"body": "I have a file, `/opt/zeronet/zeronetd`, that basically reads\n```sh\n#!/bin/bash\ncd /opt/zeronet || {\n  echo 'cannot cd to /opt/zeronet' >&2\n  exit 1\n}\nexec -a zeronetd python2 zeronet.py\n```\nand then a `ExecStart=/opt/zeronet/zeronetd` in the `zeronet.service` file. Works for me.",
+				"added": 1467718471
+			}
+		],
+		"3_1Ci5Y4TxZwY1SQhvQR7Ttbdyyai4WRV5TU": [
+			{
+				"comment_id": 104,
+				"body": "If the trackers mentioned in `src/Config.py` were all changed to internal trackers, my best guess is that you could use Zeronet internally only.",
+				"added": 1467740329
+			}
+		],
+		"4_1Ci5Y4TxZwY1SQhvQR7Ttbdyyai4WRV5TU": [
+			{
+				"comment_id": 107,
+				"body": "Although it's not very active, there's also the [ArchLinux forum](/1K7je8msjzcCrVyeGeA7C3zuaUQ9E9RfTf/) here on Zeronet.",
+				"added": 1467810686
+			},
+			{
+				"comment_id": 108,
+				"body": "> [installgentoo](#comment_1_1EB7wLmR8fZ3D9YmSBCFdjKSFYTEkELp4G): Install Gentoo.\n\nArguments?",
+				"added": 1467823694
+			}
+		],
+		"1_19MRauL2r1faz3DmPUxQgLvbgpFaVV4j28": [
+			{
+				"comment_id": 109,
+				"body": "There was a young schoolgirl named Claire\nWho possessed a magnificent pair;\n&nbsp;&nbsp;&nbsp;&nbsp;Or that's what I thought\n&nbsp;&nbsp;&nbsp;'Til I saw one get caught\nOn a thorn, and begin to lose air.",
+				"added": 1467834828
+			}
+		],
+		"1_1M4Q5nX7hVdm46GdfiCSLaKG2NuY52tcLy": [
+			{
+				"comment_id": 110,
+				"body": "> [neonet](#comment_2_15ATNsS6aHGvBg5xoMP94sXpNaLX4fSHjN): There are currently roughly 3000 people online, so […]\n\nWhere do you get that number from?",
+				"added": 1467986966
+			},
+			{
+				"comment_id": 111,
+				"body": "> [neonet](#comment_3_15ATNsS6aHGvBg5xoMP94sXpNaLX4fSHjN): From this proxy note the amount of seeds 0chan has, 2804 currently.\n\nInteresting. How come the number for 0chan on my node is lower?",
+				"added": 1467990425
+			}
+		],
+		"1_15JNF8bdyG4zEWVASsgbkFirzM6gyYpSBA": [
+			{
+				"comment_id": 112,
+				"body": "It seems EFF is working on a new version of their [instant messaging scorecard 🡕](https://www.eff.org/secure-messaging-scorecard).",
+				"added": 1468216949
+			}
+		],
+		"11_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 113,
+				"body": "I “never” use Telegram on the desktop, but I frequently find it useful on my mobile. Retroshare doesn't even have a mobile client, AFAIK, so comparing Telegram and Retroshare might be like comparing apples and bananas. That said, Retroshare does look interesting.",
+				"added": 1468240384
+			}
+		],
+		"8_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 114,
+				"body": "33.7 — and nofish doesn't seem to react on my zmail…",
+				"added": 1468300984
+			},
+			{
+				"comment_id": 115,
+				"body": "> [bot](#comment_50_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb): @nofish has been on holiday in south of Italy for couple of weeks.\n\nAh, that explains it. Thanks for letting me know!",
+				"added": 1468389721
+			}
+		],
+		"1_1Gtj7AdXhzMFUVVvFm2ZGCbTFdgNwdtuMn": [
+			{
+				"comment_id": 116,
+				"body": "Why not make a real [poll](/ZeroPolls.bit/)?",
+				"added": 1468556463
+			},
+			{
+				"comment_id": 117,
+				"body": "> [w1nst0nsreboot](#comment_5_1Gtj7AdXhzMFUVVvFm2ZGCbTFdgNwdtuMn): But perhaps for the better, since an poll-less thread may spark more conversation between the teams.\n\nSure, but if the thread gets long it will be difficult to get a feeling for how many people are supporting which team.\n\nAnyway, there's no harm done. :)",
+				"added": 1468557394
+			},
+			{
+				"comment_id": 118,
+				"body": "> [w1nst0nsreboot](#comment_6_1Gtj7AdXhzMFUVVvFm2ZGCbTFdgNwdtuMn): Perhaps I'll make a poll and then link to it here.\n\nThat's a damn jolly good idea! :)",
+				"added": 1468560837
+			}
+		],
+		"2_1PyYvEM7LSmfyykZPwinxYYcjr26u2cYcd": [
+			{
+				"comment_id": 119,
+				"body": "Is the executable bit set on `zeronet.sh`?",
+				"added": 1468561339
+			}
+		],
+		"3_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 120,
+				"body": "And tomorrow somebody else comes and says that he doesn't want porn or religion or love stories or biographies or whatever, and requests that we don't post anything like that.\n\nDude, it's fine that you don't like politics. But if people want to write their fingers off about politics you have no say in this. Just ignore the stuff you don't like and get on with your life. There's room for everybody here — and the pages are free.\n\nChill.",
+				"added": 1469104643
+			},
+			{
+				"comment_id": 121,
+				"body": "> [z3r0c00l](#comment_6_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9): Besides, who decides that my opinion is not \"OK\" if pages are \"free\"?\n\nYou can have all the opinions that you want, nobody's going to take them away. I was merely pointing out that what you want is not a viable solution. Today you want to get rid of politics, tomorrow somebody else will want to get rid of your opinions. That's just not the way forward.",
+				"added": 1469106399
+			},
+			{
+				"comment_id": 122,
+				"body": "Yes, and then somebody else will dislike your musings and suggest that you focus instead of more positive things. It's quixotic.",
+				"added": 1469108086
+			},
+			{
+				"comment_id": 123,
+				"body": "How about the right to say that Allah is a figment of the fantasy and therefor Mohamed cannot possibly be his prophet? Should I have the right to say that? And should I have the right — as an agnostic — to criticize any religion I feel like criticizing, and perhaps in particular, Islam? Perhaps your answer will be “Of course!”, but what if a horde of mulsims enter the forum — how would they feel about the subject? And if you and the muslims disgree, who should have the power or right to decide? I find it very arrogant of you that you can pop up out of the blue and think that you can decide what should be allowed or not be allowed on Zeronet.",
+				"added": 1469116083
+			},
+			{
+				"comment_id": 124,
+				"body": "> [z3r0c00l](#comment_18_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9): Maybe this is not the right community for me since I have different values. I don't support terrorists, I think that […]\n\nI think you are missing one very important thing about Zeronet: ZeroTalk is just one out of a great many sites and forums you can visit and subscribe to here on Zeronet. Instead of throwing the child out it the water, how about unsubscribing to the site/forums that you don't approve of (if you're not subscribing to them, you're not seeding them either, so your computer and your line will stay “clean”) and find some sites/forums that subscribe to viewpoints like your own? It's all about diversity.",
+				"added": 1469119277
+			},
+			{
+				"comment_id": 125,
+				"body": "None of our feelings have any rights. :)",
+				"added": 1469121192
+			},
+			{
+				"comment_id": 130,
+				"body": "> [captainplanet](#comment_3_1Ea7uVcuWTBiBAN1XCV7asaMaFBYPWbpAm): I like how this ended up as a politics discussion anyway.\n\nIt's a bit like the [Streisand effect 🡕](https://en.wikipedia.org/wiki/Streisand_effect).",
+				"added": 1469263088
+			}
+		],
+		"1_1N887kyEdRCmCTTow7Cp8JCNc1dCHQpWUJ": [
+			{
+				"comment_id": 126,
+				"body": "Works here: As soon as I start typing, results appear below the text input field. Have you disabled javascript, or something?",
+				"added": 1469178958
+			},
+			{
+				"comment_id": 127,
+				"body": "> [potatoluva](#comment_1_1N887kyEdRCmCTTow7Cp8JCNc1dCHQpWUJ): I've tried a few different machines and browsers now and nothing werks.\n\nPass…",
+				"added": 1469183173
+			}
+		],
+		"1_1GcHyprZfthQCYjj26euQ3K1XCDBdTagqY": [
+			{
+				"comment_id": 128,
+				"body": "Yeah, and it would be so cool if he had chosen Sarah “Markov Chain” Palin as vice-president. 😉 That would be the end of the world as we know it.",
+				"added": 1469199616
+			},
+			{
+				"comment_id": 129,
+				"body": "> [alu](#comment_3_1NDaizcxG6qvP2ytvbjFe7wxRZ9vRtJdXK): true but donald trump is still cool\n\nFor certain values of cool…",
+				"added": 1469204310
+			}
+		],
+		"1_1MoQouGNRCkWT3bzbSre87HLhp9525s6fA": [
+			{
+				"comment_id": 131,
+				"body": "[This thread](/Talk.ZeroNetwork.bit/?Topic:1_139X4c3WFVtmsEj6Vpdd74YY49ettpduKq/) was started some three weeks ago. There has also been a more recent, but I can't find it now.\n\n**_Update_**\nAh, it was on [another board](/0list.bit/?Topic:1_13z7ubxbWTuRXNoNi3mEEYtsVqdccp6rA2/)!",
+				"added": 1469276035
+			}
+		],
+		"1_1CSc14JKdGAQJfQsfCLrduhB6zU4oEMwBf": [
+			{
+				"comment_id": 132,
+				"body": "You can use e.g. [vanitygen 🡕](https://en.bitcoin.it/wiki/Vanitygen) to create a key pair of your liking. The public key is your site address.",
+				"added": 1469288897
+			}
+		],
+		"5_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9": [
+			{
+				"comment_id": 133,
+				"body": "Because of the raised awareness people have changed their habits.\n\nAnd mind you, not all people consider Snowden a traitor. Perhaps that is the general sentiment in the US, but I wouldn't be surprised if the majority of Europeans consider him a hero. I know I do.",
+				"added": 1469301982
+			},
+			{
+				"comment_id": 134,
+				"body": "> [z3r0c00l](#comment_31_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9): So basically nothing changed.\n\nI'm sorry, I don't buy your premises. My online habits have changed drastically post-Snowden, and I'm pretty sure the same goes for a huge number of people. So basically a _lot_ changed.",
+				"added": 1469304494
+			}
+		],
+		"1_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": [
+			{
+				"comment_id": 135,
+				"body": "+1",
+				"added": 1469340134
+			}
+		],
+		"1_1ZoUGtp8YwvCHZWR9mAxha5ksM4jCiof9": [
+			{
+				"comment_id": 136,
+				"body": "One should probably also ask if the original poster gains anything by using a referral link (`/r=58221`) or if the question is just clickbait.\n\nHere's an unadultered link: https://www.seedr.cc/\n\nFrom the [Seedr FAQ 🡕](https://support.seedr.cc/hc/en-us):\n\n> Currently there are 2 ways to increase your storage space:\n> **Upgrading to premium**\n> ⋮\n> **Bonuses for invitations and activities**\n\nThere you go.",
+				"added": 1469354454
+			},
+			{
+				"comment_id": 137,
+				"body": "> [zeromanty](#comment_5_1JhoC94eJV9b3oSf3TFVFTbFnPtFj26Q1C): yea I noticed that too\n\nOne could be tempted to say “Hey, clicking on a link doesn't cost anything — let's help each other get more storage by clicking referral links!”  The sad truth is, of course, that this is a pyramid scheme: referral bonuses ultimately only benefit those who enter the game at an early stage.",
+				"added": 1469355820
+			}
+		],
+		"3_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": [
+			{
+				"comment_id": 138,
+				"body": "You should make a [poll](/ZeroPolls.bit/).",
+				"added": 1469385648
+			},
+			{
+				"comment_id": 139,
+				"body": "> [silverstorm](#comment_3_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH): I don't see any pool option in ZeroTalk\n\nDid you try to click the word [poll](/ZeroPolls.bit/)?",
+				"added": 1469386831
+			},
+			{
+				"comment_id": 140,
+				"body": "> [silverstorm](#comment_4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH): If I click on the word pool I'm redirect to another page that doesn't show anything\n\nReally? I'm taken to http://127.0.0.1:43110/ZeroPolls.bit/ where I can create polls.",
+				"added": 1469387412
+			},
+			{
+				"comment_id": 141,
+				"body": "> [silverstorm](#comment_5_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH): I get a dark grey empty page\n\nHave you disabled javascript or are you using an obsolete browser?",
+				"added": 1469387816
+			},
+			{
+				"comment_id": 142,
+				"body": "Look at this pic: https://ipfs.pics/QmdhJxCT1EJrb3ZaQ63XZbyx4qzRfvHmxkCd64Z4kyZcpR",
+				"added": 1469387915
+			},
+			{
+				"comment_id": 143,
+				"body": "> [silverstorm](#comment_6_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH): My javascript and my browser are ok\n\nI guess the site doesn't wanna be seen by you, then. 😉",
+				"added": 1469390026
+			},
+			{
+				"comment_id": 148,
+				"body": "> [z3r0c00l](#comment_40_1CoVAt2jBzV4Na6nX3VG1JSfjS8fwse1Z9): Then this site is probably a cis white site...\n\nShould I conclude that you're trans black, then?",
+				"added": 1469610037
+			}
+		],
+		"1_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF": [
+			{
+				"comment_id": 144,
+				"body": "Banning individual users can be done in `zeronet/${data_dir}/${site_address}/data/users/content.json` — at least for some kind of zites (e.g., zites based on ZeroBlog). I don't quite see why it ought to be possible to ban “rogue sites”. If nobody seeds them their data won't be propagated. So if you don't like a zite, simply remove it from your seeding list.",
+				"added": 1469427112
+			}
+		],
+		"3_12GC9MQGPcN7PiMoRYVyZX66PnQjZKUpf2": [
+			{
+				"comment_id": 145,
+				"body": "The site owner can set the `cloneable` property to `true` or `false` in the site's `content.json` file.",
+				"added": 1469442606
+			}
+		],
+		"1_1CrZ12amN7v2uTf7p2E2ZSMDxLUdrmW1hy": [
+			{
+				"comment_id": 146,
+				"body": "As long as this includes an option to sort from worst to low rating, that's a good idea. Making a “best rated” option only seem to incur a self-fulfilling prophecy because the least rated tend to never get seen.",
+				"added": 1469443307
+			}
+		],
+		"1_1DSoqCXNkqv7yJNXiF6YoaeK2bW8BFt2gh": [
+			{
+				"comment_id": 147,
+				"body": "Zeronet is without any blocks whatsoever. But if you don't look at sites you don't approve of, you don't end up seeding content you dislike.",
+				"added": 1469550345
+			}
+		],
+		"1_1Kb4wAfZMYYdzW1Bng8uaVJtSLQXMdCsAB": [
+			{
+				"comment_id": 149,
+				"body": "Why don't you just post them here (or on your zite)?\nAnd btw, how can memes be rare?",
+				"added": 1469626396
+			}
+		],
+		"1_17Cs2auSHSVjKaYMXqbNMApRQrgXcwJUpL": [
+			{
+				"comment_id": 150,
+				"body": "There are several such boards, e.g.:\n* [ZeroMedia.bit](/zeromedia.bit/)\n* [ZeroChatIRC](/1CjR14fofbRJ54oj8A7rAfWpzpLawdP5uc/)",
+				"added": 1469956486
+			}
+		],
+		"3_1C6qdRAX8iYqSB7TfUxk91yW8Y2SBKNgfA": [
+			{
+				"comment_id": 151,
+				"body": "The social aspect will be better when the “merger sites” arrive…\n\nUntil then, you can subscribe to posts and comments (just click the “Follow in Newsfeed” button) on many, if not most, sites. Notifications are shown on [ZeroHello](/1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/).",
+				"added": 1470814795
+			}
+		],
+		"1_14x4EC7s5TqvtShMQy22xpj8ouVSmSNZY8": [
+			{
+				"comment_id": 152,
+				"body": "There's also [Hyperboria🡕](https://www.fc00.org/) (running on [cjdns🡕](https://github.com/cjdelisle/cjdns)).",
+				"added": 1470835098
+			},
+			{
+				"comment_id": 153,
+				"body": "> [chinanet](#comment_22_1MZ6f3V1cBuhNwzajMVPu8vb1wRt1p6dpt): twister has configurable post size now, default is 256 characters.\n\nThat's good news (although I doubt I'll return to [Twister🡕](http://twister.net.co/)) – thanks!\n\nI also haven't seen Erkan for quite a while. Perhaps he's in Turkey for the summer, who knows.",
+				"added": 1470838505
+			},
+			{
+				"comment_id": 154,
+				"body": "> [chinanet](#comment_23_1MZ6f3V1cBuhNwzajMVPu8vb1wRt1p6dpt): let's wait for ZeroMe\n\n👍",
+				"added": 1470841571
+			}
+		],
+		"18_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 155,
+				"body": "Try to insert this in your blog:\n```\n[![Morning Dew](https://img.youtube.com/vi/bUcszN8jRB8/0.jpg)](https://youtu.be/bUcszN8jRB8)\n```\nPS: You can always look inside another user's data directory on your own computer if you want to see the page source.",
+				"added": 1470859941
+			},
+			{
+				"comment_id": 156,
+				"body": "> [testingzeronet12](#comment_107_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN):  Is there anyway to have an embedded video player within the actual post with controls?\n\nI'm afraid I don't know…\n\n> Was the code you gave me HTML5?\n\nNope, it was two nested markdown tags. The syntax for a markdown link is\n```\n[Link text](http://example.com/ \"Tool tip\"]\n```\nTo insert an image you put a `!` in front of the markdown tag. Now you should be able to decode how the nested markdown tags is working.",
+				"added": 1470860556
+			}
+		],
+		"3_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": [
+			{
+				"comment_id": 157,
+				"body": "[ZeroMe on Github](https://github.com/HelloZeroNet/ZeroMe) seems like a good place to report bugs.",
+				"added": 1470922162
+			}
+		],
+		"1_1Mxv7my8HRBiVNRtiFaHrrbb11hmPqa6qL": [
+			{
+				"comment_id": 158,
+				"body": "Zeroverse is run by Erkan. He hasn't been seen for quite a few weeks, AFAIK. I'm unsure whether the bitmessage interaction is set up to be fully automatic.",
+				"added": 1471010572
+			},
+			{
+				"comment_id": 159,
+				"body": "That's indeed a problem and clealy shows why centralization of IDs is a very bad idea.",
+				"added": 1471017518
+			}
+		],
+		"1_16uoBqDu9HhAkUhjDyW69bNT9WMSd239MQ": [
+			{
+				"comment_id": 160,
+				"body": "https://wiki.namecoin.org/index.php?title=Register_and_Configure_.bit_Domains",
+				"added": 1471028755
+			}
+		],
+		"1_1AjxW1N844WRpscEFSotfsqLXsQurz83xc": [
+			{
+				"comment_id": 161,
+				"body": "In addition to `screen` there's also `tmux`:\n\n```sh\n$ tmux                            # start tmux\n$ cd …/zeronet                    # cd to the zeronet folder\n$ python2 zeronet.py              # start zeronet\n$ ^b d                            # detach from session\n```",
+				"added": 1471293044
+			}
+		],
+		"3_12yaKkoqVKBUi66uB5pYXamWguKFaWdDnx": [
+			{
+				"comment_id": 162,
+				"body": "I believe you just do another `name_update` on the domain (if you bought the domain at a registrar you cannot use that solution, and you should probably contact the registrar in that case).",
+				"added": 1471365756
+			},
+			{
+				"comment_id": 163,
+				"body": "> [nofishes](#comment_5_12yaKkoqVKBUi66uB5pYXamWguKFaWdDnx): like this { \"zeronet\" : { \"\" : \"zeronet address\"} }\n\nI have never done this from the QT wallet, I always use the `namecoin-cli` thing, but I guess we're talking about the same thing.\n\nWhen you registered your domain you made a `name_firstupdate \"name\" \"rand\" \"tx\" \"value\"`, where `value` was the JSON for your domain. Now you just have to do a `name_update \"name\" \"value\"`, where `value` could be the same or some other JSON.\n\nRemember that `name` is not `mydomain.bit` but `d/mydomain`.",
+				"added": 1471411268
+			}
+		],
+		"1_1FEikAyxCNPJcW996B69r5UFg29yfq579m": [
+			{
+				"comment_id": 164,
+				"body": "Running Zeronet on your phone will probably drain the battery very fast.\n\nHowever, read Musickiller's blog entry [“ZeroNet on Android (easy way)”](/blog.musickiller.bit/?Post:38).",
+				"added": 1471675204
+			}
+		],
+		"1_19CzFY4vCcinZjkuW3Nw4T35AnYuE3cNbP": [
+			{
+				"comment_id": 165,
+				"body": "Just keep Zeronet running, you needn't have each zite you're seeding open.",
+				"added": 1472042892
+			}
+		],
+		"1_114c9kLxp6SPG4xhhHZEnoijFdYA8j23JE": [
+			{
+				"comment_id": 166,
+				"body": "Unity as in SuperNET?",
+				"added": 1472369086
+			}
+		],
+		"1_13G7h5b1e4Ch1vBfWvA4Nuttaqa8cf91W4": [
+			{
+				"comment_id": 167,
+				"body": "I didn't succeed when [I tried](/kappasigma.bit/?Post:10). But as a minimum, you need to disable HTTP/2: https://caddyserver.com/docs/cli#http2\n\nFor some reason it seems to be easier behind [nginx or apache](/talk.zeronetwork.bit/?Topic:1_1LoYccWDeUavLo4g1zTbkqPn3EdBcquSYn).",
+				"added": 1472514333
+			},
+			{
+				"comment_id": 168,
+				"body": "> [keithirwin](#comment_1_13ErVogyd9fJa44C8GgbLWU3c3b2xUYLTk): OK, I got it to work\n\nCool, thanks!!",
+				"added": 1472622166
+			},
+			{
+				"comment_id": 169,
+				"body": "> [keithirwin](#comment_1_13ErVogyd9fJa44C8GgbLWU3c3b2xUYLTk): OK, I got it to work\n\nI've made a [writeup](/todayilearned.bit/?Post:17) with your instructions. I'd like to link @keithirwin to your zite, if you have one.",
+				"added": 1472634868
+			}
+		],
+		"5_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": [
+			{
+				"comment_id": 170,
+				"body": "> [ulrichard](#comment_19_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ): Sad to hear. Did he discover something better than zeronet?\n\nHe didn't say.",
+				"added": 1472697936
+			},
+			{
+				"comment_id": 171,
+				"body": "> [weakish](#comment_28_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): Why? Some posts on Erkan's blog is still useful.\n\nPerhaps I will keep seeding his blog for that reason. However, all the Zero(Proxies|Sites|Blogs|Whatever) lists he started are mostly outdated and are not gonna be updated now. I prefer to let those zites die. If other people want to keep them around, they can do so.",
+				"added": 1472728667
+			}
+		],
+		"4_1C6qdRAX8iYqSB7TfUxk91yW8Y2SBKNgfA": [
+			{
+				"comment_id": 172,
+				"body": "You don't really need the identity on your server. You can `curl -s http://127.0.0.1:43110/${address}` on the server for those sites you wish to seed, where `address`  is the “bitcoin” address of a given site.\nYou can then have your identity on the laptop and browse ZeroNet from there.",
+				"added": 1473012920
+			}
+		],
+		"1_1MxinCGP4R54Rxxmig41K132aGrUJgwq4A": [
+			{
+				"comment_id": 173,
+				"body": "You can have static sites or sites with some js on Zeronet (examples [here](/mylock.bit/), [here](/bitcoinqrcode.bit/), and [here](/bip32gen.bit/)), but not all js seems to work, and you can't have sites written in e.g. PHP.",
+				"added": 1473063416
+			}
+		],
+		"3_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": [
+			{
+				"comment_id": 174,
+				"body": "I haven't tried the ZeroNet UI on a mobile yet (but I'm sure [Musickiller](/blog.musickiller.bit/) has), but it's very simple to put ZeroNet behind a password protected and TLS encrypted reverse proxy [using Caddy](/todayilearned.bit/?Post:17).",
+				"added": 1473432785
+			},
+			{
+				"comment_id": 175,
+				"body": "> [talnicrom](#comment_11_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa): I should be clear about the use case I have in mind.  I would like to lower the barriers that new users face when considering ZeroNet.\n\nThat's a nice idea.\n\nActually, it's not much more difficult to run ZeroNet behind a proxy by Caddy than just running ZeroNet — the biggest obstacle is that you need a domainname. Caddy will automatically register a free SSL certificate for you (and renew it when time is up) and everything. But I understand now that you're looking for a different animal.",
+				"added": 1473437282
+			}
+		],
+		"1_1Cq3f8r7jiiYuVJfrTDUrenioiRn9TMASV": [
+			{
+				"comment_id": 176,
+				"body": "Ads suck. Ads should die.\n\nUsers being paid for storing data from other users is being implemented by [MaidSafe](https://maidsafe.net/).",
+				"added": 1473437413
+			},
+			{
+				"comment_id": 177,
+				"body": "> [talnicrom](#comment_13_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa): After all, if you start posting ADS to your blog, I could write a script that copies your posts (with signature!) to another ad-free blog.  Is there anything you could do to prevent this?\n\nNo, I would even welcome that.\nAnd I would unfollow anybody who starts posting ads on their timeline or blog.",
+				"added": 1473444580
+			}
+		],
+		"3_19dSnqd1GpiMTnuiD4n1tPasyKTDfNSFyz": [
+			{
+				"comment_id": 178,
+				"body": "Please elaborate how you feel this should/could be implemented on ZeroNet. Would the currency be time units? Does each user have a certain TTL? And will his time units be tradeable? I'm not at all sure how all this would fit into ZeroNet, nor how it would benefit ZeroNet.",
+				"added": 1473861221
+			},
+			{
+				"comment_id": 179,
+				"body": "And when you have spent all your ZeroCoin?",
+				"added": 1473863927
+			},
+			{
+				"comment_id": 180,
+				"body": "I think it's a terrible idea that one should succumb to the whim of others. People will end up whoring for worthless ZeroCoin and will have that as a focus instead of the content itself.\nBesides, if I run out of ZeroCoin, what will prevent me from creating a new account and donate the newly created account's worth of ZeroCoin to my account that has run dry?",
+				"added": 1473919532
+			},
+			{
+				"comment_id": 181,
+				"body": "> [abs0lute](#comment_7_19dSnqd1GpiMTnuiD4n1tPasyKTDfNSFyz): \n\nI don't believe in restricting people. I also don't believe in the tyranny of the majority.",
+				"added": 1473946580
+			}
+		],
+		"1_1546FEZjAaS8Soy8Pzc6weXgbFTVAv84Vi": [
+			{
+				"comment_id": 182,
+				"body": "Welcome, inky, please also join us on [ZeroMe](/me.zeronetwork.bit/).",
+				"added": 1474650386
+			}
+		],
+		"1_15dw2ne2hZ5wdTpg39HRq4TGiwDY3LaAH7": [
+			{
+				"comment_id": 183,
+				"body": "You can search (through _all_ zites) from the search field on [ZeroHello](/1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/).",
+				"added": 1477909225
+			}
+		],
+		"1_1Buu3gEo6EcUijPE6dkSToaYzXKGnAgXFy": [
+			{
+				"comment_id": 184,
+				"body": "Yes, you can run a reverse proxy in front of Zeronet. [I use Caddy](/todayilearned.bit/?Post:17) to accomplish the task. I've seen other use Nginx or some other webserver.",
+				"added": 1477939095
+			}
+		]
+	},
+	"comment_vote": {
+		"145_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1,
+		"2_1EqRTFLe3aeLBGPMMqW7r8mFxLXuEhsCMm": 1,
+		"70_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf": 1,
+		"54_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"3_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"20_1MZ6f3V1cBuhNwzajMVPu8vb1wRt1p6dpt": 1,
+		"11_15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU": 1,
+		"7_1Gtj7AdXhzMFUVVvFm2ZGCbTFdgNwdtuMn": 1,
+		"9_13hcYDp4XW3GQo4LMtmPf8qUZLZcxFSmVw": 1,
+		"56_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"57_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"58_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"3_1Ea7uVcuWTBiBAN1XCV7asaMaFBYPWbpAm": 1,
+		"9_112GGMvUJbBTCtQu8UUSYpo8UjLdo1B73n": 1,
+		"710_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"22_1MZ6f3V1cBuhNwzajMVPu8vb1wRt1p6dpt": 1,
+		"23_1MZ6f3V1cBuhNwzajMVPu8vb1wRt1p6dpt": 1,
+		"156_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"157_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"732_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"1_13ErVogyd9fJa44C8GgbLWU3c3b2xUYLTk": 1,
+		"38_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"21_1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ": 1
+	}
+}

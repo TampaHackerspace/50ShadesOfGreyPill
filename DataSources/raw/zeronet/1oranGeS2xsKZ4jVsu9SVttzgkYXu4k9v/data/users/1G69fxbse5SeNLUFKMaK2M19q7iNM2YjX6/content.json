@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HA4WnCaezzXIh33I9RjRuhtCA3ngHpZ6Qr6/4+54iYCqw41GEyWV1aJvC+56LgUocoWwDzsMyHKCVxJCJ2w3ob0=",
+ "cert_user_id": "nefariousity@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "c040eb66e985bc38c1a614a6abfc14b98eafce1c69bbe8bd517a32df3f40cc5a",
+   "size": 650
+  }
+ },
+ "files_optional": {
+  "1485489911.jpg": {
+   "sha512": "58516ed73b00f0b1b0fe3c8cc72e8cdcf7c9a3cbd114238e1f4c2407da2c64d1",
+   "size": 31081
+  }
+ },
+ "inner_path": "data/users/1G69fxbse5SeNLUFKMaK2M19q7iNM2YjX6/content.json",
+ "modified": 1485489911,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1G69fxbse5SeNLUFKMaK2M19q7iNM2YjX6": "G1b42+1se9+BEQZteriYeW5qUJXkQBFjRhx3FFMQzOfymIHDLXnm8zcDgwX4iAOfkL6dsYL9ZxuY5CPXrTyeVPY="
+ }
+}

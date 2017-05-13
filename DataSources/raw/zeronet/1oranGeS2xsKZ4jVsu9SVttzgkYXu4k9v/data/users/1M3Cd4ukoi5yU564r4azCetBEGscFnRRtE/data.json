@@ -1,0 +1,220 @@
+{
+	"next_post_id": 7,
+	"next_comment_id": 8,
+	"next_follow_id": 24,
+	"avatar": "png",
+	"user_name": "Avoiddowntime",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Not a Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1486830687,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1488471958,
+			"body": "Кстати, если бы тут был настраиваемый индивидуальный фильтр по словам/символам, то можно было бы сразу очистить ленту от всех иероглифов...",
+			"date_added": 1488471955
+		},
+		{
+			"post_id": 1488478256,
+			"body": "Еще кое что... Уже сейчас жалких два-три популярных зайта+хаб+почта раздулись у меня на 40к файлов. \nА это китайцы только начали приходить. Что же будет с вхождением новых людей при увеличении кол-ва z-юзеров на порядок? А на два? \nВыкачивать неделю чтобы просто зайти в ZeroMe? Да и слабые железки будут очень обижены.",
+			"date_added": 1488478252
+		},
+		{
+			"post_id": 1488922148,
+			"body": "Не знаю насколько это уничтожает мироздание, но, кажется, такой кульбит позволяет обращаться к вашему ZN и из локалки, и (при проброске порта) извне:\n\\ZeroNet-dist\\core\\src\\Config.py\nLine 175:\nself.parser.add_argument('--ui_ip', help='Web interface bind address', default=\"ваш-локальный-сетевой-ip\", metavar='ip')\n\\ZeroNet-dist\\core\\src\\main.py\nLine 125:\nconfig.fileserver_ip = 'ваш-локальный-сетевой-ip' # Do not accept connections anywhere but localhost\nLine 132:\nconfig.fileserver_ip = 'ваш-локальный-сетевой-ip' # Do not accept connections anywhere but localhost",
+			"date_added": 1488922143
+		}
+	],
+	"post_like": {
+		"18JChzaKxqMcgP18updYoYUqjg9f3jo8ko_1487252037": 1487252480
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Только финны не скандинавы вовсе...  а так - да.",
+			"post_uri": "1PWfDicbFhYs196zg9tsiNMA9utxik9jJB_1487490392",
+			"date_added": 1487510178
+		},
+		{
+			"comment_id": 2,
+			"body": "Не гугель, а левые чуваки из гугеля под пиво на даче развлекаются.",
+			"post_uri": "1PWfDicbFhYs196zg9tsiNMA9utxik9jJB_1487759643",
+			"date_added": 1487767722
+		},
+		{
+			"comment_id": 3,
+			"body": "@Coma Grayce: Домыслы вообще не нуждаются в уточнениях :)",
+			"post_uri": "1PWfDicbFhYs196zg9tsiNMA9utxik9jJB_1487759643",
+			"date_added": 1487770199
+		},
+		{
+			"comment_id": 4,
+			"body": "@Mist: сложнее, но удобнее, да... Я, как лентяй, всегда думаю о простом решении )",
+			"post_uri": "1M3Cd4ukoi5yU564r4azCetBEGscFnRRtE_1488471958",
+			"date_added": 1488475391
+		},
+		{
+			"comment_id": 5,
+			"body": "@Mist: не только ZM. Любой форум посещаемый даст ++кол-во юзер-файлов...  И т.д. Вся архитектура такая.",
+			"post_uri": "1M3Cd4ukoi5yU564r4azCetBEGscFnRRtE_1488478256",
+			"date_added": 1488485296
+		},
+		{
+			"comment_id": 6,
+			"body": "Неа, нету...",
+			"post_uri": "1HRnhpg4tdCn6PtjbwdbrDKyvXQizPeLCn_1488731263",
+			"date_added": 1488746938
+		},
+		{
+			"comment_id": 7,
+			"body": "@V4lve: nope, qqqqq",
+			"post_uri": "18JChzaKxqMcgP18updYoYUqjg9f3jo8ko_1487252037",
+			"date_added": 1488897548
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1486839627
+		},
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "16AFTG7vdicwJbRQpWc2F9BRHTE5MTftE7",
+			"user_name": "Shift",
+			"date_added": 1486839666
+		},
+		{
+			"follow_id": 3,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw",
+			"user_name": "Balancer73",
+			"date_added": 1486839856
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F",
+			"user_name": "Zerro",
+			"date_added": 1486839898
+		},
+		{
+			"follow_id": 5,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1Nyv5sTPtqCPQmK81bgx3iHWYDQDwLMNZX",
+			"user_name": "gaslimit",
+			"date_added": 1486839960
+		},
+		{
+			"follow_id": 6,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "18iELxgQf2hpjFuBofjEJyuvVazJt2ekSp",
+			"user_name": "Wrewolf",
+			"date_added": 1486840015
+		},
+		{
+			"follow_id": 7,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1NHR4Gdv1dVLZS5HRwY6aJWfngk9jCLF87",
+			"user_name": "Brom",
+			"date_added": 1486840091
+		},
+		{
+			"follow_id": 8,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19xkVTXjXQR92UG2TyqtXnRRnGjHuKCbpX",
+			"user_name": "Nulc",
+			"date_added": 1486840251
+		},
+		{
+			"follow_id": 11,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1M3Cd4ukoi5yU564r4azCetBEGscFnRRtE",
+			"user_name": "Avoiddowntime",
+			"date_added": 1487525275
+		},
+		{
+			"follow_id": 12,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1PWfDicbFhYs196zg9tsiNMA9utxik9jJB",
+			"user_name": "Coma Grayce",
+			"date_added": 1487590813
+		},
+		{
+			"follow_id": 13,
+			"hub": "1KNmG5rJUGhgUJGFbLkv2B5isaqu9PrZqi",
+			"auth_address": "1JtVjiuh8wNNNS63aMT7sxjZx5jLtqGw4N",
+			"user_name": "AntiGNU",
+			"date_added": 1488182455
+		},
+		{
+			"follow_id": 14,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1quZypjcRH7SQtX1cCfqTxHWakVEPww3Z",
+			"user_name": "TheKolomoets",
+			"date_added": 1488299376
+		},
+		{
+			"follow_id": 15,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "17VmuVqxo9zqd17ysD7NVTdbYfkK3SxTcA",
+			"user_name": "Mist",
+			"date_added": 1488299445
+		},
+		{
+			"follow_id": 16,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu",
+			"user_name": "PaintNinja",
+			"date_added": 1488383392
+		},
+		{
+			"follow_id": 18,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "18iELxgQf2hpjFuBofjEJyuvVazJt2ekSp",
+			"user_name": "Wrewolf",
+			"date_added": 1488387449
+		},
+		{
+			"follow_id": 19,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN",
+			"user_name": "Antilibrary",
+			"date_added": 1488439925
+		},
+		{
+			"follow_id": 20,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC",
+			"user_name": "Firebox",
+			"date_added": 1488472072
+		},
+		{
+			"follow_id": 21,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "14yvo4Fy5yLJuSmJLN1SPRTCcUM86pEANk",
+			"user_name": "Tolst0evsky",
+			"date_added": 1489434709
+		},
+		{
+			"follow_id": 22,
+			"hub": "1JUDmCT4UCSdnPsJAHBoXNkDS61Y31Ue52",
+			"auth_address": "1DXxyNnRKTvzUcuvQhTu8uWSXSNYL4oVc6",
+			"user_name": "Pin240 (Алексей) Rus",
+			"date_added": 1491215032
+		},
+		{
+			"follow_id": 23,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS",
+			"user_name": "ZAlex",
+			"date_added": 1492421220
+		}
+	]
+}

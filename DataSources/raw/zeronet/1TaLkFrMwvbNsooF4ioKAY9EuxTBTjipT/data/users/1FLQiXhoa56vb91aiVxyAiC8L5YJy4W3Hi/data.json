@@ -1,0 +1,23 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Free namecoins here",
+			"body": "Hi! I registered my first .bit domain http://127.0.0.1:43110/picrandom.bit/ and have spare namecoins. I want to register domain for you for free, or send you enough coins for you to register or update your existing domain name. Just post the desired domain name and zite address, or your namecoin wallet address. In return I kindly ask you to help me distribute all files of my blog if you like it. Thanks.",
+			"added": 1492973653
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 2,
+	"comment": {
+		"1_1FLQiXhoa56vb91aiVxyAiC8L5YJy4W3Hi": [
+			{
+				"comment_id": 1,
+				"body": "> [styromaniac](#comment_39_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd): Would I be ableto choose a custom .bit URL then? I don't know how Namecoin works.\n\nYes, you will can use http://127.0.0.1:43110/yourname.bit instead something like http://127.0.0.1:43110/1LOLV2tVMSn7wByUvmFQqaSMoPMy87Tdw4 for your own zite. Check available domains here https://dotbit.me/. After domain registration completed you simply have to add to content.json of your zite:\n{\n...\n\"domain\": \"yourname.bit\",\n...\n}\nBut I will warn you, that .bit domains registered for no more than 6 month, after this you need to update it, but it is very cheap.",
+				"added": 1493014336
+			}
+		]
+	},
+	"comment_vote": {}
+}

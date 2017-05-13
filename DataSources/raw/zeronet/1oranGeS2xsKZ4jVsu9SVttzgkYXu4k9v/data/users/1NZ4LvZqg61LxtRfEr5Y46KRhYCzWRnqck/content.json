@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GxmyALgm5v6jmCQouDTONLy5Qb/Q7cfUl6gC7GoUOXW4WVOMC6jbd2L5UWfk+tGhCyzPfaNsuHfpuAVbo6DSOsw=",
+ "cert_user_id": "gallium@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "27d4cf00a8e156fa7c69bb3a1390faf3d47f2fd1d04ff5cc0d42e194669954b7",
+   "size": 256
+  }
+ },
+ "inner_path": "data/users/1NZ4LvZqg61LxtRfEr5Y46KRhYCzWRnqck/content.json",
+ "modified": 1493343271,
+ "signs": {
+  "1NZ4LvZqg61LxtRfEr5Y46KRhYCzWRnqck": "HKQDZakEjt9ogAthOOXDsSjGdVLEYJHBPaJ5ODTJoUbHs5mIAMaz/vW3jbvk7++dH+psiwqZO77CX6nP00mJPMg="
+ }
+}

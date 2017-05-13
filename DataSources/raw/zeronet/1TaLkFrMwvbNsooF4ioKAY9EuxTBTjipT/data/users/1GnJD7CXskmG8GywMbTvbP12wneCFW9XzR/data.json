@@ -1,0 +1,621 @@
+{
+	"next_topic_id": 5,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "View static ZeroNet sites via browsers without JavaScript support.",
+			"body": "For static ZeroNet sites, I can view them via `w3m` indirectly:\n\n```sh\ncurl -I -s http://127.0.0.1:43110/1AMh6MG4K59ki1dPXX1PrgzeeqkMmZ1YKm/  >/dev/null\nw3m $pathToZeroNet/data/1AMh6MG4K59ki1dPXX1PrgzeeqkMmZ1YKm/index.html\n```\n\nReplace `w3m` with other browser, such an lynx and elinks, or firefox with NoScript enabled.",
+			"added": 1468635052
+		},
+		{
+			"topic_id": 2,
+			"title": "Who is Doom1?",
+			"body": "It seems that @Doom1 has produced a lot of nonsense posts. Please remove them (e.g. from data.json) and republish them, @Doom1\n\nOtherwise site owners need to do some cleanup.\n\nThanks in advance.",
+			"added": 1475144714
+		},
+		{
+			"topic_id": 3,
+			"title": "[Solved] Does anyone have a recent snapshot of kaffie hub?",
+			"body": "Does anyone have a recent snapshot/backup of kaffie hub (`12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv`)?\n\nMy machine recently has a power shortage (force shutdown),\nand some zeronet directories (Kaffie hub being one of them) get corrupted.\nI restored them with a version 5 days before,\nand thought the missing part will be synced when I start ZeroNet.\nBut when I started ZeroNet, I was stupid to not wait the sync,\nbut post some comments on ZeroMe (happened to be in Kaffie hub).\nThis causes deleting all my ZeroMe posts in 5 days.",
+			"added": 1481446465
+		},
+		{
+			"topic_id": 4,
+			"title": "How to sign and publish (own) user data from command line (as non site owner)?",
+			"body": "`SiteSign` seems only work for site owners.\n\nIn other words, if `someOne` changed their own `data.json` under `someSite/data/users/someOne/`,\nhow can they sign and publish their change from the command line?\n(`someOne` is not the owner of `someSite`)",
+			"added": 1483878917
+		}
+	],
+	"topic_vote": {
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"4_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"2_13U9mRgV3bdkXiNXjMZeBWTcSHZjgNmk2z": 1,
+		"2_14139fxEEc7VuHVxvK2UqYSeX3rJqiADVY": 1,
+		"4_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": 1,
+		"1_1EnFfeVqTYtJfhzucfQB8Z7sCfUBipRRow": 1,
+		"1_13GU1tjE8NpZocm8bZdSE83BmrbLfydR9V": 1,
+		"9_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_1HUrhTUZFB2KKsXLUv1vugPH358iB6zsiY": 1,
+		"9223_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"9244_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"9266_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"1_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": 1,
+		"9346_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"1_1EpY11syeaKbwRSNqv9tU1ZxoU1moJA9Bp": 1,
+		"3_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": 1,
+		"9553_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"1_1AZCBZGFdZR4pwafMut2Z1kk4wbYantaAL": 1,
+		"1_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": 1,
+		"1_1CR3B1Bwx6umZqL7H6hrbyPdXKJR7j8Mfn": 1,
+		"9847_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"10051_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"2_13EUVTHXUNK46bs3QXB8AtJ6sxPXcSQh31": 1,
+		"10054_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": 1,
+		"12_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1
+	},
+	"next_comment_id": 82,
+	"comment": {
+		"1_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa": [
+			{
+				"comment_id": 1,
+				"body": "DHT",
+				"added": 1470453144
+			}
+		],
+		"1_19MM2jrRjPL3mR5hbQiJX6WemYYLrceKV6": [
+			{
+				"comment_id": 2,
+				"body": "淘宝上有，几毛钱一个。",
+				"added": 1470657358
+			}
+		],
+		"1_1JYAaUBXsh3DrN8UZHz4suAUVXzV3X15QL": [
+			{
+				"comment_id": 3,
+				"body": "If possible, use Tor or I2p instead of VPN.\n\n> So is it better going with a VPN provider who claim they do not keep logs than setting up your own OpenVPN server?\n\nIf you are setting up your own VPN server, you can also provide VPN services to your friends.\nSo if the VPS provider does log the traffic, it is harder for them to distinguish your traffic from your friends'.\nI assume that your friends are more likely to trust that you will not log their traffic.",
+				"added": 1470668092
+			}
+		],
+		"2_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv": [
+			{
+				"comment_id": 4,
+				"body": "> [newuser123](#comment_29_1PCPuVtFv8apVpXYbc46wHugNhFUVQ6KCv): Can it?It is my understanding some clear-net sites have a lot back-end server-side workings that,\n> 1) Takes a lot of storage space.2) Isn't directly and freely accessible to anyone on clear-net.\n> Without those, even if the front-end stuff is hosted on zero-net, the sites themselves won't work.\n\nIt's just like CDN.",
+				"added": 1471060350
+			}
+		],
+		"19_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 5,
+				"body": "http://zeronet.readthedocs.io/en/latest/site_development/getting_started/",
+				"added": 1471060638
+			}
+		],
+		"2_1JHrskNwA3oo9gxvCbo3Q1RZTUuKCDdfUa": [
+			{
+				"comment_id": 6,
+				"body": ">  I'm trying to point to a folder with index.html\n\nJust point to the index.html using a relative link",
+				"added": 1471060789
+			}
+		],
+		"1_1Mxv7my8HRBiVNRtiFaHrrbb11hmPqa6qL": [
+			{
+				"comment_id": 7,
+				"body": "Me too.",
+				"added": 1471060867
+			}
+		],
+		"8_1JWy7zt6aDhpnDQ7fmsKUqNu8LzeoT1VRa": [
+			{
+				"comment_id": 8,
+				"body": "> Not found",
+				"added": 1471143105
+			}
+		],
+		"7_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 9,
+				"body": "So there is three problems:\n\n1. migration\n\n    As @nofish pointed out, the proposed new architecture hurts performance.\n    And changing architecture is much more difficult than writing a migration script for the current architecture.\n\n2. censorship\n\n    The ultimate solution is hosting your own hub.\n    For a multiple users hub, the question is: 1) Do you trust the hub owner? 2) Does this hub has an open policy/procedure on censorship.\n    \n3. scalability\n\n    I think this is the main problem.\n    See my next post.",
+				"added": 1471146716
+			},
+			{
+				"comment_id": 10,
+				"body": "More on scalability:\n\n* Single user hub: Lots of connections.\n\n* Multiple user hub: Small quota. By default, a hub has the normal zite limit (10M), thus every user has a low quota. For example, if a hub hosts 100 users, then every user has less than 100K quota on average. Now let's do some math: suppose on average a user has 600 posts (including comments), and every post is 150 characters (including time stamps), then on average a user will use 150*4*600/1024 = 351k. 351k is already exceeding the  quota. And the above calculation is optimistic. ZeroMe does not limit post length as tweet, thus users tend to write longer posts than twitter.",
+				"added": 1471146873
+			},
+			{
+				"comment_id": 11,
+				"body": "> my own hub with a 10mb cap per user. And since it's my hub, I can manually adjust that when needed.\n\nIf there is an early user on kaffie's hub posts 9.99m, then the quota of all other users joined later will be effectively several kilobytes (unless  every viewer go to kaffie's hub and increase size limit, possible several times).\nSo multiple users hub still suffers from the quota problem even if site own set a big limit,\njust like  those \"unlimited storage and bandwidth\" hosting plans still suffers from scalability.",
+				"added": 1471153126
+			},
+			{
+				"comment_id": 12,
+				"body": ">  20% are active, they need to migrate to other hub.\n\nThey need to migrate to their own hub.\n[A study in 2009](https://sysomos.com/inside-twitter/) shows that 5% of twitter users contributed 75%  of all tweets, 10% for 86%, and the top 20% for 94.32%.\nAnd 15% posted at least a tweet a day.\nSo no multiple user hub can host these top zeromers within the 10MB size limit.\n\n> 50KB is soon to use up for some of us, so we really need a easy-to-use migrating script( migrating both posts and others' comments ), in the long term, one-click migrating like one-click clone is preferred.\n\nAnother approach is to allow a user to post to multiple hubs.\nAnd hubs will be archived when it get close to the size limit,\nnot accepting new users & posts & comments & liking.\nUsers may also just seed normal hubs,\nif their disk space and/or bandwidth is limited.",
+				"added": 1471168737
+			},
+			{
+				"comment_id": 13,
+				"body": "> [p2p](#comment_200_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): then we'll need a unique URL of a specific post or comment.\n\nURL for post is available now.\nURL for comment is not available.",
+				"added": 1471175502
+			},
+			{
+				"comment_id": 14,
+				"body": "> [nofish](#comment_726_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): In a social network nobody really cares about last week's posts.\n\nMaybe this is true for twitter.\nBut I think this is not true for G+.\nThere are a lot lengthy and long-term posts on G+.\n\n> optional file if someone wants to archive it\n\nThe problem of optional file is it breaks links.\nURIs should not change.\nLater posts may link to old posts.",
+				"added": 1471176021
+			},
+			{
+				"comment_id": 15,
+				"body": "> [p2p](#comment_201_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): links only contain post ID or comment ID, NOT contain a file location.\n\nNo.\nThe current link is `http://1270.0.1:43110/?Post:hubID-profileID_number`\nIf the post is removed (deleted or moved into optional file), the link become unresolvable.",
+				"added": 1471176679
+			}
+		],
+		"2_163sF1Kdsd5LdpjAXDKBshdEBNJH6PUqvg": [
+			{
+				"comment_id": 16,
+				"body": "> If you simply want to keep everything, then just back up the zeronet/data/ folder entirely. That contains all the sites you've downloaded, your keys, etc.\n\nThis also helps if you are seeding a lot of sites and the network bandwidth is limited.",
+				"added": 1471520062
+			}
+		],
+		"2_13U9mRgV3bdkXiNXjMZeBWTcSHZjgNmk2z": [
+			{
+				"comment_id": 17,
+				"body": "@dios hub names?",
+				"added": 1471621809
+			},
+			{
+				"comment_id": 20,
+				"body": "> [dios](#comment_6_13U9mRgV3bdkXiNXjMZeBWTcSHZjgNmk2z): http://127.0.0.1:43110/12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv/\n> http://127.0.0.1:43110/15mV5T1R1wxg3E1FPsvZw19bw6QzvRREfn/\n> http://127.0.0.1:43110/12rTbtzcEZH7RiVfShBB3qhoe3rfwbpm8S/\n> http://127.0.0.1:43110/1GnSLuqqmB8oRAJ4SK4hvzt6Jo1qAnEbXn/\n\n- 12h51u: Kaffie\n- 15mV5T: Hub Espanol\n- 12rTbtzc: Bitcoin\n- 1GnSLuq: a hub cloned from RedHub titled \"YellowHub\"",
+				"added": 1472279217
+			},
+			{
+				"comment_id": 21,
+				"body": "> [beelzebub](#comment_1_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG): http://127.0.0.1:43110/1HNf26SK9Hi9LES1kUKg6r36hDwhBdNBKM/\n\nhi/ hub",
+				"added": 1472279338
+			},
+			{
+				"comment_id": 23,
+				"body": "List of all known ZeroMe hubs:  https://weakish.github.io/ZeroMeHubList/",
+				"added": 1472305451
+			}
+		],
+		"1_15JuC9Nz1ua8s7M7tUemvJN1r6NZhffCVq": [
+			{
+				"comment_id": 18,
+				"body": "> [darkcod3](#comment_2_15JuC9Nz1ua8s7M7tUemvJN1r6NZhffCVq): thx this is more one for my bundle about text decoration\n> i can se that this works well in coments, but doesn't work in the text of a topic u have created\n> that was actually my problem, a topic that i have created but it loocks very bad if u don't use empty line breaks\n> I have used . instead in any empty line to solve this problem temporarily\n> i am guessing that i have to talk to the zite owner to change the html code on that topic and by that way insert line breaks...\n\nNot sure if ZeroTalk support it, standard Markdown supports both `<br>` and `two spaces at the end of line`.",
+				"added": 1471965973
+			}
+		],
+		"1_1Au1bha13X56pcSkZewm2EhMeYFJC1i8S2": [
+			{
+				"comment_id": 19,
+				"body": "> [another](#comment_3_1Ab7t6js2jJS3edzqo5jpcEerJJBPFGtH4): Port 43110 is the port you have to type on your Web browser to access the node. This was done because many people have Web servers already running on port 80 so an alternate had to be used.\n\nAlso `80` requires root.",
+				"added": 1471966030
+			}
+		],
+		"1_1FVwrkrpwe2DPu6Q4qpPRks2aAfRQ43DEC": [
+			{
+				"comment_id": 22,
+				"body": "Unless you run a tracker on the LAN, and all users on the LAN starts zeronet with  `--trackers` pointing to your tracker.",
+				"added": 1472304467
+			}
+		],
+		"1_18ZbdG9rMgLWzfFrWMkyGXtSv7MyPfUuSj": [
+			{
+				"comment_id": 24,
+				"body": "Anonymous to who? Anonymous to ISP and peers: Download from a remote host or uses VPN/proxy. Also anonymous to VPN/remote host provider: I do not know how.",
+				"added": 1472470579
+			}
+		],
+		"5_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR": [
+			{
+				"comment_id": 25,
+				"body": "For GUI, transmission. For commandline, aria2c. With Tor: the Tor network can't handle the load.",
+				"added": 1472470989
+			}
+		],
+		"1_1PPVb3FDDiNyNqbdb5UAv8ykEC1K1Nwquy": [
+			{
+				"comment_id": 26,
+				"body": "https://github.com/HelloZeroNet/ZeroMe/issues/12",
+				"added": 1472472523
+			}
+		],
+		"2_1JecQYorYpL9F9vArLj13LKvc3v3iSdDHA": [
+			{
+				"comment_id": 27,
+				"body": "I do not know. For ipfs, there is ipfs.pics.",
+				"added": 1472554983
+			}
+		],
+		"5_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": [
+			{
+				"comment_id": 28,
+				"body": "> will stop seeding all of Erkan's zites\n\nWhy? Some posts on Erkan's blog is still useful.\n\n> and stop using ZeroVerse Mail+ID\n\nProbably. Sadly zero.bit becomes more central.",
+				"added": 1472728028
+			}
+		],
+		"1_1NLKyC1Eq7gZeRKZ6oPN45wMWorx9yFWUW": [
+			{
+				"comment_id": 29,
+				"body": "> [kaffie](#comment_196_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh): \n> I'm curious though, whether there's an option to just not use usernames, and instead use the user's public auth key that's generated for the site instead.\n\n`user@zeroid.bit` is more readable for `user(1NWh3W...)`.",
+				"added": 1473250579
+			}
+		],
+		"9_12i4LiZ39NxcYtsf36aTWJzcpzw4KFUCJy": [
+			{
+				"comment_id": 30,
+				"body": "Trump is evil! Hillary is not even evil!",
+				"added": 1473553362
+			},
+			{
+				"comment_id": 31,
+				"body": "> [cloudofstars](#comment_9_1AvkR7PmGFLZL9drPpqCaBPEdcVipv2Ajs): Really?\n> https://theintercept.com/2016/09/08/hillary-clintons-national-security-advisors-are-a-whos-who-of-the-warfare-state/\n\nI use \"not even evil\" as stronger wording of \"beyond evil\", or \"too evil to be called evil\".",
+				"added": 1473684692
+			}
+		],
+		"1_1MDjoCqFDeRHGESqDBF8oGhG3ZjCdVo8pr": [
+			{
+				"comment_id": 32,
+				"body": "If you `follow Newsfeed`, you can search via ZeroHello. Otherwise do local search on `data/ForumSiteID`.",
+				"added": 1474456317
+			}
+		],
+		"1_1CQ2rCSbuSxkeDcrvBu1wvkUSg8233tAUu": [
+			{
+				"comment_id": 33,
+				"body": "Besides `FAVORITED SITES`, you need `folded sites`. This is mostly front-end work of ZeroHello.",
+				"added": 1474456542
+			}
+		],
+		"1_1LE1ngFyG62KJC1Q7G2xyZGjaB2QubXSi9": [
+			{
+				"comment_id": 34,
+				"body": "Yes.\n\nipfs vill preserve every version.\n\nYou can take snapshots of seeding Zeronet Sites,\nvia git/rsync/cron/inotify etc.\n\nI wrote some shell scripts for this: [0net-snapshot](https://github.com/weakish/0net-snapshot)",
+				"added": 1474547822
+			}
+		],
+		"6_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 35,
+				"body": "1. Currently ZeroNet UI does not support multiple languages. Send your pull requests at GitHub.\n2. If someone implement a translation framework for ZeroNet UI, then translators can do translates on some online translation platform\n3. If zeronet sites' content.json had a `lang` or `language` field, then ZeroHello is possible to make use of it.",
+				"added": 1475846247
+			}
+		],
+		"5_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 36,
+				"body": "Edit content.json, index.html and data.json.",
+				"added": 1475846305
+			}
+		],
+		"1_1EwCeJE1k48nqMFtAuiEPLUzNeKvCGTmtX": [
+			{
+				"comment_id": 37,
+				"body": "Most are just like central websites. If the site owner attract a lot of volumes, they can put ads on their sites. They can also sell things. They can also sell content, e.g. only deliver unencrypt key to paid members.  Bonus: they will not need to pay for more machiens or CDNs.",
+				"added": 1477659112
+			}
+		],
+		"9_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 38,
+				"body": "More docs:\n\n- [buildozer](https://github.com/kivy/buildozer) seems can automate the entire build process, i.e. downloads and sets up all the prequisites for python-for-android.\n- An alternative approach is install the [Kivy launcher](https://play.google.com/store/apps/details?id=org.kivy.pygame&hl=en) ([apk](https://kivy.org/#download)), then load ZeroNet on SD card (may still needs some packageing but no need to compile)",
+				"added": 1479209065
+			},
+			{
+				"comment_id": 39,
+				"body": "> [p2p](#comment_222_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): did u try it?\n\nNot yet.",
+				"added": 1479294301
+			}
+		],
+		"1_1B721dpnz89GMSTZo8NAkfZ2zFw1KEF66P": [
+			{
+				"comment_id": 40,
+				"body": "Yes. It is possible. There is [an incomplete implementation in C](http://192.168.1.10:43110/libzeronet.bit).",
+				"added": 1479624995
+			}
+		],
+		"1_1ABjii9ykDSe8GW9fGcMpurVcpqdVQWSnR": [
+			{
+				"comment_id": 41,
+				"body": "> [ar2016over](#comment_1_1ABjii9ykDSe8GW9fGcMpurVcpqdVQWSnR): 我還以為這邊會轉成簡中咧\n\nEven gtwtalk.bit will not do tranditional to simplified Chinese.",
+				"added": 1479826042
+			}
+		],
+		"1_17ac9ybVj5CtUpBvi5NeP1EwNZjfJoZWvt": [
+			{
+				"comment_id": 42,
+				"body": "Snowden and Assange are afterall not in US, while someone (Hillary) leaking US national secrets is still in US.",
+				"added": 1479826138
+			}
+		],
+		"2_1BEyFJrKVaGLuogLirnrsa7yV2MXNvYpcp": [
+			{
+				"comment_id": 43,
+				"body": "[View static ZeroNet sites via browsers without JavaScript support.](/Talk.ZeroNetwork.bit/?Topic:1_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR)",
+				"added": 1480064831
+			},
+			{
+				"comment_id": 44,
+				"body": "> [balancer73](#comment_16_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw): Wrong link. Do not use domain in ZeroNet urls.\n> Right link: View static ZeroNet sites via browsers without JavaScript support\n\nFixed. Thanks.",
+				"added": 1480132296
+			}
+		],
+		"9243_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 45,
+				"body": "Also see [this post](/Talk.ZeroNetwork.bit/?Topic:9244_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG)",
+				"added": 1480502014
+			}
+		],
+		"9246_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 46,
+				"body": "Also see [this post](/?Topic:9244_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG)",
+				"added": 1480502047
+			}
+		],
+		"29_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": [
+			{
+				"comment_id": 47,
+				"body": "Problems of ProtonMail:\n\n- It does not work with GPG.\n- No onion address yet.",
+				"added": 1480591022
+			}
+		],
+		"1_173GVqFPokn8DryavXX5z1GHm2mHb3zjdr": [
+			{
+				"comment_id": 48,
+				"body": "- [Chinese Tips](/1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy/?Topic:1_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/+11+10+Update+ZeroMe+ID+FAQ)\n- [Chinese FAQ](/1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy/?Topic:37_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/+FAQ+6+1+Update+Freenet+VPS+ZeroNet+com+bit)",
+				"added": 1480688195
+			}
+		],
+		"1_1LpVhoCZkmD9hg63AKJF5kdfZ6fB46xsEM": [
+			{
+				"comment_id": 49,
+				"body": "路由器看看你的IP是不是公网IP？现在大多数ISP不提供公网IP，都是NAT转发。\n\n据说电信打电话投诉可能要到公网IP.",
+				"added": 1480688276
+			},
+			{
+				"comment_id": 50,
+				"body": "[portchecker.co](http://portchecker.co/check) 看下 15441 通不通？",
+				"added": 1480764937
+			}
+		],
+		"9296_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 51,
+				"body": "Why?\n\nCoindesk's policy is \"transactions into or out of your Coinbase wallet are reported as buys or sells at the current market price\". And Nov. 30 Judge Jacqueline Scott Corley sided in favor of the IRS request. Shouldn't the price goes down?",
+				"added": 1480767099
+			}
+		],
+		"1_18DewEVM8uXCPZdgutRdtFswz3LUvtvfuS": [
+			{
+				"comment_id": 52,
+				"body": "I guess Python 2.x support may be extended after 2020. If not, there are still 3 years. No need to worry too early.",
+				"added": 1481016259
+			}
+		],
+		"2_1Ni6LMewr5Cbc9fuKvdkSpS5bNm12vAKe4": [
+			{
+				"comment_id": 53,
+				"body": "> [sidmathers](#comment_1_13uQcc6CYGwmdYUeeQsJ7NLwdPKzRZKSiL): bit网址岂不是会很贵\n\n不贵。一年五毛左右。",
+				"added": 1481197832
+			},
+			{
+				"comment_id": 55,
+				"body": "> 之前我CLONE过一个站点,... 我现在想找到这个网址应该怎么做\n\n到你的ZeroNet安装目录，`data`目录下，打开`sites.json`文件，查找`\"own\": true\"`后，往上几行就是站点地址\n（如果你clone过多个站点，会搜到不止一个`\"own\": true\"`，需要一个一个试）。",
+				"added": 1481199127
+			},
+			{
+				"comment_id": 63,
+				"body": "> [znznzncn](#comment_3_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs): 如何申请.biz域名？\n\n如果你已经有域名币（namecoin）的话，很简单，按照[官方文档的 FAQ](http://zeronet.readthedocs.io/en/latest/faq/#how-can-i-register-a-bit-domain) 做就是了。\n\n如果没有域名币，就麻烦一点。\n建议先到[LocalBitCoins](https://localbitcoins.com/) 找支持支付宝或微信支付的卖家买一点比特币。\n（优先找交易次数多一点，评价好一点的。）\n然后到 [ShapeShift](https://shapeshift.io)换成namecoin.\n\n以前有人帮忙免费注册.bit域名到ZeroNet站点，\n可以参考[这篇博客](/mcjiffy.bit/?Post:13:%E5%9C%A8Zeronet%E6%B3%A8%E5%86%8C%E5%B9%B6%E7%BB%91%E5%AE%9A.bit%E5%9F%9F%E5%90%8D%E5%85%A8%E6%94%BB%E7%95%A5)\n注意，这篇博客说是「Zeronet官方也免费帮忙注册.bit域名」，但是并不是官方，\n而是一个ZeroNet的用户。不知道Ta现在还帮不帮人注册域名。",
+				"added": 1481538543
+			}
+		],
+		"9384_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 54,
+				"body": "Money laundering should be removed by an anonymous by default blockchain. So no need for money laundering.",
+				"added": 1481198369
+			}
+		],
+		"1_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs": [
+			{
+				"comment_id": 56,
+				"body": "> [znznzncn](#comment_1_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs): 这个软件收费么?\n\nAvast 有免费版本。",
+				"added": 1481370072
+			},
+			{
+				"comment_id": 57,
+				"body": "> [znznzncn](#comment_2_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs): linux也有病毒吧?\n\n也有。但macOS和Linux/BSD中毒风险小不知道多少。",
+				"added": 1481370112
+			}
+		],
+		"3_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": [
+			{
+				"comment_id": 58,
+				"body": "The files needed to recover my posts are `content.json` and `data.json`\nunder \n`/ZeroNet/data/12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv/data/users/1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR`",
+				"added": 1481448858
+			},
+			{
+				"comment_id": 59,
+				"body": "Thanks in advance.",
+				"added": 1481448973
+			},
+			{
+				"comment_id": 60,
+				"body": "Updated: recovered now. Thanks to @p2p. :-)",
+				"added": 1481455838
+			}
+		],
+		"3_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": [
+			{
+				"comment_id": 61,
+				"body": "> [p2p](#comment_234_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): Let me see the link.By the way, I can download the zeronet.exe from your blog now.a question: why the zeronet.exe is so big? I used to think Go binary is small.\n\nGo binary isn't small. A hello world in Go would compiled to a 2.2MB binary. \n(The good news is it is statically linked. So it is more portable,\nfor example it will work under different Linux distributions.)",
+				"added": 1481535138
+			}
+		],
+		"4_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs": [
+			{
+				"comment_id": 62,
+				"body": "这里是英文论坛，请到中文论坛讨论：\n\n[-=其他技术讨论板块=-](/1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy/?Topics:19_1NV87VmSkezRyz8NbFpdkYJsJUSfXx7LJa/)\n非ZeroNet相关技术讨论区 如网络技术、编程技术、开锁技术等……",
+				"added": 1481535799
+			},
+			{
+				"comment_id": 64,
+				"body": "> [lmath](#comment_7_1958F7oCppj78MP966AfojMQwHg2WUupzq): 没法，因为不是同一个论坛，要么你选择重发一遍。\n\n如果两边站长合作是可以搬的。但是这两个站长，一个忙于开发ZeroNet，一个在避风头。。。",
+				"added": 1481538801
+			}
+		],
+		"3_1Ni6LMewr5Cbc9fuKvdkSpS5bNm12vAKe4": [
+			{
+				"comment_id": 65,
+				"body": "> [jtree](#comment_5_1Ni6LMewr5Cbc9fuKvdkSpS5bNm12vAKe4): 经过多次尝试终于找到是user.json文件里面的【\"privatekey\": \"**\"】项。谢谢大家。但是已经签名成功，好像发布不了一样？什么情况？\n\n端口开了没有？如果端口没开，是否通过代理站访问的方式做种？",
+				"added": 1481901043
+			},
+			{
+				"comment_id": 66,
+				"body": "传说某些地区的电信打电话投诉能要到公网ip.\n\n[这里有一堆公共代理](/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:proxies)\n\n如果有VPS的话，[可以转发15441端口](/Me.ZeroNetwork.bit/?Post/12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv/1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR/3)",
+				"added": 1481909472
+			}
+		],
+		"9595_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 67,
+				"body": "Although a lot of VPS service providers accept bitcoin,\n\n1. they still need you to fill a lengthy form with real name, address, phone number, and\n2. they will mark you FRAUD if you register through a proxy or tor",
+				"added": 1482146042
+			}
+		],
+		"2_1GEfdZ7AyiBeEj8341JU5yZrCWCCczGDg5": [
+			{
+				"comment_id": 68,
+				"body": "Here (ZeroTalk) is the forum to discuss ZeroNet. For technical details on Zeronet, check the presentation hosted at google doc, the official documentation hosted at readthedocs.io, and the source code (If you think the source code size is too big, you can check the Go port, which has limited features but has much less lines of code.)",
+				"added": 1482228397
+			}
+		],
+		"3_1JoKQwXPzK8uyvMCRcwvMSAJPD5S4aH5Vt": [
+			{
+				"comment_id": 69,
+				"body": "They are quite similar.\n\nDifference:\n\n- Beaker does not host visited sites.  (You can enable it manually.)\n- Beaker sites support versioning. \n- Beaker API is much simpler than ZeroNet, no select user (id), no optional file, no encryption, etc. ZeroNet sites can be more dynamic.\n- ZeroNet uses namecoin `.bit`. Beaker uses regular domain names (via TXT record).\n\nAlso, because Beaker requires to use a customized browser:\n(These are not real differences since anyone can make a customized browser for Zeronet)\n\n- it uses `dat://` schema.\n- Beaker sites need to ask user permission to access clearnet.\n\nOther differences are technical details, like ZeroNet is written in Python, Beaker is written in JavaScript. ZeroNet uses base85 encoded site address (compatible with bitcoin), Beaker uses hex encoded address.",
+				"added": 1482323056
+			},
+			{
+				"comment_id": 70,
+				"body": "> [jsilence](#comment_18_1JoKQwXPzK8uyvMCRcwvMSAJPD5S4aH5Vt): @weakish, thanks for clarifying!\n> Wondering how different the dat:// Protocol is from the ZeroNet protocol. Is there any chance for the two to be merged?\n\nAs I wrote, they are incompatible.\nIf the two protocols merged into one protocol, then it would be a new protocol.\nAnd all nodes need to update to join the merged network (that would be a new network).",
+				"added": 1482499605
+			}
+		],
+		"3_12shzNwEsUKcdzbWYFNH54LJjKzQ7MUwhp": [
+			{
+				"comment_id": 71,
+				"body": "> I don't want people to be able to change the messages the wrote. \n> Currently, there is no native way to fix this in ZeroNet.\n> The solution? A BlockChain!\n\nA blockchain is not required.\nZeroNet may add a permission rule for an append only mode.\nThen every node see the `\"appendOnly\": ture` in site's `content.json`,\nit will compare new `data.json` of a user with the local version.\nIf the new version is not append only,\nit will refuse to accept the new version.\nTo prevent a new node visiting the site for the first time to receive invalid `data.json`,\nall new nodes need to verify the `data.json` with other nodes\n(if there is one node providing `data.json`, the new node accept the `data.json` temporarily,\nto verify it later.)\n\nThis is not as secure as blockchain but works under most conditions. \n\nThis approach can also be modified to permit a short window for editing posted content.\nThat is, if a node receive a new `content.json` with record `x` appened,\nwithin n minutes, if it receives a new `content.json` with only record `x` modified,\nit will accept it.\nAfter n minutes, it will refuse any modification of record `x`.",
+				"added": 1482569769
+			}
+		],
+		"1_1AZCBZGFdZR4pwafMut2Z1kk4wbYantaAL": [
+			{
+				"comment_id": 72,
+				"body": "Added it on [ZeroWiki](/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:proxies)",
+				"added": 1482570000
+			}
+		],
+		"1_1AuEW5hXeYuez72w5Kk6hfNbotZozMcvcW": [
+			{
+				"comment_id": 73,
+				"body": "> [zaomeng666](#comment_3_1AuEW5hXeYuez72w5Kk6hfNbotZozMcvcW): 文件是下载了，但貌似没安装到电脑上，不知怎么安装\n\n这是绿色软件，不用安装。\n\n下载解压，到安装目录，启动命令行，输入`ipfs init`初始化配置。\n然后使用`ipfs daemon`启动服务。\n接着打开 http://127.0.0.1:5001/webui 看下服务是否启动成功。\n\n然后是基本的文件操作。`ipfs add 文件名` 发布文件，`ipfs get 哈希地址`下载文件。\n注意老文件会被自动删除。如果希望永久保留文件就`ifps pin add 哈希地址`.\n反之`ipfs pin rm 哈希地址`表示不需要解除永久保留状态。`ipfs pin ls`可以列出所有永久保留的文件。",
+				"added": 1482851247
+			}
+		],
+		"1_12FdBxCUGATvDWoA7BiY11G6n1G6MeA26t": [
+			{
+				"comment_id": 74,
+				"body": "The economics goes down and people think economics will go down further in new year. Also some countries (e.g. China, which takes a major part in mining and trading  of bitcoin) have new policies to restrict the movement of money.",
+				"added": 1483612261
+			}
+		],
+		"1_15tUm55KP6pd33BRMEd6E6tdtDDREcXyxa": [
+			{
+				"comment_id": 75,
+				"body": "Does your native language availabel on the top menu?\n\n> Español · Français · German · Hungarian · Italian · Polish · Português · Québec · Russian · Ukrainian · 中文论坛",
+				"added": 1483699984
+			}
+		],
+		"1_1GuLRDu6kt8B3WNkw8yTBfJnjkoJWBYZak": [
+			{
+				"comment_id": 76,
+				"body": "https://zeronet.readthedocs.io/en/latest/faq/#do-i-need-to-have-a-port-opened",
+				"added": 1483700106
+			}
+		],
+		"10_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 77,
+				"body": "> [12hlearn](#comment_1_1CwbqLCD6TdkinNNNb4GneZxbsoJ6Mw6oE): \n> ZeroNet is GPL 2.0 LICENSE Software,  up4 not open source of libzeronet\n\n`libzeronet` is not based on the official Python implementation of ZeroNet.\nIt is written from scratch in C.\nSo GPL's copyleft does not apply here.",
+				"added": 1483879432
+			}
+		],
+		"4_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": [
+			{
+				"comment_id": 78,
+				"body": "> [nofish](#comment_852_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): zeronet.py siteSign yoursiteaddress --inner_path data/users/someone/content.json --publish\n\nHow about:\n\nzeronet.py siteSign **otherpeoplessiteaddress** --inner_path data/users/**myself**/content.json --publish\n\nIt asks `Private key (input hidden):`, submitted `auth_privatekey` in `users.json` doesn't work:\n\n    Private key invalid!",
+				"added": 1483879894
+			},
+			{
+				"comment_id": 79,
+				"body": "> [nofish](#comment_853_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): You need to use the cert's privatekey\n\nIt works. Thanks a lot.",
+				"added": 1483880783
+			}
+		],
+		"1_1La6bmXcortqqH63WKuLMTtLjYN1LB1a46": [
+			{
+				"comment_id": 80,
+				"body": "页眉菜单有「中文论坛」链接。",
+				"added": 1485076778
+			}
+		],
+		"2_1CrAd3DZyZQjHfGcPeu1WdZ1LjRA8eD65b": [
+			{
+				"comment_id": 81,
+				"body": "此處是英文論壇。頁眉有中文論壇的鏈接。",
+				"added": 1485505736
+			}
+		]
+	},
+	"comment_vote": {
+		"3_14ng1wByxwoNXAhihYbpgyarVJbFiqs8ny": 1,
+		"145_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"146_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"144_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"721_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"3_13WWWFi6iuSLazDcNvHgBEjjeAofAhAwtE": 1,
+		"142_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"717_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"718_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"5_13Mt8T2256Uz4GHk9B4XvKqyz37wPgA26q": 1,
+		"719_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"6_13Mt8T2256Uz4GHk9B4XvKqyz37wPgA26q": 1,
+		"25_1CTut2qbaj54ZjNoYeuWSGwV75iVieKY6N": 1,
+		"189_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"730_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"81_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": 1,
+		"20_1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t": 1,
+		"29_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF": 1,
+		"15_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD": 1,
+		"168_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"175_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"738_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"743_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"171_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"215_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"777_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"789_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"209_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"793_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"212_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"162_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"163_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"66_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"82_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC": 1,
+		"2_1GEfdZ7AyiBeEj8341JU5yZrCWCCczGDg5": 1,
+		"853_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"75_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1
+	}
+}

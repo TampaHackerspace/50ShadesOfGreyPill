@@ -1,0 +1,23 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"2_1HVJvkzPdXDEtsjBSzFLyx6KsG8Tg2nnr5": [
+			{
+				"comment_id": 1,
+				"body": "if it's installed correctly you should have a file like 'tor.service' in /etc/systemd/system . If that is the case, then all you need do is: sudo systemctl enable tor.service . If not, you need to create the service file.",
+				"added": 1477775726
+			}
+		],
+		"1_1EwCeJE1k48nqMFtAuiEPLUzNeKvCGTmtX": [
+			{
+				"comment_id": 2,
+				"body": "There is no inherent reason that a decentralized service could not be ad supported in the same manner as any other web based service.",
+				"added": 1477776041
+			}
+		]
+	},
+	"comment_vote": {}
+}

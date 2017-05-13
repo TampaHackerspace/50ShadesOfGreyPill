@@ -1,0 +1,44 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HIUbO+b7JSbp+5F5uCj6NxWruGJow8biRncuFcQOIkBf0UqnclPcnUddek9ZoejWdfQqdTY/eukOrCliaHHeFrw=",
+ "cert_user_id": "adultsitedating@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ed6d8a6ef13219fd61f98990ced57adf7a3f84417c29b69db1e2b5a01a8d4aef",
+   "size": 66863
+  }
+ },
+ "files_optional": {
+  "1483562521.jpg": {
+   "sha512": "91294070a22b686569c15e8a962844b3e62fa54fbbb05a5dae4a813ab41016e6",
+   "size": 55344
+  },
+  "1483605899.jpg": {
+   "sha512": "af3787261eaecaca2f58c545a2a5b8c9e2058ae149b22e0c484b85332aa65e35",
+   "size": 32857
+  },
+  "1483700141.jpg": {
+   "sha512": "b944096be7181d55f6be4060dfe779b4d3f2df5f2178b3ecde7696e98245b8e7",
+   "size": 34571
+  },
+  "1483960617.jpg": {
+   "sha512": "4b634f1b412c8ffac0399053c9d51bffb1f7ad186b1fa6ffef075d2adb7f0ca8",
+   "size": 38766
+  },
+  "1484336014.jpg": {
+   "sha512": "1b0a63ad457179fc5f63283b17e0a9b69e859714debcd8b88a12a6bd99b20cfc",
+   "size": 31473
+  },
+  "1484338188.jpg": {
+   "sha512": "085b6c4f6ec59d1b0984b54138199e98443d694945daf8a6877a828a4d4f13a6",
+   "size": 46720
+  }
+ },
+ "inner_path": "data/users/192RrVMsT8jyw5HqeoPkcoBzDyu1GTeQ3M/content.json",
+ "modified": 1484496819.915,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "192RrVMsT8jyw5HqeoPkcoBzDyu1GTeQ3M": "HBldufMT2r3rxT+J1JQFIwfuqruR7RceMVLOLYfNWvoDFSk5U5MrVpGLGi+4G91Xj4wl82ofD2pwPFo3hWeXeYA="
+ }
+}

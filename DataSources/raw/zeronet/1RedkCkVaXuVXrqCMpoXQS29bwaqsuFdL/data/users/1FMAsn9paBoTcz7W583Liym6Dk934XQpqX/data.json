@@ -1,0 +1,38 @@
+{
+	"next_comment_id": 5,
+	"user_name": "Bobsong",
+	"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+	"post_like": {
+		"13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484496342": 1485897840,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1485984480": 1486051656,
+		"13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1486383788": 1486384663,
+		"13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1486656512": 1486661128,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1486836297": 1486839605
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@p2p 这样更加有利于推广zeroNet，特别是zeroMe，适合民主人士宣传自由民主思想：安卓手机版本需要使用浏览器才能使用，用起来不方便，比如页面字体太小、页面跳转不方便，请问什么时候出安卓app版本的？类似于手机版的淘宝app一样，更有利于推广zeroNet。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484496342",
+			"date_added": 1485896984
+		},
+		{
+			"comment_id": 2,
+			"body": "发现ZeroNet的4个有待改进或完善的地方：\n1. zeroNet首页左侧的GreenHub或其他hub，为什么更新失败？\n2. 已经Join了两个Hub，导致数据不一致、刚刚提交的帖子自动消失，请问如何从其中一个Hub退出？zeroMe对hub的管理方面的功能较弱？\n3. 每个帖子下方如果有很多评论，点击超链接“查看更多评论...”，就可以展开评论区，但是没有收起评论区、或者称为折叠评论区的功能。\n4. ZeroBlog的每篇博客标题的下方，有显示评论数量、like数量、文章最后修改时间等等基本信息，但是没有阅读数量。希望提供阅读数量的功能。因为：公知、意见领袖、社会活动家、评论家、民主战士、维权律师等等很多人在经常发表博客，如果看不到阅读人数量（有可能阅读的人很多很多，只是他不知道），或者发现博客阅读人数太少，甚至没有，会误会读者、误会民众，影响他们发布博客的积极性、使用ZeroBlog的积极性、为自由民主奋斗的情怀。估计Nofish不懂中文，谁把这段话翻译成英语。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1486361315",
+			"date_added": 1486384036
+		},
+		{
+			"comment_id": 3,
+			"body": "提醒：请大家不要点这些Join按钮。\n告诉大家Join多个Hub的入口，不过请大家不要Join，因为会让你的帖子自动消失（偶尔发生）,会让你抓狂的，除非你想把你的当前zeroId作废。\n入口是http://127.0.0.1:43110/0hub.bit\n然后点击页面上的第一个超链接，然后会出现很多Join按钮，再次提醒：请大家不要点这些Join按钮。\n请英语比较好的朋友，提醒开发者去掉这个入口，加个if判断，如果用户ZeroBundle\\ZeroNet\\data文件夹里面的users.json里存放了id，那么就不允许Join。\n@P2P @12hlearn @testapp @ysc3839",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1486383788",
+			"date_added": 1486574400
+		},
+		{
+			"comment_id": 4,
+			"body": "@P2P: 屏蔽了某用户的结果是什么？是他不能在我的zeroMe发表评论，还是不会再看见他的帖子？测试了一下，发现还是可以看见某人的帖子。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1486656512",
+			"date_added": 1486662029
+		}
+	]
+}

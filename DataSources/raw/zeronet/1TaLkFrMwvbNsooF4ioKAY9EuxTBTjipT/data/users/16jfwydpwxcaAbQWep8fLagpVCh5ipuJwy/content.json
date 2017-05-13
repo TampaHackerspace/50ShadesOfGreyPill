@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G8a0lwUTdsLNKzm8vsIgQg+Z+GhAebQkc2p6J3CjzU7G5zxBpgGmz3cgcmnq3kcivVNmzgzMUzrhM/02zKVixtE=",
+ "cert_user_id": "loustic@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "88adc452ecbbe81bde7da9c99fa0fb7c399a1e071c96d1abb55d7d04db57256f",
+   "size": 272
+  }
+ },
+ "inner_path": "data/users/16jfwydpwxcaAbQWep8fLagpVCh5ipuJwy/content.json",
+ "modified": 1489753416,
+ "signs": {
+  "16jfwydpwxcaAbQWep8fLagpVCh5ipuJwy": "G176VwUkyd6ImrI6sZOKT5ACYqn+IoKCbdoajnYpfn5UYvoR3jAcIzvJx/r3DqFMDqdK8GvOcSUWqp6kEvH0VAc="
+ }
+}

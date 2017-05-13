@@ -1,0 +1,214 @@
+{
+	"next_comment_id": 35,
+	"user_name": "编程狗的博客",
+	"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+	"post_like": {
+		"13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1483450432": 1483451488
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "呵呵,p2p流量如今占了网络流泪的一半以上,过滤这样巨大的流量对朝廷来说基本不可能。倘若真的发生大规模事件的话,直接断网了就是了。",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482593966
+		},
+		{
+			"comment_id": 2,
+			"body": "@Lmath: 现在朝廷的维稳经费逐年上升，恐怕支付不起那么多钱。另外安在终端很不现实，忘记绿坝了吗？",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482687408
+		},
+		{
+			"comment_id": 3,
+			"body": "@Lmath: 1.互联网真的实名了吗？2.即使互联网实名了，难道是每个人都会真的实名上网吗？在暗网的人不要太多20%足够了。3.一个普通人即使被完全监视，他不做出格的事情，属于80%的沉默大多数，对它监视意义多大？4.朝廷重点监视影响力比较大的人还是靠谱点的...",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482688386
+		},
+		{
+			"comment_id": 4,
+			"body": "@weakish: 好一个理想国...",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482853492
+		},
+		{
+			"comment_id": 5,
+			"body": "@Linker: 安卓无解...ios还是靠谱的",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482853517
+		},
+		{
+			"comment_id": 6,
+			"body": "@weakish: 我说的靠谱是在保护用户隐私方面靠谱，相对安卓来说。安卓的权限管理混乱，导致现在是个应用都可以获取用户的设备信息。相对来说，在ios上可以做最大限度的避免。被入侵和靠谱没啥太大关系。比如linux在权限管理方面很靠谱，但是一样可以遭受入侵。iphone即使再被入侵，也不是每一台机子都会被入侵，这还要看用户的习惯和设置，整天暴露在wifi下真的是个好习惯吗？",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1482939961
+		},
+		{
+			"comment_id": 7,
+			"body": "@weakish: 你说的很对",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1482506537",
+			"date_added": 1483155912
+		},
+		{
+			"comment_id": 8,
+			"body": "@Ysc3839: 你们学校的防火墙应该只允许http或https流量",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1483190334",
+			"date_added": 1483209062
+		},
+		{
+			"comment_id": 9,
+			"body": "@Lmath: 墙不能完全屏蔽国外云服务，但是对其丢包，用户会感到变慢。对于不知道内幕的人来说还以为人家服务质量差呢，此招甚阴。已经用了很多年了。",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1483190334",
+			"date_added": 1483209228
+		},
+		{
+			"comment_id": 10,
+			"body": "@Ysc3839: 你是说你尝试的你们学校的防火墙还是gfw？如果是前者的话说明你们学校对udp友好，你可以试试tcp over udp。tcp给http发数据没有被屏蔽，说明防火墙没有检测header而是端口。tls重置的话就很奇怪了，难道防火墙连https都不允许？有点变态。不过既然http放过，那么可以试试tcp over http 或者http over http，不想被防火墙知道你在做什么（八成他们在偷窥，否则没理由不允许https）的话，可以tls over http。",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1483190334",
+			"date_added": 1483217933
+		},
+		{
+			"comment_id": 11,
+			"body": "@Nekocross: \n@KhA: 我觉得搞白名单也没有啥。道高一尺魔高一丈。将来只要有那么几台电脑能连接到墙外，大家就都可以连接到墙外。退一步讲，如果真的搞起白名单，墙倒还远吗？",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1483190334",
+			"date_added": 1483280999
+		},
+		{
+			"comment_id": 12,
+			"body": "Great！",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1483450432",
+			"date_added": 1483451495
+		},
+		{
+			"comment_id": 13,
+			"body": "It's ok on ubuntu.I have to test it on android",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1483450432",
+			"date_added": 1483453160
+		},
+		{
+			"comment_id": 14,
+			"body": "你能知道是那一行代码开始有误差的吗？如果改python源码让那个时间精确到3位就够了",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1483450432",
+			"date_added": 1483454270
+		},
+		{
+			"comment_id": 15,
+			"body": "Why not let a config file  decide to round it? @Nofish: @P2P:",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1483450432",
+			"date_added": 1483455477
+		},
+		{
+			"comment_id": 16,
+			"body": "果然！",
+			"post_uri": "1958F7oCppj78MP966AfojMQwHg2WUupzq_1483545353",
+			"date_added": 1483547626
+		},
+		{
+			"comment_id": 17,
+			"body": "@12hlearn: \n@P2P: 精确小数点3位啥问题也没有了...",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1483588792",
+			"date_added": 1483594166
+		},
+		{
+			"comment_id": 18,
+			"body": "精确那么多后来移植java版本还是有问题，java自己对时间的精度没有那么高...",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1483588792",
+			"date_added": 1483594260
+		},
+		{
+			"comment_id": 19,
+			"body": "@P2P: 直接int也好，甚至提供一个配置来决定精度到多少位还是int，这样也不会有问题，python源代码不用改一行",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1483588792",
+			"date_added": 1483594951
+		},
+		{
+			"comment_id": 20,
+			"body": "@P2P: 我看源码里面有判断时间早晚的，直接用的等于号，如果把等于号改成差是否小于1毫妙，应该也没有问题了吧，而且新的版本和旧版本兼容。如果改成int的话恐怕要改的地方不少啊",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1483588792",
+			"date_added": 1483596072
+		},
+		{
+			"comment_id": 21,
+			"body": "而且精度问题未必是全网精度最低的，新版本可以决定同步0.001的，如果对方是0.01的那么肯定回同步的，如果对方是0.0001的，同步对方的时候可能会出问题，不过这个概率非常之小。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1483588792",
+			"date_added": 1483596359
+		},
+		{
+			"comment_id": 22,
+			"body": "提供个sha1吧至少...",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1483720921",
+			"date_added": 1483722898
+		},
+		{
+			"comment_id": 23,
+			"body": "让zeroid.bit签名的人只读，自己另外搞一个域名授权，授权的时候邮件授权可以有效防止spam",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484538258",
+			"date_added": 1484576715
+		},
+		{
+			"comment_id": 24,
+			"body": "@Ysc3839: 呵呵，修改一行代码就可以，数据write的那句注销或者添加评论按钮注销",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484538258",
+			"date_added": 1484577497
+		},
+		{
+			"comment_id": 25,
+			"body": "@Nekocross: ziroid.bit 是自动授权的，也可以修改代码发邮件才能授权",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484538258",
+			"date_added": 1484578118
+		},
+		{
+			"comment_id": 26,
+			"body": "@Testapp: 你说的很对，看来每个人都有一个block脚本是不错的选择",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1484538258",
+			"date_added": 1484702961
+		},
+		{
+			"comment_id": 27,
+			"body": "@Nofish: To disappear the spam is enough I think.Just disappear but do not delete them.",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1485876841",
+			"date_added": 1485880749
+		},
+		{
+			"comment_id": 28,
+			"body": "电脑卡一般不是因为存储大，因此用360之类的清理软件清理垃圾真没啥用，反而在360在扫描硬盘的时候造成大量硬盘读写，降低硬盘寿命不说，电脑反而会变卡。",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1486629883",
+			"date_added": 1486646139
+		},
+		{
+			"comment_id": 29,
+			"body": "@Facineroso: Try this [script](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1CouTPX7rK6cyffPCyyxttdZhB1u7NPtqz/1BA2fUtT5cqyWHx4p3caoEYo2YFGU5dnn4/1486644932) ",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1486645557",
+			"date_added": 1486647012
+		},
+		{
+			"comment_id": 30,
+			"body": "@公共: \n@Lmath: \n@Yuzu: 如果windows有一天不卡了，就没有人用360之类的一键清理了，不知道360是不是也明白这个道理...",
+			"post_uri": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1486629883",
+			"date_added": 1486803958
+		},
+		{
+			"comment_id": 31,
+			"body": "像google一样的搜索引擎",
+			"post_uri": "144GQ5Uz9dYQJ1MwjSFWWboLgHwdGpv21x_1486729236",
+			"date_added": 1486804806
+		},
+		{
+			"comment_id": 32,
+			"body": "你可以建一个博客，把音乐的目录放到博客上，然后把你的音乐用ipfs分享上来。要想批量现在可以试试btsync",
+			"post_uri": "1PBMVMMVVtSK6FmMbfz4fhEw5fv6eZs5Dn_1486883174",
+			"date_added": 1486883353
+		},
+		{
+			"comment_id": 33,
+			"body": "前几天遇到类似的问题，不知道和你的问题一样不一样，详情见博客。",
+			"post_uri": "1CrAd3DZyZQjHfGcPeu1WdZ1LjRA8eD65b_1486903755",
+			"date_added": 1486916717
+		},
+		{
+			"comment_id": 34,
+			"body": "你可以在一个同时支持ipv6和ipv4的机器上做一个代理，ipv6->ipv6 and ipv4 server -> the world with ipv4",
+			"post_uri": "1PBMVMMVVtSK6FmMbfz4fhEw5fv6eZs5Dn_1488380545",
+			"date_added": 1488387404
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"next_comment_id": 5,
+	"user_name": "#@:",
+	"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "应该不是你的问题,可能是某个节点网络不畅导致他无法发布自己的内容,全网所有节点就都会出现\"2个文件更新失败\"",
+			"post_uri": "13vBk64Ftz6si7rFuafufLhoQiSVWm2XZc_1486744012",
+			"date_added": 1486776787
+		},
+		{
+			"comment_id": 2,
+			"body": "@Booma 我现在也想搞一个利用git在ZN上托管代码的Zite,一起开发怎么样?",
+			"post_uri": "1Lamw1Fk5CrdjwLNPfkDBJH8C2znRuCcBL_1486956205",
+			"date_added": 1486980634
+		},
+		{
+			"comment_id": 3,
+			"body": "@Linker: 目前打算建成merge式的,每个用户的profile和所有git仓库分别存储在一个单独的Zite里,在网站首页上只显示摘要,想要再下载,应该可以缓解一下git仓库变大的压力",
+			"post_uri": "1Lamw1Fk5CrdjwLNPfkDBJH8C2znRuCcBL_1486956205",
+			"date_added": 1486988204
+		},
+		{
+			"comment_id": 4,
+			"body": "@Linker: @Booma: 还有就是 @ 我的时候好像需要用```#@#@:```才能 @ 上",
+			"post_uri": "1Lamw1Fk5CrdjwLNPfkDBJH8C2znRuCcBL_1486956205",
+			"date_added": 1486988717
+		}
+	]
+}

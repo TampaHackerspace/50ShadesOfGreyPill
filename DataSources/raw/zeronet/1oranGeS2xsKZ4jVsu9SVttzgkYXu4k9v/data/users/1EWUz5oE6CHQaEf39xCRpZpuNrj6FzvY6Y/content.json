@@ -1,0 +1,32 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G+8AO9jzNKuQDXr3kfIPLsf3blgyBHHIj+CZZJLtLFKs2ocv51+dc12T9dQ4iQuomz4X0K1oHMZgij0bDC8Qgms=",
+ "cert_user_id": "maxzakh@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "9c00a2b7698c9ea7b6f9bb50d3e065d9eb2ee2ea11612ae8285e67fc2c030e7e",
+   "size": 87
+  },
+  "data.json": {
+   "sha512": "f9d42ee5749ea9d21b6d4938ee25e73ed85560818a74ec0133a1af3290ee2488",
+   "size": 904
+  }
+ },
+ "files_optional": {
+  "1484410905.jpg": {
+   "sha512": "f318e36eb5bd1ef99ce644ef447272a706bee59de100554ddbb517c37b615172",
+   "size": 43929
+  },
+  "1484411096.jpg": {
+   "sha512": "6b2b597a6834ff7d2a5a627c7dc3698125e3a2581c2c3082b8fa1ef937b92702",
+   "size": 78875
+  }
+ },
+ "inner_path": "data/users/1EWUz5oE6CHQaEf39xCRpZpuNrj6FzvY6Y/content.json",
+ "modified": 1484418151,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1EWUz5oE6CHQaEf39xCRpZpuNrj6FzvY6Y": "G79iIW/LzkuMnPZ5tVR1Ew0EtTUt2/GlDVgBACOciCTWt43qTTJF4OXCa1rQg4CzCUEx/kQzpfBjamiBZVbLq6Y="
+ }
+}

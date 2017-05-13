@@ -1,0 +1,32 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G6m+b7ROkOhgwh363B2s7+QmJsy0FKUQqyqUbOsiP3vkSd/KB55dtLAFKFxW5NdShLohGyELO3b9AKSEt8QoSwI=",
+ "cert_user_id": "flusteredcustard@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "63d35fd56fdda717087d59f2a3d654c6faaffaad23cd7770f3e5a3dfbc0bd164",
+   "size": 112
+  },
+  "data.json": {
+   "sha512": "b4099176fa55529d691913d19ad525f90c321618478a1e30c18278b9c9860a77",
+   "size": 1324
+  }
+ },
+ "files_optional": {
+  "1488661935.jpg": {
+   "sha512": "e2bcfe498cec7fc82e09ec2ba848ab1f386c16a8d348273737976700a4f46c91",
+   "size": 44777
+  },
+  "1488661941.jpg": {
+   "sha512": "6c115cf852c2c58fa3e5cf80508c9c02e7722a04409a21a449c47611183bd043",
+   "size": 84995
+  }
+ },
+ "inner_path": "data/users/1Gcmq6NGSVa7jHEZuDbcAySMjscSuPgGx2/content.json",
+ "modified": 1488686543,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1Gcmq6NGSVa7jHEZuDbcAySMjscSuPgGx2": "GyFy/G7l2tF8r+PVeycP2lNOzD93GnqoxsI7tFFdY7/6G4gT+E3+tx0+4cJ7bxtpjZf45LDHxVCaM8uQ7zfR7PI="
+ }
+}

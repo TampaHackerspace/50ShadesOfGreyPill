@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HBaUaxADgvJF0STWcI3jOprfpBnliznAQgplOhzoPsaW2E3fN0XlKdK/KMM6alflUt5hbpceGVLePZVVglBd/k0=",
+ "cert_user_id": "outlook@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "4547fc64e3cd12cfa2aa173ecf3f06bf60153959c68b902c7506a6f2a2400122",
+   "size": 251
+  }
+ },
+ "inner_path": "data/users/19RDmPrTKjEqFgw1PGx6o6TWSGw63wSExZ/content.json",
+ "modified": 1481556268.277,
+ "signs": {
+  "19RDmPrTKjEqFgw1PGx6o6TWSGw63wSExZ": "G8qlMZqJ+F4T0lNZgvt20C3IbbXs1y4hDYpF9mpesTmAag71HyNt6pY1OR9q4L814xtGGcGbQSTt1Njhl9BE5GY="
+ }
+}

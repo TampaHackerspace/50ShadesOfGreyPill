@@ -1,0 +1,21 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"1_1PoA7YxWVZKoXWoD1PjdwByFqqCA8d2uqr": 1,
+		"1_1JtxPipMFzvBTQ8fwSeupUxfiVMbutBfhG": 1,
+		"9_12i4LiZ39NxcYtsf36aTWJzcpzw4KFUCJy": 1,
+		"3_18Sh2Z83C23xdd6pjCq6NGv7Y6svEBcUfb": 1
+	},
+	"next_comment_id": 2,
+	"comment": {
+		"1_1PoA7YxWVZKoXWoD1PjdwByFqqCA8d2uqr": [
+			{
+				"comment_id": 1,
+				"body": "> [polyomino](#comment_3_1AMdyAHJ7RdjV8rDNs3jy22fdoMcGESJdG): you can't do that because then the other peers will have your key and they will impersonate you.\n\n##\nUser installs ZeroNet and gets a key, but then you encrypt the key and store it on the decentralized ZeroNet. User can then login on a different machine without having to copy over files, by enter their key and the password that decrypts it.\n\n##\nCreate a ZeroNet installer hard coded into an Open Source browser, so that user can just click one button o the browser and ZeroNet is instantly installed on the computer.\n\n##\nMeld ZeroNet together with Linux in a VM. It would be a social sharing platform that is WAY better than FaceBook. \n\nLinux is Open Source and Linux machines can talk directly to other Linux machines without a central server (and without ZeroNet), also Linux already offers many very powerful P2P applications. Thus, ZeroNet would be running inside the VM, (since it would already be preinstalled into the .iso), and allow decentralized storing of metadata like IP addresses so that all the ZeroNet VM users connect together. Then users can employ existing Linux P2P like Pidgeon and Remote Desktop into a very, very powerful Social Sharing network where there are basically no limits. \n\nBy using existing Linux services files could easily be piped over to any other users computers. Further, since the ZeroNet VM is a totally separate container from the users actual physical machine, ZeroNet VM users can access everything in a users ZeroNet VM if the owner likes, and there would be no security risk, also the user would stay completely anonymous. Also, any hack attacks on the ZeroNet software would be contained inside the VM without the users actual physical machine being affected. The ZeroNet VM owner can just delete the ZeroNet VM or even just run the ZeroNet VM in LIVE mode, leaving no trace of the stuff they had contained in the ZeroNet VM when they delete it or shut it down. \n\nAlso, the ZeroNet webserver could be made more robust in Linux.\n\nDown the road VMs will be possible to run on Smart Phones, so this will also work on ANY device.",
+				"added": 1473813502
+			}
+		]
+	},
+	"comment_vote": {}
+}

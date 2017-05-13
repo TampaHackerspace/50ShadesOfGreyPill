@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HL2Xx7RBZNW10xMJGfcAxiXgLQaSwG2kgKLXRxxnIBFRx8kSmeOUqVwHsv8Q7no+sBrpNND7f5rW0EghfgLI+8Y=",
+ "cert_user_id": "felixargyle@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "09baf8559e5238a3d261c4632fb920d22fa95e00b277dac94ce337355270acf9",
+   "size": 1552
+  },
+  "data.json": {
+   "sha512": "d2137b066a9ca78e41b23bbec3308095fc2141f9c5db510489f1601c52429ea2",
+   "size": 338
+  }
+ },
+ "inner_path": "data/users/1EzXt918XEt4t2mSjPL4mZwwvdxBhSd2Xg/content.json",
+ "modified": 1485687691,
+ "signs": {
+  "1EzXt918XEt4t2mSjPL4mZwwvdxBhSd2Xg": "HOOzswrgXrozZwnEiMQlHZLbwlRM5fx6ajTXCLd6noUOKrrj8cX4VLciA4b+aZw42JAdSS/Xj6+TSIQPuSDSLuU="
+ }
+}

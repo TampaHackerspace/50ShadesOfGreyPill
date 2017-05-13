@@ -1,0 +1,23 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"2_1DSoqCXNkqv7yJNXiF6YoaeK2bW8BFt2gh": [
+			{
+				"comment_id": 1,
+				"body": "I'm pretty sure zeromail isn't even email (technically)\nyou can do it if you make a bot to do it for you though, but that's about it",
+				"added": 1482203026
+			}
+		],
+		"2_17ac9ybVj5CtUpBvi5NeP1EwNZjfJoZWvt": [
+			{
+				"comment_id": 2,
+				"body": "zeromail would work for that, unless you want voice.\nOther than that I think wire is your best bet, but that's not P2P.\n\nyou could also just host IRC yourself and enforce encryption if you're capable of setting that up yourself (you might need to write code for that to work)",
+				"added": 1482349190
+			}
+		]
+	},
+	"comment_vote": {}
+}

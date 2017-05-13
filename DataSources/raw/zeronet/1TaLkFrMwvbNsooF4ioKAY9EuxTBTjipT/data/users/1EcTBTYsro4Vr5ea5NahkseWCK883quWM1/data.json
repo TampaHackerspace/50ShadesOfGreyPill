@@ -1,0 +1,40 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "How about IPFS?",
+			"body": "Im thinking to build a new Zite like PLAY, but instead bittorrent content I wanna distribute content with ipfs. What you guys think?\n\nAnyone use ipfs?",
+			"added": 1476930464
+		}
+	],
+	"topic_vote": {
+		"1_1EcTBTYsro4Vr5ea5NahkseWCK883quWM1": 1
+	},
+	"next_comment_id": 5,
+	"comment": {
+		"1_1EcTBTYsro4Vr5ea5NahkseWCK883quWM1": [
+			{
+				"comment_id": 1,
+				"body": "I forgot to say that using an js video player (with subtitles) you can stream videos over ipfs. Its cool :)",
+				"added": 1476930696
+			},
+			{
+				"comment_id": 2,
+				"body": "Sure> [cannonfodder](#comment_37_1GCMDNMgJHvZJfdbD9ygDmpBdnVAobdJYg): The problem with IPFS is it's not anonymous. You'll reveal your IP address if you pin content to be shared so it's no real improvement over bittorrent.\n\nYeap, its true.",
+				"added": 1476943789
+			},
+			{
+				"comment_id": 3,
+				"body": "Yeap, IPFS works fine. Its great, but like cannonfodder said it reveals your IP. Other problema that Im facing is the video subtitles on chrome. Chrome complain about CORS. So the user has to config your ipfs to enable cross origin too.",
+				"added": 1476992616
+			},
+			{
+				"comment_id": 4,
+				"body": "> [dutypeer](#comment_2_1LSL3xUhh2WzVGsUZDcviE1ns6tKjvtJtP): http://localhost:43110/zeroblog.bit/?Home\n\nThis zite only compair Zeronet to IPFS. I want to implement both technologies.",
+				"added": 1477799507
+			}
+		]
+	},
+	"comment_vote": {}
+}

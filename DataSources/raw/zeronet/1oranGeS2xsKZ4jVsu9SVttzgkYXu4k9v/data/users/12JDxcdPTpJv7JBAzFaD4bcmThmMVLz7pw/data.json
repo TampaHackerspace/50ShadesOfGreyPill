@@ -1,0 +1,40 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 1,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Cannabrowser",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1485292658,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1485292864,
+			"body": "Cannabis Cures!",
+			"date_added": 1485292862,
+			"meta": "{\"img\":\"729,700,000211332465bb64945a5fb3699885de28f46f8df82f62ce,0000110000012033000002425613200174668610019ABCC510077DBE6210014ABCEF40014ABEC81001394448200000121000\"}"
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1Pq36KyZNB18qLHbqzxseXuQiFQsEj3qzu",
+			"user_name": "K4it0",
+			"date_added": 1485315000
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1HF8oTvN8Yd1ejacVDj7tyUWq1heF3oLrf",
+			"user_name": "Silencesword",
+			"date_added": 1485315043
+		}
+	]
+}

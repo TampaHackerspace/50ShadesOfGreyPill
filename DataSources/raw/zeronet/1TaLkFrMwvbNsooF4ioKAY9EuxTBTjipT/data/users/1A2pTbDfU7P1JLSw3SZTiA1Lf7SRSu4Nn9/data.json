@@ -1,0 +1,61 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "How does this system prevent spam?",
+			"body": "HUh, huh punk?",
+			"added": 1480078590,
+			"parent_topic_uri": "1_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG"
+		},
+		{
+			"topic_id": 2,
+			"title": "Blockstack?",
+			"body": "What about it",
+			"added": 1481571846
+		},
+		{
+			"topic_id": 3,
+			"title": "Byteball is the future of Cryptology Currency",
+			"body": "Yes you read that right",
+			"added": 1487005826,
+			"parent_topic_uri": "1_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG"
+		}
+	],
+	"topic_vote": {
+		"1_1A2pTbDfU7P1JLSw3SZTiA1Lf7SRSu4Nn9": 1
+	},
+	"next_comment_id": 6,
+	"comment": {
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "Please can we stop naming everything ZERO. FUCKS. Ffuck. Cant get this word out of my head now fuck.",
+				"added": 1480084419
+			},
+			{
+				"comment_id": 2,
+				"body": "s0meus3r, yes Zeronet is not anonymous for your ISP, they can see the connections, but not the data travelling in it.\n\nLike bittorrent with peer-encryption enabled. So if your ISP or government assumes IP address = YOU, then they know you are using zeronet.",
+				"added": 1480084537
+			},
+			{
+				"comment_id": 3,
+				"body": "ancap, real world identity does not solve troll problem. Look at any news site BBC CNN and thier comments. people with facebook accounts posting actual shit they should be in jail for.\n\nCurated content, moderation, not one site admin but many, can solve the problem. \n\nThen we need DDoS protection. It will happen soon. ddos.",
+				"added": 1480084661
+			},
+			{
+				"comment_id": 4,
+				"body": "How does ZeroNet prevent DDoS and SPAM?",
+				"added": 1480191394
+			}
+		],
+		"1_1H8x2Aeu28Lnj6vhXFNZ32kpvGS6dnqWGA": [
+			{
+				"comment_id": 5,
+				"body": "Yeah its nice, but Im looking at blockstack now, because they actually have a decentralized PKI, meaning no mitm-able connections to peers. And seem to be easier to build other applications on other than zero-sites, since they also have storage and auth built-in.",
+				"added": 1481571406
+			}
+		]
+	},
+	"comment_vote": {}
+}

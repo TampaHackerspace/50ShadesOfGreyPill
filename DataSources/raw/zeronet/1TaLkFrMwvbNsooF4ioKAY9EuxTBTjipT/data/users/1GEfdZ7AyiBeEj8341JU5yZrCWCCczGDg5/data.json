@@ -1,0 +1,63 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "new test",
+			"body": "??? test ???",
+			"added": 1482067483
+		},
+		{
+			"topic_id": 2,
+			"title": "Is there any technical discussion forum or subforum served at Zeronet?",
+			"body": "I have doubts about some details of the realization of zeronet",
+			"added": 1482211212
+		},
+		{
+			"topic_id": 3,
+			"title": "Update to 0.51 just to see a bunch of errors in console",
+			"body": ". . . . . . . . . . . . . . . . Done.\nRestarting...\n- Starting ZeroNet...\n[21:38:01] - OpenSSL loaded, version: 01000207F\n[21:38:02] - Version: 0.5.1 r1786, Python 2.7.11 |Continuum Analytics, Inc.| (default, Dec  6 2015, 18:08:32) \n[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)], Gevent: 1.0.2\n[21:38:02] Db:ContentDb Table keyvalue outdated...version: False need: 3, rebuilding...\n[21:38:02] Db:ContentDb Table json outdated...version: 0 need: 3, rebuilding...\n[21:38:02] Db:ContentDb Table content outdated...version: 0 need: 1, rebuilding...\n[21:38:02] Db:ContentDb Table peer outdated...version: 0 need: 1, rebuilding...\n[21:38:02] Db:ContentDb Table file_optional outdated...version: 0 need: 11, rebuilding...\n[21:38:02] Db:ContentDb Table site outdated...version: 0 need: 1, rebuilding...\n[21:38:03] - Creating FileServer....\n[21:39:06] TorManager Tor controller connect error: error: [Errno 110] Connection timed out in TorManager.py line 154 > socket.py line 344\n[21:39:06] - Creating UiServer....\n[21:48:13] ConnServer Internet offline\n[21:48:38] - Removing old SSL certs...\n[21:48:38] - Starting servers....\n[21:48:38] Ui.UiServer --------------------------------------\n[21:48:38] Ui.UiServer Web interface: http://127.0.0.1:43110/\n[21:48:38] Ui.UiServer --------------------------------------\n[21:48:38] - Opening browser: default_browser...\n[21:48:42] FileServer Checking port 15441 using portchecker.co...\n[21:48:45] FileServer [BAD :(] Port closed: Port 15441 is closed.\n[21:48:45] FileServer Trying to open port using UpnpPunch...\n[21:48:47] FileServer UpnpPunch run error: UpnpError: Failed to communicate with igd using port 15441 on local machine after 3 tries. in FileServer.py line 74 > UpnpPunch.py line 319 > UpnpPunch.py line 310\n[21:49:13] FileServer Internet online\n[21:49:14] FileServer Checking port 15441 using portchecker.co...\n[21:49:20] FileServer [BAD :(] Port closed: Port 15441 is closed.\n[21:49:20] FileServer Trying to open port using UpnpPunch...\n[21:49:21] FileServer UpnpPunch run error: UpnpError: Failed to communicate with igd using port 15441 on local machine after 3 tries. in FileServer.py line 74 > UpnpPunch.py line 319 > UpnpPunch.py line 310\n[16872:16872:1220/214925:ERROR:account_tracker.cc(357)] OnGetTokenFailure: Invalid credentials.\n[16872:16872:1220/214925:ERROR:account_tracker.cc(357)] OnGetTokenFailure: Invalid credentials.\nFontconfig error: Cannot load default config file\n[16872:16941:1220/215127:ERROR:socket_stream.cc(208)] Closing stream with result -100",
+			"added": 1482242015
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 6,
+	"comment": {
+		"1_1AhXDbKvcLap7TcS2542J7bFYzKHM3xeRU": [
+			{
+				"comment_id": 1,
+				"body": "I believe everything depends",
+				"added": 1482196374
+			}
+		],
+		"2_1GEfdZ7AyiBeEj8341JU5yZrCWCCczGDg5": [
+			{
+				"comment_id": 2,
+				"body": "> [weakish](#comment_68_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): Here (ZeroTalk) is the forum to discuss ZeroNet. For technical details on Zeronet, check the presentation hosted at google doc, the official documentation hosted at readthedocs.io, and the source code (If you think the source code size is too big, you can check the Go port, which has limited features but has much less lines of code.)\n\nI don't think that's really a good idea if we take a look at the list of the threads. IMO this forum is in lack of manpower to category the contents.",
+				"added": 1482243536
+			}
+		],
+		"2_17tQX9J2fScN9APmweSUnzEU4EfTG1ojYb": [
+			{
+				"comment_id": 3,
+				"body": "I like every internet service out of ZeroNet. I smell a lot of money here ...",
+				"added": 1482244654
+			}
+		],
+		"2_17ac9ybVj5CtUpBvi5NeP1EwNZjfJoZWvt": [
+			{
+				"comment_id": 4,
+				"body": "Chat service over P2P network could be an alternative",
+				"added": 1482401051
+			}
+		],
+		"1_1LogBQ7aRYS9KNPZx2nrNKserBBAL5XhyD": [
+			{
+				"comment_id": 5,
+				"body": "I've always been wondering about the future of the manufacturing industry. Is it really worth a full commitment of human resources in our time? On the one hand we need full employment to regale the voters, on the other we are entering a new world where A.I. could very soon replace humans in most of the jobs, if not all. How could workers compete with A.I., which never requires a pay rise or complain about overwork? I see no policy address this issue at all, though it could be a much much bigger problem.",
+				"added": 1482807731
+			}
+		]
+	},
+	"comment_vote": {}
+}

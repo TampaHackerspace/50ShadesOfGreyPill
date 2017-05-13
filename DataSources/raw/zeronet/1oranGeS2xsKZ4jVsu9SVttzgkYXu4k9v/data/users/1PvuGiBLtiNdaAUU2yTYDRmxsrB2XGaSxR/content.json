@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G1qhmcQfaQtLtdcZ8JCmyq+zeqD4HtQaOYSmJqyLXthlgce8faK55EmZlMPwe3yGTWRf2ZwJtWQISFiwe7P1bRs=",
+ "cert_user_id": "cheesecake@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "6b80fdd1a6cc9fe7d220561342ecbe601cfd4dd85b97acc90ff9792128348e37",
+   "size": 1522
+  }
+ },
+ "files_optional": {
+  "1479867780.jpg": {
+   "sha512": "e01bee0c66741c3c464f2c3084fb9a20e7198a955af41b5b505839eae2a071db",
+   "size": 32936
+  }
+ },
+ "inner_path": "data/users/1PvuGiBLtiNdaAUU2yTYDRmxsrB2XGaSxR/content.json",
+ "modified": 1479867778.927,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1PvuGiBLtiNdaAUU2yTYDRmxsrB2XGaSxR": "G5gR/EpyPxTDKeqzbIRNJng7x6mKpnFx1EhHFgGV8IXx/9zzqovP9xKCO0hyeyqpf32sqj8ARTt+RrTwOpqH4G8="
+ }
+}

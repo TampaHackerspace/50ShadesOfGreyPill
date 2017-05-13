@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HOxqR1lEgySMTiRVJt1LyqWc3bA3va7Sr79vVZLEX9MFpISVLfteTiyfG/tb87QkGBcIDM+S3YXBDCBFC81N50o=",
+ "cert_user_id": "konata@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "fc03e80a83ce7ee5f2d1fe30558cfb1c69f5a8f048b3f0d8bc3c8ca64755b6e1",
+   "size": 707
+  }
+ },
+ "inner_path": "data/users/1AhPdZXQVAynVvNv1AgqDF1rBD8u99giFv/content.json",
+ "modified": 1476241098.431,
+ "signs": {
+  "1AhPdZXQVAynVvNv1AgqDF1rBD8u99giFv": "HCOLrkL9CHFc4NSNbr9+caycU71LcI4HeYZwBUztA//5tgRmAy2gE5yRiv3HQ2x01ajvx9W5EDiNOC9QZjYOYUg="
+ }
+}

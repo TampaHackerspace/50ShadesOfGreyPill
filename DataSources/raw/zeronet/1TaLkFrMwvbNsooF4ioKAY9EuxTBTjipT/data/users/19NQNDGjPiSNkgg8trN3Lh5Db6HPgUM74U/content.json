@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G2abRU+hPPX9iMvRgY8LhGA3n1WEt4EpXqUgUZq4aSlHp68YXq7/4C4s7XuAIaIfGSPoa6oZe3549uPRe3l3sis=",
+ "cert_user_id": "alexisbrill@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "56aa67c891e809afa585fa922f7cfeff10bc5816fa7e0e36b137dcf34c325baa",
+   "size": 703
+  }
+ },
+ "inner_path": "data/users/19NQNDGjPiSNkgg8trN3Lh5Db6HPgUM74U/content.json",
+ "modified": 1490209120,
+ "signs": {
+  "19NQNDGjPiSNkgg8trN3Lh5Db6HPgUM74U": "HD7WBrHn7h+XfHS5QxqSNBotTsiixK10umPEcwenGsb7oBTMCRmJ8hG/TGnm+OCLvL1jG7ChPcT3DHAvaLuURig="
+ }
+}

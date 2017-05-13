@@ -1,0 +1,64 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G0XUWkKigpBZla+Bdt98wpMkd8sKyDVxrslv2FxZ7PzeAekWPceTjwQuLqlTDd4YNWAzOiwjYG2T6NB4KSe54EI=",
+ "cert_user_id": "peponi@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "86519213f09c108553826f863d7585b2d7f194a14e533620862e1a9bab383868",
+   "size": 1401
+  },
+  "data.json": {
+   "sha512": "973a76d1ea25aaff7571e120e10677320ab4302c7146e7651136c3c26d285343",
+   "size": 13066
+  }
+ },
+ "files_optional": {
+  "1480102039.jpg": {
+   "sha512": "a973991a50997eb8c49150961f7dac817797660ebc837d0dbc26ed020ddf8f7b",
+   "size": 66395
+  },
+  "1480172114.jpg": {
+   "sha512": "b088bb75460ce0f4fecc33b44145fae8f3d637f298d8d85fb25824746aa97254",
+   "size": 38289
+  },
+  "1480864095.jpg": {
+   "sha512": "40004223174c84a296ff0b1f1f19c2fe5cf3d41230d8665e852899947e0b8c1f",
+   "size": 47358
+  },
+  "1480864302.jpg": {
+   "sha512": "44919ce9c7dd6ebdbb3d2e00a4122305350f27c4e403dc0d9cb8b540ecedb857",
+   "size": 36014
+  },
+  "1485976058.jpg": {
+   "sha512": "44aef051366cf1f79e82a408d98adb4430c26c5a09f9e5853ccbd8c2266e08db",
+   "size": 71993
+  },
+  "1485976183.jpg": {
+   "sha512": "a4aebb5e516e382f4ffe078f016e7835ee894492c0c19f46abadec82d7eef71e",
+   "size": 65212
+  },
+  "1485976197.jpg": {
+   "sha512": "ff89a83fe27688a818949e6d625ffd920d7f7e732af1d4c6f86ea190b98d82ad",
+   "size": 81076
+  },
+  "1485976208.jpg": {
+   "sha512": "5fbd83bda8941e2775bc5a0f8a1d57f0d98621c984c0eed973bbd70ef05631e5",
+   "size": 41554
+  },
+  "1485976266.jpg": {
+   "sha512": "082089a0e77dd5218b18ee6bb5e990f6aef50dc161f78c14815e215ed3a611db",
+   "size": 68614
+  },
+  "1485977004.jpg": {
+   "sha512": "64da1b30d0c58262bb610122d30a25cf6537dc586e004052a3211b00e5d00b68",
+   "size": 101644
+  }
+ },
+ "inner_path": "data/users/1KWqhuQ8bWbd8Pp6w65uSJ6Q2jjBKERL4H/content.json",
+ "modified": 1486832931.444629,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1KWqhuQ8bWbd8Pp6w65uSJ6Q2jjBKERL4H": "HGdS90hVlWwg7qsPtMhbOlL91Ys+Qj5yxdf7FzuXRuVRNuPxaJLrMzRjjhnaB2nEctpfapnLKYAI23YNpHM8oLk="
+ }
+}

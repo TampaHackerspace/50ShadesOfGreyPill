@@ -1,0 +1,16 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 2,
+	"comment": {
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "I unzipped a copy of TorBrowser in the ZeroBundle folder.  Then, at the command prompt, I'm trying to use a single command to open TorBrowser to a ZeroNet page, and it does start both, but the ZeroNet page doesn't open in the TorBrowser.   If I start TorBrowser first, and then start ZeroNet (without the BROWSER variable) it will open my default browser instead, and then I can copy that URL into the TorBrowser and it will work OK.  How can I fix this?\n\nenv BROWSER=\"/home/_____/ZeroBundle/tor-browser_en-US/Browser/start-tor-browser\" ./ZeroNet.sh --tor_proxy 127.0.0.1:9152 --tor_controller 127.0.0.1:9052 --tor always",
+				"added": 1491545848
+			}
+		]
+	},
+	"comment_vote": {}
+}

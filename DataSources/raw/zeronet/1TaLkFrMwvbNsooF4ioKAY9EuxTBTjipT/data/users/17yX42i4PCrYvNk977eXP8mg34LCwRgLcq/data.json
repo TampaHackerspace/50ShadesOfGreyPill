@@ -1,0 +1,29 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 4,
+	"comment": {
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "I saw one proxy using port 80 instead of 43110. Can this be done in ZeroNet?",
+				"added": 1473710742
+			},
+			{
+				"comment_id": 2,
+				"body": "> [nofish](#comment_758_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Sure, start it with --ui_port 80\n\nThanks a lot. :-)",
+				"added": 1473711360
+			},
+			{
+				"comment_id": 3,
+				"body": "> [nofish](#comment_758_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Sure, start it with --ui_port 80\n\nWill it work if \"ui_port = 80\" is added to zeronet.conf instead of starting ZeroNet with python zeronet.py --ui_port 80?",
+				"added": 1473711654
+			}
+		]
+	},
+	"comment_vote": {
+		"758_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"759_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	}
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "Gw9xKtdh1Sbws93awDJI3FvWSkLS+N6jMzzlHgEShU7ZQegn0ITm+EkztpGXFUUAK3fFM1HEoqbYYRJdvpOL4T0=",
+ "cert_user_id": "johnrambo@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "dd6d07c2b3225297f313478966774e54f3c6ccbebf2ff1e4fe01c8d76f36717d",
+   "size": 244
+  }
+ },
+ "inner_path": "data/users/1BzeANQMsKhU1S8LyZtNs14HhLDn7LqFNj/content.json",
+ "modified": 1481839595.274,
+ "signs": {
+  "1BzeANQMsKhU1S8LyZtNs14HhLDn7LqFNj": "G0XLNBjumZMTGZRAReTQDCiyqKXvJdIWiHkMTfcGAsVMwiZ7yBIs/byylOiv6rzQbqKd2JdtaMVTDkwBlx/CYvg="
+ }
+}

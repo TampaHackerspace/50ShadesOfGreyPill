@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HJU+QHteKN+rDgaJ4c7jiXS6+fpZEe/uJvZH+S6yUqcGX3bR/CsnwwoM0ZWaaSxSLTh1mpYxzfGkX7GpdUE7vrg=",
+ "cert_user_id": "ryanleesipes@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "e092320f74bd2e41f230b552a349b520c1501eaf699437aee7a5d99c7b959189",
+   "size": 1681
+  },
+  "data.json": {
+   "sha512": "d3d406bd858d024b4ceceb604e661808c19c1932bca5f184a71bbcf01ebeae61",
+   "size": 3586
+  }
+ },
+ "inner_path": "data/users/18GMgG7f7mYquJC1RCphMRLhMX1wsxzxff/content.json",
+ "modified": 1481576377.29048,
+ "signs": {
+  "18GMgG7f7mYquJC1RCphMRLhMX1wsxzxff": "G73lZY+bd0PkLTzI2Tbnv56oSzt3TBduXRA6hT5OFcf3JIAgvdZCd5Ia/N65jrlKqEflGEj9+UwfApV5dGAN3r8="
+ }
+}

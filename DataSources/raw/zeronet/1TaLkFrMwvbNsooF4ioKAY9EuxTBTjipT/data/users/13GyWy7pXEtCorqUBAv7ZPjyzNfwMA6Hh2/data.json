@@ -1,0 +1,71 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "why you write chinese here, morons?",
+			"body": "",
+			"added": 1485528151
+		},
+		{
+			"topic_id": 2,
+			"title": "Distributed scripting",
+			"body": "hi all! dunno where to post this idea, but will post it here. what do you think if ZeroNet would have ability for zites to have a script that is not run in the browser, but on the network, making it possible to create zites that require server logic, for example it will allow to create more complex social zites, better search and ratings and even simple browser MMO games!\n\nand every user will allow only a small part of his cpu to be used, like it is done with drive space usage. so by default each user of zite will give say 0.001 of cpu time, but zite could ask for more and user could accept it (like it is already done with drive space)\n\np.s. where are feature suggestions on ZeroNet?",
+			"added": 1485588144
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 7,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "wow!!!",
+				"added": 1485523092
+			}
+		],
+		"2_1FTdEtiDR5QdcZstHH46RYAxDFL5B23BiP": [
+			{
+				"comment_id": 2,
+				"body": "fuck you",
+				"added": 1485526616
+			}
+		],
+		"3_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 3,
+				"body": "i think something like VMWare ThinApp, Evalaze, Enigma Virtual Box or Spoon Studio will help. anyway using python in windows is always a pain in the ass",
+				"added": 1485526782
+			}
+		],
+		"1_16EGCX1cmogYo2EPidRU3axQ6N3jNQndoa": [
+			{
+				"comment_id": 4,
+				"body": "ZeroNet - is a distributed hosting unlike the Tor. So the censorship is much harder (in case the information is spreaded inside the network tho). And by the way there is a most simple method to block every p2p - like it is done in south Korea - ALLOW some sites to be accesed ONLY. Everything beside this is not a true blocking.",
+				"added": 1485542610
+			}
+		],
+		"2_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 5,
+				"body": "use playonlinux",
+				"added": 1485588211
+			}
+		],
+		"2_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": [
+			{
+				"comment_id": 6,
+				"body": "zeronet requires no installation. just download and unpack. and it creates no difficulties for me on linux mint. if you've installed it from some source, go ask the maintainer of that package",
+				"added": 1485598621
+			}
+		]
+	},
+	"comment_vote": {
+		"1_13GyWy7pXEtCorqUBAv7ZPjyzNfwMA6Hh2": 1,
+		"2_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": 1,
+		"1_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": 1,
+		"1_18B3FB3mkmTs6uWGVP5rcYBeyCZS3zL9qr": 1,
+		"1_13m72Hb74wktFufUPGPEpzX5JzgGw1z2Ph": 1,
+		"5_17U149zMQuTXJ53cXGLyDfrGEoztPiFkjc": 1
+	}
+}

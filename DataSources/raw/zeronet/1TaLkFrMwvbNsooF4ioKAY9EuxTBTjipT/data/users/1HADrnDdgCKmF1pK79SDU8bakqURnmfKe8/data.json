@@ -1,0 +1,23 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Change start page",
+			"body": "How can I configure zeronet to change the start page address so I get anythin other than hello zero?",
+			"added": 1491370204
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 2,
+	"comment": {
+		"1_1HADrnDdgCKmF1pK79SDU8bakqURnmfKe8": [
+			{
+				"comment_id": 1,
+				"body": "I did it. Either start with --homepage=1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT as a command line argument or use homepage = 1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT in the config file. Should have been in the README.md of the git repo or something.",
+				"added": 1491370851
+			}
+		]
+	},
+	"comment_vote": {}
+}

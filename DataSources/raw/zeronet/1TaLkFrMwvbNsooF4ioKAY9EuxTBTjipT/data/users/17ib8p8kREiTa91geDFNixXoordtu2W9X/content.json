@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HDGufhRdd62iI3thLpGnv+lDV7WDE1DqSsUQ+WaU2sD+UVmwM+/fPKm9YipzoWYTBjYZgRfQqP5YWNFAJrdBDg8=",
+ "cert_user_id": "zamovski@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "2a979c9f2b963ad16507894f446b533c80c651126c4a3a3dcc329bc30f31504f",
+   "size": 3645
+  }
+ },
+ "inner_path": "data/users/17ib8p8kREiTa91geDFNixXoordtu2W9X/content.json",
+ "modified": 1480972846.261777,
+ "signs": {
+  "17ib8p8kREiTa91geDFNixXoordtu2W9X": "HKSrqladAYVid708c3EJsGe8CxUVOU0X3ULzlng4p5+XNg+r5NY7FIsgcEekGR9Lef3oEAcTp0SNer8r6qjxpk8="
+ }
+}

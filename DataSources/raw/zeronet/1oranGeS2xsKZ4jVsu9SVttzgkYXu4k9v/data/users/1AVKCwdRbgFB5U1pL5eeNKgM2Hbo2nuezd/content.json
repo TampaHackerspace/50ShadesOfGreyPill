@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GxPx81qWBUsyPdrZMIPx6jgmAYqFZMg4VDlQ97ncAAeqBa3JH/nRyMGgFFLKBfpj+lh9JUVWso8jkYNEDJfU8es=",
+ "cert_user_id": "janakasteph@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ec2129ef40d4660609d99d36eeaad2785d5c5fdfa4dcfc32d3e2549c40be9f43",
+   "size": 480
+  }
+ },
+ "inner_path": "data/users/1AVKCwdRbgFB5U1pL5eeNKgM2Hbo2nuezd/content.json",
+ "modified": 1484067862,
+ "signs": {
+  "1AVKCwdRbgFB5U1pL5eeNKgM2Hbo2nuezd": "G+y9N2K2Y2/bxM0vAfSKtA5+3o7WMm5bd5CfWnmr8aeqF1So0AKNddIeFlJUaMjx+g14INFxTy+dGAufAA0wEds="
+ }
+}

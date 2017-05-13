@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HH856WDD2hnSLl8Mp+Wa/1YfHB28t7y8GCEx81ywQQGMPvjv06O/VwJKzZnQdo+XcTGES5mqDU+QXJ1NgyWm/A0=",
+ "cert_user_id": "alberteinstein@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "708987d0c7341f8c314142d887b3ef27a3a86235ed3f671aaa001019231026d8",
+   "size": 9046
+  }
+ },
+ "inner_path": "data/users/1Gi1gKhUwd3SBAKYyGTyWvN1L6QHtf56SL/content.json",
+ "modified": 1492791235,
+ "signs": {
+  "1Gi1gKhUwd3SBAKYyGTyWvN1L6QHtf56SL": "G0Bz+v17CD8fycYyUGKwG2P+zs/+r8RnVcXfr5eb9yrqLp8JDtvO+ENGgGOnAwxoE/CKNRUYTxvDfrt2hi/TZpM="
+ }
+}

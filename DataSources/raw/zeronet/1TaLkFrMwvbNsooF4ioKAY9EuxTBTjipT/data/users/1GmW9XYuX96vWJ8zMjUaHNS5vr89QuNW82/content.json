@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G5CTo8emjd3XnICCbH8xSEiCxohsQnp1bB8WYr+ETQgowPutViQwnznE0V3ilgcsrUF3dsnsE+jtNvsysYxT5O8=",
+ "cert_user_id": "questions@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "83425f1ba15efe28d3ce4ab68defbe044e2dff7a9fb65e57e183665bd4368245",
+   "size": 1793
+  }
+ },
+ "inner_path": "data/users/1GmW9XYuX96vWJ8zMjUaHNS5vr89QuNW82/content.json",
+ "modified": 1480177003.070486,
+ "signs": {
+  "1GmW9XYuX96vWJ8zMjUaHNS5vr89QuNW82": "HDgv+2WHVCd66zJ5KBey3ZKlSuqP08/NionskpooNxOrdtoqbArpjXeq80s3zKqDeSC2CUjTURQgWvP7PCMPR/U="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G1eBXumgMxdSDSUWjplhZKP76wjxX04QPdmaQxgZdsi3N3EWeCKA+D8Ce5wGWN7NXs+gHsF8iJNFhtd10rRCKrw=",
+ "cert_user_id": "hydrala@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "8a8074f205edd58fd98f06da752ba51cd8d91f2005d1835e2a79d4e844e90eca",
+   "size": 318
+  }
+ },
+ "inner_path": "data/users/17hRH8UwiXfH6z6gcHUuUpXAvqeWd3RTzq/content.json",
+ "modified": 1480760135.209,
+ "signs": {
+  "17hRH8UwiXfH6z6gcHUuUpXAvqeWd3RTzq": "HG10vy+8PLFisv1yEfewi4P/uTZ/T5DGMkLkjKs3v/EY83VHiJ+8mbOfGWyArelwqTglJ8pVve7nGo4RiMJqVpQ="
+ }
+}

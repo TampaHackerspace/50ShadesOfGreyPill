@@ -1,0 +1,74 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Implementing Freenet style content encryption for seeded sites",
+			"body": "I feel that this is a must, consider these two scenarios\n\na) You're a political dissident wanting to get around DNS-level censorship; your machine is confiscated, and you don't need to be a forensics specialist to know that its very simple to prove you've not only actively been viewing Falun Gong content, but now you're automatically hosting, distributing, and publishing it.\n\nb) The author of the site you're visiting (and copying onto your local) has 2 sets of content: i) the interesting bit you're wanting to read, and ii) another part not linked to that you don't know about, containing galleries of child porn.",
+			"added": 1491407065
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 11,
+	"comment": {
+		"1_172ALy9XgaQ3gJUx5zVzgeqp2oLsAoqo6m": [
+			{
+				"comment_id": 1,
+				"body": "This is why Zeronet needs freenet style encryption for all files being shared/stored........",
+				"added": 1491397936
+			},
+			{
+				"comment_id": 2,
+				"body": "> [13lucifer23](#comment_1_19dfuqqdasCxD56Yn8KGcgcckbdkV9SZi4): This is why Zeronet needs freenet style encryption for all files being shared/stored........\n\nI've got a temp solution for you though, install veracrypt/truecrypt, create an encrypted container, mount it, and store your Zeronet in there. You guys should be using full hdd encryption anyways and a platform like Qubes OS.",
+				"added": 1491398109
+			},
+			{
+				"comment_id": 3,
+				"body": "> [swagstika](#comment_13_1EgqAT7i9ipPjsMa5axHKjmLGbdttKd4E1): thats really terrible, you know you should post the link where you saw this terrible content, just so everyone here knows not to go to that zite.\n\nLMAO, stop looking for it, else 10yrs from now the only way you'll be able to get off is if it's your night to babysit your niece.",
+				"added": 1491398318
+			},
+			{
+				"comment_id": 6,
+				"body": "> [swagstika](#comment_18_1EgqAT7i9ipPjsMa5axHKjmLGbdttKd4E1): I am not curious, I just want to know the link so I know not to click it if I see it again.\n\nLOL #Prison",
+				"added": 1491422260
+			},
+			{
+				"comment_id": 7,
+				"body": "> [swagstika](#comment_19_1EgqAT7i9ipPjsMa5axHKjmLGbdttKd4E1): what does this hav to do with prison? like the title says, I am just trying to keep safe.\n\nBro, you are literally asking for a link to CP.......Just search grams helix/tor search for Childs Play forum...... Mr Podesta.....",
+				"added": 1491422903
+			},
+			{
+				"comment_id": 8,
+				"body": "> [swagstika](#comment_20_1EgqAT7i9ipPjsMa5axHKjmLGbdttKd4E1): CP? what is that? i just want to know what links not to click.\n\nCan't tell if stupid, skid, or trolling.........\nYou've brought up this link several times now, I think you should talk to a therapist.",
+				"added": 1491424033
+			},
+			{
+				"comment_id": 10,
+				"body": "> [kw](#comment_6_1NbWEYaqzV7f2KRsayU2wGqjM17m9XyWCi): So to answer the OP's question, you can't be safe at zeronet unless you visit strictly links which you trust. This will provide you with the benefits as advertised. If you \"surf\" the zeroweb, you'll find the regular shit that's available in the the deep web and even in the clearnet that you've probably seen already. That's not a zeronet issue.\n\ninb4heunknowinglyseedchildpornandgetsraided\n\nSolution?\n\nIMPLEMENT FREENET STYLE SEED SITE ENCRYPTION!!!!!!\n\n> [kw](#comment_5_1NbWEYaqzV7f2KRsayU2wGqjM17m9XyWCi): If it were stupid, it'll stop at the second negative. Just stop feeding, at this time, he probably made a whole new zeronet forum regarding bouncing tits already.\n\nNah, he went on tor and found the childs play forum, he's prob covered in tissues, semen, and shame right now.",
+				"added": 1491429524
+			}
+		],
+		"1_19dfuqqdasCxD56Yn8KGcgcckbdkV9SZi4": [
+			{
+				"comment_id": 4,
+				"body": "> [kw](#comment_1_1NbWEYaqzV7f2KRsayU2wGqjM17m9XyWCi): I see what you mean, but if you're a political dissident, why your machine wasn't heavily encrypted? If you want to refrain from being tortured until you spill out the encryption password, you should use a \"regular\" computer only for perfectly family safe things, while you leave the real deal (which must be heavily encrypted) either destroied or well hidden.\n\nTrue, everyone's HDD should be encrypted but an adversary could still pull a DreadPirateRoberts and take you down while your PC is on. \nATM it's easy to visit a Zerobin site, say a movie site, and unknowingly begin seeding child porn alongside the normal files. Freenet solved this problem by storing the data to be seeded/shared in an encrypted format, unlike Zeronet, which stores this data in plaintext.\nImagine this scenario, two guys get swarmed by the FEDs, DreadPirate style, while their PCs are on, allowing the FEDs to extract their HDD encryption keys from RAM. Both guys were unknowingly seeding child porn, Guy A was using Freenet, Guy B was using Zeronet. Guy A walks free, Guy B gets charged with a federal crime because the FEDs found a child porn video that was scattered among hundreds of other videos and files from his favorite Zeronet video site he was seeding.\n^^^^^^^This is one reason why people are sketched out about every Zeronet site they visit^^^^^^^",
+				"added": 1491419326
+			},
+			{
+				"comment_id": 5,
+				"body": "> [kw](#comment_3_1NbWEYaqzV7f2KRsayU2wGqjM17m9XyWCi): As well they should. I personally use tails usb drives, if I ever get more paranoid, I'd leave the doors open so I can monitor the feds coming, back against the wall, and perhaps a 5 minute cronjob with /bin/shutdown that I have to turn off manually. [...]\n\nFunny thing is, I'm the same way, even though I'm not a criminal......You never know when you might be labeled a thought criminal. \n\nIf Zeronet implements Freenet style encrypted seeding, it will truly be the ultimate anonymity platform for the future, a blend of all the best features of the other anonymity solutions! Until then, a single careless click could result in a federal sword of Damocles hanging over your head.",
+				"added": 1491422205
+			},
+			{
+				"comment_id": 9,
+				"body": "> [kw](#comment_7_1NbWEYaqzV7f2KRsayU2wGqjM17m9XyWCi): \n\nThat's where you're wrong, people don't use tor/deepweb because it's too complicated (derp) for most people whereas zeronet is insanely easy to setup and if further security measures are implemented, such as seeded site encryption for one, it has the potential to bridge all gaps! Think about how many people torrent.",
+				"added": 1491428902
+			}
+		]
+	},
+	"comment_vote": {
+		"2_19dfuqqdasCxD56Yn8KGcgcckbdkV9SZi4": 1,
+		"3_19dfuqqdasCxD56Yn8KGcgcckbdkV9SZi4": 1,
+		"1_19dfuqqdasCxD56Yn8KGcgcckbdkV9SZi4": 1
+	}
+}

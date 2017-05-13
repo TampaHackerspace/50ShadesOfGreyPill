@@ -1,0 +1,998 @@
+{
+	"next_post_id": 13,
+	"next_comment_id": 130,
+	"next_follow_id": 20,
+	"avatar": "jpg",
+	"user_name": "Rythyrix",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "remora nettus\nI have a [ZeroBlog](http://127.0.0.1:43110/1Bo6oCbFEMhy1ejrehrSTGxiotgDsYCMJq/) where I post my thoughts, please check it out :D",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1480655609,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1480655692,
+			"body": "Ahhh, random buttons! Greetings and salutations, all!",
+			"date_added": 1480655690
+		},
+		{
+			"post_id": 1480658195,
+			"body": "@antilibrary.bit : Screenshot of remote XUL problem.",
+			"date_added": 1480658192,
+			"meta": "{\"img\":\"900,680,fffeeedddeddcccbbbcdc7b7bdbcde8beacedde,0111000000012331130045555521003111113000111111677811111111101111119AAB0000001CC1\"}"
+		},
+		{
+			"post_id": 1484628503,
+			"body": "Much less spam on ZeroMe+ than on plain ZeroMe. Will Plus's development continue? Heard a rumor that it was abandoned.",
+			"date_added": 1484628499
+		},
+		{
+			"post_id": 1485230123,
+			"body": "Yay, I built my own LineageOS, complete with baked-in root and call recording :D",
+			"date_added": 1485230118,
+			"meta": "{\"img\":\"393,700,111222bbbaaaccceeefffddd,011011232444555566556666556666745666575666556666555566775556\"}"
+		},
+		{
+			"post_id": 1488102151,
+			"body": "Hello ZeroMe. As you may recall, around mid-January spammers took over ZeroMe for around twelve hours until @nofish so graciously provided a mute feature. What you may not know is that when you mute a user, the files you have already downloaded from them are still residing on your computer, and are thus being redistributed. Due to some *ahem* undesirable material being posted, I thought I would make a utility to remove such for you all. \n\nIt's a ```bash``` script (or on Windows, ```cmd```) script that automates the process of finding, shredding and removing all content by your list of muted users.\n\nI've posted it on my [ZeroBlog](http://127.0.0.1:43110/1Bo6oCbFEMhy1ejrehrSTGxiotgDsYCMJq/?Post:2:scrub,+a+tool+to+remove+muted+user%27s+content) for all to download, but including Windows dependencies means the zip is over the size limit for *paste zites.\n\nHere's the (dependency-less) ```bash``` version: http://127.0.0.1:43110/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/?18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_4\n\nAnd Windows ```cmd```:\nhttp://127.0.0.1:43110/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/?18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_5\n\nI hope this proves handy :D\n\nEDIT: One should not post when sleep deprived. Here is the readme for both versions.\nhttp://127.0.0.1:43110/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/?18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_6",
+			"date_added": 1488102145
+		},
+		{
+			"post_id": 1488709196,
+			"body": "So ZeroMail on my laptop is stuck at about 3.5k files to download, and not decreasing even over the span of an hour. The terminal output shows a great deal of files being 'archived', presumably into the archive.json and zeromail.db files inside ZeroMail's zite folder. Does anyone else have the same sort of problem? Don't want to leave ZeroMail off of the laptop, too useful.",
+			"date_added": 1488709189
+		},
+		{
+			"post_id": 1489315003,
+			"body": "Oh hello ZeroMe. I had a brainwave about USA legalities, and thought of a method of ensuring a court believes that the digital evidence presented to it had not been altered since the preservation order was issued. You can check it out on [my blog](http://127.0.0.1:43110/1Bo6oCbFEMhy1ejrehrSTGxiotgDsYCMJq/?Post:4:USA+legal+evidence+handling). Feel free to post your own thoughts on the matter, given the current distrust that seems rampant around.",
+			"date_added": 1489314995
+		},
+		{
+			"post_id": 1489462125,
+			"body": "@Antilibrary: the German database has exceeded the normal 10mb limit, causing the button to fail. Had to dig through all.js to find the site key to download it. Consider making a second merger site link, like you did with the English DB. For those too impatient to wait, [here](127.0.0.1:43110/13NCGaR5RnGUTFkUGxPQugdPmSSPfW4qJi/) is the link.",
+			"date_added": 1489462116,
+			"meta": "{\"img\":\"900,615,eeeebbdbbdaadddeeadd7eda,0000110000000023000000004400000000000000056666667000000400000000000000\"}"
+		},
+		{
+			"post_id": 1490285129,
+			"body": "[Fight for the Future](https://www.fightforthefuture.org/news/2017-03-23-congress-votes-today-on-whether-to-gut-the-fccs/)  blew the whistle that US Congress is going to vote on whether to roll back the FCC's privacy protections, and the ISP industry has enough senators bought to rig the vote. If you are a US citizen, please please PLEASE call your senators RIGHT NOW. The link has phone numbers for those that are sympathetic. If you care at all about an uncomprimised Internet, this is something you need to spread, or the dollar-per-hollar shills will make life that much harder.",
+			"date_added": 1490285119
+		},
+		{
+			"post_id": 1490923480,
+			"body": "Is anyone else having trouble making a new ZeroID in a isolated ZeroNet instance? For some reason I get an undefined error when I try. Server is responding through both direct-IP and domain name reqs, even at the PHP socket. Que?",
+			"date_added": 1490923469
+		},
+		{
+			"post_id": 1494195406,
+			"body": "Somehow, it isn't surprising to me that Europe, with its insane laws regarding freedom of speech, and China, have far too many adjectives in its proper name, light up ZeroNet's globe more than anywhere else. How is internet life faring over there, fellow netizens?",
+			"date_added": 1494195394,
+			"meta": "{\"img\":\"900,639,233333222111000123144035033122023034212112,012220122233333343333563334733385943AB3333333333432CCDD222220220022200\"}"
+		}
+	],
+	"post_like": {
+		"18GMgG7f7mYquJC1RCphMRLhMX1wsxzxff_1480635379": 1480656635,
+		"1M6mvowPpeYyegFe6byJKP1aoehgKk84d2_1480717321": 1480740965,
+		"18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1484739368": 1484769879,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1485258408": 1485310074,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1487723655": 1487735629,
+		"1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1489512208": 1489532900,
+		"1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489854749": 1489868384,
+		"15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490917894": 1490999853
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Ubuntu 16.04 LTS. Dualboot with Win7. Usually in Ubuntu, though. The terminal beckons...",
+			"post_uri": "18GMgG7f7mYquJC1RCphMRLhMX1wsxzxff_1480635379",
+			"date_added": 1480655802
+		},
+		{
+			"comment_id": 2,
+			"body": "What's this model going to be used for? Game, movie, still renders?",
+			"post_uri": "178c9u6Fuxz7bmteRtz5hSHfvRpNuG7HBz_1480557166",
+			"date_added": 1480658669
+		},
+		{
+			"comment_id": 3,
+			"body": "@Firebox: Thanks, it downloaded the file. Is the download button supposed to automatically rename the file for you, or is the current copy to clipboard, then manually rename procedure  working as intended?",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1480658195",
+			"date_added": 1480662225
+		},
+		{
+			"comment_id": 4,
+			"body": "bash : echo '5LiN6...CB5p' | base64 -d \n@Firebox: How do I markup the code box like you did?",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480658340",
+			"date_added": 1480662334
+		},
+		{
+			"comment_id": 5,
+			"body": "Cute cat. :) Like the derp face.",
+			"post_uri": "1M6mvowPpeYyegFe6byJKP1aoehgKk84d2_1480717321",
+			"date_added": 1480740967
+		},
+		{
+			"comment_id": 6,
+			"body": "Yoink. I'll pass it along :)",
+			"post_uri": "1BqTUcFDLtu5ZUvPEKkVXs9aPHcpLHyDuC_1480692787",
+			"date_added": 1480741129
+		},
+		{
+			"comment_id": 7,
+			"body": "Welcome to the fun zone. as Border0464fred said, it is growing quickly. Since Zeronet is based on Bittorrent technology, the more users the better.",
+			"post_uri": "1EmYCGwBicmDF4hKgf2zMgddLo65sKzQ2v_1480678986",
+			"date_added": 1480741252
+		},
+		{
+			"comment_id": 8,
+			"body": "You live in heaven if that's the view outside your house. ( Save maybe internet access speed... )",
+			"post_uri": "1Ej5JKMVWFLPGdbX7hS7kQxAZFmDJnnHLB_1480667995",
+			"date_added": 1480741300
+		},
+		{
+			"comment_id": 9,
+			"body": "@Grae: Hey, an index of useful pages when the link is absolutely required, as opposed to a searchable index, is always welcome. Kaffiene hasn't updated in a month according to my dates.",
+			"post_uri": "1qA5PLyTTNtJjaK1zRz1fnyQMgiDpv5td_1480756107",
+			"date_added": 1480756757
+		},
+		{
+			"comment_id": 10,
+			"body": "Hi back!",
+			"post_uri": "18KhAfkwavAUrUQk67T4x6Gczq5hL5wE4Z_1480816167",
+			"date_added": 1480826398
+		},
+		{
+			"comment_id": 11,
+			"body": "Did you draw that yourself? That's fine work there. Proportions look correct for RWBY characters, and the background is a nice touch, referencing her semblance.",
+			"post_uri": "17Xo25emK8WXkrWouD5DsuLrcRnkrREfTa_1481070513",
+			"date_added": 1481072119
+		},
+		{
+			"comment_id": 12,
+			"body": "If you're talking about the upvote button in ZeroTalk, you can unlike it by pressing the button again.",
+			"post_uri": "17Xo25emK8WXkrWouD5DsuLrcRnkrREfTa_1481039197",
+			"date_added": 1481072245
+		},
+		{
+			"comment_id": 13,
+			"body": "I'll one-up that. Dyson sphere!",
+			"post_uri": "182DfhJfWS2QGQ5PnFor4htwUe5W9CJDYD_1480931583",
+			"date_added": 1481073048
+		},
+		{
+			"comment_id": 14,
+			"body": "I feel so sorry for the people who had that happen. They did nothing wrong.",
+			"post_uri": "18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1482170354",
+			"date_added": 1482206056
+		},
+		{
+			"comment_id": 15,
+			"body": "Hi, Mr. Foster!",
+			"post_uri": "1EfiW23cKmreuQYWSnFA4swNZ1KgJbW6ym_1482158146",
+			"date_added": 1482206118
+		},
+		{
+			"comment_id": 16,
+			"body": "@Emeraude While it is true that not executing downloaded malware is harmless, keep in mind that ZeroNet executes JavaScript to render the zite. NoScript only blocks via domain names, so unless you want to spend time whitelisting every zite you use, that's right out. Without some way for the user to declare \"I want to inspect the code before execution\" and have the client follow through on that, there ISN'T an easy way out of zites spreading their JS everywhere. Kind of the point of ZeroNet, it seems. So we're right back at the automatic remote code execution problem.",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1484096314",
+			"date_added": 1484099356
+		},
+		{
+			"comment_id": 17,
+			"body": "Welcome to ZeroNet.",
+			"post_uri": "121nUGUcoMKMPGmBKHSgVoPjp11nnrCzAv_1",
+			"date_added": 1484434317
+		},
+		{
+			"comment_id": 18,
+			"body": "mow meow mow purrrrr.",
+			"post_uri": "176n6qqDXfQT4tH6BcWySzAHG15mg4JRJL_1484445500",
+			"date_added": 1484473862
+		},
+		{
+			"comment_id": 19,
+			"body": "Oh cool, beefcake cabbies for life.",
+			"post_uri": "18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1484474112",
+			"date_added": 1484474779
+		},
+		{
+			"comment_id": 20,
+			"body": "Welcome to ZeroMe, Infinisil!",
+			"post_uri": "1HHyE6FZSPhjLX6mhT182c7gPPrZfD3MNn_1",
+			"date_added": 1484546761
+		},
+		{
+			"comment_id": 21,
+			"body": "What a well-loved mouse. Wonder how much use it got to produce such wear since Win10 was released.",
+			"post_uri": "1J6qdniQUm1Fbgcjz6XFJ1VFmSsX4dThz3_1485062253",
+			"date_added": 1485066264
+		},
+		{
+			"comment_id": 22,
+			"body": "@chinapress: Can you mouse over the Tor indicator on ZeroHello and copy/paste what it says? Preferably in English.",
+			"post_uri": "1KyLchSYuBoTv9zbpMPuaEQSbN9bBcN3Nx_1485074230",
+			"date_added": 1485074505
+		},
+		{
+			"comment_id": 23,
+			"body": "Poking around in the Orbot settings, there's a custom torrc settings. These settings are appended to the catenation of the files torrc and torrc.custom upon activation of Orbot. To configure a control port, place the following in the input box: ```ControlPort <port>```  where <port> is the desired port to use.",
+			"post_uri": "1KyLchSYuBoTv9zbpMPuaEQSbN9bBcN3Nx_1485074230",
+			"date_added": 1485075569
+		},
+		{
+			"comment_id": 24,
+			"body": "What game is this screenshot from? Neverwinter?",
+			"post_uri": "1Lj6RCcoazF9xuRWryGJrewdir7cMD4pmi_1485131170",
+			"date_added": 1485143251
+		},
+		{
+			"comment_id": 25,
+			"body": "@Mommy: Why, Konar, why?",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1485230123",
+			"date_added": 1485230237
+		},
+		{
+			"comment_id": 26,
+			"body": "ISPs have every incentive to lie on their data, or market it in the most palatable way, and there's no way to check it short of installing a data monitor on your machines, which may not be possible (I'm looking at you, smart fridges/TVs). Go around your neighborhood, ask people to stonewall their ISPs about the issue, maybe asking for more data. One consumer may not be much, but when there's fifty of you in one neighborhood, they may listen. Still doesn't guarentee lack of lying, but can't hurt.",
+			"post_uri": "1H1L3r5RchaVn4CihvcwANsd37fe6Hw7NT_1485276312",
+			"date_added": 1485309453
+		},
+		{
+			"comment_id": 27,
+			"body": "@2012: Seeding zites may be tiny, but multiply that by all the incoming and outgoing modifications for ZeroMe's hubs, 0chan, Antilibrary, ZeroMail and other hungry zites, multiplied by the number of peers, and it quickly escalates. The writing on the wall is there, prod your father more about it, because I would bet my bottom dollar that $ISP will charge the overage fee to be the next increment over, simply because they can. 'Murrica, fuck no.",
+			"post_uri": "1H1L3r5RchaVn4CihvcwANsd37fe6Hw7NT_1485276312",
+			"date_added": 1485317571
+		},
+		{
+			"comment_id": 28,
+			"body": "Mind posting more information? Card games a fun things.",
+			"post_uri": "18CuHWkbYUJGALkjk8pkCusJBcsj7Um98y_1",
+			"date_added": 1485491036
+		},
+		{
+			"comment_id": 29,
+			"body": "Kid or effigy? Can't tell :P Cute either way.",
+			"post_uri": "17UMVmdiRu9jCT25dztFa3rJ1DoQhduZLc_1485544373",
+			"date_added": 1485566206
+		},
+		{
+			"comment_id": 30,
+			"body": "@Wheatley: Link please?",
+			"post_uri": "18CuHWkbYUJGALkjk8pkCusJBcsj7Um98y_1",
+			"date_added": 1485581238
+		},
+		{
+			"comment_id": 31,
+			"body": "Additional environment controls in a greenhouse is a good thing for optimal growing conditions.",
+			"post_uri": "19UnnS8HRggr6VTJCR7ArqKUF6MM1mmG1N_1485614650",
+			"date_added": 1485643958
+		},
+		{
+			"comment_id": 32,
+			"body": "@MightyFedorus: That's hard to do. Did you have insufficient backups of users.json? Or forgot the encryption keys :P Need to practice due diligence, there.",
+			"post_uri": "18CuHWkbYUJGALkjk8pkCusJBcsj7Um98y_1",
+			"date_added": 1485652192
+		},
+		{
+			"comment_id": 33,
+			"body": "Relax, just giving you shire. Googling for the game.\n\nEDIT: And it appears my google-fu is weak, link please?",
+			"post_uri": "18CuHWkbYUJGALkjk8pkCusJBcsj7Um98y_1",
+			"date_added": 1485653699
+		},
+		{
+			"comment_id": 34,
+			"body": "Echoing Booma, what is that?",
+			"post_uri": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1485723312",
+			"date_added": 1485745854
+		},
+		{
+			"comment_id": 35,
+			"body": "@Th3B3st: Assuming Ubuntu, try https://help.ubuntu.com/community/UnityLaunchersAndDesktopFiles . Most Linux distros use the standard outlined in https://specifications.freedesktop.org/desktop-entry-spec/latest/ to store the instructions necessary to execute a given program with a desired environment. Here's a (scrubbed) copy of my ZeroNet starter desktop file: http://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_0",
+			"post_uri": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1485723312",
+			"date_added": 1485905506
+		},
+		{
+			"comment_id": 36,
+			"body": "Amen.",
+			"post_uri": "1CYj7o5iamDZeKZvdSAW4P2aEngmAXb78T_1485994857",
+			"date_added": 1485995384
+		},
+		{
+			"comment_id": 37,
+			"body": "@nofish (http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/nofish@zeroid.bit) is the developer behind ZeroNet itself. There are many zite devs, though :)",
+			"post_uri": "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH_1485994046",
+			"date_added": 1485995456
+		},
+		{
+			"comment_id": 38,
+			"body": "To the changelogs!",
+			"post_uri": "1DunM8CUWAxBcf3RWvweEke85AMqhVoTUs_1485995457",
+			"date_added": 1485995469
+		},
+		{
+			"comment_id": 39,
+			"body": "From a TorrentFreak article, I think; it was a year ago or so. No matter which way, I am glad I did :D",
+			"post_uri": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj_1486046513",
+			"date_added": 1486084368
+		},
+		{
+			"comment_id": 40,
+			"body": "Try Antilibrary. ```http://127.0.0.1:43110/Antilibrary.bit/``` They source from (clearnet) ```https://libgen.io``` and have a Chinese nonfiction DB.",
+			"post_uri": "1DunM8CUWAxBcf3RWvweEke85AMqhVoTUs_1486039220",
+			"date_added": 1486084601
+		},
+		{
+			"comment_id": 41,
+			"body": "Please tell me you know how to mute people. Rev 1882 just introduced the feature, and we can already tell it's needed.",
+			"post_uri": "1Cp5ENh2Sxu47yet96HqmFTT998VrExfvQ_1486621555",
+			"date_added": 1486621592
+		},
+		{
+			"comment_id": 42,
+			"body": "Were they hosted by Freedom Hosting? FH got raided.",
+			"post_uri": "114DnUNsjvA1fBT1A7WVx2NjHi54WpgJjS_1486928539",
+			"date_added": 1486933571
+		},
+		{
+			"comment_id": 43,
+			"body": "Of which website do you speak?",
+			"post_uri": "1AcQWpRTqFr4NqG31rxdu1AULN7cLdufsg_1486956729",
+			"date_added": 1486966930
+		},
+		{
+			"comment_id": 44,
+			"body": "How astute. I was planning on waiting until I built a Windows version to release this, but this seems as good a time as any given my procrastination habits.  ```http://127.0.0.1:43110/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/?18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1``` bash script to shred muted user's files",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1487122650",
+			"date_added": 1487127857
+		},
+		{
+			"comment_id": 45,
+			"body": "@Inj3ct0r: By raided, I MEANT law enforcement. If it were simple DDoS I'd be unworried.",
+			"post_uri": "114DnUNsjvA1fBT1A7WVx2NjHi54WpgJjS_1486928539",
+			"date_added": 1487293431
+		},
+		{
+			"comment_id": 46,
+			"body": "I want that book.",
+			"post_uri": "19o28kY46qs4yztgepknRtS6HULZpQhiT7_1487285290",
+			"date_added": 1487294133
+		},
+		{
+			"comment_id": 47,
+			"body": "This is not porn. This is merely suggestive. I suppose to repressed people it may be porn, but it's not, really.",
+			"post_uri": "1Pq36KyZNB18qLHbqzxseXuQiFQsEj3qzu_1487271946",
+			"date_added": 1487294194
+		},
+		{
+			"comment_id": 48,
+			"body": "Dost thou have proof of thine claim?",
+			"post_uri": "114DnUNsjvA1fBT1A7WVx2NjHi54WpgJjS_1487271644",
+			"date_added": 1487294214
+		},
+		{
+			"comment_id": 49,
+			"body": "Agreed.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1487285064",
+			"date_added": 1487383768
+		},
+		{
+			"comment_id": 50,
+			"body": "That bruise would not be leaking that color of blood were it actually split open. It would be closer to black than red, surprisingly.",
+			"post_uri": "1PWfDicbFhYs196zg9tsiNMA9utxik9jJB_1487378442",
+			"date_added": 1487383846
+		},
+		{
+			"comment_id": 51,
+			"body": "Greetings! Nice plague doctor avatar. ZeroChat could use you :D",
+			"post_uri": "1PsrSWDCSXVx3mFs8SiSAG49BuxWNnhf7B_1487389132",
+			"date_added": 1487396519
+		},
+		{
+			"comment_id": 52,
+			"body": "Yikes. And they do this to people who want to get OUT of Apple's walled garden. Jerks.",
+			"post_uri": "114DnUNsjvA1fBT1A7WVx2NjHi54WpgJjS_1487271644",
+			"date_added": 1487620108
+		},
+		{
+			"comment_id": 53,
+			"body": "I hope you had a backup of your master seed or users.json. :D",
+			"post_uri": "14yvo4Fy5yLJuSmJLN1SPRTCcUM86pEANk_1487700837",
+			"date_added": 1487719435
+		},
+		{
+			"comment_id": 54,
+			"body": "Do you draw these yourself, neko? If so, you have proportions down for stereotypical anime style.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1487723655",
+			"date_added": 1487725314
+		},
+		{
+			"comment_id": 55,
+			"body": "Well that is rather alarming news. Care to share some evidence?",
+			"post_uri": "1HQat1a4kYwNck8Bx3CGxh6rKCQ9CtBvME_1487896020",
+			"date_added": 1487904405
+		},
+		{
+			"comment_id": 56,
+			"body": "We all bleed the same. Save your hatred for those that do wrong, rather than assuming one is wrong because of what they are.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488039185",
+			"date_added": 1488055552
+		},
+		{
+			"comment_id": 57,
+			"body": "Was explaining that I care not whether you are cis, trans or whatever new term people come up with in the next 10 years, you shouldn't hate people for something they have no control over.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488065854",
+			"date_added": 1488071209
+		},
+		{
+			"comment_id": 58,
+			"body": "@Aaaaq: Less than a minute after posting, you work fast, don't you?",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1488102151",
+			"date_added": 1488102240
+		},
+		{
+			"comment_id": 59,
+			"body": "Welcome to ZeroNet! It's not as fast-paced as Twitter, but also not as monitored :P You may wish to grab yourself a [ZeroMail](http://127.0.0.1:43110/Mail.ZeroNetwork.bit/) to have a private-ish communications channel with someone. A chatroom that desperately needs more people is [ZeroChat Live](http://127.0.0.1:43110/1XdLr61DgYL2RLFzb6aDMxhbzHSP5sbrx/), a good introduction to ZeroNet can be found at  can be found at [ZeroWiki](http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:zeronet), and more zites can be found at [0list](http://127.0.0.1:43110/0list.bit/). Keep in mind, since ZeroNet copies all data served to your disk, you'll want to have a budget set up for optional files. To do so, got to ZeroHello, click FILES near the top-left corner, wait for it to expand, then on the top right there will be an USED: xxx.xx KB/yyy.yy indicator. Click it and set a percentage. This is a percentage of the disk space available on the partition in which you unzipped ZeroNet. I recommend using an entire second platter drive, for maximum space and least wear and tear due to constant writes.",
+			"post_uri": "1Gcmq6NGSVa7jHEZuDbcAySMjscSuPgGx2_1488661110",
+			"date_added": 1488674585
+		},
+		{
+			"comment_id": 60,
+			"body": "@Nofish: Multiple times. Running two instances of the daemon on two machines behind a single residential-grade router. Tried moving the laptop offsite to circumvent this, but the download still hangs at the 3.5k.",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1488709196",
+			"date_added": 1488715923
+		},
+		{
+			"comment_id": 61,
+			"body": "@Nofish: \n[Missing ZeroMail files according to the GUI](http://127.0.0.1:43110/1Bo6oCbFEMhy1ejrehrSTGxiotgDsYCMJq/nonoptional/missing-zmail-files.txt)\n[Error log ripped straight from the console](http://127.0.0.1:43110/1Bo6oCbFEMhy1ejrehrSTGxiotgDsYCMJq/nonoptional/errorlog.txt)\n\nMessing with option files appears buggy D: An issue for another day.",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1488709196",
+			"date_added": 1488742406
+		},
+		{
+			"comment_id": 62,
+			"body": "~sniff~ it's so true",
+			"post_uri": "18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1488741364",
+			"date_added": 1488742532
+		},
+		{
+			"comment_id": 63,
+			"body": "G'day.",
+			"post_uri": "1KaE6CH96xFrVs3ynPmnFTpSVBaFzd6MpR_1488750257",
+			"date_added": 1488750542
+		},
+		{
+			"comment_id": 64,
+			"body": "Argh, site signing when editing content.json rules is annoying af, about ready to give up and start over with a new address.",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1488709196",
+			"date_added": 1488754649
+		},
+		{
+			"comment_id": 65,
+			"body": "@ZeroNet Danmark: I'll try that once I have access to my laptop again. Thanks.",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1488709196",
+			"date_added": 1488816317
+		},
+		{
+			"comment_id": 66,
+			"body": "There's a mute feature now. Good for stopping spammers; looks like no one has done so since it got implemented. Not sure if lack of spam attacks is due to muted users plugin, spammers getting bored, or not enough soammers to keep the pressure up, but it hasn't recurred since.",
+			"post_uri": "1CcxneoJY75e7CFFjXMHZmELraPBJmntsd_1488841614",
+			"date_added": 1488847995
+		},
+		{
+			"comment_id": 67,
+			"body": "Because we are used to everything being scanned and permanently stored because of nasty, scary assholes. It's also not impossible to infer the true flow of a conversation based on multiple posts by different users, so if something seems off, it may very well be. Successful deception requires collusion, the engineering of which is inhibited by the use of public-key crypto inherent in Znet. Short of giving someone your private key, they can't edit what you say, so only social engineering is left.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488842530",
+			"date_added": 1488848293
+		},
+		{
+			"comment_id": 68,
+			"body": "@Nofish: [10-lines-of-context.txt](http://127.0.0.1:43110/1Bo6oCbFEMhy1ejrehrSTGxiotgDsYCMJq/nonoptional/10-lines-of-context.txt) It appears that either there are zero peers available for a given user's data.json, or the hash fails. I have OpenSSL 01000207F loading upon starting ZeroNet on laptop. The zero peers problem is probably due to port forwarding, I'll try fixing that and get back to you.",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1488709196",
+			"date_added": 1488850743
+		},
+		{
+			"comment_id": 69,
+			"body": "@Jayofthezero: This is true. The /doing/ part, however, simply requires a bit of creativity instead of going to YouTube and watching a video. Instant gratification, regardless of how nice it is, does erode your determination quite a bit. As an example of something to do: Share files without another secure channel; meet in RL or other secure channel to exchange ZeroIDs to meet, zmail a link to a site that allows non-owner content (see ZeroTalk, ZeroMe, ZeroBlog, etc,), share files by adding to it. Or make a single private key, share via that site, and suddenly you have private-ish file mirroring, without ever touching clearnet. Or just a censorship-less place to talk; lord knows FB, Reddit and such are owned by the corrupt officials who don't want dissidence. USAfriend here, but the amendments seem less like ironclad rules and more like guidelines the more I read nowdays.",
+			"post_uri": "1CcxneoJY75e7CFFjXMHZmELraPBJmntsd_1488841614",
+			"date_added": 1488853191
+		},
+		{
+			"comment_id": 70,
+			"body": "@Nekololi: Ah, The Democratic People's Republic of China. The more descriptors in a country's name, the less true each of them are. Wish the USA wasn't proving that right.",
+			"post_uri": "1CcxneoJY75e7CFFjXMHZmELraPBJmntsd_1488841614",
+			"date_added": 1488853692
+		},
+		{
+			"comment_id": 71,
+			"body": "I have two iPhone users in my family; I cringe when they think FaceTime or iMessage is the epitome of what a cellphone can do.\n\nPersonally, I don't think most people care about being spied upon; for reasons unknown, most people seem to only ask \"What is the easiest way to do this?\" as opposed to \"What are the limitations to this method?\" . Perhaps an effect of the society in which I live, which subtly glorifies instant gratification.",
+			"post_uri": "1CcxneoJY75e7CFFjXMHZmELraPBJmntsd_1488841614",
+			"date_added": 1488853998
+		},
+		{
+			"comment_id": 72,
+			"body": "@Jayofthezero: https://haveibeenpwned.com/\n\nFor some reason, people do not listen to me.",
+			"post_uri": "1CcxneoJY75e7CFFjXMHZmELraPBJmntsd_1488841614",
+			"date_added": 1488855081
+		},
+		{
+			"comment_id": 73,
+			"body": "@Yinyue: ZeroMux is love, ZeroMux is life. No lying either, contained entirely within ZeroNet instead of relying upon an outside source.  Now if only my content.json would properly update... What ```\"optional\": \"regex\"``` do you use to filter your ZeroMux files from your regular zite files?",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488853940",
+			"date_added": 1488855746
+		},
+		{
+			"comment_id": 74,
+			"body": "@Jayofthezero: The example over at [the developer's blog](http://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/big/docs/gentle-intro/) shows ```(loader/files/.*)```, but it seems to screw up my files for a couple of scripts I made zipped up; I can't actually access them, despite them matching hashes in my zite's content.json, or at least the first 256 bits of a SHA512. it's really weird, because I can sign them no problem, but not load them. file.json can't contain its own sum, so that can't be it either...\n\nPoint being, I was wondering if @Yinyue had any tricks up his sleeve.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488853940",
+			"date_added": 1488856553
+		},
+		{
+			"comment_id": 75,
+			"body": "@Firebox: Interesting. That would certainly explain why a zip won't load; I'll have to test it with the same data but fake the filename. Thanks.",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488853940",
+			"date_added": 1488859360
+		},
+		{
+			"comment_id": 76,
+			"body": "@Firebox: While true, I don't think I can do that anymore; just went ahead and troubleshot why my content.json was invalid; was missing a closing object brace D: Kept regenerating default configs whenever I tried to sign it. Ah well, I posted the links in exactly two locations, won't be hard. Thanks!",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488853940",
+			"date_added": 1488862394
+		},
+		{
+			"comment_id": 77,
+			"body": "Any particular reason for the prejudice? Preemptively muting someone is disregarding their opinion without thought, after all.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488912274",
+			"date_added": 1488917018
+		},
+		{
+			"comment_id": 78,
+			"body": "@Styromaniac: Anime-style preteen females, usually in reference to pornagraphy. Started as a shortening of  'lolita' from the lolita gothic fashion trend, and the Internet mutated it from there.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488912274",
+			"date_added": 1488929588
+		},
+		{
+			"comment_id": 79,
+			"body": "Random BTC address as a username and ZeroID, I predict either super-paranoid (well done) or a future spammer.",
+			"post_uri": "1Fdc3MqRWXz5ggAx7dJXVhBZzaDCQrYHfC_1",
+			"date_added": 1488948689
+		},
+		{
+			"comment_id": 80,
+			"body": "@Styromaniac: Not disputing the interests or lack thereof. Then again, one's username does not reflect all of that which they would post; you yourself act as an example, because I don't see you posting about the wonders and many uses of styrofoam all the time; what I am pleading for is for you to see what someone has to say prior to muting them. Did that? Mmmk, mute list it is. But don't prejudge someone based on nothing more than an ephemeral handle.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488912274",
+			"date_added": 1488948854
+		},
+		{
+			"comment_id": 81,
+			"body": "@Aom: You can get the most recent ZeroNet android prebuilt app at [this muxbox](http://127.0.0.1:43110/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/loader/) and, if you are willing to get a little dirty, the [instructions for building your own](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:11_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/Tutorial+of+packing+APK+for+ZeroNet). Keep in mind this is an old post. Be sure to start with a fresh ZeroBundle instead of your current instance, and if you want to pack in your ```users.json``` to your APK, be sure to copy that too, as you won't likely be able to change it without root.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488944437",
+			"date_added": 1488949332
+		},
+		{
+			"comment_id": 82,
+			"body": "@Aom: Not as cute as [this one](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB/1487723655)!",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1488938689",
+			"date_added": 1488949413
+		},
+		{
+			"comment_id": 83,
+			"body": "Currently, ZeroNet does not support multiple saved IDs from a single cart issuer. While the multiuser plugin exists, it is made for proxies, and asks you for your private key each time. You could backup your users.json and swap them out as you desire to change identities, though.",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1488983712",
+			"date_added": 1488986932
+		},
+		{
+			"comment_id": 84,
+			"body": "@Styromaniac: allow me to clarify: single-user mode allows multiple certs, but they must all be from different issuers; and since the zite owner chooses which issuers to allow, you can only effectively have one identity per issuer, at least without swapping out users.json. \n\nMore verbose reply once on desktop, phone is not best for typing.",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1488983712",
+			"date_added": 1488989276
+		},
+		{
+			"comment_id": 85,
+			"body": "@Styromaniac: TL;DR: ```users.json``` appears to be the bottleneck, plus questions about retrieving a specific cert on unknown zite load. Would take modifications to cert usage API, aka @Nofish is in final command of that.\n\n To be specific; each zite that allows non-owner users to add or modify content to it (see ZeroMe, Talk, Mail, etc) has a file that controls how users may do so; in the examples provided, this is controlled by ```ZITEADDR/data/users/content.json``` file, which you can see under the ```includes``` object of the root content.json. This file contains a ```cert_signers``` object, which can contain zero or more ```.bit domain: [ \"signing_pubkey\" ]``` arrays, enabling certs which have been signed by the private keys which those pubkeys corrospond to to post according the rules under the ```permission_rules``` object, which appear to be regexes. Anyway, there's a difference in how your users.json hold them; each .bit domain is stored as its own object and has some extra data to make functional. Since each one is only stored by its .bit domain and JSON cannot store an object of the same name under the same parent, it cannot hold more than one cert per issuer; I wonder if it would be wise to append a number after the cert's .bit identifier, or if an object can be stored under an array and then safely accessed.\n\nIn addition, it's actually a two-step process to enable a set of signers; you also have to modify either your source CoffeeScript files or the js files they compile into to allow the UI to select your cert. Why that is, I have no idea. Seems silly. Check out the comments over on Kaffie's blog [here](http://127.0.0.1:43110/blog.kaffie.bit/?Post:29:KaffieID+Re-Opened) for instructions on how to do it yourself.",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1488983712",
+			"date_added": 1489016699
+		},
+		{
+			"comment_id": 86,
+			"body": "@Spukkin Faceship: We had spammers, then Nofish added a mute feature. Now anyone can mute anyone they don't want to see.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488996787",
+			"date_added": 1489019261
+		},
+		{
+			"comment_id": 87,
+			"body": "@Jayofthezero: Nice concise report.",
+			"post_uri": "127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr_1488983712",
+			"date_added": 1489019844
+		},
+		{
+			"comment_id": 88,
+			"body": "@橙色名字: What does AD stand for? Certainly not Anno Domini.\n\nEDIT: Disregard, capitalization threw me off.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1488996787",
+			"date_added": 1489024946
+		},
+		{
+			"comment_id": 89,
+			"body": "I can see my node from here! Welcome to ZeroNet.",
+			"post_uri": "1Eh9kALsGEK358LecGY84JbfX7K8hLa9hf_1489118397",
+			"date_added": 1489124025
+		},
+		{
+			"comment_id": 90,
+			"body": "Welcome to ZeroNet! It's not as fast-paced as Twitter, but also not as censored :P You may wish to grab yourself a [ZeroMail](http://127.0.0.1:43110/Mail.ZeroNetwork.bit/) to have a private-ish communications channel with someone. A chatroom that desperately needs more people is [ZeroChat Live](http://127.0.0.1:43110/1XdLr61DgYL2RLFzb6aDMxhbzHSP5sbrx/), a good introduction to ZeroNet can be found at  can be found at [ZeroWiki](http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:zeronet), and more zites can be found at [0list](http://127.0.0.1:43110/0list.bit/). Keep in mind, since ZeroNet copies all data served to your disk, you'll want to have a budget set up for optional files. To do so, go to ZeroHello, click FILES near the top-left corner, wait for it to expand, then on the top right there will be an USED: xxx.xx KB/yyy.yy indicator. Click it and set a percentage. This is a percentage of the disk space available on the partition in which you unzipped ZeroNet. I recommend using an entire second platter drive, for maximum space and least wear and tear due to constant writes.",
+			"post_uri": "15m6bo6nGqLUVq2CBfjojEZ3smawtntQ8u_1489210615",
+			"date_added": 1489215465
+		},
+		{
+			"comment_id": 91,
+			"body": "Delicious, a heart attack on a bun. I think I'm in love.",
+			"post_uri": "1L1kgigX9vonBdNme2NdoANzPv7KvSAPc3_1489276165",
+			"date_added": 1489295884
+		},
+		{
+			"comment_id": 92,
+			"body": "@Yinyue: I've never had snail; how mushy is it in comparison to well-done filet mignon?",
+			"post_uri": "1L1kgigX9vonBdNme2NdoANzPv7KvSAPc3_1489276165",
+			"date_added": 1489297158
+		},
+		{
+			"comment_id": 93,
+			"body": "Looks like organs are involved. Slightly less appetizing now.",
+			"post_uri": "1L1kgigX9vonBdNme2NdoANzPv7KvSAPc3_1489276165",
+			"date_added": 1489297317
+		},
+		{
+			"comment_id": 94,
+			"body": "@12hlearn: Censorship is that bad? Have you tried taking the image from your browser's cache?",
+			"post_uri": "1L1kgigX9vonBdNme2NdoANzPv7KvSAPc3_1489276165",
+			"date_added": 1489297626
+		},
+		{
+			"comment_id": 95,
+			"body": "@12hlearn: Odd. I could load it just fine over in USAland.",
+			"post_uri": "1L1kgigX9vonBdNme2NdoANzPv7KvSAPc3_1489276165",
+			"date_added": 1489297850
+		},
+		{
+			"comment_id": 96,
+			"body": "@12hlearn: Sent you a Zmail.",
+			"post_uri": "1L1kgigX9vonBdNme2NdoANzPv7KvSAPc3_1489276165",
+			"date_added": 1489298105
+		},
+		{
+			"comment_id": 97,
+			"body": "@12hlearn: Sent you a zmail.",
+			"post_uri": "1N2eNZ5w1dpoBcwatsSuTaeNzHgSLjyrpU_1489299755",
+			"date_added": 1489303392
+		},
+		{
+			"comment_id": 98,
+			"body": "@Aom: Just a bug report. [Antilibrary.bit](http://127.0.0.1:43110/Antilibrary.bit) needs peers to seed book metadata; I have storage space to spare. But apparently @Antilibrary didn't see the German book database growing larger in time, and their implementation of the add database button wasn't being recognized by ZeroNet, causing the addition of the zite to fail.",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1489462125",
+			"date_added": 1489463723
+		},
+		{
+			"comment_id": 99,
+			"body": "ISP routers are too untrustworthy IMO.",
+			"post_uri": "1FLjMvHZ4xhxCPR6vvHg2QJUTZJebwZxim_1489504342",
+			"date_added": 1489518053
+		},
+		{
+			"comment_id": 100,
+			"body": "@Yinyue: Nope, looks like a fix. Debugging mode logging problems, timestamps not being updated to current time. Of interest if you want to learn how ZeroNet works, though.",
+			"post_uri": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1489597095",
+			"date_added": 1489636495
+		},
+		{
+			"comment_id": 101,
+			"body": "@Th3B3st: [Semantic Versioning](http://semver.org) is a good indicator for when new things are added; ZeroNet went from 0.5.2 to 0.5.3 with the addition of the mute feature. For beta work, @Nofish is using an ever-incrementing number to keep track of releases (the revs).",
+			"post_uri": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1489597095",
+			"date_added": 1489790774
+		},
+		{
+			"comment_id": 102,
+			"body": "The F-Droid repos have a torrent app that takes magnet links; at least the field to do so is there, it doesn't seem to have Share Menu integration. I recommend trying it out on a torrent you make yourself first.\n\n[LibreTorrent (Manage, download and share files)](https://f-droid.org/app/org.proninyaroslav.libretorrent)",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1489877469",
+			"date_added": 1489880250
+		},
+		{
+			"comment_id": 103,
+			"body": "@Booma: Isn't Frostwire not completely FOSS? That, and the legal song-and-dance routine they put their users through is also annoying.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1489877469",
+			"date_added": 1489885187
+		},
+		{
+			"comment_id": 104,
+			"body": "@Booma: Doesn't mean I like it. Tracking is bad for users, because it's not hard to falsify data and sic the lawyers on someone who actually hasn't done anything wrong.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1489877469",
+			"date_added": 1489886723
+		},
+		{
+			"comment_id": 105,
+			"body": "I made a script to automate the process of removing a muted user's content, so you can be sure you are not hosting illegal things. The original post is [here](http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v/18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y/1488102151). \n\nIt's a step in the right direction, but such features being built into ZeroNet would be easier to use. I hesitate to advocate for integration of said feature, however, because the decision to delete something should be left to the individual user. Batch deletion is fine, so long as remote deletion is only possible with the zite owner's key or the user's key. After all, nonconsensual deletion of content = censorship, and is what ZeroNet is made to prevent.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1489890101",
+			"date_added": 1489890925
+		},
+		{
+			"comment_id": 106,
+			"body": "Useful for SSHing into my desktop :P",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1490013191",
+			"date_added": 1490057712
+		},
+		{
+			"comment_id": 107,
+			"body": "@Aom: SSH stands for Secure SHell, a standard regarding being able to log in to a shell on a server or other device remotely. It's encrypted and replaces the old Telnet protocol. [SSH Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell)",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1490013191",
+			"date_added": 1490137178
+		},
+		{
+			"comment_id": 108,
+			"body": "Multiuser is a plugin. Shut down the current daemon you will be modifying, check under your ```ZeroNet/plugins``` dir for another directory named ```disabled-Multiuser``` and rename it to ```Multiuser```. Restart the daemon, open port (43110, 10443, 15441, not sure which one if you aren't on Tor-only mode.) on your host machine's firewall (no need to open it on your router since it's intranet) and try to reach the server via another browser. Can't test because tor is love, tor is life. Your users.json will not be used, but it may be exposed. Recommend backing up and shredding the original prior to setting up a multiuser instance. ZeroHello will have a notification showing your current master seed to save if you want to post as that user again. ZeroIDs are tied to the private key and therefore master seed, so keep it safe if you make a ZeroID with the multiuser instance.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1490149049",
+			"date_added": 1490155206
+		},
+		{
+			"comment_id": 109,
+			"body": "@Styromaniac: Apologies for the lateness. Sent you a zmail to continue the conversation.",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1490149049",
+			"date_added": 1490237019
+		},
+		{
+			"comment_id": 110,
+			"body": "You're a popular proxy :D What's your ```du -sh``` ?",
+			"post_uri": "1L8waPPVatA855bU6SjqWs2K1DbwnUZbEp_1490326500",
+			"date_added": 1490331073
+		},
+		{
+			"comment_id": 111,
+			"body": "@Mynameislegion: Talk with @yinyue to see about making your own hub. Being on a different hub than normal can permit different cert signers to be used, such as @Kaffie 's [KaffieHub](http://127.0.0.1:43110/hub.kaffie.bit/index.html), which accepts [KaffieID](http://127.0.0.1:43110/id.kaffie.bit). Most people stick to the default hubs and signers because of interoperability concerns (can't post on a site that doesn't take your cert's signer) and because changing hubs is a lengthy, risky process. See [@Kaffie's tutorial](http://127.0.0.1:43110/blog.kaffie.bit/?Post:25:How+to+change+your+ZeroMe+Hub&) on how to do it.",
+			"post_uri": "1Ea3RG4YuLnifynBxvuWAA3Y2nLcTWfrjQ_1490400723",
+			"date_added": 1490402277
+		},
+		{
+			"comment_id": 112,
+			"body": "@Kaffie: At that point, I wonder how long it will be before the blacklist grows larger than ZeroNet's source code. A spambot's not hard to make, even with a Windows CMD shell, after all. Proof of Work has the problem of giving more power to spam to those capable of and willing to invest in the hardware to do it. I'll have to read up on Proof of Stake to comment on that system.",
+			"post_uri": "1Ea3RG4YuLnifynBxvuWAA3Y2nLcTWfrjQ_1490400723",
+			"date_added": 1490409246
+		},
+		{
+			"comment_id": 113,
+			"body": "Ia! Ia! Cthulhu ftaghn!",
+			"post_uri": "18d5Zv5xUX1PCJyuWV9RWJuQH25aKFQGMf_1490456280",
+			"date_added": 1490478698
+		},
+		{
+			"comment_id": 114,
+			"body": "C'mon people, you're pseudonymous for a reason, make a new ID from your clearnet alias and speak your mind.",
+			"post_uri": "1L8waPPVatA855bU6SjqWs2K1DbwnUZbEp_1490597040",
+			"date_added": 1490627261
+		},
+		{
+			"comment_id": 115,
+			"body": "This is so utterly unsurprising. Also I feel inadequate in my fellow USAian's actions.",
+			"post_uri": "1L8waPPVatA855bU6SjqWs2K1DbwnUZbEp_1490638401",
+			"date_added": 1490653660
+		},
+		{
+			"comment_id": 116,
+			"body": "Examples, please?",
+			"post_uri": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd_1490677441",
+			"date_added": 1490678199
+		},
+		{
+			"comment_id": 117,
+			"body": "@Plasmmer: Adding ZeroMail's functionality to ZeroMe is good, but leave ZeroMail alone as a clonable zite; throwaway encrypted communications is a good thing. Keep the address secret and you have what security through obscurity there can be on ZeroNet.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1490851405",
+			"date_added": 1490852577
+		},
+		{
+			"comment_id": 118,
+			"body": "Welcome to ZeroNet! It's not as fast-paced as Twitter, but also not as censored :P You may wish to grab yourself a [ZeroMail](http://127.0.0.1:43110/Mail.ZeroNetwork.bit/) to have a private-ish communications channel with someone. A chatroom that desperately needs more people is [ZeroChat Live](http://127.0.0.1:43110/1XdLr61DgYL2RLFzb6aDMxhbzHSP5sbrx/), a good introduction to ZeroNet can be found at  can be found at [ZeroWiki](http://127.0.0.1:43110/138R53t3ZW7KDfSfxVpWUsMXgwUnsDNXLP/?Page:zeronet), and more zites can be found at [0list](http://127.0.0.1:43110/0list.bit/). Keep in mind, since ZeroNet copies all data served to your disk, you'll want to have a budget set up for optional files. To do so, go to ZeroHello, click FILES near the top-left corner, wait for it to expand, then on the top right there will be an USED: xxx.xx KB/yyy.yy indicator. Click it and set a percentage. This is a percentage of the disk space available on the partition in which you unzipped ZeroNet. I recommend using an entire second platter drive, for maximum space and least wear and tear due to constant writes. Yes, I did just copy/paste this from my previous posts. I am halfway tempted to make a bot to do this for me :P\n\nAlso, I like your name.",
+			"post_uri": "1KBZKMhcAE42J4kbVjCXySKZyqLaxJf5WG_1",
+			"date_added": 1490939329
+		},
+		{
+			"comment_id": 119,
+			"body": "@Mynameislegion: Data caps are price hikes to pour more money into the carrier CEO's private island fund, because they can get away with it.",
+			"post_uri": "1FLvSPque6gGdvv56THSXznQNnzfehcyNq_1491064931",
+			"date_added": 1491073604
+		},
+		{
+			"comment_id": 120,
+			"body": "@Mynameislegion: There are port options, but its the reliance on trackers for initial peers that seems to be the limiting factor. I wonde if broadcast would work as ZeroNet is written, because strict tracker ping requirements means short of directly editing the peer db you aren't able to get LAN peers. Something to try later, I suppose.",
+			"post_uri": "1FLvSPque6gGdvv56THSXznQNnzfehcyNq_1491064931",
+			"date_added": 1491088019
+		},
+		{
+			"comment_id": 121,
+			"body": "Well that's not good. Do you have any other contact info to yell him about it?",
+			"post_uri": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB_1491338195",
+			"date_added": 1491350968
+		},
+		{
+			"comment_id": 122,
+			"body": "It is large enough to be prohibitively expensive for the utility you get out of it, at least on a small node such as a Raspberry Pi or a smartphone.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491593249",
+			"date_added": 1491593312
+		},
+		{
+			"comment_id": 123,
+			"body": "@Mkg20001 made a ZeroNet APK, I'm using it right now. They also posted instructions on self-building, check out their profile for the GitHub link.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491593688",
+			"date_added": 1491601178
+		},
+		{
+			"comment_id": 124,
+			"body": "@Glightstar: That isn't a peer-usable fix, though, and will need to be added to the default zites to truly catch on.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491593688",
+			"date_added": 1491608764
+		},
+		{
+			"comment_id": 125,
+			"body": "@Plasmmer: Have you tried LineageOS? While it's still reliant on proprietary libraries, modems and bootloaders, it's based off of AOSP, and you can build it in a VM. Keep a separate ID instead of copying, and you'll keep your primary one safe(r). Check out the [downloads list](https://download.lineageos.org/) and see if your phone is supported.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491593688",
+			"date_added": 1491615741
+		},
+		{
+			"comment_id": 126,
+			"body": "I thought they were one and the same. (not really, but the sheer brainwashing power both wield is staggering)",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491775670",
+			"date_added": 1491790253
+		},
+		{
+			"comment_id": 127,
+			"body": "Go to your .bit site, drag ZeroNet's purple 0 on the top right leftward to open the site info pane, scroll down to the Site Address, and that's the directory under ```ZeroNet/data/<key>/``` it is stored as. Navigate there in a file manager or CLI and poke around the .json files. A good command line utility for manipulating json files is [```jq```](https://stedolan.github.io/jq/), which has both source and prebuilts available.",
+			"post_uri": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe_1491765621",
+			"date_added": 1491790547
+		},
+		{
+			"comment_id": 128,
+			"body": "@Zeronet0: China being Big Brother is not surprising. If you can get your community to adopt it, [Rumble](https://f-droid.org/repository/browse/?fdfilter=rumble&fdid=org.disrupted.rumble) might be an app to look over; it relies on sneakernet to propagate itself, and doesn't use clearnet WAN to transfer data, but bluetooth and wifi. Might be handy for coordination under the radar, given that ZeroNet doesn't automatically provide anonymity.",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1494195406",
+			"date_added": 1494208487
+		},
+		{
+			"comment_id": 129,
+			"body": "@Zeronet0: Not sure; I've never tried messing with my device's iptables. I just toggled tor-only mode on and left it. Either way, the ZeroNet-kivy packages don't have the option available.",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1494195406",
+			"date_added": 1494212090
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN",
+			"user_name": "Antilibrary",
+			"date_added": 1480662449
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1J6qdniQUm1Fbgcjz6XFJ1VFmSsX4dThz3",
+			"user_name": "Zeronetapk",
+			"date_added": 1484546127
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1484625085
+		},
+		{
+			"follow_id": 5,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1KyLchSYuBoTv9zbpMPuaEQSbN9bBcN3Nx",
+			"user_name": "chinapress",
+			"date_added": 1485075848
+		},
+		{
+			"follow_id": 6,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9",
+			"user_name": "Shellbound",
+			"date_added": 1485143304
+		},
+		{
+			"follow_id": 7,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1H1L3r5RchaVn4CihvcwANsd37fe6Hw7NT",
+			"user_name": "2012",
+			"date_added": 1485309829
+		},
+		{
+			"follow_id": 8,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC",
+			"user_name": "Firebox",
+			"date_added": 1485995343
+		},
+		{
+			"follow_id": 9,
+			"hub": "1KNmG5rJUGhgUJGFbLkv2B5isaqu9PrZqi",
+			"auth_address": "1CwbqLCD6TdkinNNNb4GneZxbsoJ6Mw6oE",
+			"user_name": "12h Study",
+			"date_added": 1486870509
+		},
+		{
+			"follow_id": 10,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF",
+			"user_name": "Hexkey",
+			"date_added": 1486967016
+		},
+		{
+			"follow_id": 11,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1487225781
+		},
+		{
+			"follow_id": 12,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ",
+			"user_name": "Sirenyc",
+			"date_added": 1487294418
+		},
+		{
+			"follow_id": 13,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1CYj7o5iamDZeKZvdSAW4P2aEngmAXb78T",
+			"user_name": "Dentist",
+			"date_added": 1487306951
+		},
+		{
+			"follow_id": 14,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1FzZsDQdh8wk71bDLxURPzmAt2FXehoNAB",
+			"user_name": "Nekololi",
+			"date_added": 1487648576
+		},
+		{
+			"follow_id": 15,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd",
+			"user_name": "Styromaniac",
+			"date_added": 1488993478
+		},
+		{
+			"follow_id": 16,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "16nArdxrSaNThNp83kL8E6NLL9WD98iUne",
+			"user_name": "Jayofthezero",
+			"date_added": 1489189273
+		},
+		{
+			"follow_id": 17,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1HsDUmDeiChpKtMwcfkHL4jm7hAJi7ccQr",
+			"user_name": "Disfictional",
+			"date_added": 1491585062
+		},
+		{
+			"follow_id": 18,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NmkVyqBJX6a82YQFYkCNgQpE9AWsmeppp",
+			"user_name": "Ivesen",
+			"date_added": 1493080324
+		},
+		{
+			"follow_id": 19,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS",
+			"user_name": "ZAlex",
+			"date_added": 1493234438
+		}
+	],
+	"settings": {
+		"reverse_comment_order": false,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"blocked": [],
+	"flags": {},
+	"comment_like": {}
+}

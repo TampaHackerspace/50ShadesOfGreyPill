@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HEzgtjogDFMZcMlsWcnU4ok1GFCU0b4+6F/ReuaXdVPjqyN0X/o0HcBvDO3VVaOzYCos9LrKM57uNgSGrKAA79M=",
+ "cert_user_id": "pantami@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "be28c0a3f332d28e8e11a9d4c6b50953c5dc5646dde954cebaf2297168056385",
+   "size": 284
+  }
+ },
+ "inner_path": "data/users/19kv7mYoQVMHBXPCCH4vDXnzqPwR9LSrwJ/content.json",
+ "modified": 1485025750,
+ "signs": {
+  "19kv7mYoQVMHBXPCCH4vDXnzqPwR9LSrwJ": "HK/SFicQ12Y0iI4tqXFHs2WgF+OqFy1gXBlo96k2IpB/TdIT3wXKZNf2T80EwfdHPIWhEyY3yVU/C4UxZf0ALDw="
+ }
+}

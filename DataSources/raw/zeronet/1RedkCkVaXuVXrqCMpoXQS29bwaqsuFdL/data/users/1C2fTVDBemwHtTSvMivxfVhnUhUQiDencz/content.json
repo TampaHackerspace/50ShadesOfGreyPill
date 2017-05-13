@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "G47TsWmlSZmuUUlh503w69zgSI3zds3ldJicaIuKYnUNkg2/jce2hTnjFyQLliMP8HQTaYWbBzNtwitiYlpBeoY=",
+ "cert_user_id": "megafuck@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "198631913169e010bed983f4b1cc9d0dd553bd02f4af3d46a111f5ad62d231de",
+   "size": 434
+  }
+ },
+ "inner_path": "data/users/1C2fTVDBemwHtTSvMivxfVhnUhUQiDencz/content.json",
+ "modified": 1476247654.686337,
+ "signs": {
+  "1C2fTVDBemwHtTSvMivxfVhnUhUQiDencz": "G+6CE0zNr0OVc0FKcGMGV9hfmZ3A1z7ilJbtnGNHj/jrmS3ufQBA+F1NYhLZdXmunKWlJbXyIFK1cR02CCn39pY="
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G8a0lwUTdsLNKzm8vsIgQg+Z+GhAebQkc2p6J3CjzU7G5zxBpgGmz3cgcmnq3kcivVNmzgzMUzrhM/02zKVixtE=",
+ "cert_user_id": "loustic@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "37e60223d70c15d768afdcb524d04abbc9a1e0831eef2d66ab93559cc9eb69e6",
+   "size": 11197
+  }
+ },
+ "files_optional": {
+  "1490304999.jpg": {
+   "sha512": "d5b6be9c542cc517110471b8bdee0d101305e5588fb815d17368a7992263a53a",
+   "size": 52789
+  },
+  "1490722239.jpg": {
+   "sha512": "2e944c86a8c586186f3da77a475eb3e88fe1558dc0753b4748e4786080f387a6",
+   "size": 99456
+  },
+  "1492036375.jpg": {
+   "sha512": "624c7ba9c250e5f4ec50bc32920804a5ed9fdda03419eda8965616b0b9e32c3d",
+   "size": 49932
+  }
+ },
+ "inner_path": "data/users/16jfwydpwxcaAbQWep8fLagpVCh5ipuJwy/content.json",
+ "modified": 1493118173,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "16jfwydpwxcaAbQWep8fLagpVCh5ipuJwy": "HC8bfKDtz2eisCeWa3SakXchuQNCG9Y3wmqXBmFBY4UVPqpyudE8FciS0NB3BPjxp7a0YUq1ZTMqvC12qcNAPt8="
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G+dELJl8frKiRS4y1sUtv4hQDzNK5qUGKNcyUQScOq+HfGQed3r0PHrXvk/t7XqVln1O+DW9WrNw127JCWs+p1c=",
+ "cert_user_id": "devtest@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "8bfae25a26a4dadb63faa237278f3ac014b84c247b64683936ccc6995835dba7",
+   "size": 2114
+  },
+  "data.json": {
+   "sha512": "ea8491324d54a8711415034a512e45086e897910b944191f0c773e467f1d7914",
+   "size": 715
+  }
+ },
+ "files_optional": {
+  "1478614123.jpg": {
+   "sha512": "8bfae25a26a4dadb63faa237278f3ac014b84c247b64683936ccc6995835dba7",
+   "size": 2114
+  },
+  "1485520304.jpg": {
+   "sha512": "e6a82264c236f395f44fd7ced04d33321c26d33a5e2e14890d86e46e225a15ba",
+   "size": 99306
+  }
+ },
+ "inner_path": "data/users/1B7g2efHN6xyHc3itUjDzMUQTepa7WFqaC/content.json",
+ "modified": 1485521891,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1B7g2efHN6xyHc3itUjDzMUQTepa7WFqaC": "HAfJ+8qoHPeCMgx3VV3LKeDw4HeIb004h2IGz0exsQ24Mu3b1Zm6KT1TGlDXupmvwOKVZ/TOC4AzGHVdnpdCKIc="
+ }
+}

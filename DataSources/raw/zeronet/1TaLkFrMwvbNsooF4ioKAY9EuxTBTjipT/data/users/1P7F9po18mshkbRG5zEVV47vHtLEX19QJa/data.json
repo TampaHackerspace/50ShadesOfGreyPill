@@ -1,0 +1,141 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Brewster Kahle: Locking the Web Open: Call for a Distributed Web",
+			"body": "https://www.youtube.com/watch?v=ubxWu0kne84",
+			"added": 1439633518
+		}
+	],
+	"topic_vote": {
+		"6_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"1_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"1_12SuCFUNDaMYRHG9DsWCyCN1NgHGjddwSJ": 1
+	},
+	"next_comment_id": 18,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "Test all the test messages!",
+				"added": 1439577509
+			}
+		],
+		"1_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 2,
+				"body": "bitmessage or tox would be a good fit as a private messaging system",
+				"added": 1439670188
+			},
+			{
+				"comment_id": 3,
+				"body": "I have used Skype quite a lot in the more distant past, but these days I wouldn't recommend it unless it's for public communication purposes (open source projects, etc). From a privacy point of view the evidence that Skype is bugged is now quite extensive.",
+				"added": 1439722012
+			},
+			{
+				"comment_id": 4,
+				"body": "> [lostfile](#comment_6_134tqSwDpKTdoPABqGskg1YMNptAxfu3Lh): i will give you my utox key if you want\n\nMy Tox public key: 82DD53788AB400843BC75EA96B62DD6C76D2B13E476B995B13C49920A3C8FD32E5365A82FA83\n",
+				"added": 1439722516
+			}
+		],
+		"1_134tqSwDpKTdoPABqGskg1YMNptAxfu3Lh": [
+			{
+				"comment_id": 5,
+				"body": "82DD53788AB400843BC75EA96B62DD6C76D2B13E476B995B13C49920A3C8FD32E5365A82FA83",
+				"added": 1439745983
+			}
+		],
+		"1_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": [
+			{
+				"comment_id": 6,
+				"body": "> [betatester2](#comment_6_1C6qdRAX8iYqSB7TfUxk91yW8Y2SBKNgfA): I have 30,000 members in my company's email marketing database. So my plan would be to replicate our websites into ZeroNet and then do an email marketing campaign to let them know. If out of curiosity only 3% of them install ZeroNet to have a look at our websites, that's 900 new ZeroNet users. But I'm not a programmer, so I need to find someone who can manage our ZeroNet websites. And I also need to understand better ZeroNet myself. Lastly: Can ZeroNet cope with 900 new users almost overnight? That's going to be a lot of new peers trying to download our websites.\n\nI expect that performance will improve with scale, since for popular content there will be more nodes seeding it.",
+				"added": 1440660263
+			},
+			{
+				"comment_id": 7,
+				"body": "> [beast](#comment_1_1A3sydXvaov2y4yW3jY41Vpn9tsNiHaHoK): I came here from the InternetIsBeautiful reddit post as well, and while I'm incredibly excited to be here on zeronet I also think we need to have more people that are here strictly for development purposes first. I know it's a bit chicken-and-egg, but we really do need some quality sites on here. The piratebay mirror will be an excellent way to bring in new people but we'll need more than that before end-users feel like bothering to install something like this.\n> There are also questions about security I'd like to see answered as well.\n\nYes. content is king, and so I expect that in time I'll be adding more content to zeronet.",
+				"added": 1441536011
+			}
+		],
+		"3_13P8oKB5LtAYbe2mvfR71s9TPNy4sMk8bc": [
+			{
+				"comment_id": 8,
+				"body": "> [edisontrent](#comment_21_18ECMG6USRQenXgf7QdxDniLGi7PLBcKjX): If ZeroNet gets popular, the spammers will come, this is inevitable.\n\nYes. We are still in the golden era of ZeroNet",
+				"added": 1442137189
+			}
+		],
+		"8_1PNyuY1iZqXBpft4ArouqcnE4pNRGYij5i": [
+			{
+				"comment_id": 9,
+				"body": "Originally I was reading the n-o-d-e blog from a twitter retweet. Reading other posts on that blog I found an interview about zeronet. http://n-o-d-e.net/post/118311659326/the-zeronet-interview-rethinking-the-internet",
+				"added": 1442138065
+			}
+		],
+		"3_14yb6qdkbYmhqt6rVxUqXo65s4i63BffAr": [
+			{
+				"comment_id": 10,
+				"body": "I'm on the latest git",
+				"added": 1442164507
+			}
+		],
+		"1_16XLqRV4cwdqvbHCS3M2jH3xuP7ZPv1Y8k": [
+			{
+				"comment_id": 11,
+				"body": "When not hacking on stuff I am typically reading or plotting world domination",
+				"added": 1444330933
+			}
+		],
+		"6_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 12,
+				"body": "So yes, adding support for IPFS in order to be able to handle large files seems like a logical thing to add next. Also having a social network type of system on Zeronet would be great.",
+				"added": 1465723781
+			}
+		],
+		"7_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 13,
+				"body": "I've already done this with the Freedombone project. There's a trivial change you need to make to the code, which I think is related to the firewall hole punching, but after that it works well on a mesh. Ideally I think there should be a --mesh option, so that you don't need to hack the code.",
+				"added": 1465728391
+			}
+		],
+		"6_1KzaKud9cUZB7HcgHnhrZqyuq2NnTeW6PR": [
+			{
+				"comment_id": 14,
+				"body": "Zeronet is a great achievement. The battle is just beginning.",
+				"added": 1472671727
+			}
+		],
+		"4_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": [
+			{
+				"comment_id": 15,
+				"body": "I don't think the last recession really ended. If there is another recession maybe some rich people will care about it, but nobody else.",
+				"added": 1472823985
+			}
+		],
+		"7804_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 16,
+				"body": "No, I just use Tor instead.",
+				"added": 1473452742
+			}
+		],
+		"1_1HRrLnTaJwRCA24L45Sr3cYJ3nDmJmPabf": [
+			{
+				"comment_id": 17,
+				"body": "The Intertubes",
+				"added": 1475520005
+			}
+		]
+	},
+	"comment_vote": {
+		"4_134tqSwDpKTdoPABqGskg1YMNptAxfu3Lh": 1,
+		"8_1MS7WkWAZUSohgV5uUF2Ze3kdbifi4J82L": 1,
+		"2_1HiNsbe6iK5m5eLzVDcpNkeHPpD2hvn2Ge": 1,
+		"2_158KZsYQsNp4j4kiPrkqXvTPRewEXeP24W": 1,
+		"16_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz": 1,
+		"2_1FJ62k4CbpuTYoXrQ9ZmtfAEwDMR4hFswz": 1,
+		"177_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": 1
+	}
+}

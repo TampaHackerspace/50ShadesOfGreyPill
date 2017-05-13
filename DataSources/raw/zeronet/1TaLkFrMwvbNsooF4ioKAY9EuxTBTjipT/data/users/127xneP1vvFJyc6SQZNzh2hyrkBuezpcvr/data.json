@@ -1,0 +1,51 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Feature request: blacklisting a zite",
+			"body": "Currently there's no way to distinguish between \"I have never visited this zite, so I don't know whether it's worth visiting/seeding\" and \"I have visited this zite, decided it's not worth seeding, and deleted it\". This creates the strange situation that I potentially spend more bandwidth downloading zites I don't like than those I do.\n\nIt'd be nice to be able to flag a zite as the latter category, so that if I later click a link to it, instead of redownloading, I get a popup or a placeholder page saying something like \"You have blacklisted this zite. Download anyway?\".",
+			"added": 1489408607
+		}
+	],
+	"topic_vote": {
+		"1_17To4zKQntCiVqSZqHK3mwEpbLWVCtLHEe": 1,
+		"2_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": 1,
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1
+	},
+	"next_comment_id": 5,
+	"comment": {
+		"1_17To4zKQntCiVqSZqHK3mwEpbLWVCtLHEe": [
+			{
+				"comment_id": 1,
+				"body": "Standard bittorrent already supports trackerless torrents, doesn't it? Surely it must be possible to integrate this into Zeronet.",
+				"added": 1489334544
+			}
+		],
+		"2_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF": [
+			{
+				"comment_id": 2,
+				"body": "@satandroid It'd be nice to be able to offline Zeronet while still using networking for everything else.",
+				"added": 1489338227
+			}
+		],
+		"1_19dfuqqdasCxD56Yn8KGcgcckbdkV9SZi4": [
+			{
+				"comment_id": 3,
+				"body": "This strikes me as scope creep. If you want Freenet, use Freenet; don't reimplement it in Zeronet. If you want privacy in Zeronet, use Tor and disk encryption.",
+				"added": 1491613615
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 4,
+				"body": "[The FAQ says](/17Kom2G5qNDc6NaQwv445h1gFzxkY3ZtZe/faq/#is-there-anyway-to-track-the-bandwidth-zeronet-is-using) I can track data usage from the sidebar, but the report there seems to be per zite. Is there a way to track _overall_ data usage for Zeronet as a whole?",
+				"added": 1493605709
+			}
+		]
+	},
+	"comment_vote": {
+		"28_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1,
+		"2_1NF9DMeY1kNvm7yNDcxkVgZ2Y9Jc893bgA": 1
+	}
+}

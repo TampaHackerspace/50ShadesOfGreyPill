@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G2/lQn3a2VoQp/CKWfTVaOY0G6GHg7o8pRo2YORa6748TRG2nRtjISyRYLb8O9d+rwV+lHlm0qpektjgQyD9TpE=",
+ "cert_user_id": "gimogo@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "928a90a4215bd3bdd43c1c4bff3c7ed30c568bf5730a65a493bb5b302592e509",
+   "size": 239
+  }
+ },
+ "inner_path": "data/users/18qb6iKyxgUqP3cqFarmn6L6dYpPSopuR4/content.json",
+ "modified": 1488458305,
+ "signs": {
+  "18qb6iKyxgUqP3cqFarmn6L6dYpPSopuR4": "G6pz3pBh1Balg5JNaKNQEe5blEcNQflmOX/3pGBswaZ745vcuJmByp2A4tEDd+VoJbi/gS71OJBCjuer8AtlY04="
+ }
+}

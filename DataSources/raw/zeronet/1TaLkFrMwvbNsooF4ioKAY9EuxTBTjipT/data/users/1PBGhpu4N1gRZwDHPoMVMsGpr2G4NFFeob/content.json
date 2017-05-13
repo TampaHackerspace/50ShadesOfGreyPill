@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "HPE9rbEBmtG2gAepxCB3v7+M96Y3nbsOmwpkfDrOCPuEAifBpqTPXezAmLBFiJ2dTVq6yrFhg7mf9T9/YErveA0=",
+ "cert_user_id": "tantai@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "1df50984343ea81299cca85e0422e6d3d7de2aa407a6f535a369d9cae00c2d58",
+   "size": 469
+  }
+ },
+ "inner_path": "data/users/1PBGhpu4N1gRZwDHPoMVMsGpr2G4NFFeob/content.json",
+ "modified": 1484973141,
+ "signs": {
+  "1PBGhpu4N1gRZwDHPoMVMsGpr2G4NFFeob": "G4UI/xYGEWDG0J5H/MDmYRoOAmH/IAYijPHrpzPSNI71Z5REiC2fUmoSlfXNd74e44NAuyI/C3MWfvSvyyBwrzc="
+ }
+}

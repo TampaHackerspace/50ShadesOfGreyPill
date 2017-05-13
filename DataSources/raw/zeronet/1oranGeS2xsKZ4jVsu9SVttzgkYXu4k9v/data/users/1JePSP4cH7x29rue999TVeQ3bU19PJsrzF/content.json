@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HLza4SeYp1LdqWm+zFv+kZ8DAe6kJLcS+tj25Z4PjWuEzN51pxYdX24Jh05CUC6Oz8z+B7T6SsxaaGlQYLOMTP4=",
+ "cert_user_id": "tennet@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "f0af3e3a3c3257d58e883fb76b8619b4dedbb83d50b8d833c4dfc428867f2ef6",
+   "size": 1699
+  },
+  "data.json": {
+   "sha512": "279869127251d8072e597db824adf8047a2cfa497418dd9b6088ffbc8c4a6cdf",
+   "size": 501
+  }
+ },
+ "files_optional": {
+  "1484639250.jpg": {
+   "sha512": "835e1420fbdeff2b5a908997a05c85802355c4e2d250ce841fb748fe23023220",
+   "size": 26649
+  }
+ },
+ "inner_path": "data/users/1JePSP4cH7x29rue999TVeQ3bU19PJsrzF/content.json",
+ "modified": 1484639248.646,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1JePSP4cH7x29rue999TVeQ3bU19PJsrzF": "GwCebhtmbKsRRsveq14fjrCZpmyo2p2fz/pynlIMqOFdZ5Mae4sbOjOMkbCcoAeIaOMAi9ykcbJE38JyiLRLp7I="
+ }
+}

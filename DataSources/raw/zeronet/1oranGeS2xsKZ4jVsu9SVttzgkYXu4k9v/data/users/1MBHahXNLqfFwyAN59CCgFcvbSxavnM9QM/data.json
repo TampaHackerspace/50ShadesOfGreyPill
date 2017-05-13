@@ -1,0 +1,96 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 10,
+	"next_follow_id": 4,
+	"avatar": "generate",
+	"user_name": "Daddywarbuck",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1483987828,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "I'd like to help build some RPI docker containers for ZN, ipfs, and namecoin. Any wisdom to share about how you got it working?",
+			"post_uri": "1BJUsnEtWPLXDVDr8wgjEeRzuEfbMQQTLb_1484048497",
+			"date_added": 1484055062
+		},
+		{
+			"comment_id": 2,
+			"body": "Are there size limits? I attempted to upload a 35MB file and got an error.",
+			"post_uri": "12vNNA9QZKJfaTi3uJ5X6ZegCKw3X4TKR6_1484147832",
+			"date_added": 1484150411
+		},
+		{
+			"comment_id": 3,
+			"body": "Here is my entire Addresses block:",
+			"post_uri": "12vNNA9QZKJfaTi3uJ5X6ZegCKw3X4TKR6_1484152837",
+			"date_added": 1484155568
+		},
+		{
+			"comment_id": 4,
+			"body": "\n  \"Addresses\": {\n    \"Swarm\": [\n      \"/ip4/0.0.0.0/tcp/4001\",\n      \"/ip6/::/tcp/4001\"\n    ],\n    \"API\": \"/ip4/127.0.0.1/tcp/5001\",\n    \"Gateway\": \"/ip4/127.0.0.1/tcp/8080\",\n    \"HTTPHeaders\": {\n      \"Access-Control-Allow-Origin\": [\n        \"*\"\n      ],\n      \"Access-Control-Allow-Methods\": [\n        \"PUT\", \"GET\", \"POST\"\n      ],\n      \"Access-Control-Allow-Credentials\": [\n        \"true\"\n      ]\n    }\n  },",
+			"post_uri": "12vNNA9QZKJfaTi3uJ5X6ZegCKw3X4TKR6_1484152837",
+			"date_added": 1484155574
+		},
+		{
+			"comment_id": 5,
+			"body": "My apologies - it works perfectly now. Do you have a preference of video types to upload, or any other way I can help you test the site?",
+			"post_uri": "12vNNA9QZKJfaTi3uJ5X6ZegCKw3X4TKR6_1484152837",
+			"date_added": 1484156089
+		},
+		{
+			"comment_id": 6,
+			"body": "I also notice the following error when I attempt to view a pre-existing video: ERROR core/serve: Path Resolve error: Failed to get block for QmY68S15WBUhLw1T7XrYY2HfU2cGt1NtHcVnAVZBxHUDJH: context canceled gateway_handler.go:509",
+			"post_uri": "12vNNA9QZKJfaTi3uJ5X6ZegCKw3X4TKR6_1484152837",
+			"date_added": 1484156154
+		},
+		{
+			"comment_id": 7,
+			"body": "Well, at the least the upload worked for me. Are you able to view it?",
+			"post_uri": "12vNNA9QZKJfaTi3uJ5X6ZegCKw3X4TKR6_1484152837",
+			"date_added": 1484162608
+		},
+		{
+			"comment_id": 8,
+			"body": "Explore. Create.",
+			"post_uri": "1CcxneoJY75e7CFFjXMHZmELraPBJmntsd_1484348984",
+			"date_added": 1484349562
+		},
+		{
+			"comment_id": 9,
+			"body": "Make your own site. Add some content. Or find existing sites, and interact.",
+			"post_uri": "1CcxneoJY75e7CFFjXMHZmELraPBJmntsd_1484348984",
+			"date_added": 1484355552
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "12vNNA9QZKJfaTi3uJ5X6ZegCKw3X4TKR6",
+			"user_name": "Wawawa",
+			"date_added": 1484170225
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1ADgbgvdvaW2FcaxSYBHrJND2yCR4H7fbU",
+			"user_name": "Androidzeronet",
+			"date_added": 1484344510
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1P672bRNxciRkiBjmzJLYhDu6kYEkuAQWa",
+			"user_name": "Papa",
+			"date_added": 1484412073
+		}
+	]
+}

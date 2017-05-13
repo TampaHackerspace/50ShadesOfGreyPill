@@ -1,0 +1,124 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Ghost on Zeronet",
+			"body": "There is a way to use the CMS [Ghost](https://ghost.org/) on a zeronet blog?\nGhost uses [node.js]( https://nodejs.org/en/), based on Javascript",
+			"added": 1492093622
+		}
+	],
+	"topic_vote": {
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"2_1PniNzyi8fygvwyBaLpA9oBDVWZ5fXuJUw": 1,
+		"4_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": 1,
+		"1_1KNaemLKhPio4dCJiSvi81Q24AWUycwV3T": 1,
+		"1_19Z8aJ32x4pE2iGvVssPJazJgpGe5L32rq": 1,
+		"2_1EqerKajfi14bzTkqwSfqVrxKmQW1w6Nzk": 1,
+		"4_1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h": 1,
+		"4_15XeFY67fYKCKxQPfeo246ELto2Gff1hAe": 1,
+		"1_12HvSpqg5uCYVBG8WzgCYhjq2HphBoZrsB": 1
+	},
+	"next_comment_id": 14,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "Hello everybody!! :D",
+				"added": 1492095041
+			},
+			{
+				"comment_id": 7,
+				"body": "> [zblocker](#comment_2_12nxR3iURm6XpA6ZJCxpDyUgSofKWBhpjg): tell me how many programmers here???\n\nI am learning C++",
+				"added": 1492257740
+			}
+		],
+		"1_1B5iBCuHQgbGdgTJmM2A2pZNVfpfp3EU5u": [
+			{
+				"comment_id": 2,
+				"body": "> [punkcoder](#comment_2_1ACc4pa2pJam33SkSE1zF1seF3LQKWR24v): My guess is no, since there is no backing for node, all sites are distributed via static content... if you are looking for something to help you may want to look at jekyll (https://jekyllrb.com/) or hugo (https://gohugo.io/). HTH\n\nSo, I have to create an empty website and then copy the installation file of jekyll or hugo?",
+				"added": 1492191887
+			},
+			{
+				"comment_id": 3,
+				"body": "Thanks everybody :)",
+				"added": 1492203829
+			},
+			{
+				"comment_id": 5,
+				"body": "> [mi6agent](#comment_20_14YdhMiNAG8LDichYEQvyZZboGL8bSeZEu): Holy fucking shit why did no one warn me there might be ghosts on here? [...]\n\nI will ask on ghost forum.\nWhen I will have an answer to this question, I will write a message on this post",
+				"added": 1492206897
+			},
+			{
+				"comment_id": 6,
+				"body": "This is the answer:\n```If it can output to static HTML and JavaScript, it should theoretically work in ZeroNet. Try to remove any links to the clearnet though(plugins, libraries, fonts, etc)```",
+				"added": 1492254360
+			},
+			{
+				"comment_id": 8,
+				"body": "> [ooo7](#comment_1_12WAPD3EzET8DYTdKmaymGznXppM5apAKu): \"它是我们的责任，迫使所有的人类接受七诺亚法律，如果没有 ~ 他们会被杀死。\"~ 拉比伊扎克 · 金斯伯格\"有人可能称之为共产主义，但我叫它是什么︰ 犹太教。\"~ 拉比斯蒂芬 · 韦斯\n\nSpeak English!",
+				"added": 1492367413
+			},
+			{
+				"comment_id": 9,
+				"body": "> [jewishrabbi](#comment_5_1EDcVDrJx9dqRdYzBeyUyXVAbq1rVTCNW4): Shalom.היהודים שולטים בעולם.ללא-יהודים אינם בני אדם.\n\nInteresting xD",
+				"added": 1492376913
+			}
+		],
+		"2_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": [
+			{
+				"comment_id": 4,
+				"body": "Because Zeronet is a place where everybody can speak freely",
+				"added": 1492204287
+			}
+		],
+		"1_1DCTA8rrSFeKX7CzieU3CYwCjGZ2hYvamb": [
+			{
+				"comment_id": 10,
+				"body": "If you haven't got the private key or \"user.json\" you can't recover your ZeroID",
+				"added": 1492432687
+			}
+		],
+		"1_1KNaemLKhPio4dCJiSvi81Q24AWUycwV3T": [
+			{
+				"comment_id": 11,
+				"body": "Update **user.json** and you will recover your account",
+				"added": 1492433032
+			}
+		],
+		"1_19Z8aJ32x4pE2iGvVssPJazJgpGe5L32rq": [
+			{
+				"comment_id": 12,
+				"body": "> [nazi](#comment_1_14QD2BAZenH8vwW6JrFsFj337KL2KERH3v): RacistTalk – The Forum for Mentally Retarded People\n\nThe description is so true xD",
+				"added": 1492433162
+			}
+		],
+		"4_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": [
+			{
+				"comment_id": 13,
+				"body": "You can't post pic on ZeroTalk",
+				"added": 1492433409
+			}
+		]
+	},
+	"comment_vote": {
+		"36_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1,
+		"2_1ACc4pa2pJam33SkSE1zF1seF3LQKWR24v": 1,
+		"1_12LJsN6FdsNkS8EfiDYFyoPqZUnEibBJvP": 1,
+		"19_1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd": 1,
+		"2_14QD2BAZenH8vwW6JrFsFj337KL2KERH3v": 1,
+		"20_14YdhMiNAG8LDichYEQvyZZboGL8bSeZEu": 1,
+		"1_1HEX5jpVUwbALLv6pHAPhM5VnMD1AEo78n": 1,
+		"119_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"6_12xyMN9EMfzW1qqKCUNN5LLzxUUHpbrYXX": 1,
+		"101_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"1_14QD2BAZenH8vwW6JrFsFj337KL2KERH3v": 1,
+		"16_14nCEDo97Cx4VpSHwPytWvacPo29Y7FAbk": 1,
+		"10_16UbJDyboDaAjW5fiZouKWpPJztpt43kEj": 1,
+		"55_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1,
+		"5_1PTaJe3LLeB5Pfxq8KjcpQSPcSK1PQqsQs": 1,
+		"26_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV": 1,
+		"3_19Z8aJ32x4pE2iGvVssPJazJgpGe5L32rq": 1
+	}
+}

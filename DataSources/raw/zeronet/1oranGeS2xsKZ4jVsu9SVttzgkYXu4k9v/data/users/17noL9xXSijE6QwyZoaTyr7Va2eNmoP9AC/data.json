@@ -1,0 +1,39 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "png",
+	"user_name": "Atimaz",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1481426295,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1481426345,
+			"body": "Привет мир!",
+			"date_added": 1481426343
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Arkre: Хорошая альтернатива, остальному в сети. Единственное у зеро нет есть шлюзы в i2p или из оного?",
+			"post_uri": "17noL9xXSijE6QwyZoaTyr7Va2eNmoP9AC_1481426345",
+			"date_added": 1481441215
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17Xo25emK8WXkrWouD5DsuLrcRnkrREfTa",
+			"user_name": "Arkre",
+			"date_added": 1482241080
+		}
+	]
+}

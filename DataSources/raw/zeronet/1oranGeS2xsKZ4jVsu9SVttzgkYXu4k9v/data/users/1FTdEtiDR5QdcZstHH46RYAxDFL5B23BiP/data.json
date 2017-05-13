@@ -1,0 +1,81 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 7,
+	"next_follow_id": 5,
+	"avatar": "jpg",
+	"user_name": "MightyFedorus",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Mighty Fedora Games On ZeroMe\n\nZeroId mightyfedora has been lost and is  not used :(",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1485468979,
+			"body": "Welcome to our ZeroMe!"
+		},
+		{
+			"post_id": 1485759985,
+			"body": "What's the difference between ZeroMe and ZeroMe+?",
+			"date_added": 1485759983
+		}
+	],
+	"post_like": {
+		"18CuHWkbYUJGALkjk8pkCusJBcsj7Um98y_1": 1485650336,
+		"1FTdEtiDR5QdcZstHH46RYAxDFL5B23BiP_1": 1485652780
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "we have a website and blogs, I got myself locked out of this zeroid, however so this is my new one.",
+			"post_uri": "18CuHWkbYUJGALkjk8pkCusJBcsj7Um98y_1",
+			"date_added": 1485650383
+		},
+		{
+			"comment_id": 2,
+			"body": "@Rythyrix: i was just figuring out how zeronet works, i'd never made an account before so i had no idea how the ID's even worked, i reset my whole pc and went to log in to it again and i had never recieved an explaination on how it worked, or how to back it up, so i lost all the files and what do u mean encryption keys",
+			"post_uri": "18CuHWkbYUJGALkjk8pkCusJBcsj7Um98y_1",
+			"date_added": 1485652582
+		},
+		{
+			"comment_id": 3,
+			"body": "link? i cant find ZeroMe+",
+			"post_uri": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y_1484628503",
+			"date_added": 1485652709
+		},
+		{
+			"comment_id": 4,
+			"body": "@Rythyrix now i have a backup of the whole Zeronet folder, i should be good.",
+			"post_uri": "18CuHWkbYUJGALkjk8pkCusJBcsj7Um98y_1",
+			"date_added": 1485652922
+		},
+		{
+			"comment_id": 5,
+			"body": "@Rythyrix: XD google-fu https://sites.google.com/view/mightyfedoragames/home email me on ZeroMail :3",
+			"post_uri": "18CuHWkbYUJGALkjk8pkCusJBcsj7Um98y_1",
+			"date_added": 1485656804
+		},
+		{
+			"comment_id": 6,
+			"body": "@Rythyrix: Here's our Zite http://127.0.0.1:43110/14HSaCdhWk6qVNxYJbeor8zEsJ1wUXzj1X/",
+			"post_uri": "18CuHWkbYUJGALkjk8pkCusJBcsj7Um98y_1",
+			"date_added": 1485656832
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1FTdEtiDR5QdcZstHH46RYAxDFL5B23BiP",
+			"user_name": "Mightyfedorus",
+			"date_added": 1485469769
+		}
+	],
+	"settings": {
+		"reverse_comment_order": false,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"blocked": [],
+	"flags": {},
+	"comment_like": {}
+}

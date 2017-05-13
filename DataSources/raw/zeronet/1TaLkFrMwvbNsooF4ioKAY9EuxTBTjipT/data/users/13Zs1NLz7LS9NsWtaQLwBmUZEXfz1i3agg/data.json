@@ -1,0 +1,72 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"2_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF": 1
+	},
+	"next_comment_id": 10,
+	"comment": {
+		"1_1DFDjUGJdSp1kMuFq1AtNS9ZWmkVtbp947": [
+			{
+				"comment_id": 1,
+				"body": "I'm pretty sure your ids are stored in users.json in the data folder. Not online. Take that one with you to the other machine. (Or run zeronet on a private proxy.)",
+				"added": 1493325096
+			},
+			{
+				"comment_id": 2,
+				"body": "> [mario](#comment_4_1DFDjUGJdSp1kMuFq1AtNS9ZWmkVtbp947): That's what I did... the login interface can detect my correct ZeroID name but then ZeroMe asks me to create an account. I had an account before...\n\nDid you wait for a bit? I just moved from one machine to the other, taking users.json with me,  and while at first the page didn't show properly after waiting for the ZeroMe user registry to sync it did.\n\nHeh, [p2p](#comment_300_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ)'s comment showed up while I was writing this. Didn't even have to reload the page, pretty slick.",
+				"added": 1493340670
+			}
+		],
+		"1_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": [
+			{
+				"comment_id": 3,
+				"body": "I don't know how bad it was in the past but [offtopic](https://zeronet.node0.nl/Talk.ZeroNetwork.bit/?Topics:9_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/Offtopic) has plenty of antisemitism and other forms of bigotry going on.",
+				"added": 1493401849
+			}
+		],
+		"2_1F8omDpXyPsBfd9CBJ91o4Wv1AA2KxqMEY": [
+			{
+				"comment_id": 4,
+				"body": "Some documentation on zeronet configuration would be nice. There's a bunch of different options and while some of them seem self explanatory, some are not.",
+				"added": 1493761086
+			}
+		],
+		"1_1P8g5N1QWebJtcm5B1wVU7RLXGYSYothoQ": [
+			{
+				"comment_id": 5,
+				"body": "> [ivesen](#comment_12_1NmkVyqBJX6a82YQFYkCNgQpE9AWsmeppp): this is some reddit-like iircI don't use reddit so I wouldn't know, it's nice for QA style stuff though\n\nIt's not that reddit like actually. Reddit as tree style comments, not a flat list. And the comments are usually ordered by upvote/downvote ratio, which ZeroTalk doesn't seem to do either.\n\nThis seems more like a normal forum to me, it just looks a bit reddit like.",
+				"added": 1493804098
+			}
+		],
+		"1_1PFMNdR2S3k9PbHU3dhBZXEvsnrYKszTNe": [
+			{
+				"comment_id": 6,
+				"body": "sup",
+				"added": 1494059826
+			}
+		],
+		"1_15dMbdM7c2RT9RhNTJRqzc4vYSvrSJvxyG": [
+			{
+				"comment_id": 7,
+				"body": "Do you need to do something beyond visiting the site?",
+				"added": 1494166921
+			},
+			{
+				"comment_id": 8,
+				"body": "> [koure](#comment_2_19yRyR57LxFjbzieSEhvyvhe4heSo7KrLa): In some sites by draging the zero (up right corner) you will see an option to download and help share the files of the web. NullPaste and ZeroMaps do have this option\n\nIs that the same as when you set to to distribute new files in ZeroHello?",
+				"added": 1494172271
+			},
+			{
+				"comment_id": 9,
+				"body": "> [rythyrix](#comment_84_18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y): ZeroHello is the welcome page. You might be thinking of ZeroMe, where you can choose to automatically distribute a given user's new images. [...]\n\nI was referring to the files page on ZeroHello. (Click on Files, above the list of site, and then click on one of the three connected circles icon behind one of the zites.)",
+				"added": 1494177254
+			}
+		]
+	},
+	"comment_vote": {
+		"3_1CMYxdit4qq9QGk9DYRu2ruRPd2YDGckH8": 1,
+		"8_1AZG3avnpwcn37q9eeCEjXKFBye81eAxg5": 1,
+		"155_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6": 1
+	}
+}

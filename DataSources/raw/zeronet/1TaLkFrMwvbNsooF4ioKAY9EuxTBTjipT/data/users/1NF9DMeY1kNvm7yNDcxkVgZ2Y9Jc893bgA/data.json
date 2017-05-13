@@ -1,0 +1,17 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 3,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 2,
+				"body": "Hi there,\nI would like ZeroNet to be able to do LAN peer discovery out-of-the-box so that it can work in community networks where an Internet connection is not always available (poor infrastructures, political Internet shutdowns, etc.).\nThat would mean another nice step towards real decentralization.\nI guess I should open an issue on GitHub for that, shouldn't I?\nCheers!",
+				"added": 1493390767
+			}
+		]
+	},
+	"comment_vote": {}
+}

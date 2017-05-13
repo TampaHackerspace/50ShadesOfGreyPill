@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HFYSBOCBlYhTEb6JL0uQTiq3GzP4CprSFFiHdVx/VpwKdtTCoMOAhmHhMNoRMZENl7kYYEIC2nmnrhZ1zvDmd5c=",
+ "cert_user_id": "freedomer@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "4c8b0f19c22df4b011bca2d0e6c9d96f2b36cecf211e6493ed42c4e7004adf77",
+   "size": 484
+  }
+ },
+ "inner_path": "data/users/1VU4YuLth4bBcRtxtGatSwBbQuLXNzgVk/content.json",
+ "modified": 1481302484.143,
+ "signs": {
+  "1VU4YuLth4bBcRtxtGatSwBbQuLXNzgVk": "HLnBOeArBnl6+DFpgSWIEE36Y7t3QAA6Wse4xpEUC04S9E2MazZverYsmIUKS8nLB8WqX4VP3LTfoTLz3oQyIR8="
+ }
+}

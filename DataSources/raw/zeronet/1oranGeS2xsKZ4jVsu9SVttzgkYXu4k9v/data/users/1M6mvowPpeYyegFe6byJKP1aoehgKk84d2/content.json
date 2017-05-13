@@ -1,0 +1,72 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HEGMiYtDKIOYXSt5rS8ZgYt+1vwQirvUvH1nxUh62H6ib/IW817zj3e91t/MH/7e3icm1FvrMBaRtmUr9Et9w7Y=",
+ "cert_user_id": "dstr1991@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "ebd65a2b7c68b8231fec3a8c062e15f7d3cca65edd69070e68d3985aeafb8e9a",
+   "size": 1709
+  },
+  "data.json": {
+   "sha512": "95d7bb74dd29a5660d19cde4fc752d12c7cff9eb3c4b14d2ead9be35882294e9",
+   "size": 11974
+  }
+ },
+ "files_optional": {
+  "1480399346.jpg": {
+   "sha512": "a80245576d43f9a2c1617c869c15419797dec4b9855266b60a17d60432f5bbd2",
+   "size": 118392
+  },
+  "1480453481.jpg": {
+   "sha512": "ee9e49d50b90652a467ae323f91c674a8f86a19270ad8f1bba84db27e6b79103",
+   "size": 73180
+  },
+  "1480454063.jpg": {
+   "sha512": "a19e8ab21dcea8a94f161b70a069d214a81b97a75e4e0f85fc58e3bd28238d95",
+   "size": 49392
+  },
+  "1480519059.jpg": {
+   "sha512": "f76ee393f3299eb93b55ec3d6aa434242072e738ae3983b274f0d3fd1d29172c",
+   "size": 79091
+  },
+  "1480604925.jpg": {
+   "sha512": "0293835a75b685f9785ef3d9080ac303ce33f423b35f2008cf6b2df057203f1a",
+   "size": 52361
+  },
+  "1480621951.jpg": {
+   "sha512": "d6a72cc47d976d0f3686bc5bad93fe739e69243e641d7c80f62bfc748fa0ca4f",
+   "size": 47320
+  },
+  "1480717321.jpg": {
+   "sha512": "bfe08e71c23b69c04c86680330e0c7c6fd6f9aaef0528574935f62edc4f8fbbe",
+   "size": 59657
+  },
+  "1480803563.jpg": {
+   "sha512": "3fefb1a48563368e2857a0a1bcdac3e4623477253bd1334e82ec94871d413b31",
+   "size": 64315
+  },
+  "1480822470.jpg": {
+   "sha512": "947296520669e150472c44747dd2faab0edfd9f54d352148b36e82358bb41dd3",
+   "size": 38359
+  },
+  "1481097587.jpg": {
+   "sha512": "7fef7bf1dd94fbab752a31d577f0c3ffa87f49cab66b1133b04c6fa646ed06d1",
+   "size": 90033
+  },
+  "1481626305.jpg": {
+   "sha512": "a03ce71f896c4f431425c72abdc19497119d317ec805290ffac4b3f627ac873f",
+   "size": 61335
+  },
+  "1482343815.jpg": {
+   "sha512": "c5a194cc95a39d9f221ad450455c58c78c10fbb3cdad38785b1965071acabd5d",
+   "size": 56108
+  }
+ },
+ "inner_path": "data/users/1M6mvowPpeYyegFe6byJKP1aoehgKk84d2/content.json",
+ "modified": 1484041939.495096,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1M6mvowPpeYyegFe6byJKP1aoehgKk84d2": "HC6sjMljAOGynO6MYjtQgcYA5ksqlhUptaORe7dKvOnHDqsN+Qpjv59YMschC+8bjq+vrVGCqmDeYwY3VaqtvYI="
+ }
+}

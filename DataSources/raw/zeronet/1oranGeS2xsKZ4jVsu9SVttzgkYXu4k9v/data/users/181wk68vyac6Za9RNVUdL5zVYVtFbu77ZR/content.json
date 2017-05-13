@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HD500DvC3EQuidb6NJAySmZhDlJS5s5QI7MJlPmVXp1NUroeDP0WONZ4cyEA8AVYW9soVciuwRpUNazSVcHvIPk=",
+ "cert_user_id": "varunchaturvedi@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "8518e0ca325bebb156fc9985cb1aff5e90b0e0905feb36ce7d80a730249f4da5",
+   "size": 1083
+  }
+ },
+ "files_optional": {
+  "1480857363.jpg": {
+   "sha512": "feb69c26c739b028b32127240cb50e3b157e53bb5e9dcc2553eae4cf03818820",
+   "size": 93466
+  }
+ },
+ "inner_path": "data/users/181wk68vyac6Za9RNVUdL5zVYVtFbu77ZR/content.json",
+ "modified": 1480858860.423,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "181wk68vyac6Za9RNVUdL5zVYVtFbu77ZR": "HFfWtnDpDJQAYpIuuu0SvUcBBJhbcxkAzrAMbHmCmAIsh9dkBZVlfoccWad9b74GxM0cc8v6/YxAaX87IgqHa7A="
+ }
+}

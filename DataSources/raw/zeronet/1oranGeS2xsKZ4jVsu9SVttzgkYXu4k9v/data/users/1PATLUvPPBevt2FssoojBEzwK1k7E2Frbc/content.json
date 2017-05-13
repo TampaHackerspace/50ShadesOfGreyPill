@@ -1,0 +1,24 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HHJ2elmusQfKmnb6P8pgoRT4Sk4FlpXP/0FGRixdszqcToqOmLyLd5PvKExEHEyqyObkLSxnKUfD3dGH8SHmcRE=",
+ "cert_user_id": "herbal@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "c15573536e148b886cc0aa6c7fade5b1c6c5ae1d83fd21772fef65a9791dc1b4",
+   "size": 2611
+  }
+ },
+ "files_optional": {
+  "1483522719.jpg": {
+   "sha512": "b985ad7717f03531f43591baf4addd6940897fbfe709f3385ed3a938ce365651",
+   "size": 40805
+  }
+ },
+ "inner_path": "data/users/1PATLUvPPBevt2FssoojBEzwK1k7E2Frbc/content.json",
+ "modified": 1483522751.972,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1PATLUvPPBevt2FssoojBEzwK1k7E2Frbc": "HPQvqRmcTCIekIyAzoaaBpaO9XSBM/4uak/WIZhkPfogjh2tXUnR3YLWMM4NV5LQHJS+lStf7P1gFAmnubFOHiQ="
+ }
+}

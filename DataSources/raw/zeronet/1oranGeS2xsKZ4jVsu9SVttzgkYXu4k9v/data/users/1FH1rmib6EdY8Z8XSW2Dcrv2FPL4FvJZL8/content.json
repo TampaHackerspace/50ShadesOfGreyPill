@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HAFgHy2QeHzLIyUCJNjv2ERJj4GO64vwSozRh+FBBlsD1ZcsYNzuIJGfBEl9LoakuBOD7UEL1VC6RiGXMe2LHLM=",
+ "cert_user_id": "ansic@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "f7d07c095c2ce2ffc43ff3e016df7e451d3363d60ef613e2c0c5cab6a19f2339",
+   "size": 2173
+  },
+  "data.json": {
+   "sha512": "4602e7a07b3c8f6f87791d7b48b0f292bb33db9ee5a54ae2aad70e791c27490b",
+   "size": 1460
+  }
+ },
+ "inner_path": "data/users/1FH1rmib6EdY8Z8XSW2Dcrv2FPL4FvJZL8/content.json",
+ "modified": 1489762066,
+ "signs": {
+  "1FH1rmib6EdY8Z8XSW2Dcrv2FPL4FvJZL8": "HNktLBY4CPG1jZ7m3jpPT+VuGnw670c7Xr+KffNMF1nCcX8yUrDqfsGDX2NHSaOjew8oYcpEy2EjAFAsEnWeFxU="
+ }
+}

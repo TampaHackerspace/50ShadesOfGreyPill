@@ -1,0 +1,41 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 1,
+	"next_follow_id": 5,
+	"avatar": "generate",
+	"user_name": "Iread",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1490345495,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "15h1wo1nmP9inwz8Zg4S84EdkgjRCFoe4e",
+			"user_name": "Inth3nd",
+			"date_added": 1490348396
+		},
+		{
+			"follow_id": 3,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "128VYnsoJvQKNgiFiFZ3GeoBefBqbUtzzB",
+			"user_name": "Iread",
+			"date_added": 1490348400
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13jL799v8v688HkkF9nAVAse9PcieWBfVA",
+			"user_name": "知乎日报",
+			"date_added": 1490350278
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HBhoU/Ese/cxn/wdUbBLiLjon69CXgdo2GjoyFhay51dIS4X9c7yTFKAZHWsQ81IqTaYYtFbKbsKAyho+ECFBDE=",
+ "cert_user_id": "preetam@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "e53d3c7a6f939f95b4751fb2bbf858667b8a4cf95207eb03d75159f20c8df602",
+   "size": 1670
+  },
+  "data.json": {
+   "sha512": "5ceb121066209ca1458c01916b61d7d170dfe20921e6894155bc4c3e81d8ba94",
+   "size": 2642
+  }
+ },
+ "inner_path": "data/users/19cvyy1tTAapGXhUYZK1pNFRaqvUz6Fr5a/content.json",
+ "modified": 1485166085,
+ "signs": {
+  "19cvyy1tTAapGXhUYZK1pNFRaqvUz6Fr5a": "HFeVqgRAXfcCekvUPrJIZyTXXy8nSH9FtD7EiCiTHDQq6aaJztPRF+LtvuqLAYwEfIBpGNbZMTrCpotz8gli5uU="
+ }
+}

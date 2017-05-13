@@ -1,0 +1,28 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HBGl2sCTyvqgYtUsi/X83sUk7k+MCtILKpVsYpdVyMhANS/aqx9nUsojSk0i6zqSTsKtXZpjfN6D2sooOLBKpRk=",
+ "cert_user_id": "mosen@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "413c7faa797e371b86d3855a1843a17b6ac43fb387ef704c4de97d52d66879e4",
+   "size": 1824
+  },
+  "data.json": {
+   "sha512": "a564db407d8c17c1a7ad691611e0a2a00cfd67e7d34a0dd05a02240767b018e3",
+   "size": 2791
+  }
+ },
+ "files_optional": {
+  "1479737407.jpg": {
+   "sha512": "91041fc2050981bf1b71c1601db97c03478eb5f63ff6cda2d04aa3db7ded5db3",
+   "size": 13085
+  }
+ },
+ "inner_path": "data/users/1Q7UWk3im88kJkzmhzfD5q44rQDXLatxYq/content.json",
+ "modified": 1480338040.4,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1Q7UWk3im88kJkzmhzfD5q44rQDXLatxYq": "G+SIHjTVv4gVMTk6/hmRqulqPoDJuXWjFcQn5Wpki+A8cjv54AifYtBoO51V8PPGgu5zva5G7bmWKfXtN9JPPsw="
+ }
+}

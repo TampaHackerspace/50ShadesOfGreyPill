@@ -1,0 +1,498 @@
+{
+	"next_post_id": 11,
+	"next_comment_id": 10,
+	"next_follow_id": 53,
+	"avatar": "png",
+	"user_name": "crypdick",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Profesh vagabond: I've backpacked and hitchhiked to 26 countries so far :)\n\nFormerly \"facepalm\", I think I lost my users.json >:C /facepalm\n\n[Clearnet homepage](richarddecal.com)\n[crypdick.bit blog](/crypdick.bit)",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1485619955,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1485658314,
+			"body": "I started a blog. Hoping to get a .bit address for it soon. http://127.0.0.1:43110/1NEBe37VGySuom8UzZTQ2gGy7iYXyUKE4C/",
+			"date_added": 1485658312
+		},
+		{
+			"post_id": 1485710724,
+			"body": "I had to remake my blog because I couldn't get rid of a \"1 file failed to update error\". Here's my new address: http://127.0.0.1:43110/15yFSio87x1MpMd5bfJZWVVk4WHkrF7ETz/",
+			"date_added": 1485710721
+		},
+		{
+			"post_id": 1485717202,
+			"body": "I just found out about #IPFS. What's the difference between ZeroNet and IPFS?",
+			"date_added": 1485717197
+		},
+		{
+			"post_id": 1485994046,
+			"body": "Does anyone know who the #devs of #ZeroNet are? I'd like to follow their posts.",
+			"date_added": 1485994040
+		},
+		{
+			"post_id": 1485997179,
+			"body": "I wrote a blog post: \"[How to find a ZeroNet page using a keyword search in terminal](http://127.0.0.1:43110/15yFSio87x1MpMd5bfJZWVVk4WHkrF7ETz/?Post:3:How+to+find+a+ZeroNet+page+using+a+keyword+search+in+terminal)\"",
+			"date_added": 1485997172
+		},
+		{
+			"post_id": 1486097905,
+			"body": "On Diaspora*, there are a few accounts which simply mirror popular Twitter feeds (e.g. #Snowden, #Lifehacker, etc.). Does anybody have any ideas how to do something similar on ZeroNet? @Nofish: ?",
+			"date_added": 1486097897
+		},
+		{
+			"post_id": 1486143805,
+			"body": "Success! I have my first .bit domain ^_^ [crypdick.bit](http://127.0.0.1:43110/crypdick.bit)",
+			"date_added": 1486143796
+		},
+		{
+			"post_id": 1486145049,
+			"body": "Is it possible to make a #Jekyll website automatically compile a content.json file? That would make it easy to port a whole lot of pages currently hosted on Github.",
+			"date_added": 1486145039
+		}
+	],
+	"post_like": {
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1484353882": 1485620334,
+		"16osdFmHgwgy9sgBws1po2zP5PxwMALvZa_1485258408": 1485711100,
+		"1NhDPqhia3TEmpsa2n6qa7rDv4XLvohRv3_1485714204": 1485714657,
+		"114DnUNsjvA1fBT1A7WVx2NjHi54WpgJjS_1485979109": 1485993786,
+		"114DnUNsjvA1fBT1A7WVx2NjHi54WpgJjS_1": 1485993794,
+		"1CYj7o5iamDZeKZvdSAW4P2aEngmAXb78T_1485807642": 1485997540
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "I'm excited about it, too.",
+			"post_uri": "114DnUNsjvA1fBT1A7WVx2NjHi54WpgJjS_1485979109",
+			"date_added": 1485993818
+		},
+		{
+			"comment_id": 2,
+			"body": "@Loligod: I'm sure the devs are mutually aware of each other's projects, do you know if there's been any talk teaming up? I know that antilibrary.bit works using IPFS.",
+			"post_uri": "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH_1485717202",
+			"date_added": 1485993965
+		},
+		{
+			"comment_id": 3,
+			"body": "@Loligod: Ah! Good to know!",
+			"post_uri": "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH_1485710724",
+			"date_added": 1485994523
+		},
+		{
+			"comment_id": 4,
+			"body": "@Rythyrix: ty!",
+			"post_uri": "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH_1485994046",
+			"date_added": 1485997341
+		},
+		{
+			"comment_id": 5,
+			"body": "I went ahead and opened an issue for this: https://github.com/HelloZeroNet/ZeroMe/issues/31",
+			"post_uri": "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH_1486097905",
+			"date_added": 1486099506
+		},
+		{
+			"comment_id": 6,
+			"body": "@ks: No, I already know that. Jekyll takes markdown files and automatically generates static html websites. The missing piece is the content.json file. What I'm asking is whether there's a way to write a Jekyll plug-in which, at the end of compilation, will make a list of all the files, their sha checksum, and automatically generate a content.json. Or can I somehow make the content.json inside of ZeroNet?",
+			"post_uri": "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH_1486145049",
+			"date_added": 1486245664
+		},
+		{
+			"comment_id": 7,
+			"body": "@Rebelb0y11: If I add and modify files to my site's folder, is there a way to automatically add them to my content.json and sign them?",
+			"post_uri": "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH_1486145049",
+			"date_added": 1486245976
+		},
+		{
+			"comment_id": 8,
+			"body": "@ks: @Rebelb0y11: thanks y'all! Thanks to your help I have my site running at [richarddecal.bit](/richarddecal.bit). Now I just have to figure out why my relative links are all broken...",
+			"post_uri": "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH_1486145049",
+			"date_added": 1486255815
+		},
+		{
+			"comment_id": 9,
+			"body": "It should look like [richarddecal.com](richarddecal.com)",
+			"post_uri": "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH_1486145049",
+			"date_added": 1486255854
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "16osdFmHgwgy9sgBws1po2zP5PxwMALvZa",
+			"user_name": "Th3B3st",
+			"date_added": 1485620322
+		},
+		{
+			"follow_id": 2,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1H1SHzxnPJS3hBbKvfXLqf4QJnXEUgaVe9",
+			"user_name": "Shellbound",
+			"date_added": 1485620376
+		},
+		{
+			"follow_id": 3,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1EErpRfR94YZwEMpAwsGKYsgSqHuRxvWib",
+			"user_name": "megfault",
+			"date_added": 1485620388
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC",
+			"user_name": "Firebox",
+			"date_added": 1485620490
+		},
+		{
+			"follow_id": 5,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9",
+			"user_name": "sthetz",
+			"date_added": 1485620519
+		},
+		{
+			"follow_id": 6,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu",
+			"user_name": "PaintNinja",
+			"date_added": 1485620587
+		},
+		{
+			"follow_id": 7,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR",
+			"user_name": "weakish",
+			"date_added": 1485620619
+		},
+		{
+			"follow_id": 8,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH",
+			"user_name": "Crypdick",
+			"date_added": 1485710117
+		},
+		{
+			"follow_id": 9,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1KkA3C1iVDfieotYpuPUCpUtKzdFcfHMRy",
+			"user_name": "cryp7ix",
+			"date_added": 1485711807
+		},
+		{
+			"follow_id": 10,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1485711959
+		},
+		{
+			"follow_id": 11,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj",
+			"user_name": "Martinv",
+			"date_added": 1485712180
+		},
+		{
+			"follow_id": 12,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1JHQA9oFkFpFFRiscyT4N71AKLWg46pQ92",
+			"user_name": "Fre3neT",
+			"date_added": 1485712264
+		},
+		{
+			"follow_id": 13,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV",
+			"user_name": "Mynameislegion",
+			"date_added": 1485712528
+		},
+		{
+			"follow_id": 14,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "12aUNK5oaVy24PUFxevXvh63iDvVyncGHx",
+			"user_name": "Durand",
+			"date_added": 1485712775
+		},
+		{
+			"follow_id": 15,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1PRH7JxEdBVJCZETgt6vXrbmxHiMNffJS3",
+			"user_name": "Facepalm",
+			"date_added": 1485712806
+		},
+		{
+			"follow_id": 16,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "161PCrxHPg6RVU2o83863vKy1NoZi59hMq",
+			"user_name": "Forteller",
+			"date_added": 1485712821
+		},
+		{
+			"follow_id": 17,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "17gYTAVrDNhJAH4RN6WXWXu4AqGwusNajG",
+			"user_name": "Elena Zimmermann",
+			"date_added": 1485712852
+		},
+		{
+			"follow_id": 18,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ",
+			"user_name": "Sirenyc",
+			"date_added": 1485712862
+		},
+		{
+			"follow_id": 19,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa",
+			"user_name": "Talnicrom",
+			"date_added": 1485712920
+		},
+		{
+			"follow_id": 20,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1ACc4pa2pJam33SkSE1zF1seF3LQKWR24v",
+			"user_name": "Punkcoder",
+			"date_added": 1485712939
+		},
+		{
+			"follow_id": 21,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1BYU9zV786auJ29dF3HMAQYhxA2WgN4ofi",
+			"user_name": "Eibriel",
+			"date_added": 1485713061
+		},
+		{
+			"follow_id": 22,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "16YP1ZeHrKq3KB3DdBWHec984oQAfVPT9d",
+			"user_name": "Wire",
+			"date_added": 1485713149
+		},
+		{
+			"follow_id": 23,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1QFcL2PapA8NuvNWeHCafHaMPJcXgmb55i",
+			"user_name": "Juansantiago",
+			"date_added": 1485713168
+		},
+		{
+			"follow_id": 24,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1HcK5Hw1rPZeYdgTmqJGrVG2tSyR9Ke2Gt",
+			"user_name": "Mama21mama",
+			"date_added": 1485713191
+		},
+		{
+			"follow_id": 25,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1A2pTbDfU7P1JLSw3SZTiA1Lf7SRSu4Nn9",
+			"user_name": "Callmypants",
+			"date_added": 1485713249
+		},
+		{
+			"follow_id": 26,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx",
+			"user_name": "ks",
+			"date_added": 1485713335
+		},
+		{
+			"follow_id": 27,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN",
+			"user_name": "Cyborg Warrior",
+			"date_added": 1485713427
+		},
+		{
+			"follow_id": 28,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb",
+			"user_name": "Bot",
+			"date_added": 1485713505
+		},
+		{
+			"follow_id": 29,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1D242AyQghFqqQTwo1f1csP5kRQe588BUm",
+			"user_name": "Francis Brunelle",
+			"date_added": 1485713598
+		},
+		{
+			"follow_id": 30,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "16nArdxrSaNThNp83kL8E6NLL9WD98iUne",
+			"user_name": "Jayofthezero",
+			"date_added": 1485713633
+		},
+		{
+			"follow_id": 31,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "16ayEL9rXHKdbhoFu1LUanUaPVrzRVe331",
+			"user_name": "Andrewm",
+			"date_added": 1485713715
+		},
+		{
+			"follow_id": 32,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1DjUq8hd2jYZgc5uNhQEtWUVZjMHkMQkpU",
+			"user_name": "Alek",
+			"date_added": 1485714150
+		},
+		{
+			"follow_id": 33,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ",
+			"user_name": "Sirenyc",
+			"date_added": 1485714183
+		},
+		{
+			"follow_id": 34,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ",
+			"user_name": "Arsene Lupin",
+			"date_added": 1485714194
+		},
+		{
+			"follow_id": 35,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD",
+			"user_name": "Mkg20001",
+			"date_added": 1485714232
+		},
+		{
+			"follow_id": 36,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1BYU9zV786auJ29dF3HMAQYhxA2WgN4ofi",
+			"user_name": "Eibriel",
+			"date_added": 1485714238
+		},
+		{
+			"follow_id": 37,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1FVgXvt6d7AciuXYYeHwFcPfUyRqRDhZxV",
+			"user_name": "Empirezero",
+			"date_added": 1485714274
+		},
+		{
+			"follow_id": 38,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1KuwwnkAtVrfnyhv8pyGRxLqzNZbEkJt2u",
+			"user_name": "Lola",
+			"date_added": 1485714314
+		},
+		{
+			"follow_id": 39,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1BTK7LKA1LrvCjNqVrPmBtySWhSaHnG97Q",
+			"user_name": "HrnekBezucha",
+			"date_added": 1485714355
+		},
+		{
+			"follow_id": 40,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1K7pivtg6E1qRnih7nmnnPrCnRRSxSCMQQ",
+			"user_name": "Lain",
+			"date_added": 1485714412
+		},
+		{
+			"follow_id": 41,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS",
+			"user_name": "ZAlex",
+			"date_added": 1485714465
+		},
+		{
+			"follow_id": 42,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1JwPBvZYXLJzrA6YisjpsyTuuieFLCARS6",
+			"user_name": "Emeraude",
+			"date_added": 1485715312
+		},
+		{
+			"follow_id": 43,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1NhDPqhia3TEmpsa2n6qa7rDv4XLvohRv3",
+			"user_name": "Rebelb0y11",
+			"date_added": 1485723711
+		},
+		{
+			"follow_id": 44,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "114DnUNsjvA1fBT1A7WVx2NjHi54WpgJjS",
+			"user_name": "Inj3ct0r",
+			"date_added": 1485993788
+		},
+		{
+			"follow_id": 45,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y",
+			"user_name": "Rythyrix",
+			"date_added": 1485997494
+		},
+		{
+			"follow_id": 46,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN",
+			"user_name": "Antilibrary",
+			"date_added": 1485997504
+		},
+		{
+			"follow_id": 47,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1CtzAyj3Y8Bsj1fxVp3i9GAy6C8LhDyV3e",
+			"user_name": "Radiozen",
+			"date_added": 1486067904
+		},
+		{
+			"follow_id": 48,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1BDapygZHNG8GxEuSsEpK9Xipm9mFfW1F2",
+			"user_name": "isolinks",
+			"date_added": 1486097753
+		},
+		{
+			"follow_id": 49,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1JuUHRJ3A1wy5zgT6c2KviH9cHtq8Zr4X9",
+			"user_name": "Planteater",
+			"date_added": 1486142207
+		},
+		{
+			"follow_id": 50,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC",
+			"user_name": "Jjg",
+			"date_added": 1486142231
+		},
+		{
+			"follow_id": 51,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h",
+			"user_name": "Binchan",
+			"date_added": 1486142250
+		},
+		{
+			"follow_id": 52,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NhDPqhia3TEmpsa2n6qa7rDv4XLvohRv3",
+			"user_name": "Rebelb0y11",
+			"date_added": 1486145278
+		}
+	],
+	"settings": {
+		"reverse_comment_order": true,
+		"mute_ugly": false,
+		"mute_spam": true,
+		"mute_blocked": false
+	},
+	"blocked": [],
+	"flags": {},
+	"comment_like": {
+		"1NhDPqhia3TEmpsa2n6qa7rDv4XLvohRv3_4": 1485723653,
+		"1NhDPqhia3TEmpsa2n6qa7rDv4XLvohRv3_3": 1485723677
+	}
+}

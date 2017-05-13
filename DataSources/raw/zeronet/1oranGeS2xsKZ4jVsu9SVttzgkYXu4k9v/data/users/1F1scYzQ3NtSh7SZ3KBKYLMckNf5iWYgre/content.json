@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HLOXiewG2sn9XaAyR2MIjq533YsNn3Uvxm3ZpBGa6MCcNYOVEDf4y1ieTXZV/DK7+sjsptwHo0KYGdSLjLdm5Xg=",
+ "cert_user_id": "nextone@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "96c212ae13257ab0ff0c2cfb423b43baa76d5374e9532aec9dd9ed8f2198fdbd",
+   "size": 1582
+  }
+ },
+ "files_optional": {
+  "1483360875.jpg": {
+   "sha512": "8d12e121e52f77cdfb17b16d78e5874fa56b26266e075b4820c586d8d3cbddce",
+   "size": 38601
+  },
+  "1483360941.jpg": {
+   "sha512": "acca06021663ecaa5882768c439b55a7c681c6d7c6aba3796cd0ffb0074279c9",
+   "size": 71302
+  }
+ },
+ "inner_path": "data/users/1F1scYzQ3NtSh7SZ3KBKYLMckNf5iWYgre/content.json",
+ "modified": 1483361077.929,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1F1scYzQ3NtSh7SZ3KBKYLMckNf5iWYgre": "HPue6I1MOxoE35ZTk5BqBWyxmrerUXtO5t72z9ylzeoMzMvXolujrIv+2BK2fD5W83QinyiykEDBdBveAwiToto="
+ }
+}

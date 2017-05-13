@@ -1,0 +1,20 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"1_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": 1
+	},
+	"next_comment_id": 4,
+	"comment": {
+		"1_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": [
+			{
+				"comment_id": 2,
+				"body": "> [waterrabbit](#comment_66_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Instead of changing directory tree, an easier way is to organize the hash sums of files into a database like file.\n\nThat `/<part_of_hash>/<part_of_hash>/<hash>` is more so you don't have thousands and thousands of files in a single directory.\n>If nofish wants ZeroNet to reuse existing files, he will probably choose to search for hash sums \nMight be a better idea, no need to change the filenames / directory tree.",
+				"added": 1480546416
+			}
+		]
+	},
+	"comment_vote": {
+		"1_133PfjoNP94oHC3GczL9e7SCKoeKEMyCDJ": 1
+	}
+}

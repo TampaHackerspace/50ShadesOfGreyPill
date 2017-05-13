@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "GyTQoAH99PmpSAFpOSQchqhGL8OasFXnnZniQtp5WA568mf7nrJ1nANztXfg4akUlJsx3aUV2umPogqU+a8IhE0=",
+ "cert_user_id": "happymakerluobin@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "96f974281071e053d342a85bf2e13ccc7908fd45c36887a2cf5ec99aba7b5c5f",
+   "size": 1430
+  },
+  "data.json": {
+   "sha512": "749f4384b3d410042114d2ef78da516a1200c92ecb7668e3f67ef5f816a25997",
+   "size": 14456
+  }
+ },
+ "files_optional": {
+  "1488688229.jpg": {
+   "sha512": "c78b59573877d883bfff901cfd28b9aab5d97bd0cf27eea8945eed1aa4abcfcf",
+   "size": 48262
+  }
+ },
+ "inner_path": "data/users/1AH9gqSaFPUZxNDFu6fLVzuSQguVN5tSFu/content.json",
+ "modified": 1488689050,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1AH9gqSaFPUZxNDFu6fLVzuSQguVN5tSFu": "HHt+f8XkwEjaEFajyVave9HuxJmXLQ5NM2X6FgXk/8brDt6Vi5RnOSro+QrsqTIWdTq19xxFikdOYmJo/lP8bs0="
+ }
+}

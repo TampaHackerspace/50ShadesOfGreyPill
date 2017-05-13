@@ -1,0 +1,134 @@
+{
+	"next_topic_id": 9,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Minimalistic Music Pirating ZeroSite!",
+			"body": "Everyone! Just made a tiny music pirating site, feel free to\ncheck it out. currently I'm trying to get a .bit domain for it so\ni would be very thankful if anyone could help me out to get one :)\nCurrently it has only few popular [of all time] albums in it but\nif you think there should be a album which isn't feel free to\nleave down a comment and i'll post on it quickly (due to high\ncaffeine usage i aprox. sleep 2-3 hours a day so due to that ability (xD)\ntorrents will be posted shortly after commenting (and getting approved))\n\nAfter all, any and all Suggestions,\nrecommendations, and ideas are much appreciated! :D\n\nAlbum Pirate:\nhttp://127.0.0.1:43110/15rxrWApXJL921SWjQNySF1tpLsWKR2qVs",
+			"added": 1475637417
+		},
+		{
+			"topic_id": 2,
+			"title": "Is there any CMS that ZeroMe does support?",
+			"body": "Do you know any CMS that has Search and Upload feature and might run on ZeroNet?",
+			"added": 1475693428
+		},
+		{
+			"topic_id": 4,
+			"title": "Need Hi-Speed Seeder For Your Website? POST IT HERE!",
+			"body": "Hi there,\nAs ZeroNet's community is awesome and i personally love it,\ndecided to help people who'll need a high speed 24/7 seed for their websites.\nSo feel free to comment your website down below and i'll be adding it to SeedBox ASAP! :D\n\n(Currently due to storage difficulties it's not possible to seed big files, but if this went popular\nand could really help to improve ZeroNet and its community i'll be upgrading the SeedBox storage)\n\n\nSeedBox specs:\nBoard: Raspberry Pi 2 Super-Overclocked\nStorage: 8GB Class 10 Sandisk Micro SD\n(Possibly gonna add another 1TB to it if current storage was not enough)\nConnection: Fiber-Optic 80Mbps DL/ 40Mbps UL Unlimited Bandwidth (Ucom)\nPing Time: 50ms From SeedBox (ARM) to Google Servers (USA)\nLocation: Yerevan, Armenia",
+			"added": 1475833398
+		},
+		{
+			"topic_id": 5,
+			"title": "Site Creation - Renaming Own Websites",
+			"body": "As i'm trying to improve my minimalistic album pirate website\nI've noticed that it needs to be renamed to be more identical on the ZeroHello (ZeroNet Homepage) side bar and in the title, but how should i rename it?",
+			"added": 1475839733
+		},
+		{
+			"topic_id": 6,
+			"title": "ZeroNet Improvisation - UI Translations",
+			"body": "How can it be done?\n1) At the first place is there any way to translate ZeroNet UI and dependent sites?\n2) Is there any way that people with no-coding skills could easily translate them into other languages?\n3) Idea (would make a ZeroNet more user-firendly ): Categorizing Communities based on their Language (e.g. Hungarian ZeroTalk) with small flag icon on ZeroHello (ZeroNet Homepage) side bar beside site name for non-english sites/communities",
+			"added": 1475840457
+		},
+		{
+			"topic_id": 7,
+			"title": "Got Raspberry Pi Bro? [SeedBox Tutorial]",
+			"body": "As the one of the most important material of any community is helping each other and spreading love and information, building a 24/7 seed box would help our ZeroNet community become better and better over time. So if you have a Raspberry Pi and a good internet connection (>4Mbps) grab 'em and connect 'em together and follow the instructions and help improving ZeroNet and our world :D (I'm not responsible for any broken toasters, broken balls or hair losses)\n\nPaste all of these into Terminal one-by-one and if any error occurred comment down below:\n1) sudo apt-get update\n2) sudo apt-get install msgpack-python python-gevent\n3) wget https://github.com/HelloZeroNet/ZeroNet/archive/master.tar.gz\n4) tar xvpfz master.tar.gz\n5) cd ZeroNet-master\n6) echo 'deb http://deb.torproject.org/torproject.org jessie main'>> /etc/apt/sources.list.d/tor.list\n7) gpg --keyserver keys.gnupg.net --recv 886DDD89\n8) gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -\n9) apt-get update\n10) apt-get install tor\n11) sudo nano mcedit /etc/tor/torrc\n\nHere you have to do some work manually:\nFind and remove the # character from lines \"ControlPort 9051\" and \"CookieAuthentication 1\"\n\n12)  /etc/init.d/tor restart\n13) usermod -a -G debian-tor [YourUsernameHere]\n14) sudo reboot\n15) cd ZeroNet-master\n16) sudo apt-get install ufw\n17) sudo ufw allow 9051\n18) python python zeronet.py --ui_ip \"*\" --ui_password [SomePassword]\n\nNow it's done!\nAccess it via [RaspberryPiLocalIP]:43110\nand now if it asks for password just put in the password which you've set in step 18\n\n19) Open up some websites to start seeding them automatically.\n20) Keep it up and running as much as possible and be happy because you're helping the community a lot :)\n\nIf some error occurred or simply had any question feel free to comment it down below and i'll be replying ASAP :)",
+			"added": 1475842297
+		},
+		{
+			"topic_id": 8,
+			"title": "Retro ZeroGaming - Old-School Games On Zeronet",
+			"body": "Digger: http://127.0.0.1:43110/1EivSCidYeLGvq6oUYsyVuv7Xgumbts1Zt/\nMario Infinite: http://127.0.0.1:43110/1Cd69AC8hLq79SZyDDm29FeneYfFwyyYb6/\nPacman: http://127.0.0.1:43110/1LcsMa1KCZ8sDgkXqMQjfZdnB9iZWh61Qk/\n\n\nNone of these are fully diagnosed/tested so you might have some errors\nin that case feel free to comment it down below :)",
+			"added": 1476272569
+		}
+	],
+	"topic_vote": {
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": 1
+	},
+	"next_comment_id": 14,
+	"comment": {
+		"1_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 1,
+				"body": "> [kosherx](#comment_4_1Kkc5j5xrEJevvV6sBqCrW93dscMVGbcDY): Is it going to support uploads?\n\nI'll do my best to make uploads possible.",
+				"added": 1475693877
+			},
+			{
+				"comment_id": 2,
+				"body": "> [oracle](#comment_193_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP): When I click on a magnet link, a small window appears and it says - Problem loading page Remote XUL This page uses an unsupported technology that is no longer available by default in Firefox.  Please contact the website owners to inform them of this problem.\n\nYeah right, unfortunately Firefox dosen't support Remote XUL anymore,\nif you wanna do a quick fix just copy its link address and simply paste it into your BitTorrent\nclient. But if you wanna be able to click-and-download have a look at this forum page:\nhttps://support.mozilla.org/en-US/questions/988346",
+				"added": 1475694731
+			},
+			{
+				"comment_id": 13,
+				"body": "> [kopykate](#comment_52_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4): It will eventually need a search engine, but so far so good. You should be able to simply copy the code of either Play, ZeroTorrent or even the code on my site.\n\nHow? Is there any unofficial website cloning way?",
+				"added": 1476944969
+			}
+		],
+		"2_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 3,
+				"body": "> [nofish](#comment_794_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): You can search in ZeroMe using the homepage. Image upload is planned later.\n\ni meant a CMS for site creation like wordpress, joomla etc. (sorry for not clarifying it in the first post)",
+				"added": 1475694902
+			},
+			{
+				"comment_id": 4,
+				"body": "> [nofish](#comment_795_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Nothing zeronet specific yet, but any static file generator should work: https://www.staticgen.com/\n\nThank you",
+				"added": 1475712577
+			}
+		],
+		"1_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 5,
+				"body": "I appreciate the whole thing it's cool and awesome. It would be very nice if you could add a basic video title/description/thumbnail editing features or at least a post deleting option to avoid some possible redundancies, to reduce possible mistakes and to increase content quality and user ease.",
+				"added": 1475825531
+			}
+		],
+		"4_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 6,
+				"body": "> [joczo11](#comment_7_1HVJvkzPdXDEtsjBSzFLyx6KsG8Tg2nnr5): Hi!If no problem,than here's my site (no content yet,but I will port my normal net page to it soon :)http://127.0.0.1:43110/15iZnHWsnhubk6JA9Ldb7KxDHJ7shBpYGj/And the Hungarian Zer0Talk site:http://127.0.0.1:43110/1NPAmKPbZU33tAStGqygs8FD2bRq7zYoHb/Thank you! :) And btw,when my pc is running,I'm also seeding with high-speed (100mbps upload,500mbps download)\n\nBoth Added To Seeding List :)",
+				"added": 1475838998
+			},
+			{
+				"comment_id": 7,
+				"body": "> [scrub](#comment_133_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R): 127.0.0.1:43110/nicememe.bit This is my website that totally took me ages to make. :)\n\nxD added to seedbox",
+				"added": 1475989806
+			},
+			{
+				"comment_id": 8,
+				"body": "> [waterrabbit](#comment_27_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Hi, here is the homepage of project ZeroMux as well as my personal blog: http://127.0.0.1:43110/1CiDoBP8RiWziqiBGEd8tQMy66A6fmnw2V/The big files on the site are marked as \"optional\" If you like to, please also help distribute the big files.\n\nWebsite + Optional Files (Videos + Song) added to seedbox",
+				"added": 1475989850
+			},
+			{
+				"comment_id": 9,
+				"body": "> [runa](#comment_3_1BqiAqF1dYC7hMaHSYNuGVijFByevShgPp): 127.0.0.1:43110/nofish.bit\n\nDone.",
+				"added": 1476271987
+			},
+			{
+				"comment_id": 10,
+				"body": "> [phr34kz](#comment_28_1NGTMtN8816KeCtNqy6W4fCQduU4P8iwty): Please seed Google.com thanks\n\nI've tried but i get this error:\n\nGoogle: 403 Unauthorized Peer\nError Code: TROLL_OVERFLOW_DETECTED",
+				"added": 1476272401
+			}
+		],
+		"8_1CHcEy3SYsQvrW9uskKTZxUWj97BmZmvfa": [
+			{
+				"comment_id": 11,
+				"body": "> [kosherx](#comment_20_1Kkc5j5xrEJevvV6sBqCrW93dscMVGbcDY): pacman is not working here\n\nWhat's the problem?",
+				"added": 1476546421
+			},
+			{
+				"comment_id": 12,
+				"body": "> [riotpulv](#comment_28_1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT): No peers\n\nI guess it's ok now.",
+				"added": 1476546436
+			}
+		]
+	},
+	"comment_vote": {
+		"3_1L6kM35jc1KwpPi8LpEsCJmgXw2RM3UW1W": 1,
+		"795_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"35_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR": 1,
+		"1_1NqBLri771MGN6eJLzUP6dqenvVqdC6b5L": 1
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"1_1MV16c9wRCkUt5wtj4j185razNLK4PrZ22": 1
+	},
+	"next_comment_id": 10,
+	"comment": {
+		"9110_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 1,
+				"body": "Very good.",
+				"added": 1479910382
+			}
+		],
+		"1_1PjRj4wTyghfsvPSS2AVdiRV42JGX2WdFJ": [
+			{
+				"comment_id": 2,
+				"body": "Maybe your DNS is down.",
+				"added": 1479910469
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 3,
+				"body": "> [19](#comment_3_1HUrhTUZFB2KKsXLUv1vugPH358iB6zsiY): For zeronet users:\n> Add this to your 'users.json'\n>       \"zeroid.bit\": {\n>         \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n>         \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\", \n>         \"auth_type\": \"web\", \n>         \"auth_user_name\": \"anonymouslogin\", \n>         \"cert_sign\": \"G2Vic5dDAe4DEFnXPisWahbEKjPpTrT5T01UX/ZOgS5CECFcsqiJ589jfHRamnetcwH5423GL58gb4xfXq8yknQ=\"\n>       }\n> or enable the multiuser plugin and use this as your master seed\n> 7d0ae0e2bebafb7d02440979c407896796727e30a5d2c27565ed1d1ea2ba4f87\n> then, go to zeroid.bit to use the 'Anonymous Login' user.\n> For site owners\n> If you want to disable the 'Anonymous Login' user, ban it in your 'content.json'.\n> And this is the full users.json.\n> {\n>   \"1MX2KbPNTofExJ6FgSQM8MKJN5koE2TfV6\": {\n>     \"certs\": {\n>       \"zeroid.bit\": {\n>         \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n>         \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\", \n>         \"auth_type\": \"web\", \n>         \"auth_user_name\": \"anonymouslogin\", \n>         \"cert_sign\": \"G2Vic5dDAe4DEFnXPisWahbEKjPpTrT5T01UX/ZOgS5CECFcsqiJ589jfHRamnetcwH5423GL58gb4xfXq8yknQ=\"\n>       }\n>     }, \n>     \"master_seed\": \"7d0ae0e2bebafb7d02440979c407896796727e30a5d2c27565ed1d1ea2ba4f87\", \n>     \"sites\": {\n>       \"1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz\": {\n>         \"auth_address\": \"17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X\", \n>         \"auth_privatekey\": \"5KCuecgDtGyLB1u1Z5ErXFmzY5LFCcrUH8rcVHsoLYPgktvDwZ4\"\n>       }\n>     }\n>   }\n> }\n> Have a nice day!\n\n可以用！\nIt's Cool!",
+				"added": 1480153202
+			}
+		],
+		"1_1LpVhoCZkmD9hg63AKJF5kdfZ6fB46xsEM": [
+			{
+				"comment_id": 4,
+				"body": "ISP在出口上做了NAT.",
+				"added": 1480778225
+			},
+			{
+				"comment_id": 5,
+				"body": "> [lunksana](#comment_1_1LX8FxXgpPjED5digVRt4ndK5bAtj3U4xk): 防火墙上我也设置了开放这个端口，但依然显示关闭，搞不懂\n\n我遇到同样的问题。主要是ISP启用啦NAT44，当我访问部分（主要是国外）IP的时候，我的出口IP是NAT掉的。\n所以，端口是打不开的。\n我是啦很多软件，换了系统和机器，都是一样的。",
+				"added": 1480778243
+			}
+		],
+		"1_1MxX4JMJ71sfYS1Lo3jL8Ja5u811nySEJJ": [
+			{
+				"comment_id": 6,
+				"body": "WTF?",
+				"added": 1480876333
+			}
+		],
+		"1_1FHN4oukAG7zFUpiC9L2iz7QpQVTuT3xkz": [
+			{
+				"comment_id": 7,
+				"body": "这个确实是不明显。建议让标成红色大字。",
+				"added": 1481366424
+			}
+		],
+		"1_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs": [
+			{
+				"comment_id": 8,
+				"body": "Ubuntu",
+				"added": 1481367274
+			}
+		],
+		"1_17vKbxL13KnzGATstqawXSG2oiQygmdkcX": [
+			{
+				"comment_id": 9,
+				"body": "cannot download",
+				"added": 1481734057
+			}
+		]
+	},
+	"comment_vote": {
+		"3_1HUrhTUZFB2KKsXLUv1vugPH358iB6zsiY": 1
+	}
+}

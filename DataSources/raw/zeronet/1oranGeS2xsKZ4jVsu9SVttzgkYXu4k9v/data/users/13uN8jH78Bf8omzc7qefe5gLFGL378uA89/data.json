@@ -1,0 +1,32 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 1,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "jkrieger",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Wizard. Good. Chaotic",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1489359934,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1492027835,
+			"body": "превед",
+			"date_added": 1492027833
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1PxtKZJE22J9ubRSzbcdkrJZGQLarwY3sH",
+			"user_name": "crypdick",
+			"date_added": 1489361831
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"next_comment_id": 9,
+	"user_name": "Elspru",
+	"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+	"post_like": {
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1474685128": 1474691593,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1474862332": 1474864956,
+		"19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1475359406": 1475369980,
+		"19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1475291038": 1475383780,
+		"19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1475164067": 1475383817,
+		"17eKk6mdR7bth2Fi8f74P5JV8AfHsERT4F_1476055682": 1476060119,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1482288237": 1482293966,
+		"19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1482286970": 1482293996,
+		"1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC_1482833691": 1482849091,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1483291537": 1483305552
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Musickiller:  RaspberryPi is open hardware, as open as most \"open hardware\" on the market.  The only thing more open in terms of one card PC's is the not-yet-in-production Eoma68,  it did get crowdfunded, but it'll probably be another 6 months at least before anyone sees the final product.   For zeronet Raspberry Pi is enough, also I'd recommend using ethernet, as it is less power-consumption than wireless.  \nIf you needed something high-power ",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1474727485",
+			"date_added": 1474774247
+		},
+		{
+			"comment_id": 2,
+			"body": "@Elspru: if you needed something high-performance but still fairly low power consumption can go with an odroid-xu4.  Though just like raspberry pi, there are proprietary blobs.  The only non-blob single board computer I'm aware of is the Eoma68.  https://www.crowdsupply.com/eoma68/micro-desktop",
+			"post_uri": "15NScazvsCHNmiXi6o6nvaMiwjeJYizgZQ_1474727485",
+			"date_added": 1474774369
+		},
+		{
+			"comment_id": 3,
+			"body": "when I try to click on the links, for i.e. Suits season 2 it says \"Remote XUL\n\nThis page uses an unsupported technology that is no longer available by default in Firefox.\n\n    Please contact the website owners to inform them of this problem.\"",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1474852124",
+			"date_added": 1474856185
+		},
+		{
+			"comment_id": 4,
+			"body": "@Sirenyc: opera, vivaldi and chrome are prisoner software, I only use liberty software.  I tried using chromium, but it attempted to open the magnet link using xdg-open and lynx.  \n\nI managed to find a workaround, that can left click on the link and \"open in new tab\", then it works in firefox. \nOtherwise I'm not sure why it's not working, perhaps too much javascript?",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1474852124",
+			"date_added": 1474865154
+		},
+		{
+			"comment_id": 5,
+			"body": "I like the #hashtags!  is it possible to add a pump.io style interface, or some way of hooking bots into it, maybe with some kind of cli interface.  \n",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1474862197",
+			"date_added": 1474865495
+		},
+		{
+			"comment_id": 6,
+			"body": "@Mynameislegion:  *like*",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1474862197",
+			"date_added": 1474901415
+		},
+		{
+			"comment_id": 7,
+			"body": "I have a cronjob that does backups every hour to several other computers. Also BTRFS has snapshots, can also be automated to be hourly/daily/weekly/monthly/yearly,  so if you get that, will simply be able to retrieve your old files via your archives. ",
+			"post_uri": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_1474917142",
+			"date_added": 1474939683
+		},
+		{
+			"comment_id": 8,
+			"body": "can get a nicer address, like ZeroTV\nPattern: 1ZerTV\nAddress: 1ZERtV2u8gvhCkGyR8RKDtZoZqiTZmZUA\nPrivkey: 5Hr6Eiyk569NXJAWZvr25Ek1LkTEn27qcLMHcSc9NzkDyz8EsQG\n",
+			"post_uri": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1481992773",
+			"date_added": 1482036431
+		}
+	],
+	"settings": {
+		"reverse_comment_order": false,
+		"mute_ugly": false,
+		"mute_spam": false,
+		"mute_blocked": false
+	},
+	"flags": {
+		"post-19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ_1484457603": 1
+	},
+	"blocked": [],
+	"comment_like": {
+		"19M1DT5vruSATEcbEczYRwCk2uPuLcATBa_176": 1475383768
+	}
+}

@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G5hBLAU+zkRRv9R0IYhqkOYc78Men2vrk7fTEoNoQHaFCbeVxijujDb6OQdjKuvcFG70zfWt5CMmtC++8TUpIzA=",
+ "cert_user_id": "gakki@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "021519026757bd21ed75f13afe006e444a126fc080e75e598bffc7241e999413",
+   "size": 1571
+  },
+  "data.json": {
+   "sha512": "56d97a9a2a080a077b4d900b6bd9e410802b4170faccbe247d5e20cd845a4266",
+   "size": 331
+  }
+ },
+ "inner_path": "data/users/1RG6QEgH3Y9nAkdi4ZJNLxLQtZ1hokehR/content.json",
+ "modified": 1483756002,
+ "signs": {
+  "1RG6QEgH3Y9nAkdi4ZJNLxLQtZ1hokehR": "G+cnOcz0W1sJghds1vrMiYzfkcM6xdcEgdrg+4+aiUbhe+iFwO8CKBptbd3I3etpdBRimQX8pcwVf4PZIpH5MIc="
+ }
+}

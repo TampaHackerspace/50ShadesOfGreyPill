@@ -1,0 +1,38 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Node?",
+			"body": "So one thing I don't understand about all this is... where does server code go. Is all my code going to be available to everyone who downloads the site? How do permissions work?",
+			"added": 1474106784
+		},
+		{
+			"topic_id": 2,
+			"title": "Web-Devs, Bounce some Ideas",
+			"body": "Anyone willing to bounce some ideas with me, we can talk on an IRC\n\nhttps://kiwiirc.com/client/irc.freenode.net/zeronet\nor even\nhttp://127.0.0.1:43110/Board.ZeroNetwork.bit/\n\nJust somewhere any web-dev is willing to help me think some ideas through!",
+			"added": 1474527222
+		}
+	],
+	"topic_vote": {
+		"2_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1
+	},
+	"next_comment_id": 3,
+	"comment": {
+		"2_1FEikAyxCNPJcW996B69r5UFg29yfq579m": [
+			{
+				"comment_id": 1,
+				"body": "This looks great... any chance we will get iOS support?\n\nAlso you should make a website to garner a user-base, let me know if you need help with that.",
+				"added": 1474526924
+			}
+		],
+		"1_1LE1ngFyG62KJC1Q7G2xyZGjaB2QubXSi9": [
+			{
+				"comment_id": 2,
+				"body": "One idea is having the network create backups.\n\nI was thinking after a certain time span, or amount of posts or whatever... the data gets compressed and spread through the network with  no way to delete remotely.",
+				"added": 1474527057
+			}
+		]
+	},
+	"comment_vote": {}
+}

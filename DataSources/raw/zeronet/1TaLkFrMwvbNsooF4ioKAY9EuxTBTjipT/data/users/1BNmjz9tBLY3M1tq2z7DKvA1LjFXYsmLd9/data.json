@@ -1,0 +1,257 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "0chan is updated, come visit!",
+			"body": "Hey guys, I've just finished an update for 0chan imageboard today. Main new feature is anonymous certificates: you can use them instead of ZeroID and your posts won't be tied to your username. \n\nhttp://127.0.0.1:43110/0chan.bit welcome!",
+			"added": 1482701760
+		}
+	],
+	"topic_vote": {
+		"1_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ": 1,
+		"1_1EvouJCSru1YAbXsZW6WtRa97eLP4UjqKo": 1,
+		"1_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": 1,
+		"1_1LogBQ7aRYS9KNPZx2nrNKserBBAL5XhyD": 1,
+		"1_1AZCBZGFdZR4pwafMut2Z1kk4wbYantaAL": 1
+	},
+	"next_comment_id": 35,
+	"comment": {
+		"3_168qV1Xxp2EyszrzdECLUwXrn9wGYjDdar": [
+			{
+				"comment_id": 1,
+				"body": "Hey guys. \n\nI was making an imageboard engine last November, but then disappeared until now due to some personal issues. Well now I'm back and I'll continue my work. Already implemented optional files, so you're all welcome to test it. Suggestions are also encouraged. \n\nhttp://127.0.0.1:43110/0chan.bit",
+				"added": 1455065747
+			},
+			{
+				"comment_id": 2,
+				"body": "> [p2p](#comment_41_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): many thanks!where are old posts in dev.0chan.bit?\n\nThey're deleted because I needed new database structure.\n\nCan you please post something to my site? I want to know if posting works not just form for me :)",
+				"added": 1455093666
+			}
+		],
+		"1_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ": [
+			{
+				"comment_id": 3,
+				"body": "Привет.\n\nЯ вот тут делаю имиджборду: http://127.0.0.1:43110/0chan.bit\n\nЕсли наберется еще несколько русскоговорящих людей, могу создать отдельный раздел для русских (сейчас там все на инглише)",
+				"added": 1455093765
+			},
+			{
+				"comment_id": 4,
+				"body": "> [gomzik](#comment_5_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ): Любопытный коммит https://github.com/n3r0-ch/ZeroNet-Doc/commit/582d561ba1dc486b7ca8efa11904aecb6f51a9ad\n> Ребята решили уйти от неймкоинов? Или я что-то не правильно понял?\n\nНасколько я понимаю, это не уход от неймкойнов, а дополнительная возможность использовать и традиционный DNS. Расширение функционала, а не замена.",
+				"added": 1455104489
+			},
+			{
+				"comment_id": 8,
+				"body": "Насчет бинарника: зачем? Ведь уже давно есть для винды ZeroBundle, все что нужно — скачать его и запустить один-единственный файлик, дальше все работает само.",
+				"added": 1455198066
+			},
+			{
+				"comment_id": 9,
+				"body": "Когда-нибудь, когда будет время, попробую написать имплементацию ZeroNet'а на Го. Можно будет очень легко компилировать бинарники со всем необходимым под любую платформу.",
+				"added": 1455199408
+			}
+		],
+		"14_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf": [
+			{
+				"comment_id": 5,
+				"body": "Reddit",
+				"added": 1455135298
+			}
+		],
+		"7_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": [
+			{
+				"comment_id": 6,
+				"body": "Same here, time is normal for me.",
+				"added": 1455135384
+			}
+		],
+		"1_1EvouJCSru1YAbXsZW6WtRa97eLP4UjqKo": [
+			{
+				"comment_id": 7,
+				"body": "I'm back (though with new alias) and 0chan is working again, optional files are implemented, other basic features and quality-of-life improvements are on the way.  \n\nhttp://127.0.0.1:43110/0chan.bit",
+				"added": 1455154411
+			}
+		],
+		"1_1M6scJRBJiCnXTM4wPKK6gAGHzs9HMbf4V": [
+			{
+				"comment_id": 10,
+				"body": "Go to your ZeroNet root directory, then find data/users.json file. Back it up (if you lose it, you'll lose your current ZeroID) somewhere, and then remove it from \"data\" directory. Restart ZeroNet and you will be able to register new ZeroID and use it.\n\nAFAIK you can't simultaneously use multiple IDs without constantly switching users.json file.\n\nUPD: false, you can use Multiuser plugin as described by @nofish one post above this one",
+				"added": 1455221710
+			},
+			{
+				"comment_id": 11,
+				"body": "> [nofish](#comment_284_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Rename plugins/Disabled-Multiuser to plugins/Multiuser, restart ZeroNet then you will be able to login/logout to your identities in ZeroHello. (You can login to your previous identity using master_seed value in data/users.json)\n\nWhoa, didn't know about that plugin. Thanks!",
+				"added": 1455222018
+			}
+		],
+		"1_1EbkgVAJKgrTeYAmF3FSEJ8dRabpWH87it": [
+			{
+				"comment_id": 12,
+				"body": "I don't get this whole paranoia about JS. ZeroNet sites are running in isolated iframe. What kind of exploit can be done there?",
+				"added": 1455280281
+			}
+		],
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 13,
+				"body": "`test` test **test** *test*\n\n```\ntest test test\n```\n\nhttp://google.com\n\n[test](http://google.com)\n\n#test\n\n- one\n- two \n- three",
+				"added": 1455537737
+			}
+		],
+		"1_19hZjnvGuFY2sB3nDpX6869nJgkXURTvxX": [
+			{
+				"comment_id": 14,
+				"body": "Oy vey",
+				"added": 1457342443
+			}
+		],
+		"2_1NyFX6DUcyMs3S76Vz8X7ssDLC4uCCA1YM": [
+			{
+				"comment_id": 15,
+				"body": "Хз, везде сижу с личного нидерландского прокси, вращал роскомнадзор на хую.",
+				"added": 1457960008
+			}
+		],
+		"1_14bL4owkcQDHhEBKncp1QEXH3Su764ENdQ": [
+			{
+				"comment_id": 16,
+				"body": "Hello! How are things in China?",
+				"added": 1473326622
+			}
+		],
+		"2_1DcE9QfZbfLZhXxgtQ8Ui3oMZvs9NVjqZB": [
+			{
+				"comment_id": 17,
+				"body": "Everyone I know is voting for Trump. There is literally zero chance of any third-party candidate winning. It's either Trump or Hillary, and wicked bitch Hillary may go fuck herself. Trump 2016.",
+				"added": 1473335491
+			},
+			{
+				"comment_id": 18,
+				"body": "> [iamdeath](#comment_33_1DcE9QfZbfLZhXxgtQ8Ui3oMZvs9NVjqZB): Oh wow is your family a bunch of KKK guys with hoods and everything, burning crosses on the 4th?\n\nYes, exactly. Hang all niggers, gas the kikes, race war now! White Power!\n\nIs that what you wanted to hear? This \"le trump is le racist\" meme is already dead. Nobody cares anymore about accusations of \"racism\" in any form. Your time is up, leftists, the age of justice is at our doorstep.",
+				"added": 1473415665
+			}
+		],
+		"1_1MxX4JMJ71sfYS1Lo3jL8Ja5u811nySEJJ": [
+			{
+				"comment_id": 19,
+				"body": "Imlpying anyone cares about popular vote\n\nShitlibs still can't believe they lost",
+				"added": 1481237851
+			},
+			{
+				"comment_id": 20,
+				"body": "> [zeroleaks](#comment_1_1WzUoJpnxFPQjQP975K3WBAmMpbrde8Kn): Yeah, it's really not easy to grasp that such a fascist, racist and sexist swine becomes the president of the most powerful country in the world. Dark times...\n\nImplying \"fascism, racism and sexism\" is something bad. Get fucked, libtard. Fascism is back and you can't do shit about it.",
+				"added": 1481292906
+			},
+			{
+				"comment_id": 21,
+				"body": "> [binero](#comment_172_17ac9ybVj5CtUpBvi5NeP1EwNZjfJoZWvt): Do you identify pro-fascist? Fascism is defined as a dictatorship disallowing of any opposition, which retains its power through nationalism and racism? \n> So you are basically:\n> \n> anti free speech\n> anti democracy\n> nationalist (not the same as patriotic!)\n> racist\n> \n> Is this correct?\n\nYes, this is correct.\n\nHowever you can sleep well because I live very far away from the US. ",
+				"added": 1481496861
+			},
+			{
+				"comment_id": 22,
+				"body": "> [platz](#comment_1_132wSW9zX11F6aVLwJyxnp2bhEXRhZ4auy): Basically now you're benefiting of the stuff you wouldn't be allowed in fascism right now... Free speech, no internet censorship, etc.\n\nWell actually I'm big for freedom of information and speech. On the political compass my views are \"authoritarian right\": extreme economical right but only a little bit authoritarian (light restrictions on culture). \n\nIt's just when I see some SJW speech or some other extreme leftist bullshit (\"muh racism/sexism/homophobia/transphobia/etc\") I immediately go full 1488. If your contribution to political discussion is accusing someone of being \"fascist, racist and sexist swine\" — well then, heil fucking Hitler.",
+				"added": 1482231819
+			},
+			{
+				"comment_id": 23,
+				"body": "> [planespherev2](#comment_115_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj): Right. You still believe in political economy, and politic in general.\n> I hope you'll realize (quite soon) it is, and it has always been, a scam. Same for your adversaries here.\n\nCare to elaborate? What do you mean by \"political economy\" and what would be its alternative?",
+				"added": 1482238285
+			}
+		],
+		"1_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": [
+			{
+				"comment_id": 24,
+				"body": "> [planespherev2](#comment_122_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj): To avoid spam, he need captchas in order to create an identity.\n\nUnfortunately this is not possible at the moment. Certificate provider private key is exposed in the client-side code (to generate anonymous certificates) — so even if you manage to implement a p2p captcha mechanism, an attacker will be able to just use the private key to generate as many identities as he wants without solving any captcha.\n\nThe only working solution against spam is just deleting it. ",
+				"added": 1482747690
+			},
+			{
+				"comment_id": 25,
+				"body": "> [vlad20012](#comment_8_14nEeyHKvuhBchZp4N4eSwYVNAzvYfwKQF): You should do as ZeroID - sign certificates on a central server. And show captcha to create identity.\n\nHaving a centralised server completely defeats the purpose of decentralisation. If something happens to that server, no one can use the whole service (apart from those who already have identities). It's not a good solution.",
+				"added": 1482755446
+			},
+			{
+				"comment_id": 26,
+				"body": "> [p2p](#comment_246_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): but in Freenet there is Web of Trust including a p2p captcha mechanism to avoid spam, I don't know technical detail of it though. https://wiki.freenetproject.org/Web_of_Trust\n\nTo my understanding, things like that are technically possible, but just not possible to implement with ZeroNet functionality right now. It's designed in a way that prevents you from controlling user-submitted content at all. It's unreliable by design.",
+				"added": 1482759784
+			},
+			{
+				"comment_id": 27,
+				"body": "> [planespherev2](#comment_123_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj): I'm no computer scientist, but this is the main problem of ZeroNet currently. \n> It's not as it is not possible to do without central server: freenet manages it for FMS and Sone.\n\nI'm not a computer scientist either, but yes, this is my main issue with ZeroNet right now. You either have to have a centralised server for restricting content creation (such as user certificate) or open up a gaping hole in security (anyone's able to flood the peers with gigabytes of content). \n\nDecentralised blockchain-like solutions are definitely possible in theory, it's just that currently ZeroNet doesn't have any tools to implement that.",
+				"added": 1482760423
+			},
+			{
+				"comment_id": 28,
+				"body": "> [planespherev2](#comment_124_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj): In don't think it's unreliable by design. \n> I'm sure you have tested Sone and FMS. It works fine. The only problems with Sone is that it's slow (it takes hours to download all the posts the first time you install it). But other than that it's fine. \n> It's frustrating that Freenet is super anonymous, totally censorship and spam resistant but not user friendly and slow, and Zeronet is fast and easy to use, but still not 100% censorship or spam resistant (Zeroid on central server).\n> Combine the two advantages of both, and you'll have one powerful decentralized network.\n\nI meant to say that ZeroNet's policy on user-submitted files is unreliable by design, in the sense that you can't control the content.",
+				"added": 1482761478
+			},
+			{
+				"comment_id": 29,
+				"body": "None of this will work with the current tools ZeroNet has. With self-signed anonymous certificates there is literally zero ways to restrict anyone from posting anything.",
+				"added": 1482767691
+			},
+			{
+				"comment_id": 30,
+				"body": "> [arkre](#comment_6_17Xo25emK8WXkrWouD5DsuLrcRnkrREfTa): This will work and the most fun thing in this approach is that it's doesn't even matter what identity providers you use. New identity no matter where it comes from should provide captcha proof-of-work to start post anything. And captchas are generated and validated by other users. User files are signed by themselves so you can't forge others trust levels.\n\nYou can create infinite amount of \"users\" with compromised \"captchas\" and use their \"proof of work\" to post anything.",
+				"added": 1482768123
+			},
+			{
+				"comment_id": 31,
+				"body": "> [arkre](#comment_7_17Xo25emK8WXkrWouD5DsuLrcRnkrREfTa): What if users need to be trusted to get their captchas-validations trusted. So when admin publishes zite he generates some pool of captchas, next user can become trusted for captcha-generation only by solving one of his captchas. Next user can become trusted for captcha generation by solving one of unsolved admin captchas or captchas generated by prev user (if he becomes trusted) and so on.\n\nThis sounds like a very complex solution. It's really a waste of time to try to implement this on client-side. I mean, it could probably work, but the amount of time and complexity isn't really worth it. Things like these should be implemented on ZeroNet server side. Until ZN devs give us some tools that are ready to use for combating spam, there will just be the possibility of spam. I won't try to reinvent the blockchain by myself, I have neither time nor skills to do so, unfortunately.",
+				"added": 1482770336
+			}
+		],
+		"1_1LogBQ7aRYS9KNPZx2nrNKserBBAL5XhyD": [
+			{
+				"comment_id": 32,
+				"body": "> The owners of the Washington Post, Twitter and Facebook, MSM and anyone who defended Hillary Clinton or people implicated in pizzagate will come under attack as \"pedophile supporters\". The public will be ready to boycott them or burn them at the stake.\n\nI can dream.",
+				"added": 1482834258
+			},
+			{
+				"comment_id": 33,
+				"body": "> [elspru](#comment_5_1A3XsuLB6P7LQPCw1QWASG7RGSwrCv6Xib): I honestly can't believe people are talking about pizzagate like it was anything other than discussion about pizza.Once you lend credence to something so far out an thoroughly debunked, you are obviously not interested in reality.\n\nNot a single bit of suggestive evidence was \"debunked\". Not one bit. Are you a pedo supporter?",
+				"added": 1482850503
+			},
+			{
+				"comment_id": 34,
+				"body": "> [elspru](#comment_6_1A3XsuLB6P7LQPCw1QWASG7RGSwrCv6Xib): \"suggest evidence\"? that's not evidence .\n> Sorry I don't waste time with conspiracy videos.I'm willing to skim some text if you give me links. \n> \"suggestive evidence\" is not evidence, it is just conjecture.\n\nWe'll talk later in 2017 when all this shit is exposed and all of you people are labeled \"pedo supporters\". However if this thing is not real and all the coded \"pizza\" talk in emails will be proven to be about something else, well I'll be glad that things are not as dark as the leaks suggest. \n",
+				"added": 1482851984
+			}
+		]
+	},
+	"comment_vote": {
+		"1_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": 1,
+		"24_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr": 1,
+		"279_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"7_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": 1,
+		"42_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"284_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"294_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"318_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": 1,
+		"18_12SuCFUNDaMYRHG9DsWCyCN1NgHGjddwSJ": 1,
+		"1_12tEAXYqJfqDRP7ZHY1T6fDp67PopmYzYp": 1,
+		"23_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": 1,
+		"8_1JwPBvZYXLJzrA6YisjpsyTuuieFLCARS6": 1,
+		"5_1JARuoKjvXanUeKyPTXU9cus2jRzi4DZU5": 1,
+		"3_1ETxcxYnSkM8gEdhQj9gS1pFt9LbVQddUV": 1,
+		"2_19Z54XRjKd3f3MNHWyWacypF137P7HUcAq": 1,
+		"1_1JFfyAT1DysW4LbK6WRd2szDoPjWgb22NT": 1,
+		"17_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": 1,
+		"18_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": 1,
+		"4_1HXv2c6awyWdtUb8SeP7bWViMHcvxdV82X": 1,
+		"2_12PQwF7zb6gKMrWPcP555CqkTyYHY5qzmi": 1,
+		"4_1ETxcxYnSkM8gEdhQj9gS1pFt9LbVQddUV": 1,
+		"1_15LRqNcFJErcQbXY9yRUtffLuToqVr8rDu": 1,
+		"19_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": 1,
+		"20_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": 1,
+		"21_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": 1,
+		"22_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9": 1,
+		"1_1PNiJqWCetrsA1yV9jdDUwRBY4mdYRLGSV": 1,
+		"13_1yvSQH5Z7aJra4y9s6KG2kjLeGXYhNgn7": 1,
+		"3_17XDNm3iVm67Re24bwsdYKQh6w9dUBzYoX": 1,
+		"3_16ruLucRLto6GhT1Zb3P8JVZzC48fxd9Cc": 1,
+		"224_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": 1,
+		"128_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj": 1,
+		"126_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj": 1,
+		"130_1C9BTLZFTprZPJXkg9vPuZLBr3LeaxB7nj": 1
+	}
+}

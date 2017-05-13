@@ -1,0 +1,119 @@
+{
+	"next_topic_id": 8,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "Merger feature documentation",
+			"body": "Is there a plan to add the merger feature to the documentation?\n\nIt would be nice to have a zeronet version of the docs as well... it's easy to get used to knowing then a site was updated or not :)",
+			"added": 1471291247,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 2,
+			"title": "How to avoid Cross-Origin blocking?",
+			"body": "I'm trying to add a fontawesome to a zite but I keep getting this error:\n\n```\nFont from origin 'http://*:43110' has been blocked from loading by Cross-Origin Resource Sharing policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.\n```\n\nI believe this is caused by the urls I have on my css file:\n\n```\n@font-face {\n  font-family: 'FontAwesome';\n  src: url('../fonts/fontawesome-webfont.eot?v=4.6.3');\n  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');\n  font-weight: normal;\n  font-style: normal;\n}\n```\n\nIs there a way to fix this issue and get the fonts to work?",
+			"added": 1476302746,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 3,
+			"title": "Offline settings",
+			"body": "I'm trying to find a way to save user settings offline (eg: data/user_settings.json ).\n\nGiven that  @cmd \"fileWrite\" will not write to data/user_settings.json if the file is ignored on content.json.\nAnd given that if data/user_settings.json is added to content.json it will be overwritten on every update.\n\nHow can I save user settings for a zite offline? I want the user to be able to customize the zite and keep the settings only on his machine.",
+			"added": 1477512643,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 4,
+			"title": "ZeroNet Publish Method",
+			"body": "It is not clear from the documentation how changes to a json file spread through the network.\nWill the whole file be uploaded to all other nodes or only the diff will be spread?\nThe reason why I ask is: Should I worry about having big json files (eg: 10mb) or that's fine because if something changes only the diff will be sent?\n\nthanks",
+			"added": 1478976744,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 5,
+			"title": "Deleting a merger site",
+			"body": "I'm trying to delete a merger site with `@cmd \"mergerSiteDelete\", 'sitehash'` and I'm getting the notification that the site was deleted, but when I go to my Hello dashboard the site is still there.\nAm I missing something or this is a bug?\n\n**To Reproduce:**\n\n- Go to antilibrary.bit > My Books > Settings\n- You should see a section named 'Book Databases' (if you can't see it it is because you've got a bad seed)\n- Add the Portuguese book database (just because it is small)\n- Wait for it to finish the download and confirm that it is showing in your Hello dashboard\n- Go back to the Settings page and try to delete it - you will get the notification that is has been deleted but the merged site won't go away from the dashboard",
+			"added": 1479584119,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 6,
+			"title": "Default content.json not creating",
+			"body": "**Context:**\n\nThe site is using a merger site to hold the user settings (just like ZeroMe with userdb).\nThe file is saved on `inner_path = \"merged-Antilibrary/#{Page.userDB}/data/users/#{Page.site_info.auth_address}/data.json\"`\n\n**Issue:**\nWhen I try to publish a new user file using `Page.cmd \"sitePublish\", {\"inner_path\": inner_path}` I'm getting an error:\n\n```\nInternal error: KeyError: u'data/users/1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN/content.json'\nUiWebsocket.py line 99 > UiWebsocket.py line 182 > MergerSitePlugin.py line 180 > MergerSitePlugin.py line 169 > UiWebsocket.py line 333 > MergerSitePlugin.py line 177 > MergerSitePlugin.py line 174 > UiWebsocket.py line 314 > ContentManager.py line 494 > ContentDbDict.py line 55 > ContentDbDict.py line 28\n```\n\nGiven that the file doesn't exists and it is being created with the sitePublish command I can't understand what it going wrong.\n\nAny ideas?",
+			"added": 1479850465,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		},
+		{
+			"topic_id": 7,
+			"title": "Groups on ZeroTalk",
+			"body": "How do you create a group of topics on zeroTalk? (ie: like this Zite development group)",
+			"added": 1480715865,
+			"parent_topic_uri": "3_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k"
+		}
+	],
+	"topic_vote": {},
+	"next_comment_id": 11,
+	"comment": {
+		"2_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ": [
+			{
+				"comment_id": 1,
+				"body": "> [waterrabbit](#comment_29_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): <meta name=\"referrer\" content=\"no-referrer\">\n> \n> \n> <link href=\"./css/font-awesome-4.0.3.css\" rel=\"stylesheet\" crossorigin=\"anonymous\">\n> \n> \n> Have a try...\n\nI've added that to the index file all.css include and got the error about the css instead of the font files:\n\n```\nCSS stylesheet from origin 'http://*:43110' has been blocked from loading by Cross-Origin Resource Sharing policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.\n```\n\nI've used:\n\n```\n      <meta name=\"referrer\" content=\"no-referrer\">\n      <link rel=\"stylesheet\" href=\"css/all.css\" crossorigin=\"anonymous\">\n```",
+				"added": 1476336721
+			},
+			{
+				"comment_id": 2,
+				"body": "Including the font as base64 solved the issue.\nThanks!",
+				"added": 1476388399
+			}
+		],
+		"3_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ": [
+			{
+				"comment_id": 3,
+				"body": "@devtest thanks!",
+				"added": 1477546884
+			},
+			{
+				"comment_id": 4,
+				"body": "@devtest actually, this will save only for the current session. I'm looking for something that would persist.",
+				"added": 1477596556
+			}
+		],
+		"4_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ": [
+			{
+				"comment_id": 5,
+				"body": "@nofish my use case is storing the books for antilibrary.bit\n\nI am going to separate the DB into multiple merger sites. What I'm trying to do now is to find the best strategy to store the book content (title, metadata, files, authors, etc)\n\nI've tried to split the json files by book. One json file per book. This would be optimal for the backend system because updating a single book would mean updating a single json.\nThe problem with this was a huge content.json because of the SHA512 for each json file.\n\nI've also tried to bundle packs of 3000 books per file, this is resulting in files of ~4MB. But the problem would be that updating one single book in the pack would mean regenerating the whole pack and the nodes would need to download the whole file.\n\nI've also played with the idea of treating each book as a user content. So I could store one book per json and the files would not be included with the main site. The problem with this approach was the overhead of having one content.json per book (as we have with content produced by users now).\n\nWhat strategy would you recommend?",
+				"added": 1479062080
+			},
+			{
+				"comment_id": 6,
+				"body": "> [waterrabbit](#comment_49_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Example:\n> http://127.0.0.1:43110/Talk.ZeroNetwork.bit/content.json\n> \n> \"ignore\": \"((js|css)/(?!all.(js|css))|data/users/.*db|data/users/.*/.*|.*.py)\",\n> \"includes\": {\n>   \"data/users/content.json\": {\n>    \"signers\": [],\n>    \"signers_required\": 1\n>   }\n> },\n> However, I don't know how to sign separate json files.\n\nThe problem with that approach would be the overhead of having one content.json per book.json, which would end up adding too much size to the site.",
+				"added": 1479071672
+			},
+			{
+				"comment_id": 7,
+				"body": "> [waterrabbit](#comment_50_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): You can have one separate book.json for every series of books. For example, all books published in 2015 can share one book.json. On the other hand, you may have to write a script to organize books and sign files.\n\nThe downside of that is, as I've explained in my previous comment, if at some point another book from 2015 is added to the DB all seeds would need to re-download the whole file.",
+				"added": 1479072854
+			},
+			{
+				"comment_id": 8,
+				"body": "@nofish sorry mate, is there any other method I could try?",
+				"added": 1479243419
+			}
+		],
+		"6_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ": [
+			{
+				"comment_id": 9,
+				"body": "@nofish I did sign it. Both content.jsons, the merger site root and the merger site data/users/content.json. \nAre you referring to the content.json that should be created inside `merged-Antilibrary/#{Page.userDB}/data/users/#{Page.site_info.auth_address}/` ?\nOr you're referring to the api `@cmd \"siteSign\"`?",
+				"added": 1479853271
+			}
+		],
+		"15_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": [
+			{
+				"comment_id": 10,
+				"body": "I'm not sure if the effort is worth. Some tools are the way they are not because it is good but because nobody want to change them. \nIf instead of porting we spend our time and effort in building tools adapted to ZeroNet's architecture we can do what [these guys](https://www.discourse.org/) have done for forums, instead of trying to improve old php forums they've built something new using the latest technologies and UX knowledge we have now.\nThat's just my humble opinion.",
+				"added": 1489692891
+			}
+		]
+	},
+	"comment_vote": {}
+}

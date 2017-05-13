@@ -1,0 +1,21 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G+FVvkS5jKxx6Zr2UFufH/ZMZNLBSqqO3hqe91PtM4FxBYoYrW/eq6+grjKKLOjzauIxjXO0oMzxFx6oaFIHg6c=",
+ "cert_user_id": "duckhere@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "9ad13645e54a954b6476721886c4d858829a39642584aa787f5642e2d39f4c21",
+   "size": 1676
+  },
+  "data.json": {
+   "sha512": "06f314c3e2e5480020be6e1360add90838eb8386c50fc1411db78ef7826c094f",
+   "size": 4755
+  }
+ },
+ "inner_path": "data/users/1MDDjtDGSbmpZtVVgsp2JhvmHfPaJBM6TH/content.json",
+ "modified": 1484660908.016729,
+ "signs": {
+  "1MDDjtDGSbmpZtVVgsp2JhvmHfPaJBM6TH": "G08WhZq/6MGRdRWILqy60cidzNWprh09clcjSwv3l4wv+eY6Jun8PGIOkDsH9dT32+SogStRiP2Z+ZbzLmY8ltE="
+ }
+}

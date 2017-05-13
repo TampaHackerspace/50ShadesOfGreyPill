@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HNMgA6N8jk5+50ChGpC//Am2soIHciCg6BbzanUydsnu2B7y6bVIr1DTN0CO64TeYgM0GAg6TDXtTqxoW0mQ3BY=",
+ "cert_user_id": "ducamaster@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "944733e04ec5b3156255a2d780f0a3c5e358901f7270b6bc9ab90e3a458e8daa",
+   "size": 341
+  }
+ },
+ "inner_path": "data/users/1FCQf9suAmRq6YFFoQuS5rtmh57fwyj7jj/content.json",
+ "modified": 1491305107,
+ "signs": {
+  "1FCQf9suAmRq6YFFoQuS5rtmh57fwyj7jj": "HEOWUJcY33KsTzsy/ZhwZhpa4SUz4oMaMLKuQKclCiSPWavI2+HRteeIYWWXTtfgx1q5lJSDBqJqwMXAkk/iT5M="
+ }
+}

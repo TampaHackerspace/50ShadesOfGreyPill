@@ -1,0 +1,17 @@
+{
+ "address": "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT",
+ "cert_auth_type": "web",
+ "cert_sign": "G8b1+4ohKgnEF+Gh0H9EGqTtOpzYlYsWIFfNTpwRecD/8D2Ndny68a5ABTTI5tOCSU8w10hyA0K38d0cK36ir+w=",
+ "cert_user_id": "holdencaulfield@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ee89add2370989669ba0d788ee7c9739ba4dee7a261fdbcbab50677199fd652d",
+   "size": 440
+  }
+ },
+ "inner_path": "data/users/1JotUZXuxBXpqGxowyTTUbBMZoAFvzteea/content.json",
+ "modified": 1494172678,
+ "signs": {
+  "1JotUZXuxBXpqGxowyTTUbBMZoAFvzteea": "G4CoU7qGi85nq8fnVn/HrRu+MiMP3afzzTLyimLY/ragIz6zHlWANCwcsWGLd/8xJoAZ24+ZTcAEdBHtWZmchlU="
+ }
+}

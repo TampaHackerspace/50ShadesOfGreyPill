@@ -1,0 +1,46 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Idumych",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1483329891,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1483341571,
+			"body": "http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1yvSQH5Z7aJra4y9s6KG2kjLeGXYhNgn7/What+s+the+point+of+combining+zeronet+with+tor",
+			"date_added": 1483341569
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@ThePinkHairedLady: aha!",
+			"post_uri": "1PW4C7gyeEABoTFTqZFswWKLkqNR9hicFt_1",
+			"date_added": 1483329995
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1CYj7o5iamDZeKZvdSAW4P2aEngmAXb78T",
+			"user_name": "Konar",
+			"date_added": 1483329959
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "13f9MNfxhVnaEhLVS14iWkJSz9ra9jWv9J",
+			"user_name": "Campergirl",
+			"date_added": 1483330055
+		}
+	]
+}

@@ -1,0 +1,85 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {},
+	"next_comment_id": 14,
+	"comment": {
+		"1_1yvSQH5Z7aJra4y9s6KG2kjLeGXYhNgn7": [
+			{
+				"comment_id": 1,
+				"body": "Everyone should be connected through Tor (set to always) because you don't always get a choice in what content you see clicking around ZeroNet.\n\nClick into any of the Imageboards that have popped up, or maybe click into some site a guy is advertising as a Technology Blog, and your computer downloads and starts to distribute the content that was present on that page. What happens when a user hides undesirable content on the page? What happens when the content is just there out in the open? (Scrolling down a page, and pop! CP!). You've now downloaded, and have started to distribute Child Porn; congratulations that is quite likely very illegal in whatever country you live in.\n\nIf you're browsing in the clear, finding you is super easy, super simple. At a BARE minimum, you should run a respectable VPN and tunnel ALL of your Traffic through it; but for the rest of us who simply don't like taking our chances with the FBI or local arm of your Federal Government 'knocking' at the door, Tor is a simple, easy to use precaution that adds an extra layer of protection against many threats.\n\nYour computer, your life, your choice.",
+				"added": 1483041766
+			},
+			{
+				"comment_id": 2,
+				"body": "> [zeromine](#comment_1_19FR1tNVzHp9GDLbkdCnAyDaGv6UeHk91S): tors not really anon so who cares? honeypot for the pedos\n\nThe reports of every node/connection on Tor being traceable are far out of whack. Most people get de-anonymized for different reasons that have nothing to do with Tor (You are blocking all Javascript right?). \n\nWhat I don't understand is everyone who seems to question anonymity networks, such as I2P or Tor, always goes to Pedophilia first as a reasoning for either not using them, or dismissing them. While I won't deny such things exist on both networks (as well as here on ZeroNet), its not like its this huge rampant \"CP is everywhere!\" problem. You can use both I2P and Tor; and never encounter 'questionable' content. \n\nYou also need to determine and understand your own threat model. Who are you hiding from? Many people use Tor to hide from Big Data, hide their searches and such from companies like AT&T, their ISP, Google, Facebook or other advertising firms. The precautions you take to hide from Corporate adversaries are far different that State Actors. If you're hiding from State Actors, then you're certainly not the kind of person who posts inane crap like \"Honeypot for Pedos\".\n\nFor the record: I've seen more blatant open CP on ZeroNet, than on Tor; and as you can read in my previous comment, these problems can be WAY worse for people who use ZeroNet 'in-the-clear' than taking even basic precautions.",
+				"added": 1483401725
+			},
+			{
+				"comment_id": 3,
+				"body": "Im not sure why people think its so slow all the time, things load super quick for me. Sure, slower than my normal Internet connection (300Mb Down), but its way better than even an unsecured connection in 2005.",
+				"added": 1483511050
+			},
+			{
+				"comment_id": 4,
+				"body": "Security and Anonymity are never going to go hand in hand with convenience. It simply just does not work that way. Its all going to be a trade off for each individual. I just don't know why you wouldn't take the ~20% Performance hit on using ZeroNet over Tor, the good so severely outweighs the bad in this case.",
+				"added": 1483597959
+			},
+			{
+				"comment_id": 9,
+				"body": "> [altair916](#comment_7_13WnNjGWpKx29MGErCCpUAnP772R3fYyMk): I agree to the statement that Tor makes it slow. But not all the time. It's speed fluctuates. I personally don't use Tor as govt in my country doesn't block anything I need.\n\nMust not be in the USA then. If you are, I'd pay attention to the Order that Obama just signed allowing the NSA to share all monitored communications with Justice Departments sans warrant. The digital landscape in the USA just got a LOT scarier.",
+				"added": 1484618823
+			}
+		],
+		"1_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": [
+			{
+				"comment_id": 5,
+				"body": "There are two lines you need to remove #'s from in the Torrc configuration file, did you remove it from both? You'll also need to add your user to the tor users group. You can do it like this:\n\nCheck the files Usergroup (You'll need to be a member of this usergroup to access the file):\n`ls -al /var/run/tor/control.authcookie`\n\nthen, add yourself to that user group:\nusermod -a -G [filegroup] [yourlinuxuser]\n\nYou'll then need to reboot your PC to ensure that your user account is reloaded, and the ZeroNet router is restarted.\n\nIf these things don't work, can you post the results of the following from your command line?\necho 'PROTOCOLINFO' | nc 127.0.0.1 9051",
+				"added": 1484479086
+			},
+			{
+				"comment_id": 6,
+				"body": "> [planespherev3](#comment_93_1HYB4Pe6irbQgDbeKm1zeFD7M8pdbksFeS): The tutorial to run Tor with Zeronet with Debian is well done, however, with other distros it is not so simple. \n> Just a suggestion (and since i'm not in computer science), someone should add tutorials for the other mainstream linux distros,  or find a way to integrate tor in Zeronet in linux as well (i think it's already integrated in windows).\n\nIts the same integration no matter what Distro you use. Install Tor through your Package Manager; change the Torrc file to uncomment two lines; and then add yourself to the user group that matches the authentication cookie...",
+				"added": 1484555021
+			},
+			{
+				"comment_id": 7,
+				"body": "> [twiggy](#comment_4_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): I got it working. Thanks guys.\n\nFantastic :)",
+				"added": 1484616734
+			},
+			{
+				"comment_id": 8,
+				"body": "> [twiggy](#comment_2_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): I removed both #. I'm not for sure what to do about about adding my user to tor users group. Do I need to just change my permission in the control.authcookie like in this screenshot http://imgur.com/a/059Ko or do I have to open up control.authcookie in a text editor and change it? This is the file I need to change some way isn't it. http://imgur.com/a/EzvWT\n\nSince you're taking the time to learn Linux, and your way around. You may want to take a look into perhaps getting a book (or some online material) in the basics of Administration via the Command Line. Im not going to say its easier, or faster; but a LOT of the resources available to Linux users on the web assumes, and just uses the Command Line as a way to modify and change files. \n\nSomething that'd take 10 Clicks and such to change in the GUI (such as adding yourself to the debian-tor user group in this case) can be done in 1 line via Terminal. \n\n```\nusermod -a -G debian-tor hyperbeam\n```\n\nIts worth learning at least the very basics if you're going to poke around Linux.",
+				"added": 1484616973
+			}
+		],
+		"1_1Mr36Z4TSbWQ236NfvRPeLn3qsAwngBzMd": [
+			{
+				"comment_id": 10,
+				"body": "Dont ever log into BitMessage...",
+				"added": 1484814319
+			},
+			{
+				"comment_id": 11,
+				"body": "> [5thzhino](#comment_10_12siAdZevQ9xEBxZK9pRCyJV4wmKFZPkhW): ??? whats  the point .. @hyperbeam\n\nDarkweb/Deepweb/whatever the fuck you want to call things like ZeroNet have a tendency to draw the conspiracy theorists, and well.. Bots. Things that those two groups of people love: Antisemitism and questionable Pornography. \n\nBitMessage is just FULL of hateful-as-fuck posts and conspiracy theories (FLOURIDE IS IN OUR WATER!!!!)",
+				"added": 1484816129
+			},
+			{
+				"comment_id": 13,
+				"body": "> [deafboy](#comment_39_1xf9XC4Nsa7YfQWFiK6xGsNDJA3AaCTUa): Osiris serverless protal had a nice feature. You could start a forum in anarchy mode and instead of following the \"official\" moderators, people could subscribe to the blacklist of whoever wanted to act as a moderator. Something like an adblock, but for the forum posts.\n\nThis is an awesome approach.",
+				"added": 1484971932
+			}
+		],
+		"1_13RFJdsXQGN5cfMK8GctB6nQZ5xwLmjcfB": [
+			{
+				"comment_id": 12,
+				"body": "> [ysc3839](#comment_1_13RFJdsXQGN5cfMK8GctB6nQZ5xwLmjcfB): But I want to keep the old one...\n\nDoesn't really matter what you want... If your private key leaked, you need to create a new ID with a new name; or someone could use your private key to impersonate you.",
+				"added": 1484971335
+			}
+		]
+	},
+	"comment_vote": {
+		"1_114htPrU5VWip9ohwc6AnSvnpKpCdPKFqY": 1,
+		"2_114htPrU5VWip9ohwc6AnSvnpKpCdPKFqY": 1
+	}
+}

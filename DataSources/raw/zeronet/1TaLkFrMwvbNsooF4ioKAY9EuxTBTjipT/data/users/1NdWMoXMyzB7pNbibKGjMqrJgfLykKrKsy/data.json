@@ -1,0 +1,37 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"1_1Ni6LMewr5Cbc9fuKvdkSpS5bNm12vAKe4": 1
+	},
+	"next_comment_id": 5,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "刚申请 不知道对不对 试一下 谢谢",
+				"added": 1480770991
+			}
+		],
+		"1_1FNWXmY94yzHMaWnLMup3XZyuWkqnNP12U": [
+			{
+				"comment_id": 2,
+				"body": "其实中文主题很多",
+				"added": 1481122568
+			}
+		],
+		"2_1Ni6LMewr5Cbc9fuKvdkSpS5bNm12vAKe4": [
+			{
+				"comment_id": 3,
+				"body": "谢谢!!!> [weakish](#comment_55_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): 到你的ZeroNet安装目录，data目录下，打开sites.json文件，查找\"own\": true\"后，往上几行就是站点地址（如果你clone过多个站点，会搜到不止一个\"own\": true\"，需要一个一个试）。",
+				"added": 1481468985
+			},
+			{
+				"comment_id": 4,
+				"body": "我也没弄明白呀11> [znznzncn](#comment_3_1JUrEVQLzG2DsmnLoLaGski2tRrPvRHtjs): 如何申请.biz域名？",
+				"added": 1481469014
+			}
+		]
+	},
+	"comment_vote": {}
+}

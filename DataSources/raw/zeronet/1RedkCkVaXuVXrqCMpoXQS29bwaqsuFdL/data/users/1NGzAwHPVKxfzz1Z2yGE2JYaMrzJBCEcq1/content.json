@@ -1,0 +1,17 @@
+{
+ "address": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+ "cert_auth_type": "web",
+ "cert_sign": "HHgFHPXqKBSoW7xN7OxGhqe5qoc3ZZ6Mv3TUGaC9mWJPoO4Cr6CRwqeFd3GXwhpyPJ3SbPvnnniP/LoXdWcp6yE=",
+ "cert_user_id": "boathell@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "fac6f7b370df292157ba29dd028793f2a1edcfc8a9bcc250c8eda2174350abac",
+   "size": 339
+  }
+ },
+ "inner_path": "data/users/1NGzAwHPVKxfzz1Z2yGE2JYaMrzJBCEcq1/content.json",
+ "modified": 1485155980,
+ "signs": {
+  "1NGzAwHPVKxfzz1Z2yGE2JYaMrzJBCEcq1": "G95Rw/qsMPONh/OIa38RIOLgSrgd9dv+py/y63qZSNcG7zr2RVpNkka4zAeBetR0GjRIZJD89qo1BoW832qHBPE="
+ }
+}

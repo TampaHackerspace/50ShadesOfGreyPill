@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "G0Lkz03ByiRZ/t/C2GK1Kc3p3etE44jQeo0+kCiw7JcOtXUyKq/aZXS0KUX/t1SUAodXvaJXBO4gTVE8por7NRc=",
+ "cert_user_id": "timelord@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "502223d99cd497d65642ee887fe6e305c2a6ba7d02da06b599bb31d7d41d1e69",
+   "size": 339
+  }
+ },
+ "inner_path": "data/users/1N7tD4jo9cY9oJPkQ6QuNrxrGBUgFoi3yE/content.json",
+ "modified": 1489860625,
+ "signs": {
+  "1N7tD4jo9cY9oJPkQ6QuNrxrGBUgFoi3yE": "G+QQOHxbZDxLKBymSg/M0u7SGnL3/EI+W6nMjCFKsS4DwF1e+0wjQCXItgoEF1rb2IXJr5zrmF0xwYYj5EmT6Is="
+ }
+}

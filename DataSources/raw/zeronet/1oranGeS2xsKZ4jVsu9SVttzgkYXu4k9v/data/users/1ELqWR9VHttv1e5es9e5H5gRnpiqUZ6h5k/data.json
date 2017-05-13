@@ -1,0 +1,26 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Reotip",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Utilisateur ZeroNet aléatoire",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1484750986,
+			"body": "Hello!"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Not bad!",
+			"post_uri": "1AfMv5MuNfa3BfmdsvGiHn9fnrEsCwxhhC_1484750835",
+			"date_added": 1484751511
+		}
+	],
+	"follow": []
+}

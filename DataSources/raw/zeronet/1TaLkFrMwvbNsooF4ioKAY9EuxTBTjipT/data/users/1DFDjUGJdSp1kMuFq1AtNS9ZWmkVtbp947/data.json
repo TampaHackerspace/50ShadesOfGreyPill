@@ -1,0 +1,56 @@
+{
+	"next_topic_id": 2,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "When I move systems ZeroMe keep asks me to recreate my profile.",
+			"body": "Do profiles not migrate between zeronet instances? I mean, I have zeronet on a online machine (with my ZeroID and ZeroMe account) than I launch another Zeronet instance on another online machine using the same masterseed. Now ZeroMe treats me as if I don't have an account...",
+			"added": 1493309018
+		}
+	],
+	"topic_vote": {
+		"1_1DFDjUGJdSp1kMuFq1AtNS9ZWmkVtbp947": 1
+	},
+	"next_comment_id": 6,
+	"comment": {
+		"1_1KWkL7gwdvnn1moF2cB9ZfdYCEtEWcPkWy": [
+			{
+				"comment_id": 1,
+				"body": "[aitorpazos], thank you! i got my username back! :)",
+				"added": 1474398227
+			}
+		],
+		"1_18jipjDsfAxAuq4ixbi2w24xJrYVfTYFPn": [
+			{
+				"comment_id": 2,
+				"body": "Argentina",
+				"added": 1481566706
+			}
+		],
+		"1_1CjmMpMZgtzY2w9REEwLWQbtHhd5B5NStZ": [
+			{
+				"comment_id": 3,
+				"body": "I tried IPFS yesterday to upload and host a website. It works quite strikingly similar to Zeronet. With the IPFS advantage of allowing \"normal\" domains. On the other hand Zeronet auto-seeding feature is an advantage to its hosted websites but other than that I'm having a hard time seeing the differences.",
+				"added": 1493308879
+			}
+		],
+		"1_1DFDjUGJdSp1kMuFq1AtNS9ZWmkVtbp947": [
+			{
+				"comment_id": 4,
+				"body": "> [wieke](#comment_1_13Zs1NLz7LS9NsWtaQLwBmUZEXfz1i3agg): I'm pretty sure your ids are stored in users.json in the data folder. Not online. Take that one with you to the other machine. (Or run zeronet on a private proxy.)\n\nThat's what I did... the login interface can detect my correct ZeroID name but then ZeroMe asks me to create an account. I had an account before...",
+				"added": 1493329409
+			},
+			{
+				"comment_id": 5,
+				"body": "Thanks everyone, It was indeed a syncing problem: today I see myself automatically logged in.",
+				"added": 1493388583
+			}
+		]
+	},
+	"comment_vote": {
+		"1_1GD4nXikAXBVVryMk3PL2e8j9UwzvmEWVb": 1,
+		"2_13Zs1NLz7LS9NsWtaQLwBmUZEXfz1i3agg": 1,
+		"300_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ": 1,
+		"50_16NS3rBdW9zpLmLSQoD8nLTtNVsRFtVBhd": 1
+	}
+}

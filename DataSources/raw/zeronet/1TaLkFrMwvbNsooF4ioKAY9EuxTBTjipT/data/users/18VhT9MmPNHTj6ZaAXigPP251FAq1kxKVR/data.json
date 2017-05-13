@@ -1,0 +1,37 @@
+{
+	"next_topic_id": 1,
+	"topic": [],
+	"topic_vote": {
+		"1_127xneP1vvFJyc6SQZNzh2hyrkBuezpcvr": 1
+	},
+	"next_comment_id": 5,
+	"comment": {
+		"1_17To4zKQntCiVqSZqHK3mwEpbLWVCtLHEe": [
+			{
+				"comment_id": 1,
+				"body": "If Zeronet was incorporated into Tribler somehow, then it would solve that issue. Tribler already does a private (Tor-esque) network that uses DHT to find torrents, so I'm sure it wouldn't be a stretch to run Zeronet through Tribler.",
+				"added": 1489003645
+			},
+			{
+				"comment_id": 3,
+				"body": "> [hexkey](#comment_25_18NsJqjikBYBjwLzMVp7aBJSpqtyRSd9qF): Possible bad idea.\n\nThat article is 3 years old now. Tribler has been patched quite a bit since then, and if you check the github you can see that. While I don't know enough about the specifics, I'm sure that, if anything, it at least deserves a more recent review.",
+				"added": 1489448562
+			}
+		],
+		"2_12JNkg22um5nYeLgK8XgKavpivuwjrfHAy": [],
+		"1_1HLFF47LhPMfkv43GJoGCn7ZwXEAZmFHC6": [
+			{
+				"comment_id": 4,
+				"body": "Works fine for me",
+				"added": 1489468414
+			}
+		]
+	},
+	"comment_vote": {
+		"53_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu": 1,
+		"3_16GMXUiefH9e271vTdr5h41WHkXKPS7ceY": 1,
+		"1_18VhT9MmPNHTj6ZaAXigPP251FAq1kxKVR": 1,
+		"3_17AMQVbBa12XB3xFWKDnP2dCEx92TaiY7X": 1,
+		"3_18VhT9MmPNHTj6ZaAXigPP251FAq1kxKVR": 1
+	}
+}

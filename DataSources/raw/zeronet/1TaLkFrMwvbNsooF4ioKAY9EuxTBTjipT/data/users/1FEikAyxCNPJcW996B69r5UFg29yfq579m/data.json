@@ -1,0 +1,203 @@
+{
+	"next_topic_id": 3,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "ZeroNet on Android",
+			"body": "Is this possible? Could we run a ZeroNet node on our phone?",
+			"added": 1471651657
+		},
+		{
+			"topic_id": 2,
+			"title": "Ensichat - Decentralized Instant Messenger for Android",
+			"body": "I made a decentralized instant messenger, that works similar to WhatsApp. However, it doesn't require any central server and is fully open source. Please check it out and tell me what you think!\n\nhttps://github.com/Nutomic/ensichat#ensichat",
+			"added": 1474515524
+		}
+	],
+	"topic_vote": {
+		"3_13U9mRgV3bdkXiNXjMZeBWTcSHZjgNmk2z": 1,
+		"7_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"1_1EN9Ape9Gbe2FAcP8qNWsyvg7x7z92LhA7": 1,
+		"1_1LPyB18qg6mGFb1v8zMYd6TBCXK2c7BmRm": 1,
+		"1_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"22_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": 1,
+		"1_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa": 1,
+		"1_1pxo5AKTZoxWBdvAZsC2dR7MFHe5bFXcr": 1,
+		"1_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"3_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": 1,
+		"16_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ": 1,
+		"1_1DBjD2Xf1DymmjxEi5K7aeoaRByAAXBvFW": 1,
+		"1_1CpmRqADyAVneFPpvoUJjhMQpQwLEB3CWE": 1,
+		"2_1NGTMtN8816KeCtNqy6W4fCQduU4P8iwty": 1,
+		"1_1CQ2rCSbuSxkeDcrvBu1wvkUSg8233tAUu": 1,
+		"2_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1
+	},
+	"next_comment_id": 25,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "123",
+				"added": 1471640565
+			}
+		],
+		"1_1LPyB18qg6mGFb1v8zMYd6TBCXK2c7BmRm": [
+			{
+				"comment_id": 2,
+				"body": "Has anyone checked out the ZeroNet source?",
+				"added": 1471644687
+			},
+			{
+				"comment_id": 6,
+				"body": "> [talnicrom](#comment_2_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa): I have looked at it quite a bit and written some plugins and a robot.  Do you have any questions?\n\nNot really, just curious about the code quality etc. I'm a Java/Scala programmer, so I probably won't contribute to a Python project (also because I don't have the time).",
+				"added": 1471805885
+			}
+		],
+		"1_1EN9Ape9Gbe2FAcP8qNWsyvg7x7z92LhA7": [
+			{
+				"comment_id": 3,
+				"body": "Can ZeroMe be improved to handle multiple hubs? Would be good so people aren't to much split up over the hubs.",
+				"added": 1471645120
+			},
+			{
+				"comment_id": 4,
+				"body": "I opened an issue that's kind of relevant:\nhttps://github.com/HelloZeroNet/ZeroMe/issues/11",
+				"added": 1471645560
+			}
+		],
+		"1_1FEikAyxCNPJcW996B69r5UFg29yfq579m": [
+			{
+				"comment_id": 5,
+				"body": "Wow he's basically setting up a whole Debian on his phone. I figured there must be an easier way, something that can be integrated in an app. At least he says battery and data usage are pretty low.",
+				"added": 1471687733
+			}
+		],
+		"6_17VwZEfWSUWb5RHkK9m1odnDdBfvjTL6Cp": [
+			{
+				"comment_id": 7,
+				"body": "8 non-free packages, 0.3% of 2942 installed packages.\n7 contrib packages, 0.2% of 2942 installed packages.\n\nSteam, and some Intel/Nvidia drivers (I'm not even sure if I need them).",
+				"added": 1471809420
+			}
+		],
+		"1_1NqBBGk69vKmEpN4EHafCeUQh8veeyysTj": [
+			{
+				"comment_id": 8,
+				"body": "Use a VPN?",
+				"added": 1471856222
+			}
+		],
+		"3_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": [
+			{
+				"comment_id": 9,
+				"body": "I like the idea, much better than using external torrents I think. I noticed that most thumbnails are missing, that's probably a bug. Also, after visiting for the first time, videos just seem to load forever (this problem seems to go away after some time).",
+				"added": 1472750876
+			}
+		],
+		"1_1EmKu3AxsUduZzr99SryZbfcPrihsZV9mg": [
+			{
+				"comment_id": 10,
+				"body": "http://127.0.0.1:43110/kaffiene.bit/",
+				"added": 1473098667
+			}
+		],
+		"1_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 11,
+				"body": "I just tried to play some videos, but none of them work. Always shows the loading icon.\n\nEdit: I tried to download the magnet links with a torrent link, but that didn't work either. So apparently there just aren't any seeders.",
+				"added": 1473166213
+			}
+		],
+		"1_1Cq3f8r7jiiYuVJfrTDUrenioiRn9TMASV": [
+			{
+				"comment_id": 12,
+				"body": "Fuck ads! We already have enough problems with them on the internet. No reason to bring them to zeronet.",
+				"added": 1473453217
+			},
+			{
+				"comment_id": 15,
+				"body": "Something like Flattr would be really easy to implement. Just add some Bitcoin to your Zeronet. Whenever you open a site, a percentage of the Bitcoin is sent to the site.",
+				"added": 1473461784
+			},
+			{
+				"comment_id": 16,
+				"body": "> [talnicrom](#comment_18_19M1DT5vruSATEcbEczYRwCk2uPuLcATBa): This is a nice idea, but there would soon be a fork that removes this feature.\n\nOf course it would be entirely voluntary and donation-based. Still, if only 10% of users do this, it would give website owners more money than ads ever could. \n\nAlso, with the current audience of zeronet, which is quite technical, you can be sure that most users will block ads really fast.",
+				"added": 1473462863
+			}
+		],
+		"1_17d3S7saDQP5phkkWS9F7tMJTymqLCQmig": [
+			{
+				"comment_id": 13,
+				"body": "With Blockstream in charge? Never. Better switch to an altcoin.",
+				"added": 1473453257
+			}
+		],
+		"1_1KkA3C1iVDfieotYpuPUCpUtKzdFcfHMRy": [
+			{
+				"comment_id": 14,
+				"body": "There is also TorrentTunes (not on zeronet)\n\nhttp://torrenttunes.tk/",
+				"added": 1473453426
+			}
+		],
+		"1_1JtxPipMFzvBTQ8fwSeupUxfiVMbutBfhG": [
+			{
+				"comment_id": 17,
+				"body": "Seems like you forgot about christians here. Instead, why don't we kick out the capitalist leaders and switch to a better system? One that's focused on the people, and not on the profits of the rich.",
+				"added": 1474450026
+			}
+		],
+		"2_1FEikAyxCNPJcW996B69r5UFg29yfq579m": [
+			{
+				"comment_id": 18,
+				"body": "Sorry I missed your replies.\n\nhego555: I'm not an iOS developer, but if anyone wants to contribute it, that would be great! And a website would also be cool, you can send me an email (see my Github profile), or open an issue/PR.\n\ndergatt: Just don't give the app Bluetooth permissions at the start, and it will still work over the internet.\n\nlusr: I see Tox more as a Skype alternative, while Ensichat is closer to WhatsApp.",
+				"added": 1474774816
+			}
+		],
+		"1_1HRqipL1thbTsztjAvhN76qkzQBZ1k93nJ": [
+			{
+				"comment_id": 19,
+				"body": "There are some projects like freifunk.net (and similar projects in other countries). Your should probably find out if there's such a project near you.",
+				"added": 1476273129
+			}
+		],
+		"8_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 20,
+				"body": "I don't know how you can believe that. Just look at sites like DeviantArt, Steam Workshop, Github or many others, to see how many people create content without receiving any money. I think most content creators do it primarily because they like it, and not for the money.\n\nSure, if people don't pay for content, companies will earn less money from it, so there will be less commercial content. But that's a good thing, because it subverts corporations. Fuck capitalism!",
+				"added": 1476950539
+			},
+			{
+				"comment_id": 22,
+				"body": "I support socialism. Here's an introduction:\nhttp://monthlyreview.org/2009/05/01/why-socialism/",
+				"added": 1476952540
+			},
+			{
+				"comment_id": 23,
+				"body": "@kopykate: You think the capitalists will just give their profits away for free? Because that's what your proposal means. The only way that can work is if the workers control the means of production.",
+				"added": 1476955362
+			},
+			{
+				"comment_id": 24,
+				"body": "> [kosherx](#comment_30_1Kkc5j5xrEJevvV6sBqCrW93dscMVGbcDY): This way of thinking killed hundreads of millions, but why not? Let's try it again and kill billions this time? Stupid people never learn anything.\n\nCapitalism killed way more people than communism ever could. Just look at people in Africa starving, people dying in wars for oil and power, people dying because they can't afford medicine, ...",
+				"added": 1476969917
+			}
+		],
+		"1_1EcTBTYsro4Vr5ea5NahkseWCK883quWM1": [
+			{
+				"comment_id": 21,
+				"body": "Are there any websites that are built on IPFS? Last time I looked into it, you couldn't do much more than static sites.",
+				"added": 1476950711
+			}
+		]
+	},
+	"comment_vote": {
+		"4_1FEikAyxCNPJcW996B69r5UFg29yfq579m": 1,
+		"164_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"2_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": 1,
+		"15_13Cqt2MSFS6eu4cbVuByZBuULrEAcZAqFG": 1,
+		"24_1DcE9QfZbfLZhXxgtQ8Ui3oMZvs9NVjqZB": 1,
+		"12_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": 1,
+		"176_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"177_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx": 1,
+		"11_12yaKkoqVKBUi66uB5pYXamWguKFaWdDnx": 1
+	}
+}

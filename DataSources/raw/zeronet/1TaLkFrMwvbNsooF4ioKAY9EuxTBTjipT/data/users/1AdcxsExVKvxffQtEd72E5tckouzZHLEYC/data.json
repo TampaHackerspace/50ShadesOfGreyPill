@@ -1,0 +1,386 @@
+{
+	"next_topic_id": 4,
+	"topic": [
+		{
+			"topic_id": 1,
+			"title": "test",
+			"body": "brrrrrrrrrrrrrrr",
+			"added": 1459535551
+		},
+		{
+			"topic_id": 2,
+			"title": "Test Blog for ZN",
+			"body": "http://127.0.0.1:43110/1G2TYVkNJvVfmRqPtWGTLqHDUjJKMjMEBA/ \nA Blog about my personal experience on ZN with some observations, suggestions, proposals and tips.",
+			"added": 1464637754
+		},
+		{
+			"topic_id": 3,
+			"title": "ZeroTalk doesn't update",
+			"body": "As I look on ZeroHello the ZeroTalk entry: 251 seeders 4 file update failed.\nSince 11h not updated but during this time I was 4-5h online with ZN.\nI would understand if this site would have 2-3 seeders because they are maybe not online.\nFor example 'River of news' with 32 seeders updates correctly.\nSo why a site with simple text messages and 251 seeders doesn't update ?\nNow I am curious if this post will propagate in the network or not.\nIn the proxy https://zeroproxy.atomike.ninja/Talk.ZeroNetwork.bit/ I can see the new messages so I wil follow in the proxy.",
+			"added": 1465457792
+		}
+	],
+	"topic_vote": {
+		"2_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": 1,
+		"9_12i4LiZ39NxcYtsf36aTWJzcpzw4KFUCJy": 1
+	},
+	"next_comment_id": 59,
+	"comment": {
+		"2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 1,
+				"body": "test",
+				"added": 1461395104
+			},
+			{
+				"comment_id": 5,
+				"body": "http://127.0.0.1:43110/1G2TYVkNJvVfmRqPtWGTLqHDUjJKMjMEBA",
+				"added": 1464985013
+			},
+			{
+				"comment_id": 6,
+				"body": "I don't get connections now to ZN, or at least very seldom, and especially the chat is not working.",
+				"added": 1464985104
+			},
+			{
+				"comment_id": 38,
+				"body": "test ...",
+				"added": 1472885617
+			}
+		],
+		"5868_1KbV1e1u6P6AsY8XNBydgtbtN8iSB5WMyG": [
+			{
+				"comment_id": 2,
+				"body": "can somebody paste the news ? asking to stop addblocker",
+				"added": 1464088422
+			}
+		],
+		"8_1QBLGLcgKfcpfLmiDYuDzUKVXFfmTAew55": [
+			{
+				"comment_id": 3,
+				"body": "At least Zeromail is working by me.\nBut Zeroverse mail is totally confusing.\nhttp://127.0.0.1:43110/1G2TYVkNJvVfmRqPtWGTLqHDUjJKMjMEBA/",
+				"added": 1464757683
+			}
+		],
+		"9_1LRrd96P7FiTcsyNXVzPM5jtpQoH1B4gYf": [
+			{
+				"comment_id": 4,
+				"body": "I also thought on something similar. I am seeding your site.\nSome basic templates would be nice.\nhttp://127.0.0.1:43110/1G2TYVkNJvVfmRqPtWGTLqHDUjJKMjMEBA",
+				"added": 1464934947
+			}
+		],
+		"2_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": [
+			{
+				"comment_id": 7,
+				"body": "> [joett](#comment_3_1JKrpj4ZrupPN1ipD1Bhto6edqZS8HyKaD): Would you need a dns to built a website on zeronet ?\n\nNO. You only need to clone a working blog, customize and start writing.",
+				"added": 1465017318
+			}
+		],
+		"2_1DGVQKeEPAKbAUo9mLroTruuTQ9XvsGtRR": [
+			{
+				"comment_id": 8,
+				"body": "Tails is an amnesic OS intended to be run on CD and in the standard distribution ZN is not in. However you can create an own version with ZN on a USB stick with free space where ZN can store data - however  this would contradict with the original purpose of Tails being amnesic.\nA Whonix version with ZN would have more sense.\nhttp://127.0.0.1:43110/1G2TYVkNJvVfmRqPtWGTLqHDUjJKMjMEBA",
+				"added": 1465017909
+			},
+			{
+				"comment_id": 9,
+				"body": "@ancap - possible YES\nBut even if encrypted 'one's ZN data' you could have the logs(encrypted) - and not amnesic any more.\nShure you can use it with some benefits but you must be aware that you must decrypt it if asked in many countries or you can go to jail.\nhttps://en.wikipedia.org/wiki/Key_disclosure_law \nhttp://www.theregister.co.uk/2009/11/24/ripa_jfl",
+				"added": 1465049915
+			},
+			{
+				"comment_id": 11,
+				"body": "Yes.   - a minimal data directory or an encrypted container with it  - put with steganography in a family video file - it would work but it is some understanding and self-discipline necessary - extracting, putting back, erasing",
+				"added": 1465073987
+			}
+		],
+		"6_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R": [
+			{
+				"comment_id": 10,
+				"body": "Of course it would be amazing but Skype is a very sophisticated product and  there is not enough development capacity to create that. Our chats on ZN are also not very reliable because the network has sometimes problems.\nFirst chatting should be better developed and a brighter OS support for ZN. Then maybe a VOIP plugin.\nBut you can help also in the meantime studying if there is a ready plugin which could be connected to ZN.\nLook for ex. here there is VOIP Python library for Asterix:\nhttp://www.pycall.org/ \nhttps://en.wikipedia.org/wiki/Asterisk_%28PBX%29",
+				"added": 1465072818
+			}
+		],
+		"1_1JWy7zt6aDhpnDQ7fmsKUqNu8LzeoT1VRa": [
+			{
+				"comment_id": 12,
+				"body": "must run always ?NO. But like other Bittorrents, somebody must seed it if you want to have it available.\nWhy i can't delete/modify contacts list? not implemented\nWhy i can't delete reveived mails? You can. Just click the delete button on the right.\nhttp://127.0.0.1:43110/1G2TYVkNJvVfmRqPtWGTLqHDUjJKMjMEBA",
+				"added": 1465106430
+			}
+		],
+		"5_1ADB7TdX2fVbTsWBoMe9yBTmVXTbb33b4R": [
+			{
+				"comment_id": 13,
+				"body": "> [bullishonline](#comment_2_1Hw8MgzEGWsLfBRhKkCfah1SLqXoh2f64g): I cannot connect to any VPNs, they're all blocked.\nThere is no technique in the world which can block all VPNs(without blocking the internet) as far as I know.",
+				"added": 1465207539
+			},
+			{
+				"comment_id": 14,
+				"body": "> [bullishonline](#comment_4_1Hw8MgzEGWsLfBRhKkCfah1SLqXoh2f64g): Crap, I forgot to mention that they were on SoftEther. They're the one's all blocked.\n\nSome network administrators can be very sneaky and obstinate and are remotely watching the users and personally checking every new address then they block it without saying anything but giving the impression that was just just an automated process.\nIn this case your only chance is to disable the  remote control programs communication with a personal firewall when using the computer. Then enter a new VPN address.\nOr just use an own tablet/laptop.",
+				"added": 1465366079
+			}
+		],
+		"3_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": [
+			{
+				"comment_id": 15,
+				"body": "now the site was updated(with 13h delay)",
+				"added": 1465466381
+			}
+		],
+		"1_1CYra61M5noh9Uj5aAdRtRFikdhkQiXeB9": [
+			{
+				"comment_id": 16,
+				"body": "Interesting projects but I have heard for the first time about them. It seems that you are better informed about them than others. So you could try ZN with them and tell us how it works. That will inspire others to try it and we will profit all.\nThanks.\nhttp://127.0.0.1:43110/1G2TYVkNJvVfmRqPtWGTLqHDUjJKMjMEBA",
+				"added": 1465482250
+			}
+		],
+		"7_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 17,
+				"body": "I think ZN should have a 2 level system.\n- one basic which should work in emergency situations also with meshnet support\n- one extended for usual situations\nhttp://127.0.0.1:43110/1G2TYVkNJvVfmRqPtWGTLqHDUjJKMjMEBA",
+				"added": 1465742220
+			}
+		],
+		"2_1KD5RNhENCLPoTHJdNYERyCWisVT7ATD4C": [
+			{
+				"comment_id": 18,
+				"body": "what is exactly your question ? What is your native language ?\nyou can use google translate: https://translate.google.com/ \nhttp://127.0.0.1:43110/1G2TYVkNJvVfmRqPtWGTLqHDUjJKMjMEBA",
+				"added": 1465817554
+			}
+		],
+		"1_1BMrYxwpX4TkivMHPYSAMGcBBr66soRxT4": [
+			{
+				"comment_id": 19,
+				"body": "This is a question for which I was also searching the answer a lot of time.\nFor 'Running out of size limit (8.4MB/10MB)' message I found finally the reason - 8.4MB is the size of the Zeromail program directory not of the the mails. - or better to say it was at the first time when came the message.\nI have set the limit to 20 Mb then didn't came more until a couple of days.\nAs the directory size of zeroMail increased above 16Mb it came again the message 'Running out of size limit (8.4MB/10MB)'.\nhttp://127.0.0.1:43110/1G2TYVkNJvVfmRqPtWGTLqHDUjJKMjMEBA",
+				"added": 1466193476
+			}
+		],
+		"8_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx": [
+			{
+				"comment_id": 20,
+				"body": "thanks",
+				"added": 1466197336
+			}
+		],
+		"2_1AZjDLkfYwSmjM7ZJUf7HHnrF778augRMa": [
+			{
+				"comment_id": 21,
+				"body": "The biggest criminals of the world already control most of the internet and don't need ZN for their crimes.\nBut if there will be a way to control and censor networks like ZN then they can continue their crimes and nobody will know it.\n'True conformity is possible only in the cemetery' - Joseph Stalin.",
+				"added": 1470604483
+			},
+			{
+				"comment_id": 22,
+				"body": "We should not ask the main developer(s) for unnecessary or even counterproductive tasks which contradict the main objectives of this project(decentralized and censorship resistant network).\nHowever it is open source and anybody can fork it or create plugins for his specific needs. \nbeoxoeb - Nobody can or want to stop you to create a fork or a plugin of ZN where you can control all users which accept your decisions.",
+				"added": 1470772311
+			},
+			{
+				"comment_id": 33,
+				"body": "> [testingzeronet12](#comment_119_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): There is definately something wrong. I remember writing a post fairly recently here but I cant see it now. It disappeared. ???\n\nIf you wrote it recently then probably you didn't pushed the submit button.",
+				"added": 1471074288
+			},
+			{
+				"comment_id": 35,
+				"body": "> [edantes](#comment_29_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi): \nThis is a very delicate question. Hard to find the right balance between a moderation able forum and a censorship-resistant one.\nZN was projected to be decentralized and censorship resistant, both sites and comments seems to be censorship resistant. In this template works very well.\nIf an anonymous site creator could change comments of a namely known ZN user then this could be used also to compromise him with some asserts he have never done.\nMaybe it would be useful to have another blog-forum template where the site owner would have an admin panel to block a user from commenting and deleting all his(her) comments. (a selective deleting could be used manipulatively)",
+				"added": 1472744038
+			},
+			{
+				"comment_id": 36,
+				"body": "> [edantes](#comment_30_1JF3eQjW4voiKdcvCkMXvUx5bLmZAiVdyi): \nThere is a feature request already for an admin panel:\nhttps://github.com/HelloZeroNet/ZeroNet/issues/354\nSo I am sure this issue will be solved sooner or later.\nHowever we must be aware that not only the site-forum-blog owners right must be respected to keep their site free of spam but the right of the commenting innocent users also to not be compromised.\nThe clearnet is a different issue because there the site owner is mostly known or can can be easier found.",
+				"added": 1472756742
+			},
+			{
+				"comment_id": 37,
+				"body": "> [iamdeath](#comment_9_1DcE9QfZbfLZhXxgtQ8Ui3oMZvs9NVjqZB): \nZN the network should remain decentralized and censorship resistant I always told it. This nature of the network should be even improved.\nHowever the last topic was about a blog or forum run and controlled by somebody on ZN.\nIf you want a forum about music or politics maybe you don't want to be mixed with porno or other spam.\nBut those who want another topic they can any time create an own site or blog or forum on ZN.\nNow if you don't like the comments of a person on your own blog you can let it or you can  delete the entire blog with everything. It would be reasonable to have proper templates with admin panel to have other options between these two extremes. But nobody must use a template or a forum which he doesn't like. So it should be a freedom for everybody and a better usability in the same time.",
+				"added": 1472851964
+			},
+			{
+				"comment_id": 40,
+				"body": "- I am against CP but this is the eloquent example how reasoning with CP is mostly just used to hide bigger crimes, like killing millions of innocent civilians with napalm in Vietnam(the same with North Korea) and to avoid ever receiving a compensation from the USA:\nhttp://www.bbc.com/news/technology-37318031\n\n- 'Privacy-Preserving Abuse Detection in Future Decentralised Online Social Networks' some thoughts on GnuNet:\nhttps://gnunet.org/p4t",
+				"added": 1473493916
+			}
+		],
+		"10_1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh": [
+			{
+				"comment_id": 23,
+				"body": "Do you mean the ../data/My_Zeronet_hash/data/users/content.json file ?\nI experimented to modify it for my chat - to change the limit - 3 days experimenting, but I didn't found the solution.\nNot even in a single situation was updated the content.json file(after signing) in the network. - but with all other files worked.\nI had in very different situations 3 outcomes:\n- the content.json worked locally and remained but never updated for the other users\n- the old content.json came back(mostly)\n- the content.json disappeared from the network with every user entry from  ../data/My_Zeronet_hash/data/users/\n(I think by a new site which was not well seeded)",
+				"added": 1470857063
+			}
+		],
+		"18_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN": [
+			{
+				"comment_id": 24,
+				"body": "You can insert images(internal or external) without problems in your own blogs but not in the comments.",
+				"added": 1470894628
+			}
+		],
+		"10_1KdnTJVBGzEZrJppFZtzfG9chukuMv8xSb": [
+			{
+				"comment_id": 25,
+				"body": "Good work.\nIt looks like twitter was at the beginning.\nThey are still a lot of confusing elements - I cannot even say if they are bugs or intended and not understood  features.\n- I cloned also the blue HUB:\nhttp://127.0.0.1:43110/19Nd28ToyggTfRzrDRAXMBaePFWjUApdEA/\nbut the link doesn't help anything. There is no admin pannel or anything there. Just:\n'Please use ZeroMe to browse profiles on this page.'\n- It is difficult to say on what HUB is a user - but I am not sure if it has any importance.\n- Sometimes I try to add a comment but never appears. Sometimes comments disappear and appear later.\n- Comments from my zeroverse ID  acc to my zeroid account appear always double.\n- Comments from a nanasi account are even more stranger-  I am not sure if anybody can see them.\n- Oh yes. I almost forgot the most strange issue. I realized that I have more identities of myself(I mean only the usual teszt@zeroid.bit identity - not the zeroverse or nanasi). I am not sure how many(probably 3) and how they came.",
+				"added": 1470895841
+			}
+		],
+		"1_1HrRNH7KbdxMjwLmwrHmZqJrzVZVDKc9bF": [
+			{
+				"comment_id": 26,
+				"body": "A reputation system is necessary for a good working network however this shouldn't go to censorship.\nSome basic ideas:\n- no central blacklist (othervise could be used as backdoor for censorship) only blacklisting possibility on individual level\n- preserving anonymity for identities with reputation - the same reason as above\n\nI would say it could be used one of the following methods:\n- weighted Namecoin identity(deposited Namecoins on a specific address) - higher amount - higher reputation\n- donation for ZN development- higher amount - higher reputation\n- combination of the above",
+				"added": 1470942512
+			}
+		],
+		"4_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH": [
+			{
+				"comment_id": 27,
+				"body": "A reputation system is not necessary to view sites or create sites but could be used for payments in a ZN extension with online bazar functionality or commentary permissions on specific sites.\n- But no user should be put on a centralized blacklist.\n- Reputation should be on a voluntary basis for those who wish it.\n- Anonymity should be preserved.\n\nPossible solutions:\n- weighted Namecoin identity(deposited Namecoins on a specific address given in a Namecoin id/user namespace) - higher amount - higher reputation\n- donation for ZN development- higher amount - higher reputation\n- combination of the above",
+				"added": 1471026015
+			},
+			{
+				"comment_id": 29,
+				"body": "> [bulgaria](#comment_1_16uoBqDu9HhAkUhjDyW69bNT9WMSd239MQ): Why not go to reddit if you need a reputation system?\n\nReddit is a centralized system and is censored.\nEven a decentralized and uncensored system like ZN could have reasonable use cases for a reputation system.\nIf this is voluntary and plugin based then who doesn't need it will not install it. I don't need it but doesn't disturb me.\nWith more use cases we will have a bigger user base also and a stronger system. \nAnd anyway it is an open source system and anybody can create a plugin - nobody can stop another to create a plugin.\nThe reputation system shouldn't be in the ZN core then there is no way to be used as backdoor for censorship.",
+				"added": 1471029141
+			},
+			{
+				"comment_id": 30,
+				"body": "> [silverstorm](#comment_15_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH): Isn't need any centralized system to implement a reputation system. The reputation could be implemented using a blochchain but must not depend on payment or donations, to preserve fairness reputation must depend only on the rating given by others users. The blockchain eventually should be used only to certify your ID anonymously and make more difficult to create gazillion of new identities to cheat the ratings.\n They are two issues to be separated:\n- a decentralized identity system which doesn't exist at the moment and have a higher priority\n(an improoved nanasi would be enough without blockchain - but could be also a simple Namecoin based ID)\n- a decentralized reputation system with lower implementation priority on voluntary and  plugin basis\n(those who are against it would not install it simply)\nUser Rating could be manipulated with fakes but money not even if it seems less fair at the first sight. Donation could finance further ZN development from which we all users will benefit. Deposits would be not blocked just the public key stored. The reputation would be valid only as long as the coins(free movable for the depositor) are not moved away.",
+				"added": 1471031897
+			},
+			{
+				"comment_id": 31,
+				"body": "> [silverstorm](#comment_16_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH): In your previous comment seems you want to relate the good reputation of an user according the amount of money the user deposit. This would be very unfair, despite how much cryptocoins an user decide to give the reputation must start from the same level for all users, no difference if you give 10000 coins or only 1. \n> To avoid scammer is enough to use a transaction only to certify the ID... yes an user could create fakes but many fakes would need many transactions so will not sustainable, in addition could be added many measure to discourage fake voters from cheating the reputation system, eg:\n> \n> User ID registered only by few days can start to give rating to others users only after a reasonable amount of days\n> All users have a limited amount of good reputation that can give in a day, with an higher amount if they have a positive reputation and lower amount if they have neutral or bad reputation\n> The transaction accepted to verify ID must come only by a wallet that hasn't already send coin to certify another ID\n\nDeposited coin amount based reputation is not unfair it is just business oriented and is realistic like in real life. If you have more money you have more creditworthiness and more respect by the banks.\nI am sure such a reputation is useful for business.\nBut nothing speaks against a second, merit based reputation also. Here the ZN creator could get the highest reputation on start, other ZN contributors with donation, programming or content could also get ranking according to their contribution for ZN. Voting could be part of the merit system.\nBut voting somebody for issues (like personnel friendship or how many accounts he can make) not connected to ZN activity wouldn't be usefully for others.\nWe could have both(merit and creditworthiness) reputations, but both need first a decentralized identity system on which should be built. Most users would feel more comfortable with a decentralized identity.\nThe ID system could have much influence on the reputation system built on it so we must choose this very carefully.\nIn conclusion I would suggest to concentrate first on the creation of the decentralized ID.(but keeping in mind that should be able to support a flexible reputation system)",
+				"added": 1471035427
+			},
+			{
+				"comment_id": 32,
+				"body": "> [silverstorm](#comment_17_1BFTNXtYQDMCurqyg45KLmsV6oJD7bQSsH): Relate the reputation according the deposited amount of money will introduce a plutocratic system in a network born to be free. This is VERY unfair. With your propose\n> \n> the rich users automatically get high reputation despite they are total assholes. \n> a future e-comerce zite can decide to invest an amount of coin to get a good start reputation to scam tons of users to earn\n> \n> Reputation measure how an user is reliable, if I deposit more than you doesn't mean that I'm more reliable and polite, means that I'm more rich and can afford larger deposit, and no more. \n> With my propose you can discourage scam voters with no unfair richness based system.\n\nYou have also good arguments. I would like to give for those who suffered the most in their childhood the highest reputation to be fair. But how to measure their suffer ?\nWe need something which is objectively measurable, less manipulable and purpose oriented even if it is less fair.\nBut we can have 5 different plugins with different reputations. One of them could be exactly as you proposed. Others more realistic for business or for other purpose.\nAnd every user will decide which one he/she will use or none of them or all of them.\nService providers would also have the decision power what kind of reputation on what level they ask.\nThe users and the market should decide.",
+				"added": 1471037330
+			}
+		],
+		"1_1Mxv7my8HRBiVNRtiFaHrrbb11hmPqa6qL": [
+			{
+				"comment_id": 28,
+				"body": "ZN is decentralized as network but different sites and services can be created on it which run centralized by somebody. \nzeroid and zeroverse are such identity services.\nIf the id system runner is on Holiday his ID system could be out of work. \nFor many of us this is not clear at the beginning and when they find out they will be disappointed.\nHowever this is not easy to solve.\nBut if anybody have a good idea how to make a working decentralized identity system then let us know. \nMaybe the nanasi ID could be improved as it seems most closed to a decentralized ID.",
+				"added": 1471027535
+			}
+		],
+		"1_1Dj5WCaPV2r18QcDQFHmyx2HnGmwMJce9b": [
+			{
+				"comment_id": 34,
+				"body": "Water is free, you pay only for the bottle.\nE=m.c2 Everything is energy in the universe or can be converted to it.\nOnly your body is inefficient to use it.\nIf you are flexible, you can use this energy in any form for free. If not then others will convert to electric energy for you and you pay for that work.\nBut if you want really everything for free, even the bottle then you can go to North Korea. There your work will be also free.",
+				"added": 1471208239
+			}
+		],
+		"2_16w7UuJAHbt8YBa8zxHS7UFk9mq8Q5DpE4": [
+			{
+				"comment_id": 39,
+				"body": "I have experimented around and the only way what I found to delete a comment on your blog is to delete the full blog and open another site.\nThe problem is that you don't have permissions to the user directory. You can delete or edit anything on your own computer but if you cannot sign with the user keys the network don't accept it and the change will be seen only on your local version.\nBut I think it would be possible to create a script on the site(blog) which ignores showing specific comments(user based or triggered by keyword). However the comments would continue to remain in the user directory.\nAs you own the blog you can modify the site itself(and embed the script) and sign it with your valid key",
+				"added": 1473428762
+			}
+		],
+		"9_12i4LiZ39NxcYtsf36aTWJzcpzw4KFUCJy": [
+			{
+				"comment_id": 41,
+				"body": "Maybe not so many people like him but a lot of people like his comments, especially when exposing with simple words  the lies of the professional politicians.\nDonald Trump: 'Hillary is A Liar'\nhttps://www.youtube.com/watch?v=-8C486TeMjs",
+				"added": 1473504056
+			},
+			{
+				"comment_id": 42,
+				"body": "Trump is acting like a circus clown on the political stage.\nIf the clown is saying something stupid the credit is going to his sense of humor.\nIf he is saying something smart then his intelligence is credited.\nIf the clown is criticized for something then everybody is laughing and the credit is going again to the clown.\nBut the politics became a circus before Trump came. He is just using the proper strategy in the proper context.\nIt is not the first time in the history when this strategy was used with success.",
+				"added": 1473575166
+			},
+			{
+				"comment_id": 43,
+				"body": "I like the circus.\nBut it would be more secure for us all if the supreme commander of the biggest nuclear arsenal of the world wouldn't have a brain damage.",
+				"added": 1473686465
+			},
+			{
+				"comment_id": 44,
+				"body": "Did you observed the changes in the last decades ?\nThe imperialistic lobby embraced the extreme left movements and ideology (which were excluded even by Stalin) to use them as foot troops. And they fooled the most poor and uneducated people with success.\nhttp://www.huffingtonpost.com/jackson-williams/banksters-on-parade_b_128780.html \nI am not against the market economy and honest capitalists.\nBut how many hundred billions they still need as gift ?",
+				"added": 1473750970
+			},
+			{
+				"comment_id": 46,
+				"body": "Those who do not beleave in God, only in Money killed millions of Muslims and convinced them that Christians are their enemies and they use all good people against each other. They can do it because they control not only the money but the information also. Christians and Muslims share many traditional values which are step by step destroyed. Unfortunately Trump also doesn't see this fact.",
+				"added": 1473762762
+			},
+			{
+				"comment_id": 47,
+				"body": "The pope never ever told in the history to harm innocent Muslims. That have done English, French and German conquerors(imperialists of their time) on their own greed for money. But they remain far beyond the mass-murders of the 20th century. Stalin, Hitler, Mao, Johnson.",
+				"added": 1473765500
+			},
+			{
+				"comment_id": 48,
+				"body": ">> [cloudofstars]\nJesus existed even before the dinosaurs and the holly father(the pope) is the deputy of Jesus on Earth.",
+				"added": 1473877973
+			},
+			{
+				"comment_id": 49,
+				"body": "> [cloudofstars](#comment_16_1AvkR7PmGFLZL9drPpqCaBPEdcVipv2Ajs): \nWould you call Mao a Christian because he met some of them in his life ?\nWould you call Stalin a Christian because he was teached by monks as child ?\nPol-Pot was communist also.\nHitler and Himmler if they were religious then they were worshipers of the Arthus and arian-pagan-esoteric religion of Rosenberg with satanistic elements during the Nazi power.\nKemal Atatürk was atheist and secular and he massively cut the Islam influence.\n\nAmericans GIs killing millions of innocent Vietnamese civilians used to spread loud rock music during their killing actions(and not christian music). But you have right. They were religious - worshipers of the American God - the Rock music.\n\nThe Islamic State was not born from a native Islam ideology but from a marginal-extremist ideology financed by the USA. Many leaders of them were trained on USA military bases(in USA, Turkey, Saudi Arabia) and provided with American weapons.\nLook how John Mc Cain (the proud Vietnam-veteran and former USA presidential candidate) met the leader of the Islamic State.\nhttp://www.globalresearch.ca/did-john-mccain-meet-with-abu-bakral-baghdadi-the-alleged-head-of-the-islamic-state-isis-isil-daesh/5498177\nAnd now all Europe, especially Middle-Europe should suffer because of the migrant crisis. \nBut of course Great Britain not, they are going out as they have done enough work by helping the USA to kill over one million civilians in Iraq.",
+				"added": 1474013693
+			},
+			{
+				"comment_id": 51,
+				"body": "> [cloudofstars](#comment_33_1AvkR7PmGFLZL9drPpqCaBPEdcVipv2Ajs): \n> So, LESS EMPTY TALK AND MORE ACTION, please!\nThis kind of argumentation is not valid.\nIt doesn't help to say to the millions of uneducated why they didn't became like Einstein or to the most poor who hunger why they didn't became a Rockefeller or to those bombed out from their villages why they didn't became a Napoleon.\nAll this celebrities existed only once and they had the proper opportunities at proper time. Those who are not Rockefellers also want to live their lives.\n\nGlobalization is inevitable in some areas: internet, IT and nobody has something against chip production in Japan.\nBut on some areas globalization is unnecessary and destructive.\nMost people from Europe don't want to eat chlorinated American chickens from TTIP. To say that don't eat if you don't like doesn't help because nobody has scanner eyes and if they are in Europe then any chicken can be chlorinated.\nThey are scientific studies that the excessive consumption of junk food is causing that America has the highest number of perverted individuals.\nAt least Trump don't want to force to the TTIP.",
+				"added": 1475567406
+			},
+			{
+				"comment_id": 53,
+				"body": "> [voruman](#comment_2_1KAfCgw4ECkqUccYQZDoPuTMhA2YPMaZwG): His stupidity and ignorance toward other people in the poor part of the world. And discrimination against Muslims and Mexicans.\n\nThere is no perfect option in the politics but you must choose the less worse.\nHillary is better prepared on the stage but she is not her own like Trump is.\nI would say that making war and killing millions of innocent Muslims by laughing is worse than just making bad and populist jokes.\n\nHillary Clinton: “ ... if I'm the president, we will attack Iran \"\nhttps://www.youtube.com/watch?v=rTt-xhF02Gg \nDo you really want that ?",
+				"added": 1475607899
+			},
+			{
+				"comment_id": 54,
+				"body": "The genetics have made huge discoveries during the last decades.\nThere is no white race. All existing humans are a single race in biological taxonomic sense as they can have common children and have the same number of chromosomes.\nHomo sapiens and Homo neanderthal could be considered human sub-races. They are genetic evidences that an interbreeding between them occurred in the Middle-East 50 000 years ago.\n- 100% Africans are 100% Homo sapiens with 0% Homo neanderthal blood.\n- non-Africans - Europeans, Asians, black people from India and black people from Papua are 1-4% Homo neanderthal and 96-99% Homo sapiens interbred.\nSo genetically only this two human sub-races exists - with or without Neanderthal blood. All others are just sub-sub-races.",
+				"added": 1475668007
+			}
+		],
+		"1_1PoA7YxWVZKoXWoD1PjdwByFqqCA8d2uqr": [
+			{
+				"comment_id": 45,
+				"body": "P2P is good to create a decentralized network and storage system. The internet is however built on client-server concept so seeding from private PCs is not that quick. We could integrate the advantage of both systems in some extent.\nIt would be fine to have something like the ZN proxies but only with seeding inside ZN and put on VPS.\nSuch installations/containers should be easily configurable and those who have VPS could setup a power-seeding VM for the sites they want to support. This could improve access speed to popular sites.",
+				"added": 1473755184
+			}
+		],
+		"1_16t6Tea7jrnYrhiGHayfif7UwT3twaduvU": [
+			{
+				"comment_id": 50,
+				"body": "If Xenu, the dictator of the Galactic Confederacy will come\nhttps://en.wikipedia.org/wiki/Xenu \nthen let us take this colony ship \nhttp://starwars.wikia.com/wiki/Star_Seeder-class_Colony_Ship\nand find another planet.\nIt costs only 3 million credits.",
+				"added": 1474367651
+			}
+		],
+		"31_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP": [
+			{
+				"comment_id": 52,
+				"body": "I had this problem also by a former version a couple of weeks or a month ago and I thought that zeromail  is not any more active as zeromail 2.0 appeared and worked.\nBut after an update it worked again. (since some weeks)\nTry to update to the newest rev.1534 version.",
+				"added": 1475577708
+			}
+		],
+		"1_12uT4vU8m2CkuLW8ymLz5kpAyFQZ3Jj8XH": [
+			{
+				"comment_id": 55,
+				"body": "How about using RetroShare for file-share purpose ? How could be connected with ZN ?",
+				"added": 1476005193
+			}
+		],
+		"8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj": [
+			{
+				"comment_id": 56,
+				"body": "ZeroNet is a very good and promising decentralized network for content publishing.(and maybe the most rapidly developed one) \nThe decentralization is working here on the network level. Anybody can create any site of any content and nobody can delete it. On sub-levels the site owners are controlling the content as I understood.\nSomebody with known identity cannot let any content on his site even if he is for absolute freedom of speech.\nFreenet is also not very different in this aspect. Even in RetroShare  you have control of your site and whose content you are seeding as node.\nIn IPFS they even try to block some contents on network level as I know.\nMaybe a comparative study could better reveal advantages and disadvantages of this systems.",
+				"added": 1476452484
+			},
+			{
+				"comment_id": 57,
+				"body": "Only RetroShare comes near ZeroNet as content publishing network with almost as easy use and higher speed.\nMaybe the advantages of this two could be combined. But first they need to be compared.\nIPFS is more fileshare and Freenet as you told is to slow and resource intensive with its Java.",
+				"added": 1476453425
+			}
+		],
+		"1_121wHEZXhLuoFQhmawdQRLVvtBzhSDT4R5": [
+			{
+				"comment_id": 58,
+				"body": "This is the problem with retroshare. You need to find or create a community then share the keys.\nBy ZN, starting it you are already in a community with some users and content. By RS program and community are separated what I think increases decentralization also.\nI tried it and is quicker then ZN(at least for 2 peers). I am not sure how does it scales for larger communities.\nAs I saw the pirate party somewhere had or has a RS community. By bitcointalk was also a list with RS peer list.",
+				"added": 1476824911
+			}
+		]
+	},
+	"comment_vote": {
+		"21_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": 1,
+		"22_1AdcxsExVKvxffQtEd72E5tckouzZHLEYC": 1
+	}
+}

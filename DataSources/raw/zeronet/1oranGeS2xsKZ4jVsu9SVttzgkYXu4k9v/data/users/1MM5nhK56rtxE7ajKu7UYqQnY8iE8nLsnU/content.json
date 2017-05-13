@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HCSGxeB301xTnlvgDzBxUEn9e7LGNZKJjlIFbqymlKsu7gnnJidwgF6jmnHd3vzYerHXfX3pCLzP/9wl7Vy/ZFY=",
+ "cert_user_id": "cio@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "7de87502af260c0d5d3777334e431d0666847933afe90971fad2a9d20e1a764a",
+   "size": 588
+  }
+ },
+ "inner_path": "data/users/1MM5nhK56rtxE7ajKu7UYqQnY8iE8nLsnU/content.json",
+ "modified": 1484665773.411,
+ "signs": {
+  "1MM5nhK56rtxE7ajKu7UYqQnY8iE8nLsnU": "HHLyUAK2ixSfVjU9oJI7bqUSM0gcZ0MME8FkM695pLrgiFAk1BqNFE3gs6yv77zVqUmwfo6pfSolPVIc3d+mPiw="
+ }
+}

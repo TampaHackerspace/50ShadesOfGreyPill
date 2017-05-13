@@ -1,0 +1,81 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 1,
+	"next_follow_id": 9,
+	"avatar": "generate",
+	"user_name": "Ezikiel",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1490446477,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1490446549,
+			"body": "New member prepared to host any reasonable files",
+			"date_added": 1490446547
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1KNmG5rJUGhgUJGFbLkv2B5isaqu9PrZqi",
+			"auth_address": "1MdeVZRJigqsLnPrTNitaNv7FDdbocWgXR",
+			"user_name": "Hiddenwiki2017",
+			"date_added": 1490446594
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1Ea3RG4YuLnifynBxvuWAA3Y2nLcTWfrjQ",
+			"user_name": "k0re",
+			"date_added": 1490447418
+		},
+		{
+			"follow_id": 3,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV",
+			"user_name": "Mynameislegion",
+			"date_added": 1490447656
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa",
+			"user_name": "Talnicrom",
+			"date_added": 1490447747
+		},
+		{
+			"follow_id": 5,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1490447797
+		},
+		{
+			"follow_id": 6,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC",
+			"user_name": "Firebox",
+			"date_added": 1490447830
+		},
+		{
+			"follow_id": 7,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1490447859
+		},
+		{
+			"follow_id": 8,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "16ayEL9rXHKdbhoFu1LUanUaPVrzRVe331",
+			"user_name": "Andrewm",
+			"date_added": 1490821695
+		}
+	]
+}

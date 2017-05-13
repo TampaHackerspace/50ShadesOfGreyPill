@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HOXu8hYcCmeFLDSWynJLVKr51sj180sQPksKKHDYZ63Twh74+/FfK8Pp+uoWF47mQUQ5eED9oBV+irWEmSi9jQo=",
+ "cert_user_id": "starlord@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "8874668ce724b2692966eda4780295eba7bace4f6ffb9b77f703d84c410c5962",
+   "size": 1254
+  },
+  "data.json": {
+   "sha512": "0b4502fad4519d2a952b0f2d05da8633016b2915be8b65abfe3903d894003e2a",
+   "size": 975
+  }
+ },
+ "files_optional": {
+  "1485544373.jpg": {
+   "sha512": "b1c060cf84a4238dd8d11872bafcac1b45a382966035100dc05628293611b98c",
+   "size": 82534
+  }
+ },
+ "inner_path": "data/users/17UMVmdiRu9jCT25dztFa3rJ1DoQhduZLc/content.json",
+ "modified": 1490390007,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "17UMVmdiRu9jCT25dztFa3rJ1DoQhduZLc": "G0yYuJjUMshcS0Vk3OAsm37FWKl5pPTOvvWffTyH3u2PQdFcsHfD47eY2hva1izxRBgCLKRosLefpGpVagggfSo="
+ }
+}

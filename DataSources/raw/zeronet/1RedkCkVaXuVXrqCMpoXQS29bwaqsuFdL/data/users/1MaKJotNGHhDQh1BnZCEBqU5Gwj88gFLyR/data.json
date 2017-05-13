@@ -1,0 +1,428 @@
+{
+	"next_post_id": 11,
+	"next_comment_id": 18,
+	"next_follow_id": 39,
+	"avatar": "jpg",
+	"user_name": "tiamat",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"intro": "[zeropub](http://127.0.0.1:43110/zeropub.bit) dev. \n[BloxelWars!](http://127.0.0.1:43110/143TbAqxkbJsYtLnMSkAKjyJoQmFhp1cDR/) dev.\nAlso five headed dragon.",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1490001182,
+			"body": "nice to meet you, zerome"
+		},
+		{
+			"post_id": 1490121535,
+			"body": "So here's my first zeronet zite [zeropub](http://127.0.0.1:43110/zeropub.bit). It's a ebooks torrents page for spanish readers, heavily inspired by Play.\nI'm learned a lot doing it, mainly about maquettejs and how zeronet zite works in terms of loading json data into db, querying the db and files, so much stuff here!\nNow focusing on how to automatize updates and have a fully autonomous zite.",
+			"date_added": 1490121533
+		},
+		{
+			"post_id": 1490365160,
+			"body": "guys, stupid question about site publishing: if you sign your site is it absolutely necessary to publish it? or maybe the peers will eventually get the most updated content.json from you?",
+			"date_added": 1490365157
+		},
+		{
+			"post_id": 1490533685,
+			"body": "Weekend update on [zeropub](http://127.0.0.1:43110/zeropub.bit)!\nI've added some books in English and updated the interface to select which language you prefer.\nNot ready to accept books from peers yet. I'm scrapping the current content from websites and probably will keep this way some time.\nEnjoy, seed and have a good reading!",
+			"date_added": 1490533681
+		},
+		{
+			"post_id": 1490814776,
+			"body": "Two new features on [zeropub](http://127.0.0.1:43110/zeropub.bit):\n- Interface text translations (just english & spanish right now) using native zeronet translation.\n- Likes: as a way to learn about the user content.json topic, I though it could be nice to 'like' a book. I've grabbed most of the code from ZeroMe and it seems working for every user except me! I've probably screw something up during the development. Time will decide if it was a good idea or not. Let me know if it's working for you guys!",
+			"date_added": 1490814770,
+			"meta": "{\"img\":\"881,700,975a85786443333b9522276436555499864451146948c358,011023334411515334467728933446077A6344447B7C444664A27B044444A071244444DEF3444444\"}"
+		},
+		{
+			"post_id": 1492537711,
+			"body": "Hey! Long time without updates.\nI've been working on another site: Introducing [BloxelWars!](http://127.0.0.1:43110/143TbAqxkbJsYtLnMSkAKjyJoQmFhp1cDR)\nIt's like reddit /r/place but instead of 5 minutes cap, you have to 'mine' the bloxel (block+pixel) with a difficulty based on the last bloxel time.\nI'll explain it better later, right now I've just wanted to show you an early beta version. I've called it \"*It's not the right time yet*\"",
+			"date_added": 1492537704
+		},
+		{
+			"post_id": 1492773721,
+			"body": "Finally figured out a way to deal with the user limit space with [BloxelWars!](http://127.0.0.1:43110/143TbAqxkbJsYtLnMSkAKjyJoQmFhp1cDR/).\nThe problem was that users ran out of space quickly after minting a few of bloxes, and I don't want to simply 'remove' all those precious bloxels from the site history.\nSo I've chosen to move all those old user bloxels to a single file called blockchain.json\nWhen the user access the site, a process will remove every bloxel from the user-space that is present in the blockchain.json, cleaning up the data.json of the user.\nIt's not perfect since it relies in a script that I must run every X hours, but it works! Happy blox-minting!",
+			"date_added": 1492773713
+		},
+		{
+			"post_id": 1492969391,
+			"body": "Big [BloxelWars!](http://127.0.0.1:43110/143TbAqxkbJsYtLnMSkAKjyJoQmFhp1cDR/) update:\n- bigger canvas! up to 128x128\n- new zoom (right click) & pan feature (left click)\n- lot of minor fixes\nGive it a try!",
+			"date_added": 1492969382
+		},
+		{
+			"post_id": 1493287967,
+			"body": "Hi there! just added kaffieID as a cert_signer in BloxelWars!. \nEasy peasy!",
+			"date_added": 1493287957
+		}
+	],
+	"post_like": {
+		"1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN_1490651863": 1490695157,
+		"1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV_1490645668": 1490695271,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1490715178": 1490721265,
+		"1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1494330335": 1494337068
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Yinyue: well, I don't know how to make my site 'cloneable' but you are free to copy all files and modify the json files.",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490121535",
+			"date_added": 1490174953
+		},
+		{
+			"comment_id": 2,
+			"body": "@Rythyrix: that makes sense. I was receiving a lot of \"missing files\" in the process of signing and publishing. How missing files can happen if I'm signing the most updated content? \nI guess it was some sort of problem with timing between sign and publish the content. I've recently added some wait time after the sign command (2 minutes) and it started working fine (as it supposed to do).",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490365160",
+			"date_added": 1490429347
+		},
+		{
+			"comment_id": 3,
+			"body": "@Mynameislegion: yeah it's planned, but I have to solve some problems first, and probably develop some admin tools for it. \nAs always, it's a matter of time! Glad that you liked it ;)",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490121535",
+			"date_added": 1490429790
+		},
+		{
+			"comment_id": 4,
+			"body": "@Mynameislegion: hey, if you have some books to upload take a look into [Antilibrary.bit](http://127.0.0.1:43110/Antilibrary.bit) because they are always looking for collaborators.\n~~Zeronet~~ zeropub is not ready to receive user generated content yet (and probably won't in the near future).",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490121535",
+			"date_added": 1490440056
+		},
+		{
+			"comment_id": 5,
+			"body": "@Mynameislegion: sure! but the trick is to automatize the process using a script.",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490365160",
+			"date_added": 1490440911
+		},
+		{
+			"comment_id": 6,
+			"body": "@Mynameislegion: Oops, my bad!. I meant to say \"zeropub is not ready to receive user generated content yet\". I am well aware that zeronet is technically ready to receive files and so, but I haven't read/learn enough about it to implement that in my site.",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490121535",
+			"date_added": 1490534878
+		},
+		{
+			"comment_id": 7,
+			"body": "@Mynameislegion: I'm afraid I don't have the isbn for each book, so it could be a pain to ask goodreads api without it... the tagging is a good idea though, I'll think a little bit about it",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490533685",
+			"date_added": 1490814040
+		},
+		{
+			"comment_id": 8,
+			"body": "@Kaffie: Yeah, I think there are like 250Mb of jpeg files and it's not easy to balance between keeping an small enough content.json and the size of each optional jpg file.\nI've already tried having a single jpg file for each book, but the 'optionals' section in the content.json became huge and required too much cpu to process it.\nCurrent implementation does a id%500 shard assignation. This way I'll always have 500 image files that may or may not change depending on two things:\n- a book in the shard (one with id%500==0) changes.\n- a new book (new id) is added to the shard.\n\nI know it's not a perfect solution, but it assures an almost perfect distribution of books between shards, hence having shards 'mostly' same sized. An it's also very easy for the client (javascript) to guess in which shard a book cover is.",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490814776",
+			"date_added": 1490867317
+		},
+		{
+			"comment_id": 9,
+			"body": "@Sirenyc: I would love to have a Portuguese section, but I want to keep it magnet/torrents only. The problem with the site you're referring is they're using direct downloads and I don't want to host any epub file in zeropub (it's just too big right now).",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490814776",
+			"date_added": 1490867667
+		},
+		{
+			"comment_id": 10,
+			"body": "@Yinyue: well, zeropub has 27296 books right now so I guess it's more or less the same as Play in terms of image size per book.\nI'm using external links for authors pictures right now, but it's something I want to change in the future. I don't like that because the user anonymity could be compromised.",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1490814776",
+			"date_added": 1490878721
+		},
+		{
+			"comment_id": 11,
+			"body": "Cheer up @nofish. You're still young. It gets much worse. :P",
+			"post_uri": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj_1491244225",
+			"date_added": 1491295237
+		},
+		{
+			"comment_id": 12,
+			"body": "@Chocodum: thanks! I know it needs some FAQ, there are some dark concepts in the game, but you know... it's kind of boring to document things! :P \nJoking aside, it needs a FAQ and it will have one.",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1492537711",
+			"date_added": 1492593865
+		},
+		{
+			"comment_id": 13,
+			"body": "@Plasmmer: I'm not a huge fan of vanity addresses... won't the change be traumatic? I mean, how can you actually change the address of a site without disturbing users?.\nI had a .bit address for zeropub and it was very easy thing to do. I think I'll do the same for bloxelwars eventually.",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1492537711",
+			"date_added": 1492594118
+		},
+		{
+			"comment_id": 14,
+			"body": "@Erneraude: What!? Cheater alert! Ban this guy! :D\nNo joking, you are really exploring the limits of the UI, not breaking any protocol rule.\nIf you mine a bloxel with a future timestamp, it could be that someone mine one with the same seq number and lesser offset. That will 'orphan' your bloxel and it will be rejected by the other players in favor of the lesser (aka 'more difficult to mine') offset.\nThe fact that I'm not doing more strict checking in the code could change in the next versions. The future-date cheat will be addressed for sure (thanks for the bug report!). \nI don't care about the colors though, I think you are making an 'undocumented use' of the protocol. And that's smart. :P\nGlad that you liked the site!",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1492537711",
+			"date_added": 1492853356
+		},
+		{
+			"comment_id": 15,
+			"body": "@Kaffie: I'm sorry to ear that! will look into it... I haven't tested it on my laptop but I know the page is cpu intensive.",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1492969391",
+			"date_added": 1493032509
+		},
+		{
+			"comment_id": 16,
+			"body": "@Kaffie: Performace should be ok now. There was a continuous canvas update that was boosting the cpu usage. Let me know if the fix works.\n\n@Ivensen: will work on that feature, thanks! ",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1492969391",
+			"date_added": 1493041520
+		},
+		{
+			"comment_id": 17,
+			"body": "@Kaffie: I don't really know, I though you have to add them manually to users/content.json. Is there another way? How many of them are anyway?",
+			"post_uri": "1MaKJotNGHhDQh1BnZCEBqU5Gwj88gFLyR_1493287967",
+			"date_added": 1493301179
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj",
+			"user_name": "Nofish",
+			"date_added": 1490001197
+		},
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "12EgeG4vgNHzuPJYZqVJQwy2W9vkywbQQu",
+			"user_name": "PaintNinja",
+			"date_added": 1490034185
+		},
+		{
+			"follow_id": 3,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1NWh3WAty57FH8at1WtrZigMrdhrDkuPzh",
+			"user_name": "Kaffie",
+			"date_added": 1490116323
+		},
+		{
+			"follow_id": 4,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC",
+			"user_name": "Firebox",
+			"date_added": 1490116336
+		},
+		{
+			"follow_id": 5,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1GervYZoP82e8X1Rgc4wyMkJY2zSsJuq8t",
+			"user_name": "tkarita",
+			"date_added": 1490116457
+		},
+		{
+			"follow_id": 6,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1EZG8eDkCFvNkYxpHmr2WbGWcSxAsRfqTT",
+			"user_name": "RiotPulv",
+			"date_added": 1490116742
+		},
+		{
+			"follow_id": 7,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx",
+			"user_name": "ks",
+			"date_added": 1490121174
+		},
+		{
+			"follow_id": 8,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19M1DT5vruSATEcbEczYRwCk2uPuLcATBa",
+			"user_name": "Talnicrom",
+			"date_added": 1490121642
+		},
+		{
+			"follow_id": 9,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1K6HCsJskZENYG42GR7ocJXg9WjFbEq9hc",
+			"user_name": "Rapapobre",
+			"date_added": 1490175009
+		},
+		{
+			"follow_id": 10,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1DunM8CUWAxBcf3RWvweEke85AMqhVoTUs",
+			"user_name": "Facineroso",
+			"date_added": 1490175210
+		},
+		{
+			"follow_id": 11,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ",
+			"user_name": "Sirenyc",
+			"date_added": 1490175966
+		},
+		{
+			"follow_id": 12,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1KuwwnkAtVrfnyhv8pyGRxLqzNZbEkJt2u",
+			"user_name": "Lola",
+			"date_added": 1490176253
+		},
+		{
+			"follow_id": 13,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1Mzjg3DjFFiUBz42zZa9w9oM2Lf4vHeLK3",
+			"user_name": "Nextbit",
+			"date_added": 1490180817
+		},
+		{
+			"follow_id": 14,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1AWwhg4EiWAVttfQboJZ4wJfX3WawfJT3h",
+			"user_name": "Binchan",
+			"date_added": 1490189549
+		},
+		{
+			"follow_id": 15,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1F1kDrT693w8ATbcXV1wHmGSD6SpSY4f5L",
+			"user_name": "Bwoi",
+			"date_added": 1490200155
+		},
+		{
+			"follow_id": 16,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1EErpRfR94YZwEMpAwsGKYsgSqHuRxvWib",
+			"user_name": "megfault",
+			"date_added": 1490262451
+		},
+		{
+			"follow_id": 17,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1KN1Au7SRmeTmffcxxoyPABDpvqmq7iMbN",
+			"user_name": "Antilibrary",
+			"date_added": 1490292000
+		},
+		{
+			"follow_id": 18,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1JwPBvZYXLJzrA6YisjpsyTuuieFLCARS6",
+			"user_name": "Emeraude",
+			"date_added": 1490292104
+		},
+		{
+			"follow_id": 19,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18eGWSaM3Vc9i61LVfogjQJf5gp7EN7b9Y",
+			"user_name": "Rythyrix",
+			"date_added": 1490429389
+		},
+		{
+			"follow_id": 20,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV",
+			"user_name": "Mynameislegion",
+			"date_added": 1490429825
+		},
+		{
+			"follow_id": 21,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ",
+			"user_name": "Arsene Lupin",
+			"date_added": 1490568025
+		},
+		{
+			"follow_id": 22,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "1LWuc6JBhUGrKEAh1aPrPU85dEMcKmg3pS",
+			"user_name": "ZAlex",
+			"date_added": 1490626124
+		},
+		{
+			"follow_id": 23,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "1PSaHi14Xh4Kjo3yyjDgbRtj4YLQgWV4QJ",
+			"user_name": "ulrichard",
+			"date_added": 1490825705
+		},
+		{
+			"follow_id": 25,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1PGFKCfMSL1QdudndfYCo4mGM8E8XKzMMG",
+			"user_name": "Roberth Castaño",
+			"date_added": 1490993791
+		},
+		{
+			"follow_id": 26,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "1HsgWwGxmGsV1q8RPYvrT3uTs6FCQNPzdt",
+			"user_name": "disquisedBeemo",
+			"date_added": 1491319403
+		},
+		{
+			"follow_id": 27,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "18NrcMdtcpfn5h4XcfQAfouCspstq1jcW6",
+			"user_name": "Edycop",
+			"date_added": 1491840227
+		},
+		{
+			"follow_id": 28,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "16nArdxrSaNThNp83kL8E6NLL9WD98iUne",
+			"user_name": "Jayofthezero",
+			"date_added": 1492187410
+		},
+		{
+			"follow_id": 29,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "15XeFY67fYKCKxQPfeo246ELto2Gff1hAe",
+			"user_name": "Plasmmer",
+			"date_added": 1492586960
+		},
+		{
+			"follow_id": 30,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "1G9ZbF3XS9GKP1fvsrPhTUcSG1UTRR6azM",
+			"user_name": "Chocodum",
+			"date_added": 1492587609
+		},
+		{
+			"follow_id": 31,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy",
+			"user_name": "Glightstar",
+			"date_added": 1492596557
+		},
+		{
+			"follow_id": 32,
+			"hub": "1BLueGvui1GdbtsjcKqCf4F67uKfritG49",
+			"auth_address": "177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD",
+			"user_name": "Mkg20001",
+			"date_added": 1492614740
+		},
+		{
+			"follow_id": 33,
+			"hub": "12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv",
+			"auth_address": "12gAes6NzDS9E2q6Q1UXrpUdbPS6nvuBPu",
+			"user_name": "Krixano",
+			"date_added": 1492614902
+		},
+		{
+			"follow_id": 34,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "1KUDKLZJK89eKoLTrzi5vDUogfAs18cUWX",
+			"user_name": "Marcelo",
+			"date_added": 1492681039
+		},
+		{
+			"follow_id": 35,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "1DKs7LscyE7kt4SvrpqQBUmU5nuPkryJdP",
+			"user_name": "Snifferdog",
+			"date_added": 1492880670
+		},
+		{
+			"follow_id": 36,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "16esmH5mTmsJL4S5DW4dup5883xJh6GdDS",
+			"user_name": "Thecuriousnerd",
+			"date_added": 1493118111
+		},
+		{
+			"follow_id": 37,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1GgXbWMo4NkVQNKbLJFvEephA9rPLp9j2P",
+			"user_name": "Grahf",
+			"date_added": 1493448961
+		},
+		{
+			"follow_id": 38,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "18rNWN1si3s184kJSBfMc2CQbADRBXb7Lq",
+			"user_name": "Cyborgkg",
+			"date_added": 1494246100
+		}
+	]
+}

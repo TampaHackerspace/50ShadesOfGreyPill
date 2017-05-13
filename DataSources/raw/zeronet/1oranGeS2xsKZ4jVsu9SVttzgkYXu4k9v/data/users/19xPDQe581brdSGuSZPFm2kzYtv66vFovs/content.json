@@ -1,0 +1,28 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HFFV+9nr1lfMTes0XmPaG3Ce0kXxfTBR8H0LKyFvPYHbXZFeh7FQzpkGrLmSZtHdwwS37akJqtAokbFLS7SNJL0=",
+ "cert_user_id": "vindikato@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "bf929bb9a386264e1959f46aa1c5b1a3e1e2087c433a1972e8425a9ec6ffee9f",
+   "size": 1232
+  },
+  "data.json": {
+   "sha512": "3e1fa2918df1b713ec1cf5e0ac608ad42caba6e845d1d04aa60fa341d2d7472d",
+   "size": 732
+  }
+ },
+ "files_optional": {
+  "1488840695.jpg": {
+   "sha512": "e7243108e6371736bc7027ea9ff8b3977bf1db7e398aa61feed7aa80d6b4acc6",
+   "size": 75528
+  }
+ },
+ "inner_path": "data/users/19xPDQe581brdSGuSZPFm2kzYtv66vFovs/content.json",
+ "modified": 1488840834,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "19xPDQe581brdSGuSZPFm2kzYtv66vFovs": "HIwXJlDI5HQrxmj5pRml5OcQqJnSarLcZzIClEuz09VHUBtSqDxU7NeV2bEUSEmNQQkoASx8tz+RJWXiU8LewcA="
+ }
+}

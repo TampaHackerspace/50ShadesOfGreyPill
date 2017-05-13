@@ -1,0 +1,17 @@
+{
+ "address": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "cert_auth_type": "web",
+ "cert_sign": "HKBk0L0gflj8ahHvCOkTr8lv4pBsA99DDnS5ff+ooyWWwqRC2an6hjH4KFXLOjDHozhXRS4YPUoaygX7M8zGviI=",
+ "cert_user_id": "sibla@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "f247f6641e12923ba4ccb50db2cf24695a6860dc794b929d70968bf418367373",
+   "size": 519
+  }
+ },
+ "inner_path": "data/users/14au81eqqtRCgJ54amJgPB51CezZTcZshu/content.json",
+ "modified": 1484933924,
+ "signs": {
+  "14au81eqqtRCgJ54amJgPB51CezZTcZshu": "HAFptCgpoP8PTB2IqVyet21I+II8VnnHrD46ZAS7cmuP3L15fbHJUqFhxoXGZnEJ3DD/KAUl0SY6SBm9MPg/beA="
+ }
+}

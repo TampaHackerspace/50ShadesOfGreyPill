@@ -1,0 +1,39 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 1,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Luminous",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"intro": "Calling",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1491337588,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1491337677,
+			"body": "Initializing",
+			"date_added": 1491337675
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "14rucUYjYgdJ2QRfK3qbg8J4K9QoZ4EATi",
+			"user_name": "Luminous",
+			"date_added": 1491339074
+		},
+		{
+			"follow_id": 2,
+			"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+			"auth_address": "14K7EydgyeP84L1NKaAHBZTPQCev8BbqCy",
+			"user_name": "Glightstar",
+			"date_added": 1491339195
+		}
+	]
+}
