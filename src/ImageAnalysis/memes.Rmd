@@ -1,0 +1,44 @@
+---
+title: "Meme words"
+output: html_notebook
+---
+
+```{r}
+library(jsonlite)
+library(dplyr)
+library(tidytext)
+library(ggplot2)
+library(readr)
+library(stringr)
+
+
+my_stop_words <- data_frame(word = c("url", "http", "https", "score", "meme", "memes",
+                                     "description", "uploads",
+                                     "jpg", "media", "image", "images"))
+
+```
+
+```{r}
+path = '../ImageAnalysis/resources/SAMPLE.txt'
+
+imgtext <- read_file(path)
+imgtext <- str_replace_all(imgtext, "[\r\n]"," ")
+
+```
+
+```{r}
+data(stop_words)
+df = data_frame(line = 1:1, text = imgtext)
+df <- df %>% unnest_tokens(word, text)
+df <- df %>% anti_join(stop_words)
+df <- df %>% anti_join(my_stop_words)
+df %>% count(word, sort = TRUE)
+```
+
+```{r}
+library(wordcloud)
+
+df %>% count(word) %>%
+  with(wordcloud(word, n, max.words = 100))
+```
+
