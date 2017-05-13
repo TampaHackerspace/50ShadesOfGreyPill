@@ -20,7 +20,7 @@ my_stop_words <- data_frame(word = c("url", "http", "https", "score", "meme", "m
 ```
 
 ```{r}
-path <- '../../DataSources/raw/mastodon/SAMPLE.json'
+path <- '../../DataSources/raw/mastodon/SAMPLE_ALL.json'
 
 mtext <- read_file(path)
 mtext <- str_replace_all(mtext, "[\r\n]"," ")
