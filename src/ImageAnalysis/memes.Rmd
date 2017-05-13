@@ -19,7 +19,7 @@ my_stop_words <- data_frame(word = c("url", "http", "https", "score", "meme", "m
 ```
 
 ```{r}
-path = '../ImageAnalysis/resources/SAMPLE.txt'
+path = 'resources/SAMPLE.txt'
 
 mtext <- read_file(path)
 mtext <- str_replace_all(imgtext, "[\r\n]"," ")
@@ -38,6 +38,7 @@ word_count
 ```
 
 ```{r}
+library(wordcloud)
  word_count %>%
   with(wordcloud(word, n, max.words = 100))
 ```
