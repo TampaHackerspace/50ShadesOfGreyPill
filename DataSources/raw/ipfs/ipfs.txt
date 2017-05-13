@@ -1,0 +1,7 @@
+IPFS is a peer to peer torrent
+You need the hash to be able to grab the file, can't do an ls
+You can grab the file, get the EXIF and META for the file itself.
+
+Best to get is grab the IP of the person and build a profile based on who they are swarmed with.  You do this with ipfs id on the hash of the file, who was sending it.  Also, the ipfs id information will tell you what IPs they are broadcasting from.  If the IP matches in the ISP database, you can track from there as well.
+
+Note: Law states IP is not a person

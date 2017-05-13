@@ -1,0 +1,15 @@
+{
+	"ID": "QmSoLV4Bbm51jM9C4gDYZQ9Cy3U6aXMJDAbzgu2fzaDs64",
+	"PublicKey": "CAASogEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOcldU/W3RCd7LIkpJGM+G8AcvF8WLIenzPE6V+vRJupRne3j/wVamSQU24zR23a3+SUmqh3tpqlN+voDI0BuemBcW78h7J4N4Pwuyep3Jv1qkuYkpRcHt9nlo8fmaCYG7f8cs1D1eZKyeoJt0ZTtE+vHq+/7Rox51HBFbGapEo1AgMBAAE=",
+	"Addresses": [
+		"/ip4/127.0.0.1/tcp/8081/ws",
+		"/ip4/104.236.76.40/tcp/4001",
+		"/ip4/127.0.0.1/tcp/4001",
+		"/ip6/fcd8:a4e5:3af7:557e:72e5:f9d1:a599:e329/tcp/4001",
+		"/ip4/172.17.0.1/tcp/4001",
+		"/ip6/2604:a880:800:10::4a:5001/tcp/4001",
+		"/ip6/::1/tcp/4001"
+	],
+	"AgentVersion": "go-ipfs/0.4.9/51af72d",
+	"ProtocolVersion": "ipfs/0.1.0"
+}
