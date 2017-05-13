@@ -1,11 +1,12 @@
-# uses https://github.com/halcy/Mastodon.py
-# install by typing pip install Mastodon.py 
-
 import sys
 sys.path.append('c:/program files/anaconda3/lib/site-packages')
 import codecs
 import datetime
 import json
+
+# Useful Tools: https://r12a.github.io/apps/conversion/
+# 				https://translate.google.com/
+
 
 from mastodon.Mastodon import Mastodon
 from mastodon.streaming import StreamListener, MalformedEventError
