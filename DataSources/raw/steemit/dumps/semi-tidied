@@ -1,15 +1,3 @@
-Error in vapply(seq_along(mapped), function(i) {: values must be length 1,
- but FUN(X[[40]]) result is length 0
-Traceback:
-
-1. tryCatch({
- .     for (mime in getOption("jupyter.display_mimetypes")) {
- .         r <- mime2repr[[mime]](obj)
- .         if (!is.null(r))
- .             data[[mime]] <- r
- .     }
- . }, error = handle_error)
-
 $`andrarchy/if-you-want-to-support-steem-be-on-twitter`
 $id
 2685989
