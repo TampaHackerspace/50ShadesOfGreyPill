@@ -1,0 +1,15 @@
+{
+ "cert_auth_type": "web",
+ "cert_sign": "HAGEHic8cJNUPgq0J0LL01dXShLTsIl9i5Kvt6EX4W3kTzdLtjVxf3iQZtECyulIe3hvn5ZdBnycafqIAhrYHG8=",
+ "cert_user_id": "melic@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "fb78224516b9e733ea01b121ac287fe9193914767c31fad1ff3a43679118a698",
+   "size": 114
+  }
+ },
+ "modified": 1455570279.217,
+ "signs": {
+  "1BWsVpXFVzcpYwdgKhjCRuTx3xDTxyevKS": "G2fCaTwFXWtgtnqvF7A4YwGmqTOmDB00YCvV8UtwytngXWyIegnIs0Y9onJ7gjTRvN2IC/Rr5/1Q60QeG2iHS60="
+ }
+}

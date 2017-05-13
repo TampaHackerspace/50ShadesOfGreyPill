@@ -1,0 +1,33 @@
+{
+	"next_comment_id": 5,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "> [mod](#comment_2_1GCsW9TFfjDsvcdmKPADq1n8Q3ha72UtDQ): When I try to clone, it says \"This function is disabled on this proxy\"\n\nYou probably can't do it on a proxy - you should down load zeronet for your own machine. Check zeronet.io.",
+			"post_id": 3,
+			"date_added": 1457006483
+		},
+		{
+			"comment_id": 2,
+			"body": "Like bdodroid, I'm getting this error:\nInternal error: TypeError: 'bool' object has no attribute 'getitem'\nUiWebsocket.py line 98 > UiWebsocket.py line 174 > UiWebsocket.py line 311 > UiWebsocket.py line 277\n\nExcept, I did sign my site! Any idea what I'm doing wrong?",
+			"post_id": 46,
+			"date_added": 1458683508
+		},
+		{
+			"comment_id": 3,
+			"body": "> [nofish](#comment_67_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): You have to sign data/users/content.json\n\nI already did before moving on to that step. Tried it again now - no difference.",
+			"post_id": 46,
+			"date_added": 1458683930
+		},
+		{
+			"comment_id": 4,
+			"body": "> [insomniacity](#comment_3_19ALEdg4xnbXKKFacC93cKWUjiQRsjECoj): I already did before moving on to that step. Tried it again now - no difference.\n\nSigned it for a third time, bounced the server, it's working now.",
+			"post_id": 46,
+			"date_added": 1458684596
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"74": 1
+	}
+}

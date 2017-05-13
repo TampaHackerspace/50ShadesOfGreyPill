@@ -1,0 +1,21 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HF4wupyGri+ImutN6i75en7eAUpD2EWra+xYz//1vOV2tprOQaBt2R3v1OLHlHWNv4ykX0o3faG97kGYkdZp6ww=",
+ "cert_user_id": "sahuali@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "85bd34baafaf9972efcee9ee0c1da3e5518aca4c7f5db54a4ae2049e975d93bc",
+   "size": 2073
+  },
+  "data.json": {
+   "sha512": "d7ed32b4675b0e266d9e4d8c7591c8be394201c9732ee051019869454fc0cc0d",
+   "size": 916
+  }
+ },
+ "inner_path": "data/users/1LMB5rdBAPejtjUtGXhTenFPbHFk5kMgnC/content.json",
+ "modified": 1494524041,
+ "signs": {
+  "1LMB5rdBAPejtjUtGXhTenFPbHFk5kMgnC": "G+GWa70FR1Xl3pIB4sYmhDBfb0fEou1mU2jGFV9s0I0tdXGiigzLf1Z6X3yk74l+1W7BDoBSv/V5ZpnnQfoQJiQ="
+ }
+}

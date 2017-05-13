@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "G0TYqpGrZkaK9RVdGDYtXiL4xIRlKRYKUE5dQgssptQXVRMAc7RXUXCc3rtbJW5iED4Cd2L38saS+tmEAXhYiCY=",
+ "cert_user_id": "voom@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "e97b0cc9fe88e17208271c469584b2adbf67356bd4d433b3f307d2c95a1f22e4",
+   "size": 103
+  }
+ },
+ "inner_path": "data/users/1V8pALjEftEZUtGeXJfGz6n9LSJE6jewa/content.json",
+ "modified": 1459905106.84,
+ "signs": {
+  "1V8pALjEftEZUtGeXJfGz6n9LSJE6jewa": "G+nVrjXe64j0ejlVRtAyOSlV3XhQ1NV2gBjPsAraGGx+duR7nTNkQNE/Er1QRJL9UEMRsXjAdba/iFZMFiMgbAk="
+ }
+}

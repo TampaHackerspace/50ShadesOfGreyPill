@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HG99nmwoIKwKzXTeGAHdielZPkGyjQmVDXQZKYWu6SFZ0roHMU9R6edYQmaoTdru8a6Q716SSOiP2Bx2S5x2Z64=",
+ "cert_user_id": "dayman@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ac9d82779cc255fb45b201a8f38dee7cae5049bcf31f2f1c513f5df3c63f0d2f",
+   "size": 330
+  }
+ },
+ "inner_path": "data/users/1ELBjparWRzWWptstDfNtKyY2E5mHtL5J4/content.json",
+ "modified": 1475160620.678,
+ "signs": {
+  "1ELBjparWRzWWptstDfNtKyY2E5mHtL5J4": "Gz205L2MpUI9KwAWXLCnk0GNxJuS2h10eAsKsHdaUUkByjS74jsG00YCyC90ruymsHT4xq0srhTpytIHD1PW6yo="
+ }
+}

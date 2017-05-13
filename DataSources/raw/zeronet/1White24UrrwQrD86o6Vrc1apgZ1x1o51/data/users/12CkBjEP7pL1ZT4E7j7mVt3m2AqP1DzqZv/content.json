@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HDu9CP1TZgD3IZ7kqCgGv76osyo+ZnflZzGXKf8ze4QvDNKgjX6TUxkVHenup5kq8N8qV8VZ2JY5xPKXwSAoFDs=",
+ "cert_user_id": "vultra@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "90e1d7837c478daa49a23c099594e007cbff53eea997803aa8f74fc54c8d6989",
+   "size": 337
+  }
+ },
+ "inner_path": "data/users/12CkBjEP7pL1ZT4E7j7mVt3m2AqP1DzqZv/content.json",
+ "modified": 1494622799,
+ "signs": {
+  "12CkBjEP7pL1ZT4E7j7mVt3m2AqP1DzqZv": "G3yE/Ubwbp3Pbc+mAIy+g2m054NxyRABx/sdTMG7AowdI1/LuwuMaPTIKKbC210MBXti75nUPXlTjphdyHWW1Lo="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G3jZJBf4sTfZOhSTT0E6Q1Qhd4h4olV0zk23P/4nfBLcmyzb0glM9+mHvMOxp4rEFtfLxOIaaDbPS923n64hrVg=",
+ "cert_user_id": "dankorov@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ddd48be1c3beeb9b648895e6b2c3812017faa4937a51e100357f4617af638b44",
+   "size": 350
+  }
+ },
+ "inner_path": "data/users/1CPYtgEsE3G3pxpLe7355KaAfE8MWTjbwD/content.json",
+ "modified": 1493218353,
+ "signs": {
+  "1CPYtgEsE3G3pxpLe7355KaAfE8MWTjbwD": "G8stGCDOPcwlN+87dUyZMCKhaxo/CECEWcD1LXPG2MvYX0hxmJBgRLunx5pACFhUCSyhb1EBuG2YSwKPcmmtzYM="
+ }
+}

@@ -1,0 +1,81 @@
+{
+	"next_comment_id": 16,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Awesome job sir",
+			"post_id": 68,
+			"date_added": 1452000417
+		},
+		{
+			"comment_id": 6,
+			"body": "I dont understand how different profiles will connect to each other? Could other users write on your profile? Great job btw",
+			"post_id": 73,
+			"date_added": 1456409598
+		},
+		{
+			"comment_id": 7,
+			"body": "> [nofish](#comment_49_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The same was as you can comment on other people's ZeroBlog\n\nSo main site will give you authorization to build your own profile with your key and owner will have the ability to change the profiles?",
+			"post_id": 73,
+			"date_added": 1456567631
+		},
+		{
+			"comment_id": 8,
+			"body": "> [nofish](#comment_51_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yes it's storage/working mechanism is same: every profile will be a separate site (like ZeroBlog), the posts will be listed in one place (like the newsfeed on ZeroHello), the only thing that will be new is the merger site will has access to put new content to this, profile sites.\n\nSearch to user and user profiles would be enabled through main site? Also private encrypted messaging would implemented to this or users would use zeromail separately...Are sites like zerotalk would change also to support merging for example subreddits?",
+			"post_id": 73,
+			"date_added": 1456657534
+		},
+		{
+			"comment_id": 9,
+			"body": "> [nofish](#comment_53_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yes, user name -> profile address links will be stored in the merger site.\n> No built-in private messaging planned, so use ZeroMail\n> There is no need to merger sites for subreddits, because you don't need to interact with multiple subreddit in one page. Simply add a top bar with link to other zerotalk pages.\n\nOk thanks for the explanation! Gj",
+			"post_id": 73,
+			"date_added": 1456661083
+		},
+		{
+			"comment_id": 10,
+			"body": "One last though does seeding main site would mean that you would seed all the profiles or only those that you select and open?",
+			"post_id": 73,
+			"date_added": 1456695396
+		},
+		{
+			"comment_id": 11,
+			"body": "> [nofish](#comment_55_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Only what he/she select and open (want to follow), that's the point of merger sites: the site size/bandwidth usage will not increase with the number of users.\n\nThanks again",
+			"post_id": 73,
+			"date_added": 1456752754
+		},
+		{
+			"comment_id": 12,
+			"body": "Would the profile site have access to main merger site so it will be a 2-way communication. Profiles could feed main site and main site could feed profiles?",
+			"post_id": 73,
+			"date_added": 1456937817
+		},
+		{
+			"comment_id": 13,
+			"body": "Good job!",
+			"post_id": 75,
+			"date_added": 1457515408
+		},
+		{
+			"comment_id": 14,
+			"body": "Will merger enable pulling data from any site/hub? Thanks for your great work",
+			"post_id": 83,
+			"date_added": 1463153979
+		},
+		{
+			"comment_id": 15,
+			"body": "> [nofish](#comment_98_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The merger site will able to pull data from any site related to it. (eg. every display every content submitted on zerome profiles in one page)\n\nSo it will pull data inside the hub from sites as far as i understand. I think it will be cool if you can pull data from any site if owner allows it. This will enable cross-site messaging and more distributed content.",
+			"post_id": 83,
+			"date_added": 1463216385
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {},
+	"post_vote": {
+		"43": 1,
+		"68": 1,
+		"71": 1,
+		"80": 1,
+		"82": 1,
+		"83": 1
+	}
+}

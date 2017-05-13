@@ -1,0 +1,17 @@
+{
+ "address": "1NnopBFkeLnBUSAwcvxPCizSaqEnHFcEPH",
+ "cert_auth_type": "web",
+ "cert_sign": "HL4pubIgNubNVUu++1vuZY8CbqrVlX+w3jqaCIeGxZBg2RvkUMw5r7zv41k9LVVIz7qlBwHL3uGSgoukvP7FTCo=",
+ "cert_user_id": "elnormand@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "23b33fc707581e0fe0329433ab960e2e579cef87a957334e3ff8e946195d5c50",
+   "size": 383
+  }
+ },
+ "inner_path": "data/users/1wsuQQPTH5Ysaryn5d2ZMZJApmv7WwZ3w/content.json",
+ "modified": 1460570786.117,
+ "signs": {
+  "1wsuQQPTH5Ysaryn5d2ZMZJApmv7WwZ3w": "HJJIyfghZk+zSXktf6cUwl/ZPwrmgQplojVp1f0cMj22ONvmyPbe0y9Sefa7VZxXfHg3vD378VGhSSlGCV4Ofyk="
+ }
+}

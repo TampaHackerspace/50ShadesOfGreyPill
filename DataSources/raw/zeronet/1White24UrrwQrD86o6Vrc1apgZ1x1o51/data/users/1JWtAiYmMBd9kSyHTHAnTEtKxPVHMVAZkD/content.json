@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HGJCoQjsoQYjqDO2oVl2tYwuBRP4lq0xhye7QhxsxeuEXPPalzdba3/jZjItDOfotjg/T2O9xybvF1iXkrNwcJ4=",
+ "cert_user_id": "lemonface@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "b2a45ddd6466567f43709d22c63e075d97d98e8db6e0e77776d3124d2a0744fb",
+   "size": 1157
+  },
+  "data.json": {
+   "sha512": "4e9226ec6dff455eb5ac20661bc7366ca8ebf525d908e0d44b93d54eea2ca285",
+   "size": 538
+  }
+ },
+ "files_optional": {
+  "1492474578.jpg": {
+   "sha512": "e95a904e8820a357ab556dc447a12a2789d2f93bf91b11eb9a2181c3c9d5f831",
+   "size": 68355
+  }
+ },
+ "inner_path": "data/users/1JWtAiYmMBd9kSyHTHAnTEtKxPVHMVAZkD/content.json",
+ "modified": 1492474577,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1JWtAiYmMBd9kSyHTHAnTEtKxPVHMVAZkD": "G5MSoBp5NX3nf4snyk1yq2u4e24bWsUm8CxFIQ/H+TljDXLEf6vOjaenYhVM8gMKdl34n8SYFgvtOUyum2M98HI="
+ }
+}

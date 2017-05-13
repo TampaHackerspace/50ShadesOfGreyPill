@@ -1,0 +1,37 @@
+{
+	"next_comment_id": 5,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Good stuff. ",
+			"post_id": 82,
+			"date_added": 1461781900
+		},
+		{
+			"comment_id": 2,
+			"body": "\"Keep at least 5 connections per site\" \n\nDoes that mean, if I launch zeronet with the connection limit parameter (python zeronet.py --connected_limit 3), it will still try to keep at least 5 connections per site? ",
+			"post_id": 83,
+			"date_added": 1463048673
+		},
+		{
+			"comment_id": 3,
+			"body": "Nice presentation. Good job. ",
+			"post_id": 86,
+			"date_added": 1466201550
+		},
+		{
+			"comment_id": 4,
+			"body": "Sounds very interesting. \nEnjoy your well-deserved vacations! ☺",
+			"post_id": 87,
+			"date_added": 1467070236
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"81": 1,
+		"82": 1,
+		"83": 1,
+		"86": 1,
+		"87": 1
+	}
+}

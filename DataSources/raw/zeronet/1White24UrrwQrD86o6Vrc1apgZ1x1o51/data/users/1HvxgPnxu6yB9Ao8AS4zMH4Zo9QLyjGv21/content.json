@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "GxscnzPYpNduFqmI0f9Vs131tjz4HCvg4g6LcU0Nh5lr/cAQIf2gi1Rc68dD2bvhoyutn9Lr7R+rvJGSx8Izmng=",
+ "cert_user_id": "sickphone@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "10fe7a1bc1dc7db9daa079d64d9e286e80239769b0d843e04b778ec8a34165f6",
+   "size": 1308
+  },
+  "data.json": {
+   "sha512": "fc94adc28488abce94b48ecc9be6637211a3bf7eb591ae7f6592b3413a3ee043",
+   "size": 4839
+  }
+ },
+ "files_optional": {
+  "1492636394.jpg": {
+   "sha512": "216f3480406429b75c8fe1a18e2c56d89586fded994c49114b21ecc40d515465",
+   "size": 49589
+  }
+ },
+ "inner_path": "data/users/1HvxgPnxu6yB9Ao8AS4zMH4Zo9QLyjGv21/content.json",
+ "modified": 1493810121,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1HvxgPnxu6yB9Ao8AS4zMH4Zo9QLyjGv21": "HNZEH2PZxtHf5QdRhHCQ/MEJgVZ3NjZi85xq2hCooHDBeOkqqvVj8DJ0UcVHzh4CPOR12oXQ8FzfRwkUJ2WCDTw="
+ }
+}

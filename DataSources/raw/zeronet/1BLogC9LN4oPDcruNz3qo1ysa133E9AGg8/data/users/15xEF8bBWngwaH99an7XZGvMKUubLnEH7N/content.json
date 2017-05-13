@@ -1,0 +1,15 @@
+{
+  "cert_auth_type": "web", 
+  "cert_sign": "GwsmyuocFbDcYogiAAVXvgTYKup8wlWMar+I3c8q19uHqOBWpfjyApWZRqYhzA+eNWyLDbUdfQwpvbKWpW0Q6Ew=", 
+  "cert_user_id": "ffuser@zeroid.bit", 
+  "files": {
+    "data.json": {
+      "sha512": "7dc9be493e233af9973dbfdab8c61e05dc7e192bb2839e06b08005047979cfa6", 
+      "size": 172
+    }
+  }, 
+  "modified": 1432505476.603, 
+  "signs": {
+    "15xEF8bBWngwaH99an7XZGvMKUubLnEH7N": "G3FqMxMRkXoLbtmC6T31a85MFJWbW7aU33r48gC6PfFXeMnTQPAQ7CSDn9U+7hLtlN+Y68xAdWg06wunYAU7ZRg="
+  }
+}

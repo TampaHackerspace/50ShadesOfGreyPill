@@ -1,0 +1,21 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G5qkRP8tseZu14gafOZpOBIGaesB5d45Uxicc9zZr2fIkM62J1CQLoQ6ibY2Sk0bLEGYOycvYadK2bn8oAxWAAg=",
+ "cert_user_id": "blacksword@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "63d35fd56fdda717087d59f2a3d654c6faaffaad23cd7770f3e5a3dfbc0bd164",
+   "size": 112
+  },
+  "data.json": {
+   "sha512": "58275e11b1a96119946bbce0298a104bafdef35b8df80a96ba941e6351b978fd",
+   "size": 1279
+  }
+ },
+ "inner_path": "data/users/1GniThTYexEDVFaXqvM7rhgauB4jHbWrGZ/content.json",
+ "modified": 1494398034,
+ "signs": {
+  "1GniThTYexEDVFaXqvM7rhgauB4jHbWrGZ": "HJaVkblzZlLKLQxIyDdy4OXxGE2BRKq80YZqib18U622alR/l3r98lUP0u/pivwbCYdxQ47qgUCZD7OYoIAGpEU="
+ }
+}

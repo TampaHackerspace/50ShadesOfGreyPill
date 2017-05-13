@@ -1,0 +1,21 @@
+{
+ "address": "1UDbADib99KE9d3qZ87NqJF2QLTHmMkoV",
+ "cert_auth_type": "web",
+ "cert_sign": "G6wxwcA113hqRCbMmKy8U79jYGXe/AgWBPWekMqbjnKjKS2hF9Mca1iWJbr/5mJm1NwqIWPrdKBIlTD23FG0jDQ=",
+ "cert_user_id": "sampletestname@zeroid.bit",
+ "files": {},
+ "inner_path": "data/userdb/1KjVinSRmRGHBLj6f6YUV24LZ9ziUpxWrp/content.json",
+ "modified": 1488583983,
+ "signs": {
+  "1KjVinSRmRGHBLj6f6YUV24LZ9ziUpxWrp": "G59AxjVaXUv34gr20K6arghmwPVg3q4yNUTXADluVtQh7PKcjIpb+kZ/jRjS+7lCVNlc0f3YeoCRzk3y0DUv0Ik="
+ },
+ "user": [
+  {
+   "avatar": "generate",
+   "date_added": 1488583983,
+   "hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+   "intro": "Random ZeroNet user",
+   "user_name": "Sampletestname"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+	"next_comment_id": 4,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "ZeroNet (rev 1098) don't can open this a zerosite 'http://localhost/13ftsy9TJG1Ah8PBjcaPhJE35dAsn8zG1W/'. It tell that 'peers found: 23', but don't loaded content.json. Bug?",
+			"post_id": 79,
+			"date_added": 1459579176
+		},
+		{
+			"comment_id": 2,
+			"body": "It's no my site. I fouded it in 0List and tryed explored. Nothing loaded to my local disk :( ",
+			"post_id": 79,
+			"date_added": 1459586716
+		},
+		{
+			"comment_id": 3,
+			"body": "Thank. May be add check rules to Publish mechanizm? These rules should prevent such incidents. ",
+			"post_id": 79,
+			"date_added": 1459589351
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

@@ -1,0 +1,54 @@
+{
+	"next_comment_id": 8,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "It just says to open port 15441 when I try to create my own and publish it.\n\nI have that port open and portchecker.co says it's open to the internet too. What gives?",
+			"post_id": 3,
+			"date_added": 1447487765
+		},
+		{
+			"comment_id": 2,
+			"body": "> [cgm616](#comment_1_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn): It just says to open port 15441 when I try to create my own and publish it.\n> I have that port open and portchecker.co says it's open to the internet too. What gives?\n\nMy blog is http://127.0.0.1:43110/1N9pXXwAVadHQnFBj1DZhpdiHRva5Dix8b",
+			"post_id": 3,
+			"date_added": 1447487824
+		},
+		{
+			"comment_id": 3,
+			"body": "> [nofish](#comment_33_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Try restart zeronet to make it detect your port is opened. You can check it on http://127.0.0.1:43110/Stats page on first line it should be: Opened: True\n\nYeah, that worked. Thanks. Might want to have that in the error message.",
+			"post_id": 3,
+			"date_added": 1447543898
+		},
+		{
+			"comment_id": 4,
+			"body": "> [otoman](#comment_1_1QH84f44yLPvMjMua9s7iM7c4RoJNZ2nTp): Will you publish the source code of ZeroMail to GitHub?\n\nI sent nofish a ZeroMail about it and they said yes.",
+			"post_id": 65,
+			"date_added": 1449799301
+		},
+		{
+			"comment_id": 5,
+			"body": "Bit of a Charlie Brown christmas tree :)\nHappy holidays!",
+			"post_id": 67,
+			"date_added": 1451016315
+		},
+		{
+			"comment_id": 6,
+			"body": "> [nofish](#comment_39_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):.Using zeronet through a zeroproxy is not secure (the proxy able to read your private key) so it should be only used for testing. The https could be a \"false sense of security\".\n\nThis logic makes sense, but only kinda. I'd rather have only the proxy be able to see my private key than everyone that could possible MitM me see it.",
+			"post_id": 67,
+			"date_added": 1451945903
+		},
+		{
+			"comment_id": 7,
+			"body": "Sweet! Thanks, this is awesome. Just turned on Tor always. Will that seed to everyone else using tor and everyone else, or just one, or neither?\n\nEDIT: Posted this comment over Tor, and it's definitely a bit slower, but not really a problem. Only shared to 2 peers instead of the usual 5.",
+			"post_id": 68,
+			"date_added": 1451955234
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {},
+	"post_vote": {
+		"63": 1,
+		"64": 1,
+		"65": 1
+	}
+}

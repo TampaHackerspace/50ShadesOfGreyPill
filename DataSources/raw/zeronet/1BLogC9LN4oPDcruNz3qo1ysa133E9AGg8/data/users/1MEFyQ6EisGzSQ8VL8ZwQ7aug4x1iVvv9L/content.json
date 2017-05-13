@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HCCWDzUlb212L+iLtgcEik20DCXpUtO09Dd6whzookW6jKb2dHvVB3cgHaKvb1tY9nYSgWAHf4jgBgSchZ6lCtY=",
+ "cert_user_id": "tonythefrench@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "1239fa239fb8ee8d7290742e311d16062e86afc3329522be024d374c91869260",
+   "size": 358
+  }
+ },
+ "inner_path": "data/users/1MEFyQ6EisGzSQ8VL8ZwQ7aug4x1iVvv9L/content.json",
+ "modified": 1464124601.491419,
+ "signs": {
+  "1MEFyQ6EisGzSQ8VL8ZwQ7aug4x1iVvv9L": "GxgNpPSiWj6h25dKmDxaka29rbhZCs5puF/UraheTpb6/T7C+4hSZy4WVQX3N2EqH9Xb5XR6XyAN0SP9FPN7aBw="
+ }
+}

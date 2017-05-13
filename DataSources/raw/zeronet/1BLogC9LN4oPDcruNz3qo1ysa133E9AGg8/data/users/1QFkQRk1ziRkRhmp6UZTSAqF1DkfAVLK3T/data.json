@@ -1,0 +1,13 @@
+{
+	"next_comment_id": 2,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Hello! I know that this is not a good way to get in touch with you but I want to remain anonymous.  If you would like to discuss any of this further, you can reach me on BitMessage at `BM-2cTVzUvRsLLp1SUcXgkX7YxQ8FS7yJoAPM`.\n\nIn the current version of ZeroNet, I had to make some very minor changes to ContentManager.py in order to allow a user to sign a data.json without a certificate from a certificate provider.  Here are the changes that I made (diff output, where the changes are on the right `<` and the original code is on the left `>`)\n`274c274`\n`<         if not \"cert_user_id\" in content: # New file, unknown user`\n`---`\n`>         \"\"\"if not \"cert_user_name\" in content: # New file, unknown user`\n`276,277c276,277`\n`<             content[\"cert_user_id\"] = \"unknown@unknown\"`\n`<`         \n`---`\n`>             content[\"cert_user_name\"] = \"unknown@unknown\"`\n`>         \"\"\"`\n`307,308c307`\n`<         if \"cert_signers\" in user_contents:`\n`<             rules[\"cert_signers\"] = user_contents[\"cert_signers\"]  # Add valid cert signers`\n`---`\n`>         rules[\"cert_signers\"] = user_contents[\"cert_signers\"]  # Add valid cert signers`\n\nDo these changes introduce any security problems?  Is there a better way to achieve the same ends?  If it looks all right to you, will you include these changes (or equivalent) into the next version of ZeroNet?",
+			"post_id": 88,
+			"date_added": 1470580675
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

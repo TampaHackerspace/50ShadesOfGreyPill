@@ -1,0 +1,152 @@
+{
+	"next_comment_id": 25,
+	"user_name": "Rythyrix",
+	"hub": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Jayofthezero: Well, UNESCO came out as [against DRM](https://www.techdirt.com/articles/20170403/23575537077/unesco-says-adding-drm-to-html-is-very-bad-idea.shtml) being a part of the HTML5 spec, so there's that.",
+			"post_uri": "13Jh3aeZWYXjmzozCtTdFpUCdA5oKkePEx_1491517535",
+			"date_added": 1491535247
+		},
+		{
+			"comment_id": 2,
+			"body": "I am genuinely surprised no one else took the name.",
+			"post_uri": "1AKQyVvSwUAirXMhAGNeFYJB66ZgiZJyeE_1",
+			"date_added": 1491707311
+		},
+		{
+			"comment_id": 3,
+			"body": "Welcome back! What reminded you of ZeroNet's existence? It might explain all the new people I see joined ZeroMe recently.",
+			"post_uri": "1HxiFjyEUfLeqvXza7TqV1h4mpo167JnrL_1491794852",
+			"date_added": 1491797475
+		},
+		{
+			"comment_id": 4,
+			"body": "@Kaffie: Heretic identified; commencing purging. (Not really. Five seconds of googling netted me [this project last updated 2016-10-28](https://sourceforge.net/projects/mac4lin/) and [this one from 2010](https://www.gnome-look.org/content/show.php/Macbuntu?content=129021). Consider trying out Linux, probably quite familiar if you're used to the terminal.",
+			"post_uri": "19APmBDZBVPHNXw2eM5b7vBgzLiKG4U2ck_1492804935",
+			"date_added": 1492933177
+		},
+		{
+			"comment_id": 5,
+			"body": "How, precisely, do you achieve being edgy?\n\nI mean, you've got minor labor laws holding you back.",
+			"post_uri": "1KcmdPCgUxvdwoXAWksmjFJCCNdEUrGxw_1",
+			"date_added": 1492933585
+		},
+		{
+			"comment_id": 6,
+			"body": "@Kaffie: If you truly want to make the switch, read up on the differences between the distributions; Red Hat's Fedora and Enterprise Linux, Canonical's Ubuntu, The Debian Project's Debian, and Arch Linux are the big distros that spring to mind. If you're looking for convenience, Ubuntu is probably the best distro, it comes with the most drivers and software out of the box, including support for PowerPC processor architecture. On the other hand, if you have a machine that needs as many resources as possible, Arch Linux lets(forces) you to build your machine from the ground up, but as a result the computer is built for the task you specify. ",
+			"post_uri": "19APmBDZBVPHNXw2eM5b7vBgzLiKG4U2ck_1492804935",
+			"date_added": 1492934087
+		},
+		{
+			"comment_id": 7,
+			"body": "@Kaffie: I've never tried Arch; too much data/configuration time invested in Ubuntu to swap without a new hard drive to pick and choose what stays and what goes.",
+			"post_uri": "19APmBDZBVPHNXw2eM5b7vBgzLiKG4U2ck_1492804935",
+			"date_added": 1492935626
+		},
+		{
+			"comment_id": 8,
+			"body": "@Kaffie: The problem I have with liveboot USBs is twofold: longevity of storage medium and slow I/O. USB 2.0 just isn't fast enough to work well as anything other than word processing. I think that Arch is your best bet for your stated goals, but you could also try [Source Mage](http://sourcemage.org/) and [Gentoo](https://www.gentoo.org/). Both of them are source-built distros, with minor variations on where they get that source. As a result the distro ISOs are lightweight enough to get what you want, save lengthy migration time due to fetching/compilation for the new machine. Simplicity and customization appear at opposite ends of the spectrum, in my experience.",
+			"post_uri": "19APmBDZBVPHNXw2eM5b7vBgzLiKG4U2ck_1492804935",
+			"date_added": 1492937524
+		},
+		{
+			"comment_id": 9,
+			"body": "@Kaffie: You could potentially use virtual machines? Drop a file on a computer, bam, done. Still relies on the host machine having the VM software installed, though.",
+			"post_uri": "19APmBDZBVPHNXw2eM5b7vBgzLiKG4U2ck_1492804935",
+			"date_added": 1492947914
+		},
+		{
+			"comment_id": 10,
+			"body": "@Kaffie: I don't know; I'm getting good speeds on my VirtualBox of Ubuntu 16.04 host/14.04 guest. I suppose having 4+ gigs of RAM dedicated to it helps :P. It's still a good thing to look into, if you require portability at a greater need than speed.",
+			"post_uri": "19APmBDZBVPHNXw2eM5b7vBgzLiKG4U2ck_1492804935",
+			"date_added": 1492985135
+		},
+		{
+			"comment_id": 11,
+			"body": "This needs to be less accurate.",
+			"post_uri": "1PtrqEtVYC27F6JxWP5HgMrx7qGHJCHybt_1493069827",
+			"date_added": 1493080039
+		},
+		{
+			"comment_id": 12,
+			"body": "5 or 6?",
+			"post_uri": "1HxiFjyEUfLeqvXza7TqV1h4mpo167JnrL_1493699697",
+			"date_added": 1493699950
+		},
+		{
+			"comment_id": 13,
+			"body": "@Cablecat: Trying to make a pun, two common grades of Ethernet cables are CAT-5 and CAT-6.",
+			"post_uri": "1HxiFjyEUfLeqvXza7TqV1h4mpo167JnrL_1493699697",
+			"date_added": 1493705324
+		},
+		{
+			"comment_id": 14,
+			"body": "@Cablecat: The grade should be printed on the cable itself. There are some major internal differences between Cat5 and Cat6, which increases performance, such as the internal separator keeping different internal wires insulated from one another, enabling greater throughput. Typically, Ethernet cables will have their grade stamped on the cable itself. Follow the wire and look for text. Color coordination is based on the manufacturer, so don't rely on color guides. There's also differences in the plugs for the different grades, albeit very slight ones to facilitate backwards compatibility.",
+			"post_uri": "1HxiFjyEUfLeqvXza7TqV1h4mpo167JnrL_1493699697",
+			"date_added": 1493769551
+		},
+		{
+			"comment_id": 15,
+			"body": "To breed, Alien style.",
+			"post_uri": "15dMbdM7c2RT9RhNTJRqzc4vYSvrSJvxyG_1493725973",
+			"date_added": 1493769765
+		},
+		{
+			"comment_id": 16,
+			"body": "Automatic data deletion based on remote definitions? Win10 truly is malware.",
+			"post_uri": "1P3a9JfHqxEEiYCPTHSKDLcJgGGF5SVowg_1493846596",
+			"date_added": 1493847318
+		},
+		{
+			"comment_id": 17,
+			"body": "Back up the target machines ```users.json```, then copy over your old machines copy. Private keys are stored in it.",
+			"post_uri": "19UVE2Dcp8ADqx6aKFnXgNvCHuFngar81L_1493999660",
+			"date_added": 1494004032
+		},
+		{
+			"comment_id": 18,
+			"body": "This is the first time I have heard of such a thing. +1 to request.",
+			"post_uri": "19yRyR57LxFjbzieSEhvyvhe4heSo7KrLa_1494026821",
+			"date_added": 1494039551
+		},
+		{
+			"comment_id": 19,
+			"body": "@Ivesen: oh, its just little-endian, you'll be fine. Besides, it is best system, consistently decreasing in unit size, enabling easy ASCIIbetical sorting.",
+			"post_uri": "13ci8fybYjUf85ZqBdJRxjgNVrpLPmBQoT_1",
+			"date_added": 1494092145
+		},
+		{
+			"comment_id": 20,
+			"body": "@Ivesen: American-style ambiguity requires memorization of syntax, something that's been pounded into us since childhood. Look at the public schools. I personally find little-endian easier to read.",
+			"post_uri": "13ci8fybYjUf85ZqBdJRxjgNVrpLPmBQoT_1",
+			"date_added": 1494103579
+		},
+		{
+			"comment_id": 21,
+			"body": "@Ivesen: Not quite a palindrome for maximum ambiguity, like 101101.",
+			"post_uri": "13ci8fybYjUf85ZqBdJRxjgNVrpLPmBQoT_1",
+			"date_added": 1494107751
+		},
+		{
+			"comment_id": 22,
+			"body": "ZeroNet is available on Android, but not iOS. See [Mkg20001's repo](https://github.com/HelloZeroNet/ZeroNet-kivy?files=1) for tutorial and releases.",
+			"post_uri": "1CdwZ24MZhBc2XNT2vAjk2MQjJuEnybP5W_1494251215",
+			"date_added": 1494271332
+		},
+		{
+			"comment_id": 23,
+			"body": "@Btanime: The FCC is attempting to use the debate fatigue induced by the current year to gut the net neutrality rules put in place in 2015. This is a very bad thing for everyone not in control of the networks they use, i.e. everybody. See @Ivesen: 's [post](Me.ZeroNetwork.bit/?Post/12h51ug6CcntU2aiBjhP8Ns2e5VypbWWtv/1NmkVyqBJX6a82YQFYkCNgQpE9AWsmeppp/1494248867) for more, and be sure to spread the word. Especially telling people how to yell at the FCC.",
+			"post_uri": "1MfNQew2dZbUg2uTJKuLYPqJ8Y6DKDvUWa_1",
+			"date_added": 1494293372
+		},
+		{
+			"comment_id": 24,
+			"body": "Your account is stored under ```ZeroNet/data/users.json```. If anyone gets this file, they can impersonate you. Be careful when transferring and storing the file.  To use multiple devices under the same ID, set up ZeroNet on the new device, but do not obtain a new ZeroID or anything else you don't want to lose. Then, copy the ```users.json``` from your old machine to the new one, preferably encrypting the file before transferring and decrypting it only on the target device. The ```users.json``` file that was generated when ZeroNet was set up on the target machine need not be saved unless you have data you wish to keep under that account.",
+			"post_uri": "1LEYcMXRPp3X68yirkXGS7xTTx2apCUAFD_1494515441",
+			"date_added": 1494541910
+		}
+	]
+}

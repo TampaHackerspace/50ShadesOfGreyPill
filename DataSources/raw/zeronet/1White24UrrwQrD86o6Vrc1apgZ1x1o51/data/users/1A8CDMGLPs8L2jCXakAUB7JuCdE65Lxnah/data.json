@@ -1,0 +1,27 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 1,
+	"next_follow_id": 3,
+	"avatar": "jpg",
+	"user_name": "Dude0",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"intro": "that's just like, your opinion, man",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1493529223,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 2,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "1A8CDMGLPs8L2jCXakAUB7JuCdE65Lxnah",
+			"user_name": "Dude0",
+			"date_added": 1493553687
+		}
+	]
+}

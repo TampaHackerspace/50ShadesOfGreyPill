@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HAHTc3nJUThpPXAQrmcYUtE1p2nL8i3ojeLKD4GAJdRoDbk8RO6vNeYgXQKcfOmKYbpc5F2uxZVgnzB8h1FvUf8=",
+ "cert_user_id": "snifferdog@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "48b52ac9fcd3026e4e8f8b517a3d73d95d0396146214e1dfa0d98a37968d954e",
+   "size": 1515
+  },
+  "data.json": {
+   "sha512": "3fd1e500ab4cc2af8d8f60eabf5d1e4e4dba3eb88346a8297f2252a5164931b2",
+   "size": 2925
+  }
+ },
+ "files_optional": {
+  "1491943307.jpg": {
+   "sha512": "64d0d9232f2a50b4a5881d4373de27d54e85ce2d89d40f4eccf781592087e6c1",
+   "size": 50076
+  }
+ },
+ "inner_path": "data/users/1DKs7LscyE7kt4SvrpqQBUmU5nuPkryJdP/content.json",
+ "modified": 1492878254,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1DKs7LscyE7kt4SvrpqQBUmU5nuPkryJdP": "G5UTzc6xWvvO8VNhx14fqSKpjMnwJgO3zBdM6eOrG6UDGH9V9hYcvLKhkUDIlNBbyy3XYCtD4q1z0yOFcQm4An0="
+ }
+}

@@ -1,0 +1,13 @@
+{
+	"next_comment_id": 2,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Any chance that JavaScript might not be required in some future update? JavaScript is very powerful, but it also opens up a lot of security concerns that could be exploited with zero-days or out-dated user software by increasing the attack surface. If it were possible to use most of the sites without it fewer users would be exposed to those risks.\n\nhttps://nodesecurity.io/advisories\nhttps://www.veracode.com/security/javascript-security\nhttps://en.wikipedia.org/wiki/JavaScript#Security\nhttps://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/ - Search \"JavaScript\"\n\nThanks for adding Tor support. I am hoping someone might get it working on Whonix and Tails as well. That might require more than just tutorials and documentation, as both systems have unique ways of interacting with the Tor network, and running hidden services could be tricky if you don't want to be routing it through an extra layer of three nodes. I look forward to I2P as well.",
+			"post_id": 70,
+			"date_added": 1454770649
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

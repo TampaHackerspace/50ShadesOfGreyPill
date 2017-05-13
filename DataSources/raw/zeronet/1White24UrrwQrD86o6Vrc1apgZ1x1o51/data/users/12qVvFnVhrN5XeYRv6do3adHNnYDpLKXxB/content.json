@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HHmuNVaIryouAAQRAtV1SJ/nwho6ikafANTSxVWRs1XgtP0VqfITzj9ietRuOTTihYoCMMDaKnMHmgvIHbix/A8=",
+ "cert_user_id": "pensive@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "2033cafdd12164371faca122e75395ff00901b3890171f7216850a3c185f0426",
+   "size": 1945
+  }
+ },
+ "files_optional": {
+  "1494408237.jpg": {
+   "sha512": "969ea5619e55a6010a1e3f54e52a5b9f4d999d3527ae803788ac86ada2830b61",
+   "size": 29551
+  },
+  "1494408254.jpg": {
+   "sha512": "5f51e797b6e716a3d4afd72821f3c02f08f6ddacf94e070737465915409ab7c5",
+   "size": 36785
+  }
+ },
+ "inner_path": "data/users/12qVvFnVhrN5XeYRv6do3adHNnYDpLKXxB/content.json",
+ "modified": 1494574566,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "12qVvFnVhrN5XeYRv6do3adHNnYDpLKXxB": "G2wRtfu/MCNqqI1rUeVhI7pybZ00ZanScLQylcNvMiAHTlAmy0gMaLyD5kklYSHRM8X0d6bdZ3WguX325bN/P48="
+ }
+}

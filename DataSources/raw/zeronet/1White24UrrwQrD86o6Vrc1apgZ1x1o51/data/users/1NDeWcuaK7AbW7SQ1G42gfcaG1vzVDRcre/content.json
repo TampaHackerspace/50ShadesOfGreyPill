@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HAAYyUjBKMKO0uxQaCGkQ+TLU1q+EQMvwL8udCUE/CXivjGZrZZrXSXQuV/8cF37puZ2ZhcAzUx5pWh2gDYwjVM=",
+ "cert_user_id": "cybermax@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "ecff94c8c51f247ce041c2fbb2d878a6c0bbaa074a5bc887adb4ebb814fe06db",
+   "size": 1310
+  }
+ },
+ "inner_path": "data/users/1NDeWcuaK7AbW7SQ1G42gfcaG1vzVDRcre/content.json",
+ "modified": 1494484859,
+ "signs": {
+  "1NDeWcuaK7AbW7SQ1G42gfcaG1vzVDRcre": "G+OuJlh9sEro7VMYXQ8tTokRaNOvRXovD+nY7mOFgEdeEhn6ohs9NhmXH6l9Vwp2wZ0B5VNertU10ew780moWUg="
+ }
+}

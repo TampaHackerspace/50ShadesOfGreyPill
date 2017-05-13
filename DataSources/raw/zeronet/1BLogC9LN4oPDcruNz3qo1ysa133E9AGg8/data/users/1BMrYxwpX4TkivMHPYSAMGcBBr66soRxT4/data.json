@@ -1,0 +1,23 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Hi Tamas, \n\nI read somewhere in distributed circles that your demo at decentralized web conf was the highlight. So I looked up zeronet, I got it installed, and was amazed at how quickly it all got working. Good work, sir! I'm looking forward to the social networking application you're working on.\n\nBest,\nEv Bogue -- http://evbogue.com/",
+			"post_id": 86,
+			"date_added": 1465959229
+		},
+		{
+			"comment_id": 2,
+			"body": "> [nofish](#comment_105_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I'm glad it worked for you, I'm still looking for better solution for mac machines (without the signiture warning), I would be thankful if anyone would able to help me on it. Gtihub issue\n> \n\nI should have mentioned I'm using Arch Linux. I used the aur.archlinux.org packagebuild, and it 'just worked'. \n\nYou could always install Arch Linux on your Mac, I did Arch on a Mac for awhile in 2013 before I moved to disposable PC hardware. Grabbing an inexpensive PC can also work, then you can use the Mac for fancy Mac stuff and the PC for experimental dev work.\n\nObviously the Github issue should be fixed and closed as well. Calling all Mac Geniuses!",
+			"post_id": 86,
+			"date_added": 1466005224
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"86": 1,
+		"87": 1,
+		"89": 1
+	}
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HKbJ6HI8nql8IhjzDacXAGsyg70ks1vJAzS50sfnsNG/4uoeM7NAgSz4wVQrEF9QMG/UquZ9asfki0LQHdU/sig=",
+ "cert_user_id": "walterisidiot@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "14beab90d77d1ac1ce7e5e11901757473c090b4a516333c80eabb4407c566a11",
+   "size": 357
+  }
+ },
+ "inner_path": "data/users/16tUTN64pB8UabgcDh28e6jPqs6VjkKLBN/content.json",
+ "modified": 1493571542,
+ "signs": {
+  "16tUTN64pB8UabgcDh28e6jPqs6VjkKLBN": "HCAVtmU0m0T2D3LxXUJhH4Bw+4t1zHc2zVarMqH6+WUmEmIVMA87Jc3ZLU9hk4Ekhlj6Y37+w3bnzAY/Jdf/ub8="
+ }
+}

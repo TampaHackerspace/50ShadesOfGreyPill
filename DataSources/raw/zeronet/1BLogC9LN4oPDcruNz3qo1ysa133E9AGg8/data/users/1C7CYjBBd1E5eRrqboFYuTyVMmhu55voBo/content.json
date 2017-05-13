@@ -1,0 +1,15 @@
+{
+ "cert_auth_type": "web", 
+ "cert_sign": "G2G7SuXNY8mLSvU3uVawcxOXkhqYLSdRX7EtC+I0uXME08MSR/B00gUgoz71ca2UOdcWYbKRPFbLm7kDbjQsUHY=", 
+ "cert_user_id": "tesla@zeroid.bit", 
+ "files": {
+  "data.json": {
+   "sha512": "626f4710d8bbd7e9f90f05128e42c78c623d39f1b5dd265ff350081e71a66916", 
+   "size": 114
+  }
+ }, 
+ "modified": 1447934000.110461, 
+ "signs": {
+  "1C7CYjBBd1E5eRrqboFYuTyVMmhu55voBo": "G2M5FQnu8G4XkXafU21Og2JEocq1SVDQTFZ1GTbm9BLJeHIP+BJcLhizl3Rxp5u1re3OJD/JVmFNTJtUO1KhbNw="
+ }
+}

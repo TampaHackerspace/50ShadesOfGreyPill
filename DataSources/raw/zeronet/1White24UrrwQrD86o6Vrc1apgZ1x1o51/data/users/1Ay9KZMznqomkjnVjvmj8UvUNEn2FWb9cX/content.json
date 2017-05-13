@@ -1,0 +1,21 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "Gw4B0ebKpJ4c+uGwtL3AOXsQTFmV6JXvZE4QAxbJzLvJlXFTWsnYK7wBnkOQYeFWwUzwBpmTkgSyaP7klkHIbgA=",
+ "cert_user_id": "whistle@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "1e9325127704f22154e52a41f90f6972bd4aea55526f61980d80133e2cdc0117",
+   "size": 1046
+  },
+  "data.json": {
+   "sha512": "b7eb6be0840b9240e7077bfc4ccec1d8389d3f2cfecc752d7d81ce35ce547c48",
+   "size": 585
+  }
+ },
+ "inner_path": "data/users/1Ay9KZMznqomkjnVjvmj8UvUNEn2FWb9cX/content.json",
+ "modified": 1494166880,
+ "signs": {
+  "1Ay9KZMznqomkjnVjvmj8UvUNEn2FWb9cX": "HAxYtACskUNHzoCBfebnc1YUxNWpsC21u5Yh8TY2YU77DqzJGBdQuLsQOeVO98IjEAaCHtBQNfGFoNfiS4C0I0I="
+ }
+}

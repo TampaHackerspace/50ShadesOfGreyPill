@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HIp3X1Rgd0nPe+p72Wcuxr3SM3t0co8gn8cL7u/+9ehdj1v5HevV5/XJ5zKKjO1cFvrDSUovJ3yYLxWceGahiV0=",
+ "cert_user_id": "pycole@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "4170fd46e20403b7c4410c4fdd733f3d7c6a69eb6e5514add5bfea5c5d95f29c",
+   "size": 3936
+  }
+ },
+ "inner_path": "data/users/1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH/content.json",
+ "modified": 1461083139.992,
+ "signs": {
+  "1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH": "G4mPEwZRYs1B02QZmos4jWLHdegs/kIpXnmsf14I7/ayuObbiwNRf3CvVt/tedjlmVD2c893vM34wTDzAoYwA6s="
+ }
+}

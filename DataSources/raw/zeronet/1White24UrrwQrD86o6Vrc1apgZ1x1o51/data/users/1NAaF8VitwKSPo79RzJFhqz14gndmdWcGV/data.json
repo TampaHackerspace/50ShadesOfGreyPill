@@ -1,0 +1,20 @@
+{
+	"next_comment_id": 3,
+	"user_name": "Mynameislegion",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "User data are saved in several hubs. When you don't seed a hub, you don't see the content in that hub.\n\nYou are encouraged to join only one hub. ZeroMe lacks the function to export posts. It is not easy to copy or move your data to another hub. On the other hand, you save disk space for the seeders.\n\nIn each hub, ZeroNet creates a separate folder for each user, identified by public keys. In each folder, all of the posts of a user are saved in a single data.json. This kind of data structure ensures availability, as when you get the data.json, you get all of the things from a user.\n\nThe hub owner takes control of your quota. If you are a productive writer and your posts are meaningful and popular, hub owners are very willing to increase your quota as you post.\n\nBut in some cases, when content accumulates, it appears ineffective to save all of the content: for example you don't want to save all of the non-meaningful \"sh*tposts\" of a very active user. The good news is, when the hub owner decided NOT to increase the size quota for an active user, this user will try to remove trivial posts to save space.\n\nZeroMe does not have the function of defining \"optional\" posts, yet. I believe this will be useful for productive writers, but can be abused by spammers.",
+			"post_uri": "1PJgt6dxQ6R9cMDSfEQxdsRCevW3S9cucm_1491549199",
+			"date_added": 1491551344
+		},
+		{
+			"comment_id": 2,
+			"body": "@Border0464fred: Good question - I don't know... ",
+			"post_uri": "1PJgt6dxQ6R9cMDSfEQxdsRCevW3S9cucm_1491549199",
+			"date_added": 1491643914
+		}
+	]
+}

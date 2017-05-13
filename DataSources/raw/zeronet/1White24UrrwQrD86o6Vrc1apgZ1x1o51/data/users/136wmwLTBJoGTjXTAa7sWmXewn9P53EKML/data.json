@@ -1,0 +1,61 @@
+{
+	"next_post_id": 8,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "png",
+	"user_name": "Zero News",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"intro": "One of the first news sites in ZeroNet.\n\n* [Official site](http://127.0.0.1:43110/zeronews.bit/)",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1492016921,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1492022274,
+			"body": "ZeroMe started today receiving users that only do \"funny\" posts.\nIsn't known if these profiles are from the same person or from a group.\n@Humor: was the first, about a few days.",
+			"date_added": 1492022272
+		},
+		{
+			"post_id": 1492124881,
+			"body": "\"ZeroMe Alpha\" by @Plasmmer: shows new features for ZeroMe.\nhttp://127.0.0.1:43110/me.plasmmer.bit/",
+			"date_added": 1492124878
+		},
+		{
+			"post_id": 1492165408,
+			"body": "ZeroNet version 0.5.4 was released.",
+			"date_added": 1492165404,
+			"meta": "{\"img\":\"900,299,deebecded5c86c89dbeeecedbdc,011111111213343343356777787770\"}"
+		},
+		{
+			"post_id": 1492992517,
+			"body": "Kaffiene is now open-source. [Read the article](http://127.0.0.1:43110/zeronews.bit/?Post:4:Kaffiene+is+now+open-source).",
+			"date_added": 1492992511
+		},
+		{
+			"post_id": 1493491325,
+			"body": "# How the LBRY:// protocol can replace services like Youtube, Spotify, iStockphoto and Amazon Kindle\n\n* [Read the article](https://steemit.com/lbry/@rouse/how-the-lbry-protocol-can-replace-services-like-youtube-spotify-istockphoto-and-amazon-kindle).",
+			"date_added": 1493491318
+		}
+	],
+	"bgColor": "#17357c",
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Flyman: In the general timeline, they are above this post.",
+			"post_uri": "136wmwLTBJoGTjXTAa7sWmXewn9P53EKML_1492022274",
+			"date_added": 1492251499
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "136wmwLTBJoGTjXTAa7sWmXewn9P53EKML",
+			"user_name": "Zero News",
+			"date_added": 1492034780
+		}
+	]
+}

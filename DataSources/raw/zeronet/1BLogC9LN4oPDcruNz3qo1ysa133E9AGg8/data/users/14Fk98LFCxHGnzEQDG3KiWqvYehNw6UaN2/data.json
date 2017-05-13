@@ -1,0 +1,31 @@
+{
+	"next_comment_id": 5,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "> [eventi](#comment_1_1DcDDitsjFJohvwonPmpibRChmA7uGxqL7): I had to install coffee-script (mac) and compile:\n> npm -g install coffee-scriptcd js/coffee --compile --join all.js -- lib/ZeroFrame.coffee ZeroChat.coffee\n\nThanks this helped!",
+			"post_id": 43,
+			"date_added": 1458339318
+		},
+		{
+			"comment_id": 2,
+			"body": "You should probably remove the \"(coming soon)\" text at the bottom.",
+			"post_id": 43,
+			"date_added": 1458340037
+		},
+		{
+			"comment_id": 3,
+			"body": "CTRL + F: To make it work add a function to js/ZeroChat.coffe that displays the certificate selection dialog to user:\n\nZeroChat.coffe --> ZeroChat.coffee",
+			"post_id": 46,
+			"date_added": 1458340083
+		},
+		{
+			"comment_id": 4,
+			"body": "Sweet!",
+			"post_id": 79,
+			"date_added": 1459373683
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

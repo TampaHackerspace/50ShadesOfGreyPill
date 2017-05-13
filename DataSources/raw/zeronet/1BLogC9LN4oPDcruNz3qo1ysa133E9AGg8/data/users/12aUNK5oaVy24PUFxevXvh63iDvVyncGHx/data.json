@@ -1,0 +1,22 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Awesome, thanks!",
+			"post_id": 92,
+			"date_added": 1473127152
+		},
+		{
+			"comment_id": 2,
+			"body": "I've been doing the same with a raspberry pi. The only problem is that people keep linking to 127.0.0.1:43110 when they link to a zeronet site which obviously doesn't work unless you do port forwarding. There are a couple of plugins for chrome that help but nothing that's perfect yet.",
+			"post_id": 94,
+			"date_added": 1474323677
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"92": 1,
+		"97": 1
+	}
+}

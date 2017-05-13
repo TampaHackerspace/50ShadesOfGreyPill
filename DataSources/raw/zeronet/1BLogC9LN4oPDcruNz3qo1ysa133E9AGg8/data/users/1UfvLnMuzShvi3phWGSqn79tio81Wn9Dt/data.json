@@ -1,0 +1,48 @@
+{
+	"next_comment_id": 8,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "赞，这样博客就可以互动评论啦^_^",
+			"post_id": 39,
+			"date_added": 1433243309
+		},
+		{
+			"comment_id": 2,
+			"body": "新官网设计挺赞的^_^",
+			"post_id": 41,
+			"date_added": 1433250715
+		},
+		{
+			"comment_id": 3,
+			"body": "好消息，这样就可以很方便地创建处于自己的博客了^_^\n我的博客地址：http://127.0.0.1:43110/12ygu8wKLgAyK5u7fScYDsubRXHAHUoFQL",
+			"post_id": 3,
+			"date_added": 1438263093
+		},
+		{
+			"comment_id": 4,
+			"body": "> [p2p](#comment_7_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): do u remember http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:2@62/Start+a+new+site+using+Tor+can+you+see+my+sitei've succeeded in publishing a new site using Tor. it said\"Site:16ynw3..PJ3K Publishing to 20/8 peers...Site:16ynw3..PJ3K [FAILED] 95...:15441: NoneSite:16ynw3..PJ3K [FAILED] 77...:15441: None...\"but this time using web UI, it said \"Publishing to 0/0 peers...\" and even no [FAILED] message. so i think it is a bug. did u forget to remove a limit in ZeroBlog's source code? remember the \"Port not opened, passive publishing not support yet\" limit?BTW, my new clone site is http://127.0.0.1:43110/12uk9Nz7UxaKvhCgEQ6drECXaHzBVzWhhu/if u access the site and u have a open port, u will be a node which i can publish to using Tor. THX!\n> Edit:\n> Site:12uk9N..Whhu Publishing to 1/1 peers...Site:12uk9N..Whhu Successfuly published to 1 peers,WOW! succeed! thanks to the node.its NOT a bug. we should tell someone else (who have a open port ) our site address before we publish using Tor.\n\nhttp://127.0.0.1:43110/12uk9Nz7UxaKvhCgEQ6drECXaHzBVzWhhu/\nNO PEERS FOUND",
+			"post_id": 42,
+			"date_added": 1438311141
+		},
+		{
+			"comment_id": 5,
+			"body": "如果有人将每次的ZeroNet的博客翻译成中文就好了，希望有志愿者出现^_^",
+			"post_id": 47,
+			"date_added": 1438325764
+		},
+		{
+			"comment_id": 6,
+			"body": "如何更改博客名称呢？",
+			"post_id": 3,
+			"date_added": 1439003652
+		},
+		{
+			"comment_id": 7,
+			"body": "> [p2p](#comment_9_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): where is GeoLite2 City database hosted? download is slow, and seems failed.\n\n你现在安装测试成功了吗？",
+			"post_id": 50,
+			"date_added": 1439777564
+		}
+	],
+	"comment_vote": {}
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "Gzm1xWREFVH9yLdYX5O4Lvg4Bhq/Q5QsPkBufnJgUEZZdT0TRct37tlTIlhQxXPgyt87jN2LywE4BlfZZzXgUds=",
+ "cert_user_id": "thoughtcrime@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "0750c761326d6cca7475e1f7f1bfc6ab2b3ea905549b3ca5592db01af8fac642",
+   "size": 182
+  }
+ },
+ "inner_path": "data/users/1CQ2rCSbuSxkeDcrvBu1wvkUSg8233tAUu/content.json",
+ "modified": 1474436745.649,
+ "signs": {
+  "1CQ2rCSbuSxkeDcrvBu1wvkUSg8233tAUu": "G1ZiSRdAF6OPpp+Dl25HptG98Dpsp96xHSR//2el+qvtYQ5ZEwcOawIpNkN9ijZGMFkQ/zi9NdTc+samqvYHVhQ="
+ }
+}

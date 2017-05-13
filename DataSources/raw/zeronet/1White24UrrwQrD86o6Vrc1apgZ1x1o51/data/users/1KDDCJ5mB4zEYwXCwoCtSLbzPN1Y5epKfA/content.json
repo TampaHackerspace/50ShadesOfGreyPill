@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HEIHs4jLU0TXUsHmUOSkRciBLkAGQ+GXMGev+EMMunitJKvQBcN1ccHNpKiP5WOIIMwHEk2FDrTpmpirzkCvzlI=",
+ "cert_user_id": "gabes@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "23b47fc07607773aed0c6ab423399560bc7562ff4573e30f143a1517d75b3aa9",
+   "size": 336
+  }
+ },
+ "inner_path": "data/users/1KDDCJ5mB4zEYwXCwoCtSLbzPN1Y5epKfA/content.json",
+ "modified": 1492712488,
+ "signs": {
+  "1KDDCJ5mB4zEYwXCwoCtSLbzPN1Y5epKfA": "HEOFkQEBNgLcmSDdMsbWdveWUhV7OHZObMXVZWV/pwN1G/LGmav+wd7hSPS5G0WgRCV8aC7DSLNBmSv8+qSC6ZU="
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "address": "1EqoXBvHXSh9WBBK29uCktCuLDPgdbk3gE",
+ "description": "",
+ "domain": "zerofind.bit",
+ "files": {
+  "index.html": {
+   "sha512": "84a2e321b7e169733535d465b0ef645949ceda67a26449656389401b9e08a76c",
+   "size": 3947
+  }
+ },
+ "ignore": "",
+ "inner_path": "content.json",
+ "modified": 1461411994.708785,
+ "postmessage_nonce_security": true,
+ "sign": [
+  112237904235515446373447154412634948494039472461060322090652464217057731458024,
+  21547572484282886262207404064540024239623829099916805369730145029984984125217
+ ],
+ "signers_sign": "HO6aleX2O+sz4XYc1M3ReuO+HxTyLjI0545aQglocz+bDTDyeEV9U9KGknTZl6UXdLeU0cn7jm9xnfWDLAu6W9Y=",
+ "signs": {
+  "1EqoXBvHXSh9WBBK29uCktCuLDPgdbk3gE": "G87VI/FyMNe3CHicRSiZCW5U+C/sQgeF1azn0RKmetM9/8QWeZVcmyLma5JGv4Acn0eaobdEVW/qqbbQ9kxZbHI="
+ },
+ "signs_required": 1,
+ "title": "ZeroFind",
+ "zeronet_version": "0.3.7"
+}

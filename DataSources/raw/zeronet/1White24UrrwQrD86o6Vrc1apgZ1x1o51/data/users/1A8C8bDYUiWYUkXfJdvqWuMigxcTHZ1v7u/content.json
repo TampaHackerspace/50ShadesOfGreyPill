@@ -1,0 +1,44 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HJUrULBHHJ7dU+obaA9vE8KTe+YNEjTdY1MEl4k3k/6BRDxKTAm7yMdbh7vLzmBaqaeBqaSET/IbzaLvsN3uJ18=",
+ "cert_user_id": "anonmolly@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "7d481570ecab7f3a4288a85aad1453728f005691b92632c00040f4803f31f39e",
+   "size": 1714
+  },
+  "data.json": {
+   "sha512": "faed3a72f0c7ba14704401933da81cf552df1f54c2fe5f8d295f4bce06f924cb",
+   "size": 2411
+  }
+ },
+ "files_optional": {
+  "1492085307.jpg": {
+   "sha512": "706bbf9741a299ff1592ef30687e7a96ff2087f89ce3328dfa9cd165441b3da1",
+   "size": 80445
+  },
+  "1492086092.jpg": {
+   "sha512": "fdc885e31261bbd10b12a4071fd5b91fbcb4a53327086037c7fd0c2f60b4eb77",
+   "size": 126133
+  },
+  "1492130475.jpg": {
+   "sha512": "dba1f9699dcb71a39c248e72762f54f5766c6a68aca32428ea2e516e563119f9",
+   "size": 195209
+  },
+  "1492404436.jpg": {
+   "sha512": "c470b2d8647ef3fba6e2e529827fce5f8115b7cc120ada9df013caffdb32f2f3",
+   "size": 89703
+  },
+  "1492504183.jpg": {
+   "sha512": "cf370407916edf84b940025468b13f7fad6716d8e85fe0c82838a97f84b1f3f1",
+   "size": 85031
+  }
+ },
+ "inner_path": "data/users/1A8C8bDYUiWYUkXfJdvqWuMigxcTHZ1v7u/content.json",
+ "modified": 1492504177,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1A8C8bDYUiWYUkXfJdvqWuMigxcTHZ1v7u": "HOesf0HuGthJLeiGmvk6xdIi5jzsh542H1KxnxIi76CbCha1IkWdd49yhkT7uyZ2Ww/XPiUdOw6mdMzIsmtpWa4="
+ }
+}

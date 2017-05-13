@@ -1,0 +1,24 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HDsd4Wu9bAafrheZaeh0p4yfRiD2QGdYxH++XGEqc+W/F/XAxKP9isTNOEjBexRoihkeCu1POqat/7z/9a5gjIY=",
+ "cert_user_id": "makishart@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "de424f3a7c9d971e923bd384db9943bdbbb85eb103b0335fa5d049260c11f6ac",
+   "size": 2399
+  }
+ },
+ "files_optional": {
+  "1492199658.jpg": {
+   "sha512": "48b68dd1ded42919be149a1e5326381ff4710488c81a245d8e78fa8cb65abdfa",
+   "size": 33005
+  }
+ },
+ "inner_path": "data/users/1Kke3Gm3oh3KPFMY4Ceathpyk3tT67Aq1n/content.json",
+ "modified": 1492206201,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1Kke3Gm3oh3KPFMY4Ceathpyk3tT67Aq1n": "GxSabX9PnXVsdSSgJ32bhxqST/ID3tW7UADJaV4Nu0JNMnnH8wcAEKd8Zvvvc+chchEqY7b20uGnJiOmZEgFd08="
+ }
+}

@@ -1,0 +1,56 @@
+{
+	"next_comment_id": 5,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Sweet!",
+			"post_id": 72,
+			"date_added": 1455108311
+		},
+		{
+			"comment_id": 2,
+			"body": "Both updates work for me. They are very helpful!",
+			"post_id": 74,
+			"date_added": 1456680758
+		},
+		{
+			"comment_id": 3,
+			"body": "> [p2p](#comment_31_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): we can edit data/users/youruserid/data.json and post any thing via UI to make the change take place. no need to sign data/users/youruserid/content.json manually\n\nThat's correct. We don't need to do it because zeronet signs and publishes that file whenever we comment, post or vote. \n\n> [p2p](#comment_27_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): f we type: /data/users/content.json by mistake the site will be killed because it does NOT do a inner_path sign.\n\nSigning with inner_path after killing it would fix the problem?",
+			"post_id": 79,
+			"date_added": 1459697516
+		},
+		{
+			"comment_id": 4,
+			"body": "> [p2p](#comment_32_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): i don't know, i just restored my backup\n\nJust tried it with a clone and yes, it did kill the site. \n\nThe good ol' `Internal error: TypeError: 'NoneType' object does not support item assignment` error. Signing correctly did not fix the issue. This error also happens if you clone a site by copying its files and not signing `data/users/content.json`. And if we have posted something to said site, the error persists even after signing correctly. I remember that the time I got this error the way to fix it was to backup all my user files and `data/data.json`, do a clean clone, sign `data/users/content.json` and then replace `data/users/1*` and `data/data.json` with what I backed up. Then sign and publish.\n\nI'm not convinced that this is a bug, it's really the way the system was designed. A solution could be: don't allow zeronet to sign files in a different directory then the site, don't allow zeronet to sign content.json if data/users/content.json is not signed with the site's key and/or change that error message to something like \"This site was not correctly signed. Read the docs.\".\n\nBut most often the solution is just explaining the user what the correct steps are, as seen [here](http://127.0.0.1:43110/1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8/?Post:3:How+to+have+a+blog+like+this).",
+			"post_id": 79,
+			"date_added": 1459700748
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"3": 1,
+		"34": 1,
+		"64": 1,
+		"65": 1,
+		"66": 1,
+		"67": 1,
+		"68": 1,
+		"69": 1,
+		"70": 1,
+		"71": 1,
+		"72": 1,
+		"73": 1,
+		"74": 1,
+		"75": 1,
+		"77": 1,
+		"78": 1,
+		"79": 1,
+		"80": 1,
+		"81": 1,
+		"82": 1,
+		"83": 1,
+		"84": 1,
+		"87": 1,
+		"89": 1
+	}
+}

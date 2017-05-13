@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "G0fPPQtTVt4WlS40sMfQrXPJE1+dVkdubJcdqrwkxdGr2sM+c5Od/6mHa5VPh9WKEZz/AdWb9xL+FTrf3fB3qcg=",
+ "cert_user_id": "kevinium@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "7e2da94f09969ba3147f12bc3edf516c242fbaf2ee80f6dcde4d7da33d59c6fd",
+   "size": 329
+  }
+ },
+ "inner_path": "data/users/1E34yKA3k1TVVccUngRwu1LByXg4RnAEtk/content.json",
+ "modified": 1472031653.535649,
+ "signs": {
+  "1E34yKA3k1TVVccUngRwu1LByXg4RnAEtk": "G61+d/A531s7GhWA5QfN4mrOPdokOzDna8zceTgnXtnTYUFXJbH51ZcYYNuDD3hiT6WTDrvDkVEAk5mBpxPlHjY="
+ }
+}

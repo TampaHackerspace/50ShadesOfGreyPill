@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "G1M/GZPwKOcCaFv0Ng41pmflWCLYMvNY+X3iRSedEDlRRjryjPhB458tcLBaPUAmuN9WxAlbZ2XOyDGiTVpxh/E=",
+ "cert_user_id": "oliq@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "12546c86c361e0bbb50fd410a158e13e09fc1094661c9e66b367fe6367b98b41",
+   "size": 93
+  }
+ },
+ "inner_path": "data/users/19NLiGbQGb6kBnQuRq52cug5rJo7g9gjPR/content.json",
+ "modified": 1489599165,
+ "signs": {
+  "19NLiGbQGb6kBnQuRq52cug5rJo7g9gjPR": "HAf9VJTP8R/m5kNw52stAvFf9q9DGhv3jWi4VEN4KNov/pAMEHBqT+b+uk/4SlBFxL+BiJGo+r1k9ENTyoPQvtM="
+ }
+}

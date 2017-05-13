@@ -1,0 +1,19 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "I had to install coffee-script (mac) and compile:\n\nnpm -g install coffee-script\ncd js/\ncoffee --compile --join all.js -- lib/ZeroFrame.coffee ZeroChat.coffee\n",
+			"post_id": 43,
+			"date_added": 1457177267
+		},
+		{
+			"comment_id": 2,
+			"body": "> [ekaterina](#comment_10_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD): If you start ZeroNet with --debug it should auto compile the CoffeeScript for you, for me it only works if I reload the site I'm working on with the web inspector opened. So open the site, right click somewhere on it, click \"Inspect element\", then reload the page and it should have compiled all files. I also had to disable the cache in the settings of the web inspector to make it work (click on the gear icon and search for something like \"disable cache if inspector is open\")\n\nThanks - I did eventually realize that I wasn't in debug mode - derp",
+			"post_id": 43,
+			"date_added": 1457182021
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

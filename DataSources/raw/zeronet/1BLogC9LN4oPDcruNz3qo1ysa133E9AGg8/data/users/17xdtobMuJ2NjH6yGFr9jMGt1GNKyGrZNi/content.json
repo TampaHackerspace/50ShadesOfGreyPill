@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HJ2uOwhbNd7gnkRed4geFbUDcGqK3v68mSUEjpZ6zamCqunEVNrB2g/MzynLui5DE6774dzboElC5HXQg/24/5Y=",
+ "cert_user_id": "tempflix@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d52519b7bee57515d38c9401180433ead05700d4815e51a6ea0366ab41777773",
+   "size": 271
+  }
+ },
+ "inner_path": "data/users/17xdtobMuJ2NjH6yGFr9jMGt1GNKyGrZNi/content.json",
+ "modified": 1489815303,
+ "signs": {
+  "17xdtobMuJ2NjH6yGFr9jMGt1GNKyGrZNi": "HFuN1G+1xLbTcE0VdMmZRqXEJZ18T1GfACBfYy0tv2gX8uPS7v9pxtdjj5d/hiIrrqBRX2cQAqWeuhyCgcsiNtk="
+ }
+}

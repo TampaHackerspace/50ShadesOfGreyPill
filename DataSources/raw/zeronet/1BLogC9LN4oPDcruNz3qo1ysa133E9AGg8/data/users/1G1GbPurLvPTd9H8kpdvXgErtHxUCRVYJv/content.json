@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "G77xqxxpznVZuVkWZYXOltnaJhu237/tUvXsTs1Y70cY/z0YVvosjBe1hJMlq+fI5+A9hIiFjGquwscjzBX6E4I=",
+ "cert_user_id": "dota@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "f3129d9377975bb3ca7864d75a71592286730642e58c8fdf13f6bf81ca921f58",
+   "size": 175
+  }
+ },
+ "inner_path": "data/users/1G1GbPurLvPTd9H8kpdvXgErtHxUCRVYJv/content.json",
+ "modified": 1482648063.603,
+ "signs": {
+  "1G1GbPurLvPTd9H8kpdvXgErtHxUCRVYJv": "G5WP9OWL1xwmjWofzkuAZlN3amM7H7WCs+E34Gpg7B5f3Hn82BrzdpSW6N2TIcer/oYzzRQCZtCmpW5sW8+GKt4="
+ }
+}

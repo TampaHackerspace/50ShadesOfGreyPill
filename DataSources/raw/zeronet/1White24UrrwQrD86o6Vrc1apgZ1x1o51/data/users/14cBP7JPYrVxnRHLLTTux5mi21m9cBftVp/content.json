@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G6x5wIlRG+cpAFjgQVIWtyyjSGf5AZOoxOWMvGXQRsDO6H0k3RlL81I2rz3bI+T9qtoteYO4I1RrESEUVCvBUVg=",
+ "cert_user_id": "mesim@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "873c6c319a9b291bec87c330abc56e9cf7544594ddca60638533c2476bf0dde4",
+   "size": 336
+  }
+ },
+ "inner_path": "data/users/14cBP7JPYrVxnRHLLTTux5mi21m9cBftVp/content.json",
+ "modified": 1493279120,
+ "signs": {
+  "14cBP7JPYrVxnRHLLTTux5mi21m9cBftVp": "G92BGVuwlRdvVAh3nugyDUzeh0aNEMNQDpKOXRF9U5wSRRJ4mQA0V/5ygHHG3iGzXC0MUShBGEtSFu4QOfAgd/o="
+ }
+}

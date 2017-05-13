@@ -1,0 +1,27 @@
+{
+	"next_comment_id": 4,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "> [nofish](#comment_183_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Sounds like a good idea, I need some more time to thing about it, but sounds doable. I just did a quick test compressing ZeroTalk user files:\n> \n> Raw, separate files: 7.6MB\n> tar: 12MB (hm)\n> zip: 4.8MB\n> tar.gz: 3.1MB\n> tar.bz2: 2.4MB\n> tar.zstandard: 2.1MB\n> tar.brotli: 2.0MB\n> tar.xz: 1.9MB\n\nTry [lzip](http://www.nongnu.org/lzip/) too, its author is really anal about replacing xz with lzip, and has a few really good points in doing so. Also good compression and often a bit faster compared to xz.\n\n",
+			"post_id": 105,
+			"date_added": 1490540038
+		},
+		{
+			"comment_id": 2,
+			"body": "> [deviated](#comment_1_1EtYRBug7gbtGWYtvfhfGhfEEEEiH9fn5L): ZeroNet, for Me, is all about running my website with no cost.\n\nWell _technically_ you are running your website on others' expense, using their bandwidth and disk storage space. At least this is not a scam convincing you to lease your storage in exchange of valuable malware using you as a spam zombie.\n\nWhich reminds me: when will we get spammers abusing the net?",
+			"post_id": 107,
+			"date_added": 1492611210
+		},
+		{
+			"comment_id": 3,
+			"body": "> [deviated](#comment_2_1EtYRBug7gbtGWYtvfhfGhfEEEEiH9fn5L): I don't get your point, would you explain what you mean?\n\n\"No cost\" for you is paid by others. TANSTAAFL.\n",
+			"post_id": 107,
+			"date_added": 1492612780
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"107": 1
+	}
+}

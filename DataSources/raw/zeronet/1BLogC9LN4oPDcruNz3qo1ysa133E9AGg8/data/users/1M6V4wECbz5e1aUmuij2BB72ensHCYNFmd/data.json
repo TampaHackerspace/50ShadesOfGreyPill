@@ -1,0 +1,19 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "When I update to version 0.3.7, my torrc file was overwrited,   but in china, without bridges or proxy tor can not connect to network.\n\nso is it a way to keep old torrc file? or backup it myself? ",
+			"post_id": 80,
+			"date_added": 1460516499
+		},
+		{
+			"comment_id": 2,
+			"body": "> [nofish](#comment_77_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I would recommend to start tor from different directory on default ports (9050 and 9051). At the startup zeronet checks if tor is already running on that ports and if the connection is successful, then it will use it.\n\nYou are doing amazing work, thanks.",
+			"post_id": 80,
+			"date_added": 1460539766
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

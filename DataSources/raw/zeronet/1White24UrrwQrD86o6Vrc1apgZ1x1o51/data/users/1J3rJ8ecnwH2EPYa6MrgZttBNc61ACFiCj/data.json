@@ -1,0 +1,31 @@
+{
+	"next_comment_id": 4,
+	"user_name": "Nofish",
+	"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+	"post_like": {
+		"18eK2BP2HU6JXSb64XSCQRFX9u1PFkEGpu_1491591224": 1491592898,
+		"1DKs7LscyE7kt4SvrpqQBUmU5nuPkryJdP_1491943307": 1491951695,
+		"1PtrqEtVYC27F6JxWP5HgMrx7qGHJCHybt_1491988130": 1491991657,
+		"1KuiNk16ujSGfnfLgF7hQDHoMo6PivJMLC_1494365555": 1494374310
+	},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "7 years ago there was an article about [Bittorrent over Tor isn't a good idea](https://blog.torproject.org/blog/bittorrent-over-tor-isnt-good-idea), but ZeroNet only using BitTorrent for peer discovery, the transfer protocol is different and should not leak your ip as it described in this blogpost and nowdays the Tor network [can handle much more traffic](https://metrics.torproject.org/bandwidth.html?start=2010-01-09&end=2017-04-09), than back then.\nI think the goals are the same, and everyone want to avoid situations like this: [An Anonymous group just took down a fifth of the dark web\n](http://www.theverge.com/2017/2/3/14497992/freedom-hosting-ii-hacked-anonymous-dark-web-tor)",
+			"post_uri": "19TU94ahnbj9u57SLqpV6ot1vvzWfFYeE4_1491760829",
+			"date_added": 1491769006
+		},
+		{
+			"comment_id": 2,
+			"body": "Stop Zeronet, Copy your old users.json to your data dir, Start ZeroNet, visit ZeroID site should work.",
+			"post_uri": "15vJjtekghtind7a1xjLBFN96PSXDx9mso_1494439308",
+			"date_added": 1494443297
+		},
+		{
+			"comment_id": 3,
+			"body": "I'm not really following it, but everyone should use the network that is most suited to his/her needs or he/she likes the best. There is already many alternatives: bittorrent/ipfs/maidsafe/i2p-lafs/etc.",
+			"post_uri": "15vJjtekghtind7a1xjLBFN96PSXDx9mso_1494559241",
+			"date_added": 1494581642
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 1,
+	"next_follow_id": 4,
+	"avatar": "generate",
+	"user_name": "Pantelis",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"intro": "Fun of FLOSS Projects",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1491602708,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1491615773,
+			"body": "http://kottke.org/17/04/incredible-low-light-camera-turns-night-into-day",
+			"date_added": 1491615771
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "13tC6yxnbckeKS5S7AtHrwShWMddLMaq7j",
+			"user_name": "Pantelis",
+			"date_added": 1491603362
+		}
+	]
+}

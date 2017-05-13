@@ -1,0 +1,19 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "What happens in regards to peers? Because if I go offline, doesnt it mean my blog will too?\n",
+			"post_id": 3,
+			"date_added": 1457201218
+		},
+		{
+			"comment_id": 2,
+			"body": "> [erkan](#comment_4_1H8oKiRa7fGgUqS1hpUtaSYLvAqkaknbkf): when someone reads your blog, this person saves a local copy. So, you can go offline and others will get the copy from him\n\nAhh, I meant if no one visits your blog; there would be no peers and itd just go offline. Apparently though, you just visit the site in question through a zeronet proxy to preserve it.\n\n\nAnother question though, how will we handle big amounts of data? Like some sites databases will grow to be huge? Or even media such as image and video? Will there be nodes across the ZeroNet which will handle media?\n\n",
+			"post_id": 3,
+			"date_added": 1458139766
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

@@ -1,0 +1,31 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Capprentice",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1494313652,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1494313723,
+			"body": "This is definitely interesting but will it not create the challenge of how much data can be on the wire to run?",
+			"date_added": 1494313721
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Awee!!",
+			"post_uri": "1FM6bm5sRkyXBu15u9hzTffQqgWFWQs5ng_1493904821",
+			"date_added": 1494313771
+		}
+	],
+	"follow": []
+}

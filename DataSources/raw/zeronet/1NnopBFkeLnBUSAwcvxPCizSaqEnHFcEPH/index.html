@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Your Searh</title>
+  <link rel="stylesheet" href="css/all.css">
+  <base href="" target="_top" id="base">
+  <script>
+ setTimeout(function() {
+ base.href = document.location.href.replace("/media", "").replace("index.html", "").replace(/([&?])wrapper=False/, "$1").replace(/&$/, "").replace(/[&?]wrapper_nonce=[A-Za-z0-9]+/, "") // Fix urls
+ }, 100) // 100ms later, to workaround double js download in chrome
+ </script>
+ </head>
+ <body>
+  <!-- editbar -->
+  <div class="editbar bottombar">
+   <a href="#Save" class="button save">Salvar</a> <a href="#Delete" class="button button-delete button-outline delete">Deletar</a> <a href="#Cancel" class="cancel">Cancelar</a> </div>
+  <!-- EOF editbar -->
+  <!-- Head -->
+  <div class="head">
+    <a href="../1NnopBFkeLnBUSAwcvxPCizSaqEnHFcEPH/?home"><img alt="logo" class="lgo" src="../1NnopBFkeLnBUSAwcvxPCizSaqEnHFcEPH/img/logo.png"></a>
+  </div>
+  <!-- EOF Head -->
+  <div class="message-big">Initial sync in progress...</div>
+  <!-- Page: Main -->
+  <div class="topics-list">
+    <input id="search" class="text" placeholder="Search" type="text">
+
+ <div class="box-lateral">
+  <!-- Novo Site -->
+    <a href="#New+topic" class="link-lateral topic-new-link nolink">+ ADICIONAR SITE</a>
+    <a href="../Mail.ZeroNetwork.bit/?to=zerolear" class="link-lateral">CONTATO</a>
+    <!-- <a href="#" class="search_category link-lateral" id="all">Tudo</a>
+    <a href="#" class="search_category link-lateral" id="noticias">Notícias</a>
+    <a href="#" class="search_category link-lateral" id="musica">Música</a>
+    <a href="#" class="search_category link-lateral" id="movies">Vídeos</a>
+    <a href="#" class="search_category link-lateral" id="torrents">Torrents</a> -->
+ </div>
+
+
+   <div class="topics topic-new" style="display: none">
+    <h2 class="title">
+      <input id="topic_title" class="text" placeholder="Site Title" type="text">
+    </h2>
+    <input id="topic_url" class="text" placeholder="Url do site" type="text">
+    <input id="topic_tags" class="text" placeholder="Tags ex: news, videos, music, torrents" type="text">
+      <div class="body">
+        <textarea id="topic_body" placeholder="Descrição do site"></textarea>
+      </div>
+    <div class="info"><a class="user_name user_name-my certselect" href="#Change+user"   title="Change user">user_name</a> ━ <span class="added">Conta</span></div>
+    <a href="#Add+new+topic" class="button button-submit">Enviar URL</a>
+   </div>
+   <!-- EOF New Topic -->
+   <div class="topics-loading"><img src="img/loading.gif">Loading...</div>
+   <div class="topics">
+    <!-- Template: Topic -->
+    <div class="topic template">
+     <h2 class="title"><a href="#" class="title-link">Title</a></h2>
+     <cite class="title-url">url</cite>
+     <div class="body">Body</div>
+     <a href="#" class="link"> <span class="link-url"></span></a>
+     <div class="info">
+    <a class="score" href="#Upvote">
+     <span class="score-inactive"> <span class="icon-up">^</span><span class="score-num">1</span> </span>
+     <span class="score-active"> <span class="icon-up">^</span><span class="score-num">2</span> </span>
+    </a>
+     enviado por <span class="user_name">user_name</span> &#9473;
+     <!-- <a href="#" class="comment-num"></a> -->
+    <span class="added">added</span>
+   </div>
+    </div>
+    <!-- EOF Template: Topic main --> </div>
+    </div>
+
+  <script type="text/javascript" src="js/all.js"></script>
+  <script>
+$(".head .more a").each( function(i, elem) {
+  $(elem).attr("href", Text.fixLink($(elem).attr("href")))
+});
+</script> </body>
+</html>

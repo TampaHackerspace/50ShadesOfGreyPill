@@ -1,0 +1,19 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "When publishing, it seems to hang forever, is it ok?\n\n../Python/python.exe zeronet.py siteSign 15RQhBMMiwfCk3t2bSzNPdDPoMC3U82UPP --publish\n- OpenSSL loaded, version: 01000201F\n- Signing site: 15RQhBMMiwfCk3t2bSzNPdDPoMC3U82UPP...\n",
+			"post_id": 43,
+			"date_added": 1468146783
+		},
+		{
+			"comment_id": 2,
+			"body": "adding private key after address, it works.",
+			"post_id": 43,
+			"date_added": 1468149325
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

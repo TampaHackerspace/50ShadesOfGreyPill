@@ -1,0 +1,24 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G+PeFe2zph+kraMz4yWlj0ZiUylDRxxjgtt+Jfod76kzNzU0zuMlHVz+s5hcqxbaDzF7Sh/I3ueI5pddLZezZcc=",
+ "cert_user_id": "vaunt2008@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "4f1edb44f2eab5fe5878b63f38cd996d8dab65fafd27f5e860e78a307009d1de",
+   "size": 779
+  }
+ },
+ "files_optional": {
+  "1492733083.jpg": {
+   "sha512": "479362ee5468119413f45235288ee8a8e38fc4f0b2fc09ba92cf134bc6e115a7",
+   "size": 30251
+  }
+ },
+ "inner_path": "data/users/1DJtaE6MpiShiE5Wx7rd4mQDr8KFvm5x6F/content.json",
+ "modified": 1492733081,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1DJtaE6MpiShiE5Wx7rd4mQDr8KFvm5x6F": "HDyi4SEOum4ybjHehp9RsNYMHtDsfIIU9xEWZs2lTByLL2udeDXSHEh96191ijfKGiTwkEAdsNyWx4dZ0gUgP0c="
+ }
+}

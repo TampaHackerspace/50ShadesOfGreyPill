@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G92Gtav+uAHKxdx+Poxsodf2h0yq2zwPym1DoC0miUcmnDu9671A3zkuDe59q2FcpESlZmP5Q011ywoRfjpnb00=",
+ "cert_user_id": "ruizi@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "b55bdef8a87e3db79d67fba19fdd1361ee143e5fcda2586a6e403bab6c137bdf",
+   "size": 1590
+  },
+  "data.json": {
+   "sha512": "b7e1411f1e92bd76cf08bbd58339d0075f1f2a1209014d11d0e34b946a912dfe",
+   "size": 571
+  }
+ },
+ "files_optional": {
+  "1493982424.jpg": {
+   "sha512": "e68f90e83879c1f1699eb75429b5628d151ce93994348b75651323f234af9be6",
+   "size": 28067
+  }
+ },
+ "inner_path": "data/users/18T4NNP8hW8uZbcZR7fVesdZuEvhZ6Kcve/content.json",
+ "modified": 1493982422,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "18T4NNP8hW8uZbcZR7fVesdZuEvhZ6Kcve": "G8B31AjEEnbwsoiedwEHQdpwDQhbjQ5yP8tNhQ93V3URcQbjmI5FAXVVKDDs+5XXkG9qm5H4JKYVLD3d68+YA/Q="
+ }
+}

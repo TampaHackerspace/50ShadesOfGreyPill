@@ -1,0 +1,15 @@
+{
+ "cert_auth_type": "web", 
+ "cert_sign": "HLOMSGgVN2Xwg3hC6EeOp+4cCkD9DtSZi+nEXUeY6J19fLOd+nbbuczoWufw6A/JdoeCuWKsE2u9rEWeSEWR8PA=", 
+ "cert_user_id": "loft@zeroid.bit", 
+ "files": {
+  "data.json": {
+   "sha512": "ae6b6f62ad98aae62ff46c0ce7e81b97bd7678a3912911179c4a5d8099f8458f", 
+   "size": 671
+  }
+ }, 
+ "modified": 1444114825.572, 
+ "signs": {
+  "167BPQsTtw9kenbw9GjsMMTn8JZB8T3CPh": "GzPhT5uuDMeFC6OBFxer6k1ZhQkH/hi6KmjFyQ3OJbcHm9psfkzYZ+q2o+AdARk1ZRG/m27I01GP7TlnM+d4UzE="
+ }
+}

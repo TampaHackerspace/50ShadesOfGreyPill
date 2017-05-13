@@ -1,0 +1,15 @@
+{
+ "cert_auth_type": "web", 
+ "cert_sign": "HAV1ouVqJ+hd2dc7kadwU2wYivKv9Xzq0+oZ5XWL6u07jMRZb1F3KzdYeM/tia5+Xwoyb2HN5w4Vmx2HAomEcCM=", 
+ "cert_user_id": "dolan@zeroid.bit", 
+ "files": {
+  "data.json": {
+   "sha512": "3aa039947cd4e2b5ddc386b08ea96c3339884f9703d6b53b781dd6066663bed2", 
+   "size": 201
+  }
+ }, 
+ "modified": 1453652954.556362, 
+ "signs": {
+  "15p4TA4YP7DWLe7ibKbuPmiZyQu4N7HFKL": "HEaJDVqXLMQrhSzbqqKiv/cWFxkn9tqWCyU7QJGTA5dQ3QrDmaUIvD64T6w2KEtOF7hyUKO8mbM5oyTKuI571KM="
+ }
+}

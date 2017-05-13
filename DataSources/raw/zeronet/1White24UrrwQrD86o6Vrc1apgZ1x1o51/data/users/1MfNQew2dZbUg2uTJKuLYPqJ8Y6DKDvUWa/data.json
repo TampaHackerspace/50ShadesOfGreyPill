@@ -1,0 +1,34 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "generate",
+	"user_name": "Xeiad",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1494268076,
+			"body": "Whats up world?!"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Hey!",
+			"post_uri": "1GNKWQQPjcUhqU4zLAckUSuVKjGXcEzMnM_1494062802",
+			"date_added": 1494268151
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "1GNKWQQPjcUhqU4zLAckUSuVKjGXcEzMnM",
+			"user_name": "Hellogen",
+			"date_added": 1494268132
+		}
+	]
+}

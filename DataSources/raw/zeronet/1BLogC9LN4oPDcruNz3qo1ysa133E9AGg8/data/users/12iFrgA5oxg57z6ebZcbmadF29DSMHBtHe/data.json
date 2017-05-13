@@ -1,0 +1,19 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "oh gosh.... i am still scratching my head to understand the ZeroFrame.coffee file. It works fine but i have no idea how this damn thing is working",
+			"post_id": 43,
+			"date_added": 1468146668
+		},
+		{
+			"comment_id": 2,
+			"body": "Internal error: TypeError: 'bool' object has no attribute '__getitem__'. This is the error i'm getting. What can possible be the problem?",
+			"post_id": 46,
+			"date_added": 1468153148
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

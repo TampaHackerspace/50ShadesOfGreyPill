@@ -1,0 +1,72 @@
+{
+	"next_comment_id": 11,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "These are nice, but a really detailed logo might look bad in the Zeronet button in the top right corner. Maybe it should keep the rounded logo?",
+			"post_id": 56,
+			"date_added": 1443817377
+		},
+		{
+			"comment_id": 2,
+			"body": "> [nofish](#comment_26_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Here is a concept how would it look like in the topright corner (and also favicon and chrome button): https://cloud.githubusercontent.com/assets/10350359/10117719/4162b6b8-6460-11e5-8e48-9466bf6dac73.png\n\nHmmm... Looks nice-ish, but I think that the two gaps might not show up well on that scale, in my opinion. Also, would the triple line icon be changed at all?",
+			"post_id": 56,
+			"date_added": 1444326575
+		},
+		{
+			"comment_id": 3,
+			"body": "Will this be related to a system for notifying users when their comments are replied to? Or would that be something else?",
+			"post_id": 64,
+			"date_added": 1449154728
+		},
+		{
+			"comment_id": 4,
+			"body": "Nice so far. I've noticed a few things though :\n1: If too many sites are saved, the list will extend much farther down than the recent blog content--for example, my ~100 saved sites go way past the 10 or so posts on this blog (I can post an image if you want to see what this looks like). I suggest using the same scrollbar that the click-and-drag menu uses (the one with the globe and site stats), so that the site list only extends to the bottom of the blog posts.\n2: Will the 'follow' feature be easy to add to existing blogs?\n3: Will it be possible to sort sites by name, number of seeds, time since last update, etc?\n4: Will favoriting/ tagging sites be implemented? \n5: Will the old card view play any part in the new homepage?\n\nSorry for the barrage of questions. I'm pretty excited about how the new homepage works so far.",
+			"post_id": 71,
+			"date_added": 1454446158
+		},
+		{
+			"comment_id": 5,
+			"body": "Merger sites will be awesome.",
+			"post_id": 73,
+			"date_added": 1456353026
+		},
+		{
+			"comment_id": 6,
+			"body": "I would suggest using the [pump.io/](http://pump.io/) framework for this, but it might be too server-centric to be of use here--Not sure.",
+			"post_id": 73,
+			"date_added": 1456637210
+		},
+		{
+			"comment_id": 7,
+			"body": "> [berliner](#comment_1_163rm8X1WReQzp1uAZjbrCHkF7En1VTXbU): Donald Drumpf may outlaw zeronet !\n\nConsidering how I can basically email my friends the startup bundle, that's gonna be pretty hard. I'd say 'come at us bro', but I don't want to give him any ideas.",
+			"post_id": 77,
+			"date_added": 1458570210
+		},
+		{
+			"comment_id": 8,
+			"body": "> [chr51570](#comment_1_1B1KzuAuS2KYZ57Zg6VGoYrFpBKDpqRjdg): ProtonMail over ZeroNetwork = unhackable, secure, server-less email system?\n\nThe web client is [open source](https://github.com/ProtonMail). Not sure how easy it is to self-host it though.",
+			"post_id": 77,
+			"date_added": 1458664549
+		},
+		{
+			"comment_id": 9,
+			"body": "Occasionally when using the new search box, I get an error like this:\n````\nInternal error: OperationalError: no such table: main.secret\n\nUiWebsocket.py line 98 > UiWebsocket.py line 178 > NewsfeedPlugin.py line 61 > \nSiteStorage.py line 68 > SiteStorage.py line 45 > SiteStorage.py line 89 > \nDb.py line 164 > DbCursor.py line 104 > DbCursor.py line 94 > DbCursor.py line 53\n````\n(second part is all on a single line)\nIt seems to happen when I enter text very slowly.",
+			"post_id": 81,
+			"date_added": 1460995270
+		},
+		{
+			"comment_id": 10,
+			"body": "> [nofish](#comment_79_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I was unable to reproduce, but I think its fixed by https://github.com/HelloZeroNet/ZeroNet/commit/6f8c24e11da7385b0d95fa625cc74161f2cd7486\n\nIt seems to be gone now.",
+			"post_id": 81,
+			"date_added": 1461083139
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"64": 1,
+		"68": 1,
+		"71": 1,
+		"73": 1
+	}
+}

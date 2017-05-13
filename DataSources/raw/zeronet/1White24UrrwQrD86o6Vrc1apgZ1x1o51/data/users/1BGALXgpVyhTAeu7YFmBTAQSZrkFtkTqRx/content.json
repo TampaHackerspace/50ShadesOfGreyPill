@@ -1,0 +1,24 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HGQbSvkus+Epuii/ZHSaV81a+LqSp7NjC1K+E8PfHkgX/mXJqqm4W4qvQuaRiCFCXQjhbOrNg9XatUwF5bxEwIk=",
+ "cert_user_id": "meguminsama@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "3f198da2a5d91b9dd475b60b36b44a9e6dd84ce2a00a66f15152a53f4b508e0b",
+   "size": 777
+  }
+ },
+ "files_optional": {
+  "1491845835.jpg": {
+   "sha512": "0700c6af84f401843a544b9a77b03b8c5bf29913bec6c9742cbfd6b1e6408cc3",
+   "size": 57958
+  }
+ },
+ "inner_path": "data/users/1BGALXgpVyhTAeu7YFmBTAQSZrkFtkTqRx/content.json",
+ "modified": 1491845852,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1BGALXgpVyhTAeu7YFmBTAQSZrkFtkTqRx": "G5TKQ9Ot9L8E9IUzDfMH+vnrhlwYTJM8ijZ1QcR808dhEdwgljYJxq0P6gokenSzxW2P9s92aL5VnPLYffVpWwI="
+ }
+}

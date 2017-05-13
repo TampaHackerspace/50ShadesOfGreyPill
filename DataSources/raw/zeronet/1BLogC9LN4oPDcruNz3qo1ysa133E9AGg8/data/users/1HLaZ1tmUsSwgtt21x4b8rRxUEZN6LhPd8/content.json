@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "G0S4x7uaWLaJJ8lHl2CL9kprJkNm9GRsHgBqNojQAah6xPra0AkchNRVPTg7GrWfl9oVrka3S4SLl+2Qi8S5YNM=",
+ "cert_user_id": "orange@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "68667176b1b4b9d1785b50994c31ead0ba6535b6714bdde167ac6b8852d04113",
+   "size": 179
+  }
+ },
+ "inner_path": "data/users/1HLaZ1tmUsSwgtt21x4b8rRxUEZN6LhPd8/content.json",
+ "modified": 1463150966.218,
+ "signs": {
+  "1HLaZ1tmUsSwgtt21x4b8rRxUEZN6LhPd8": "G8xv+28gadCbAIXhin0FTh2XcfOGl7EgsU1rbar4juEnLXGS7LYrSS5ZXq2QCa0QebZC2jGlLhOiBIcMKVEymnA="
+ }
+}

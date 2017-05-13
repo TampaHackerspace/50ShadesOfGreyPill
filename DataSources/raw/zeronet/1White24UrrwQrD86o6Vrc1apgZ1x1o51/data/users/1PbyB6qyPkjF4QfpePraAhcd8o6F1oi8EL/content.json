@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HGrtR9aS1D70kmBayKYewvuy8i1WGZwjBnyl1BASNv/bpawKhm6cisKWiMiLodN1aQ+/C0p4Gntxdo9CYJx9sro=",
+ "cert_user_id": "wealding@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "823f59b5437190b343b5fe8a9e7942a04c2f60a692baf96a61cf431a63dfbb2e",
+   "size": 339
+  }
+ },
+ "inner_path": "data/users/1PbyB6qyPkjF4QfpePraAhcd8o6F1oi8EL/content.json",
+ "modified": 1492283367,
+ "signs": {
+  "1PbyB6qyPkjF4QfpePraAhcd8o6F1oi8EL": "HJ93oTTXLNyrlCKx3Yki3ompHAWsCGVlt6us/BLNHdLyVCtZtXMN5WFkhvaFx19PyopUG2+UVq9L2nyt7vcsIPk="
+ }
+}

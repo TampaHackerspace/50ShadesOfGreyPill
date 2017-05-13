@@ -1,0 +1,17 @@
+{
+ "address": "1NnopBFkeLnBUSAwcvxPCizSaqEnHFcEPH",
+ "cert_auth_type": "web",
+ "cert_sign": "HKlnDLPZZie4AbctY3XIm49pocR2Ar1jRvPziOOusWtkWPXgrHLnF5XSD5U5uOHsXOTLfNIhJsKFuW6xJ60kvao=",
+ "cert_user_id": "gittio712@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d474df5756f13c235a7e989b9838abbf77a96c640aff4be1bd0a467d603396bc",
+   "size": 349
+  }
+ },
+ "inner_path": "data/users/18nN4mwWLmyLHGPxaCPyPRzaQCF82hTWAw/content.json",
+ "modified": 1485239233.625,
+ "signs": {
+  "18nN4mwWLmyLHGPxaCPyPRzaQCF82hTWAw": "G/IIs+yNVPwALzEatgOv/CqYJOHzFfOuqRlxOzL+Q031kGdRL2c+wwy1MT5muCowmnDudwXsw4Ehgl4vVjzoM4A="
+ }
+}

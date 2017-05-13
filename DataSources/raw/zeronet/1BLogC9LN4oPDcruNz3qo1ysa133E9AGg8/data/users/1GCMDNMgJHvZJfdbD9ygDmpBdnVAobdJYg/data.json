@@ -1,0 +1,13 @@
+{
+	"next_comment_id": 2,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "> [kindlyfire](#comment_1_1FTFKztuv4Z5uy6iS83k9hB2xtS6yFnDxx): Just a non-related question -- for when ZeroNet x IPFS for large files ?\n\nIPFS isn't anonymous. The IP address of any peer seeding data is available easily. At some point they may get Tor support but it's not ready yet. I'd distrust using IPFS with ZeroNet for this reason for now. This is why I use Freenet for linking to the large files on the [tvepisodes.bit](http://127.0.0.1:43110/tvepisodes.bit/) site.",
+			"post_id": 86,
+			"date_added": 1466920112
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

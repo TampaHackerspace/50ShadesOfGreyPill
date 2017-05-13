@@ -1,0 +1,32 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G7lk8K3G4LJBzrks/q1peRXDEes3ZGS1Ypoie8M52fTuqvYXkvBJIkSI3YK9n+bZdkxEkvyMgtWSeMqZqdABB1I=",
+ "cert_user_id": "atulipki@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "a50bbf6ad706e0ce8058097e78cc38f01c25eec36134f54375560bb49de724d2",
+   "size": 1923
+  }
+ },
+ "files_optional": {
+  "1492695253.jpg": {
+   "sha512": "d1296fb3232024e002d14c09faa1916daaf88e59e79344dda03b541c496e991e",
+   "size": 117336
+  },
+  "1492708332.jpg": {
+   "sha512": "29f2e326f8d43f8db7061dd79a860e9bdd814541f048d0648150d23aa7c9001f",
+   "size": 62023
+  },
+  "1492727696.jpg": {
+   "sha512": "1b4b70b41f37a9cf261aa650f546ec0f44062118e1fc47a92e1fe664ed42edaf",
+   "size": 117488
+  }
+ },
+ "inner_path": "data/users/1CENXcK8fuLsmsunGyhpiCPJNCEWqYsums/content.json",
+ "modified": 1492772921,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1CENXcK8fuLsmsunGyhpiCPJNCEWqYsums": "HMeww9GnwrDVM5gKcPXzSabpj3J1CPH+X2BseFzhVufDZZq7n3dqu7LGSHN+CfCWJ5eWeOummfe09FPFE10AcYc="
+ }
+}

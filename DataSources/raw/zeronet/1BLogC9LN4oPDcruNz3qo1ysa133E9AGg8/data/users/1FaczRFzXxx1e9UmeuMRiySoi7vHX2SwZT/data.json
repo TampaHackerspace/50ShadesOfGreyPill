@@ -1,0 +1,31 @@
+{
+	"next_comment_id": 5,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "hiho, how can I be sure that no one has manipuleted or is sending the wrong database/sql?",
+			"post_id": 99,
+			"date_added": 1482177859
+		},
+		{
+			"comment_id": 2,
+			"body": "> [nofish](#comment_147_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The database file is never got synced, but it's generated from .json files that are always signed by the owners.\n\nthx and how can I trust that every user is sharing all the users/json-files? e.g. if all my 21 of 21 connections are all refusing to publish abc-users json-file, would I notice that?",
+			"post_id": 99,
+			"date_added": 1482263129
+		},
+		{
+			"comment_id": 3,
+			"body": "what about zeromail? how does it differ from real bitmessage?",
+			"post_id": 102,
+			"date_added": 1485172849
+		},
+		{
+			"comment_id": 4,
+			"body": "> [nofish](#comment_168_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Works similarly, but it's more like a demo of the possibilities of the network, since it's just a normal ZeroNet site that anyone can create.\n\nbut is it as secure as bitmessage against nsa?",
+			"post_id": 102,
+			"date_added": 1485198072
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

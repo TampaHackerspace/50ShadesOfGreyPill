@@ -1,0 +1,94 @@
+{
+	"next_comment_id": 15,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "What happens when there's a bug fixed for this blog software? Does our cloned blogs also get \"automatically\" updated? I assume it's our responsibility to check the github commits...",
+			"post_id": 3,
+			"date_added": 1457043324
+		},
+		{
+			"comment_id": 2,
+			"body": "@theta gevent is a dependency for zeronet.py, check your packag-manager or install via pip (also make sure you have msgpack-python). All written on the project's github page",
+			"post_id": 3,
+			"date_added": 1457131460
+		},
+		{
+			"comment_id": 3,
+			"body": "@theta clone: when I move the mouse at the left side of the text, a pencil symbol comes which you can click and then you can edit the complete text fields",
+			"post_id": 3,
+			"date_added": 1457131515
+		},
+		{
+			"comment_id": 4,
+			"body": "> [jamesheald](#comment_1_1EgYg1XAxktqWHWC1aTWQoToF6Mr5QmEWq): What happens in regards to peers? Because if I go offline, doesnt it mean my blog will too?\n\nwhen someone reads your blog, this person saves a local copy. So, you can go offline and others will get the copy from him",
+			"post_id": 3,
+			"date_added": 1457202105
+		},
+		{
+			"comment_id": 5,
+			"body": "@kirly isn't the cloning from menu \"already\" automatic ? When you once do the manual way, later on for changes you just have to execute the siteSign and sitePublish command",
+			"post_id": 3,
+			"date_added": 1457250649
+		},
+		{
+			"comment_id": 6,
+			"body": "@timetraveler how did you make this website? did you clone it or edit it yourself from structure?",
+			"post_id": 3,
+			"date_added": 1457355763
+		},
+		{
+			"comment_id": 7,
+			"body": "@jamesheald besides a proxy you can also use a seeder (1). large data: let's keep stuff at 1 place for now, see later (2). (1) http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n/ (2) http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_1EgYg1XAxktqWHWC1aTWQoToF6Mr5QmEWq/How+will+we+end+up+handling+big+amounts+of+data",
+			"post_id": 3,
+			"date_added": 1458144045
+		},
+		{
+			"comment_id": 8,
+			"body": ">Please forgive my ignorance. I am sure this was discussed somewhere. How do we update cloned ZeroBlogs?\n\nsee @muja's comment [here](/zeroblog.bit/?Post:4:imagine+you+have+a+known+bug+in+your+cloned+ZeroNet+app...)",
+			"post_id": 77,
+			"date_added": 1458547290
+		},
+		{
+			"comment_id": 9,
+			"body": "nice: \"Currently working on Diff/Patch protocol command that will greatly reduces ZeroNet bandwidth usage. Eta 1-2wk\"\n\nthank you for all the good work!",
+			"post_id": 79,
+			"date_added": 1459397214
+		},
+		{
+			"comment_id": 10,
+			"body": "@alfur I assume it's your site? Can you open that site correctly in your local browser? I am asking because opening that site says: \"Not found: index.html\"",
+			"post_id": 79,
+			"date_added": 1459582180
+		},
+		{
+			"comment_id": 11,
+			"body": "@alfur ok, what I meant to say was: \nlooks to me as if the site creator did something bad? \nthat is why if the site creator can view the site locally fine, \nhe perhaps didn't siteSign/Publish his current version?\n\nIf the site creator left a way to contact him, please do contact him.\n\nSee also: [How to make sure your site is always reachable?](/zeroblog.bit/?Post:31:How+to+make+sure+your+site+is+always+reachable+)",
+			"post_id": 79,
+			"date_added": 1459588496
+		},
+		{
+			"comment_id": 12,
+			"body": "Thanks! works: my blog is now also searched with this.\n>156 results from 3 sites in 0.08sec",
+			"post_id": 81,
+			"date_added": 1460976730
+		},
+		{
+			"comment_id": 13,
+			"body": "@kasthu what kind of files do you see in the folder where your site is located? \nYou can add content to your site via the languages html, coffeescript/javascript! Do you know any of these?",
+			"post_id": 34,
+			"date_added": 1461170140
+		},
+		{
+			"comment_id": 14,
+			"body": ">@zippity The image shows a search field at the ZeroHello page....how does one make this search field appear?\n\nWhich ZeroNet version do you have ? \nYou need 0.3.7 rev1232 (see \"master branch\" [here](/ZeroVersions.bit/interpretation.html)) for upgrading. But keep in mind master branch is always unstable, so make a backup always first",
+			"post_id": 81,
+			"date_added": 1461496134
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {},
+	"post_vote": {
+		"75": 1
+	}
+}

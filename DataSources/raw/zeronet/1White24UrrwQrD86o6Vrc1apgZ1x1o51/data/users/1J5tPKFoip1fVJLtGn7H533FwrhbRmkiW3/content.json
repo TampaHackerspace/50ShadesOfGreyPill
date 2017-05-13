@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HLWrzOkcHrgGNl6LDZw1SXPa3TorYxTkjuinCybQ0o7URGxCCbqRp+DG2lNFw2uNVzHVQ/zehbl3HiUrHANUGVs=",
+ "cert_user_id": "wiretap@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "e63cc1941b3f84a5010c139568425ae924fb993cdbfb1bad1d3f600f53a5f150",
+   "size": 526
+  }
+ },
+ "inner_path": "data/users/1J5tPKFoip1fVJLtGn7H533FwrhbRmkiW3/content.json",
+ "modified": 1493173552,
+ "signs": {
+  "1J5tPKFoip1fVJLtGn7H533FwrhbRmkiW3": "HBRxFX4vg/gmbocD0hshVY8I3leSiimlxy2tgWBWnslFdccFIQQuJOtW3HIcow04TEaPPBNBAkrzj//0HoyBYmA="
+ }
+}

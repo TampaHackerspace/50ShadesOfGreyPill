@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HKuQQcTaLTOkviyfBXzs4uu6F5JOQ6AWx+Koog04CCkL6uu7+geFXIOBw8AjLUKrfqx9WnThU75gH97txhcgZt4=",
+ "cert_user_id": "densmirnov@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "1cac79c759cb5833c860df167a84e64b65a77b20965f59ae3a4c7426934f23ad",
+   "size": 206
+  }
+ },
+ "inner_path": "data/users/1EAhsWRPMnnRT2tasApsL3uQaa2ZzhCyh4/content.json",
+ "modified": 1475680117.675536,
+ "signs": {
+  "1EAhsWRPMnnRT2tasApsL3uQaa2ZzhCyh4": "HMmsikW8orfRxvRMNu3BzXHwezPeLJOYxOq3VALfMdU2QTgW1iulSJh11/dqvwQAsDBODAFbiPARVcgzRfmDHsU="
+ }
+}

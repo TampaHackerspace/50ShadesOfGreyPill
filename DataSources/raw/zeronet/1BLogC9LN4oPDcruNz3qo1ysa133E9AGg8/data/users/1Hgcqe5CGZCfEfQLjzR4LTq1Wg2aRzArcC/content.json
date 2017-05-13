@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HJBfgR9gOL+YrFk9SUr4goMGNjnSDBjmXwm+tZ0/gARjUwFubIrlTgIwXTJCBOXNxaUvf0j+57PninFugqch+nU=",
+ "cert_user_id": "auxillium@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "bfc1bca0e0a7121e1b554e7c40ab3f1b439c8e6dd5f3d5681bfc6e2f9cc89b4b",
+   "size": 105
+  }
+ },
+ "inner_path": "data/users/1Hgcqe5CGZCfEfQLjzR4LTq1Wg2aRzArcC/content.json",
+ "modified": 1489864529,
+ "signs": {
+  "1Hgcqe5CGZCfEfQLjzR4LTq1Wg2aRzArcC": "GyiBUXfKtaTeh7x+I/qXIOdXXTVztEnIOrQg6Q/bHe163fFiURBqpOYbzdarsl7Dus/xv9ZJqhjGS6GxQa9Hpcw="
+ }
+}

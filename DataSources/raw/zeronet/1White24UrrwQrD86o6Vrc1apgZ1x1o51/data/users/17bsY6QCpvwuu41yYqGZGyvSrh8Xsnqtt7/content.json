@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G601A26T9dDggOfo9sxdGZ6paoiRDncbtJhuttPkp+YitTShJ2hJIxBDyjZCoikJ8ybiy43iNneEu8JimGelue4=",
+ "cert_user_id": "amidar@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "5ee12cc38ad4fe57a8999f05af4ff229da3db9fb68328f7ed41e660ca7484d87",
+   "size": 337
+  }
+ },
+ "inner_path": "data/users/17bsY6QCpvwuu41yYqGZGyvSrh8Xsnqtt7/content.json",
+ "modified": 1493989950,
+ "signs": {
+  "17bsY6QCpvwuu41yYqGZGyvSrh8Xsnqtt7": "G5zN5A8JCmd7GV0LUfjwTdFf5KRdP03VnY1QKXRBqu/RG8jVJm8ntWvQFRiOdkBlWfunv18fGs7zoIpNSnEJ6ms="
+ }
+}

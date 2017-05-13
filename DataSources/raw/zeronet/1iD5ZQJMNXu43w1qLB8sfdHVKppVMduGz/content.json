@@ -1,0 +1,71 @@
+{
+ "address": "1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz",
+ "background-color": "#3F51B5",
+ "description": "Sample trusted authorization provider",
+ "domain": "zeroid.bit",
+ "files": {
+  "css/all.css": {
+   "sha512": "93aa57e653f9394c3487e65d4b9d15d1ac406be78a2f7ae560b7638956e0eb9f",
+   "size": 76046
+  },
+  "data/archive.py": {
+   "sha512": "ad0818adfe413ade28e9a712f841fec70170e901bdecde9290cbc1a5abcac8b7",
+   "size": 309
+  },
+  "data/users.json": {
+   "sha512": "6f9af4ab906d920f69d45b74bcfb64485f05338cf8e9831c43975926e00a87b1",
+   "size": 350597
+  },
+  "data/users_archive.json": {
+   "sha512": "0afd3272b0a533c130396174b91eb5ee23d89b97038320d79f501f008080a8a2",
+   "size": 5638303
+  },
+  "img/loading.gif": {
+   "sha512": "8a42b98962faea74618113166886be488c09dad10ca47fe97005edc5fb40cc00",
+   "size": 723
+  },
+  "index.html": {
+   "sha512": "5643ee0a294f7ec8cd42521465a8fa25b14a166d4f79e29a5026bc53a0e71182",
+   "size": 2415
+  },
+  "js/all.js": {
+   "sha512": "a86da983aa37c5e2bf2230d9a31d008a2286f308ff3bac9add9cf3660325fbcc",
+   "size": 390706
+  },
+  "languages/fr.json": {
+   "sha512": "39e2c4e6d16f9b6e68aa08482b7126228e703a75c014ab0832fcfead85c62cee",
+   "size": 1097
+  },
+  "languages/pl.json": {
+   "sha512": "fbac31c75233b65c40ed8d3343046fb62296275b7ac01d80cfdccd059026b36f",
+   "size": 1464
+  },
+  "languages/zh-tw.json": {
+   "sha512": "e6d70ab3c2a21b7e2e500998bffedd0bbc16524dcb0fad760cddf5e22bd58839",
+   "size": 1228
+  },
+  "languages/zh.json": {
+   "sha512": "7c5bbff8f7e956a348b407b1f348458acebc24ab66022b57dd72170a194fa337",
+   "size": 1207
+  }
+ },
+ "ignore": "(js|css)/(?!all.(js|css))",
+ "inner_path": "content.json",
+ "modified": 1494645955.595352,
+ "sign": [
+  79303839855983958341176778998218911361021759930976855521097799663674933063724,
+  25895207693983179484618483062282074949787342216981518996248237043318871563983
+ ],
+ "signers_sign": "G7d9tTFjHbptCSR/TDr2mA1OILLhWMtVGvKZcLIwW56ut0V+kPDgrivp+hZ7/C9IUOQ6dQzVVHKJK5XBSqm+QPw=",
+ "signs": {
+  "1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz": "G5qIBGzP0hPL2yLx2GWwvjqea+8YLs4R7CTdTU8b0X+QQWWhP6FWq6HuxS6cxhkQg47lu7lII7vrMyIynoY6ONg="
+ },
+ "signs_required": 1,
+ "title": "ZeroID",
+ "translate": [
+  "js/all.js",
+  "index.html"
+ ],
+ "viewport": "width=device-width, initial-scale=1.0",
+ "zeronet_version": "0.4.1"
+}

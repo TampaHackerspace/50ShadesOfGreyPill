@@ -1,0 +1,47 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 3,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Nemochen",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"intro": "新 ZeroNet 用户",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1492513449,
+			"body": "你好 ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "这是没墙，但是比较荒凉，属于城乡交界处。",
+			"post_uri": "18ZpgUGQnJLjrTT7mQVdsyL4Afxs72cxDu_1493814876",
+			"date_added": 1493818067
+		},
+		{
+			"comment_id": 2,
+			"body": "你要先run一次，data文件夹才能出来。不要去create新的user，把旧的json文件覆盖，再打开。摸索一下。",
+			"post_uri": "1NUxtQyz45PCm2ojyQYwJta8f4UWp1oReW_1493866069",
+			"date_added": 1493871869
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i",
+			"auth_address": "1NVmy7v2J1aQEgja6HDSeDM8VaADP9zkpu",
+			"user_name": "BTSynChina中文资源分享",
+			"date_added": 1492513838
+		},
+		{
+			"follow_id": 2,
+			"hub": "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL",
+			"auth_address": "13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ",
+			"user_name": "P2P",
+			"date_added": 1492513939
+		}
+	]
+}

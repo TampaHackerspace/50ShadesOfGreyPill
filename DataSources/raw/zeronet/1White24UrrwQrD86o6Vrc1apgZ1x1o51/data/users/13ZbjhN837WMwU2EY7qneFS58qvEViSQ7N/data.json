@@ -1,0 +1,32 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 3,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Evilpartisan",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1492446040,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Multidimensional language",
+			"post_uri": "15dMbdM7c2RT9RhNTJRqzc4vYSvrSJvxyG_1492439827",
+			"date_added": 1492460533
+		},
+		{
+			"comment_id": 2,
+			"body": "Все шифруются.",
+			"post_uri": "1Jq6z2fdZefKyb3MFWTCPnJqwvmHxfU8Px_1492786262",
+			"date_added": 1492796417
+		}
+	],
+	"follow": []
+}

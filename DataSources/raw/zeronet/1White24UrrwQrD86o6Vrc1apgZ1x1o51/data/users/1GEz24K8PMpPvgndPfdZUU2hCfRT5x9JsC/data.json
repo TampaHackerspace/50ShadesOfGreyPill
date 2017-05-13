@@ -1,0 +1,39 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "png",
+	"user_name": "Dgold",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"intro": "Wandering around the dexnet",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1492096339,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1492096360,
+			"body": "Just kicking the tyres.",
+			"date_added": 1492096358
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "@Krixano: Hi there Krixano!",
+			"post_uri": "1GEz24K8PMpPvgndPfdZUU2hCfRT5x9JsC_1",
+			"date_added": 1492096510
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "12gAes6NzDS9E2q6Q1UXrpUdbPS6nvuBPu",
+			"user_name": "Krixano",
+			"date_added": 1492096529
+		}
+	]
+}

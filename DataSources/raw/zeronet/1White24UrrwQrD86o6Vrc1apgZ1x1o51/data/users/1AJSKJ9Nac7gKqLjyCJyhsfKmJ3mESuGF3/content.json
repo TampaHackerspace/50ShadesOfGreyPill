@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G1i5Y2z1xwOAVLQp94ysKGQnwM8FcVvfSbY6ZPlk02WYhNPKHPwBFEAZJnOjMhrROIg0Pj8fIdeEYVCreZYaIMs=",
+ "cert_user_id": "reginababy@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "29db578927c7c683542cc25c6e98c0ceb9a31bcb68a8b11fbcb560e2cfbd044e",
+   "size": 1565
+  },
+  "data.json": {
+   "sha512": "f76c4aa3d13461f5394807d21e37ecf4294df8c430eabcf476f27c52770396ca",
+   "size": 882
+  }
+ },
+ "files_optional": {
+  "1494356426.jpg": {
+   "sha512": "e645f0bd394fc8d0478b0f5372a8e62a94dd632d8fd3049e225f51b8f893acde",
+   "size": 57711
+  }
+ },
+ "inner_path": "data/users/1AJSKJ9Nac7gKqLjyCJyhsfKmJ3mESuGF3/content.json",
+ "modified": 1494356424,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1AJSKJ9Nac7gKqLjyCJyhsfKmJ3mESuGF3": "HLJCP/6qJkYyszgyyfVC5xY4VTszH26TR/r9KzSeV21ICsk7Z/5mC4pJUNimztJCO4NmV/vhQWXRiQJzqB6L7Gg="
+ }
+}

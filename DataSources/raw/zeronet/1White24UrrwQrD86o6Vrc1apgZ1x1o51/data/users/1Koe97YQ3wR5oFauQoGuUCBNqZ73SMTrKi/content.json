@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G98HhiWjNqUwWVumWCkpYrLC1JSN3dD0fkqmHzMD+O/LBYayZUEAaXFkRqPoRJBimFzKOb/gpydF0Zt48eOMDts=",
+ "cert_user_id": "broccoli@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "9f19e562cb2aa16ee93373e4798d57830e143877cbc0c8597b059365ed3cd4ab",
+   "size": 409
+  }
+ },
+ "inner_path": "data/users/1Koe97YQ3wR5oFauQoGuUCBNqZ73SMTrKi/content.json",
+ "modified": 1491935625,
+ "signs": {
+  "1Koe97YQ3wR5oFauQoGuUCBNqZ73SMTrKi": "HKQyAvDM0hnOzC/AJyPf2jUaHShxw6AtBqijDiQ/G+SO9rMQeXPzFHeVPskO7wE1f+P06Ti00/EZ6qlOxRfbD+8="
+ }
+}

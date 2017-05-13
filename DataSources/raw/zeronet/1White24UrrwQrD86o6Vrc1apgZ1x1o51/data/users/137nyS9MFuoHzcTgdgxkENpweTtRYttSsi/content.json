@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "GznOC9kHDtjjNvmBK08SyGa1/DzvHdIWUUNaRWN8jIie0HrkTm5exufSKQHxgI0gnv+Axb8dHYOdRUIYrZYbaSA=",
+ "cert_user_id": "chaosswordman@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "4d6c9c6c85b1f2beeac685dbb4caa8e41fcc8f1287abab751d4c7ce96ad8ae26",
+   "size": 1928
+  },
+  "data.json": {
+   "sha512": "03b1755ac90b2dc242bbc7437209c5a83600658b46b6b535cbc5d0450e179d69",
+   "size": 1510
+  }
+ },
+ "files_optional": {
+  "1494232624.jpg": {
+   "sha512": "df6ef17ebb1d8c3f1f48f05aa75de3fc4ee393e5eaccf332f9921fa78f6ac090",
+   "size": 56762
+  }
+ },
+ "inner_path": "data/users/137nyS9MFuoHzcTgdgxkENpweTtRYttSsi/content.json",
+ "modified": 1494337579,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "137nyS9MFuoHzcTgdgxkENpweTtRYttSsi": "HCs8RaFywYfTCqniu6vTFMrRYN/fSMAhJYR/PBmglViHR/jNzPsAdnN3Ht18E6EzbxAoWS/Cak/Ra4EQ7HBZl+E="
+ }
+}

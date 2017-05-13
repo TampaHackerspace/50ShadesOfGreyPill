@@ -1,0 +1,32 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HD3tn2/54xMmd8U31fGIHK6YSYjX1LUC4pbEiD4+SAN3AQ8ysXQPNK9LO4yzhZZdGiKwzYVUhPaKUrYuFnEyQkM=",
+ "cert_user_id": "edmund119@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "dcbd5f144ba30aee95e0dff976bfcc3bd864274d3e640d54e97c77603d110f81",
+   "size": 1871
+  },
+  "data.json": {
+   "sha512": "92ae02d6e38889d74f2aef970d19bf90ce9925f41b707382872c42eee1ad5f6f",
+   "size": 3023
+  }
+ },
+ "files_optional": {
+  "1494025879.jpg": {
+   "sha512": "3b25607181673b54261abb297691a70bc6ac3174a32ab3e8a5d80afecb25aa2d",
+   "size": 64176
+  },
+  "1494047015.jpg": {
+   "sha512": "1878be75abc58267b46d4776feccc814ecf42da874b2c88d5dba525386501516",
+   "size": 89494
+  }
+ },
+ "inner_path": "data/users/1Hw3f33VDxp3XR4H7aWxBnEDoVhden9CPk/content.json",
+ "modified": 1494049027,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1Hw3f33VDxp3XR4H7aWxBnEDoVhden9CPk": "Gw1f5tTgflupBodVoi+sL446t05VsSbMvD7rOYAglm5dSnj0VZjK16TCiCjO8CsASkk4f/KhdB85ajxcX1SD9JE="
+ }
+}

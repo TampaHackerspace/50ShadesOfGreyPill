@@ -1,0 +1,32 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HIPKh3uMdbTu3lFJzdpT5rXXMVwqfK7aV1KTkOss/85gW45Ww8M8Yv71PzAOM65kxWDBYEN2vMZwqIU+wMUrhEM=",
+ "cert_user_id": "thecuriousnerd@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "d882f26b186d15a239298936a94b4374b4b1362a69bc242eb622fd7361e03871",
+   "size": 1385
+  },
+  "data.json": {
+   "sha512": "592988834666515d4446bbaa60f1e0a06ca8b374e2c906751d4f9d4c4b4c8e54",
+   "size": 7563
+  }
+ },
+ "files_optional": {
+  "1493114166.jpg": {
+   "sha512": "12aabe361a20fbdfa47740c54a5db11e1c714708fa2a15dd699fedc91497a171",
+   "size": 44091
+  },
+  "bg.jpg": {
+   "sha512": "5deaa2a24eaddc39db6a10dd3dee6b86932648c44cea83727844c109ead2d1ef",
+   "size": 14075
+  }
+ },
+ "inner_path": "data/users/16esmH5mTmsJL4S5DW4dup5883xJh6GdDS/content.json",
+ "modified": 1493795281,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "16esmH5mTmsJL4S5DW4dup5883xJh6GdDS": "G+Sqckx1ONGOjY2gAe8aGksKY7kqijaftWDnnyJjL2F8YIVUAxBEcyutIuZAL+1GXbEIeSJdpYt4GexqqAjFFyA="
+ }
+}

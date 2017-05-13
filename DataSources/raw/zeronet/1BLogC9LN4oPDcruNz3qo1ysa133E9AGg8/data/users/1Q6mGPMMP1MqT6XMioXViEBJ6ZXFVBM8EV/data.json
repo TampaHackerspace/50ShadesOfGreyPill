@@ -1,0 +1,28 @@
+{
+	"next_comment_id": 4,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "> [p2p](#comment_34_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): THX! I just sent u a ZeroMail reporting ZeroBundle's download issue in China, pls take a look.btw, i hit the 10K space limit here, help!\n\nYeah, GitHub is blocked in china: \nhttp://www.greatfirewallofchina.org/index.php?siteurl=https%3A%2F%2Fgithub.com%2F",
+			"post_id": 80,
+			"date_added": 1460397459
+		},
+		{
+			"comment_id": 2,
+			"body": "> [megamanx](#comment_1_1ATGdmkgffedn8QSutd9Be7Gf9kHDCb91S): You might be able to get around the Great Firewall of China by using https://getlantern.org/.\n\nThis site is also banned in china: \nhttp://www.blockedinchina.net/?siteurl=https%3A%2F%2Fgetlantern.org%2F",
+			"post_id": 80,
+			"date_added": 1460409061
+		},
+		{
+			"comment_id": 3,
+			"body": "> [megamanx](#comment_2_1ATGdmkgffedn8QSutd9Be7Gf9kHDCb91S): I am having trouble opening port 15441, despite port forwarding, turning off the router firewall, putting my computer on DMZ mode, and so on, ...\n\nI wouldn't recommend turning off NAT/firewall. What router do you have? \n\n> [megamanx](#comment_2_1ATGdmkgffedn8QSutd9Be7Gf9kHDCb91S): ... so I make no promises that this will work, but you may be able to download Lantern from me using this address: http://127.0.0.1:43110/17EcoSLuGdJKWrKnBDN1qVsyxN2dZqtJQL/\n\nI can access the site, but the file download doesn't seem to work. But anyway, how would that help the people from china, who can't even get zeronet, since github is blocked? ",
+			"post_id": 80,
+			"date_added": 1460447205
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {},
+	"post_vote": {
+		"80": 1
+	}
+}

@@ -1,0 +1,589 @@
+{
+	"next_comment_id": 115,
+	"comment": [
+		{
+			"comment_id": 6,
+			"body": "Big step forward! THX!\nClone site feature is great for \"ZeroSocial\"( P2P G+ )!\n~~i think it is a bug~~ that \"Your network connection is restricted. Please, open 15441 port \non your router to make your site accessible for everyone.\" is showed when i click \"Sign & Publish new content\" in my cloned site's web UI using Tor. console says \"Publishing to 0/0 peers\"",
+			"post_id": 42,
+			"date_added": 1433898193
+		},
+		{
+			"comment_id": 7,
+			"body": "> [nofish](#comment_8_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It's not really a bug\n\ndo u remember http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:2@62/Start+a+new+site+using+Tor+can+you+see+my+site\ni've succeeded in publishing a new site using Tor. \nbut this time using web UI, it said \"Publishing to 0/0 peers...\" and even no [FAILED] message. ~~so i think it is a bug. did u forget to remove a limit in ZeroBlog's source code? remember the \"Port not opened, passive publishing not support yet\" limit?~~\nBTW, my new clone site is http://127.0.0.1:43110/12uk9Nz7UxaKvhCgEQ6drECXaHzBVzWhhu/\n\n#Edit:  \nSite:12uk9N..Whhu Publishing to 1/1 peers...\nSite:12uk9N..Whhu Successfuly published to 1 peers,\nWOW! succeed! thanks to the node.\nits NOT a bug. we should tell someone else (who have a open port ) our site address before we publish using Tor.",
+			"post_id": 42,
+			"date_added": 1433980266
+		},
+		{
+			"comment_id": 8,
+			"body": "COOL！ i was confused how the sidebar appears. i finally found it needs to drag the icon instead of click. i think it would be better if a hint is shown when hover the icon.",
+			"post_id": 50,
+			"date_added": 1439738657
+		},
+		{
+			"comment_id": 9,
+			"body": "where is GeoLite2 City database hosted? download is slow, and seems failed.",
+			"post_id": 50,
+			"date_added": 1439738917
+		},
+		{
+			"comment_id": 10,
+			"body": "> [r3](#comment_7_1UfvLnMuzShvi3phWGSqn79tio81Wn9Dt): 你现在安装测试成功了吗？\n\nno luck. still can not load the map after Unpack GeoLite2-City.mmdb file.( before unpack it, i've seen there was a GeoLite2-City.mmdb in 'data' folder already, and i overwrote it)",
+			"post_id": 50,
+			"date_added": 1439855902
+		},
+		{
+			"comment_id": 12,
+			"body": "hi, i'm back!\ni found a bug (maybe):\n i didn't use ZeroNet for many days and i started using it yesterday, but some sites didn't automatically  update for all new contents, after waiting for some hours i had to manually click the update button  for 2~3 times to get all new contents.\ni have been using Tor, is that the cause? if it is, pls make zeronet automatically  update more frequently for tor users. THX!",
+			"post_id": 58,
+			"date_added": 1445772627
+		},
+		{
+			"comment_id": 13,
+			"body": "> [nofish](#comment_28_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): In the last days I switched to Tor, but I was not able to reproduce the problem. If you experience the problem again please send log/debug.log to hello@noloop.me\n\ni think it would reproduce when someone didn't run zeronet for long time( just like me,  didn't run zeronet for almost 2 months, September and October). since i use zeronet everyday these days, it would not reproduce.\ncould u tell us how frequently  zeronet polls other nodes for a site's new contents?",
+			"post_id": 58,
+			"date_added": 1446169288
+		},
+		{
+			"comment_id": 15,
+			"body": "so coooooooooooooool!!!!!!!!\nthe echobot reply me in 2 seconds! what's the working principle of the bot? i can't believe it is able to reply so quickly in p2p network.\nbut this time, update in GUI failed ( i'v waited for 10 min). i had to run update.py manually ( very quickly, finished in seconds). i was able to update in GUI last time.",
+			"post_id": 65,
+			"date_added": 1449881075
+		},
+		{
+			"comment_id": 16,
+			"body": "milestone!!!\nunder linux, pls refer:\nhttp://zeronet.readthedocs.org/en/latest/faq/#how-to-make-zeronet-work-with-tor-under-linux",
+			"post_id": 68,
+			"date_added": 1452300678
+		},
+		{
+			"comment_id": 18,
+			"body": "> [nippletwister](#comment_2_1PvAyLAB5H1JKbiFjx95ZJXrNJVyWxs5Hf): I have added translation into russian language here: http://127.0.0.1:43110/1G9s2eptrshvMmXaR1egEnGcbL9WdeQFAa/index.html#%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D0%B3%D0%BE%D0%B4%20ZeroNet%20%28%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%29\n\nwhat's blog platform? it looks cool!\n@nofish, how to contribute translation of ZeroNet's UI & doc?",
+			"post_id": 70,
+			"date_added": 1454381182
+		},
+		{
+			"comment_id": 19,
+			"body": "both work for me. thx!\nwhere the following data is stored? what happen if i change browser/machine?",
+			"post_id": 74,
+			"date_added": 1456753027
+		},
+		{
+			"comment_id": 20,
+			"body": "> [nofish](#comment_56_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The following data is stored in data/users.json, so you can change browser/machine as long as connect to same node.\n\nso it means that if i backup & restore the `data/users.json` , i won't miss the followings even reinstalling zeronet？",
+			"post_id": 74,
+			"date_added": 1456803648
+		},
+		{
+			"comment_id": 23,
+			"body": "THX！\nwould u please pack a 32bit ZeroBundle for 32bit Linux? u know, some useful distro like Tails, Whonix only offer 32bit version.",
+			"post_id": 78,
+			"date_added": 1458815285
+		},
+		{
+			"comment_id": 24,
+			"body": "> [nofish](#comment_69_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): (tested on debian8)\n\nit works! THX! \nbut seems that u haven't updated zeronet.io and `How to join` in github for Linux32.",
+			"post_id": 78,
+			"date_added": 1458890413
+		},
+		{
+			"comment_id": 27,
+			"body": "when we want to enlarge user's space of forum we do it via the hidden menu in the UI:\nwe have to type `data/users/content.json` to sign, but if we type: `/data/users/content.json` by mistake the site will be killed because it does NOT do a inner_path sign.\nthis is very confusing and DANGEROUS, is it a BUG?\npls fix it and make a better UI to enlarge user's space (e.g. ~~a button to sign  `data/users/content.json` directly, another button to sign  `content.json` directly~~). THX",
+			"post_id": 79,
+			"date_added": 1459592167
+		},
+		{
+			"comment_id": 28,
+			"body": "> [tuzi](#comment_1_1M1c7x7SLau8D2bm8Gw8iWQbBqe9X4zqPw): Two buttons is easier.\n\nafter diving in zeronet json, i wanna withdraw some of my words. two buttons seems not a good idea coz we have many different json to sign. a good idea is probably to make a single-select  radio button field:\n- `content.json`\n- `data/users/content.json`\n- custom: ` ______________________________________________________ `   `Sign` `Publish`",
+			"post_id": 79,
+			"date_added": 1459687833
+		},
+		{
+			"comment_id": 29,
+			"body": "i found another ~~bug~~:\nafter editing `data/users/youruserid/data.json`, if we sign `data/users/youruserid/content.json` via UI, and finally publish via UI, the change is taken place on remote peers but not in local browser. we have to post something via UI to make the change take place in local browser. i guess the cause is even though `data/users/youruserid/data.json` changes, the SQLite db is not automatically updated after clicking the `Publish` button.",
+			"post_id": 79,
+			"date_added": 1459689199
+		},
+		{
+			"comment_id": 31,
+			"body": "> [p2p](#comment_30_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): yes, when we\n\nsorry, I'd withdraw my words again. when we want to make group posts, we can edit `data/users/youruserid/data.json` and post any thing via UI to make the change take place. no need to sign `data/users/youruserid/content.json` manually.\nany way, forget the 2nd bug i report here, but the 1st dangerous bug should be fixed. THX!",
+			"post_id": 79,
+			"date_added": 1459696612
+		},
+		{
+			"comment_id": 33,
+			"body": "> [muja](#comment_4_17i7Y7r8nTaCfLbCAuaKyc4R5BbKZYU2Hr): Just tried it with a clone and yes, it did kill the site. \n\nTHX for explaining. it's probably not a bug, but it should be designed more user-friendly, at least keeping users from killing their sites. \nbtw, i hit the space limit here, @nofish, help!",
+			"post_id": 79,
+			"date_added": 1459701757
+		},
+		{
+			"comment_id": 35,
+			"body": "> [megamanx](#comment_2_1ATGdmkgffedn8QSutd9Be7Gf9kHDCb91S): Please let me know if it works, because I am genuinely curious.\n\nu did sth wrong. ur link is like:\nhttp://127.0.0.1:43110/downloads/lantern/lantern-installer-beta.exe\nno one can download it. any way, THX for helping us.",
+			"post_id": 80,
+			"date_added": 1460449721
+		},
+		{
+			"comment_id": 36,
+			"body": "> [tjalvarez](#comment_1_1Q6mGPMMP1MqT6XMioXViEBJ6ZXFVBM8EV): Yeah, GitHub is blocked\n\nbut according to GreatFire, github is mostly not blocked: https://en.greatfire.org/github.com",
+			"post_id": 80,
+			"date_added": 1460450099
+		},
+		{
+			"comment_id": 38,
+			"body": "> [nofish](#comment_75_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Hmm, I have uploaded ZeroBundle\n\naccording to GreatFire, github is mostly not blocked: https://en.greatfire.org/github.com\nTHX! i'll ask more chinese users to test the link.\nbtw, i hit the 10K space limit here, HELP!!!",
+			"post_id": 80,
+			"date_added": 1460450744
+		},
+		{
+			"comment_id": 39,
+			"body": "> [nofish](#comment_76_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):  But I think the best would be stay in github, because GFW can't block it because of chinese developers.\n\nTHX for the mirrors.\nyes, i agree with u. GFW once blocked github, but unblocked it because of chinese devs.\n\n> (increased limit to 20k)\n\ni don't have to delete my old comments to post new ones :)\n",
+			"post_id": 80,
+			"date_added": 1460452426
+		},
+		{
+			"comment_id": 40,
+			"body": "> [megamanx](#comment_3_1ATGdmkgffedn8QSutd9Be7Gf9kHDCb91S): \n> @p2p,\n> Doh! I'm glad you pointed that out,\n\nnot found.\nu can test ur files via public proxies http://127.0.0.1:43110/zeroproxies.bit\ni did test some 10MB~20MB files to upload to peers in ZN, very tricky. u have to enlarge the 10MB site's limit of remote peers before upload.",
+			"post_id": 80,
+			"date_added": 1460453861
+		},
+		{
+			"comment_id": 41,
+			"body": "i'v sent u a ZeroMail about Problems in old IE11 under win 7 and xp, pls take a look.",
+			"post_id": 80,
+			"date_added": 1460618022
+		},
+		{
+			"comment_id": 42,
+			"body": "> [nofish](#comment_78_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): sorry, old ie is not supported,\n\ni see.\nabout VM, i'v replied to u, pls take a look.",
+			"post_id": 80,
+			"date_added": 1460639359
+		},
+		{
+			"comment_id": 43,
+			"body": "> [nofish](#comment_78_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): sorry, \n\n@timeout told me, he succeed in running zeronet under XP, after installing Visual C++ 2008 Redistributable Package (python.exe requires it):\nhttps://www.microsoft.com/en-us/download/details.aspx?id=29\ncould u make it portable ( no need to install anything )? easier for XP users to run zeronet. THX!",
+			"post_id": 80,
+			"date_added": 1460685272
+		},
+		{
+			"comment_id": 44,
+			"body": "中文用户建站建博客，请看中文论坛置顶帖：http://127.0.0.1:43110/1Nse6WcodQ5Mj6ZwvZvuyCVvQESwuxbCUy",
+			"post_id": 3,
+			"date_added": 1460818857
+		},
+		{
+			"comment_id": 45,
+			"body": "i'v sent u 2 ZeroMails, one  about how to solve problem in xp and another about suggestion of help info for old IE. pls take a look:)",
+			"post_id": 81,
+			"date_added": 1461125308
+		},
+		{
+			"comment_id": 46,
+			"body": "THX！\ni think u forgot to mention solved problem of win XP in change log.\nany plan to  add a help info to ZeroHello's background for old IE? as i mentioned in ZeroMail to u.",
+			"post_id": 82,
+			"date_added": 1461772496
+		},
+		{
+			"comment_id": 47,
+			"body": "> [nofish](#comment_83_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Added to changelog + IE warning on ZeroHello page, wrapper_nonce error also fixed in latest revision (affects IE)\n\nTHX!\nwrapper_nonce error is gone, and i can see the IE  warning in IE10, but NOT in IE9 or older. \nwill other IE compatibility issues i mentioned in ZeroMail be sovled?",
+			"post_id": 82,
+			"date_added": 1461914036
+		},
+		{
+			"comment_id": 48,
+			"body": "> [nofish](#comment_84_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It should be visible in every IE\n\n- it is not because of the UA, but in IE9 the ZeroHello is totally broken -- no words, no buttons. if u test in IE9 or older, u'll know what i mean. if the broken page is impossible to fixed, at lease leave a help info on the page pls.( if error occurs, users can see it. if no error, JS will hide the help info )\n- using  IE9 or older to browse ur official site http://zeronet.io, the download link is totally white, people can not see it.",
+			"post_id": 82,
+			"date_added": 1461924229
+		},
+		{
+			"comment_id": 49,
+			"body": "> [nofish](#comment_85_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): any suggestions for the social site name?\n\nTHX！\nhave u seen my reply about IE9 issue in this post?\nhttp://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:82:Changelog,+April+27,+2016\nsocial site name? let me think a while",
+			"post_id": 83,
+			"date_added": 1462539577
+		},
+		{
+			"comment_id": 51,
+			"body": "Decentralized Web Summit Live Stream is NOW!! We wanna see u, @nofish !!\nlive stream address is in the official site:\nhttp://www.decentralizedweb.net/\n\n---\n\nUPDATE：\naccoding [official schedule](http://www.decentralizedweb.net/schedule/)\n@nofish (Tamas Kocsis) will present in Lightning Talks at 11:00-12:30 p.m. PST Jun 9, in Workshops at 1:30-3:00 p.m. i hope we can see him in live stream:)\n\n---\n\nUPDATE2：\n~~Can anyone see youtube playback of Lightning Talks _**Section B**_  of Decentralized Web Summit, in which @nofish presented?\nhttps://www.youtube.com/watch?v=PfWgin3JlAU\ni can see the video, but it only lasts 4 hours( it should be 8 hours ), lacking Section A and Section B. something wrong?~~\nbtw, i can see the Day 1's playback of 8 hours with no problems.\n\nit was fixed!! \n### come on to see handsome @nofish !!  \n_**Lightning Talks video**_  of Decentralized Web Summit:\nhttps://youtu.be/PfWgin3JlAU?t=10989\n\n---\n\nUPDATE3：\n+ _**interview video**_ of @nofish in Decentralized Web Summit on Jun 7, Builders' Day:\nhttps://archive.org/details/DecentralizedWeb20160607pt3\n@nofish 's part starts at about 50:00 of the video, and u can download several formats of video ( download links can be found on that page ) if u suffer inconvenience watching on web.\n+ @nofish 's handsome _**images**_ can be found here:\nhttps://archive.org/stream/DecentralizedWeb20160607Images/DecentralizedWeb20160607pt2#page/n447/mode/1up",
+			"post_id": 84,
+			"date_added": 1465490214
+		},
+		{
+			"comment_id": 52,
+			"body": "agree with you.\nwhat are ur ideas/plans about ZeroNet's mobile usage in the future?\ncurrently using ZeroNet via proxies on mobile platform is obviously not a good solution, considering majority adoption ( insecurity of public proxies, technical requirements to set up secure private proxies ).\nif not via any proxies, battery consuming is a big problem.\nso, apk or apk+proxies ( working like mobile bitcoin wallet GreenAddress [which connects random servers without leaking keys to any servers](https://bitcoin.org/en/choose-your-wallet) ) is a question.\nand what about iOS? we have to pay 99USD/year if we want to make ZeroNet reach everyone on iOS?",
+			"post_id": 86,
+			"date_added": 1465959473
+		},
+		{
+			"comment_id": 53,
+			"body": "it will be the biggest step ever!\n",
+			"post_id": 87,
+			"date_added": 1467091483
+		},
+		{
+			"comment_id": 54,
+			"body": "> [197](#comment_1_15JNF8bdyG4zEWVASsgbkFirzM6gyYpSBA): I strongly oppose the \"We are on our own\" point.\n\nTor is funded by US gov does NOT mean it is profit oriented. Further more, Tor is totally open-sourced, which is essentially different from those profit oriented company.\nSimilarly, ZeroNet can be funded, but never be profit oriented, or \"profitable\". Facebook attract users because it can give users money? Non-profit project can not attract users because it can not give users money? ",
+			"post_id": 86,
+			"date_added": 1467909554
+		},
+		{
+			"comment_id": 55,
+			"body": "> [197](#comment_2_15JNF8bdyG4zEWVASsgbkFirzM6gyYpSBA): We are not profit oriented, but we should not give up on those who are. \n\nthey can contribute to zeronet, \"We are on our own\" does not mean keep them away.\nis linux sustainable? is linux profitable?\nmicrosoft  also contributes to the Linux kernel, even though it focussed more on code that will improve the compatibility with microsoft products.\nhttp://unix.stackexchange.com/questions/178615/why-does-microsoft-contribute-to-the-linux-kernel\nas linux grows, they have to adopt it, rather than asking them to adopt it. years ago, someone might say linux is not meaningful for most people. however, today, most people have linux-powered devices, e.g. android devices, routers...",
+			"post_id": 86,
+			"date_added": 1467947981
+		},
+		{
+			"comment_id": 56,
+			"body": "> [197](#comment_3_15JNF8bdyG4zEWVASsgbkFirzM6gyYpSBA): We largely have Google to thank for Android\n\npls think about the difference between linux kernel and linux distribution. Android, CentOS,  Ubuntu are linux distributions. although these companies contribute to linux kernel, i don't think they can have strong influence to linux kernel developing direction.\nwhy does the first heavy-weight initial adopter come? ask for it, or even beg for it? NO! when your thing is good, they'll come naturally. ",
+			"post_id": 86,
+			"date_added": 1467963600
+		},
+		{
+			"comment_id": 57,
+			"body": "> [nofish](#comment_107_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I think it's won't be live streamed, but it will be uploaded to youtube later.\n\nwhere is the youtube video? i'v searched, but nothing found.",
+			"post_id": 88,
+			"date_added": 1470317678
+		},
+		{
+			"comment_id": 58,
+			"body": "Great! ZeroNet is taking off! So many new features, but we don't know details of how-to-use. I think docs should be updated.\n\nBy the way, my space in both ZeroBlog and ZeroTalk will hit the limit soon, please add more. THX!",
+			"post_id": 89,
+			"date_added": 1470887040
+		},
+		{
+			"comment_id": 59,
+			"body": "> [waterrabbit](#comment_1_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Recording: \n\nTHX for sharing. What a pity this GETD Summit's recording device is not as good as  Decentralized Web Summit's. I can't hear clearly:(",
+			"post_id": 88,
+			"date_added": 1471337443
+		},
+		{
+			"comment_id": 60,
+			"body": "THX for your great work!\nAny idea of Tor always mode problem? Rev1422  --connection_limit 5 does not help.\nPS: my quota used: 19.3k/20k in this ZeroBlog, pls increase.",
+			"post_id": 90,
+			"date_added": 1471617542
+		},
+		{
+			"comment_id": 61,
+			"body": "> [nofish](#comment_110_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Probably \n\ndo I need `--disable_udp`? No more quota in your blog indeed:(",
+			"post_id": 90,
+			"date_added": 1471625686
+		},
+		{
+			"comment_id": 62,
+			"body": "> [nofish](#comment_112_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yes, it's recommended. I have bumped the size limit to 40k, so it should work.\n\nyea, I have 40K now, THX!\nJust now I pressed Ctrl+F5 several times, still 20K.\nThen I did a manually `Update` your blog, updating 1 file...,finally I got 40K.\nTor always mode, serving 10+ sites.",
+			"post_id": 90,
+			"date_added": 1471626679
+		},
+		{
+			"comment_id": 63,
+			"body": "@nofish , I think in your post it should be `--connected_limit` rather than `--connection_limit`\nbut wth `python ./zeronet.py --tor disable --proxy \"127.0.0.1:9150\" --disable_udp --connection_limit 5` I got errors pasted [here](http://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_13)\n\n\nwith `python ./zeronet.py --tor always --connected_limit 5` I got errors pasted [here](http://127.0.0.1:43110/1MgHVPCE1ve6QfKrgsqCURzRj72HrRWioz/?13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_14) (very strange, I did NOT get errors with the same argument days ago)\n",
+			"post_id": 90,
+			"date_added": 1471659688
+		},
+		{
+			"comment_id": 64,
+			"body": "THX! Since you have conformed it as important security problem, could you push an update to everyone, e.g. 0.4.1\nIn Chinese ZeroNet community, someone such as @breakwa11 , being a dev, uses ZeroNet as official release  platform and official forum, if spoofed by others, that would be a serious problem and danger.",
+			"post_id": 91,
+			"date_added": 1472631691
+		},
+		{
+			"comment_id": 65,
+			"body": "> [cxgreat2014](#comment_1_18hidquEH7k6Dnn5MDd4zJFJ2cTUF22wk2): Good\n\n3min? why so slow? HDD? not SSD?",
+			"post_id": 92,
+			"date_added": 1473266361
+		},
+		{
+			"comment_id": 66,
+			"body": "THX！ \nwhat's the influence of  ZeroMail New archiving method to active users and inactive users?",
+			"post_id": 93,
+			"date_added": 1474077131
+		},
+		{
+			"comment_id": 67,
+			"body": "> [nofish](#comment_121_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): The older messages than some months could be disappear.\n\nonly inactive users‘ old msg disappear or both active and inactive users‘ ?\nwhen will the clearing be done? or already done? ",
+			"post_id": 93,
+			"date_added": 1474121191
+		},
+		{
+			"comment_id": 68,
+			"body": "> [nofish](#comment_122_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Currently only for inactive users, but It can happen booth\n\nIMO users should be notified that. They can archive their msg in advance.",
+			"post_id": 93,
+			"date_added": 1474219012
+		},
+		{
+			"comment_id": 69,
+			"body": "> [nofish](#comment_124_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): It's applies to every site on ZeroNet, \n\nthen we should think about a good way of auto-snapshot/archiving, and  being easily accessed by users.",
+			"post_id": 93,
+			"date_added": 1474219547
+		},
+		{
+			"comment_id": 70,
+			"body": "REALLY A GOOD JOB！THX！",
+			"post_id": 96,
+			"date_added": 1478620989
+		},
+		{
+			"comment_id": 71,
+			"body": "I remember you once said it would have security issue to update via ZeroNet network because ZeroNet probably has bugs which result in bad signature/hash check and potential danger of malicious code injecting. How do you avoid it happening this time?\nMy idea is to implement a GPG verify plugin and you publish code.zip with code.sig to 1UPDatEDxnvHDo7TXvq6AEBARfNkyfxsp",
+			"post_id": 98,
+			"date_added": 1480964670
+		},
+		{
+			"comment_id": 72,
+			"body": "> [xinwei](#comment_1_1MNHdQ7TZbrTcXa1ikCgvHt22eQRvA7JdU): 有没有人出教程呢？\n\n中文论坛 http://127.0.0.1:43110/gfwtalk.bit/",
+			"post_id": 3,
+			"date_added": 1481352372
+		},
+		{
+			"comment_id": 73,
+			"body": "THX! what do you recommend for future zite dev? JS or coffeescript?",
+			"post_id": 99,
+			"date_added": 1481681590
+		},
+		{
+			"comment_id": 74,
+			"body": "> [nofish](#comment_139_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Coffeescript is no longer developed, so I would recommend JS, but it's depends on personal preference.\n\nwhat do you mean `Coffeescript is no longer developed`?https://github.com/jashkenas/coffeescript/\tUpdate 1.12.1 release date\t6 days ago",
+			"post_id": 99,
+			"date_added": 1481711296
+		},
+		{
+			"comment_id": 75,
+			"body": "> [nofish](#comment_140_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): There was some drama around it, but it's good to hear they picked it up again.btw: github is down for me: \"No server is currently available to service your request.\"\n\ngithub is down? maybe you can try a proxy or tor",
+			"post_id": 99,
+			"date_added": 1481713439
+		},
+		{
+			"comment_id": 76,
+			"body": "Nice!\nwhen select the *whole* line by mouse from right to left the toolbar does NOT pop-up, is it a bug?\nselecting from left to right the toolbar pop-ups normally.",
+			"post_id": 100,
+			"date_added": 1483079880
+		},
+		{
+			"comment_id": 77,
+			"body": "another bug:\nafter adding a new post, editing the post body, click in `Blog post body` the `+` button does NOT pop-up. We must press enter to make it pop-up.",
+			"post_id": 100,
+			"date_added": 1483080472
+		},
+		{
+			"comment_id": 78,
+			"body": "COOL!\nHappy New Year!",
+			"post_id": 101,
+			"date_added": 1483337699
+		},
+		{
+			"comment_id": 79,
+			"body": "Cheers！\nReally want to see what the HUGE opportunity is. When will it be out?",
+			"post_id": 102,
+			"date_added": 1484311920
+		},
+		{
+			"comment_id": 80,
+			"body": "> [nofish](#comment_162_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I think I will able to talk about it in some weeks\n\nI've pasted the log http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:12_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ\nHope it to be fixed ASAP, many users complain that. THX!",
+			"post_id": 102,
+			"date_added": 1484315577
+		},
+		{
+			"comment_id": 81,
+			"body": "After win & mac Easier ZeroNet installation, I think we need to work on Android Easier ZeroNet installation, the goal of it should be a user-friendly APK released on Google Play.\nI request creating a `ZeroNet-kivy` repo so that we can discuss & work on it together.\nKivy is a cross-platform framework, not only Android but also iOS, even desktop (win, linux, mac ). Anyone interested in iOS dev can also work on it.",
+			"post_id": 103,
+			"date_added": 1485403969
+		},
+		{
+			"comment_id": 82,
+			"body": "> [nofish](#comment_170_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Greate idea, please submit your code here: https://github.com/HelloZeroNet/ZeroNet-kivy\n\nTHX！I am not familiar with github and I am not professional coder, so I probably ask someone to help submitting my ugly code. These days I am trying my best to solve some issues of the APK. If I have luck to solve some of them, I'll release an new version of APK soon, including the code. If not, I'll submit the old version's code, hoping we can solve them together.",
+			"post_id": 103,
+			"date_added": 1485534048
+		},
+		{
+			"comment_id": 83,
+			"body": "> [inj3ct0r](#comment_2_114DnUNsjvA1fBT1A7WVx2NjHi54WpgJjS): Is there a way to run Zeronet on Android? I'm still new to this sorry.\n\nhttp://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:13_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/",
+			"post_id": 103,
+			"date_added": 1486000728
+		},
+		{
+			"comment_id": 84,
+			"body": "@Nofish: THX! Did you forget to sign & publish the newest code to ZeroMe?",
+			"post_id": 104,
+			"date_added": 1486648005
+		},
+		{
+			"comment_id": 85,
+			"body": "> [yinyue](#comment_1_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t): Good,I can use Chinese to name files,very great  📶   💯   🆒  🆒  🆒 !    thanks\n\nChinese names are only supported inside zip/tar.gz",
+			"post_id": 105,
+			"date_added": 1488185182
+		},
+		{
+			"comment_id": 86,
+			"body": "> [ppload3](#comment_1_1R67TfYzNkCnh89EFfGmXn5LMb4hXaMRQ): nice update with the archives!would it also also now make sense to add an \"archive\" option per site (besides \"clone\", \"pause\", \"delete\")?That way one could easily ZIP some site-folder from the (startpage) interface dropdown menu and download+store it for historical/backup reasons.\n\n+1 for this \n\n> [nofish](#comment_179_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):\n\nSometimes we see the android system reports that the storage is getting full because ZeroNet uses 1+GB space, however, in fact, ZeroNet only has less than 100MB files. I am still investigating it, I think it is due to android system has issue to calculate  many small files. One possible solution is to archive zites into several zip files in client side.\n\n## EDIT: Please add zip/tar.gz Benchmark in /Benchmark . I think we need to Benchmark it on android.",
+			"post_id": 105,
+			"date_added": 1488209865
+		},
+		{
+			"comment_id": 87,
+			"body": "> [nofish](#comment_179_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): \n\nI've found this:\n\n>If your directory has a lot of subdirectories and/or small files, there may be a huge difference between logical and actual size of directory.\n\nhttps://stackoverflow.com/a/19596456\n\n---\n\nUnfortunately, Android system's APP manager only use logical size to calculate, so users can be easily warned of the storage is getting full due to ZeroNet. As I said before, we need to archive zites into several zip files in client side.\n\n---\n\nAlso, we need to add support for zite owner to archive many inactive users' files into zip, because zites are getting bigger and containing more and more small files ( 5000+ for ZeroMe user registry hub, 2000+ for ZeroTalk/NewGFWTalk/popular hubs) which makes new ZeroNet users' initial zite download very slow and results in bad new users' experience.",
+			"post_id": 105,
+			"date_added": 1488252111
+		},
+		{
+			"comment_id": 88,
+			"body": "> [nofish](#comment_180_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yeah archiving is still an unsolved question. As workaround to the many files problem it can be possible to store files in a single sqlite or other, simple key-value database file.\n\nIf we use sqlite, we have to make sqlite mode = security default, otherwise, no way to rebuild db. Or sqlite Online Backup API?\nIf we use simple key-value database file, when the file is big, I don't think we can have better performance than sqlite.",
+			"post_id": 105,
+			"date_added": 1488276069
+		},
+		{
+			"comment_id": 89,
+			"body": "> [nofish](#comment_180_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yeah archiving is still an unsolved question. As workaround to the many files problem it can be possible to store files in a single sqlite or other, simple key-value database file.\n\nWhat about https://github.com/PyFilesystem/pyfilesystem2 which only requires pure-python dependencies? It supports ZipFS and TarFS, filesystem in an archive file!",
+			"post_id": 105,
+			"date_added": 1488279454
+		},
+		{
+			"comment_id": 90,
+			"body": "> [nofish](#comment_181_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): From the docs:\n> \n> So basically it's unpacks to a temp directory, then re-pack when you close it.\n\nWhat's the mechanism of python's standard library zipfile? unpacks and re-pack? the same with ZipFS?",
+			"post_id": 105,
+			"date_added": 1488337115
+		},
+		{
+			"comment_id": 91,
+			"body": "> [nofish](#comment_181_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): \n\nThe same APK installation with only ZeroMe hubs and ZeroTalk downloaded, size report comparison shot by @Yinyue:\n\nAndroid system's APP manager reports:\nhttp://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i/1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t/1488344575\n\nactual size which a third-paty file manager reports:\nhttp://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1GrEenUGRWnzaNZjR3XsQa6dQgdPDTyt7i/1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t/1488344617",
+			"post_id": 105,
+			"date_added": 1488345402
+		},
+		{
+			"comment_id": 92,
+			"body": "> [nofish](#comment_182_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I will test if zip/sqlite/bsddb suitable for this. I did some similar benchmarks last year: https://github.com/HelloZeroNet/ZeroNet/issues/463#issuecomment-220978182\n\nzip has performance issue of appending files into archive ( zip file getting more and more bigger since no overwrite support just append, 6 times slower than writing directly to OS filesystem ). sqlite is slower in security mode than in speed mode.\nSo IMO, we may just avoid writing to zip/sqlite/bsddb. As I said before, we can do this via simple strategy:\n- Add support for zite owner to archive many inactive users' files into zip or something (e.g. 11.zip 12.zip ... 1A.zip 1B.zip ... 1Z.zip for different first 2 char of user addresses) via hidden menu ( auto-backup before archiving and publishing )\n- On the zite user side, read files outside zip first, if can not find the file, find it inside the zip\n- If need to write, write directly to OS filesystem. Never write into zip",
+			"post_id": 105,
+			"date_added": 1488365984
+		},
+		{
+			"comment_id": 93,
+			"body": "> [nofish](#comment_183_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Sounds like a good idea\n\nFor json archive, tar.gz is OK because all things have been built into sqlite ( what a pity bz2 is not supported by Android atm)",
+			"post_id": 105,
+			"date_added": 1488367308
+		},
+		{
+			"comment_id": 94,
+			"body": "> [nofish](#comment_184_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):\n> I have added more info and problems here: https://github.com/HelloZeroNet/ZeroNet/issues/98#issuecomment-283525022\n\nI don't think we have problem 1 you said in /issues/98 if we do it via strategy I said.\nZite owner archives users' files into 11.zip 12.zip ... 1A.zip 1B.zip ... 1Z.zip by the user addresses rather than by time-stamped zip. It would be very quick to find a specified user's file, and just need to read from only one zip.\nIf an archived user starts posting again, we writes his/her **_whole_** file outside the zip, directly to OS filesystem. Thus, we just ignore his/her old file in zip. On the zite user side, reading is fast, writing is fast, everything works well without any problem.\nOnly thing need to notice, though very tiny, is zite owner need to unpack all zip before monthly archiving (repack), which makes archiving a little slow. But it's obviously not a big problem because zite owner is only one person ( VS thousands of users ) and only need to do it once a month!",
+			"post_id": 105,
+			"date_added": 1488425867
+		},
+		{
+			"comment_id": 95,
+			"body": "> [nofish](#comment_185_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I think time stamping would be much better\n\nMy idea to optimize Solution 1:\nzite owner builds a db indexing all archives, let user side quickly knows which archives have the specified user's files. Zite owner updates the db when zite owner monthly archiving. I think it would speed up reading.\n\nMy question to Solution 2:\nWhy needs modification in every site code? What is so-called re-index the db? And why?\n",
+			"post_id": 105,
+			"date_added": 1488448819
+		},
+		{
+			"comment_id": 96,
+			"body": "> [nofish](#comment_186_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Needs more research and testing on this, but not every database queries prepared that same user data is stored in different files.\n\nJS makes db queries, and the back-end (ZeroNet python) responds the results, right? If the back-end supports reading from different json and build them into db, it is OK, isn't it?",
+			"post_id": 105,
+			"date_added": 1488451939
+		},
+		{
+			"comment_id": 97,
+			"body": "Exciting!\nIs it the `HUGE opportunity` you mentioned [here](http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:102:2016:+Getting+attention)?\nIt is really HUGE!\nI'll try my best to help you.\n\nUPDATE: 18 minute talk? I want to confirm the time your talk lasts.",
+			"post_id": 107,
+			"date_added": 1489111473
+		},
+		{
+			"comment_id": 98,
+			"body": "> [nofish](#comment_190_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Yes, this is it. (There is an another big opportunity, that currently emerging beside of this)\n\nanother? OMG!\n18 minute talk? I want to confirm the time your talk lasts.",
+			"post_id": 107,
+			"date_added": 1489111869
+		},
+		{
+			"comment_id": 99,
+			"body": "> [nofish](#comment_191_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I think my only chance is the \"Highlights Exclusive\" event. I will create a new post if I have any more information.\n> \n> It's still undecided, it's between 10 and 18 minutes. I will go for a rehearsal to New York at end of this month and they will give more information there.\n\nOh, not much time left. We need to do well in the rehearsal.\nPS: I see you in https://ted2017.ted.com/speakers",
+			"post_id": 107,
+			"date_added": 1489112791
+		},
+		{
+			"comment_id": 100,
+			"body": "> [nofish](#comment_192_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Don't need to worry, actually I have a (I think a pretty good) script ready, but I'm open for new ideas and stories.\n\nis it possible for us to know the script before  the rehearsal?",
+			"post_id": 107,
+			"date_added": 1489113005
+		},
+		{
+			"comment_id": 101,
+			"body": "> [nofish](#comment_192_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):\n\nI think you can refer this:\nhttps://www.ted.com/talks/michael_anti_behind_the_great_firewall_of_china",
+			"post_id": 107,
+			"date_added": 1489130456
+		},
+		{
+			"comment_id": 102,
+			"body": "> [yinyue](#comment_3_1GNgaj5EqkzqYECYbXa889fGLyuseHRi3t):  In my opinion ,Don't introduce PLAY ! This will let people think zeronet is a pirate paradise. ! But it can prove that zeronet is a real freedom place .\n\nI don't think PLAY is not talk-able. In the TED video I mentioned in my last comment, the speaker talked about the U.S. bad cats:\nSOPA, PIPA, ACTA, TPP and ITU.",
+			"post_id": 107,
+			"date_added": 1489130722
+		},
+		{
+			"comment_id": 103,
+			"body": "> [nofish](#comment_192_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): \n\nIMO we should not talk _too_ much about why decentralization, we should talk more about ZeroNet itself in limited 18 min. People have already talked a lot about centralization, censorship, surveillance and so on. But people talked few about working solutions that are user friendly. ZeroNet is one of the best atm. We need to show why do we say ZeroNet is user friendly: easy to install, easy to use, fast, clean, flexible...\nAfter reviewing the 2 videos of [your demo in Decentralized Web Summit](http://127.0.0.1:43110/Blog.ZeroNetwork.bit/?Post:86:Why+do+we+need+to+change+the+Web+), IMO we need a video record of demo screen (a.k.a screencast) with speedup in the boring download time. The screencast, integrated into your PPT, is also a good method in case of something unexpected happening, rather than live demo. In the demo, the UI should be cool. IMO ZeroHello is cool, ZeroBlog and ZeroTalk is not that cool, ZeroMe is cooler than ZeroBlog and ZeroTalk but less cool than ZeroHello. ZeroBlog definitely needs a good avatar,  while ZeroMe needs a good logo.",
+			"post_id": 107,
+			"date_added": 1489155434
+		},
+		{
+			"comment_id": 104,
+			"body": "> [nofish](#comment_193_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): My current script is more about the problem\n\nI didn't mean don't talk why decentralization, I meant don't talk too much. People really need to know we have a working solution that is user-friendly and can be used today, not just an idea or todo. We have put lots of effort into it, and welcome everyone to build the eco-system together.\nI'll watch more TED videos to see what TED exactly is.\n**BTW: My used space here is 39KB, almost hit the 40KB limit here. Pls raise it!**",
+			"post_id": 107,
+			"date_added": 1489160148
+		},
+		{
+			"comment_id": 105,
+			"body": "> [nofish](#comment_193_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): My current script is more about the problem, why is it important for everyone and how does ZeroNet solves it, because TED is not a tech conference, but about ideas and just showing a relatively good looking application without emotions is not powerful enough.\n\nhttps://www.ted.com/talks/massimo_banzi_how_arduino_is_open_sourcing_imagination\n Arduino, a tiny, easy-to-use open-source microcontroller-driven platform, is somewhat like ZeroNet -- an easy-to-use open-source site platform. In the above video, the speaker, an Italian, makes the talk full of demos. So I don't think TED is limited to ideas. IMO **_combining_** idea and demo is the best way to talk about ZeroNet.\n( I have played with Arduino for some time, I think I know it )",
+			"post_id": 107,
+			"date_added": 1489214676
+		},
+		{
+			"comment_id": 106,
+			"body": "I'd not  follow the Q&A format because I also think there is some overlap with each other of the 4 questions. I just write something worth sharing IMO.\n- Thanks to Peer2Peer technology and decentralized structure,  a site owner does not need to be online to watch and maintain sites now and then in case of sites cracked or DDOS-ed ( It would be nice if you can find a humorous GIF showing what is DDOS ). This is important because being online long-time and frequently is not possible for many site owners and is dangerous for someone who want to keep highly anonymous.\n- Centralizing is the friend of censorship. We can see censorship by commercial companies and evil governments. Methods of censorship are not only deleting or forbidding , but also DDOS.\n\nA good example: [According Wikipedia](https://en.wikipedia.org/wiki/Voat), in 2015, Voat, a website has been labelled as an alternative to Reddit with a focus on freedom of expression, experienced large influx of new users after Reddit banned five of its subreddits for harassment—the largest of which had around 150,000 subscribers. The large influx temporarily overloaded the site, causing downtime. During this time, Voat had both its web hosting and PayPal accounts closed without warning. Its German web host cited \"politically incorrect\" content on the site and distrust of Voat as the cause since Germany has strict rules for hosting services. The website continued to accept donations in Bitcoin, and was able to continue functioning, as it had moved to a different hosting provider. But the website continued to experience downtime due to an ongoing distributed denial of service (DDOS) attack, rendering the 700,000 unique visitors unable to access the site.\n\nA month later, following the dismissal of a popular administrator on Reddit, another influx of Reddit members registered with Voat, leading to traffic which again caused Voat to experience downtime.\n\nSo we have [ZeroVoat](http://127.0.0.1:43110/1J1c7eML6uMwDU4uiKbKRxoqxGP6WMFMvb) (  show demo ), decentralized clone of Voat. No downtime if there is at least one peer seeding the site. Compared with the original centralized one, more influxes of users means more peers, and more stable and fast it will be. ",
+			"post_id": 107,
+			"date_added": 1489384937
+		},
+		{
+			"comment_id": 107,
+			"body": "> [nofish](#comment_193_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): \n\nPlease see this:\n[Discussion on porting C/S centralized web framework/Apps to ZeroNet, not so hard as you think](http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:15_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/Discussion+on+porting+C+S+centralized+web+framework+Apps+to+ZeroNet+not+so+hard+as+you+think)",
+			"post_id": 107,
+			"date_added": 1489641522
+		},
+		{
+			"comment_id": 108,
+			"body": "> [0x1337](#comment_3_162gsjqc5VB9ijkvSZMZVrcqdmqQ7XugiF): The audience has no interest in ZeroNet and thus won't help ZeroNet further, just continue talking at hacker conferences, not TED.\n\nHow do you know that? TED's T means technology. There are many hackers talking about  technologies including decentralizing topic at TED. ",
+			"post_id": 107,
+			"date_added": 1490235495
+		},
+		{
+			"comment_id": 109,
+			"body": "> [twiggy](#comment_3_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): I just found this on github about integrating a decentralized wordpress on zeronet. It sounds interesting. Is there any coders on zeronet who can pull it off. https://github.com/leoloso/PoP/issues/9\n\nyeah, interesting. \nIMO it can be fully decentralized in this way: http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:15_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ/Discussion+on+porting+C+S+centralized+web+framework+Apps+to+ZeroNet+not+so+hard+as+you+think",
+			"post_id": 105,
+			"date_added": 1490418372
+		},
+		{
+			"comment_id": 110,
+			"body": "Fuck TED! They removes nofish on their pages so quickly.\nhttps://archive.fo/MWieA https://archive.fo/snM44 archived from google cache of https://ted2017.ted.com/program and https://ted2017.ted.com/speakers",
+			"post_id": 107,
+			"date_added": 1491285528
+		},
+		{
+			"comment_id": 111,
+			"body": "> [mkg20001](#comment_2_177ia43eQrnWCHCWt1ik6viQGRzWuNXGzD): WTF is wrong with them?\n\nyou have not seen nofish's latest post?\nhttp://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/1491244225",
+			"post_id": 107,
+			"date_added": 1491318057
+		},
+		{
+			"comment_id": 112,
+			"body": "- Tar.gz pack x 10..........\n! Error: Invalid hash\n0.258s [x0.51: Goodish]\n- Tar.bz2 unpack x 10..........\n! Error: Invalid hash\n0.255s [x1.00: OK]",
+			"post_id": 108,
+			"date_added": 1492132923
+		},
+		{
+			"comment_id": 113,
+			"body": "due to the typo in\n```\n        if os.path.isfile(\"%s/test.tar.bz2a\" % config.data_dir):\n            os.unlink(\"%s/test.tar.bz2a\" % config.data_dir)\n```\ntest.tar.bz2 is not deleted.\n",
+			"post_id": 108,
+			"date_added": 1492133924
+		},
+		{
+			"comment_id": 114,
+			"body": "> [nofish](#comment_203_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Thanks fixed!\n\nhttp://127.0.0.1:43110/Benchmark\nOn android, both zip and gz pack are slow, but both zip and gz unpack are faster than PC!",
+			"post_id": 108,
+			"date_added": 1492165398
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {}
+}

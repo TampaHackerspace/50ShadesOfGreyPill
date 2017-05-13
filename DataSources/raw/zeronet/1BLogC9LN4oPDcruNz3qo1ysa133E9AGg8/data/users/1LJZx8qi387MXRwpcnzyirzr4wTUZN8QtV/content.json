@@ -1,0 +1,15 @@
+{
+ "cert_auth_type": "bitmsg", 
+ "cert_sign": "HHsDayI5Q+O6P9ym3zAP3jFP8gu6GbARCVTamYrEqQlX80RiX7P0fpci1oTdiQx8JrLRPIhC1ng3VgB2S5d7U2k=", 
+ "cert_user_id": "corzntin@zeroid.bit", 
+ "files": {
+  "data.json": {
+   "sha512": "db11c239d460ca6187bd116a7485e02e44a083ecac9270124c2aa91d13d70fe2", 
+   "size": 178
+  }
+ }, 
+ "modified": 1455034130.911167, 
+ "signs": {
+  "1LJZx8qi387MXRwpcnzyirzr4wTUZN8QtV": "HF7y19ks1Zlyil+6U+9K0ujfw3Y27r36C9eSZkphtR7iwrLTxRT1lCLZO/w+FdcO/ghc/kd8ZABmty8PexLHyLc="
+ }
+}

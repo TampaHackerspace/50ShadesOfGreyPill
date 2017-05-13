@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HDNkEbBHjU/M0Dq4YKSjWRAnqmDBYyhAJ4/ZdnOMvuAQoHSeR9I8EQF3pFujRwc4hoO3chUDYJtu3B+N1z/5uRU=",
+ "cert_user_id": "manrus@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d7bcc60a4831040195d922de9eb84286a280c3f2bf876a118b628e5f2359569f",
+   "size": 125
+  }
+ },
+ "inner_path": "data/users/1NHZ2FfVkeCBzr2iS1cVnzf5xZfN4ZWEik/content.json",
+ "modified": 1456395770.177,
+ "signs": {
+  "1NHZ2FfVkeCBzr2iS1cVnzf5xZfN4ZWEik": "G2oOiQhU2gKW7GOWpTof0VQUsG43XwmpcIhu87GnoDiVhdOJkti8ImUQW/sc1MVS2qpBpKP4LI+MvYj6wMgUHm4="
+ }
+}

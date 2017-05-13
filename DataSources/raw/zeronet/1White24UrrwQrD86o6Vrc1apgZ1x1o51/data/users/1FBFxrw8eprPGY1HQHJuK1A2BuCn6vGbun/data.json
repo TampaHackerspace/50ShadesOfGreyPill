@@ -1,0 +1,34 @@
+{
+	"next_post_id": 5,
+	"next_comment_id": 1,
+	"next_follow_id": 1,
+	"avatar": "generate",
+	"user_name": "Hurensohn111",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1491729557,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1491729570,
+			"body": "Ich bin ein dummer Hurensohn :)",
+			"date_added": 1491729568
+		},
+		{
+			"post_id": 1491729635,
+			"body": "Geh mir aus der Sonne :D",
+			"date_added": 1491729632
+		},
+		{
+			"post_id": 1491729670,
+			"body": "*mangle\n:PREROUTING ACCEPT [0:0]\n:INPUT ACCEPT [0:0]\n:FORWARD ACCEPT [0:0]\n:OUTPUT ACCEPT [0:0]\n:POSTROUTING ACCEPT [0:0]\nCOMMIT\n\n*nat\n:PREROUTING ACCEPT [0:0]\n:INPUT ACCEPT [0:0]\n:OUTPUT ACCEPT [0:0]\n:POSTROUTING ACCEPT [0:0]\nCOMMIT\n\n# Set a default DROP policy.\n*filter\n:INPUT DROP [0:0]\n:FORWARD DROP [0:0]\n:OUTPUT DROP [0:0]",
+			"date_added": 1491729666
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": []
+}

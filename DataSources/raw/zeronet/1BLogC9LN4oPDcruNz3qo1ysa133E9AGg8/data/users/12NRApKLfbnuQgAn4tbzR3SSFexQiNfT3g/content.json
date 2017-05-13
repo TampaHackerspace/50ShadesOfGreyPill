@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HLTwnizfrFTDlw4XtU25MMOck89qwnGdbrOhsvnfee3nbOXoRxN+tkvVEAscGgTP9DL/HAkprsVhOJ81kfjTnrk=",
+ "cert_user_id": "zeronetdanmark@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "bfc1bca0e0a7121e1b554e7c40ab3f1b439c8e6dd5f3d5681bfc6e2f9cc89b4b",
+   "size": 105
+  }
+ },
+ "inner_path": "data/users/12NRApKLfbnuQgAn4tbzR3SSFexQiNfT3g/content.json",
+ "modified": 1489181772,
+ "signs": {
+  "12NRApKLfbnuQgAn4tbzR3SSFexQiNfT3g": "HIGoaGJ44KZ9LYTFr2HTqEywqFcq0kx1cnqPIGlTCIG5xUYZNZXaNebFuv5h6sLnVijfJW6ytHQ0W9uuyrMdyA4="
+ }
+}

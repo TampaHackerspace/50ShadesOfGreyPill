@@ -1,0 +1,15 @@
+{
+ "cert_auth_type": "web", 
+ "cert_sign": "G6/0871FaZX1ZxgJNxDSyzO4/BOnHavEDvfERiFXKCsIjZJAxPvb2rKNRZyweTGs8VtrdOrqlHk0f89Jdt6gpIA=", 
+ "cert_user_id": "karatezombie@zeroid.bit", 
+ "files": {
+  "data.json": {
+   "sha512": "872aa675e2e7deed41bec550889ee36f1ae7351fa73f8aba480398ab898af77a", 
+   "size": 182
+  }
+ }, 
+ "modified": 1453717865.176783, 
+ "signs": {
+  "1JqgD3aWvcgpPXyZh56MYehTsnUWuFDPkR": "G4BbIs1Ssd9P8ixYpoHLSn6zMYMPx/PvHdkM8xJNHb3SbtQ59euJE0bu/WQnpMyj49BYpAg5gvbGCgepsRlzh1I="
+ }
+}

@@ -1,0 +1,37 @@
+{
+	"next_comment_id": 5,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Do I understand correctly that \"merged sites\" feature is still not released and not documented? ",
+			"post_id": 90,
+			"date_added": 1471624839
+		},
+		{
+			"comment_id": 2,
+			"body": "> [nofish](#comment_111_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Version 0.4.0 contains the merger site feature, I will update the documents soon.\n\nCool! So it will be possible to have 0chan as \"merger site\" and let users create and manage their own boards, each of which will be a separate site? ",
+			"post_id": 90,
+			"date_added": 1471625769
+		},
+		{
+			"comment_id": 3,
+			"body": "> User file archiving: Allows the site owner to archive inactive user's content into single file. (Reducing initial sync time/cpu/memory usage)\n\nAny info on how to use this feature?",
+			"post_id": 89,
+			"date_added": 1471650197
+		},
+		{
+			"comment_id": 4,
+			"body": "Cool! It works significantly faster for me as well. \n\nBy the way, is there any ETA on documentation update? I'm really eager to try out \"merger sites\" feature. If you can just explain it briefly (what methods to use or just what source file to read to understand it) that would be also great.  ",
+			"post_id": 92,
+			"date_added": 1473165411
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {},
+	"post_vote": {
+		"82": 1,
+		"89": 1,
+		"90": 1,
+		"93": 1
+	}
+}

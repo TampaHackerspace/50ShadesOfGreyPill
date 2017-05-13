@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G/CdQ4ZV1JRkcMAxO57NXG7QuB7IfToL/5k33PUjO/u0ewaoqeIKoeNraFW/z/q16uTg1j4vzl1uEKjrve2edGY=",
+ "cert_user_id": "midastouch@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "c6cdaf6747cea1a581f417476070d67553415a50afac725f19736fdda4a8e120",
+   "size": 421
+  }
+ },
+ "inner_path": "data/users/1AeAAWQ13362NWaTDuSJ3cEPbk4HrGKsMS/content.json",
+ "modified": 1493623202,
+ "signs": {
+  "1AeAAWQ13362NWaTDuSJ3cEPbk4HrGKsMS": "GznXqrjwRxKRwZxEretSlzJ25A6dzvKbryDhF81uREH2GrsiAd0u9L4nrgqF2Y/nWrhizrqiWWebXjC3Ma8tsZg="
+ }
+}

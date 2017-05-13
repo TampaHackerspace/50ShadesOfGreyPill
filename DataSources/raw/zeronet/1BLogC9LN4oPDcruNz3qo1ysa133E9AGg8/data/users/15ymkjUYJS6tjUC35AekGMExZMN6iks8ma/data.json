@@ -1,0 +1,25 @@
+{
+	"next_comment_id": 4,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "I tried to create my own blog and chose to \"clone\" this one. \nHowever, I can \"add new post\" ut I can't write anything on it. \nIs there a tutorial for this?",
+			"post_id": 3,
+			"date_added": 1457130943
+		},
+		{
+			"comment_id": 2,
+			"body": "When I try the alternative method and write: \"python zeronet.py siteCreate\"\nI get the following problem \"ImportError: No module named gevent\"",
+			"post_id": 3,
+			"date_added": 1457131315
+		},
+		{
+			"comment_id": 3,
+			"body": "If I want to post images on my blog, do I have to upload them first to a server? Can I only display images that are already public?",
+			"post_id": 3,
+			"date_added": 1457272545
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

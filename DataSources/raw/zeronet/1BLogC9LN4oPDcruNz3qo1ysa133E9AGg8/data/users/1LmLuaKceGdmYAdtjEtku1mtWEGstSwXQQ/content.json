@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "G8fOn/1UYLadEAQWrtjzT1j4JZggB1PLYBoieZFHMrLje+PMpHSHUtmg73FqY0I1j22S1lfZpmBFTri0PmmpZhY=",
+ "cert_user_id": "kefah@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "e2120993a8a6b08a2646f7eefeef370489223606b9f28b9d562333053a72063c",
+   "size": 283
+  }
+ },
+ "inner_path": "data/users/1LmLuaKceGdmYAdtjEtku1mtWEGstSwXQQ/content.json",
+ "modified": 1474146702.265532,
+ "signs": {
+  "1LmLuaKceGdmYAdtjEtku1mtWEGstSwXQQ": "G5XaXV2xle56VqraUck+5X6r//7Q3U3XdgQcOhO2maAb6cRtELY87Mib8Peq44JUwkD4G1ey4QnM46xCq/cw5LY="
+ }
+}

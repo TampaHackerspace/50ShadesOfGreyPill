@@ -1,0 +1,78 @@
+{
+	"next_comment_id": 11,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "The blog needs a admin panel something like this https://imgur.com/lgANPiy so people can change the look of the blog easier or add media easier.",
+			"post_id": 60,
+			"date_added": 1446872879
+		},
+		{
+			"comment_id": 2,
+			"body": "I had an idea about encrypted messaging as well. Would it be possible for you to create a way for a person to click on another persons user name to send an encrypted message? Example - A person clicks on oracle and they can send me an encrypted message. You could put some kind of notifier that pops up on the screen when someone gets an encrypted message.",
+			"post_id": 63,
+			"date_added": 1448778906
+		},
+		{
+			"comment_id": 3,
+			"body": "Question - I just cloned a new blog instead of doing it the manual way. Do I have to still have to do this> Copy all file from data/1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8 to data/[Your new site address displayed when executed siteCreate] directory\nDelete data directory and rename data-default to data to get a clean, empty site\nRename data/users/content-default.json file to data/users/content.json",
+			"post_id": 3,
+			"date_added": 1455687084
+		},
+		{
+			"comment_id": 4,
+			"body": "> [o4zw5vmpoz5hz78z](#comment_8_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): no i guess it is not needed anymore if ou clone it\n\nThanks",
+			"post_id": 3,
+			"date_added": 1455697825
+		},
+		{
+			"comment_id": 5,
+			"body": "> [nofish](#comment_85_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): any suggestions for the social site name?\n\nYou should think of 4 or 5 names and then create a zeropoll and see which one the people like best.",
+			"post_id": 83,
+			"date_added": 1462580409
+		},
+		{
+			"comment_id": 6,
+			"body": "because most of the users are willing to trade their privacy for a little easier approach. This is why I stressed about zeroblog needing a admin panel or cms so badly. Non-coders use admin panels and since zeroblog doesn't have one, non-coders will trade their privacy and stay on the centralized network where there is a admin panel and use something like wordpress.",
+			"post_id": 86,
+			"date_added": 1466000876
+		},
+		{
+			"comment_id": 8,
+			"body": "Hey nofish ZeroMail has quit working for me after I updated to rev 1529. I tried to send a message and when I hit the encrypt & send message button nothing happens.",
+			"post_id": 93,
+			"date_added": 1475366489
+		},
+		{
+			"comment_id": 9,
+			"body": "I just updated Zeronet but now I get WebGL not supported when I open any website. Here's a screenshot. http://imgur.com/a/ui1wr",
+			"post_id": 97,
+			"date_added": 1479661163
+		},
+		{
+			"comment_id": 10,
+			"body": "> [waterrabbit](#comment_5_1LxkfGxtWhktAJ5WJ9ZnKxksTSH37qm8cC): Perhaps your browser does not support WebGL, or you have turned off WebGL. What browser were you using?\n\nIt's ok now. For some reason it did it for two days then it started to work again.",
+			"post_id": 97,
+			"date_added": 1480472704
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"59": 1,
+		"61": 1,
+		"64": 1,
+		"66": 1,
+		"67": 1,
+		"69": 1,
+		"72": 1,
+		"73": 1,
+		"74": 1,
+		"75": 1,
+		"77": 1,
+		"78": 1,
+		"79": 1,
+		"83": 1,
+		"93": 1,
+		"101": 1
+	}
+}

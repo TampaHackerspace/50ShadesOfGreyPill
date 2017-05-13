@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "GwUeoC01unXVWy/CxzhPCDfKowjBwnBlKIqjsz/q98EFh98SIgM+KNJDZuEc7Q9MLia3pcr54YYPXieb9aCPiuE=",
+ "cert_user_id": "royalstar@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "db2841ba64aa82d5ed6323989bed533710f969a8e98b524885279491732a276c",
+   "size": 945
+  }
+ },
+ "files_optional": {
+  "1493183020.jpg": {
+   "sha512": "6a932593cfb7e1aed71a8bfc29f1f00384040b71bb9489e44a24c7eadf90dea9",
+   "size": 34626
+  },
+  "1493781129.jpg": {
+   "sha512": "2b80413f8213e355574e9742404cd442eaf48768cf90e3ebe11c25154ecad171",
+   "size": 37291
+  }
+ },
+ "inner_path": "data/users/13JJgpdBDdRwPNckDBqfDPoutHFGXTVtv1/content.json",
+ "modified": 1493781127,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "13JJgpdBDdRwPNckDBqfDPoutHFGXTVtv1": "HIY75KM6PF6YVNnNCnRUU6nZHFohPjuz2eWm4s4I1mmZabEytF7804iUEcJmVEx1DGHusWCj0OVLbk9XWNLNDgI="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G1tEM7rbE5EjHZ35a0iII5fZwSuErn7byAePas60TZ/x1a1G2+1KuU1EPdUAgfSaKTx106nrJcGcURfKo8aJFac=",
+ "cert_user_id": "mhorbul@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "fe789f688cad2838e478d67f606dc9d295644c6bd722bed56808ed75774191b1",
+   "size": 338
+  }
+ },
+ "inner_path": "data/users/1BGnh9LRfeLJ2HWfTL6SR9aSjzdbbgfTn/content.json",
+ "modified": 1491508614,
+ "signs": {
+  "1BGnh9LRfeLJ2HWfTL6SR9aSjzdbbgfTn": "G5vzkvqO8hpBBYL4ZaN6y6PwWwlFBO9a/cbCnV844kBiTAeMtuVwSE+N5lOjccC0Q3zKXLkeZgvm0cQjrRucLMY="
+ }
+}

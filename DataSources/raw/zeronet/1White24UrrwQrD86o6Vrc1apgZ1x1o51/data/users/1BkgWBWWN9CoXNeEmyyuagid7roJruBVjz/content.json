@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HBDWcfZvZbEj5FbGjrclZH3Li8X6OLbdobGHzVfnDtZMbJLk2RfC8CpH01FxSMU+cCnGtu6BQHtD2x7F8N1wKG8=",
+ "cert_user_id": "cyberslave@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "546e26a3ca057703b951bd173b06e21b4e529b97c6006089f779437b90ccfc95",
+   "size": 1424
+  }
+ },
+ "inner_path": "data/users/1BkgWBWWN9CoXNeEmyyuagid7roJruBVjz/content.json",
+ "modified": 1492543331,
+ "signs": {
+  "1BkgWBWWN9CoXNeEmyyuagid7roJruBVjz": "G28BpgY+LdJynYoPoaPVwNdb3TO7oglPb4ttqveINTLIN3Ivdi4nFiTRZDneE5hx32+29lS1FiJV+kg64RsrYHI="
+ }
+}

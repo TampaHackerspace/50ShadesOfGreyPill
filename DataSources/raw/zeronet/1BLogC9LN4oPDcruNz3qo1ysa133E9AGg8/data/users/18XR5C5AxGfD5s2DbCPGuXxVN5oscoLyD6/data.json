@@ -1,0 +1,154 @@
+{
+	"next_comment_id": 25,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Any doc with javascript ? I don't want to learn this coffeeScript thing. And seem like I would not have to do it as it run in javascript in reality. (from What I understand)",
+			"post_id": 43,
+			"date_added": 1469887852
+		},
+		{
+			"comment_id": 2,
+			"body": "> [gomzik](#comment_2_1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ): ES6 Version of ZeroFrame - https://gist.github.com/GomZik/02e85df5fb7a5eb819cd\n\nthx  Now this I can read it :D",
+			"post_id": 43,
+			"date_added": 1469913096
+		},
+		{
+			"comment_id": 3,
+			"body": "what is the zerome url ? \n",
+			"post_id": 89,
+			"date_added": 1474917660
+		},
+		{
+			"comment_id": 4,
+			"body": "INB4 Im sorry to leave a negative comment. \n\nCoffeescript, file concatenation, and minification are oprimisation features. \n\nNot requirements. The tutorial should be keep as simple as possible.\n\nOptimisation should go in it's own section for people interested in optimisation/best practices tutorials. \n\nUsualy I prefer submit patches then complain. But At this point the tutorial and documentation are so poorly written I just can't figure out how it should be working. \n",
+			"post_id": 43,
+			"date_added": 1480894637
+		},
+		{
+			"comment_id": 5,
+			"body": "> [cnocg](#comment_1_1L34ssdxfxnnSFEoUmy48LocCxnVAHtqSV): Is it posible to develop a zeronet site avoiding using ZeroFrameAPI(i.e. ZeroFrame.coffee)? Is it capable to use more basical things, such as http request or http API?\n\nyes it's completely possible if you do a static website. ",
+			"post_id": 43,
+			"date_added": 1480894750
+		},
+		{
+			"comment_id": 6,
+			"body": "@nofish Thx for the tuto, by the amount of comments, I see people are following it closely :D\n\n---\n \n\"The best way to do this is map all data.json files to an SQL database.\nThe ZeroNet automatically do this for you, all you need is a dbschema.json file in your site’s directory\"\n\nCan't we store content directly in a database instead of a .json file ?  it seem like an extra step to \nme. \n\nOr what's the advantage to pass by a sqlite database instead of just loading the json ? ",
+			"post_id": 99,
+			"date_added": 1482600299
+		},
+		{
+			"comment_id": 7,
+			"body": "Linux users can use  *sqlitebrowser*  to look at .db files  ",
+			"post_id": 99,
+			"date_added": 1482629175
+		},
+		{
+			"comment_id": 8,
+			"body": "What is the licence of this pdf ? ",
+			"post_id": 34,
+			"date_added": 1482891446
+		},
+		{
+			"comment_id": 9,
+			"body": "If im not using the GUI to create the site I have to find somewhere a version of ZeroFrame.js I trust and add it manually. Im totally ok with this but a checksum validation seem to be a good practice when you add libraries found on the internet.  \n\n@nofish\n Would it be possible to have an official checksum from a zeronetDev ?  \nDo you need me to open a issue on github for this ? ",
+			"post_id": 99,
+			"date_added": 1482946139
+		},
+		{
+			"comment_id": 10,
+			"body": "does he need to have the port 15441 open for publishing ? ",
+			"post_id": 99,
+			"date_added": 1483140102
+		},
+		{
+			"comment_id": 11,
+			"body": "I live on a island, served by one optic fiber, there is no datacenter on my island. \n\nHaving an decentralised relient web is a B plan for me.(in case of cable-eating-zombies apocalypse )\n\nWhere I live, a 2T HDD is cheaper then 2T of bandwith from my ISP. the main word is don't download something twice. \n\n`What's bad with the current internet?`\n\nIPFS and his gangnam style video example is the wrongest thing I can tell about the internet. \n\n\n",
+			"post_id": 107,
+			"date_added": 1489954972
+		},
+		{
+			"comment_id": 12,
+			"body": "Im so Fucking wishing the best for you @nofish :) \n\nStress might be your biggest enemy for now on. \n\n",
+			"post_id": 107,
+			"date_added": 1490121193
+		},
+		{
+			"comment_id": 13,
+			"body": "we will see soon enough, if tomorrow the peer number goes over 9000 or not  \n\nThis place might become full of newcomers asking tons of questions.\n",
+			"post_id": 107,
+			"date_added": 1490290067
+		},
+		{
+			"comment_id": 14,
+			"body": "Are you ready for it? :p\n\n",
+			"post_id": 107,
+			"date_added": 1490290196
+		},
+		{
+			"comment_id": 15,
+			"body": "How it been @nofish ? ",
+			"post_id": 107,
+			"date_added": 1490375292
+		},
+		{
+			"comment_id": 16,
+			"body": "most of the sensorship authorities atm are playing a cat and mouse game with server owners, \nbut what if there is not one single mouse but a ton of seeders and there is only one cat ? IMO it's the zeronet advantage. You can't take it down, cuz you won't find them all. \n\n",
+			"post_id": 107,
+			"date_added": 1490726450
+		},
+		{
+			"comment_id": 17,
+			"body": "> [nofish](#comment_196_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): I'm just arrived back to Hungary without any problems :)\n\nCan we see your ted ? (even if it's on a shaking cellphone)",
+			"post_id": 107,
+			"date_added": 1490726524
+		},
+		{
+			"comment_id": 18,
+			"body": "> [waterrabbit] have a sucess story here\n\n",
+			"post_id": 107,
+			"date_added": 1490753326
+		},
+		{
+			"comment_id": 19,
+			"body": "> [endredeak](#comment_1_1FCT2YuWqfXEiucoemquB41TCyyLNNk9Dv): it's easy usability for criminals (drugs, terrorists, etc). \n\n\nas cites are, but we don't bomb them, we track criminals individualy for their individual mischeif.  ",
+			"post_id": 107,
+			"date_added": 1490842992
+		},
+		{
+			"comment_id": 20,
+			"body": "Maybe, they came take a look at zeronet and they been scared by our redpilled. lol",
+			"post_id": 107,
+			"date_added": 1491318891
+		},
+		{
+			"comment_id": 21,
+			"body": "> Support optional file database files\n\noh yeah ! thx for that one.",
+			"post_id": 108,
+			"date_added": 1492197785
+		},
+		{
+			"comment_id": 22,
+			"body": "> [arsenelupin](#comment_5_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ): @nofish would you mind to expand on 'Support optional file database files'?What's the documentation page for that?\n\nWhenever a site query an optional json file who have an entry in the dbschema.json, It now get added to the sqlite database. Before only non-optional files where added and all at initial load.",
+			"post_id": 108,
+			"date_added": 1492198145
+		},
+		{
+			"comment_id": 23,
+			"body": "> [dogeater](#comment_1_15as6Mi4cwGMS3uBeeYj7HfQBHD3tQ3Mxy): 福利资源https://m.youtube.com/watch?v=A-m0c6wlnWo\n\nofftopic Spam",
+			"post_id": 108,
+			"date_added": 1492621949
+		},
+		{
+			"comment_id": 24,
+			"body": "> [flappyearz](#comment_3_1QEfmMwKVxgR4rkREbdJYjgUmF3Zy8pwHt): \"No cost\" for you is paid by others. TANSTAAFL.\n\n'others' are strictly your visitors that did not deleted your site, If they like your content they will probably agree to share it. If they don't they will delete the site from their computer. \n\nThere are some zeronet site I loaded to see and deleted cuz I disagreed with the sharing of such content. I find this a good workaround to not applying censorship but not helping things you dislike. \n\nIn opposition to Tor for example, I my self run a relay, To help the Tor network, but probably half of what goes by my relay is stuff I strongly disagree with and I can't prevent it.   Im litteraly stuck paying bandwith bill for PedoNazis and ISIS content. with is not a problem on zeronet. \n\n^ @nofish, This can an other point to prevent general fear that promoting censorship-free networks mean helping bad people. At least not on ZN. ",
+			"post_id": 107,
+			"date_added": 1492623395
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {},
+	"post_vote": {
+		"99": 1
+	}
+}

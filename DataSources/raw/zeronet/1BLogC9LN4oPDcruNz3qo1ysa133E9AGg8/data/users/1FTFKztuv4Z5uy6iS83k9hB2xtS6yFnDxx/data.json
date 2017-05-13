@@ -1,0 +1,13 @@
+{
+	"next_comment_id": 2,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "About *Mobile applications*, Android is a lot more open then any other mobile OS. Per example, I use [F-Droid](https://f-droid.org) and am not connected at all to any Google applications. (which means no Google Play access and no Google Play Services). F-Droid only features open-source applications and shows warnings when an application uses proprietary software.\n\nI think it might be nice to have a ZeroNet SDK installable, providing an API for applications to use ZeroNet (with a certain way to allow some applications to use certain user certs). Then we would only have to store zites once on the device.\n\nSeeding is also a problem on mobile. Low-end WiFi chipsets tend to restart often (which breaks any connections) when under high usage. On mobile data, seeding can't even be thought of. Push notifications is a good idea, but need a central server (*I think*).\n\nJust a non-related question -- for when ZeroNet x IPFS for large files ?",
+			"post_id": 86,
+			"date_added": 1465992441
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

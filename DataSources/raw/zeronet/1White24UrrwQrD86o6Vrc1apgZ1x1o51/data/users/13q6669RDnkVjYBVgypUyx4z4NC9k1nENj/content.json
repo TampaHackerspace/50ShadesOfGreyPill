@@ -1,0 +1,24 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HGUZyBkuO7b+/56NLBdIQ5mOBFS4q2KebYenaM8x5qY1jdh0kmPb72Ag86lOfIKnJrl36OSmZjPUBKUkhi3EFkg=",
+ "cert_user_id": "alienswork@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "70d73f4e39f88fb1ce2ed8c1ad8548d0691689fce74a3058b26b68d587c8b0e7",
+   "size": 751
+  }
+ },
+ "files_optional": {
+  "1493396490.jpg": {
+   "sha512": "8fb717faa683a76d9b154d7667cf86dd908ed3bda903729a7c91af3c9d4c15dd",
+   "size": 30704
+  }
+ },
+ "inner_path": "data/users/13q6669RDnkVjYBVgypUyx4z4NC9k1nENj/content.json",
+ "modified": 1493396493,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "13q6669RDnkVjYBVgypUyx4z4NC9k1nENj": "G+aNeI23HcJH6fCAkfe+BQUJEkCI7UiUZnq9DmZiKiw9f9p6CWlxLB3rYfiOrP8hyykDzt6GiUa6LOOaOu4IOCU="
+ }
+}

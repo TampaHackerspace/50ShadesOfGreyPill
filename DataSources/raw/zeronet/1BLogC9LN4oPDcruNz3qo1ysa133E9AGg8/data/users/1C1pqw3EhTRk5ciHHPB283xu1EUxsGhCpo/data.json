@@ -1,0 +1,25 @@
+{
+	"next_comment_id": 4,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "> [synczero](#comment_1_13fJ2vnsCAcCEri9FaY6tUwyfUEgRJdvVg): Someone should update the Docs?\".. in index.html file to automatically compile and merge all .coffee file within the js directory to a single all.js file.\"It does NOT automatically compile and merge. \n> \"GET http://127.0.0.1:43110/xxxxxx/js/all.js 404 (Not Found)\"\n> Also .. compile by myself:cat ZeroChat.coffee lib/ZeroFrame.coffee | coffee --compile --stdio >./all.js\"all.js:5 Uncaught TypeError: Cannot read property 'prototype' of undefined\"\n> Did someone work on this site, or whats going on here?\n\nDid you tried to install coffee script with: `$ npm install -g coffee-script`?",
+			"post_id": 43,
+			"date_added": 1465686898
+		},
+		{
+			"comment_id": 2,
+			"body": "This steps worked fine for me, I am working on Macos.",
+			"post_id": 43,
+			"date_added": 1465686962
+		},
+		{
+			"comment_id": 3,
+			"body": "Cool!! It is working!!!! \n\nThis is my p2p \"chat\" \nhttp://127.0.0.1:43110/1KsUsiGqo4CVzZZnpfdgm3JD5LkSV4C8WB \n\nno spam, just to see if really works, please write something :P",
+			"post_id": 46,
+			"date_added": 1465688810
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

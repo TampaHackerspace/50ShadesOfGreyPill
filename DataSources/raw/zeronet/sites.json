@@ -1,0 +1,252 @@
+{
+  "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8": {
+    "added": 1494639556, 
+    "auth_key": "16258b793bb11401fe76887f7cc53c060ffe07e4bd9c46dadd157f06c8c07ea2", 
+    "bytes_recv": 4871361, 
+    "bytes_sent": 730, 
+    "cache": {
+      "bad_files": {}, 
+      "hashfield": ""
+    }, 
+    "domain": "Blog.ZeroNetwork.bit", 
+    "modified": 1494572178, 
+    "optional_downloaded": 0, 
+    "own": false, 
+    "peers": 276, 
+    "permissions": [], 
+    "serving": true, 
+    "size": 4086761, 
+    "size_optional": 0, 
+    "wrapper_key": "cf4280401518680e4548a2644ca2255f8b92969ed9d51cfb87e62f82173c7eff"
+  }, 
+  "1EqoXBvHXSh9WBBK29uCktCuLDPgdbk3gE": {
+    "added": 1494637456, 
+    "auth_key": "265f57b7ad1b1fcbf700b19ba9c44c9b3ebc619173563ee45ba36b15741b4428", 
+    "bytes_recv": 4802, 
+    "cache": {
+      "bad_files": {}, 
+      "hashfield": ""
+    }, 
+    "domain": "zeroFind.bit", 
+    "modified": 1461411994.708785, 
+    "optional_downloaded": 0, 
+    "own": false, 
+    "peers": 57, 
+    "permissions": [], 
+    "serving": true, 
+    "size": 4802, 
+    "size_optional": 0, 
+    "wrapper_key": "8d43efbd65ab20e074b63a686f656d4dfedc878649afa09faf37ef29f03e7ef8"
+  }, 
+  "1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D": {
+    "added": 1494632672, 
+    "auth_key": "79fa383875079071695cf2a6bc92b69ade8ae8c1f938c60c2761f518b37246a2", 
+    "bytes_recv": 698115, 
+    "cache": {
+      "bad_files": {}, 
+      "hashfield": ""
+    }, 
+    "modified": 1494543869, 
+    "optional_downloaded": 0, 
+    "own": false, 
+    "peers": 554, 
+    "permissions": [
+      "ADMIN"
+    ], 
+    "serving": true, 
+    "size": 486888, 
+    "size_optional": 0, 
+    "wrapper_key": "75bda91657497a19018f5d566ab5a6d7b2abea546fbb208de07b9977aa088851"
+  }, 
+  "1MeFqFfFFGQfa1J3gJyYYUvb5Lksczq7nH": {
+    "added": 1494633089, 
+    "auth_key": "5d5521c5c29ed1541c83858cf3f4f8f562f5fc88ff9734d9747f418fda13c78b", 
+    "bytes_recv": 767321, 
+    "cache": {
+      "bad_files": {}, 
+      "hashfield": ""
+    }, 
+    "domain": "Me.ZeroNetwork.bit", 
+    "modified": 1491820863, 
+    "optional_downloaded": 0, 
+    "own": false, 
+    "peers": 340, 
+    "permissions": [
+      "Merger:ZeroMe"
+    ], 
+    "serving": true, 
+    "size": 502853, 
+    "size_optional": 0, 
+    "wrapper_key": "e32a2d6fe971b5d4c0c70e4882f7206164950e48df8ee7ad8c6f1cb0b5689238"
+  }, 
+  "1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F": {
+    "added": 1494632668, 
+    "auth_key": "40af53c96241aa049dfe4aeafde62eabcb1739da2d77103f1e7bec33a2b03e59", 
+    "bytes_recv": 268125, 
+    "cache": {
+      "bad_files": {}, 
+      "hashfield": ""
+    }, 
+    "modified": 1494584536.358498, 
+    "optional_downloaded": 0, 
+    "own": false, 
+    "peers": 579, 
+    "permissions": [], 
+    "serving": true, 
+    "size": 259159, 
+    "size_optional": 0, 
+    "wrapper_key": "feeab64b8f2af113ffd0d7289f10d3801f46a3275b56073f22e09bf8ab3f53d4"
+  }, 
+  "1NnopBFkeLnBUSAwcvxPCizSaqEnHFcEPH": {
+    "added": 1494637543, 
+    "auth_key": "9b929d09f945d884176e566d6f12e6fe966ee933ae3edfe819a66a35ddb92c89", 
+    "bytes_recv": 779757, 
+    "cache": {
+      "bad_files": {}, 
+      "hashfield": ""
+    }, 
+    "modified": 1491437374, 
+    "optional_downloaded": 0, 
+    "own": false, 
+    "peers": 18, 
+    "permissions": [], 
+    "serving": true, 
+    "size": 318772, 
+    "size_optional": 0, 
+    "wrapper_key": "719caaeeed5f8628e5d0c916024052a8fec50631485cd1cd668f9bba86bb8c95"
+  }, 
+  "1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL": {
+    "added": 1494643946, 
+    "auth_key": "0cddeae1a2f7a82fce20fd8b70736fc587ca028926d26e526c39397bd3dc71fb", 
+    "bytes_recv": 6687355, 
+    "cache": {
+      "bad_files": {
+        "data/users/14BmRczNn5xVLQQZ4DbcVWpNV4zkDki8ah/content.json": 7, 
+        "data/users/16qftMuQRt2Wrrz4zkQRdw1LXsvh9d3Cjf/content.json": 7, 
+        "data/users/183YBfiZcnntR2sun59dSAmue4DizmrVhf/content.json": 5, 
+        "data/users/18QRaL2iLVEKLihwERUgkB1hSCmsi7qx9y/data.json": 7, 
+        "data/users/19VX63e8XidEWrjJhGjMh4Pwf7vd5Yh7bz/data.json": 5, 
+        "data/users/1JEj6RqzbN6kVxszcgtpVa8TLkdra3vkDG/content.json": 7
+      }, 
+      "hashfield": ""
+    }, 
+    "modified": 1494638096, 
+    "optional_downloaded": 0, 
+    "own": false, 
+    "peers": 108, 
+    "permissions": [], 
+    "serving": true, 
+    "size": 5894101, 
+    "size_optional": 19231164, 
+    "wrapper_key": "ff20432a1680984320e19d819dbcdff59ad542455a4d994e3f72fe552f89b18a"
+  }, 
+  "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT": {
+    "added": 1494637485, 
+    "auth_key": "a6a65a5a6d08e2be1656827310eaecc6899b9d1085844e00b8dcb3209b2f2ebb", 
+    "bytes_recv": 9231086, 
+    "bytes_sent": 21790, 
+    "cache": {
+      "bad_files": {}, 
+      "hashfield": ""
+    }, 
+    "domain": "Talk.ZeroNetwork.bit", 
+    "modified": 1494643175.768298, 
+    "optional_downloaded": 0, 
+    "own": false, 
+    "peers": 333, 
+    "permissions": [], 
+    "serving": true, 
+    "size": 8516075, 
+    "size_optional": 0, 
+    "wrapper_key": "ce4660c0820e6ee586f4cff34a54cbe3827ffd584e48cd4020c3437be6a5a509"
+  }, 
+  "1UDbADib99KE9d3qZ87NqJF2QLTHmMkoV": {
+    "added": 1494633118, 
+    "auth_key": "739d1e11d606498261c1af93647998be6f1c57c5890d01d203870680a9ecdeb2", 
+    "bytes_recv": 4399328, 
+    "bytes_sent": 675, 
+    "cache": {
+      "bad_files": {}, 
+      "hashfield": ""
+    }, 
+    "modified": 1494632116, 
+    "optional_downloaded": 0, 
+    "own": false, 
+    "peers": 310, 
+    "permissions": [], 
+    "serving": true, 
+    "size": 4383832, 
+    "size_optional": 0, 
+    "wrapper_key": "3161bf3f4540e44b24b5de3db083f9c863194dcf58a40c8360831dddfa467569"
+  }, 
+  "1White24UrrwQrD86o6Vrc1apgZ1x1o51": {
+    "added": 1494636608, 
+    "auth_key": "c7bdba05340615bd96588ae64aacd483b757b2f7a934b2eeb91e878dee8893d5", 
+    "bytes_recv": 1590903, 
+    "bytes_sent": 3058, 
+    "cache": {
+      "bad_files": {
+        "data/users/155ye9PN9GM7nb5s5B9AXvzwPDYgQDKoDo/1494585641.jpg": 11, 
+        "data/users/1AUKfMJjrNK45iGLxYhzJBXTgm8RPnRCWE/data.json": 16
+      }, 
+      "hashfield": "wyo=\n"
+    }, 
+    "modified": 1494645553, 
+    "optional_downloaded": 30090, 
+    "own": false, 
+    "peers": 102, 
+    "permissions": [], 
+    "serving": true, 
+    "size": 1552242, 
+    "size_optional": 12769973, 
+    "wrapper_key": "34b36887c066fde6939131ebbb677ca5d27344f23f0125e4f536043fa987f65e"
+  }, 
+  "1iD5ZQJMNXu43w1qLB8sfdHVKppVMduGz": {
+    "added": 1494633154, 
+    "auth_key": "e384d61763a333df7441f038853b766588b50258e4eef7d90bcee3b730039610", 
+    "bytes_recv": 23729444, 
+    "bytes_sent": 349538, 
+    "cache": {
+      "bad_files": {
+        "data/users.json": 1
+      }, 
+      "hashfield": ""
+    }, 
+    "domain": "zeroid.bit", 
+    "modified": 1494645955.595352, 
+    "optional_downloaded": 0, 
+    "own": false, 
+    "peers": 325, 
+    "permissions": [], 
+    "serving": true, 
+    "size": 6466439, 
+    "size_optional": 0, 
+    "wrapper_key": "9d9062612a6abe647d0368ac2dc5e1632c1453bf7b90fa289f8984c137031fe0"
+  }, 
+  "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v": {
+    "added": 1494643966, 
+    "auth_key": "df268bb2684a9733cadb5ac3db7a1e7404e5438d9651342e8ca723d91e0bba5f", 
+    "bytes_recv": 9822467, 
+    "cache": {
+      "bad_files": {
+        "data/users/19tqW98HLGMZ7C1GXqtUYJUhHNVaDGpZSn/content.json": 7, 
+        "data/users/1AHT2fFR2DuDYCCkGwfVaoCrE2fwjWqNN9/avatar.png": 6, 
+        "data/users/1ANjKD2jNJW6Q5Zz7vPRZ9VYERZfcRivB2/content.json": 7, 
+        "data/users/1EugoSrC8JxWcuySWdKAo2XSjrjZuUoJMV/data.json": 7, 
+        "data/users/1JEj6RqzbN6kVxszcgtpVa8TLkdra3vkDG/content.json": 7, 
+        "data/users/1JZnw6EprzM2rJX3LRRp92xMaAWG45JeNb/data.json": 9, 
+        "data/users/1Mt9n8kBJrKno1oT8RPSKwFbFnK7iBF1ep/data.json": 9
+      }, 
+      "hashfield": ""
+    }, 
+    "modified": 1494644639, 
+    "optional_downloaded": 0, 
+    "own": false, 
+    "peers": 123, 
+    "permissions": [], 
+    "serving": true, 
+    "size": 9434136, 
+    "size_optional": 75499125, 
+    "wrapper_key": "0d65e590009a33845e5fbafb08e1af96d1413ec57fbc0bfee07fc68e459ead84"
+  }
+}

@@ -1,0 +1,32 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HK02O1J/DlwmQdyID4KnTnP6/SvpXU0SIZDTIlJLGj2OhNl81gKxSbEIVGSInddrBAbDU7TkeCbL6biTyjwD8to=",
+ "cert_user_id": "wotank@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "129d09d9df5d123955482e8e950cce42455c38450eb39007436dcf11ea4fd067",
+   "size": 1373
+  },
+  "data.json": {
+   "sha512": "18546254cd32818c14b6d3da1925072198c05cc8cd894cd481d891259cca6c4a",
+   "size": 1327
+  }
+ },
+ "files_optional": {
+  "1494227755.jpg": {
+   "sha512": "2753d8be4ffe2ff83662e9e235d516af038d6e8bb1c108b362994175562e2821",
+   "size": 95842
+  },
+  "1494262521.jpg": {
+   "sha512": "b3c93ecaeabd2ac019b206c86756c5142e063304602eac44c9ae03de5501db76",
+   "size": 61698
+  }
+ },
+ "inner_path": "data/users/1JW2rWSRrq6oEWq7buxhGCt3a3WCA96UWe/content.json",
+ "modified": 1494262516,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1JW2rWSRrq6oEWq7buxhGCt3a3WCA96UWe": "HFN0grnPSg4CRXbkmC3+ewysS1gqM2SFIyqKdzu+m7bldLoBKaW1MLkebuD8V3UiNc8Sezw2vnHrFBw02EcyT8w="
+ }
+}

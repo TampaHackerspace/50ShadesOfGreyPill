@@ -1,0 +1,34 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 1,
+	"next_follow_id": 3,
+	"avatar": "jpg",
+	"user_name": "Daramano",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"intro": "Átlagos ZeroNet felhasználó",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1492827548,
+			"body": "Szia ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "1EKekCrHPNRSHYw77Uy46oxecbKgdRWgBW",
+			"user_name": "Juliand",
+			"date_added": 1492827627
+		},
+		{
+			"follow_id": 2,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "12YRGB3FqA45xAdU5ZE9wfGBeRQXxYPKme",
+			"user_name": "Mara",
+			"date_added": 1492827642
+		}
+	]
+}

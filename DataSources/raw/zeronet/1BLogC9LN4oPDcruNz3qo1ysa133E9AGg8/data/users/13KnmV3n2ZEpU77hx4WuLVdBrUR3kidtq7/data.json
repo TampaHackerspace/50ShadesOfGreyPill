@@ -1,0 +1,85 @@
+{
+	"next_comment_id": 14,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Why use external sources for update downloads? Couldn't you distribute them within ZN itself?",
+			"post_id": 83,
+			"date_added": 1462708901
+		},
+		{
+			"comment_id": 2,
+			"body": "> [sick](#comment_1_18XDV3MuaGGQFAdeBNgcDUkviz2p28RsKB): No good, the flat design :/\n\nyou mean it won't scale?",
+			"post_id": 65,
+			"date_added": 1462709435
+		},
+		{
+			"comment_id": 3,
+			"body": "> [nofish](#comment_89_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): https more reliable, since zeronet protocol is still experimental\n\nSo it is exclusively those external sources that you update from, or are they used as a fallback in case ZN-internal update did not succeed?",
+			"post_id": 83,
+			"date_added": 1462717880
+		},
+		{
+			"comment_id": 4,
+			"body": "> [nofish](#comment_90_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): its using this sources to update: https://github.com/HelloZeroNet/ZeroNet/blob/master/update.pyif there is a flaw in the protocol it would be bad idea to update using the same protocol\n\nwhy?\nif there is a flaw in the protocoll, it could use the github and others as fallback.",
+			"post_id": 83,
+			"date_added": 1462727445
+		},
+		{
+			"comment_id": 5,
+			"body": "> [nofish](#comment_91_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): Flaw can be security problem, then anyone able to modify the site containing the source code.\n\ni see, but signed updates should not be too hard to implement",
+			"post_id": 83,
+			"date_added": 1462729139
+		},
+		{
+			"comment_id": 6,
+			"body": "> [sick](#comment_3_18XDV3MuaGGQFAdeBNgcDUkviz2p28RsKB): No, I do not like it\n\nwhy? what reason? and what would you suggest ?",
+			"post_id": 65,
+			"date_added": 1462730178
+		},
+		{
+			"comment_id": 7,
+			"body": "ok.",
+			"post_id": 83,
+			"date_added": 1462730272
+		},
+		{
+			"comment_id": 8,
+			"body": "unless i want to hide the fact that I'm using ZN at all.\nAre updates fetched from gh through tor if ZN is configured to use tor?",
+			"post_id": 83,
+			"date_added": 1462730360
+		},
+		{
+			"comment_id": 9,
+			"body": "ok",
+			"post_id": 83,
+			"date_added": 1462731555
+		},
+		{
+			"comment_id": 10,
+			"body": "You say it is similar to BitMessage, I'd be interested in how it is different from bitmessage. Or could they even be made compatible? Does your solution scale?",
+			"post_id": 64,
+			"date_added": 1462732090
+		},
+		{
+			"comment_id": 11,
+			"body": "Is there a way to recover lost mails?\nIt still says 11K/48K but my sent folder is empty and my inbox only shows two mails from echobot. I restarted ZN and it's still like that.",
+			"post_id": 64,
+			"date_added": 1462903270
+		},
+		{
+			"comment_id": 12,
+			"body": "I tried in another browser, same result. \nAs contacts also only echobot is shown. \nBut aren't all mails stored on each peer? \nSo could I not somehow reset my mail boxes and it should re-download them?",
+			"post_id": 64,
+			"date_added": 1462903986
+		},
+		{
+			"comment_id": 13,
+			"body": "yes, that worked. Thank you. All mails are back. :)\nDo you also have a mail address?",
+			"post_id": 64,
+			"date_added": 1462905878
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

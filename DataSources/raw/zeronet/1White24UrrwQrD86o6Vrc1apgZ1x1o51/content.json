@@ -1,0 +1,41 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "address_index": 38056567,
+ "background-color": "white",
+ "clone_root": "",
+ "cloneable": true,
+ "cloned_from": "1oranGeS2xsKZ4jVsu9SVttzgkYXu4k9v",
+ "description": "Welcome to ZeroMe! Runner: Nofish",
+ "files": {
+  "data-default/users/content.json-default": {
+   "sha512": "4e37699bd5336b9c33ce86a3eb73b82e87460535793401874a653afeddefee59",
+   "size": 735
+  },
+  "index.html": {
+   "sha512": "087c6ae46aacc5661f7da99ce10dacc0428dbd48aa7bbdc1df9c2da6e81b1d93",
+   "size": 466
+  }
+ },
+ "ignore": "((js|css)/(?!all.(js|css))|data/.*db|data/users/.*/.*)",
+ "includes": {
+  "data/users/content.json": {
+   "signers": [],
+   "signers_required": 1
+  }
+ },
+ "inner_path": "content.json",
+ "merged_type": "ZeroMe",
+ "modified": 1491404284,
+ "postmessage_nonce_security": true,
+ "sign": [
+  44952347224019723400077263457479984997493822660393748944971577380766436283612,
+  106427013254345443759552765010622286060964927397169787223672227434026062365658
+ ],
+ "signers_sign": "HDzazNxBaZrOne4cbLkvg1giz3z+OfGQqoGa0LXdyxdej/q6YvzDKuO1CGLcFBvIOAomI6MQll2yxVEBJMGrUDY=",
+ "signs": {
+  "1White24UrrwQrD86o6Vrc1apgZ1x1o51": "HDC3V6d5WlaIZQdhVSz+8nX8SvFQpqbDICqNxzhwuArx0KjpuzEgDPcxZZ4EQiMeLKf+nnLZMpqYXrmKHFfO+e4="
+ },
+ "signs_required": 1,
+ "title": "WhiteHub",
+ "zeronet_version": "0.5.3"
+}

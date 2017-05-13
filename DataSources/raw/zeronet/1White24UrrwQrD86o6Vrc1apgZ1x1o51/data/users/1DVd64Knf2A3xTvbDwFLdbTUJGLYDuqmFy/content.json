@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G8QjTTL1K7ax5nNEc5XZMW7UNStOauEV4PrFpCq+WWtuHow91x8pmJNY/1oNYJrRWKh8JS7GjAjQX/9hNE3qDMU=",
+ "cert_user_id": "goozerin@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "8cfa904eaf6252976845f05599e9c5b18a48ed4791d38dd329b3ae12e77b8724",
+   "size": 1640
+  },
+  "data.json": {
+   "sha512": "d48164dc828a32603346bf7a8eb2f3e52b883b1eb18628b432b5b299ba0caa14",
+   "size": 1287
+  }
+ },
+ "files_optional": {
+  "1492430278.jpg": {
+   "sha512": "5129f6457b6f4770851dd170c4927659c79666d16d1fb135793efed7dba2c347",
+   "size": 25493
+  }
+ },
+ "inner_path": "data/users/1DVd64Knf2A3xTvbDwFLdbTUJGLYDuqmFy/content.json",
+ "modified": 1492431785,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1DVd64Knf2A3xTvbDwFLdbTUJGLYDuqmFy": "HNJfUN3dZgDaj14eHEp/9NN7B+7QtrbAGGQljZ2vwd1NMruS6XWhA3DaZ/ZI0OcbpZc0QVWwj9d2g3RV2AadeXE="
+ }
+}

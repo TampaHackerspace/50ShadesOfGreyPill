@@ -1,0 +1,36 @@
+{
+	"next_comment_id": 6,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "There is also a snap package: https://github.com/mkg20001/zeronet-snap (just `snap install zeronet`) for all of the people using snap packages",
+			"post_id": 103,
+			"date_added": 1485452391
+		},
+		{
+			"comment_id": 3,
+			"body": "> [p2p](#comment_111_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): you have not seen nofish's latest post?http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Post/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj/1491244225\n\nAt that time: no",
+			"post_id": 107,
+			"date_added": 1491394664
+		},
+		{
+			"comment_id": 4,
+			"body": "> [coolplay](#comment_1_1KAKF4nVCWqJbrVPWxFvRNuU1zLkwVtC8L): cool! hello world! can we connect google through zeronet?\n\nNo, you can just visit zites through zeronet. ZeroNet is p2p and not an anonymizing layer like tor or i2p",
+			"post_id": 105,
+			"date_added": 1491732146
+		},
+		{
+			"comment_id": 5,
+			"body": "> [delatribu](#comment_1_19pT4G4RdtCKZqN9gmEH3z8kjarBiDxM8s): \"no peers found, but your content is ready to access\" error when hitting \"sign & publish new content\" in my ZeroBlog\n> What should I do to publish?\n\nVisit your zite on a proxy like https://bit.surf:43110 right after hitting publish",
+			"post_id": 3,
+			"date_added": 1492418747
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"87": 1,
+		"102": 1,
+		"104": 1,
+		"107": 1
+	}
+}

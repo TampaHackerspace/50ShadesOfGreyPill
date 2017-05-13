@@ -1,0 +1,19 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "hello the cloning is failing for me\nany ideas out there?",
+			"post_id": 3,
+			"date_added": 1485019077
+		},
+		{
+			"comment_id": 2,
+			"body": "here da message:\nInternal error: IOError: [Errno 2] No such file or directory: u'data/1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8/alloy-editor/all.css'\nUiWebsocket.py line 99 > UiWebsocket.py line 182 > UiWebsocket.py line 689 > Site.py line 576 > shutil.py line 119 > shutil.py line 82",
+			"post_id": 3,
+			"date_added": 1485019179
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

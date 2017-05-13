@@ -1,0 +1,21 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "GwOSN4cg18+3POwTpWhAjKV2QEppoo+k1XReXZ2B5hTXalTTmTZmknXIG8bZHk/Bcr+QSvB432KYaQ+BGyVNvqc=",
+ "cert_user_id": "ninjapigeon@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "9630257b8da3e3aac608043f9c79c707813fa5eca85a5e3d885ef93b42c0edaf",
+   "size": 2589
+  },
+  "data.json": {
+   "sha512": "14448e43fdd2c1cca403980b78218cd46f79ddbf9c632eb6f4742690fe064691",
+   "size": 444
+  }
+ },
+ "inner_path": "data/users/1a9rbHP3hjXf53qqu7j4ZrKQ5TkG49vaA/content.json",
+ "modified": 1494311567,
+ "signs": {
+  "1a9rbHP3hjXf53qqu7j4ZrKQ5TkG49vaA": "GykIatZV8lsFqlO/dAKf5IqcxjMDSxc0TI5per21zt3qYpdv69wwdc7ZmcYhz0hVXmmeg9bqa9PG3dvuRJnLDDs="
+ }
+}

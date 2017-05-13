@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HGwsoQYDBCnXKYIGHw7tyXcJqLJ/v8SCC6FXzSebCGalC1Ze4sZ+5RzTx9NY/JRNW7mBaTMDhVLs1pG5FBPiSGo=",
+ "cert_user_id": "juniorstana@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "831105f081a2297e909b58f505e710d79302783f45e156cd0c1c42d0b8eb5e9b",
+   "size": 228
+  }
+ },
+ "inner_path": "data/users/1NAeM9qdXXxT3YzWF67ouwoucFXyVLYyrY/content.json",
+ "modified": 1478547877.855913,
+ "signs": {
+  "1NAeM9qdXXxT3YzWF67ouwoucFXyVLYyrY": "G6p8YeilWTvzkJjOst+09JLCtlTR18QA30q5mkfIlAAM8+Tql1ICZDCXQfQsB1pk18PgkWgHxn9w0Zm5/5DfPRU="
+ }
+}

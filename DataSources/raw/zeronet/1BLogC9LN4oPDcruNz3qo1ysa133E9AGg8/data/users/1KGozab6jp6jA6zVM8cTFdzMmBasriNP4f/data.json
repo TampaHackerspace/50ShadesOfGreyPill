@@ -1,0 +1,13 @@
+{
+	"next_comment_id": 2,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "> [dldx](#comment_2_12aUNK5oaVy24PUFxevXvh63iDvVyncGHx): I've been doing the same with a raspberry pi. The only problem is that people keep linking to 127.0.0.1:43110 when they link to a zeronet site which obviously doesn't work unless you do port forwarding. There are a couple of plugins for chrome that help but nothing that's perfect yet.\n\nDoesn't the JavaScript automagically convert the links for you? I almost never have this \"link-to-localhost problem\" -- while I do run ZeroNet node on an ARM board (a separate host on the LAN).",
+			"post_id": 94,
+			"date_added": 1474589260
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G21q2yznl92C2/q9CwengU8jJjghxDcwF9JBQf7tEZHrolK4rafHirj5dM5nSYE7oVdkOwH370ODMPCqH97JDDI=",
+ "cert_user_id": "akraut@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "4974015b4be1821112bbcae4f246002b95696b2f886aa052eb7efd7c05b3eec8",
+   "size": 1671
+  },
+  "data.json": {
+   "sha512": "fa211d152a08a3130ebd7b7accf428c3d72aa49404ecdf4b9beebe16c713571c",
+   "size": 1846
+  }
+ },
+ "files_optional": {
+  "1491696881.jpg": {
+   "sha512": "1cd9e235d664934bf10c8f240960ffa32cb1c313d75433e4cd00a02ccc06e76d",
+   "size": 88636
+  }
+ },
+ "inner_path": "data/users/1JUG95g9ysj439uw4rGEwVhAzpVu6vRzxA/content.json",
+ "modified": 1492287060,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1JUG95g9ysj439uw4rGEwVhAzpVu6vRzxA": "HChQ9N2TFpojajGPqrXmHpLfBykYmBzduR0T0kMC7gG7A7wJKEYNhhvPo+kgOJLKyWWASN8zVgWt7vJHkbrJtBQ="
+ }
+}

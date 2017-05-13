@@ -1,0 +1,18 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Hey, I am having some issues.  I don't seem to be able to even create a  site. I am on windows, and I execute the bundle command. what I get in return is \"The system cannot find the path specified.\"\n\nSo, I tried something else. I went into my Python folder and just executed \"python.exe zeronet.py siteCreate\". I get another error saying that zeronet.py does not exist.\n\nI know that zeronet.py does exist, however, in my \"ZeroNet\" folder. I go into that folder and execute \"zeronet.py siteCreate\". All it does in this case it open zeronet.py, and nothing else.\n\nCan anyone help?",
+			"post_id": 43,
+			"date_added": 1441579408
+		},
+		{
+			"comment_id": 2,
+			"body": "> [nofish](#comment_19_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): You have to execute ..\\python\\python.exe zeronet.py siteCreate where your zeronet.py file is.\n\nThank you so much! I just wish there was an easier way to save private key on windows, and not to physically type each part in.",
+			"post_id": 43,
+			"date_added": 1441649477
+		}
+	],
+	"comment_vote": {}
+}

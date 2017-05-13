@@ -1,0 +1,19 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Does the mannal method work for window OS? I have installed python on my PC.",
+			"post_id": 3,
+			"date_added": 1491928961
+		},
+		{
+			"comment_id": 2,
+			"body": "> [nofish](#comment_202_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): For windows users you have to use ZeroNet.cmd in the lib directory, so: lib\\zeronet.cmd siteSign [yoursiteaddress] --inner_path data/users/content.json\n\nthanks",
+			"post_id": 3,
+			"date_added": 1491957280
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

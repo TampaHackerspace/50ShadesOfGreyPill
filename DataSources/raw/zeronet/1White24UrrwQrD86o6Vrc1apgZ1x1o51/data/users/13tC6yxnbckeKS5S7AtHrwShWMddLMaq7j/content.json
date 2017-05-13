@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G6j179bSzcWAEwOtJRCdJy+EEo0TCww1XreYEXz9PTuGkxau3r926+wAtsLEXz0gEvdHo7/mg1HsqpOOFEhQPbQ=",
+ "cert_user_id": "pantelis@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "bfe7e8034e2e407f3ad6006334e11537e7d0f9477287b66acd51f47d397ff9b7",
+   "size": 680
+  }
+ },
+ "inner_path": "data/users/13tC6yxnbckeKS5S7AtHrwShWMddLMaq7j/content.json",
+ "modified": 1491680277,
+ "signs": {
+  "13tC6yxnbckeKS5S7AtHrwShWMddLMaq7j": "G606FKA3cAGSDIed1gXJpiUXRTl5GnFqF3YNlcSRQszLFt3P2FRK3I2CAgLUPUuglRETxLVLxEEzhpCOsJcTCRM="
+ }
+}

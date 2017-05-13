@@ -1,0 +1,13 @@
+{
+	"next_comment_id": 2,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "> zeronet.py siteSign [yoursiteaddress] --publish : Exception: Directory not exists: data/......    though it definitely exists (and yes, I filled in site address correctly)\n\nTry to execute ./ZeroNet.sh siteSign [yoursiteaddress] --publish\n\n> if I just do : ZeroNet sitePublish it does something, but then when I visit the page: js error: ReferenceError: ZeroFrame is not defined > })(ZeroFrame);[I have zerofram.coffee in the js/lib folder]Do you need to update the tutorial?\n\nzerofram.coffee ? ZeroFrame.coffee, I think the name matters because ZeroChat.coffee extends ZeroFrame\n\nMy problem is with `/usr/bin/env node`: no such file or directory\n",
+			"post_id": 43,
+			"date_added": 1470761268
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

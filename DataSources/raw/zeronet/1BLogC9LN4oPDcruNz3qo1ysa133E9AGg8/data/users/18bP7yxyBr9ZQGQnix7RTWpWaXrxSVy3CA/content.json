@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "GzPC/aQlzOSRce6svy62E4o3F6GV5XJP7TUA/bpaxeXg1yTYqzhKt094gj+NyCH3WmfSY6fs/IbGnENZ0Rjj8ZU=",
+ "cert_user_id": "garfieldog@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "7d74d8a71131e71aa7ea0f3da1ecf4b01b8e42bdc0b3d70396a84af818ae0776",
+   "size": 183
+  }
+ },
+ "inner_path": "data/users/18bP7yxyBr9ZQGQnix7RTWpWaXrxSVy3CA/content.json",
+ "modified": 1462433959.117982,
+ "signs": {
+  "18bP7yxyBr9ZQGQnix7RTWpWaXrxSVy3CA": "HH5FONsVdRBs6vvEKLBlYGOnLjCAagjeU+0rAW/pAxliGZ6r+JipnhrRNe/7A/+RvP5z8w5c3YmgEXQw0T9+7cE="
+ }
+}

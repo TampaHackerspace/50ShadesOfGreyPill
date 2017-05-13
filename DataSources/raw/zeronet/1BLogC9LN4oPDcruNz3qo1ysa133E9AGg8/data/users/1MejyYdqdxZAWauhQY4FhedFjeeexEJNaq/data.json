@@ -1,0 +1,25 @@
+{
+	"next_comment_id": 4,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "I'm getting this error:\nInternal error: TypeError: 'bool' object has no attribute '__getitem__'\nUiWebsocket.py line 98 > UiWebsocket.py line 174 > UiWebsocket.py line 311 > UiWebsocket.py line 277\n\nAnyone else?\n\nI'm at the Send Message stage of the tutorial and the message does show up in my json file so its not stopping anything, I'm just not sure whats causing the issue.",
+			"post_id": 46,
+			"date_added": 1458150786
+		},
+		{
+			"comment_id": 2,
+			"body": "figured it out. Forgot to sign my site. Some day I will learn how to follow a tutorial lol\n",
+			"post_id": 46,
+			"date_added": 1458154135
+		},
+		{
+			"comment_id": 3,
+			"body": "Just if anyone is curious, you can sign and publish your site from inside your site. Just swipe that top right menu in and scroll to the bottom. Much nicer than the command line in windows.",
+			"post_id": 43,
+			"date_added": 1458250758
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

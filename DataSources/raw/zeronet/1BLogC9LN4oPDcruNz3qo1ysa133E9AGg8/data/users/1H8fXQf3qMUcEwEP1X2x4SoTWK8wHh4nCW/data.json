@@ -1,0 +1,94 @@
+{
+	"next_comment_id": 15,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "I have done the tutorial and got it working my my bowers, but I can't get other peers to see it. The control panel to the right show a missing file: content.json .  I created a new site without changing anything, and go the same result.  I;m using linux mint and firefox. ",
+			"post_id": 99,
+			"date_added": 1483130915
+		},
+		{
+			"comment_id": 2,
+			"body": "never mind I got it working.  The 2nd client was not the most current version of zero net.  But it's still saying \"missing file: content.json\"  Also how do you get the private key of a site you create from the UI?",
+			"post_id": 99,
+			"date_added": 1483133820
+		},
+		{
+			"comment_id": 3,
+			"body": "OK that update button did it the message is gone now. :) Thanks.\nBy the way both clients are using tor and show connected.\n\nWhat is the difference between the update button and the  publish button?\n\nOK I found the private key in that file.  What's the line \"cert\": \"zeroid.bit\",  for? An empty site I made didn't have that line.\n\nI trying to understand how the JavaScript works. I can see what the code is doing, but it looks like some type of backend is do the SQL update statement.  Could the SendMessage function be rewritten to have an SQL update statement?",
+			"post_id": 99,
+			"date_added": 1483468440
+		},
+		{
+			"comment_id": 4,
+			"body": "I opened up the zerochat.db with \"DB Browser for SQLite\"  I can see how the dbschema.json, make the tables \"json\" and \"message\", and the table \"sqlite_sequence\" is created by sqlite, but where is the \"keyvalue\" table created, and what is it for?",
+			"post_id": 99,
+			"date_added": 1483469939
+		},
+		{
+			"comment_id": 5,
+			"body": "> [nofish](#comment_155_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj):  \n> Only SELECT command supported, because in  a P2P network you need to sign and verify every users data separately and it would be inefficient to do from database, so we sync the files and then update the database locally based on that data.\n\nI see, what's to stop a malicious user from editing what other people have said; when the malicious user makes an update to the database?",
+			"post_id": 99,
+			"date_added": 1483470516
+		},
+		{
+			"comment_id": 6,
+			"body": "I tried to edit the comment of the other client in the database then post a new comment.  It show up in my web bower, then disappeared are a few messages.  Interesting, is it some type of message signing to prevent tampering? ",
+			"post_id": 99,
+			"date_added": 1483471896
+		},
+		{
+			"comment_id": 7,
+			"body": "How would you do an up vote system like in a reddit type site?",
+			"post_id": 99,
+			"date_added": 1483472283
+		},
+		{
+			"comment_id": 8,
+			"body": "OK I looked at ZeroTalk code.  On line 1567 function submitTopicVote.  I don't understand all your code yet.  But it looks like it's mapping a json file to the database.  Then the publish command somehow  dose an update to the SQL database.  All the tables have a json_id column used as a userID. ",
+			"post_id": 99,
+			"date_added": 1483479440
+		},
+		{
+			"comment_id": 9,
+			"body": "OK I understand the code a little more.  I was able to add a row to the message table, and get it to update.  What are the rules round the dbschema.json file?  Where could I go to learn more about how it's used?",
+			"post_id": 99,
+			"date_added": 1483991265
+		},
+		{
+			"comment_id": 10,
+			"body": "OK the error messages it's giving me are \"Internal error: OperationalError: no such table: main.message\nUiWebsocket.py line 99 > UiWebsocket.py line 184 > SidebarPlugin.py line 616 > SiteStorage.py line 112 > Db.py line 208 > DbCursor.py line 109 > DbCursor.py line 99 > DbCursor.py line 53\"\n\nI'm not much of a python programmer, look sort of like C.  I take it I should be looking at Zerobundle/ZeroNet/scr/db to understand what should be in a dbschema.json file?",
+			"post_id": 99,
+			"date_added": 1484151083
+		},
+		{
+			"comment_id": 11,
+			"body": "OK I get it now, you make changes to the dbschema.json, then click the \"reload\" button, then \"rebuild\" button to rebuild the sqlite database.  What if you wanted to add a SQL view to your database?",
+			"post_id": 99,
+			"date_added": 1484152745
+		},
+		{
+			"comment_id": 12,
+			"body": "@Klew\nI think you would just make a static .json file then map it with a dbschema.json",
+			"post_id": 99,
+			"date_added": 1484173729
+		},
+		{
+			"comment_id": 13,
+			"body": "OK I reworked your example into a website search engine, but now the 0 in the top right corner stopped working. the user login button stopped to. I guessing I did something stupid but any ideas?",
+			"post_id": 99,
+			"date_added": 1484260052
+		},
+		{
+			"comment_id": 14,
+			"body": "Never mind I moved the files into a new site and it started to work again? Odd.",
+			"post_id": 99,
+			"date_added": 1484323512
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {},
+	"post_vote": {
+		"99": 1
+	}
+}

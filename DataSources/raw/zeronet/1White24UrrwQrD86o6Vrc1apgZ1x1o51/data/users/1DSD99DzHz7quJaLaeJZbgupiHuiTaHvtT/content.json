@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G78US41s8nH5bY3hXXd3ATNNJE43bYPw5iPNYqXF7mtWk2q4aKj5OFNEzzviW0w4MrE47sqfma/RI8il8rxzrxA=",
+ "cert_user_id": "victini21@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "246c465560daf9771784d1426f396feff440483d8df7f171286cd1669e29925b",
+   "size": 1430
+  },
+  "data.json": {
+   "sha512": "8422cf6918ca0dedf88a2013290dace0ff587423afbee511543226083229a02e",
+   "size": 2024
+  }
+ },
+ "files_optional": {
+  "1492392813.jpg": {
+   "sha512": "2e7c91a7fe5c897ceac9c994e23dd3f5c2b2338196b43655c4b368c32dc321b2",
+   "size": 31581
+  }
+ },
+ "inner_path": "data/users/1DSD99DzHz7quJaLaeJZbgupiHuiTaHvtT/content.json",
+ "modified": 1492739997,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1DSD99DzHz7quJaLaeJZbgupiHuiTaHvtT": "G6+LJqMiRkB1fDNbKDQfo48EVXbru4jK1FNARKgsOYMyP2c4ZqFmbx8RWyGaaLrEsjDfy5QKfg7JeSl8PY9ITEE="
+ }
+}

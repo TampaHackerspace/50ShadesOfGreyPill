@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HDY4QV8XIi/usI+ddfVHIjCXRA2ce7ouQK/2GxqIo/ROd0CexbNnaj4eUg0EVqT1dJIgow14/ENPh0qcCkIqJwo=",
+ "cert_user_id": "ceritium@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "79f5f6eec8bde94b8e3e20cdbf65deecd2709bb4bc9a4fe9d0dc605dfdc1669e",
+   "size": 1240
+  }
+ },
+ "inner_path": "data/users/1C1pqw3EhTRk5ciHHPB283xu1EUxsGhCpo/content.json",
+ "modified": 1465688810.390344,
+ "signs": {
+  "1C1pqw3EhTRk5ciHHPB283xu1EUxsGhCpo": "HN2HU68vADw1jslLq+MP53DJqz3fOZGkmrBnL6dsCvrQBQgJT7T9X7TwowRU14ZW6yqTcZ8oRDPOA4fGKkPqt18="
+ }
+}

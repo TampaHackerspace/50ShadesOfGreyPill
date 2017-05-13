@@ -1,0 +1,21 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G0I7kvAR/EtTQWJ3FzsIMtG2VmMUC75vbPSvhaRmUE737NzFmKdIcz7sJhwHKlNeTbsD30dh94hFpAKlaejK/QY=",
+ "cert_user_id": "dragondove@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "755bc4179b40b3b250fa0461b944bf497c827454f09c47dbd78f09628dc84ad2",
+   "size": 1380
+  },
+  "data.json": {
+   "sha512": "c55f64d4d59e301695b26e772f9f984770fa171efb203d8e47f4775395c58200",
+   "size": 332
+  }
+ },
+ "inner_path": "data/users/1MR98neS5p1xHMdSF55UuUsNnP594o7XB4/content.json",
+ "modified": 1491456070,
+ "signs": {
+  "1MR98neS5p1xHMdSF55UuUsNnP594o7XB4": "G+rH1Txxc30+CMBF8PjDtsrrGNpzkizsexX/ytqTxE2f65ilX2ooVUuQhaX3pTkRGaaY6dX4XtB9CaV2u1AZtj0="
+ }
+}

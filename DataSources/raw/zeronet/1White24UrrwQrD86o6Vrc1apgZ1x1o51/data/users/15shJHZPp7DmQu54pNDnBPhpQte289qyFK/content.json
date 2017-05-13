@@ -1,0 +1,21 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HMcxm+8M28RMPP6EDPVqMKCKEyI2WIgUauPWS7NMRp7z38oJkeRUl42k4SAWYf0WfjQjvPUi1F2+jSWuhzgQzK0=",
+ "cert_user_id": "naniuz@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "e5dc55837e73b5bd653d0112d22eeb612b50513c9c903e7356a76a0e22127584",
+   "size": 1637
+  },
+  "data.json": {
+   "sha512": "ccc14ff78718724a16018e7b97cbbc0857186dddccd4a43eaddeb6a1742d6239",
+   "size": 355
+  }
+ },
+ "inner_path": "data/users/15shJHZPp7DmQu54pNDnBPhpQte289qyFK/content.json",
+ "modified": 1493046598,
+ "signs": {
+  "15shJHZPp7DmQu54pNDnBPhpQte289qyFK": "HHvBOFpF0qmUekPSR4+KAjgyI3tCt3Sndpzf5mH7RUA9ZIzT7dsfeztEw1WZpTmcSHIrKZkVl01Da3xNWPj11/I="
+ }
+}

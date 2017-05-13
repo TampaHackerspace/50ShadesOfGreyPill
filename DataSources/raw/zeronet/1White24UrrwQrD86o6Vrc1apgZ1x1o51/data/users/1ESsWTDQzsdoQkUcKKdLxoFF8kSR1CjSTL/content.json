@@ -1,0 +1,21 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HJxVTpXsyWUaWWoZe1NjtZaHVBTYuv52c2+q8/4u4ZIHxsxmLoqzupSdecc4sjDl6JtUl+FSviVEJvyNTDe9eIg=",
+ "cert_user_id": "magicinventor@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "86220b586ef9cf837061cfb81d6aed1cb85c74bc1b49c9d8b5829d8ae23dff40",
+   "size": 1714
+  },
+  "data.json": {
+   "sha512": "4c213452d8cff413427b8be2cba5937a3ccc0dcad106b466243477146e39f657",
+   "size": 323
+  }
+ },
+ "inner_path": "data/users/1ESsWTDQzsdoQkUcKKdLxoFF8kSR1CjSTL/content.json",
+ "modified": 1492958952,
+ "signs": {
+  "1ESsWTDQzsdoQkUcKKdLxoFF8kSR1CjSTL": "HM6kp+LuUH4kNZAdG3DSL2yRgRpSDQxI5DjFpySjXnc6CX4e1om/IsmOvJtBlRovvqHBlQbFNHxipK44TrQQ+PY="
+ }
+}

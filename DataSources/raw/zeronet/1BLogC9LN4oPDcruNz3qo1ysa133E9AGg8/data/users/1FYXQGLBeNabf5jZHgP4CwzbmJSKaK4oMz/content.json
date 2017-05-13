@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HJX4XM2/8XzDvJm4L/fi9U7Guh0eI7pMDsGnkjQ+nNXdmAwQgZR5UqWGSX9rTaimmUXbQJBuUtCtKfHVPizVCS0=",
+ "cert_user_id": "ancap@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "113b85a0859bbd2f532c7316952e4c3877ef37cf2ccaae9c9c202c11e86d714d",
+   "size": 3475
+  }
+ },
+ "inner_path": "data/users/1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz/content.json",
+ "modified": 1478720299.16404,
+ "signs": {
+  "1FYXQGLBeNabf5jZHgP4CwzbmJSKaK4oMz": "HOM58oHYCvdk4+7ApB0AAjjWzp31aaqVKBHAwW4L4phSvX23omiXJMEhJu3W7qlpdQOBvg7afJiJCTyscAtSse8="
+ }
+}

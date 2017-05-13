@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HAHbViA7512AUbIS9IiHkf7+XxA6c5tr5XhtTi18Zz+PNw9EyO09Rmftfn2dAZ7K7J6L/yjn98NyNRLbuQ2c3cw=",
+ "cert_user_id": "antimech@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "532bba0f75e3ce41e9caa415544752d1670d9e192176310ad43927d09e799f15",
+   "size": 339
+  }
+ },
+ "inner_path": "data/users/1Mw9yWNXiDgsT5iaSKZ77yLLNCxw295rxq/content.json",
+ "modified": 1493240755,
+ "signs": {
+  "1Mw9yWNXiDgsT5iaSKZ77yLLNCxw295rxq": "GzXumoEY7rKb4tVSmdPquRa9J3wNePYw4Dc57y8MvxcnLUcqr/GP1MN+2Zq8tW1+WBNWRo4BmJrwXFyNYKCGve8="
+ }
+}

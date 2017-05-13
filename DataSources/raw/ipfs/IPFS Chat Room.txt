@@ -1,0 +1,213 @@
+Mon May 08 2017
+19:35:54
+lostfile
+eh i will use the web client until they update the stand alone one
+20:05:28
+lostfile
+i hope this project takes off and not die after a 3 years like what happend to cjdns or at lest seemed like it
+20:06:28
+lostfile
+there still updating ipfs witch is a good sign
+20:08:07
+lostfile
+and also hope orbit chat takes off i can see this could be a really good replacement for IRC
+20:08:34
+lostfile
+eh IRC will never die
+Thu May 11 2017
+01:21:07
+orbit-bot
+testing 123
+01:22:00
+orbit-bot
+456
+01:25:07
+orbit-bot
+789
+01:25:53
+orbit-bot
+0
+01:26:14
+haad
+working?
+01:26:21
+orbit-bot
+123
+01:27:27
+haad
+working
+01:27:40
+haad
+all good  :)
+13:21:38
+lostfile
+you got a channel bot work cool
+13:21:59
+lostfile
+working i mean
+13:32:40
+lostfile
+/help
+15:23:29
+JustStuffLayingOnMyLap
+/help
+15:23:32
+JustStuffLayingOnMyLap
+help
+15:23:34
+JustStuffLayingOnMyLap
+i'm DYING here
+17:52:57
+lostfile
+need some thing @JustStuffLayingOnMyLapJ
+Fri May 12 2017
+00:59:32
+haad
+to answer the questions above: blockchain is not involved in orbit's tech. it's all IPFS and serverless (ie. distributed, not decentralized). there's a signaling server the web version clients need to find other peers, similar to bootstrap nodes. the electron version (and if you'd use orbit with a node.js js-ipfs daemon) doesn't use that. the messages, their persistency, ordering, loading, etc is handled by orbit-db ( https://github.com/orbitdb/orbit-db), which in turn uses CRDTs, take a look if you're interested.
+01:33:52
+g
+so orbitdb is the messaging layer which uses CRDTs that are sync over IPFS, which isn't blockchain, but is more like a huge github repo being shared over bittorrent?
+01:37:56
+g
+how long does this message take to propagate? It'd be based on how close they are according to the IPFS network?
+01:40:18
+g
+are we all updating a single file for the channel which is then merged at the orbit-db level using something like a git fast-forward... which is guaranteed to always work because of the CRDT structure?
+01:42:31
+g
+sorry for the question barrage, just very curious about this whole IPFS thing and the prospect of building distributed applications on top.
+02:00:01
+haad
+g something like yeah! it's somewhat similar to git structure, but a CRDT (an append-only log CRDT, see https://github.com/haadcode/ipfs-log). we're all "subscribed" to the same database globally (each channel is one database/table if you will). orbit-db takes care of saving each database entry to IPFS and then uses IPFS pubsub to propagate "update" message to everyone who's also subscribed to the channel's database. the updates that get propagated are heads of the ipfs-log data structure which orbit-db then merges together and saves in your local db.
+02:00:19
+haad
+it's currently basically a big, global database that we all subscribe to and share
+02:01:57
+haad
+g as for how long it takes to propagate a message: it's pretty much instantaneous and only depends on the network speed. orbit-db itself can handle hundreds of writes (sync with another db or add an entry locally) per second
+02:02:55
+haad
+g you can test the speed by opening another orbit instance, join some channel and message between your two peers
+02:06:55
+g
+super cool... I'm having a hard time loading from chrome on my mac to try out the speed thing, stuck at loading screen right now
+02:08:18
+haad
+hmm  :/ I've heard that happening before but have no idea why that is. using it on Mac+Chrome (and Firefox) with no problems, but it seems that's not given between all the different platforms and versions...
+02:08:46
+haad
+g try loading another instance in an incognito tab. try firefox. try another version of chrome. one of those will surely work  :)
+02:12:43
+g
+I'm still trying to wrap my head around ipfs and how that all works... is a database table for a channel a file that's being updated or is every state of every channel saved separately and permanently in the database and everyone just gets a new hash location for the new channel/table state?
+02:13:51
+g
+not working in incognito chrome on mac or safari... for some reason missing FF on this computer
+02:17:14
+gg
+alright, there we go, FF worked real quick... though both I had to reload orbit.chat to get the signin page to show up
+02:19:48
+haad
+g every message is an IPFS object (see 'ipfs object help' in go-ipfs for more info), ie. a block of data. each message contains link(s) to previous messages and those links provide the possibility to traverse back in history. this is all part of ipfs-log. each message is basically a database operation (and ipfs-log is the database operations log) which orbit-db then puts together and creates a "view" to the up-to-data state of the database. basically, nothing is saved in one file, but multiple small files that are linked together. does that make sense?
+02:26:27
+g
+I think so.... it's like a linked-list of messages and each message is a separate file in IPFS with orbit-db acting as a sort of ORM on top of that for the chat application?
+02:26:53
+haad
+yeah, pretty much
+02:27:00
+g
+neato
+02:27:22
+haad
+although in reality the log is more of a graph (very thin, vertical) than a linked list
+02:27:39
+g
+nicely done... how many people are working on stuff like this on top of ipfs?
+02:28:35
+haad
+oh, dunno, I think not many. I've been pretty alone in the "dynamic content" side of things the past year. orbit-db is pretty much the only one I know that provides "dynamic content" functionality on IPFS but I'm sure more are coming sooner or later.
+02:28:57
+haad
+take a look at https://github.com/ipfs/awesome-ipfs to get an idea what else is out there
+02:29:29
+haad
+there's also a bunch of discussions on Github regarding building stuff on IPFS at https://github.com/ipfs/ipfs/issues
+02:29:33
+g
+will do... how closely aligned are ipfs and ethereum? are you going to need to use ether in order to use the ipfs network in the future?
+02:30:08
+haad
+they're not tied together and Ethereum is not needed to run/use the IPFS network in any way
+02:30:52
+haad
+however, I believe the goals of both technologies and communities are mutual. there's plenty of cross-pollination happening as well as cooperation.
+02:32:17
+haad
+g I highly recommend to join #ipfs on Freenet (IRC) if you have more questions or want to participate in any way
+02:33:34
+g
+ok, cool... I dig on the whole idea of cryptocurrencies and am very curious about smart contracts, but I'm far more fascinated by the idea of useful applications that are immune useable outside of a central authority/infrastructure
+02:34:02
+haad
+:)
+02:34:10
+haad
+agreed
+02:34:15
+g
+I would love to, I think I need to get my chops up some... I don't know go, but have a good amount of javascript/node experience
+02:35:01
+haad
+g sounds good! take a look at https://github.com/ipfs/js-ipfs, plenty of JS in the IPFS ecosystem  :)
+02:35:19
+g
+this web app relies on a central server because there isn't a client-side ipfs daemon?
+02:35:22
+haad
+same for https://github.com/orbitdb
+02:37:21
+haad
+g it doesn't rely on central server but needs it currently to make the connections between peers. you can think of it as bootstrapping and is per the requirements of WebRTC. we're working on making that dep go away though, so that even the web version is fully stand-alone. the ultimate goal is to make it work in a way that you and me can chat (and share files/data) perfectly fine even if we're not connected to the internet but share a WiFi for example.
+02:37:53
+haad
+that said, Orbit has been used successfully on the plane between people so that's cool  :)
+02:39:43
+g
+that's pretty cool... so when I cut my laptop wifi and brought it back it didn't seem to re-establish connection
+02:40:25
+g
+but if I had pulled my mainline for the router I should have been able to continue chatting between my laptop and desktop since they already knew about each other?
+02:40:40
+haad
+yeah that's (re-conencting after network fail/change/disrupt) still a little brittle
+02:41:13
+haad
+g that's correct. at least that's how it should work.
+02:41:37
+haad
+.. .that said, there are bugs so YMMV
+02:41:43
+haad
+:)
+02:42:35
+g
+yeah, that's to be expected... I'm gonna have to do some more deeper dive into all this stuff
+02:42:45
+haad
+cool!
+02:43:02
+haad
+have fun and feel free to reach out either here, Github or IRC to get your questions answered
+02:44:48
+g
+will do, thanks man, keep up the awesome work!
+02:45:01
+haad
+:thumbsup:
+04:43:54
+lostfile
+hi
+12:15:57
+JustMe
+...

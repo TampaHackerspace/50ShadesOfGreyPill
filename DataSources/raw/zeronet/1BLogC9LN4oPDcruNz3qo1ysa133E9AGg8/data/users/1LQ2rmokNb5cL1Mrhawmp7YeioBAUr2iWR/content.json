@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HHxJEWyOJh4XIKfmGcyiGVVUVL/Lbggn+MbfhVyd6mNQIwUdmdzbDl8WVIk5Mbo5AFhY4Guw9HjZutbQI8cQJLE=",
+ "cert_user_id": "kaligula@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "941f73f3635f9a44a1eb62a4f53097187b3aff88733cac8faf316417f3453f65",
+   "size": 188
+  }
+ },
+ "inner_path": "data/users/1LQ2rmokNb5cL1Mrhawmp7YeioBAUr2iWR/content.json",
+ "modified": 1489937209,
+ "signs": {
+  "1LQ2rmokNb5cL1Mrhawmp7YeioBAUr2iWR": "G5KgJf9yrTLOQc/a8JssQZF3FmM1eRBxgq6RP78gBQSzEI7Z6KiV92xvjUQsjRqyCfN67nJdlYuR1fvh2YwqLBw="
+ }
+}

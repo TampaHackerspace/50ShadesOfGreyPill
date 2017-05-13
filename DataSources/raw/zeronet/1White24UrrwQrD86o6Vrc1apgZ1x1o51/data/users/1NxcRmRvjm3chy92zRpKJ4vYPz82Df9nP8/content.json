@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HLeex0X0PihpwLApjdHTnl2CRbYsP96Xt9o8JYui25695edP/SUAh4fSWBkux9a1cFQI3MhA5R8Ar+1IPiNsWAo=",
+ "cert_user_id": "flibble@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "7d38dd31eead65357a9b12ebae8c6d3af78bb4eeee477fb79abaf16fcdb52c31",
+   "size": 338
+  }
+ },
+ "inner_path": "data/users/1NxcRmRvjm3chy92zRpKJ4vYPz82Df9nP8/content.json",
+ "modified": 1494628603,
+ "signs": {
+  "1NxcRmRvjm3chy92zRpKJ4vYPz82Df9nP8": "HAUpIrKEIy2Y/ZXseig0aWcW9sDu19q2huKjEWtvPXrbI6qZ3hMslsxLvQDMUPGkQXTnv+2ozFdLmvOv+yADq8U="
+ }
+}

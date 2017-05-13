@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G26AyYMjOdizUIAxv5wmmuTdX0QuleLlhmlZqS5sa322ZB9JjaCJlpojUtajywL5BiEhB93UBPX1EvjWIqrl8QA=",
+ "cert_user_id": "robertochen@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "06b49baeccc7c288391921617d379980e76c284520c70e8f81cf37c29244f59f",
+   "size": 342
+  }
+ },
+ "inner_path": "data/users/1HZmcntF8o1UMnBfXphPF1n1GJ6vF2u5P1/content.json",
+ "modified": 1493523565,
+ "signs": {
+  "1HZmcntF8o1UMnBfXphPF1n1GJ6vF2u5P1": "HLq76R9H68FuxImB2KvEAH7Hnliu+x2Ao040x5ltGB09LLIVGiAQQ6UKHGa4c5gBAAEzyrznkyaDnYOXNhYQaWk="
+ }
+}

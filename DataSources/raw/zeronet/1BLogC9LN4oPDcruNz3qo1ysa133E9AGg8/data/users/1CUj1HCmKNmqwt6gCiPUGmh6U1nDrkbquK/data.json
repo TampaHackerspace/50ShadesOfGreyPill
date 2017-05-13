@@ -1,0 +1,13 @@
+{
+	"next_comment_id": 2,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Hello! Is there a simple solution how to get values returned by ZeroFrame API commands not using callbacks? If I want to make some sequential actions with API I must create a dozen of nested callbacks. I cant create wrapper with API call inside and reuse this code in several complex methods instead I create a chain of nested callbacks in every method.\nI.e. how can I make something like this: \nvar key = this.cmd(\"userPublickey\", [])\nOr this is impossible because ZeroFrame API is asynchronous by design?",
+			"post_id": 78,
+			"date_added": 1459016281
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

@@ -1,0 +1,21 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G2dw4j39jtxrGAhGrEl1nkUhkYLwdyQDnAWDOgFT97ReIXuqyITnyjhQ9i/ItunQrVGRUQ8xGKcnel00UbNJ2hQ=",
+ "cert_user_id": "boulifiant@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "8c90b338c4a1c147eff1ca806fa8ad8e162a04925586bbf2d0025678669ab302",
+   "size": 1388
+  },
+  "data.json": {
+   "sha512": "43b900026f60c0e4d1050ba3587e74fbe12725bce294419da75565cb7a104b66",
+   "size": 705
+  }
+ },
+ "inner_path": "data/users/1Db3Lv7Qr3eskpuor5wLFJUJ3vCpTZ5PTS/content.json",
+ "modified": 1492258082,
+ "signs": {
+  "1Db3Lv7Qr3eskpuor5wLFJUJ3vCpTZ5PTS": "HMi93f8k3k6GVXB6BtJpLXPTpH4/NNMFkU8twMqrggYnAHwkuLwguGhj4Aasqi5k89uA1CdQfnmMYfJI2P0EwEc="
+ }
+}

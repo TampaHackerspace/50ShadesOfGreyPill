@@ -1,0 +1,24 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Note: You can give moderation permissions to other users by adding addresses to \"signers\" list\n\nI am trying to make a administrator cleanup JS script and delete files from old inactive users. I have added my personal auth_address to signers list but it is not working. From site level content.json:\n \"includes\": {\n  \"data/users/content.json\": {\n   \"signers\": [ \"1CCiJ97XHgVeJrkbnzLgfXvYRr8QEWxnWF\" ],\n   \"signers_required\": 1\n  }\n }\n\nsitePublish for user content.json files:\nUI error: Content sign failed: invalid private key\nUI server error: [13:40:22] Site:1JeHa6..mCXk Private key invalid! Valid signers: [u'1PCsTTTVsgwGPck2dMdetAX2yfpBcTqJBR', u'1JeHa67QEvrrFpsSow82fLypw8LoRcmCXk'], Private key address: 1CCiJ97XHgVeJrkbnzLgfXvYRr8QEWxnWF\n\nHave tried with null and \"stored\" as private key.\n\nAny suggestions?",
+			"post_id": 46,
+			"date_added": 1478182250
+		},
+		{
+			"comment_id": 2,
+			"body": "Nice. What is \"Site Html/JS translation\"?",
+			"post_id": 97,
+			"date_added": 1479549662
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {},
+	"post_vote": {
+		"97": 1,
+		"98": 1,
+		"101": 1
+	}
+}

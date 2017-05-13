@@ -1,0 +1,15 @@
+{
+  "cert_auth_type": "web", 
+  "cert_sign": "HCk80CLGi8nU14bax/Ljw84uJrSzDaZtRSQPhuqHXeC1bEZ9IHA1FQcmcBy0ZxJgPR/weJI7sUqSSm89gf1IQJU=", 
+  "cert_user_id": "hestov@zeroid.bit", 
+  "files": {
+    "data.json": {
+      "sha512": "82ff94ae50cbeff207591d05626fcdebda955f11b65b320a8ca9565180dca90d", 
+      "size": 159
+    }
+  }, 
+  "modified": 1442568290.936454, 
+  "signs": {
+    "17cwffJsSbZ5AGiTYx8GQop6vxz57UqTkh": "G1yGyoeHrCGVmVMHaMoV95adLAEPvVfNIdUq4lirsIgQdPrgBeeu428ED3HZVgS3TXmhWKc0P/j4T7X29zclaDg="
+  }
+}

@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HMdyLO4eKf6VV7dpiCRWTUi2q52fpop6DJv3xdCEAUzF06UTRBMKwpO5KQHMop46TexlWJf4uOvx8iB+8o4EkNc=",
+ "cert_user_id": "marlon81@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "85bc2c01d72ab0f4debb961745b873e2a2b64c4b109f187aa91304345b5efc49",
+   "size": 1679
+  }
+ },
+ "files_optional": {
+  "1493465334.jpg": {
+   "sha512": "0564185952af18c8174d4b8b58fa6c7e5737093a7afdef7275141856a9425909",
+   "size": 16291
+  },
+  "1493468215.jpg": {
+   "sha512": "d44aea4f6cad4b4f5602f6165e8706a90622b64db15133bfd6e29f334f2b038c",
+   "size": 69234
+  }
+ },
+ "inner_path": "data/users/19KFM4xs3UxrJoveyPf1FUWi3XVhR3zzAp/content.json",
+ "modified": 1493845165,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "19KFM4xs3UxrJoveyPf1FUWi3XVhR3zzAp": "HPFTw1AMAXrvvH7y5YyHfY0LAYvbmCkCcB51TcCc+oamHCl9pgqiS4T7O7WWswoAEY9fntB+qZvABqLGKbH9QDM="
+ }
+}

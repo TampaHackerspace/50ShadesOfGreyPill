@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HHLmDsU+qH2IW9UJgzJ/4t9f3jxlNLQ3tbFrtOSZ00YwHu3sJrtN7U19xxLBIJCKSMF72vkTID46kg/HJr3m140=",
+ "cert_user_id": "fancypants@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "d3e29bd69a309ca04f59a63ef95885dc471b78bb3f5cb697fa83ecaf6068a705",
+   "size": 409
+  }
+ },
+ "inner_path": "data/users/15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU/content.json",
+ "modified": 1467121055.228789,
+ "signs": {
+  "15k25aCTwyHfXnqtqpRvBbkDz5ka7gFuuU": "HHzl6MDGrXIgvLlMfap5JE/fcVG0oCbP3sFcgxATnDeSJFWN1+P9+HB1uOzn56PjgBZDAI4qqKx/4LciMdQVLyI="
+ }
+}

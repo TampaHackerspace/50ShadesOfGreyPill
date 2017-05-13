@@ -1,0 +1,1266 @@
+{
+	"next_comment_id": 211,
+	"comment": [
+		{
+			"comment_id": 4,
+			"body": "**Test 123**...árvíztűrőTÜKÖRFÚRÓGÉP!\n<b>html</b>",
+			"post_id": 38,
+			"date_added": 1432504987
+		},
+		{
+			"comment_id": 5,
+			"body": "No edit yet, but its planned among with upvote feature.\n\nThanks for testing, the cert should be ready within seconds, I will try to find out why is the delay.\n\n_Edit: Editing support added :)_",
+			"post_id": 39,
+			"date_added": 1432517794
+		},
+		{
+			"comment_id": 6,
+			"body": "> [karsten](#comment_2_1QAxrsb15ZoTZmFdn9GaNYCyu9niwRVmyY): What happens if a blog accepts two different id websites, and then the names crash?\n\nIt's up to the site: for example it can display the identity provider next to the username. (Currently visible if you hover your mouse over the username)",
+			"post_id": 40,
+			"date_added": 1432600447
+		},
+		{
+			"comment_id": 8,
+			"body": "> [p2p](#comment_6_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): i think it is a bug that \"Your network connection is restricted. Please, open 15441 porton your router to make your site accessible for everyone.\" is showed when i click \"Sign & Publish new content\" in my cloned site's web UI using Tor. console says \"Publishing to 0/0 peers\"\n\nIt's not really a bug, if you create a new site and you don't have opened port then not everyone able to access it, only who has open port. \nI know its not possible when using Tor, but it's really recommended to have your port opened.",
+			"post_id": 42,
+			"date_added": 1433927664
+		},
+		{
+			"comment_id": 9,
+			"body": "> [p2p](#comment_7_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): i've succeeded in publishing a new site using Tor. it said \"Publishing to 20/8 peers...\"but this time using web UI, it said \"Publishing to 0/0 peers...\"\n\n\"Publishing to 0/0 peers...\" means: you cant publish it to anyone, because no one is seeding your site. Publish is only works if you already have visitors on your site.",
+			"post_id": 42,
+			"date_added": 1433980595
+		},
+		{
+			"comment_id": 10,
+			"body": "> [zero](#comment_2_14KTucYyzvtrrRFpmNC6esnhv2a7NRG4Pv): Test 123\n\nRe:test",
+			"post_id": 39,
+			"date_added": 1434811983
+		},
+		{
+			"comment_id": 11,
+			"body": "> [moshe](#comment_1_17WLJo3Vk4zrzYimCUEavC98aFXW6XYcRA): the year is 2015 :)\n\nAlready halfway to 2030? :) Thx, fixed.",
+			"post_id": 33,
+			"date_added": 1435077928
+		},
+		{
+			"comment_id": 12,
+			"body": "I'm planning to continue the tutorial with fine-tuning:\n - Displaying comment time\n - Keeping only last X comments to avoid exceed size limit\n - Enabling Clone feature\n - Colorized usernames\n - Animated display of new messages\n - Notification of new messages\n\nOther ideas? :)",
+			"post_id": 46,
+			"date_added": 1437769381
+		},
+		{
+			"comment_id": 13,
+			"body": "> [loot](#comment_1_17vE6u5SLLQ3eLazQDWXxM25663bbjPjBt): link to part1 doesnt work\n\nThanks for reporting, fixed!",
+			"post_id": 46,
+			"date_added": 1438246573
+		},
+		{
+			"comment_id": 14,
+			"body": "> [nxmc](#comment_1_17CC51W4oQJ8ys5LPgqMPaGFX8oHDpVLqz): Coffee is getting out of style, you should do a vanilla js/es6 tutorial maybe\n\nYes, ES6 has fixed many bad thing about js, but I still prefer coffeescript syntax. I think if someone know javascript then he/she able to read coffeescript code and complete this tutorial. Its still js, but less \"noise\".",
+			"post_id": 46,
+			"date_added": 1438246772
+		},
+		{
+			"comment_id": 15,
+			"body": "You can download it manually from: http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz (https://dev.maxmind.com/geoip/geoip2/geolite2/)\n\nUnpack GeoLite2-City.mmdb file to your data dir. (so data/GeoLite2-City.mmdb file needs to be existed)",
+			"post_id": 50,
+			"date_added": 1439739400
+		},
+		{
+			"comment_id": 16,
+			"body": "> [p2p](#comment_10_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): no luck. still can not load the map after Unpack GeoLite2-City.mmdb file.( before unpack it, i've seen there was a GeoLite2-City.mmdb in 'data' folder already, and i overwrote it)\n\nWhat browser do you have and you tried it with other other one? Do you have any javascript errors? (F12 to open the console)\n\nMy data/GeoLite2-City.mmdb file is 29,9 MB (31 446 444 bytes)\n\nAlso please try to look for lines containing **GeoLite2 City database** in log/debug.log.",
+			"post_id": 50,
+			"date_added": 1440507257
+		},
+		{
+			"comment_id": 17,
+			"body": "WebGL under linux can be problematic, here is [some tips](http://askubuntu.com/questions/299345/how-to-enable-webgl-in-chrome-on-ubuntu) to enable it. We using this component: [WebGL globe](https://globe.chromeexperiments.com/)",
+			"post_id": 50,
+			"date_added": 1440588452
+		},
+		{
+			"comment_id": 18,
+			"body": "> [lte678](#comment_2_1N5NZFYgvCjXqKGS8SYRMe5WdgobFY88vS): Also, for the ZeroBundle package commas (\"../python/python.exe\") are required! On windows at least...\n\nCommas only required if you use / in path `..\\python\\python.exe` should work without them.",
+			"post_id": 43,
+			"date_added": 1441489204
+		},
+		{
+			"comment_id": 19,
+			"body": "> [neb](#comment_1_1B9UpwKzUwpWKefHu2MZ82QTt8ASAP6uZF): I know that zeronet.py does exist, however, in my \"ZeroNet\" folder. I go into that folder and execute \"zeronet.py siteCreate\". All it does in this case it open zeronet.py, and nothing else.\n\nYou have to execute `..\\python\\python.exe zeronet.py siteCreate` where your zeronet.py file is.",
+			"post_id": 43,
+			"date_added": 1441623190
+		},
+		{
+			"comment_id": 20,
+			"body": "> [petko](#comment_1_1N4gn1fTkSb7DmjvxiXDVHVx9REgJZk2CR): Hi, how to stop ZeroNet on Win 7? Kill the process or is there more gracious way?\n\nRight click on the ZeroNet taskbar icon > Quit",
+			"post_id": 43,
+			"date_added": 1441644274
+		},
+		{
+			"comment_id": 21,
+			"body": "> [neb](#comment_2_1B9UpwKzUwpWKefHu2MZ82QTt8ASAP6uZF): Thank you so much! I just wish there was an easier way to save private key on windows, and not to physically type each part in.\n\nTo put it on the clipboard: Right click > Mark > Select the private key > Enter\n\nBut something more friendly is planned :)",
+			"post_id": 43,
+			"date_added": 1441665433
+		},
+		{
+			"comment_id": 22,
+			"body": "I have just tried and both method works for me. If you clone the site you don't need to enter the private key, its saved in data/users.json.\nCan you paste the javascript error you got on the blank page? (press F12 to open console)",
+			"post_id": 3,
+			"date_added": 1441903537
+		},
+		{
+			"comment_id": 23,
+			"body": "> [avatarx](#comment_2_1BGaNcH1UBqAdatPbT3YssmPRVdhepMNPW): Mine has stood at rev 360, is that normal?\n\nSub-version updates are experimental and they not applied automatically. To get this updates before the new version release you have to run the update.py file from zeronet directory. (execute ..\\Python\\python.exe update.py if using the ZeroBundle package)",
+			"post_id": 53,
+			"date_added": 1442059062
+		},
+		{
+			"comment_id": 24,
+			"body": "Update: Now you can make the Update button appear manually by clicking on text \"Version\" in ZeroHello's topright corner.",
+			"post_id": 53,
+			"date_added": 1442181904
+		},
+		{
+			"comment_id": 25,
+			"body": "Thanks for the feedbacks, added a third line with 45° rotated ones. (so the \"bottom\" from previous comments are referring to second line)",
+			"post_id": 56,
+			"date_added": 1443304369
+		},
+		{
+			"comment_id": 26,
+			"body": "> [pycole](#comment_1_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): These are nice, but a really detailed logo might look bad in the Zeronet button in the top right corner. Maybe it should keep the rounded logo?\n\nHere is a concept how would it look like in the topright corner (and also favicon and chrome button): https://cloud.githubusercontent.com/assets/10350359/10117719/4162b6b8-6460-11e5-8e48-9466bf6dac73.png\n",
+			"post_id": 56,
+			"date_added": 1443869047
+		},
+		{
+			"comment_id": 27,
+			"body": "> [p2p](#comment_12_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): i had to manually click the update button  for 2~3 times to get all new contents.\n\nSounds like timeout problem, I will try to reproduce it later.",
+			"post_id": 58,
+			"date_added": 1445800672
+		},
+		{
+			"comment_id": 28,
+			"body": "> [p2p](#comment_12_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): some sites didn't automatically  update for all new contents\n\nIn the last days I switched to Tor, but I was not able to reproduce the problem. If you experience the problem again please send log/debug.log to hello@noloop.me",
+			"post_id": 58,
+			"date_added": 1446151102
+		},
+		{
+			"comment_id": 29,
+			"body": "> [p2p](#comment_13_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): zeronet polls other nodes for a site's new contents?\n\nIf you start your ZeroNet client then its asks some peers for the modifications.\n\nIf someone creates a new modification then he/she sends it to 5 peers, after they downloaded the changed files these 5 peers also sends to other 5 and so on. So after the startup there is no need to ask changed files becase it will be pushed to your client.\n\nThere is only one exception: ZeroNet detects if your computer come back from sleep and acts as on startup and ask for modifications.",
+			"post_id": 58,
+			"date_added": 1446201581
+		},
+		{
+			"comment_id": 30,
+			"body": "> [o4zw5vmpoz5hz78z](#comment_2_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): any documentation about the \"Optional file download\"\n\nIt's still in development, so no recommended to use. \n\nAlready working on sample site that will demonstrates (and help testing) the optional files and if its works fine then release 0.3.3 and add more details about it. Eta 1-2week",
+			"post_id": 59,
+			"date_added": 1446690498
+		},
+		{
+			"comment_id": 31,
+			"body": "> [o4zw5vmpoz5hz78z](#comment_4_1KTjPe9MxoYkcXj78GuZgCcj3R3f3Twh7r): is the beginning of the url on purpose? \"1Gif\"? :)\n\nYes, the address is generated using [vanitygen](https://github.com/samr7/vanitygen).  :)\n\n> it plays in my firefox but not in chrome windows 7 32 bit\n> awesome!\n\nThat's it's works for me in Chrome, do you see the thumbnails or just black boxes? Does it plays this way? http://127.0.0.1:43110/1Gif7PqWTzVWDQ42Mo7np3zXmGAo3DXc7h/data/mp4/386.mp4",
+			"post_id": 61,
+			"date_added": 1447032415
+		},
+		{
+			"comment_id": 32,
+			"body": "> [mambo](#comment_1_1LSnoyGgdmgkrduH2LaZ193VmqC6f6h12s): to open and close sidebar is not easy, i need do right click on top right button it opens first context menu\n\nYou have to drag and move it to left to show the sidebar. If it's does not work please specify your browser, I have only tested it on Win8.1/FF/Chrome/IE11",
+			"post_id": 61,
+			"date_added": 1447094426
+		},
+		{
+			"comment_id": 33,
+			"body": "> [cgm616](#comment_1_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn): It just says to open port 15441 when I try to create my own and publish it.\n> I have that port open and portchecker.co says it's open to the internet too. What gives?\n\nTry restart zeronet to make it detect your port is opened. You can check it on http://127.0.0.1:43110/Stats page on first line it should be: Opened: True",
+			"post_id": 3,
+			"date_added": 1447495755
+		},
+		{
+			"comment_id": 34,
+			"body": "> [olivier](#comment_1_1NyGo7eBax4F1dm1gsoVHg9gCqm5EUhFAP): That sounds like very good news. What will it look like, from bird's eye view? Will communication between ZeroMail sites (clones and all) be possible?\n\nEvery site is independent in ZeroNet, so communicating between sites is not possible. But it could be possible to create an automatized bot, that synchronize messages between the site if its necessary or maybe later with merger sites:\nhttp://127.0.0.1:43110/talk.zeronetwork.bit/?Topic:2_1AtLqmJk4VBFwJ8cNtD63h1bBGqY6UxeFk/Links+between+ZeroSites",
+			"post_id": 64,
+			"date_added": 1449051797
+		},
+		{
+			"comment_id": 35,
+			"body": "> [pycole](#comment_3_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): Will this be related to a system for notifying users when their comments are replied to? Or would that be something else?\n\nThat's something else. The notify problem could be solved by addig possibility to sign up to specific sql querys. It would allow to list the replies of your comments/new topics/blog posts etc. in a notification center-like feature.",
+			"post_id": 64,
+			"date_added": 1449176041
+		},
+		{
+			"comment_id": 36,
+			"body": "> [afkmember](#comment_1_12uYsshb2KhgzKembtJcumqSbXw5HVArBR): Is there possibility for message sighing? Also multiple user messaging? pleaseeeeeeee :)\n\nMultiple recipient messaging may be possible later, every content you create in zeronet is signed by your private key, so its also apply to messages.",
+			"post_id": 64,
+			"date_added": 1449603050
+		},
+		{
+			"comment_id": 37,
+			"body": "Source code: https://github.com/HelloZeroNet/ZeroMail",
+			"post_id": 65,
+			"date_added": 1449834283
+		},
+		{
+			"comment_id": 38,
+			"body": "> [p2p](#comment_15_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): so coooooooooooooool!!!!!!!!the echobot reply me in 2 seconds! what's the working principle of the bot? i can't believe it is able to reply so quickly in p2p network.\n\nIt using the standard p2p way: The script runs in a chrome-like emulated browser (PhantomJS), every second check if there is any new message, if founds any then click on it, reply, enter the reply message then hit send button. [source](https://github.com/HelloZeroNet/ZeroMail/blob/master/echobot/echobot.py)",
+			"post_id": 65,
+			"date_added": 1449883842
+		},
+		{
+			"comment_id": 39,
+			"body": "> [heathenman](#comment_3_16dVbybDseQBQnxdJDuQhCzYAij8iR8YEc): happy holidays from germany.please make it also possible to disable tor, some cant trust cause of government sponsored relays/access points.edit: idk \n\nThere will be 3 modes of Tor: Disabled, Enabled (allows you to connect .onion addresses, but does not use Tor for clearnet connections), Only (Use Tor for every connection)\n\n> if you watched recent zerotalk threads, classcoder proxy is on ssl now- default https would be nice.\n\nHttps makes no sense for localhost (and not even possible to get ssl cert for it).\nUsing zeronet through a zeroproxy is not secure (the proxy able to read your private key) so it should be only used for testing. The https could be a \"false sense of security\". It makes sense for private installations (eg. for mobile access), so it will be supported in the future.",
+			"post_id": 67,
+			"date_added": 1451174473
+		},
+		{
+			"comment_id": 40,
+			"body": "New version is almost ready, everything is done just needs more testing. If no major problem found it should be out in the next days.",
+			"post_id": 67,
+			"date_added": 1451855936
+		},
+		{
+			"comment_id": 41,
+			"body": "> [cgm616](#comment_6_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn): This logic makes sense, but only kinda. I'd rather have only the proxy be able to see my private key than everyone that could possible MitM me see it.\n\nYes, good point",
+			"post_id": 67,
+			"date_added": 1451951205
+		},
+		{
+			"comment_id": 42,
+			"body": "> [cgm616](#comment_7_1KcPohxmuqiNShTaAzJZLndm5aWtBZLuJn): Sweet! Thanks, this is awesome. Just turned on Tor always. Will that seed to everyone else using tor and everyone else, or just one, or neither?\n\nIn Tor mode anyone who is updated to 0.3.5 is able to connect to you even if you in `--tor always` mode or without opened port in your router.\n\nPublishing is a bit slower over Tor, but ZeroNet has some warmup time (1-10 minutes depending how much site you have) after you started your client, after that connections will be created it should be better.",
+			"post_id": 68,
+			"date_added": 1451955757
+		},
+		{
+			"comment_id": 43,
+			"body": "> [balmung83](#comment_1_1NiUW4YCNDYTij7D8TfFJHK4zNYc3LKxKg): The implementation of Tor means, if i understand it correctly, that i can finally publish and distribute my own sites, even if i am unable to open any ports (DSlite?\n\nYes, this is the main benefit from it: It allows you to create new sites even if you don't have opened port or you want to hide your IP.",
+			"post_id": 68,
+			"date_added": 1451959093
+		},
+		{
+			"comment_id": 44,
+			"body": "> [ekaterina](#comment_2_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD): Just to be sure, does this new Tor support replace the command line options \"--proxy 127.0.0.1:9050 --disable_udp\" to use ZeroNet through Tor? So I now only have to use \"--tor always\" to achieve the same?\n\nYes, it replaces, you have to use \"--tor always\" to achieve the same result, but make sure your tor client is up-to-date it requires version 0.2.7.5 which is released in november.",
+			"post_id": 68,
+			"date_added": 1451988534
+		},
+		{
+			"comment_id": 45,
+			"body": "> [balmung83](#comment_2_1NiUW4YCNDYTij7D8TfFJHK4zNYc3LKxKg): I don't know, if you even knew, there was any request for a feature like this.\n\nZeroBlog is just a regular sample site for ZeroNet, it's never meant to be WordPress replacement. If anyone want themes/built-in image editor/meme generator then he will be disappointed, because it's not a planned feature by me, but anyone can clone it and make improvements as it's not related to ZeroNet core development.",
+			"post_id": 68,
+			"date_added": 1452344894
+		},
+		{
+			"comment_id": 46,
+			"body": "> [sardaukar](#comment_1_16FGedWfBJc3mJ2eZ5u8TJUShZbs3tdjmy): cool! CoffeeScript hurts my eyes, though - when will we have an ES6 version of ZeroFrame?\n\nThe browsers can't run coffeescript, so it's compiled down to javascript: http://127.0.0.1:43110/1AvF5TpcaamRNtqvN1cnDEWzNmUtD47Npg/js/all.js",
+			"post_id": 46,
+			"date_added": 1454493247
+		},
+		{
+			"comment_id": 47,
+			"body": "> [ow](#comment_1_13KqD3BoaRMudEG5QU2fnGLkSVx8qDXKof): Any chance that JavaScript might not be required in some future update?\n\nThe application logic has to be defined some way. You can create your own this client to communicate with the api, but I think running untrusted code is much higher security risk, than running untrusted javascript in the browser.",
+			"post_id": 70,
+			"date_added": 1454772879
+		},
+		{
+			"comment_id": 48,
+			"body": "> [ekaterina](#comment_5_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD): ZeroFrame.coffee file doesn't work anymore, I guess due to the recent changes made to the HelloZeroNet site, so I used a copy from a different site.\n\nThanks for reporting, fixed the link!",
+			"post_id": 43,
+			"date_added": 1454871815
+		},
+		{
+			"comment_id": 49,
+			"body": "> [noiamo](#comment_6_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx): I dont understand how different profiles will connect to each other? Could other users write on your profile? Great job btw\n\nThe same was as you can comment on other people's ZeroBlog",
+			"post_id": 73,
+			"date_added": 1456429609
+		},
+		{
+			"comment_id": 50,
+			"body": "> [ekaterina](#comment_7_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD): Regarding merged sites: Does the merger site, the main site, create and \"own\" the profile sites? \n\nThe profiles sites are independent, but the merger site need to have access to your profile site's data in order to publish new content. You can also clone the merger site, so if it's got compromised you will be still safe.\nOther plugin ideas to make it safer:\n - Display diff and ask confirmation before every data file modifications\n - Site freeze: Ability to review js/css/html modifications before make your browser use it\n - Revision control (eg. using Git): You will be able to undo any changes",
+			"post_id": 73,
+			"date_added": 1456437836
+		},
+		{
+			"comment_id": 51,
+			"body": "> [noiamo](#comment_7_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx): So main site will give you authorization to build your own profile with your key and owner will have the ability to change the profiles?\n\nYes it's storage/working mechanism is same: every profile will be a separate site (like ZeroBlog), the posts will be listed in one place (like the newsfeed on ZeroHello), the only thing that will be new is the merger site will has access to put new content to this, profile sites.",
+			"post_id": 73,
+			"date_added": 1456568409
+		},
+		{
+			"comment_id": 52,
+			"body": "> [pycole](#comment_6_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): I would suggest using the pump.io/ framework for this, but it might be too server-centric to be of use here--Not sure.\n\nUsing a client<>server framework is not possible in p2p web",
+			"post_id": 73,
+			"date_added": 1456651625
+		},
+		{
+			"comment_id": 53,
+			"body": "> [noiamo](#comment_8_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx): Search to user and user profiles would be enabled through main site? Also private encrypted messaging would implemented to this or users would use zeromail separately...Are sites like zerotalk would change also to support merging for example subreddits?\n\n- Yes, user name -> profile address links will be stored in the merger site.\n- No built-in private messaging planned, so use ZeroMail\n- There is no need to merger sites for subreddits, because you don't need to interact with multiple subreddit in one page. Simply add a top bar with link to other zerotalk pages.",
+			"post_id": 73,
+			"date_added": 1456659438
+		},
+		{
+			"comment_id": 54,
+			"body": "> [basxto](#comment_1_1PVcdu7USZH2kHMETbqDYLPjJZKCDWM52k): Favorites are neat, like that.\n\nYeah, it's a known bug of ZeroBlog, I will fix it later.\n\n> [ekaterina](#comment_9_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD): Nice update! Are the favorites saved in localStorage? \n\nYes, it's stored in localstorage, a zeronet managed, per-user storage/cache is a good idea and planned feature.",
+			"post_id": 74,
+			"date_added": 1456692648
+		},
+		{
+			"comment_id": 55,
+			"body": "> [noiamo](#comment_10_14XxpXNGMLsyeQxikacrbQnAFXVyhN5Ngx): One last though does seeding main site would mean that you would seed all the profiles or only those that you select and open?\n\nOnly what he/she select and open (want to follow), that's the point of merger sites: the site size/bandwidth usage will not increase with the number of users.",
+			"post_id": 73,
+			"date_added": 1456695866
+		},
+		{
+			"comment_id": 56,
+			"body": "> [p2p](#comment_19_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): both work for me. thx!where the following data is stored? what happen if i change browser/machine?\n\nThe following data is stored in `data/users.json,` so you can change browser/machine as long as connect to same node.",
+			"post_id": 74,
+			"date_added": 1456775791
+		},
+		{
+			"comment_id": 57,
+			"body": "> [ks](#comment_1_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx): There is no “clone” menui tem in ZeroHello. In fact there is no menu at all. What to do?\n\nUpdated the image to make it more clear",
+			"post_id": 3,
+			"date_added": 1456920795
+		},
+		{
+			"comment_id": 58,
+			"body": "> [makevoid](#comment_1_12zETqqpD98o2AFjUVeznYHTNG9LVivnzE): how do I backup my ZeroID ? (sorry if it's not the right post to ask, thanks)\n\nbackup the `data/users.json` file",
+			"post_id": 43,
+			"date_added": 1457398208
+		},
+		{
+			"comment_id": 59,
+			"body": "> [ks](#comment_4_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx): Is there an easy way to update one's own blog if its a clone of this blog?\n\nYes, if you have'nt modified the css/js:\n- Backup your site's directory\n- Copy everything from data/1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8 to your site's directory except `content.json` and `data` directory.",
+			"post_id": 75,
+			"date_added": 1457513691
+		},
+		{
+			"comment_id": 60,
+			"body": "> [nzhost](#comment_1_19qzd1DkCVqK753BX35iXU439DiusNCpCA): will this ever be updated? the roadmap plan has been completed.\n\nIt's up to date it was updated some days ago, Current status != Roadmap, Future plans ~ Roadmap",
+			"post_id": 34,
+			"date_added": 1457605911
+		},
+		{
+			"comment_id": 61,
+			"body": "> [sunpark22](#comment_1_1AaADsDUmgWyP6pYVXhaW1c4LUDSJUag8Z): Is it updated automatically or I should download ZeroBundle again?\n\nIf new major version is out you will see a notification on ZeroHello, but if you want to update to sub-version you can choose ... > Version menu item on ZeroHello and it will download the latest version and restarts itself.",
+			"post_id": 75,
+			"date_added": 1458036676
+		},
+		{
+			"comment_id": 62,
+			"body": "> [thevideovault](#comment_2_1DfkDpkeDXGbHJ2ZT31DPvYr5xR59Jr8BA): Please add the ability for us to subscribe to our ZeroMail inbox in the newsfeed.\n\nUnfortunately it's not possible currently, because the messages stored in encrypted form in the database.",
+			"post_id": 77,
+			"date_added": 1458170575
+		},
+		{
+			"comment_id": 63,
+			"body": "> [thevideovault](#comment_3_1DfkDpkeDXGbHJ2ZT31DPvYr5xR59Jr8BA): What about just receiving a notification that we have new mail?\n\nThe messages recipients also encrypted for privacy, so it's not possible yet.",
+			"post_id": 77,
+			"date_added": 1458237600
+		},
+		{
+			"comment_id": 64,
+			"body": "> [jpfox](#comment_1_1ZqtBCrN2c7a48tN8u7gqYL1MLNAm1QPd): If I want to populate my blog with a script which add posts, what I have to do ?\n> \n> just add a record in post table in myblogid/data/zeroblog.db ?\n> or change myblogid/data/data.json content ?\n> or both ?then, I sign and publish, of course.\n\nYou need to add it to the data.json file, example: https://github.com/HelloZeroNet/ReactionGIFs/blob/master/updater/updater.py#L184-L195",
+			"post_id": 3,
+			"date_added": 1458309484
+		},
+		{
+			"comment_id": 65,
+			"body": "> [jpfox](#comment_2_1ZqtBCrN2c7a48tN8u7gqYL1MLNAm1QPd): ok @nofish and the database will be updated automatically ?\n\nYes, when you execute sitesign",
+			"post_id": 3,
+			"date_added": 1458311275
+		},
+		{
+			"comment_id": 66,
+			"body": "> [iforgotmyusernam](#comment_3_14Fk98LFCxHGnzEQDG3KiWqvYehNw6UaN2): CTRL + F: To make it work add a function to js/ZeroChat.coffe that displays the certificate selection dialog to user:\n> ZeroChat.coffe --> ZeroChat.coffee\n\nThanks, fixed!",
+			"post_id": 46,
+			"date_added": 1458340287
+		},
+		{
+			"comment_id": 67,
+			"body": "> [insomniacity](#comment_2_19ALEdg4xnbXKKFacC93cKWUjiQRsjECoj): Like bdodroid, I'm getting this error:Internal error: TypeError: 'bool' object has no attribute 'getitem'UiWebsocket.py line 98 > UiWebsocket.py line 174 > UiWebsocket.py line 311 > UiWebsocket.py line 277\n> Except, I did sign my site! Any idea what I'm doing wrong?\n\nYou have to sign data/users/content.json",
+			"post_id": 46,
+			"date_added": 1458683577
+		},
+		{
+			"comment_id": 68,
+			"body": "> [ekaterina](#comment_13_1Mk5sVKeCrwMc3wSD11jM7DZTiqF5D9BaD): \n> NameError: global name 'time' is not defined\n\nIt was fixed last week, so the restart should be fine from now.",
+			"post_id": 78,
+			"date_added": 1458809740
+		},
+		{
+			"comment_id": 69,
+			"body": "> [p2p](#comment_23_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): THX！would u please pack a 32bit ZeroBundle for 32bit Linux? u know, some useful distro like Tails, Whonix only offer 32bit version.\n\nhttps://github.com/HelloZeroNet/ZeroBundle/releases/download/0.1.1/ZeroBundle-linux32-v0.1.1.tar.gz\n(tested on debian8)",
+			"post_id": 78,
+			"date_added": 1458866124
+		},
+		{
+			"comment_id": 70,
+			"body": "daddio: please report to https://github.com/HelloZeroNet/ZeroNet/issues with details (OS, Site, Browser, how/when, etc.)",
+			"post_id": 78,
+			"date_added": 1458948548
+		},
+		{
+			"comment_id": 71,
+			"body": "> [og](#comment_1_1CUj1HCmKNmqwt6gCiPUGmh6U1nDrkbquK): this is impossible because ZeroFrame API is asynchronous by design?\n\nThis is impossible, because javascript is asynchronous by design. You can use Promises or Await syntax (ES7) to get the result without callbacks.",
+			"post_id": 78,
+			"date_added": 1459098283
+		},
+		{
+			"comment_id": 72,
+			"body": "> [p2p](#comment_25_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): is it good for Tor users? less onion peers could be connected, IMHO\n\nIf you have opened port, then the Tor clients able to connect to you using exit nodes.",
+			"post_id": 79,
+			"date_added": 1459420816
+		},
+		{
+			"comment_id": 73,
+			"body": "> [p2p](#comment_26_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): yepi'v sent u two ZeroMails, pls take a look.\n\nBoth were fixed",
+			"post_id": 79,
+			"date_added": 1459499062
+		},
+		{
+			"comment_id": 74,
+			"body": "> [zcove](#comment_1_16hZTsC88EhrnayPacQ9tS8QSkcY7qP2XD): @nofish can you please make a tutorial about the Newsfeed plugin? I have a custom blog made with Jekyll and I want to add the Follow capability. Thanks in advance.\n\nIt's only possible on SQL based sites, so static content will not work.",
+			"post_id": 46,
+			"date_added": 1459843892
+		},
+		{
+			"comment_id": 75,
+			"body": "> [tjalvarez](#comment_1_1Q6mGPMMP1MqT6XMioXViEBJ6ZXFVBM8EV): Yeah, GitHub is blocked in china:http://www.greatfirewallofchina.org/index.php?siteurl=https%3A%2F%2Fgithub.com%2F\n\nHmm, I have uploaded ZeroBundle to github repo as p2p suggested, but if github.com is blocked , then it will not work.\nCan anyone confirm if its working or not? https://github.com/HelloZeroNet/ZeroBundle/raw/master/dist/ZeroBundle-linux32.tar.gz",
+			"post_id": 80,
+			"date_added": 1460397663
+		},
+		{
+			"comment_id": 76,
+			"body": "> [p2p](#comment_38_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): according to GreatFire, github is mostly not blocked: https://en.greatfire.org/github.comTHX! i'll ask more chinese users to test the link.btw, i hit the 10K space limit here, HELP!!!\n\nI have created mirrors here:\n - https://gitlab.com/HelloZeroNet/ZeroBundle/tree/master/dist\n - https://try.gogs.io/ZeroNet/ZeroBundle/src/master/dist\n\nBut I think the best would be stay in github: GFW can't block it because of chinese developers.\n\n(increased limit to 20k)",
+			"post_id": 80,
+			"date_added": 1460451956
+		},
+		{
+			"comment_id": 77,
+			"body": "> [nassau](#comment_1_1M6V4wECbz5e1aUmuij2BB72ensHCYNFmd): When I update to version 0.3.7, my torrc file was overwrited,   but in china, without bridges or proxy tor can not connect to network.\n> so is it a way to keep old torrc file? or backup it myself?\n\nI would recommend to start tor from different directory on default ports (9050 and 9051). At the startup zeronet checks if tor is already running on that ports and if the connection is successful, then it will use it.",
+			"post_id": 80,
+			"date_added": 1460535338
+		},
+		{
+			"comment_id": 78,
+			"body": "> [p2p](#comment_41_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): i'v sent u a ZeroMail about Problems in old IE11 under win 7 and xp, pls take a look.\n\nsorry, old ie is not supported, chrome/ff available on every platform (probably even new IE11 support will be dropped in the future, since it missing many JS features)",
+			"post_id": 80,
+			"date_added": 1460623846
+		},
+		{
+			"comment_id": 79,
+			"body": "> [pycole](#comment_9_1KwTTgPRSTHFmmJAFBt6kQfdyNeSM5KJuH): Occasionally when using the new search box, I get an error like this:\n> Internal error: OperationalError: no such table: main.secret\n\nI was unable to reproduce, but I think its fixed by https://github.com/HelloZeroNet/ZeroNet/commit/6f8c24e11da7385b0d95fa625cc74161f2cd7486\n",
+			"post_id": 81,
+			"date_added": 1461060875
+		},
+		{
+			"comment_id": 80,
+			"body": "> [zippity](#comment_2_1Ms9rF6uzwkFtQSN7kAhyMQVoHSbR9mM4r): I did but no search field appears.\n\nstart following a site and you will see it",
+			"post_id": 81,
+			"date_added": 1461496469
+		},
+		{
+			"comment_id": 81,
+			"body": "> [sirenyc](#comment_4_19sggoAZ4hcorrrfWoFWP9rwfpVsL29cnZ): Could leave as standard zeronet this search bar without copying files. = D\n\nthere is no standard database schema for zeronet, every site has it's own tables, so its not possible",
+			"post_id": 81,
+			"date_added": 1461505751
+		},
+		{
+			"comment_id": 82,
+			"body": "> [maximi89](#comment_1_1Bj92ofCVfCvv7KfuU77rSz5iumJzFdj8t): http://127.0.0.1:43110/Talk.ZeroNetwork.bit/?Topic:1_18ZfPCaU1pYAeos3A7YhZVgtsmXqXeRRW7/Hunting+down+central+nodes+and+super+nodes+and+other+problems+about+ZeroNet\n> I was reading that... how true it is?\n\nYou can find the explanation in the comments.",
+			"post_id": 34,
+			"date_added": 1461671236
+		},
+		{
+			"comment_id": 83,
+			"body": "> [p2p](#comment_46_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): THX！i think u forgot to mention solved problem of win XP in change log.any plan to  add a help info to ZeroHello's background for old IE? as i mentioned in ZeroMail to u.\n\nAdded to changelog + IE warning on ZeroHello page, wrapper_nonce error also fixed in latest revision (affects IE)",
+			"post_id": 82,
+			"date_added": 1461891977
+		},
+		{
+			"comment_id": 84,
+			"body": "> [p2p](#comment_47_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): THX!wrapper_nonce error is gone, and i can see the IE  warning in IE10, but NOT in IE9 or older.will other IE compatibility issues i mentioned in ZeroMail be sovled?\n\nIt should be visible in every IE:\n\n```\n> 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; Zune 4.7)'.match(/(\\b(MS)?IE\\s+|Trident\\/7.0)/)\n< [\"MSIE \", \"MSIE \", \"MS\"]\n```\nIf not, then probably the browser tries to acts as different browser.\n\nI don't think if its possible to fix the other problems",
+			"post_id": 82,
+			"date_added": 1461919787
+		},
+		{
+			"comment_id": 85,
+			"body": "any suggestions for the social site name?",
+			"post_id": 83,
+			"date_added": 1462538744
+		},
+		{
+			"comment_id": 86,
+			"body": "the domain doesnt matter, probably it will be a subdomain of zeronetwork.bit like the other sites",
+			"post_id": 83,
+			"date_added": 1462557644
+		},
+		{
+			"comment_id": 87,
+			"body": "added some ideas: https://github.com/HelloZeroNet/ZeroNet/issues/232#issuecomment-217429618",
+			"post_id": 83,
+			"date_added": 1462615988
+		},
+		{
+			"comment_id": 88,
+			"body": "> [sick](#comment_2_18XDV3MuaGGQFAdeBNgcDUkviz2p28RsKB): What is \"Sign and Publish\" in blog?And why the flat design?for me is I do not like.\n\nEvery time you modify your site you have to sign and publish the modifications. Flat design because 2016, but this is an open platform, you can clone any of the sites and modify to your own needs..",
+			"post_id": 81,
+			"date_added": 1462694968
+		},
+		{
+			"comment_id": 89,
+			"body": "> [nobite](#comment_1_13KnmV3n2ZEpU77hx4WuLVdBrUR3kidtq7): Why use external sources for update downloads? Couldn't you distribute them within ZN itself?\n\nhttps more reliable, since zeronet protocol is still experimental",
+			"post_id": 83,
+			"date_added": 1462709640
+		},
+		{
+			"comment_id": 90,
+			"body": "its using this sources to update: https://github.com/HelloZeroNet/ZeroNet/blob/master/update.py \nif there is a flaw in the protocol it would be bad idea to update using the same protocol",
+			"post_id": 83,
+			"date_added": 1462719536
+		},
+		{
+			"comment_id": 91,
+			"body": "> [nobite](#comment_4_13KnmV3n2ZEpU77hx4WuLVdBrUR3kidtq7): why?if there is a flaw in the protocoll, it could use the github and others as fallback.\n\nFlaw can be security problem, then anyone able to modify the site containing the source code.",
+			"post_id": 83,
+			"date_added": 1462728385
+		},
+		{
+			"comment_id": 92,
+			"body": "> [nobite](#comment_5_13KnmV3n2ZEpU77hx4WuLVdBrUR3kidtq7): i see, but signed updates should not be too hard to implement\n\nThe site content already signed, so no point to add another signature. I see not much benefits of distributing zeronet on zeronet. It's easier to block the zeronet protocol itself, than block the whole github, gitlab and gogs site.",
+			"post_id": 83,
+			"date_added": 1462730050
+		},
+		{
+			"comment_id": 93,
+			"body": "> [nobite](#comment_8_13KnmV3n2ZEpU77hx4WuLVdBrUR3kidtq7): unless i want to hide the fact that I'm using ZN at all.Are updates fetched from gh through tor if ZN is configured to use tor?\n\nI have not tested, but it should ",
+			"post_id": 83,
+			"date_added": 1462730553
+		},
+		{
+			"comment_id": 94,
+			"body": "> [nobite](#comment_10_13KnmV3n2ZEpU77hx4WuLVdBrUR3kidtq7): You say it is similar to BitMessage, I'd be interested in how it is different from bitmessage. Or could they even be made compatible? Does your solution scale?\n\nZeromail is just a normal zeronet site with aes/ecies data encryption. Because of that bitmessage is more efficient for messaging. Bitmessage using proof of work for messages, you can post messages using zeroid on zeromail. Per site messages does have limitation (10MB by default), but in zeronet every site in totally independent, so you can create new network of messages by simply cloning the zeromail site to avoid the scalability issues/limitations.",
+			"post_id": 64,
+			"date_added": 1462732641
+		},
+		{
+			"comment_id": 95,
+			"body": "> [nobite](#comment_11_13KnmV3n2ZEpU77hx4WuLVdBrUR3kidtq7): Is there a way to recover lost mails?It still says 11K/48K but my sent folder is empty and my inbox only shows two mails from echobot. I restarted ZN and it's still like that.\n\nYou can try an another browser, maybe the localstorage got corrupted",
+			"post_id": 64,
+			"date_added": 1462903466
+		},
+		{
+			"comment_id": 96,
+			"body": "> [nobite](#comment_12_13KnmV3n2ZEpU77hx4WuLVdBrUR3kidtq7): I tried in another browser, same result.As contacts also only echobot is shown.But aren't all mails stored on each peer?So could I not somehow reset my mail boxes and it should re-download them?\n\nyou can delete the site, visit it again, then wait until all file downloaded",
+			"post_id": 64,
+			"date_added": 1462904194
+		},
+		{
+			"comment_id": 97,
+			"body": "> [nobite](#comment_13_13KnmV3n2ZEpU77hx4WuLVdBrUR3kidtq7): yes, that worked. Thank you. All mails are back. :)Do you also have a mail address?\n\nsure, the same username",
+			"post_id": 64,
+			"date_added": 1462906251
+		},
+		{
+			"comment_id": 98,
+			"body": "The merger site will able to pull data from any site related to it. (eg. every display every content submitted on zerome profiles in one page)",
+			"post_id": 83,
+			"date_added": 1463183146
+		},
+		{
+			"comment_id": 99,
+			"body": "> [anomie](#comment_1_19jbACPsnTxWhqTnMYTfbxBBvx6xmD656r): To be really picky, you're not presenting to an English audience, but an American one.\n> Sorry, my pedantry must be satisfied. ;)\n\nYou are right, changed to English speaking.",
+			"post_id": 84,
+			"date_added": 1463820332
+		},
+		{
+			"comment_id": 100,
+			"body": "> [troll](#comment_1_1DSVWXJjaSa3wDMjDLhsAP8W3a9ZMV49Mj): How to have the button [Next Page] in the end of page and the button [Keep Reading] at the middle of article please ?Where can we find a settings page to configure the blog ?\n\nThere is no easy settings for the blog yet. Add `---` to your article where you want to break it, the next button will be automatically visible after 20 articles.",
+			"post_id": 3,
+			"date_added": 1464213562
+		},
+		{
+			"comment_id": 101,
+			"body": "> [amaropargo](#comment_2_1AZ8PAvb9ChktEbe1jy38b1TvbYB1xVJbh): When I try to delete a web from my index directory, i got: \"This function is disabled on this proxy\", please help :(\n\nyou have to disable the multiuser plugin or add command line option --multiuser_local\n\n",
+			"post_id": 85,
+			"date_added": 1465675330
+		},
+		{
+			"comment_id": 102,
+			"body": "> [pzmw](#comment_2_1ALXyaQsvvCQ3R5WBrPbe4dXsqnLCLEkB7): Wendy Hanamura is such a lovely lady. \n\nEveryone was incredibly super friendly and nice! Because of my poor English I was refused the first invitation, but Wendy talked me into it. It was really nice experience and all the positive reaction and in person congratulation was expected my every imagination. \n\nWhen I talked [Brewster](https://en.wikipedia.org/wiki/Brewster_Kahle) (the founder of Internet Archive) about that every site address is also a Bitcoin address he immediately wanted to give it a try, so for the record here is the first transaction to home site of ZeroNet: https://blockchain.info/tx/4de98c2d086a7da0f0fa012c258c383f596af79f77b7e2ff2170aefc313ca975\n\nAlso big thx for the the [Jolocom](http://jolocom.com/) guys to help me with my presentation and for inviting me to http://get-d.net/ (Berlin, July 22 & 23, 2016), so if any around see you there :)",
+			"post_id": 84,
+			"date_added": 1465772720
+		},
+		{
+			"comment_id": 103,
+			"body": "> [nightenticer](#comment_1_1MhL8nWAcuB5YxbhyYgEHNvsToUtQutRVs): That would be awesome.\n\nI will look into it, but you can already use tor browser as tor gateway just start zeronet using `--tor_proxy 9150 --tor_controller 9151`",
+			"post_id": 85,
+			"date_added": 1465772984
+		},
+		{
+			"comment_id": 104,
+			"body": "> [fr33d0m](#comment_1_1JWy7zt6aDhpnDQ7fmsKUqNu8LzeoT1VRa): just a question: how to customize the <-left-side bar?\n\nSame as blog posts: Hover over it and the pencil icon should appear",
+			"post_id": 85,
+			"date_added": 1465859151
+		},
+		{
+			"comment_id": 105,
+			"body": "> [evbogue](#comment_1_1BMrYxwpX4TkivMHPYSAMGcBBr66soRxT4): So I looked up zeronet, I got it installed, and was amazed at how quickly it all got working. Good work, sir!\n\nI'm glad it worked for you, I'm still looking for better solution for mac machines (without the signiture warning), I would be thankful if anyone would able to help me on it. [Gtihub issue](https://github.com/HelloZeroNet/ZeroNet/issues/363)\n\n> [p2p](#comment_52_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): what are ur ideas/plans about ZeroNet's mobile usage in the future?\n\nThe easiest solution is creating a out own browser clone that holds the private key and browse the content using proxies. But this means slower user experience and no offline browsing which would be really good on mobile. \n\nSo later we could add light mobile client that includes the normal ZeroNet client with some modifications: Probably these clients would prefer smaller amount of good connections and would not re-distribute the received updates to other peers. Or maybe we could use the push notifications to send the updates to a site, but this need more research.\n\nSo I think it's definitely possible to create a mobile zeronet client, but it's need lots of research and testing to see how many modifications we need.",
+			"post_id": 86,
+			"date_added": 1465991327
+		},
+		{
+			"comment_id": 106,
+			"body": "> [trashish](#comment_1_1JpAsfEeBYdr8U3DtAzj8SyczL5Gx1EtQ9): Mammamia, Nofish is coming to Italy!\n> Are you visiting Milan? There’s a little community of Zeronet Addicts here that would love to welcome you in the city and meet up for a coffe or a beer.\n> Any chance?!\n\nThanks for the invite, but this time i'm going to travel to southern part of Italy, so maybe next time :)",
+			"post_id": 87,
+			"date_added": 1467407887
+		},
+		{
+			"comment_id": 107,
+			"body": "> [helloworld1](#comment_1_14Ztiu3VJBAAdbNr6EwDtKS6Xg7JTCFxtp): Great, hope you can get more contributors to ZeroNet!Do you know if the talk will be available online?\n\nI think it's won't be live streamed, but it will be uploaded to youtube later.\n\n> [helloworld1](#comment_2_14Ztiu3VJBAAdbNr6EwDtKS6Xg7JTCFxtp): And how was your vacation? Almost forgot...\n\nThanks for asking, it's was really nice, I'm pretty sure that Italy is one of the most beautiful country around the world.\n\n> [jayofthezero](#comment_3_16nArdxrSaNThNp83kL8E6NLL9WD98iUne): At this rate you'll need a vacation from your vacation.\n\nYeah my last two month was pretty busy, i'm planning more quiet August and September. (with more time spent on coding zeronet)",
+			"post_id": 88,
+			"date_added": 1468956727
+		},
+		{
+			"comment_id": 108,
+			"body": "> [p2p](#comment_57_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): where is the youtube video? i'v searched, but nothing found.\n\nThere was video recording, so I suppose they will upload it later.\n\n> [testingzeronet12](#comment_1_1CMjV2r4EBpFt8VCcWWZKDysZXPcPExRNN): would it be possible to integrate SafePress code into ZeroNet and help make ZeroNet sites easier to make using a Wordpress-like admin panel and CMS? http://safepress.io/\n\nIt could be possible, we will see when it comes out.",
+			"post_id": 88,
+			"date_added": 1470387489
+		},
+		{
+			"comment_id": 109,
+			"body": "> [kcnickerson](#comment_1_1DsU5DsyCEyJrhn8MhrgmujYoVsvxe7G2y): nicely done with the merged sites! my only ask is you not capitalize the userid, minor esthetic change (please).\n\nThanks, You can change your username on the profile page",
+			"post_id": 89,
+			"date_added": 1471306999
+		},
+		{
+			"comment_id": 110,
+			"body": "> [p2p](#comment_60_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): THX for your great work!Any idea of Tor always mode problem? Rev1422  --connection_limit 5 does not help.PS: my quota used: 19.3k/20k in this ZeroBlog, pls increase.\n\nProbably Tor is not suitable for too many connections. You can try `--tor disable --proxy \"127.0.0.1:9050\"` which is disables .onion addresses, maybe it's working better that way.",
+			"post_id": 90,
+			"date_added": 1471623557
+		},
+		{
+			"comment_id": 111,
+			"body": "> [sthetz](#comment_1_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9): Do I understand correctly that \"merged sites\" feature is still not released and not documented?\n\nVersion 0.4.0 contains the merger site feature, I will update the documents soon.",
+			"post_id": 90,
+			"date_added": 1471625091
+		},
+		{
+			"comment_id": 112,
+			"body": "> [p2p](#comment_61_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): do I need --disable_udp? No more quota in your blog indeed:(\n\nYes, it's recommended. I have bumped the size limit to 40k, so it should work.\n\n> [sthetz](#comment_2_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9): Cool! So it will be possible to have 0chan as \"merger site\" and let users create and manage their own boards, each of which will be a separate site?\n\nYes, it's possible. Maybe it's even simpler to clone the ZeroMe site and add image uploading to it.",
+			"post_id": 90,
+			"date_added": 1471626199
+		},
+		{
+			"comment_id": 113,
+			"body": "> [p2p](#comment_63_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): I got errors pasted here (very strange, I did NOT get errors with the same argument days ago)\n\nThanks for reporting, fixed in Rev1424",
+			"post_id": 90,
+			"date_added": 1471682546
+		},
+		{
+			"comment_id": 114,
+			"body": "> [sthetz](#comment_3_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9): Any info on how to use this feature?\n\neg if you add \n```\n\"user_contents\": {\n..\n\"archived\": {\"1C5sgvWaSgfaTpV5kjBCnCiKtENNMYo69q\": 1471683603}\n...\n```\nto data/users/content.json\nThen 1C5sgvWaSgfaTpV5kjBCnCiKtENNMYo69q user directory will be deleted by everyone and only accept new content.json if it's newer than 1471683603",
+			"post_id": 89,
+			"date_added": 1471683655
+		},
+		{
+			"comment_id": 115,
+			"body": "> [cronianice](#comment_1_17TX2JoDCPtqsYPN1KMk2LRLRzny31HetJ): Is there a simpler way to add new posts than modifying the JSON file?\n\nBy clicking on New Post button",
+			"post_id": 3,
+			"date_added": 1471771262
+		},
+		{
+			"comment_id": 116,
+			"body": "> [p2p](#comment_64_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): THX! Since you have conformed it as important security problem, could you push an update to everyone, e.g. 0.4.1In\n\nYeah, it will be bumped soon (this week)",
+			"post_id": 91,
+			"date_added": 1472735314
+		},
+		{
+			"comment_id": 117,
+			"body": "> [p2p](#comment_65_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 3min? why so slow? HDD? not SSD?\n\nI have slower VPS where only ZeroMail site taken 5min to load, so it was not hard to reach 3 min if you running on HDD.",
+			"post_id": 92,
+			"date_added": 1473283395
+		},
+		{
+			"comment_id": 118,
+			"body": "> [sthetz](#comment_4_1BNmjz9tBLY3M1tq2z7DKvA1LjFXYsmLd9): \n> By the way, is there any ETA on documentation update? \n\nI have added the [new functions to the doc](https://zeronet.readthedocs.io/en/latest/site_development/zeroframe_api_reference/#plugin-mergersite), but the steps are:\n\nTo a merged site (eg. hubs in ZeroMe):\n - add `\"merged_type\": \"YourMergerType\"` to root content.json\n\nTo a merger site (eg. ZeroMe site itself)\n - `Page.cmd(\"wrapperPermissionAdd\", \"Merger:YourMergerType\")` to get the permission to work with sites that contain \"YourMergerType\" at \"merged_type\" in content.json\n - From that moment you can fileGet/fileWrite/sign/publish/etc. the merged sites resources from merger-YourMergerType virtual directory eg.: `merger-YourMergerType/mergedsiteaddress/content.json` and the dbschema.json also see this files on the same virtual path.\n - `Page.cmd(\"mergerSiteList\", [], function(res) { console.log(res) })` to list current merged sites",
+			"post_id": 92,
+			"date_added": 1473345303
+		},
+		{
+			"comment_id": 119,
+			"body": "> [hermes32](#comment_2_1LFxK1BSHEnkJcXXb4qGszVUxEwqLVSJU8): I have cloned a ZeroSite . I modify the new website with my own content , sign and publish button gives an Error Internal error: TypeError: string indices must be integers, not tuple\n\nI have just tested on this blog, and works for me, can you please paste the full error message and the site you wanted to clone?",
+			"post_id": 3,
+			"date_added": 1473410740
+		},
+		{
+			"comment_id": 120,
+			"body": "> [ku4rt4m](#comment_1_15ySnmVuP2xGCWGxfbDdpjQxajSndfkmyL): thanks for the info! If I clon this site, should I change anything underneath? (code)\n\nSure, it will be an 100% independent site, so you can change everything.",
+			"post_id": 3,
+			"date_added": 1474068304
+		},
+		{
+			"comment_id": 121,
+			"body": "> [p2p](#comment_66_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): THX！what's the influence of  ZeroMail New archiving method to active users and inactive users?\n\nThe older messages than some months could be disappear.",
+			"post_id": 93,
+			"date_added": 1474104994
+		},
+		{
+			"comment_id": 122,
+			"body": "> [p2p](#comment_67_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): only inactive users‘ old msg disappear or both active and inactive users‘ ?when will the clearing be done? or already done?\n\nCurrently only for inactive users, but It can happen booth",
+			"post_id": 93,
+			"date_added": 1474127014
+		},
+		{
+			"comment_id": 123,
+			"body": "> [kefah](#comment_1_1LmLuaKceGdmYAdtjEtku1mtWEGstSwXQQ): An outstanding idea and impressive implementation.A minor question: what tool you use for the presentation?\n\nThanks, it's done in https://docs.google.com/ 's online editor.",
+			"post_id": 34,
+			"date_added": 1474190567
+		},
+		{
+			"comment_id": 124,
+			"body": "> [p2p](#comment_68_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): IMO users should be notified that. They can archive their msg in advance.\n\nIt's applies to every site on ZeroNet, if the limit is reached, old messages/topics/posts/etc. will be deleted. There is no other way to keep the site under 10MB",
+			"post_id": 93,
+			"date_added": 1474219182
+		},
+		{
+			"comment_id": 125,
+			"body": "> [shevek](#comment_1_1FKv8ekYrPvVxZASX4Rk6EYQYpASnHaiXn):  A permanent \"Websocket error, please reload the page\" does not allow anything :-(\n\nI have been running it on surf browser.",
+			"post_id": 94,
+			"date_added": 1474322135
+		},
+		{
+			"comment_id": 126,
+			"body": "> [border0464fred](#comment_3_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): what is the zerome url ?\n\nIf you have ZeroNet version 0.4.0+ then the link is visible on the left side on the homepage (ZeroHello)",
+			"post_id": 89,
+			"date_added": 1475088871
+		},
+		{
+			"comment_id": 127,
+			"body": "> [0face](#comment_2_17tpqoZw9eG2MQq6C3CVZ9MVxJxLTtCPZC): Can we access the UiServer/statsInfo via WebSocket (in JSON-format) ?http://127.0.0.1:43110/Stats\n\nIt contains private infos, so not really meant for that: IP adresses, Hosted sites, etc.",
+			"post_id": 46,
+			"date_added": 1475095742
+		},
+		{
+			"comment_id": 128,
+			"body": "> [arsenelupin](#comment_1_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ): On Antilibrary.bit I'm already storing most book files on IPFS and as such they are downloadable from the IPFS gateway.\n\nBuilt-in torrent support also planned in the future. (It's works well, battle-tested and has tons of content)",
+			"post_id": 95,
+			"date_added": 1475700146
+		},
+		{
+			"comment_id": 129,
+			"body": "> [arsenelupin](#comment_2_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ): That's cool. The main difference I see though is that torrent is good for big files, IPFS is good for files in general. \n\nIPFS plugin also possible, but image sharing should work within ZeroNet.",
+			"post_id": 95,
+			"date_added": 1475852968
+		},
+		{
+			"comment_id": 130,
+			"body": "Status report: \nI'm running a little late, I have implemented some feature that I was planned for later releases, but now I have every piece of new modifications ready. Need some more days of testing/fine tuning before the release (v0.5). Stay tuned! :)",
+			"post_id": 95,
+			"date_added": 1478041319
+		},
+		{
+			"comment_id": 131,
+			"body": "> [nofishes](#comment_1_12yaKkoqVKBUi66uB5pYXamWguKFaWdDnx): \n\nYou can sort by peer number, then you can delete the most seeded ones",
+			"post_id": 96,
+			"date_added": 1478856611
+		},
+		{
+			"comment_id": 132,
+			"body": "> [nofishes](#comment_2_12yaKkoqVKBUi66uB5pYXamWguKFaWdDnx): It is  very boring to delete one by one.\n\nYou dont have to it will be deleted automatically if the limit is reached",
+			"post_id": 96,
+			"date_added": 1478860315
+		},
+		{
+			"comment_id": 133,
+			"body": "> [nofishes](#comment_3_12yaKkoqVKBUi66uB5pYXamWguKFaWdDnx): I  want to seed the the unpopular files.My storage is enoght.\n\n\"Help distribute all new files\" is the best way to do that, since the new ones are the less seeded ones.",
+			"post_id": 96,
+			"date_added": 1478860558
+		},
+		{
+			"comment_id": 134,
+			"body": "> [ravenkong](#comment_1_1FJRjdGow8g75CyhamZ6zpuwSj1KBMK5Nt): will be better if it can support mircoSD extension.\n\nYou can buy a microsd reader for [$0.31 USD](http://www.gearbest.com/memory-cards/pp_261098.html), btw. with the [latest Chip firmware](http://blog.nextthing.co/accelerate-your-3d-gaming-with-quake-iii-on-pocketc-h-i-p/) the 4GB on-board storage upgraded to 8GB (every chip shipped with 8GB memory, but used in SLC mode before) + 3d/video acceleration.",
+			"post_id": 94,
+			"date_added": 1478955131
+		},
+		{
+			"comment_id": 135,
+			"body": "If someone want to help add new languages, the files needs to be translated:\n\nhttps://github.com/HelloZeroNet/ZeroNet/blob/master/src/Translate/languages/hu.json\nhttps://github.com/HelloZeroNet/ZeroNet/blob/master/plugins/Sidebar/languages/hu.json\nhttps://github.com/HelloZeroNet/ZeroHello/blob/master/languages/hu.json\nhttps://github.com/HelloZeroNet/ZeroMe/blob/master/languages/hu.json\nhttps://github.com/HelloZeroNet/ZeroTalk/blob/master/languages/hu.json\n\nSimply make a copy of them to the same dir where they are with the language short code you are going to translate to and replace the Hungarian translation.\n\nTo test them before submitting to github:\n - By default ZeroNet uses the operating system language, but you can also specify it in zeronet.conf (where zeronet.py is)\n - Open sidebar, check \"This is my site\"\n - Open javascript console (F12) check \"Disable cache\" on Network tab to avoid caching, keep window open\n - To reload Core language files (src/Translate/languages/hu.json and plugins/Sidebar/languages/hu.json) without restart you have to click on you language again on ZeroHello's 3dot menu",
+			"post_id": 97,
+			"date_added": 1479517682
+		},
+		{
+			"comment_id": 136,
+			"body": "> [jro](#comment_2_18DbeZgtVCcLghmtzvg4Uv8uRQAwR8wnDQ): Nice. What is \"Site Html/JS translation\"?\n\nThere is 2 layer of the translation: \n - One for the ZeroNet source code \n - One for the sites: It basically allows to add translation without modifying the html/css code. For example if you add `\"hello\": \"szia\"` to the language translate file and your browser request the javascript source code, then in the returned result every \"hello\" string will be turned to \"szia\". (only full strings are translated to avoid side effects)",
+			"post_id": 97,
+			"date_added": 1479551863
+		},
+		{
+			"comment_id": 137,
+			"body": "This way the releases are signed, the possibility of bug is still there, so it would be nice if anyone could review it.",
+			"post_id": 98,
+			"date_added": 1480967233
+		},
+		{
+			"comment_id": 138,
+			"body": "> [dude](#comment_2_1APx2pf1wNGFz4mWCN2sFzrtTGzrLKZUQ2): Seems a bug here: First opening of zerohello page is never completes now, have to refresh manually.Click on tray icon on windows.\n\nPlease provide more information: OS/Browser version/ZeroNet version/Install type/JS console messages (F12)/etc.",
+			"post_id": 98,
+			"date_added": 1481365428
+		},
+		{
+			"comment_id": 139,
+			"body": "> [p2p](#comment_73_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): THX! what do you recommend for future zite dev? JS or coffeescript?\n\nCoffeescript is no longer developed, so I would recommend JS, but it's depends on personal preference.",
+			"post_id": 99,
+			"date_added": 1481707920
+		},
+		{
+			"comment_id": 140,
+			"body": "> [p2p](#comment_74_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): what do you mean Coffeescript is no longer developed?https://github.com/jashkenas/coffeescript/    Update 1.12.1 release date    6 days ago\n\nThere was some drama around it, but it's good to hear they picked it up again.\nbtw: github is down for me: \"No server is currently available to service your request.\"",
+			"post_id": 99,
+			"date_added": 1481711668
+		},
+		{
+			"comment_id": 141,
+			"body": "> [p2p](#comment_75_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): github is down? maybe you can try a proxy or tor\n\nThere was a problem with github servers: https://status.github.com/",
+			"post_id": 99,
+			"date_added": 1481731090
+		},
+		{
+			"comment_id": 142,
+			"body": "> [whacko](#comment_1_15eMfttUaaszDW39pJHosSc5bgZHuXMEaK): Would be cool to see a live demo of this!\n\nThe expected result is here: http://127.0.0.1:43110/1Ao2w61hpihHgCb44Tjbv7dCE3ifbaiscK",
+			"post_id": 99,
+			"date_added": 1481825000
+		},
+		{
+			"comment_id": 143,
+			"body": "> [piskel](#comment_2_1Q5jmQE4Jd9uTQrSc9fPoWpFp87JBgLFK3): I can't upload a profile picture. \n\nHave you tried it with another image/browser?",
+			"post_id": 98,
+			"date_added": 1481922781
+		},
+		{
+			"comment_id": 144,
+			"body": "> [nekocross](#comment_2_1FHN4oukAG7zFUpiC9L2iz7QpQVTuT3xkz): THX a lot.There are some questions still confuese me:\n> Who creates data/users/[user auth address]/content.json?\n\nIt created automatically by the user when submitting the first comment.\n\n> When will  data/users/[user auth address]/data.json be signed?\n\nit created automatically when you execute `this.cmd(\"sitePublish\", {\"inner_path\": inner_path})` (It signs the files in the directory by default, then publish to the network)\n\n> How to add 'optional' key in  data/users/[user auth address]/data.json for new users automatically?\n\nYou can open the content.json file and add new keys the same way as you do for the data.json",
+			"post_id": 99,
+			"date_added": 1481971003
+		},
+		{
+			"comment_id": 145,
+			"body": "> [weakish](#comment_1_1GnJD7CXskmG8GywMbTvbP12wneCFW9XzR): \n\n- Escape works differently\n````js\n> escape(\"helló\")\n\"hell%F3\"\n> decodeURI(\"helló\")\n\"helló\"\n```\nit's necessary, because js can't convert utf8 to base64:\n```js\n> btoa(\"✓\")\nVM391:1 Uncaught DOMException: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.\n    at <anonymous>:1:1\n```\n\n- The var is probably not necessary there (not sure what happens if the callback returns with no result)\n- Yes, page is global",
+			"post_id": 99,
+			"date_added": 1482058828
+		},
+		{
+			"comment_id": 146,
+			"body": "> [eibriel](#comment_5_1BYU9zV786auJ29dF3HMAQYhxA2WgN4ofi): There is an error on the SQL command, should be:\n> SELECT * FROM message LEFT JOIN json USING (json_id) ORDER BY date_added DESC\n\nThanks, fixed\n\n> [eibriel](#comment_6_1BYU9zV786auJ29dF3HMAQYhxA2WgN4ofi): And could be that this.loadMessages() should be inside (site_info) => {}?\n\nIt works both way: if it's outside, then it's executed in parallel, if inside, then sequential",
+			"post_id": 99,
+			"date_added": 1482141409
+		},
+		{
+			"comment_id": 147,
+			"body": "> [sidorex](#comment_1_1FaczRFzXxx1e9UmeuMRiySoi7vHX2SwZT): hiho, how can I be sure that no one has manipuleted or is sending the wrong database/sql?\n\nThe database file is never got synced, but it's generated from .json files that are always signed by the owners.",
+			"post_id": 99,
+			"date_added": 1482188080
+		},
+		{
+			"comment_id": 148,
+			"body": "> [12hlearn](#comment_1_1CwbqLCD6TdkinNNNb4GneZxbsoJ6Mw6oE): your codes have es6 and es5 at the same time...WebStorm show many error or warring to me, and why not use es5  now?\n\nThis is not a javascript tutorial, so feel free to use the style that best suited to you",
+			"post_id": 99,
+			"date_added": 1482224205
+		},
+		{
+			"comment_id": 149,
+			"body": "> [sidorex](#comment_2_1FaczRFzXxx1e9UmeuMRiySoi7vHX2SwZT): thx and how can I trust that every user is sharing all the users/json-files? e.g. if all my 21 of 21 connections are all refusing to publish abc-users json-file, would I notice that?\n\nNo, you would not notice that, same thing with page updates: If everyone blocks it, then you won't get it.",
+			"post_id": 99,
+			"date_added": 1482282025
+		},
+		{
+			"comment_id": 150,
+			"body": "> [border0464fred](#comment_8_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): What is the licence of this pdf ?\n\nCC0 (no copyright)",
+			"post_id": 34,
+			"date_added": 1482918064
+		},
+		{
+			"comment_id": 151,
+			"body": "> [p2p](#comment_76_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): selecting from left to right the toolbar pop-ups normally.\n\nIt should be better now\n\nThe + button only visible on empty lines.",
+			"post_id": 100,
+			"date_added": 1483103169
+		},
+		{
+			"comment_id": 152,
+			"body": "> [tester999](#comment_2_1H8fXQf3qMUcEwEP1X2x4SoTWK8wHh4nCW): never mind I got it working.  The 2nd client was not the most current version of zero net.  But it's still saying \"missing file: content.json\" \n\nIf you have correctly signed the latest version of your site, then pressing the update button on sidebar should remove the missing file.\n\n> Also how do you get the private key of a site you create from the UI?\n\n*Tip*: Your site's private key is in data/users.json file (search for your site's address, then there will be a privatekey entry), so it's a good idea to backup it!",
+			"post_id": 99,
+			"date_added": 1483136554
+		},
+		{
+			"comment_id": 153,
+			"body": "> [border0464fred](#comment_10_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): does he need to have the port 15441 open for publishing ?\n\nIt's not required, but recommended to have opened port or Tor: Available\n\nIf your port is closed and you have no Tor connection, then your first visitor must have an opened port and he/she may need to wait some minutes before the page displayed.",
+			"post_id": 99,
+			"date_added": 1483189208
+		},
+		{
+			"comment_id": 154,
+			"body": "> [juansantiago](#comment_1_1QFcL2PapA8NuvNWeHCafHaMPJcXgmb55i): How can I add new features to blogs that already exist?\n\nTo add it to your existing blog copy **alloy-editor**, **css**, **js** directories and **index.html** file from `data/1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8/` to `data/[Yoursiteaddress]/`",
+			"post_id": 101,
+			"date_added": 1483299959
+		},
+		{
+			"comment_id": 155,
+			"body": "> [tester999](#comment_3_1H8fXQf3qMUcEwEP1X2x4SoTWK8wHh4nCW): What is the difference between the update button and the  publish button?\n\nThe update button cleans up the failed files and re-check the changes from other peers. The Publish button submits your version to other peers.\n\n> OK I found the private key in that file.  What's the line \"cert\": \"zeroid.bit\",  for? An empty site I made didn't have that line.\n\nMulti-user sites works a bit differently: you need a certificate from an id provider to publish new content to the site.\n\n> I trying to understand how the JavaScript works. I can see what the code is doing, but it looks like some type of backend is do the SQL update statement.  Could the SendMessage function be rewritten to have an SQL update statement?\n\nOnly SELECT command supported, because in  a P2P network you need to sign and verify every users data separately and it would be inefficient to do from database, so we sync the files and then update the database locally based on that data.",
+			"post_id": 99,
+			"date_added": 1483469954
+		},
+		{
+			"comment_id": 156,
+			"body": "> [tester999](#comment_4_1H8fXQf3qMUcEwEP1X2x4SoTWK8wHh4nCW): But where is the \"keyvalue\" table created, and what is it for?\n\nThe keyvalue is an internal table (eg. it stores the version of the tables), usually you don't have to deal with that.",
+			"post_id": 99,
+			"date_added": 1483470046
+		},
+		{
+			"comment_id": 157,
+			"body": "> [tester999](#comment_5_1H8fXQf3qMUcEwEP1X2x4SoTWK8wHh4nCW): I see, what's to stop a malicious user from editing what other people have said; when the malicious user makes an update to the database?\n\nIn directory `data/users/[user's publickey]` directory the files are only modifiable if you have the private key for the [user's publickey]. This way you can only modify your own files.",
+			"post_id": 99,
+			"date_added": 1483471620
+		},
+		{
+			"comment_id": 158,
+			"body": "> [tester999](#comment_6_1H8fXQf3qMUcEwEP1X2x4SoTWK8wHh4nCW): I tried to edit the comment of the other client in the database then post a new comment.  It show up in my web bower, then disappeared are a few messages.  Interesting, is it some type of message signing to prevent tampering?\n\nYou can modify any content on your local client, but you can't publish the modifications if you don't have the private key for the use.\n\n> How would you do an up vote system like in a reddit type site?\n\nZeroTalk has reddit like upvoting (not used for sorting yet, because it does not works well with small amount of users)",
+			"post_id": 99,
+			"date_added": 1483472407
+		},
+		{
+			"comment_id": 159,
+			"body": "> [martinv](#comment_1_18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj): Sorry, I just can't make it work... I copied the mentioned files but there's no change. Should I do something else after doing so...?\n\nits possible that you have to wait 5-10 minute for browser cache, but then it should work",
+			"post_id": 101,
+			"date_added": 1483573779
+		},
+		{
+			"comment_id": 160,
+			"body": "> [tester999](#comment_11_1H8fXQf3qMUcEwEP1X2x4SoTWK8wHh4nCW): OK I get it now, you make changes to the dbschema.json, then click the \"reload\" button, then \"rebuild\" button to rebuild the sqlite database.  What if you wanted to add a SQL view to your database?\n\nI have not tried, but you can add any kind of SQL commands to the \"indexes\" array in the table specification.",
+			"post_id": 99,
+			"date_added": 1484162434
+		},
+		{
+			"comment_id": 161,
+			"body": "> [zerofreedom](#comment_1_1K4VbAenZNLx3J6QFZrzWFw2xoZjBYYPKv): why it is need to stop zeronet ?\n\nThe because the ZeroNet client does not get notified of the file system changes, so the cloning is the preferred way to do it.",
+			"post_id": 3,
+			"date_added": 1484162536
+		},
+		{
+			"comment_id": 162,
+			"body": "> [p2p](#comment_79_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): Cheers！Really want to see what the HUGE opportunity is. When will it be out?\n\nI think I will able to talk about it in some weeks",
+			"post_id": 102,
+			"date_added": 1484314477
+		},
+		{
+			"comment_id": 163,
+			"body": "> [zerohike](#comment_1_1KsAFtVXw11J26nYXadRBZ62bgZ7BG7YfK): How to clone ?\n\n[Press the 3dot menu at ZeroBlog > Clone](/?Post:3:How+to+have+a+blog+like+this)",
+			"post_id": 102,
+			"date_added": 1484573698
+		},
+		{
+			"comment_id": 164,
+			"body": "> [zerohike](#comment_2_1KsAFtVXw11J26nYXadRBZ62bgZ7BG7YfK): how to login the blog？\n\nJust hover the text you want to edit, press the pencil icon",
+			"post_id": 102,
+			"date_added": 1484573985
+		},
+		{
+			"comment_id": 165,
+			"body": "> [kai0](#comment_1_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): I clone a zeroblog but don't have any connect. what can I do?\n\nProbably because noone visited your site. Try posting it to ZeroMe or 0list site with some description of your content.",
+			"post_id": 102,
+			"date_added": 1484584544
+		},
+		{
+			"comment_id": 166,
+			"body": "> [kai0](#comment_2_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): I use another computer tried, can't connect it. because don't have any node even can't publish it.\n\nProbably then you don't have opened port or tor available on both of the machines.",
+			"post_id": 102,
+			"date_added": 1484584990
+		},
+		{
+			"comment_id": 167,
+			"body": "> [kai0](#comment_3_1EZTWytasXcKdiUFnN4KHqAfvg1nwkTkKv): yes, I didn't open port, because other site have many connect. I try it. thank you. but open port many people don't know how to do in China, are there any simple way?\n\nRunning Tor on both client should also work.",
+			"post_id": 102,
+			"date_added": 1484587039
+		},
+		{
+			"comment_id": 168,
+			"body": "> [sidorex](#comment_3_1FaczRFzXxx1e9UmeuMRiySoi7vHX2SwZT): what about zeromail? how does it differ from real bitmessage?\n\nWorks similarly, but it's more like a demo of the possibilities of the network, since it's just a normal ZeroNet site that anyone can create.",
+			"post_id": 102,
+			"date_added": 1485187274
+		},
+		{
+			"comment_id": 169,
+			"body": "> [sidorex](#comment_4_1FaczRFzXxx1e9UmeuMRiySoi7vHX2SwZT): but is it as secure as bitmessage against nsa?\n\nNo idea, since I don't know what tools NSA exactly has",
+			"post_id": 102,
+			"date_added": 1485206693
+		},
+		{
+			"comment_id": 170,
+			"body": "> [p2p](#comment_81_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): I request creating a ZeroNet-kivy repo \n\nGreate idea, please submit your code here: https://github.com/HelloZeroNet/ZeroNet-kivy\n",
+			"post_id": 103,
+			"date_added": 1485447505
+		},
+		{
+			"comment_id": 171,
+			"body": "> [p2p](#comment_82_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): THX！I am not familiar with github\n\n- click on Fork (topright button)\n- Upload files button\n- New pull request\n\n",
+			"post_id": 103,
+			"date_added": 1485541862
+		},
+		{
+			"comment_id": 172,
+			"body": "> [p2p](#comment_84_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): @Nofish: THX! Did you forget to sign & publish the newest code to ZeroMe?\n\nNot sure, please check now.",
+			"post_id": 104,
+			"date_added": 1486666060
+		},
+		{
+			"comment_id": 173,
+			"body": "> [martinv](#comment_5_18cSYDgTfMB255SDgQM9EuoyWu78MhWfNj): Um... I try to mute a user un ZeroMe but I don't see anything happening. Maybe it's me, I think I should refresh my ZN install...\n\nI just did a bugfix, please update and try again.",
+			"post_id": 104,
+			"date_added": 1486683752
+		},
+		{
+			"comment_id": 174,
+			"body": "> [60](#comment_1_1Ekf2tGQLhG3iifFsuUk9RcBPx26cQmCD1): @nofish: what happens if i mute myself?\n\nNothing special, you won't see your own comments",
+			"post_id": 104,
+			"date_added": 1486688810
+		},
+		{
+			"comment_id": 175,
+			"body": "> [antyhrabia](#comment_2_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD): How on this new Windows exe version Zeronet use command like:\"../Python/python\" zeronet.py siteSign if there is no python folder?\n\nYou have to go to the lib directory, then `ZeroNet.cmd siteSign yoursiteaddress` or you can use the sidebar at your site (drag the top-right 0 button to left)",
+			"post_id": 103,
+			"date_added": 1486923464
+		},
+		{
+			"comment_id": 176,
+			"body": "> [antyhrabia](#comment_3_1L5rGDgTs4W2V7gekSvJNhKa7XaHkVwotD): Thanks! So if I pull out sidebar and from Content publishing choose content.json and then click on Sign and then on Publish, this is the same as if i do command ZeroNet.cmd siteSign yoursiteaddress?\n\nYes, it's the same!",
+			"post_id": 103,
+			"date_added": 1486930027
+		},
+		{
+			"comment_id": 177,
+			"body": "> [z9](#comment_1_16ofQbVsaTA7oEwtmY5xh9CAQU6P1bzLbS): Is it not possible to enable only certain character sets by submitting ?\n\nYou can implement that kind of filter in javascript.",
+			"post_id": 104,
+			"date_added": 1487074654
+		},
+		{
+			"comment_id": 178,
+			"body": "> [twiggy](#comment_1_1BRSETd8x5XUtHt9jz2e4WdB9rWY1WNfiu): Stupid Question - Can ZeroNet be used with any browser? I was thinking about trying out seamonkey http://www.seamonkey-project.org/\n\nIf it support modern features (websocket, sandboxed iframe), then it should work.",
+			"post_id": 104,
+			"date_added": 1487847181
+		},
+		{
+			"comment_id": 179,
+			"body": "> [up4](#comment_3_1BLPKyrF2D4ertte6JnAa6oWAMYzZGwKQz): you recommend 7-zip but LZMA (7z, tar.xz) archives are not supported yet?\n\nMany .zip and .tar compressors have problems with utf-8 filenames, so if you want to use that feature, then I recommend 7-zip, that I personally tested.\nPython 2 only supports zip, tar.gz and bz2 out of the box. (some ppl reported bz2 compatibility issues on Android and Windows, so it's disabled atm.)",
+			"post_id": 105,
+			"date_added": 1488204351
+		},
+		{
+			"comment_id": 180,
+			"body": "> [p2p](#comment_87_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ):\n> Also, we need to add support for zite owner to archive many inactive users' files into zip, because zites are getting bigger and containing more and more small files ( 5000+ for ZeroMe user registry hub, 2000+ for ZeroTalk/NewGFWTalk/popular hubs) which makes new ZeroNet users' initial zite download very slow and results in bad new users' experience.\n\nYeah archiving is still an unsolved question. As workaround to the many files problem it can be possible to store files in a single sqlite or other, simple key-value database file.",
+			"post_id": 105,
+			"date_added": 1488273239
+		},
+		{
+			"comment_id": 181,
+			"body": "> [p2p](#comment_89_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): What about https://github.com/PyFilesystem/pyfilesystem2 which only requires pure-python dependencies? It supports ZipFS and TarFS, filesystem in an archive file!\n\n\nFrom the docs:\n> If you open the ZipFS with ``write`` set to ``True``, then the ZipFS will be a empty temporary filesystem. Any files / directories you create in the ZipFS will be written in to a zip file when the ZipFS is closed.\n\nSo basically it's unpacks to a temp directory, then re-pack when you close it.",
+			"post_id": 105,
+			"date_added": 1488282144
+		},
+		{
+			"comment_id": 182,
+			"body": "> [p2p](#comment_91_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): The same APK installation with only ZeroMe hubs and ZeroTalk downloaded, size report comparison shot by @Yinyue:\n\nI will test if zip/sqlite/bsddb suitable for this. I did some similar benchmarks last year: https://github.com/HelloZeroNet/ZeroNet/issues/463#issuecomment-220978182",
+			"post_id": 105,
+			"date_added": 1488363359
+		},
+		{
+			"comment_id": 183,
+			"body": "> [p2p](#comment_92_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): So IMO, we may just avoid writing to zip/sqlite/bsddb. As I said before, we can do this via simple strategy:\n\nSounds like a good idea, I need some more time to thing about it, but sounds doable. I just did a quick test compressing ZeroTalk user files:\n- Raw, separate files: 7.6MB\n- tar: 12MB (hm)\n- zip: 4.8MB\n- tar.gz: 3.1MB\n- tar.bz2: 2.4MB\n- tar.zstandard: 2.1MB\n- tar.brotli: 2.0MB\n- tar.xz: 1.9MB",
+			"post_id": 105,
+			"date_added": 1488366822
+		},
+		{
+			"comment_id": 184,
+			"body": "I have created a quick benchmark on reading large amount of files from packed files (4700 user files from ZeroTalk):\n```\n|         | Intel i5 | Chip  |\n|---------|----------|-------|\n| Raw     | 0.51s    | 1.74s |\n| Tar.gz  | 0.47     | 6.99s |\n| Tar.bz2 | 4.5      | 82.3s |\n| Zip     | 0.38     | 4.03s |\n```\n\nTar.gz and Zip is pretty fast (faster than reading raw files on i5), but reading bz2 is very slow. Probably it would be good idea in the future to use brotli, that offers near gzip decompression speed, but better compression ratio, than bz2\n\nI have added more info and problems here: https://github.com/HelloZeroNet/ZeroNet/issues/98#issuecomment-283525022",
+			"post_id": 105,
+			"date_added": 1488416967
+		},
+		{
+			"comment_id": 185,
+			"body": "> [p2p](#comment_94_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): I don't think we have problem 1 you said in /issues/98 if we do it via strategy I said.Zite owner archives users' files into 11.zip 12.zip ... 1A.zip 1B.zip ... 1Z.zip by the user addresses rather than by time-stamped zip. \n\nI think time stamping would be much better, because \n - If we store it by user address, then every month we have to re-transfer every data\n - Addng it as optional file it can be progressive: If the user only interested in last 1 year comments and topics, then he/she only download that archive files. (with some smart data indexing script it can be also possible to add a marker at the bottom of a topic that say: \"There is more comments on this topic, do you want to download archive file of 2016-12-12?\")\n\n> If an archived user starts posting again, we writes his/her whole file outside the zip.\n\nIt's also not really future-proof, because after years you will end up users with data.json over lots of MB and you have to download the archive files before commenting.\n\n",
+			"post_id": 105,
+			"date_added": 1488445488
+		},
+		{
+			"comment_id": 186,
+			"body": "> [p2p](#comment_95_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): \n> My question to Solution 2:Why needs modification in every site code? What is so-called re-index the db? And why?\n\nNeeds more research and testing on this, but not every database queries prepared that same user data is stored in different files.",
+			"post_id": 105,
+			"date_added": 1488451332
+		},
+		{
+			"comment_id": 187,
+			"body": "> [p2p](#comment_96_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): JS makes db queries, and the back-end (ZeroNet python) responds the results, right? If the back-end supports reading from different json and build them into db, it is OK, isn't it?\n\nThe database structure will be different this way, so the some old queries will not work. Maybe it's even need to change the structure of the json files, we will see.",
+			"post_id": 105,
+			"date_added": 1488480870
+		},
+		{
+			"comment_id": 189,
+			"body": "> [jayofthezero](#comment_4_16nArdxrSaNThNp83kL8E6NLL9WD98iUne): \n\nThanks for the ideas. \n\n> PS: How long would we have to wait to see your talk online? Or would it be better to just see it in a Cinema?\n\nIt's up for the TED organizers. They only publishes 10-20 videos every week (chosen not only from TED, but also from third-party TEDx conferences)\nUnfortunately around 50% of the talks never reaches the Internet, so it has to be really good.",
+			"post_id": 107,
+			"date_added": 1489111216
+		},
+		{
+			"comment_id": 190,
+			"body": "> [p2p](#comment_97_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ):Is it the HUGE opportunity you mentioned here?\n\nYes, this is it. (There is an another big opportunity, that currently emerging beside of this)",
+			"post_id": 107,
+			"date_added": 1489111676
+		},
+		{
+			"comment_id": 191,
+			"body": "> [jayofthezero](#comment_5_16nArdxrSaNThNp83kL8E6NLL9WD98iUne): Ugh, I'd be willing to pay for the Cinema event($20 mind you) if I could get a guarantee of you being shown. \n\nI think my only chance is the \"Highlights Exclusive\" event. I will create a new post if I have any more information.\n\n> [p2p](#comment_98_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): 18 minute talk? I want to confirm the time your talk lasts.\n\nIt's still undecided, it's between 10 and 18 minutes. I will go for a rehearsal to New York at end of this month and they will give more information there.",
+			"post_id": 107,
+			"date_added": 1489112172
+		},
+		{
+			"comment_id": 192,
+			"body": "> [p2p](#comment_99_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): Oh, not much time left. We need to do well in the rehearsal.\n\nDon't need to worry, actually I have a (I think a pretty good) script ready, but I'm open for new ideas and stories.",
+			"post_id": 107,
+			"date_added": 1489112878
+		},
+		{
+			"comment_id": 193,
+			"body": "> [p2p](#comment_103_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): IMO we should not talk too much about why decentralization, we should talk more about ZeroNet itself in limited 18 min. \n\nMy current script is more about the problem, why is it important for everyone and how does ZeroNet solves it, because TED is not a tech conference, but about ideas and just showing a relatively good looking application without emotions is not powerful enough.",
+			"post_id": 107,
+			"date_added": 1489157789
+		},
+		{
+			"comment_id": 194,
+			"body": "> [reezer](#comment_1_1PrNkDUXJoj6hHGNbwCBKcQ7rb5VeEF17a): Why is there no GitHub tag and no release on GitHub releases?\n\nI usually wait some week before tagging the version to wait some bug reports, but yeah, it should be ok now...just tagged.",
+			"post_id": 105,
+			"date_added": 1489605835
+		},
+		{
+			"comment_id": 195,
+			"body": "Thanks for all the suggestions, I really helped. I'm going to present my talk for organizers on Tuesday in New York. (if anyone around there and want to have a beer/coffee drop me an email: tamas@zeronet.io) \nThis going the be the first rehearsal, so I hope they will like it :)",
+			"post_id": 107,
+			"date_added": 1489955652
+		},
+		{
+			"comment_id": 196,
+			"body": "I'm just arrived back to Hungary without any problems :)\nThe rehearsal went well, but they want it more focused on censorship with real-life examples. Please let me know if you know any.",
+			"post_id": 107,
+			"date_added": 1490713216
+		},
+		{
+			"comment_id": 197,
+			"body": "> What comes to my mind are blockages of social media during the Arab Spring and in Turkey. China and the Great Firewall - I mean where else are Chinese users able to mingle with other nations on the web? \n\nThanks for the suggestion I need to look for a specific, well documented (news sites links) case.\n\n> [border0464fred](#comment_17_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): Can we see your ted ? (even if it's on a shaking cellphone)\n\nThe conference will be at end of April, this was only an internal rehearsal.",
+			"post_id": 107,
+			"date_added": 1490728270
+		},
+		{
+			"comment_id": 198,
+			"body": "> [mynameislegion](#comment_2_1NAaF8VitwKSPo79RzJFhqz14gndmdWcGV): A specific case where ZeroNet was used to circumvent censorship or a case of censorship where ZeroNet could have been the solution? I think the former is difficult as it is not so well known as TOR (yet).\n\n\"Could have been\" is enough, currently using these examples:\n- For \"censorship by DDOS\": https://www.theregister.co.uk/2016/09/26/brian_krebs_site_ddos_was_powered_by_hacked_internet_of_things_botnet/\n- For \"censorship by company\": https://www.theguardian.com/books/2016/jul/14/dennis-cooper-google-censorship-dc-blog",
+			"post_id": 107,
+			"date_added": 1490731569
+		},
+		{
+			"comment_id": 199,
+			"body": "> [185185](#comment_8_1EZzNxPxXMSXmEMwJSU3U8jcgjfdAeyTfr): where is your conference TED, nofish?where the video TED of your conference TED, nofish??\n\nIt will be in Vancouver, Canada at Tuesday, April 25, 8:30AM - 10:15AM PDT",
+			"post_id": 107,
+			"date_added": 1490780499
+		},
+		{
+			"comment_id": 200,
+			"body": "> [185185](#comment_9_1EZzNxPxXMSXmEMwJSU3U8jcgjfdAeyTfr): and the video available? if not when???\n\nIt's up to the organizers, it can be weeks or months after the talk.",
+			"post_id": 107,
+			"date_added": 1490791211
+		},
+		{
+			"comment_id": 201,
+			"body": "> [chocodum](#comment_1_1G9ZbF3XS9GKP1fvsrPhTUcSG1UTRR6azM): I live in Vancouver, BC! Can we hang out, or grab a drink or something while you're here? This is so cool!\n\nSure I would be happy to meet someone local :)\nUnfortunately my talk was cancelled, but I will there as a visitor until May 2. Please drop me an email to tamas@zeronet.io so we can find out when and where.",
+			"post_id": 107,
+			"date_added": 1491343351
+		},
+		{
+			"comment_id": 202,
+			"body": "> [cablecat](#comment_1_1HxiFjyEUfLeqvXza7TqV1h4mpo167JnrL): Does the mannal method work for window OS? I have installed python on my PC.\n\nFor windows users you have to use ZeroNet.cmd in the lib directory, so: `lib\\zeronet.cmd siteSign [yoursiteaddress] --inner_path data/users/content.json`\n",
+			"post_id": 3,
+			"date_added": 1491942866
+		},
+		{
+			"comment_id": 203,
+			"body": "> [p2p](#comment_113_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): test.tar.bz2 is not deleted.\n\nThanks fixed!\n\n> [villoldo](#comment_2_16nZf7G4qaYRtFpHM9MM1A32nV5oqU9TW1): Cool. I haven't updated my blog for months. Do I still have to do it manually? As described somewhere, I can't remember where.\n\nYeah atm you have to [do it manually](/?Post:100:Easy+post+formatting#updating-you-existing-blog)",
+			"post_id": 108,
+			"date_added": 1492163694
+		},
+		{
+			"comment_id": 204,
+			"body": "> [p2p](#comment_114_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): http://127.0.0.1:43110/BenchmarkOn android, both zip and gz pack are slow, but both zip and gz unpack are faster than PC!\n\nThat's fine, since the unpack speed is more important (actually we don't pack anything yet)",
+			"post_id": 108,
+			"date_added": 1492166252
+		},
+		{
+			"comment_id": 205,
+			"body": "> [sickgamer2](#comment_2_1LExHAGduhvTgxYjDCJT6rMYi2zAuuWDju): the new version only change the performance?\n\nYes, you can read the changelog in the blogpost",
+			"post_id": 108,
+			"date_added": 1492168840
+		},
+		{
+			"comment_id": 206,
+			"body": "> [zerov](#comment_1_12vBdBR26eDMHdVCUpr9Uuaf3ofJ91j1qG): yet update for my personal PC. Is it updated automatically or manually download form the website?\n\nYou click on the \"NEW ZERONET VERSION: 0.5.4\" link on ZeroHello, then choose \"Update and restart ZeroNet\"",
+			"post_id": 108,
+			"date_added": 1492177779
+		},
+		{
+			"comment_id": 207,
+			"body": "> [voland](#comment_4_1ED5kEHUideKw92Ncess5yJmP4T2J5Aeqn): On github notag, nopackages, norelease? Oh, no good\n\nI usually wait some days before tag it to see if there is any problem with the new features",
+			"post_id": 108,
+			"date_added": 1492180534
+		},
+		{
+			"comment_id": 208,
+			"body": "> [arsenelupin](#comment_5_137PNA5gLgCTLZTBtzUqCmMoZ752NQGQSJ): @nofish would you mind to expand on 'Support optional file database files'?What's the documentation page for that?\n\nYou don't have to do anything special, just mark the file as optional and zeronet will parse it when your client downloads it.\n\nTo initialize download of the optional file use the standard fileGet API command.",
+			"post_id": 108,
+			"date_added": 1492185173
+		},
+		{
+			"comment_id": 209,
+			"body": "> [sickphone](#comment_1_1HvxgPnxu6yB9Ao8AS4zMH4Zo9QLyjGv21): What ils pyasn?\n\nIt's required by RSA (RSA package is used to provide proof-of-ownership for the .onion addresses to prevent some kind of attacks)",
+			"post_id": 108,
+			"date_added": 1492339469
+		},
+		{
+			"comment_id": 210,
+			"body": "> [roylez](#comment_1_13ppBJofkPAM3YbmCPJPxnGsWgUyWvZmsZ): why cant you add a mute button on everywhere the user id display? like in zerotalk thread?\n\nIt's there: hover the comment, click on ⋮ at the topright corner of the post, then choose mute.",
+			"post_id": 104,
+			"date_added": 1494495702
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"56": 1,
+		"60": 1,
+		"64": 1,
+		"65": 1,
+		"66": 1,
+		"67": 1,
+		"68": 1,
+		"69": 1,
+		"70": 1,
+		"71": 1,
+		"78": 1,
+		"79": 1,
+		"80": 1,
+		"83": 1,
+		"84": 1,
+		"88": 1,
+		"89": 1,
+		"94": 1,
+		"96": 1,
+		"97": 1,
+		"98": 1,
+		"99": 1,
+		"100": 1,
+		"102": 1,
+		"103": 1,
+		"104": 1,
+		"105": 1,
+		"108": 1
+	}
+}

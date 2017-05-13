@@ -1,0 +1,39 @@
+{
+	"next_post_id": 3,
+	"next_comment_id": 2,
+	"next_follow_id": 2,
+	"avatar": "jpg",
+	"user_name": "Gooz",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"intro": "Da bin ick from Germany",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1492441592,
+			"body": "Hello ZeroMe!"
+		},
+		{
+			"post_id": 1492443527,
+			"body": "hallo zusammen",
+			"date_added": 1492443525
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "bliubbbb",
+			"post_uri": "12VUe4ibfKex9m8dBRRGi8TvLqxrcedHXw_1492443527",
+			"date_added": 1492444314
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "12VUe4ibfKex9m8dBRRGi8TvLqxrcedHXw",
+			"user_name": "Gooz",
+			"date_added": 1492441799
+		}
+	]
+}

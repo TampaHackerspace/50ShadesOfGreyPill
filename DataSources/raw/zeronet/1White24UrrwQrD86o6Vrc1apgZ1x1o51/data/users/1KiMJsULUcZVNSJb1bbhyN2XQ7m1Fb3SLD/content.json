@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G0+s7RopHGNzgUK1xndf7xxGa8uwRApEnghpcLcUvq589M3KMUSTQ8FKQ/J56SEaKkQANpGAq641kD7QQYc7g+M=",
+ "cert_user_id": "dogs@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "cf0987882c72267bca01c75a2bd74ca4cf88c4b81669c15cc232318cb02259ed",
+   "size": 320
+  }
+ },
+ "inner_path": "data/users/1KiMJsULUcZVNSJb1bbhyN2XQ7m1Fb3SLD/content.json",
+ "modified": 1491688934,
+ "signs": {
+  "1KiMJsULUcZVNSJb1bbhyN2XQ7m1Fb3SLD": "HMwJRKoMzMjrpTdlln5mF3GWqfMTaCMKQFC2iU5EAfHRATQ3jFZcQgx1KiiKbTDugRRkFJbtn9vEiEjA7zNoCPI="
+ }
+}

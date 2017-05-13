@@ -1,0 +1,36 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HKBwCYC2zt/3y1vjWK7WgE0T1hO8hDmYR4uu7NYQUyZn3bWtlPLeUWr/674BNygU7VEuaINQPwqrMvD+F/rP4/g=",
+ "cert_user_id": "emondae@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "9794d12f0dd3eeef111e22f03f5c98c514a38d3c59555df53a132fdc316706b3",
+   "size": 1290
+  },
+  "data.json": {
+   "sha512": "10dad982b610e0c5ef6638213850773357669c2b6e43d6adc71443f8bbdc6bfe",
+   "size": 5257
+  }
+ },
+ "files_optional": {
+  "1492007843.jpg": {
+   "sha512": "cd88948d6e895b91f731fce28e1a1421db1e7e6c803042e482beccd2f251842a",
+   "size": 39525
+  },
+  "1492479615.jpg": {
+   "sha512": "9afa4a80b4c629bb4c65f2deddda9447b5392e28aded106e0a4a3785d7949f71",
+   "size": 70401
+  },
+  "1492548941.jpg": {
+   "sha512": "d81ed7ff30bddbe57f020f0c0f4fe00f9af141b3c0345e42f5ab0abc65f19f5b",
+   "size": 71439
+  }
+ },
+ "inner_path": "data/users/1HEX5jpVUwbALLv6pHAPhM5VnMD1AEo78n/content.json",
+ "modified": 1492705524,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1HEX5jpVUwbALLv6pHAPhM5VnMD1AEo78n": "HEx90+HLimxN7mwfC6E31dCvdSjMA+adAPhZts3Q9QD0X0EhlV8ZGwPUXKRq2WXk9XZKtmyb7B2Ub+VoTGv5CyU="
+ }
+}

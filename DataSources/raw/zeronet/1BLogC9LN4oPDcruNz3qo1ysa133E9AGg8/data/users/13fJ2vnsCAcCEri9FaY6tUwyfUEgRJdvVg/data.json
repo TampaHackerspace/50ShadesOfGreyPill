@@ -1,0 +1,13 @@
+{
+	"next_comment_id": 2,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Someone should update the Docs?\n\".. in index.html file to automatically compile and merge all .coffee file within the js directory to a single all.js file.\"\nIt does NOT automatically compile and merge. \n\n\"GET http://127.0.0.1:43110/xxxxxx/js/all.js 404 (Not Found)\"\n\nAlso .. compile by myself:\ncat ZeroChat.coffee lib/ZeroFrame.coffee | coffee --compile --stdio >./all.js\n\"all.js:5 Uncaught TypeError: Cannot read property 'prototype' of undefined\"\n\nDid someone work on this site, or whats going on here?\n",
+			"post_id": 43,
+			"date_added": 1465021217
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

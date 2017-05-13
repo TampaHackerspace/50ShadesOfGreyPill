@@ -1,0 +1,15 @@
+{
+ "cert_auth_type": "web", 
+ "cert_sign": "G9huQGvzTePq+/3f4jisQWITQ2Djsjq7OL7S4cWY5Gb0C0YbSABVHLiyBWaK6QDIIwtkztWkD86VNYudMP/ovQ0=", 
+ "cert_user_id": "heathenman@zeroid.bit", 
+ "files": {
+  "data.json": {
+   "sha512": "56ef7516c266d27628f8c49fd6217893ba6ed00903a3c735abbbb0e9df4a2e5c", 
+   "size": 779
+  }
+ }, 
+ "modified": 1451156673.635717, 
+ "signs": {
+  "16dVbybDseQBQnxdJDuQhCzYAij8iR8YEc": "HKlUyyxnCg0fRA6lEZuq4R9OXoxIVaG0QHrMMoprYP0l0yZAREqDnnL37DneQNb+M6nZ4FDdpvm+3CXZgdFf49M="
+ }
+}

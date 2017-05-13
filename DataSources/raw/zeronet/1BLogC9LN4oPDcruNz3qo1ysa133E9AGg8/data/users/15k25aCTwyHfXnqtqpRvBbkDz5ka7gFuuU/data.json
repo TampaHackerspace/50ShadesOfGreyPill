@@ -1,0 +1,13 @@
+{
+	"next_comment_id": 2,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "The html for the send button wasn't working for me.\nThis is taken from the finished site and should work if any of you run into the same issue.\n\n<input id=\"send\" value=\"Send!\" onclick=\"return Page.sendMessage()\" type=\"button\">",
+			"post_id": 46,
+			"date_added": 1467121055
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

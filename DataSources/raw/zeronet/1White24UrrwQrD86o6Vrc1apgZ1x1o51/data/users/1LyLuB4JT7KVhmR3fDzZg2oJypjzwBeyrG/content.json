@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HEX+ik+jSF4+VcmNTx9olqVTQCzemzQzIBqP6UkLvpwfmQflMaKtHv1YOqusc0yQBJBZtYnYJHp/iP34jE/hwBE=",
+ "cert_user_id": "animetorrent@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "3bc1ed01a0914571762384d5ffb777fe3ad17938cf5ac6984c2d3fe59eccb578",
+   "size": 343
+  }
+ },
+ "inner_path": "data/users/1LyLuB4JT7KVhmR3fDzZg2oJypjzwBeyrG/content.json",
+ "modified": 1493980499,
+ "signs": {
+  "1LyLuB4JT7KVhmR3fDzZg2oJypjzwBeyrG": "HEaHbykZaQvBf7CScfiJBHh53yH+Kt9XmjrgahOjsj7+EUoseEulsq58Rm+7OdZ2LhQ+8qvQfb1xsBTK2c0rgBI="
+ }
+}

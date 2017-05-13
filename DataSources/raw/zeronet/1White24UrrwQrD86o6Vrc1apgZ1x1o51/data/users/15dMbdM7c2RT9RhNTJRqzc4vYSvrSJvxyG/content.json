@@ -1,0 +1,44 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HOMB8lGQ2n+OfcGvDEVeh8Nuq/WF3j6CLUf6gki73uClWdMgARNfLc21DEg7zza3K/Ubg9mi5zB2KUPsGEcsSLc=",
+ "cert_user_id": "redstoneb@zeroid.bit",
+ "files": {
+  "avatar.png": {
+   "sha512": "d24cdf8a0e5ce10b354ca12ad9ede6fc809ae5083dbdfb540e4b1baabca2ee10",
+   "size": 1509
+  },
+  "data.json": {
+   "sha512": "ee3f39dcbc23f81ef1ebf7e2e93523ce0f9b0bb32c9ac5f45581061fb475a501",
+   "size": 6048
+  }
+ },
+ "files_optional": {
+  "1492439827.jpg": {
+   "sha512": "14b6a60c9a14a0e18f14d5a0bd39566beaab749c1a31744908a6fd807bae9d64",
+   "size": 35266
+  },
+  "1492517221.jpg": {
+   "sha512": "984ebcf1c2419e21143d7f79bdb0b6b389d1cd3464af79e50ac0435d71875b19",
+   "size": 26079
+  },
+  "1493725691.jpg": {
+   "sha512": "7bd202fa4cdc761988c47aea0ece062cc82d3ba42cfef731bf7dfe1fc23ada9c",
+   "size": 32710
+  },
+  "1493725703.jpg": {
+   "sha512": "0f9d9214c7812865bddd3195defc95f8e49f30b7fff8237cc9660130ff880297",
+   "size": 37324
+  },
+  "1493725973.jpg": {
+   "sha512": "6cdea3b7696ff8f100c257821374d42d11b177fb1cb7aa6ad39f105dc9657bb9",
+   "size": 43765
+  }
+ },
+ "inner_path": "data/users/15dMbdM7c2RT9RhNTJRqzc4vYSvrSJvxyG/content.json",
+ "modified": 1494119244,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "15dMbdM7c2RT9RhNTJRqzc4vYSvrSJvxyG": "HHC0McVE3ziJDizTFhCe8JIQ59hkQelnOQXIRHVbCbfkfVJR9W3vx4a11OM7z6j1zgkayQnM45O6k+8bQtTkHvo="
+ }
+}

@@ -1,0 +1,25 @@
+{
+	"next_comment_id": 4,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "You might be able to get around the Great Firewall of China by using https://getlantern.org/.",
+			"post_id": 80,
+			"date_added": 1460406397
+		},
+		{
+			"comment_id": 2,
+			"body": "I am having trouble opening port 15441, despite port forwarding, turning off the router firewall, putting my computer on DMZ mode, and so on, so I make no promises that this will work, but you may be able to download Lantern from me using this address: http://127.0.0.1:43110/17EcoSLuGdJKWrKnBDN1qVsyxN2dZqtJQL/\n\nPlease let me know if it works, because I am genuinely curious.",
+			"post_id": 80,
+			"date_added": 1460414295
+		},
+		{
+			"comment_id": 3,
+			"body": "@tjalvarez,\n\nIt's a Linksys DIR-655 (as old as dirt). I just checked for firmware updates and found a version several years ahead of the one installed lol. When my family is awake, I will try upgrading the firmware and see if I can get my port issue resolved. \n\nAs for my NetZero site, I am glad to hear that you can at least open up index.html. That is more connectivity than I got with the lead programmer of ZeroNet.\n\n@p2p,\n\nDoh! I'm glad you pointed that out, because I didn't catch it: no hash address. That was the root cause of the problem I pointed out at https://github.com/HelloZeroNet/ZeroNet/issues/415. I have fixed the links, signed, and published the change. Hopefully it should now be possible for others to download the files.\n\n@everyone,\n\nI have just now filed a bug report about making an automated system that creates a torrent of the latest release of ZeroNet and then publishes that torrent to various torrenting websites, which should make it easier for people in firewalled countries to download ZeroNet. You can find that bug report here: https://github.com/HelloZeroNet/ZeroNet/issues/416",
+			"post_id": 80,
+			"date_added": 1460451067
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

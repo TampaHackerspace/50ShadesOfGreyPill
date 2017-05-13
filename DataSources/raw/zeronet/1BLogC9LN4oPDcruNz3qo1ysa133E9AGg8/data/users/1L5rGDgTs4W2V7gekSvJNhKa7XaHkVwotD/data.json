@@ -1,0 +1,31 @@
+{
+	"next_comment_id": 4,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "If I want update cloned blog I must:\n- Copy and overwrite every file and directory from data/1BLogC9LN... to data/mysiteaddress except \"data\" directory and \"content.json\"\n- Sign + Publish my blog using the sidebar\n\nHow about cloned forum?",
+			"post_id": 81,
+			"date_added": 1460982976
+		},
+		{
+			"comment_id": 2,
+			"body": "How on this new Windows exe version Zeronet use command like:\n```\"../Python/python\" zeronet.py siteSign``` if there is no python folder?",
+			"post_id": 103,
+			"date_added": 1486922489
+		},
+		{
+			"comment_id": 3,
+			"body": "> [nofish](#comment_175_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): You have to go to the lib directory, then ZeroNet.cmd siteSign yoursiteaddress or you can use the sidebar at your site (drag the top-right 0 button to left)\n\nThanks! So if I pull out sidebar and from Content publishing choose content.json and then click on Sign and then on Publish, this is the same as if i do command ```ZeroNet.cmd siteSign yoursiteaddress```? Thats great, thanks!",
+			"post_id": 103,
+			"date_added": 1486926343
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"77": 1,
+		"81": 1,
+		"82": 1,
+		"91": 1,
+		"92": 1
+	}
+}

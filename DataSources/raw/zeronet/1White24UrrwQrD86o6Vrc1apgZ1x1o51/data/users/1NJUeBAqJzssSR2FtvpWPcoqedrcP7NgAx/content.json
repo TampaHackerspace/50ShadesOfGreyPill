@@ -1,0 +1,24 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HLBYVoznwC23VfgYJE3xY2RDl/6SytvuHy2L0nY/Hh6B687JQksp4Sh28Xi499eZYMfmMEf7ZSz5ulwng3KhobE=",
+ "cert_user_id": "twitch919nc@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "3705b38f2c25042dbad10a49973e84d65c389515a0f9990ec602884bf7d3f2a8",
+   "size": 561
+  }
+ },
+ "files_optional": {
+  "1493986618.jpg": {
+   "sha512": "84cf76477032b7933420b587fcfd652abbd7fabafa3523806943f7ff8bfc65c2",
+   "size": 99521
+  }
+ },
+ "inner_path": "data/users/1NJUeBAqJzssSR2FtvpWPcoqedrcP7NgAx/content.json",
+ "modified": 1493986616,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1NJUeBAqJzssSR2FtvpWPcoqedrcP7NgAx": "G0sXH85seZ5f0sEqq66EHkgSMqKAwQ/5+ul5PvPX7GBZPJYOUM9U3I7j8Qu08S+/DxO6LOr7WO/X/uuHMpF6Dlc="
+ }
+}

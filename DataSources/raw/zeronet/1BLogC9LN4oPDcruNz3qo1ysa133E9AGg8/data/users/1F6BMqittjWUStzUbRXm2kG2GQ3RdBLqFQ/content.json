@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HNJ10ILvVT82WZ17oP2iChu0tJ9TWIUH4V9300pdeImb8aWWkw4AdOILLEdDsublVKNYXx1Bm5fxsHRMmlFqY6A=",
+ "cert_user_id": "gomzik@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "c1805f48e81c1f5795d21cfb4ab0d787d698d1a937964da5ba137afc059e4d62",
+   "size": 654
+  }
+ },
+ "inner_path": "data/users/1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ/content.json",
+ "modified": 1469889912.146761,
+ "signs": {
+  "1F6BMqittjWUStzUbRXm2kG2GQ3RdBLqFQ": "HJCWlAVkKK2RKQDSOEiZjqsfVP4iZOh88NRKM9rvomLQx2b09CqarSwZyRZAxQk8rWsbyuIfJEwWlR5xJvDJZuc="
+ }
+}

@@ -1,0 +1,53 @@
+{
+	"next_post_id": 2,
+	"next_comment_id": 4,
+	"next_follow_id": 3,
+	"avatar": "generate",
+	"user_name": "Cybermax",
+	"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+	"intro": "Random ZeroNet user",
+	"post": [
+		{
+			"post_id": 1,
+			"date_added": 1494483474,
+			"body": "Hello ZeroMe!"
+		}
+	],
+	"post_like": {},
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Just joined.  Where's all the action these days?",
+			"post_uri": "1CgJUqxQJEHM47hRvboY8cL65GqtWWWf9_1",
+			"date_added": 1494483500
+		},
+		{
+			"comment_id": 2,
+			"body": "The GUI for this site is lame.  Needs a functional dashboard.  Where to now?",
+			"post_uri": "1MrJZWafpF1fKyPRu5bvSocnpcn9pwvnaa_1",
+			"date_added": 1494483570
+		},
+		{
+			"comment_id": 3,
+			"body": "I'm getting nowhere!  Every site I try to join it says Please use ZeroMe to browse profiles.",
+			"post_uri": "1CgJUqxQJEHM47hRvboY8cL65GqtWWWf9_1",
+			"date_added": 1494484859
+		}
+	],
+	"follow": [
+		{
+			"follow_id": 1,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "1CgJUqxQJEHM47hRvboY8cL65GqtWWWf9",
+			"user_name": "Lillian",
+			"date_added": 1494483486
+		},
+		{
+			"follow_id": 2,
+			"hub": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+			"auth_address": "1MrJZWafpF1fKyPRu5bvSocnpcn9pwvnaa",
+			"user_name": "Antshare",
+			"date_added": 1494483519
+		}
+	]
+}

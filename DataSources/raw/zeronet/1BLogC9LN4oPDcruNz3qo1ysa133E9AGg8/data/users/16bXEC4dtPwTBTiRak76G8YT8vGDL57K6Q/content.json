@@ -1,0 +1,15 @@
+{
+ "cert_auth_type": "bitmsg", 
+ "cert_sign": "G4UY8lFXtaeweVXsyJ3phBVAuSu2bFEu4B1L6Wa99numVTuNLY4tIYRd1Ew0aXA0bVVyQgxFcDSG7QfFVNe8e6I=", 
+ "cert_user_id": "mepoch@zeroid.bit", 
+ "files": {
+  "data.json": {
+   "sha512": "745d9b76e6ed00cee17321578f3f21960a2dfbfd3198bbc5ead75a3c79b392ab", 
+   "size": 651
+  }
+ }, 
+ "modified": 1444668642.562, 
+ "signs": {
+  "16bXEC4dtPwTBTiRak76G8YT8vGDL57K6Q": "G55Hr5ZBbbvQFiGmax06C2bmF9y4E7euzANtO7tucR3P38eSyQUwN/cmOVb9CMUdjiEQLg1x7Wdt+m/rSbBlrds="
+ }
+}

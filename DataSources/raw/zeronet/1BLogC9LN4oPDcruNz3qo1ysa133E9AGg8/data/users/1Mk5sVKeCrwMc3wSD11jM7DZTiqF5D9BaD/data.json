@@ -1,0 +1,97 @@
+{
+	"next_comment_id": 14,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Another +1 for the top middle logo.",
+			"post_id": 56,
+			"date_added": 1443229351
+		},
+		{
+			"comment_id": 2,
+			"body": "Just to be sure, does this new Tor support replace the command line options \"--proxy 127.0.0.1:9050 --disable_udp\" to use ZeroNet through Tor? So I now only have to use \"--tor always\" to achieve the same?",
+			"post_id": 68,
+			"date_added": 1451978232
+		},
+		{
+			"comment_id": 3,
+			"body": "Congratulations and a huge thank you for developing this, you rock! I can't even imagine what ZeroNet will look like in another year, because I already love it.",
+			"post_id": 70,
+			"date_added": 1454417759
+		},
+		{
+			"comment_id": 4,
+			"body": "The new ZeroHello design looks great. The only thing I'd love to see added is being able to order the list of sites alphabetically, by last update time, and have a search field at the top that lets you filter through the list of sites by typing the first few letters, filtering as you type. But as far as the design goes, wow, just wow :) And the newsfeed is so useful!",
+			"post_id": 71,
+			"date_added": 1454458233
+		},
+		{
+			"comment_id": 5,
+			"body": "Hi, the tutorial is really great, helped me a lot to get started. It's amazing how easy it is to create ZeroNet sites. Just wanted to say while going through the tutorial I noticed that the link to the ZeroFrame.coffee file doesn't work anymore, I guess due to the recent changes made to the HelloZeroNet site, so I used a copy from a different site.",
+			"post_id": 43,
+			"date_added": 1454799155
+		},
+		{
+			"comment_id": 6,
+			"body": "\"order sites by modification date\"\n\"Follow username mentions\"\nIs it Christmas again already? :) Thanks a lot for these!",
+			"post_id": 72,
+			"date_added": 1455111351
+		},
+		{
+			"comment_id": 7,
+			"body": "Regarding merged sites: Does the merger site, the main site, create and \"own\" the profile sites? So that the owner of the main site has admin control over the sub sites it reads data from? If not, then this is really a great system because it makes censorship impossible, everyone \"owns\" his profile and people can choose to follow or not follow you, but nobody can just ban you, can't delete your profile.",
+			"post_id": 73,
+			"date_added": 1456437120
+		},
+		{
+			"comment_id": 8,
+			"body": "> [nofish](#comment_50_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): \n> Other plugin ideas to make it safer\n\nCool, thanks for explaining :) Revision control would be the most convenient solution, since it means the user doesn't have any extra work every time there is a change but instead only if something bad happens.",
+			"post_id": 73,
+			"date_added": 1456440994
+		},
+		{
+			"comment_id": 9,
+			"body": "Nice update! Are the favorites saved in localStorage? Mine were gone after I restarted Tor Browser, which seems to clear localStorage when you close it. Would it be possible to save these kind of settings in a local JSON file instead, which isn't distributed to other users?\n\nI wanted to do that for one of my sites as an optional feature so that local data works without having to mess with Tor Browser settings, but haven't tried if that works yet. Basically my idea was to have the site use a local.json file in the data/users/somehash/ folder in addition to the distributed data.json file and add that local.json file to data/users/content.json under ignore so that it doesn't get distributed to other peers and stays private.",
+			"post_id": 74,
+			"date_added": 1456692265
+		},
+		{
+			"comment_id": 10,
+			"body": "> [eventi](#comment_1_1DcDDitsjFJohvwonPmpibRChmA7uGxqL7): I had to install coffee-script (mac) and compile\n\nIf you start ZeroNet with --debug it should auto compile the CoffeeScript for you, for me it only works if I reload the site I'm working on with the web inspector opened. So open the site, right click somewhere on it, click \"Inspect element\", then reload the page and it should have compiled all files. I also had to disable the cache in the settings of the web inspector to make it work (click on the gear icon and search for something like \"disable cache if inspector is open\")",
+			"post_id": 43,
+			"date_added": 1457180338
+		},
+		{
+			"comment_id": 11,
+			"body": "> [theta](#comment_3_15ymkjUYJS6tjUC35AekGMExZMN6iks8ma): If I want to post images on my blog, do I have to upload them first to a server?\n\nYou can make them part of your ZeroNet site. Go to your blog's directory (YourZeroNetFolder/data/HashAddressOfYourBlog/) and put your images in the data/img folder (you have to create the img folder). Then you can insert them in blog posts like this:\n    ![My cool image](data/img/mycoolimage.png)\n\nTo make this a bit easier for future blog posts, you could always create a link to that folder on your Desktop or somewhere else so you can get there quickly.",
+			"post_id": 3,
+			"date_added": 1457289095
+		},
+		{
+			"comment_id": 12,
+			"body": "> [ks](#comment_3_14TDWFVHuTXNcg8pp6LRr7v9ZcfbFsMSyx): Where is the private key to the site when you have cloned it from the web interface?When I use siteCreate from the CLI, the private and the public keys are both written to the terminal, but I can't seem to find the private key when I have used the webui.\n> Anyone?\n\nNot sure where it gets saved, probably in YourZeroNetFolder/data/users.json, but you don't need to enter it like you need with manually created ZeroNet sites. You can sign content using the ZeroNet sidebar or when you change content using the button in the bottom right of blog site, it won't ask you for the private key.",
+			"post_id": 3,
+			"date_added": 1457388926
+		},
+		{
+			"comment_id": 13,
+			"body": "Updating gave me this error message when ZeroNet tried to automatically restart (on Ubuntu 14.04):\n\n```\nRestarting...\nERROR:-:Unhandled exception\nNone\nTraceback (most recent call last):\n  File \"zeronet.py\", line 61, in <module>\n    if __name__ == '__main__':\n  File \"zeronet.py\", line 52, in main\n    import time\nNameError: global name 'time' is not defined\n```\n\nAfter manually starting ZeroNet again everything seems to work fine though as far as I can tell.\n\nAnd thanks for the update! :)",
+			"post_id": 78,
+			"date_added": 1458809487
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"68": 1,
+		"70": 1,
+		"71": 1,
+		"72": 1,
+		"73": 1,
+		"74": 1,
+		"75": 1,
+		"77": 1,
+		"78": 1,
+		"79": 1,
+		"80": 1
+	}
+}

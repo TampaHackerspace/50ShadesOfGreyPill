@@ -1,0 +1,13 @@
+{
+	"next_comment_id": 2,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "this tutorial doesn't work. I get errors. \n\nzeronet.py siteSign [yoursiteaddress] --publish : Exception: Directory not exists: data/......    though it definitely exists (and yes, I filled in site address correctly)\n\nif I just do : ZeroNet sitePublish it does something, but then when I visit the page: js error: ReferenceError: ZeroFrame is not defined > })(ZeroFrame);\n[I have zerofram.coffee in the js/lib folder]\nDo you need to update the tutorial?\n\n",
+			"post_id": 43,
+			"date_added": 1470694387
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

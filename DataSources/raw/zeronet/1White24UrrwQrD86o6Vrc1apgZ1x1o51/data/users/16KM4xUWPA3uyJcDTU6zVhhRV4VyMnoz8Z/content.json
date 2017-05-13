@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G0zMtBdiEBseT7StoSsU71r05WsJBc2u6iFxpiMhVaiN5CkqNtK3d1aj5J55+ILdYK3TMFVsSCegOftcVL40RTw=",
+ "cert_user_id": "malaclypse@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "25c0167b9aaee52b695806bdd2744fcda161b1812e446d045578d687285e7e49",
+   "size": 1836
+  },
+  "data.json": {
+   "sha512": "ea93cfa4de30b2c3ee8c059376c6c08cc1bbba5f0dc1c8d3a7c567db7da83070",
+   "size": 1441
+  }
+ },
+ "files_optional": {
+  "1492258012.jpg": {
+   "sha512": "2834d3f28ea22977be8d90d96561f6d3bcdb96c0cff3feee36b2976248bd3a0f",
+   "size": 58807
+  }
+ },
+ "inner_path": "data/users/16KM4xUWPA3uyJcDTU6zVhhRV4VyMnoz8Z/content.json",
+ "modified": 1492259268,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "16KM4xUWPA3uyJcDTU6zVhhRV4VyMnoz8Z": "HDXQ7sdiAq5S8p4SaoXUR5SGvtu7Hfp5plQx9Cs4k3/wJgUur7WZXERnYwWDNL6UtKvINwBF8B6GIV9cHcKYyYk="
+ }
+}

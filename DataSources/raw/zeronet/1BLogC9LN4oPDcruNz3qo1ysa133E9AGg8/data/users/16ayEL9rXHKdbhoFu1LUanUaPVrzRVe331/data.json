@@ -1,0 +1,13 @@
+{
+	"next_comment_id": 2,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "For anyone having trouble with the serverInfo appearing and have tried other options, make sure you have the --debug flag enabled when you're running ZeroNet, and that you've checked \"This is my site\" in the sidebar of your site. Also when refreshing the site use Ctrl-Shift-R to clear the cache.\n\nIf it's still not working, and you have a data_dir set in your zeronet.conf file, try # commenting that out, coffee-script has an issue with prepending that line to the filepath of your all.js file in the current zeronet build v1422.",
+			"post_id": 43,
+			"date_added": 1471519741
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

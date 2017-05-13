@@ -1,0 +1,28 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HDpNoeyP8JvLk6cCLxoMB76bFoyW6qn/ZiFuq8GsTgJxoEfdV6387nnC+9LkqwHvYXk2ZmD64aNeHpOe45/yGGY=",
+ "cert_user_id": "livorno1@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "eb8461a2f9c44931f2b65a9f5ee37c62d558ff50846715556df8f2a99ab9c1ac",
+   "size": 1442
+  },
+  "data.json": {
+   "sha512": "a169d2bc80ed1f0fd0477397ffa1463b347794e0dcd7796eb2dc1903c14751e4",
+   "size": 2005
+  }
+ },
+ "files_optional": {
+  "1494480149.jpg": {
+   "sha512": "cf7fdc329d3ac8fb8edbf1278c67bc30bf4ab69069de3df3bb725bdeb275bfcf",
+   "size": 67845
+  }
+ },
+ "inner_path": "data/users/1Emd1xB5rK1t7EYRUaYZbA4KNRFQrWhcMF/content.json",
+ "modified": 1494480375,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1Emd1xB5rK1t7EYRUaYZbA4KNRFQrWhcMF": "HMsZYYjWKdrKoDbaC7xcMTy4DdX/sTzDNQhoFOhBTsuZNbhccIl8CrZEUy/8Qep0izDdRW5y8ly63EwPfTrJ5vQ="
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G2FdEuTvSJTfHol+wwgP1KOYK2B7GuZk7GfVM/CODWtix8WMv1zlRkFiqI6YELinqfW/wW0NOiMpTM5VAnBiQKI=",
+ "cert_user_id": "komodo@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "79a73643f23b30f122a96c3cf32de5aa7cb07946a935df401268393ee765bce8",
+   "size": 337
+  }
+ },
+ "inner_path": "data/users/145SUc2G58BeVCptnEiVcSJqqVUw3XguxN/content.json",
+ "modified": 1492732349,
+ "signs": {
+  "145SUc2G58BeVCptnEiVcSJqqVUw3XguxN": "G1lL9iLRmuHhQLIrW4SnRGILdAMgBRvnociFEupe8/CmGKsrj17LW9VqmfB2a7pxhvNd51P4HzW6GKcFFVyCJn0="
+ }
+}

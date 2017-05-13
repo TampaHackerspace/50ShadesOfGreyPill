@@ -1,0 +1,17 @@
+{
+ "address": "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8",
+ "cert_auth_type": "web",
+ "cert_sign": "HGPTkopjVNOUGX93/pdeW3SwzrXsTiuqQ6MHW+ttAwH7R8HNA58wfHwXSIK/ZgnbC3+S1bVH2DdpvlhJ8oeHQVo=",
+ "cert_user_id": "timetraveler@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "dc49c2a76f1cecd84b88af3e283ee344186cf13a0cd12056dae6da327cfbe4e2",
+   "size": 376
+  }
+ },
+ "inner_path": "data/users/13nHqiYu3U37cbW6hhMTKd9gB9EtsdKXZL/content.json",
+ "modified": 1457358903.123373,
+ "signs": {
+  "13nHqiYu3U37cbW6hhMTKd9gB9EtsdKXZL": "HMGl5tcnLDR6xJdl9zWGsyB1Z8/wOpBiBjBGQCOnKQ9ZyJg7tr9m91Xc/sn4aDWKLIlSP7rhKb/Q9EuaLUQ18mk="
+ }
+}

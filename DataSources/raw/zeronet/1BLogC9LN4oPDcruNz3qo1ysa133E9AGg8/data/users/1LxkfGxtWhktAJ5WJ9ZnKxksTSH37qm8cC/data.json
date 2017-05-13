@@ -1,0 +1,71 @@
+{
+	"next_comment_id": 11,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Recording: https://www.youtube.com/watch?v=haaG7OzMgGU&list=PLLV3ELiwhqldbqe2a_u3ZZhJkHa307NMs&index=6",
+			"post_id": 88,
+			"date_added": 1471329513
+		},
+		{
+			"comment_id": 2,
+			"body": "NoFish's free talk at Steal This Show S02E01: https://stealthisshow.com/s02e01/",
+			"post_id": 90,
+			"date_added": 1472304185
+		},
+		{
+			"comment_id": 3,
+			"body": "Cool and fast.",
+			"post_id": 92,
+			"date_added": 1473125642
+		},
+		{
+			"comment_id": 4,
+			"body": "It is exciting to see yet another very affordable way to use and contribute bandwidth to ZeroNet.",
+			"post_id": 94,
+			"date_added": 1474381917
+		},
+		{
+			"comment_id": 5,
+			"body": "> [oracle](#comment_9_1ED3Ho3kmzaKiECtyuqSjDpoE47rKuXeP): I just updated Zeronet but now I get WebGL not supported when I open any website. Here's a screenshot. http://imgur.com/a/ui1wr\n\nPerhaps your browser does not support WebGL, or you have turned off WebGL. What browser were you using?",
+			"post_id": 97,
+			"date_added": 1480039647
+		},
+		{
+			"comment_id": 6,
+			"body": "> [p2p](#comment_71_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ): I remember you once said it would have security issue to update via ZeroNet network because ZeroNet probably has bugs which result in bad signature/hash check and potential danger of malicious code injecting. How do you avoid it happening this time?My idea is to implement a GPG verify plugin and you publish code.zip with code.sig to 1UPDatEDxnvHDo7TXvq6AEBARfNkyfxsp\n\nThere is also an issue on GitHub that asks nofish to sign releases.",
+			"post_id": 98,
+			"date_added": 1480966790
+		},
+		{
+			"comment_id": 7,
+			"body": "I love decentralization not only because it automatically balances loads and cuts down hosting costs, but also because it resembles the principles of community - sharing and reciprocity.\n\nThe Internet is designed to be interconnected, but in reality we aren't that much interconnected on the Internet. We load our data to some central servers in order to communicate, and let other people worry about our valuables. The traditional, centralized Internet is not only vulnerable to censorship, but also overloaded with the huge amount data we put on it without thinking about our responsibility. ZeroNet's implementation on the other hand makes sure data are being safe-guarded by actively contributing them to the network. Those who are interested readers are also spreading the content they read. According to the official implementation, there are no dedicated leechers or selfish free-riders  and therefore ensures our fulfillment of the responsibility to maintain a sustainable digital community..\n\nI use ZeroNet because it also represents human mutual trust.  ZeroNet uses Bitcoin's state-of-the-art signature algorithm to proof data ownership. ZeroMe's like system presents our trust to certain content and people by co-maintaining a mutually approved signature chain. Seeing trust being presented both mathematically and collectively, I have better confidence perceiving new things.\n\nNevertheless, ZeroNet is a more secure and more flexible means of peer-to-peer communication. I don't use BitTorrent because I can't guarantee the integrity of data other people give to me. It uses deprecated data digest algorithms and does not enforce data ownership via digital signature. I don't use Resilio Sync because it is proprietary and I can't change it to make it work for my will. With ZeroNet's flexible and secure design, I can use and contribute to the Internet with less worries.",
+			"post_id": 107,
+			"date_added": 1489118185
+		},
+		{
+			"comment_id": 8,
+			"body": "Since Richard Stallman has reached you, I strongly recommend you say \"Free open source software\" or \"Libre, open source software\" when you are referring to the software that gives you software freedoms in addition to source code. (It is really a flaw in English language) From RMS perspective you put more emphasis on the freedoms. From a general public perceptive it is less misleading.",
+			"post_id": 107,
+			"date_added": 1489192074
+		},
+		{
+			"comment_id": 9,
+			"body": "> [border0464fred](#comment_16_18XR5C5AxGfD5s2DbCPGuXxVN5oscoLyD6): most of the censorship authorities atm are playing a cat and mouse game with server owners,but what if there is not one single mouse but a ton of seeders and there is only one cat ? IMO it's the zeronet advantage. You can't take it down, cuz you won't find them all.\n\nPrivacyTools.io was down for a week, but its ZeroNet mirror is still alive!",
+			"post_id": 107,
+			"date_added": 1490745407
+		},
+		{
+			"comment_id": 10,
+			"body": "Hi Nofish, you may want to clean up the spam here.",
+			"post_id": 108,
+			"date_added": 1493968323
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {},
+	"post_vote": {
+		"103": 1,
+		"107": 1
+	}
+}

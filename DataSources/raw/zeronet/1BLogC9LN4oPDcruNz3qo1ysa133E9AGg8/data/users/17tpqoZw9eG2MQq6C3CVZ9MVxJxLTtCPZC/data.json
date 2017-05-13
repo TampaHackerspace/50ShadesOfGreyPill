@@ -1,0 +1,23 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "> [sardaukar](#comment_1_16FGedWfBJc3mJ2eZ5u8TJUShZbs3tdjmy): cool! CoffeeScript hurts my eyes, though - when will we have an ES6 version of ZeroFrame?\n\nGood idea!",
+			"post_id": 46,
+			"date_added": 1475004538
+		},
+		{
+			"comment_id": 2,
+			"body": "Can we access the UiServer/statsInfo via WebSocket (in JSON-format) ?\nhttp://127.0.0.1:43110/Stats",
+			"post_id": 46,
+			"date_added": 1475093689
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {},
+	"post_vote": {
+		"43": 1,
+		"46": 1
+	}
+}

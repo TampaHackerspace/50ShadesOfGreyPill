@@ -1,0 +1,31 @@
+{
+	"next_comment_id": 4,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "How can I put videos in my blog as optional files?",
+			"post_id": 61,
+			"date_added": 1476965838
+		},
+		{
+			"comment_id": 2,
+			"body": "THX a lot.\nThere are some questions still confuese me:\nWho creates data/users/[user auth address]/content.json? \nWhen will  data/users/[user auth address]/data.json be signed?\nHow to add 'optional' key in  data/users/[user auth address]/data.json for new users automatically?",
+			"post_id": 99,
+			"date_added": 1481968625
+		},
+		{
+			"comment_id": 3,
+			"body": "> You can open the content.json file and add new keys the same way as you do for the data.json\n\n~~Does it mean if I add a key in ` data/users/content.json`, the key will appear in  data/users/[new user's auth address]/content.json when new user submitting the first comment？~~\n\nOh,I know what I should do now.",
+			"post_id": 99,
+			"date_added": 1481978704
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {},
+	"post_vote": {
+		"61": 1,
+		"94": 1,
+		"99": 1,
+		"102": 1
+	}
+}

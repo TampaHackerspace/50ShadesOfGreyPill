@@ -1,0 +1,68 @@
+{
+	"next_comment_id": 9,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Hi!, when I add a password following the documentation I get the following error: \n`zeronet.py: error: unrecognized arguments: --ui_password anypassword`\n\nWhat I'm doing wrong?",
+			"post_id": 94,
+			"date_added": 1474642695
+		},
+		{
+			"comment_id": 2,
+			"body": "> [eibriel](#comment_1_1BYU9zV786auJ29dF3HMAQYhxA2WgN4ofi): Hi!, when I add a password following the documentation I get the following error:zeronet.py: error: unrecognized arguments: --ui_password anypassword\n> What I'm doing wrong?\n\nOh! I get it, I forget to enable de UiPassword plugin",
+			"post_id": 94,
+			"date_added": 1474642841
+		},
+		{
+			"comment_id": 3,
+			"body": ":D :D :D :D",
+			"post_id": 95,
+			"date_added": 1478585749
+		},
+		{
+			"comment_id": 4,
+			"body": "Wow, incredible job!!",
+			"post_id": 96,
+			"date_added": 1478628659
+		},
+		{
+			"comment_id": 5,
+			"body": "There is an error on the SQL command, should be:\n```\nSELECT * FROM message LEFT JOIN json USING (json_id) ORDER BY date_added DESC\n```",
+			"post_id": 99,
+			"date_added": 1482115012
+		},
+		{
+			"comment_id": 6,
+			"body": "And could be that `this.loadMessages()` should be inside `(site_info) => {}`?\n\n```\nonOpenWebsocket () {\n        this.messages = document.getElementById(\"messages\")\n        this.addMessage(\"System\", \"Ready to call ZeroFrame API!\", \"\")\n\n        this.cmd(\"siteInfo\", {}, (site_info) => {\n            if (site_info.cert_user_id)\n                document.getElementById(\"select_user\").innerText = site_info.cert_user_id\n            this.site_info = site_info\n            this.loadMessages()\n        })\n        //this.loadMessages()\n    }\n```",
+			"post_id": 99,
+			"date_added": 1482122759
+		},
+		{
+			"comment_id": 7,
+			"body": "Nice to hear about the good news! :D\nI'm looking forward to know more about it!",
+			"post_id": 102,
+			"date_added": 1484510320
+		},
+		{
+			"comment_id": 8,
+			"body": "Amazing! Thanks!!",
+			"post_id": 104,
+			"date_added": 1486691716
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"94": 1,
+		"95": 1,
+		"96": 1,
+		"97": 1,
+		"99": 1,
+		"100": 1,
+		"101": 1,
+		"102": 1,
+		"103": 1,
+		"104": 1,
+		"105": 1,
+		"107": 1
+	}
+}

@@ -1,0 +1,21 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G50SxA79iKUM49zUKhcWLmAm1NwjoA3anUjbK4mfGt69R62t3pfTuYGa1tWZ+PQahGfI154v/olaYq7eYB71adM=",
+ "cert_user_id": "redragoon@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "02bfcd51d9a164c279fb4ad6227be09b71b69aaf5e6dd1ff80f90268daad8c56",
+   "size": 1386
+  },
+  "data.json": {
+   "sha512": "5888867ec437ad50eaf94ccc230d2837ff3f2cf7d7f10373a8300dccfda4f9f5",
+   "size": 335
+  }
+ },
+ "inner_path": "data/users/14HEruU17ycsg5Y5MBCFnh8SAU87Jmh5dq/content.json",
+ "modified": 1492476996,
+ "signs": {
+  "14HEruU17ycsg5Y5MBCFnh8SAU87Jmh5dq": "GzHfjqdg5BgZPVp0ZmUnDBFATQnwQUBL86zBNXr6P06TbrzC9bzm3frorbZOKdMuQ3oL3DM7BJkBUKVTCoT+P4M="
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "Gyp7Pd5DovF0ARENyG7sL3B/EXhLdKsJtTZ8H5nuoPluQkXxaLqLuEA4hg3Vql5bIc0TpGgr03a+wDB3ZGoCoEw=",
+ "cert_user_id": "delusion@zeroid.bit",
+ "files": {
+  "avatar.jpg": {
+   "sha512": "27a52447301d59d333890e95189ab9abb488d8b3afc56c8d1181cc380975670d",
+   "size": 1652
+  },
+  "data.json": {
+   "sha512": "bc39be165fa34deb071f21adddc6581879770914ba5b981d2c18b8cafb37e5e9",
+   "size": 5762
+  }
+ },
+ "files_optional": {
+  "1492945793.jpg": {
+   "sha512": "eda6b6d882b0a522239d1b2b0c5cc8d8947b6d88978cf6bc1679e9a8d789df20",
+   "size": 57700
+  },
+  "1492959367.jpg": {
+   "sha512": "420405415ebe6e657b780bff117d66c99e96e82f4783664eeae81658a904de8b",
+   "size": 60896
+  },
+  "1493035460.jpg": {
+   "sha512": "df33e1950d58d4c2f713841b04f861e22bc5acd90ab3d7115c04372e53b43858",
+   "size": 40312
+  },
+  "1493199788.jpg": {
+   "sha512": "bbb792979e35b7a00be226b8afc9b14874d88b2b19e77131707056d325c1e064",
+   "size": 51091
+  },
+  "1493200256.jpg": {
+   "sha512": "318e63199ddc287c56775a3be25dfb2c4e9b17c82a097395eb6ccf08c3cfdcf8",
+   "size": 33703
+  }
+ },
+ "inner_path": "data/users/1eQKH8VcGoV17tUEfCHad8pMix9qR8aVu/content.json",
+ "modified": 1493398788,
+ "optional": "(?!avatar).*jpg",
+ "signs": {
+  "1eQKH8VcGoV17tUEfCHad8pMix9qR8aVu": "HNndhYQdsDfPPmOkJTXGbshODCls3WSq1UK3ndW3FzplGV2IGYgQsX1g6jjoQx0Sy5VLiV//RCUMweTOl+sDsiI="
+ }
+}

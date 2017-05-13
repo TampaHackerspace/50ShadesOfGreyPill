@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "G/nowntSCu6DzdZ3sEsvP+LymrTD1yAHvLZYGjk7A1nIVy0nPuXFzfZbjKXyF7E9AeyTqY/ILKHDHeAAXxWeTUI=",
+ "cert_user_id": "markmadong@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "62470adf0ccd493a5a87207840c68d1c43c012b371f8b26c425daefae586cfa3",
+   "size": 530
+  }
+ },
+ "inner_path": "data/users/17fKyRmEhn2oQQatJyJzmMQgd7xNK5mBq/content.json",
+ "modified": 1494301200,
+ "signs": {
+  "17fKyRmEhn2oQQatJyJzmMQgd7xNK5mBq": "G0CMve9M/kwZVk18D9SKO2kOaiMtIZdzLjfMuDkE6rv8ZG8wtfAFrBSL1X9mNILYgc0WPIJISVN1zUEgS0VTi94="
+ }
+}

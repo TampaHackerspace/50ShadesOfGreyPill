@@ -1,0 +1,19 @@
+{
+	"next_comment_id": 3,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "If I want to populate my blog with a script which add posts, what I have to do ?\n- just add a record in post table in myblogid/data/zeroblog.db ?\n- or change myblogid/data/data.json content ?\n- or both ?\nthen, I sign and publish, of course.",
+			"post_id": 3,
+			"date_added": 1458309271
+		},
+		{
+			"comment_id": 2,
+			"body": "ok @nofish and the database will be updated automatically ?",
+			"post_id": 3,
+			"date_added": 1458310088
+		}
+	],
+	"comment_vote": {},
+	"topic_vote": {}
+}

@@ -1,0 +1,66 @@
+{
+ "address": "1NnopBFkeLnBUSAwcvxPCizSaqEnHFcEPH",
+ "address_index": 31312920,
+ "cloned_from": "1JGejNXiZd774pWpfqKK4v65FN7PAWrw86",
+ "description": "A Sua Busca na ZeroNet!",
+ "files": {
+  "css/all.css": {
+   "sha512": "8c5c544a86c2cc85204624abf84fcc7c228c3fd28c670bc1169a520b03dc9948",
+   "size": 28503
+  },
+  "data-default/users/content-default.json": {
+   "sha512": "c1642cc2922a74c3e74991f0194e2acc46dc5e003207a0028dad63c75c41a0ec",
+   "size": 672
+  },
+  "dbschema.json": {
+   "sha512": "0b676f02a4a54183cdd0ab1aba482124887419277926ae91e7b42c9a68c2385d",
+   "size": 1999
+  },
+  "img/edit.png": {
+   "sha512": "60ba4297e205b038bf7852ead2b88f9373cd8848408bb258dbcebb086d43f056",
+   "size": 237
+  },
+  "img/loading.gif": {
+   "sha512": "8a42b98962faea74618113166886be488c09dad10ca47fe97005edc5fb40cc00",
+   "size": 723
+  },
+  "img/logo.png": {
+   "sha512": "996790736cdbcc2dcd815a9cd3802334173eff3e9b81d29e13e978d2e874629f",
+   "size": 914
+  },
+  "index.html": {
+   "sha512": "c25f68e5181326865e1ebc3e809817732b8b193e5ab045beb0f62bbaa12404fc",
+   "size": 3662
+  },
+  "js/all.js": {
+   "sha512": "afcfb2a0b0b5d475d14b13eb7930dbe752c7b8b352a025528c0ca1a3787c0ba8",
+   "size": 229884
+  }
+ },
+ "ignore": "((js|css)/(?!all.(js|css))|data/users/.*db|data/users/.*/.*|.*.py)",
+ "includes": {
+  "data/users/content.json": {
+   "signers": [],
+   "signers_required": 1
+  }
+ },
+ "inner_path": "content.json",
+ "modified": 1460686453.278,
+ "postmessage_nonce_security": true,
+ "settings": {
+  "admin": "glock",
+  "admin_href": "http://127.0.0.1:43110/Mail.ZeroNetwork.bit/?to=glock",
+  "topic_sticky_uris": [ "2_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj" ]
+ },
+ "sign": [
+  90232209071012138323086562844606207213691876605586598859450848342301864022603,
+  27891881464917060301464126158296624142397601350206713418830344268945396822257
+ ],
+ "signers_sign": "G+iXbFho+XeAEQnHmFiQTUB0tyY47UGSzdYTWXrq1dRwiOUXJYDrKp1m0IblBud7Bv8OMkYF7SQLiLoFTvUy9IA=",
+ "signs": {
+  "1NnopBFkeLnBUSAwcvxPCizSaqEnHFcEPH": "G0QJIDaDWfpm5yUYFPt45pfW2qTr5Hi45PSYCzKJvwqA0oUROHnDPbYAmnWimgVdwZpO0NcYC9SSCn8E0Mmom3Q="
+ },
+ "signs_required": 1,
+ "title": "ZSearch",
+ "zeronet_version": "0.3.7"
+}

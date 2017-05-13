@@ -1,0 +1,17 @@
+{
+ "address": "1White24UrrwQrD86o6Vrc1apgZ1x1o51",
+ "cert_auth_type": "web",
+ "cert_sign": "HHxvenpyqYTEZ4EPDD0xX6LzCwFlxphHZ+rRcfbSLKd5vxf+lUtU1igkwNElhbYHX2qj5lHzs0tVJqLKtqdJnmY=",
+ "cert_user_id": "insdel@zeroid.bit",
+ "files": {
+  "data.json": {
+   "sha512": "427e7182d0799f7d6d07294a5962f01b9ce011e613d9cec449f404fa45b3663f",
+   "size": 475
+  }
+ },
+ "inner_path": "data/users/1BNJKSHNTcq2uWkzjuv5W2NWwrJtBTY9RM/content.json",
+ "modified": 1494598060,
+ "signs": {
+  "1BNJKSHNTcq2uWkzjuv5W2NWwrJtBTY9RM": "HHbo0gHj3KBh3vpjyLV4UGaGIVtuFbc2pMroIedmh2vfSKfMszaZmIHGKulyzADSSqczFFIt34bJi2+sbqzAvOU="
+ }
+}

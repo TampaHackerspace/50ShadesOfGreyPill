@@ -1,0 +1,30 @@
+{
+	"next_comment_id": 4,
+	"comment": [
+		{
+			"comment_id": 1,
+			"body": "Stupid Question - Can ZeroNet be used with any browser? I was thinking about trying out seamonkey http://www.seamonkey-project.org/",
+			"post_id": 104,
+			"date_added": 1487778129
+		},
+		{
+			"comment_id": 2,
+			"body": "> [nofish](#comment_178_1J3rJ8ecnwH2EPYa6MrgZttBNc61ACFiCj): If it support modern features (websocket, sandboxed iframe), then it should work.\n\nThanks",
+			"post_id": 104,
+			"date_added": 1487883016
+		},
+		{
+			"comment_id": 3,
+			"body": "I just found this on github about integrating a decentralized wordpress on zeronet. It sounds interesting. Is there any coders on zeronet who can pull it off. https://github.com/leoloso/PoP/issues/9",
+			"post_id": 105,
+			"date_added": 1488837424
+		}
+	],
+	"comment_vote": {},
+	"post_vote": {
+		"100": 1,
+		"101": 1,
+		"102": 1,
+		"103": 1
+	}
+}
