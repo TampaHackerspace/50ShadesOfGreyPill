@@ -21,24 +21,27 @@ my_stop_words <- data_frame(word = c("url", "http", "https", "score", "meme", "m
 ```{r}
 path = '../ImageAnalysis/resources/SAMPLE.txt'
 
-imgtext <- read_file(path)
-imgtext <- str_replace_all(imgtext, "[\r\n]"," ")
+mtext <- read_file(path)
+mtext <- str_replace_all(imgtext, "[\r\n]"," ")
 
 ```
 
 ```{r}
 data(stop_words)
-df = data_frame(line = 1:1, text = imgtext)
+df = data_frame(line = 1:1, text = mtext)
 df <- df %>% unnest_tokens(word, text)
 df <- df %>% anti_join(stop_words)
 df <- df %>% anti_join(my_stop_words)
-df %>% count(word, sort = TRUE)
+word_count <- df %>% count(word, sort = TRUE)
+
+word_count
 ```
 
 ```{r}
-library(wordcloud)
-
-df %>% count(word) %>%
+ word_count %>%
   with(wordcloud(word, n, max.words = 100))
 ```
+
+
+
 
